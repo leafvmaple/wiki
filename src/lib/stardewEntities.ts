@@ -273,7 +273,6 @@ for (const crop of crops as Row[]) {
     ]),
     fields: fields([
       field('类型', '种子'),
-      field('原名', crop.seedName),
       field('季节', seasonText),
       field('成熟天数', `${crop.growDays} 天`),
       field('再生', formatRegrow(crop.regrowDays)),
@@ -323,7 +322,6 @@ for (const crop of crops as Row[]) {
     ]),
     fields: fields([
       field('类型', '作物'),
-      field('原名', crop.harvestName),
       field('季节', seasonText),
       field('成熟天数', `${crop.growDays} 天`),
       field('基础售价', gold(crop.harvestBasePrice)),
@@ -368,7 +366,6 @@ for (const item of fish as Row[]) {
     ]),
     fields: fields([
       field('类型', '鱼类'),
-      field('原名', item.name),
       field('获取方式', methodLabels[item.method] ?? item.method),
       field('季节', formatSeasons(item.seasons)),
       field('时间', formatTimeRanges(item.timeRanges)),
@@ -421,7 +418,6 @@ for (const machine of machines as Row[]) {
       machine.hasRandomOutput ? '含随机输出' : '',
     ]),
     fields: fields([
-      field('原名', machine.name),
       field('规则数', machine.ruleCount),
       field('可计算收益规则', machine.profitRuleCount),
       field('加工时间', firstItems(machine.readyTimes, 4)),
@@ -472,7 +468,6 @@ for (const villager of villagers as Row[]) {
       villager.lovedItems?.length ? `最爱示例 ${firstItems(villager.lovedItems, 2)}` : '',
     ]),
     fields: fields([
-      field('英文 ID', villager.id),
       field('生日', birthday),
       field('区域', villager.homeRegion),
       field('性别', genderLabels[villager.gender] ?? villager.gender),

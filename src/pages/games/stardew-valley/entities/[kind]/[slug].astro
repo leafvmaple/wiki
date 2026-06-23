@@ -42,8 +42,6 @@ const { entity } = Astro.props as { entity: StardewEntityPage };
     <h2>核心资料</h2>
     <div class="leaf-infobox sv-entity-infobox">
       <dl>
-        <dt>条目 ID</dt>
-        <dd>{entity.id}</dd>
         {entity.fields.map((item) => (
           <>
             <dt>{item.label}</dt>

@@ -4,20 +4,20 @@
     "nameZh": "肯特",
     "birthSeason": "Spring",
     "birthDay": 4,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SamHouse",
+    "homeLocation": "山姆家",
     "homeTile": {
       "x": 22,
       "y": 5
     },
     "familyIds": [
-      "Jodi",
-      "Sam",
-      "Vincent"
+      "乔迪",
+      "山姆",
+      "文森特"
     ],
     "giftCounts": {
       "love": 2,
@@ -44,18 +44,18 @@
     "nameZh": "刘易斯",
     "birthSeason": "Spring",
     "birthDay": 7,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "ManorHouse",
+    "homeLocation": "镇长庄园",
     "homeTile": {
       "x": 8,
       "y": 5
     },
     "familyIds": [
-      "Marnie"
+      "玛妮"
     ],
     "giftCounts": {
       "love": 5,
@@ -87,18 +87,18 @@
     "nameZh": "文森特",
     "birthSeason": "Spring",
     "birthDay": 10,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Child",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SamHouse",
+    "homeLocation": "山姆家",
     "homeTile": {
       "x": 10,
       "y": 23
     },
     "familyIds": [
-      "Jas"
+      "贾斯"
     ],
     "giftCounts": {
       "love": 6,
@@ -113,7 +113,7 @@
       "蔓越莓糖果",
       "蜗牛",
       "姜汁汽水",
-      "FrogEgg"
+      "青蛙蛋"
     ],
     "likedItems": [
       "黄水仙",
@@ -131,18 +131,18 @@
     "nameZh": "海莉",
     "birthSeason": "Spring",
     "birthDay": 14,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "HaleyHouse",
+    "homeLocation": "海莉和艾米丽家",
     "homeTile": {
       "x": 8,
       "y": 7
     },
     "familyIds": [
-      "Emily"
+      "艾米丽"
     ],
     "giftCounts": {
       "love": 4,
@@ -173,19 +173,19 @@
     "nameZh": "潘姆",
     "birthSeason": "Spring",
     "birthDay": 18,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Trailer",
+    "homeLocation": "拖车",
     "homeTile": {
       "x": 15,
       "y": 4
     },
     "familyIds": [
-      "Penny",
-      "Gus"
+      "潘妮",
+      "格斯"
     ],
     "giftCounts": {
       "love": 8,
@@ -220,18 +220,18 @@
     "nameZh": "谢恩",
     "birthSeason": "Spring",
     "birthDay": 20,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "AnimalShop",
+    "homeLocation": "玛妮牧场",
     "homeTile": {
       "x": 25,
       "y": 6
     },
     "familyIds": [
-      "Marnie"
+      "玛妮"
     ],
     "giftCounts": {
       "love": 4,
@@ -257,19 +257,19 @@
     "nameZh": "皮埃尔",
     "birthSeason": "Spring",
     "birthDay": 26,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SeedShop",
+    "homeLocation": "皮埃尔杂货店",
     "homeTile": {
       "x": 4,
       "y": 17
     },
     "familyIds": [
-      "Abigail",
-      "Caroline"
+      "阿比盖尔",
+      "卡洛琳"
     ],
     "giftCounts": {
       "love": 2,
@@ -298,18 +298,18 @@
     "nameZh": "艾米丽",
     "birthSeason": "Spring",
     "birthDay": 27,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "HaleyHouse",
+    "homeLocation": "海莉和艾米丽家",
     "homeTile": {
       "x": 16,
       "y": 5
     },
     "familyIds": [
-      "Haley"
+      "海莉"
     ],
     "giftCounts": {
       "love": 10,
@@ -344,18 +344,18 @@
     "nameZh": "贾斯",
     "birthSeason": "Summer",
     "birthDay": 4,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Child",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "AnimalShop",
+    "homeLocation": "玛妮牧场",
     "homeTile": {
       "x": 4,
       "y": 6
     },
     "familyIds": [
-      "Vincent"
+      "文森特"
     ],
     "giftCounts": {
       "love": 6,
@@ -368,9 +368,9 @@
       "粉红蛋糕",
       "玫瑰仙子",
       "葡萄干布丁",
-      "doll_item",
-      "toy_item",
-      "FairyBox"
+      "玩偶",
+      "玩具",
+      "仙女盒"
     ],
     "likedItems": [
       "黄水仙",
@@ -388,19 +388,19 @@
     "nameZh": "格斯",
     "birthSeason": "Summer",
     "birthDay": 8,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Saloon",
+    "homeLocation": "星之果实餐吧",
     "homeTile": {
       "x": 18,
       "y": 6
     },
     "familyIds": [
-      "Emily",
-      "Pam"
+      "艾米丽",
+      "潘姆"
     ],
     "giftCounts": {
       "love": 5,
@@ -429,20 +429,20 @@
     "nameZh": "玛鲁",
     "birthSeason": "Summer",
     "birthDay": 10,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Teen",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "ScienceHouse",
+    "homeLocation": "木匠的家",
     "homeTile": {
       "x": 2,
       "y": 4
     },
     "familyIds": [
-      "Robin",
-      "Demetrius",
-      "Sebastian"
+      "罗宾",
+      "德米特里厄斯",
+      "塞巴斯蒂安"
     ],
     "giftCounts": {
       "love": 12,
@@ -477,19 +477,19 @@
     "nameZh": "亚历克斯",
     "birthSeason": "Summer",
     "birthDay": 13,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "JoshHouse",
+    "homeLocation": "亚历克斯家",
     "homeTile": {
       "x": 19,
       "y": 5
     },
     "familyIds": [
-      "George",
-      "Evelyn"
+      "乔治",
+      "艾芙琳"
     ],
     "giftCounts": {
       "love": 3,
@@ -507,7 +507,7 @@
       "分类 -5",
       "工作小食",
       "恐龙蛋",
-      "ParrotEgg"
+      "鹦鹉蛋"
     ]
   },
   {
@@ -515,21 +515,21 @@
     "nameZh": "山姆",
     "birthSeason": "Summer",
     "birthDay": 17,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Teen",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "SamHouse",
+    "homeLocation": "山姆家",
     "homeTile": {
       "x": 22,
       "y": 13
     },
     "familyIds": [
-      "Vincent",
-      "Jodi",
-      "Kent",
-      "Sebastian"
+      "文森特",
+      "乔迪",
+      "肯特",
+      "塞巴斯蒂安"
     ],
     "giftCounts": {
       "love": 4,
@@ -560,19 +560,19 @@
     "nameZh": "德米特里厄斯",
     "birthSeason": "Summer",
     "birthDay": 19,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "ScienceHouse",
+    "homeLocation": "木匠的家",
     "homeTile": {
       "x": 19,
       "y": 4
     },
     "familyIds": [
-      "Robin",
-      "Maru"
+      "罗宾",
+      "玛鲁"
     ],
     "giftCounts": {
       "love": 4,
@@ -599,12 +599,12 @@
     "nameZh": "矮人",
     "birthSeason": "Summer",
     "birthDay": 22,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Mine",
+    "homeLocation": "矿井",
     "homeTile": {
       "x": 43,
       "y": 6
@@ -643,18 +643,18 @@
     "nameZh": "威利",
     "birthSeason": "Summer",
     "birthDay": 24,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "FishShop",
+    "homeLocation": "鱼店",
     "homeTile": {
       "x": 5,
       "y": 4
     },
     "familyIds": [
-      "Elliott"
+      "艾利欧特"
     ],
     "giftCounts": {
       "love": 11,
@@ -689,12 +689,12 @@
     "nameZh": "雷欧",
     "birthSeason": "Summer",
     "birthDay": 26,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Male",
     "age": "Child",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "LeoTreeHouse",
+    "homeLocation": "雷欧树屋",
     "homeTile": {
       "x": 5,
       "y": 4
@@ -712,7 +712,7 @@
       "鸵鸟蛋",
       "芒果",
       "夏威夷芋泥",
-      "ParrotEgg"
+      "鹦鹉蛋"
     ],
     "likedItems": [
       "龙牙",
@@ -728,18 +728,18 @@
     "nameZh": "潘妮",
     "birthSeason": "Fall",
     "birthDay": 2,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Teen",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "Trailer",
+    "homeLocation": "拖车",
     "homeTile": {
       "x": 4,
       "y": 9
     },
     "familyIds": [
-      "Pam"
+      "潘姆"
     ],
     "giftCounts": {
       "love": 10,
@@ -762,7 +762,7 @@
       "分类 -6",
       "韭葱",
       "蒲公英",
-      "ancient_item"
+      "古物"
     ]
   },
   {
@@ -770,18 +770,18 @@
     "nameZh": "艾利欧特",
     "birthSeason": "Fall",
     "birthDay": 5,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "ElliottHouse",
+    "homeLocation": "艾利欧特小屋",
     "homeTile": {
       "x": 1,
       "y": 5
     },
     "familyIds": [
-      "Willy"
+      "威利"
     ],
     "giftCounts": {
       "love": 6,
@@ -814,20 +814,20 @@
     "nameZh": "乔迪",
     "birthSeason": "Fall",
     "birthDay": 11,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SamHouse",
+    "homeLocation": "山姆家",
     "homeTile": {
       "x": 4,
       "y": 5
     },
     "familyIds": [
-      "Sam",
-      "Vincent",
-      "Kent"
+      "山姆",
+      "文森特",
+      "肯特"
     ],
     "giftCounts": {
       "love": 8,
@@ -860,19 +860,19 @@
     "nameZh": "阿比盖尔",
     "birthSeason": "Fall",
     "birthDay": 13,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Teen",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "SeedShop",
+    "homeLocation": "皮埃尔杂货店",
     "homeTile": {
       "x": 1,
       "y": 9
     },
     "familyIds": [
-      "Caroline",
-      "Pierre"
+      "卡洛琳",
+      "皮埃尔"
     ],
     "giftCounts": {
       "love": 8,
@@ -895,7 +895,7 @@
       "骨笛",
       "古剑",
       "战斗季刊",
-      "BasiliskPaw"
+      "蜥怪的爪子"
     ]
   },
   {
@@ -903,18 +903,18 @@
     "nameZh": "桑迪",
     "birthSeason": "Fall",
     "birthDay": 15,
-    "homeRegion": "Desert",
+    "homeRegion": "卡利科沙漠",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SandyHouse",
+    "homeLocation": "绿洲",
     "homeTile": {
       "x": 2,
       "y": 5
     },
     "familyIds": [
-      "Emily"
+      "艾米丽"
     ],
     "giftCounts": {
       "love": 4,
@@ -944,20 +944,20 @@
     "nameZh": "玛妮",
     "birthSeason": "Fall",
     "birthDay": 18,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "AnimalShop",
+    "homeLocation": "玛妮牧场",
     "homeTile": {
       "x": 12,
       "y": 14
     },
     "familyIds": [
-      "Lewis",
-      "Shane",
-      "Jas"
+      "刘易斯",
+      "谢恩",
+      "贾斯"
     ],
     "giftCounts": {
       "love": 4,
@@ -985,20 +985,20 @@
     "nameZh": "罗宾",
     "birthSeason": "Fall",
     "birthDay": 21,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "ScienceHouse",
+    "homeLocation": "木匠的家",
     "homeTile": {
       "x": 21,
       "y": 4
     },
     "familyIds": [
-      "Demetrius",
-      "Maru",
-      "Sebastian"
+      "德米特里厄斯",
+      "玛鲁",
+      "塞巴斯蒂安"
     ],
     "giftCounts": {
       "love": 4,
@@ -1026,19 +1026,19 @@
     "nameZh": "乔治",
     "birthSeason": "Fall",
     "birthDay": 24,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "JoshHouse",
+    "homeLocation": "亚历克斯家",
     "homeTile": {
       "x": 16,
       "y": 22
     },
     "familyIds": [
-      "Evelyn",
-      "Alex"
+      "艾芙琳",
+      "亚历克斯"
     ],
     "giftCounts": {
       "love": 2,
@@ -1067,12 +1067,12 @@
     "nameZh": "科罗布斯",
     "birthSeason": "Winter",
     "birthDay": 1,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Sewer",
+    "homeLocation": "下水道",
     "homeTile": {
       "x": 31,
       "y": 17
@@ -1108,12 +1108,12 @@
     "nameZh": "莱纳斯",
     "birthSeason": "Winter",
     "birthDay": 3,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Tent",
+    "homeLocation": "莱纳斯的帐篷",
     "homeTile": {
       "x": 2,
       "y": 2
@@ -1146,19 +1146,19 @@
     "nameZh": "卡洛琳",
     "birthSeason": "Winter",
     "birthDay": 7,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SeedShop",
+    "homeLocation": "皮埃尔杂货店",
     "homeTile": {
       "x": 22,
       "y": 5
     },
     "familyIds": [
-      "Pierre",
-      "Abigail"
+      "皮埃尔",
+      "阿比盖尔"
     ],
     "giftCounts": {
       "love": 4,
@@ -1187,20 +1187,20 @@
     "nameZh": "塞巴斯蒂安",
     "birthSeason": "Winter",
     "birthDay": 10,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Teen",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "SebastianRoom",
+    "homeLocation": "塞巴斯蒂安的房间",
     "homeTile": {
       "x": 10,
       "y": 9
     },
     "familyIds": [
-      "Robin",
-      "Maru",
-      "Sam"
+      "罗宾",
+      "玛鲁",
+      "山姆"
     ],
     "giftCounts": {
       "love": 6,
@@ -1215,7 +1215,7 @@
       "南瓜汤",
       "黑曜石",
       "虚空蛋",
-      "FrogEgg"
+      "青蛙蛋"
     ],
     "likedItems": [
       "比目鱼",
@@ -1230,12 +1230,12 @@
     "nameZh": "哈维",
     "birthSeason": "Winter",
     "birthDay": 14,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "HarveyRoom",
+    "homeLocation": "哈维的房间",
     "homeTile": {
       "x": 13,
       "y": 4
@@ -1271,12 +1271,12 @@
     "nameZh": "法师",
     "birthSeason": "Winter",
     "birthDay": 17,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "WizardHouse",
+    "homeLocation": "法师塔",
     "homeTile": {
       "x": 3,
       "y": 17
@@ -1302,7 +1302,7 @@
       "火水晶",
       "泪晶",
       "铱锭",
-      "category_trinket"
+      "饰品"
     ]
   },
   {
@@ -1310,19 +1310,19 @@
     "nameZh": "艾芙琳",
     "birthSeason": "Winter",
     "birthDay": 20,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "JoshHouse",
+    "homeLocation": "亚历克斯家",
     "homeTile": {
       "x": 2,
       "y": 17
     },
     "familyIds": [
-      "George",
-      "Alex"
+      "乔治",
+      "亚历克斯"
     ],
     "giftCounts": {
       "love": 7,
@@ -1346,7 +1346,7 @@
       "甜豌豆",
       "番红花",
       "破损的眼镜",
-      "forage_item_beach"
+      "海滩采集物"
     ]
   },
   {
@@ -1354,12 +1354,12 @@
     "nameZh": "莉亚",
     "birthSeason": "Winter",
     "birthDay": 23,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Female",
     "age": "Adult",
     "canBeRomanced": true,
     "canReceiveGifts": true,
-    "homeLocation": "LeahHouse",
+    "homeLocation": "莉亚小屋",
     "homeTile": {
       "x": 3,
       "y": 7
@@ -1397,18 +1397,18 @@
     "nameZh": "克林特",
     "birthSeason": "Winter",
     "birthDay": 26,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "Blacksmith",
+    "homeLocation": "铁匠铺",
     "homeTile": {
       "x": 3,
       "y": 13
     },
     "familyIds": [
-      "Emily"
+      "艾米丽"
     ],
     "giftCounts": {
       "love": 11,
@@ -1438,7 +1438,7 @@
     "nameZh": "???",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
@@ -1461,12 +1461,12 @@
     "nameZh": "贝啼",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "IslandWest",
+    "homeLocation": "姜岛西部",
     "homeTile": {
       "x": 17,
       "y": 58
@@ -1487,12 +1487,12 @@
     "nameZh": "冈瑟",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "ArchaeologyHouse",
+    "homeLocation": "博物馆",
     "homeTile": {
       "x": 3,
       "y": 8
@@ -1513,12 +1513,38 @@
     "nameZh": "吉尔",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "AdventureGuild",
+    "homeLocation": "探险家公会",
+    "homeTile": {
+      "x": 0,
+      "y": 0
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Old Mariner",
+    "nameZh": "老水手",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "其他",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "沙滩",
     "homeTile": {
       "x": 0,
       "y": 0
@@ -1539,12 +1565,12 @@
     "nameZh": "马龙",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Town",
+    "homeRegion": "鹈鹕镇",
     "gender": "Male",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "AdventureGuild",
+    "homeLocation": "探险家公会",
     "homeTile": {
       "x": 5,
       "y": 11
@@ -1565,12 +1591,12 @@
     "nameZh": "门卫",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "SandyHouse",
+    "homeLocation": "绿洲",
     "homeTile": {
       "x": 17,
       "y": 3
@@ -1591,12 +1617,12 @@
     "nameZh": "莫里斯",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "JojaMart",
+    "homeLocation": "Joja 超市",
     "homeTile": {
       "x": 0,
       "y": 0
@@ -1617,15 +1643,41 @@
     "nameZh": "仆从",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
-    "homeLocation": "WitchSwamp",
+    "homeLocation": "女巫沼泽",
     "homeTile": {
       "x": 20,
       "y": 29
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Mister Qi",
+    "nameZh": "齐先生",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "其他",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "齐先生核桃房",
+    "homeTile": {
+      "x": 7,
+      "y": 4
     },
     "familyIds": [],
     "giftCounts": {
@@ -1643,7 +1695,7 @@
     "nameZh": "维尔维克",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
@@ -1666,7 +1718,7 @@
     "nameZh": "熊",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
@@ -1689,7 +1741,7 @@
     "nameZh": "爷爷",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
@@ -1712,65 +1764,13 @@
     "nameZh": "州长",
     "birthSeason": null,
     "birthDay": 0,
-    "homeRegion": "Other",
+    "homeRegion": "其他",
     "gender": "Undefined",
     "age": "Adult",
     "canBeRomanced": false,
     "canReceiveGifts": true,
     "homeLocation": null,
     "homeTile": null,
-    "familyIds": [],
-    "giftCounts": {
-      "love": 0,
-      "like": 0,
-      "neutral": 0,
-      "dislike": 0,
-      "hate": 0
-    },
-    "lovedItems": [],
-    "likedItems": []
-  },
-  {
-    "id": "Mister Qi",
-    "nameZh": "Mister Qi",
-    "birthSeason": null,
-    "birthDay": 0,
-    "homeRegion": "Other",
-    "gender": "Undefined",
-    "age": "Adult",
-    "canBeRomanced": false,
-    "canReceiveGifts": true,
-    "homeLocation": "QiNutRoom",
-    "homeTile": {
-      "x": 7,
-      "y": 4
-    },
-    "familyIds": [],
-    "giftCounts": {
-      "love": 0,
-      "like": 0,
-      "neutral": 0,
-      "dislike": 0,
-      "hate": 0
-    },
-    "lovedItems": [],
-    "likedItems": []
-  },
-  {
-    "id": "Old Mariner",
-    "nameZh": "Old Mariner",
-    "birthSeason": null,
-    "birthDay": 0,
-    "homeRegion": "Other",
-    "gender": "Undefined",
-    "age": "Adult",
-    "canBeRomanced": false,
-    "canReceiveGifts": true,
-    "homeLocation": "Beach",
-    "homeTile": {
-      "x": 0,
-      "y": 0
-    },
     "familyIds": [],
     "giftCounts": {
       "love": 0,

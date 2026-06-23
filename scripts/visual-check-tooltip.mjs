@@ -73,15 +73,29 @@ const serveDist = async () => {
   };
 };
 
+const revealTooltip = async (page, target) => {
+  await target.scrollIntoViewIfNeeded();
+  await page.mouse.move(1, 1);
+  await target.hover({ force: true });
+  const tooltip = page.locator('.sv-entity-tooltip:not([hidden])');
+  try {
+    await tooltip.waitFor({ state: 'visible', timeout: 1500 });
+  } catch {
+    await target.evaluate((element) => {
+      element.dispatchEvent(new PointerEvent('pointerover', { bubbles: true, composed: true, view: window }));
+    });
+  }
+  await tooltip.waitFor({ state: 'visible', timeout: 5000 });
+  return tooltip;
+};
+
 const inspectTooltip = async (page, origin, mode) => {
   await page.goto(`${origin}/games/stardew-valley/crops/`, { waitUntil: 'networkidle' });
   await page.evaluate((theme) => document.documentElement.setAttribute('data-theme', theme), mode);
+  await page.waitForFunction(() => window.__svEntityTooltipReady === true, null, { timeout: 5000 });
 
   const target = page.locator('[data-sv-card]').first();
-  await target.scrollIntoViewIfNeeded();
-  await target.hover();
-  const tooltip = page.locator('.sv-entity-tooltip:not([hidden])');
-  await tooltip.waitFor({ state: 'visible', timeout: 5000 });
+  await revealTooltip(page, target);
 
   const screenshotPath = join(screenshotRoot, `tooltip-${mode}-crops.png`);
   await page.screenshot({ path: screenshotPath, fullPage: false });
@@ -138,12 +152,10 @@ const inspectTooltip = async (page, origin, mode) => {
 const inspectMapTooltip = async (page, origin) => {
   await page.goto(`${origin}/games/stardew-valley/maps/town/`, { waitUntil: 'networkidle' });
   await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+  await page.waitForFunction(() => window.__svEntityTooltipReady === true, null, { timeout: 5000 });
 
   const target = page.locator('.leaf-map-marker[data-sv-card]').first();
-  await target.scrollIntoViewIfNeeded();
-  await target.hover();
-  const tooltip = page.locator('.sv-entity-tooltip:not([hidden])');
-  await tooltip.waitFor({ state: 'visible', timeout: 5000 });
+  await revealTooltip(page, target);
 
   const screenshotPath = join(screenshotRoot, 'tooltip-dark-map-marker.png');
   await page.screenshot({ path: screenshotPath, fullPage: false });

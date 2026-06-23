@@ -8,8 +8,8 @@
     "profitRuleCount": 0,
     "profitRules": [],
     "inputSummary": [
-      "标签 category_gem",
-      "标签 category_minerals"
+      "标签 宝石",
+      "标签 矿物"
     ],
     "outputSummary": [
       "按输入变化"
@@ -320,7 +320,7 @@
       "虚空蛋",
       "恐龙蛋",
       "金蛋",
-      "标签 large_egg_item"
+      "标签 大鸡蛋"
     ],
     "outputSummary": [
       "蛋黄酱",
@@ -362,7 +362,7 @@
     "profitRules": [],
     "inputSummary": [],
     "outputSummary": [
-      "FLAVORED_ITEM Honey NEARBY_FLOWER_ID"
+      "蜂蜜（随输入变化）"
     ],
     "readyTimes": [
       "4 天"
@@ -442,17 +442,17 @@
     ],
     "inputSummary": [
       "鱼籽",
-      "标签 preserve_sheet_index_698",
-      "标签 category_vegetable",
-      "标签 category_greens",
-      "标签 preserves_pickle",
-      "标签 category_fruits"
+      "标签 鱼籽",
+      "标签 蔬菜",
+      "标签 绿叶菜",
+      "标签 腌制食材",
+      "标签 水果"
     ],
     "outputSummary": [
       "鱼籽酱",
-      "FLAVORED_ITEM AgedRoe DROP_IN_ID DROP_IN_PRESERVE",
-      "FLAVORED_ITEM Pickle DROP_IN_ID",
-      "FLAVORED_ITEM Jelly DROP_IN_ID"
+      "陈年鱼籽（随输入变化）",
+      "腌菜（随输入变化）",
+      "果酱（随输入变化）"
     ],
     "readyTimes": [
       "6000 分钟",
@@ -471,13 +471,13 @@
     "profitRules": [],
     "inputSummary": [
       "葡萄",
-      "标签 category_fruits",
-      "标签 edible_mushroom"
+      "标签 水果",
+      "标签 可食用蘑菇"
     ],
     "outputSummary": [
       "葡萄干",
-      "FLAVORED_ITEM DriedFruit DROP_IN_ID",
-      "FLAVORED_ITEM DriedMushroom DROP_IN_ID"
+      "果干（随输入变化）",
+      "蘑菇干（随输入变化）"
     ],
     "readyTimes": [
       "1 天"
@@ -1031,7 +1031,7 @@
     "profitRuleCount": 0,
     "profitRules": [],
     "inputSummary": [
-      "标签 slime_egg_item"
+      "标签 史莱姆蛋"
     ],
     "outputSummary": [
       "按输入变化"
@@ -1089,7 +1089,7 @@
     "profitRules": [],
     "inputSummary": [
       "骨头碎片",
-      "标签 bone_item"
+      "标签 骨头类"
     ],
     "outputSummary": [
       "高级生长激素",
@@ -1428,10 +1428,10 @@
     "profitRuleCount": 0,
     "profitRules": [],
     "inputSummary": [
-      "标签 category_fish"
+      "标签 鱼类"
     ],
     "outputSummary": [
-      "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY"
+      "熏鱼（随输入变化）"
     ],
     "readyTimes": [
       "50 分钟"
@@ -1573,10 +1573,10 @@
     "profitRuleCount": 0,
     "profitRules": [],
     "inputSummary": [
-      "标签 category_fish"
+      "标签 鱼类"
     ],
     "outputSummary": [
-      "FLAVORED_ITEM Bait DROP_IN_ID"
+      "鱼饵（随输入变化）"
     ],
     "readyTimes": [
       "10 分钟"

@@ -1,755 +1,7 @@
 [
   {
-    "id": "AdventureGuildRecovery",
-    "owners": [
-      "马龙"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "ITEMS_LOST_ON_DEATH"
-    ]
-  },
-  {
-    "id": "AdventureShop",
-    "owners": [
-      "马龙"
-    ],
-    "itemCount": 40,
-    "salableTagsCount": 5,
-    "pricedItemCount": 39,
-    "conditionalItemCount": 32,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "武器 0",
-      "武器 12",
-      "武器 31",
-      "鞋子 507",
-      "武器 17",
-      "武器 1"
-    ]
-  },
-  {
-    "id": "AnimalShop",
-    "owners": [
-      "玛妮"
-    ],
-    "itemCount": 14,
-    "salableTagsCount": 4,
-    "pricedItemCount": 14,
-    "conditionalItemCount": 6,
-    "tradeItemCount": 0,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "干草",
-      "加热器",
-      "动物目录",
-      "工具 MilkPail",
-      "工具 Shears",
-      "自动采集器"
-    ]
-  },
-  {
-    "id": "Blacksmith",
-    "owners": [
-      "克林特"
-    ],
-    "itemCount": 8,
-    "salableTagsCount": 3,
-    "pricedItemCount": 8,
-    "conditionalItemCount": 8,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "铜矿石",
-      "铁矿石",
-      "煤炭",
-      "黄金矿石"
-    ]
-  },
-  {
-    "id": "Bookseller",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 12,
-    "salableTagsCount": 1,
-    "pricedItemCount": 12,
-    "conditionalItemCount": 7,
-    "tradeItemCount": 0,
-    "limitedStockCount": 10,
-    "sampleItems": [
-      "星之书",
-      "RandomSkillBook1",
-      "RandomSkillBook2",
-      "RandomSkillBook3",
-      "RandomBook",
-      "风之道 第一部分"
-    ]
-  },
-  {
-    "id": "BooksellerTrade",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 12,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 6,
-    "tradeItemCount": 12,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "CaveJelly|(O)RiverJelly|(O)SeaJelly",
-      "硬木",
-      "塞料面包",
-      "158|(BC)156",
-      "谜之盒",
-      "226|(O)275"
-    ]
-  },
-  {
-    "id": "BoxOffice",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "电影票"
-    ]
-  },
-  {
-    "id": "Carpenter",
-    "owners": [
-      "罗宾"
-    ],
-    "itemCount": 78,
-    "salableTagsCount": 1,
-    "pricedItemCount": 12,
-    "conditionalItemCount": 41,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "木材",
-      "石头",
-      "大箱子",
-      "F 1614",
-      "F 1616",
-      "F 0"
-    ]
-  },
-  {
-    "id": "Casino",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 16,
-    "salableTagsCount": 0,
-    "pricedItemCount": 16,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 6,
-    "sampleItems": [
-      "F 1552",
-      "F 1545",
-      "F 1563",
-      "F 1561",
-      "帽子 2",
-      "珍奇乌鸦"
-    ]
-  },
-  {
-    "id": "Catalogue",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 3,
-    "salableTagsCount": 0,
-    "pricedItemCount": 3,
-    "conditionalItemCount": 2,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "ALL_ITEMS (WP) @isRandomSale",
-      "WP MoreWalls:20",
-      "ALL_ITEMS (FL) @isRandomSale"
-    ]
-  },
-  {
-    "id": "ClintUpgrade",
-    "owners": [
-      "克林特"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "TOOL_UPGRADES"
-    ]
-  },
-  {
-    "id": "Concessions",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "MOVIE_CONCESSIONS_FOR_GUEST"
-    ]
-  },
-  {
-    "id": "DesertFestival_Abigail",
-    "owners": [
-      "阿比盖尔"
-    ],
-    "itemCount": 2,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 2,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "AbigailsBow",
-      "武器 40"
-    ]
-  },
-  {
-    "id": "DesertFestival_Alex",
-    "owners": [
-      "亚历克斯"
-    ],
-    "itemCount": 7,
-    "salableTagsCount": 0,
-    "pricedItemCount": 2,
-    "conditionalItemCount": 1,
-    "tradeItemCount": 7,
-    "limitedStockCount": 5,
-    "sampleItems": [
-      "TR MagicHairDye",
-      "武器 25",
-      "肌肉回复药",
-      "煎鸡蛋",
-      "牛奶",
-      "薄煎饼"
-    ]
-  },
-  {
-    "id": "DesertFestival_Caroline",
-    "owners": [
-      "卡洛琳"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "ExoticPalace",
-      "绿茶",
-      "茶苗",
-      "F 1449",
-      "蒲公英"
-    ]
-  },
-  {
-    "id": "DesertFestival_Clint",
-    "owners": [
-      "克林特"
-    ],
-    "itemCount": 3,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 3,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "煤炭",
-      "铜矿石",
-      "铁矿石"
-    ]
-  },
-  {
-    "id": "DesertFestival_Demetrius",
-    "owners": [
-      "德米特里厄斯"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "PeriodicTable",
-      "鹦鹉螺",
-      "香味浆果",
-      "高级生长激素"
-    ]
-  },
-  {
-    "id": "DesertFestival_EggShop",
-    "owners": [
-      "Vendor"
-    ],
-    "itemCount": 22,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 15,
-    "tradeItemCount": 22,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "谜之盒",
-      "帽子 MummyMask",
-      "帽子 BlueBow",
-      "帽子 DarkVelvetBow",
-      "草莓种子",
-      "超级炸弹"
-    ]
-  },
-  {
-    "id": "DesertFestival_Elliott",
-    "owners": [
-      "艾利欧特"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "武器 35",
-      "TricornHat",
-      "螃蟹",
-      "鱿鱼墨汁"
-    ]
-  },
-  {
-    "id": "DesertFestival_Emily",
-    "owners": [
-      "艾米丽"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "布料",
-      "五彩碎片",
-      "海胆",
-      "混合花卉种子"
-    ]
-  },
-  {
-    "id": "DesertFestival_Evelyn",
-    "owners": [
-      "艾芙琳"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "MoreWalls:3",
-      "饼干",
-      "混合种子",
-      "混合花卉种子",
-      "黄水仙"
-    ]
-  },
-  {
-    "id": "DesertFestival_George",
-    "owners": [
-      "乔治"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "RetroTV",
-      "咖啡",
-      "醋",
-      "羊肚菌",
-      "古物宝藏"
-    ]
-  },
-  {
-    "id": "DesertFestival_Gus",
-    "owners": [
-      "格斯"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "DustySkull",
-      "法式田螺",
-      "龙虾浓汤",
-      "墨汁意大利饺",
-      "帕尔玛奶酪茄子"
-    ]
-  },
-  {
-    "id": "DesertFestival_Haley",
-    "owners": [
-      "海莉"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 1,
-    "sampleItems": [
-      "武器 42",
-      "ArtPhoto",
-      "ArtPhoto2",
-      "粉红蛋糕"
-    ]
-  },
-  {
-    "id": "DesertFestival_Harvey",
-    "owners": [
-      "哈维"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 1,
-    "sampleItems": [
-      "武器 37",
-      "RadioDesk",
-      "ModelPlanes",
-      "咖啡"
-    ]
-  },
-  {
-    "id": "DesertFestival_Jas",
-    "owners": [
-      "贾斯"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "MoreWalls:0",
-      "古代玩偶",
-      "玫瑰仙子种子",
-      "兔子的脚",
-      "魔法糖冰棍"
-    ]
-  },
-  {
-    "id": "DesertFestival_Jodi",
-    "owners": [
-      "乔迪"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "MoreWalls:4",
-      "香酥鲈鱼",
-      "混合种子",
-      "混合花卉种子"
-    ]
-  },
-  {
-    "id": "DesertFestival_Kent",
-    "owners": [
-      "肯特"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 5,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "MoreWalls:1",
-      "蕨菜",
-      "楼梯",
-      "碎木机",
-      "榛子"
-    ]
-  },
-  {
-    "id": "DesertFestival_Leah",
-    "owners": [
-      "莉亚"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "武器 39",
-      "ShortBookcase",
-      "硬木",
-      "沙拉"
-    ]
-  },
-  {
-    "id": "DesertFestival_Leo",
-    "owners": [
-      "雷欧"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "MoreWalls:6",
-      "夏威夷芋泥",
-      "热带咖喱",
-      "香蕉树苗"
-    ]
-  },
-  {
-    "id": "DesertFestival_Marnie",
-    "owners": [
-      "玛妮"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "MoreWalls:2",
-      "草籽",
-      "干草",
-      "松露油"
-    ]
-  },
-  {
-    "id": "DesertFestival_Maru",
-    "owners": [
-      "玛鲁"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "武器 36",
-      "铱锭",
-      "鞋子 1188",
-      "草莓种子"
-    ]
-  },
-  {
-    "id": "DesertFestival_Pam",
-    "owners": [
-      "潘姆"
-    ],
-    "itemCount": 3,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 3,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "啤酒",
-      "蜜蜂酒",
-      "淡啤酒"
-    ]
-  },
-  {
-    "id": "DesertFestival_Penny",
-    "owners": [
-      "潘妮"
-    ],
-    "itemCount": 6,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 6,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "武器 38",
-      "F 1907",
-      "F 1914",
-      "F 1915",
-      "F 1916",
-      "F 1900"
-    ]
-  },
-  {
-    "id": "DesertFestival_Pierre",
-    "owners": [
-      "皮埃尔"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "PierresSign",
-      "卡利科三花蛋",
-      "鱿鱼",
-      "大麦粉",
-      "油"
-    ]
-  },
-  {
-    "id": "DesertFestival_Robin",
-    "owners": [
-      "罗宾"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "MoreWalls:5",
-      "木材",
-      "石头",
-      "F 1226"
-    ]
-  },
-  {
-    "id": "DesertFestival_Sam",
-    "owners": [
-      "山姆"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "SamsSkateboard",
-      "武器 30",
-      "枫糖棒",
-      "Joja 可乐"
-    ]
-  },
-  {
-    "id": "DesertFestival_Sebastian",
-    "owners": [
-      "塞巴斯蒂安"
-    ],
-    "itemCount": 3,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 3,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "武器 41",
-      "冰封晶球",
-      "能量滋补水"
-    ]
-  },
-  {
-    "id": "DesertFestival_Shane",
-    "owners": [
-      "谢恩"
-    ],
-    "itemCount": 4,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 4,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "ChickenDecal",
-      "披萨",
-      "蛋",
-      "爆炒青椒"
-    ]
-  },
-  {
-    "id": "DesertFestival_Vincent",
-    "owners": [
-      "文森特"
-    ],
-    "itemCount": 7,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 7,
-    "limitedStockCount": 7,
-    "sampleItems": [
-      "纤维",
-      "虫肉",
-      "树液",
-      "山洞萝卜",
-      "手部骨骼",
-      "粘土"
-    ]
-  },
-  {
-    "id": "DesertTrade",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 26,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 13,
-    "tradeItemCount": 26,
-    "limitedStockCount": 1,
-    "sampleItems": [
-      "古物宝藏",
-      "传送图腾：沙漠",
-      "三倍浓缩咖啡",
-      "香辣鳗鱼",
-      "超级炸弹",
-      "炸弹"
-    ]
-  },
-  {
     "id": "Dwarf",
+    "nameZh": "矮人商店",
     "owners": [
       "矮人"
     ],
@@ -769,27 +21,182 @@
     ]
   },
   {
-    "id": "Festival_DanceOfTheMoonlightJellies_Pierre",
+    "id": "IceCreamStand",
+    "nameZh": "冰淇淋摊",
+    "owners": [
+      "任意店主"
+    ],
+    "itemCount": 1,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "冰淇淋"
+    ]
+  },
+  {
+    "id": "Festival_FestivalOfIce_TravelingMerchant",
+    "nameZh": "冰雪节商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 12,
+    "salableTagsCount": 0,
+    "pricedItemCount": 12,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "珍奇乌鸦",
+      "冬日星树",
+      "墙纸 19",
+      "《冰封之梦》",
+      "冰地毯",
+      "冬日餐桌"
+    ]
+  },
+  {
+    "id": "BoxOffice",
+    "nameZh": "电影院售票处",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 1,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "电影票"
+    ]
+  },
+  {
+    "id": "Concessions",
+    "nameZh": "电影院小吃",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 1,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "电影小吃"
+    ]
+  },
+  {
+    "id": "Festival_FeastOfTheWinterStar_Pierre",
+    "nameZh": "冬日星盛宴商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 17,
+    "salableTagsCount": 0,
+    "pricedItemCount": 17,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "三倍浓缩咖啡 / 霜瓜 / 蒜 等 4 项",
+      "泪晶 / 炒蘑菇 / 鸭蛋 等 4 项",
+      "山洞萝卜 / 河鲈 / 蛤 等 4 项",
+      "冬季帘子",
+      "小灯串",
+      "小型松树"
+    ]
+  },
+  {
+    "id": "Casino",
+    "nameZh": "赌场",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 16,
+    "salableTagsCount": 0,
+    "pricedItemCount": 16,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 6,
+    "sampleItems": [
+      "《原始运动》",
+      "《烧焦的祭品》",
+      "《高速公路 89》",
+      "《塔尖》",
+      "大礼帽",
+      "珍奇乌鸦"
+    ]
+  },
+  {
+    "id": "ResortBar",
+    "nameZh": "度假村酒吧",
+    "owners": [
+      "格斯"
+    ],
+    "itemCount": 7,
+    "salableTagsCount": 0,
+    "pricedItemCount": 7,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "椰林飘香",
+      "啤酒",
+      "淡啤酒",
+      "蜜蜂酒",
+      "蔓越莓糖果",
+      "果酒（随输入变化）"
+    ]
+  },
+  {
+    "id": "WizardFurnitureCatalogue",
+    "nameZh": "法师家具目录",
     "owners": [
       "无固定店主"
     ],
     "itemCount": 6,
     "salableTagsCount": 0,
     "pricedItemCount": 6,
-    "conditionalItemCount": 0,
+    "conditionalItemCount": 1,
     "tradeItemCount": 0,
-    "limitedStockCount": 1,
+    "limitedStockCount": 0,
     "sampleItems": [
-      "F 2626",
-      "F 1687",
-      "F 1692",
-      "F 2631",
-      "F 2875",
-      "海泡布丁"
+      "全部家具",
+      "墙纸 9",
+      "墙纸 10",
+      "墙纸 12",
+      "地板 51",
+      "地板 1"
+    ]
+  },
+  {
+    "id": "RetroFurnitureCatalogue",
+    "nameZh": "复古家具目录",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 9,
+    "salableTagsCount": 0,
+    "pricedItemCount": 9,
+    "conditionalItemCount": 1,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "全部家具",
+      "墙纸 16",
+      "墙纸 17",
+      "墙纸 18",
+      "地板 1",
+      "地板 2"
     ]
   },
   {
     "id": "Festival_EggFestival_Pierre",
+    "nameZh": "复活节商店",
     "owners": [
       "无固定店主"
     ],
@@ -804,52 +211,29 @@
       "绒毛兔子",
       "草莓种子",
       "季节性植物",
-      "F 1684",
-      "F 2624"
+      "色块组画",
+      "彩色帘子"
     ]
   },
   {
-    "id": "Festival_FeastOfTheWinterStar_Pierre",
+    "id": "ClintUpgrade",
+    "nameZh": "工具升级",
     "owners": [
-      "无固定店主"
+      "克林特"
     ],
-    "itemCount": 17,
+    "itemCount": 1,
     "salableTagsCount": 0,
-    "pricedItemCount": 17,
+    "pricedItemCount": 0,
     "conditionalItemCount": 0,
     "tradeItemCount": 0,
-    "limitedStockCount": 3,
+    "limitedStockCount": 0,
     "sampleItems": [
-      "253|(O)Powdermelon|(O)248|(O)82",
-      "84|(O)205|(O)442|(O)216",
-      "78|(O)141|(O)372|(O)412",
-      "F 2625",
-      "F 1745",
-      "F 1747"
-    ]
-  },
-  {
-    "id": "Festival_FestivalOfIce_TravelingMerchant",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 12,
-    "salableTagsCount": 0,
-    "pricedItemCount": 12,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 4,
-    "sampleItems": [
-      "珍奇乌鸦",
-      "F 1440",
-      "WP MoreWalls:19",
-      "F 2730",
-      "F 2790",
-      "F 800"
+      "工具升级"
     ]
   },
   {
     "id": "Festival_FlowerDance_Pierre",
+    "nameZh": "花舞节商店",
     "owners": [
       "无固定店主"
     ],
@@ -869,165 +253,50 @@
     ]
   },
   {
-    "id": "Festival_Luau_Pierre",
+    "id": "Raccoon",
+    "nameZh": "浣熊商店",
     "owners": [
       "无固定店主"
     ],
-    "itemCount": 11,
+    "itemCount": 12,
     "salableTagsCount": 0,
-    "pricedItemCount": 11,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 8,
+    "tradeItemCount": 12,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "浣熊日记",
+      "桃花心木种子",
+      "浣熊帽",
+      "胡萝卜种子",
+      "金皮西葫芦种子",
+      "西蓝花种子"
+    ]
+  },
+  {
+    "id": "VolcanoShop",
+    "nameZh": "火山商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 9,
+    "salableTagsCount": 3,
+    "pricedItemCount": 7,
+    "conditionalItemCount": 1,
+    "tradeItemCount": 2,
     "limitedStockCount": 1,
     "sampleItems": [
-      "F 2654",
-      "F 2627",
-      "F 2628",
-      "F 2629",
-      "F 2630",
-      "F 1817"
-    ]
-  },
-  {
-    "id": "Festival_NightMarket_DecorationBoat",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 15,
-    "salableTagsCount": 0,
-    "pricedItemCount": 15,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "大绿杖",
-      "绿杖",
-      "混色杖",
-      "红杖",
-      "大红杖",
-      "F 2397"
-    ]
-  },
-  {
-    "id": "Festival_NightMarket_MagicBoat_Day1",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 16,
-    "salableTagsCount": 0,
-    "pricedItemCount": 8,
-    "conditionalItemCount": 4,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "墓石",
-      "石蛙",
-      "帽子 39",
-      "防风草种子",
-      "青豆种子",
-      "花椰菜种子"
-    ]
-  },
-  {
-    "id": "Festival_NightMarket_MagicBoat_Day2",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 20,
-    "salableTagsCount": 0,
-    "pricedItemCount": 9,
-    "conditionalItemCount": 4,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "装甲",
-      "石鹦鹉",
-      "帽子 39",
-      "甜瓜种子",
-      "西红柿种子",
-      "蓝莓种子"
-    ]
-  },
-  {
-    "id": "Festival_NightMarket_MagicBoat_Day3",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 20,
-    "salableTagsCount": 0,
-    "pricedItemCount": 9,
-    "conditionalItemCount": 4,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "圆木段",
-      "石猫头鹰",
-      "帽子 39",
-      "玉米种子",
-      "茄子种子",
-      "南瓜种子"
-    ]
-  },
-  {
-    "id": "Festival_SpiritsEve_Pierre",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 5,
-    "salableTagsCount": 0,
-    "pricedItemCount": 5,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 2,
-    "sampleItems": [
-      "珍奇乌鸦",
-      "南瓜灯",
-      "墓石",
-      "F 2870"
-    ]
-  },
-  {
-    "id": "Festival_StardewValleyFair_StarTokens",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 11,
-    "salableTagsCount": 0,
-    "pricedItemCount": 11,
-    "conditionalItemCount": 6,
-    "tradeItemCount": 0,
-    "limitedStockCount": 11,
-    "sampleItems": [
-      "F 1307",
-      "帽子 19",
-      "珍奇乌鸦",
-      "星之果实",
-      "兑奖券",
-      "F 2488"
-    ]
-  },
-  {
-    "id": "FishShop",
-    "owners": [
-      "威利"
-    ],
-    "itemCount": 30,
-    "salableTagsCount": 4,
-    "pricedItemCount": 24,
-    "conditionalItemCount": 21,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "熏鱼机",
-      "鳟鱼汤",
-      "鱼饵",
-      "高级鱼饵",
-      "FLAVORED_ITEM Bait (O)129|FLAVORED_ITEM Bait (O)131|FLAVORED_ITEM Bait (O)132|FLAVORED_ITEM Bait (O)136|FLAVORED_ITEM Bait (O)137|FLAVORED_ITEM Bait (O)143|FLAVORED_ITEM Bait (O)148|FLAVORED_ITEM Bait (O)267|FLAVORED_ITEM Bait (O)158",
-      "FLAVORED_ITEM Bait (O)128|FLAVORED_ITEM Bait (O)130|FLAVORED_ITEM Bait (O)131|FLAVORED_ITEM Bait (O)132|FLAVORED_ITEM Bait (O)136|FLAVORED_ITEM Bait (O)138|FLAVORED_ITEM Bait (O)144|FLAVORED_ITEM Bait (O)146|FLAVORED_ITEM Bait (O)149|FLAVORED_ITEM Bait (O)155|FLAVORED_ITEM Bait (O)267|FLAVORED_ITEM Bait (O)698|FLAVORED_ITEM Bait (O)704|FLAVORED_ITEM Bait (O)701|FLAVORED_ITEM Bait (O)161"
+      "灰烬小丑鞋",
+      "钻石猎人",
+      "樱桃炸弹",
+      "炸弹",
+      "超级炸弹",
+      "块茎拼盘 / 巨无霸餐"
     ]
   },
   {
     "id": "Furniture Catalogue",
+    "nameZh": "家具目录",
     "owners": [
       "无固定店主"
     ],
@@ -1038,66 +307,16 @@
     "tradeItemCount": 0,
     "limitedStockCount": 0,
     "sampleItems": [
-      "ALL_ITEMS (F) @isRandomSale",
-      "F 1402",
-      "F 1680",
-      "F 1466",
-      "F 1468"
-    ]
-  },
-  {
-    "id": "HatMouse",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 44,
-    "salableTagsCount": 0,
-    "pricedItemCount": 44,
-    "conditionalItemCount": 44,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "帽子 18",
-      "帽子 21",
-      "帽子 20",
-      "帽子 1",
-      "帽子 3",
-      "帽子 0"
-    ]
-  },
-  {
-    "id": "Hospital",
-    "owners": [
-      "Any"
-    ],
-    "itemCount": 2,
-    "salableTagsCount": 0,
-    "pricedItemCount": 2,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "能量滋补水",
-      "肌肉回复药"
-    ]
-  },
-  {
-    "id": "IceCreamStand",
-    "owners": [
-      "Any"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "冰淇淋"
+      "全部家具",
+      "日历",
+      "落地电视",
+      "廉价电视",
+      "等离子电视"
     ]
   },
   {
     "id": "IslandTrade",
+    "nameZh": "姜岛交易小屋",
     "owners": [
       "无固定店主"
     ],
@@ -1112,32 +331,34 @@
       "芋头块茎",
       "菠萝种子",
       "金色椰子",
-      "F 2326",
-      "F 2331"
+      "热带电视",
+      "丛林火炬"
     ]
   },
   {
-    "id": "Joja",
+    "id": "ShadowShop",
+    "nameZh": "科罗布斯商店",
     "owners": [
-      "无固定店主"
+      "科罗布斯"
     ],
-    "itemCount": 38,
+    "itemCount": 19,
     "salableTagsCount": 0,
-    "pricedItemCount": 9,
-    "conditionalItemCount": 29,
+    "pricedItemCount": 17,
+    "conditionalItemCount": 10,
     "tradeItemCount": 0,
-    "limitedStockCount": 0,
+    "limitedStockCount": 11,
     "sampleItems": [
-      "自动抚摸机",
-      "Joja 可乐",
-      "F JojaCatalogue",
-      "WP 21",
-      "F 1609",
-      "防风草种子"
+      "虚空精华",
+      "太阳精华",
+      "史莱姆泥",
+      "万象晶球",
+      "随机商品",
+      "混合种子"
     ]
   },
   {
-    "id": "JojaFurnitureCatalogue",
+    "id": "TrashFurnitureCatalogue",
+    "nameZh": "垃圾家具目录",
     "owners": [
       "无固定店主"
     ],
@@ -1148,48 +369,14 @@
     "tradeItemCount": 0,
     "limitedStockCount": 0,
     "sampleItems": [
-      "ALL_ITEMS (F)",
-      "WP 21",
-      "FL 8"
-    ]
-  },
-  {
-    "id": "JunimoFurnitureCatalogue",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 7,
-    "salableTagsCount": 0,
-    "pricedItemCount": 7,
-    "conditionalItemCount": 1,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "ALL_ITEMS (F)",
-      "WP MoreWalls:14",
-      "WP MoreWalls:12",
-      "WP MoreWalls:13",
-      "FL 1",
-      "FL 49"
-    ]
-  },
-  {
-    "id": "LostItems",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 1,
-    "salableTagsCount": 0,
-    "pricedItemCount": 1,
-    "conditionalItemCount": 0,
-    "tradeItemCount": 0,
-    "limitedStockCount": 1,
-    "sampleItems": [
-      "LOST_UNIQUE_ITEMS"
+      "全部家具",
+      "墙纸 22",
+      "墙纸 23"
     ]
   },
   {
     "id": "PetAdoption",
+    "nameZh": "领养宠物",
     "owners": [
       "玛妮"
     ],
@@ -1200,111 +387,33 @@
     "tradeItemCount": 0,
     "limitedStockCount": 0,
     "sampleItems": [
-      "PET_ADOPTION"
+      "领养宠物"
     ]
   },
   {
-    "id": "QiGemShop",
+    "id": "Traveler",
+    "nameZh": "旅行货车",
     "owners": [
       "无固定店主"
     ],
-    "itemCount": 28,
+    "itemCount": 26,
     "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 5,
-    "tradeItemCount": 28,
-    "limitedStockCount": 3,
-    "sampleItems": [
-      "祝尼魔箱",
-      "马笛",
-      "皮埃尔丢失的存货单",
-      "加料器",
-      "施肥器",
-      "加压喷头"
-    ]
-  },
-  {
-    "id": "Raccoon",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 12,
-    "salableTagsCount": 0,
-    "pricedItemCount": 0,
-    "conditionalItemCount": 8,
-    "tradeItemCount": 12,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "浣熊日记",
-      "桃花心木种子",
-      "帽子 RaccoonHat",
-      "胡萝卜种子",
-      "金皮西葫芦种子",
-      "西蓝花种子"
-    ]
-  },
-  {
-    "id": "ResortBar",
-    "owners": [
-      "格斯"
-    ],
-    "itemCount": 7,
-    "salableTagsCount": 0,
-    "pricedItemCount": 7,
-    "conditionalItemCount": 0,
+    "pricedItemCount": 25,
+    "conditionalItemCount": 25,
     "tradeItemCount": 0,
-    "limitedStockCount": 0,
+    "limitedStockCount": 24,
     "sampleItems": [
-      "椰林飘香",
-      "啤酒",
-      "淡啤酒",
-      "蜜蜂酒",
-      "蔓越莓糖果",
-      "FLAVORED_ITEM Wine (O)834"
-    ]
-  },
-  {
-    "id": "RetroFurnitureCatalogue",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 9,
-    "salableTagsCount": 0,
-    "pricedItemCount": 9,
-    "conditionalItemCount": 1,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "ALL_ITEMS (F)",
-      "WP MoreWalls:16",
-      "WP MoreWalls:17",
-      "WP MoreWalls:18",
-      "FL MoreFloors:1",
-      "FL MoreFloors:2"
-    ]
-  },
-  {
-    "id": "Saloon",
-    "owners": [
-      "格斯"
-    ],
-    "itemCount": 17,
-    "salableTagsCount": 0,
-    "pricedItemCount": 9,
-    "conditionalItemCount": 2,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "啤酒",
-      "沙拉",
-      "面包",
-      "意大利面",
-      "披萨",
-      "咖啡"
+      "随机商品",
+      "红叶卷心菜种子",
+      "稀有种子",
+      "珍奇乌鸦",
+      "咖啡豆",
+      "红色菲斯帽"
     ]
   },
   {
     "id": "Sandy",
+    "nameZh": "绿洲",
     "owners": [
       "桑迪"
     ],
@@ -1324,7 +433,89 @@
     ]
   },
   {
+    "id": "AnimalShop",
+    "nameZh": "玛妮牧场",
+    "owners": [
+      "玛妮"
+    ],
+    "itemCount": 14,
+    "salableTagsCount": 4,
+    "pricedItemCount": 14,
+    "conditionalItemCount": 6,
+    "tradeItemCount": 0,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "干草",
+      "加热器",
+      "动物目录",
+      "挤奶桶",
+      "剪刀",
+      "自动采集器"
+    ]
+  },
+  {
+    "id": "HatMouse",
+    "nameZh": "帽子店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 44,
+    "salableTagsCount": 0,
+    "pricedItemCount": 44,
+    "conditionalItemCount": 44,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "老伙计帽",
+      "幸运蝴蝶结",
+      "凉帽",
+      "圆顶礼帽",
+      "墨西哥帽",
+      "牛仔帽"
+    ]
+  },
+  {
+    "id": "Carpenter",
+    "nameZh": "木匠商店",
+    "owners": [
+      "罗宾"
+    ],
+    "itemCount": 78,
+    "salableTagsCount": 1,
+    "pricedItemCount": 12,
+    "conditionalItemCount": 41,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "木材",
+      "石头",
+      "大箱子",
+      "普通窗户",
+      "小型窗户",
+      "橡木椅子"
+    ]
+  },
+  {
+    "id": "Catalogue",
+    "nameZh": "目录商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 3,
+    "salableTagsCount": 0,
+    "pricedItemCount": 3,
+    "conditionalItemCount": 2,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "全部墙纸",
+      "墙纸 20",
+      "全部地板"
+    ]
+  },
+  {
     "id": "SeedShop",
+    "nameZh": "皮埃尔杂货店",
     "owners": [
       "皮埃尔"
     ],
@@ -1344,27 +535,972 @@
     ]
   },
   {
-    "id": "ShadowShop",
+    "id": "QiGemShop",
+    "nameZh": "齐钻商店",
     "owners": [
-      "科罗布斯"
+      "无固定店主"
     ],
-    "itemCount": 19,
+    "itemCount": 28,
     "salableTagsCount": 0,
-    "pricedItemCount": 17,
-    "conditionalItemCount": 10,
-    "tradeItemCount": 0,
-    "limitedStockCount": 11,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 5,
+    "tradeItemCount": 28,
+    "limitedStockCount": 3,
     "sampleItems": [
-      "虚空精华",
-      "太阳精华",
-      "史莱姆泥",
-      "万象晶球",
-      "RANDOM_ITEMS (O) 698 708 @requirePrice @isRandomSale",
-      "混合种子"
+      "祝尼魔箱",
+      "马笛",
+      "皮埃尔丢失的存货单",
+      "加料器",
+      "施肥器",
+      "加压喷头"
     ]
   },
   {
-    "id": "TrashFurnitureCatalogue",
+    "id": "DesertFestival_EggShop",
+    "nameZh": "沙漠节：蛋商店",
+    "owners": [
+      "摊主"
+    ],
+    "itemCount": 22,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 15,
+    "tradeItemCount": 22,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "谜之盒",
+      "木乃伊头套",
+      "蓝色蝴蝶结",
+      "黑丝绒蝴蝶结",
+      "草莓种子",
+      "超级炸弹"
+    ]
+  },
+  {
+    "id": "DesertFestival_Abigail",
+    "nameZh": "沙漠节摊位：阿比盖尔",
+    "owners": [
+      "阿比盖尔"
+    ],
+    "itemCount": 2,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 2,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "阿比盖尔的蝴蝶结",
+      "阿比盖尔的占卜写板"
+    ]
+  },
+  {
+    "id": "DesertFestival_Evelyn",
+    "nameZh": "沙漠节摊位：艾芙琳",
+    "owners": [
+      "艾芙琳"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "墙纸 3",
+      "饼干",
+      "混合种子",
+      "混合花卉种子",
+      "黄水仙"
+    ]
+  },
+  {
+    "id": "DesertFestival_Elliott",
+    "nameZh": "沙漠节摊位：艾利欧特",
+    "owners": [
+      "艾利欧特"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "艾利欧特的铅笔",
+      "三角帽",
+      "螃蟹",
+      "鱿鱼墨汁"
+    ]
+  },
+  {
+    "id": "DesertFestival_Emily",
+    "nameZh": "沙漠节摊位：艾米丽",
+    "owners": [
+      "艾米丽"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "布料",
+      "五彩碎片",
+      "海胆",
+      "混合花卉种子"
+    ]
+  },
+  {
+    "id": "DesertFestival_Demetrius",
+    "nameZh": "沙漠节摊位：德米特里厄斯",
+    "owners": [
+      "德米特里厄斯"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "元素周期表",
+      "鹦鹉螺",
+      "香味浆果",
+      "高级生长激素"
+    ]
+  },
+  {
+    "id": "DesertFestival_Gus",
+    "nameZh": "沙漠节摊位：格斯",
+    "owners": [
+      "格斯"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "沾满尘土的头骨",
+      "法式田螺",
+      "龙虾浓汤",
+      "墨汁意大利饺",
+      "帕尔玛奶酪茄子"
+    ]
+  },
+  {
+    "id": "DesertFestival_Harvey",
+    "nameZh": "沙漠节摊位：哈维",
+    "owners": [
+      "哈维"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "哈维的锤子",
+      "无线电台桌",
+      "模型飞机",
+      "咖啡"
+    ]
+  },
+  {
+    "id": "DesertFestival_Haley",
+    "nameZh": "沙漠节摊位：海莉",
+    "owners": [
+      "海莉"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "海莉的烫发棒",
+      "艺术照片",
+      "艺术照片 2",
+      "粉红蛋糕"
+    ]
+  },
+  {
+    "id": "DesertFestival_Jas",
+    "nameZh": "沙漠节摊位：贾斯",
+    "owners": [
+      "贾斯"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "墙纸 0",
+      "古代玩偶",
+      "玫瑰仙子种子",
+      "兔子的脚",
+      "魔法糖冰棍"
+    ]
+  },
+  {
+    "id": "DesertFestival_Caroline",
+    "nameZh": "沙漠节摊位：卡洛琳",
+    "owners": [
+      "卡洛琳"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "异域宫殿",
+      "绿茶",
+      "茶苗",
+      "经典台灯",
+      "蒲公英"
+    ]
+  },
+  {
+    "id": "DesertFestival_Clint",
+    "nameZh": "沙漠节摊位：克林特",
+    "owners": [
+      "克林特"
+    ],
+    "itemCount": 3,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 3,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "煤炭",
+      "铜矿石",
+      "铁矿石"
+    ]
+  },
+  {
+    "id": "DesertFestival_Kent",
+    "nameZh": "沙漠节摊位：肯特",
+    "owners": [
+      "肯特"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "墙纸 1",
+      "蕨菜",
+      "楼梯",
+      "碎木机",
+      "榛子"
+    ]
+  },
+  {
+    "id": "DesertFestival_Leo",
+    "nameZh": "沙漠节摊位：雷欧",
+    "owners": [
+      "雷欧"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "墙纸 6",
+      "夏威夷芋泥",
+      "热带咖喱",
+      "香蕉树苗"
+    ]
+  },
+  {
+    "id": "DesertFestival_Leah",
+    "nameZh": "沙漠节摊位：莉亚",
+    "owners": [
+      "莉亚"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "莉亚的削木刀",
+      "矮书架",
+      "硬木",
+      "沙拉"
+    ]
+  },
+  {
+    "id": "DesertFestival_Robin",
+    "nameZh": "沙漠节摊位：罗宾",
+    "owners": [
+      "罗宾"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "墙纸 5",
+      "木材",
+      "石头",
+      "家具目录"
+    ]
+  },
+  {
+    "id": "DesertFestival_Maru",
+    "nameZh": "沙漠节摊位：玛鲁",
+    "owners": [
+      "玛鲁"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "玛鲁的扳手",
+      "铱锭",
+      "鞋子 1188",
+      "草莓种子"
+    ]
+  },
+  {
+    "id": "DesertFestival_Marnie",
+    "nameZh": "沙漠节摊位：玛妮",
+    "owners": [
+      "玛妮"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "墙纸 2",
+      "草籽",
+      "干草",
+      "松露油"
+    ]
+  },
+  {
+    "id": "DesertFestival_Pam",
+    "nameZh": "沙漠节摊位：潘姆",
+    "owners": [
+      "潘姆"
+    ],
+    "itemCount": 3,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 3,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "啤酒",
+      "蜜蜂酒",
+      "淡啤酒"
+    ]
+  },
+  {
+    "id": "DesertFestival_Penny",
+    "nameZh": "沙漠节摊位：潘妮",
+    "owners": [
+      "潘妮"
+    ],
+    "itemCount": 6,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 6,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "潘妮的煎锅",
+      "草莓贴纸",
+      "夜空贴纸 #1",
+      "夜空贴纸 #2",
+      "夜空贴纸 #3",
+      "海盗旗"
+    ]
+  },
+  {
+    "id": "DesertFestival_Pierre",
+    "nameZh": "沙漠节摊位：皮埃尔",
+    "owners": [
+      "皮埃尔"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "皮埃尔的招牌",
+      "卡利科三花蛋",
+      "鱿鱼",
+      "大麦粉",
+      "油"
+    ]
+  },
+  {
+    "id": "DesertFestival_Jodi",
+    "nameZh": "沙漠节摊位：乔迪",
+    "owners": [
+      "乔迪"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "墙纸 4",
+      "香酥鲈鱼",
+      "混合种子",
+      "混合花卉种子"
+    ]
+  },
+  {
+    "id": "DesertFestival_George",
+    "nameZh": "沙漠节摊位：乔治",
+    "owners": [
+      "乔治"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 5,
+    "limitedStockCount": 4,
+    "sampleItems": [
+      "复古电视",
+      "咖啡",
+      "醋",
+      "羊肚菌",
+      "古物宝藏"
+    ]
+  },
+  {
+    "id": "DesertFestival_Sebastian",
+    "nameZh": "沙漠节摊位：塞巴斯蒂安",
+    "owners": [
+      "塞巴斯蒂安"
+    ],
+    "itemCount": 3,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 3,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "塞巴斯蒂安的遗失之锤",
+      "冰封晶球",
+      "能量滋补水"
+    ]
+  },
+  {
+    "id": "DesertFestival_Sam",
+    "nameZh": "沙漠节摊位：山姆",
+    "owners": [
+      "山姆"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "山姆的滑板",
+      "山姆的旧吉他",
+      "枫糖棒",
+      "Joja 可乐"
+    ]
+  },
+  {
+    "id": "DesertFestival_Vincent",
+    "nameZh": "沙漠节摊位：文森特",
+    "owners": [
+      "文森特"
+    ],
+    "itemCount": 7,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 7,
+    "limitedStockCount": 7,
+    "sampleItems": [
+      "纤维",
+      "虫肉",
+      "树液",
+      "山洞萝卜",
+      "手部骨骼",
+      "粘土"
+    ]
+  },
+  {
+    "id": "DesertFestival_Shane",
+    "nameZh": "沙漠节摊位：谢恩",
+    "owners": [
+      "谢恩"
+    ],
+    "itemCount": 4,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 4,
+    "limitedStockCount": 3,
+    "sampleItems": [
+      "小鸡贴纸",
+      "披萨",
+      "蛋",
+      "爆炒青椒"
+    ]
+  },
+  {
+    "id": "DesertFestival_Alex",
+    "nameZh": "沙漠节摊位：亚历克斯",
+    "owners": [
+      "亚历克斯"
+    ],
+    "itemCount": 7,
+    "salableTagsCount": 0,
+    "pricedItemCount": 2,
+    "conditionalItemCount": 1,
+    "tradeItemCount": 7,
+    "limitedStockCount": 5,
+    "sampleItems": [
+      "魔法发胶",
+      "亚历克斯的棒球棍",
+      "肌肉回复药",
+      "煎鸡蛋",
+      "牛奶",
+      "薄煎饼"
+    ]
+  },
+  {
+    "id": "DesertTrade",
+    "nameZh": "沙漠商人",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 26,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 13,
+    "tradeItemCount": 26,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "古物宝藏",
+      "传送图腾：沙漠",
+      "三倍浓缩咖啡",
+      "香辣鳗鱼",
+      "超级炸弹",
+      "炸弹"
+    ]
+  },
+  {
+    "id": "Bookseller",
+    "nameZh": "书摊",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 12,
+    "salableTagsCount": 1,
+    "pricedItemCount": 12,
+    "conditionalItemCount": 7,
+    "tradeItemCount": 0,
+    "limitedStockCount": 10,
+    "sampleItems": [
+      "星之书",
+      "随机技能书",
+      "随机书籍",
+      "风之道 第一部分",
+      "风之道 第二部分",
+      "马术秘籍"
+    ]
+  },
+  {
+    "id": "BooksellerTrade",
+    "nameZh": "书摊交易",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 12,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 6,
+    "tradeItemCount": 12,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "洞穴凝胶 / 河凝胶 / 海凝胶",
+      "硬木",
+      "塞料面包",
+      "史莱姆压蛋器 / 史莱姆孵化器",
+      "谜之盒",
+      "香辣鳗鱼 / 古物宝藏"
+    ]
+  },
+  {
+    "id": "AdventureShop",
+    "nameZh": "探险家公会",
+    "owners": [
+      "马龙"
+    ],
+    "itemCount": 40,
+    "salableTagsCount": 5,
+    "pricedItemCount": 39,
+    "conditionalItemCount": 32,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "生锈的剑",
+      "木剑",
+      "股骨",
+      "工作靴",
+      "铁制短剑",
+      "镀银军刀"
+    ]
+  },
+  {
+    "id": "Blacksmith",
+    "nameZh": "铁匠铺",
+    "owners": [
+      "克林特"
+    ],
+    "itemCount": 8,
+    "salableTagsCount": 3,
+    "pricedItemCount": 8,
+    "conditionalItemCount": 8,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "铜矿石",
+      "铁矿石",
+      "煤炭",
+      "黄金矿石"
+    ]
+  },
+  {
+    "id": "Festival_SpiritsEve_Pierre",
+    "nameZh": "万灵节商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 5,
+    "salableTagsCount": 0,
+    "pricedItemCount": 5,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 2,
+    "sampleItems": [
+      "珍奇乌鸦",
+      "南瓜灯",
+      "墓石",
+      "新潮地毯"
+    ]
+  },
+  {
+    "id": "Festival_Luau_Pierre",
+    "nameZh": "夏威夷宴会商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 11,
+    "salableTagsCount": 0,
+    "pricedItemCount": 11,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "壁挂棕榈树",
+      "丛林贴纸",
+      "天花板垂叶",
+      "图腾雕像",
+      "杨桃",
+      "普通火炬"
+    ]
+  },
+  {
+    "id": "Festival_StardewValleyFair_StarTokens",
+    "nameZh": "星露谷展览会商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 11,
+    "salableTagsCount": 0,
+    "pricedItemCount": 11,
+    "conditionalItemCount": 6,
+    "tradeItemCount": 0,
+    "limitedStockCount": 11,
+    "sampleItems": [
+      "风干太阳花",
+      "软呢帽",
+      "珍奇乌鸦",
+      "星之果实",
+      "兑奖券",
+      "淡绿色地毯"
+    ]
+  },
+  {
+    "id": "Saloon",
+    "nameZh": "星之果实餐吧",
+    "owners": [
+      "格斯"
+    ],
+    "itemCount": 17,
+    "salableTagsCount": 0,
+    "pricedItemCount": 9,
+    "conditionalItemCount": 2,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "啤酒",
+      "沙拉",
+      "面包",
+      "意大利面",
+      "披萨",
+      "咖啡"
+    ]
+  },
+  {
+    "id": "Festival_NightMarket_DecorationBoat",
+    "nameZh": "夜市商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 15,
+    "salableTagsCount": 0,
+    "pricedItemCount": 15,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "大绿杖",
+      "绿杖",
+      "混色杖",
+      "红杖",
+      "大红杖",
+      "普通火炬"
+    ]
+  },
+  {
+    "id": "Festival_NightMarket_MagicBoat_Day1",
+    "nameZh": "夜市商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 16,
+    "salableTagsCount": 0,
+    "pricedItemCount": 8,
+    "conditionalItemCount": 4,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "墓石",
+      "石蛙",
+      "锥帽",
+      "防风草种子",
+      "青豆种子",
+      "花椰菜种子"
+    ]
+  },
+  {
+    "id": "Festival_NightMarket_MagicBoat_Day2",
+    "nameZh": "夜市商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 20,
+    "salableTagsCount": 0,
+    "pricedItemCount": 9,
+    "conditionalItemCount": 4,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "装甲",
+      "石鹦鹉",
+      "锥帽",
+      "甜瓜种子",
+      "西红柿种子",
+      "蓝莓种子"
+    ]
+  },
+  {
+    "id": "Festival_NightMarket_MagicBoat_Day3",
+    "nameZh": "夜市商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 20,
+    "salableTagsCount": 0,
+    "pricedItemCount": 9,
+    "conditionalItemCount": 4,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "圆木段",
+      "石猫头鹰",
+      "锥帽",
+      "玉米种子",
+      "茄子种子",
+      "南瓜种子"
+    ]
+  },
+  {
+    "id": "LostItems",
+    "nameZh": "遗失物品",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 1,
+    "salableTagsCount": 0,
+    "pricedItemCount": 1,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "遗失的特殊物品"
+    ]
+  },
+  {
+    "id": "AdventureGuildRecovery",
+    "nameZh": "遗失物找回",
+    "owners": [
+      "马龙"
+    ],
+    "itemCount": 1,
+    "salableTagsCount": 0,
+    "pricedItemCount": 0,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "遗失物品"
+    ]
+  },
+  {
+    "id": "FishShop",
+    "nameZh": "鱼店",
+    "owners": [
+      "威利"
+    ],
+    "itemCount": 30,
+    "salableTagsCount": 4,
+    "pricedItemCount": 24,
+    "conditionalItemCount": 21,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "熏鱼机",
+      "鳟鱼汤",
+      "鱼饵",
+      "高级鱼饵",
+      "鱼饵（随输入变化）",
+      "蟹笼"
+    ]
+  },
+  {
+    "id": "Festival_DanceOfTheMoonlightJellies_Pierre",
+    "nameZh": "月光水母起舞商店",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 6,
+    "salableTagsCount": 0,
+    "pricedItemCount": 6,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 1,
+    "sampleItems": [
+      "月光水母帘子",
+      "云朵贴纸",
+      "星空门贴纸",
+      "现代地毯",
+      "海泡布丁"
+    ]
+  },
+  {
+    "id": "Hospital",
+    "nameZh": "诊所",
+    "owners": [
+      "任意店主"
+    ],
+    "itemCount": 2,
+    "salableTagsCount": 0,
+    "pricedItemCount": 2,
+    "conditionalItemCount": 0,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "能量滋补水",
+      "肌肉回复药"
+    ]
+  },
+  {
+    "id": "JunimoFurnitureCatalogue",
+    "nameZh": "祝尼魔家具目录",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 7,
+    "salableTagsCount": 0,
+    "pricedItemCount": 7,
+    "conditionalItemCount": 1,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "全部家具",
+      "墙纸 14",
+      "墙纸 12",
+      "墙纸 13",
+      "地板 1",
+      "地板 49"
+    ]
+  },
+  {
+    "id": "Joja",
+    "nameZh": "Joja 超市",
+    "owners": [
+      "无固定店主"
+    ],
+    "itemCount": 38,
+    "salableTagsCount": 0,
+    "pricedItemCount": 9,
+    "conditionalItemCount": 29,
+    "tradeItemCount": 0,
+    "limitedStockCount": 0,
+    "sampleItems": [
+      "自动抚摸机",
+      "Joja 可乐",
+      "Joja 家具目录",
+      "墙纸 21",
+      "Joja 可乐灯",
+      "防风草种子"
+    ]
+  },
+  {
+    "id": "JojaFurnitureCatalogue",
+    "nameZh": "Joja 家具目录",
     "owners": [
       "无固定店主"
     ],
@@ -1375,69 +1511,9 @@
     "tradeItemCount": 0,
     "limitedStockCount": 0,
     "sampleItems": [
-      "ALL_ITEMS (F)",
-      "WP MoreWalls:22",
-      "WP MoreWalls:23"
-    ]
-  },
-  {
-    "id": "Traveler",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 26,
-    "salableTagsCount": 0,
-    "pricedItemCount": 25,
-    "conditionalItemCount": 25,
-    "tradeItemCount": 0,
-    "limitedStockCount": 24,
-    "sampleItems": [
-      "RANDOM_ITEMS (O) 2 789 @requirePrice @isRandomSale",
-      "红叶卷心菜种子",
-      "RANDOM_ITEMS (F) 0 1612 @requirePrice @isRandomSale",
-      "稀有种子",
-      "珍奇乌鸦",
-      "咖啡豆"
-    ]
-  },
-  {
-    "id": "VolcanoShop",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 9,
-    "salableTagsCount": 3,
-    "pricedItemCount": 7,
-    "conditionalItemCount": 1,
-    "tradeItemCount": 2,
-    "limitedStockCount": 1,
-    "sampleItems": [
-      "鞋子 853",
-      "钻石猎人",
-      "樱桃炸弹",
-      "炸弹",
-      "超级炸弹",
-      "244|(O)237"
-    ]
-  },
-  {
-    "id": "WizardFurnitureCatalogue",
-    "owners": [
-      "无固定店主"
-    ],
-    "itemCount": 6,
-    "salableTagsCount": 0,
-    "pricedItemCount": 6,
-    "conditionalItemCount": 1,
-    "tradeItemCount": 0,
-    "limitedStockCount": 0,
-    "sampleItems": [
-      "ALL_ITEMS (F)",
-      "WP MoreWalls:9",
-      "WP MoreWalls:10",
-      "WP 12",
-      "FL 51",
-      "FL 1"
+      "全部家具",
+      "墙纸 21",
+      "地板 8"
     ]
   }
 ]

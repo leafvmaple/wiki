@@ -235,7 +235,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {shopRows.map((shop) => (
         <tr>
-          <td><StardewIcon kind="shop" assetKind="npc" assetLabel={shop.owners?.[0]} label={shop.id} /></td>
+          <td><StardewIcon kind="shop" assetKind="npc" assetLabel={shop.owners?.[0]} label={shop.nameZh ?? shop.id} /></td>
           <td>
             <span class="sv-mini-list">
               {iconList(shop.owners, 'npc').map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}

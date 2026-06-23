@@ -348,7 +348,7 @@
     },
     {
       "type": "container",
-      "label": "垃圾桶：Evelyn",
+      "label": "垃圾桶：乔治和艾芙琳家",
       "x": 52,
       "y": 63,
       "layer": "Back2",
@@ -558,7 +558,7 @@
     },
     {
       "type": "container",
-      "label": "垃圾桶：Mayor",
+      "label": "垃圾桶：镇长庄园",
       "x": 56,
       "y": 85,
       "layer": "Back2",
@@ -604,7 +604,7 @@
     },
     {
       "type": "container",
-      "label": "垃圾桶：JodiAndKent",
+      "label": "垃圾桶：乔迪和肯特家",
       "x": 13,
       "y": 86,
       "layer": "Back2",
@@ -694,7 +694,7 @@
     },
     {
       "type": "container",
-      "label": "垃圾桶：EmilyAndHaley",
+      "label": "垃圾桶：海莉和艾米丽家",
       "x": 19,
       "y": 89,
       "layer": "Back2",
@@ -784,7 +784,7 @@
     },
     {
       "type": "container",
-      "label": "垃圾桶：Museum",
+      "label": "垃圾桶：博物馆",
       "x": 108,
       "y": 91,
       "layer": "Back2",

@@ -57,6 +57,32 @@ const stringsDir = path.join(inputRoot, 'Strings');
 const mapsDir = path.join(inputRoot, 'Maps');
 
 const readJson = async (...segments) => JSON.parse(await readFile(path.join(...segments), 'utf8'));
+const readOptionalJson = async (...segments) => {
+  try {
+    return await readJson(...segments);
+  } catch {
+    return {};
+  }
+};
+
+let extraText = {};
+
+const localizedTextKey = (value) => {
+  const match = String(value ?? '').match(/Strings\\[^:]+:([^\\\]]+)/);
+  return match?.[1] ?? null;
+};
+
+const slashTail = (value) => {
+  const parts = String(value ?? '').split('/').filter(Boolean);
+  if (!parts.length) return null;
+  const last = parts.at(-1);
+  return /^\d+$/.test(last) && parts.length > 1 ? parts.at(-2) : last;
+};
+
+const stripShopDirectives = (value) =>
+  String(value ?? '')
+    .split('@')[0]
+    .trim();
 
 const objectNameKey = (object) => {
   const match = object?.DisplayName?.match(/Strings\\Objects:([^\\\]]+)/);
@@ -80,6 +106,101 @@ const localizedBigCraftableName = (id, bigCraftables, bigCraftableStrings) => {
   return bigCraftableStrings[bigCraftableNameKey(item)] ?? item.Name ?? null;
 };
 
+const localizedNpcName = (id, npcNames) => {
+  const manual = {
+    MisterQi: '齐先生',
+    'Mister Qi': '齐先生',
+    OldMariner: '老水手',
+    'Old Mariner': '老水手',
+  };
+  return npcNames[id] ?? manual[id] ?? null;
+};
+
+const localizedFurnitureName = (id) => {
+  if (String(id).startsWith('MoreWalls:')) return `墙纸 ${String(id).split(':')[1]}`;
+  if (String(id).startsWith('MoreFloors:')) return `地板 ${String(id).split(':')[1]}`;
+
+  const item = extraText.furniture?.[id];
+  const key = localizedTextKey(item);
+  return extraText.furnitureStrings?.[key] ?? extraText.furnitureStrings?.[id] ?? null;
+};
+
+const localizedWeaponName = (id) => {
+  const key = localizedTextKey(extraText.weapons?.[id]?.DisplayName);
+  return extraText.weaponStrings?.[key] ?? null;
+};
+
+const localizedToolName = (id) => extraText.toolStrings?.[`${id}_Name`] ?? null;
+
+const localizedHatName = (id) => slashTail(extraText.hatStrings?.[id]);
+
+const localizedBootName = (id) => slashTail(extraText.bootStrings?.[id]);
+
+const localizedTrinketName = (id) => {
+  const key = localizedTextKey(extraText.trinkets?.[id]?.DisplayName);
+  return extraText.oneSixStrings?.[key] ?? extraText.oneSixStrings?.[`${id}_Name`] ?? null;
+};
+
+const itemTagLabels = {
+  ancient_item: '古物',
+  bone_item: '骨头类',
+  category_fish: '鱼类',
+  category_fruits: '水果',
+  category_gem: '宝石',
+  category_greens: '绿叶菜',
+  category_minerals: '矿物',
+  category_trinket: '饰品',
+  category_vegetable: '蔬菜',
+  doll_item: '玩偶',
+  edible_mushroom: '可食用蘑菇',
+  forage_item_beach: '海滩采集物',
+  large_egg_item: '大鸡蛋',
+  preserve_sheet_index_698: '鱼籽',
+  preserves_pickle: '腌制食材',
+  slime_egg_item: '史莱姆蛋',
+  toy_item: '玩具',
+};
+
+const flavoredItemLabels = {
+  AgedRoe: '陈年鱼籽',
+  Bait: '鱼饵',
+  DriedFruit: '果干',
+  DriedMushroom: '蘑菇干',
+  Honey: '蜂蜜',
+  Jelly: '果酱',
+  Pickle: '腌菜',
+  SmokedFish: '熏鱼',
+  Wine: '果酒',
+};
+
+const specialItemLabel = (value) => {
+  const text = stripShopDirectives(value);
+  if (!text) return null;
+
+  if (itemTagLabels[text]) return itemTagLabels[text];
+  if (text.startsWith('FLAVORED_ITEM ')) {
+    const base = text.split(/\s+/)[1];
+    return `${flavoredItemLabels[base] ?? '加工品'}（随输入变化）`;
+  }
+  if (text.startsWith('ALL_ITEMS')) {
+    if (text.includes('(F)')) return '全部家具';
+    if (text.includes('(FL)')) return '全部地板';
+    if (text.includes('(WP)')) return '全部墙纸';
+    return '全部商品';
+  }
+  if (text.startsWith('RANDOM_ITEMS')) return '随机商品';
+  if (text === 'ITEMS_LOST_ON_DEATH') return '遗失物品';
+  if (text === 'LOST_UNIQUE_ITEMS') return '遗失的特殊物品';
+  if (text === 'MOVIE_CONCESSIONS_FOR_GUEST') return '电影小吃';
+  if (text === 'PET_ADOPTION') return '领养宠物';
+  if (text === 'TOOL_UPGRADES') return '工具升级';
+  if (text === 'RandomBook') return '随机书籍';
+  if (/^RandomSkillBook\d+$/.test(text)) return '随机技能书';
+  if (text.startsWith('MoreWalls:')) return `墙纸 ${text.split(':')[1]}`;
+  if (text.startsWith('MoreFloors:')) return `地板 ${text.split(':')[1]}`;
+  return null;
+};
+
 const parseQualifiedId = (value) => {
   if (value === null || value === undefined) return null;
   const text = String(value);
@@ -91,12 +212,40 @@ const parseQualifiedId = (value) => {
 };
 
 const itemLabel = (value, objects, objectStrings, bigCraftables, bigCraftableStrings) => {
-  const parsed = parseQualifiedId(value);
+  const text = stripShopDirectives(value);
+  if (!text) return null;
+  const special = specialItemLabel(text);
+  if (special) return special;
+
+  if (text.includes('|')) {
+    const labels = unique(text.split('|').map((part) => itemLabel(part, objects, objectStrings, bigCraftables, bigCraftableStrings)));
+    if (!labels.length) return null;
+    return labels.length > 3 ? `${labels.slice(0, 3).join(' / ')} 等 ${labels.length} 项` : labels.join(' / ');
+  }
+
+  const looseQualified = text.match(/^(B|W|H|S|T|F|FL|WP|TR)\s+(.+)$/);
+  if (looseQualified) {
+    return itemLabel(`(${looseQualified[1]})${looseQualified[2]}`, objects, objectStrings, bigCraftables, bigCraftableStrings);
+  }
+
+  const parsed = parseQualifiedId(text);
   if (!parsed) return null;
   if (parsed.id === 'DROP_IN') return '按输入变化';
   if (parsed.id.startsWith('-')) return `分类 ${parsed.id}`;
+  if (itemTagLabels[parsed.id]) return itemTagLabels[parsed.id];
 
-  if (!parsed.type || parsed.type === 'O') {
+  if (!parsed.type) {
+    return (
+      localizedObjectName(parsed.id, objects, objectStrings) ??
+      objects[parsed.id]?.Name ??
+      localizedTrinketName(parsed.id) ??
+      localizedFurnitureName(parsed.id) ??
+      localizedHatName(parsed.id) ??
+      parsed.id
+    );
+  }
+
+  if (parsed.type === 'O') {
     return localizedObjectName(parsed.id, objects, objectStrings) ?? objects[parsed.id]?.Name ?? parsed.id;
   }
 
@@ -108,12 +257,17 @@ const itemLabel = (value, objects, objectStrings, bigCraftables, bigCraftableStr
     );
   }
 
+  if (parsed.type === 'B') return localizedBootName(parsed.id) ?? `鞋子 ${parsed.id}`;
+  if (parsed.type === 'F') return localizedFurnitureName(parsed.id) ?? `家具 ${parsed.id}`;
+  if (parsed.type === 'FL') return `地板 ${String(parsed.id).replace(/^MoreFloors:/, '')}`;
+  if (parsed.type === 'H') return localizedHatName(parsed.id) ?? `帽子 ${parsed.id}`;
+  if (parsed.type === 'T') return localizedToolName(parsed.id) ?? `工具 ${parsed.id}`;
+  if (parsed.type === 'TR') return localizedTrinketName(parsed.id) ?? `饰品 ${parsed.id}`;
+  if (parsed.type === 'W') return localizedWeaponName(parsed.id) ?? `武器 ${parsed.id}`;
+  if (parsed.type === 'WP') return `墙纸 ${String(parsed.id).replace(/^MoreWalls:/, '')}`;
+
   const typeLabels = {
-    B: '鞋子',
-    W: '武器',
-    H: '帽子',
     S: '鞋子',
-    T: '工具',
   };
   return `${typeLabels[parsed.type] ?? parsed.type} ${parsed.id}`;
 };
@@ -123,22 +277,56 @@ const preview = (items, limit = 6) => unique(items).slice(0, limit);
 
 const locationLabels = {
   ArchaeologyHouse: '博物馆',
+  AdventureGuild: '探险家公会',
+  AnimalShop: '玛妮牧场',
   Beach: '沙滩',
   Blacksmith: '铁匠铺',
   BusStop: '巴士站',
   CommunityCenter: '社区中心',
+  Desert: '卡利科沙漠',
+  ElliottHouse: '艾利欧特小屋',
+  EmilyAndHaley: '海莉和艾米丽家',
+  Evelyn: '乔治和艾芙琳家',
+  FishShop: '鱼店',
   Forest: '煤矿森林',
   HaleyHouse: '海莉和艾米丽家',
+  HarveyRoom: '哈维的房间',
   Hospital: '诊所',
+  IslandEast: '姜岛东部',
+  IslandNorth: '姜岛北部',
+  IslandSouth: '姜岛南部',
+  IslandWest: '姜岛西部',
+  JodiAndKent: '乔迪和肯特家',
   JojaMart: 'Joja 超市',
   JoshHouse: '亚历克斯家',
+  LeahHouse: '莉亚小屋',
+  LeoTreeHouse: '雷欧树屋',
   ManorHouse: '镇长庄园',
+  Mayor: '镇长庄园',
+  Mine: '矿井',
   Mountain: '深山',
+  Museum: '博物馆',
+  QiNutRoom: '齐先生核桃房',
   Saloon: '星之果实餐吧',
   SamHouse: '山姆家',
+  SandyHouse: '绿洲',
+  ScienceHouse: '木匠的家',
+  SebastianRoom: '塞巴斯蒂安的房间',
   SeedShop: '皮埃尔杂货店',
+  Sewer: '下水道',
+  Tent: '莱纳斯的帐篷',
   Town: '鹈鹕镇',
   Trailer: '拖车',
+  VolcanoDungeon: '火山地牢',
+  WitchSwamp: '女巫沼泽',
+  WizardHouse: '法师塔',
+};
+
+const homeRegionLabels = {
+  Desert: '卡利科沙漠',
+  Island: '姜岛',
+  Other: '其他',
+  Town: '鹈鹕镇',
 };
 
 const decodeXmlValue = (value) =>
@@ -440,17 +628,17 @@ const buildVillagers = (characters, npcNames, giftTastes, objects, objectStrings
 
       return {
         id,
-        nameZh: npcNames[id] ?? id,
+        nameZh: localizedNpcName(id, npcNames) ?? id,
         birthSeason: character.BirthSeason ?? null,
         birthDay: character.BirthDay ?? null,
-        homeRegion: character.HomeRegion ?? null,
+        homeRegion: homeRegionLabels[character.HomeRegion] ?? mapLabel(character.HomeRegion) ?? null,
         gender: character.Gender ?? null,
         age: character.Age ?? null,
         canBeRomanced: Boolean(character.CanBeRomanced),
         canReceiveGifts: Boolean(character.CanReceiveGifts),
-        homeLocation: home?.Location ?? null,
+        homeLocation: home?.Location ? mapLabel(home.Location) : null,
         homeTile: home?.Tile ? { x: home.Tile.X, y: home.Tile.Y } : null,
-        familyIds: Object.keys(character.FriendsAndFamily ?? {}),
+        familyIds: Object.keys(character.FriendsAndFamily ?? {}).map((familyId) => localizedNpcName(familyId, npcNames) ?? familyId),
         giftCounts: {
           love: gifts.love.length,
           like: gifts.like.length,
@@ -620,7 +808,9 @@ const buildMachines = (machines, objects, objectStrings, bigCraftables, bigCraft
         itemLabel(trigger.RequiredItemId, objects, objectStrings, bigCraftables, bigCraftableStrings)
       );
       const inputTags = triggers.flatMap((trigger) =>
-        (trigger.RequiredTags ?? []).filter((tag) => !tag.startsWith('!')).map((tag) => `标签 ${tag}`)
+        (trigger.RequiredTags ?? [])
+          .filter((tag) => !tag.startsWith('!'))
+          .map((tag) => `标签 ${itemTagLabels[tag] ?? '特殊条件'}`)
       );
       const outputItems = outputs.map((output) => {
         if (output.ItemId) {
@@ -664,6 +854,84 @@ const buildMachines = (machines, objects, objectStrings, bigCraftables, bigCraft
     })
     .sort((a, b) => a.nameZh.localeCompare(b.nameZh));
 
+const shopLabels = {
+  AdventureGuildRecovery: '遗失物找回',
+  AdventureShop: '探险家公会',
+  AnimalShop: '玛妮牧场',
+  Blacksmith: '铁匠铺',
+  Bookseller: '书摊',
+  BooksellerTrade: '书摊交易',
+  BoxOffice: '电影院售票处',
+  Carpenter: '木匠商店',
+  Casino: '赌场',
+  Catalogue: '目录商店',
+  ClintUpgrade: '工具升级',
+  Concessions: '电影院小吃',
+  DesertTrade: '沙漠商人',
+  Dwarf: '矮人商店',
+  FishShop: '鱼店',
+  'Furniture Catalogue': '家具目录',
+  HatMouse: '帽子店',
+  Hospital: '诊所',
+  IceCreamStand: '冰淇淋摊',
+  IslandTrade: '姜岛交易小屋',
+  Joja: 'Joja 超市',
+  JojaFurnitureCatalogue: 'Joja 家具目录',
+  JunimoFurnitureCatalogue: '祝尼魔家具目录',
+  LostItems: '遗失物品',
+  PetAdoption: '领养宠物',
+  QiGemShop: '齐钻商店',
+  Raccoon: '浣熊商店',
+  ResortBar: '度假村酒吧',
+  RetroFurnitureCatalogue: '复古家具目录',
+  Saloon: '星之果实餐吧',
+  Sandy: '绿洲',
+  SeedShop: '皮埃尔杂货店',
+  ShadowShop: '科罗布斯商店',
+  TrashFurnitureCatalogue: '垃圾家具目录',
+  Traveler: '旅行货车',
+  VolcanoShop: '火山商店',
+  WizardFurnitureCatalogue: '法师家具目录',
+};
+
+const festivalLabels = {
+  DanceOfTheMoonlightJellies: '月光水母起舞',
+  EggFestival: '复活节',
+  FeastOfTheWinterStar: '冬日星盛宴',
+  FestivalOfIce: '冰雪节',
+  FlowerDance: '花舞节',
+  Luau: '夏威夷宴会',
+  NightMarket: '夜市',
+  SpiritsEve: '万灵节',
+  StardewValleyFair: '星露谷展览会',
+};
+
+const ownerLabel = (owner, npcNames) => {
+  if (!owner || ['None', 'AnyOrNone'].includes(owner)) return null;
+  if (owner === 'Any') return '任意店主';
+  if (owner === 'Vendor') return '摊主';
+  return localizedNpcName(owner, npcNames) ?? owner;
+};
+
+const localizedShopName = (id, owners, npcNames) => {
+  if (shopLabels[id]) return shopLabels[id];
+
+  const desertFestival = id.match(/^DesertFestival_(.+)$/);
+  if (desertFestival) {
+    const owner = localizedNpcName(desertFestival[1], npcNames);
+    if (owner) return `沙漠节摊位：${owner}`;
+    if (desertFestival[1] === 'EggShop') return '沙漠节：蛋商店';
+    return '沙漠节摊位';
+  }
+
+  const festival = id.match(/^Festival_([^_]+)_/);
+  if (festival) {
+    return `${festivalLabels[festival[1]] ?? '节日'}商店`;
+  }
+
+  return owners.length ? `${owners[0]}的商店` : '特殊商店';
+};
+
 const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigCraftableStrings) =>
   Object.entries(shops)
     .map(([id, shop]) => {
@@ -671,8 +939,7 @@ const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigC
       const ownerNames = unique(
         (shop.Owners ?? [])
           .map((owner) => owner.Name ?? owner.Id)
-          .filter((owner) => owner && !['None', 'AnyOrNone'].includes(owner))
-          .map((owner) => npcNames[owner] ?? owner)
+          .map((owner) => ownerLabel(owner, npcNames))
       );
       const sampleItems = items.map((item) =>
         itemLabel(item.ItemId ?? item.Id, objects, objectStrings, bigCraftables, bigCraftableStrings)
@@ -680,6 +947,7 @@ const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigC
 
       return {
         id,
+        nameZh: localizedShopName(id, ownerNames, npcNames),
         owners: ownerNames.length ? ownerNames : ['无固定店主'],
         itemCount: items.length,
         salableTagsCount: shop.SalableItemTags?.length ?? 0,
@@ -690,7 +958,7 @@ const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigC
         sampleItems: preview(sampleItems),
       };
     })
-    .sort((a, b) => a.id.localeCompare(b.id));
+    .sort((a, b) => a.nameZh.localeCompare(b.nameZh, 'zh-CN'));
 
 const bundleRoomLabels = {
   Pantry: '茶水间',
@@ -983,6 +1251,15 @@ const main = async () => {
     shops,
     machines,
     bundles,
+    furniture,
+    furnitureStrings,
+    weapons,
+    weaponStrings,
+    toolStrings,
+    hatStrings,
+    bootStrings,
+    trinkets,
+    oneSixStrings,
   ] = await Promise.all([
     readJson(dataDir, 'Objects.json'),
     readJson(stringsDir, 'Objects.zh-CN.json'),
@@ -997,7 +1274,28 @@ const main = async () => {
     readJson(dataDir, 'Shops.json'),
     readJson(dataDir, 'Machines.json'),
     readJson(dataDir, 'Bundles.json'),
+    readOptionalJson(dataDir, 'Furniture.json'),
+    readOptionalJson(stringsDir, 'Furniture.zh-CN.json'),
+    readOptionalJson(dataDir, 'Weapons.json'),
+    readOptionalJson(stringsDir, 'Weapons.zh-CN.json'),
+    readOptionalJson(stringsDir, 'Tools.zh-CN.json'),
+    readOptionalJson(dataDir, 'hats.zh-CN.json'),
+    readOptionalJson(dataDir, 'Boots.zh-CN.json'),
+    readOptionalJson(dataDir, 'Trinkets.json'),
+    readOptionalJson(stringsDir, '1_6_Strings.zh-CN.json'),
   ]);
+
+  extraText = {
+    furniture,
+    furnitureStrings,
+    weapons,
+    weaponStrings,
+    toolStrings,
+    hatStrings,
+    bootStrings,
+    trinkets,
+    oneSixStrings,
+  };
 
   const mapCount = (await readdir(mapsDir)).filter((file) => file.endsWith('.tmx')).length;
   const generatedAt = new Date().toISOString();
