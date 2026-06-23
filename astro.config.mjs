@@ -7,6 +7,12 @@ export default defineConfig({
     starlight({
       title: '枫百科',
       description: '游戏攻略、机制资料、路线与长期维护内容。',
+      locales: {
+        root: {
+          label: '简体中文',
+          lang: 'zh-CN',
+        },
+      },
       logo: {
         src: './src/assets/leafvmaple-wiki.svg',
         alt: '枫百科',

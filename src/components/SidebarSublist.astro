@@ -124,7 +124,7 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
     .large {
       font-size: var(--sl-text-lg);
       font-weight: 600;
-      color: var(--sl-color-white);
+      color: var(--leaf-heading);
     }
 
     .top-level > li + li {
@@ -165,14 +165,14 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
       display: block;
       border-radius: 0.25rem;
       text-decoration: none;
-      color: var(--sl-color-gray-2);
+      color: var(--leaf-text);
       padding: 0.3em var(--sl-sidebar-item-padding-inline);
       line-height: 1.4;
     }
 
     a:hover,
     a:focus {
-      color: var(--sl-color-white);
+      color: var(--sl-color-text-accent);
     }
 
     [aria-current='page'],
@@ -192,7 +192,7 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
       display: flex;
       padding: 0;
       width: 100%;
-      color: var(--sl-color-white);
+      color: var(--leaf-heading);
       background: transparent;
     }
 
