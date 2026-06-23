@@ -107,9 +107,18 @@ const inspectTooltip = async (page, origin, mode) => {
     };
   });
 
+  const targetHref = await target.getAttribute('href');
+  await target.click();
+  await page.waitForURL('**/games/stardew-valley/entities/items/carrotseeds/', { timeout: 5000 });
+  const entityTitle = (await page.locator('h1').first().textContent())?.trim() ?? '';
+  const entityText = (await page.locator('.sv-entity-page').first().textContent())?.replace(/\s+/g, ' ').trim() ?? '';
+
   const failures = [
     result.visible ? '' : 'tooltip is not visible',
     result.text.includes('胡萝卜种子') ? '' : 'tooltip text is not populated',
+    targetHref?.includes('/games/stardew-valley/entities/items/carrotseeds/') ? '' : `entity link is wrong: ${targetHref}`,
+    entityTitle === '胡萝卜种子' ? '' : `entity page title is wrong: ${entityTitle}`,
+    entityText.includes('种植信息') ? '' : 'entity page is missing detailed sections',
     result.titleGapPx >= 3 ? '' : `title gap is too small: ${result.titleGapPx}px`,
     result.titleLineHeightPx >= 19 ? '' : `title line-height is too tight: ${result.titleLineHeightPx}px`,
     result.tagCount >= 3 ? '' : `expected at least 3 tags, got ${result.tagCount}`,
@@ -118,6 +127,45 @@ const inspectTooltip = async (page, origin, mode) => {
 
   return {
     mode,
+    screenshotPath,
+    targetHref,
+    entityTitle,
+    ...result,
+    failures,
+  };
+};
+
+const inspectMapTooltip = async (page, origin) => {
+  await page.goto(`${origin}/games/stardew-valley/maps/town/`, { waitUntil: 'networkidle' });
+  await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+
+  const target = page.locator('.leaf-map-marker[data-sv-card]').first();
+  await target.scrollIntoViewIfNeeded();
+  await target.hover();
+  const tooltip = page.locator('.sv-entity-tooltip:not([hidden])');
+  await tooltip.waitFor({ state: 'visible', timeout: 5000 });
+
+  const screenshotPath = join(screenshotRoot, 'tooltip-dark-map-marker.png');
+  await page.screenshot({ path: screenshotPath, fullPage: false });
+
+  const result = await page.evaluate(() => {
+    const tooltip = document.querySelector('.sv-entity-tooltip');
+    const stats = [...document.querySelectorAll('.sv-entity-tooltip-stats span')];
+    return {
+      visible: Boolean(tooltip && !tooltip.hidden),
+      text: tooltip?.textContent?.trim().replace(/\s+/g, ' ') ?? '',
+      tagCount: stats.length,
+    };
+  });
+
+  const failures = [
+    result.visible ? '' : 'map tooltip is not visible',
+    result.text.includes('点位') ? '' : 'map tooltip has no point type',
+    result.tagCount >= 1 ? '' : 'map tooltip has no point stats',
+  ].filter(Boolean);
+
+  return {
+    mode: 'map-dark',
     screenshotPath,
     ...result,
     failures,
@@ -139,6 +187,7 @@ const main = async () => {
     for (const mode of ['dark', 'light']) {
       results.push(await inspectTooltip(page, origin, mode));
     }
+    results.push(await inspectMapTooltip(page, origin));
 
     const failures = results.flatMap((result) => result.failures.map((failure) => `${result.mode}: ${failure}`));
     console.log(JSON.stringify({ origin, browserPath: browserPath ?? 'playwright-managed', results }, null, 2));

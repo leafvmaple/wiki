@@ -1,0 +1,136 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { stardewEntityPages } from '../../../../lib/stardewEntities';
+
+const kindLabels = {
+  items: '常用物品',
+  npcs: 'NPC',
+  machines: '机器',
+} as const;
+
+const groups = Object.entries(kindLabels).map(([kind, label]) => {
+  const items = stardewEntityPages.filter((entity) => entity.routeKind === kind);
+  return { kind, label, items, count: items.length };
+});
+---
+
+<StarlightPage
+  frontmatter={{
+    title: '星露谷物语实体资料',
+    description: '常用物品、NPC 与机器的完整资料入口。',
+    editUrl: false,
+  }}
+>
+  <div class="sv-entity-index">
+    <p>
+      这里集中放置表格、工具和地图会反复引用的条目，适合作为物品、人物和机器资料的总入口。
+    </p>
+
+    <div class="sv-entity-index-summary" aria-label="实体资料统计">
+      {groups.map((group) => (
+        <span>
+          <strong>{group.count}</strong>
+          {group.label}
+        </span>
+      ))}
+    </div>
+
+    {groups.map((group) => (
+      <section>
+        <h2>{group.label}</h2>
+        <div class="sv-entity-link-grid">
+          {group.items.map((entity) => (
+            <a href={entity.href}>
+              {entity.imageSrc && <img src={entity.imageSrc} alt="" loading="lazy" decoding="async" />}
+              <span>
+                <strong>{entity.title}</strong>
+                <small>{entity.kicker}</small>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</StarlightPage>
+
+<style>
+  .sv-entity-index {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .sv-entity-index-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .sv-entity-index-summary span {
+    align-items: baseline;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    display: inline-flex;
+    gap: 0.35rem;
+    padding: 0.45rem 0.7rem;
+  }
+
+  .sv-entity-index-summary strong {
+    color: var(--leaf-primary-hover);
+    font-size: 1.2rem;
+  }
+
+  .sv-entity-link-grid {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
+
+  .sv-entity-link-grid a {
+    align-items: center;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    min-height: 3.2rem;
+    padding: 0.55rem;
+    text-decoration: none;
+  }
+
+  .sv-entity-link-grid a:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    box-shadow: var(--leaf-shadow-card-hover);
+    color: var(--leaf-text);
+  }
+
+  .sv-entity-link-grid img {
+    display: block;
+    height: 2rem;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 2rem;
+  }
+
+  .sv-entity-link-grid span {
+    display: grid;
+    min-width: 0;
+  }
+
+  .sv-entity-link-grid strong {
+    color: var(--leaf-heading);
+    overflow-wrap: anywhere;
+  }
+
+  .sv-entity-link-grid a:hover strong {
+    color: var(--leaf-primary-hover);
+  }
+
+  .sv-entity-link-grid small {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+</style>

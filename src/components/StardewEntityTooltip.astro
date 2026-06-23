@@ -1,0 +1,298 @@
+<script>
+  type TooltipCard = {
+    imageSrc?: string;
+    kicker?: string;
+    title?: string;
+    body?: string;
+    stats?: string[];
+    href?: string;
+  };
+
+  const tooltipWindow = window as Window & { __svEntityTooltipReady?: boolean };
+
+  if (!tooltipWindow.__svEntityTooltipReady) {
+    tooltipWindow.__svEntityTooltipReady = true;
+
+    const parseCard = (target: HTMLElement): TooltipCard | null => {
+      try {
+        return JSON.parse(target.dataset.svCard || 'null');
+      } catch {
+        return null;
+      }
+    };
+
+    const ensureTooltip = (): HTMLElement => {
+      let tooltip = document.querySelector<HTMLElement>('.sv-entity-tooltip');
+      if (tooltip) return tooltip;
+
+      tooltip = document.createElement('div');
+      tooltip.className = 'sv-entity-tooltip';
+      tooltip.hidden = true;
+      document.body.append(tooltip);
+      return tooltip;
+    };
+
+    const renderTooltip = (tooltip: HTMLElement, card: TooltipCard) => {
+      tooltip.replaceChildren();
+
+      const header = document.createElement('div');
+      header.className = 'sv-entity-tooltip-header';
+
+      if (card.imageSrc) {
+        const imageWrap = document.createElement('span');
+        imageWrap.className = 'sv-entity-tooltip-image';
+        const image = document.createElement('img');
+        image.src = card.imageSrc;
+        image.alt = '';
+        image.loading = 'lazy';
+        image.decoding = 'async';
+        imageWrap.append(image);
+        header.append(imageWrap);
+      }
+
+      const titleWrap = document.createElement('span');
+      titleWrap.className = 'sv-entity-tooltip-title';
+      const kicker = document.createElement('span');
+      kicker.className = 'sv-entity-tooltip-kicker';
+      kicker.textContent = card.kicker || '条目';
+      const title = document.createElement('strong');
+      title.textContent = card.title || '条目';
+      titleWrap.append(kicker, title);
+      header.append(titleWrap);
+
+      const body = document.createElement('p');
+      body.textContent = card.body || '';
+
+      tooltip.append(header, body);
+
+      if (Array.isArray(card.stats) && card.stats.length) {
+        const stats = document.createElement('div');
+        stats.className = 'sv-entity-tooltip-stats';
+        for (const item of card.stats.slice(0, 5)) {
+          const stat = document.createElement('span');
+          stat.textContent = item;
+          stats.append(stat);
+        }
+        tooltip.append(stats);
+      }
+    };
+
+    const placeTooltip = (tooltip: HTMLElement, target: Element) => {
+      const rect = target.getBoundingClientRect();
+      const gap = 10;
+      const width = tooltip.offsetWidth;
+      const height = tooltip.offsetHeight;
+      const viewportWidth = document.documentElement.clientWidth;
+      const viewportHeight = document.documentElement.clientHeight;
+
+      let left = rect.left + rect.width / 2 - width / 2;
+      let top = rect.bottom + gap;
+
+      if (top + height + gap > viewportHeight) {
+        top = rect.top - height - gap;
+      }
+
+      left = Math.max(12, Math.min(left, viewportWidth - width - 12));
+      top = Math.max(12, Math.min(top, viewportHeight - height - 12));
+
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+    };
+
+    let activeTarget: Element | null = null;
+
+    const showTooltip = (target: Element) => {
+      if (!(target instanceof HTMLElement)) return;
+      const card = parseCard(target);
+      if (!card) return;
+      const tooltip = ensureTooltip();
+      activeTarget = target;
+      renderTooltip(tooltip, card);
+      tooltip.hidden = false;
+      tooltip.classList.add('is-visible');
+      requestAnimationFrame(() => placeTooltip(tooltip, target));
+    };
+
+    const hideTooltip = (target?: Element | null) => {
+      if (target && activeTarget && target !== activeTarget) return;
+      const tooltip = document.querySelector<HTMLElement>('.sv-entity-tooltip');
+      activeTarget = null;
+      if (!tooltip) return;
+      tooltip.classList.remove('is-visible');
+      tooltip.hidden = true;
+    };
+
+    document.addEventListener(
+      'pointerover',
+      (event) => {
+        const target = event.target instanceof Element ? event.target.closest('[data-sv-card]') : null;
+        const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+        if (!target || (related && target.contains(related))) return;
+        showTooltip(target);
+      },
+      true
+    );
+
+    document.addEventListener(
+      'pointerout',
+      (event) => {
+        const target = event.target instanceof Element ? event.target.closest('[data-sv-card]') : null;
+        const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+        if (!target || (related && target.contains(related))) return;
+        hideTooltip(target);
+      },
+      true
+    );
+
+    document.addEventListener('focusin', (event) => {
+      const target = event.target instanceof Element ? event.target.closest('[data-sv-card]') : null;
+      if (target) showTooltip(target);
+    });
+
+    document.addEventListener('focusout', (event) => {
+      const target = event.target instanceof Element ? event.target.closest('[data-sv-card]') : null;
+      if (target) hideTooltip(target);
+    });
+
+    window.addEventListener('scroll', () => hideTooltip(), { passive: true });
+    window.addEventListener('resize', () => hideTooltip(), { passive: true });
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') hideTooltip();
+    });
+  }
+</script>
+
+<style is:global>
+  .sv-entity-tooltip {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 22%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, color-mix(in srgb, var(--leaf-primary) 10%, transparent), transparent 48%),
+      var(--leaf-bg-card);
+    box-shadow: 0 16px 36px rgba(15, 23, 42, 0.22);
+    color: var(--leaf-text);
+    left: 0;
+    max-width: calc(100vw - 1.5rem);
+    overflow: hidden;
+    padding: 0.82rem;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 20rem;
+    z-index: 1000;
+  }
+
+  .sv-entity-tooltip::before {
+    background: linear-gradient(90deg, var(--leaf-primary), var(--leaf-accent-green));
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  :root[data-theme='dark'] .sv-entity-tooltip {
+    background:
+      linear-gradient(135deg, color-mix(in srgb, var(--leaf-primary) 12%, transparent), transparent 52%),
+      color-mix(in srgb, var(--leaf-bg-card) 90%, #111827);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.42);
+  }
+
+  .sv-entity-tooltip[hidden] {
+    display: none;
+  }
+
+  .sv-entity-tooltip-header {
+    align-items: center;
+    display: flex;
+    gap: 0.72rem;
+    min-width: 0;
+  }
+
+  .sv-entity-tooltip-image {
+    align-items: center;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 24%, var(--leaf-border));
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--leaf-bg) 84%, var(--leaf-primary));
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 2.55rem;
+    justify-content: center;
+    padding: 0.18rem;
+    width: 2.55rem;
+  }
+
+  .sv-entity-tooltip-image img {
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .sv-entity-tooltip-title {
+    display: grid;
+    gap: 0.24rem;
+    min-width: 0;
+  }
+
+  .sv-entity-tooltip-title strong {
+    color: var(--leaf-heading);
+    font-size: 1.06rem;
+    line-height: 1.22;
+    overflow-wrap: anywhere;
+  }
+
+  .sv-entity-tooltip-kicker {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 28%, var(--leaf-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 12%, var(--leaf-bg));
+    color: color-mix(in srgb, var(--leaf-primary-hover) 82%, var(--leaf-heading));
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.18rem 0.42rem;
+    width: fit-content;
+  }
+
+  .sv-entity-tooltip p {
+    color: var(--leaf-text);
+    font-size: 0.86rem;
+    line-height: 1.45;
+    margin: 0.72rem 0 0;
+  }
+
+  .sv-entity-tooltip-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.38rem;
+    margin-top: 0.72rem;
+  }
+
+  .sv-entity-tooltip-stats span {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 28%, var(--leaf-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 10%, var(--leaf-bg));
+    color: var(--leaf-heading);
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 0.22rem 0.5rem;
+  }
+
+  .sv-entity-tooltip-stats span:nth-child(2n) {
+    border-color: color-mix(in srgb, var(--leaf-accent-green) 34%, var(--leaf-border));
+    background: color-mix(in srgb, var(--leaf-accent-green) 11%, var(--leaf-bg));
+  }
+
+  :root[data-theme='dark'] .sv-entity-tooltip-kicker,
+  :root[data-theme='dark'] .sv-entity-tooltip-stats span {
+    background: color-mix(in srgb, var(--leaf-primary) 16%, var(--leaf-bg-card));
+  }
+
+  :root[data-theme='dark'] .sv-entity-tooltip-stats span:nth-child(2n) {
+    background: color-mix(in srgb, var(--leaf-accent-green) 14%, var(--leaf-bg-card));
+  }
+</style>

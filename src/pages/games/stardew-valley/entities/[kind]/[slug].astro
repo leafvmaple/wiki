@@ -1,0 +1,216 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import {
+  stardewEntityPages,
+  type StardewEntityPage,
+} from '../../../../../lib/stardewEntities';
+
+export function getStaticPaths() {
+  return stardewEntityPages.map((entity) => ({
+    params: { kind: entity.routeKind, slug: entity.slug },
+    props: { entity },
+  }));
+}
+
+const { entity } = Astro.props as { entity: StardewEntityPage };
+---
+
+<StarlightPage
+  frontmatter={{
+    title: entity.title,
+    description: entity.summary,
+    editUrl: false,
+  }}
+>
+  <article class="sv-entity-page">
+    <header class="sv-entity-header">
+      <span class:list={['sv-entity-main-icon', `is-${entity.iconKind}`, entity.imageSrc && 'has-image']} aria-hidden="true">
+        {entity.imageSrc ? <img src={entity.imageSrc} alt="" loading="lazy" decoding="async" /> : entity.title.slice(0, 1)}
+      </span>
+      <div>
+        <p class="sv-entity-kicker">{entity.kicker}</p>
+        <p>{entity.summary}</p>
+      </div>
+    </header>
+
+    {entity.stats.length > 0 && (
+      <div class="sv-entity-tags" aria-label="条目摘要">
+        {entity.stats.map((item) => <span>{item}</span>)}
+      </div>
+    )}
+
+    <h2>核心资料</h2>
+    <div class="leaf-infobox sv-entity-infobox">
+      <dl>
+        <dt>条目 ID</dt>
+        <dd>{entity.id}</dd>
+        {entity.fields.map((item) => (
+          <>
+            <dt>{item.label}</dt>
+            <dd>{item.value}</dd>
+          </>
+        ))}
+      </dl>
+    </div>
+
+    {entity.links.length > 0 && (
+      <>
+        <h2>相关入口</h2>
+        <div class="sv-entity-links">
+          {entity.links.map((link) => (
+            <a href={link.href}>{link.label}</a>
+          ))}
+        </div>
+      </>
+    )}
+
+    {entity.sections.map((section) => (
+      <section class="sv-entity-section">
+        <h2>{section.title}</h2>
+        {section.body && <p>{section.body}</p>}
+        {section.list && section.list.length > 0 && (
+          <ul>
+            {section.list.map((item) => <li>{item}</li>)}
+          </ul>
+        )}
+        {section.table && (
+          <table>
+            <thead>
+              <tr>
+                {section.table.columns.map((column) => <th>{column}</th>)}
+              </tr>
+            </thead>
+            <tbody>
+              {section.table.rows.map((row) => (
+                <tr>
+                  {row.map((cell) => <td>{cell}</td>)}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </section>
+    ))}
+  </article>
+</StarlightPage>
+
+<style>
+  .sv-entity-page {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .sv-entity-header {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto minmax(0, 1fr);
+    margin-bottom: 0.25rem;
+  }
+
+  .sv-entity-header p {
+    margin: 0;
+  }
+
+  .sv-entity-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .sv-entity-main-icon {
+    align-items: center;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 26%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-primary) 10%, var(--leaf-bg-card));
+    color: #ffffff;
+    display: inline-flex;
+    font-size: 1.8rem;
+    font-weight: 800;
+    height: 4.25rem;
+    justify-content: center;
+    padding: 0.4rem;
+    width: 4.25rem;
+  }
+
+  .sv-entity-main-icon.has-image {
+    background: color-mix(in srgb, var(--leaf-bg-card) 84%, var(--leaf-primary));
+  }
+
+  .sv-entity-main-icon img {
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .sv-entity-main-icon.is-npc {
+    border-radius: 999px;
+  }
+
+  .sv-entity-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .sv-entity-tags span,
+  .sv-entity-links a {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 28%, var(--leaf-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 9%, var(--leaf-bg));
+    color: var(--leaf-heading);
+    display: inline-flex;
+    font-size: 0.83rem;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 0.28rem 0.58rem;
+    text-decoration: none;
+  }
+
+  .sv-entity-tags span:nth-child(2n) {
+    border-color: color-mix(in srgb, var(--leaf-accent-green) 34%, var(--leaf-border));
+    background: color-mix(in srgb, var(--leaf-accent-green) 10%, var(--leaf-bg));
+  }
+
+  .sv-entity-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .sv-entity-links a:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 58%, var(--leaf-border));
+    color: var(--leaf-primary-hover);
+  }
+
+  .sv-entity-section {
+    min-width: 0;
+  }
+
+  .sv-entity-section ul {
+    margin-top: 0.5rem;
+  }
+
+  :root[data-theme='dark'] .sv-entity-tags span,
+  :root[data-theme='dark'] .sv-entity-links a {
+    background: color-mix(in srgb, var(--leaf-primary) 14%, var(--leaf-bg-card));
+  }
+
+  :root[data-theme='dark'] .sv-entity-tags span:nth-child(2n) {
+    background: color-mix(in srgb, var(--leaf-accent-green) 13%, var(--leaf-bg-card));
+  }
+
+  @media (max-width: 40rem) {
+    .sv-entity-header {
+      align-items: start;
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .sv-entity-main-icon {
+      height: 3.4rem;
+      width: 3.4rem;
+    }
+  }
+</style>

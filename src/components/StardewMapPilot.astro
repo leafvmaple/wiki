@@ -1,6 +1,7 @@
 ---
 import town from '../data/stardew-valley/generated/maps/town.json';
 import assets from '../data/stardew-valley/generated/assets.json';
+import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
 type MapPoint = {
   id: string;
@@ -67,6 +68,25 @@ const formatTarget = (point: MapPoint) => {
   return point.target.mapLabel;
 };
 
+const pointCardPayload = (point: MapPoint) => {
+  const typeLabel = typeLabels[point.type] ?? point.type;
+  const target = formatTarget(point);
+  const hours = formatHours(point);
+  const stats = [
+    `坐标 ${point.x}, ${point.y}`,
+    target !== '-' ? `目标 ${target}` : '',
+    hours !== '-' ? `时间 ${hours}` : '',
+    point.tileCount > 1 ? `范围 ${point.tileCount} 格` : '',
+  ].filter(Boolean);
+
+  return JSON.stringify({
+    kicker: `点位 · ${typeLabel}`,
+    title: point.label,
+    body: target !== '-' ? `${typeLabel}，通向 ${target}。` : `${typeLabel}，位于鹈鹕镇地图坐标 ${point.x}, ${point.y}。`,
+    stats,
+  });
+};
+
 const markerStyle = (point: MapPoint) =>
   `--x:${(point.x / Math.max(1, town.width - 1)) * 100}%; --y:${(point.y / Math.max(1, town.height - 1)) * 100}%;`;
 ---
@@ -94,8 +114,8 @@ const markerStyle = (point: MapPoint) =>
         type="button"
         class:list={['leaf-map-marker', `is-${point.type}`]}
         style={markerStyle(point)}
-        title={`${typeLabels[point.type] ?? point.type}：${point.label}`}
         aria-label={`${typeLabels[point.type] ?? point.type}：${point.label}`}
+        data-sv-card={pointCardPayload(point)}
         data-map-point
         data-map-point-id={point.id}
         data-type={point.type}
@@ -127,6 +147,8 @@ const markerStyle = (point: MapPoint) =>
       ))}
     </tbody>
   </table>
+
+  <StardewEntityTooltip />
 </div>
 
 <script is:inline>

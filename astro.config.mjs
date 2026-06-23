@@ -86,6 +86,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: '游戏总览', link: '/games/stardew-valley/' },
+            { label: '实体资料', link: '/games/stardew-valley/entities/' },
             { label: '作物索引', link: '/games/stardew-valley/crops/' },
             { label: '鱼类索引', link: '/games/stardew-valley/fishing/' },
             { label: '村民索引', link: '/games/stardew-valley/villagers/' },
