@@ -1,0 +1,32 @@
+---
+title: 攻略工具
+description: 星露谷物语作物、钓鱼、礼物、收集包和加工收益工具入口。
+game: '星露谷物语'
+lastVerified: '2026-06-24'
+tableOfContents: true
+sidebar:
+  order: 3
+  label: 攻略工具
+---
+
+<div className="leaf-meta-row">
+  <span className="leaf-badge">工具</span>
+  <span className="leaf-badge">浏览器端</span>
+  <span className="leaf-badge">建设中</span>
+</div>
+
+这个板块用于放传统条目页不够顺手的查询器和计算器。工具默认在浏览器端运行，不需要账号、后端或上传数据。
+
+## 工具队列
+
+| 工具 | 回答的问题 | 资料基础 |
+| --- | --- | --- |
+| 今日可钓鱼 | 当前季节、天气、时间能钓什么 | `Fish.json`、地点数据 |
+| 作物利润 | 这个季节种什么、最后哪天能种 | `Crops.json`、物品价格 |
+| 礼物查询 | 某 NPC 喜欢什么、今天是否生日 | `NPCGiftTastes`、`Characters.json` |
+| 收集包规划 | 还缺什么、哪里能拿到 | `Bundles.json`、物品索引 |
+| 机器加工 | 物品放进机器产什么、收益多少 | `Machines.json`、物品价格 |
+
+## 存档工具边界
+
+后续可以做存档进度分析，但必须只在浏览器本地读取文件，不上传、不保存、不接账号。

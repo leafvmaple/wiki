@@ -82,6 +82,17 @@ export default defineConfig({
           ],
         },
         {
+          label: '星露谷物语',
+          collapsed: true,
+          items: [
+            { label: '游戏总览', link: '/games/stardew-valley/' },
+            { label: '地图与点位', link: '/games/stardew-valley/maps/' },
+            { label: '攻略工具', link: '/games/stardew-valley/tools/' },
+            { label: '数据说明', link: '/games/stardew-valley/data-notes/' },
+            { label: '更新记录', link: '/games/stardew-valley/changelog/' },
+          ],
+        },
+        {
           label: '站点链接',
           collapsed: true,
           items: [

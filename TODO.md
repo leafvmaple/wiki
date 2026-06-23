@@ -16,5 +16,16 @@
 
 - [x] 决定是否需要版本字段：需要，使用 `gameVersion` 和 `lastVerified`
 - [x] 决定是否需要游戏级 changelog：需要，每个游戏保留 `changelog.mdx`
-- [ ] 决定图片/截图目录约定
+- [x] 决定图片/截图目录约定：公开截图放 `public/media/games/<game-slug>/screenshots/`
 - [x] 决定攻略页的状态标记：`draft`、`verified`、`outdated`、`needs-testing`
+
+## Roadmap
+
+- [x] 固化长期建设阶段：见 `STAGES.md`
+- [ ] Stage 0：统一个人攻略资料库文案，减少社区协作/审核暗示
+- [x] Stage 1：建立《星露谷物语》专区骨架
+- [ ] Stage 2：建立本地整理资料到公开派生数据的生成管线
+- [ ] Stage 3：生成作物、鱼类、村民、机器、商店索引
+- [ ] Stage 4：实现第一个可交互地图试点
+- [ ] Stage 5：实现第一批攻略工具
+- [ ] Stage 6：设计本地存档辅助工具

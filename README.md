@@ -38,7 +38,7 @@ wiki 是独立站，但整体风格要和 `leafvmaple.com` / moments 保持家�
 
 ## 当前内容结构
 
-站点按「游戏」作为一级入口，目前先维护《歧路旅人 0》：
+站点按「游戏」作为一级入口，目前维护《歧路旅人 0》，并开始搭建《星露谷物语》的数据驱动攻略专区：
 
 ```text
 src/content/docs/
@@ -53,6 +53,12 @@ src/content/docs/
 │     │  ├─ treasure/
 │     │  └─ recruit/
 │     └─ ...
+│  └─ stardew-valley/
+│     ├─ index.mdx
+│     ├─ maps/
+│     ├─ tools/
+│     ├─ data-notes.mdx
+│     └─ changelog.mdx
 ```
 
 ## 内容约定草案
@@ -63,6 +69,10 @@ src/content/docs/
 - 表格用于数值、材料、掉落、路线对比。
 - 每个游戏保留一个 `changelog.md`，记录攻略大改、版本迁移和内容状态。
 
+## 建设阶段
+
+长期建设阶段见 [`STAGES.md`](STAGES.md)。当前方向是个人攻略资料库，不引入账号、审核、页面历史等社区型 wiki 流程。
+
 ## 当前状态
 
-仓库已经完成 Starlight 骨架、视觉样式、GitHub Pages 部署配置和《歧路旅人 0》任务线内容入口。
+仓库已经完成 Starlight 骨架、视觉样式、GitHub Pages 部署配置、《歧路旅人 0》任务线内容入口，以及《星露谷物语》专区骨架。
