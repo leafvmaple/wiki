@@ -1,0 +1,336 @@
+---
+import town from '../data/stardew-valley/generated/maps/town.json';
+
+type MapPoint = {
+  id: string;
+  type: string;
+  label: string;
+  x: number;
+  y: number;
+  tileCount: number;
+  target?: {
+    mapLabel?: string;
+    x?: number;
+    y?: number;
+  };
+  hours?: {
+    open: number;
+    close: number;
+  };
+};
+
+const points = town.points as MapPoint[];
+const typeLabels: Record<string, string> = {
+  exit: '出口',
+  door: '门',
+  shop: '商店',
+  container: '可搜寻',
+  board: '公告',
+  message: '提示',
+  interaction: '互动',
+  barrier: '障碍',
+};
+const typeMarkers: Record<string, string> = {
+  exit: '出',
+  door: '门',
+  shop: '店',
+  container: '搜',
+  board: '告',
+  message: '提',
+  interaction: '互',
+  barrier: '障',
+};
+const typeOrder = ['exit', 'door', 'shop', 'container', 'board', 'message', 'interaction', 'barrier'];
+const counts = town.counts as Record<string, number>;
+const filters = typeOrder
+  .filter((type) => counts[type])
+  .map((type) => ({ type, label: typeLabels[type], count: counts[type] }));
+
+const formatGameTime = (value?: number) => {
+  if (!value) return '-';
+  const hour = Math.floor(value / 100);
+  const minute = value % 100;
+  const displayHour = hour >= 24 ? hour - 24 : hour;
+  const suffix = hour >= 24 ? ' +1' : '';
+  return `${String(displayHour).padStart(2, '0')}:${String(minute).padStart(2, '0')}${suffix}`;
+};
+
+const formatHours = (point: MapPoint) =>
+  point.hours ? `${formatGameTime(point.hours.open)}-${formatGameTime(point.hours.close)}` : '-';
+
+const formatTarget = (point: MapPoint) => {
+  if (!point.target?.mapLabel) return '-';
+  if (typeof point.target.x === 'number' && typeof point.target.y === 'number') {
+    return `${point.target.mapLabel} (${point.target.x}, ${point.target.y})`;
+  }
+  return point.target.mapLabel;
+};
+
+const markerStyle = (point: MapPoint) =>
+  `--x:${(point.x / Math.max(1, town.width - 1)) * 100}%; --y:${(point.y / Math.max(1, town.height - 1)) * 100}%;`;
+---
+
+<div class="leaf-map-tool" data-stardew-map>
+  <div class="leaf-map-summary" aria-label="地图摘要">
+    <span>{town.name}</span>
+    <span>{town.width} x {town.height}</span>
+    <span>{town.pointCount} 个点位</span>
+  </div>
+
+  <div class="leaf-map-filters" aria-label="点位筛选">
+    {filters.map((filter) => (
+      <label class="leaf-map-filter">
+        <input type="checkbox" value={filter.type} data-map-filter checked />
+        <span>{filter.label}</span>
+        <small>{filter.count}</small>
+      </label>
+    ))}
+  </div>
+
+  <div class="leaf-map-canvas" aria-label={`${town.name}点位图`}>
+    <div class="leaf-map-zone is-north">社区中心</div>
+    <div class="leaf-map-zone is-west">住宅区</div>
+    <div class="leaf-map-zone is-center">广场</div>
+    <div class="leaf-map-zone is-east">商店街</div>
+    <div class="leaf-map-zone is-south">河岸</div>
+    {points.map((point) => (
+      <button
+        type="button"
+        class:list={['leaf-map-marker', `is-${point.type}`]}
+        style={markerStyle(point)}
+        title={`${typeLabels[point.type] ?? point.type}：${point.label}`}
+        aria-label={`${typeLabels[point.type] ?? point.type}：${point.label}`}
+        data-map-point
+        data-map-point-id={point.id}
+        data-type={point.type}
+      >
+        {typeMarkers[point.type] ?? '点'}
+      </button>
+    ))}
+  </div>
+
+  <table class="leaf-map-table">
+    <thead>
+      <tr>
+        <th>类型</th>
+        <th>点位</th>
+        <th>坐标</th>
+        <th>目标</th>
+        <th>时间</th>
+      </tr>
+    </thead>
+    <tbody>
+      {points.map((point) => (
+        <tr data-map-row={point.id} data-type={point.type}>
+          <td>{typeLabels[point.type] ?? point.type}</td>
+          <td>{point.label}</td>
+          <td>{point.x}, {point.y}</td>
+          <td>{formatTarget(point)}</td>
+          <td>{formatHours(point)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<script is:inline>
+  (() => {
+    const tools = document.querySelectorAll('[data-stardew-map]');
+    for (const tool of tools) {
+      const filters = [...tool.querySelectorAll('[data-map-filter]')];
+      const points = [...tool.querySelectorAll('[data-map-point]')];
+      const rows = [...tool.querySelectorAll('[data-map-row]')];
+
+      const sync = () => {
+        const active = new Set(filters.filter((filter) => filter.checked).map((filter) => filter.value));
+        for (const item of [...points, ...rows]) {
+          item.hidden = !active.has(item.dataset.type);
+        }
+      };
+
+      for (const filter of filters) filter.addEventListener('change', sync);
+      for (const marker of points) {
+        marker.addEventListener('click', () => {
+          const row = tool.querySelector(`[data-map-row="${marker.dataset.mapPointId}"]`);
+          for (const activeRow of rows) activeRow.classList.remove('is-active');
+          row?.classList.add('is-active');
+          row?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        });
+      }
+      sync();
+    }
+  })();
+</script>
+
+<style>
+  .leaf-map-tool {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1.25rem 0;
+  }
+
+  .leaf-map-summary,
+  .leaf-map-filters {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .leaf-map-summary span,
+  .leaf-map-filter {
+    align-items: center;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    display: inline-flex;
+    gap: 0.35rem;
+    min-height: 1.85rem;
+    padding: 0.25rem 0.55rem;
+  }
+
+  .leaf-map-filter {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .leaf-map-filter input {
+    accent-color: var(--leaf-primary);
+  }
+
+  .leaf-map-filter small {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+
+  .leaf-map-canvas {
+    aspect-ratio: 130 / 110;
+    background:
+      linear-gradient(90deg, rgba(35, 183, 229, 0.08) 1px, transparent 1px),
+      linear-gradient(rgba(35, 183, 229, 0.08) 1px, transparent 1px),
+      #f7faf8;
+    background-size: calc(100% / 13) calc(100% / 11);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    min-height: 24rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  :root[data-theme='dark'] .leaf-map-canvas {
+    background:
+      linear-gradient(90deg, rgba(35, 183, 229, 0.14) 1px, transparent 1px),
+      linear-gradient(rgba(35, 183, 229, 0.14) 1px, transparent 1px),
+      #202522;
+  }
+
+  .leaf-map-zone {
+    align-items: center;
+    border: 1px solid rgba(35, 183, 229, 0.22);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-text-muted);
+    display: flex;
+    font-size: 0.82rem;
+    font-weight: 700;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .leaf-map-zone.is-north {
+    inset: 8% 38% auto 32%;
+    height: 17%;
+  }
+
+  .leaf-map-zone.is-west {
+    inset: 48% auto 18% 5%;
+    width: 25%;
+  }
+
+  .leaf-map-zone.is-center {
+    inset: 46% 41% 25% 32%;
+  }
+
+  .leaf-map-zone.is-east {
+    inset: 43% 8% 14% auto;
+    width: 26%;
+  }
+
+  .leaf-map-zone.is-south {
+    inset: auto 26% 4% 24%;
+    height: 14%;
+  }
+
+  .leaf-map-marker {
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 0.72rem;
+    font-weight: 700;
+    height: 1.45rem;
+    justify-content: center;
+    left: var(--x);
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    top: var(--y);
+    transform: translate(-50%, -50%);
+    width: 1.45rem;
+    z-index: 2;
+  }
+
+  .leaf-map-marker:hover,
+  .leaf-map-marker:focus-visible {
+    transform: translate(-50%, -50%) scale(1.18);
+    z-index: 4;
+  }
+
+  .leaf-map-marker.is-exit {
+    background: #198754;
+  }
+
+  .leaf-map-marker.is-door {
+    background: #23b7e5;
+  }
+
+  .leaf-map-marker.is-shop {
+    background: #d97706;
+  }
+
+  .leaf-map-marker.is-container {
+    background: #6f42c1;
+  }
+
+  .leaf-map-marker.is-board,
+  .leaf-map-marker.is-message {
+    background: #64748b;
+  }
+
+  .leaf-map-marker.is-interaction {
+    background: #db2777;
+  }
+
+  .leaf-map-marker.is-barrier {
+    background: #b42318;
+  }
+
+  .leaf-map-table tr.is-active {
+    background: rgba(35, 183, 229, 0.16);
+  }
+
+  @media (max-width: 40rem) {
+    .leaf-map-canvas {
+      min-height: 19rem;
+    }
+
+    .leaf-map-marker {
+      height: 1.25rem;
+      width: 1.25rem;
+    }
+  }
+</style>

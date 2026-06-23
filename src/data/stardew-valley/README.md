@@ -16,7 +16,12 @@ src/data/stardew-valley/
 ├─ generated/
 │  ├─ summary.json
 │  ├─ crops.json
-│  └─ fish.json
+│  ├─ fish.json
+│  ├─ villagers.json
+│  ├─ machines.json
+│  ├─ shops.json
+│  └─ maps/
+│     └─ town.json
 └─ README.md
 ```
 

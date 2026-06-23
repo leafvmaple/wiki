@@ -81,6 +81,178 @@ const itemLabel = (value, objects, objectStrings, bigCraftables, bigCraftableStr
 const unique = (items) => [...new Set(items.filter(Boolean))];
 const preview = (items, limit = 6) => unique(items).slice(0, limit);
 
+const locationLabels = {
+  ArchaeologyHouse: '博物馆',
+  Beach: '沙滩',
+  Blacksmith: '铁匠铺',
+  BusStop: '巴士站',
+  CommunityCenter: '社区中心',
+  Forest: '煤矿森林',
+  HaleyHouse: '海莉和艾米丽家',
+  Hospital: '诊所',
+  JojaMart: 'Joja 超市',
+  JoshHouse: '亚历克斯家',
+  ManorHouse: '镇长庄园',
+  Mountain: '深山',
+  Saloon: '星之果实餐吧',
+  SamHouse: '山姆家',
+  SeedShop: '皮埃尔杂货店',
+  Town: '鹈鹕镇',
+  Trailer: '拖车',
+};
+
+const decodeXmlValue = (value) =>
+  String(value ?? '')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+
+const parseXmlAttributes = (text) => {
+  const attributes = {};
+  for (const match of text.matchAll(/([:\w-]+)="([^"]*)"/g)) {
+    attributes[match[1]] = decodeXmlValue(match[2]);
+  }
+  return attributes;
+};
+
+const parsePropertiesBlock = (text) => {
+  const properties = {};
+  for (const match of text.matchAll(/<property\s+([^>]*?)\/>/g)) {
+    const attributes = parseXmlAttributes(match[1]);
+    if (attributes.name) {
+      properties[attributes.name] = attributes.value ?? '';
+    }
+  }
+  return properties;
+};
+
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+const formatEdge = (x, y, width, height) => {
+  if (x < 0) return '西侧出口';
+  if (x >= width) return '东侧出口';
+  if (y < 0) return '北侧出口';
+  if (y >= height) return '南侧出口';
+  return '出口';
+};
+
+const mapLabel = (id) => locationLabels[id] ?? id;
+
+const parseLockedDoorWarp = (value) => {
+  const parts = splitList(value);
+  if (parts[0] !== 'LockedDoorWarp' || parts.length < 6) return null;
+  return {
+    targetX: Number(parts[1]),
+    targetY: Number(parts[2]),
+    targetMap: parts[3],
+    openTime: Number(parts[4]),
+    closeTime: Number(parts[5]),
+  };
+};
+
+const describeAction = (value) => {
+  const door = parseLockedDoorWarp(value);
+  if (door) {
+    return {
+      type: 'door',
+      label: `${mapLabel(door.targetMap)}入口`,
+      target: {
+        map: door.targetMap,
+        mapLabel: mapLabel(door.targetMap),
+        x: door.targetX,
+        y: door.targetY,
+      },
+      hours: {
+        open: door.openTime,
+        close: door.closeTime,
+      },
+      groupKey: `door:${door.targetMap}`,
+    };
+  }
+
+  if (value === 'WarpCommunityCenter') {
+    return {
+      type: 'door',
+      label: '社区中心入口',
+      target: { map: 'CommunityCenter', mapLabel: mapLabel('CommunityCenter') },
+      groupKey: 'door:CommunityCenter',
+    };
+  }
+
+  if (value === 'Bookseller') {
+    return {
+      type: 'shop',
+      label: '书商摊位',
+      groupKey: 'shop:Bookseller',
+    };
+  }
+
+  if (value === 'IceCreamStand') {
+    return {
+      type: 'shop',
+      label: '冰淇淋摊',
+      groupKey: 'shop:IceCreamStand',
+    };
+  }
+
+  if (value.startsWith('Garbage ')) {
+    const target = value.replace('Garbage ', '');
+    return {
+      type: 'container',
+      label: `垃圾桶：${mapLabel(target)}`,
+      groupKey: `container:${target}`,
+    };
+  }
+
+  if (value.startsWith('Billboard ')) {
+    return {
+      type: 'board',
+      label: '公告栏',
+      groupKey: `board:${value}`,
+    };
+  }
+
+  if (value.startsWith('TownMailbox ')) {
+    return {
+      type: 'interaction',
+      label: `信箱 ${value.replace('TownMailbox ', '')}`,
+      groupKey: `mailbox:${value}`,
+    };
+  }
+
+  if (value.startsWith('Message ')) {
+    return {
+      type: 'message',
+      label: '提示牌',
+      groupKey: `message:${value}`,
+    };
+  }
+
+  if (value === 'EnterSewer') {
+    return {
+      type: 'door',
+      label: '下水道入口',
+      groupKey: 'door:Sewer',
+    };
+  }
+
+  if (value === 'DwarfGrave') {
+    return {
+      type: 'interaction',
+      label: '矮人墓碑',
+      groupKey: 'interaction:DwarfGrave',
+    };
+  }
+
+  return {
+    type: 'interaction',
+    label: '特殊互动点',
+    groupKey: `interaction:${value}`,
+  };
+};
+
 const splitList = (value) =>
   String(value ?? '')
     .split(/\s+/)
@@ -342,8 +514,130 @@ const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigC
     })
     .sort((a, b) => a.id.localeCompare(b.id));
 
+const groupPoints = (points) => {
+  const buckets = new Map();
+
+  for (const point of points) {
+    const key = point.groupKey ?? `${point.type}:${point.label}:${point.x}:${point.y}`;
+    const bucket = buckets.get(key) ?? {
+      ...point,
+      tiles: [],
+    };
+    bucket.tiles.push({ x: point.x, y: point.y });
+    buckets.set(key, bucket);
+  }
+
+  return [...buckets.values()]
+    .map((point, index) => {
+      const x = point.tiles.reduce((sum, tile) => sum + tile.x, 0) / point.tiles.length;
+      const y = point.tiles.reduce((sum, tile) => sum + tile.y, 0) / point.tiles.length;
+      const { groupKey, ...publicPoint } = point;
+      return {
+        ...publicPoint,
+        id: `${publicPoint.type}-${index + 1}`,
+        x: Number(x.toFixed(2)),
+        y: Number(y.toFixed(2)),
+        tileCount: point.tiles.length,
+      };
+    })
+    .sort((a, b) => a.y - b.y || a.x - b.x || a.label.localeCompare(b.label));
+};
+
+const parseWarpPoints = (value, mapInfo) => {
+  const parts = splitList(value);
+  const points = [];
+  for (let index = 0; index + 4 < parts.length; index += 5) {
+    const x = Number(parts[index]);
+    const y = Number(parts[index + 1]);
+    const targetMap = parts[index + 2];
+    const targetX = Number(parts[index + 3]);
+    const targetY = Number(parts[index + 4]);
+    points.push({
+      type: 'exit',
+      label: `${formatEdge(x, y, mapInfo.width, mapInfo.height)}：${mapLabel(targetMap)}`,
+      x: clamp(x, 0, mapInfo.width - 1),
+      y: clamp(y, 0, mapInfo.height - 1),
+      target: {
+        map: targetMap,
+        mapLabel: mapLabel(targetMap),
+        x: targetX,
+        y: targetY,
+      },
+      groupKey: `exit:${targetMap}:${targetX}:${targetY}`,
+    });
+  }
+  return points;
+};
+
+const buildMapPilot = async (mapId, fileName, displayName) => {
+  const text = await readFile(path.join(mapsDir, fileName), 'utf8');
+  const mapAttributes = parseXmlAttributes(text.match(/<map\s+([^>]+)>/)?.[1] ?? '');
+  const mapInfo = {
+    id: mapId,
+    name: displayName,
+    width: Number(mapAttributes.width),
+    height: Number(mapAttributes.height),
+    tileWidth: Number(mapAttributes.tilewidth),
+    tileHeight: Number(mapAttributes.tileheight),
+  };
+  const rootProperties = parsePropertiesBlock(text.match(/<map\b[^>]*>\s*<properties>([\s\S]*?)<\/properties>/)?.[1] ?? '');
+  const points = [];
+
+  if (rootProperties.Warp) {
+    points.push(...parseWarpPoints(rootProperties.Warp, mapInfo));
+  }
+
+  for (const groupMatch of text.matchAll(/<objectgroup\s+([^>]*?)>([\s\S]*?)<\/objectgroup>/g)) {
+    const groupAttributes = parseXmlAttributes(groupMatch[1]);
+    const layer = groupAttributes.name ?? 'unknown';
+    const body = groupMatch[2];
+    for (const objectMatch of body.matchAll(/<object\s+([^>]*?)>([\s\S]*?)<\/object>/g)) {
+      const objectAttributes = parseXmlAttributes(objectMatch[1]);
+      const properties = parsePropertiesBlock(objectMatch[2]);
+      const x = Number(objectAttributes.x) / mapInfo.tileWidth;
+      const y = Number(objectAttributes.y) / mapInfo.tileHeight;
+
+      for (const propertyName of ['Action', 'TouchAction']) {
+        if (!properties[propertyName]) continue;
+        points.push({
+          ...describeAction(properties[propertyName]),
+          x,
+          y,
+          layer,
+          property: propertyName,
+        });
+      }
+
+      if (properties.NPCBarrier) {
+        points.push({
+          type: 'barrier',
+          label: 'NPC 路线障碍',
+          x,
+          y,
+          layer,
+          property: 'NPCBarrier',
+          groupKey: `barrier:${x}:${y}`,
+        });
+      }
+    }
+  }
+
+  const groupedPoints = groupPoints(points);
+  return {
+    ...mapInfo,
+    pointCount: groupedPoints.length,
+    counts: groupedPoints.reduce((counts, point) => {
+      counts[point.type] = (counts[point.type] ?? 0) + 1;
+      return counts;
+    }, {}),
+    points: groupedPoints,
+  };
+};
+
 const writeJson = async (fileName, data) => {
-  await writeFile(path.join(outputRoot, fileName), `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+  const filePath = path.join(outputRoot, fileName);
+  await mkdir(path.dirname(filePath), { recursive: true });
+  await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 };
 
 const main = async () => {
@@ -392,6 +686,7 @@ const main = async () => {
   );
   const machineRows = buildMachines(machines, objects, objectStrings, bigCraftables, bigCraftableStrings);
   const shopRows = buildShops(shops, npcNames, objects, objectStrings, bigCraftables, bigCraftableStrings);
+  const townMap = await buildMapPilot('town', 'Town.tmx', '鹈鹕镇');
 
   await mkdir(outputRoot, { recursive: true });
 
@@ -408,13 +703,14 @@ const main = async () => {
       bundles: Object.keys(bundles).length,
       maps: mapCount,
     },
-    files: ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json'],
+    files: ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json', 'maps/town.json'],
   });
   await writeJson('crops.json', cropRows);
   await writeJson('fish.json', fishRows);
   await writeJson('villagers.json', villagerRows);
   await writeJson('machines.json', machineRows);
   await writeJson('shops.json', shopRows);
+  await writeJson('maps/town.json', townMap);
 
   console.log(`Generated Stardew Valley data in ${path.relative(repoRoot, outputRoot)}`);
 };

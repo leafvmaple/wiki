@@ -1,0 +1,930 @@
+{
+  "id": "town",
+  "name": "鹈鹕镇",
+  "width": 130,
+  "height": 110,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "pointCount": 43,
+  "counts": {
+    "exit": 9,
+    "door": 13,
+    "shop": 2,
+    "message": 4,
+    "board": 2,
+    "container": 8,
+    "interaction": 5
+  },
+  "points": [
+    {
+      "type": "exit",
+      "label": "北侧出口：深山",
+      "x": 81,
+      "y": 0,
+      "target": {
+        "map": "Mountain",
+        "mapLabel": "深山",
+        "x": 15,
+        "y": 40
+      },
+      "tiles": [
+        {
+          "x": 79,
+          "y": 0
+        },
+        {
+          "x": 80,
+          "y": 0
+        },
+        {
+          "x": 81,
+          "y": 0
+        },
+        {
+          "x": 82,
+          "y": 0
+        },
+        {
+          "x": 83,
+          "y": 0
+        }
+      ],
+      "id": "exit-3",
+      "tileCount": 5
+    },
+    {
+      "type": "exit",
+      "label": "北侧出口：深山",
+      "x": 90,
+      "y": 0,
+      "target": {
+        "map": "Mountain",
+        "mapLabel": "深山",
+        "x": 57,
+        "y": 40
+      },
+      "tiles": [
+        {
+          "x": 90,
+          "y": 0
+        }
+      ],
+      "id": "exit-7",
+      "tileCount": 1
+    },
+    {
+      "type": "exit",
+      "label": "北侧出口：深山",
+      "x": 98,
+      "y": 0,
+      "target": {
+        "map": "Mountain",
+        "mapLabel": "深山",
+        "x": 85,
+        "y": 40
+      },
+      "tiles": [
+        {
+          "x": 98,
+          "y": 0
+        }
+      ],
+      "id": "exit-8",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "社区中心入口",
+      "target": {
+        "map": "CommunityCenter",
+        "mapLabel": "社区中心"
+      },
+      "x": 52.5,
+      "y": 19,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 52,
+          "y": 19
+        },
+        {
+          "x": 53,
+          "y": 19
+        }
+      ],
+      "id": "door-10",
+      "tileCount": 2
+    },
+    {
+      "type": "shop",
+      "label": "书商摊位",
+      "x": 109.5,
+      "y": 26,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 109,
+          "y": 26
+        },
+        {
+          "x": 110,
+          "y": 26
+        }
+      ],
+      "id": "shop-11",
+      "tileCount": 2
+    },
+    {
+      "type": "door",
+      "label": "Joja 超市入口",
+      "target": {
+        "map": "JojaMart",
+        "mapLabel": "Joja 超市",
+        "x": 13,
+        "y": 29
+      },
+      "hours": {
+        "open": 900,
+        "close": 2300
+      },
+      "x": 95.5,
+      "y": 50,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 95,
+          "y": 50
+        },
+        {
+          "x": 96,
+          "y": 50
+        }
+      ],
+      "id": "door-12",
+      "tileCount": 2
+    },
+    {
+      "type": "exit",
+      "label": "西侧出口：巴士站",
+      "x": 0,
+      "y": 53.5,
+      "target": {
+        "map": "BusStop",
+        "mapLabel": "巴士站",
+        "x": 42,
+        "y": 23
+      },
+      "tiles": [
+        {
+          "x": 0,
+          "y": 53
+        },
+        {
+          "x": 0,
+          "y": 54
+        }
+      ],
+      "id": "exit-1",
+      "tileCount": 2
+    },
+    {
+      "type": "exit",
+      "label": "西侧出口：巴士站",
+      "x": 0,
+      "y": 55,
+      "target": {
+        "map": "BusStop",
+        "mapLabel": "巴士站",
+        "x": 42,
+        "y": 24
+      },
+      "tiles": [
+        {
+          "x": 0,
+          "y": 55
+        }
+      ],
+      "id": "exit-2",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "诊所入口",
+      "target": {
+        "map": "Hospital",
+        "mapLabel": "诊所",
+        "x": 10,
+        "y": 19
+      },
+      "hours": {
+        "open": 900,
+        "close": 1500
+      },
+      "x": 36,
+      "y": 55,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 36,
+          "y": 55
+        }
+      ],
+      "id": "door-13",
+      "tileCount": 1
+    },
+    {
+      "type": "message",
+      "label": "提示牌",
+      "x": 37,
+      "y": 55,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 37,
+          "y": 55
+        }
+      ],
+      "id": "message-14",
+      "tileCount": 1
+    },
+    {
+      "type": "board",
+      "label": "公告栏",
+      "x": 41,
+      "y": 56,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 41,
+          "y": 56
+        }
+      ],
+      "id": "board-15",
+      "tileCount": 1
+    },
+    {
+      "type": "board",
+      "label": "公告栏",
+      "x": 42,
+      "y": 56,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 42,
+          "y": 56
+        }
+      ],
+      "id": "board-16",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "皮埃尔杂货店入口",
+      "target": {
+        "map": "SeedShop",
+        "mapLabel": "皮埃尔杂货店",
+        "x": 6,
+        "y": 29
+      },
+      "hours": {
+        "open": 900,
+        "close": 2100
+      },
+      "x": 43.5,
+      "y": 56,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 43,
+          "y": 56
+        },
+        {
+          "x": 44,
+          "y": 56
+        }
+      ],
+      "id": "door-17",
+      "tileCount": 2
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：Joja 超市",
+      "x": 110,
+      "y": 56,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 110,
+          "y": 56
+        }
+      ],
+      "id": "container-18",
+      "tileCount": 1
+    },
+    {
+      "type": "interaction",
+      "label": "信箱 2",
+      "x": 49,
+      "y": 63,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 49,
+          "y": 63
+        }
+      ],
+      "id": "interaction-19",
+      "tileCount": 1
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：Evelyn",
+      "x": 52,
+      "y": 63,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 52,
+          "y": 63
+        }
+      ],
+      "id": "container-20",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "亚历克斯家入口",
+      "target": {
+        "map": "JoshHouse",
+        "mapLabel": "亚历克斯家",
+        "x": 9,
+        "y": 24
+      },
+      "hours": {
+        "open": 800,
+        "close": 2000
+      },
+      "x": 57,
+      "y": 63,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 57,
+          "y": 63
+        }
+      ],
+      "id": "door-21",
+      "tileCount": 1
+    },
+    {
+      "type": "interaction",
+      "label": "特殊互动点",
+      "x": 100,
+      "y": 66,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 100,
+          "y": 66
+        }
+      ],
+      "id": "interaction-22",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "拖车入口",
+      "target": {
+        "map": "Trailer",
+        "mapLabel": "拖车",
+        "x": 12,
+        "y": 9
+      },
+      "hours": {
+        "open": 900,
+        "close": 2000
+      },
+      "x": 72,
+      "y": 68,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 72,
+          "y": 68
+        }
+      ],
+      "id": "door-23",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "星之果实餐吧入口",
+      "target": {
+        "map": "Saloon",
+        "mapLabel": "星之果实餐吧",
+        "x": 14,
+        "y": 24
+      },
+      "hours": {
+        "open": 1200,
+        "close": 2400
+      },
+      "x": 45,
+      "y": 70,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 45,
+          "y": 70
+        }
+      ],
+      "id": "door-24",
+      "tileCount": 1
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：星之果实餐吧",
+      "x": 47,
+      "y": 70,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 47,
+          "y": 70
+        }
+      ],
+      "id": "container-25",
+      "tileCount": 1
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：铁匠铺",
+      "x": 97,
+      "y": 80,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 97,
+          "y": 80
+        }
+      ],
+      "id": "container-26",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "铁匠铺入口",
+      "target": {
+        "map": "Blacksmith",
+        "mapLabel": "铁匠铺",
+        "x": 5,
+        "y": 19
+      },
+      "hours": {
+        "open": 900,
+        "close": 1600
+      },
+      "x": 94,
+      "y": 81,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 94,
+          "y": 81
+        }
+      ],
+      "id": "door-27",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "山姆家入口",
+      "target": {
+        "map": "SamHouse",
+        "mapLabel": "山姆家",
+        "x": 4,
+        "y": 23
+      },
+      "hours": {
+        "open": 900,
+        "close": 2000
+      },
+      "x": 10,
+      "y": 85,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 10,
+          "y": 85
+        }
+      ],
+      "id": "door-28",
+      "tileCount": 1
+    },
+    {
+      "type": "message",
+      "label": "提示牌",
+      "x": 42,
+      "y": 85,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 42,
+          "y": 85
+        }
+      ],
+      "id": "message-29",
+      "tileCount": 1
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：Mayor",
+      "x": 56,
+      "y": 85,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 56,
+          "y": 85
+        }
+      ],
+      "id": "container-30",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "镇长庄园入口",
+      "target": {
+        "map": "ManorHouse",
+        "mapLabel": "镇长庄园",
+        "x": 4,
+        "y": 11
+      },
+      "hours": {
+        "open": 830,
+        "close": 2200
+      },
+      "x": 58.5,
+      "y": 85,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 58,
+          "y": 85
+        },
+        {
+          "x": 59,
+          "y": 85
+        }
+      ],
+      "id": "door-31",
+      "tileCount": 2
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：JodiAndKent",
+      "x": 13,
+      "y": 86,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 13,
+          "y": 86
+        }
+      ],
+      "id": "container-32",
+      "tileCount": 1
+    },
+    {
+      "type": "message",
+      "label": "提示牌",
+      "x": 47,
+      "y": 86,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 47,
+          "y": 86
+        }
+      ],
+      "id": "message-33",
+      "tileCount": 1
+    },
+    {
+      "type": "interaction",
+      "label": "矮人墓碑",
+      "x": 51,
+      "y": 86,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 51,
+          "y": 86
+        }
+      ],
+      "id": "interaction-34",
+      "tileCount": 1
+    },
+    {
+      "type": "interaction",
+      "label": "信箱 1",
+      "x": 8,
+      "y": 88,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 8,
+          "y": 88
+        }
+      ],
+      "id": "interaction-35",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "海莉和艾米丽家入口",
+      "target": {
+        "map": "HaleyHouse",
+        "mapLabel": "海莉和艾米丽家",
+        "x": 2,
+        "y": 24
+      },
+      "hours": {
+        "open": 900,
+        "close": 2000
+      },
+      "x": 20,
+      "y": 88,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 20,
+          "y": 88
+        }
+      ],
+      "id": "door-36",
+      "tileCount": 1
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：EmilyAndHaley",
+      "x": 19,
+      "y": 89,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 19,
+          "y": 89
+        }
+      ],
+      "id": "container-37",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "博物馆入口",
+      "target": {
+        "map": "ArchaeologyHouse",
+        "mapLabel": "博物馆",
+        "x": 3,
+        "y": 14
+      },
+      "hours": {
+        "open": 800,
+        "close": 1800
+      },
+      "x": 101,
+      "y": 89,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 101,
+          "y": 89
+        }
+      ],
+      "id": "door-38",
+      "tileCount": 1
+    },
+    {
+      "type": "message",
+      "label": "提示牌",
+      "x": 102,
+      "y": 89,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 102,
+          "y": 89
+        }
+      ],
+      "id": "message-39",
+      "tileCount": 1
+    },
+    {
+      "type": "exit",
+      "label": "西侧出口：煤矿森林",
+      "x": 0,
+      "y": 90.5,
+      "target": {
+        "map": "Forest",
+        "mapLabel": "煤矿森林",
+        "x": 118,
+        "y": 25
+      },
+      "tiles": [
+        {
+          "x": 0,
+          "y": 89
+        },
+        {
+          "x": 0,
+          "y": 90
+        },
+        {
+          "x": 0,
+          "y": 91
+        },
+        {
+          "x": 0,
+          "y": 92
+        }
+      ],
+      "id": "exit-4",
+      "tileCount": 4
+    },
+    {
+      "type": "container",
+      "label": "垃圾桶：Museum",
+      "x": 108,
+      "y": 91,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 108,
+          "y": 91
+        }
+      ],
+      "id": "container-40",
+      "tileCount": 1
+    },
+    {
+      "type": "shop",
+      "label": "冰淇淋摊",
+      "x": 88,
+      "y": 92,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 88,
+          "y": 92
+        }
+      ],
+      "id": "shop-41",
+      "tileCount": 1
+    },
+    {
+      "type": "interaction",
+      "label": "信箱 3",
+      "x": 94,
+      "y": 92,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 94,
+          "y": 92
+        }
+      ],
+      "id": "interaction-42",
+      "tileCount": 1
+    },
+    {
+      "type": "exit",
+      "label": "西侧出口：煤矿森林",
+      "x": 0,
+      "y": 93,
+      "target": {
+        "map": "Forest",
+        "mapLabel": "煤矿森林",
+        "x": 118,
+        "y": 26
+      },
+      "tiles": [
+        {
+          "x": 0,
+          "y": 93
+        }
+      ],
+      "id": "exit-5",
+      "tileCount": 1
+    },
+    {
+      "type": "door",
+      "label": "下水道入口",
+      "x": 34.5,
+      "y": 95.5,
+      "layer": "Back2",
+      "property": "Action",
+      "tiles": [
+        {
+          "x": 34,
+          "y": 95
+        },
+        {
+          "x": 35,
+          "y": 95
+        },
+        {
+          "x": 34,
+          "y": 96
+        },
+        {
+          "x": 35,
+          "y": 96
+        }
+      ],
+      "id": "door-43",
+      "tileCount": 4
+    },
+    {
+      "type": "exit",
+      "label": "南侧出口：沙滩",
+      "x": 54,
+      "y": 109,
+      "target": {
+        "map": "Beach",
+        "mapLabel": "沙滩",
+        "x": 38,
+        "y": 0
+      },
+      "tiles": [
+        {
+          "x": 53,
+          "y": 109
+        },
+        {
+          "x": 54,
+          "y": 109
+        },
+        {
+          "x": 55,
+          "y": 109
+        }
+      ],
+      "id": "exit-6",
+      "tileCount": 3
+    },
+    {
+      "type": "exit",
+      "label": "南侧出口：沙滩",
+      "x": 94,
+      "y": 109,
+      "target": {
+        "map": "Beach",
+        "mapLabel": "沙滩",
+        "x": 67,
+        "y": 0
+      },
+      "tiles": [
+        {
+          "x": 94,
+          "y": 109
+        }
+      ],
+      "id": "exit-9",
+      "tileCount": 1
+    }
+  ]
+}

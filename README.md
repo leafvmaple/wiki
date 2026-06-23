@@ -61,6 +61,7 @@ src/content/docs/
 │     ├─ machines/
 │     ├─ shops/
 │     ├─ maps/
+│     │  └─ town.mdx
 │     ├─ tools/
 │     ├─ data-notes.mdx
 │     └─ changelog.mdx
