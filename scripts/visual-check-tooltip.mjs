@@ -172,6 +172,51 @@ const inspectMapTooltip = async (page, origin) => {
   };
 };
 
+const inspectHomeCards = async (page, origin) => {
+  await page.goto(`${origin}/games/stardew-valley/`, { waitUntil: 'networkidle' });
+  await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+
+  const screenshotPath = join(screenshotRoot, 'stardew-home-cards.png');
+  await page.screenshot({ path: screenshotPath, fullPage: false });
+
+  const result = await page.evaluate(() => {
+    const cards = [...document.querySelectorAll('.sv-home-quick > a')];
+    const cardsWithIcons = cards.filter((card) => card.querySelector('.sv-icon-label'));
+    const nestedLinkCount = cards.reduce((count, card) => count + card.querySelectorAll('a').length, 0);
+    const brokenCards = cards.filter((card) => {
+      const rect = card.getBoundingClientRect();
+      const icon = card.querySelector('.sv-icon-label');
+      if (!icon) return true;
+      const iconRect = icon.getBoundingClientRect();
+      return iconRect.left < rect.left || iconRect.right > rect.right || iconRect.top < rect.top || iconRect.bottom > rect.bottom;
+    });
+
+    return {
+      cardCount: cards.length,
+      cardsWithIcons: cardsWithIcons.length,
+      nestedLinkCount,
+      brokenCardCount: brokenCards.length,
+      firstCardText: cards[0]?.textContent?.trim().replace(/\s+/g, ' ') ?? '',
+    };
+  });
+
+  const failures = [
+    result.cardCount === 5 ? '' : `expected 5 quick cards, got ${result.cardCount}`,
+    result.cardsWithIcons === 5 ? '' : `expected every quick card to contain an icon, got ${result.cardsWithIcons}`,
+    result.nestedLinkCount === 0 ? '' : `quick cards contain nested links: ${result.nestedLinkCount}`,
+    result.brokenCardCount === 0 ? '' : `quick card content is outside its card: ${result.brokenCardCount}`,
+    result.firstCardText.includes('今日可钓鱼') ? '' : 'first quick card text is missing',
+    result.firstCardText.length < 80 ? '' : 'first quick card contains unexpected script text',
+  ].filter(Boolean);
+
+  return {
+    mode: 'home-dark',
+    screenshotPath,
+    ...result,
+    failures,
+  };
+};
+
 const main = async () => {
   mkdirSync(screenshotRoot, { recursive: true });
   const { server, origin } = await serveDist();
@@ -188,6 +233,7 @@ const main = async () => {
       results.push(await inspectTooltip(page, origin, mode));
     }
     results.push(await inspectMapTooltip(page, origin));
+    results.push(await inspectHomeCards(page, origin));
 
     const failures = results.flatMap((result) => result.failures.map((failure) => `${result.mode}: ${failure}`));
     console.log(JSON.stringify({ origin, browserPath: browserPath ?? 'playwright-managed', results }, null, 2));

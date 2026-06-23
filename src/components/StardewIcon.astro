@@ -1,12 +1,12 @@
 ---
 import assets from '../data/stardew-valley/generated/assets.json';
 import { getStardewEntityCard } from '../lib/stardewEntityCards';
-import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
-const { kind = 'item', label = '', compact = false, assetId, assetKind, assetLabel } = Astro.props as {
+const { kind = 'item', label = '', compact = false, link = true, assetId, assetKind, assetLabel } = Astro.props as {
   kind?: string;
   label?: string;
   compact?: boolean;
+  link?: boolean;
   assetId?: string | number;
   assetKind?: string;
   assetLabel?: string;
@@ -31,10 +31,11 @@ const imageSrc =
   assets.labels[normalize(label) as keyof typeof assets.labels];
 const entityCard = getStardewEntityCard({ kind, label, assetId, assetKind, assetLabel });
 const entityCardPayload = entityCard ? JSON.stringify({ ...entityCard, imageSrc }) : undefined;
+const shouldLink = link !== false && entityCard?.href;
 ---
 
 {
-  entityCard?.href ? (
+  shouldLink ? (
     <a
       class:list={['sv-icon-label', compact && 'is-compact', entityCard && 'has-card', 'has-link']}
       href={entityCard.href}
@@ -54,8 +55,6 @@ const entityCardPayload = entityCard ? JSON.stringify({ ...entityCard, imageSrc 
     </span>
   )
 }
-
-<StardewEntityTooltip />
 
 <style>
   .sv-icon-label {

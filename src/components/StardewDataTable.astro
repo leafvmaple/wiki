@@ -5,6 +5,7 @@ import machines from '../data/stardew-valley/generated/machines.json';
 import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
 import StardewIcon from './StardewIcon.astro';
+import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
 type DataRow = Record<string, any>;
 type TimeRange = { start: number; end: number };
@@ -254,6 +255,8 @@ const shopRows = sliceRows(shops as DataRow[]);
     </tbody>
   </table>
 )}
+
+<StardewEntityTooltip />
 
 <style>
   .sv-mini-list {

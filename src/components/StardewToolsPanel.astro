@@ -5,6 +5,7 @@ import villagers from '../data/stardew-valley/generated/villagers.json';
 import bundles from '../data/stardew-valley/generated/bundles.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import StardewIcon from './StardewIcon.astro';
+import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
 type DataRow = Record<string, any>;
 type TimeRange = { start: number; end: number };
@@ -322,6 +323,7 @@ const formatOutputNote = (rule: DataRow) =>
                       assetId={item.itemId}
                       label={item.label}
                       compact
+                      link={false}
                     />
                     {formatBundleNeed(item) && <small>{formatBundleNeed(item)}</small>}
                   </label>
@@ -429,6 +431,8 @@ const formatOutputNote = (rule: DataRow) =>
     </table>
   </section>
 </div>
+
+<StardewEntityTooltip />
 
 <script is:inline>
   (() => {

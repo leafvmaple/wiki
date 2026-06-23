@@ -7,6 +7,7 @@ import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
 import assets from '../data/stardew-valley/generated/assets.json';
 import StardewIcon from './StardewIcon.astro';
+import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
 type LinkItem = {
   label: string;
@@ -103,7 +104,14 @@ const denseGroups: { title: string; items: LinkItem[] }[] = [
 <section class="sv-home-quick" aria-label="常用入口">
   {quickLinks.map((item) => (
     <a href={item.href}>
-      <StardewIcon kind={item.kind} label={item.label} assetId={item.assetId} assetKind={item.assetKind} assetLabel={item.assetLabel} />
+      <StardewIcon
+        kind={item.kind}
+        label={item.label}
+        assetId={item.assetId}
+        assetKind={item.assetKind}
+        assetLabel={item.assetLabel}
+        link={false}
+      />
       <span>{item.desc}</span>
     </a>
   ))}
@@ -116,7 +124,7 @@ const denseGroups: { title: string; items: LinkItem[] }[] = [
       <div class="sv-home-links">
         {group.items.map((item) => (
           <a href={item.href}>
-            <StardewIcon kind={item.kind} label={item.label} compact />
+            <StardewIcon kind={item.kind} label={item.label} compact link={false} />
           </a>
         ))}
       </div>
@@ -131,13 +139,23 @@ const denseGroups: { title: string; items: LinkItem[] }[] = [
       <div class="sv-home-chipset">
         {group.items.map((item) => (
           <a href={item.href}>
-            <StardewIcon kind={item.kind} label={item.label} compact assetId={item.assetId} assetKind={item.assetKind} assetLabel={item.assetLabel} />
+            <StardewIcon
+              kind={item.kind}
+              label={item.label}
+              compact
+              assetId={item.assetId}
+              assetKind={item.assetKind}
+              assetLabel={item.assetLabel}
+              link={false}
+            />
           </a>
         ))}
       </div>
     </div>
   ))}
 </section>
+
+<StardewEntityTooltip />
 
 <style>
   .sv-home-hero {
