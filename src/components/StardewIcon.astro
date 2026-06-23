@@ -1,16 +1,38 @@
 ---
-const { kind = 'item', label = '', compact = false } = Astro.props as {
+import assets from '../data/stardew-valley/generated/assets.json';
+
+const { kind = 'item', label = '', compact = false, assetId, assetKind, assetLabel } = Astro.props as {
   kind?: string;
   label?: string;
   compact?: boolean;
+  assetId?: string | number;
+  assetKind?: string;
+  assetLabel?: string;
 };
 
 const text = String(label || '?');
 const letter = text.trim().slice(0, 1).toUpperCase() || '?';
+const normalize = (value?: string | number) => String(value ?? '').trim().toLowerCase();
+const lookupKind = assetKind ?? kind;
+const id = String(assetId ?? '');
+const byKind =
+  lookupKind === 'npc'
+    ? assets.npcsById[id as keyof typeof assets.npcsById]
+    : lookupKind === 'machine' || lookupKind === 'big-craftable'
+      ? assets.bigCraftablesById[id as keyof typeof assets.bigCraftablesById]
+      : lookupKind === 'object' || lookupKind === 'item' || lookupKind === 'crop' || lookupKind === 'fish'
+        ? assets.objectsById[id as keyof typeof assets.objectsById]
+        : undefined;
+const imageSrc =
+  byKind ??
+  assets.labels[normalize(assetLabel) as keyof typeof assets.labels] ??
+  assets.labels[normalize(label) as keyof typeof assets.labels];
 ---
 
 <span class:list={['sv-icon-label', compact && 'is-compact']}>
-  <span class:list={['sv-icon', `is-${kind}`]} aria-hidden="true">{letter}</span>
+  <span class:list={['sv-icon', `is-${kind}`, imageSrc && 'has-image']} aria-hidden="true">
+    {imageSrc ? <img src={imageSrc} alt="" loading="lazy" decoding="async" /> : letter}
+  </span>
   <span class="sv-icon-text">{text}</span>
 </span>
 
@@ -47,6 +69,24 @@ const letter = text.trim().slice(0, 1).toUpperCase() || '?';
     letter-spacing: 0;
     line-height: 1;
     width: 1.55rem;
+  }
+
+  .sv-icon.has-image {
+    background: rgba(255, 255, 255, 0.72);
+    overflow: hidden;
+    padding: 0.08rem;
+  }
+
+  :root[data-theme='dark'] .sv-icon.has-image {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .sv-icon img {
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
   }
 
   .sv-icon-label.is-compact .sv-icon {

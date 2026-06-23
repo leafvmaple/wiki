@@ -5,7 +5,7 @@
 约定：
 
 - 数据从本地整理资料生成。
-- 不提交本地资源包、批量素材或完整文本库。
+- 不提供批量图片下载或完整文本库。
 - 只提交攻略站需要的最小字段。
 - 生成文件应标注生成时间和适用游戏版本。
 
@@ -20,6 +20,7 @@ src/data/stardew-valley/
 │  ├─ villagers.json
 │  ├─ machines.json
 │  ├─ shops.json
+│  ├─ assets.json
 │  └─ maps/
 │     └─ town.json
 └─ README.md
@@ -29,4 +30,5 @@ src/data/stardew-valley/
 
 ```powershell
 npm run generate:stardew -- <local-data-dir>
+npm run generate:stardew-assets -- <local-data-dir>
 ```

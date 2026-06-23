@@ -5,6 +5,7 @@ import fish from '../data/stardew-valley/generated/fish.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import assets from '../data/stardew-valley/generated/assets.json';
 import StardewIcon from './StardewIcon.astro';
 
 type LinkItem = {
@@ -12,12 +13,15 @@ type LinkItem = {
   href: string;
   kind: string;
   desc?: string;
+  assetId?: string | number;
+  assetKind?: string;
+  assetLabel?: string;
 };
 
 const quickLinks: LinkItem[] = [
-  { label: '今日可钓鱼', href: '/games/stardew-valley/tools/', kind: 'fish', desc: '按季节、天气和时间筛选' },
-  { label: '作物播种估算', href: '/games/stardew-valley/tools/', kind: 'crop', desc: '看最晚播种日和基础差值' },
-  { label: '礼物快查', href: '/games/stardew-valley/tools/', kind: 'npc', desc: '按村民或礼物名搜索' },
+  { label: '今日可钓鱼', href: '/games/stardew-valley/tools/', kind: 'fish', desc: '按季节、天气和时间筛选', assetId: '705', assetKind: 'object' },
+  { label: '作物播种估算', href: '/games/stardew-valley/tools/', kind: 'crop', desc: '看最晚播种日和基础差值', assetLabel: '胡萝卜' },
+  { label: '礼物快查', href: '/games/stardew-valley/tools/', kind: 'npc', desc: '按村民或礼物名搜索', assetId: 'Abigail', assetKind: 'npc' },
   { label: '鹈鹕镇地图', href: '/games/stardew-valley/maps/town/', kind: 'map', desc: '查看门、出口和互动点' },
   { label: '存档辅助', href: '/games/stardew-valley/tools/save-helper/', kind: 'save', desc: '本地读取基础进度' },
 ];
@@ -51,25 +55,25 @@ const directoryGroups = [
   },
 ];
 
-const featuredVillagers = (villagers as any[])
+const featuredVillagers: LinkItem[] = (villagers as any[])
   .filter((item) => item.canReceiveGifts && item.birthSeason)
   .slice(0, 12)
-  .map((item) => ({ label: item.nameZh, href: '/games/stardew-valley/villagers/', kind: 'npc' }));
-const featuredCrops = (crops as any[])
+  .map((item) => ({ label: item.nameZh, href: '/games/stardew-valley/villagers/', kind: 'npc', assetId: item.id, assetKind: 'npc' }));
+const featuredCrops: LinkItem[] = (crops as any[])
   .slice(0, 10)
-  .map((item) => ({ label: item.harvestNameZh ?? item.harvestName, href: '/games/stardew-valley/crops/', kind: 'crop' }));
-const featuredFish = (fish as any[])
+  .map((item) => ({ label: item.harvestNameZh ?? item.harvestName, href: '/games/stardew-valley/crops/', kind: 'crop', assetId: item.harvestItemId, assetKind: 'object' }));
+const featuredFish: LinkItem[] = (fish as any[])
   .slice(0, 10)
-  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/fishing/', kind: 'fish' }));
-const featuredMachines = (machines as any[])
+  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/fishing/', kind: 'fish', assetId: item.id, assetKind: 'object' }));
+const featuredMachines: LinkItem[] = (machines as any[])
   .slice(0, 8)
-  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/machines/', kind: 'machine' }));
-const featuredShops = (shops as any[])
+  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/machines/', kind: 'machine', assetId: item.id, assetKind: 'machine' }));
+const featuredShops: LinkItem[] = (shops as any[])
   .filter((item) => item.itemCount > 8)
   .slice(0, 8)
-  .map((item) => ({ label: item.owners?.[0] ? `${item.owners[0]} · ${item.id}` : item.id, href: '/games/stardew-valley/shops/', kind: 'shop' }));
+  .map((item) => ({ label: item.owners?.[0] ? `${item.owners[0]} · ${item.id}` : item.id, href: '/games/stardew-valley/shops/', kind: 'shop', assetLabel: item.owners?.[0], assetKind: 'npc' }));
 
-const denseGroups = [
+const denseGroups: { title: string; items: LinkItem[] }[] = [
   { title: '村民', items: featuredVillagers },
   { title: '作物', items: featuredCrops },
   { title: '鱼类', items: featuredFish },
@@ -78,12 +82,12 @@ const denseGroups = [
 ];
 ---
 
-<section class="sv-home-hero">
+<section class="sv-home-hero" style={`--sv-home-hero-image: url("${assets.hero.stardewValley}")`}>
   <div class="sv-home-title">
     <p class="sv-home-kicker">个人攻略资料库</p>
     <h1>星露谷物语</h1>
     <p>
-      把常查资料、地图点位、浏览器工具和本地进度辅助集中到一个入口。先解决“查得快”，再逐步补路线、截图和更细的玩法页。
+      把常查资料、地图点位、浏览器工具和本地进度辅助集中到一个入口。先解决“查得快”，再逐步补路线和更细的玩法页。
     </p>
   </div>
   <div class="sv-home-stats" aria-label="数据快照">
@@ -99,7 +103,7 @@ const denseGroups = [
 <section class="sv-home-quick" aria-label="常用入口">
   {quickLinks.map((item) => (
     <a href={item.href}>
-      <StardewIcon kind={item.kind} label={item.label} />
+      <StardewIcon kind={item.kind} label={item.label} assetId={item.assetId} assetKind={item.assetKind} assetLabel={item.assetLabel} />
       <span>{item.desc}</span>
     </a>
   ))}
@@ -127,7 +131,7 @@ const denseGroups = [
       <div class="sv-home-chipset">
         {group.items.map((item) => (
           <a href={item.href}>
-            <StardewIcon kind={item.kind} label={item.label} compact />
+            <StardewIcon kind={item.kind} label={item.label} compact assetId={item.assetId} assetKind={item.assetKind} assetLabel={item.assetLabel} />
           </a>
         ))}
       </div>
@@ -139,10 +143,9 @@ const denseGroups = [
   .sv-home-hero {
     border: 1px solid var(--leaf-border);
     border-radius: var(--leaf-radius-card);
-    background:
-      linear-gradient(135deg, rgba(39, 194, 76, 0.1), transparent 42%),
-      linear-gradient(315deg, rgba(208, 138, 29, 0.12), transparent 48%),
-      var(--leaf-bg-card);
+    background: linear-gradient(90deg, rgba(14, 31, 27, 0.86), rgba(14, 31, 27, 0.38)), var(--sv-home-hero-image);
+    background-position: center;
+    background-size: cover;
     box-shadow: var(--leaf-shadow-card);
     display: grid;
     gap: 1rem;
@@ -154,19 +157,20 @@ const denseGroups = [
   }
 
   .sv-home-kicker {
-    color: var(--leaf-primary-hover);
+    color: #b9f3ff;
     font-weight: 800;
     margin: 0 0 0.2rem;
   }
 
   .sv-home-title h1 {
+    color: #ffffff;
     font-size: 2.45rem;
     line-height: 1;
     margin: 0 0 0.7rem;
   }
 
   .sv-home-title p:last-child {
-    color: var(--leaf-text);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 1.02rem;
     max-width: 42rem;
   }
@@ -181,7 +185,7 @@ const denseGroups = [
   .sv-home-stats span {
     border: 1px solid var(--leaf-border);
     border-radius: var(--leaf-radius-card);
-    background: rgba(255, 255, 255, 0.68);
+    background: rgba(255, 255, 255, 0.84);
     color: var(--leaf-text);
     display: grid;
     gap: 0.1rem;
@@ -190,7 +194,8 @@ const denseGroups = [
   }
 
   :root[data-theme='dark'] .sv-home-stats span {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(17, 24, 39, 0.74);
+    border-color: rgba(255, 255, 255, 0.12);
   }
 
   .sv-home-stats strong {

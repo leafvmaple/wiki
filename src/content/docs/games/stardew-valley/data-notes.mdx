@@ -25,16 +25,16 @@ import StardewDataSnapshot from '../../../../components/StardewDataSnapshot.astr
 | --- | --- |
 | 自己整理的攻略 | 路线、建议、解释、注意事项 |
 | 派生统计 | 数量、筛选结果、利润计算、条件摘要 |
-| 少量自制截图 | 用于说明具体玩法或地图位置 |
+| 页面展示用图 | 小图标、水印地图、首页图和少量说明图 |
 | 手工整理的点位 | 传送点、商店、任务点、NPC 路线摘要 |
 
 ## 不直接公开的内容
 
 | 类型 | 说明 |
 | --- | --- |
-| 本地资源包 | 不把完整资源文件作为站点资源发布 |
+| 完整可复用资源 | 不把完整资源文件作为站点资源发布 |
 | 完整对白库 | 不发布可替代游戏体验的大段原文文本 |
-| 完整贴图表 | 不把角色、物品、地图贴图批量做成公开素材库 |
+| 批量图片下载 | 不提供角色、物品、地图图片的批量下载入口 |
 | 可还原游戏内容的数据包 | 不提供可直接替代游戏本体的数据镜像 |
 
 ## 本地到公开的流程
@@ -43,7 +43,7 @@ import StardewDataSnapshot from '../../../../components/StardewDataSnapshot.astr
 2. 生成最小化的派生 JSON。
 3. 只保留攻略站需要的字段。
 4. 页面从派生 JSON 生成表格、筛选和工具。
-5. 每次更新后运行 `npm run generate:stardew -- <local-data-dir>` 和 `npm run build`。
+5. 每次更新后运行 `npm run generate:stardew -- <local-data-dir>`、`npm run generate:stardew-assets -- <local-data-dir>` 和 `npm run build`。
 
 ## 当前快照
 

@@ -1,5 +1,6 @@
 ---
 import town from '../data/stardew-valley/generated/maps/town.json';
+import assets from '../data/stardew-valley/generated/assets.json';
 
 type MapPoint = {
   id: string;
@@ -87,12 +88,7 @@ const markerStyle = (point: MapPoint) =>
     ))}
   </div>
 
-  <div class="leaf-map-canvas" aria-label={`${town.name}点位图`}>
-    <div class="leaf-map-zone is-north">社区中心</div>
-    <div class="leaf-map-zone is-west">住宅区</div>
-    <div class="leaf-map-zone is-center">广场</div>
-    <div class="leaf-map-zone is-east">商店街</div>
-    <div class="leaf-map-zone is-south">河岸</div>
+  <div class="leaf-map-canvas" style={`--leaf-map-image: url("${assets.maps.town}")`} aria-label={`${town.name}点位图`}>
     {points.map((point) => (
       <button
         type="button"
@@ -206,60 +202,18 @@ const markerStyle = (point: MapPoint) =>
 
   .leaf-map-canvas {
     aspect-ratio: 130 / 110;
-    background:
-      linear-gradient(90deg, rgba(35, 183, 229, 0.08) 1px, transparent 1px),
-      linear-gradient(rgba(35, 183, 229, 0.08) 1px, transparent 1px),
-      #f7faf8;
-    background-size: calc(100% / 13) calc(100% / 11);
+    background: var(--leaf-map-image) center / cover no-repeat;
     border: 1px solid var(--leaf-border);
     border-radius: var(--leaf-radius-card);
     box-shadow: var(--leaf-shadow-card);
+    image-rendering: pixelated;
     min-height: 24rem;
     overflow: hidden;
     position: relative;
   }
 
   :root[data-theme='dark'] .leaf-map-canvas {
-    background:
-      linear-gradient(90deg, rgba(35, 183, 229, 0.14) 1px, transparent 1px),
-      linear-gradient(rgba(35, 183, 229, 0.14) 1px, transparent 1px),
-      #202522;
-  }
-
-  .leaf-map-zone {
-    align-items: center;
-    border: 1px solid rgba(35, 183, 229, 0.22);
-    border-radius: var(--leaf-radius-card);
-    color: var(--leaf-text-muted);
-    display: flex;
-    font-size: 0.82rem;
-    font-weight: 700;
-    justify-content: center;
-    position: absolute;
-  }
-
-  .leaf-map-zone.is-north {
-    inset: 8% 38% auto 32%;
-    height: 17%;
-  }
-
-  .leaf-map-zone.is-west {
-    inset: 48% auto 18% 5%;
-    width: 25%;
-  }
-
-  .leaf-map-zone.is-center {
-    inset: 46% 41% 25% 32%;
-  }
-
-  .leaf-map-zone.is-east {
-    inset: 43% 8% 14% auto;
-    width: 26%;
-  }
-
-  .leaf-map-zone.is-south {
-    inset: auto 26% 4% 24%;
-    height: 14%;
+    box-shadow: 0 0 0 1px rgba(35, 183, 229, 0.12);
   }
 
   .leaf-map-marker {
@@ -340,10 +294,6 @@ const markerStyle = (point: MapPoint) =>
       height: 1.5rem;
       touch-action: manipulation;
       width: 1.5rem;
-    }
-
-    .leaf-map-zone {
-      font-size: 0.72rem;
     }
 
     .leaf-map-table {

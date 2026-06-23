@@ -1,11 +1,21 @@
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataRoot = path.join(repoRoot, 'src', 'data', 'stardew-valley', 'generated');
+const publicRoot = path.join(repoRoot, 'public');
 
 const readJson = async (fileName) => JSON.parse(await readFile(path.join(dataRoot, fileName), 'utf8'));
+const publicAssetPath = (assetPath) => path.join(publicRoot, assetPath.replace(/^\//, ''));
+const fileExists = async (assetPath) => {
+  try {
+    await access(publicAssetPath(assetPath));
+    return true;
+  } catch {
+    return false;
+  }
+};
 
 const assert = (condition, message) => {
   if (!condition) {
@@ -14,7 +24,7 @@ const assert = (condition, message) => {
 };
 
 const main = async () => {
-  const [summary, crops, fish, villagers, machines, shops, town] = await Promise.all([
+  const [summary, crops, fish, villagers, machines, shops, town, assets] = await Promise.all([
     readJson('summary.json'),
     readJson('crops.json'),
     readJson('fish.json'),
@@ -22,6 +32,7 @@ const main = async () => {
     readJson('machines.json'),
     readJson('shops.json'),
     readJson(path.join('maps', 'town.json')),
+    readJson('assets.json'),
   ]);
 
   const expectedFiles = ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json', 'maps/town.json'];
@@ -37,6 +48,13 @@ const main = async () => {
   assert(town.id === 'town', 'Town map id is invalid');
   assert(town.points.length === town.pointCount, 'Town map point count does not match');
   assert(town.pointCount > 0, 'Town map has no points');
+  assert(assets.counts.objects >= summary.counts.objects, 'Visual object icon count is too low');
+  assert(assets.counts.bigCraftables > 0, 'Visual machine icon count is empty');
+  assert(assets.counts.npcs > 0, 'Visual NPC icon count is empty');
+  assert(assets.objectsById['705'], 'Visual assets are missing a representative fish icon');
+  assert(assets.npcsById.Abigail, 'Visual assets are missing a representative NPC icon');
+  assert(assets.maps.town && (await fileExists(assets.maps.town)), 'Town map image is missing');
+  assert(assets.hero.stardewValley && (await fileExists(assets.hero.stardewValley)), 'Stardew Valley hero image is missing');
 
   console.log('Stardew Valley generated data validation passed.');
 };

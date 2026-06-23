@@ -96,7 +96,7 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
             data-weather={item.weather ?? 'both'}
             data-ranges={formatRanges(item.timeRanges)}
           >
-            <td><StardewIcon kind="fish" label={item.nameZh ?? item.name} /></td>
+            <td><StardewIcon kind="fish" assetKind="object" assetId={item.id} label={item.nameZh ?? item.name} /></td>
             <td>{methodLabels[item.method] ?? item.method}</td>
             <td>{formatSeasons(item.seasons)}</td>
             <td>{formatTimeRanges(item.timeRanges)}</td>
@@ -149,8 +149,8 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
             data-seed-price={crop.seedBasePrice ?? 0}
             data-harvest-value={crop.averageHarvestBaseValue ?? 0}
           >
-            <td><StardewIcon kind="crop" label={crop.seedNameZh ?? crop.seedName} /></td>
-            <td><StardewIcon kind="item" label={crop.harvestNameZh ?? crop.harvestName} /></td>
+            <td><StardewIcon kind="crop" assetKind="object" assetId={crop.seedId} label={crop.seedNameZh ?? crop.seedName} /></td>
+            <td><StardewIcon kind="item" assetKind="object" assetId={crop.harvestItemId} label={crop.harvestNameZh ?? crop.harvestName} /></td>
             <td>{crop.growDays} 天</td>
             <td>{crop.regrowDays > 0 ? `${crop.regrowDays} 天` : '否'}</td>
             <td data-crop-last>-</td>
@@ -208,7 +208,7 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
             data-birth-day={villager.birthDay ?? ''}
             data-gifts={`${joinList(villager.lovedItems, '')} ${joinList(villager.likedItems, '')}`}
           >
-            <td><StardewIcon kind="npc" label={villager.nameZh} /></td>
+            <td><StardewIcon kind="npc" assetKind="npc" assetId={villager.id} label={villager.nameZh} /></td>
             <td>{formatBirthday(villager)}</td>
             <td>{villager.canBeRomanced ? '是' : '否'}</td>
             <td>

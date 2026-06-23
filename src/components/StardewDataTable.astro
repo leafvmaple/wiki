@@ -103,11 +103,11 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {cropRows.map((crop) => (
         <tr>
-          <td><StardewIcon kind="crop" label={crop.seedNameZh ?? crop.seedName} /></td>
+          <td><StardewIcon kind="crop" assetKind="object" assetId={crop.seedId} label={crop.seedNameZh ?? crop.seedName} /></td>
           <td>{formatSeasons(crop.seasons)}</td>
           <td>{crop.growDays} 天</td>
           <td>{formatRegrow(crop.regrowDays)}</td>
-          <td><StardewIcon kind="item" label={crop.harvestNameZh ?? crop.harvestName} /></td>
+          <td><StardewIcon kind="item" assetKind="object" assetId={crop.harvestItemId} label={crop.harvestNameZh ?? crop.harvestName} /></td>
           <td>{numberOrDash(crop.averageHarvestBaseValue)}</td>
           <td>{numberOrDash(crop.seedBasePrice)}</td>
           <td>{formatProfit(crop)}</td>
@@ -134,7 +134,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {fishRows.map((item) => (
         <tr>
-          <td><StardewIcon kind="fish" label={item.nameZh ?? item.name} /></td>
+          <td><StardewIcon kind="fish" assetKind="object" assetId={item.id} label={item.nameZh ?? item.name} /></td>
           <td>{methodLabels[item.method] ?? item.method}</td>
           <td>{formatSeasons(item.seasons)}</td>
           <td>{formatTimeRanges(item.timeRanges)}</td>
@@ -164,7 +164,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {villagerRows.map((villager) => (
         <tr>
-          <td><StardewIcon kind="npc" label={villager.nameZh} /></td>
+          <td><StardewIcon kind="npc" assetKind="npc" assetId={villager.id} label={villager.nameZh} /></td>
           <td>{formatBirthday(villager)}</td>
           <td>{villager.homeRegion ?? '-'}</td>
           <td>{yesNo(villager.canBeRomanced)}</td>
@@ -197,7 +197,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {machineRows.map((machine) => (
         <tr>
-          <td><StardewIcon kind="machine" label={machine.nameZh} /></td>
+          <td><StardewIcon kind="machine" assetKind="machine" assetId={machine.id} label={machine.nameZh} /></td>
           <td>{machine.ruleCount}</td>
           <td>
             <span class="sv-mini-list">
@@ -234,7 +234,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {shopRows.map((shop) => (
         <tr>
-          <td><StardewIcon kind="shop" label={shop.id} /></td>
+          <td><StardewIcon kind="shop" assetKind="npc" assetLabel={shop.owners?.[0]} label={shop.id} /></td>
           <td>
             <span class="sv-mini-list">
               {iconList(shop.owners, 'npc').map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
