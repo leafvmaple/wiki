@@ -9,6 +9,8 @@ sidebar:
   label: 数据说明
 ---
 
+import StardewDataSnapshot from '../../../../components/StardewDataSnapshot.astro';
+
 <div className="leaf-meta-row">
   <span className="leaf-badge">数据说明</span>
   <span className="leaf-badge">本地整理</span>
@@ -41,14 +43,23 @@ sidebar:
 2. 生成最小化的派生 JSON。
 3. 只保留攻略站需要的字段。
 4. 页面从派生 JSON 生成表格、筛选和工具。
-5. 每次更新后运行 `npm run build`。
+5. 每次更新后运行 `npm run generate:stardew -- <local-data-dir>` 和 `npm run build`。
 
-## 计划生成的数据
+## 当前快照
+
+<StardewDataSnapshot />
+
+## 已生成的数据
 
 | 数据 | 公开用途 |
 | --- | --- |
 | 作物摘要 | 季节、生长天数、再生、收获物、利润 |
 | 鱼类摘要 | 时间、季节、天气、地点、难度 |
+
+## 计划生成的数据
+
+| 数据 | 公开用途 |
+| --- | --- |
 | 村民摘要 | 生日、可攻略、礼物偏好、日程入口 |
 | 地图点位 | 传送、门、商店、NPC 路线和交互点 |
 | 机器规则 | 输入、输出、概率、收益提示 |

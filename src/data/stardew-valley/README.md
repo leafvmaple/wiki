@@ -9,15 +9,19 @@
 - 只提交攻略站需要的最小字段。
 - 生成文件应标注生成时间和适用游戏版本。
 
-计划目录：
+当前目录：
 
 ```text
 src/data/stardew-valley/
 ├─ generated/
+│  ├─ summary.json
 │  ├─ crops.json
-│  ├─ fish.json
-│  ├─ villagers.json
-│  ├─ machines.json
-│  └─ maps/
+│  └─ fish.json
 └─ README.md
+```
+
+生成命令：
+
+```powershell
+npm run generate:stardew -- <local-data-dir>
 ```

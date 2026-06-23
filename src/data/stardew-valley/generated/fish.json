@@ -1,0 +1,2263 @@
+[
+  {
+    "id": "705",
+    "name": "Albacore",
+    "nameZh": "青花鱼",
+    "method": "rod",
+    "difficulty": 60,
+    "behavior": "mixed",
+    "minSize": 20,
+    "maxSize": 40,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1100
+      },
+      {
+        "start": 1800,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0.15,
+    "basePrice": 75
+  },
+  {
+    "id": "129",
+    "name": "Anchovy",
+    "nameZh": "鳀鱼",
+    "method": "rod",
+    "difficulty": 30,
+    "behavior": "dart",
+    "minSize": 1,
+    "maxSize": 16,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.25,
+    "depthMultiplier": 0.3,
+    "basePrice": 30
+  },
+  {
+    "id": "160",
+    "name": "Angler",
+    "nameZh": "鮟鱇鱼",
+    "method": "rod",
+    "difficulty": 85,
+    "behavior": "smooth",
+    "minSize": 18,
+    "maxSize": 18,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.05,
+    "depthMultiplier": 0.1,
+    "basePrice": 900
+  },
+  {
+    "id": "800",
+    "name": "Blobfish",
+    "nameZh": "水滴鱼",
+    "method": "rod",
+    "difficulty": 75,
+    "behavior": "floater",
+    "minSize": 8,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 500
+  },
+  {
+    "id": "838",
+    "name": "Blue Discus",
+    "nameZh": "蓝铁饼鱼",
+    "method": "rod",
+    "difficulty": 60,
+    "behavior": "dart",
+    "minSize": 2,
+    "maxSize": 9,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.25,
+    "depthMultiplier": 0.1,
+    "basePrice": 120
+  },
+  {
+    "id": "132",
+    "name": "Bream",
+    "nameZh": "鲷鱼",
+    "method": "rod",
+    "difficulty": 35,
+    "behavior": "smooth",
+    "minSize": 12,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 1800,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 45
+  },
+  {
+    "id": "700",
+    "name": "Bullhead",
+    "nameZh": "大头鱼",
+    "method": "rod",
+    "difficulty": 46,
+    "behavior": "smooth",
+    "minSize": 12,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "681",
+        "chance": 0.25
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.35,
+    "depthMultiplier": 0.2,
+    "basePrice": 75
+  },
+  {
+    "id": "142",
+    "name": "Carp",
+    "nameZh": "鲤鱼",
+    "method": "rod",
+    "difficulty": 15,
+    "behavior": "mixed",
+    "minSize": 15,
+    "maxSize": 50,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 30
+  },
+  {
+    "id": "143",
+    "name": "Catfish",
+    "nameZh": "鲶鱼",
+    "method": "rod",
+    "difficulty": 75,
+    "behavior": "mixed",
+    "minSize": 12,
+    "maxSize": 72,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2400
+      }
+    ],
+    "seasons": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.4
+      },
+      {
+        "code": "680",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 200
+  },
+  {
+    "id": "702",
+    "name": "Chub",
+    "nameZh": "鲢鱼",
+    "method": "rod",
+    "difficulty": 35,
+    "behavior": "dart",
+    "minSize": 12,
+    "maxSize": 24,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 50
+  },
+  {
+    "id": "372",
+    "name": "Clam",
+    "nameZh": "蛤",
+    "method": "trap",
+    "trapChance": 0.15,
+    "locationCodes": [
+      {
+        "code": "681",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 5,
+    "basePrice": 50
+  },
+  {
+    "id": "718",
+    "name": "Cockle",
+    "nameZh": "鸟蛤",
+    "method": "trap",
+    "trapChance": 0.3,
+    "locationCodes": [
+      {
+        "code": "680",
+        "chance": 0.2
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 5,
+    "basePrice": 50
+  },
+  {
+    "id": "717",
+    "name": "Crab",
+    "nameZh": "螃蟹",
+    "method": "trap",
+    "trapChance": 0.1,
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.45
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 20,
+    "basePrice": 100
+  },
+  {
+    "id": "716",
+    "name": "Crayfish",
+    "nameZh": "小龙虾",
+    "method": "trap",
+    "trapChance": 0.35,
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.4
+      }
+    ],
+    "waterType": "freshwater",
+    "minSize": 1,
+    "maxSize": 8,
+    "basePrice": 75
+  },
+  {
+    "id": "159",
+    "name": "Crimsonfish",
+    "nameZh": "绯红鱼",
+    "method": "rod",
+    "difficulty": 95,
+    "behavior": "mixed",
+    "minSize": 20,
+    "maxSize": 20,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.15
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.1,
+    "depthMultiplier": 0.1,
+    "basePrice": 1500
+  },
+  {
+    "id": "704",
+    "name": "Dorado",
+    "nameZh": "麻哈脂鲤",
+    "method": "rod",
+    "difficulty": 78,
+    "behavior": "mixed",
+    "minSize": 24,
+    "maxSize": 32,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.35
+      },
+      {
+        "code": "681",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.15,
+    "depthMultiplier": 0.1,
+    "basePrice": 100
+  },
+  {
+    "id": "148",
+    "name": "Eel",
+    "nameZh": "鳗鱼",
+    "method": "rod",
+    "difficulty": 70,
+    "behavior": "smooth",
+    "minSize": 12,
+    "maxSize": 80,
+    "timeRanges": [
+      {
+        "start": 1600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.35
+      },
+      {
+        "code": "680",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.55,
+    "depthMultiplier": 0.1,
+    "basePrice": 85
+  },
+  {
+    "id": "267",
+    "name": "Flounder",
+    "nameZh": "比目鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "sinker",
+    "minSize": 4,
+    "maxSize": 16,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "680",
+        "chance": 0.25
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.15,
+    "depthMultiplier": 0.05,
+    "basePrice": 100
+  },
+  {
+    "id": "156",
+    "name": "Ghostfish",
+    "nameZh": "鬼鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "mixed",
+    "minSize": 10,
+    "maxSize": 35,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0.3,
+    "basePrice": 45
+  },
+  {
+    "id": "775",
+    "name": "Glacierfish",
+    "nameZh": "冰川鱼",
+    "method": "rod",
+    "difficulty": 100,
+    "behavior": "mixed",
+    "minSize": 27,
+    "maxSize": 27,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "sunny",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.02,
+    "basePrice": 1000
+  },
+  {
+    "id": "902",
+    "name": "Glacierfish Jr.",
+    "nameZh": "小冰川鱼",
+    "method": "rod",
+    "difficulty": 100,
+    "behavior": "mixed",
+    "minSize": 27,
+    "maxSize": 27,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "sunny",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.02,
+    "basePrice": 1000
+  },
+  {
+    "id": "Goby",
+    "name": "Goby",
+    "nameZh": "虾虎鱼",
+    "method": "rod",
+    "difficulty": 55,
+    "behavior": "dart",
+    "minSize": 3,
+    "maxSize": 12,
+    "timeRanges": [
+      {
+        "start": 800,
+        "end": 1800
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.25,
+    "depthMultiplier": 0.2,
+    "basePrice": 150
+  },
+  {
+    "id": "153",
+    "name": "Green Algae",
+    "nameZh": "绿藻",
+    "method": "rod",
+    "difficulty": 5,
+    "behavior": "floater",
+    "minSize": 5,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [],
+    "minFishingLevel": 0,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0,
+    "basePrice": 15
+  },
+  {
+    "id": "708",
+    "name": "Halibut",
+    "nameZh": "大比目鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "sinker",
+    "minSize": 10,
+    "maxSize": 33,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1100
+      },
+      {
+        "start": 1900,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "681",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.2,
+    "basePrice": 80
+  },
+  {
+    "id": "147",
+    "name": "Herring",
+    "nameZh": "鲱鱼",
+    "method": "rod",
+    "difficulty": 25,
+    "behavior": "dart",
+    "minSize": 8,
+    "maxSize": 20,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 30
+  },
+  {
+    "id": "161",
+    "name": "Ice Pip",
+    "nameZh": "冰柱鱼",
+    "method": "rod",
+    "difficulty": 85,
+    "behavior": "dart",
+    "minSize": 8,
+    "maxSize": 8,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.05,
+    "depthMultiplier": 0.1,
+    "basePrice": 500
+  },
+  {
+    "id": "136",
+    "name": "Largemouth Bass",
+    "nameZh": "大嘴鲈鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "mixed",
+    "minSize": 11,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.2,
+    "basePrice": 100
+  },
+  {
+    "id": "162",
+    "name": "Lava Eel",
+    "nameZh": "岩浆鳗鱼",
+    "method": "rod",
+    "difficulty": 90,
+    "behavior": "mixed",
+    "minSize": 32,
+    "maxSize": 32,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.05,
+    "depthMultiplier": 0.1,
+    "basePrice": 700
+  },
+  {
+    "id": "163",
+    "name": "Legend",
+    "nameZh": "传说之鱼",
+    "method": "rod",
+    "difficulty": 110,
+    "behavior": "mixed",
+    "minSize": 50,
+    "maxSize": 50,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.05
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.1,
+    "basePrice": 5000
+  },
+  {
+    "id": "900",
+    "name": "Legend II",
+    "nameZh": "传说之鱼二代",
+    "method": "rod",
+    "difficulty": 110,
+    "behavior": "mixed",
+    "minSize": 50,
+    "maxSize": 50,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.05
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.1,
+    "basePrice": 5000
+  },
+  {
+    "id": "707",
+    "name": "Lingcod",
+    "nameZh": "蛇齿单线鱼",
+    "method": "rod",
+    "difficulty": 85,
+    "behavior": "mixed",
+    "minSize": 30,
+    "maxSize": 50,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.4
+      },
+      {
+        "code": "685",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0.05,
+    "basePrice": 120
+  },
+  {
+    "id": "837",
+    "name": "Lionfish",
+    "nameZh": "狮子鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "smooth",
+    "minSize": 3,
+    "maxSize": 12,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 100
+  },
+  {
+    "id": "715",
+    "name": "Lobster",
+    "nameZh": "龙虾",
+    "method": "trap",
+    "trapChance": 0.05,
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.45
+      },
+      {
+        "code": "689",
+        "chance": 0.35
+      },
+      {
+        "code": "690",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 2,
+    "maxSize": 20,
+    "basePrice": 120
+  },
+  {
+    "id": "269",
+    "name": "Midnight Carp",
+    "nameZh": "午夜鲤鱼",
+    "method": "rod",
+    "difficulty": 55,
+    "behavior": "mixed",
+    "minSize": 12,
+    "maxSize": 52,
+    "timeRanges": [
+      {
+        "start": 2200,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.33,
+    "depthMultiplier": 0.1,
+    "basePrice": 150
+  },
+  {
+    "id": "798",
+    "name": "Midnight Squid",
+    "nameZh": "午夜鱿鱼",
+    "method": "rod",
+    "difficulty": 55,
+    "behavior": "sinker",
+    "minSize": 8,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 100
+  },
+  {
+    "id": "899",
+    "name": "Ms. Angler",
+    "nameZh": "雌鮟鱇鱼",
+    "method": "rod",
+    "difficulty": 85,
+    "behavior": "smooth",
+    "minSize": 18,
+    "maxSize": 18,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.05,
+    "depthMultiplier": 0.1,
+    "basePrice": 900
+  },
+  {
+    "id": "719",
+    "name": "Mussel",
+    "nameZh": "蚌",
+    "method": "trap",
+    "trapChance": 0.35,
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.15
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 5,
+    "basePrice": 30
+  },
+  {
+    "id": "682",
+    "name": "Mutant Carp",
+    "nameZh": "变种鲤鱼",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "dart",
+    "minSize": 36,
+    "maxSize": 36,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.02,
+    "basePrice": 1000
+  },
+  {
+    "id": "149",
+    "name": "Octopus",
+    "nameZh": "章鱼",
+    "method": "rod",
+    "difficulty": 95,
+    "behavior": "sinker",
+    "minSize": 12,
+    "maxSize": 48,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1300
+      }
+    ],
+    "seasons": [
+      "summer"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.6
+      },
+      {
+        "code": "684",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0.1,
+    "depthMultiplier": 0.08,
+    "basePrice": 150
+  },
+  {
+    "id": "723",
+    "name": "Oyster",
+    "nameZh": "牡蛎",
+    "method": "trap",
+    "trapChance": 0.15,
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 5,
+    "basePrice": 40
+  },
+  {
+    "id": "141",
+    "name": "Perch",
+    "nameZh": "河鲈",
+    "method": "rod",
+    "difficulty": 35,
+    "behavior": "dart",
+    "minSize": 10,
+    "maxSize": 24,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 55
+  },
+  {
+    "id": "722",
+    "name": "Periwinkle",
+    "nameZh": "玉黍螺",
+    "method": "trap",
+    "trapChance": 0.55,
+    "locationCodes": [
+      {
+        "code": "681",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "freshwater",
+    "minSize": 1,
+    "maxSize": 3,
+    "basePrice": 20
+  },
+  {
+    "id": "144",
+    "name": "Pike",
+    "nameZh": "狗鱼",
+    "method": "rod",
+    "difficulty": 60,
+    "behavior": "dart",
+    "minSize": 15,
+    "maxSize": 60,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.3
+      },
+      {
+        "code": "681",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.15,
+    "basePrice": 100
+  },
+  {
+    "id": "128",
+    "name": "Pufferfish",
+    "nameZh": "河豚",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "floater",
+    "minSize": 1,
+    "maxSize": 36,
+    "timeRanges": [
+      {
+        "start": 1200,
+        "end": 1600
+      }
+    ],
+    "seasons": [
+      "summer"
+    ],
+    "weather": "sunny",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.4
+      },
+      {
+        "code": "685",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0.5,
+    "basePrice": 200
+  },
+  {
+    "id": "901",
+    "name": "Radioactive Carp",
+    "nameZh": "放射性鲤鱼",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "dart",
+    "minSize": 36,
+    "maxSize": 36,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 5,
+    "spawnMultiplier": 0,
+    "depthMultiplier": 0.02,
+    "basePrice": 1000
+  },
+  {
+    "id": "138",
+    "name": "Rainbow Trout",
+    "nameZh": "虹鳟鱼",
+    "method": "rod",
+    "difficulty": 45,
+    "behavior": "mixed",
+    "minSize": 10,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer"
+    ],
+    "weather": "sunny",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.35,
+    "depthMultiplier": 0.3,
+    "basePrice": 65
+  },
+  {
+    "id": "146",
+    "name": "Red Mullet",
+    "nameZh": "红鲻鱼",
+    "method": "rod",
+    "difficulty": 55,
+    "behavior": "smooth",
+    "minSize": 8,
+    "maxSize": 22,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "680",
+        "chance": 0.25
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.15,
+    "basePrice": 75
+  },
+  {
+    "id": "150",
+    "name": "Red Snapper",
+    "nameZh": "红鲷鱼",
+    "method": "rod",
+    "difficulty": 40,
+    "behavior": "mixed",
+    "minSize": 8,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.25
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 50
+  },
+  {
+    "id": "139",
+    "name": "Salmon",
+    "nameZh": "鲑鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "mixed",
+    "minSize": 24,
+    "maxSize": 65,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.2,
+    "basePrice": 75
+  },
+  {
+    "id": "164",
+    "name": "Sandfish",
+    "nameZh": "沙鱼",
+    "method": "rod",
+    "difficulty": 65,
+    "behavior": "mixed",
+    "minSize": 8,
+    "maxSize": 24,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.65,
+    "depthMultiplier": 0.1,
+    "basePrice": 75
+  },
+  {
+    "id": "131",
+    "name": "Sardine",
+    "nameZh": "沙丁鱼",
+    "method": "rod",
+    "difficulty": 30,
+    "behavior": "dart",
+    "minSize": 1,
+    "maxSize": 12,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.3
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.65,
+    "depthMultiplier": 0.1,
+    "basePrice": 40
+  },
+  {
+    "id": "165",
+    "name": "Scorpion Carp",
+    "nameZh": "蝎鲤鱼",
+    "method": "rod",
+    "difficulty": 90,
+    "behavior": "dart",
+    "minSize": 12,
+    "maxSize": 32,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.4
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.15,
+    "depthMultiplier": 0.1,
+    "basePrice": 150
+  },
+  {
+    "id": "154",
+    "name": "Sea Cucumber",
+    "nameZh": "海参",
+    "method": "rod",
+    "difficulty": 40,
+    "behavior": "sinker",
+    "minSize": 3,
+    "maxSize": 20,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.2
+      },
+      {
+        "code": "689",
+        "chance": 0.4
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.25,
+    "depthMultiplier": 0.25,
+    "basePrice": 75
+  },
+  {
+    "id": "152",
+    "name": "Seaweed",
+    "nameZh": "海草",
+    "method": "rod",
+    "difficulty": 5,
+    "behavior": "floater",
+    "minSize": 5,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [],
+    "minFishingLevel": 0,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0,
+    "basePrice": 20
+  },
+  {
+    "id": "706",
+    "name": "Shad",
+    "nameZh": "西鲱",
+    "method": "rod",
+    "difficulty": 45,
+    "behavior": "smooth",
+    "minSize": 20,
+    "maxSize": 48,
+    "timeRanges": [
+      {
+        "start": 900,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "684",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.35,
+    "depthMultiplier": 0.2,
+    "basePrice": 60
+  },
+  {
+    "id": "720",
+    "name": "Shrimp",
+    "nameZh": "虾",
+    "method": "trap",
+    "trapChance": 0.2,
+    "locationCodes": [
+      {
+        "code": "681",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "ocean",
+    "minSize": 1,
+    "maxSize": 3,
+    "basePrice": 60
+  },
+  {
+    "id": "796",
+    "name": "Slimejack",
+    "nameZh": "史莱姆鱼",
+    "method": "rod",
+    "difficulty": 55,
+    "behavior": "dart",
+    "minSize": 8,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 100
+  },
+  {
+    "id": "137",
+    "name": "Smallmouth Bass",
+    "nameZh": "小嘴鲈鱼",
+    "method": "rod",
+    "difficulty": 28,
+    "behavior": "mixed",
+    "minSize": 12,
+    "maxSize": 24,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "682",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 50
+  },
+  {
+    "id": "721",
+    "name": "Snail",
+    "nameZh": "蜗牛",
+    "method": "trap",
+    "trapChance": 0.25,
+    "locationCodes": [
+      {
+        "code": "680",
+        "chance": 0.35
+      }
+    ],
+    "waterType": "freshwater",
+    "minSize": 1,
+    "maxSize": 5,
+    "basePrice": 65
+  },
+  {
+    "id": "898",
+    "name": "Son of Crimsonfish",
+    "nameZh": "绯红鱼之子",
+    "method": "rod",
+    "difficulty": 95,
+    "behavior": "mixed",
+    "minSize": 20,
+    "maxSize": 20,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2000
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.15
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.1,
+    "depthMultiplier": 0.1,
+    "basePrice": 1500
+  },
+  {
+    "id": "799",
+    "name": "Spook Fish",
+    "nameZh": "幽灵鱼",
+    "method": "rod",
+    "difficulty": 60,
+    "behavior": "dart",
+    "minSize": 8,
+    "maxSize": 25,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.1,
+    "basePrice": 220
+  },
+  {
+    "id": "151",
+    "name": "Squid",
+    "nameZh": "鱿鱼",
+    "method": "rod",
+    "difficulty": 75,
+    "behavior": "sinker",
+    "minSize": 12,
+    "maxSize": 48,
+    "timeRanges": [
+      {
+        "start": 1800,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "690",
+        "chance": 0.35
+      },
+      {
+        "code": "680",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.35,
+    "depthMultiplier": 0.3,
+    "basePrice": 80
+  },
+  {
+    "id": "836",
+    "name": "Stingray",
+    "nameZh": "黄貂鱼",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "sinker",
+    "minSize": 18,
+    "maxSize": 60,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.2,
+    "depthMultiplier": 0.1,
+    "basePrice": 180
+  },
+  {
+    "id": "158",
+    "name": "Stonefish",
+    "nameZh": "石鱼",
+    "method": "rod",
+    "difficulty": 65,
+    "behavior": "sinker",
+    "minSize": 15,
+    "maxSize": 15,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.1,
+    "depthMultiplier": 0.1,
+    "basePrice": 300
+  },
+  {
+    "id": "698",
+    "name": "Sturgeon",
+    "nameZh": "鲟鱼",
+    "method": "rod",
+    "difficulty": 78,
+    "behavior": "mixed",
+    "minSize": 12,
+    "maxSize": 60,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.35
+      },
+      {
+        "code": "682",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.35,
+    "depthMultiplier": 0.2,
+    "basePrice": 200
+  },
+  {
+    "id": "145",
+    "name": "Sunfish",
+    "nameZh": "太阳鱼",
+    "method": "rod",
+    "difficulty": 30,
+    "behavior": "mixed",
+    "minSize": 5,
+    "maxSize": 15,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "weather": "sunny",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 1,
+    "spawnMultiplier": 0.45,
+    "depthMultiplier": 0.1,
+    "basePrice": 30
+  },
+  {
+    "id": "155",
+    "name": "Super Cucumber",
+    "nameZh": "大海参",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "sinker",
+    "minSize": 12,
+    "maxSize": 36,
+    "timeRanges": [
+      {
+        "start": 1800,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.2
+      },
+      {
+        "code": "689",
+        "chance": 0.4
+      }
+    ],
+    "minFishingLevel": 4,
+    "spawnMultiplier": 0.1,
+    "depthMultiplier": 0.25,
+    "basePrice": 250
+  },
+  {
+    "id": "699",
+    "name": "Tiger Trout",
+    "nameZh": "虎纹鳟鱼",
+    "method": "rod",
+    "difficulty": 60,
+    "behavior": "dart",
+    "minSize": 10,
+    "maxSize": 20,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "688",
+        "chance": 0.45
+      },
+      {
+        "code": "685",
+        "chance": 0.2
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.2,
+    "depthMultiplier": 0.1,
+    "basePrice": 150
+  },
+  {
+    "id": "701",
+    "name": "Tilapia",
+    "nameZh": "罗非鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "mixed",
+    "minSize": 11,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1400
+      }
+    ],
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "683",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.2,
+    "basePrice": 75
+  },
+  {
+    "id": "130",
+    "name": "Tuna",
+    "nameZh": "金枪鱼",
+    "method": "rod",
+    "difficulty": 70,
+    "behavior": "smooth",
+    "minSize": 12,
+    "maxSize": 60,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 1900
+      }
+    ],
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "689",
+        "chance": 0.35
+      },
+      {
+        "code": "681",
+        "chance": 0.1
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.15,
+    "depthMultiplier": 0.55,
+    "basePrice": 100
+  },
+  {
+    "id": "795",
+    "name": "Void Salmon",
+    "nameZh": "虚空鲑鱼",
+    "method": "rod",
+    "difficulty": 80,
+    "behavior": "mixed",
+    "minSize": 24,
+    "maxSize": 65,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.33,
+    "depthMultiplier": 0.1,
+    "basePrice": 150
+  },
+  {
+    "id": "140",
+    "name": "Walleye",
+    "nameZh": "大眼鱼",
+    "method": "rod",
+    "difficulty": 45,
+    "behavior": "smooth",
+    "minSize": 10,
+    "maxSize": 40,
+    "timeRanges": [
+      {
+        "start": 1200,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "fall",
+      "winter"
+    ],
+    "weather": "rainy",
+    "locationCodes": [
+      {
+        "code": "680",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 2,
+    "spawnMultiplier": 0.4,
+    "depthMultiplier": 0.15,
+    "basePrice": 105
+  },
+  {
+    "id": "157",
+    "name": "White Algae",
+    "nameZh": "白藻",
+    "method": "rod",
+    "difficulty": 5,
+    "behavior": "floater",
+    "minSize": 5,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [],
+    "minFishingLevel": 0,
+    "spawnMultiplier": 0.3,
+    "depthMultiplier": 0,
+    "basePrice": 25
+  },
+  {
+    "id": "734",
+    "name": "Woodskip",
+    "nameZh": "木跃鱼",
+    "method": "rod",
+    "difficulty": 50,
+    "behavior": "mixed",
+    "minSize": 11,
+    "maxSize": 30,
+    "timeRanges": [
+      {
+        "start": 600,
+        "end": 2600
+      }
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": "both",
+    "locationCodes": [
+      {
+        "code": "685",
+        "chance": 0.35
+      }
+    ],
+    "minFishingLevel": 3,
+    "spawnMultiplier": 0.2,
+    "depthMultiplier": 0.1,
+    "basePrice": 75
+  }
+]

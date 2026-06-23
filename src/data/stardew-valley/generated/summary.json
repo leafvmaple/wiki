@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-23T16:13:02.482Z",
+  "gameVersion": null,
+  "counts": {
+    "objects": 807,
+    "crops": 50,
+    "fish": 74,
+    "characters": 48,
+    "shops": 77,
+    "machines": 39,
+    "bundles": 31,
+    "maps": 190
+  },
+  "files": [
+    "crops.json",
+    "fish.json"
+  ]
+}

@@ -1,0 +1,1433 @@
+[
+  {
+    "seedId": "CarrotSeeds",
+    "seedName": "Carrot Seeds",
+    "seedNameZh": "胡萝卜种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1
+    ],
+    "growDays": 3,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "Carrot",
+    "harvestName": "Carrot",
+    "harvestNameZh": "胡萝卜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 15,
+    "harvestBasePrice": 35,
+    "averageHarvestBaseValue": 35
+  },
+  {
+    "seedId": "491",
+    "seedName": "Bok Choy Seeds",
+    "seedNameZh": "小白菜种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 4,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "278",
+    "harvestName": "Bok Choy",
+    "harvestNameZh": "小白菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 25,
+    "harvestBasePrice": 80,
+    "averageHarvestBaseValue": 80
+  },
+  {
+    "seedId": "476",
+    "seedName": "Garlic Seeds",
+    "seedNameZh": "大蒜种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 4,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "248",
+    "harvestName": "Garlic",
+    "harvestNameZh": "蒜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 60,
+    "averageHarvestBaseValue": 60
+  },
+  {
+    "seedId": "472",
+    "seedName": "Parsnip Seeds",
+    "seedNameZh": "防风草种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 4,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "24",
+    "harvestName": "Parsnip",
+    "harvestNameZh": "防风草",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 10,
+    "harvestBasePrice": 35,
+    "averageHarvestBaseValue": 35
+  },
+  {
+    "seedId": "890",
+    "seedName": "Qi Bean",
+    "seedNameZh": "齐豆",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 4,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "889",
+    "harvestName": "Qi Fruit",
+    "harvestNameZh": "齐瓜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 1,
+    "harvestBasePrice": 1,
+    "averageHarvestBaseValue": 1
+  },
+  {
+    "seedId": "483",
+    "seedName": "Wheat Seeds",
+    "seedNameZh": "小麦种子",
+    "seasons": [
+      "Summer",
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 4,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "262",
+    "harvestName": "Wheat",
+    "harvestNameZh": "小麦",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 5,
+    "harvestBasePrice": 25,
+    "averageHarvestBaseValue": 25
+  },
+  {
+    "seedId": "488",
+    "seedName": "Eggplant Seeds",
+    "seedNameZh": "茄子种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 5,
+    "regrowDays": 5,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "272",
+    "harvestName": "Eggplant",
+    "harvestNameZh": "茄子",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.002,
+    "seedBasePrice": 10,
+    "harvestBasePrice": 60,
+    "averageHarvestBaseValue": 60
+  },
+  {
+    "seedId": "482",
+    "seedName": "Pepper Seeds",
+    "seedNameZh": "辣椒种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "growDays": 5,
+    "regrowDays": 3,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "260",
+    "harvestName": "Hot Pepper",
+    "harvestNameZh": "辣椒",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.03,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 40,
+    "averageHarvestBaseValue": 40
+  },
+  {
+    "seedId": "494",
+    "seedName": "Beet Seeds",
+    "seedNameZh": "甜菜种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "growDays": 6,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "284",
+    "harvestName": "Beet",
+    "harvestNameZh": "甜菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 10,
+    "harvestBasePrice": 100,
+    "averageHarvestBaseValue": 100
+  },
+  {
+    "seedId": "477",
+    "seedName": "Kale Seeds",
+    "seedNameZh": "甘蓝种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "growDays": 6,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "250",
+    "harvestName": "Kale",
+    "harvestNameZh": "甘蓝菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 35,
+    "harvestBasePrice": 110,
+    "averageHarvestBaseValue": 110
+  },
+  {
+    "seedId": "475",
+    "seedName": "Potato Seeds",
+    "seedNameZh": "土豆种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "growDays": 6,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "192",
+    "harvestName": "Potato",
+    "harvestNameZh": "土豆",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.2,
+    "seedBasePrice": 25,
+    "harvestBasePrice": 80,
+    "averageHarvestBaseValue": 80
+  },
+  {
+    "seedId": "484",
+    "seedName": "Radish Seeds",
+    "seedNameZh": "萝卜种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "growDays": 6,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "264",
+    "harvestName": "Radish",
+    "harvestNameZh": "萝卜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 90,
+    "averageHarvestBaseValue": 90
+  },
+  {
+    "seedId": "SummerSquashSeeds",
+    "seedName": "Summer Squash Seeds",
+    "seedNameZh": "金皮西葫芦种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "growDays": 6,
+    "regrowDays": 3,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "SummerSquash",
+    "harvestName": "Summer Squash",
+    "harvestNameZh": "金皮西葫芦",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 45,
+    "averageHarvestBaseValue": 45
+  },
+  {
+    "seedId": "427",
+    "seedName": "Tulip Bulb",
+    "seedNameZh": "郁金香球茎",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "growDays": 6,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "591",
+    "harvestName": "Tulip",
+    "harvestNameZh": "郁金香",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 10,
+    "harvestBasePrice": 30,
+    "averageHarvestBaseValue": 30
+  },
+  {
+    "seedId": "299",
+    "seedName": "Amaranth Seeds",
+    "seedNameZh": "苋菜种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "300",
+    "harvestName": "Amaranth",
+    "harvestNameZh": "苋菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 35,
+    "harvestBasePrice": 150,
+    "averageHarvestBaseValue": 150
+  },
+  {
+    "seedId": "493",
+    "seedName": "Cranberry Seeds",
+    "seedNameZh": "蔓越莓种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": 5,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "282",
+    "harvestName": "Cranberries",
+    "harvestNameZh": "蔓越莓",
+    "harvestMinStack": 2,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.1,
+    "seedBasePrice": 120,
+    "harvestBasePrice": 75,
+    "averageHarvestBaseValue": 113
+  },
+  {
+    "seedId": "497",
+    "seedName": "Fall Seeds",
+    "seedNameZh": "秋季种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      3,
+      4
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "404",
+    "harvestName": "Common Mushroom",
+    "harvestNameZh": "普通蘑菇",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 45,
+    "harvestBasePrice": 40,
+    "averageHarvestBaseValue": 40
+  },
+  {
+    "seedId": "885",
+    "seedName": "Fiber Seeds",
+    "seedNameZh": "纤维种子",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": false,
+    "harvestItemId": "771",
+    "harvestName": "Fiber",
+    "harvestNameZh": "纤维",
+    "harvestMinStack": 4,
+    "harvestMaxStack": 7,
+    "extraHarvestChance": 0.01,
+    "seedBasePrice": 5,
+    "harvestBasePrice": 1,
+    "averageHarvestBaseValue": 6
+  },
+  {
+    "seedId": "429",
+    "seedName": "Jazz Seeds",
+    "seedNameZh": "蓝爵士种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "597",
+    "harvestName": "Blue Jazz",
+    "harvestNameZh": "蓝爵",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 15,
+    "harvestBasePrice": 50,
+    "averageHarvestBaseValue": 50
+  },
+  {
+    "seedId": "453",
+    "seedName": "Poppy Seeds",
+    "seedNameZh": "虞美人种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "376",
+    "harvestName": "Poppy",
+    "harvestNameZh": "虞美人花",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 50,
+    "harvestBasePrice": 140,
+    "averageHarvestBaseValue": 140
+  },
+  {
+    "seedId": "PowdermelonSeeds",
+    "seedName": "Powdermelon Seeds",
+    "seedNameZh": "霜瓜种子",
+    "seasons": [
+      "Winter"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "Powdermelon",
+    "harvestName": "Powdermelon",
+    "harvestNameZh": "霜瓜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 60,
+    "averageHarvestBaseValue": 60
+  },
+  {
+    "seedId": "495",
+    "seedName": "Spring Seeds",
+    "seedNameZh": "春季种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      3,
+      4
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "16",
+    "harvestName": "Wild Horseradish",
+    "harvestNameZh": "野山葵",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 35,
+    "harvestBasePrice": 50,
+    "averageHarvestBaseValue": 50
+  },
+  {
+    "seedId": "496",
+    "seedName": "Summer Seeds",
+    "seedNameZh": "夏季种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      3,
+      4
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "396",
+    "harvestName": "Spice Berry",
+    "harvestNameZh": "香味浆果",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 55,
+    "harvestBasePrice": 80,
+    "averageHarvestBaseValue": 80
+  },
+  {
+    "seedId": "498",
+    "seedName": "Winter Seeds",
+    "seedNameZh": "冬季种子",
+    "seasons": [
+      "Winter"
+    ],
+    "daysInPhase": [
+      3,
+      4
+    ],
+    "growDays": 7,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "412",
+    "harvestName": "Winter Root",
+    "harvestNameZh": "冬根",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 70,
+    "averageHarvestBaseValue": 70
+  },
+  {
+    "seedId": "489",
+    "seedName": "Artichoke Seeds",
+    "seedNameZh": "洋蓟种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      2,
+      2,
+      1,
+      2,
+      1
+    ],
+    "growDays": 8,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "274",
+    "harvestName": "Artichoke",
+    "harvestNameZh": "洋蓟",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 15,
+    "harvestBasePrice": 160,
+    "averageHarvestBaseValue": 160
+  },
+  {
+    "seedId": "BroccoliSeeds",
+    "seedName": "Broccoli Seeds",
+    "seedNameZh": "西蓝花种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "growDays": 8,
+    "regrowDays": 4,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "Broccoli",
+    "harvestName": "Broccoli",
+    "harvestNameZh": "西蓝花",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 40,
+    "harvestBasePrice": 70,
+    "averageHarvestBaseValue": 70
+  },
+  {
+    "seedId": "273",
+    "seedName": "Rice Shoot",
+    "seedNameZh": "稻苗",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "growDays": 8,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": true,
+    "needsWatering": true,
+    "harvestItemId": "271",
+    "harvestName": "Unmilled Rice",
+    "harvestNameZh": "未碾米",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.1,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 30,
+    "averageHarvestBaseValue": 30
+  },
+  {
+    "seedId": "455",
+    "seedName": "Spangle Seeds",
+    "seedNameZh": "夏季亮片种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "growDays": 8,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "593",
+    "harvestName": "Summer Spangle",
+    "harvestNameZh": "夏季亮片",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 25,
+    "harvestBasePrice": 90,
+    "averageHarvestBaseValue": 90
+  },
+  {
+    "seedId": "745",
+    "seedName": "Strawberry Seeds",
+    "seedNameZh": "草莓种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 8,
+    "regrowDays": 4,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "400",
+    "harvestName": "Strawberry",
+    "harvestNameZh": "草莓",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.02,
+    "seedBasePrice": 0,
+    "harvestBasePrice": 120,
+    "averageHarvestBaseValue": 120
+  },
+  {
+    "seedId": "431",
+    "seedName": "Sunflower Seeds",
+    "seedNameZh": "向日葵种子",
+    "seasons": [
+      "Summer",
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "growDays": 8,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "421",
+    "harvestName": "Sunflower",
+    "harvestNameZh": "向日葵",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 80,
+    "averageHarvestBaseValue": 80
+  },
+  {
+    "seedId": "485",
+    "seedName": "Red Cabbage Seeds",
+    "seedNameZh": "红叶卷心菜种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      2,
+      1,
+      2,
+      2,
+      2
+    ],
+    "growDays": 9,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "266",
+    "harvestName": "Red Cabbage",
+    "harvestNameZh": "红叶卷心菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 50,
+    "harvestBasePrice": 260,
+    "averageHarvestBaseValue": 260
+  },
+  {
+    "seedId": "473",
+    "seedName": "Bean Starter",
+    "seedNameZh": "青豆种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      1,
+      3,
+      4
+    ],
+    "growDays": 10,
+    "regrowDays": 3,
+    "isRaised": true,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "188",
+    "harvestName": "Green Bean",
+    "harvestNameZh": "青豆",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 40,
+    "averageHarvestBaseValue": 40
+  },
+  {
+    "seedId": "433",
+    "seedName": "Coffee Bean",
+    "seedNameZh": "咖啡豆",
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      2,
+      3,
+      2
+    ],
+    "growDays": 10,
+    "regrowDays": 2,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "433",
+    "harvestName": "Coffee Bean",
+    "harvestNameZh": "咖啡豆",
+    "harvestMinStack": 4,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.02,
+    "seedBasePrice": 15,
+    "harvestBasePrice": 15,
+    "averageHarvestBaseValue": 38
+  },
+  {
+    "seedId": "301",
+    "seedName": "Grape Starter",
+    "seedNameZh": "葡萄种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      2,
+      3,
+      3
+    ],
+    "growDays": 10,
+    "regrowDays": 3,
+    "isRaised": true,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "398",
+    "harvestName": "Grape",
+    "harvestNameZh": "葡萄",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 80,
+    "averageHarvestBaseValue": 80
+  },
+  {
+    "seedId": "831",
+    "seedName": "Taro Tuber",
+    "seedNameZh": "芋头块茎",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "growDays": 10,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": true,
+    "needsWatering": true,
+    "harvestItemId": "830",
+    "harvestName": "Taro Root",
+    "harvestNameZh": "芋头",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 20,
+    "harvestBasePrice": 100,
+    "averageHarvestBaseValue": 100
+  },
+  {
+    "seedId": "492",
+    "seedName": "Yam Seeds",
+    "seedNameZh": "山药种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "growDays": 10,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "280",
+    "harvestName": "Yam",
+    "harvestNameZh": "山药",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 160,
+    "averageHarvestBaseValue": 160
+  },
+  {
+    "seedId": "302",
+    "seedName": "Hops Starter",
+    "seedNameZh": "啤酒花种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "growDays": 11,
+    "regrowDays": 1,
+    "isRaised": true,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "304",
+    "harvestName": "Hops",
+    "harvestNameZh": "啤酒花",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 25,
+    "averageHarvestBaseValue": 25
+  },
+  {
+    "seedId": "480",
+    "seedName": "Tomato Seeds",
+    "seedNameZh": "西红柿种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "growDays": 11,
+    "regrowDays": 4,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "256",
+    "harvestName": "Tomato",
+    "harvestNameZh": "西红柿",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0.05,
+    "seedBasePrice": 25,
+    "harvestBasePrice": 60,
+    "averageHarvestBaseValue": 60
+  },
+  {
+    "seedId": "802",
+    "seedName": "Cactus Seeds",
+    "seedNameZh": "仙人掌种子",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "daysInPhase": [
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "growDays": 12,
+    "regrowDays": 3,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "90",
+    "harvestName": "Cactus Fruit",
+    "harvestNameZh": "仙人掌果子",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 0,
+    "harvestBasePrice": 75,
+    "averageHarvestBaseValue": 75
+  },
+  {
+    "seedId": "474",
+    "seedName": "Cauliflower Seeds",
+    "seedNameZh": "花椰菜种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      4,
+      4,
+      1
+    ],
+    "growDays": 12,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "190",
+    "harvestName": "Cauliflower",
+    "harvestNameZh": "花椰菜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 40,
+    "harvestBasePrice": 175,
+    "averageHarvestBaseValue": 175
+  },
+  {
+    "seedId": "425",
+    "seedName": "Fairy Seeds",
+    "seedNameZh": "玫瑰仙子种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      4,
+      4,
+      3
+    ],
+    "growDays": 12,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "595",
+    "harvestName": "Fairy Rose",
+    "harvestNameZh": "玫瑰仙子",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 100,
+    "harvestBasePrice": 290,
+    "averageHarvestBaseValue": 290
+  },
+  {
+    "seedId": "479",
+    "seedName": "Melon Seeds",
+    "seedNameZh": "甜瓜种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "growDays": 12,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "254",
+    "harvestName": "Melon",
+    "harvestNameZh": "甜瓜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 40,
+    "harvestBasePrice": 250,
+    "averageHarvestBaseValue": 250
+  },
+  {
+    "seedId": "481",
+    "seedName": "Blueberry Seeds",
+    "seedNameZh": "蓝莓种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      3,
+      3,
+      4,
+      2
+    ],
+    "growDays": 13,
+    "regrowDays": 4,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "258",
+    "harvestName": "Blueberry",
+    "harvestNameZh": "蓝莓",
+    "harvestMinStack": 3,
+    "harvestMaxStack": 3,
+    "extraHarvestChance": 0.02,
+    "seedBasePrice": 40,
+    "harvestBasePrice": 50,
+    "averageHarvestBaseValue": 150
+  },
+  {
+    "seedId": "490",
+    "seedName": "Pumpkin Seeds",
+    "seedNameZh": "南瓜种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "growDays": 13,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "276",
+    "harvestName": "Pumpkin",
+    "harvestNameZh": "南瓜",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 50,
+    "harvestBasePrice": 320,
+    "averageHarvestBaseValue": 320
+  },
+  {
+    "seedId": "478",
+    "seedName": "Rhubarb Seeds",
+    "seedNameZh": "大黄种子",
+    "seasons": [
+      "Spring"
+    ],
+    "daysInPhase": [
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "growDays": 13,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "252",
+    "harvestName": "Rhubarb",
+    "harvestNameZh": "大黄",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 50,
+    "harvestBasePrice": 220,
+    "averageHarvestBaseValue": 220
+  },
+  {
+    "seedId": "486",
+    "seedName": "Starfruit Seeds",
+    "seedNameZh": "杨桃种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "growDays": 13,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "268",
+    "harvestName": "Starfruit",
+    "harvestNameZh": "杨桃",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 200,
+    "harvestBasePrice": 750,
+    "averageHarvestBaseValue": 750
+  },
+  {
+    "seedId": "487",
+    "seedName": "Corn Seeds",
+    "seedNameZh": "玉米种子",
+    "seasons": [
+      "Summer",
+      "Fall"
+    ],
+    "daysInPhase": [
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "growDays": 14,
+    "regrowDays": 4,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "270",
+    "harvestName": "Corn",
+    "harvestNameZh": "玉米",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 75,
+    "harvestBasePrice": 50,
+    "averageHarvestBaseValue": 50
+  },
+  {
+    "seedId": "833",
+    "seedName": "Pineapple Seeds",
+    "seedNameZh": "菠萝种子",
+    "seasons": [
+      "Summer"
+    ],
+    "daysInPhase": [
+      1,
+      3,
+      3,
+      4,
+      3
+    ],
+    "growDays": 14,
+    "regrowDays": 7,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "832",
+    "harvestName": "Pineapple",
+    "harvestNameZh": "菠萝",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 240,
+    "harvestBasePrice": 300,
+    "averageHarvestBaseValue": 300
+  },
+  {
+    "seedId": "347",
+    "seedName": "Rare Seed",
+    "seedNameZh": "稀有种子",
+    "seasons": [
+      "Fall"
+    ],
+    "daysInPhase": [
+      2,
+      4,
+      6,
+      6,
+      6
+    ],
+    "growDays": 24,
+    "regrowDays": -1,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "417",
+    "harvestName": "Sweet Gem Berry",
+    "harvestNameZh": "宝石甜莓",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 200,
+    "harvestBasePrice": 3000,
+    "averageHarvestBaseValue": 3000
+  },
+  {
+    "seedId": "499",
+    "seedName": "Ancient Seeds",
+    "seedNameZh": "上古种子",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "daysInPhase": [
+      2,
+      7,
+      7,
+      7,
+      5
+    ],
+    "growDays": 28,
+    "regrowDays": 7,
+    "isRaised": false,
+    "isPaddyCrop": false,
+    "needsWatering": true,
+    "harvestItemId": "454",
+    "harvestName": "Ancient Fruit",
+    "harvestNameZh": "上古水果",
+    "harvestMinStack": 1,
+    "harvestMaxStack": 1,
+    "extraHarvestChance": 0,
+    "seedBasePrice": 30,
+    "harvestBasePrice": 550,
+    "averageHarvestBaseValue": 550
+  }
+]
