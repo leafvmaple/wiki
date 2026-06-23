@@ -1,0 +1,227 @@
+---
+import { Badge, Icon } from '@astrojs/starlight/components';
+import SidebarRestorePoint from '@astrojs/starlight/components/SidebarRestorePoint.astro';
+
+type SidebarEntry = any;
+type SidebarLink = any;
+type SidebarGroup = any;
+
+interface Props {
+  sublist: SidebarEntry[];
+  nested?: boolean;
+}
+
+const { sublist, nested } = Astro.props;
+
+function flattenSidebar(sidebar: SidebarEntry[]): SidebarLink[] {
+  return sidebar.flatMap((entry) =>
+    entry.type === 'group' ? flattenSidebar(entry.entries) : entry
+  );
+}
+
+function getGroupHome(entry: SidebarGroup): SidebarLink | undefined {
+  const [firstEntry] = entry.entries;
+  if (firstEntry?.type === 'link' && firstEntry.label === entry.label) return firstEntry;
+}
+
+function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
+  const groupHome = getGroupHome(entry);
+  if (!groupHome) return entry.entries;
+
+  return entry.entries.filter(
+    (child: SidebarEntry, index: number) =>
+      !(index === 0 && child.type === 'link' && child.href === groupHome.href)
+  );
+}
+---
+
+<ul class:list={{ 'top-level': !nested }}>
+  {
+    sublist.map((entry) => {
+      if (entry.type === 'link') {
+        return (
+          <li>
+            <a
+              href={entry.href}
+              aria-current={entry.isCurrent ? 'page' : undefined}
+              class:list={[{ large: !nested }, entry.attrs.class]}
+              {...entry.attrs}
+            >
+              <span>{entry.label}</span>
+              {entry.badge && (
+                <Badge
+                  variant={entry.badge.variant}
+                  class={entry.badge.class}
+                  text={entry.badge.text}
+                />
+              )}
+            </a>
+          </li>
+        );
+      }
+
+      const groupHome = getGroupHome(entry);
+      const visibleEntries = getVisibleEntries(entry);
+      const isOpen = flattenSidebar(entry.entries).some((item) => item.isCurrent) || !entry.collapsed;
+
+      return (
+        <li>
+          <details
+            open={isOpen}
+            class:list={{ 'has-current-group-link': groupHome?.isCurrent }}
+          >
+            <summary>
+              <span class="group-label">
+                {groupHome ? (
+                  <a
+                    href={groupHome.href}
+                    aria-current={groupHome.isCurrent ? 'page' : undefined}
+                    class:list={['large', 'group-heading-link', groupHome.attrs.class]}
+                    {...groupHome.attrs}
+                  >
+                    <span>{entry.label}</span>
+                  </a>
+                ) : (
+                  <span class="large">{entry.label}</span>
+                )}
+                {entry.badge && (
+                  <Badge
+                    variant={entry.badge.variant}
+                    class={entry.badge.class}
+                    text={entry.badge.text}
+                  />
+                )}
+              </span>
+              <Icon name="right-caret" class="caret" size="1.25rem" />
+            </summary>
+            <SidebarRestorePoint />
+            {visibleEntries.length > 0 && <Astro.self sublist={visibleEntries} nested />}
+          </details>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<style>
+  @layer starlight.core {
+    ul {
+      --sl-sidebar-item-padding-inline: 0.5rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      overflow-wrap: anywhere;
+    }
+
+    ul ul li {
+      margin-inline-start: var(--sl-sidebar-item-padding-inline);
+      border-inline-start: 1px solid var(--sl-color-hairline-light);
+      padding-inline-start: var(--sl-sidebar-item-padding-inline);
+    }
+
+    .large {
+      font-size: var(--sl-text-lg);
+      font-weight: 600;
+      color: var(--sl-color-white);
+    }
+
+    .top-level > li + li {
+      margin-top: 0.75rem;
+    }
+
+    summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.2em var(--sl-sidebar-item-padding-inline);
+      line-height: 1.4;
+      cursor: pointer;
+      user-select: none;
+    }
+    summary::marker,
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .caret {
+      transition: transform 0.2s ease-in-out;
+      flex-shrink: 0;
+    }
+    :global([dir='rtl']) .caret {
+      transform: rotateZ(180deg);
+    }
+    [open] > summary .caret {
+      transform: rotateZ(90deg);
+    }
+
+    .group-label {
+      flex: 1;
+      min-width: 0;
+    }
+
+    a {
+      display: block;
+      border-radius: 0.25rem;
+      text-decoration: none;
+      color: var(--sl-color-gray-2);
+      padding: 0.3em var(--sl-sidebar-item-padding-inline);
+      line-height: 1.4;
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--sl-color-white);
+    }
+
+    [aria-current='page'],
+    [aria-current='page']:hover,
+    [aria-current='page']:focus {
+      font-weight: 600;
+      color: var(--sl-color-text-invert);
+      background-color: var(--sl-color-text-accent);
+    }
+
+    .group-heading-link,
+    .group-heading-link:hover,
+    .group-heading-link:focus,
+    .group-heading-link[aria-current='page'],
+    .group-heading-link[aria-current='page']:hover,
+    .group-heading-link[aria-current='page']:focus {
+      display: flex;
+      padding: 0;
+      width: 100%;
+      color: var(--sl-color-white);
+      background: transparent;
+    }
+
+    .has-current-group-link > summary {
+      border-radius: 0.25rem;
+      background-color: var(--sl-color-text-accent);
+    }
+
+    .has-current-group-link > summary .group-heading-link,
+    .has-current-group-link > summary .group-heading-link:hover,
+    .has-current-group-link > summary .group-heading-link:focus {
+      color: var(--sl-color-text-invert);
+    }
+
+    a > *:not(:last-child),
+    .group-label > *:not(:last-child) {
+      margin-inline-end: 0.25em;
+    }
+
+    @media (min-width: 50rem) {
+      .top-level > li + li {
+        margin-top: 0.5rem;
+      }
+      .large {
+        font-size: var(--sl-text-base);
+      }
+      a {
+        font-size: var(--sl-text-sm);
+      }
+    }
+  }
+</style>

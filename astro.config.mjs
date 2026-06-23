@@ -19,6 +19,9 @@ export default defineConfig({
         '@fontsource/source-sans-3/700.css',
         './src/styles/custom.css',
       ],
+      components: {
+        Sidebar: './src/components/Sidebar.astro',
+      },
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
@@ -40,27 +43,35 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: '游戏总览', link: '/games/octopath-traveler-0/' },
-            { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
-            { label: '角色一览', link: '/games/octopath-traveler-0/characters/' },
+            {
+              label: '任务线总览',
+              collapsed: true,
+              items: [
+                { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
+                {
+                  label: '主线 · 序章与圣火',
+                  collapsed: true,
+                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/flame' } }],
+                },
+                {
+                  label: '主线 · 极与宝物',
+                  collapsed: true,
+                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/treasure' } }],
+                },
+                {
+                  label: '伙伴招募',
+                  collapsed: true,
+                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/recruit' } }],
+                },
+              ],
+            },
             {
               label: '全部角色',
               collapsed: true,
-              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/characters' } }],
-            },
-            {
-              label: '主线 · 序章与圣火',
-              collapsed: true,
-              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/flame' } }],
-            },
-            {
-              label: '主线 · 极与宝物',
-              collapsed: true,
-              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/treasure' } }],
-            },
-            {
-              label: '伙伴招募',
-              collapsed: true,
-              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/recruit' } }],
+              items: [
+                { label: '全部角色', link: '/games/octopath-traveler-0/characters/' },
+                { autogenerate: { directory: 'games/octopath-traveler-0/characters' } },
+              ],
             },
           ],
         },

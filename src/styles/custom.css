@@ -12,6 +12,8 @@
   --leaf-text-muted: #98a3a8;
   --leaf-heading: #2c3e50;
   --leaf-border: #e5e9ec;
+  --leaf-table-stripe: rgba(35, 183, 229, 0.035);
+  --leaf-table-hover: rgba(35, 183, 229, 0.075);
 
   --leaf-radius-card: 6px;
   --leaf-shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -41,7 +43,7 @@
   --sl-color-hairline: var(--leaf-border);
   --sl-color-text: var(--leaf-text);
   --sl-color-text-accent: var(--leaf-primary-hover);
-  --sl-content-width: 52rem;
+  --sl-content-width: 56rem;
   --sl-sidebar-width: 18rem;
   --sl-text-5xl: 2.5rem;
   --sl-text-4xl: 2rem;
@@ -56,6 +58,8 @@
   --leaf-text-muted: #7a7a7a;
   --leaf-heading: #e0e0e0;
   --leaf-border: #353535;
+  --leaf-table-stripe: rgba(255, 255, 255, 0.025);
+  --leaf-table-hover: rgba(35, 183, 229, 0.08);
 
   --sl-color-accent-low: #12313a;
   --sl-color-accent: var(--leaf-primary);
@@ -162,6 +166,14 @@ a:hover {
   font-weight: 700;
 }
 
+.sl-markdown-content tbody tr:nth-child(even) {
+  background: var(--leaf-table-stripe);
+}
+
+.sl-markdown-content tbody tr:hover {
+  background: var(--leaf-table-hover);
+}
+
 .sl-markdown-content :is(th, td) {
   border-color: var(--leaf-border);
   padding: 0.55rem 0.7rem;
@@ -239,28 +251,51 @@ a:hover {
   border-radius: var(--leaf-radius-card);
   background: var(--leaf-bg-card);
   box-shadow: var(--leaf-shadow-card);
+  overflow: hidden;
   margin: 1.25rem 0;
-  padding: 1rem;
 }
 
 .leaf-infobox:hover {
   box-shadow: var(--leaf-shadow-card-hover);
 }
 
-.leaf-infobox dl {
+.sl-markdown-content .leaf-infobox dl {
   display: grid;
-  grid-template-columns: minmax(6rem, 9rem) 1fr;
-  gap: 0.55rem 1rem;
+  grid-template-columns: minmax(7rem, 12rem) minmax(0, 1fr);
+  gap: 0;
   margin: 0;
 }
 
-.leaf-infobox dt {
+.sl-markdown-content .leaf-infobox :is(dt, dd) {
+  border-bottom: 1px solid var(--leaf-border);
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+}
+
+.sl-markdown-content .leaf-infobox dt {
   color: var(--leaf-text-muted);
   font-weight: 700;
 }
 
-.leaf-infobox dd {
-  margin: 0;
+.sl-markdown-content .leaf-infobox dd {
+  padding-inline-start: 0.7rem;
+}
+
+.sl-markdown-content .leaf-infobox dt:nth-of-type(even),
+.sl-markdown-content .leaf-infobox dt:nth-of-type(even) + dd {
+  background: var(--leaf-table-stripe);
+}
+
+.sl-markdown-content .leaf-infobox dt:hover,
+.sl-markdown-content .leaf-infobox dt:hover + dd,
+.sl-markdown-content .leaf-infobox dt:has(+ dd:hover),
+.sl-markdown-content .leaf-infobox dt:has(+ dd:hover) + dd {
+  background: var(--leaf-table-hover);
+}
+
+.sl-markdown-content .leaf-infobox :is(dt, dd):nth-last-child(-n + 2) {
+  border-bottom: 0;
 }
 
 .leaf-route-list {
@@ -305,17 +340,35 @@ a:hover {
   border-radius: var(--leaf-radius-card);
   background: var(--leaf-bg-card);
   box-shadow: var(--leaf-shadow-card);
+  color: var(--leaf-text);
   min-height: 8rem;
   min-width: 0;
   overflow-wrap: anywhere;
   padding: 0.9rem;
+  text-decoration: none;
+  transition:
+    border-color 120ms ease,
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.leaf-compact-card:hover {
+  border-color: rgba(35, 183, 229, 0.45);
+  box-shadow: var(--leaf-shadow-card-hover);
+  color: var(--leaf-text);
+  transform: translateY(-1px);
 }
 
 .leaf-compact-card strong {
   color: var(--leaf-heading);
 }
 
+.leaf-compact-card:hover strong {
+  color: var(--leaf-primary-hover);
+}
+
 .leaf-compact-card p {
+  color: var(--leaf-text);
   margin: 0.45rem 0 0;
 }
 
@@ -403,8 +456,8 @@ details.leaf-dialogue p strong {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .leaf-infobox dl {
-    grid-template-columns: 1fr;
+  .sl-markdown-content .leaf-infobox dl {
+    grid-template-columns: minmax(5rem, 8rem) minmax(0, 1fr);
   }
 
   .leaf-route-list li {
