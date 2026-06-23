@@ -5,11 +5,11 @@ export default defineConfig({
   site: 'https://wiki.leafvmaple.com',
   integrations: [
     starlight({
-      title: 'leafvmaple wiki',
+      title: '枫百科',
       description: '游戏攻略、机制资料、路线与长期维护内容。',
       logo: {
         src: './src/assets/leafvmaple-wiki.svg',
-        alt: 'leafvmaple wiki',
+        alt: '枫百科',
       },
       favicon: '/favicon.svg',
       titleDelimiter: '-',
@@ -36,25 +36,25 @@ export default defineConfig({
           ],
         },
         {
-          label: '游戏模板',
-          items: [{ label: '模板总览', link: '/games/game-template/' }],
-          badge: 'draft',
-        },
-        {
-          label: '示例攻略结构',
-          collapsed: false,
-          items: [{ autogenerate: { directory: 'games/game-template' } }],
-        },
-        {
-          label: '写作与维护',
+          label: '歧路旅人 0',
           collapsed: false,
           items: [
-            { label: '写作指南', link: '/meta/writing-guide/' },
-            { label: '站点说明', link: '/meta/site-notes/' },
+            { label: '游戏总览', link: '/games/octopath-traveler-0/' },
+            { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
             {
-              label: '页面模板',
+              label: '主线 · 序章与圣火',
               collapsed: true,
-              items: [{ autogenerate: { directory: 'meta/templates' } }],
+              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/flame' } }],
+            },
+            {
+              label: '主线 · 极与宝物',
+              collapsed: true,
+              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/treasure' } }],
+            },
+            {
+              label: '伙伴招募',
+              collapsed: true,
+              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/recruit' } }],
             },
           ],
         },

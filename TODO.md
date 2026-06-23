@@ -10,8 +10,7 @@
 - [x] 调整 header/sidebar/search/code/table/callout 的视觉风格
 - [x] 配置部署目标和 `wiki.leafvmaple.com`
 - [x] 建立第一个游戏目录
-- [x] 写 `meta/writing-guide.md`
-- [x] 写页面模板：角色、配装、任务、地图、物品
+- [x] 清理占位模板和 meta 页面
 
 ## Content Model
 

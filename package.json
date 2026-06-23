@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host=127.0.0.1 --port=5173",
     "build": "astro check && astro build",
     "check": "astro check",
-    "preview": "astro preview"
+    "preview": "astro preview --host=127.0.0.1 --port=4173"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.40.0",

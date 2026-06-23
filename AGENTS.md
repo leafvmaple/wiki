@@ -1,4 +1,4 @@
-# AGENTS.md - leafvmaple wiki
+# AGENTS.md - 枫百科
 
 给后续 Codex/AI agent 的交接说明。
 
@@ -45,25 +45,17 @@
 
 ## 内容结构建议
 
-搭好 Starlight 后，优先采用：
+当前站点优先采用：
 
 ```text
 src/content/docs/
-├─ index.md
+├─ index.mdx
 ├─ games/
+│  ├─ index.mdx
 │  └─ <game-slug>/
 │     ├─ index.md
-│     ├─ beginner.md
-│     ├─ changelog.md
-│     ├─ characters/
-│     ├─ builds/
 │     ├─ quests/
-│     ├─ maps/
-│     ├─ items/
-│     └─ mechanics/
-└─ meta/
-   ├─ writing-guide.md
-   └─ site-notes.md
+│     └─ ...
 ```
 
 ## 写作约定草案
@@ -77,7 +69,6 @@ src/content/docs/
 
 ## 下一步
 
-1. 在本目录初始化 Astro Starlight。
-2. 设置站点标题、导航、侧边栏和搜索。
-3. 加入 `wiki.leafvmaple.com` 的部署配置。
-4. 建立第一个游戏目录和写作模板。
+1. 优先补全真实游戏攻略内容。
+2. 新增页面后同步侧边栏、游戏目录和首页入口。
+3. 提交前运行 `npm run build`。

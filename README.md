@@ -1,4 +1,4 @@
-# leafvmaple wiki
+# 枫百科
 
 游戏攻略与资料库。这个站点计划独立部署在：
 
@@ -36,27 +36,23 @@ wiki 是独立站，但整体风格要和 `leafvmaple.com` / moments 保持家�
 
 具体设计约定见 [`STYLE.md`](STYLE.md)。
 
-## 初始信息架构
+## 当前内容结构
 
-建议先按「游戏」作为一级入口：
+站点按「游戏」作为一级入口，目前先维护《歧路旅人 0》：
 
 ```text
 src/content/docs/
-├─ index.md
+├─ index.mdx
 ├─ games/
-│  └─ <game-slug>/
+│  ├─ index.mdx
+│  └─ octopath-traveler-0/
 │     ├─ index.md
-│     ├─ beginner.md
-│     ├─ changelog.md
-│     ├─ characters/
-│     ├─ builds/
 │     ├─ quests/
-│     ├─ maps/
-│     ├─ items/
-│     └─ mechanics/
-└─ meta/
-   ├─ writing-guide.md
-   └─ site-notes.md
+│     │  ├─ index.mdx
+│     │  ├─ flame/
+│     │  ├─ treasure/
+│     │  └─ recruit/
+│     └─ ...
 ```
 
 ## 内容约定草案
@@ -69,4 +65,4 @@ src/content/docs/
 
 ## 当前状态
 
-仓库刚初始化，只写入项目说明和交接信息。下一步是在本目录中搭建 Starlight 项目骨架。
+仓库已经完成 Starlight 骨架、视觉样式、GitHub Pages 部署配置和《歧路旅人 0》任务线内容入口。
