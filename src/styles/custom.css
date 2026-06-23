@@ -449,6 +449,9 @@ details.leaf-dialogue p strong {
     display: block;
     max-width: 100%;
     overflow-x: auto;
+    scrollbar-gutter: stable;
+    touch-action: pan-x;
+    -webkit-overflow-scrolling: touch;
     white-space: nowrap;
   }
 

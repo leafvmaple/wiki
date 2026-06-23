@@ -324,13 +324,30 @@ const markerStyle = (point: MapPoint) =>
   }
 
   @media (max-width: 40rem) {
+    .leaf-map-summary span,
+    .leaf-map-filter {
+      flex: 1 1 calc(50% - 0.5rem);
+      justify-content: center;
+      min-width: 0;
+    }
+
     .leaf-map-canvas {
-      min-height: 19rem;
+      min-height: 18rem;
     }
 
     .leaf-map-marker {
-      height: 1.25rem;
-      width: 1.25rem;
+      font-size: 0.68rem;
+      height: 1.5rem;
+      touch-action: manipulation;
+      width: 1.5rem;
+    }
+
+    .leaf-map-zone {
+      font-size: 0.72rem;
+    }
+
+    .leaf-map-table {
+      min-width: 38rem;
     }
   }
 </style>

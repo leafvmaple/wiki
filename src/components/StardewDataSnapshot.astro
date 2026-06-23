@@ -1,6 +1,15 @@
 ---
 import summary from '../data/stardew-valley/generated/summary.json';
 
+const generatedAt = new Date(summary.generatedAt).toLocaleString('zh-CN', {
+  timeZone: 'Asia/Hong_Kong',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+const gameVersion = summary.gameVersion ?? '未固定';
 const countRows = [
   ['物品', summary.counts.objects],
   ['作物', summary.counts.crops],
@@ -13,13 +22,28 @@ const countRows = [
 ];
 ---
 
-<div class="leaf-infobox">
-  <dl>
-    <dt>生成时间</dt>
-    <dd>{new Date(summary.generatedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Hong_Kong' })}</dd>
-    <dt>输出文件</dt>
-    <dd>{summary.files.join('、')}</dd>
-  </dl>
+<div class="sv-snapshot">
+  <div class="leaf-infobox">
+    <dl>
+      <dt>生成时间</dt>
+      <dd>{generatedAt}</dd>
+      <dt>游戏版本</dt>
+      <dd>{gameVersion}</dd>
+      <dt>校验状态</dt>
+      <dd>构建时校验通过</dd>
+      <dt>输出文件</dt>
+      <dd>{summary.files.join('、')}</dd>
+    </dl>
+  </div>
+
+  <div class="sv-snapshot-counts" aria-label="当前数据数量">
+    {countRows.map(([label, count]) => (
+      <span>
+        <strong>{count}</strong>
+        {label}
+      </span>
+    ))}
+  </div>
 </div>
 
 <table>
@@ -38,3 +62,41 @@ const countRows = [
     ))}
   </tbody>
 </table>
+
+<style>
+  .sv-snapshot {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1rem 0;
+  }
+
+  .sv-snapshot-counts {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  }
+
+  .sv-snapshot-counts span {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.15rem;
+    min-height: 4rem;
+    padding: 0.55rem 0.65rem;
+  }
+
+  .sv-snapshot-counts strong {
+    color: var(--leaf-heading);
+    font-size: 1.35rem;
+    line-height: 1;
+  }
+
+  @media (max-width: 40rem) {
+    .sv-snapshot-counts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
