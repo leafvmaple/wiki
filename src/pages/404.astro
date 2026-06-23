@@ -1,0 +1,60 @@
+---
+import '@fontsource/source-sans-3/400.css';
+import '@fontsource/source-sans-3/600.css';
+import '@fontsource/source-sans-3/700.css';
+import '../styles/custom.css';
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>没有找到页面 - leafvmaple wiki</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/favicon.svg" />
+    <style>
+      main {
+        margin: 0 auto;
+        max-width: 52rem;
+        padding: 12vh 1.25rem 4rem;
+      }
+
+      .not-found-title {
+        color: var(--leaf-heading);
+        font-size: 2.2rem;
+        font-weight: 700;
+        letter-spacing: 0;
+        margin: 0 0 0.75rem;
+      }
+
+      .not-found-copy {
+        color: var(--leaf-text);
+        font-size: 1.08rem;
+        margin: 0 0 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="leaf-badge">404</p>
+      <h1 class="not-found-title">没有找到页面</h1>
+      <p class="not-found-copy">这个攻略页还没有收录，或者已经移动到了新的目录。</p>
+
+      <div class="leaf-compact-grid">
+        <a class="leaf-compact-card" href="/">
+          <strong>返回首页</strong>
+          <p>回到 wiki 入口，重新选择游戏或主题。</p>
+        </a>
+        <a class="leaf-compact-card" href="/games/">
+          <strong>查看游戏目录</strong>
+          <p>从游戏列表进入当前维护的攻略内容。</p>
+        </a>
+        <a class="leaf-compact-card" href="/meta/writing-guide/">
+          <strong>写作指南</strong>
+          <p>如果这是一个待补页面，可以按指南补全结构。</p>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>

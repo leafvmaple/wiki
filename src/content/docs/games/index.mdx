@@ -1,0 +1,38 @@
+---
+title: 游戏目录
+description: 按游戏组织的攻略入口。
+sidebar:
+  order: 2
+---
+
+每个游戏保留一个独立目录，目录内按新手、版本、角色、配装、任务、地图、物品和机制继续拆分。
+
+## 当前目录
+
+| 游戏 | 状态 | 入口 | 说明 |
+| --- | --- | --- | --- |
+| 游戏模板 | 草稿 | [进入模板](/games/game-template/) | 用来复制成真实游戏目录的结构样例 |
+
+## 新增游戏目录
+
+建议路径：
+
+```text
+src/content/docs/games/<game-slug>/
+├─ index.mdx
+├─ beginner.mdx
+├─ changelog.mdx
+├─ characters/
+├─ builds/
+├─ quests/
+├─ maps/
+├─ items/
+└─ mechanics/
+```
+
+新游戏上线前至少准备：
+
+1. `index.mdx`：游戏总览、版本状态、核心入口。
+2. `beginner.mdx`：新手或回坑玩家第一条路线。
+3. `changelog.mdx`：记录攻略改动和适用版本。
+4. 至少一个主题页：角色、配装、任务、地图、物品或机制任选其一。
