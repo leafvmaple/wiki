@@ -94,6 +94,7 @@ export default defineConfig({
             { label: '地图与点位', link: '/games/stardew-valley/maps/' },
             { label: '鹈鹕镇地图', link: '/games/stardew-valley/maps/town/' },
             { label: '攻略工具', link: '/games/stardew-valley/tools/' },
+            { label: '存档辅助', link: '/games/stardew-valley/tools/save-helper/' },
             { label: '数据说明', link: '/games/stardew-valley/data-notes/' },
             { label: '更新记录', link: '/games/stardew-valley/changelog/' },
           ],

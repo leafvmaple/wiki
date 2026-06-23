@@ -1,0 +1,214 @@
+---
+import fish from '../data/stardew-valley/generated/fish.json';
+
+const fishIndex = fish.map((item) => ({
+  id: item.id,
+  name: item.nameZh ?? item.name,
+}));
+---
+
+<div class="leaf-save-tool" data-save-helper>
+  <div class="leaf-save-input">
+    <label>
+      <span>存档文件</span>
+      <input type="file" accept=".xml,.txt" data-save-file />
+    </label>
+    <p>文件只在当前浏览器中读取，不会发送到服务器。</p>
+  </div>
+
+  <div class="leaf-save-result" data-save-empty>
+    <p>选择一个存档文件后显示摘要。</p>
+  </div>
+
+  <div class="leaf-save-result" data-save-result hidden>
+    <dl>
+      <dt>玩家</dt>
+      <dd data-save-player>-</dd>
+      <dt>农场</dt>
+      <dd data-save-farm>-</dd>
+      <dt>日期</dt>
+      <dd data-save-date>-</dd>
+      <dt>金币</dt>
+      <dd data-save-money>-</dd>
+      <dt>鱼类进度</dt>
+      <dd data-save-fish-progress>-</dd>
+    </dl>
+
+    <h2>未记录鱼类</h2>
+    <p class="leaf-save-note">这里按当前鱼类索引匹配存档里的鱼类记录；特殊条件和版本差异后续继续细化。</p>
+    <div class="leaf-missing-fish" data-missing-fish></div>
+  </div>
+
+  <script type="application/json" data-fish-index is:inline set:html={JSON.stringify(fishIndex)} />
+</div>
+
+<script is:inline>
+  (() => {
+    const root = document.querySelector('[data-save-helper]');
+    if (!root) return;
+
+    const fishIndex = JSON.parse(root.querySelector('[data-fish-index]').textContent);
+    const fileInput = root.querySelector('[data-save-file]');
+    const empty = root.querySelector('[data-save-empty]');
+    const result = root.querySelector('[data-save-result]');
+    const missingFish = root.querySelector('[data-missing-fish]');
+    const seasonLabels = {
+      spring: '春',
+      summer: '夏',
+      fall: '秋',
+      winter: '冬',
+    };
+
+    const readText = (doc, selector, fallback = '-') => doc.querySelector(selector)?.textContent?.trim() || fallback;
+    const readNumber = (doc, selector) => Number(readText(doc, selector, '0'));
+    const setText = (selector, value) => {
+      root.querySelector(selector).textContent = value;
+    };
+
+    const parseFishCaught = (doc) => {
+      const caught = new Set();
+      for (const item of doc.querySelectorAll('fishCaught item')) {
+        const id = item.querySelector('key int')?.textContent?.trim();
+        if (id) caught.add(id);
+      }
+      return caught;
+    };
+
+    const renderMissingFish = (items) => {
+      missingFish.textContent = '';
+      if (!items.length) {
+        const strong = document.createElement('strong');
+        strong.textContent = '当前索引内鱼类都已有记录';
+        missingFish.append(strong);
+        return;
+      }
+      for (const item of items) {
+        const chip = document.createElement('span');
+        chip.textContent = item.name;
+        missingFish.append(chip);
+      }
+    };
+
+    fileInput.addEventListener('change', async () => {
+      const file = fileInput.files?.[0];
+      if (!file) return;
+
+      const text = await file.text();
+      const doc = new DOMParser().parseFromString(text, 'application/xml');
+      const parserError = doc.querySelector('parsererror');
+      if (parserError) {
+        empty.hidden = false;
+        result.hidden = true;
+        empty.textContent = '这个文件无法作为 XML 存档解析。';
+        return;
+      }
+
+      const player = readText(doc, 'player > name');
+      const farm = readText(doc, 'player > farmName');
+      const year = readNumber(doc, 'year');
+      const day = readNumber(doc, 'dayOfMonth');
+      const season = readText(doc, 'currentSeason', '');
+      const money = readNumber(doc, 'player > money').toLocaleString('zh-CN');
+      const caught = parseFishCaught(doc);
+      const missing = fishIndex.filter((item) => !caught.has(String(item.id)));
+
+      setText('[data-save-player]', player);
+      setText('[data-save-farm]', farm);
+      setText('[data-save-date]', `${year} 年 ${seasonLabels[season] ?? season} ${day} 日`);
+      setText('[data-save-money]', money);
+      setText('[data-save-fish-progress]', `${fishIndex.length - missing.length} / ${fishIndex.length}`);
+      renderMissingFish(missing);
+
+      empty.hidden = true;
+      result.hidden = false;
+    });
+  })();
+</script>
+
+<style>
+  .leaf-save-tool {
+    display: grid;
+    gap: 1rem;
+    margin: 1.25rem 0;
+  }
+
+  .leaf-save-input,
+  .leaf-save-result {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    padding: 1rem;
+  }
+
+  .leaf-save-input label {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .leaf-save-input span {
+    color: var(--leaf-text-muted);
+    font-size: 0.86rem;
+    font-weight: 700;
+  }
+
+  .leaf-save-input input {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg);
+    color: var(--leaf-text);
+    font: inherit;
+    padding: 0.45rem 0.55rem;
+  }
+
+  .leaf-save-input p,
+  .leaf-save-note {
+    color: var(--leaf-text-muted);
+    margin-bottom: 0;
+  }
+
+  .leaf-save-result dl {
+    display: grid;
+    grid-template-columns: minmax(7rem, 10rem) minmax(0, 1fr);
+    margin: 0;
+  }
+
+  .leaf-save-result dt,
+  .leaf-save-result dd {
+    border-bottom: 1px solid var(--leaf-border);
+    margin: 0;
+    padding: 0.55rem 0;
+  }
+
+  .leaf-save-result dt {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+
+  .leaf-save-result h2 {
+    margin-top: 1.2rem;
+  }
+
+  .leaf-missing-fish {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.75rem;
+  }
+
+  .leaf-missing-fish span,
+  .leaf-missing-fish strong {
+    border: 1px solid rgba(35, 183, 229, 0.26);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(35, 183, 229, 0.08);
+    color: var(--leaf-text);
+    font-weight: 700;
+    padding: 0.2rem 0.45rem;
+  }
+
+  @media (max-width: 40rem) {
+    .leaf-save-result dl {
+      grid-template-columns: minmax(5rem, 7rem) minmax(0, 1fr);
+    }
+  }
+</style>

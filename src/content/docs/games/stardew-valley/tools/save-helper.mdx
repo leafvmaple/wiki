@@ -1,0 +1,31 @@
+---
+title: 存档辅助试点
+description: 星露谷物语本地存档辅助：在浏览器中读取存档并显示基础摘要与鱼类进度。
+game: '星露谷物语'
+lastVerified: '2026-06-24'
+tableOfContents: true
+sidebar:
+  order: 31
+  label: 存档辅助
+---
+
+import StardewSaveHelper from '../../../../../components/StardewSaveHelper.astro';
+
+<div className="leaf-meta-row">
+  <span className="leaf-badge">存档辅助</span>
+  <span className="leaf-badge">浏览器本地</span>
+  <span className="leaf-badge">试点</span>
+</div>
+
+这个页面用于试验安全的本地存档分析。当前版本只读取你选择的文件，解析玩家、农场、日期、金币和鱼类记录，不上传、不保存、不接账号。
+
+<StardewSaveHelper />
+
+## 后续补强
+
+| 方向 | 内容 |
+| --- | --- |
+| 收集包 | 识别完成状态和缺口 |
+| 出货 | 对照物品索引显示未出货项目 |
+| 事件 | 汇总已触发和可触发事件 |
+| 建议 | 根据季节、日期和缺口给下一步行动 |
