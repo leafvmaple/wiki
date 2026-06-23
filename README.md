@@ -25,6 +25,17 @@ https://wiki.leafvmaple.com
 
 如果之后需要多人网页编辑、账号权限、页面历史等重型 wiki 能力，再考虑 Wiki.js / MediaWiki。
 
+## 视觉方向
+
+wiki 是独立站，但整体风格要和 `leafvmaple.com` / moments 保持家族感：主色沿用
+`#23b7e5`，字体沿用 Source Sans 3 + 中文系统字体，卡片圆角维持 6px，浅阴影、灰阶文字、
+暗色模式和链接 hover 逻辑都尽量继承 moments。
+
+但不要直接复制 moments 的博客壳。wiki 应该更像信息密集的攻略资料库：侧边栏、搜索、目录、
+表格、callout 和状态标记更重要；音乐播放器、旅行相册式卡片、个人 profile 侧栏不应该照搬。
+
+具体设计约定见 [`STYLE.md`](STYLE.md)。
+
 ## 初始信息架构
 
 建议先按「游戏」作为一级入口：
@@ -59,4 +70,3 @@ src/content/docs/
 ## 当前状态
 
 仓库刚初始化，只写入项目说明和交接信息。下一步是在本目录中搭建 Starlight 项目骨架。
-

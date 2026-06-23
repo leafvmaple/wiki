@@ -25,6 +25,18 @@
 不要一上来使用 MediaWiki / Wiki.js / BookStack，除非用户明确提出多人网页编辑、账号权限、
 页面历史或数据库型 wiki 需求。
 
+## 视觉风格
+
+这个站需要和 moments 保持整体风格统一，但不能照搬博客结构。开始搭站前必须阅读
+[`STYLE.md`](STYLE.md)，并把其中的 token 映射到 Starlight 自定义 CSS。
+
+核心原则：
+
+- 继承 moments 的主色 `#23b7e5`、Source Sans 3、6px 圆角、浅阴影、灰阶文字和暗色模式。
+- 保留 Starlight 的 wiki/文档信息架构：侧边栏、目录、搜索、callout、表格优先。
+- 不复制 moments 的音乐播放器、旅行相册卡片、个人 profile 侧栏。
+- 不使用 Starlight 默认紫蓝感过强的模板观感；第一轮搭建就要改成 leafvmaple 家族色。
+
 ## 域名和仓库
 
 - GitHub 仓库：`leafvmaple/wiki`
@@ -69,4 +81,3 @@ src/content/docs/
 2. 设置站点标题、导航、侧边栏和搜索。
 3. 加入 `wiki.leafvmaple.com` 的部署配置。
 4. 建立第一个游戏目录和写作模板。
-
