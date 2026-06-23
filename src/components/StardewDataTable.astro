@@ -4,6 +4,7 @@ import fish from '../data/stardew-valley/generated/fish.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import StardewIcon from './StardewIcon.astro';
 
 type DataRow = Record<string, any>;
 type TimeRange = { start: number; end: number };
@@ -76,6 +77,8 @@ const formatGiftCounts = (villager: DataRow) => {
   return `最爱 ${counts.love} / 喜欢 ${counts.like}`;
 };
 
+const iconList = (items?: string[], kind = 'item') => items?.filter(Boolean).slice(0, 6).map((item) => ({ label: item, kind })) ?? [];
+
 const cropRows = sliceRows(crops as DataRow[]);
 const fishRows = sliceRows(fish as DataRow[]);
 const villagerRows = sliceRows(villagers as DataRow[]);
@@ -100,11 +103,11 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {cropRows.map((crop) => (
         <tr>
-          <td>{crop.seedNameZh ?? crop.seedName}</td>
+          <td><StardewIcon kind="crop" label={crop.seedNameZh ?? crop.seedName} /></td>
           <td>{formatSeasons(crop.seasons)}</td>
           <td>{crop.growDays} 天</td>
           <td>{formatRegrow(crop.regrowDays)}</td>
-          <td>{crop.harvestNameZh ?? crop.harvestName}</td>
+          <td><StardewIcon kind="item" label={crop.harvestNameZh ?? crop.harvestName} /></td>
           <td>{numberOrDash(crop.averageHarvestBaseValue)}</td>
           <td>{numberOrDash(crop.seedBasePrice)}</td>
           <td>{formatProfit(crop)}</td>
@@ -131,7 +134,7 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {fishRows.map((item) => (
         <tr>
-          <td>{item.nameZh ?? item.name}</td>
+          <td><StardewIcon kind="fish" label={item.nameZh ?? item.name} /></td>
           <td>{methodLabels[item.method] ?? item.method}</td>
           <td>{formatSeasons(item.seasons)}</td>
           <td>{formatTimeRanges(item.timeRanges)}</td>
@@ -161,13 +164,17 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {villagerRows.map((villager) => (
         <tr>
-          <td>{villager.nameZh}</td>
+          <td><StardewIcon kind="npc" label={villager.nameZh} /></td>
           <td>{formatBirthday(villager)}</td>
           <td>{villager.homeRegion ?? '-'}</td>
           <td>{yesNo(villager.canBeRomanced)}</td>
           <td>{formatHome(villager)}</td>
           <td>{formatGiftCounts(villager)}</td>
-          <td>{joinList(villager.lovedItems)}</td>
+          <td>
+            <span class="sv-mini-list">
+              {iconList(villager.lovedItems).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+            </span>
+          </td>
         </tr>
       ))}
     </tbody>
@@ -190,10 +197,18 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {machineRows.map((machine) => (
         <tr>
-          <td>{machine.nameZh}</td>
+          <td><StardewIcon kind="machine" label={machine.nameZh} /></td>
           <td>{machine.ruleCount}</td>
-          <td>{joinList(machine.inputSummary)}</td>
-          <td>{joinList(machine.outputSummary)}</td>
+          <td>
+            <span class="sv-mini-list">
+              {iconList(machine.inputSummary).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+            </span>
+          </td>
+          <td>
+            <span class="sv-mini-list">
+              {iconList(machine.outputSummary).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+            </span>
+          </td>
           <td>{joinList(machine.readyTimes)}</td>
           <td>{yesNo(machine.hasConditionalRules)}</td>
           <td>{yesNo(machine.hasRandomOutput)}</td>
@@ -219,15 +234,32 @@ const shopRows = sliceRows(shops as DataRow[]);
     <tbody>
       {shopRows.map((shop) => (
         <tr>
-          <td>{shop.id}</td>
-          <td>{joinList(shop.owners)}</td>
+          <td><StardewIcon kind="shop" label={shop.id} /></td>
+          <td>
+            <span class="sv-mini-list">
+              {iconList(shop.owners, 'npc').map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+            </span>
+          </td>
           <td>{shop.itemCount}</td>
           <td>{shop.conditionalItemCount}</td>
           <td>{shop.tradeItemCount}</td>
           <td>{shop.limitedStockCount}</td>
-          <td>{joinList(shop.sampleItems)}</td>
+          <td>
+            <span class="sv-mini-list">
+              {iconList(shop.sampleItems).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+            </span>
+          </td>
         </tr>
       ))}
     </tbody>
   </table>
 )}
+
+<style>
+  .sv-mini-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.32rem;
+    min-width: 10rem;
+  }
+</style>

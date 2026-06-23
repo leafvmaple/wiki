@@ -1,0 +1,280 @@
+---
+import summary from '../data/stardew-valley/generated/summary.json';
+import crops from '../data/stardew-valley/generated/crops.json';
+import fish from '../data/stardew-valley/generated/fish.json';
+import machines from '../data/stardew-valley/generated/machines.json';
+import shops from '../data/stardew-valley/generated/shops.json';
+import villagers from '../data/stardew-valley/generated/villagers.json';
+import StardewIcon from './StardewIcon.astro';
+
+type LinkItem = {
+  label: string;
+  href: string;
+  kind: string;
+  desc?: string;
+};
+
+const quickLinks: LinkItem[] = [
+  { label: '今日可钓鱼', href: '/games/stardew-valley/tools/', kind: 'fish', desc: '按季节、天气和时间筛选' },
+  { label: '作物播种估算', href: '/games/stardew-valley/tools/', kind: 'crop', desc: '看最晚播种日和基础差值' },
+  { label: '礼物快查', href: '/games/stardew-valley/tools/', kind: 'npc', desc: '按村民或礼物名搜索' },
+  { label: '鹈鹕镇地图', href: '/games/stardew-valley/maps/town/', kind: 'map', desc: '查看门、出口和互动点' },
+  { label: '存档辅助', href: '/games/stardew-valley/tools/save-helper/', kind: 'save', desc: '本地读取基础进度' },
+];
+
+const directoryGroups = [
+  {
+    title: '资料索引',
+    items: [
+      { label: '作物索引', href: '/games/stardew-valley/crops/', kind: 'crop' },
+      { label: '鱼类索引', href: '/games/stardew-valley/fishing/', kind: 'fish' },
+      { label: '村民索引', href: '/games/stardew-valley/villagers/', kind: 'npc' },
+      { label: '机器索引', href: '/games/stardew-valley/machines/', kind: 'machine' },
+      { label: '商店索引', href: '/games/stardew-valley/shops/', kind: 'shop' },
+    ],
+  },
+  {
+    title: '地图与工具',
+    items: [
+      { label: '地图与点位', href: '/games/stardew-valley/maps/', kind: 'map' },
+      { label: '鹈鹕镇地图', href: '/games/stardew-valley/maps/town/', kind: 'map' },
+      { label: '攻略工具', href: '/games/stardew-valley/tools/', kind: 'tool' },
+      { label: '存档辅助', href: '/games/stardew-valley/tools/save-helper/', kind: 'save' },
+    ],
+  },
+  {
+    title: '维护信息',
+    items: [
+      { label: '数据说明', href: '/games/stardew-valley/data-notes/', kind: 'note' },
+      { label: '更新记录', href: '/games/stardew-valley/changelog/', kind: 'note' },
+    ],
+  },
+];
+
+const featuredVillagers = (villagers as any[])
+  .filter((item) => item.canReceiveGifts && item.birthSeason)
+  .slice(0, 12)
+  .map((item) => ({ label: item.nameZh, href: '/games/stardew-valley/villagers/', kind: 'npc' }));
+const featuredCrops = (crops as any[])
+  .slice(0, 10)
+  .map((item) => ({ label: item.harvestNameZh ?? item.harvestName, href: '/games/stardew-valley/crops/', kind: 'crop' }));
+const featuredFish = (fish as any[])
+  .slice(0, 10)
+  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/fishing/', kind: 'fish' }));
+const featuredMachines = (machines as any[])
+  .slice(0, 8)
+  .map((item) => ({ label: item.nameZh ?? item.name, href: '/games/stardew-valley/machines/', kind: 'machine' }));
+const featuredShops = (shops as any[])
+  .filter((item) => item.itemCount > 8)
+  .slice(0, 8)
+  .map((item) => ({ label: item.owners?.[0] ? `${item.owners[0]} · ${item.id}` : item.id, href: '/games/stardew-valley/shops/', kind: 'shop' }));
+
+const denseGroups = [
+  { title: '村民', items: featuredVillagers },
+  { title: '作物', items: featuredCrops },
+  { title: '鱼类', items: featuredFish },
+  { title: '机器', items: featuredMachines },
+  { title: '商店', items: featuredShops },
+];
+---
+
+<section class="sv-home-hero">
+  <div class="sv-home-title">
+    <p class="sv-home-kicker">个人攻略资料库</p>
+    <h1>星露谷物语</h1>
+    <p>
+      把常查资料、地图点位、浏览器工具和本地进度辅助集中到一个入口。先解决“查得快”，再逐步补路线、截图和更细的玩法页。
+    </p>
+  </div>
+  <div class="sv-home-stats" aria-label="数据快照">
+    <span><strong>{summary.counts.crops}</strong>作物</span>
+    <span><strong>{summary.counts.fish}</strong>鱼类</span>
+    <span><strong>{summary.counts.characters}</strong>角色</span>
+    <span><strong>{summary.counts.shops}</strong>商店</span>
+    <span><strong>{summary.counts.machines}</strong>机器</span>
+    <span><strong>{summary.counts.maps}</strong>地图</span>
+  </div>
+</section>
+
+<section class="sv-home-quick" aria-label="常用入口">
+  {quickLinks.map((item) => (
+    <a href={item.href}>
+      <StardewIcon kind={item.kind} label={item.label} />
+      <span>{item.desc}</span>
+    </a>
+  ))}
+</section>
+
+<section class="sv-home-directory" aria-label="分类导航">
+  {directoryGroups.map((group) => (
+    <div class="sv-home-section">
+      <h2>{group.title}</h2>
+      <div class="sv-home-links">
+        {group.items.map((item) => (
+          <a href={item.href}>
+            <StardewIcon kind={item.kind} label={item.label} compact />
+          </a>
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
+
+<section class="sv-home-dense" aria-label="索引预览">
+  {denseGroups.map((group) => (
+    <div class="sv-home-section">
+      <h2>{group.title}</h2>
+      <div class="sv-home-chipset">
+        {group.items.map((item) => (
+          <a href={item.href}>
+            <StardewIcon kind={item.kind} label={item.label} compact />
+          </a>
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
+
+<style>
+  .sv-home-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, rgba(39, 194, 76, 0.1), transparent 42%),
+      linear-gradient(315deg, rgba(208, 138, 29, 0.12), transparent 48%),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+    margin: 0.5rem 0 1rem;
+    min-height: 16rem;
+    overflow: hidden;
+    padding: 1.2rem;
+  }
+
+  .sv-home-kicker {
+    color: var(--leaf-primary-hover);
+    font-weight: 800;
+    margin: 0 0 0.2rem;
+  }
+
+  .sv-home-title h1 {
+    font-size: 2.45rem;
+    line-height: 1;
+    margin: 0 0 0.7rem;
+  }
+
+  .sv-home-title p:last-child {
+    color: var(--leaf-text);
+    font-size: 1.02rem;
+    max-width: 42rem;
+  }
+
+  .sv-home-stats {
+    align-content: start;
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sv-home-stats span {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(255, 255, 255, 0.68);
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.1rem;
+    min-height: 4rem;
+    padding: 0.55rem;
+  }
+
+  :root[data-theme='dark'] .sv-home-stats span {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .sv-home-stats strong {
+    color: var(--leaf-heading);
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+
+  .sv-home-quick {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    margin: 1rem 0;
+  }
+
+  .sv-home-quick a,
+  .sv-home-links a,
+  .sv-home-chipset a {
+    color: var(--leaf-text);
+    text-decoration: none;
+  }
+
+  .sv-home-quick a {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.45rem;
+    min-height: 5.4rem;
+    padding: 0.75rem;
+  }
+
+  .sv-home-quick a:hover,
+  .sv-home-links a:hover,
+  .sv-home-chipset a:hover {
+    border-color: rgba(35, 183, 229, 0.45);
+    color: var(--leaf-primary-hover);
+  }
+
+  .sv-home-quick a > span:last-child {
+    color: var(--leaf-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .sv-home-directory,
+  .sv-home-dense {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    margin: 1rem 0;
+  }
+
+  .sv-home-section {
+    border-block-start: 2px solid rgba(35, 183, 229, 0.3);
+    padding-top: 0.65rem;
+  }
+
+  .sv-home-section h2 {
+    font-size: 1.08rem;
+    margin: 0 0 0.55rem;
+  }
+
+  .sv-home-links,
+  .sv-home-chipset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  @media (max-width: 52rem) {
+    .sv-home-hero {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .sv-home-hero {
+      min-height: auto;
+      padding: 1rem;
+    }
+
+    .sv-home-stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

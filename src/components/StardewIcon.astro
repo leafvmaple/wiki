@@ -1,0 +1,104 @@
+---
+const { kind = 'item', label = '', compact = false } = Astro.props as {
+  kind?: string;
+  label?: string;
+  compact?: boolean;
+};
+
+const text = String(label || '?');
+const letter = text.trim().slice(0, 1).toUpperCase() || '?';
+---
+
+<span class:list={['sv-icon-label', compact && 'is-compact']}>
+  <span class:list={['sv-icon', `is-${kind}`]} aria-hidden="true">{letter}</span>
+  <span class="sv-icon-text">{text}</span>
+</span>
+
+<style>
+  .sv-icon-label {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.42rem;
+    min-width: 0;
+    vertical-align: middle;
+  }
+
+  .sv-icon-label.is-compact {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    gap: 0.32rem;
+    line-height: 1;
+    padding: 0.18rem 0.38rem 0.18rem 0.22rem;
+  }
+
+  .sv-icon {
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+    font-weight: 800;
+    height: 1.55rem;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: 1;
+    width: 1.55rem;
+  }
+
+  .sv-icon-label.is-compact .sv-icon {
+    border-radius: 4px;
+    font-size: 0.62rem;
+    height: 1.22rem;
+    width: 1.22rem;
+  }
+
+  .sv-icon-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .sv-icon.is-crop {
+    background: #2f9e44;
+  }
+
+  .sv-icon.is-fish {
+    background: #168aad;
+  }
+
+  .sv-icon.is-npc {
+    background: #c55f3d;
+    border-radius: 999px;
+  }
+
+  .sv-icon.is-machine {
+    background: #7c6f64;
+  }
+
+  .sv-icon.is-shop {
+    background: #d08a1d;
+  }
+
+  .sv-icon.is-map {
+    background: #5a7d3a;
+  }
+
+  .sv-icon.is-tool {
+    background: #4b6cb7;
+  }
+
+  .sv-icon.is-save {
+    background: #8b5cf6;
+  }
+
+  .sv-icon.is-note {
+    background: #64748b;
+  }
+
+  .sv-icon.is-item {
+    background: #9b6a3d;
+  }
+</style>
