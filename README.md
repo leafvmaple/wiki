@@ -23,7 +23,7 @@ https://wiki.leafvmaple.com
 - 默认支持侧边栏、目录、站内搜索、暗色模式
 - 静态部署简单，适合 GitHub Pages / Cloudflare Pages
 
-如果之后需要多人网页编辑、账号权限、页面历史等重型 wiki 能力，再考虑 Wiki.js / MediaWiki。
+如果之后确实需要网页后台、账号权限、页面历史等重型 wiki 能力，再单独评估 Wiki.js / MediaWiki。
 
 ## 视觉方向
 
@@ -71,7 +71,7 @@ src/content/docs/
 
 ## 建设阶段
 
-长期建设阶段见 [`STAGES.md`](STAGES.md)。当前方向是个人攻略资料库，不引入账号、审核、页面历史等社区型 wiki 流程。
+长期建设阶段见 [`STAGES.md`](STAGES.md)。当前方向是个人攻略资料库，不引入账号、权限后台或页面历史流程。
 
 ## 当前状态
 
