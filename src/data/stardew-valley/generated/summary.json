@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:13:02.482Z",
+  "generatedAt": "2026-06-23T16:24:26.759Z",
   "gameVersion": null,
   "counts": {
     "objects": 807,
@@ -13,6 +13,9 @@
   },
   "files": [
     "crops.json",
-    "fish.json"
+    "fish.json",
+    "villagers.json",
+    "machines.json",
+    "shops.json"
   ]
 }

@@ -86,6 +86,11 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: '游戏总览', link: '/games/stardew-valley/' },
+            { label: '作物索引', link: '/games/stardew-valley/crops/' },
+            { label: '鱼类索引', link: '/games/stardew-valley/fishing/' },
+            { label: '村民索引', link: '/games/stardew-valley/villagers/' },
+            { label: '机器索引', link: '/games/stardew-valley/machines/' },
+            { label: '商店索引', link: '/games/stardew-valley/shops/' },
             { label: '地图与点位', link: '/games/stardew-valley/maps/' },
             { label: '攻略工具', link: '/games/stardew-valley/tools/' },
             { label: '数据说明', link: '/games/stardew-valley/data-notes/' },

@@ -29,11 +29,65 @@ const localizedObjectName = (id, objects, objectStrings) => {
   return objectStrings[objectNameKey(object)] ?? object.Name ?? null;
 };
 
+const bigCraftableNameKey = (item) => {
+  const match = item?.DisplayName?.match(/Strings\\BigCraftables:([^\\\]]+)/);
+  return match?.[1] ?? `${item?.Name ?? ''}_Name`;
+};
+
+const localizedBigCraftableName = (id, bigCraftables, bigCraftableStrings) => {
+  const item = bigCraftables[id];
+  if (!item) return null;
+  return bigCraftableStrings[bigCraftableNameKey(item)] ?? item.Name ?? null;
+};
+
+const parseQualifiedId = (value) => {
+  if (value === null || value === undefined) return null;
+  const text = String(value);
+  const match = text.match(/^\(([A-Z]+)\)(.+)$/);
+  return {
+    type: match?.[1] ?? null,
+    id: match?.[2] ?? text,
+  };
+};
+
+const itemLabel = (value, objects, objectStrings, bigCraftables, bigCraftableStrings) => {
+  const parsed = parseQualifiedId(value);
+  if (!parsed) return null;
+  if (parsed.id === 'DROP_IN') return '按输入变化';
+  if (parsed.id.startsWith('-')) return `分类 ${parsed.id}`;
+
+  if (!parsed.type || parsed.type === 'O') {
+    return localizedObjectName(parsed.id, objects, objectStrings) ?? objects[parsed.id]?.Name ?? parsed.id;
+  }
+
+  if (parsed.type === 'BC') {
+    return (
+      localizedBigCraftableName(parsed.id, bigCraftables, bigCraftableStrings) ??
+      bigCraftables[parsed.id]?.Name ??
+      parsed.id
+    );
+  }
+
+  const typeLabels = {
+    B: '鞋子',
+    W: '武器',
+    H: '帽子',
+    S: '鞋子',
+    T: '工具',
+  };
+  return `${typeLabels[parsed.type] ?? parsed.type} ${parsed.id}`;
+};
+
+const unique = (items) => [...new Set(items.filter(Boolean))];
+const preview = (items, limit = 6) => unique(items).slice(0, limit);
+
 const splitList = (value) =>
-  value
+  String(value ?? '')
     .split(/\s+/)
     .map((item) => item.trim())
     .filter(Boolean);
+
+const seasonOrder = ['Spring', 'Summer', 'Fall', 'Winter'];
 
 const parseTimeRanges = (value) => {
   const parts = splitList(value).map(Number).filter(Number.isFinite);
@@ -133,17 +187,189 @@ const buildCrops = (crops, objects, objectStrings) =>
     })
     .sort((a, b) => a.growDays - b.growDays || a.seedName.localeCompare(b.seedName));
 
+const parseGiftTaste = (value) => {
+  if (!value) {
+    return {
+      love: [],
+      like: [],
+      neutral: [],
+      dislike: [],
+      hate: [],
+    };
+  }
+
+  const parts = String(value).split('/');
+  if (parts.length < 2) {
+    return {
+      love: splitList(value),
+      like: [],
+      neutral: [],
+      dislike: [],
+      hate: [],
+    };
+  }
+
+  return {
+    love: splitList(parts[1]),
+    like: splitList(parts[3]),
+    neutral: splitList(parts[9]),
+    dislike: splitList(parts[5]),
+    hate: splitList(parts[7]),
+  };
+};
+
+const buildVillagers = (characters, npcNames, giftTastes, objects, objectStrings, bigCraftables, bigCraftableStrings) =>
+  Object.entries(characters)
+    .map(([id, character]) => {
+      const home = character.Home?.[0] ?? null;
+      const gifts = parseGiftTaste(giftTastes[id]);
+      const labelGiftItems = (items) =>
+        preview(items.map((item) => itemLabel(item, objects, objectStrings, bigCraftables, bigCraftableStrings)), 8);
+
+      return {
+        id,
+        nameZh: npcNames[id] ?? id,
+        birthSeason: character.BirthSeason ?? null,
+        birthDay: character.BirthDay ?? null,
+        homeRegion: character.HomeRegion ?? null,
+        gender: character.Gender ?? null,
+        age: character.Age ?? null,
+        canBeRomanced: Boolean(character.CanBeRomanced),
+        canReceiveGifts: Boolean(character.CanReceiveGifts),
+        homeLocation: home?.Location ?? null,
+        homeTile: home?.Tile ? { x: home.Tile.X, y: home.Tile.Y } : null,
+        familyIds: Object.keys(character.FriendsAndFamily ?? {}),
+        giftCounts: {
+          love: gifts.love.length,
+          like: gifts.like.length,
+          neutral: gifts.neutral.length,
+          dislike: gifts.dislike.length,
+          hate: gifts.hate.length,
+        },
+        lovedItems: labelGiftItems(gifts.love),
+        likedItems: labelGiftItems(gifts.like),
+      };
+    })
+    .sort((a, b) => {
+      const seasonRank = (season) => {
+        const index = seasonOrder.indexOf(season);
+        return index === -1 ? 99 : index;
+      };
+      const dayRank = (day) => (day && day > 0 ? day : 99);
+      const seasonDelta = seasonRank(a.birthSeason) - seasonRank(b.birthSeason);
+      return seasonDelta || dayRank(a.birthDay) - dayRank(b.birthDay) || a.nameZh.localeCompare(b.nameZh);
+    });
+
+const buildMachines = (machines, objects, objectStrings, bigCraftables, bigCraftableStrings) =>
+  Object.entries(machines)
+    .map(([machineKey, machine]) => {
+      const parsed = parseQualifiedId(machineKey);
+      const id = parsed?.id ?? machineKey;
+      const rules = machine.OutputRules ?? [];
+      const triggers = rules.flatMap((rule) => rule.Triggers ?? []);
+      const outputs = rules.flatMap((rule) => rule.OutputItem ?? []);
+      const inputItems = triggers.map((trigger) =>
+        itemLabel(trigger.RequiredItemId, objects, objectStrings, bigCraftables, bigCraftableStrings)
+      );
+      const inputTags = triggers.flatMap((trigger) =>
+        (trigger.RequiredTags ?? []).filter((tag) => !tag.startsWith('!')).map((tag) => `标签 ${tag}`)
+      );
+      const outputItems = outputs.map((output) => {
+        if (output.ItemId) {
+          return itemLabel(output.ItemId, objects, objectStrings, bigCraftables, bigCraftableStrings);
+        }
+        if (output.RandomItemId) return '随机物品';
+        if (output.PreserveId || output.OutputMethod) return '按输入变化';
+        return null;
+      });
+      const readyTimes = rules.map((rule) => {
+        if (rule.DaysUntilReady !== undefined && rule.DaysUntilReady > 0) return `${rule.DaysUntilReady} 天`;
+        if (rule.MinutesUntilReady !== undefined && rule.MinutesUntilReady > 0) return `${rule.MinutesUntilReady} 分钟`;
+        if (machine.OnlyCompleteOvernight) return '隔夜';
+        return null;
+      });
+
+      return {
+        id,
+        key: machineKey,
+        name: bigCraftables[id]?.Name ?? id,
+        nameZh: localizedBigCraftableName(id, bigCraftables, bigCraftableStrings) ?? bigCraftables[id]?.Name ?? id,
+        ruleCount: rules.length,
+        inputSummary: preview([...inputItems, ...inputTags]),
+        outputSummary: preview(outputItems),
+        readyTimes: preview(readyTimes, 4),
+        hasConditionalRules: rules.some(
+          (rule) =>
+            rule.Condition ||
+            (rule.Triggers ?? []).some((trigger) => trigger.Condition) ||
+            (rule.OutputItem ?? []).some((output) => output.Condition || output.PerItemCondition)
+        ),
+        hasRandomOutput: outputs.some(
+          (output) =>
+            output.RandomItemId ||
+            output.MaxItems ||
+            (output.MaxStack !== undefined && output.MaxStack > 0 && output.MaxStack !== output.MinStack)
+        ),
+      };
+    })
+    .sort((a, b) => a.nameZh.localeCompare(b.nameZh));
+
+const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigCraftableStrings) =>
+  Object.entries(shops)
+    .map(([id, shop]) => {
+      const items = shop.Items ?? [];
+      const ownerNames = unique(
+        (shop.Owners ?? [])
+          .map((owner) => owner.Name ?? owner.Id)
+          .filter((owner) => owner && !['None', 'AnyOrNone'].includes(owner))
+          .map((owner) => npcNames[owner] ?? owner)
+      );
+      const sampleItems = items.map((item) =>
+        itemLabel(item.ItemId ?? item.Id, objects, objectStrings, bigCraftables, bigCraftableStrings)
+      );
+
+      return {
+        id,
+        owners: ownerNames.length ? ownerNames : ['无固定店主'],
+        itemCount: items.length,
+        salableTagsCount: shop.SalableItemTags?.length ?? 0,
+        pricedItemCount: items.filter((item) => item.Price > -1 || item.UseObjectDataPrice).length,
+        conditionalItemCount: items.filter((item) => item.Condition || item.PerItemCondition).length,
+        tradeItemCount: items.filter((item) => item.TradeItemId).length,
+        limitedStockCount: items.filter((item) => item.AvailableStock !== undefined && item.AvailableStock > -1).length,
+        sampleItems: preview(sampleItems),
+      };
+    })
+    .sort((a, b) => a.id.localeCompare(b.id));
+
 const writeJson = async (fileName, data) => {
   await writeFile(path.join(outputRoot, fileName), `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 };
 
 const main = async () => {
-  const [objects, objectStrings, crops, fish, characters, shops, machines, bundles] = await Promise.all([
+  const [
+    objects,
+    objectStrings,
+    bigCraftables,
+    bigCraftableStrings,
+    npcNames,
+    crops,
+    fish,
+    characters,
+    giftTastes,
+    shops,
+    machines,
+    bundles,
+  ] = await Promise.all([
     readJson(dataDir, 'Objects.json'),
     readJson(stringsDir, 'Objects.zh-CN.json'),
+    readJson(dataDir, 'BigCraftables.json'),
+    readJson(stringsDir, 'BigCraftables.zh-CN.json'),
+    readJson(stringsDir, 'NPCNames.zh-CN.json'),
     readJson(dataDir, 'Crops.json'),
     readJson(dataDir, 'Fish.json'),
     readJson(dataDir, 'Characters.json'),
+    readJson(dataDir, 'NPCGiftTastes.json'),
     readJson(dataDir, 'Shops.json'),
     readJson(dataDir, 'Machines.json'),
     readJson(dataDir, 'Bundles.json'),
@@ -155,6 +381,17 @@ const main = async () => {
   const fishRows = Object.entries(fish)
     .map(([id, value]) => parseFish(id, value, objects, objectStrings))
     .sort((a, b) => a.name.localeCompare(b.name));
+  const villagerRows = buildVillagers(
+    characters,
+    npcNames,
+    giftTastes,
+    objects,
+    objectStrings,
+    bigCraftables,
+    bigCraftableStrings
+  );
+  const machineRows = buildMachines(machines, objects, objectStrings, bigCraftables, bigCraftableStrings);
+  const shopRows = buildShops(shops, npcNames, objects, objectStrings, bigCraftables, bigCraftableStrings);
 
   await mkdir(outputRoot, { recursive: true });
 
@@ -171,10 +408,13 @@ const main = async () => {
       bundles: Object.keys(bundles).length,
       maps: mapCount,
     },
-    files: ['crops.json', 'fish.json'],
+    files: ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json'],
   });
   await writeJson('crops.json', cropRows);
   await writeJson('fish.json', fishRows);
+  await writeJson('villagers.json', villagerRows);
+  await writeJson('machines.json', machineRows);
+  await writeJson('shops.json', shopRows);
 
   console.log(`Generated Stardew Valley data in ${path.relative(repoRoot, outputRoot)}`);
 };

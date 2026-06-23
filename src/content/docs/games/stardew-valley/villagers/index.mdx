@@ -1,0 +1,26 @@
+---
+title: 村民索引
+description: 星露谷物语村民索引：生日、区域、可结婚状态、常驻位置和礼物摘要。
+game: '星露谷物语'
+lastVerified: '2026-06-24'
+tableOfContents: true
+sidebar:
+  order: 12
+  label: 村民索引
+---
+
+import StardewDataTable from '../../../../../components/StardewDataTable.astro';
+
+<div className="leaf-meta-row">
+  <span className="leaf-badge">村民</span>
+  <span className="leaf-badge">礼物摘要</span>
+  <span className="leaf-badge">建设中</span>
+</div>
+
+这个页面先做村民的生日、区域、可结婚状态、常驻位置和礼物摘要。最爱示例只用于快速识别方向，后续会拆成可搜索的礼物查询器。
+
+:::note[礼物摘要]
+这里展示的是每个角色的轻量摘要，不包含完整对白文本；通用偏好和例外规则后续会在礼物查询器里做成更清楚的结果页。
+:::
+
+<StardewDataTable kind="villagers" />

@@ -1,0 +1,233 @@
+---
+import crops from '../data/stardew-valley/generated/crops.json';
+import fish from '../data/stardew-valley/generated/fish.json';
+import machines from '../data/stardew-valley/generated/machines.json';
+import shops from '../data/stardew-valley/generated/shops.json';
+import villagers from '../data/stardew-valley/generated/villagers.json';
+
+type DataRow = Record<string, any>;
+type TimeRange = { start: number; end: number };
+type LocationCode = { code: string; chance: number | null };
+
+const { kind, limit } = Astro.props as { kind: string; limit?: number };
+
+const sliceRows = (rows: DataRow[]) => rows.slice(0, limit ?? rows.length);
+const joinList = (items?: string[], fallback = '-') => (items?.length ? items.join('、') : fallback);
+const yesNo = (value: boolean) => (value ? '是' : '否');
+const numberOrDash = (value: unknown) => (typeof value === 'number' && Number.isFinite(value) ? value : '-');
+
+const seasonLabels: Record<string, string> = {
+  Spring: '春',
+  Summer: '夏',
+  Fall: '秋',
+  Winter: '冬',
+};
+
+const weatherLabels: Record<string, string> = {
+  sunny: '晴天',
+  rainy: '雨天',
+  both: '不限',
+};
+
+const methodLabels: Record<string, string> = {
+  rod: '钓竿',
+  trap: '蟹笼',
+};
+
+const formatSeason = (season?: string | null) => (season ? seasonLabels[season] ?? season : '-');
+const formatSeasons = (seasons?: string[]) => (seasons?.length ? seasons.map(formatSeason).join('、') : '-');
+
+const formatTime = (value: unknown) => {
+  const time = Number(value);
+  if (!Number.isFinite(time)) return '-';
+  const hour = Math.floor(time / 100);
+  const minute = time % 100;
+  const displayHour = hour >= 24 ? hour - 24 : hour;
+  const suffix = hour >= 24 ? ' +1' : '';
+  return `${String(displayHour).padStart(2, '0')}:${String(minute).padStart(2, '0')}${suffix}`;
+};
+
+const formatTimeRanges = (ranges?: TimeRange[]) =>
+  ranges?.length ? ranges.map((range) => `${formatTime(range.start)}-${formatTime(range.end)}`).join('、') : '-';
+
+const formatLocations = (locations?: LocationCode[]) =>
+  locations?.length
+    ? locations.map((location) => (location.chance ? `${location.code}(${location.chance})` : location.code)).join('、')
+    : '-';
+
+const formatRegrow = (days?: number) => (days && days > 0 ? `${days} 天` : '否');
+const formatProfit = (crop: DataRow) =>
+  typeof crop.averageHarvestBaseValue === 'number' && typeof crop.seedBasePrice === 'number'
+    ? crop.averageHarvestBaseValue - crop.seedBasePrice
+    : '-';
+
+const formatBirthday = (villager: DataRow) =>
+  villager.birthSeason && villager.birthDay ? `${formatSeason(villager.birthSeason)} ${villager.birthDay} 日` : '-';
+
+const formatHome = (villager: DataRow) => {
+  if (!villager.homeLocation) return '-';
+  if (!villager.homeTile) return villager.homeLocation;
+  return `${villager.homeLocation} (${villager.homeTile.x}, ${villager.homeTile.y})`;
+};
+
+const formatGiftCounts = (villager: DataRow) => {
+  const counts = villager.giftCounts;
+  if (!counts) return '-';
+  return `最爱 ${counts.love} / 喜欢 ${counts.like}`;
+};
+
+const cropRows = sliceRows(crops as DataRow[]);
+const fishRows = sliceRows(fish as DataRow[]);
+const villagerRows = sliceRows(villagers as DataRow[]);
+const machineRows = sliceRows(machines as DataRow[]);
+const shopRows = sliceRows(shops as DataRow[]);
+---
+
+{kind === 'crops' && (
+  <table>
+    <thead>
+      <tr>
+        <th>种子</th>
+        <th>季节</th>
+        <th>成熟</th>
+        <th>再生</th>
+        <th>收获物</th>
+        <th>收获估值</th>
+        <th>种子基价</th>
+        <th>基础差值</th>
+      </tr>
+    </thead>
+    <tbody>
+      {cropRows.map((crop) => (
+        <tr>
+          <td>{crop.seedNameZh ?? crop.seedName}</td>
+          <td>{formatSeasons(crop.seasons)}</td>
+          <td>{crop.growDays} 天</td>
+          <td>{formatRegrow(crop.regrowDays)}</td>
+          <td>{crop.harvestNameZh ?? crop.harvestName}</td>
+          <td>{numberOrDash(crop.averageHarvestBaseValue)}</td>
+          <td>{numberOrDash(crop.seedBasePrice)}</td>
+          <td>{formatProfit(crop)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'fish' && (
+  <table>
+    <thead>
+      <tr>
+        <th>鱼类</th>
+        <th>方式</th>
+        <th>季节</th>
+        <th>时间</th>
+        <th>天气</th>
+        <th>地点代码</th>
+        <th>难度</th>
+        <th>基价</th>
+      </tr>
+    </thead>
+    <tbody>
+      {fishRows.map((item) => (
+        <tr>
+          <td>{item.nameZh ?? item.name}</td>
+          <td>{methodLabels[item.method] ?? item.method}</td>
+          <td>{formatSeasons(item.seasons)}</td>
+          <td>{formatTimeRanges(item.timeRanges)}</td>
+          <td>{weatherLabels[item.weather] ?? item.weather ?? '-'}</td>
+          <td>{formatLocations(item.locationCodes)}</td>
+          <td>{numberOrDash(item.difficulty)}</td>
+          <td>{numberOrDash(item.basePrice)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'villagers' && (
+  <table>
+    <thead>
+      <tr>
+        <th>村民</th>
+        <th>生日</th>
+        <th>区域</th>
+        <th>可结婚</th>
+        <th>常驻位置</th>
+        <th>礼物摘要</th>
+        <th>最爱示例</th>
+      </tr>
+    </thead>
+    <tbody>
+      {villagerRows.map((villager) => (
+        <tr>
+          <td>{villager.nameZh}</td>
+          <td>{formatBirthday(villager)}</td>
+          <td>{villager.homeRegion ?? '-'}</td>
+          <td>{yesNo(villager.canBeRomanced)}</td>
+          <td>{formatHome(villager)}</td>
+          <td>{formatGiftCounts(villager)}</td>
+          <td>{joinList(villager.lovedItems)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'machines' && (
+  <table>
+    <thead>
+      <tr>
+        <th>机器</th>
+        <th>规则数</th>
+        <th>输入摘要</th>
+        <th>输出摘要</th>
+        <th>加工时间</th>
+        <th>条件规则</th>
+        <th>随机输出</th>
+      </tr>
+    </thead>
+    <tbody>
+      {machineRows.map((machine) => (
+        <tr>
+          <td>{machine.nameZh}</td>
+          <td>{machine.ruleCount}</td>
+          <td>{joinList(machine.inputSummary)}</td>
+          <td>{joinList(machine.outputSummary)}</td>
+          <td>{joinList(machine.readyTimes)}</td>
+          <td>{yesNo(machine.hasConditionalRules)}</td>
+          <td>{yesNo(machine.hasRandomOutput)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'shops' && (
+  <table>
+    <thead>
+      <tr>
+        <th>商店</th>
+        <th>店主</th>
+        <th>商品数</th>
+        <th>条件商品</th>
+        <th>交易商品</th>
+        <th>限量商品</th>
+        <th>示例商品</th>
+      </tr>
+    </thead>
+    <tbody>
+      {shopRows.map((shop) => (
+        <tr>
+          <td>{shop.id}</td>
+          <td>{joinList(shop.owners)}</td>
+          <td>{shop.itemCount}</td>
+          <td>{shop.conditionalItemCount}</td>
+          <td>{shop.tradeItemCount}</td>
+          <td>{shop.limitedStockCount}</td>
+          <td>{joinList(shop.sampleItems)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}

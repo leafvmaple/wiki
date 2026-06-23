@@ -1,0 +1,22 @@
+---
+title: 机器索引
+description: 星露谷物语机器索引：输入摘要、输出摘要、加工时间、条件规则和随机输出。
+game: '星露谷物语'
+lastVerified: '2026-06-24'
+tableOfContents: true
+sidebar:
+  order: 13
+  label: 机器索引
+---
+
+import StardewDataTable from '../../../../../components/StardewDataTable.astro';
+
+<div className="leaf-meta-row">
+  <span className="leaf-badge">机器</span>
+  <span className="leaf-badge">规则摘要</span>
+  <span className="leaf-badge">建设中</span>
+</div>
+
+这个页面先把机器的输入、输出、加工时间和规则特征汇总成摘要。后续会继续拆成加工收益计算和按物品反查机器的工具。
+
+<StardewDataTable kind="machines" />

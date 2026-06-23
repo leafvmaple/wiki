@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "Kent",
+    "nameZh": "肯特",
+    "birthSeason": "Spring",
+    "birthDay": 4,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SamHouse",
+    "homeTile": {
+      "x": 22,
+      "y": 5
+    },
+    "familyIds": [
+      "Jodi",
+      "Sam",
+      "Vincent"
+    ],
+    "giftCounts": {
+      "love": 2,
+      "like": 6,
+      "neutral": 0,
+      "dislike": 4,
+      "hate": 4
+    },
+    "lovedItems": [
+      "烤榛子",
+      "意式蕨菜炖饭"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -79",
+      "黄水仙",
+      "甜豌豆",
+      "番红花",
+      "矮人安全手册"
+    ]
+  },
+  {
+    "id": "Lewis",
+    "nameZh": "刘易斯",
+    "birthSeason": "Spring",
+    "birthDay": 7,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "ManorHouse",
+    "homeTile": {
+      "x": 8,
+      "y": 5
+    },
+    "familyIds": [
+      "Marnie"
+    ],
+    "giftCounts": {
+      "love": 5,
+      "like": 11,
+      "neutral": 0,
+      "dislike": 3,
+      "hate": 1
+    },
+    "lovedItems": [
+      "蔬菜杂烩",
+      "琉璃山药",
+      "秋日恩赐",
+      "绿茶",
+      "辣椒"
+    ],
+    "likedItems": [
+      "分类 -80",
+      "防风草",
+      "椰子",
+      "仙人掌果子",
+      "土豆",
+      "蓝莓",
+      "萝卜",
+      "茄子"
+    ]
+  },
+  {
+    "id": "Vincent",
+    "nameZh": "文森特",
+    "birthSeason": "Spring",
+    "birthDay": 10,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Child",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SamHouse",
+    "homeTile": {
+      "x": 10,
+      "y": 23
+    },
+    "familyIds": [
+      "Jas"
+    ],
+    "giftCounts": {
+      "love": 6,
+      "like": 15,
+      "neutral": 0,
+      "dislike": 5,
+      "hate": 7
+    },
+    "lovedItems": [
+      "粉红蛋糕",
+      "葡萄",
+      "蔓越莓糖果",
+      "蜗牛",
+      "姜汁汽水",
+      "FrogEgg"
+    ],
+    "likedItems": [
+      "黄水仙",
+      "绿宝石",
+      "红宝石",
+      "翡翠",
+      "椰子",
+      "大米布丁",
+      "冰淇淋",
+      "蓝莓千层酥"
+    ]
+  },
+  {
+    "id": "Haley",
+    "nameZh": "海莉",
+    "birthSeason": "Spring",
+    "birthDay": 14,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "HaleyHouse",
+    "homeTile": {
+      "x": 8,
+      "y": 7
+    },
+    "familyIds": [
+      "Emily"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 13,
+      "neutral": 0,
+      "dislike": 7,
+      "hate": 4
+    },
+    "lovedItems": [
+      "粉红蛋糕",
+      "向日葵",
+      "水果沙拉",
+      "椰子"
+    ],
+    "likedItems": [
+      "黄水仙",
+      "绿宝石",
+      "海蓝宝石",
+      "红宝石",
+      "翡翠",
+      "椰子",
+      "大黄派",
+      "饼干"
+    ]
+  },
+  {
+    "id": "Pam",
+    "nameZh": "潘姆",
+    "birthSeason": "Spring",
+    "birthDay": 18,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Trailer",
+    "homeTile": {
+      "x": 15,
+      "y": 4
+    },
+    "familyIds": [
+      "Penny",
+      "Gus"
+    ],
+    "giftCounts": {
+      "love": 8,
+      "like": 15,
+      "neutral": 2,
+      "dislike": 4,
+      "hate": 2
+    },
+    "lovedItems": [
+      "防风草",
+      "仙人掌果子",
+      "防风草汤",
+      "琉璃山药",
+      "淡啤酒",
+      "啤酒",
+      "蜜蜂酒",
+      "椰林飘香"
+    ],
+    "likedItems": [
+      "分类 -6",
+      "分类 -75",
+      "分类 -79",
+      "黄水仙",
+      "生鱼片",
+      "生鱼寿司",
+      "帕尔玛奶酪茄子",
+      "大米布丁"
+    ]
+  },
+  {
+    "id": "Shane",
+    "nameZh": "谢恩",
+    "birthSeason": "Spring",
+    "birthDay": 20,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "AnimalShop",
+    "homeTile": {
+      "x": 25,
+      "y": 6
+    },
+    "familyIds": [
+      "Marnie"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 3,
+      "neutral": 1,
+      "dislike": 3,
+      "hate": 2
+    },
+    "lovedItems": [
+      "披萨",
+      "爆炒青椒",
+      "辣椒",
+      "啤酒"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -79",
+      "淡啤酒"
+    ]
+  },
+  {
+    "id": "Pierre",
+    "nameZh": "皮埃尔",
+    "birthSeason": "Spring",
+    "birthDay": 26,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SeedShop",
+    "homeTile": {
+      "x": 4,
+      "y": 17
+    },
+    "familyIds": [
+      "Abigail",
+      "Caroline"
+    ],
+    "giftCounts": {
+      "love": 2,
+      "like": 9,
+      "neutral": 0,
+      "dislike": 3,
+      "hate": 6
+    },
+    "lovedItems": [
+      "炸鱿鱼",
+      "价格目录"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -6",
+      "分类 -7",
+      "黄水仙",
+      "蒲公英",
+      "甜豌豆",
+      "番红花",
+      "蕨菜"
+    ]
+  },
+  {
+    "id": "Emily",
+    "nameZh": "艾米丽",
+    "birthSeason": "Spring",
+    "birthDay": 27,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "HaleyHouse",
+    "homeTile": {
+      "x": 16,
+      "y": 5
+    },
+    "familyIds": [
+      "Haley"
+    ],
+    "giftCounts": {
+      "love": 10,
+      "like": 11,
+      "neutral": 0,
+      "dislike": 5,
+      "hate": 4
+    },
+    "lovedItems": [
+      "绿宝石",
+      "海蓝宝石",
+      "红宝石",
+      "紫水晶",
+      "黄水晶",
+      "翡翠",
+      "救生汉堡",
+      "布料"
+    ],
+    "likedItems": [
+      "黄水仙",
+      "火水晶",
+      "泪晶",
+      "地晶",
+      "沙拉",
+      "蔬菜杂烩",
+      "豆类火锅",
+      "红之盛宴"
+    ]
+  },
+  {
+    "id": "Jas",
+    "nameZh": "贾斯",
+    "birthSeason": "Summer",
+    "birthDay": 4,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Child",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "AnimalShop",
+    "homeTile": {
+      "x": 4,
+      "y": 6
+    },
+    "familyIds": [
+      "Vincent"
+    ],
+    "giftCounts": {
+      "love": 6,
+      "like": 16,
+      "neutral": 0,
+      "dislike": 5,
+      "hate": 7
+    },
+    "lovedItems": [
+      "粉红蛋糕",
+      "玫瑰仙子",
+      "葡萄干布丁",
+      "doll_item",
+      "toy_item",
+      "FairyBox"
+    ],
+    "likedItems": [
+      "黄水仙",
+      "绿宝石",
+      "红宝石",
+      "翡翠",
+      "椰子",
+      "大米布丁",
+      "冰淇淋",
+      "蓝莓千层酥"
+    ]
+  },
+  {
+    "id": "Gus",
+    "nameZh": "格斯",
+    "birthSeason": "Summer",
+    "birthDay": 8,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Saloon",
+    "homeTile": {
+      "x": 18,
+      "y": 6
+    },
+    "familyIds": [
+      "Emily",
+      "Pam"
+    ],
+    "giftCounts": {
+      "love": 5,
+      "like": 5,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 3
+    },
+    "lovedItems": [
+      "钻石",
+      "鱼肉卷",
+      "橙子",
+      "法式田螺",
+      "热带咖喱"
+    ],
+    "likedItems": [
+      "果酒",
+      "淡啤酒",
+      "分类 -7",
+      "黄水仙",
+      "松露"
+    ]
+  },
+  {
+    "id": "Maru",
+    "nameZh": "玛鲁",
+    "birthSeason": "Summer",
+    "birthDay": 10,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Teen",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "ScienceHouse",
+    "homeTile": {
+      "x": 2,
+      "y": 4
+    },
+    "familyIds": [
+      "Robin",
+      "Demetrius",
+      "Sebastian"
+    ],
+    "giftCounts": {
+      "love": 12,
+      "like": 12,
+      "neutral": 0,
+      "dislike": 6,
+      "hate": 4
+    },
+    "lovedItems": [
+      "钻石",
+      "乳酪花椰菜",
+      "花椰菜",
+      "爆炒青椒",
+      "大黄派",
+      "矿工特供",
+      "金锭",
+      "铱锭"
+    ],
+    "likedItems": [
+      "分类 -260",
+      "海蓝宝石",
+      "红宝石",
+      "紫水晶",
+      "黄水晶",
+      "翡翠",
+      "铜锭",
+      "铁锭"
+    ]
+  },
+  {
+    "id": "Alex",
+    "nameZh": "亚历克斯",
+    "birthSeason": "Summer",
+    "birthDay": 13,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "JoshHouse",
+    "homeTile": {
+      "x": 19,
+      "y": 5
+    },
+    "familyIds": [
+      "George",
+      "Evelyn"
+    ],
+    "giftCounts": {
+      "love": 3,
+      "like": 4,
+      "neutral": 1,
+      "dislike": 3,
+      "hate": 1
+    },
+    "lovedItems": [
+      "完美早餐",
+      "鲑鱼晚餐",
+      "铜墙铁壁"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "工作小食",
+      "恐龙蛋",
+      "ParrotEgg"
+    ]
+  },
+  {
+    "id": "Sam",
+    "nameZh": "山姆",
+    "birthSeason": "Summer",
+    "birthDay": 17,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Teen",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "SamHouse",
+    "homeTile": {
+      "x": 22,
+      "y": 13
+    },
+    "familyIds": [
+      "Vincent",
+      "Jodi",
+      "Kent",
+      "Sebastian"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 11,
+      "neutral": 0,
+      "dislike": 5,
+      "hate": 4
+    },
+    "lovedItems": [
+      "仙人掌果子",
+      "披萨",
+      "虎眼石",
+      "枫糖棒"
+    ],
+    "likedItems": [
+      "Joja 可乐",
+      "薯饼",
+      "鱼肉卷",
+      "巧克力蛋糕",
+      "饼干",
+      "意大利面",
+      "生鱼寿司",
+      "大米布丁"
+    ]
+  },
+  {
+    "id": "Demetrius",
+    "nameZh": "德米特里厄斯",
+    "birthSeason": "Summer",
+    "birthDay": 19,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "ScienceHouse",
+    "homeTile": {
+      "x": 19,
+      "y": 4
+    },
+    "familyIds": [
+      "Robin",
+      "Maru"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 4,
+      "neutral": 1,
+      "dislike": 2,
+      "hate": 0
+    },
+    "lovedItems": [
+      "豆类火锅",
+      "大米布丁",
+      "冰淇淋",
+      "草莓"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -79",
+      "紫蘑菇",
+      "恐龙蛋"
+    ]
+  },
+  {
+    "id": "Dwarf",
+    "nameZh": "矮人",
+    "birthSeason": "Summer",
+    "birthDay": 22,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Mine",
+    "homeTile": {
+      "x": 43,
+      "y": 6
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 9,
+      "like": 10,
+      "neutral": 2,
+      "dislike": 4,
+      "hate": 0
+    },
+    "lovedItems": [
+      "柠檬石",
+      "绿宝石",
+      "海蓝宝石",
+      "红宝石",
+      "紫水晶",
+      "黄水晶",
+      "翡翠",
+      "万象晶球"
+    ],
+    "likedItems": [
+      "山洞萝卜",
+      "火水晶",
+      "泪晶",
+      "地晶",
+      "矮人卷轴 I",
+      "矮人卷轴 II",
+      "矮人卷轴 III",
+      "矮人卷轴 IV"
+    ]
+  },
+  {
+    "id": "Willy",
+    "nameZh": "威利",
+    "birthSeason": "Summer",
+    "birthDay": 24,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "FishShop",
+    "homeTile": {
+      "x": 5,
+      "y": 4
+    },
+    "familyIds": [
+      "Elliott"
+    ],
+    "giftCounts": {
+      "love": 11,
+      "like": 20,
+      "neutral": 4,
+      "dislike": 3,
+      "hate": 0
+    },
+    "lovedItems": [
+      "钻石",
+      "鲶鱼",
+      "章鱼",
+      "海参",
+      "南瓜",
+      "铱锭",
+      "鲟鱼",
+      "蜜蜂酒"
+    ],
+    "likedItems": [
+      "紫水晶",
+      "蜂蜜",
+      "虎纹鳟鱼",
+      "蛇齿单线鱼",
+      "烤鱼",
+      "炸鱿鱼",
+      "惊喜鲤鱼",
+      "鲑鱼晚餐"
+    ]
+  },
+  {
+    "id": "Leo",
+    "nameZh": "雷欧",
+    "birthSeason": "Summer",
+    "birthDay": 26,
+    "homeRegion": "Other",
+    "gender": "Male",
+    "age": "Child",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "LeoTreeHouse",
+    "homeTile": {
+      "x": 5,
+      "y": 4
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 5,
+      "like": 6,
+      "neutral": 2,
+      "dislike": 8,
+      "hate": 12
+    },
+    "lovedItems": [
+      "鸭毛",
+      "鸵鸟蛋",
+      "芒果",
+      "夏威夷芋泥",
+      "ParrotEgg"
+    ],
+    "likedItems": [
+      "龙牙",
+      "香味浆果",
+      "鹦鹉螺",
+      "彩虹贝壳",
+      "海胆",
+      "芒果糯米饭"
+    ]
+  },
+  {
+    "id": "Penny",
+    "nameZh": "潘妮",
+    "birthSeason": "Fall",
+    "birthDay": 2,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Teen",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "Trailer",
+    "homeTile": {
+      "x": 4,
+      "y": 9
+    },
+    "familyIds": [
+      "Pam"
+    ],
+    "giftCounts": {
+      "love": 10,
+      "like": 4,
+      "neutral": 0,
+      "dislike": 9,
+      "hate": 8
+    },
+    "lovedItems": [
+      "绿宝石",
+      "虞美人花",
+      "虞美人籽松糕",
+      "钻石",
+      "沙鱼",
+      "椰汁汤",
+      "红之盛宴",
+      "块茎拼盘"
+    ],
+    "likedItems": [
+      "分类 -6",
+      "韭葱",
+      "蒲公英",
+      "ancient_item"
+    ]
+  },
+  {
+    "id": "Elliott",
+    "nameZh": "艾利欧特",
+    "birthSeason": "Fall",
+    "birthDay": 5,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "ElliottHouse",
+    "homeTile": {
+      "x": 1,
+      "y": 5
+    },
+    "familyIds": [
+      "Willy"
+    ],
+    "giftCounts": {
+      "love": 6,
+      "like": 13,
+      "neutral": 2,
+      "dislike": 6,
+      "hate": 5
+    },
+    "lovedItems": [
+      "龙虾",
+      "蟹黄糕",
+      "椰汁汤",
+      "鸭毛",
+      "石榴",
+      "鱿鱼墨汁"
+    ],
+    "likedItems": [
+      "海鲜杂烩汤",
+      "烩鱼汤",
+      "分类 -79",
+      "绿宝石",
+      "石英",
+      "火水晶",
+      "泪晶",
+      "章鱼"
+    ]
+  },
+  {
+    "id": "Jodi",
+    "nameZh": "乔迪",
+    "birthSeason": "Fall",
+    "birthDay": 11,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SamHouse",
+    "homeTile": {
+      "x": 4,
+      "y": 5
+    },
+    "familyIds": [
+      "Sam",
+      "Vincent",
+      "Kent"
+    ],
+    "giftCounts": {
+      "love": 8,
+      "like": 6,
+      "neutral": 0,
+      "dislike": 4,
+      "hate": 3
+    },
+    "lovedItems": [
+      "钻石",
+      "蔬菜杂烩",
+      "薄煎饼",
+      "香酥鲈鱼",
+      "巧克力蛋糕",
+      "大黄派",
+      "炒鳗鱼",
+      "帕尔玛奶酪茄子"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -6",
+      "分类 -79",
+      "黄水仙",
+      "甜豌豆",
+      "番红花"
+    ]
+  },
+  {
+    "id": "Abigail",
+    "nameZh": "阿比盖尔",
+    "birthSeason": "Fall",
+    "birthDay": 13,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Teen",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "SeedShop",
+    "homeTile": {
+      "x": 1,
+      "y": 9
+    },
+    "familyIds": [
+      "Caroline",
+      "Pierre"
+    ],
+    "giftCounts": {
+      "love": 8,
+      "like": 4,
+      "neutral": 0,
+      "dislike": 6,
+      "hate": 1
+    },
+    "lovedItems": [
+      "紫水晶",
+      "河豚",
+      "巧克力蛋糕",
+      "香辣鳗鱼",
+      "南瓜",
+      "黑莓脆皮饼",
+      "香蕉布丁",
+      "怪物图鉴"
+    ],
+    "likedItems": [
+      "骨笛",
+      "古剑",
+      "战斗季刊",
+      "BasiliskPaw"
+    ]
+  },
+  {
+    "id": "Sandy",
+    "nameZh": "桑迪",
+    "birthSeason": "Fall",
+    "birthDay": 15,
+    "homeRegion": "Desert",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SandyHouse",
+    "homeTile": {
+      "x": 2,
+      "y": 5
+    },
+    "familyIds": [
+      "Emily"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 7,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 0
+    },
+    "lovedItems": [
+      "黄水仙",
+      "甜豌豆",
+      "番红花",
+      "芒果糯米饭"
+    ],
+    "likedItems": [
+      "分类 -75",
+      "分类 -79",
+      "椰子",
+      "布料",
+      "羊奶",
+      "大瓶羊奶",
+      "动物毛"
+    ]
+  },
+  {
+    "id": "Marnie",
+    "nameZh": "玛妮",
+    "birthSeason": "Fall",
+    "birthDay": 18,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "AnimalShop",
+    "homeTile": {
+      "x": 12,
+      "y": 14
+    },
+    "familyIds": [
+      "Lewis",
+      "Shane",
+      "Jas"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 5,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 1
+    },
+    "lovedItems": [
+      "钻石",
+      "粉红蛋糕",
+      "农夫午餐",
+      "南瓜派"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -6",
+      "甜豌豆",
+      "番红花",
+      "星露谷年历"
+    ]
+  },
+  {
+    "id": "Robin",
+    "nameZh": "罗宾",
+    "birthSeason": "Fall",
+    "birthDay": 21,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "ScienceHouse",
+    "homeTile": {
+      "x": 21,
+      "y": 4
+    },
+    "familyIds": [
+      "Demetrius",
+      "Maru",
+      "Sebastian"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 5,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 0
+    },
+    "lovedItems": [
+      "意大利面",
+      "山羊奶酪",
+      "桃子",
+      "伐木秘事"
+    ],
+    "likedItems": [
+      "分类 -6",
+      "分类 -79",
+      "奶酪",
+      "硬木",
+      "樵夫周刊"
+    ]
+  },
+  {
+    "id": "George",
+    "nameZh": "乔治",
+    "birthSeason": "Fall",
+    "birthDay": 24,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "JoshHouse",
+    "homeTile": {
+      "x": 16,
+      "y": 22
+    },
+    "familyIds": [
+      "Evelyn",
+      "Alex"
+    ],
+    "giftCounts": {
+      "love": 2,
+      "like": 9,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 3
+    },
+    "lovedItems": [
+      "韭葱",
+      "炒蘑菇"
+    ],
+    "likedItems": [
+      "黄水仙",
+      "煎蛋卷",
+      "防风草汤",
+      "蔬菜杂烩",
+      "香酥鲈鱼",
+      "鳟鱼汤",
+      "饼干",
+      "帕尔玛奶酪茄子"
+    ]
+  },
+  {
+    "id": "Krobus",
+    "nameZh": "科罗布斯",
+    "birthSeason": "Winter",
+    "birthDay": 1,
+    "homeRegion": "Other",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Sewer",
+    "homeTile": {
+      "x": 31,
+      "y": 17
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 8,
+      "like": 5,
+      "neutral": 0,
+      "dislike": 3,
+      "hate": 0
+    },
+    "lovedItems": [
+      "钻石",
+      "野山葵",
+      "南瓜",
+      "铱锭",
+      "虚空蛋",
+      "虚空蛋黄酱",
+      "怪兽香水",
+      "怪物图鉴"
+    ],
+    "likedItems": [
+      "紫水晶",
+      "海泡布丁",
+      "金锭",
+      "蜂蜜",
+      "奇怪的小面包"
+    ]
+  },
+  {
+    "id": "Linus",
+    "nameZh": "莱纳斯",
+    "birthSeason": "Winter",
+    "birthDay": 3,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Tent",
+    "homeTile": {
+      "x": 2,
+      "y": 2
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 6,
+      "like": 4,
+      "neutral": 3,
+      "dislike": 3,
+      "hate": 0
+    },
+    "lovedItems": [
+      "椰子",
+      "仙人掌果子",
+      "蓝莓千层酥",
+      "海之菜肴",
+      "山药",
+      "小巷自助餐"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -6",
+      "分类 -79",
+      "分类 -81"
+    ]
+  },
+  {
+    "id": "Caroline",
+    "nameZh": "卡洛琳",
+    "birthSeason": "Winter",
+    "birthDay": 7,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SeedShop",
+    "homeTile": {
+      "x": 22,
+      "y": 5
+    },
+    "familyIds": [
+      "Pierre",
+      "Abigail"
+    ],
+    "giftCounts": {
+      "love": 4,
+      "like": 6,
+      "neutral": 0,
+      "dislike": 5,
+      "hate": 2
+    },
+    "lovedItems": [
+      "鱼肉卷",
+      "绿茶",
+      "夏季亮片",
+      "热带咖喱"
+    ],
+    "likedItems": [
+      "分类 -7",
+      "黄水仙",
+      "茶叶",
+      "甜豌豆",
+      "番红花",
+      "野山葵"
+    ]
+  },
+  {
+    "id": "Sebastian",
+    "nameZh": "塞巴斯蒂安",
+    "birthSeason": "Winter",
+    "birthDay": 10,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Teen",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "SebastianRoom",
+    "homeTile": {
+      "x": 10,
+      "y": 9
+    },
+    "familyIds": [
+      "Robin",
+      "Maru",
+      "Sam"
+    ],
+    "giftCounts": {
+      "love": 6,
+      "like": 5,
+      "neutral": 1,
+      "dislike": 2,
+      "hate": 8
+    },
+    "lovedItems": [
+      "泪晶",
+      "生鱼片",
+      "南瓜汤",
+      "黑曜石",
+      "虚空蛋",
+      "FrogEgg"
+    ],
+    "likedItems": [
+      "比目鱼",
+      "绿茶",
+      "南瓜",
+      "怪物图鉴",
+      "战斗季刊"
+    ]
+  },
+  {
+    "id": "Harvey",
+    "nameZh": "哈维",
+    "birthSeason": "Winter",
+    "birthDay": 14,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "HarveyRoom",
+    "homeTile": {
+      "x": 13,
+      "y": 4
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 5,
+      "like": 12,
+      "neutral": 0,
+      "dislike": 18,
+      "hate": 7
+    },
+    "lovedItems": [
+      "果酒",
+      "巨无霸餐",
+      "松露油",
+      "咖啡",
+      "腌菜"
+    ],
+    "likedItems": [
+      "分类 -81",
+      "分类 -79",
+      "分类 -7",
+      "甜豌豆",
+      "绿茶",
+      "番红花",
+      "紫蘑菇",
+      "羊奶"
+    ]
+  },
+  {
+    "id": "Wizard",
+    "nameZh": "法师",
+    "birthSeason": "Winter",
+    "birthDay": 17,
+    "homeRegion": "Other",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "WizardHouse",
+    "homeTile": {
+      "x": 3,
+      "y": 17
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 5,
+      "like": 6,
+      "neutral": 0,
+      "dislike": 6,
+      "hate": 0
+    },
+    "lovedItems": [
+      "大海参",
+      "紫蘑菇",
+      "虚空精华",
+      "太阳精华",
+      "谜之书"
+    ],
+    "likedItems": [
+      "分类 -12",
+      "钻石",
+      "火水晶",
+      "泪晶",
+      "铱锭",
+      "category_trinket"
+    ]
+  },
+  {
+    "id": "Evelyn",
+    "nameZh": "艾芙琳",
+    "birthSeason": "Winter",
+    "birthDay": 20,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "JoshHouse",
+    "homeTile": {
+      "x": 2,
+      "y": 17
+    },
+    "familyIds": [
+      "George",
+      "Alex"
+    ],
+    "giftCounts": {
+      "love": 7,
+      "like": 6,
+      "neutral": 0,
+      "dislike": 2,
+      "hate": 10
+    },
+    "lovedItems": [
+      "钻石",
+      "巧克力蛋糕",
+      "塞料面包",
+      "甜菜",
+      "郁金香",
+      "玫瑰仙子",
+      "葡萄干"
+    ],
+    "likedItems": [
+      "分类 -6",
+      "黄水仙",
+      "甜豌豆",
+      "番红花",
+      "破损的眼镜",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "Leah",
+    "nameZh": "莉亚",
+    "birthSeason": "Winter",
+    "birthDay": 23,
+    "homeRegion": "Town",
+    "gender": "Female",
+    "age": "Adult",
+    "canBeRomanced": true,
+    "canReceiveGifts": true,
+    "homeLocation": "LeahHouse",
+    "homeTile": {
+      "x": 3,
+      "y": 7
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 7,
+      "like": 11,
+      "neutral": 0,
+      "dislike": 11,
+      "hate": 5
+    },
+    "lovedItems": [
+      "沙拉",
+      "蔬菜杂烩",
+      "果酒",
+      "蔬菜什锦盖饭",
+      "虞美人籽松糕",
+      "山羊奶酪",
+      "松露"
+    ],
+    "likedItems": [
+      "分类 -5",
+      "分类 -6",
+      "分类 -79",
+      "分类 -81",
+      "黄水仙",
+      "甜豌豆",
+      "浮木",
+      "野梅"
+    ]
+  },
+  {
+    "id": "Clint",
+    "nameZh": "克林特",
+    "birthSeason": "Winter",
+    "birthDay": 26,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Blacksmith",
+    "homeTile": {
+      "x": 3,
+      "y": 13
+    },
+    "familyIds": [
+      "Emily"
+    ],
+    "giftCounts": {
+      "love": 11,
+      "like": 3,
+      "neutral": 1,
+      "dislike": 3,
+      "hate": 0
+    },
+    "lovedItems": [
+      "绿宝石",
+      "海蓝宝石",
+      "红宝石",
+      "紫水晶",
+      "黄水晶",
+      "翡翠",
+      "金锭",
+      "铱锭"
+    ],
+    "likedItems": [
+      "铜锭",
+      "铁锭",
+      "采矿月刊"
+    ]
+  },
+  {
+    "id": "???",
+    "nameZh": "???",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": null,
+    "homeTile": null,
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Birdie",
+    "nameZh": "贝啼",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "IslandWest",
+    "homeTile": {
+      "x": 17,
+      "y": 58
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Gunther",
+    "nameZh": "冈瑟",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "ArchaeologyHouse",
+    "homeTile": {
+      "x": 3,
+      "y": 8
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Gil",
+    "nameZh": "吉尔",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "AdventureGuild",
+    "homeTile": {
+      "x": 0,
+      "y": 0
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Marlon",
+    "nameZh": "马龙",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Town",
+    "gender": "Male",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "AdventureGuild",
+    "homeTile": {
+      "x": 5,
+      "y": 11
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Bouncer",
+    "nameZh": "门卫",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "SandyHouse",
+    "homeTile": {
+      "x": 17,
+      "y": 3
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Morris",
+    "nameZh": "莫里斯",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "JojaMart",
+    "homeTile": {
+      "x": 0,
+      "y": 0
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Henchman",
+    "nameZh": "仆从",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "WitchSwamp",
+    "homeTile": {
+      "x": 20,
+      "y": 29
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Welwick",
+    "nameZh": "维尔维克",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": null,
+    "homeTile": null,
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Bear",
+    "nameZh": "熊",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": null,
+    "homeTile": null,
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Grandpa",
+    "nameZh": "爷爷",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": null,
+    "homeTile": null,
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Governor",
+    "nameZh": "州长",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": null,
+    "homeTile": null,
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Mister Qi",
+    "nameZh": "Mister Qi",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "QiNutRoom",
+    "homeTile": {
+      "x": 7,
+      "y": 4
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  },
+  {
+    "id": "Old Mariner",
+    "nameZh": "Old Mariner",
+    "birthSeason": null,
+    "birthDay": 0,
+    "homeRegion": "Other",
+    "gender": "Undefined",
+    "age": "Adult",
+    "canBeRomanced": false,
+    "canReceiveGifts": true,
+    "homeLocation": "Beach",
+    "homeTile": {
+      "x": 0,
+      "y": 0
+    },
+    "familyIds": [],
+    "giftCounts": {
+      "love": 0,
+      "like": 0,
+      "neutral": 0,
+      "dislike": 0,
+      "hate": 0
+    },
+    "lovedItems": [],
+    "likedItems": []
+  }
+]

@@ -55,6 +55,11 @@ src/content/docs/
 │     └─ ...
 │  └─ stardew-valley/
 │     ├─ index.mdx
+│     ├─ crops/
+│     ├─ fishing/
+│     ├─ villagers/
+│     ├─ machines/
+│     ├─ shops/
 │     ├─ maps/
 │     ├─ tools/
 │     ├─ data-notes.mdx
@@ -75,4 +80,4 @@ src/content/docs/
 
 ## 当前状态
 
-仓库已经完成 Starlight 骨架、视觉样式、GitHub Pages 部署配置、《歧路旅人 0》任务线内容入口，以及《星露谷物语》专区骨架。
+仓库已经完成 Starlight 骨架、视觉样式、GitHub Pages 部署配置、《歧路旅人 0》任务线内容入口，以及《星露谷物语》专区骨架和首批数据索引。

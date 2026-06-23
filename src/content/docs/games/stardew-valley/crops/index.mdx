@@ -1,0 +1,26 @@
+---
+title: 作物索引
+description: 星露谷物语作物索引：季节、成熟天数、再生、收获物和基础估值。
+game: '星露谷物语'
+lastVerified: '2026-06-24'
+tableOfContents: true
+sidebar:
+  order: 10
+  label: 作物索引
+---
+
+import StardewDataTable from '../../../../../components/StardewDataTable.astro';
+
+<div className="leaf-meta-row">
+  <span className="leaf-badge">作物</span>
+  <span className="leaf-badge">派生索引</span>
+  <span className="leaf-badge">建设中</span>
+</div>
+
+这个页面先做作物的基础查询：季节、成熟天数、是否再生、收获物和基础估值。后续会在工具页补“最后播种日”和“加工后收益”。
+
+:::note[字段说明]
+“基础差值”只按种子基价和平均基础收获估值粗算，不等同于实际最优利润；多次收获、肥料、技能、加工和购买渠道会在后续工具中单独计算。
+:::
+
+<StardewDataTable kind="crops" />

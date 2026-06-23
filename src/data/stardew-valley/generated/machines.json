@@ -1,0 +1,737 @@
+[
+  {
+    "id": "21",
+    "key": "(BC)21",
+    "name": "Crystalarium",
+    "nameZh": "宝石复制机",
+    "ruleCount": 1,
+    "inputSummary": [
+      "标签 category_gem",
+      "标签 category_minerals"
+    ],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "5000 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "9",
+    "key": "(BC)9",
+    "name": "Lightning Rod",
+    "nameZh": "避雷针",
+    "ruleCount": 0,
+    "inputSummary": [],
+    "outputSummary": [],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "19",
+    "key": "(BC)19",
+    "name": "Oil Maker",
+    "nameZh": "产油机",
+    "ruleCount": 4,
+    "inputSummary": [
+      "玉米",
+      "向日葵",
+      "向日葵种子",
+      "松露"
+    ],
+    "outputSummary": [
+      "油",
+      "松露油"
+    ],
+    "readyTimes": [
+      "1000 分钟",
+      "60 分钟",
+      "3200 分钟",
+      "360 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "154",
+    "key": "(BC)154",
+    "name": "Worm Bin",
+    "nameZh": "虫饵盒",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "鱼饵"
+    ],
+    "readyTimes": [
+      "1 天"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "24",
+    "key": "(BC)24",
+    "name": "Mayonnaise Machine",
+    "nameZh": "蛋黄酱机",
+    "ruleCount": 7,
+    "inputSummary": [
+      "鸵鸟蛋",
+      "鸭蛋",
+      "虚空蛋",
+      "恐龙蛋",
+      "金蛋",
+      "标签 large_egg_item"
+    ],
+    "outputSummary": [
+      "蛋黄酱",
+      "鸭蛋黄酱",
+      "虚空蛋黄酱",
+      "恐龙蛋黄酱"
+    ],
+    "readyTimes": [
+      "180 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "265",
+    "key": "(BC)265",
+    "name": "Deconstructor",
+    "nameZh": "分解机",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "60 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "10",
+    "key": "(BC)10",
+    "name": "Bee House",
+    "nameZh": "蜂房",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "FLAVORED_ITEM Honey NEARBY_FLOWER_ID"
+    ],
+    "readyTimes": [
+      "4 天"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "101",
+    "key": "(BC)101",
+    "name": "Incubator",
+    "nameZh": "孵化器",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "9000 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "DeluxeWormBin",
+    "key": "(BC)DeluxeWormBin",
+    "name": "Deluxe Worm Bin",
+    "nameZh": "高级虫饵盒",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "高级鱼饵"
+    ],
+    "readyTimes": [
+      "1 天"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "15",
+    "key": "(BC)15",
+    "name": "Preserves Jar",
+    "nameZh": "罐头瓶",
+    "ruleCount": 4,
+    "inputSummary": [
+      "鱼籽",
+      "标签 preserve_sheet_index_698",
+      "标签 category_vegetable",
+      "标签 category_greens",
+      "标签 preserves_pickle",
+      "标签 category_fruits"
+    ],
+    "outputSummary": [
+      "鱼籽酱",
+      "FLAVORED_ITEM AgedRoe DROP_IN_ID DROP_IN_PRESERVE",
+      "FLAVORED_ITEM Pickle DROP_IN_ID",
+      "FLAVORED_ITEM Jelly DROP_IN_ID"
+    ],
+    "readyTimes": [
+      "6000 分钟",
+      "4000 分钟"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "Dehydrator",
+    "key": "(BC)Dehydrator",
+    "name": "Dehydrator",
+    "nameZh": "烘干机",
+    "ruleCount": 3,
+    "inputSummary": [
+      "葡萄",
+      "标签 category_fruits",
+      "标签 edible_mushroom"
+    ],
+    "outputSummary": [
+      "葡萄干",
+      "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+      "FLAVORED_ITEM DriedMushroom DROP_IN_ID"
+    ],
+    "readyTimes": [
+      "1 天"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "20",
+    "key": "(BC)20",
+    "name": "Recycling Machine",
+    "nameZh": "回收机",
+    "ruleCount": 5,
+    "inputSummary": [
+      "垃圾",
+      "浮木",
+      "破损的眼镜",
+      "破损的 CD",
+      "湿透的报纸"
+    ],
+    "outputSummary": [
+      "煤炭",
+      "铁矿石",
+      "石头",
+      "木材",
+      "精炼石英",
+      "布料"
+    ],
+    "readyTimes": [
+      "60 分钟"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "182",
+    "key": "(BC)182",
+    "name": "Geode Crusher",
+    "nameZh": "晶球破开器",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "60 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "246",
+    "key": "(BC)246",
+    "name": "Coffee Maker",
+    "nameZh": "咖啡机",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "咖啡"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "114",
+    "key": "(BC)114",
+    "name": "Charcoal Kiln",
+    "nameZh": "煤炭窑",
+    "ruleCount": 1,
+    "inputSummary": [
+      "木材"
+    ],
+    "outputSummary": [
+      "煤炭"
+    ],
+    "readyTimes": [
+      "30 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "128",
+    "key": "(BC)128",
+    "name": "Mushroom Box",
+    "nameZh": "蘑菇盒子",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "紫蘑菇",
+      "鸡油菌",
+      "羊肚菌",
+      "红蘑菇",
+      "普通蘑菇"
+    ],
+    "readyTimes": [
+      "1 天"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "MushroomLog",
+    "key": "(BC)MushroomLog",
+    "name": "Mushroom Log",
+    "nameZh": "蘑菇树桩",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "3 天"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "163",
+    "key": "(BC)163",
+    "name": "Cask",
+    "nameZh": "木桶",
+    "ruleCount": 6,
+    "inputSummary": [
+      "奶酪",
+      "山羊奶酪",
+      "果酒",
+      "蜜蜂酒",
+      "淡啤酒",
+      "啤酒"
+    ],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "117",
+    "key": "(BC)117",
+    "name": "Soda Machine",
+    "nameZh": "汽水机",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "Joja 可乐"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "13",
+    "key": "(BC)13",
+    "name": "Furnace",
+    "nameZh": "熔炉",
+    "ruleCount": 8,
+    "inputSummary": [
+      "铜矿石",
+      "铁矿石",
+      "黄金矿石",
+      "铱矿石",
+      "石英",
+      "火水晶"
+    ],
+    "outputSummary": [
+      "铜锭",
+      "铁锭",
+      "金锭",
+      "铱锭",
+      "精炼石英",
+      "枯萎的花束"
+    ],
+    "readyTimes": [
+      "30 分钟",
+      "120 分钟",
+      "300 分钟",
+      "480 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "156",
+    "key": "(BC)156",
+    "name": "Slime Incubator",
+    "nameZh": "史莱姆孵化器",
+    "ruleCount": 1,
+    "inputSummary": [
+      "标签 slime_egg_item"
+    ],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "4000 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "158",
+    "key": "(BC)158",
+    "name": "Slime Egg-Press",
+    "nameZh": "史莱姆压蛋器",
+    "ruleCount": 1,
+    "inputSummary": [
+      "史莱姆泥"
+    ],
+    "outputSummary": [
+      "紫色史莱姆蛋",
+      "红色史莱姆蛋",
+      "蓝色史莱姆蛋",
+      "绿色史莱姆蛋"
+    ],
+    "readyTimes": [
+      "1200 分钟"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "105",
+    "key": "(BC)105",
+    "name": "Tapper",
+    "nameZh": "树液采集器",
+    "ruleCount": 0,
+    "inputSummary": [],
+    "outputSummary": [],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "90",
+    "key": "(BC)90",
+    "name": "Bone Mill",
+    "nameZh": "碎骨机",
+    "ruleCount": 1,
+    "inputSummary": [
+      "骨头碎片",
+      "标签 bone_item"
+    ],
+    "outputSummary": [
+      "高级生长激素",
+      "生长激素",
+      "高级肥料",
+      "树肥"
+    ],
+    "readyTimes": [
+      "240 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "211",
+    "key": "(BC)211",
+    "name": "Wood Chipper",
+    "nameZh": "碎木机",
+    "ruleCount": 3,
+    "inputSummary": [
+      "硬木",
+      "浮木"
+    ],
+    "outputSummary": [
+      "枫糖浆",
+      "橡树树脂",
+      "松焦油",
+      "木材"
+    ],
+    "readyTimes": [
+      "180 分钟"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "231",
+    "key": "(BC)231",
+    "name": "Solar Panel",
+    "nameZh": "太阳能板",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "Anvil",
+    "key": "(BC)Anvil",
+    "name": "Anvil",
+    "nameZh": "铁砧",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "254",
+    "key": "(BC)254",
+    "name": "Ostrich Incubator",
+    "nameZh": "鸵鸟孵化器",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "15000 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "160",
+    "key": "(BC)160",
+    "name": "Statue Of Perfection",
+    "nameZh": "完美雕像",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "铱矿石"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "127",
+    "key": "(BC)127",
+    "name": "Statue Of Endless Fortune",
+    "nameZh": "无尽财富之雕像",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "12",
+    "key": "(BC)12",
+    "name": "Keg",
+    "nameZh": "小桶",
+    "ruleCount": 8,
+    "inputSummary": [
+      "小麦",
+      "啤酒花",
+      "茶叶",
+      "咖啡豆",
+      "蜂蜜",
+      "大米"
+    ],
+    "outputSummary": [
+      "啤酒",
+      "淡啤酒",
+      "绿茶",
+      "咖啡",
+      "蜜蜂酒",
+      "醋"
+    ],
+    "readyTimes": [
+      "1750 分钟",
+      "2250 分钟",
+      "180 分钟",
+      "120 分钟"
+    ],
+    "hasConditionalRules": true,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "FishSmoker",
+    "key": "(BC)FishSmoker",
+    "name": "Fish Smoker",
+    "nameZh": "熏鱼机",
+    "ruleCount": 1,
+    "inputSummary": [
+      "标签 category_fish"
+    ],
+    "outputSummary": [
+      "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY"
+    ],
+    "readyTimes": [
+      "50 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "16",
+    "key": "(BC)16",
+    "name": "Cheese Press",
+    "nameZh": "压酪机",
+    "ruleCount": 4,
+    "inputSummary": [
+      "羊奶",
+      "大瓶羊奶",
+      "牛奶",
+      "大壶牛奶"
+    ],
+    "outputSummary": [
+      "山羊奶酪",
+      "奶酪"
+    ],
+    "readyTimes": [
+      "200 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "BaitMaker",
+    "key": "(BC)BaitMaker",
+    "name": "Bait Maker",
+    "nameZh": "鱼饵制造机",
+    "ruleCount": 1,
+    "inputSummary": [
+      "标签 category_fish"
+    ],
+    "outputSummary": [
+      "FLAVORED_ITEM Bait DROP_IN_ID"
+    ],
+    "readyTimes": [
+      "10 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "280",
+    "key": "(BC)280",
+    "name": "Statue Of True Perfection",
+    "nameZh": "真正完美的雕像",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "五彩碎片"
+    ],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "17",
+    "key": "(BC)17",
+    "name": "Loom",
+    "nameZh": "织布机",
+    "ruleCount": 1,
+    "inputSummary": [
+      "动物毛"
+    ],
+    "outputSummary": [
+      "布料"
+    ],
+    "readyTimes": [
+      "240 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "25",
+    "key": "(BC)25",
+    "name": "Seed Maker",
+    "nameZh": "种子生产器",
+    "ruleCount": 1,
+    "inputSummary": [],
+    "outputSummary": [
+      "按输入变化"
+    ],
+    "readyTimes": [
+      "20 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  },
+  {
+    "id": "HeavyFurnace",
+    "key": "(BC)HeavyFurnace",
+    "name": "Heavy Furnace",
+    "nameZh": "重型熔炉",
+    "ruleCount": 8,
+    "inputSummary": [
+      "铜矿石",
+      "铁矿石",
+      "黄金矿石",
+      "铱矿石",
+      "石英",
+      "火水晶"
+    ],
+    "outputSummary": [
+      "铜锭",
+      "铁锭",
+      "金锭",
+      "铱锭",
+      "精炼石英",
+      "枯萎的花束"
+    ],
+    "readyTimes": [
+      "30 分钟",
+      "120 分钟",
+      "300 分钟",
+      "480 分钟"
+    ],
+    "hasConditionalRules": false,
+    "hasRandomOutput": true
+  },
+  {
+    "id": "264",
+    "key": "(BC)264",
+    "name": "Heavy Tapper",
+    "nameZh": "重型树液采集器",
+    "ruleCount": 0,
+    "inputSummary": [],
+    "outputSummary": [],
+    "readyTimes": [],
+    "hasConditionalRules": false,
+    "hasRandomOutput": false
+  }
+]
