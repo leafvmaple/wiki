@@ -1,0 +1,1396 @@
+[
+  {
+    "id": "Pantry/0",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 0,
+    "name": "Spring Crops",
+    "nameZh": "春季作物",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "465",
+      "label": "生长激素",
+      "quantity": 20
+    },
+    "items": [
+      {
+        "itemId": "24",
+        "label": "防风草",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "188",
+        "label": "青豆",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "190",
+        "label": "花椰菜",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "192",
+        "label": "土豆",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Pantry 茶水间 Spring Crops 春季作物 生长激素 24 防风草 188 青豆 190 花椰菜 192 土豆"
+  },
+  {
+    "id": "Pantry/1",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 1,
+    "name": "Summer Crops",
+    "nameZh": "夏季作物",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "621",
+      "label": "优质洒水器",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "256",
+        "label": "西红柿",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "260",
+        "label": "辣椒",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "258",
+        "label": "蓝莓",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "254",
+        "label": "甜瓜",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Pantry 茶水间 Summer Crops 夏季作物 优质洒水器 256 西红柿 260 辣椒 258 蓝莓 254 甜瓜"
+  },
+  {
+    "id": "Pantry/2",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 2,
+    "name": "Fall Crops",
+    "nameZh": "秋季作物",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "10",
+      "label": "蜂房",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "270",
+        "label": "玉米",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "272",
+        "label": "茄子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "276",
+        "label": "南瓜",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "280",
+        "label": "山药",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Pantry 茶水间 Fall Crops 秋季作物 蜂房 270 玉米 272 茄子 276 南瓜 280 山药"
+  },
+  {
+    "id": "Pantry/3",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 3,
+    "name": "Quality Crops",
+    "nameZh": "高品质作物",
+    "requiredCount": 3,
+    "itemCount": 4,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "15",
+      "label": "罐头瓶",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "24",
+        "label": "防风草",
+        "quantity": 5,
+        "quality": 2
+      },
+      {
+        "itemId": "254",
+        "label": "甜瓜",
+        "quantity": 5,
+        "quality": 2
+      },
+      {
+        "itemId": "276",
+        "label": "南瓜",
+        "quantity": 5,
+        "quality": 2
+      },
+      {
+        "itemId": "270",
+        "label": "玉米",
+        "quantity": 5,
+        "quality": 2
+      }
+    ],
+    "searchText": "Pantry 茶水间 Quality Crops 高品质作物 罐头瓶 24 防风草 254 甜瓜 276 南瓜 270 玉米"
+  },
+  {
+    "id": "Pantry/4",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 4,
+    "name": "Animal",
+    "nameZh": "动物制品",
+    "requiredCount": 5,
+    "itemCount": 6,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "16",
+      "label": "压酪机",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "186",
+        "label": "大壶牛奶",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "182",
+        "label": "大鸡蛋",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "174",
+        "label": "大鸡蛋",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "438",
+        "label": "大瓶羊奶",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "440",
+        "label": "动物毛",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "442",
+        "label": "鸭蛋",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Pantry 茶水间 Animal 动物制品 压酪机 186 大壶牛奶 182 大鸡蛋 174 438 大瓶羊奶 440 动物毛 442 鸭蛋"
+  },
+  {
+    "id": "Pantry/5",
+    "room": "Pantry",
+    "roomZh": "茶水间",
+    "index": 5,
+    "name": "Artisan",
+    "nameZh": "工匠物品",
+    "requiredCount": 6,
+    "itemCount": 12,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "12",
+      "label": "小桶",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "432",
+        "label": "松露油",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "428",
+        "label": "布料",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "426",
+        "label": "山羊奶酪",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "424",
+        "label": "奶酪",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "340",
+        "label": "蜂蜜",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "344",
+        "label": "果酱",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "613",
+        "label": "苹果",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "634",
+        "label": "杏子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "635",
+        "label": "橙子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "636",
+        "label": "桃子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "637",
+        "label": "石榴",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "638",
+        "label": "樱桃",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Pantry 茶水间 Artisan 工匠物品 小桶 432 松露油 428 布料 426 山羊奶酪 424 奶酪 340 蜂蜜 344 果酱 613 苹果 634 杏子 635 橙子 636 桃子 637 石榴 638 樱桃"
+  },
+  {
+    "id": "Crafts Room/13",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 13,
+    "name": "Spring Foraging",
+    "nameZh": "春季采集",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "495",
+      "label": "春季种子",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": "16",
+        "label": "野山葵",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "18",
+        "label": "黄水仙",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "20",
+        "label": "韭葱",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "22",
+        "label": "蒲公英",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Spring Foraging 春季采集 春季种子 16 野山葵 18 黄水仙 20 韭葱 22 蒲公英"
+  },
+  {
+    "id": "Crafts Room/14",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 14,
+    "name": "Summer Foraging",
+    "nameZh": "夏季采集",
+    "requiredCount": 3,
+    "itemCount": 3,
+    "reward": {
+      "kind": "object",
+      "id": "496",
+      "label": "夏季种子",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": "396",
+        "label": "香味浆果",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "398",
+        "label": "葡萄",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "402",
+        "label": "甜豌豆",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Summer Foraging 夏季采集 夏季种子 396 香味浆果 398 葡萄 402 甜豌豆"
+  },
+  {
+    "id": "Crafts Room/15",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 15,
+    "name": "Fall Foraging",
+    "nameZh": "秋季采集",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "497",
+      "label": "秋季种子",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": "404",
+        "label": "普通蘑菇",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "406",
+        "label": "野梅",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "408",
+        "label": "榛子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "410",
+        "label": "黑莓",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Fall Foraging 秋季采集 秋季种子 404 普通蘑菇 406 野梅 408 榛子 410 黑莓"
+  },
+  {
+    "id": "Crafts Room/16",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 16,
+    "name": "Winter Foraging",
+    "nameZh": "冬季采集",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "498",
+      "label": "冬季种子",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": "412",
+        "label": "冬根",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "414",
+        "label": "水晶果",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "416",
+        "label": "雪山药",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "418",
+        "label": "番红花",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Winter Foraging 冬季采集 冬季种子 412 冬根 414 水晶果 416 雪山药 418 番红花"
+  },
+  {
+    "id": "Crafts Room/17",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 17,
+    "name": "Construction",
+    "nameZh": "建筑",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "114",
+      "label": "煤炭窑",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "388",
+        "label": "木材",
+        "quantity": 99,
+        "quality": 0
+      },
+      {
+        "itemId": "388",
+        "label": "木材",
+        "quantity": 99,
+        "quality": 0
+      },
+      {
+        "itemId": "390",
+        "label": "石头",
+        "quantity": 99,
+        "quality": 0
+      },
+      {
+        "itemId": "709",
+        "label": "硬木",
+        "quantity": 10,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Construction 建筑 煤炭窑 388 木材 390 石头 709 硬木"
+  },
+  {
+    "id": "Crafts Room/19",
+    "room": "Crafts Room",
+    "roomZh": "工艺室",
+    "index": 19,
+    "name": "Exotic Foraging",
+    "nameZh": "异国采集",
+    "requiredCount": 5,
+    "itemCount": 9,
+    "reward": {
+      "kind": "object",
+      "id": "235",
+      "label": "秋日恩赐",
+      "quantity": 5
+    },
+    "items": [
+      {
+        "itemId": "88",
+        "label": "椰子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "90",
+        "label": "仙人掌果子",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "78",
+        "label": "山洞萝卜",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "420",
+        "label": "红蘑菇",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "422",
+        "label": "紫蘑菇",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "724",
+        "label": "枫糖浆",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "725",
+        "label": "橡树树脂",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "726",
+        "label": "松焦油",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "257",
+        "label": "羊肚菌",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Crafts Room 工艺室 Exotic Foraging 异国采集 秋日恩赐 88 椰子 90 仙人掌果子 78 山洞萝卜 420 红蘑菇 422 紫蘑菇 724 枫糖浆 725 橡树树脂 726 松焦油 257 羊肚菌"
+  },
+  {
+    "id": "Fish Tank/6",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 6,
+    "name": "River Fish",
+    "nameZh": "河鱼",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "DeluxeBait",
+      "label": "高级鱼饵",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": "145",
+        "label": "太阳鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "143",
+        "label": "鲶鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "706",
+        "label": "西鲱",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "699",
+        "label": "虎纹鳟鱼",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 River Fish 河鱼 高级鱼饵 145 太阳鱼 143 鲶鱼 706 西鲱 699 虎纹鳟鱼"
+  },
+  {
+    "id": "Fish Tank/7",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 7,
+    "name": "Lake Fish",
+    "nameZh": "湖鱼",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "687",
+      "label": "精装旋式鱼饵",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "136",
+        "label": "大嘴鲈鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "142",
+        "label": "鲤鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "700",
+        "label": "大头鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "698",
+        "label": "鲟鱼",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 Lake Fish 湖鱼 精装旋式鱼饵 136 大嘴鲈鱼 142 鲤鱼 700 大头鱼 698 鲟鱼"
+  },
+  {
+    "id": "Fish Tank/8",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 8,
+    "name": "Ocean Fish",
+    "nameZh": "海鱼",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "690",
+      "label": "传送图腾：海滩",
+      "quantity": 5
+    },
+    "items": [
+      {
+        "itemId": "131",
+        "label": "沙丁鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "130",
+        "label": "金枪鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "150",
+        "label": "红鲷鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "701",
+        "label": "罗非鱼",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 Ocean Fish 海鱼 传送图腾：海滩 131 沙丁鱼 130 金枪鱼 150 红鲷鱼 701 罗非鱼"
+  },
+  {
+    "id": "Fish Tank/9",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 9,
+    "name": "Night Fishing",
+    "nameZh": "夜间垂钓",
+    "requiredCount": 3,
+    "itemCount": 3,
+    "reward": {
+      "kind": "recipe",
+      "id": "517",
+      "label": "配方 517",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "140",
+        "label": "大眼鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "132",
+        "label": "鲷鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "148",
+        "label": "鳗鱼",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 Night Fishing 夜间垂钓 配方 517 140 大眼鱼 132 鲷鱼 148 鳗鱼"
+  },
+  {
+    "id": "Fish Tank/10",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 10,
+    "name": "Specialty Fish",
+    "nameZh": "特色鱼类",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "242",
+      "label": "海之菜肴",
+      "quantity": 5
+    },
+    "items": [
+      {
+        "itemId": "128",
+        "label": "河豚",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "156",
+        "label": "鬼鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "164",
+        "label": "沙鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "734",
+        "label": "木跃鱼",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 Specialty Fish 特色鱼类 海之菜肴 128 河豚 156 鬼鱼 164 沙鱼 734 木跃鱼"
+  },
+  {
+    "id": "Fish Tank/11",
+    "room": "Fish Tank",
+    "roomZh": "鱼缸",
+    "index": 11,
+    "name": "Crab Pot",
+    "nameZh": "蟹笼",
+    "requiredCount": 5,
+    "itemCount": 10,
+    "reward": {
+      "kind": "object",
+      "id": "710",
+      "label": "蟹笼",
+      "quantity": 3
+    },
+    "items": [
+      {
+        "itemId": "715",
+        "label": "龙虾",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "716",
+        "label": "小龙虾",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "717",
+        "label": "螃蟹",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "718",
+        "label": "鸟蛤",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "719",
+        "label": "蚌",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "720",
+        "label": "虾",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "721",
+        "label": "蜗牛",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "722",
+        "label": "玉黍螺",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "723",
+        "label": "牡蛎",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "372",
+        "label": "蛤",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Fish Tank 鱼缸 Crab Pot 蟹笼 715 龙虾 716 小龙虾 717 螃蟹 718 鸟蛤 719 蚌 720 虾 721 蜗牛 722 玉黍螺 723 牡蛎 372 蛤"
+  },
+  {
+    "id": "Boiler Room/20",
+    "room": "Boiler Room",
+    "roomZh": "锅炉房",
+    "index": 20,
+    "name": "Blacksmith's",
+    "nameZh": "铁匠",
+    "requiredCount": 3,
+    "itemCount": 3,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "13",
+      "label": "熔炉",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "334",
+        "label": "铜锭",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "335",
+        "label": "铁锭",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "336",
+        "label": "金锭",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Boiler Room 锅炉房 Blacksmith's 铁匠 熔炉 334 铜锭 335 铁锭 336 金锭"
+  },
+  {
+    "id": "Boiler Room/21",
+    "room": "Boiler Room",
+    "roomZh": "锅炉房",
+    "index": 21,
+    "name": "Geologist's",
+    "nameZh": "地质学家",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "749",
+      "label": "万象晶球",
+      "quantity": 5
+    },
+    "items": [
+      {
+        "itemId": "80",
+        "label": "石英",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "86",
+        "label": "地晶",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "84",
+        "label": "泪晶",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "82",
+        "label": "火水晶",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Boiler Room 锅炉房 Geologist's 地质学家 万象晶球 80 石英 86 地晶 84 泪晶 82 火水晶"
+  },
+  {
+    "id": "Boiler Room/22",
+    "room": "Boiler Room",
+    "roomZh": "锅炉房",
+    "index": 22,
+    "name": "Adventurer's",
+    "nameZh": "冒险家",
+    "requiredCount": 2,
+    "itemCount": 4,
+    "reward": {
+      "kind": "recipe",
+      "id": "518",
+      "label": "配方 518",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "766",
+        "label": "史莱姆泥",
+        "quantity": 99,
+        "quality": 0
+      },
+      {
+        "itemId": "767",
+        "label": "蝙蝠翅膀",
+        "quantity": 10,
+        "quality": 0
+      },
+      {
+        "itemId": "768",
+        "label": "太阳精华",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "769",
+        "label": "虚空精华",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Boiler Room 锅炉房 Adventurer's 冒险家 配方 518 766 史莱姆泥 767 蝙蝠翅膀 768 太阳精华 769 虚空精华"
+  },
+  {
+    "id": "Vault/23",
+    "room": "Vault",
+    "roomZh": "金库",
+    "index": 23,
+    "name": "2,500g",
+    "nameZh": "2,500g",
+    "requiredCount": 1,
+    "itemCount": 1,
+    "reward": {
+      "kind": "object",
+      "id": "220",
+      "label": "巧克力蛋糕",
+      "quantity": 3
+    },
+    "items": [
+      {
+        "itemId": null,
+        "label": "金币",
+        "quantity": 2500,
+        "quality": null
+      }
+    ],
+    "searchText": "Vault 金库 2,500g 巧克力蛋糕 金币"
+  },
+  {
+    "id": "Vault/24",
+    "room": "Vault",
+    "roomZh": "金库",
+    "index": 24,
+    "name": "5,000g",
+    "nameZh": "5,000g",
+    "requiredCount": 1,
+    "itemCount": 1,
+    "reward": {
+      "kind": "object",
+      "id": "369",
+      "label": "高级肥料",
+      "quantity": 30
+    },
+    "items": [
+      {
+        "itemId": null,
+        "label": "金币",
+        "quantity": 5000,
+        "quality": null
+      }
+    ],
+    "searchText": "Vault 金库 5,000g 高级肥料 金币"
+  },
+  {
+    "id": "Vault/25",
+    "room": "Vault",
+    "roomZh": "金库",
+    "index": 25,
+    "name": "10,000g",
+    "nameZh": "10,000g",
+    "requiredCount": 1,
+    "itemCount": 1,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "9",
+      "label": "避雷针",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": null,
+        "label": "金币",
+        "quantity": 10000,
+        "quality": null
+      }
+    ],
+    "searchText": "Vault 金库 10,000g 避雷针 金币"
+  },
+  {
+    "id": "Vault/26",
+    "room": "Vault",
+    "roomZh": "金库",
+    "index": 26,
+    "name": "25,000g",
+    "nameZh": "25,000g",
+    "requiredCount": 1,
+    "itemCount": 1,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "21",
+      "label": "宝石复制机",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": null,
+        "label": "金币",
+        "quantity": 25000,
+        "quality": null
+      }
+    ],
+    "searchText": "Vault 金库 25,000g 宝石复制机 金币"
+  },
+  {
+    "id": "Bulletin Board/31",
+    "room": "Bulletin Board",
+    "roomZh": "布告板",
+    "index": 31,
+    "name": "Chef's",
+    "nameZh": "厨师",
+    "requiredCount": 6,
+    "itemCount": 6,
+    "reward": {
+      "kind": "object",
+      "id": "221",
+      "label": "粉红蛋糕",
+      "quantity": 3
+    },
+    "items": [
+      {
+        "itemId": "724",
+        "label": "枫糖浆",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "259",
+        "label": "蕨菜",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "430",
+        "label": "松露",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "376",
+        "label": "虞美人花",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "228",
+        "label": "生鱼寿司",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "194",
+        "label": "煎鸡蛋",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Bulletin Board 布告板 Chef's 厨师 粉红蛋糕 724 枫糖浆 259 蕨菜 430 松露 376 虞美人花 228 生鱼寿司 194 煎鸡蛋"
+  },
+  {
+    "id": "Bulletin Board/32",
+    "room": "Bulletin Board",
+    "roomZh": "布告板",
+    "index": 32,
+    "name": "Field Research",
+    "nameZh": "实地研究",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "20",
+      "label": "回收机",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "422",
+        "label": "紫蘑菇",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "392",
+        "label": "鹦鹉螺",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "702",
+        "label": "鲢鱼",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "536",
+        "label": "冰封晶球",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Bulletin Board 布告板 Field Research 实地研究 回收机 422 紫蘑菇 392 鹦鹉螺 702 鲢鱼 536 冰封晶球"
+  },
+  {
+    "id": "Bulletin Board/33",
+    "room": "Bulletin Board",
+    "roomZh": "布告板",
+    "index": 33,
+    "name": "Enchanter's",
+    "nameZh": "魔法师",
+    "requiredCount": 4,
+    "itemCount": 4,
+    "reward": {
+      "kind": "object",
+      "id": "336",
+      "label": "金锭",
+      "quantity": 5
+    },
+    "items": [
+      {
+        "itemId": "725",
+        "label": "橡树树脂",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "348",
+        "label": "果酒",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "446",
+        "label": "兔子的脚",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "637",
+        "label": "石榴",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Bulletin Board 布告板 Enchanter's 魔法师 金锭 725 橡树树脂 348 果酒 446 兔子的脚 637 石榴"
+  },
+  {
+    "id": "Bulletin Board/34",
+    "room": "Bulletin Board",
+    "roomZh": "布告板",
+    "index": 34,
+    "name": "Dye",
+    "nameZh": "染料",
+    "requiredCount": 6,
+    "itemCount": 6,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "25",
+      "label": "种子生产器",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "420",
+        "label": "红蘑菇",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "397",
+        "label": "海胆",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "421",
+        "label": "向日葵",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "444",
+        "label": "鸭毛",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "62",
+        "label": "海蓝宝石",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "266",
+        "label": "红叶卷心菜",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Bulletin Board 布告板 Dye 染料 种子生产器 420 红蘑菇 397 海胆 421 向日葵 444 鸭毛 62 海蓝宝石 266 红叶卷心菜"
+  },
+  {
+    "id": "Bulletin Board/35",
+    "room": "Bulletin Board",
+    "roomZh": "布告板",
+    "index": 35,
+    "name": "Fodder",
+    "nameZh": "饲料",
+    "requiredCount": 3,
+    "itemCount": 3,
+    "reward": {
+      "kind": "bigCraftable",
+      "id": "104",
+      "label": "加热器",
+      "quantity": 1
+    },
+    "items": [
+      {
+        "itemId": "262",
+        "label": "小麦",
+        "quantity": 10,
+        "quality": 0
+      },
+      {
+        "itemId": "178",
+        "label": "干草",
+        "quantity": 10,
+        "quality": 0
+      },
+      {
+        "itemId": "613",
+        "label": "苹果",
+        "quantity": 3,
+        "quality": 0
+      }
+    ],
+    "searchText": "Bulletin Board 布告板 Fodder 饲料 加热器 262 小麦 178 干草 613 苹果"
+  },
+  {
+    "id": "Abandoned Joja Mart/36",
+    "room": "Abandoned Joja Mart",
+    "roomZh": "废弃 Joja 超市",
+    "index": 36,
+    "name": "The Missing",
+    "nameZh": "遗失的收集包",
+    "requiredCount": 5,
+    "itemCount": 6,
+    "reward": null,
+    "items": [
+      {
+        "itemId": "348",
+        "label": "果酒",
+        "quantity": 1,
+        "quality": 1
+      },
+      {
+        "itemId": "807",
+        "label": "恐龙蛋黄酱",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "74",
+        "label": "五彩碎片",
+        "quantity": 1,
+        "quality": 0
+      },
+      {
+        "itemId": "454",
+        "label": "上古水果",
+        "quantity": 5,
+        "quality": 2
+      },
+      {
+        "itemId": "795",
+        "label": "虚空鲑鱼",
+        "quantity": 1,
+        "quality": 2
+      },
+      {
+        "itemId": "445",
+        "label": "鱼籽酱",
+        "quantity": 1,
+        "quality": 0
+      }
+    ],
+    "searchText": "Abandoned Joja Mart 废弃 Joja 超市 The Missing 遗失的收集包 348 果酒 807 恐龙蛋黄酱 74 五彩碎片 454 上古水果 795 虚空鲑鱼 445 鱼籽酱"
+  }
+]

@@ -24,18 +24,27 @@ const assert = (condition, message) => {
 };
 
 const main = async () => {
-  const [summary, crops, fish, villagers, machines, shops, town, assets] = await Promise.all([
+  const [summary, crops, fish, villagers, machines, shops, bundles, town, assets] = await Promise.all([
     readJson('summary.json'),
     readJson('crops.json'),
     readJson('fish.json'),
     readJson('villagers.json'),
     readJson('machines.json'),
     readJson('shops.json'),
+    readJson('bundles.json'),
     readJson(path.join('maps', 'town.json')),
     readJson('assets.json'),
   ]);
 
-  const expectedFiles = ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json', 'maps/town.json'];
+  const expectedFiles = [
+    'crops.json',
+    'fish.json',
+    'villagers.json',
+    'machines.json',
+    'shops.json',
+    'bundles.json',
+    'maps/town.json',
+  ];
   for (const fileName of expectedFiles) {
     assert(summary.files.includes(fileName), `summary.json is missing ${fileName}`);
   }
@@ -45,6 +54,9 @@ const main = async () => {
   assert(villagers.length === summary.counts.characters, 'Villager count does not match summary.json');
   assert(machines.length === summary.counts.machines, 'Machine count does not match summary.json');
   assert(shops.length === summary.counts.shops, 'Shop count does not match summary.json');
+  assert(bundles.length === summary.counts.bundles, 'Bundle count does not match summary.json');
+  assert(bundles.every((bundle) => bundle.items.length > 0), 'Bundle item list is empty');
+  assert(bundles.some((bundle) => bundle.requiredCount < bundle.itemCount), 'Bundle planner is missing choice bundles');
   assert(town.id === 'town', 'Town map id is invalid');
   assert(town.points.length === town.pointCount, 'Town map point count does not match');
   assert(town.pointCount > 0, 'Town map has no points');

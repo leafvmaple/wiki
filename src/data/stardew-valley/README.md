@@ -20,6 +20,7 @@ src/data/stardew-valley/
 │  ├─ villagers.json
 │  ├─ machines.json
 │  ├─ shops.json
+│  ├─ bundles.json
 │  ├─ assets.json
 │  └─ maps/
 │     └─ town.json

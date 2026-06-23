@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:35:22.799Z",
+  "generatedAt": "2026-06-23T17:26:58.893Z",
   "gameVersion": null,
   "counts": {
     "objects": 807,
@@ -17,6 +17,7 @@
     "villagers.json",
     "machines.json",
     "shops.json",
+    "bundles.json",
     "maps/town.json"
   ]
 }

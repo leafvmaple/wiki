@@ -2,6 +2,7 @@
 import crops from '../data/stardew-valley/generated/crops.json';
 import fish from '../data/stardew-valley/generated/fish.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import bundles from '../data/stardew-valley/generated/bundles.json';
 import StardewIcon from './StardewIcon.astro';
 
 type DataRow = Record<string, any>;
@@ -10,6 +11,8 @@ type TimeRange = { start: number; end: number };
 const cropRows = crops as DataRow[];
 const fishRows = fish as DataRow[];
 const villagerRows = villagers as DataRow[];
+const bundleRows = bundles as DataRow[];
+const bundleRooms = [...new Map(bundleRows.map((bundle) => [bundle.room, bundle.roomZh])).entries()];
 
 const seasonLabels: Record<string, string> = {
   spring: '春',
@@ -30,6 +33,11 @@ const methodLabels: Record<string, string> = {
   rod: '钓竿',
   trap: '蟹笼',
 };
+const qualityLabels: Record<string, string> = {
+  '1': '银星',
+  '2': '金星',
+  '3': '铱星',
+};
 
 const joinList = (items?: string[], fallback = '-') => (items?.length ? items.join('、') : fallback);
 const formatSeasons = (items?: string[]) => (items?.length ? items.map((item) => seasonLabels[item] ?? item).join('、') : '-');
@@ -48,6 +56,13 @@ const formatLocations = (locations?: DataRow[]) =>
 const formatBirthday = (villager: DataRow) =>
   villager.birthSeason && villager.birthDay ? `${seasonLabels[villager.birthSeason] ?? villager.birthSeason} ${villager.birthDay}` : '-';
 const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
+const formatReward = (reward?: DataRow | null) =>
+  reward ? `${reward.label}${reward.quantity && reward.quantity > 1 ? ` x${reward.quantity}` : ''}` : '-';
+const formatBundleNeed = (item: DataRow) => {
+  const quantity = item.label === '金币' ? `${item.quantity}g` : item.quantity > 1 ? `x${item.quantity}` : '';
+  const quality = item.quality ? qualityLabels[String(item.quality)] : '';
+  return [quantity, quality].filter(Boolean).join(' · ');
+};
 ---
 
 <div class="leaf-tools" data-stardew-tools>
@@ -230,6 +245,74 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
       </tbody>
     </table>
   </section>
+
+  <section class="leaf-tool-panel">
+    <h2>收集包规划</h2>
+    <div class="leaf-tool-controls">
+      <label>
+        <span>房间</span>
+        <select data-bundle-room>
+          <option value="">全部</option>
+          {bundleRooms.map(([room, label]) => <option value={room}>{label}</option>)}
+        </select>
+      </label>
+      <label class="is-wide">
+        <span>搜索</span>
+        <input data-bundle-search type="search" placeholder="物品或收集包" />
+      </label>
+      <label class="leaf-check">
+        <input data-bundle-open-only type="checkbox" />
+        <span>只看未完成</span>
+      </label>
+    </div>
+    <p class="leaf-tool-count">
+      <span data-bundle-count>0</span> 个收集包显示，剩余 <span data-bundle-remaining>0</span> 项，完成 <span data-bundle-complete>0</span> 个
+    </p>
+    <table class="leaf-bundle-table">
+      <thead>
+        <tr>
+          <th>房间</th>
+          <th>收集包</th>
+          <th>需求</th>
+          <th>进度</th>
+        </tr>
+      </thead>
+      <tbody>
+        {bundleRows.map((bundle) => (
+          <tr
+            data-bundle-row
+            data-room={bundle.room}
+            data-search={bundle.searchText}
+            data-target={bundle.requiredCount}
+          >
+            <td>{bundle.roomZh}</td>
+            <td>
+              <strong>{bundle.nameZh}</strong>
+              <small class="leaf-bundle-reward">奖励：{formatReward(bundle.reward)}</small>
+            </td>
+            <td>
+              <span class="sv-tool-chip-list is-bundle">
+                {(bundle.items as DataRow[]).map((item, index) => (
+                  <label class="sv-bundle-item">
+                    <input type="checkbox" data-bundle-item data-bundle-key={`${bundle.id}:${index}`} />
+                    <StardewIcon
+                      kind="item"
+                      assetKind="object"
+                      assetId={item.itemId}
+                      label={item.label}
+                      compact
+                    />
+                    {formatBundleNeed(item) && <small>{formatBundleNeed(item)}</small>}
+                  </label>
+                ))}
+              </span>
+            </td>
+            <td><span data-bundle-progress>0 / {bundle.requiredCount}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
 </div>
 
 <script is:inline>
@@ -247,6 +330,16 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
         .filter(Boolean)
         .map((range) => range.split('-').map(Number));
     const toNumber = (input) => Number(input.value || 0);
+    const bundleStateKey = 'leafwiki:stardew:bundle-planner:v1';
+    const readBundleState = () => {
+      try {
+        return JSON.parse(localStorage.getItem(bundleStateKey) || '{}');
+      } catch {
+        return {};
+      }
+    };
+    const bundleState = readBundleState();
+    const saveBundleState = () => localStorage.setItem(bundleStateKey, JSON.stringify(bundleState));
 
     const updateFish = () => {
       const season = root.querySelector('[data-fish-season]').value;
@@ -308,22 +401,68 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
       root.querySelector('[data-gift-count]').textContent = String(count);
     };
 
+    const updateBundles = () => {
+      const query = root.querySelector('[data-bundle-search]').value.trim().toLowerCase();
+      const room = root.querySelector('[data-bundle-room]').value;
+      const openOnly = root.querySelector('[data-bundle-open-only]').checked;
+      let visibleCount = 0;
+      let remainingCount = 0;
+      let completeCount = 0;
+
+      for (const row of root.querySelectorAll('[data-bundle-row]')) {
+        const target = Number(row.dataset.target || 0);
+        const items = [...row.querySelectorAll('[data-bundle-item]')];
+        const checked = items.filter((item) => item.checked).length;
+        const done = Math.min(checked, target);
+        const complete = done >= target;
+        const roomOk = !room || row.dataset.room === room;
+        const queryOk = !query || row.dataset.search.toLowerCase().includes(query);
+        const visible = roomOk && queryOk && (!openOnly || !complete);
+
+        row.hidden = !visible;
+        row.dataset.complete = complete ? 'true' : 'false';
+        row.querySelector('[data-bundle-progress]').textContent = `${done} / ${target}`;
+
+        if (visible) {
+          visibleCount += 1;
+          remainingCount += Math.max(0, target - done);
+        }
+        if (complete) completeCount += 1;
+      }
+
+      root.querySelector('[data-bundle-count]').textContent = String(visibleCount);
+      root.querySelector('[data-bundle-remaining]').textContent = String(remainingCount);
+      root.querySelector('[data-bundle-complete]').textContent = String(completeCount);
+    };
+
+    for (const input of root.querySelectorAll('[data-bundle-item]')) {
+      input.checked = Boolean(bundleState[input.dataset.bundleKey]);
+      input.addEventListener('change', () => {
+        bundleState[input.dataset.bundleKey] = input.checked;
+        saveBundleState();
+        updateBundles();
+      });
+    }
+
     for (const input of root.querySelectorAll('select, input')) {
       input.addEventListener('input', () => {
         updateFish();
         updateCrops();
         updateGifts();
+        updateBundles();
       });
       input.addEventListener('change', () => {
         updateFish();
         updateCrops();
         updateGifts();
+        updateBundles();
       });
     }
 
     updateFish();
     updateCrops();
     updateGifts();
+    updateBundles();
   })();
 </script>
 
@@ -406,6 +545,50 @@ const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
     flex-wrap: wrap;
     gap: 0.32rem;
     min-width: 10rem;
+  }
+
+  .sv-tool-chip-list.is-bundle {
+    min-width: 20rem;
+  }
+
+  .leaf-bundle-table td:nth-child(2) {
+    min-width: 9rem;
+  }
+
+  .leaf-bundle-reward {
+    color: var(--leaf-text-muted);
+    display: block;
+    font-size: 0.82rem;
+    margin-top: 0.2rem;
+  }
+
+  .sv-bundle-item {
+    align-items: center;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg);
+    display: inline-flex;
+    gap: 0.28rem;
+    min-height: 1.85rem;
+    padding: 0.16rem 0.34rem 0.16rem 0.22rem;
+  }
+
+  .sv-bundle-item input {
+    accent-color: var(--leaf-primary);
+    height: 1rem;
+    margin: 0;
+    width: 1rem;
+  }
+
+  .sv-bundle-item small {
+    color: var(--leaf-text-muted);
+    font-size: 0.76rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  tr[data-complete='true'] .sv-bundle-item input:checked + .sv-icon-label {
+    opacity: 0.72;
   }
 
   @media (max-width: 40rem) {

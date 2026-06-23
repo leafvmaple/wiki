@@ -1,17 +1,57 @@
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const inputRoot = process.argv[2] || process.env.STARDEW_LOCAL_DATA_DIR;
+const inputArg = process.argv[2] || process.env.STARDEW_LOCAL_DATA_DIR;
 const outputRoot = path.join(repoRoot, 'src', 'data', 'stardew-valley', 'generated');
 
-if (!inputRoot) {
+if (!inputArg) {
   console.error('Usage: npm run generate:stardew -- <local-data-dir>');
   console.error('Or set STARDEW_LOCAL_DATA_DIR to a local directory with Data, Strings, and Maps folders.');
   process.exit(1);
 }
 
+const pathExists = async (target) => {
+  try {
+    await access(target);
+    return true;
+  } catch {
+    return false;
+  }
+};
+
+const hasGameDataFolders = async (target) =>
+  (await pathExists(path.join(target, 'Data'))) &&
+  (await pathExists(path.join(target, 'Strings'))) &&
+  (await pathExists(path.join(target, 'Maps')));
+
+const readChildDirs = async (target) => {
+  try {
+    return (await readdir(target, { withFileTypes: true })).filter((entry) => entry.isDirectory());
+  } catch {
+    return [];
+  }
+};
+
+const resolveInputRoot = async (target) => {
+  const direct = path.resolve(target);
+  if (await hasGameDataFolders(direct)) return direct;
+
+  for (const levelOne of await readChildDirs(direct)) {
+    const levelOnePath = path.join(direct, levelOne.name);
+    if (await hasGameDataFolders(levelOnePath)) return levelOnePath;
+
+    for (const levelTwo of await readChildDirs(levelOnePath)) {
+      const levelTwoPath = path.join(levelOnePath, levelTwo.name);
+      if (await hasGameDataFolders(levelTwoPath)) return levelTwoPath;
+    }
+  }
+
+  throw new Error(`Cannot find Data, Strings, and Maps folders under ${target}`);
+};
+
+const inputRoot = await resolveInputRoot(inputArg);
 const dataDir = path.join(inputRoot, 'Data');
 const stringsDir = path.join(inputRoot, 'Strings');
 const mapsDir = path.join(inputRoot, 'Maps');
@@ -514,6 +554,156 @@ const buildShops = (shops, npcNames, objects, objectStrings, bigCraftables, bigC
     })
     .sort((a, b) => a.id.localeCompare(b.id));
 
+const bundleRoomLabels = {
+  Pantry: '茶水间',
+  'Crafts Room': '工艺室',
+  'Fish Tank': '鱼缸',
+  'Boiler Room': '锅炉房',
+  Vault: '金库',
+  'Bulletin Board': '布告板',
+  'Abandoned Joja Mart': '废弃 Joja 超市',
+};
+
+const bundleNameLabels = {
+  'Spring Crops': '春季作物',
+  'Summer Crops': '夏季作物',
+  'Fall Crops': '秋季作物',
+  'Quality Crops': '高品质作物',
+  Animal: '动物制品',
+  Artisan: '工匠物品',
+  'Spring Foraging': '春季采集',
+  'Summer Foraging': '夏季采集',
+  'Fall Foraging': '秋季采集',
+  'Winter Foraging': '冬季采集',
+  Construction: '建筑',
+  'Exotic Foraging': '异国采集',
+  'River Fish': '河鱼',
+  'Lake Fish': '湖鱼',
+  'Ocean Fish': '海鱼',
+  'Night Fishing': '夜间垂钓',
+  'Specialty Fish': '特色鱼类',
+  'Crab Pot': '蟹笼',
+  "Blacksmith's": '铁匠',
+  "Geologist's": '地质学家',
+  "Adventurer's": '冒险家',
+  "Chef's": '厨师',
+  'Field Research': '实地研究',
+  "Enchanter's": '魔法师',
+  Dye: '染料',
+  Fodder: '饲料',
+  'The Missing': '遗失的收集包',
+};
+
+const localizedBundleName = (name, bundleNames) => bundleNames[name] ?? bundleNameLabels[name] ?? name;
+
+const parseBundleReward = (value, objects, objectStrings, bigCraftables, bigCraftableStrings) => {
+  const parts = splitList(value);
+  if (!parts.length) return null;
+
+  const [kind, id, quantity = '1'] = parts;
+  if (kind === 'O') {
+    return {
+      kind: 'object',
+      id,
+      label: localizedObjectName(id, objects, objectStrings) ?? objects[id]?.Name ?? id,
+      quantity: Number(quantity),
+    };
+  }
+  if (kind === 'BO') {
+    return {
+      kind: 'bigCraftable',
+      id,
+      label: localizedBigCraftableName(id, bigCraftables, bigCraftableStrings) ?? bigCraftables[id]?.Name ?? id,
+      quantity: Number(quantity),
+    };
+  }
+  if (kind === 'R') {
+    return {
+      kind: 'recipe',
+      id,
+      label: `配方 ${id}`,
+      quantity: Number(quantity),
+    };
+  }
+  return {
+    kind,
+    id,
+    label: `${kind} ${id}`,
+    quantity: Number(quantity),
+  };
+};
+
+const parseBundleItems = (value, objects, objectStrings) => {
+  const parts = splitList(value);
+  const items = [];
+
+  for (let index = 0; index + 2 < parts.length; index += 3) {
+    const itemId = parts[index];
+    const quantity = Number(parts[index + 1]);
+    const quality = Number(parts[index + 2]);
+
+    if (itemId === '-1') {
+      items.push({
+        itemId: null,
+        label: '金币',
+        quantity,
+        quality: null,
+      });
+      continue;
+    }
+
+    items.push({
+      itemId,
+      label: localizedObjectName(itemId, objects, objectStrings) ?? objects[itemId]?.Name ?? itemId,
+      quantity,
+      quality,
+    });
+  }
+
+  return items;
+};
+
+const buildBundles = (bundles, bundleNames, objects, objectStrings, bigCraftables, bigCraftableStrings) => {
+  const roomRank = Object.keys(bundleRoomLabels);
+
+  return Object.entries(bundles)
+    .map(([key, value]) => {
+      const [room, rawIndex = '0'] = key.split('/');
+      const parts = String(value).split('/');
+      const name = parts[6] || parts[0] || key;
+      const items = parseBundleItems(parts[2] ?? '', objects, objectStrings);
+      const requiredCount = Number(parts[4]) || items.length;
+      const reward = parseBundleReward(parts[1] ?? '', objects, objectStrings, bigCraftables, bigCraftableStrings);
+      const nameZh = localizedBundleName(name, bundleNames);
+      const roomZh = bundleRoomLabels[room] ?? room;
+
+      return {
+        id: key,
+        room,
+        roomZh,
+        index: Number(rawIndex),
+        name,
+        nameZh,
+        requiredCount,
+        itemCount: items.length,
+        reward,
+        items,
+        searchText: unique([
+          room,
+          roomZh,
+          name,
+          nameZh,
+          reward?.label,
+          ...items.flatMap((item) => [item.itemId, item.label]),
+        ]).join(' '),
+      };
+    })
+    .sort((a, b) => {
+      const roomDelta = roomRank.indexOf(a.room) - roomRank.indexOf(b.room);
+      return roomDelta || a.index - b.index || a.name.localeCompare(b.name);
+    });
+};
+
 const groupPoints = (points) => {
   const buckets = new Map();
 
@@ -646,6 +836,7 @@ const main = async () => {
     objectStrings,
     bigCraftables,
     bigCraftableStrings,
+    bundleNames,
     npcNames,
     crops,
     fish,
@@ -659,6 +850,7 @@ const main = async () => {
     readJson(stringsDir, 'Objects.zh-CN.json'),
     readJson(dataDir, 'BigCraftables.json'),
     readJson(stringsDir, 'BigCraftables.zh-CN.json'),
+    readJson(stringsDir, 'BundleNames.zh-CN.json'),
     readJson(stringsDir, 'NPCNames.zh-CN.json'),
     readJson(dataDir, 'Crops.json'),
     readJson(dataDir, 'Fish.json'),
@@ -686,6 +878,7 @@ const main = async () => {
   );
   const machineRows = buildMachines(machines, objects, objectStrings, bigCraftables, bigCraftableStrings);
   const shopRows = buildShops(shops, npcNames, objects, objectStrings, bigCraftables, bigCraftableStrings);
+  const bundleRows = buildBundles(bundles, bundleNames, objects, objectStrings, bigCraftables, bigCraftableStrings);
   const townMap = await buildMapPilot('town', 'Town.tmx', '鹈鹕镇');
 
   await mkdir(outputRoot, { recursive: true });
@@ -703,13 +896,14 @@ const main = async () => {
       bundles: Object.keys(bundles).length,
       maps: mapCount,
     },
-    files: ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json', 'maps/town.json'],
+    files: ['crops.json', 'fish.json', 'villagers.json', 'machines.json', 'shops.json', 'bundles.json', 'maps/town.json'],
   });
   await writeJson('crops.json', cropRows);
   await writeJson('fish.json', fishRows);
   await writeJson('villagers.json', villagerRows);
   await writeJson('machines.json', machineRows);
   await writeJson('shops.json', shopRows);
+  await writeJson('bundles.json', bundleRows);
   await writeJson('maps/town.json', townMap);
 
   console.log(`Generated Stardew Valley data in ${path.relative(repoRoot, outputRoot)}`);
