@@ -1,5 +1,5 @@
 ---
-title: '点燃圣火之人 · <chara_name>'
+title: '点燃圣火之人 · 主角'
 description: '“毁灭维舒贝尔的人是我。”'
 game: '歧路旅人 0'
 gameVersion: '1.0.8'
@@ -7,7 +7,7 @@ status: needs-testing
 lastVerified: '2026-06-23'
 sidebar:
   order: 60
-  label: '点燃圣火之人 · <chara_name>'
+  label: '点燃圣火之人 · 主角'
 ---
 
 <div className="leaf-meta-row">
@@ -34,12 +34,159 @@ sidebar:
 ## 流程
 
 <ol className="leaf-route-list">
-  <li><span>调查罗拉娜的信。</span></li>
-  <li><span>寻找有关罗拉娜行踪的线索。</span></li>
-  <li><span>在维舒贝尔林道与诺摩斯对话。</span></li>
-  <li><span>前往青煌洞窟。</span></li>
-  <li><span>追上罗拉娜。</span></li>
-  <li><span>前往圣火台的广场。</span></li>
+  <li>
+    <div>
+      <span>调查罗拉娜的信。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>泰姆：</strong>这、这……到底是怎么回事？！</p>
+        <p><strong>卢塔斯：</strong>信上写的应该是真的。</p>
+        <p><strong>卢塔斯：</strong>罗拉娜为了钱，出卖了维舒贝尔。</p>
+        <p><strong>伊利安：</strong>不会吧……</p>
+        <p><strong>卡兰：</strong>罗拉娜似乎不知道镇子会被袭击……</p>
+        <p><strong>伊利安：</strong>可是她害我们镇……</p>
+        <p><strong>弗恩：</strong>罗拉娜……不是那样的人。</p>
+        <p><strong>弗恩：</strong>大家都是看着她长大的吧？</p>
+        <p><strong>卢塔斯：</strong>弗恩……</p>
+        <p><strong>弗恩：</strong>罗拉娜到底去哪了？</p>
+        <p><strong>斯蒂娅：</strong>大家一起找找，看看镇子里有没有留下什么线索。</p>
+      </details>
+    </div>
+  </li>
+  <li>
+    <div>
+      <span>寻找有关罗拉娜行踪的线索。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>玛戈奶奶：</strong>也就是说圣火节有驱魔的效果。</p>
+        <p><strong>弗恩：</strong>你是说那个传说是真的？</p>
+        <p><strong>斯蒂娅：</strong>……罗拉娜姐的信上有提到。</p>
+        <p><strong>斯蒂娅：</strong>“为了保护镇子不被邪恶侵袭，必须要再度点燃蓝色火焰。”</p>
+        <p><strong>弗恩：</strong>……！！</p>
+        <p><strong>斯蒂娅：</strong>可是，这里没有用于点燃圣火的青燃石。</p>
+        <p><strong>斯蒂娅：</strong>那一天，一切都被绯翼毁了……</p>
+        <p><strong>弗恩：</strong>我懂了……罗拉娜是去找青燃石了。</p>
+        <p><strong>弗恩：</strong>但是，那东西会在哪儿呢？</p>
+        <p><strong>斯蒂娅：</strong>……诺摩斯先生可能会知道点什么。</p>
+      </details>
+    </div>
+  </li>
+  <li>
+    <div>
+      <span>在维舒贝尔林道与诺摩斯对话。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>学者诺摩斯：</strong>“圣火神的祠堂”附近应该会有青燃石……</p>
+        <p><strong>斯蒂娅：</strong>祠堂在什么地方……？</p>
+        <p><strong>学者诺摩斯：</strong>主角……路途艰险。</p>
+        <p><strong>学者诺摩斯：</strong>去那里要冒生命危险，你想清楚了吗？</p>
+        <p className="leaf-choice">◇ 选择：是否下定决心，冒着危险去找罗拉娜？</p>
+        <div className="leaf-branches">
+          <div className="leaf-branch">
+            <span className="leaf-opt">否</span>
+            <p><strong>斯蒂娅：</strong>主角……你真的想清楚了吗？</p>
+            <p><strong>斯蒂娅：</strong>再问问你的内心吧。</p>
+          </div>
+          <div className="leaf-branch">
+            <span className="leaf-opt">是</span>
+            <p><strong>学者诺摩斯：</strong>那便去一趟洞窟吧。</p>
+            <p><strong>学者诺摩斯：</strong>你手上的戒指会为你指明地点。</p>
+            <p><strong>斯蒂娅：</strong>谢谢你，诺摩斯先生！</p>
+            <p><strong>学者诺摩斯：</strong>……</p>
+            <p><strong>学者诺摩斯：</strong>那么……你会做何选择？</p>
+          </div>
+        </div>
+      </details>
+    </div>
+  </li>
+  <li>
+    <div>
+      <span>前往青煌洞窟。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>弗恩：</strong>有脚印……还很新。</p>
+        <p><strong>斯蒂娅：</strong>是罗拉娜姐的脚印吗？</p>
+        <p><strong>弗恩：</strong>……像是她的。</p>
+        <p><strong>斯蒂娅：</strong>罗拉娜姐果然是去找青燃石了……</p>
+        <p><strong>弗恩：</strong>是啊，看来我们的推测是对的。</p>
+        <p><strong>弗恩：</strong>真是的，为什么不找我们帮忙呢……</p>
+      </details>
+    </div>
+  </li>
+  <li>
+    <div>
+      <span>追上罗拉娜。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>斯蒂娅：</strong>呜哇？！</p>
+        <p><strong>弗恩：</strong>好大的暴风雪啊。</p>
+        <p><strong>斯蒂娅：</strong>罗拉娜姐……一个人在这风雪中……</p>
+        <p><strong>弗恩：</strong>我们也得小心，别走散了。</p>
+        <p><strong>弗恩：</strong>……你醒啦？</p>
+        <p><strong>罗拉娜：</strong>谢谢你把我带到这里，弗恩。</p>
+        <p><strong>弗恩：</strong>……总不能看着你死吧？</p>
+        <p><strong>罗拉娜：</strong>我们得回到大家身边……</p>
+        <p><strong>弗恩：</strong>等等，你的伤还没好啊。</p>
+        <p><strong>罗拉娜：</strong>……别管我，弗恩。</p>
+        <p><strong>弗恩：</strong>罗拉娜……</p>
+      </details>
+    </div>
+  </li>
+  <li>
+    <div>
+      <span>前往圣火台的广场。</span>
+      <details className="leaf-dialogue">
+        <summary>剧情对话（剧透）</summary>
+        <p><strong>卢塔斯：</strong>罗拉娜……</p>
+        <p><strong>卢塔斯：</strong>你为什么要出卖镇子，向赫露弥娅泄露秘密？！</p>
+        <p><strong>奥丽弗：</strong>要是你不泄密，镇子就不会遇袭。</p>
+        <p><strong>奥丽弗：</strong>也就不会死那么多人了……！！</p>
+        <p><strong>泰姆：</strong>罗拉娜是这一切的罪魁祸首。</p>
+        <p><strong>罗拉娜：</strong>……你们说得对。</p>
+        <p><strong>罗拉娜：</strong>我愿意接受任何惩罚……</p>
+        <p><strong>弗恩：</strong>但罗拉娜是为了给奶奶治病，对吧？</p>
+        <p><strong>弗恩：</strong>罗拉娜……别无选择。</p>
+        <p><strong>罗拉娜：</strong>弗恩……</p>
+        <p><strong>卢塔斯：</strong>喂喂，弗恩。你这是要替这家伙说话吗？</p>
+        <p><strong>泰姆：</strong>不管有什么苦衷，都改变不了她害死许多人的事实。</p>
+        <p><strong>路德：</strong>这么说合适吗？</p>
+        <p><strong>路德：</strong>我算是听明白了，你们错得太离谱了。</p>
+        <p><strong>泰姆：</strong>这事跟你一个外人有什么关系？</p>
+        <p><strong>路德：</strong>当局者迷，旁观者清。</p>
+        <p><strong>路德：</strong>明面的甜头越大，背后的坑就越大……这是商人的常识。</p>
+        <p><strong>路德：</strong>答应这种“明显”很可疑的交易，确实太轻率。</p>
+        <p><strong>卢塔斯：</strong>……</p>
+        <p><strong>路德：</strong>元凶真的是罗拉娜吗？</p>
+        <p><strong>路德：</strong>就结果而言，她确实导致了镇子遇袭，可她对那个计划毫不知情。</p>
+        <p><strong>路德：</strong>罪魁祸首难道不是那个利用她的弱点袭击镇子的人吗？</p>
+        <p><strong>泰姆：</strong>……</p>
+        <p><strong>卢塔斯：</strong>这我当然明白……</p>
+        <p><strong>路德：</strong>可你们还是要指责罗拉娜……</p>
+        <p><strong>路德：</strong>是因为无处宣泄愤怒吧？</p>
+        <p><strong>路德：</strong>真正的敌人虽然强大，但已经不在人世了……</p>
+        <p><strong>路德：</strong>主角替你们报了仇……</p>
+        <p><strong>路德：</strong>既然如此……你们就没必要迁怒伙伴了吧？</p>
+        <p><strong>卢塔斯：</strong>……</p>
+        <p><strong>卢塔斯：</strong>呜……呜呜……娜露……</p>
+        <p><strong>弗恩：</strong>卢塔斯……我非常理解你的感受。</p>
+        <p><strong>弗恩：</strong>可是……罗拉娜她也失去了生命中最重要的人。</p>
+        <p><strong>弗恩：</strong>她和我们是一样的……</p>
+        <p><strong>罗拉娜：</strong>……对不起。</p>
+        <p><strong>罗拉娜：</strong>对不起……！！！！</p>
+        <p><strong>卢塔斯：</strong>罗拉娜……</p>
+        <p><strong>罗拉娜：</strong>如果你们愿意原谅我……我想留在镇子里赎罪。</p>
+        <p><strong>罗拉娜：</strong>用我这一生……赎罪……</p>
+        <p><strong>贾斯帕：</strong>……好啦，罗拉娜。</p>
+        <p><strong>贾斯帕：</strong>是我们深陷过去，走不出来。</p>
+        <p><strong>贾斯帕：</strong>现在，我们需要的是面对未来。</p>
+        <p><strong>贾斯帕：</strong>罗拉娜说要为此尽一份力。</p>
+        <p><strong>贾斯帕：</strong>如果我们伤害罗拉娜，并把她赶出去……</p>
+        <p><strong>贾斯帕：</strong>那我们和袭击镇子的那伙人又有什么区别……？</p>
+        <p><strong>卢塔斯：</strong>……嗯，是啊。</p>
+        <p><strong>卢塔斯：</strong>让我们一起……走向未来吧。</p>
+      </details>
+    </div>
+  </li>
   <li><span>与罗拉娜对话。</span></li>
 </ol>
 

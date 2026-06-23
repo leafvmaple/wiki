@@ -41,6 +41,12 @@ export default defineConfig({
           items: [
             { label: '游戏总览', link: '/games/octopath-traveler-0/' },
             { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
+            { label: '角色一览', link: '/games/octopath-traveler-0/characters/' },
+            {
+              label: '全部角色',
+              collapsed: true,
+              items: [{ autogenerate: { directory: 'games/octopath-traveler-0/characters' } }],
+            },
             {
               label: '主线 · 序章与圣火',
               collapsed: true,
