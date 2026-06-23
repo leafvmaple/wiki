@@ -57,6 +57,10 @@ const main = async () => {
   assert(bundles.length === summary.counts.bundles, 'Bundle count does not match summary.json');
   assert(bundles.every((bundle) => bundle.items.length > 0), 'Bundle item list is empty');
   assert(bundles.some((bundle) => bundle.requiredCount < bundle.itemCount), 'Bundle planner is missing choice bundles');
+  assert(
+    machines.reduce((count, machine) => count + (machine.profitRules?.length ?? 0), 0) > 0,
+    'Machine profit rules are empty'
+  );
   assert(town.id === 'town', 'Town map id is invalid');
   assert(town.points.length === town.pointCount, 'Town map point count does not match');
   assert(town.pointCount > 0, 'Town map has no points');

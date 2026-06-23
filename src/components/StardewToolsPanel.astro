@@ -3,6 +3,7 @@ import crops from '../data/stardew-valley/generated/crops.json';
 import fish from '../data/stardew-valley/generated/fish.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
 import bundles from '../data/stardew-valley/generated/bundles.json';
+import machines from '../data/stardew-valley/generated/machines.json';
 import StardewIcon from './StardewIcon.astro';
 
 type DataRow = Record<string, any>;
@@ -12,7 +13,18 @@ const cropRows = crops as DataRow[];
 const fishRows = fish as DataRow[];
 const villagerRows = villagers as DataRow[];
 const bundleRows = bundles as DataRow[];
+const machineRows = machines as DataRow[];
 const bundleRooms = [...new Map(bundleRows.map((bundle) => [bundle.room, bundle.roomZh])).entries()];
+const machineProfitRows: DataRow[] = machineRows.flatMap((machine) =>
+  ((machine.profitRules ?? []) as DataRow[]).map((rule): DataRow => ({
+    ...rule,
+    machineId: rule.machineId ?? machine.id,
+    machineNameZh: rule.machineNameZh ?? machine.nameZh,
+  }))
+);
+const machineProfitMachines = [
+  ...new Map(machineProfitRows.map((rule) => [rule.machineId, rule.machineNameZh])).entries(),
+].sort((a, b) => String(a[1]).localeCompare(String(b[1])));
 
 const seasonLabels: Record<string, string> = {
   spring: '春',
@@ -58,11 +70,20 @@ const formatBirthday = (villager: DataRow) =>
 const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
 const formatReward = (reward?: DataRow | null) =>
   reward ? `${reward.label}${reward.quantity && reward.quantity > 1 ? ` x${reward.quantity}` : ''}` : '-';
+const formatGold = (value?: number | null) => (Number.isFinite(Number(value)) ? `${Math.round(Number(value))}g` : '-');
+const formatSignedGold = (value?: number | null) => {
+  if (!Number.isFinite(Number(value))) return '-';
+  const rounded = Math.round(Number(value));
+  return `${rounded > 0 ? '+' : ''}${rounded}g`;
+};
+const formatCount = (count?: number | null) => (Number(count) > 1 ? ` x${count}` : '');
 const formatBundleNeed = (item: DataRow) => {
   const quantity = item.label === '金币' ? `${item.quantity}g` : item.quantity > 1 ? `x${item.quantity}` : '';
   const quality = item.quality ? qualityLabels[String(item.quality)] : '';
   return [quantity, quality].filter(Boolean).join(' · ');
 };
+const formatOutputNote = (rule: DataRow) =>
+  [rule.outputQualityLabel, rule.copyQuality ? '继承品质' : ''].filter(Boolean).join(' · ');
 ---
 
 <div class="leaf-tools" data-stardew-tools>
@@ -313,6 +334,100 @@ const formatBundleNeed = (item: DataRow) => {
       </tbody>
     </table>
   </section>
+
+  <section class="leaf-tool-panel">
+    <h2>机器加工收益</h2>
+    <div class="leaf-tool-controls">
+      <label>
+        <span>机器</span>
+        <select data-machine-profit-machine>
+          <option value="">全部</option>
+          {machineProfitMachines.map(([machineId, label]) => <option value={machineId}>{label}</option>)}
+        </select>
+      </label>
+      <label class="is-wide">
+        <span>搜索</span>
+        <input data-machine-profit-search type="search" placeholder="物品或机器名" />
+      </label>
+      <label class="leaf-check">
+        <input data-machine-profit-positive type="checkbox" />
+        <span>只看正收益</span>
+      </label>
+    </div>
+    <p class="leaf-tool-count">
+      <span data-machine-profit-count>0</span> 条可计算规则，最高基础差值 <span data-machine-profit-best>-</span>
+    </p>
+    <table class="leaf-machine-profit-table">
+      <thead>
+        <tr>
+          <th>机器</th>
+          <th>输入</th>
+          <th>输出</th>
+          <th>加工时间</th>
+          <th>成本</th>
+          <th>产值</th>
+          <th>基础差值</th>
+        </tr>
+      </thead>
+      <tbody>
+        {machineProfitRows.map((rule) => (
+          <tr
+            data-machine-profit-row
+            data-machine={rule.machineId}
+            data-search={rule.searchText}
+            data-profit={rule.baseProfit}
+          >
+            <td>
+              <StardewIcon
+                kind="machine"
+                assetKind="machine"
+                assetId={rule.machineId}
+                label={rule.machineNameZh}
+              />
+            </td>
+            <td>
+              <StardewIcon
+                kind="item"
+                assetKind="object"
+                assetId={rule.inputItemId}
+                label={`${rule.inputLabel}${formatCount(rule.inputCount)}`}
+              />
+              {((rule.extraInputs ?? []) as DataRow[]).length > 0 && (
+                <span class="sv-machine-extra">
+                  {((rule.extraInputs ?? []) as DataRow[]).map((item) => (
+                    <StardewIcon
+                      kind="item"
+                      assetKind="object"
+                      assetId={item.itemId}
+                      label={`+ ${item.label}${formatCount(item.count)}`}
+                      compact
+                    />
+                  ))}
+                </span>
+              )}
+            </td>
+            <td>
+              <StardewIcon
+                kind="item"
+                assetKind="object"
+                assetId={rule.outputItemId}
+                label={`${rule.outputLabel}${formatCount(rule.outputCount)}`}
+              />
+              {formatOutputNote(rule) && <small class="sv-machine-note">{formatOutputNote(rule)}</small>}
+            </td>
+            <td>{rule.readyLabel ?? '-'}</td>
+            <td>{formatGold(Number(rule.inputValue ?? 0) + Number(rule.extraInputValue ?? 0))}</td>
+            <td>{formatGold(rule.outputValue)}</td>
+            <td>
+              <strong class:list={['sv-profit-value', rule.baseProfit >= 0 ? 'is-positive' : 'is-negative']}>
+                {formatSignedGold(rule.baseProfit)}
+              </strong>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
 </div>
 
 <script is:inline>
@@ -330,6 +445,11 @@ const formatBundleNeed = (item: DataRow) => {
         .filter(Boolean)
         .map((range) => range.split('-').map(Number));
     const toNumber = (input) => Number(input.value || 0);
+    const formatSignedGold = (value) => {
+      if (!Number.isFinite(value)) return '-';
+      const rounded = Math.round(value);
+      return `${rounded > 0 ? '+' : ''}${rounded}g`;
+    };
     const bundleStateKey = 'leafwiki:stardew:bundle-planner:v1';
     const readBundleState = () => {
       try {
@@ -435,6 +555,32 @@ const formatBundleNeed = (item: DataRow) => {
       root.querySelector('[data-bundle-complete]').textContent = String(completeCount);
     };
 
+    const updateMachineProfit = () => {
+      const query = root.querySelector('[data-machine-profit-search]').value.trim().toLowerCase();
+      const machine = root.querySelector('[data-machine-profit-machine]').value;
+      const positiveOnly = root.querySelector('[data-machine-profit-positive]').checked;
+      let count = 0;
+      let bestProfit = null;
+
+      for (const row of root.querySelectorAll('[data-machine-profit-row]')) {
+        const profit = Number(row.dataset.profit || 0);
+        const machineOk = !machine || row.dataset.machine === machine;
+        const queryOk = !query || row.dataset.search.includes(query);
+        const profitOk = !positiveOnly || profit > 0;
+        const visible = machineOk && queryOk && profitOk;
+
+        row.hidden = !visible;
+        if (visible) {
+          count += 1;
+          bestProfit = bestProfit === null ? profit : Math.max(bestProfit, profit);
+        }
+      }
+
+      root.querySelector('[data-machine-profit-count]').textContent = String(count);
+      root.querySelector('[data-machine-profit-best]').textContent =
+        bestProfit === null ? '-' : formatSignedGold(bestProfit);
+    };
+
     for (const input of root.querySelectorAll('[data-bundle-item]')) {
       input.checked = Boolean(bundleState[input.dataset.bundleKey]);
       input.addEventListener('change', () => {
@@ -450,12 +596,14 @@ const formatBundleNeed = (item: DataRow) => {
         updateCrops();
         updateGifts();
         updateBundles();
+        updateMachineProfit();
       });
       input.addEventListener('change', () => {
         updateFish();
         updateCrops();
         updateGifts();
         updateBundles();
+        updateMachineProfit();
       });
     }
 
@@ -463,6 +611,7 @@ const formatBundleNeed = (item: DataRow) => {
     updateCrops();
     updateGifts();
     updateBundles();
+    updateMachineProfit();
   })();
 </script>
 
@@ -555,6 +704,15 @@ const formatBundleNeed = (item: DataRow) => {
     min-width: 9rem;
   }
 
+  .leaf-machine-profit-table td:nth-child(1) {
+    min-width: 9.5rem;
+  }
+
+  .leaf-machine-profit-table td:nth-child(2),
+  .leaf-machine-profit-table td:nth-child(3) {
+    min-width: 11rem;
+  }
+
   .leaf-bundle-reward {
     color: var(--leaf-text-muted);
     display: block;
@@ -585,6 +743,37 @@ const formatBundleNeed = (item: DataRow) => {
     font-size: 0.76rem;
     font-weight: 700;
     white-space: nowrap;
+  }
+
+  .sv-machine-extra {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.28rem;
+    margin-top: 0.28rem;
+  }
+
+  .sv-machine-note {
+    color: var(--leaf-text-muted);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-top: 0.18rem;
+  }
+
+  .sv-profit-value.is-positive {
+    color: #167a52;
+  }
+
+  .sv-profit-value.is-negative {
+    color: #b45309;
+  }
+
+  :root[data-theme='dark'] .sv-profit-value.is-positive {
+    color: #54d79a;
+  }
+
+  :root[data-theme='dark'] .sv-profit-value.is-negative {
+    color: #f8b35d;
   }
 
   tr[data-complete='true'] .sv-bundle-item input:checked + .sv-icon-label {

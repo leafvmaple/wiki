@@ -472,12 +472,148 @@ const buildVillagers = (characters, npcNames, giftTastes, objects, objectStrings
       return seasonDelta || dayRank(a.birthDay) - dayRank(b.birthDay) || a.nameZh.localeCompare(b.nameZh);
     });
 
+const objectsHasNumericId = (id) => /^\d+$/.test(String(id ?? ''));
+
+const directObjectId = (value) => {
+  const parsed = parseQualifiedId(value);
+  if (!parsed || (parsed.type && parsed.type !== 'O')) return null;
+  return objectsHasNumericId(parsed.id) ? parsed.id : null;
+};
+
+const qualityLabels = {
+  1: '银星',
+  2: '金星',
+  4: '铱星',
+};
+
+const qualityMultipliers = {
+  1: 1.25,
+  2: 1.5,
+  4: 2,
+};
+
+const objectBasePrice = (id, objects) => {
+  const price = objects[id]?.Price;
+  return Number.isFinite(price) && price >= 0 ? price : null;
+};
+
+const outputStack = (output) => (Number.isFinite(output.MinStack) && output.MinStack > 0 ? output.MinStack : 1);
+
+const readyTimeLabel = (rule, machine) => {
+  if (rule.DaysUntilReady !== undefined && rule.DaysUntilReady > 0) return `${rule.DaysUntilReady} 天`;
+  if (rule.MinutesUntilReady !== undefined && rule.MinutesUntilReady > 0) return `${rule.MinutesUntilReady} 分钟`;
+  if (machine.OnlyCompleteOvernight) return '隔夜';
+  return null;
+};
+
+const buildMachineProfitRules = (machineId, machineNameZh, machine, objects, objectStrings) => {
+  const extraInputs = (machine.AdditionalConsumedItems ?? [])
+    .map((item) => {
+      const itemId = directObjectId(item.ItemId);
+      const count = Number(item.RequiredCount ?? 1);
+      const unitPrice = itemId ? objectBasePrice(itemId, objects) : null;
+      if (!itemId || !Number.isFinite(count) || count <= 0 || unitPrice === null) return null;
+      return {
+        itemId,
+        label: localizedObjectName(itemId, objects, objectStrings) ?? objects[itemId]?.Name ?? itemId,
+        count,
+        unitPrice,
+        value: unitPrice * count,
+      };
+    })
+    .filter(Boolean);
+  const extraInputValue = extraInputs.reduce((sum, item) => sum + item.value, 0);
+
+  return (machine.OutputRules ?? [])
+    .map((rule, index) => {
+      const triggers = rule.Triggers ?? [];
+      const outputs = rule.OutputItem ?? [];
+      if (triggers.length !== 1 || outputs.length !== 1) return null;
+
+      const trigger = triggers[0];
+      const output = outputs[0];
+      const hasDynamicOutput =
+        output.RandomItemId ||
+        output.OutputMethod ||
+        output.PreserveId ||
+        output.CopyPrice ||
+        output.PriceModifiers ||
+        output.StackModifiers ||
+        output.QualityModifiers ||
+        output.PerItemCondition ||
+        output.ItemId === 'DROP_IN';
+      if (rule.Condition || trigger.Condition || output.Condition || hasDynamicOutput) return null;
+
+      const inputItemId = directObjectId(trigger.RequiredItemId);
+      const outputItemId = directObjectId(output.ItemId);
+      const inputCount = Number(trigger.RequiredCount ?? 1);
+      const outputCount = outputStack(output);
+      const inputUnitPrice = inputItemId ? objectBasePrice(inputItemId, objects) : null;
+      const outputBaseUnitPrice = outputItemId ? objectBasePrice(outputItemId, objects) : null;
+      if (
+        !inputItemId ||
+        !outputItemId ||
+        !Number.isFinite(inputCount) ||
+        inputCount <= 0 ||
+        inputUnitPrice === null ||
+        outputBaseUnitPrice === null
+      ) {
+        return null;
+      }
+
+      const outputQuality = Number.isFinite(output.Quality) && output.Quality > 0 ? output.Quality : 0;
+      const outputUnitPrice = Math.round(outputBaseUnitPrice * (qualityMultipliers[outputQuality] ?? 1));
+      const inputValue = inputUnitPrice * inputCount;
+      const outputValue = outputUnitPrice * outputCount;
+      const baseProfit = outputValue - inputValue - extraInputValue;
+      const minutes = Number.isFinite(rule.MinutesUntilReady) && rule.MinutesUntilReady > 0 ? rule.MinutesUntilReady : null;
+      const days =
+        Number.isFinite(rule.DaysUntilReady) && rule.DaysUntilReady > 0
+          ? rule.DaysUntilReady
+          : machine.OnlyCompleteOvernight
+            ? 1
+            : null;
+
+      return {
+        id: `${machineId}:${rule.Id ?? index}:${inputItemId}:${outputItemId}`,
+        machineId,
+        machineNameZh,
+        inputItemId,
+        inputLabel: localizedObjectName(inputItemId, objects, objectStrings) ?? objects[inputItemId]?.Name ?? inputItemId,
+        inputCount,
+        inputUnitPrice,
+        inputValue,
+        extraInputs,
+        extraInputValue,
+        outputItemId,
+        outputLabel: localizedObjectName(outputItemId, objects, objectStrings) ?? objects[outputItemId]?.Name ?? outputItemId,
+        outputCount,
+        outputUnitPrice,
+        outputValue,
+        outputQuality,
+        outputQualityLabel: outputQuality ? qualityLabels[outputQuality] ?? `品质 ${outputQuality}` : null,
+        copyQuality: Boolean(output.CopyQuality),
+        baseProfit,
+        minutes,
+        days,
+        readyLabel: readyTimeLabel(rule, machine),
+        searchText: `${machineNameZh} ${inputItemId} ${outputItemId} ${
+          localizedObjectName(inputItemId, objects, objectStrings) ?? ''
+        } ${localizedObjectName(outputItemId, objects, objectStrings) ?? ''}`.toLowerCase(),
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.baseProfit - a.baseProfit || a.inputLabel.localeCompare(b.inputLabel));
+};
+
 const buildMachines = (machines, objects, objectStrings, bigCraftables, bigCraftableStrings) =>
   Object.entries(machines)
     .map(([machineKey, machine]) => {
       const parsed = parseQualifiedId(machineKey);
       const id = parsed?.id ?? machineKey;
+      const nameZh = localizedBigCraftableName(id, bigCraftables, bigCraftableStrings) ?? bigCraftables[id]?.Name ?? id;
       const rules = machine.OutputRules ?? [];
+      const profitRules = buildMachineProfitRules(id, nameZh, machine, objects, objectStrings);
       const triggers = rules.flatMap((rule) => rule.Triggers ?? []);
       const outputs = rules.flatMap((rule) => rule.OutputItem ?? []);
       const inputItems = triggers.map((trigger) =>
@@ -505,8 +641,10 @@ const buildMachines = (machines, objects, objectStrings, bigCraftables, bigCraft
         id,
         key: machineKey,
         name: bigCraftables[id]?.Name ?? id,
-        nameZh: localizedBigCraftableName(id, bigCraftables, bigCraftableStrings) ?? bigCraftables[id]?.Name ?? id,
+        nameZh,
         ruleCount: rules.length,
+        profitRuleCount: profitRules.length,
+        profitRules,
         inputSummary: preview([...inputItems, ...inputTags]),
         outputSummary: preview(outputItems),
         readyTimes: preview(readyTimes, 4),
