@@ -1,0 +1,400 @@
+---
+import crops from '../data/stardew-valley/generated/crops.json';
+import fish from '../data/stardew-valley/generated/fish.json';
+import villagers from '../data/stardew-valley/generated/villagers.json';
+
+type DataRow = Record<string, any>;
+type TimeRange = { start: number; end: number };
+
+const cropRows = crops as DataRow[];
+const fishRows = fish as DataRow[];
+const villagerRows = villagers as DataRow[];
+
+const seasonLabels: Record<string, string> = {
+  spring: '春',
+  summer: '夏',
+  fall: '秋',
+  winter: '冬',
+  Spring: '春',
+  Summer: '夏',
+  Fall: '秋',
+  Winter: '冬',
+};
+const weatherLabels: Record<string, string> = {
+  sunny: '晴天',
+  rainy: '雨天',
+  both: '不限',
+};
+const methodLabels: Record<string, string> = {
+  rod: '钓竿',
+  trap: '蟹笼',
+};
+
+const joinList = (items?: string[], fallback = '-') => (items?.length ? items.join('、') : fallback);
+const formatSeasons = (items?: string[]) => (items?.length ? items.map((item) => seasonLabels[item] ?? item).join('、') : '-');
+const formatRanges = (ranges?: TimeRange[]) => ranges?.map((range) => `${range.start}-${range.end}`).join('|') ?? '';
+const formatTime = (value: number) => {
+  const hour = Math.floor(value / 100);
+  const minute = value % 100;
+  const displayHour = hour >= 24 ? hour - 24 : hour;
+  const suffix = hour >= 24 ? ' +1' : '';
+  return `${String(displayHour).padStart(2, '0')}:${String(minute).padStart(2, '0')}${suffix}`;
+};
+const formatTimeRanges = (ranges?: TimeRange[]) =>
+  ranges?.length ? ranges.map((range) => `${formatTime(range.start)}-${formatTime(range.end)}`).join('、') : '-';
+const formatLocations = (locations?: DataRow[]) =>
+  locations?.length ? locations.map((location) => location.code).join('、') : '-';
+const formatBirthday = (villager: DataRow) =>
+  villager.birthSeason && villager.birthDay ? `${seasonLabels[villager.birthSeason] ?? villager.birthSeason} ${villager.birthDay}` : '-';
+const seasonValue = (value?: string) => String(value ?? '').toLowerCase();
+---
+
+<div class="leaf-tools" data-stardew-tools>
+  <section class="leaf-tool-panel">
+    <h2>今日可钓鱼</h2>
+    <div class="leaf-tool-controls">
+      <label>
+        <span>季节</span>
+        <select data-fish-season>
+          <option value="spring">春</option>
+          <option value="summer">夏</option>
+          <option value="fall">秋</option>
+          <option value="winter">冬</option>
+        </select>
+      </label>
+      <label>
+        <span>天气</span>
+        <select data-fish-weather>
+          <option value="sunny">晴天</option>
+          <option value="rainy">雨天</option>
+        </select>
+      </label>
+      <label>
+        <span>时间</span>
+        <input data-fish-time type="number" min="600" max="2600" step="100" value="1200" />
+      </label>
+    </div>
+    <p class="leaf-tool-count"><span data-fish-count>0</span> 条匹配</p>
+    <table>
+      <thead>
+        <tr>
+          <th>鱼类</th>
+          <th>方式</th>
+          <th>季节</th>
+          <th>时间</th>
+          <th>天气</th>
+          <th>地点代码</th>
+          <th>难度</th>
+        </tr>
+      </thead>
+      <tbody>
+        {fishRows.map((item) => (
+          <tr
+            data-fish-row
+            data-seasons={(item.seasons ?? []).map(seasonValue).join(',')}
+            data-weather={item.weather ?? 'both'}
+            data-ranges={formatRanges(item.timeRanges)}
+          >
+            <td>{item.nameZh ?? item.name}</td>
+            <td>{methodLabels[item.method] ?? item.method}</td>
+            <td>{formatSeasons(item.seasons)}</td>
+            <td>{formatTimeRanges(item.timeRanges)}</td>
+            <td>{weatherLabels[item.weather] ?? item.weather ?? '-'}</td>
+            <td>{formatLocations(item.locationCodes)}</td>
+            <td>{item.difficulty ?? '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="leaf-tool-panel">
+    <h2>作物播种估算</h2>
+    <div class="leaf-tool-controls">
+      <label>
+        <span>季节</span>
+        <select data-crop-season>
+          <option value="Spring">春</option>
+          <option value="Summer">夏</option>
+          <option value="Fall">秋</option>
+          <option value="Winter">冬</option>
+        </select>
+      </label>
+      <label>
+        <span>播种日</span>
+        <input data-crop-day type="number" min="1" max="28" step="1" value="1" />
+      </label>
+    </div>
+    <p class="leaf-tool-count"><span data-crop-count>0</span> 种可在本季种植</p>
+    <table>
+      <thead>
+        <tr>
+          <th>种子</th>
+          <th>收获物</th>
+          <th>成熟</th>
+          <th>再生</th>
+          <th>最晚播种</th>
+          <th>预计收获</th>
+          <th>基础差值</th>
+        </tr>
+      </thead>
+      <tbody>
+        {cropRows.map((crop) => (
+          <tr
+            data-crop-row
+            data-seasons={(crop.seasons ?? []).join(',')}
+            data-grow-days={crop.growDays}
+            data-regrow-days={crop.regrowDays}
+            data-seed-price={crop.seedBasePrice ?? 0}
+            data-harvest-value={crop.averageHarvestBaseValue ?? 0}
+          >
+            <td>{crop.seedNameZh ?? crop.seedName}</td>
+            <td>{crop.harvestNameZh ?? crop.harvestName}</td>
+            <td>{crop.growDays} 天</td>
+            <td>{crop.regrowDays > 0 ? `${crop.regrowDays} 天` : '否'}</td>
+            <td data-crop-last>-</td>
+            <td data-crop-harvests>-</td>
+            <td data-crop-profit>-</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="leaf-tool-panel">
+    <h2>礼物快查</h2>
+    <div class="leaf-tool-controls">
+      <label class="is-wide">
+        <span>搜索</span>
+        <input data-gift-search type="search" placeholder="村民或礼物名" />
+      </label>
+      <label>
+        <span>生日季节</span>
+        <select data-gift-season>
+          <option value="">全部</option>
+          <option value="Spring">春</option>
+          <option value="Summer">夏</option>
+          <option value="Fall">秋</option>
+          <option value="Winter">冬</option>
+        </select>
+      </label>
+      <label>
+        <span>日期</span>
+        <input data-gift-day type="number" min="1" max="28" step="1" value="1" />
+      </label>
+      <label class="leaf-check">
+        <input data-birthday-only type="checkbox" />
+        <span>只看生日</span>
+      </label>
+    </div>
+    <p class="leaf-tool-count"><span data-gift-count>0</span> 位匹配</p>
+    <table>
+      <thead>
+        <tr>
+          <th>村民</th>
+          <th>生日</th>
+          <th>可结婚</th>
+          <th>最爱示例</th>
+          <th>喜欢示例</th>
+        </tr>
+      </thead>
+      <tbody>
+        {villagerRows.map((villager) => (
+          <tr
+            data-gift-row
+            data-name={`${villager.nameZh} ${villager.id}`}
+            data-birth-season={villager.birthSeason ?? ''}
+            data-birth-day={villager.birthDay ?? ''}
+            data-gifts={`${joinList(villager.lovedItems, '')} ${joinList(villager.likedItems, '')}`}
+          >
+            <td>{villager.nameZh}</td>
+            <td>{formatBirthday(villager)}</td>
+            <td>{villager.canBeRomanced ? '是' : '否'}</td>
+            <td>{joinList(villager.lovedItems)}</td>
+            <td>{joinList(villager.likedItems)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<script is:inline>
+  (() => {
+    const root = document.querySelector('[data-stardew-tools]');
+    if (!root) return;
+
+    const inTimeRange = (value, ranges) => {
+      if (!ranges.length) return true;
+      return ranges.some(([start, end]) => value >= start && value <= end);
+    };
+    const parseRanges = (value) =>
+      value
+        .split('|')
+        .filter(Boolean)
+        .map((range) => range.split('-').map(Number));
+    const toNumber = (input) => Number(input.value || 0);
+
+    const updateFish = () => {
+      const season = root.querySelector('[data-fish-season]').value;
+      const weather = root.querySelector('[data-fish-weather]').value;
+      const time = toNumber(root.querySelector('[data-fish-time]'));
+      let count = 0;
+      for (const row of root.querySelectorAll('[data-fish-row]')) {
+        const seasons = row.dataset.seasons.split(',').filter(Boolean);
+        const ranges = parseRanges(row.dataset.ranges);
+        const weatherOk = row.dataset.weather === 'both' || row.dataset.weather === weather || row.dataset.weather === '';
+        const seasonOk = !seasons.length || seasons.includes(season);
+        const timeOk = inTimeRange(time, ranges);
+        const visible = weatherOk && seasonOk && timeOk;
+        row.hidden = !visible;
+        if (visible) count += 1;
+      }
+      root.querySelector('[data-fish-count]').textContent = String(count);
+    };
+
+    const updateCrops = () => {
+      const season = root.querySelector('[data-crop-season]').value;
+      const day = toNumber(root.querySelector('[data-crop-day]'));
+      let count = 0;
+      for (const row of root.querySelectorAll('[data-crop-row]')) {
+        const seasons = row.dataset.seasons.split(',').filter(Boolean);
+        const growDays = Number(row.dataset.growDays);
+        const regrowDays = Number(row.dataset.regrowDays);
+        const seedPrice = Number(row.dataset.seedPrice);
+        const harvestValue = Number(row.dataset.harvestValue);
+        const lastDay = 28 - growDays;
+        const firstHarvest = day + growDays;
+        const harvests =
+          firstHarvest > 28 ? 0 : 1 + (regrowDays > 0 ? Math.floor((28 - firstHarvest) / regrowDays) : 0);
+        const profit = harvests > 0 ? harvests * harvestValue - seedPrice : 0;
+        const visible = seasons.includes(season);
+        row.hidden = !visible;
+        row.querySelector('[data-crop-last]').textContent = lastDay >= 1 ? String(lastDay) : '来不及';
+        row.querySelector('[data-crop-harvests]').textContent = harvests > 0 ? `${harvests} 次` : '来不及';
+        row.querySelector('[data-crop-profit]').textContent = harvests > 0 ? String(Math.round(profit)) : '-';
+        if (visible) count += 1;
+      }
+      root.querySelector('[data-crop-count]').textContent = String(count);
+    };
+
+    const updateGifts = () => {
+      const query = root.querySelector('[data-gift-search]').value.trim().toLowerCase();
+      const season = root.querySelector('[data-gift-season]').value;
+      const day = root.querySelector('[data-gift-day]').value;
+      const birthdayOnly = root.querySelector('[data-birthday-only]').checked;
+      let count = 0;
+      for (const row of root.querySelectorAll('[data-gift-row]')) {
+        const haystack = `${row.dataset.name} ${row.dataset.gifts}`.toLowerCase();
+        const birthdayOk = !birthdayOnly || (row.dataset.birthSeason === season && row.dataset.birthDay === day);
+        const queryOk = !query || haystack.includes(query);
+        const visible = birthdayOk && queryOk;
+        row.hidden = !visible;
+        if (visible) count += 1;
+      }
+      root.querySelector('[data-gift-count]').textContent = String(count);
+    };
+
+    for (const input of root.querySelectorAll('select, input')) {
+      input.addEventListener('input', () => {
+        updateFish();
+        updateCrops();
+        updateGifts();
+      });
+      input.addEventListener('change', () => {
+        updateFish();
+        updateCrops();
+        updateGifts();
+      });
+    }
+
+    updateFish();
+    updateCrops();
+    updateGifts();
+  })();
+</script>
+
+<style>
+  .leaf-tools {
+    display: grid;
+    gap: 1rem;
+    margin: 1.25rem 0;
+  }
+
+  .leaf-tool-panel {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .leaf-tool-panel h2 {
+    margin-top: 0;
+  }
+
+  .leaf-tool-controls {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+    margin: 0.75rem 0;
+  }
+
+  .leaf-tool-controls label {
+    display: grid;
+    gap: 0.25rem;
+    min-width: 0;
+  }
+
+  .leaf-tool-controls label.is-wide {
+    grid-column: span 2;
+  }
+
+  .leaf-tool-controls span {
+    color: var(--leaf-text-muted);
+    font-size: 0.86rem;
+    font-weight: 700;
+  }
+
+  .leaf-tool-controls :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg);
+    color: var(--leaf-text);
+    font: inherit;
+    min-height: 2.25rem;
+    min-width: 0;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .leaf-tool-controls .leaf-check {
+    align-items: center;
+    display: flex;
+    gap: 0.45rem;
+  }
+
+  .leaf-tool-controls .leaf-check input {
+    min-height: auto;
+  }
+
+  .leaf-tool-count {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+    margin: 0.4rem 0 0.7rem;
+  }
+
+  .leaf-tool-panel table {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .leaf-tool-controls {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .leaf-tool-controls label.is-wide {
+      grid-column: auto;
+    }
+  }
+</style>

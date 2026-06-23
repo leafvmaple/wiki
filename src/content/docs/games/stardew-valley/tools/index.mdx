@@ -9,23 +9,27 @@ sidebar:
   label: 攻略工具
 ---
 
+import StardewToolsPanel from '../../../../../components/StardewToolsPanel.astro';
+
 <div className="leaf-meta-row">
   <span className="leaf-badge">工具</span>
   <span className="leaf-badge">浏览器端</span>
-  <span className="leaf-badge">建设中</span>
+  <span className="leaf-badge">第一批可用</span>
 </div>
 
 这个板块用于放传统条目页不够顺手的查询器和计算器。工具默认在浏览器端运行，不需要账号、后端或上传数据。
 
-## 工具队列
+<StardewToolsPanel />
 
-| 工具 | 回答的问题 | 资料基础 |
+## 工具状态
+
+| 工具 | 回答的问题 | 状态 |
 | --- | --- | --- |
-| 今日可钓鱼 | 当前季节、天气、时间能钓什么 | `Fish.json`、地点数据 |
-| 作物利润 | 这个季节种什么、最后哪天能种 | `Crops.json`、物品价格 |
-| 礼物查询 | 某 NPC 喜欢什么、今天是否生日 | `NPCGiftTastes`、`Characters.json` |
-| 收集包规划 | 还缺什么、哪里能拿到 | `Bundles.json`、物品索引 |
-| 机器加工 | 物品放进机器产什么、收益多少 | `Machines.json`、物品价格 |
+| 今日可钓鱼 | 当前季节、天气、时间能钓什么 | 已可用 |
+| 作物播种估算 | 这个季节种什么、最后哪天能种 | 已可用 |
+| 礼物快查 | 某 NPC 喜欢什么、今天是否生日 | 已可用 |
+| 收集包规划 | 还缺什么、哪里能拿到 | 后续 |
+| 机器加工 | 物品放进机器产什么、收益多少 | 后续 |
 
 ## 存档工具边界
 
