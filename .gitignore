@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+.netlify/
+
+.env
+.env.*
+!.env.example
+
+Thumbs.db
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
