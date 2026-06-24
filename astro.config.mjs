@@ -62,6 +62,7 @@ export default defineConfig({
                 { label: '饰品', link: '/games/octopath-traveler-0/equipment/accessories/' },
               ],
             },
+            { label: '敌人图鉴', link: '/games/octopath-traveler-0/enemies/' },
           ],
         },
         {

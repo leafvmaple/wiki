@@ -1,89 +1,139 @@
 ---
-// Octopath equipment table — filterable (type + name search) and sortable.
-// Reads the data-driven equipment.json (published from data/ by gen_wiki_data).
+// Octopath data table — filterable + sortable. Two kinds:
+//   kind="equipment" (category=武器/防具/饰品) — equipment.json
+//   kind="enemies"                            — enemies.json (bestiary)
+// Both share the toolbar, sort/filter script and CSS (data/-driven JSON).
 import equipment from '../data/octopath-traveler-0/generated/equipment.json';
+import enemies from '../data/octopath-traveler-0/generated/enemies.json';
 import assets from '../data/octopath-traveler-0/generated/assets.json';
 import OctopathIcon from './OctopathIcon.astro';
 import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
 
-type Equip = Record<string, any>;
-const { category } = Astro.props as { category: string };
-
-const rows = (equipment as Equip[]).filter((e) => e.category === category);
-const types = [...new Set(rows.map((e) => e.type).filter(Boolean))];
-const showType = types.length > 1;
+type Row = Record<string, any>;
+const { kind = 'equipment', category } = Astro.props as { kind?: string; category?: string };
 const itemsByKey = (assets as any).itemsByKey ?? {};
-
-const primary = (e: Equip) => (e.stats?.length ? e.stats[0].value : 0);
-const statBonuses = (e: Equip) => (e.stats ?? []).map((s: any) => `${s.label} +${s.value}`);
-const statStr = (e: Equip) => statBonuses(e).join(' · ') || '—';
 const money = (v: number | null) => (v ? v.toLocaleString('en-US') : '—');
-const cardFor = (e: Equip) =>
+
+// ---- equipment ----
+const eqRows = (equipment as Row[]).filter((e) => e.category === category);
+const types = [...new Set(eqRows.map((e) => e.type).filter(Boolean))];
+const showType = types.length > 1;
+const statBonuses = (e: Row) => (e.stats ?? []).map((s: any) => `${s.label} +${s.value}`);
+const eqPrimary = (e: Row) => (e.stats?.length ? e.stats[0].value : 0);
+const eqCard = (e: Row) =>
   JSON.stringify({
-    imageSrc: itemsByKey[e.iconKey],
-    imageMode: 'contain',
-    kicker: e.type ?? e.category,
+    imageSrc: itemsByKey[e.iconKey], imageMode: 'contain', kicker: e.type ?? e.category, title: e.name,
+    body: e.skills?.length ? `附带技能：${e.skills.join('、')}` : e.exclusive ? `${e.exclusive}专用` : undefined,
+    stats: [...statBonuses(e), e.buy ? `买 ${money(e.buy)}` : null, e.sell ? `卖 ${money(e.sell)}` : null].filter(Boolean),
+  });
+
+// ---- enemies (bestiary) ----
+const enRows = enemies as Row[];
+const enCard = (e: Row) =>
+  JSON.stringify({
+    kicker: `${e.isBoss ? 'BOSS' : '敌人'}${e.level ? ` · Lv${e.level}` : ''}`,
     title: e.name,
-    body: e.skills?.length
-      ? `附带技能：${e.skills.join('、')}`
-      : e.exclusive
-        ? `${e.exclusive}专用`
-        : undefined,
+    body: e.drops?.length ? `掉落：${e.drops.map((d: any) => `${d.name} ${d.rate}%`).join('、')}` : undefined,
     stats: [
-      ...statBonuses(e),
-      e.buy ? `买 ${money(e.buy)}` : null,
-      e.sell ? `卖 ${money(e.sell)}` : null,
+      `HP ${e.hp}`, `护盾 ${e.shield}`,
+      ...Object.entries(e.stats ?? {}).map(([k, v]) => `${k} ${v}`),
+      e.exp ? `EXP ${e.exp}` : null, e.jp ? `JP ${e.jp}` : null,
     ].filter(Boolean),
   });
+const lvNum = (e: Row) => Number(e.level) || -1;
 ---
 
-<div class="ot-dt-wrap">
+<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : '件'}>
   <div class="ot-dt-bar">
-    {showType && (
+    {kind === 'equipment' && showType && (
       <select class="ot-dt-type" aria-label="按类型筛选">
         <option value="">全部类型</option>
         {types.map((t) => <option value={t}>{t}</option>)}
       </select>
     )}
-    <input class="ot-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索装备名称" />
+    {kind === 'enemies' && (
+      <select class="ot-dt-type" aria-label="按种类筛选">
+        <option value="">全部</option>
+        <option value="BOSS">仅 Boss</option>
+        <option value="普通">仅普通</option>
+      </select>
+    )}
+    <input class="ot-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索名称" />
     <span class="ot-dt-count" aria-live="polite"></span>
   </div>
 
   <div class="ot-dt-scroll">
-    <table class="ot-dt">
-      <thead>
-        <tr>
-          <th data-sort="name">装备</th>
-          {showType && <th data-sort="type">类型</th>}
-          <th data-sort="stat" class="num">属性加成</th>
-          <th>技能</th>
-          <th data-sort="buy" class="num">买价</th>
-          <th data-sort="sell" class="num">售价</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((e) => (
-          <tr
-            data-name={e.name}
-            data-type={e.type ?? ''}
-            data-stat={primary(e)}
-            data-buy={e.buy ?? -1}
-            data-sell={e.sell ?? -1}
-            data-ot-card={cardFor(e)}
-          >
-            <td class="ot-dt-name">
-              <OctopathIcon kind="item" assetKind="item" assetId={e.iconKey} label={e.name} />
-              {e.exclusive && <span class="ot-dt-excl">{e.exclusive}专用</span>}
-            </td>
-            {showType && <td>{e.type}</td>}
-            <td class="ot-dt-stats">{statStr(e)}</td>
-            <td class="ot-dt-skill">{e.skills?.length ? e.skills.join('、') : '—'}</td>
-            <td class="num">{money(e.buy)}</td>
-            <td class="num">{money(e.sell)}</td>
+    {kind === 'equipment' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">装备</th>
+            {showType && <th data-sort="type">类型</th>}
+            <th data-sort="stat" class="num">属性加成</th>
+            <th>技能</th>
+            <th data-sort="buy" class="num">买价</th>
+            <th data-sort="sell" class="num">售价</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {eqRows.map((e) => (
+            <tr data-name={e.name} data-type={e.type ?? ''} data-stat={eqPrimary(e)}
+              data-buy={e.buy ?? -1} data-sell={e.sell ?? -1} data-ot-card={eqCard(e)}>
+              <td class="ot-dt-name">
+                <OctopathIcon kind="item" assetKind="item" assetId={e.iconKey} label={e.name} />
+                {e.exclusive && <span class="ot-dt-excl">{e.exclusive}专用</span>}
+              </td>
+              {showType && <td>{e.type}</td>}
+              <td class="ot-dt-stats">{statBonuses(e).join(' · ') || '—'}</td>
+              <td class="ot-dt-skill">{e.skills?.length ? e.skills.join('、') : '—'}</td>
+              <td class="num">{money(e.buy)}</td>
+              <td class="num">{money(e.sell)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'enemies' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">敌人</th>
+            <th data-sort="level" class="num">等级</th>
+            <th data-sort="hp" class="num">HP</th>
+            <th data-sort="shield" class="num">护盾</th>
+            <th>弱点</th>
+            <th>掉落</th>
+            <th data-sort="exp" class="num">EXP</th>
+          </tr>
+        </thead>
+        <tbody>
+          {enRows.map((e) => (
+            <tr data-name={e.name} data-type={e.isBoss ? 'BOSS' : '普通'} data-level={lvNum(e)}
+              data-hp={e.hp} data-shield={e.shield} data-exp={e.exp ?? -1} data-ot-card={enCard(e)}>
+              <td class="ot-dt-name">
+                <span class="ot-dt-ename">{e.name}</span>
+                {e.isBoss && <span class="ot-dt-boss">BOSS</span>}
+              </td>
+              <td class="num">{e.level ?? '—'}</td>
+              <td class="num">{e.hp.toLocaleString('en-US')}</td>
+              <td class="num">{e.shield}</td>
+              <td class="ot-dt-weak">
+                {e.weakWeapons.map((k: string) => (
+                  <img class="ot-weak is-weapon" src={itemsByKey[k]} alt="" loading="lazy" />
+                ))}
+                {e.weakElements.map((w: any) => (
+                  <img class="ot-weak is-element" src={itemsByKey[w.key]} alt={w.name} title={w.name} loading="lazy" />
+                ))}
+                {!e.weakWeapons.length && !e.weakElements.length && <span class="ot-dt-skill">—</span>}
+              </td>
+              <td class="ot-dt-drops">{e.drops?.length ? [...new Set(e.drops.map((d: any) => d.name))].join('、') : '—'}</td>
+              <td class="num">{e.exp ? e.exp.toLocaleString('en-US') : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
   </div>
 </div>
 
@@ -97,6 +147,7 @@ const cardFor = (e: Equip) =>
     const typeSel = root.querySelector<HTMLSelectElement>('.ot-dt-type');
     const search = root.querySelector<HTMLInputElement>('.ot-dt-search')!;
     const count = root.querySelector<HTMLElement>('.ot-dt-count')!;
+    const unit = root.dataset.unit || '件';
     let sortKey = '';
     let sortDir = 1;
 
@@ -105,22 +156,21 @@ const cardFor = (e: Equip) =>
       const q = search.value.trim().toLowerCase();
       let shown = 0;
       for (const r of rows) {
-        const ok =
-          (!t || r.dataset.type === t) &&
-          (!q || (r.dataset.name || '').toLowerCase().includes(q));
+        const ok = (!t || r.dataset.type === t) && (!q || (r.dataset.name || '').toLowerCase().includes(q));
         r.hidden = !ok;
         if (ok) shown += 1;
       }
-      count.textContent = `${shown} 件`;
+      count.textContent = `${shown} ${unit}`;
     };
 
-    const sortBy = (key: string) => {
+    const sortBy = (th: HTMLElement) => {
+      const key = th.dataset.sort!;
       if (sortKey === key) sortDir = -sortDir;
       else {
         sortKey = key;
         sortDir = key === 'name' || key === 'type' ? 1 : -1;
       }
-      const numeric = key === 'stat' || key === 'buy' || key === 'sell';
+      const numeric = th.classList.contains('num');
       [...rows]
         .sort((a, b) => {
           const av = a.dataset[key] ?? '';
@@ -128,16 +178,14 @@ const cardFor = (e: Equip) =>
           return numeric ? (Number(av) - Number(bv)) * sortDir : av.localeCompare(bv, 'zh') * sortDir;
         })
         .forEach((r) => tbody.appendChild(r));
-      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) => {
-        th.dataset.dir = th.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((h) => {
+        h.dataset.dir = h.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
       });
     };
 
     typeSel?.addEventListener('change', apply);
     search.addEventListener('input', apply);
-    table
-      .querySelectorAll<HTMLElement>('th[data-sort]')
-      .forEach((th) => th.addEventListener('click', () => sortBy(th.dataset.sort!)));
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) => th.addEventListener('click', () => sortBy(th)));
     apply();
   });
 </script>
@@ -172,7 +220,6 @@ const cardFor = (e: Equip) =>
     font-weight: 700;
     margin-left: auto;
   }
-
   .ot-dt-scroll {
     overflow-x: auto;
   }
@@ -222,17 +269,46 @@ const cardFor = (e: Equip) =>
   .ot-dt-name {
     white-space: nowrap;
   }
-  .ot-dt-excl {
+  .ot-dt-ename {
+    color: var(--leaf-heading);
+    font-weight: 600;
+  }
+  .ot-dt-excl,
+  .ot-dt-boss {
     color: var(--leaf-primary-hover);
     font-size: 0.74rem;
     font-weight: 700;
     margin-left: 0.4rem;
   }
-  .ot-dt-stats {
+  .ot-dt-boss {
+    border: 1px solid color-mix(in srgb, #c0593f 50%, var(--leaf-border));
+    border-radius: 999px;
+    color: #c0593f;
+    padding: 0.04rem 0.36rem;
+  }
+  .ot-dt-stats,
+  .ot-dt-drops {
     color: var(--leaf-text);
     white-space: normal;
   }
   .ot-dt-skill {
     color: var(--leaf-text-muted);
+  }
+  /* enemy weakness icons */
+  .ot-dt-weak {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.28rem;
+    min-width: 9rem;
+  }
+  .ot-weak {
+    border-radius: 4px;
+    display: block;
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+  .ot-weak.is-weapon {
+    background: #4d5862;
+    padding: 1px;
   }
 </style>

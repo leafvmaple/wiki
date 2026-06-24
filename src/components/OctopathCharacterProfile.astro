@@ -38,7 +38,7 @@ const hasPrereq =
 const VER = '1.0.8';
 ---
 
-<article class="otc">
+<article class="otc not-content">
   <div class:list={['otc-stage', !portrait && 'is-empty']}>
     {portrait && (
       <div class="otc-stage-art" aria-hidden="true">
@@ -143,13 +143,8 @@ const VER = '1.0.8';
 </style>
 
 <style>
-  /* This component renders inside Starlight's .sl-markdown-content, which injects
-     prose margins (a `* + *` owl) onto every non-first child. That inflated the
-     HP/SP grid row (HP=first-child no margin, SP=second-child margined → shoved
-     down). We lay everything out with grid `gap`, so neutralize those margins. */
-  .otc :where(*) {
-    margin: 0;
-  }
+  /* `not-content` (on the <article>) opts this subtree out of Starlight's prose
+     "owl" margins — the proper escape hatch, so we don't fight injected margins. */
   .otc {
     display: grid;
     gap: 1.1rem;

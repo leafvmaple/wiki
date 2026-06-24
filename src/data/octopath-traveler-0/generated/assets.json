@@ -70,7 +70,13 @@
   "armor_head": "/assets/octopath-traveler-0/icons/items/armor_head.webp",
   "armor_body": "/assets/octopath-traveler-0/icons/items/armor_body.webp",
   "armor_shield": "/assets/octopath-traveler-0/icons/items/armor_shield.webp",
-  "accessory": "/assets/octopath-traveler-0/icons/items/accessory.webp"
+  "accessory": "/assets/octopath-traveler-0/icons/items/accessory.webp",
+  "element_fire": "/assets/octopath-traveler-0/icons/items/element_fire.webp",
+  "element_ice": "/assets/octopath-traveler-0/icons/items/element_ice.webp",
+  "element_lightning": "/assets/octopath-traveler-0/icons/items/element_lightning.webp",
+  "element_wind": "/assets/octopath-traveler-0/icons/items/element_wind.webp",
+  "element_light": "/assets/octopath-traveler-0/icons/items/element_light.webp",
+  "element_dark": "/assets/octopath-traveler-0/icons/items/element_dark.webp"
  },
  "hero": "/assets/octopath-traveler-0/hero/key-visual.webp"
 }

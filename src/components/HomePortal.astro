@@ -75,7 +75,7 @@ const totals = [
 ];
 ---
 
-<section class="home-portal-hero">
+<section class="home-portal-hero not-content">
   <div class="home-portal-copy">
     <p class="home-portal-kicker">wiki.leafvmaple.com</p>
     <h1>按游戏进入攻略、资料和工具</h1>
@@ -91,7 +91,7 @@ const totals = [
   </div>
 </section>
 
-<section class="home-game-list" aria-label="游戏入口">
+<section class="home-game-list not-content" aria-label="游戏入口">
   {games.map((game) => (
     <article class:list={['home-game-card', `is-${game.id}`]} style={game.image ? `--home-game-image: url("${game.image}")` : undefined}>
       <div class="home-game-head">
