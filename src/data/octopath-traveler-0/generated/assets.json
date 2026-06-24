@@ -1,5 +1,5 @@
 {
- "_note": "Published from data/Textures by gen_wiki_data.py. portraitsByUid[uid] / jobsById[jobId] / jobsByName[职业名] / itemsByKey[icon key].",
+ "_note": "Published from data/Textures by gen_wiki_data.py. portraitsByUid[uid] / jobsById[jobId] / jobsByName[职业名] / itemsByKey[icon key] / hero.",
  "portraitsByUid": {
   "900900": "/assets/octopath-traveler-0/icons/portraits/900900.webp",
   "910101": "/assets/octopath-traveler-0/icons/portraits/910101.webp",
@@ -71,5 +71,6 @@
   "armor_body": "/assets/octopath-traveler-0/icons/items/armor_body.webp",
   "armor_shield": "/assets/octopath-traveler-0/icons/items/armor_shield.webp",
   "accessory": "/assets/octopath-traveler-0/icons/items/accessory.webp"
- }
+ },
+ "hero": "/assets/octopath-traveler-0/hero/key-visual.webp"
 }

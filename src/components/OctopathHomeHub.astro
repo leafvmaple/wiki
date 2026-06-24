@@ -2,8 +2,11 @@
 import summary from '../data/octopath-traveler-0/generated/summary.json';
 import charactersData from '../data/octopath-traveler-0/generated/characters.json';
 import questsData from '../data/octopath-traveler-0/generated/quests.json';
+import assets from '../data/octopath-traveler-0/generated/assets.json';
 import OctopathIcon from './OctopathIcon.astro';
 import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
+
+const hero = (assets as any).hero as string | undefined;
 
 const c = summary.counts;
 const allQuests = questsData as any[];
@@ -46,7 +49,7 @@ const directory = [
 ];
 ---
 
-<section class="ot-hero">
+<section class:list={['ot-hero', hero && 'has-art']} style={hero ? `--ot-hero-img: url("${hero}")` : undefined}>
   <div class="ot-hero-title">
     <p class="ot-hero-kicker">数据攻略资料库</p>
     <h1>歧路旅人 0</h1>
@@ -111,6 +114,15 @@ const directory = [
     box-shadow: var(--leaf-shadow-card);
     margin: 1rem 0 1.5rem;
     padding: 1.6rem 1.4rem;
+    position: relative;
+  }
+  /* with real key art: the visual is the background, a scrim keeps text legible */
+  .ot-hero.has-art {
+    border-color: color-mix(in srgb, var(--leaf-primary) 18%, var(--leaf-border));
+    overflow: hidden;
+    background:
+      linear-gradient(102deg, rgba(8, 13, 22, 0.94) 0%, rgba(8, 13, 22, 0.78) 34%, rgba(8, 13, 22, 0.4) 64%, rgba(8, 13, 22, 0.66) 100%),
+      var(--ot-hero-img) center 28% / cover;
   }
   .ot-hero-kicker {
     color: var(--leaf-primary-hover);
@@ -122,6 +134,9 @@ const directory = [
   }
   .ot-hero h1 { margin: 0.25rem 0 0.5rem; }
   .ot-hero-title p { color: var(--leaf-text); margin: 0; max-width: 42rem; }
+  .ot-hero.has-art .ot-hero-kicker { color: #8fd0f2; }
+  .ot-hero.has-art h1 { color: #fff; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6); }
+  .ot-hero.has-art .ot-hero-title p { color: rgba(255, 255, 255, 0.92); }
   .ot-hero-stats {
     display: flex;
     flex-wrap: wrap;
@@ -129,6 +144,18 @@ const directory = [
     margin-top: 1.1rem;
   }
   .ot-hero-stats span { color: var(--leaf-text-muted); font-size: 0.9rem; }
+  .ot-hero.has-art .ot-hero-stats {
+    gap: 0.7rem;
+  }
+  .ot-hero.has-art .ot-hero-stats span {
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(8, 13, 22, 0.4);
+    color: rgba(255, 255, 255, 0.82);
+    padding: 0.5rem 0.8rem;
+  }
+  .ot-hero.has-art .ot-hero-stats strong { color: #fff; }
   .ot-hero-stats strong {
     color: var(--leaf-heading);
     display: block;
