@@ -4,6 +4,7 @@ import crops from '../data/stardew-valley/generated/crops.json';
 import fish from '../data/stardew-valley/generated/fish.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import { displayGiftItems } from './stardewGiftLabels';
 
 type Row = Record<string, any>;
 
@@ -145,9 +146,10 @@ const formatTimeRanges = (ranges?: Row[]) =>
 const formatRegrow = (days?: number) => (days && days > 0 ? `再生 ${days} 天` : '一次性收获');
 
 const firstItems = (items?: string[], limit = 3) => {
-  const all = unique(items ?? []);
+  const all = displayGiftItems(items);
   const visible = all.slice(0, limit);
   const more = all.length - visible.length;
+  if (!visible.length) return '';
   return `${visible.join('、')}${more > 0 ? ` 等 ${all.length} 项` : ''}`;
 };
 
@@ -480,13 +482,27 @@ for (const villager of villagers as Row[]) {
     sections: [
       {
         title: '礼物摘要',
-        list: unique([
-          villager.giftCounts
-            ? `最爱 ${villager.giftCounts.love} / 喜欢 ${villager.giftCounts.like} / 中立 ${villager.giftCounts.neutral} / 不喜欢 ${villager.giftCounts.dislike} / 讨厌 ${villager.giftCounts.hate}`
-            : '',
-          villager.lovedItems?.length ? `最爱示例：${firstItems(villager.lovedItems, 8)}` : '',
-          villager.likedItems?.length ? `喜欢示例：${firstItems(villager.likedItems, 8)}` : '',
-        ]),
+        table: {
+          columns: ['偏好', '数量', '示例'],
+          rows: [
+            ['最爱', `${villager.giftCounts?.love ?? 0}`, firstItems(villager.lovedItems, 8) || '-'],
+            ['喜欢', `${villager.giftCounts?.like ?? 0}`, firstItems(villager.likedItems, 8) || '-'],
+            ['中立', `${villager.giftCounts?.neutral ?? 0}`, firstItems(villager.neutralItems, 8) || '-'],
+            ['不喜欢', `${villager.giftCounts?.dislike ?? 0}`, firstItems(villager.dislikedItems, 8) || '-'],
+            ['讨厌', `${villager.giftCounts?.hate ?? 0}`, firstItems(villager.hatedItems, 8) || '-'],
+          ],
+        },
+      },
+      {
+        title: '人际关系',
+        list: unique(villager.familyIds ?? []).length ? unique(villager.familyIds ?? []) : ['当前数据中没有收录家庭或关系条目。'],
+      },
+      {
+        title: '日程与事件',
+        list: [
+          villager.homeLocation ? `常驻位置：${villager.homeLocation}` : '常驻位置未收录。',
+          '逐日路线、雨天日程、节日日程、好感度事件和对白还没有接入生成数据。',
+        ],
       },
     ],
     links: [{ label: '村民索引', href: '/games/stardew-valley/villagers/' }],

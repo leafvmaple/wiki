@@ -3,6 +3,9 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://wiki.leafvmaple.com',
+  redirects: {
+    '/games': '/',
+  },
   integrations: [
     starlight({
       title: '枫百科',
@@ -41,7 +44,6 @@ export default defineConfig({
           label: '开始',
           items: [
             { label: '首页', link: '/' },
-            { label: '游戏目录', link: '/games/' },
           ],
         },
         {
@@ -49,36 +51,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: '游戏总览', link: '/games/octopath-traveler-0/' },
-            {
-              label: '任务线总览',
-              collapsed: true,
-              items: [
-                { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
-                {
-                  label: '主线 · 序章与圣火',
-                  collapsed: true,
-                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/flame' } }],
-                },
-                {
-                  label: '主线 · 极与宝物',
-                  collapsed: true,
-                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/treasure' } }],
-                },
-                {
-                  label: '伙伴招募',
-                  collapsed: true,
-                  items: [{ autogenerate: { directory: 'games/octopath-traveler-0/quests/recruit' } }],
-                },
-              ],
-            },
-            {
-              label: '全部角色',
-              collapsed: true,
-              items: [
-                { label: '全部角色', link: '/games/octopath-traveler-0/characters/' },
-                { autogenerate: { directory: 'games/octopath-traveler-0/characters' } },
-              ],
-            },
+            { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
+            { label: '角色一览', link: '/games/octopath-traveler-0/characters/' },
           ],
         },
         {

@@ -4,6 +4,7 @@ import fish from '../data/stardew-valley/generated/fish.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import { displayGiftItems } from '../lib/stardewGiftLabels';
 import StardewIcon from './StardewIcon.astro';
 import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
@@ -79,6 +80,7 @@ const formatGiftCounts = (villager: DataRow) => {
 };
 
 const iconList = (items?: string[], kind = 'item') => items?.filter(Boolean).slice(0, 6).map((item) => ({ label: item, kind })) ?? [];
+const giftIconList = (items?: string[]) => displayGiftItems(items).slice(0, 6).map((item) => ({ label: item, kind: 'item' }));
 
 const cropRows = sliceRows(crops as DataRow[]);
 const fishRows = sliceRows(fish as DataRow[]);
@@ -173,7 +175,7 @@ const shopRows = sliceRows(shops as DataRow[]);
           <td>{formatGiftCounts(villager)}</td>
           <td>
             <span class="sv-mini-list">
-              {iconList(villager.lovedItems).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
+              {giftIconList(villager.lovedItems).map((item) => <StardewIcon kind={item.kind} label={item.label} compact />)}
             </span>
           </td>
         </tr>

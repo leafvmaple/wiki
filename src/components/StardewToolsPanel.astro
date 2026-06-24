@@ -4,6 +4,7 @@ import fish from '../data/stardew-valley/generated/fish.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
 import bundles from '../data/stardew-valley/generated/bundles.json';
 import machines from '../data/stardew-valley/generated/machines.json';
+import { displayGiftItems, joinGiftLabels } from '../lib/stardewGiftLabels';
 import StardewIcon from './StardewIcon.astro';
 import StardewEntityTooltip from './StardewEntityTooltip.astro';
 
@@ -52,7 +53,7 @@ const qualityLabels: Record<string, string> = {
   '3': '铱星',
 };
 
-const joinList = (items?: string[], fallback = '-') => (items?.length ? items.join('、') : fallback);
+const joinList = (items?: string[], fallback = '-') => joinGiftLabels(items, fallback);
 const formatSeasons = (items?: string[]) => (items?.length ? items.map((item) => seasonLabels[item] ?? item).join('、') : '-');
 const formatRanges = (ranges?: TimeRange[]) => ranges?.map((range) => `${range.start}-${range.end}`).join('|') ?? '';
 const formatTime = (value: number) => {
@@ -250,14 +251,14 @@ const formatOutputNote = (rule: DataRow) =>
             <td>{villager.canBeRomanced ? '是' : '否'}</td>
             <td>
               <span class="sv-tool-chip-list">
-                {((villager.lovedItems ?? []) as string[])
+                {displayGiftItems(villager.lovedItems as string[])
                   .slice(0, 6)
                   .map((item: string) => <StardewIcon kind="item" label={item} compact />)}
               </span>
             </td>
             <td>
               <span class="sv-tool-chip-list">
-                {((villager.likedItems ?? []) as string[])
+                {displayGiftItems(villager.likedItems as string[])
                   .slice(0, 6)
                   .map((item: string) => <StardewIcon kind="item" label={item} compact />)}
               </span>
@@ -449,6 +450,26 @@ const formatOutputNote = (rule: DataRow) =>
         .filter(Boolean)
         .map((range) => range.split('-').map(Number));
     const toNumber = (input) => Number(input.value || 0);
+    const cropSeasonOrder = ['Spring', 'Summer', 'Fall', 'Winter'];
+    const countContinuousCropSeasons = (seasons, season) => {
+      const allowed = new Set(seasons);
+      if (!allowed.has(season)) return 0;
+
+      const startIndex = cropSeasonOrder.indexOf(season);
+      let count = 1;
+      while (
+        count < cropSeasonOrder.length &&
+        allowed.has(cropSeasonOrder[(startIndex + count) % cropSeasonOrder.length])
+      ) {
+        count += 1;
+      }
+      return count;
+    };
+    const formatCropLastDay = (lastDay) => {
+      if (lastDay < 1) return '来不及';
+      if (lastDay > 28) return '28（跨季）';
+      return String(lastDay);
+    };
     const formatSignedGold = (value) => {
       if (!Number.isFinite(value)) return '-';
       const rounded = Math.round(value);
@@ -493,16 +514,17 @@ const formatOutputNote = (rule: DataRow) =>
         const regrowDays = Number(row.dataset.regrowDays);
         const seedPrice = Number(row.dataset.seedPrice);
         const harvestValue = Number(row.dataset.harvestValue);
-        const lastDay = 28 - growDays;
-        const firstHarvest = day + growDays;
+        const seasonWindow = countContinuousCropSeasons(seasons, season);
+        const availableDays = seasonWindow > 0 ? 28 * seasonWindow - day : 0;
+        const lastDay = 28 * seasonWindow - growDays;
         const harvests =
-          firstHarvest > 28 ? 0 : 1 + (regrowDays > 0 ? Math.floor((28 - firstHarvest) / regrowDays) : 0);
+          growDays > availableDays ? 0 : 1 + (regrowDays > 0 ? Math.floor((availableDays - growDays) / regrowDays) : 0);
         const profit = harvests > 0 ? harvests * harvestValue - seedPrice : 0;
         const visible = seasons.includes(season);
         row.hidden = !visible;
-        row.querySelector('[data-crop-last]').textContent = lastDay >= 1 ? String(lastDay) : '来不及';
+        row.querySelector('[data-crop-last]').textContent = formatCropLastDay(lastDay);
         row.querySelector('[data-crop-harvests]').textContent = harvests > 0 ? `${harvests} 次` : '来不及';
-        row.querySelector('[data-crop-profit]').textContent = harvests > 0 ? String(Math.round(profit)) : '-';
+        row.querySelector('[data-crop-profit]').textContent = harvests > 0 ? formatSignedGold(profit) : '-';
         if (visible) count += 1;
       }
       root.querySelector('[data-crop-count]').textContent = String(count);

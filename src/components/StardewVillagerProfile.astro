@@ -1,0 +1,533 @@
+---
+import villagers from '../data/stardew-valley/generated/villagers.json';
+import type { StardewEntityPage } from '../lib/stardewEntities';
+import { displayGiftItems } from '../lib/stardewGiftLabels';
+import StardewIcon from './StardewIcon.astro';
+
+type Row = Record<string, any>;
+
+const { entity } = Astro.props as { entity: StardewEntityPage };
+const villager = (villagers as Row[]).find((item) => item.id === entity.id) ?? {};
+
+const seasonLabels: Record<string, string> = {
+  Spring: '春',
+  Summer: '夏',
+  Fall: '秋',
+  Winter: '冬',
+};
+
+const genderLabels: Record<string, string> = {
+  Male: '男性',
+  Female: '女性',
+  Undefined: '未标注',
+};
+
+const ageLabels: Record<string, string> = {
+  Adult: '成人',
+  Teen: '青少年',
+  Child: '儿童',
+};
+
+const yesNo = (value?: boolean) => (value ? '是' : '否');
+const cleanItems = (items?: string[]) => (items ?? []).map((item) => String(item).trim()).filter(Boolean);
+const firstGiftItems = (items?: string[], limit = 3) => displayGiftItems(items).slice(0, limit).join('、');
+const formatBirthday = () =>
+  villager.birthSeason && villager.birthDay ? `${seasonLabels[villager.birthSeason] ?? villager.birthSeason} ${villager.birthDay} 日` : '-';
+const formatHome = () => {
+  if (!villager.homeLocation) return '-';
+  if (!villager.homeTile) return villager.homeLocation;
+  return `${villager.homeLocation}（${villager.homeTile.x}, ${villager.homeTile.y}）`;
+};
+const giftCounts = villager.giftCounts ?? {};
+const giftGroups = [
+  { label: '最爱', key: 'love', items: displayGiftItems(villager.lovedItems), tone: 'love', note: '优先准备，生日当天收益最高' },
+  { label: '喜欢', key: 'like', items: displayGiftItems(villager.likedItems), tone: 'like', note: '日常送礼的稳定选择' },
+  { label: '中立', key: 'neutral', items: displayGiftItems(villager.neutralItems), tone: 'neutral', note: '可送，但不推荐优先使用' },
+  { label: '不喜欢', key: 'dislike', items: displayGiftItems(villager.dislikedItems), tone: 'dislike', note: '避免误送' },
+  { label: '讨厌', key: 'hate', items: displayGiftItems(villager.hatedItems), tone: 'hate', note: '不要送' },
+];
+
+const profileRows = [
+  ['英文名 / ID', entity.id],
+  ['生日', formatBirthday()],
+  ['住址 / 常驻', formatHome()],
+  ['区域', villager.homeRegion ?? '-'],
+  ['性别', genderLabels[villager.gender] ?? villager.gender ?? '-'],
+  ['年龄', ageLabels[villager.age] ?? villager.age ?? '-'],
+  ['可结婚', yesNo(villager.canBeRomanced)],
+  ['可送礼', yesNo(villager.canReceiveGifts)],
+];
+
+const relationshipItems = cleanItems(villager.familyIds);
+const quickFacts = [
+  {
+    label: '生日',
+    value: formatBirthday(),
+    note: giftCounts.love ? `生日优先送最爱礼物，当前收录 ${giftCounts.love} 项。` : '生日当天送礼收益最高。',
+  },
+  {
+    label: '最爱示例',
+    value: firstGiftItems(villager.lovedItems, 2) || '待补齐',
+    note: '用于快速规划背包和礼物储备。',
+  },
+  {
+    label: '喜欢示例',
+    value: firstGiftItems(villager.likedItems, 2) || '待补齐',
+    note: giftCounts.like ? `喜欢礼物共 ${giftCounts.like} 项，适合日常好感。` : '日常礼物示例待补齐。',
+  },
+  {
+    label: '关系状态',
+    value: villager.canBeRomanced ? '可结婚' : '不可结婚',
+    note: relationshipItems.length ? `已收录 ${relationshipItems.length} 条关系。` : '关系条目等待后续资料接入。',
+  },
+];
+---
+
+<article class="sv-villager-profile">
+  <section class="sv-villager-hero">
+    <div class="sv-villager-copy">
+      <p class="sv-villager-kicker">{entity.kicker}</p>
+      <h2>{entity.title}</h2>
+      <p>
+        {formatBirthday()}生日，常驻于{villager.homeLocation ?? '未收录地点'}。{villager.canBeRomanced ? '这是可结婚角色，适合优先追踪生日、最爱礼物与好感事件。' : '这是不可结婚居民，适合用于生日送礼、任务和日常互动查询。'}
+      </p>
+      <div class="sv-villager-badges" aria-label="角色标签">
+        <span>{villager.canBeRomanced ? '可结婚' : '不可结婚'}</span>
+        <span>{villager.canReceiveGifts ? '可送礼' : '不可送礼'}</span>
+        <span>{villager.homeRegion ?? '区域未收录'}</span>
+      </div>
+      <div class="sv-villager-quick" aria-label="攻略速览">
+        {quickFacts.map((fact) => (
+          <div>
+            <span>{fact.label}</span>
+            <strong>{fact.value}</strong>
+            <p>{fact.note}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <aside class="sv-villager-card" aria-label="角色信息卡">
+      <div class="sv-villager-portrait">
+        {entity.imageSrc ? <img src={entity.imageSrc} alt="" loading="lazy" decoding="async" /> : entity.title.slice(0, 1)}
+      </div>
+      <strong>{entity.title}</strong>
+      <span>{entity.id}</span>
+      <dl>
+        {profileRows.map(([label, value]) => (
+          <>
+            <dt>{label}</dt>
+            <dd>{value}</dd>
+          </>
+        ))}
+      </dl>
+    </aside>
+  </section>
+
+  <section class="sv-villager-panel">
+    <div class="sv-villager-section-head">
+      <p>送礼</p>
+      <h2>送礼偏好</h2>
+    </div>
+    <div class="sv-gift-grid">
+      {giftGroups.map((group) => (
+        <section class:list={['sv-gift-card', `is-${group.tone}`]}>
+          <div class="sv-gift-card-head">
+            <h3>{group.label}</h3>
+            <span>{giftCounts[group.key] ?? 0} 项</span>
+          </div>
+          {group.items.length > 0 ? (
+            <div class="sv-gift-items">
+              {group.items.map((item) => <StardewIcon kind="item" label={item} compact />)}
+            </div>
+          ) : (
+            <p class="sv-villager-muted">{giftCounts[group.key] ? '当前只有通用分类规则，具体示例待补齐。' : '暂无可展示示例。'}</p>
+          )}
+          <small>{group.note}</small>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section class="sv-villager-split">
+    <div class="sv-villager-panel">
+      <div class="sv-villager-section-head">
+        <p>日程</p>
+        <h2>日程线索</h2>
+      </div>
+      <div class="sv-villager-route">
+        <span>常驻位置</span>
+        <strong>{formatHome()}</strong>
+        <p>当前数据源已收录常驻地点和室内坐标，逐日路线、雨天、节日和婚后日程还没有接入。</p>
+      </div>
+      <div class="sv-villager-route">
+        <span>送礼节奏</span>
+        <strong>每日 1 次 / 每周 2 次</strong>
+        <p>生日当天优先送最爱礼物；需要避开“不喜欢”和“讨厌”礼物。</p>
+      </div>
+    </div>
+
+    <div class="sv-villager-panel">
+      <div class="sv-villager-section-head">
+        <p>社交</p>
+        <h2>人际关系</h2>
+      </div>
+      {relationshipItems.length > 0 ? (
+        <div class="sv-villager-relations">
+          {relationshipItems.map((item) => <StardewIcon kind="npc" label={item} compact />)}
+        </div>
+      ) : (
+        <p class="sv-villager-muted">当前数据中没有收录家庭或关系条目。</p>
+      )}
+      <div class="sv-villager-links">
+        {entity.links.map((link) => <a href={link.href}>{link.label}</a>)}
+        <a href="/games/stardew-valley/tools/">礼物快查</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<style>
+  .sv-villager-profile {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .sv-villager-hero {
+    align-items: start;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 14%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--leaf-primary) 5%, var(--leaf-bg-card)), var(--leaf-bg-card) 46%),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card), inset 0 1px 0 rgba(255, 255, 255, 0.24);
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: minmax(0, 1.35fr) minmax(15rem, 18rem);
+    overflow: hidden;
+    padding: 0.9rem;
+  }
+
+  :root[data-theme='dark'] .sv-villager-hero {
+    border-color: color-mix(in srgb, var(--leaf-primary) 10%, var(--leaf-border));
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .sv-villager-copy {
+    align-content: start;
+    display: grid;
+    gap: 0.7rem;
+    min-width: 0;
+  }
+
+  .sv-villager-kicker,
+  .sv-villager-section-head p {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin: 0;
+  }
+
+  .sv-villager-copy h2 {
+    color: var(--leaf-heading);
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .sv-villager-copy p:last-of-type {
+    color: var(--leaf-text);
+    font-size: 1rem;
+    margin: 0;
+    max-width: 42rem;
+  }
+
+  .sv-villager-badges,
+  .sv-villager-links,
+  .sv-villager-relations,
+  .sv-gift-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .sv-villager-badges {
+    margin-top: 0.1rem;
+  }
+
+  .sv-villager-badges span,
+  .sv-villager-links a {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 32%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-primary) 10%, var(--leaf-bg-card));
+    color: var(--leaf-heading);
+    font-size: 0.82rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.36rem 0.55rem;
+    text-decoration: none;
+  }
+
+  .sv-villager-card {
+    align-self: start;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-bg-card) 88%, white);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.35rem;
+    justify-items: center;
+    padding: 0.85rem;
+  }
+
+  .sv-villager-quick {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sv-villager-quick div {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 18%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-bg-card) 78%, rgba(255, 255, 255, 0.38));
+    min-width: 0;
+    padding: 0.55rem 0.6rem;
+  }
+
+  :root[data-theme='dark'] .sv-villager-quick div {
+    background: color-mix(in srgb, var(--leaf-bg-card) 88%, #111827);
+  }
+
+  .sv-villager-quick span {
+    color: var(--leaf-primary-hover);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.22rem;
+  }
+
+  .sv-villager-quick strong {
+    color: var(--leaf-heading);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+
+  .sv-villager-quick p {
+    color: var(--leaf-text-muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0.32rem 0 0;
+  }
+
+  :root[data-theme='dark'] .sv-villager-card {
+    border-color: rgba(255, 255, 255, 0.08);
+    background: color-mix(in srgb, var(--leaf-bg-card) 88%, #111827);
+  }
+
+  .sv-villager-portrait {
+    align-items: center;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 28%, var(--leaf-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 8%, var(--leaf-bg-card));
+    display: inline-flex;
+    height: 5.4rem;
+    justify-content: center;
+    padding: 0.45rem;
+    width: 5.4rem;
+  }
+
+  .sv-villager-portrait img {
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .sv-villager-card strong {
+    color: var(--leaf-heading);
+    font-size: 1.28rem;
+  }
+
+  .sv-villager-card > span {
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+
+  .sv-villager-card dl {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    margin: 0.55rem 0 0;
+    width: 100%;
+  }
+
+  .sv-villager-card dt,
+  .sv-villager-card dd {
+    border-top: 1px solid var(--leaf-border);
+    margin: 0;
+    padding: 0.42rem 0;
+  }
+
+  .sv-villager-card dt {
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+
+  .sv-villager-card dd {
+    color: var(--leaf-text);
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .sv-villager-panel,
+  .sv-gift-card,
+  .sv-villager-route {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+  }
+
+  .sv-villager-panel {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0.9rem;
+  }
+
+  .sv-villager-section-head h2 {
+    color: var(--leaf-heading);
+    font-size: 1.2rem;
+    margin: 0.1rem 0 0;
+  }
+
+  .sv-gift-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
+
+  .sv-gift-card {
+    display: grid;
+    gap: 0.55rem;
+    padding: 0.75rem;
+  }
+
+  .sv-gift-card-head {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .sv-gift-card h3 {
+    color: var(--leaf-heading);
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .sv-gift-card-head span,
+  .sv-gift-card small,
+  .sv-villager-muted {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+
+  .sv-gift-card.is-love {
+    border-color: color-mix(in srgb, #e15f41 40%, var(--leaf-border));
+  }
+
+  .sv-gift-card.is-like {
+    border-color: color-mix(in srgb, var(--leaf-accent-green) 40%, var(--leaf-border));
+  }
+
+  .sv-gift-card.is-hate {
+    border-color: color-mix(in srgb, #7d8d94 40%, var(--leaf-border));
+  }
+
+  .sv-villager-split {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.82fr);
+  }
+
+  .sv-villager-route {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.7rem;
+  }
+
+  .sv-villager-route span {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+  }
+
+  .sv-villager-route strong {
+    color: var(--leaf-heading);
+  }
+
+  .sv-villager-route p,
+  .sv-villager-muted {
+    margin: 0;
+  }
+
+  .sv-villager-links {
+    margin-top: 0.2rem;
+  }
+
+  .sv-villager-links a:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 55%, var(--leaf-border));
+    color: var(--leaf-primary-hover);
+  }
+
+  @media (max-width: 54rem) {
+    .sv-villager-hero,
+    .sv-villager-split {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .sv-villager-hero,
+    .sv-villager-panel {
+      padding: 0.8rem;
+    }
+
+    .sv-villager-copy {
+      gap: 0.55rem;
+    }
+
+    .sv-villager-copy h2 {
+      font-size: 1.65rem;
+    }
+
+    .sv-villager-quick {
+      display: none;
+    }
+
+    .sv-villager-card {
+      padding: 0.7rem;
+    }
+
+    .sv-villager-portrait {
+      height: 4.75rem;
+      width: 4.75rem;
+    }
+
+    .sv-villager-card dt,
+    .sv-villager-card dd {
+      padding: 0.36rem 0;
+    }
+
+    .sv-villager-card dl {
+      grid-template-columns: minmax(4.8rem, 6rem) minmax(0, 1fr);
+    }
+  }
+</style>

@@ -1,49 +1,11 @@
 ---
 title: 枫百科
-description: 游戏攻略、机制资料、路线与长期维护内容的入口。
+description: 游戏攻略、资料索引和查询工具入口。
 tableOfContents: false
 sidebar:
   order: 1
 ---
 
-这里是 `wiki.leafvmaple.com` 的攻略与资料库。内容按游戏、系统、角色、地图、任务、版本等知识结构组织，不按博客时间线组织。
+import HomePortal from '../../components/HomePortal.astro';
 
-<div className="leaf-meta-row">
-  <span className="leaf-badge">独立 wiki</span>
-  <span className="leaf-badge">游戏攻略</span>
-  <span className="leaf-badge">wiki.leafvmaple.com</span>
-</div>
-
-## 快速入口
-
-<div className="leaf-compact-grid">
-  <a className="leaf-compact-card" href="/games/stardew-valley/">
-    <strong>星露谷物语</strong>
-    <p>进入数据驱动攻略试点：地图、工具、作物、鱼类和村民资料。</p>
-  </a>
-  <a className="leaf-compact-card" href="/games/octopath-traveler-0/">
-    <strong>歧路旅人 0</strong>
-    <p>进入当前维护中的游戏总览、任务线和招募资料。</p>
-  </a>
-  <a className="leaf-compact-card" href="/games/octopath-traveler-0/quests/">
-    <strong>任务线总览</strong>
-    <p>查看主线剧情、极与宝物章节、伙伴招募任务的索引。</p>
-  </a>
-  <a className="leaf-compact-card" href="/games/">
-    <strong>游戏目录</strong>
-    <p>按游戏进入攻略、机制、地图、物品和版本记录。</p>
-  </a>
-</div>
-
-## 内容原则
-
-| 原则 | 写作要求 |
-| --- | --- |
-| 先解决问题 | 标题直给，开头说明适用版本、阶段、角色或地图 |
-| 可维护 | 频繁变化的信息标注适用版本、最后验证日期和内容状态 |
-| 可检索 | 数值、材料、掉落、路线优先用表格或清单 |
-| 可怀疑 | 不确定的结论标为「待验证」，不要写成定论 |
-
-:::note[站点状态]
-当前维护《歧路旅人 0》的任务线攻略，并开始搭建《星露谷物语》的数据驱动攻略专区。
-:::
+<HomePortal />

@@ -5,6 +5,7 @@ import fish from '../data/stardew-valley/generated/fish.json';
 import machines from '../data/stardew-valley/generated/machines.json';
 import shops from '../data/stardew-valley/generated/shops.json';
 import villagers from '../data/stardew-valley/generated/villagers.json';
+import town from '../data/stardew-valley/generated/maps/town.json';
 import assets from '../data/stardew-valley/generated/assets.json';
 import StardewIcon from './StardewIcon.astro';
 import StardewEntityTooltip from './StardewEntityTooltip.astro';
@@ -97,7 +98,11 @@ const denseGroups: { title: string; items: LinkItem[] }[] = [
     <span><strong>{summary.counts.characters}</strong>角色</span>
     <span><strong>{summary.counts.shops}</strong>商店</span>
     <span><strong>{summary.counts.machines}</strong>机器</span>
-    <span><strong>{summary.counts.maps}</strong>地图</span>
+    <span>
+      <strong>1</strong>
+      地图试点
+      <small>{town.pointCount} 点位</small>
+    </span>
   </div>
 </section>
 
@@ -220,6 +225,12 @@ const denseGroups: { title: string; items: LinkItem[] }[] = [
     color: var(--leaf-heading);
     font-size: 1.45rem;
     line-height: 1;
+  }
+
+  .sv-home-stats small {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 700;
   }
 
   .sv-home-quick {

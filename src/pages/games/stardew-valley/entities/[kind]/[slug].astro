@@ -4,6 +4,7 @@ import {
   stardewEntityPages,
   type StardewEntityPage,
 } from '../../../../../lib/stardewEntities';
+import StardewVillagerProfile from '../../../../../components/StardewVillagerProfile.astro';
 
 export function getStaticPaths() {
   return stardewEntityPages.map((entity) => ({
@@ -22,6 +23,9 @@ const { entity } = Astro.props as { entity: StardewEntityPage };
     editUrl: false,
   }}
 >
+  {entity.routeKind === 'npcs' ? (
+    <StardewVillagerProfile entity={entity} />
+  ) : (
   <article class="sv-entity-page">
     <header class="sv-entity-header">
       <span class:list={['sv-entity-main-icon', `is-${entity.iconKind}`, entity.imageSrc && 'has-image']} aria-hidden="true">
@@ -90,6 +94,7 @@ const { entity } = Astro.props as { entity: StardewEntityPage };
       </section>
     ))}
   </article>
+  )}
 </StarlightPage>
 
 <style>

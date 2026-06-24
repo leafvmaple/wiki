@@ -1,0 +1,334 @@
+---
+import octopathSummary from '../data/octopath-traveler-0/generated/summary.json';
+import stardewSummary from '../data/stardew-valley/generated/summary.json';
+import stardewTown from '../data/stardew-valley/generated/maps/town.json';
+import stardewAssets from '../data/stardew-valley/generated/assets.json';
+import OctopathIcon from './OctopathIcon.astro';
+import StardewIcon from './StardewIcon.astro';
+
+const games = [
+  {
+    id: 'octopath',
+    title: '歧路旅人 0',
+    href: '/games/octopath-traveler-0/',
+    kicker: '主线 · 招募 · 角色',
+    status: '重点维护中',
+    summary: '从任务线、章节等级、伙伴招募和角色资料进入，适合查主线推进、前置任务与可招募伙伴。',
+    stats: [
+      { value: octopathSummary.counts.quests, label: '任务' },
+      { value: octopathSummary.counts.characters, label: '角色' },
+      { value: octopathSummary.counts.recruitChars, label: '可招募' },
+    ],
+    links: [
+      { label: '任务线总览', href: '/games/octopath-traveler-0/quests/', kind: 'quest' },
+      { label: '角色一览', href: '/games/octopath-traveler-0/characters/', kind: 'character' },
+      { label: '点燃圣火', href: '/games/octopath-traveler-0/quests/flame/', kind: 'main' },
+    ],
+  },
+  {
+    id: 'stardew',
+    title: '星露谷物语',
+    href: '/games/stardew-valley/',
+    kicker: '数据 · 地图 · 工具',
+    status: '数据试点',
+    summary: '把作物、鱼类、村民、商店、机器和地图点位做成快速索引，并提供播种、钓鱼和礼物查询工具。',
+    image: stardewAssets.hero.stardewValley,
+    stats: [
+      { value: stardewSummary.counts.crops, label: '作物' },
+      { value: stardewSummary.counts.fish, label: '鱼类' },
+      { value: stardewTown.pointCount, label: '点位' },
+    ],
+    links: [
+      { label: '攻略工具', href: '/games/stardew-valley/tools/', kind: 'tool' },
+      { label: '鹈鹕镇地图', href: '/games/stardew-valley/maps/town/', kind: 'map' },
+      { label: '村民索引', href: '/games/stardew-valley/villagers/', kind: 'npc' },
+    ],
+  },
+];
+
+const totals = [
+  { value: games.length, label: '游戏入口' },
+  { value: octopathSummary.counts.quests, label: '歧路任务' },
+  { value: stardewSummary.counts.objects, label: '星露条目' },
+];
+---
+
+<section class="home-portal-hero">
+  <div class="home-portal-copy">
+    <p class="home-portal-kicker">wiki.leafvmaple.com</p>
+    <h1>按游戏进入攻略、资料和工具</h1>
+    <p>这里保留真实可用的攻略入口：先选游戏，再进入任务线、角色、地图、物品、机制或查询工具。</p>
+  </div>
+  <div class="home-portal-stats" aria-label="站点概览">
+    {totals.map((item) => (
+      <span>
+        <strong>{item.value}</strong>
+        {item.label}
+      </span>
+    ))}
+  </div>
+</section>
+
+<section class="home-game-list" aria-label="游戏入口">
+  {games.map((game) => (
+    <article class:list={['home-game-card', `is-${game.id}`]} style={game.image ? `--home-game-image: url("${game.image}")` : undefined}>
+      <div class="home-game-head">
+        <span class="home-game-status">{game.status}</span>
+        <span class="home-game-kicker">{game.kicker}</span>
+      </div>
+      <a class="home-game-title" href={game.href}>
+        <span>{game.title}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+      <p>{game.summary}</p>
+      <div class="home-game-stats" aria-label={`${game.title} 数据概览`}>
+        {game.stats.map((item) => (
+          <span>
+            <strong>{item.value}</strong>
+            {item.label}
+          </span>
+        ))}
+      </div>
+      <div class="home-game-links" aria-label={`${game.title} 常用入口`}>
+        {game.links.map((link) => (
+          <a href={link.href}>
+            {game.id === 'stardew' ? (
+              <StardewIcon kind={link.kind} label={link.label} compact link={false} />
+            ) : (
+              <OctopathIcon kind={link.kind} label={link.label} compact />
+            )}
+          </a>
+        ))}
+      </div>
+    </article>
+  ))}
+</section>
+
+<style>
+  .home-portal-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, rgba(35, 183, 229, 0.16), rgba(39, 194, 76, 0.08)),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem);
+    margin: 0.75rem 0 1.1rem;
+    padding: 1.35rem;
+  }
+
+  .home-portal-kicker,
+  .home-game-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin: 0;
+  }
+
+  :global(body:has(.home-portal-hero) main > .content-panel:first-child) {
+    display: none;
+  }
+
+  :global(body:has(.home-portal-hero) main > .content-panel:nth-of-type(2)) {
+    padding-top: 1rem;
+  }
+
+  :global(body:has(.home-portal-hero) footer) {
+    display: none;
+  }
+
+  .home-portal-copy h1 {
+    color: var(--leaf-heading);
+    font-size: 1.8rem;
+    line-height: 1.15;
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .home-portal-copy p:last-child {
+    color: var(--leaf-text);
+    font-size: 1.02rem;
+    margin: 0;
+    max-width: 42rem;
+  }
+
+  .home-portal-stats,
+  .home-game-stats {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .home-portal-stats {
+    align-content: center;
+    grid-template-columns: 1fr;
+  }
+
+  .home-portal-stats span,
+  .home-game-stats span {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--leaf-text-muted);
+    display: grid;
+    gap: 0.1rem;
+    min-width: 0;
+    padding: 0.55rem 0.65rem;
+  }
+
+  :root[data-theme='dark'] .home-portal-stats span,
+  :root[data-theme='dark'] .home-game-stats span {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .home-portal-stats strong,
+  .home-game-stats strong {
+    color: var(--leaf-heading);
+    font-size: 1.35rem;
+    line-height: 1;
+  }
+
+  .home-game-list {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin: 1.1rem 0 0;
+  }
+
+  .home-game-card {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.8rem;
+    min-height: 20rem;
+    overflow: hidden;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .home-game-card::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.12), var(--leaf-bg-card) 82%),
+      var(--home-game-image, linear-gradient(135deg, rgba(35, 183, 229, 0.16), rgba(93, 78, 140, 0.14)));
+    background-position: center;
+    background-size: cover;
+    content: '';
+    height: 6.5rem;
+    inset: 0 0 auto;
+    opacity: 0.9;
+    position: absolute;
+  }
+
+  .home-game-card.is-octopath::before {
+    background:
+      linear-gradient(135deg, rgba(35, 183, 229, 0.2), rgba(39, 194, 76, 0.08)),
+      radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.55), transparent 22%),
+      linear-gradient(135deg, #2c3e50, #6f5cc4 55%, #b87938);
+  }
+
+  .home-game-card > * {
+    position: relative;
+  }
+
+  .home-game-head {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    min-height: 2rem;
+  }
+
+  .home-game-status {
+    border: 1px solid rgba(35, 183, 229, 0.38);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(255, 255, 255, 0.84);
+    color: #126f8d;
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.32rem 0.5rem;
+  }
+
+  :root[data-theme='dark'] .home-game-status {
+    background: rgba(17, 24, 39, 0.72);
+    color: #96e4f8;
+  }
+
+  .home-game-kicker {
+    color: rgba(255, 255, 255, 0.92);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+  }
+
+  .home-game-title {
+    align-items: center;
+    color: var(--leaf-heading);
+    display: flex;
+    font-size: 1.45rem;
+    font-weight: 800;
+    gap: 0.45rem;
+    justify-content: space-between;
+    line-height: 1.15;
+    margin-top: 2.2rem;
+    text-decoration: none;
+  }
+
+  .home-game-title:hover {
+    color: var(--leaf-primary-hover);
+  }
+
+  .home-game-card p {
+    color: var(--leaf-text);
+    margin: 0;
+  }
+
+  .home-game-links {
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+  }
+
+  .home-game-links a {
+    color: var(--leaf-text);
+    text-decoration: none;
+  }
+
+  .home-game-links a:hover {
+    color: var(--leaf-primary-hover);
+  }
+
+  @media (max-width: 50rem) {
+    .home-portal-hero {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home-portal-stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 34rem) {
+    .home-portal-hero,
+    .home-game-card {
+      padding: 0.9rem;
+    }
+
+    .home-portal-copy h1 {
+      font-size: 1.5rem;
+    }
+
+    .home-game-list {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home-game-stats,
+    .home-portal-stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

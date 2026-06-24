@@ -161,6 +161,28 @@ const itemTagLabels = {
   toy_item: '玩具',
 };
 
+const objectCategoryLabels = {
+  '-2': '宝石类',
+  '-4': '鱼类',
+  '-5': '蛋类',
+  '-6': '奶类',
+  '-7': '料理',
+  '-12': '矿物类',
+  '-14': '肉类',
+  '-15': '资源类',
+  '-20': '垃圾类',
+  '-21': '鱼饵类',
+  '-22': '钓具类',
+  '-26': '工匠品',
+  '-27': '糖浆类',
+  '-28': '怪物战利品',
+  '-74': '种子类',
+  '-75': '蔬菜类',
+  '-79': '水果类',
+  '-80': '花卉类',
+  '-81': '采集物',
+};
+
 const flavoredItemLabels = {
   AgedRoe: '陈年鱼籽',
   Bait: '鱼饵',
@@ -231,7 +253,7 @@ const itemLabel = (value, objects, objectStrings, bigCraftables, bigCraftableStr
   const parsed = parseQualifiedId(text);
   if (!parsed) return null;
   if (parsed.id === 'DROP_IN') return '按输入变化';
-  if (parsed.id.startsWith('-')) return `分类 ${parsed.id}`;
+  if (parsed.id.startsWith('-')) return objectCategoryLabels[parsed.id] ?? null;
   if (itemTagLabels[parsed.id]) return itemTagLabels[parsed.id];
 
   if (!parsed.type) {
@@ -648,6 +670,9 @@ const buildVillagers = (characters, npcNames, giftTastes, objects, objectStrings
         },
         lovedItems: labelGiftItems(gifts.love),
         likedItems: labelGiftItems(gifts.like),
+        neutralItems: labelGiftItems(gifts.neutral),
+        dislikedItems: labelGiftItems(gifts.dislike),
+        hatedItems: labelGiftItems(gifts.hate),
       };
     })
     .sort((a, b) => {

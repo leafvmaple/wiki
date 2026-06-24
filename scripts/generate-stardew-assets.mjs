@@ -4,10 +4,16 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const inputArg = process.argv[2] || process.env.STARDEW_LOCAL_DATA_DIR || 'D:\\Code\\stardew-godot';
+const inputArg = process.argv[2] || process.env.STARDEW_LOCAL_DATA_DIR;
 const generatedRoot = path.join(repoRoot, 'src', 'data', 'stardew-valley', 'generated');
 const publicRoot = path.join(repoRoot, 'public', 'assets', 'stardew-valley');
 const publicPrefix = '/assets/stardew-valley';
+
+if (!inputArg) {
+  console.error('Usage: npm run generate:stardew-assets -- <local-data-dir>');
+  console.error('Or set STARDEW_LOCAL_DATA_DIR to a local directory with Data, Maps, and texture folders.');
+  process.exit(1);
+}
 
 const pathExists = async (target) => {
   try {
