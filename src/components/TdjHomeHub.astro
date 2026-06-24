@@ -1,0 +1,328 @@
+﻿---
+import summary from '../data/sword-man/generated/summary.json';
+import battles from '../data/sword-man/generated/battles.json';
+import camps from '../data/sword-man/generated/camps.json';
+
+const { counts, battleStats, assets } = summary;
+const firstBattles = battles.slice(0, 4);
+const featureCamps = camps.filter((camp) => camp.imagePath).slice(2, 6);
+const featuredCampImages = assets.featuredCamps as string[];
+
+const statCards = [
+  { value: counts.characters, label: '角色', detail: '接入成长与习得技能' },
+  { value: counts.skills, label: '技能', detail: `${counts.magicSkills} 法术 / ${counts.physicalSkills} 特技` },
+  { value: counts.monsters, label: '单位', detail: '含敌人与战场单位' },
+  { value: counts.battles, label: '关卡', detail: `最大敌方 ${battleStats.maxEnemyCount} 名` },
+];
+
+const entries = [
+  { label: '角色资料', href: '/games/sword-man/characters/', meta: '成长、装备、习得技能' },
+  { label: '技能法术', href: '/games/sword-man/skills/', meta: '消耗、范围、属性、说明' },
+  { label: '怪物图鉴', href: '/games/sword-man/monsters/', meta: '等级、HP、攻防、成长' },
+  { label: '关卡资料', href: '/games/sword-man/battles/', meta: '出战、敌人、地图规模' },
+  { label: '营地资料', href: '/games/sword-man/camps/', meta: '营地资源与首帧预览' },
+  { label: '数据说明', href: '/games/sword-man/data-notes/', meta: '来源、字段与同步方式' },
+];
+---
+
+<section class="tdj-hub" aria-label="天地劫资料入口">
+  <div class="tdj-hero">
+    <div class="tdj-hero-copy">
+      <p class="tdj-kicker">资料来自 tdj-godot 本地工程</p>
+      <h2>天地劫·神魔至尊传资料库</h2>
+      <p>围绕角色成长、技能法术、怪物单位、关卡布阵和营地资源整理成可检索的 wiki 分区。</p>
+      <div class="tdj-actions">
+        <a href="/games/sword-man/characters/">查角色</a>
+        <a href="/games/sword-man/battles/">看关卡</a>
+        <a href="/games/sword-man/skills/">翻技能</a>
+      </div>
+    </div>
+    <div class="tdj-visuals" aria-label="游戏资源预览">
+      {assets.showcase && <img class="tdj-showcase-image" src={assets.showcase} alt="天地劫战斗剧情画面预览" loading="lazy" />}
+      <div class="tdj-preview-strip">
+        {featuredCampImages.map((imagePath: string) => (
+          <img src={imagePath} alt="营地资源预览" loading="lazy" />
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="tdj-stat-grid" aria-label="数据规模">
+    {statCards.map((item) => (
+      <span>
+        <strong>{item.value}</strong>
+        <em>{item.label}</em>
+        <small>{item.detail}</small>
+      </span>
+    ))}
+  </div>
+
+  <div class="tdj-entry-grid" aria-label="常用入口">
+    {entries.map((entry) => (
+      <a href={entry.href}>
+        <span>{entry.label}</span>
+        <small>{entry.meta}</small>
+      </a>
+    ))}
+  </div>
+
+  <section class="tdj-split">
+    <div>
+      <h3>关卡速览</h3>
+      <div class="tdj-battle-list">
+        {firstBattles.map((battle) => (
+          <a href="/games/sword-man/battles/">
+            <strong>{battle.id}</strong>
+            <span>{battle.map.width} × {battle.map.height} / 敌方 {battle.enemyCount}</span>
+            <small>{battle.enemyNames.join('、') || '敌方待整理'}</small>
+          </a>
+        ))}
+      </div>
+    </div>
+    <div>
+      <h3>营地资源</h3>
+      <div class="tdj-camp-strip">
+        {featureCamps.map((camp) => (
+          <a href="/games/sword-man/camps/" title={`camp${String(camp.id).padStart(2, '0')}`}>
+            <img src={camp.imagePath} alt={`营地 ${camp.id} 首帧`} loading="lazy" />
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</section>
+
+<style>
+  .tdj-hub {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  .tdj-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, rgba(35, 183, 229, 0.13), rgba(255, 255, 255, 0.02)),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 0.95fr) minmax(17rem, 0.82fr);
+    overflow: hidden;
+    padding: 1.1rem;
+  }
+
+  .tdj-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .tdj-hero h2 {
+    color: var(--leaf-heading);
+    font-size: 1.72rem;
+    line-height: 1.16;
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .tdj-hero p:last-of-type {
+    color: var(--leaf-text);
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .tdj-actions,
+  .tdj-entry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+  }
+
+  .tdj-actions a,
+  .tdj-entry-grid a {
+    border: 1px solid rgba(35, 183, 229, 0.34);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-primary-hover);
+    font-weight: 800;
+    line-height: 1.15;
+    text-decoration: none;
+  }
+
+  .tdj-actions a {
+    background: rgba(35, 183, 229, 0.09);
+    padding: 0.45rem 0.7rem;
+  }
+
+  .tdj-actions a:hover,
+  .tdj-entry-grid a:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary);
+  }
+
+  .tdj-visuals {
+    display: grid;
+    gap: 0.65rem;
+    min-width: 0;
+  }
+
+  .tdj-visuals img {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(0, 0, 0, 0.22);
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .tdj-showcase-image {
+    aspect-ratio: 4 / 3;
+  }
+
+  .tdj-preview-strip {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .tdj-preview-strip img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .tdj-stat-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .tdj-stat-grid span,
+  .tdj-entry-grid a,
+  .tdj-split > div {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+  }
+
+  .tdj-stat-grid span {
+    display: grid;
+    gap: 0.16rem;
+    padding: 0.8rem;
+  }
+
+  .tdj-stat-grid strong {
+    color: var(--leaf-heading);
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  .tdj-stat-grid em {
+    color: var(--leaf-text);
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .tdj-stat-grid small,
+  .tdj-entry-grid small,
+  .tdj-battle-list small {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-entry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 0;
+  }
+
+  .tdj-entry-grid a {
+    display: grid;
+    gap: 0.28rem;
+    padding: 0.78rem 0.85rem;
+  }
+
+  .tdj-split {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.7fr);
+  }
+
+  .tdj-split > div {
+    padding: 0.9rem;
+  }
+
+  .tdj-split h3 {
+    color: var(--leaf-heading);
+    font-size: 1.05rem;
+    margin: 0 0 0.65rem;
+  }
+
+  .tdj-battle-list {
+    display: grid;
+    gap: 0.46rem;
+  }
+
+  .tdj-battle-list a {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.1rem;
+    padding: 0.6rem 0.65rem;
+    text-decoration: none;
+  }
+
+  .tdj-battle-list a:hover {
+    border-color: rgba(35, 183, 229, 0.46);
+    color: var(--leaf-primary-hover);
+  }
+
+  .tdj-battle-list strong {
+    color: var(--leaf-heading);
+  }
+
+  .tdj-camp-strip {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tdj-camp-strip img {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    display: block;
+    image-rendering: pixelated;
+    width: 100%;
+  }
+
+  @media (max-width: 58rem) {
+    .tdj-hero,
+    .tdj-split {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .tdj-stat-grid,
+    .tdj-entry-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 34rem) {
+    .tdj-hero {
+      padding: 0.9rem;
+    }
+
+    .tdj-hero h2 {
+      font-size: 1.42rem;
+    }
+
+    .tdj-stat-grid,
+    .tdj-entry-grid,
+    .tdj-preview-strip {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

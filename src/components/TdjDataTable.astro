@@ -1,0 +1,312 @@
+﻿---
+import characters from '../data/sword-man/generated/characters.json';
+import skills from '../data/sword-man/generated/skills.json';
+import monsters from '../data/sword-man/generated/monsters.json';
+import battles from '../data/sword-man/generated/battles.json';
+import camps from '../data/sword-man/generated/camps.json';
+
+type DataRow = Record<string, any>;
+
+const { kind, limit } = Astro.props as { kind: string; limit?: number };
+
+const sliceRows = (rows: DataRow[]) => rows.slice(0, limit ?? rows.length);
+const dash = (value: unknown) => (value === null || value === undefined || value === '' ? '-' : value);
+const joinList = (items?: string[], fallback = '-') => (items?.filter(Boolean).length ? items.filter(Boolean).join('、') : fallback);
+const range = (min?: number, max?: number) =>
+  typeof min === 'number' && typeof max === 'number' ? (min === max ? `${min}` : `${min}-${max}`) : '-';
+const ability = (row: DataRow, key: string) => {
+  const stat = row.abilities?.[key];
+  return stat ? `${stat.base} / +${stat.grow}` : '-';
+};
+const skillText = (entry: DataRow) => {
+  const skill = entry.skill;
+  if (!skill) return `#${entry.skillId}`;
+  const level = entry.level > 0 ? `Lv.${entry.level}` : '初始';
+  return `${level} ${skill.name}`;
+};
+
+const characterRows = sliceRows(characters as DataRow[]);
+const skillRows = sliceRows(skills as DataRow[]);
+const monsterRows = sliceRows(monsters as DataRow[]);
+const battleRows = sliceRows(battles as DataRow[]);
+const campRows = sliceRows(camps as DataRow[]);
+---
+
+<div class="tdj-table-scroll">
+{kind === 'characters' && (
+  <table class="tdj-table">
+    <thead>
+      <tr>
+        <th>角色</th>
+        <th>初始 HP</th>
+        <th>初始装备</th>
+        <th>成长基值</th>
+        <th>随机成长</th>
+        <th>习得技能</th>
+      </tr>
+    </thead>
+    <tbody>
+      {characterRows.map((character) => (
+        <tr>
+          <td>
+            <strong>{character.name}</strong>
+            <small>#{character.id}</small>
+          </td>
+          <td>{character.hp}</td>
+          <td>
+            <span class="tdj-stack">
+              <span>{dash(character.weaponName)}</span>
+              <small>{dash(character.armorName)}</small>
+            </span>
+          </td>
+          <td>{character.growth?.summary ?? '-'}</td>
+          <td>
+            <span class="tdj-stack">
+              <span>HP +{character.growth?.hpRandMax ?? '-'}</span>
+              <small>MP +{character.growth?.mpRandMax ?? '-'}</small>
+            </span>
+          </td>
+          <td>
+            <span class="tdj-mini-list">
+              {(character.learnedSkills as DataRow[]).map((entry: DataRow) => (
+                <span class="tdj-pill">{skillText(entry)}</span>
+              ))}
+            </span>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'skills' && (
+  <table class="tdj-table">
+    <thead>
+      <tr>
+        <th>技能</th>
+        <th>类型</th>
+        <th>属性 / 效果</th>
+        <th>目标 / 范围</th>
+        <th>消耗</th>
+        <th>威力</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      {skillRows.map((skill) => (
+        <tr>
+          <td>
+            <strong>{skill.name}</strong>
+            <small>#{skill.id}</small>
+          </td>
+          <td>{skill.kindLabel}</td>
+          <td>{skill.attributeLabel} / {skill.resultLabel}</td>
+          <td>
+            <span class="tdj-stack">
+              <span>{skill.targetLabel}</span>
+              <small>{skill.rangeTypeLabel} {range(skill.attackRangeMin, skill.attackRangeMax)}</small>
+            </span>
+          </td>
+          <td>{skill.mpCost ? `${skill.mpCost} MP` : '-'}</td>
+          <td>{dash(skill.basePower)}</td>
+          <td>{dash(skill.description)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'monsters' && (
+  <table class="tdj-table">
+    <thead>
+      <tr>
+        <th>单位</th>
+        <th>等级</th>
+        <th>HP / MP</th>
+        <th>攻 / 防</th>
+        <th>移动 / 经验</th>
+        <th>五维基础 / 成长</th>
+      </tr>
+    </thead>
+    <tbody>
+      {monsterRows.map((monster) => (
+        <tr>
+          <td>
+            <strong>{monster.name}</strong>
+            <small>#{monster.id}</small>
+          </td>
+          <td>{monster.level}</td>
+          <td>{monster.hp} / {monster.mp}</td>
+          <td>{monster.atk} / {monster.def}</td>
+          <td>{monster.move} / {monster.exp}</td>
+          <td>
+            <span class="tdj-mini-list">
+              <span class="tdj-pill">力 {ability(monster, 'str')}</span>
+              <span class="tdj-pill">魔 {ability(monster, 'mag')}</span>
+              <span class="tdj-pill">技 {ability(monster, 'dex')}</span>
+              <span class="tdj-pill">体 {ability(monster, 'vit')}</span>
+              <span class="tdj-pill">运 {ability(monster, 'luck')}</span>
+            </span>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'battles' && (
+  <table class="tdj-table">
+    <thead>
+      <tr>
+        <th>关卡</th>
+        <th>地图</th>
+        <th>我方</th>
+        <th>敌方</th>
+        <th>主要敌人</th>
+        <th>携带物</th>
+        <th>敌方技能</th>
+        <th>文本量</th>
+      </tr>
+    </thead>
+    <tbody>
+      {battleRows.map((battle) => (
+        <tr>
+          <td>
+            <strong>{battle.id}</strong>
+            <small>{battle.file}</small>
+          </td>
+          <td>
+            <span class="tdj-stack">
+              <span>{battle.map.width} × {battle.map.height}</span>
+              <small>{dash(battle.map.texture)}</small>
+            </span>
+          </td>
+          <td>
+            <span class="tdj-stack">
+              <span>{battle.combatPlayerCount} / {battle.playerCount}</span>
+              <small>{joinList(battle.playerNames.slice(0, 4))}</small>
+            </span>
+          </td>
+          <td>
+            <span class="tdj-stack">
+              <span>{battle.enemyCount} 名</span>
+              <small>最高 Lv.{battle.maxEnemyLevel}</small>
+            </span>
+          </td>
+          <td>{(battle.topEnemies as DataRow[]).map((enemy: DataRow) => `${enemy.name}(${enemy.hp})`).join('、') || '-'}</td>
+          <td>{joinList(battle.itemNames.slice(0, 6))}</td>
+          <td>{joinList(battle.enemySkillNames.slice(0, 6))}</td>
+          <td>{battle.introLineCount} / {battle.outroLineCount}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
+{kind === 'camps' && (
+  <table class="tdj-table">
+    <thead>
+      <tr>
+        <th>营地</th>
+        <th>预览</th>
+        <th>资源路径</th>
+        <th>帧数</th>
+        <th>图像 ID</th>
+        <th>关联</th>
+        <th>标记</th>
+      </tr>
+    </thead>
+    <tbody>
+      {campRows.map((camp) => (
+        <tr>
+          <td>
+            <strong>camp{String(camp.id).padStart(2, '0')}</strong>
+            <small>#{camp.id}</small>
+          </td>
+          <td>
+            {camp.imagePath ? (
+              <img class="tdj-camp-thumb" src={camp.imagePath} alt={`营地 ${camp.id} 首帧`} loading="lazy" />
+            ) : (
+              '-'
+            )}
+          </td>
+          <td>{dash(camp.path)}</td>
+          <td>{dash(camp.frameCount)}</td>
+          <td>{dash(camp.imageId)}</td>
+          <td>{dash(camp.link)}</td>
+          <td>{dash(camp.flag)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+</div>
+
+<style>
+  .tdj-table-scroll {
+    margin-top: 1rem;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-table {
+    min-width: 48rem;
+  }
+
+  .tdj-table th {
+    white-space: nowrap;
+  }
+
+  .tdj-table td {
+    vertical-align: top;
+  }
+
+  .tdj-table strong {
+    color: var(--leaf-heading);
+    display: block;
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  .tdj-table small,
+  .tdj-stack small {
+    color: var(--leaf-text-muted);
+    display: block;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    margin-top: 0.1rem;
+  }
+
+  .tdj-stack {
+    display: grid;
+    gap: 0.12rem;
+    min-width: 7rem;
+  }
+
+  .tdj-mini-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.32rem;
+    min-width: 14rem;
+  }
+
+  .tdj-pill {
+    border: 1px solid rgba(35, 183, 229, 0.28);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(35, 183, 229, 0.08);
+    color: var(--leaf-text);
+    display: inline-flex;
+    font-size: 0.86rem;
+    line-height: 1.2;
+    padding: 0.22rem 0.4rem;
+  }
+
+  .tdj-camp-thumb {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    display: block;
+    image-rendering: pixelated;
+    max-width: 9rem;
+    width: 9rem;
+  }
+</style>

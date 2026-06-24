@@ -1,0 +1,1361 @@
+[
+  {
+    "id": 1,
+    "dataIndex": 0,
+    "name": "殷劍平",
+    "hp": 60,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 99,
+    "armorName": "软革 衣",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 3,
+      "intBase": 2,
+      "intRandMax": 3,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 3,
+      "vitRandMax": 3,
+      "lukBase": 3,
+      "lukRandMax": 2,
+      "summary": "力3 / 智2 / 速3 / 体3 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 3,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 0,
+        "skill": {
+          "id": 0,
+          "name": "氣愈之術",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "cure",
+          "attributeLabel": "治疗",
+          "mpCost": 14
+        }
+      },
+      {
+        "level": 15,
+        "spirit": [
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "skillId": 42,
+        "skill": {
+          "id": 42,
+          "name": "無方飛劍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 20
+        }
+      },
+      {
+        "level": 33,
+        "spirit": [
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "skillId": 43,
+        "skill": {
+          "id": 43,
+          "name": "電射星馳",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 30
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          65,
+          80,
+          30,
+          30,
+          30
+        ],
+        "skillId": 44,
+        "skill": {
+          "id": 44,
+          "name": "日輪神劍",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 40
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          30,
+          80,
+          30,
+          65,
+          30
+        ],
+        "skillId": 45,
+        "skill": {
+          "id": 45,
+          "name": "火靈神劍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "fire",
+          "attributeLabel": "火",
+          "mpCost": 60
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          30,
+          30,
+          80,
+          30,
+          65
+        ],
+        "skillId": 47,
+        "skill": {
+          "id": 47,
+          "name": "幻月神劍",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 40
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          65,
+          30,
+          30,
+          80,
+          30
+        ],
+        "skillId": 46,
+        "skill": {
+          "id": 46,
+          "name": "飛星神劍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "light",
+          "attributeLabel": "光",
+          "mpCost": 55
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          30,
+          65,
+          30,
+          30,
+          80
+        ],
+        "skillId": 48,
+        "skill": {
+          "id": 48,
+          "name": "天華神劍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 60
+        }
+      }
+    ],
+    "learnedSkillCount": 8
+  },
+  {
+    "id": 2,
+    "dataIndex": 1,
+    "name": "封寒月",
+    "hp": 45,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 124,
+    "armorName": "法袍",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 2,
+      "strRandMax": 2,
+      "intBase": 5,
+      "intRandMax": 2,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 3,
+      "vitRandMax": 2,
+      "lukBase": 3,
+      "lukRandMax": 2,
+      "summary": "力2 / 智5 / 速3 / 体3 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 12,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 16,
+        "skill": {
+          "id": 16,
+          "name": "天霜雪舞",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 10
+        }
+      },
+      {
+        "level": 18,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 32,
+        "skill": {
+          "id": 32,
+          "name": "封魔神道",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 22
+        }
+      },
+      {
+        "level": 24,
+        "spirit": [
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        "skillId": 7,
+        "skill": {
+          "id": 7,
+          "name": "焚炎之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "fire",
+          "attributeLabel": "火",
+          "mpCost": 14
+        }
+      },
+      {
+        "level": 28,
+        "spirit": [
+          15,
+          0,
+          15,
+          0,
+          0
+        ],
+        "skillId": 17,
+        "skill": {
+          "id": 17,
+          "name": "冰華之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 14
+        }
+      },
+      {
+        "level": 40,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 30,
+        "skill": {
+          "id": 30,
+          "name": "靈智真法",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 30
+        }
+      },
+      {
+        "level": 46,
+        "spirit": [
+          0,
+          50,
+          0,
+          0,
+          0
+        ],
+        "skillId": 8,
+        "skill": {
+          "id": 8,
+          "name": "天火之術",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "fire",
+          "attributeLabel": "火",
+          "mpCost": 20
+        }
+      },
+      {
+        "level": 50,
+        "spirit": [
+          40,
+          0,
+          40,
+          0,
+          0
+        ],
+        "skillId": 18,
+        "skill": {
+          "id": 18,
+          "name": "冰獄寒嵐",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 20
+        }
+      },
+      {
+        "level": 62,
+        "spirit": [
+          0,
+          70,
+          0,
+          0,
+          0
+        ],
+        "skillId": 9,
+        "skill": {
+          "id": 9,
+          "name": "七燁真火",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "fire",
+          "attributeLabel": "火",
+          "mpCost": 32
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          80,
+          25,
+          80,
+          25,
+          25
+        ],
+        "skillId": 19,
+        "skill": {
+          "id": 19,
+          "name": "玄凜冰煞",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 36
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          25,
+          100,
+          25,
+          50,
+          25
+        ],
+        "skillId": 10,
+        "skill": {
+          "id": 10,
+          "name": "九俱焚滅",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "fire",
+          "attributeLabel": "火",
+          "mpCost": 44
+        }
+      }
+    ],
+    "learnedSkillCount": 10
+  },
+  {
+    "id": 3,
+    "dataIndex": 2,
+    "name": "紫楓",
+    "hp": 85,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 99,
+    "armorName": "软革 衣",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 4,
+      "strRandMax": 3,
+      "intBase": 2,
+      "intRandMax": 2,
+      "avgBase": 3,
+      "avgRandMax": 4,
+      "vitBase": 2,
+      "vitRandMax": 3,
+      "lukBase": 3,
+      "lukRandMax": 3,
+      "summary": "力4 / 智2 / 速3 / 体2 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 18,
+        "spirit": [
+          20,
+          40,
+          0,
+          30,
+          30
+        ],
+        "skillId": 49,
+        "skill": {
+          "id": 49,
+          "name": "迴風槍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 30
+        }
+      },
+      {
+        "level": 52,
+        "spirit": [
+          40,
+          60,
+          0,
+          30,
+          30
+        ],
+        "skillId": 50,
+        "skill": {
+          "id": 50,
+          "name": "剛烈破",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 50
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          80,
+          100,
+          0,
+          0,
+          0
+        ],
+        "skillId": 51,
+        "skill": {
+          "id": 51,
+          "name": "天將奔烈",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 75
+        }
+      }
+    ],
+    "learnedSkillCount": 3
+  },
+  {
+    "id": 4,
+    "dataIndex": 3,
+    "name": "上官遠",
+    "hp": 172,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 125,
+    "armorName": "白绢舞袖",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 3,
+      "intBase": 4,
+      "intRandMax": 2,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 2,
+      "vitRandMax": 3,
+      "lukBase": 3,
+      "lukRandMax": 3,
+      "summary": "力3 / 智4 / 速3 / 体2 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 38,
+        "spirit": [
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        "skillId": 12,
+        "skill": {
+          "id": 12,
+          "name": "五雷正法",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "thunder",
+          "attributeLabel": "雷",
+          "mpCost": 18
+        }
+      },
+      {
+        "level": 46,
+        "spirit": [
+          0,
+          0,
+          50,
+          0,
+          0
+        ],
+        "skillId": 2,
+        "skill": {
+          "id": 2,
+          "name": "返命之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "cure",
+          "attributeLabel": "治疗",
+          "mpCost": 24
+        }
+      },
+      {
+        "level": 54,
+        "spirit": [
+          30,
+          50,
+          0,
+          0,
+          0
+        ],
+        "skillId": 13,
+        "skill": {
+          "id": 13,
+          "name": "九天神雷",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "thunder",
+          "attributeLabel": "雷",
+          "mpCost": 26
+        }
+      },
+      {
+        "level": 45,
+        "spirit": [
+          50,
+          0,
+          50,
+          0,
+          50
+        ],
+        "skillId": 55,
+        "skill": {
+          "id": 55,
+          "name": "天瑞仙舞",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 50
+        }
+      },
+      {
+        "level": 57,
+        "spirit": [
+          40,
+          80,
+          0,
+          0,
+          0
+        ],
+        "skillId": 14,
+        "skill": {
+          "id": 14,
+          "name": "狂雷電刃",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "thunder",
+          "attributeLabel": "雷",
+          "mpCost": 36
+        }
+      },
+      {
+        "level": 65,
+        "spirit": [
+          0,
+          0,
+          70,
+          0,
+          0
+        ],
+        "skillId": 3,
+        "skill": {
+          "id": 3,
+          "name": "神還大法",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "cure",
+          "attributeLabel": "治疗",
+          "mpCost": 36
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          80,
+          100,
+          0,
+          0,
+          0
+        ],
+        "skillId": 15,
+        "skill": {
+          "id": 15,
+          "name": "千煌雷烈",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "thunder",
+          "attributeLabel": "雷",
+          "mpCost": 48
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          0,
+          0,
+          100,
+          0,
+          80
+        ],
+        "skillId": 4,
+        "skill": {
+          "id": 4,
+          "name": "神護之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "cure",
+          "attributeLabel": "治疗",
+          "mpCost": 50
+        }
+      }
+    ],
+    "learnedSkillCount": 8
+  },
+  {
+    "id": 5,
+    "dataIndex": 4,
+    "name": "鮮于超",
+    "hp": 180,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 114,
+    "armorName": "蟒神甲",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 4,
+      "strRandMax": 3,
+      "intBase": 2,
+      "intRandMax": 3,
+      "avgBase": 2,
+      "avgRandMax": 4,
+      "vitBase": 3,
+      "vitRandMax": 4,
+      "lukBase": 3,
+      "lukRandMax": 2,
+      "summary": "力4 / 智2 / 速2 / 体3 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 45,
+        "spirit": [
+          30,
+          45,
+          30,
+          40,
+          30
+        ],
+        "skillId": 52,
+        "skill": {
+          "id": 52,
+          "name": "鬼冥劍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 40
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          50,
+          50,
+          70,
+          40,
+          30
+        ],
+        "skillId": 54,
+        "skill": {
+          "id": 54,
+          "name": "斷龍斬",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 55
+        }
+      }
+    ],
+    "learnedSkillCount": 2
+  },
+  {
+    "id": 6,
+    "dataIndex": 5,
+    "name": "真胤",
+    "hp": 195,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 139,
+    "armorName": "僧袍",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 3,
+      "intBase": 3,
+      "intRandMax": 3,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 3,
+      "vitRandMax": 4,
+      "lukBase": 3,
+      "lukRandMax": 2,
+      "summary": "力3 / 智3 / 速3 / 体3 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 27,
+        "spirit": [
+          0,
+          0,
+          40,
+          30,
+          40
+        ],
+        "skillId": 40,
+        "skill": {
+          "id": 40,
+          "name": "式鬼召喚",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 60
+        }
+      },
+      {
+        "level": 35,
+        "spirit": [
+          0,
+          0,
+          40,
+          40,
+          40
+        ],
+        "skillId": 29,
+        "skill": {
+          "id": 29,
+          "name": "地禦之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 42
+        }
+      },
+      {
+        "level": 40,
+        "spirit": [
+          70,
+          0,
+          50,
+          0,
+          0
+        ],
+        "skillId": 35,
+        "skill": {
+          "id": 35,
+          "name": "無方變幻",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 50
+        }
+      },
+      {
+        "level": 48,
+        "spirit": [
+          0,
+          0,
+          70,
+          0,
+          0
+        ],
+        "skillId": 39,
+        "skill": {
+          "id": 39,
+          "name": "不動之界",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 86
+        }
+      },
+      {
+        "level": 56,
+        "spirit": [
+          45,
+          45,
+          45,
+          45,
+          45
+        ],
+        "skillId": 59,
+        "skill": {
+          "id": 59,
+          "name": "金剛法輪",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 55
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "skillId": 58,
+        "skill": {
+          "id": 58,
+          "name": "鬼神滅破",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 75
+        }
+      }
+    ],
+    "learnedSkillCount": 6
+  },
+  {
+    "id": 7,
+    "dataIndex": 6,
+    "name": "韓千秀",
+    "hp": 230,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 104,
+    "armorName": "薄钢环甲",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 4,
+      "intBase": 2,
+      "intRandMax": 3,
+      "avgBase": 4,
+      "avgRandMax": 3,
+      "vitBase": 3,
+      "vitRandMax": 3,
+      "lukBase": 4,
+      "lukRandMax": 3,
+      "summary": "力3 / 智2 / 速4 / 体3 / 运4"
+    },
+    "learnedSkills": [
+      {
+        "level": 34,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 60,
+        "skill": {
+          "id": 60,
+          "name": "雙環映月",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 40
+        }
+      },
+      {
+        "level": 55,
+        "spirit": [
+          50,
+          0,
+          0,
+          0,
+          30
+        ],
+        "skillId": 61,
+        "skill": {
+          "id": 61,
+          "name": "光輪斬",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 55
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          100,
+          0,
+          0,
+          0,
+          80
+        ],
+        "skillId": 105,
+        "skill": {
+          "id": 105,
+          "name": "旋刃捲嵐",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 70
+        }
+      }
+    ],
+    "learnedSkillCount": 3
+  },
+  {
+    "id": 8,
+    "dataIndex": 7,
+    "name": "燕明蓉",
+    "hp": 228,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 127,
+    "armorName": "缀玉华装",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 3,
+      "intBase": 4,
+      "intRandMax": 2,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 2,
+      "vitRandMax": 3,
+      "lukBase": 3,
+      "lukRandMax": 3,
+      "summary": "力3 / 智4 / 速3 / 体2 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 38,
+        "spirit": [
+          30,
+          0,
+          40,
+          0,
+          0
+        ],
+        "skillId": 33,
+        "skill": {
+          "id": 33,
+          "name": "反咒禁制",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 75
+        }
+      },
+      {
+        "level": 46,
+        "spirit": [
+          0,
+          0,
+          40,
+          30,
+          0
+        ],
+        "skillId": 21,
+        "skill": {
+          "id": 21,
+          "name": "神威天光",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "light",
+          "attributeLabel": "光",
+          "mpCost": 32
+        }
+      },
+      {
+        "level": 54,
+        "spirit": [
+          0,
+          0,
+          60,
+          40,
+          0
+        ],
+        "skillId": 1,
+        "skill": {
+          "id": 1,
+          "name": "神氣流轉",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "cure",
+          "attributeLabel": "治疗",
+          "mpCost": 18
+        }
+      },
+      {
+        "level": 62,
+        "spirit": [
+          60,
+          40,
+          0,
+          0,
+          0
+        ],
+        "skillId": 62,
+        "skill": {
+          "id": 62,
+          "name": "無我幻舞",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 50
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          0,
+          0,
+          100,
+          60,
+          0
+        ],
+        "skillId": 22,
+        "skill": {
+          "id": 22,
+          "name": "輝日聖燁",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "light",
+          "attributeLabel": "光",
+          "mpCost": 48
+        }
+      }
+    ],
+    "learnedSkillCount": 5
+  },
+  {
+    "id": 9,
+    "dataIndex": 8,
+    "name": "夏侯儀",
+    "hp": 256,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 147,
+    "armorName": "黑缎笼衫",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 3,
+      "strRandMax": 2,
+      "intBase": 4,
+      "intRandMax": 3,
+      "avgBase": 3,
+      "avgRandMax": 3,
+      "vitBase": 3,
+      "vitRandMax": 2,
+      "lukBase": 3,
+      "lukRandMax": 2,
+      "summary": "力3 / 智4 / 速3 / 体3 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 42,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 34,
+        "skill": {
+          "id": 34,
+          "name": "奪魄鬼咒",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 22
+        }
+      },
+      {
+        "level": 44,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 17,
+        "skill": {
+          "id": 17,
+          "name": "冰華之陣",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 14
+        }
+      },
+      {
+        "level": 48,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 28,
+        "skill": {
+          "id": 28,
+          "name": "血刃之咒",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 35
+        }
+      },
+      {
+        "level": 50,
+        "spirit": [
+          0,
+          40,
+          0,
+          100,
+          0
+        ],
+        "skillId": 31,
+        "skill": {
+          "id": 31,
+          "name": "狂魔大法",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 45
+        }
+      },
+      {
+        "level": 52,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 12,
+        "skill": {
+          "id": 12,
+          "name": "五雷正法",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "thunder",
+          "attributeLabel": "雷",
+          "mpCost": 18
+        }
+      },
+      {
+        "level": 56,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 24,
+        "skill": {
+          "id": 24,
+          "name": "無天黑炎",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "dark",
+          "attributeLabel": "暗",
+          "mpCost": 32
+        }
+      },
+      {
+        "level": 60,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 18,
+        "skill": {
+          "id": 18,
+          "name": "冰獄寒嵐",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "ice",
+          "attributeLabel": "冰",
+          "mpCost": 20
+        }
+      },
+      {
+        "level": 62,
+        "spirit": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "skillId": 25,
+        "skill": {
+          "id": 25,
+          "name": "魔天降臨",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "illusion",
+          "attributeLabel": "幻",
+          "mpCost": 25
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          0,
+          0,
+          0,
+          100,
+          60
+        ],
+        "skillId": 26,
+        "skill": {
+          "id": 26,
+          "name": "死滅之咒",
+          "kind": "magic",
+          "kindLabel": "法术",
+          "attribute": "dark",
+          "attributeLabel": "暗",
+          "mpCost": 48
+        }
+      }
+    ],
+    "learnedSkillCount": 9
+  },
+  {
+    "id": 10,
+    "dataIndex": 9,
+    "name": "不淨散人",
+    "hp": 525,
+    "weaponId": 0,
+    "weaponName": "长剑",
+    "armorId": 153,
+    "armorName": "弭勒垢衣",
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 2,
+      "strRandMax": 2,
+      "intBase": 3,
+      "intRandMax": 3,
+      "avgBase": 2,
+      "avgRandMax": 2,
+      "vitBase": 2,
+      "vitRandMax": 2,
+      "lukBase": 2,
+      "lukRandMax": 2,
+      "summary": "力2 / 智3 / 速2 / 体2 / 运2"
+    },
+    "learnedSkills": [],
+    "learnedSkillCount": 0
+  }
+]

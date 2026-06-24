@@ -1,0 +1,4294 @@
+[
+  {
+    "id": 0,
+    "name": "殷劍平",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 23,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 1,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 1,
+    "name": "封寒月",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 21,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 2,
+    "attrDefenceId": 37,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "上官遠",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 26,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 4,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "紫楓",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 20,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 3,
+    "attrDefenceId": 37,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "鮮于超",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 23,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 5,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "真胤",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 25,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 6,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "韓千秀",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 25,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 7,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "燕明蓉",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 22,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 8,
+    "attrDefenceId": 37,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "夏侯儀",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 23,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 9,
+    "attrDefenceId": 26,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "不淨散人",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 25,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 10,
+    "attrDefenceId": 37,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "式鬼",
+    "level": 0,
+    "hp": 100,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 150,
+    "def": 80,
+    "move": 22,
+    "exp": 360,
+    "camp": 0,
+    "categoryId": 14,
+    "attrDefenceId": 15,
+    "abilities": {
+      "str": {
+        "base": 150,
+        "grow": 0
+      },
+      "mag": {
+        "base": 100,
+        "grow": 0
+      },
+      "dex": {
+        "base": 100,
+        "grow": 0
+      },
+      "vit": {
+        "base": 160,
+        "grow": 0
+      },
+      "luck": {
+        "base": 100,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "劍魂雄",
+    "level": 0,
+    "hp": 150,
+    "hpGrow": 0,
+    "mp": 80,
+    "atk": 170,
+    "def": 100,
+    "move": 22,
+    "exp": 360,
+    "camp": 0,
+    "categoryId": 12,
+    "attrDefenceId": 27,
+    "abilities": {
+      "str": {
+        "base": 170,
+        "grow": 0
+      },
+      "mag": {
+        "base": 110,
+        "grow": 0
+      },
+      "dex": {
+        "base": 100,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 135,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "劍魂雌",
+    "level": 0,
+    "hp": 130,
+    "hpGrow": 0,
+    "mp": 80,
+    "atk": 170,
+    "def": 90,
+    "move": 30,
+    "exp": 360,
+    "camp": 0,
+    "categoryId": 13,
+    "attrDefenceId": 28,
+    "abilities": {
+      "str": {
+        "base": 170,
+        "grow": 0
+      },
+      "mag": {
+        "base": 110,
+        "grow": 0
+      },
+      "dex": {
+        "base": 130,
+        "grow": 0
+      },
+      "vit": {
+        "base": 180,
+        "grow": 0
+      },
+      "luck": {
+        "base": 150,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "靈鼩",
+    "level": 0,
+    "hp": 105,
+    "hpGrow": 0,
+    "mp": 125,
+    "atk": 130,
+    "def": 75,
+    "move": 25,
+    "exp": 360,
+    "camp": 0,
+    "categoryId": 15,
+    "attrDefenceId": 30,
+    "abilities": {
+      "str": {
+        "base": 130,
+        "grow": 0
+      },
+      "mag": {
+        "base": 120,
+        "grow": 0
+      },
+      "dex": {
+        "base": 130,
+        "grow": 0
+      },
+      "vit": {
+        "base": 150,
+        "grow": 0
+      },
+      "luck": {
+        "base": 175,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "四象門劍",
+    "level": 2,
+    "hp": 42,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 12,
+    "def": 11,
+    "move": 25,
+    "exp": 220,
+    "camp": 1,
+    "categoryId": 201,
+    "attrDefenceId": 2,
+    "abilities": {
+      "str": {
+        "base": 12,
+        "grow": 3
+      },
+      "mag": {
+        "base": 10,
+        "grow": 0
+      },
+      "dex": {
+        "base": 23,
+        "grow": 3
+      },
+      "vit": {
+        "base": 22,
+        "grow": 2
+      },
+      "luck": {
+        "base": 19,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "四象門術",
+    "level": 2,
+    "hp": 36,
+    "hpGrow": 4,
+    "mp": 20,
+    "atk": 12,
+    "def": 8,
+    "move": 20,
+    "exp": 230,
+    "camp": 1,
+    "categoryId": 220,
+    "attrDefenceId": 3,
+    "abilities": {
+      "str": {
+        "base": 12,
+        "grow": 3
+      },
+      "mag": {
+        "base": 20,
+        "grow": 0
+      },
+      "dex": {
+        "base": 16,
+        "grow": 3
+      },
+      "vit": {
+        "base": 16,
+        "grow": 2
+      },
+      "luck": {
+        "base": 18,
+        "grow": 2
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "骨卒",
+    "level": 5,
+    "hp": 60,
+    "hpGrow": 6,
+    "mp": 0,
+    "atk": 23,
+    "def": 12,
+    "move": 22,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 200,
+    "attrDefenceId": 7,
+    "abilities": {
+      "str": {
+        "base": 23,
+        "grow": 5
+      },
+      "mag": {
+        "base": 15,
+        "grow": 3
+      },
+      "dex": {
+        "base": 30,
+        "grow": 4
+      },
+      "vit": {
+        "base": 24,
+        "grow": 5
+      },
+      "luck": {
+        "base": 26,
+        "grow": 3
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "死刀兵",
+    "level": 5,
+    "hp": 70,
+    "hpGrow": 8,
+    "mp": 0,
+    "atk": 18,
+    "def": 15,
+    "move": 27,
+    "exp": 160,
+    "camp": 1,
+    "categoryId": 202,
+    "attrDefenceId": 7,
+    "abilities": {
+      "str": {
+        "base": 18,
+        "grow": 4
+      },
+      "mag": {
+        "base": 15,
+        "grow": 2
+      },
+      "dex": {
+        "base": 40,
+        "grow": 5
+      },
+      "vit": {
+        "base": 30,
+        "grow": 5
+      },
+      "luck": {
+        "base": 34,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "夜魑",
+    "level": 5,
+    "hp": 80,
+    "hpGrow": 9,
+    "mp": 0,
+    "atk": 26,
+    "def": 10,
+    "move": 22,
+    "exp": 170,
+    "camp": 1,
+    "categoryId": 203,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 26,
+        "grow": 6
+      },
+      "mag": {
+        "base": 18,
+        "grow": 3
+      },
+      "dex": {
+        "base": 35,
+        "grow": 4
+      },
+      "vit": {
+        "base": 20,
+        "grow": 4
+      },
+      "luck": {
+        "base": 30,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "羽魅",
+    "level": 15,
+    "hp": 120,
+    "hpGrow": 8,
+    "mp": 15,
+    "atk": 83,
+    "def": 39,
+    "move": 28,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 210,
+    "attrDefenceId": 9,
+    "abilities": {
+      "str": {
+        "base": 83,
+        "grow": 6
+      },
+      "mag": {
+        "base": 60,
+        "grow": 4
+      },
+      "dex": {
+        "base": 120,
+        "grow": 7
+      },
+      "vit": {
+        "base": 78,
+        "grow": 6
+      },
+      "luck": {
+        "base": 105,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "土魎",
+    "level": 5,
+    "hp": 50,
+    "hpGrow": 7,
+    "mp": 0,
+    "atk": 30,
+    "def": 20,
+    "move": 20,
+    "exp": 170,
+    "camp": 1,
+    "categoryId": 206,
+    "attrDefenceId": 10,
+    "abilities": {
+      "str": {
+        "base": 30,
+        "grow": 7
+      },
+      "mag": {
+        "base": 20,
+        "grow": 3
+      },
+      "dex": {
+        "base": 35,
+        "grow": 3
+      },
+      "vit": {
+        "base": 40,
+        "grow": 8
+      },
+      "luck": {
+        "base": 35,
+        "grow": 3
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "羅鬼",
+    "level": 9,
+    "hp": 160,
+    "hpGrow": 20,
+    "mp": 0,
+    "atk": 52,
+    "def": 27,
+    "move": 23,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 205,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 52,
+        "grow": 12
+      },
+      "mag": {
+        "base": 56,
+        "grow": 7
+      },
+      "dex": {
+        "base": 50,
+        "grow": 10
+      },
+      "vit": {
+        "base": 55,
+        "grow": 20
+      },
+      "luck": {
+        "base": 68,
+        "grow": 10
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "妖術士",
+    "level": 15,
+    "hp": 100,
+    "hpGrow": 6,
+    "mp": 60,
+    "atk": 45,
+    "def": 45,
+    "move": 22,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 221,
+    "attrDefenceId": 3,
+    "abilities": {
+      "str": {
+        "base": 45,
+        "grow": 6
+      },
+      "mag": {
+        "base": 85,
+        "grow": 7
+      },
+      "dex": {
+        "base": 54,
+        "grow": 5
+      },
+      "vit": {
+        "base": 90,
+        "grow": 6
+      },
+      "luck": {
+        "base": 60,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "血煉鬼",
+    "level": 18,
+    "hp": 115,
+    "hpGrow": 7,
+    "mp": 20,
+    "atk": 50,
+    "def": 47,
+    "move": 22,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 207,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 50,
+        "grow": 7
+      },
+      "mag": {
+        "base": 57,
+        "grow": 5
+      },
+      "dex": {
+        "base": 72,
+        "grow": 5
+      },
+      "vit": {
+        "base": 95,
+        "grow": 5
+      },
+      "luck": {
+        "base": 85,
+        "grow": 8
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "刀凜鬼",
+    "level": 18,
+    "hp": 128,
+    "hpGrow": 12,
+    "mp": 35,
+    "atk": 53,
+    "def": 50,
+    "move": 22,
+    "exp": 160,
+    "camp": 1,
+    "categoryId": 204,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 53,
+        "grow": 9
+      },
+      "mag": {
+        "base": 30,
+        "grow": 3
+      },
+      "dex": {
+        "base": 60,
+        "grow": 4
+      },
+      "vit": {
+        "base": 100,
+        "grow": 6
+      },
+      "luck": {
+        "base": 77,
+        "grow": 8
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "四象門劍",
+    "level": 25,
+    "hp": 171,
+    "hpGrow": 7,
+    "mp": 0,
+    "atk": 103,
+    "def": 53,
+    "move": 23,
+    "exp": 130,
+    "camp": 1,
+    "categoryId": 201,
+    "attrDefenceId": 2,
+    "abilities": {
+      "str": {
+        "base": 103,
+        "grow": 5
+      },
+      "mag": {
+        "base": 80,
+        "grow": 3
+      },
+      "dex": {
+        "base": 115,
+        "grow": 5
+      },
+      "vit": {
+        "base": 106,
+        "grow": 5
+      },
+      "luck": {
+        "base": 100,
+        "grow": 5
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "四象門術",
+    "level": 25,
+    "hp": 150,
+    "hpGrow": 6,
+    "mp": 180,
+    "atk": 95,
+    "def": 37,
+    "move": 20,
+    "exp": 145,
+    "camp": 1,
+    "categoryId": 220,
+    "attrDefenceId": 3,
+    "abilities": {
+      "str": {
+        "base": 95,
+        "grow": 5
+      },
+      "mag": {
+        "base": 96,
+        "grow": 8
+      },
+      "dex": {
+        "base": 90,
+        "grow": 4
+      },
+      "vit": {
+        "base": 75,
+        "grow": 4
+      },
+      "luck": {
+        "base": 85,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "朱焰魔火",
+    "level": 14,
+    "hp": 80,
+    "hpGrow": 5,
+    "mp": 65,
+    "atk": 55,
+    "def": 40,
+    "move": 23,
+    "exp": 200,
+    "camp": 1,
+    "categoryId": 235,
+    "attrDefenceId": 16,
+    "abilities": {
+      "str": {
+        "base": 55,
+        "grow": 4
+      },
+      "mag": {
+        "base": 70,
+        "grow": 5
+      },
+      "dex": {
+        "base": 48,
+        "grow": 5
+      },
+      "vit": {
+        "base": 80,
+        "grow": 4
+      },
+      "luck": {
+        "base": 40,
+        "grow": 3
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "鬼道者",
+    "level": 35,
+    "hp": 195,
+    "hpGrow": 8,
+    "mp": 140,
+    "atk": 118,
+    "def": 71,
+    "move": 24,
+    "exp": 170,
+    "camp": 1,
+    "categoryId": 222,
+    "attrDefenceId": 3,
+    "abilities": {
+      "str": {
+        "base": 118,
+        "grow": 7
+      },
+      "mag": {
+        "base": 155,
+        "grow": 6
+      },
+      "dex": {
+        "base": 110,
+        "grow": 4
+      },
+      "vit": {
+        "base": 142,
+        "grow": 7
+      },
+      "luck": {
+        "base": 150,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "化蛇",
+    "level": 34,
+    "hp": 240,
+    "hpGrow": 8,
+    "mp": 20,
+    "atk": 98,
+    "def": 70,
+    "move": 24,
+    "exp": 160,
+    "camp": 1,
+    "categoryId": 211,
+    "attrDefenceId": 9,
+    "abilities": {
+      "str": {
+        "base": 98,
+        "grow": 10
+      },
+      "mag": {
+        "base": 80,
+        "grow": 5
+      },
+      "dex": {
+        "base": 166,
+        "grow": 7
+      },
+      "vit": {
+        "base": 140,
+        "grow": 5
+      },
+      "luck": {
+        "base": 160,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "屍蟲",
+    "level": 8,
+    "hp": 60,
+    "hpGrow": 7,
+    "mp": 0,
+    "atk": 47,
+    "def": 31,
+    "move": 24,
+    "exp": 140,
+    "camp": 1,
+    "categoryId": 215,
+    "attrDefenceId": 12,
+    "abilities": {
+      "str": {
+        "base": 47,
+        "grow": 7
+      },
+      "mag": {
+        "base": 25,
+        "grow": 5
+      },
+      "dex": {
+        "base": 58,
+        "grow": 4
+      },
+      "vit": {
+        "base": 62,
+        "grow": 4
+      },
+      "luck": {
+        "base": 76,
+        "grow": 5
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "紫焰妖靈",
+    "level": 34,
+    "hp": 265,
+    "hpGrow": 8,
+    "mp": 210,
+    "atk": 95,
+    "def": 40,
+    "move": 17,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 213,
+    "attrDefenceId": 16,
+    "abilities": {
+      "str": {
+        "base": 95,
+        "grow": 7
+      },
+      "mag": {
+        "base": 178,
+        "grow": 7
+      },
+      "dex": {
+        "base": 96,
+        "grow": 5
+      },
+      "vit": {
+        "base": 80,
+        "grow": 4
+      },
+      "luck": {
+        "base": 130,
+        "grow": 5
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "炎鶚",
+    "level": 57,
+    "hp": 335,
+    "hpGrow": 10,
+    "mp": 0,
+    "atk": 220,
+    "def": 170,
+    "move": 30,
+    "exp": 165,
+    "camp": 1,
+    "categoryId": 212,
+    "attrDefenceId": 11,
+    "abilities": {
+      "str": {
+        "base": 220,
+        "grow": 8
+      },
+      "mag": {
+        "base": 400,
+        "grow": 10
+      },
+      "dex": {
+        "base": 300,
+        "grow": 8
+      },
+      "vit": {
+        "base": 340,
+        "grow": 10
+      },
+      "luck": {
+        "base": 258,
+        "grow": 8
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "血翼烏虺",
+    "level": 80,
+    "hp": 820,
+    "hpGrow": 16,
+    "mp": 0,
+    "atk": 300,
+    "def": 180,
+    "move": 40,
+    "exp": 125,
+    "camp": 1,
+    "categoryId": 228,
+    "attrDefenceId": 9,
+    "abilities": {
+      "str": {
+        "base": 300,
+        "grow": 16
+      },
+      "mag": {
+        "base": 350,
+        "grow": 18
+      },
+      "dex": {
+        "base": 500,
+        "grow": 15
+      },
+      "vit": {
+        "base": 360,
+        "grow": 16
+      },
+      "luck": {
+        "base": 350,
+        "grow": 12
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "鬼吻妖蘭",
+    "level": 80,
+    "hp": 660,
+    "hpGrow": 14,
+    "mp": 120,
+    "atk": 360,
+    "def": 170,
+    "move": 20,
+    "exp": 140,
+    "camp": 1,
+    "categoryId": 234,
+    "attrDefenceId": 22,
+    "abilities": {
+      "str": {
+        "base": 360,
+        "grow": 14
+      },
+      "mag": {
+        "base": 280,
+        "grow": 16
+      },
+      "dex": {
+        "base": 350,
+        "grow": 20
+      },
+      "vit": {
+        "base": 340,
+        "grow": 18
+      },
+      "luck": {
+        "base": 320,
+        "grow": 14
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "炎羅鬼",
+    "level": 34,
+    "hp": 285,
+    "hpGrow": 10,
+    "mp": 50,
+    "atk": 112,
+    "def": 87,
+    "move": 23,
+    "exp": 155,
+    "camp": 1,
+    "categoryId": 208,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 112,
+        "grow": 10
+      },
+      "mag": {
+        "base": 40,
+        "grow": 4
+      },
+      "dex": {
+        "base": 90,
+        "grow": 7
+      },
+      "vit": {
+        "base": 175,
+        "grow": 10
+      },
+      "luck": {
+        "base": 150,
+        "grow": 3
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "噬魂鬼",
+    "level": 64,
+    "hp": 422,
+    "hpGrow": 13,
+    "mp": 70,
+    "atk": 260,
+    "def": 90,
+    "move": 18,
+    "exp": 165,
+    "camp": 1,
+    "categoryId": 233,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 260,
+        "grow": 11
+      },
+      "mag": {
+        "base": 200,
+        "grow": 9
+      },
+      "dex": {
+        "base": 270,
+        "grow": 11
+      },
+      "vit": {
+        "base": 180,
+        "grow": 15
+      },
+      "luck": {
+        "base": 230,
+        "grow": 12
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "死魎蟲",
+    "level": 40,
+    "hp": 245,
+    "hpGrow": 10,
+    "mp": 0,
+    "atk": 160,
+    "def": 82,
+    "move": 19,
+    "exp": 120,
+    "camp": 1,
+    "categoryId": 230,
+    "attrDefenceId": 12,
+    "abilities": {
+      "str": {
+        "base": 160,
+        "grow": 7
+      },
+      "mag": {
+        "base": 68,
+        "grow": 3
+      },
+      "dex": {
+        "base": 160,
+        "grow": 8
+      },
+      "vit": {
+        "base": 164,
+        "grow": 9
+      },
+      "luck": {
+        "base": 190,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "鋼破鬼",
+    "level": 32,
+    "hp": 240,
+    "hpGrow": 7,
+    "mp": 0,
+    "atk": 120,
+    "def": 67,
+    "move": 20,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 227,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 120,
+        "grow": 8
+      },
+      "mag": {
+        "base": 85,
+        "grow": 5
+      },
+      "dex": {
+        "base": 105,
+        "grow": 5
+      },
+      "vit": {
+        "base": 135,
+        "grow": 8
+      },
+      "luck": {
+        "base": 136,
+        "grow": 7
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "赤殼蜈蚣",
+    "level": 57,
+    "hp": 416,
+    "hpGrow": 10,
+    "mp": 45,
+    "atk": 200,
+    "def": 160,
+    "move": 18,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 217,
+    "attrDefenceId": 12,
+    "abilities": {
+      "str": {
+        "base": 200,
+        "grow": 12
+      },
+      "mag": {
+        "base": 175,
+        "grow": 8
+      },
+      "dex": {
+        "base": 225,
+        "grow": 7
+      },
+      "vit": {
+        "base": 320,
+        "grow": 12
+      },
+      "luck": {
+        "base": 240,
+        "grow": 7
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "血嬰冥葵",
+    "level": 51,
+    "hp": 316,
+    "hpGrow": 10,
+    "mp": 40,
+    "atk": 140,
+    "def": 130,
+    "move": 20,
+    "exp": 170,
+    "camp": 1,
+    "categoryId": 219,
+    "attrDefenceId": 22,
+    "abilities": {
+      "str": {
+        "base": 140,
+        "grow": 9
+      },
+      "mag": {
+        "base": 75,
+        "grow": 5
+      },
+      "dex": {
+        "base": 208,
+        "grow": 6
+      },
+      "vit": {
+        "base": 260,
+        "grow": 12
+      },
+      "luck": {
+        "base": 250,
+        "grow": 8
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "劍魂  雄",
+    "level": 1,
+    "hp": 3000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 250,
+    "def": 200,
+    "move": 22,
+    "exp": 200,
+    "camp": 1,
+    "categoryId": 225,
+    "attrDefenceId": 27,
+    "abilities": {
+      "str": {
+        "base": 250,
+        "grow": 0
+      },
+      "mag": {
+        "base": 200,
+        "grow": 0
+      },
+      "dex": {
+        "base": 250,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 255,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "劍魂  雌",
+    "level": 1,
+    "hp": 3000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 200,
+    "def": 125,
+    "move": 28,
+    "exp": 200,
+    "camp": 1,
+    "categoryId": 226,
+    "attrDefenceId": 28,
+    "abilities": {
+      "str": {
+        "base": 200,
+        "grow": 0
+      },
+      "mag": {
+        "base": 250,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 250,
+        "grow": 0
+      },
+      "luck": {
+        "base": 255,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "劍聖",
+    "level": 1,
+    "hp": 5000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 325,
+    "def": 162,
+    "move": 30,
+    "exp": 180,
+    "camp": 0,
+    "categoryId": 11,
+    "attrDefenceId": 1,
+    "abilities": {
+      "str": {
+        "base": 325,
+        "grow": 0
+      },
+      "mag": {
+        "base": 325,
+        "grow": 0
+      },
+      "dex": {
+        "base": 325,
+        "grow": 0
+      },
+      "vit": {
+        "base": 325,
+        "grow": 0
+      },
+      "luck": {
+        "base": 325,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "幽煌冥火",
+    "level": 64,
+    "hp": 385,
+    "hpGrow": 12,
+    "mp": 320,
+    "atk": 185,
+    "def": 0,
+    "move": 26,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 229,
+    "attrDefenceId": 16,
+    "abilities": {
+      "str": {
+        "base": 185,
+        "grow": 12
+      },
+      "mag": {
+        "base": 240,
+        "grow": 15
+      },
+      "dex": {
+        "base": 96,
+        "grow": 15
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 230,
+        "grow": 12
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "魔血眼",
+    "level": 44,
+    "hp": 320,
+    "hpGrow": 8,
+    "mp": 0,
+    "atk": 157,
+    "def": 82,
+    "move": 28,
+    "exp": 160,
+    "camp": 1,
+    "categoryId": 231,
+    "attrDefenceId": 9,
+    "abilities": {
+      "str": {
+        "base": 157,
+        "grow": 8
+      },
+      "mag": {
+        "base": 166,
+        "grow": 7
+      },
+      "dex": {
+        "base": 260,
+        "grow": 8
+      },
+      "vit": {
+        "base": 165,
+        "grow": 6
+      },
+      "luck": {
+        "base": 220,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "冰蜈蚣",
+    "level": 71,
+    "hp": 510,
+    "hpGrow": 13,
+    "mp": 0,
+    "atk": 285,
+    "def": 127,
+    "move": 18,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 218,
+    "attrDefenceId": 14,
+    "abilities": {
+      "str": {
+        "base": 285,
+        "grow": 8
+      },
+      "mag": {
+        "base": 185,
+        "grow": 10
+      },
+      "dex": {
+        "base": 320,
+        "grow": 9
+      },
+      "vit": {
+        "base": 255,
+        "grow": 14
+      },
+      "luck": {
+        "base": 295,
+        "grow": 11
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "青煞鬼",
+    "level": 64,
+    "hp": 520,
+    "hpGrow": 15,
+    "mp": 70,
+    "atk": 275,
+    "def": 112,
+    "move": 25,
+    "exp": 150,
+    "camp": 1,
+    "categoryId": 232,
+    "attrDefenceId": 6,
+    "abilities": {
+      "str": {
+        "base": 275,
+        "grow": 13
+      },
+      "mag": {
+        "base": 125,
+        "grow": 7
+      },
+      "dex": {
+        "base": 150,
+        "grow": 11
+      },
+      "vit": {
+        "base": 225,
+        "grow": 13
+      },
+      "luck": {
+        "base": 240,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "妖將",
+    "level": 1,
+    "hp": 5500,
+    "hpGrow": 0,
+    "mp": 250,
+    "atk": 350,
+    "def": 250,
+    "move": 28,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 209,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 350,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 450,
+        "grow": 0
+      },
+      "vit": {
+        "base": 500,
+        "grow": 0
+      },
+      "luck": {
+        "base": 350,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "死靈術士",
+    "level": 64,
+    "hp": 386,
+    "hpGrow": 10,
+    "mp": 280,
+    "atk": 235,
+    "def": 140,
+    "move": 22,
+    "exp": 135,
+    "camp": 1,
+    "categoryId": 223,
+    "attrDefenceId": 4,
+    "abilities": {
+      "str": {
+        "base": 235,
+        "grow": 14
+      },
+      "mag": {
+        "base": 287,
+        "grow": 15
+      },
+      "dex": {
+        "base": 196,
+        "grow": 15
+      },
+      "vit": {
+        "base": 280,
+        "grow": 16
+      },
+      "luck": {
+        "base": 260,
+        "grow": 7
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "狂魔",
+    "level": 80,
+    "hp": 900,
+    "hpGrow": 35,
+    "mp": 50,
+    "atk": 315,
+    "def": 155,
+    "move": 23,
+    "exp": 140,
+    "camp": 1,
+    "categoryId": 224,
+    "attrDefenceId": 16,
+    "abilities": {
+      "str": {
+        "base": 315,
+        "grow": 18
+      },
+      "mag": {
+        "base": 360,
+        "grow": 18
+      },
+      "dex": {
+        "base": 340,
+        "grow": 12
+      },
+      "vit": {
+        "base": 310,
+        "grow": 22
+      },
+      "luck": {
+        "base": 335,
+        "grow": 14
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "腐沫魔瘡",
+    "level": 1,
+    "hp": 15000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 170,
+    "attrDefenceId": 19,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "朱慎",
+    "level": 1,
+    "hp": 760,
+    "hpGrow": 0,
+    "mp": 220,
+    "atk": 110,
+    "def": 70,
+    "move": 20,
+    "exp": 400,
+    "camp": 1,
+    "categoryId": 155,
+    "attrDefenceId": 23,
+    "abilities": {
+      "str": {
+        "base": 110,
+        "grow": 0
+      },
+      "mag": {
+        "base": 100,
+        "grow": 0
+      },
+      "dex": {
+        "base": 135,
+        "grow": 0
+      },
+      "vit": {
+        "base": 140,
+        "grow": 0
+      },
+      "luck": {
+        "base": 120,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "夏侯儀",
+    "level": 1,
+    "hp": 580,
+    "hpGrow": 0,
+    "mp": 280,
+    "atk": 100,
+    "def": 60,
+    "move": 20,
+    "exp": 320,
+    "camp": 1,
+    "categoryId": 162,
+    "attrDefenceId": 26,
+    "abilities": {
+      "str": {
+        "base": 100,
+        "grow": 0
+      },
+      "mag": {
+        "base": 110,
+        "grow": 0
+      },
+      "dex": {
+        "base": 155,
+        "grow": 0
+      },
+      "vit": {
+        "base": 120,
+        "grow": 0
+      },
+      "luck": {
+        "base": 140,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "韓千秀",
+    "level": 1,
+    "hp": 230,
+    "hpGrow": 0,
+    "mp": 82,
+    "atk": 120,
+    "def": 70,
+    "move": 23,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 166,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 120,
+        "grow": 0
+      },
+      "mag": {
+        "base": 150,
+        "grow": 0
+      },
+      "dex": {
+        "base": 158,
+        "grow": 0
+      },
+      "vit": {
+        "base": 140,
+        "grow": 0
+      },
+      "luck": {
+        "base": 160,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "靈山老人",
+    "level": 1,
+    "hp": 800,
+    "hpGrow": 0,
+    "mp": 220,
+    "atk": 90,
+    "def": 60,
+    "move": 22,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 159,
+    "attrDefenceId": 4,
+    "abilities": {
+      "str": {
+        "base": 90,
+        "grow": 0
+      },
+      "mag": {
+        "base": 200,
+        "grow": 0
+      },
+      "dex": {
+        "base": 120,
+        "grow": 0
+      },
+      "vit": {
+        "base": 120,
+        "grow": 0
+      },
+      "luck": {
+        "base": 165,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "高世津",
+    "level": 1,
+    "hp": 1600,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 180,
+    "def": 90,
+    "move": 25,
+    "exp": 400,
+    "camp": 1,
+    "categoryId": 161,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 180,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 180,
+        "grow": 0
+      },
+      "vit": {
+        "base": 180,
+        "grow": 0
+      },
+      "luck": {
+        "base": 180,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "高戚",
+    "level": 1,
+    "hp": 2600,
+    "hpGrow": 0,
+    "mp": 550,
+    "atk": 162,
+    "def": 102,
+    "move": 28,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 158,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 162,
+        "grow": 0
+      },
+      "mag": {
+        "base": 136,
+        "grow": 0
+      },
+      "dex": {
+        "base": 158,
+        "grow": 0
+      },
+      "vit": {
+        "base": 204,
+        "grow": 0
+      },
+      "luck": {
+        "base": 142,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "鬼魄屍王",
+    "level": 1,
+    "hp": 4800,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 30,
+    "exp": 255,
+    "camp": 1,
+    "categoryId": 157,
+    "attrDefenceId": 7,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "鬼魄屍王",
+    "level": 1,
+    "hp": 4000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 255,
+    "def": 127,
+    "move": 3,
+    "exp": 255,
+    "camp": 1,
+    "categoryId": 157,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 255,
+        "grow": 0
+      },
+      "mag": {
+        "base": 255,
+        "grow": 0
+      },
+      "dex": {
+        "base": 255,
+        "grow": 3
+      },
+      "vit": {
+        "base": 255,
+        "grow": 0
+      },
+      "luck": {
+        "base": 255,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "黑龍解臾",
+    "level": 1,
+    "hp": 7500,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 300,
+    "def": 100,
+    "move": 0,
+    "exp": 400,
+    "camp": 1,
+    "categoryId": 156,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 300,
+        "grow": 0
+      },
+      "mag": {
+        "base": 200,
+        "grow": 0
+      },
+      "dex": {
+        "base": 100,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 200,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "韓無砂",
+    "level": 1,
+    "hp": 8800,
+    "hpGrow": 0,
+    "mp": 1350,
+    "atk": 280,
+    "def": 499,
+    "move": 27,
+    "exp": 450,
+    "camp": 1,
+    "categoryId": 154,
+    "attrDefenceId": 21,
+    "abilities": {
+      "str": {
+        "base": 280,
+        "grow": 0
+      },
+      "mag": {
+        "base": 250,
+        "grow": 0
+      },
+      "dex": {
+        "base": 250,
+        "grow": 0
+      },
+      "vit": {
+        "base": 999,
+        "grow": 0
+      },
+      "luck": {
+        "base": 300,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "韓無砂",
+    "level": 1,
+    "hp": 6800,
+    "hpGrow": 0,
+    "mp": 560,
+    "atk": 185,
+    "def": 100,
+    "move": 27,
+    "exp": 450,
+    "camp": 1,
+    "categoryId": 154,
+    "attrDefenceId": 20,
+    "abilities": {
+      "str": {
+        "base": 185,
+        "grow": 0
+      },
+      "mag": {
+        "base": 220,
+        "grow": 0
+      },
+      "dex": {
+        "base": 215,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 250,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "封寒月",
+    "level": 1,
+    "hp": 18500,
+    "hpGrow": 0,
+    "mp": 3650,
+    "atk": 280,
+    "def": 140,
+    "move": 25,
+    "exp": 120,
+    "camp": 1,
+    "categoryId": 153,
+    "attrDefenceId": 19,
+    "abilities": {
+      "str": {
+        "base": 280,
+        "grow": 0
+      },
+      "mag": {
+        "base": 380,
+        "grow": 0
+      },
+      "dex": {
+        "base": 380,
+        "grow": 0
+      },
+      "vit": {
+        "base": 280,
+        "grow": 0
+      },
+      "luck": {
+        "base": 300,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "鄲陰",
+    "level": 1,
+    "hp": 7000,
+    "hpGrow": 0,
+    "mp": 1480,
+    "atk": 200,
+    "def": 100,
+    "move": 22,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 152,
+    "attrDefenceId": 26,
+    "abilities": {
+      "str": {
+        "base": 200,
+        "grow": 0
+      },
+      "mag": {
+        "base": 380,
+        "grow": 0
+      },
+      "dex": {
+        "base": 290,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 335,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "高戚",
+    "level": 1,
+    "hp": 8000,
+    "hpGrow": 0,
+    "mp": 500,
+    "atk": 450,
+    "def": 250,
+    "move": 28,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 158,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 450,
+        "grow": 0
+      },
+      "mag": {
+        "base": 200,
+        "grow": 0
+      },
+      "dex": {
+        "base": 380,
+        "grow": 0
+      },
+      "vit": {
+        "base": 500,
+        "grow": 0
+      },
+      "luck": {
+        "base": 380,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "朱慎",
+    "level": 1,
+    "hp": 6000,
+    "hpGrow": 0,
+    "mp": 1200,
+    "atk": 250,
+    "def": 150,
+    "move": 22,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 155,
+    "attrDefenceId": 23,
+    "abilities": {
+      "str": {
+        "base": 250,
+        "grow": 0
+      },
+      "mag": {
+        "base": 350,
+        "grow": 0
+      },
+      "dex": {
+        "base": 320,
+        "grow": 0
+      },
+      "vit": {
+        "base": 300,
+        "grow": 0
+      },
+      "luck": {
+        "base": 325,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "凶羅",
+    "level": 90,
+    "hp": 2200,
+    "hpGrow": 0,
+    "mp": 210,
+    "atk": 350,
+    "def": 200,
+    "move": 24,
+    "exp": 120,
+    "camp": 1,
+    "categoryId": 214,
+    "attrDefenceId": 17,
+    "abilities": {
+      "str": {
+        "base": 350,
+        "grow": 0
+      },
+      "mag": {
+        "base": 350,
+        "grow": 0
+      },
+      "dex": {
+        "base": 300,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 360,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "劍邪",
+    "level": 1,
+    "hp": 20000,
+    "hpGrow": 0,
+    "mp": 3200,
+    "atk": 400,
+    "def": 150,
+    "move": 20,
+    "exp": 130,
+    "camp": 1,
+    "categoryId": 150,
+    "attrDefenceId": 23,
+    "abilities": {
+      "str": {
+        "base": 400,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 350,
+        "grow": 0
+      },
+      "vit": {
+        "base": 300,
+        "grow": 0
+      },
+      "luck": {
+        "base": 350,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "劍邪",
+    "level": 1,
+    "hp": 20000,
+    "hpGrow": 0,
+    "mp": 9999,
+    "atk": 300,
+    "def": 150,
+    "move": 20,
+    "exp": 0,
+    "camp": 1,
+    "categoryId": 150,
+    "attrDefenceId": 21,
+    "abilities": {
+      "str": {
+        "base": 300,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 350,
+        "grow": 0
+      },
+      "vit": {
+        "base": 300,
+        "grow": 0
+      },
+      "luck": {
+        "base": 999,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "心臟",
+    "level": 1,
+    "hp": 50000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 200,
+    "move": 0,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 171,
+    "attrDefenceId": 29,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 800,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "官兵槍",
+    "level": 1,
+    "hp": 50,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 22,
+    "def": 10,
+    "move": 23,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 53,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 22,
+        "grow": 4
+      },
+      "mag": {
+        "base": 14,
+        "grow": 3
+      },
+      "dex": {
+        "base": 23,
+        "grow": 3
+      },
+      "vit": {
+        "base": 20,
+        "grow": 5
+      },
+      "luck": {
+        "base": 30,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "官兵刀",
+    "level": 1,
+    "hp": 60,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 25,
+    "def": 12,
+    "move": 26,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 52,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 25,
+        "grow": 5
+      },
+      "mag": {
+        "base": 14,
+        "grow": 4
+      },
+      "dex": {
+        "base": 28,
+        "grow": 3
+      },
+      "vit": {
+        "base": 25,
+        "grow": 5
+      },
+      "luck": {
+        "base": 34,
+        "grow": 4
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "天玄弟子",
+    "level": 22,
+    "hp": 175,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 100,
+    "def": 40,
+    "move": 22,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 50,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 100,
+        "grow": 0
+      },
+      "mag": {
+        "base": 60,
+        "grow": 0
+      },
+      "dex": {
+        "base": 120,
+        "grow": 0
+      },
+      "vit": {
+        "base": 80,
+        "grow": 0
+      },
+      "luck": {
+        "base": 120,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "禁軍刀",
+    "level": 1,
+    "hp": 250,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 135,
+    "def": 100,
+    "move": 26,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 54,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 135,
+        "grow": 0
+      },
+      "mag": {
+        "base": 65,
+        "grow": 0
+      },
+      "dex": {
+        "base": 140,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 180,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "禁軍槍",
+    "level": 1,
+    "hp": 210,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 120,
+    "def": 92,
+    "move": 22,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 55,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 120,
+        "grow": 0
+      },
+      "mag": {
+        "base": 60,
+        "grow": 0
+      },
+      "dex": {
+        "base": 120,
+        "grow": 0
+      },
+      "vit": {
+        "base": 185,
+        "grow": 0
+      },
+      "luck": {
+        "base": 160,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "高世津",
+    "level": 1,
+    "hp": 160,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 46,
+    "def": 14,
+    "move": 25,
+    "exp": 500,
+    "camp": 1,
+    "categoryId": 160,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 46,
+        "grow": 0
+      },
+      "mag": {
+        "base": 10,
+        "grow": 0
+      },
+      "dex": {
+        "base": 55,
+        "grow": 0
+      },
+      "vit": {
+        "base": 28,
+        "grow": 0
+      },
+      "luck": {
+        "base": 60,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "咒首蜈蚣",
+    "level": 30,
+    "hp": 178,
+    "hpGrow": 9,
+    "mp": 0,
+    "atk": 94,
+    "def": 60,
+    "move": 22,
+    "exp": 120,
+    "camp": 1,
+    "categoryId": 216,
+    "attrDefenceId": 12,
+    "abilities": {
+      "str": {
+        "base": 94,
+        "grow": 6
+      },
+      "mag": {
+        "base": 88,
+        "grow": 3
+      },
+      "dex": {
+        "base": 100,
+        "grow": 4
+      },
+      "vit": {
+        "base": 120,
+        "grow": 8
+      },
+      "luck": {
+        "base": 105,
+        "grow": 5
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "黑龍",
+    "level": 1,
+    "hp": 7500,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 300,
+    "def": 100,
+    "move": 20,
+    "exp": 400,
+    "camp": 1,
+    "categoryId": 165,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 300,
+        "grow": 0
+      },
+      "mag": {
+        "base": 250,
+        "grow": 0
+      },
+      "dex": {
+        "base": 10,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 200,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "死魘鬼卒",
+    "level": 45,
+    "hp": 400,
+    "hpGrow": 20,
+    "mp": 0,
+    "atk": 227,
+    "def": 60,
+    "move": 27,
+    "exp": 160,
+    "camp": 1,
+    "categoryId": 236,
+    "attrDefenceId": 8,
+    "abilities": {
+      "str": {
+        "base": 227,
+        "grow": 10
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 200,
+        "grow": 6
+      },
+      "vit": {
+        "base": 120,
+        "grow": 10
+      },
+      "luck": {
+        "base": 185,
+        "grow": 7
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "兇骸兵",
+    "level": 46,
+    "hp": 324,
+    "hpGrow": 9,
+    "mp": 0,
+    "atk": 175,
+    "def": 132,
+    "move": 22,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 237,
+    "attrDefenceId": 8,
+    "abilities": {
+      "str": {
+        "base": 175,
+        "grow": 7
+      },
+      "mag": {
+        "base": 175,
+        "grow": 8
+      },
+      "dex": {
+        "base": 140,
+        "grow": 5
+      },
+      "vit": {
+        "base": 265,
+        "grow": 11
+      },
+      "luck": {
+        "base": 215,
+        "grow": 6
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "咒刃鬼",
+    "level": 80,
+    "hp": 960,
+    "hpGrow": 60,
+    "mp": 0,
+    "atk": 555,
+    "def": 190,
+    "move": 22,
+    "exp": 140,
+    "camp": 1,
+    "categoryId": 227,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 555,
+        "grow": 20
+      },
+      "mag": {
+        "base": 200,
+        "grow": 10
+      },
+      "dex": {
+        "base": 360,
+        "grow": 20
+      },
+      "vit": {
+        "base": 380,
+        "grow": 20
+      },
+      "luck": {
+        "base": 305,
+        "grow": 14
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "應奉仁",
+    "level": 1,
+    "hp": 220,
+    "hpGrow": 10,
+    "mp": 0,
+    "atk": 50,
+    "def": 30,
+    "move": 28,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 51,
+    "attrDefenceId": 2,
+    "abilities": {
+      "str": {
+        "base": 50,
+        "grow": 0
+      },
+      "mag": {
+        "base": 80,
+        "grow": 0
+      },
+      "dex": {
+        "base": 140,
+        "grow": 0
+      },
+      "vit": {
+        "base": 60,
+        "grow": 2
+      },
+      "luck": {
+        "base": 100,
+        "grow": 2
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "左手",
+    "level": 1,
+    "hp": 10000,
+    "hpGrow": 0,
+    "mp": 9999,
+    "atk": 400,
+    "def": 200,
+    "move": 0,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 167,
+    "attrDefenceId": 36,
+    "abilities": {
+      "str": {
+        "base": 400,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "頭",
+    "level": 1,
+    "hp": 60000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 500,
+    "def": 250,
+    "move": 0,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 163,
+    "attrDefenceId": 21,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 500,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 500,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "齊祀",
+    "level": 1,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 1,
+    "categoryId": 108,
+    "attrDefenceId": -1,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "赤煉鬼",
+    "level": 1,
+    "hp": 14500,
+    "hpGrow": 0,
+    "mp": 2500,
+    "atk": 500,
+    "def": 200,
+    "move": 25,
+    "exp": 400,
+    "camp": 1,
+    "categoryId": 169,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 200,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "兩佰塊",
+    "level": 1,
+    "hp": 3400,
+    "hpGrow": 0,
+    "mp": 100,
+    "atk": 500,
+    "def": 200,
+    "move": 20,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 238,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "兩佰士兵",
+    "level": 1,
+    "hp": 3000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 500,
+    "def": 100,
+    "move": 20,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 239,
+    "attrDefenceId": 5,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "兩佰術士",
+    "level": 1,
+    "hp": 2000,
+    "hpGrow": 0,
+    "mp": 8000,
+    "atk": 300,
+    "def": 100,
+    "move": 18,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 240,
+    "attrDefenceId": 21,
+    "abilities": {
+      "str": {
+        "base": 300,
+        "grow": 0
+      },
+      "mag": {
+        "base": 800,
+        "grow": 0
+      },
+      "dex": {
+        "base": 300,
+        "grow": 0
+      },
+      "vit": {
+        "base": 200,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "兩佰之王",
+    "level": 1,
+    "hp": 45000,
+    "hpGrow": 0,
+    "mp": 100,
+    "atk": 500,
+    "def": 300,
+    "move": 20,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 241,
+    "attrDefenceId": 24,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 500,
+        "grow": 0
+      },
+      "dex": {
+        "base": 200,
+        "grow": 0
+      },
+      "vit": {
+        "base": 600,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "兩佰惡魔",
+    "level": 1,
+    "hp": 55000,
+    "hpGrow": 0,
+    "mp": 100,
+    "atk": 600,
+    "def": 200,
+    "move": 18,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 243,
+    "attrDefenceId": 21,
+    "abilities": {
+      "str": {
+        "base": 600,
+        "grow": 0
+      },
+      "mag": {
+        "base": 500,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "兩佰小鬼",
+    "level": 1,
+    "hp": 55000,
+    "hpGrow": 0,
+    "mp": 100,
+    "atk": 500,
+    "def": 500,
+    "move": 26,
+    "exp": 1,
+    "camp": 1,
+    "categoryId": 242,
+    "attrDefenceId": 27,
+    "abilities": {
+      "str": {
+        "base": 500,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 1000,
+        "grow": 0
+      },
+      "luck": {
+        "base": 500,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "天玄門人",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 100,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "上官遠同事",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 101,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "崆峒派掌門",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 102,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "應奉仁",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 103,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 97,
+    "name": "紫雲派掌門",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 104,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "應靈華",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 105,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "神隱上人",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 106,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "星官王謙",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 107,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 101,
+    "name": "國師齊祀",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 108,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 102,
+    "name": "鐵匠尚英",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 109,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 103,
+    "name": "太需金仙",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 110,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 104,
+    "name": "崆峒門人",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 111,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 105,
+    "name": "紫雲派門人",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 112,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "封寒月",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 113,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "小二",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 114,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 108,
+    "name": "方芸",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 164,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 109,
+    "name": "燕明蓉",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 115,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 110,
+    "name": "紫楓",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 20,
+    "exp": 0,
+    "camp": 0,
+    "categoryId": 118,
+    "attrDefenceId": 37,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 111,
+    "name": "劍聖",
+    "level": 1,
+    "hp": 5000,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 275,
+    "def": 162,
+    "move": 30,
+    "exp": 180,
+    "camp": 1,
+    "categoryId": 151,
+    "attrDefenceId": 1,
+    "abilities": {
+      "str": {
+        "base": 275,
+        "grow": 0
+      },
+      "mag": {
+        "base": 325,
+        "grow": 0
+      },
+      "dex": {
+        "base": 325,
+        "grow": 0
+      },
+      "vit": {
+        "base": 325,
+        "grow": 0
+      },
+      "luck": {
+        "base": 275,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "韓千秀",
+    "level": 0,
+    "hp": 45,
+    "hpGrow": 5,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 25,
+    "exp": 116,
+    "camp": 1,
+    "categoryId": 116,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 113,
+    "name": "應靈華",
+    "level": 0,
+    "hp": 0,
+    "hpGrow": 0,
+    "mp": 0,
+    "atk": 0,
+    "def": 0,
+    "move": 0,
+    "exp": 117,
+    "camp": 1,
+    "categoryId": 117,
+    "attrDefenceId": 0,
+    "abilities": {
+      "str": {
+        "base": 0,
+        "grow": 0
+      },
+      "mag": {
+        "base": 0,
+        "grow": 0
+      },
+      "dex": {
+        "base": 0,
+        "grow": 0
+      },
+      "vit": {
+        "base": 0,
+        "grow": 0
+      },
+      "luck": {
+        "base": 0,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 114,
+    "name": "右手",
+    "level": 1,
+    "hp": 10000,
+    "hpGrow": 0,
+    "mp": 9999,
+    "atk": 400,
+    "def": 200,
+    "move": 0,
+    "exp": 300,
+    "camp": 1,
+    "categoryId": 168,
+    "attrDefenceId": 36,
+    "abilities": {
+      "str": {
+        "base": 400,
+        "grow": 0
+      },
+      "mag": {
+        "base": 400,
+        "grow": 0
+      },
+      "dex": {
+        "base": 400,
+        "grow": 0
+      },
+      "vit": {
+        "base": 400,
+        "grow": 0
+      },
+      "luck": {
+        "base": 400,
+        "grow": 0
+      }
+    }
+  },
+  {
+    "id": 115,
+    "name": "靈鼩",
+    "level": 0,
+    "hp": 65,
+    "hpGrow": 0,
+    "mp": 120,
+    "atk": 21,
+    "def": 11,
+    "move": 25,
+    "exp": 360,
+    "camp": 0,
+    "categoryId": 15,
+    "attrDefenceId": 30,
+    "abilities": {
+      "str": {
+        "base": 21,
+        "grow": 0
+      },
+      "mag": {
+        "base": 50,
+        "grow": 0
+      },
+      "dex": {
+        "base": 23,
+        "grow": 0
+      },
+      "vit": {
+        "base": 22,
+        "grow": 0
+      },
+      "luck": {
+        "base": 30,
+        "grow": 0
+      }
+    }
+  }
+]

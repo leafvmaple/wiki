@@ -1,0 +1,360 @@
+[
+  {
+    "id": 0,
+    "imageId": 0,
+    "link": 0,
+    "flag": 0,
+    "frameCount": 8,
+    "path": "camp00",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp00-frame000.png"
+  },
+  {
+    "id": 1,
+    "imageId": 1,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 19,
+    "path": "camp01",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp01-frame000.png"
+  },
+  {
+    "id": 2,
+    "imageId": 2,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 19,
+    "path": "camp02",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp02-frame000.png"
+  },
+  {
+    "id": 3,
+    "imageId": 3,
+    "link": 2,
+    "flag": 1,
+    "frameCount": 9,
+    "path": "camp03",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp03-frame000.png"
+  },
+  {
+    "id": 4,
+    "imageId": 4,
+    "link": 4,
+    "flag": 1,
+    "frameCount": 9,
+    "path": "camp04",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp04-frame000.png"
+  },
+  {
+    "id": 5,
+    "imageId": 5,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 21,
+    "path": "camp05",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp05-frame000.png"
+  },
+  {
+    "id": 6,
+    "imageId": 6,
+    "link": 6,
+    "flag": 1,
+    "frameCount": 14,
+    "path": "camp06",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp06-frame000.png"
+  },
+  {
+    "id": 7,
+    "imageId": 7,
+    "link": 8,
+    "flag": 1,
+    "frameCount": 14,
+    "path": "camp07",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp07-frame000.png"
+  },
+  {
+    "id": 8,
+    "imageId": 8,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp08",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp08-frame000.png"
+  },
+  {
+    "id": 9,
+    "imageId": 9,
+    "link": 10,
+    "flag": 1,
+    "frameCount": 14,
+    "path": "camp09",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp09-frame000.png"
+  },
+  {
+    "id": 10,
+    "imageId": 10,
+    "link": 12,
+    "flag": 1,
+    "frameCount": 9,
+    "path": "camp10",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp10-frame000.png"
+  },
+  {
+    "id": 11,
+    "imageId": 11,
+    "link": 14,
+    "flag": 1,
+    "frameCount": 9,
+    "path": "camp11",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp11-frame000.png"
+  },
+  {
+    "id": 12,
+    "imageId": 12,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp12",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp12-frame000.png"
+  },
+  {
+    "id": 13,
+    "imageId": 13,
+    "link": 16,
+    "flag": 1,
+    "frameCount": 9,
+    "path": "camp13",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp13-frame000.png"
+  },
+  {
+    "id": 14,
+    "imageId": 14,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp14",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp14-frame000.png"
+  },
+  {
+    "id": 15,
+    "imageId": 15,
+    "link": 18,
+    "flag": 1,
+    "frameCount": 6,
+    "path": "camp15",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp15-frame000.png"
+  },
+  {
+    "id": 16,
+    "imageId": 16,
+    "link": 20,
+    "flag": 1,
+    "frameCount": 6,
+    "path": "camp16",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp16-frame000.png"
+  },
+  {
+    "id": 17,
+    "imageId": 17,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp17",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp17-frame000.png"
+  },
+  {
+    "id": 18,
+    "imageId": 18,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp18",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp18-frame000.png"
+  },
+  {
+    "id": 19,
+    "imageId": 19,
+    "link": 22,
+    "flag": 1,
+    "frameCount": 6,
+    "path": "camp19",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp19-frame000.png"
+  },
+  {
+    "id": 20,
+    "imageId": 20,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp20",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp20-frame000.png"
+  },
+  {
+    "id": 21,
+    "imageId": 21,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 1,
+    "path": "camp21",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp21-frame000.png"
+  },
+  {
+    "id": 22,
+    "imageId": 22,
+    "link": 24,
+    "flag": 1,
+    "frameCount": 6,
+    "path": "camp22",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp22-frame000.png"
+  },
+  {
+    "id": 23,
+    "imageId": 23,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp23",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp23-frame000.png"
+  },
+  {
+    "id": 24,
+    "imageId": 24,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp24",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp24-frame000.png"
+  },
+  {
+    "id": 25,
+    "imageId": 25,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp25",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp25-frame000.png"
+  },
+  {
+    "id": 26,
+    "imageId": 26,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 29,
+    "path": "camp26",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp26-frame000.png"
+  },
+  {
+    "id": 27,
+    "imageId": 27,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 29,
+    "path": "camp27",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp27-frame000.png"
+  },
+  {
+    "id": 28,
+    "imageId": 28,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp28",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp28-frame000.png"
+  },
+  {
+    "id": 29,
+    "imageId": 29,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp29",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp29-frame000.png"
+  },
+  {
+    "id": 30,
+    "imageId": 30,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp30",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp30-frame000.png"
+  },
+  {
+    "id": 31,
+    "imageId": 31,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp31",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp31-frame000.png"
+  },
+  {
+    "id": 32,
+    "imageId": 32,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp32",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp32-frame000.png"
+  },
+  {
+    "id": 33,
+    "imageId": 33,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 31,
+    "path": "camp33",
+    "hasImage": true,
+    "imagePath": "/assets/sword-man/camps/camp33-frame000.png"
+  },
+  {
+    "id": 34,
+    "imageId": 34,
+    "link": -1,
+    "flag": 0,
+    "frameCount": 0,
+    "hasImage": false,
+    "imagePath": null
+  },
+  {
+    "id": 35,
+    "imageId": 22,
+    "link": 25,
+    "flag": 1,
+    "frameCount": 6,
+    "hasImage": true,
+    "imagePath": null
+  }
+]

@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+﻿import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
@@ -62,6 +62,19 @@ export default defineConfig({
                 { label: '饰品', link: '/games/octopath-traveler-0/equipment/accessories/' },
               ],
             },
+          ],
+        },
+        {
+          label: '天地劫·神魔至尊传',
+          collapsed: true,
+          items: [
+            { label: '游戏总览', link: '/games/sword-man/' },
+            { label: '角色资料', link: '/games/sword-man/characters/' },
+            { label: '技能法术', link: '/games/sword-man/skills/' },
+            { label: '怪物图鉴', link: '/games/sword-man/monsters/' },
+            { label: '关卡资料', link: '/games/sword-man/battles/' },
+            { label: '营地资料', link: '/games/sword-man/camps/' },
+            { label: '数据说明', link: '/games/sword-man/data-notes/' },
           ],
         },
         {

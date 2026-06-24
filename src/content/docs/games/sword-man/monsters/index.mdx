@@ -1,0 +1,15 @@
+---
+title: 怪物图鉴
+description: 《天地劫·神魔至尊传》怪物和战场单位的等级、HP、攻防、移动与五维成长。
+game: '天地劫·神魔至尊传'
+lastVerified: '2026-06-24'
+sidebar:
+  order: 4
+  label: 怪物图鉴
+---
+
+import TdjDataTable from '../../../../../components/TdjDataTable.astro';
+
+怪物图鉴来自 `data/db/monsters.json`。当前表格按数据索引排序，包含敌方单位，也包含原始表中出现的角色型单位。
+
+<TdjDataTable kind="monsters" />

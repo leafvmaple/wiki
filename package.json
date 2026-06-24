@@ -10,6 +10,7 @@
     "preview": "astro preview --host=127.0.0.1 --port=4173",
     "generate:stardew": "node scripts/generate-stardew-data.mjs",
     "generate:stardew-assets": "node scripts/generate-stardew-assets.mjs",
+    "generate:tdj": "node scripts/generate-tdj-data.mjs",
     "test:hover": "npm run build && node scripts/visual-check-tooltip.mjs",
     "validate:stardew": "node scripts/validate-stardew-data.mjs"
   },

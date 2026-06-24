@@ -1,8 +1,10 @@
----
+﻿---
 import octopathSummary from '../data/octopath-traveler-0/generated/summary.json';
+import octopathAssets from '../data/octopath-traveler-0/generated/assets.json';
 import stardewSummary from '../data/stardew-valley/generated/summary.json';
 import stardewTown from '../data/stardew-valley/generated/maps/town.json';
 import stardewAssets from '../data/stardew-valley/generated/assets.json';
+import tdjSummary from '../data/sword-man/generated/summary.json';
 import OctopathIcon from './OctopathIcon.astro';
 import StardewIcon from './StardewIcon.astro';
 
@@ -14,6 +16,7 @@ const games = [
     kicker: '主线 · 招募 · 角色',
     status: '重点维护中',
     summary: '从任务线、章节等级、伙伴招募和角色资料进入，适合查主线推进、前置任务与可招募伙伴。',
+    image: (octopathAssets as any).hero ?? undefined,
     stats: [
       { value: octopathSummary.counts.quests, label: '任务' },
       { value: octopathSummary.counts.characters, label: '角色' },
@@ -44,12 +47,31 @@ const games = [
       { label: '村民索引', href: '/games/stardew-valley/villagers/', kind: 'npc' },
     ],
   },
+  {
+    id: 'tdj',
+    title: '天地劫·神魔至尊传',
+    href: '/games/sword-man/',
+    kicker: '战棋 · 角色 · 关卡',
+    status: '资料整理中',
+    summary: '把 tdj-godot 中收集的角色成长、技能法术、怪物单位、关卡布阵和营地资源整理成可检索资料站。',
+    image: tdjSummary.assets.showcase,
+    stats: [
+      { value: tdjSummary.counts.characters, label: '角色' },
+      { value: tdjSummary.counts.skills, label: '技能' },
+      { value: tdjSummary.counts.battles, label: '关卡' },
+    ],
+    links: [
+      { label: '角色资料', href: '/games/sword-man/characters/', kind: 'character' },
+      { label: '技能法术', href: '/games/sword-man/skills/', kind: 'skill' },
+      { label: '关卡资料', href: '/games/sword-man/battles/', kind: 'battle' },
+    ],
+  },
 ];
 
 const totals = [
   { value: games.length, label: '游戏入口' },
-  { value: octopathSummary.counts.quests, label: '歧路任务' },
-  { value: stardewSummary.counts.objects, label: '星露条目' },
+  { value: octopathSummary.counts.quests + tdjSummary.counts.battles, label: '任务/关卡' },
+  { value: stardewSummary.counts.objects + tdjSummary.counts.skills, label: '资料条目' },
 ];
 ---
 
@@ -94,6 +116,8 @@ const totals = [
           <a href={link.href}>
             {game.id === 'stardew' ? (
               <StardewIcon kind={link.kind} label={link.label} compact link={false} />
+            ) : game.id === 'tdj' ? (
+              <span class="home-link-chip">{link.label}</span>
             ) : (
               <OctopathIcon kind={link.kind} label={link.label} compact />
             )}
@@ -225,9 +249,17 @@ const totals = [
 
   .home-game-card.is-octopath::before {
     background:
-      linear-gradient(135deg, rgba(35, 183, 229, 0.2), rgba(39, 194, 76, 0.08)),
-      radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.55), transparent 22%),
-      linear-gradient(135deg, #2c3e50, #6f5cc4 55%, #b87938);
+      linear-gradient(180deg, rgba(10, 17, 28, 0.05), var(--leaf-bg-card) 86%),
+      var(--home-game-image);
+    background-position: center 32%;
+    background-size: cover;
+  }
+
+  .home-game-card.is-tdj::before {
+    background:
+      linear-gradient(180deg, rgba(10, 17, 28, 0.08), var(--leaf-bg-card) 86%),
+      var(--home-game-image);
+    background-position: center 44%;
   }
 
   .home-game-card > * {
@@ -300,6 +332,17 @@ const totals = [
 
   .home-game-links a:hover {
     color: var(--leaf-primary-hover);
+  }
+
+  .home-link-chip {
+    border: 1px solid rgba(35, 183, 229, 0.28);
+    border-radius: var(--leaf-radius-card);
+    background: rgba(35, 183, 229, 0.08);
+    display: inline-flex;
+    font-size: 0.92rem;
+    font-weight: 800;
+    line-height: 1.15;
+    padding: 0.38rem 0.52rem;
   }
 
   @media (max-width: 50rem) {

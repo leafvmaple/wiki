@@ -1,0 +1,2391 @@
+[
+  {
+    "id": "Stage00",
+    "order": 0,
+    "file": "Stage00.json",
+    "source": "Stage/Stage00/XY_00.cod",
+    "map": {
+      "texture": "Stage00",
+      "width": 24,
+      "height": 16,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 384
+    },
+    "playerCount": 3,
+    "combatPlayerCount": 2,
+    "enemyCount": 4,
+    "introLineCount": 59,
+    "outroLineCount": 130,
+    "playerNames": [
+      "殷劍平",
+      "應奉仁",
+      "應靈華"
+    ],
+    "enemyNames": [
+      "夜魑"
+    ],
+    "enemySkillNames": [],
+    "itemNames": [
+      "长剑",
+      "软革 衣"
+    ],
+    "maxEnemyLevel": 1,
+    "topEnemies": [
+      {
+        "name": "夜魑",
+        "hp": 89,
+        "level": 1
+      },
+      {
+        "name": "夜魑",
+        "hp": 89,
+        "level": 1
+      },
+      {
+        "name": "夜魑",
+        "hp": 89,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage01",
+    "order": 1,
+    "file": "Stage01.json",
+    "source": "Stage/Stage01/XY_01.COD",
+    "map": {
+      "texture": "Stage01",
+      "width": 33,
+      "height": 29,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 957
+    },
+    "playerCount": 4,
+    "combatPlayerCount": 2,
+    "enemyCount": 8,
+    "introLineCount": 218,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "小二"
+    ],
+    "enemyNames": [
+      "四象門劍"
+    ],
+    "enemySkillNames": [
+      "雷引之術"
+    ],
+    "itemNames": [
+      "长剑",
+      "布衣",
+      "匕首",
+      "辟邪玉佩"
+    ],
+    "maxEnemyLevel": 1,
+    "topEnemies": [
+      {
+        "name": "四象門劍",
+        "hp": 47,
+        "level": 1
+      },
+      {
+        "name": "四象門劍",
+        "hp": 47,
+        "level": 1
+      },
+      {
+        "name": "四象門劍",
+        "hp": 47,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage02",
+    "order": 2,
+    "file": "Stage02.json",
+    "source": "Stage/Stage02/XY_02.COD",
+    "map": {
+      "texture": "Stage02",
+      "width": 27,
+      "height": 21,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 567
+    },
+    "playerCount": 3,
+    "combatPlayerCount": 2,
+    "enemyCount": 11,
+    "introLineCount": 68,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月"
+    ],
+    "enemyNames": [
+      "四象門劍",
+      "四象門術",
+      "高世津"
+    ],
+    "enemySkillNames": [
+      "雷引之術"
+    ],
+    "itemNames": [
+      "长剑",
+      "布衣",
+      "匕首",
+      "软革 衣",
+      "清神净玉",
+      "金创药"
+    ],
+    "maxEnemyLevel": 6,
+    "topEnemies": [
+      {
+        "name": "高世津",
+        "hp": 160,
+        "level": 6
+      },
+      {
+        "name": "四象門劍",
+        "hp": 52,
+        "level": 2
+      },
+      {
+        "name": "四象門劍",
+        "hp": 52,
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": "Stage03",
+    "order": 3,
+    "file": "Stage03.json",
+    "source": "Stage/Stage03/XY_03.COD",
+    "map": {
+      "texture": "Stage03",
+      "width": 25,
+      "height": 37,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 925
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 10,
+    "enemyCount": 15,
+    "introLineCount": 183,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "官兵槍",
+      "官兵刀"
+    ],
+    "enemyNames": [
+      "骨卒",
+      "死刀兵",
+      "高戚"
+    ],
+    "enemySkillNames": [],
+    "itemNames": [
+      "软革 衣",
+      "铁枪",
+      "厚背砍刀"
+    ],
+    "maxEnemyLevel": 6,
+    "topEnemies": [
+      {
+        "name": "高戚",
+        "hp": 2600,
+        "level": 1
+      },
+      {
+        "name": "死刀兵",
+        "hp": 118,
+        "level": 6
+      },
+      {
+        "name": "死刀兵",
+        "hp": 118,
+        "level": 6
+      }
+    ]
+  },
+  {
+    "id": "Stage04",
+    "order": 4,
+    "file": "Stage04.json",
+    "source": "Stage/Stage04/XY_04.COD",
+    "map": {
+      "texture": "Stage04",
+      "width": 30,
+      "height": 28,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 840
+    },
+    "playerCount": 6,
+    "combatPlayerCount": 4,
+    "enemyCount": 16,
+    "introLineCount": 60,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "神隱上人",
+      "靈鼩"
+    ],
+    "enemyNames": [
+      "骨卒",
+      "死刀兵",
+      "夜魑",
+      "屍蟲",
+      "土魎"
+    ],
+    "enemySkillNames": [
+      "鬼火彈"
+    ],
+    "itemNames": [
+      "铁枪",
+      "软革 衣",
+      "厚背砍刀"
+    ],
+    "maxEnemyLevel": 4,
+    "topEnemies": [
+      {
+        "name": "夜魑",
+        "hp": 116,
+        "level": 4
+      },
+      {
+        "name": "夜魑",
+        "hp": 116,
+        "level": 4
+      },
+      {
+        "name": "夜魑",
+        "hp": 116,
+        "level": 4
+      }
+    ]
+  },
+  {
+    "id": "Stage05",
+    "order": 5,
+    "file": "Stage05.json",
+    "source": "Stage/Stage05/XY_05.COD",
+    "map": {
+      "texture": "Stage05",
+      "width": 27,
+      "height": 37,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 999
+    },
+    "playerCount": 5,
+    "combatPlayerCount": 4,
+    "enemyCount": 18,
+    "introLineCount": 68,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "劍聖"
+    ],
+    "enemyNames": [
+      "骨卒",
+      "屍蟲",
+      "死刀兵",
+      "夜魑",
+      "土魎",
+      "羅鬼",
+      "紫焰妖靈",
+      "化蛇"
+    ],
+    "enemySkillNames": [
+      "鬼顱彈",
+      "奪魄鬼咒",
+      "五雷正法",
+      "攬風神行",
+      "化血毒沫"
+    ],
+    "itemNames": [
+      "布衣",
+      "钢铁戟",
+      "硬皮胸铠",
+      "镔铁重剑"
+    ],
+    "maxEnemyLevel": 5,
+    "topEnemies": [
+      {
+        "name": "紫焰妖靈",
+        "hp": 273,
+        "level": 1
+      },
+      {
+        "name": "紫焰妖靈",
+        "hp": 273,
+        "level": 1
+      },
+      {
+        "name": "化蛇",
+        "hp": 248,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage06",
+    "order": 6,
+    "file": "Stage06.json",
+    "source": "Stage/Stage06/XY_06.COD",
+    "map": {
+      "texture": "Stage06",
+      "width": 34,
+      "height": 20,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 680
+    },
+    "playerCount": 5,
+    "combatPlayerCount": 4,
+    "enemyCount": 19,
+    "introLineCount": 120,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超"
+    ],
+    "enemyNames": [
+      "骨卒",
+      "死刀兵",
+      "朱焰魔火",
+      "屍蟲",
+      "妖術士",
+      "鄲陰"
+    ],
+    "enemySkillNames": [
+      "離火神訣",
+      "鬼顱彈",
+      "陰風邪舞",
+      "狂魔大法",
+      "奪魄鬼咒"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "硬皮胸铠",
+      "镔铁重剑",
+      "赤炼火铜",
+      "精钢短剑",
+      "法袍",
+      "龙骨项炼"
+    ],
+    "maxEnemyLevel": 7,
+    "topEnemies": [
+      {
+        "name": "鄲陰",
+        "hp": 7000,
+        "level": 1
+      },
+      {
+        "name": "死刀兵",
+        "hp": 126,
+        "level": 7
+      },
+      {
+        "name": "死刀兵",
+        "hp": 126,
+        "level": 7
+      }
+    ]
+  },
+  {
+    "id": "Stage07",
+    "order": 7,
+    "file": "Stage07.json",
+    "source": "Stage/Stage07/XY_07.COD",
+    "map": {
+      "texture": "Stage07",
+      "width": 33,
+      "height": 22,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 726
+    },
+    "playerCount": 6,
+    "combatPlayerCount": 5,
+    "enemyCount": 24,
+    "introLineCount": 105,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓"
+    ],
+    "enemyNames": [
+      "夜魑",
+      "朱焰魔火",
+      "妖術士",
+      "羽魅",
+      "屍蟲",
+      "羅鬼",
+      "劍邪"
+    ],
+    "enemySkillNames": [
+      "離火神訣",
+      "陰風邪舞",
+      "奪魄鬼咒",
+      "妖光邪眼",
+      "鬼顱彈"
+    ],
+    "itemNames": [
+      "精钢短剑",
+      "法袍"
+    ],
+    "maxEnemyLevel": 10,
+    "topEnemies": [
+      {
+        "name": "劍邪",
+        "hp": 20000,
+        "level": 1
+      },
+      {
+        "name": "羅鬼",
+        "hp": 260,
+        "level": 5
+      },
+      {
+        "name": "夜魑",
+        "hp": 170,
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": "Stage08",
+    "order": 8,
+    "file": "Stage08.json",
+    "source": "Stage/Stage08/XY_08.COD",
+    "map": {
+      "texture": "Stage08",
+      "width": 40,
+      "height": 40,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1600
+    },
+    "playerCount": 7,
+    "combatPlayerCount": 6,
+    "enemyCount": 23,
+    "introLineCount": 56,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "不淨散人"
+    ],
+    "enemyNames": [
+      "屍蟲",
+      "羽魅",
+      "朱焰魔火",
+      "刀凜鬼",
+      "妖術士",
+      "血煉鬼",
+      "朱慎"
+    ],
+    "enemySkillNames": [
+      "鬼顱彈",
+      "妖光邪眼",
+      "離火神訣",
+      "鬼叉刃",
+      "陰風邪舞",
+      "狂魔大法",
+      "奪魄鬼咒",
+      "攝魂鬼觸"
+    ],
+    "itemNames": [
+      "赤炼火铜",
+      "精钢短剑",
+      "法袍",
+      "布衣",
+      "琅环玉璧"
+    ],
+    "maxEnemyLevel": 25,
+    "topEnemies": [
+      {
+        "name": "朱慎",
+        "hp": 760,
+        "level": 25
+      },
+      {
+        "name": "刀凜鬼",
+        "hp": 140,
+        "level": 1
+      },
+      {
+        "name": "刀凜鬼",
+        "hp": 140,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "STAGE09",
+    "order": 9,
+    "file": "STAGE09.json",
+    "source": "Stage/STAGE09/XY_09.COD",
+    "map": {
+      "texture": "Stage09",
+      "width": 20,
+      "height": 37,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 740
+    },
+    "playerCount": 7,
+    "combatPlayerCount": 6,
+    "enemyCount": 23,
+    "introLineCount": 67,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤"
+    ],
+    "enemyNames": [
+      "血煉鬼",
+      "羽魅",
+      "刀凜鬼",
+      "屍蟲",
+      "朱焰魔火",
+      "鄲陰"
+    ],
+    "enemySkillNames": [
+      "攝魂鬼觸",
+      "妖光邪眼",
+      "鬼叉刃",
+      "鬼顱彈",
+      "焚炎之陣",
+      "冥幻之陣",
+      "凶祟之陣",
+      "魔天降臨"
+    ],
+    "itemNames": [
+      "琉璃星簪",
+      "妖骨爪",
+      "鬼魄碧晶"
+    ],
+    "maxEnemyLevel": 75,
+    "topEnemies": [
+      {
+        "name": "鄲陰",
+        "hp": 7000,
+        "level": 75
+      },
+      {
+        "name": "刀凜鬼",
+        "hp": 164,
+        "level": 3
+      },
+      {
+        "name": "刀凜鬼",
+        "hp": 164,
+        "level": 3
+      }
+    ]
+  },
+  {
+    "id": "STAGE10",
+    "order": 10,
+    "file": "STAGE10.json",
+    "source": "Stage/STAGE10/XY_10.COD",
+    "map": {
+      "texture": "Stage10",
+      "width": 45,
+      "height": 17,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 765
+    },
+    "playerCount": 8,
+    "combatPlayerCount": 6,
+    "enemyCount": 36,
+    "introLineCount": 123,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "燕明蓉"
+    ],
+    "enemyNames": [
+      "羅鬼",
+      "血煉鬼",
+      "刀凜鬼",
+      "羽魅",
+      "屍蟲",
+      "朱焰魔火",
+      "夏侯儀"
+    ],
+    "enemySkillNames": [
+      "攝魂鬼觸",
+      "鬼叉刃",
+      "妖光邪眼",
+      "鬼顱彈",
+      "焚炎之陣",
+      "滅魂大法"
+    ],
+    "itemNames": [
+      "铁爪",
+      "黑缎笼衫",
+      "冥华紫晶"
+    ],
+    "maxEnemyLevel": 40,
+    "topEnemies": [
+      {
+        "name": "夏侯儀",
+        "hp": 580,
+        "level": 40
+      },
+      {
+        "name": "羅鬼",
+        "hp": 300,
+        "level": 7
+      },
+      {
+        "name": "羅鬼",
+        "hp": 300,
+        "level": 7
+      }
+    ]
+  },
+  {
+    "id": "STAGE11",
+    "order": 11,
+    "file": "STAGE11.json",
+    "source": "Stage/STAGE11/XY_11.COD",
+    "map": {
+      "texture": "Stage11",
+      "width": 22,
+      "height": 46,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1012
+    },
+    "playerCount": 15,
+    "combatPlayerCount": 13,
+    "enemyCount": 24,
+    "introLineCount": 132,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "應奉仁",
+      "天玄弟子",
+      "應靈華"
+    ],
+    "enemyNames": [
+      "四象門劍",
+      "四象門術"
+    ],
+    "enemySkillNames": [
+      "神氣流轉",
+      "雷引之術",
+      "離火神訣",
+      "封魔神道"
+    ],
+    "itemNames": [
+      "沉碧剑",
+      "锁子甲",
+      "五尊神令",
+      "明尊舍利",
+      "青钢剑",
+      "赤炼火铜",
+      "缀玉华装",
+      "天狼邪眼"
+    ],
+    "maxEnemyLevel": 1,
+    "topEnemies": [
+      {
+        "name": "四象門劍",
+        "hp": 178,
+        "level": 1
+      },
+      {
+        "name": "四象門劍",
+        "hp": 178,
+        "level": 1
+      },
+      {
+        "name": "四象門劍",
+        "hp": 178,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "STAGE12",
+    "order": 12,
+    "file": "STAGE12.json",
+    "source": "Stage/STAGE12/XY_12.COD",
+    "map": {
+      "texture": "Stage12",
+      "width": 31,
+      "height": 45,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1395
+    },
+    "playerCount": 8,
+    "combatPlayerCount": 7,
+    "enemyCount": 29,
+    "introLineCount": 115,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "韓千秀"
+    ],
+    "enemyNames": [
+      "四象門劍",
+      "四象門術",
+      "咒首蜈蚣",
+      "韓千秀"
+    ],
+    "enemySkillNames": [
+      "神氣流轉",
+      "雷引之術",
+      "天霜雪舞",
+      "封魔神道"
+    ],
+    "itemNames": [
+      "沉碧剑",
+      "锁子甲",
+      "护命神符",
+      "缀玉华装",
+      "韩家双镰",
+      "薄钢环甲",
+      "昂昴角簪"
+    ],
+    "maxEnemyLevel": 30,
+    "topEnemies": [
+      {
+        "name": "韓千秀",
+        "hp": 230,
+        "level": 30
+      },
+      {
+        "name": "四象門劍",
+        "hp": 192,
+        "level": 3
+      },
+      {
+        "name": "四象門劍",
+        "hp": 192,
+        "level": 3
+      }
+    ]
+  },
+  {
+    "id": "Stage13",
+    "order": 13,
+    "file": "Stage13.json",
+    "source": "Stage/Stage13/XY_13.COD",
+    "map": {
+      "texture": "Stage13",
+      "width": 25,
+      "height": 33,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 825
+    },
+    "playerCount": 36,
+    "combatPlayerCount": 7,
+    "enemyCount": 29,
+    "introLineCount": 101,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "韓千秀",
+      "方芸",
+      "崆峒派掌門",
+      "崆峒門人",
+      "紫雲派掌門",
+      "紫雲派門人"
+    ],
+    "enemyNames": [
+      "四象門劍",
+      "四象門術",
+      "咒首蜈蚣",
+      "韓無砂",
+      "高世津",
+      "靈山老人"
+    ],
+    "enemySkillNames": [
+      "神氣流轉",
+      "雷引之術",
+      "離火神訣",
+      "封魔神道",
+      "返命之陣",
+      "冰華之陣",
+      "血刃之咒"
+    ],
+    "itemNames": [
+      "沉碧剑",
+      "锁子甲",
+      "护命神符",
+      "缀玉华装",
+      "辉月魂石",
+      "影织衣",
+      "蟠龙玉带"
+    ],
+    "maxEnemyLevel": 36,
+    "topEnemies": [
+      {
+        "name": "韓無砂",
+        "hp": 8800,
+        "level": 1
+      },
+      {
+        "name": "高世津",
+        "hp": 1600,
+        "level": 33
+      },
+      {
+        "name": "靈山老人",
+        "hp": 800,
+        "level": 36
+      }
+    ]
+  },
+  {
+    "id": "Stage14",
+    "order": 14,
+    "file": "Stage14.json",
+    "source": "Stage/Stage14/XY_14.COD",
+    "map": {
+      "texture": "Stage14",
+      "width": 17,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 850
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 7,
+    "enemyCount": 35,
+    "introLineCount": 143,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "韓千秀",
+      "燕明蓉"
+    ],
+    "enemyNames": [
+      "紫焰妖靈",
+      "化蛇",
+      "炎羅鬼",
+      "咒首蜈蚣",
+      "鋼破鬼",
+      "高戚"
+    ],
+    "enemySkillNames": [
+      "奪魄鬼咒",
+      "滅魂大法",
+      "攬風神行",
+      "化血毒沫",
+      "魔嶽鬼炎",
+      "鬼火彈",
+      "絕煞劍"
+    ],
+    "itemNames": [
+      "辉月魂石"
+    ],
+    "maxEnemyLevel": 40,
+    "topEnemies": [
+      {
+        "name": "高戚",
+        "hp": 2600,
+        "level": 40
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 295,
+        "level": 1
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 295,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage15",
+    "order": 15,
+    "file": "Stage15.json",
+    "source": "Stage/Stage15/XY_15.COD",
+    "map": {
+      "texture": "Stage15",
+      "width": 30,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1500
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 8,
+    "enemyCount": 38,
+    "introLineCount": 96,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "咒首蜈蚣",
+      "炎羅鬼",
+      "化蛇",
+      "紫焰妖靈",
+      "鬼道者",
+      "鬼魄屍王",
+      "夏侯儀",
+      "鄲陰"
+    ],
+    "enemySkillNames": [
+      "鬼火彈",
+      "魔嶽鬼炎",
+      "化血毒沫",
+      "奪魄鬼咒",
+      "滅魂大法",
+      "魔煞冥凜",
+      "封魔神道"
+    ],
+    "itemNames": [
+      "铁爪",
+      "黑缎笼衫",
+      "冥华紫晶"
+    ],
+    "maxEnemyLevel": 50,
+    "topEnemies": [
+      {
+        "name": "鄲陰",
+        "hp": 7000,
+        "level": 1
+      },
+      {
+        "name": "鬼魄屍王",
+        "hp": 4800,
+        "level": 50
+      },
+      {
+        "name": "夏侯儀",
+        "hp": 580,
+        "level": 40
+      }
+    ]
+  },
+  {
+    "id": "Stage16",
+    "order": 16,
+    "file": "Stage16.json",
+    "source": "Stage/Stage16/XY_16.COD",
+    "map": {
+      "texture": "Stage16",
+      "width": 23,
+      "height": 49,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1127
+    },
+    "playerCount": 22,
+    "combatPlayerCount": 21,
+    "enemyCount": 45,
+    "introLineCount": 126,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "禁軍刀",
+      "禁軍槍"
+    ],
+    "enemyNames": [
+      "炎羅鬼",
+      "化蛇",
+      "咒首蜈蚣",
+      "紫焰妖靈",
+      "鋼破鬼",
+      "鬼道者",
+      "韓無砂"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "化血毒沫",
+      "鬼火彈",
+      "奪魄鬼咒",
+      "五雷正法",
+      "魔煞冥凜",
+      "地禦之陣"
+    ],
+    "itemNames": [
+      "薄钢环甲",
+      "朱樱枪"
+    ],
+    "maxEnemyLevel": 10,
+    "topEnemies": [
+      {
+        "name": "韓無砂",
+        "hp": 8800,
+        "level": 1
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 325,
+        "level": 4
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 325,
+        "level": 4
+      }
+    ]
+  },
+  {
+    "id": "Stage17",
+    "order": 17,
+    "file": "Stage17.json",
+    "source": "Stage/Stage17/XY_17.COD",
+    "map": {
+      "texture": "Stage17",
+      "width": 22,
+      "height": 93,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 2046
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 10,
+    "enemyCount": 48,
+    "introLineCount": 149,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "靈鼩"
+    ],
+    "enemyNames": [
+      "化蛇",
+      "死魎蟲",
+      "炎羅鬼",
+      "紫焰妖靈",
+      "鋼破鬼"
+    ],
+    "enemySkillNames": [
+      "化血毒沫",
+      "鬼顱彈",
+      "魔嶽鬼炎",
+      "血刃之咒",
+      "五雷正法"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 10,
+    "topEnemies": [
+      {
+        "name": "炎羅鬼",
+        "hp": 345,
+        "level": 6
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 345,
+        "level": 6
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 345,
+        "level": 6
+      }
+    ]
+  },
+  {
+    "id": "Stage18",
+    "order": 18,
+    "file": "Stage18.json",
+    "source": "Stage/Stage18/XY_18.COD",
+    "map": {
+      "texture": "Stage18",
+      "width": 34,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1700
+    },
+    "playerCount": 10,
+    "combatPlayerCount": 9,
+    "enemyCount": 43,
+    "introLineCount": 50,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "化蛇",
+      "魔血眼",
+      "炎羅鬼",
+      "死魘鬼卒",
+      "鋼破鬼",
+      "兇骸兵",
+      "死魎蟲",
+      "紫焰妖靈",
+      "鬼道者",
+      "齊祀"
+    ],
+    "enemySkillNames": [
+      "化血毒沫",
+      "妖光邪眼",
+      "魔嶽鬼炎",
+      "鬼顱彈",
+      "五雷正法",
+      "焚炎之陣",
+      "冰華之陣",
+      "滅魂大法"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲"
+    ],
+    "maxEnemyLevel": 10,
+    "topEnemies": [
+      {
+        "name": "死魘鬼卒",
+        "hp": 420,
+        "level": 1
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 420,
+        "level": 1
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 420,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage19",
+    "order": 19,
+    "file": "Stage19.json",
+    "source": "Stage/Stage19/XY_19.COD",
+    "map": {
+      "texture": "Stage19",
+      "width": 40,
+      "height": 15,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 600
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 10,
+    "enemyCount": 38,
+    "introLineCount": 67,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "化蛇",
+      "紫焰妖靈",
+      "魔血眼",
+      "黑龍解臾",
+      "齊祀"
+    ],
+    "enemySkillNames": [
+      "化血毒沫",
+      "五雷正法",
+      "妖光邪眼"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 55,
+    "topEnemies": [
+      {
+        "name": "黑龍解臾",
+        "hp": 7500,
+        "level": 55
+      },
+      {
+        "name": "紫焰妖靈",
+        "hp": 345,
+        "level": 10
+      },
+      {
+        "name": "紫焰妖靈",
+        "hp": 345,
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": "Stage20",
+    "order": 20,
+    "file": "Stage20.json",
+    "source": "Stage/Stage20/XY_20.COD",
+    "map": {
+      "texture": "Stage20",
+      "width": 25,
+      "height": 33,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 825
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 9,
+    "enemyCount": 52,
+    "introLineCount": 308,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "上官遠",
+      "鮮于超",
+      "紫楓",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "神隱上人"
+    ],
+    "enemyNames": [
+      "四象門劍",
+      "四象門術",
+      "魔血眼",
+      "死魘鬼卒",
+      "兇骸兵",
+      "死魎蟲",
+      "紫焰妖靈",
+      "血嬰冥葵",
+      "夜魑",
+      "韓無砂"
+    ],
+    "enemySkillNames": [
+      "妖光邪眼",
+      "鬼顱彈",
+      "焚炎之陣",
+      "火蓮子",
+      "無方鬼影",
+      "黃泉鬼爪",
+      "天火之術"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲"
+    ],
+    "maxEnemyLevel": 65,
+    "topEnemies": [
+      {
+        "name": "韓無砂",
+        "hp": 8800,
+        "level": 65
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 440,
+        "level": 2
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 440,
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": "Stage21",
+    "order": 21,
+    "file": "Stage21.json",
+    "source": "Stage/Stage21/XY_21.COD",
+    "map": {
+      "texture": "Stage21",
+      "width": 38,
+      "height": 45,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1710
+    },
+    "playerCount": 10,
+    "combatPlayerCount": 9,
+    "enemyCount": 72,
+    "introLineCount": 105,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "死魘鬼卒",
+      "兇骸兵",
+      "血嬰冥葵",
+      "紫焰妖靈",
+      "鬼道者",
+      "韓無砂"
+    ],
+    "enemySkillNames": [
+      "火蓮子",
+      "奪魄鬼咒",
+      "滅魂大法",
+      "魔煞冥凜",
+      "地禦之陣",
+      "黃泉鬼爪",
+      "天火之術"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲"
+    ],
+    "maxEnemyLevel": 65,
+    "topEnemies": [
+      {
+        "name": "韓無砂",
+        "hp": 6800,
+        "level": 65
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 520,
+        "level": 6
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 520,
+        "level": 6
+      }
+    ]
+  },
+  {
+    "id": "Stage22",
+    "order": 22,
+    "file": "Stage22.json",
+    "source": "Stage/Stage22/XY_22.COD",
+    "map": {
+      "texture": "Stage22",
+      "width": 31,
+      "height": 45,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1395
+    },
+    "playerCount": 10,
+    "combatPlayerCount": 9,
+    "enemyCount": 36,
+    "introLineCount": 60,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "死魘鬼卒",
+      "鬼道者",
+      "兇骸兵",
+      "血嬰冥葵",
+      "紫焰妖靈",
+      "韓無砂"
+    ],
+    "enemySkillNames": [
+      "魔煞冥凜",
+      "火蓮子",
+      "奪魄鬼咒",
+      "五雷正法",
+      "黃泉鬼爪",
+      "天火之術"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲",
+      "厚背砍刀",
+      "长剑"
+    ],
+    "maxEnemyLevel": 65,
+    "topEnemies": [
+      {
+        "name": "韓無砂",
+        "hp": 6800,
+        "level": 65
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 560,
+        "level": 8
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 560,
+        "level": 8
+      }
+    ]
+  },
+  {
+    "id": "Stage23",
+    "order": 23,
+    "file": "Stage23.json",
+    "source": "Stage/Stage23/XY_23.COD",
+    "map": {
+      "texture": "Stage23",
+      "width": 40,
+      "height": 29,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1160
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 9,
+    "enemyCount": 46,
+    "introLineCount": 62,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "赤殼蜈蚣",
+      "炎羅鬼",
+      "炎鶚",
+      "朱焰魔火"
+    ],
+    "enemySkillNames": [
+      "熔岩彈",
+      "魔嶽鬼炎",
+      "自爆",
+      "焚炎之陣"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 42,
+    "topEnemies": [
+      {
+        "name": "炎羅鬼",
+        "hp": 525,
+        "level": 24
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 525,
+        "level": 24
+      },
+      {
+        "name": "炎羅鬼",
+        "hp": 525,
+        "level": 24
+      }
+    ]
+  },
+  {
+    "id": "Stage24",
+    "order": 24,
+    "file": "Stage24.json",
+    "source": "Stage/Stage24/XY_24.COD",
+    "map": {
+      "texture": "Stage24",
+      "width": 25,
+      "height": 70,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1750
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 9,
+    "enemyCount": 46,
+    "introLineCount": 121,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "死魘鬼卒",
+      "兇骸兵",
+      "紫焰妖靈"
+    ],
+    "enemySkillNames": [
+      "奪魄鬼咒",
+      "無天黑炎"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲"
+    ],
+    "maxEnemyLevel": 57,
+    "topEnemies": [
+      {
+        "name": "死魘鬼卒",
+        "hp": 1300,
+        "level": 45
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 1260,
+        "level": 43
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 1240,
+        "level": 42
+      }
+    ]
+  },
+  {
+    "id": "Stage25",
+    "order": 25,
+    "file": "Stage25.json",
+    "source": "Stage/Stage25/XY_25.COD",
+    "map": {
+      "texture": "Stage25",
+      "width": 30,
+      "height": 70,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 2100
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 9,
+    "enemyCount": 46,
+    "introLineCount": 31,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "死魘鬼卒",
+      "兇骸兵",
+      "血嬰冥葵",
+      "紫焰妖靈"
+    ],
+    "enemySkillNames": [
+      "火蓮子",
+      "血刃之咒",
+      "五雷正法"
+    ],
+    "itemNames": [
+      "钢铁戟",
+      "妖骨胄",
+      "薄钢环甲"
+    ],
+    "maxEnemyLevel": 26,
+    "topEnemies": [
+      {
+        "name": "死魘鬼卒",
+        "hp": 600,
+        "level": 10
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 600,
+        "level": 10
+      },
+      {
+        "name": "死魘鬼卒",
+        "hp": 600,
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": "Stage26",
+    "order": 26,
+    "file": "Stage26.json",
+    "source": "Stage/Stage26/XY_26.COD",
+    "map": {
+      "texture": "Stage26",
+      "width": 45,
+      "height": 30,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1350
+    },
+    "playerCount": 9,
+    "combatPlayerCount": 8,
+    "enemyCount": 47,
+    "introLineCount": 167,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "青煞鬼",
+      "噬魂鬼",
+      "血嬰冥葵",
+      "炎鶚",
+      "幽煌冥火",
+      "死靈術士",
+      "靈山老人"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "攝魂鬼觸",
+      "火蓮子",
+      "自爆",
+      "冰獄寒嵐",
+      "五雷正法",
+      "天火之術",
+      "封魔神道"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 6,
+    "topEnemies": [
+      {
+        "name": "靈山老人",
+        "hp": 800,
+        "level": 1
+      },
+      {
+        "name": "青煞鬼",
+        "hp": 595,
+        "level": 5
+      },
+      {
+        "name": "青煞鬼",
+        "hp": 580,
+        "level": 4
+      }
+    ]
+  },
+  {
+    "id": "Stage27",
+    "order": 27,
+    "file": "Stage27.json",
+    "source": "Stage/Stage27/XY_27.COD",
+    "map": {
+      "texture": "Stage27",
+      "width": 28,
+      "height": 42,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1176
+    },
+    "playerCount": 12,
+    "combatPlayerCount": 12,
+    "enemyCount": 8,
+    "introLineCount": 61,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "劍聖"
+    ],
+    "enemyNames": [
+      "劍魂  雄",
+      "劍魂  雌"
+    ],
+    "enemySkillNames": [
+      "自爆"
+    ],
+    "itemNames": [
+      "青龙道装"
+    ],
+    "maxEnemyLevel": 70,
+    "topEnemies": [
+      {
+        "name": "劍魂  雄",
+        "hp": 3000,
+        "level": 70
+      },
+      {
+        "name": "劍魂  雌",
+        "hp": 3000,
+        "level": 70
+      },
+      {
+        "name": "劍魂  雄",
+        "hp": 3000,
+        "level": 70
+      }
+    ]
+  },
+  {
+    "id": "Stage28",
+    "order": 28,
+    "file": "Stage28.json",
+    "source": "Stage/Stage28/XY_28.COD",
+    "map": {
+      "texture": "Stage28",
+      "width": 40,
+      "height": 60,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 2400
+    },
+    "playerCount": 8,
+    "combatPlayerCount": 8,
+    "enemyCount": 38,
+    "introLineCount": 173,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀"
+    ],
+    "enemyNames": [
+      "青煞鬼",
+      "噬魂鬼",
+      "炎鶚",
+      "幽煌冥火",
+      "死靈術士",
+      "封寒月"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "攝魂鬼觸",
+      "自爆",
+      "玄凜冰煞",
+      "滅魂大法",
+      "封魔神道",
+      "妖氛鬼霧",
+      "九天神雷"
+    ],
+    "itemNames": [
+      "幽都王玺"
+    ],
+    "maxEnemyLevel": 80,
+    "topEnemies": [
+      {
+        "name": "封寒月",
+        "hp": 18500,
+        "level": 80
+      },
+      {
+        "name": "封寒月",
+        "hp": 18500,
+        "level": 80
+      },
+      {
+        "name": "青煞鬼",
+        "hp": 580,
+        "level": 4
+      }
+    ]
+  },
+  {
+    "id": "Stage29",
+    "order": 29,
+    "file": "Stage29.json",
+    "source": "Stage/Stage29/XY_29.COD",
+    "map": {
+      "texture": "Stage29",
+      "width": 31,
+      "height": 42,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1302
+    },
+    "playerCount": 13,
+    "combatPlayerCount": 11,
+    "enemyCount": 47,
+    "introLineCount": 169,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人",
+      "鐵匠尚英",
+      "劍聖"
+    ],
+    "enemyNames": [
+      "青煞鬼",
+      "噬魂鬼",
+      "赤殼蜈蚣",
+      "幽煌冥火",
+      "死靈術士",
+      "炎鶚",
+      "鄲陰"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "攝魂鬼觸",
+      "熔岩彈",
+      "冰獄寒嵐",
+      "焚炎之陣",
+      "五雷正法",
+      "血刃之咒",
+      "封魔神道"
+    ],
+    "itemNames": [
+      "云龙珠",
+      "妖骨爪",
+      "鬼魄碧晶"
+    ],
+    "maxEnemyLevel": 75,
+    "topEnemies": [
+      {
+        "name": "鄲陰",
+        "hp": 7000,
+        "level": 75
+      },
+      {
+        "name": "青煞鬼",
+        "hp": 610,
+        "level": 6
+      },
+      {
+        "name": "青煞鬼",
+        "hp": 610,
+        "level": 6
+      }
+    ]
+  },
+  {
+    "id": "Stage30",
+    "order": 30,
+    "file": "Stage30.json",
+    "source": "Stage/Stage30/XY_30.COD",
+    "map": {
+      "texture": "Stage30",
+      "width": 26,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1300
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 10,
+    "enemyCount": 38,
+    "introLineCount": 49,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人"
+    ],
+    "enemyNames": [
+      "青煞鬼",
+      "冰蜈蚣",
+      "死靈術士",
+      "高戚",
+      "朱慎",
+      "赤煉鬼",
+      "劍邪"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "冰破飛錐",
+      "反咒禁制",
+      "妖氛鬼霧",
+      "絕煞劍",
+      "鬼縛之陣",
+      "七燁真火",
+      "無天黑炎"
+    ],
+    "itemNames": [
+      "天煌剑印",
+      "玄魔法袍"
+    ],
+    "maxEnemyLevel": 90,
+    "topEnemies": [
+      {
+        "name": "劍邪",
+        "hp": 20000,
+        "level": 1
+      },
+      {
+        "name": "赤煉鬼",
+        "hp": 14500,
+        "level": 90
+      },
+      {
+        "name": "高戚",
+        "hp": 8000,
+        "level": 75
+      }
+    ]
+  },
+  {
+    "id": "Stage31",
+    "order": 31,
+    "file": "Stage31.json",
+    "source": "Stage/Stage31/XY_31.COD",
+    "map": {
+      "texture": "Stage31",
+      "width": 25,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1250
+    },
+    "playerCount": 11,
+    "combatPlayerCount": 10,
+    "enemyCount": 42,
+    "introLineCount": 98,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人"
+    ],
+    "enemyNames": [
+      "青煞鬼",
+      "噬魂鬼",
+      "冰蜈蚣",
+      "狂魔",
+      "幽煌冥火",
+      "劍邪"
+    ],
+    "enemySkillNames": [
+      "魔嶽鬼炎",
+      "攝魂鬼觸",
+      "冰破飛錐",
+      "狂雷電刃",
+      "玄凜冰煞",
+      "無天黑炎",
+      "戾魂封陣",
+      "萬邪天滅"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 95,
+    "topEnemies": [
+      {
+        "name": "劍邪",
+        "hp": 20000,
+        "level": 95
+      },
+      {
+        "name": "劍邪",
+        "hp": 20000,
+        "level": 95
+      },
+      {
+        "name": "狂魔",
+        "hp": 935,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage32",
+    "order": 32,
+    "file": "Stage32.json",
+    "source": "Stage/Stage32/XY_32.COD",
+    "map": {
+      "texture": "Stage32",
+      "width": 45,
+      "height": 35,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1575
+    },
+    "playerCount": 10,
+    "combatPlayerCount": 10,
+    "enemyCount": 54,
+    "introLineCount": 22,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人"
+    ],
+    "enemyNames": [
+      "狂魔",
+      "咒刃鬼",
+      "血翼烏虺",
+      "鬼吻妖蘭",
+      "幽煌冥火",
+      "死靈術士"
+    ],
+    "enemySkillNames": [
+      "狂雷電刃",
+      "火蓮子",
+      "玄凜冰煞",
+      "無天黑炎",
+      "血刃之咒",
+      "奪魄鬼咒",
+      "攬風神行",
+      "封魔神道"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 15,
+    "topEnemies": [
+      {
+        "name": "咒刃鬼",
+        "hp": 1020,
+        "level": 1
+      },
+      {
+        "name": "咒刃鬼",
+        "hp": 1020,
+        "level": 1
+      },
+      {
+        "name": "咒刃鬼",
+        "hp": 1020,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage33",
+    "order": 33,
+    "file": "Stage33.json",
+    "source": "Stage/Stage33/XY_33.COD",
+    "map": {
+      "texture": "Stage33",
+      "width": 40,
+      "height": 25,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1000
+    },
+    "playerCount": 10,
+    "combatPlayerCount": 10,
+    "enemyCount": 56,
+    "introLineCount": 35,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人"
+    ],
+    "enemyNames": [
+      "狂魔",
+      "咒刃鬼",
+      "血翼烏虺",
+      "鬼吻妖蘭",
+      "幽煌冥火",
+      "妖將"
+    ],
+    "enemySkillNames": [
+      "狂雷電刃",
+      "火蓮子",
+      "玄凜冰煞",
+      "無天黑炎",
+      "無方鬼影"
+    ],
+    "itemNames": [
+      "妖骨胄"
+    ],
+    "maxEnemyLevel": 85,
+    "topEnemies": [
+      {
+        "name": "妖將",
+        "hp": 5500,
+        "level": 85
+      },
+      {
+        "name": "妖將",
+        "hp": 5500,
+        "level": 85
+      },
+      {
+        "name": "咒刃鬼",
+        "hp": 1020,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "Stage34",
+    "order": 34,
+    "file": "Stage34.json",
+    "source": "Stage/Stage34/XY_34.COD",
+    "map": {
+      "texture": "Stage34",
+      "width": 35,
+      "height": 50,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 1750
+    },
+    "playerCount": 24,
+    "combatPlayerCount": 11,
+    "enemyCount": 76,
+    "introLineCount": 96,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人",
+      "劍聖",
+      "天玄門人"
+    ],
+    "enemyNames": [
+      "腐沫魔瘡",
+      "心臟",
+      "頭",
+      "左手",
+      "右手",
+      "應靈華",
+      "狂魔",
+      "凶羅",
+      "妖將"
+    ],
+    "enemySkillNames": [
+      "七燁真火",
+      "玄凜冰煞",
+      "狂雷電刃",
+      "奪魄鬼眼",
+      "無方鬼影"
+    ],
+    "itemNames": [
+      "妖骨胄"
+    ],
+    "maxEnemyLevel": 99,
+    "topEnemies": [
+      {
+        "name": "頭",
+        "hp": 60000,
+        "level": 99
+      },
+      {
+        "name": "心臟",
+        "hp": 50000,
+        "level": 99
+      },
+      {
+        "name": "腐沫魔瘡",
+        "hp": 15000,
+        "level": 90
+      }
+    ]
+  },
+  {
+    "id": "Stage35",
+    "order": 35,
+    "file": "Stage35.json",
+    "source": "Stage/Stage35/XY_35.COD",
+    "map": {
+      "texture": "Stage35",
+      "width": 40,
+      "height": 84,
+      "cellWidth": 30,
+      "cellHeight": 24,
+      "area": 3360
+    },
+    "playerCount": 14,
+    "combatPlayerCount": 14,
+    "enemyCount": 73,
+    "introLineCount": 40,
+    "outroLineCount": 0,
+    "playerNames": [
+      "殷劍平",
+      "封寒月",
+      "紫楓",
+      "上官遠",
+      "鮮于超",
+      "真胤",
+      "韓千秀",
+      "燕明蓉",
+      "夏侯儀",
+      "不淨散人",
+      "式鬼",
+      "劍魂雄"
+    ],
+    "enemyNames": [
+      "兩佰之王",
+      "兩佰惡魔",
+      "兩佰小鬼",
+      "兩佰塊",
+      "兩佰術士",
+      "兩佰士兵"
+    ],
+    "enemySkillNames": [
+      "天罰神腳",
+      "愛的衝鋒",
+      "人體砲彈",
+      "恐怖口臭",
+      "神威天光",
+      "無天黑炎",
+      "七燁真火",
+      "狂雷電刃"
+    ],
+    "itemNames": [],
+    "maxEnemyLevel": 99,
+    "topEnemies": [
+      {
+        "name": "兩佰惡魔",
+        "hp": 55000,
+        "level": 99
+      },
+      {
+        "name": "兩佰小鬼",
+        "hp": 55000,
+        "level": 99
+      },
+      {
+        "name": "兩佰之王",
+        "hp": 45000,
+        "level": 99
+      }
+    ]
+  }
+]
