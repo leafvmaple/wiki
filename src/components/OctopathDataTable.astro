@@ -335,11 +335,14 @@ const skCard = (s: Row) =>
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
+  /* keep this a real table-cell (NOT display:flex, which drops it out of table
+     layout and misaligns the row's bottom border vs taller cells); align the
+     icon inline instead */
   .ot-dt-name {
-    align-items: center;
-    display: flex;
-    gap: 0.4rem;
     white-space: nowrap;
+  }
+  .ot-dt-name .ot-weak {
+    margin-right: 0.4rem;
   }
   .ot-dt-detail {
     color: var(--leaf-text);
@@ -407,8 +410,9 @@ const skCard = (s: Row) =>
   }
   .ot-weak {
     border-radius: 4px;
-    display: block;
+    display: inline-block;
     height: 1.4rem;
+    vertical-align: middle;
     width: 1.4rem;
   }
   .ot-weak.is-weapon {
