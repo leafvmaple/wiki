@@ -1,10 +1,12 @@
 ---
 // Octopath data table — filterable + sortable. Kinds:
 //   kind="equipment" (category=武器/防具/饰品) — equipment.json
+//   kind="items"     (category=消耗品/素材/美食) — consumables.json
 //   kind="enemies"                            — enemies.json (bestiary)
 //   kind="skills"                             — skills.json (job skills)
 // All share the toolbar, sort/filter script and CSS (data/-driven JSON).
 import equipment from '../data/octopath-traveler-0/generated/equipment.json';
+import consumables from '../data/octopath-traveler-0/generated/consumables.json';
 import enemies from '../data/octopath-traveler-0/generated/enemies.json';
 import skills from '../data/octopath-traveler-0/generated/skills.json';
 import assets from '../data/octopath-traveler-0/generated/assets.json';
@@ -27,6 +29,14 @@ const eqCard = (e: Row) =>
     imageSrc: itemsByKey[e.iconKey], imageMode: 'contain', kicker: e.type ?? e.category, title: e.name,
     body: e.skills?.length ? `附带技能：${e.skills.join('、')}` : e.exclusive ? `${e.exclusive}专用` : undefined,
     stats: [...statBonuses(e), e.buy ? `买 ${money(e.buy)}` : null, e.sell ? `卖 ${money(e.sell)}` : null].filter(Boolean),
+  });
+
+// ---- items (consumables / materials / food) ----
+const itRows = (consumables as Row[]).filter((i) => i.category === category);
+const itCard = (i: Row) =>
+  JSON.stringify({
+    kicker: i.category, title: i.name, body: i.effect || undefined,
+    stats: [i.buy ? `买 ${money(i.buy)}` : null, i.sell ? `卖 ${money(i.sell)}` : null].filter(Boolean),
   });
 
 // ---- enemies (bestiary) ----
@@ -64,7 +74,7 @@ const skCard = (s: Row) =>
   });
 ---
 
-<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : kind === 'skills' ? '个' : '件'}>
+<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : kind === 'skills' ? '个' : kind === 'items' ? '种' : '件'}>
   <div class="ot-dt-bar">
     {kind === 'equipment' && showType && (
       <select class="ot-dt-type" aria-label="按类型筛选">
@@ -115,6 +125,29 @@ const skCard = (s: Row) =>
               <td class="ot-dt-skill">{e.skills?.length ? e.skills.join('、') : '—'}</td>
               <td class="num">{money(e.buy)}</td>
               <td class="num">{money(e.sell)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'items' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">名称</th>
+            <th>效果</th>
+            <th data-sort="buy" class="num">买价</th>
+            <th data-sort="sell" class="num">售价</th>
+          </tr>
+        </thead>
+        <tbody>
+          {itRows.map((i) => (
+            <tr data-name={i.name} data-buy={i.buy ?? -1} data-sell={i.sell ?? -1} data-ot-card={itCard(i)}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{i.name}</span></td>
+              <td class="ot-dt-detail">{i.effect || '—'}</td>
+              <td class="num">{money(i.buy)}</td>
+              <td class="num">{money(i.sell)}</td>
             </tr>
           ))}
         </tbody>

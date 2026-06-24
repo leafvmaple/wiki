@@ -63,6 +63,14 @@ export default defineConfig({
                 { label: '饰品', link: '/games/octopath-traveler-0/equipment/accessories/' },
               ],
             },
+            {
+              label: '道具图鉴',
+              items: [
+                { label: '消耗品', link: '/games/octopath-traveler-0/items/consumables/' },
+                { label: '素材', link: '/games/octopath-traveler-0/items/materials/' },
+                { label: '美食', link: '/games/octopath-traveler-0/items/food/' },
+              ],
+            },
             { label: '敌人图鉴', link: '/games/octopath-traveler-0/enemies/' },
             { label: '职业技能', link: '/games/octopath-traveler-0/skills/' },
           ],
