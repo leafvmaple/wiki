@@ -1,0 +1,246 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import OctopathEntityTooltip from '../../../../components/OctopathEntityTooltip.astro';
+import characters from '../../../../data/octopath-traveler-0/generated/characters.json';
+import equipment from '../../../../data/octopath-traveler-0/generated/equipment.json';
+import assets from '../../../../data/octopath-traveler-0/generated/assets.json';
+
+type Row = Record<string, any>;
+const portraits = assets.portraitsByUid as Record<string, string>;
+const jobsByName = assets.jobsByName as Record<string, string>;
+const itemsByKey = (assets as any).itemsByKey as Record<string, string>;
+
+const JOIN_LABEL: Record<string, string> = {
+  recruit: '可招募伙伴', main: '主线加入', quest: '任务加入', special: '特殊角色',
+};
+const ORDER = ['recruit', 'main', 'quest', 'special'];
+
+const chars = (characters as Row[]).slice().sort(
+  (a, b) => ORDER.indexOf(a.joinType) - ORDER.indexOf(b.joinType) || (a.job ?? '').localeCompare(b.job ?? '', 'zh'),
+);
+
+const charCard = (c: Row) =>
+  JSON.stringify({
+    imageSrc: portraits[String(c.uid)],
+    kicker: JOIN_LABEL[c.joinType] ?? '角色',
+    title: c.name,
+    body: c.synopsis?.[0] ?? (c.questTitle ? `加入：${c.questTitle}` : undefined),
+    stats: [c.job, c.gender, c.recommLv].filter(Boolean),
+  });
+
+const jobs = Object.keys(jobsByName);
+const eqCounts = (equipment as Row[]).reduce((m: Record<string, number>, e) => {
+  m[e.category] = (m[e.category] ?? 0) + 1;
+  return m;
+}, {});
+const eqCategories = [
+  { name: '武器', href: '/games/octopath-traveler-0/equipment/weapons/', icon: 'weapon_sword' },
+  { name: '防具', href: '/games/octopath-traveler-0/equipment/armor/', icon: 'armor_body' },
+  { name: '饰品', href: '/games/octopath-traveler-0/equipment/accessories/', icon: 'accessory' },
+];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: '实体资料',
+    description: '歧路旅人 0 的角色、职业与装备资料总入口，悬停查看速览卡片。',
+    editUrl: false,
+    tableOfContents: false,
+  }}
+>
+  <div class="ot-entity">
+    <p>角色、职业与装备的统一入口。把鼠标悬停在条目上可查看速览卡片。</p>
+
+    <div class="ot-entity-summary">
+      <span><strong>{chars.length}</strong>角色</span>
+      <span><strong>{jobs.length}</strong>职业</span>
+      <span><strong>{(equipment as Row[]).length}</strong>装备</span>
+    </div>
+
+    <section>
+      <h2>角色（{chars.length}）</h2>
+      <div class="ot-entity-grid">
+        {chars.map((c) => (
+          <a href={c.href} class="is-char" data-ot-card={charCard(c)}>
+            <span class="ot-entity-portrait">
+              {portraits[String(c.uid)] ? (
+                <img src={portraits[String(c.uid)]} alt="" loading="lazy" decoding="async" />
+              ) : (
+                c.name.slice(0, 1)
+              )}
+            </span>
+            <span class="ot-entity-meta">
+              <strong>{c.name}</strong>
+              <small>{[JOIN_LABEL[c.joinType], c.job].filter(Boolean).join(' · ')}</small>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2>装备（{(equipment as Row[]).length}）</h2>
+      <div class="ot-entity-cat">
+        {eqCategories.map((cat) => (
+          <a href={cat.href}>
+            <span class="ot-entity-caticon">
+              {itemsByKey[cat.icon] && <img src={itemsByKey[cat.icon]} alt="" loading="lazy" />}
+            </span>
+            <span class="ot-entity-meta">
+              <strong>{cat.name}</strong>
+              <small>{eqCounts[cat.name] ?? 0} 件 · 可筛选/排序</small>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2>职业（{jobs.length}）</h2>
+      <div class="ot-entity-jobs">
+        {jobs.map((name) => (
+          <span class="ot-entity-job" data-ot-card={JSON.stringify({ imageSrc: jobsByName[name], imageMode: 'contain', kicker: '职业', title: name })}>
+            <span class="ot-entity-jobicon"><img src={jobsByName[name]} alt="" loading="lazy" /></span>
+            {name}
+          </span>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <OctopathEntityTooltip />
+</StarlightPage>
+
+<style>
+  .ot-entity {
+    display: grid;
+    gap: 1.1rem;
+  }
+  .ot-entity-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+  .ot-entity-summary span {
+    align-items: baseline;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    display: inline-flex;
+    gap: 0.35rem;
+    padding: 0.45rem 0.7rem;
+  }
+  .ot-entity-summary strong {
+    color: var(--leaf-primary-hover);
+    font-size: 1.2rem;
+  }
+  .ot-entity h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.6rem;
+  }
+  .ot-entity-grid {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  }
+  .ot-entity-grid a,
+  .ot-entity-cat a {
+    align-items: center;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: 2.8rem minmax(0, 1fr);
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  .ot-entity-grid a:hover,
+  .ot-entity-cat a:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    box-shadow: var(--leaf-shadow-card-hover);
+  }
+  .ot-entity-portrait {
+    align-items: center;
+    border-radius: 7px;
+    background: #0e1726;
+    display: inline-flex;
+    height: 2.8rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 2.8rem;
+  }
+  .ot-entity-portrait img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center 14%;
+    width: 100%;
+  }
+  .ot-entity-caticon {
+    align-items: center;
+    border-radius: 7px;
+    background: #4d5862;
+    display: inline-flex;
+    height: 2.8rem;
+    justify-content: center;
+    width: 2.8rem;
+  }
+  .ot-entity-caticon img {
+    height: 70%;
+    object-fit: contain;
+    width: 70%;
+  }
+  .ot-entity-meta {
+    display: grid;
+    min-width: 0;
+  }
+  .ot-entity-meta strong {
+    color: var(--leaf-heading);
+    overflow-wrap: anywhere;
+  }
+  .ot-entity-grid a:hover strong,
+  .ot-entity-cat a:hover strong {
+    color: var(--leaf-primary-hover);
+  }
+  .ot-entity-meta small {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+  .ot-entity-cat {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  .ot-entity-jobs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .ot-entity-job {
+    align-items: center;
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    display: inline-flex;
+    font-weight: 700;
+    gap: 0.42rem;
+    padding: 0.28rem 0.6rem 0.28rem 0.34rem;
+  }
+  .ot-entity-jobicon {
+    align-items: center;
+    border-radius: 5px;
+    background: #4d5862;
+    display: inline-flex;
+    height: 1.6rem;
+    justify-content: center;
+    width: 1.6rem;
+  }
+  .ot-entity-jobicon img {
+    height: 100%;
+    object-fit: contain;
+    padding: 1px;
+    width: 100%;
+  }
+</style>

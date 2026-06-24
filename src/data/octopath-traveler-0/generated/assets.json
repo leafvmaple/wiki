@@ -1,5 +1,5 @@
 {
- "_note": "Published from data/Textures by gen_wiki_data.py. portraitsByUid[uid] / jobsById[jobId] / jobsByName[职业名].",
+ "_note": "Published from data/Textures by gen_wiki_data.py. portraitsByUid[uid] / jobsById[jobId] / jobsByName[职业名] / itemsByKey[icon key].",
  "portraitsByUid": {
   "900900": "/assets/octopath-traveler-0/icons/portraits/900900.webp",
   "910101": "/assets/octopath-traveler-0/icons/portraits/910101.webp",
@@ -57,5 +57,19 @@
   "猎人": "/assets/octopath-traveler-0/icons/jobs/6.webp",
   "商人": "/assets/octopath-traveler-0/icons/jobs/7.webp",
   "舞娘": "/assets/octopath-traveler-0/icons/jobs/8.webp"
+ },
+ "itemsByKey": {
+  "weapon_sword": "/assets/octopath-traveler-0/icons/items/weapon_sword.webp",
+  "weapon_ax": "/assets/octopath-traveler-0/icons/items/weapon_ax.webp",
+  "weapon_dagger": "/assets/octopath-traveler-0/icons/items/weapon_dagger.webp",
+  "weapon_book": "/assets/octopath-traveler-0/icons/items/weapon_book.webp",
+  "weapon_cane": "/assets/octopath-traveler-0/icons/items/weapon_cane.webp",
+  "weapon_bow": "/assets/octopath-traveler-0/icons/items/weapon_bow.webp",
+  "weapon_spear": "/assets/octopath-traveler-0/icons/items/weapon_spear.webp",
+  "weapon_fan": "/assets/octopath-traveler-0/icons/items/weapon_fan.webp",
+  "armor_head": "/assets/octopath-traveler-0/icons/items/armor_head.webp",
+  "armor_body": "/assets/octopath-traveler-0/icons/items/armor_body.webp",
+  "armor_shield": "/assets/octopath-traveler-0/icons/items/armor_shield.webp",
+  "accessory": "/assets/octopath-traveler-0/icons/items/accessory.webp"
  }
 }

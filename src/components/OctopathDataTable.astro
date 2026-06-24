@@ -1,0 +1,238 @@
+---
+// Octopath equipment table — filterable (type + name search) and sortable.
+// Reads the data-driven equipment.json (published from data/ by gen_wiki_data).
+import equipment from '../data/octopath-traveler-0/generated/equipment.json';
+import assets from '../data/octopath-traveler-0/generated/assets.json';
+import OctopathIcon from './OctopathIcon.astro';
+import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
+
+type Equip = Record<string, any>;
+const { category } = Astro.props as { category: string };
+
+const rows = (equipment as Equip[]).filter((e) => e.category === category);
+const types = [...new Set(rows.map((e) => e.type).filter(Boolean))];
+const showType = types.length > 1;
+const itemsByKey = (assets as any).itemsByKey ?? {};
+
+const primary = (e: Equip) => (e.stats?.length ? e.stats[0].value : 0);
+const statBonuses = (e: Equip) => (e.stats ?? []).map((s: any) => `${s.label} +${s.value}`);
+const statStr = (e: Equip) => statBonuses(e).join(' · ') || '—';
+const money = (v: number | null) => (v ? v.toLocaleString('en-US') : '—');
+const cardFor = (e: Equip) =>
+  JSON.stringify({
+    imageSrc: itemsByKey[e.iconKey],
+    imageMode: 'contain',
+    kicker: e.type ?? e.category,
+    title: e.name,
+    body: e.skills?.length
+      ? `附带技能：${e.skills.join('、')}`
+      : e.exclusive
+        ? `${e.exclusive}专用`
+        : undefined,
+    stats: [
+      ...statBonuses(e),
+      e.buy ? `买 ${money(e.buy)}` : null,
+      e.sell ? `卖 ${money(e.sell)}` : null,
+    ].filter(Boolean),
+  });
+---
+
+<div class="ot-dt-wrap">
+  <div class="ot-dt-bar">
+    {showType && (
+      <select class="ot-dt-type" aria-label="按类型筛选">
+        <option value="">全部类型</option>
+        {types.map((t) => <option value={t}>{t}</option>)}
+      </select>
+    )}
+    <input class="ot-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索装备名称" />
+    <span class="ot-dt-count" aria-live="polite"></span>
+  </div>
+
+  <div class="ot-dt-scroll">
+    <table class="ot-dt">
+      <thead>
+        <tr>
+          <th data-sort="name">装备</th>
+          {showType && <th data-sort="type">类型</th>}
+          <th data-sort="stat" class="num">属性加成</th>
+          <th>技能</th>
+          <th data-sort="buy" class="num">买价</th>
+          <th data-sort="sell" class="num">售价</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((e) => (
+          <tr
+            data-name={e.name}
+            data-type={e.type ?? ''}
+            data-stat={primary(e)}
+            data-buy={e.buy ?? -1}
+            data-sell={e.sell ?? -1}
+            data-ot-card={cardFor(e)}
+          >
+            <td class="ot-dt-name">
+              <OctopathIcon kind="item" assetKind="item" assetId={e.iconKey} label={e.name} />
+              {e.exclusive && <span class="ot-dt-excl">{e.exclusive}专用</span>}
+            </td>
+            {showType && <td>{e.type}</td>}
+            <td class="ot-dt-stats">{statStr(e)}</td>
+            <td class="ot-dt-skill">{e.skills?.length ? e.skills.join('、') : '—'}</td>
+            <td class="num">{money(e.buy)}</td>
+            <td class="num">{money(e.sell)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<OctopathEntityTooltip />
+
+<script>
+  document.querySelectorAll<HTMLElement>('.ot-dt-wrap').forEach((root) => {
+    const table = root.querySelector('table')!;
+    const tbody = table.querySelector('tbody')!;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const typeSel = root.querySelector<HTMLSelectElement>('.ot-dt-type');
+    const search = root.querySelector<HTMLInputElement>('.ot-dt-search')!;
+    const count = root.querySelector<HTMLElement>('.ot-dt-count')!;
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const t = typeSel ? typeSel.value : '';
+      const q = search.value.trim().toLowerCase();
+      let shown = 0;
+      for (const r of rows) {
+        const ok =
+          (!t || r.dataset.type === t) &&
+          (!q || (r.dataset.name || '').toLowerCase().includes(q));
+        r.hidden = !ok;
+        if (ok) shown += 1;
+      }
+      count.textContent = `${shown} 件`;
+    };
+
+    const sortBy = (key: string) => {
+      if (sortKey === key) sortDir = -sortDir;
+      else {
+        sortKey = key;
+        sortDir = key === 'name' || key === 'type' ? 1 : -1;
+      }
+      const numeric = key === 'stat' || key === 'buy' || key === 'sell';
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric ? (Number(av) - Number(bv)) * sortDir : av.localeCompare(bv, 'zh') * sortDir;
+        })
+        .forEach((r) => tbody.appendChild(r));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) => {
+        th.dataset.dir = th.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    typeSel?.addEventListener('change', apply);
+    search.addEventListener('input', apply);
+    table
+      .querySelectorAll<HTMLElement>('th[data-sort]')
+      .forEach((th) => th.addEventListener('click', () => sortBy(th.dataset.sort!)));
+    apply();
+  });
+</script>
+
+<style>
+  .ot-dt-wrap {
+    display: grid;
+    gap: 0.7rem;
+  }
+  .ot-dt-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .ot-dt-type,
+  .ot-dt-search {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font-size: 0.9rem;
+    padding: 0.36rem 0.6rem;
+  }
+  .ot-dt-search {
+    flex: 1 1 12rem;
+    max-width: 20rem;
+  }
+  .ot-dt-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .ot-dt-scroll {
+    overflow-x: auto;
+  }
+  .ot-dt {
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    width: 100%;
+  }
+  .ot-dt th,
+  .ot-dt td {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.46rem 0.7rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .ot-dt th {
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+  .ot-dt th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+  .ot-dt th[data-sort]:hover {
+    color: var(--leaf-primary-hover);
+  }
+  .ot-dt th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.3;
+  }
+  .ot-dt th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+  .ot-dt th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+  .ot-dt tbody tr:hover {
+    background: color-mix(in srgb, var(--leaf-primary) 6%, transparent);
+  }
+  .ot-dt .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .ot-dt-name {
+    white-space: nowrap;
+  }
+  .ot-dt-excl {
+    color: var(--leaf-primary-hover);
+    font-size: 0.74rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+  }
+  .ot-dt-stats {
+    color: var(--leaf-text);
+    white-space: normal;
+  }
+  .ot-dt-skill {
+    color: var(--leaf-text-muted);
+  }
+</style>

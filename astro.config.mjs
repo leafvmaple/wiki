@@ -51,8 +51,17 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: '游戏总览', link: '/games/octopath-traveler-0/' },
+            { label: '实体资料', link: '/games/octopath-traveler-0/entities/' },
             { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
             { label: '角色一览', link: '/games/octopath-traveler-0/characters/' },
+            {
+              label: '装备图鉴',
+              items: [
+                { label: '武器', link: '/games/octopath-traveler-0/equipment/weapons/' },
+                { label: '防具', link: '/games/octopath-traveler-0/equipment/armor/' },
+                { label: '饰品', link: '/games/octopath-traveler-0/equipment/accessories/' },
+              ],
+            },
           ],
         },
         {

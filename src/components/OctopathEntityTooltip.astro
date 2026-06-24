@@ -1,0 +1,261 @@
+---
+// Global hover/focus tooltip for Octopath entities. Any element with a
+// `data-ot-card` JSON attribute ({imageSrc?, kicker?, title, body?, stats?[]})
+// shows a card on hover. Include once per page (guarded singleton).
+---
+
+<script>
+  type Card = {
+    imageSrc?: string;
+    imageMode?: 'cover' | 'contain';
+    kicker?: string;
+    title?: string;
+    body?: string;
+    stats?: string[];
+  };
+  const w = window as Window & { __otTooltipReady?: boolean };
+  if (!w.__otTooltipReady) {
+    w.__otTooltipReady = true;
+
+    const parse = (el: HTMLElement): Card | null => {
+      try {
+        return JSON.parse(el.dataset.otCard || 'null');
+      } catch {
+        return null;
+      }
+    };
+
+    const ensure = (): HTMLElement => {
+      let t = document.querySelector<HTMLElement>('.ot-tooltip');
+      if (!t) {
+        t = document.createElement('div');
+        t.className = 'ot-tooltip';
+        t.hidden = true;
+        document.body.append(t);
+      }
+      return t;
+    };
+
+    const render = (t: HTMLElement, c: Card) => {
+      t.replaceChildren();
+      const head = document.createElement('div');
+      head.className = 'ot-tooltip-head';
+      if (c.imageSrc) {
+        const wrap = document.createElement('span');
+        wrap.className = 'ot-tooltip-img';
+        const img = document.createElement('img');
+        img.src = c.imageSrc;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        if (c.imageMode === 'contain') {
+          img.style.objectFit = 'contain';
+          img.style.padding = '0.3rem';
+        }
+        wrap.append(img);
+        head.append(wrap);
+      }
+      const tw = document.createElement('span');
+      tw.className = 'ot-tooltip-title';
+      if (c.kicker) {
+        const k = document.createElement('span');
+        k.className = 'ot-tooltip-kicker';
+        k.textContent = c.kicker;
+        tw.append(k);
+      }
+      const strong = document.createElement('strong');
+      strong.textContent = c.title || '条目';
+      tw.append(strong);
+      head.append(tw);
+      t.append(head);
+      if (c.body) {
+        const p = document.createElement('p');
+        p.textContent = c.body;
+        t.append(p);
+      }
+      if (Array.isArray(c.stats) && c.stats.length) {
+        const s = document.createElement('div');
+        s.className = 'ot-tooltip-stats';
+        for (const item of c.stats.slice(0, 6)) {
+          const span = document.createElement('span');
+          span.textContent = item;
+          s.append(span);
+        }
+        t.append(s);
+      }
+    };
+
+    const place = (t: HTMLElement, target: Element) => {
+      const r = target.getBoundingClientRect();
+      const gap = 10;
+      const vw = document.documentElement.clientWidth;
+      const vh = document.documentElement.clientHeight;
+      let left = r.left + r.width / 2 - t.offsetWidth / 2;
+      let top = r.bottom + gap;
+      if (top + t.offsetHeight + gap > vh) top = r.top - t.offsetHeight - gap;
+      left = Math.max(12, Math.min(left, vw - t.offsetWidth - 12));
+      top = Math.max(12, Math.min(top, vh - t.offsetHeight - 12));
+      t.style.left = `${left}px`;
+      t.style.top = `${top}px`;
+    };
+
+    let active: Element | null = null;
+    const show = (target: Element) => {
+      if (!(target instanceof HTMLElement)) return;
+      const card = parse(target);
+      if (!card) return;
+      const t = ensure();
+      active = target;
+      render(t, card);
+      t.hidden = false;
+      t.classList.add('is-visible');
+      requestAnimationFrame(() => place(t, target));
+    };
+    const hide = (target?: Element | null) => {
+      if (target && active && target !== active) return;
+      const t = document.querySelector<HTMLElement>('.ot-tooltip');
+      active = null;
+      if (t) {
+        t.classList.remove('is-visible');
+        t.hidden = true;
+      }
+    };
+
+    document.addEventListener(
+      'pointerover',
+      (e) => {
+        const target = e.target instanceof Element ? e.target.closest('[data-ot-card]') : null;
+        const rel = e.relatedTarget instanceof Node ? e.relatedTarget : null;
+        if (!target || (rel && target.contains(rel))) return;
+        show(target);
+      },
+      true,
+    );
+    document.addEventListener(
+      'pointerout',
+      (e) => {
+        const target = e.target instanceof Element ? e.target.closest('[data-ot-card]') : null;
+        const rel = e.relatedTarget instanceof Node ? e.relatedTarget : null;
+        if (!target || (rel && target.contains(rel))) return;
+        hide(target);
+      },
+      true,
+    );
+    document.addEventListener('focusin', (e) => {
+      const target = e.target instanceof Element ? e.target.closest('[data-ot-card]') : null;
+      if (target) show(target);
+    });
+    document.addEventListener('focusout', (e) => {
+      const target = e.target instanceof Element ? e.target.closest('[data-ot-card]') : null;
+      if (target) hide(target);
+    });
+    window.addEventListener('scroll', () => hide(), { passive: true });
+    window.addEventListener('resize', () => hide(), { passive: true });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') hide();
+    });
+  }
+</script>
+
+<style is:global>
+  .ot-tooltip {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 22%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.34);
+    color: var(--leaf-text);
+    left: 0;
+    max-width: calc(100vw - 1.5rem);
+    overflow: hidden;
+    padding: 0.82rem;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 19rem;
+    z-index: 1000;
+  }
+  .ot-tooltip::before {
+    background: linear-gradient(90deg, var(--leaf-primary), var(--leaf-primary-hover));
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .ot-tooltip[hidden] {
+    display: none;
+  }
+  .ot-tooltip-head {
+    align-items: center;
+    display: flex;
+    gap: 0.7rem;
+    min-width: 0;
+  }
+  .ot-tooltip-img {
+    align-items: center;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 24%, var(--leaf-border));
+    border-radius: 7px;
+    background: #0e1726;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 3.4rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 3.4rem;
+  }
+  .ot-tooltip-img img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 16%;
+    width: 100%;
+  }
+  .ot-tooltip-title {
+    display: grid;
+    gap: 0.26rem;
+    min-width: 0;
+  }
+  .ot-tooltip-title strong {
+    color: var(--leaf-heading);
+    font-size: 1.08rem;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  .ot-tooltip-kicker {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 28%, var(--leaf-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 12%, var(--leaf-bg-card));
+    color: var(--leaf-primary-hover);
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.18rem 0.42rem;
+    width: fit-content;
+  }
+  .ot-tooltip p {
+    color: var(--leaf-text);
+    font-size: 0.86rem;
+    line-height: 1.45;
+    margin: 0.7rem 0 0;
+  }
+  .ot-tooltip-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.38rem;
+    margin-top: 0.7rem;
+  }
+  .ot-tooltip-stats span {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--leaf-primary) 9%, var(--leaf-bg-card));
+    color: var(--leaf-heading);
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 0.22rem 0.5rem;
+  }
+  [data-ot-card] {
+    cursor: help;
+  }
+</style>

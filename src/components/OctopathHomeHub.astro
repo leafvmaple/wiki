@@ -3,6 +3,7 @@ import summary from '../data/octopath-traveler-0/generated/summary.json';
 import charactersData from '../data/octopath-traveler-0/generated/characters.json';
 import questsData from '../data/octopath-traveler-0/generated/quests.json';
 import OctopathIcon from './OctopathIcon.astro';
+import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
 
 const c = summary.counts;
 const allQuests = questsData as any[];
@@ -99,6 +100,8 @@ const directory = [
     </div>
   ))}
 </section>
+
+<OctopathEntityTooltip />
 
 <style>
   .ot-hero {

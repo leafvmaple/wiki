@@ -3,6 +3,7 @@
 // (character 立绘 / job 图标, generated into assets.json by tools/gen_icons.py),
 // and falls back to a colored glyph avatar otherwise.
 import assets from '../data/octopath-traveler-0/generated/assets.json';
+import characters from '../data/octopath-traveler-0/generated/characters.json';
 
 const {
   kind = 'item',
@@ -11,13 +12,15 @@ const {
   compact = false,
   assetKind,
   assetId,
+  card = true,
 } = Astro.props as {
   kind?: string;
   label?: string;
   href?: string;
   compact?: boolean;
-  assetKind?: 'portrait' | 'job';
+  assetKind?: 'portrait' | 'job' | 'item';
   assetId?: string | number;
+  card?: boolean;
 };
 
 const text = String(label || '?');
@@ -30,11 +33,35 @@ if (assetKind === 'portrait') {
   const jobs = assets.jobsById as Record<string, string>;
   const named = assets.jobsByName as Record<string, string>;
   imageSrc = jobs[aid] ?? named[aid] ?? named[text];
+} else if (assetKind === 'item') {
+  imageSrc = (assets as any).itemsByKey?.[aid];
+}
+
+// hover card payload (a character portrait knows its full row via uid)
+const JOIN_LABEL: Record<string, string> = {
+  recruit: '可招募伙伴', main: '主线加入', quest: '任务加入', special: '特殊角色',
+};
+let hoverCard: Record<string, unknown> | undefined;
+if (card && assetKind === 'portrait') {
+  const c = (characters as Record<string, any>[]).find((x) => String(x.uid) === aid);
+  if (c) {
+    hoverCard = {
+      imageSrc, kicker: JOIN_LABEL[c.joinType] ?? '角色', title: c.name,
+      body: c.synopsis?.[0] ?? (c.questTitle ? `加入：${c.questTitle}` : undefined),
+      stats: [c.job, c.gender, c.recommLv].filter(Boolean),
+    };
+  }
+} else if (card && assetKind === 'job') {
+  hoverCard = { imageSrc, kicker: '职业', title: text };
 }
 const Tag = href ? 'a' : 'span';
 ---
 
-<Tag class:list={['ot-icon-label', compact && 'is-compact']} href={href}>
+<Tag
+  class:list={['ot-icon-label', compact && 'is-compact']}
+  href={href}
+  data-ot-card={hoverCard ? JSON.stringify(hoverCard) : undefined}
+>
   <span
     class:list={['ot-icon', `is-${kind}`, imageSrc && 'has-image', assetKind && `as-${assetKind}`]}
     aria-hidden="true"
@@ -91,11 +118,13 @@ const Tag = href ? 'a' : 'span';
     object-fit: cover;
     object-position: center 16%;
   }
-  /* job 图标: white emblem on transparent — keep the job-colored backdrop */
-  .ot-icon.as-job.has-image {
+  /* job / item icons: white line-art on transparent — keep a dark backdrop */
+  .ot-icon.as-job.has-image,
+  .ot-icon.as-item.has-image {
     background: #4d5862;
   }
-  .ot-icon.as-job.has-image img {
+  .ot-icon.as-job.has-image img,
+  .ot-icon.as-item.has-image img {
     object-fit: contain;
     padding: 1px;
   }

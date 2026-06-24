@@ -1,0 +1,12512 @@
+[
+ {
+  "id": 101000,
+  "name": "普通剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 101001,
+  "name": "长剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 8
+   },
+   {
+    "label": "速度",
+    "value": 2
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 101002,
+  "name": "铁剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 22
+   },
+   {
+    "label": "速度",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 101003,
+  "name": "阔剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 28
+   },
+   {
+    "label": "速度",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 1200,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 101004,
+  "name": "羽毛军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 34
+   },
+   {
+    "label": "命中",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 101005,
+  "name": "铁刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 43
+   },
+   {
+    "label": "命中",
+    "value": -20
+   }
+  ],
+  "skills": [],
+  "buy": 2600,
+  "sell": 580,
+  "exclusive": null
+ },
+ {
+  "id": 101006,
+  "name": "银制剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 52
+   },
+   {
+    "label": "速度",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 101007,
+  "name": "精神剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 60
+   },
+   {
+    "label": "属攻",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 101008,
+  "name": "巨剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 65
+   },
+   {
+    "label": "速度",
+    "value": 4
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 101009,
+  "name": "驱魔之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 68
+   },
+   {
+    "label": "回避",
+    "value": 17
+   }
+  ],
+  "skills": [],
+  "buy": 11000,
+  "sell": 2200,
+  "exclusive": null
+ },
+ {
+  "id": 101010,
+  "name": "斗士曲剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "命中",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 11000,
+  "sell": 2200,
+  "exclusive": null
+ },
+ {
+  "id": 101011,
+  "name": "猎鹰剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 80
+   },
+   {
+    "label": "速度",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 101012,
+  "name": "重刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 85
+   },
+   {
+    "label": "速度",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 101013,
+  "name": "混用剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 92
+   },
+   {
+    "label": "属攻",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 101014,
+  "name": "老鹰军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 102
+   },
+   {
+    "label": "速度",
+    "value": 70
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 101015,
+  "name": "蝎之刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 108
+   },
+   {
+    "label": "会心",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 101016,
+  "name": "乌桓",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 112
+   },
+   {
+    "label": "会心",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 101017,
+  "name": "月之刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 115
+   },
+   {
+    "label": "会心",
+    "value": 70
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 101018,
+  "name": "战士之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 117
+   },
+   {
+    "label": "速度",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 101019,
+  "name": "狙击军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 120
+   },
+   {
+    "label": "命中",
+    "value": 78
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 101020,
+  "name": "新月军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 123
+   },
+   {
+    "label": "命中",
+    "value": 36
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 101021,
+  "name": "强化剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 132
+   },
+   {
+    "label": "速度",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 26000,
+  "sell": 6500,
+  "exclusive": null
+ },
+ {
+  "id": 101022,
+  "name": "骑士剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 140
+   },
+   {
+    "label": "速度",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 27500,
+  "sell": 6500,
+  "exclusive": null
+ },
+ {
+  "id": 101023,
+  "name": "神圣之刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 152
+   },
+   {
+    "label": "会心",
+    "value": 84
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 101024,
+  "name": "白金剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 166
+   },
+   {
+    "label": "属攻",
+    "value": 92
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 101025,
+  "name": "魔力曲剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 176
+   },
+   {
+    "label": "属攻",
+    "value": 140
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 101026,
+  "name": "天使军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 185
+   },
+   {
+    "label": "命中",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 101027,
+  "name": "死神长刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 119
+   },
+   {
+    "label": "命中",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 101028,
+  "name": "暴力之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 200
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 101029,
+  "name": "巨刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 205
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 9000,
+  "exclusive": null
+ },
+ {
+  "id": 101030,
+  "name": "异色边缘剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 234
+   },
+   {
+    "label": "速度",
+    "value": 96
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 101031,
+  "name": "召唤死亡之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 219
+   },
+   {
+    "label": "命中",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 48000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 101032,
+  "name": "三位一体剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 222
+   },
+   {
+    "label": "速度",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 101033,
+  "name": "魔力之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 240
+   },
+   {
+    "label": "属攻",
+    "value": 220
+   },
+   {
+    "label": "会心",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 101034,
+  "name": "守护者之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 268
+   },
+   {
+    "label": "命中",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 101035,
+  "name": "龙之军刀",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 273
+   },
+   {
+    "label": "会心",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 58000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 101036,
+  "name": "屠魔者",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 305
+   },
+   {
+    "label": "会心",
+    "value": 52
+   },
+   {
+    "label": "命中",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 101037,
+  "name": "禁忌之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 310
+   },
+   {
+    "label": "速度",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 101038,
+  "name": "希望之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 315
+   },
+   {
+    "label": "速度",
+    "value": 100
+   },
+   {
+    "label": "命中",
+    "value": 130
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 101039,
+  "name": "巨人之刃",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 323
+   },
+   {
+    "label": "命中",
+    "value": -65
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 101040,
+  "name": "韦陀天",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 345
+   },
+   {
+    "label": "速度",
+    "value": 110
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 101041,
+  "name": "迅雷剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 380
+   },
+   {
+    "label": "物防",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 101042,
+  "name": "历战之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 400
+   },
+   {
+    "label": "会心",
+    "value": 150
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 101043,
+  "name": "魔剑菲斯特拉尔达",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 360
+   },
+   {
+    "label": "属攻",
+    "value": 360
+   }
+  ],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 101044,
+  "name": "圣剑菲斯特拉尔达",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 390
+   },
+   {
+    "label": "属攻",
+    "value": 390
+   }
+  ],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 101100,
+  "name": "警备团之剑",
+  "category": "武器",
+  "type": "剑",
+  "iconKey": "weapon_sword",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 400,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 102000,
+  "name": "普通长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 102001,
+  "name": "长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 8
+   },
+   {
+    "label": "速度",
+    "value": 2
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 102002,
+  "name": "铁制长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 23
+   },
+   {
+    "label": "速度",
+    "value": 6
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 102003,
+  "name": "骸骨长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 28
+   },
+   {
+    "label": "命中",
+    "value": -18
+   }
+  ],
+  "skills": [],
+  "buy": 1400,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 102004,
+  "name": "战争长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 34
+   },
+   {
+    "label": "速度",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 1400,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 102005,
+  "name": "魔咒长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 36
+   },
+   {
+    "label": "属攻",
+    "value": 38
+   }
+  ],
+  "skills": [],
+  "buy": 2400,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 102100,
+  "name": "纪念鱼叉",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 38
+   }
+  ],
+  "skills": [],
+  "buy": 1000,
+  "sell": 250,
+  "exclusive": null
+ },
+ {
+  "id": 102006,
+  "name": "银制长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 56
+   },
+   {
+    "label": "速度",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 102007,
+  "name": "沙尘之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 58
+   },
+   {
+    "label": "速度",
+    "value": 17
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 102008,
+  "name": "钢铁骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 63
+   },
+   {
+    "label": "会心",
+    "value": 16
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 102009,
+  "name": "猛击长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 68
+   },
+   {
+    "label": "回避",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 102010,
+  "name": "沙漠长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 72
+   },
+   {
+    "label": "速度",
+    "value": 6
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 102011,
+  "name": "阔头枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "速度",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 10000,
+  "sell": 2500,
+  "exclusive": null
+ },
+ {
+  "id": 102012,
+  "name": "强盗长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 81
+   },
+   {
+    "label": "速度",
+    "value": 31
+   }
+  ],
+  "skills": [],
+  "buy": 10000,
+  "sell": 2500,
+  "exclusive": null
+ },
+ {
+  "id": 102013,
+  "name": "重骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 96
+   },
+   {
+    "label": "会心",
+    "value": 53
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 102014,
+  "name": "轻装兵之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 104
+   },
+   {
+    "label": "速度",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 102015,
+  "name": "巨物猎叉",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 103
+   },
+   {
+    "label": "命中",
+    "value": 31
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 102016,
+  "name": "士兵长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 111
+   },
+   {
+    "label": "速度",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 102017,
+  "name": "豹骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 112
+   },
+   {
+    "label": "会心",
+    "value": 66
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 102018,
+  "name": "黑铁三叉戟",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 114
+   },
+   {
+    "label": "会心",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 102019,
+  "name": "重骨长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 125
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 102020,
+  "name": "大桥骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 128
+   },
+   {
+    "label": "会心",
+    "value": 71
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 102021,
+  "name": "焦黑骨枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 132
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 102022,
+  "name": "刺猬长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 142
+   },
+   {
+    "label": "速度",
+    "value": 84
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 102023,
+  "name": "魔法长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 96
+   },
+   {
+    "label": "属攻",
+    "value": 162
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 102024,
+  "name": "元素长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 104
+   },
+   {
+    "label": "属攻",
+    "value": 173
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 102025,
+  "name": "帝国骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 180
+   },
+   {
+    "label": "会心",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 34000,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 102026,
+  "name": "圣骑士铁枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 184
+   },
+   {
+    "label": "会心",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 34000,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 102027,
+  "name": "白金长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 196
+   },
+   {
+    "label": "速度",
+    "value": 92
+   }
+  ],
+  "skills": [],
+  "buy": 38000,
+  "sell": 9500,
+  "exclusive": null
+ },
+ {
+  "id": 102028,
+  "name": "恶梦之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 210
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 38000,
+  "sell": 9500,
+  "exclusive": null
+ },
+ {
+  "id": 102029,
+  "name": "强化长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 208
+   },
+   {
+    "label": "属攻",
+    "value": 186
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 102030,
+  "name": "异色边缘骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 238
+   },
+   {
+    "label": "会心",
+    "value": 72
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 102031,
+  "name": "重装兵之长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 222
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 102032,
+  "name": "翡翠骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 228
+   },
+   {
+    "label": "会心",
+    "value": 115
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 102033,
+  "name": "灵魂长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 121
+   },
+   {
+    "label": "属攻",
+    "value": 252
+   }
+  ],
+  "skills": [],
+  "buy": 50000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 102034,
+  "name": "守护者之长枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 272
+   },
+   {
+    "label": "速度",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 102035,
+  "name": "贵金属长柄刀",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 284
+   },
+   {
+    "label": "回避",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 102036,
+  "name": "猛毒骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 292
+   },
+   {
+    "label": "会心",
+    "value": 89
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 102037,
+  "name": "禁忌之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 320
+   },
+   {
+    "label": "速度",
+    "value": -120
+   },
+   {
+    "label": "回避",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 102038,
+  "name": "希望之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 330
+   },
+   {
+    "label": "速度",
+    "value": 94
+   },
+   {
+    "label": "会心",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 102039,
+  "name": "重力骑枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 375
+   },
+   {
+    "label": "命中",
+    "value": -75
+   },
+   {
+    "label": "回避",
+    "value": -90
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 102040,
+  "name": "贸易风之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 150
+   },
+   {
+    "label": "属攻",
+    "value": 380
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 102041,
+  "name": "风云枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 375
+   },
+   {
+    "label": "速度",
+    "value": 99
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 102042,
+  "name": "历战之枪",
+  "category": "武器",
+  "type": "长枪",
+  "iconKey": "weapon_spear",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 390
+   },
+   {
+    "label": "会心",
+    "value": 148
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 103000,
+  "name": "普通短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 103001,
+  "name": "匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 7
+   },
+   {
+    "label": "回避",
+    "value": 6
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 103002,
+  "name": "铁制匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 20
+   },
+   {
+    "label": "回避",
+    "value": 16
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 103003,
+  "name": "刺击匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 26
+   },
+   {
+    "label": "回避",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 1400,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 103004,
+  "name": "魔咒匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 32
+   },
+   {
+    "label": "属攻",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 103005,
+  "name": "迷惑短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 48
+   },
+   {
+    "label": "速度",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 4000,
+  "sell": 1000,
+  "exclusive": null
+ },
+ {
+  "id": 103006,
+  "name": "猎鹰匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 52
+   },
+   {
+    "label": "回避",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 7000,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 103007,
+  "name": "穿孔匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 59
+   },
+   {
+    "label": "回避",
+    "value": 27
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 103008,
+  "name": "银制匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 69
+   },
+   {
+    "label": "回避",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 9000,
+  "sell": 2300,
+  "exclusive": null
+ },
+ {
+  "id": 103009,
+  "name": "石英匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 72
+   },
+   {
+    "label": "命中",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 9000,
+  "sell": 2300,
+  "exclusive": null
+ },
+ {
+  "id": 103010,
+  "name": "破剑者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 76
+   },
+   {
+    "label": "会心",
+    "value": 46
+   }
+  ],
+  "skills": [],
+  "buy": 9500,
+  "sell": 2400,
+  "exclusive": null
+ },
+ {
+  "id": 103011,
+  "name": "隐士匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 79
+   },
+   {
+    "label": "回避",
+    "value": 48
+   }
+  ],
+  "skills": [],
+  "buy": 9500,
+  "sell": 2400,
+  "exclusive": null
+ },
+ {
+  "id": 103012,
+  "name": "断链者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 82
+   },
+   {
+    "label": "速度",
+    "value": 58
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 103013,
+  "name": "新月匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 88
+   },
+   {
+    "label": "回避",
+    "value": 57
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 103014,
+  "name": "海盗匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 102
+   },
+   {
+    "label": "回避",
+    "value": 36
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 103015,
+  "name": "碧玉匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 101
+   },
+   {
+    "label": "回避",
+    "value": 31
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 103016,
+  "name": "浮云短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 111
+   },
+   {
+    "label": "会心",
+    "value": 28
+   },
+   {
+    "label": "命中",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 103017,
+  "name": "隐形匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 117
+   },
+   {
+    "label": "回避",
+    "value": 37
+   }
+  ],
+  "skills": [],
+  "buy": 23000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 103018,
+  "name": "玄黑匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 118
+   },
+   {
+    "label": "速度",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 103019,
+  "name": "黑曜石匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 122
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 103020,
+  "name": "符文短刀",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 128
+   },
+   {
+    "label": "属攻",
+    "value": 242
+   }
+  ],
+  "skills": [],
+  "buy": 51000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 103021,
+  "name": "越狱者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 132
+   },
+   {
+    "label": "会心",
+    "value": 65
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 103022,
+  "name": "钻石匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 145
+   },
+   {
+    "label": "命中",
+    "value": 27
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 103023,
+  "name": "正义破坏者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 166
+   },
+   {
+    "label": "速度",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 33000,
+  "sell": 8300,
+  "exclusive": null
+ },
+ {
+  "id": 103024,
+  "name": "腥红匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 172
+   },
+   {
+    "label": "回避",
+    "value": 101
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 103025,
+  "name": "斗士的短刀",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 180
+   },
+   {
+    "label": "命中",
+    "value": 58
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 103026,
+  "name": "灵魂匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 98
+   },
+   {
+    "label": "属攻",
+    "value": 188
+   }
+  ],
+  "skills": [],
+  "buy": 37000,
+  "sell": 9300,
+  "exclusive": null
+ },
+ {
+  "id": 103027,
+  "name": "刺客匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 196
+   },
+   {
+    "label": "回避",
+    "value": 119
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 103028,
+  "name": "毁灭破坏者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 202
+   },
+   {
+    "label": "会心",
+    "value": 123
+   }
+  ],
+  "skills": [],
+  "buy": 43000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 103029,
+  "name": "名门短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 203
+   },
+   {
+    "label": "回避",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 103030,
+  "name": "异色边缘匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 237
+   },
+   {
+    "label": "回避",
+    "value": 125
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 103031,
+  "name": "陨石匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 221
+   },
+   {
+    "label": "命中",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 103032,
+  "name": "执行者之劈刀",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 224
+   },
+   {
+    "label": "会心",
+    "value": 137
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 103033,
+  "name": "境界破坏者",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 236
+   },
+   {
+    "label": "速度",
+    "value": 83
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 103034,
+  "name": "守护者之短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 260
+   },
+   {
+    "label": "会心",
+    "value": 115
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 103035,
+  "name": "万速匕首",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 263
+   },
+   {
+    "label": "回避",
+    "value": 129
+   }
+  ],
+  "skills": [],
+  "buy": 55000,
+  "sell": 14000,
+  "exclusive": null
+ },
+ {
+  "id": 103036,
+  "name": "遁世短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 279
+   },
+   {
+    "label": "回避",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 103037,
+  "name": "禁忌短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 285
+   },
+   {
+    "label": "属攻",
+    "value": 155
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 103038,
+  "name": "希望短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 308
+   },
+   {
+    "label": "会心",
+    "value": 126
+   },
+   {
+    "label": "回避",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 103039,
+  "name": "破灭凶刀",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 317
+   },
+   {
+    "label": "命中",
+    "value": -75
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 103040,
+  "name": "大蛇短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 332
+   },
+   {
+    "label": "速度",
+    "value": 132
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 103041,
+  "name": "袭爪短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 360
+   },
+   {
+    "label": "会心",
+    "value": 132
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 103042,
+  "name": "历战短剑",
+  "category": "武器",
+  "type": "短剑",
+  "iconKey": "weapon_dagger",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 380
+   },
+   {
+    "label": "回避",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 72000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 104000,
+  "name": "普通斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 104001,
+  "name": "手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 8
+   },
+   {
+    "label": "命中",
+    "value": 4
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 104002,
+  "name": "铁斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 24
+   },
+   {
+    "label": "命中",
+    "value": 12
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 104003,
+  "name": "战斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 26
+   },
+   {
+    "label": "命中",
+    "value": 6
+   }
+  ],
+  "skills": [],
+  "buy": 1200,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 104004,
+  "name": "魔咒手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 36
+   },
+   {
+    "label": "属攻",
+    "value": 36
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 450,
+  "exclusive": null
+ },
+ {
+  "id": 104005,
+  "name": "银制斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 43
+   },
+   {
+    "label": "命中",
+    "value": 12
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 104006,
+  "name": "卫兵大斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 54
+   },
+   {
+    "label": "会心",
+    "value": 13
+   }
+  ],
+  "skills": [],
+  "buy": 7000,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 104007,
+  "name": "战斗手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 59
+   },
+   {
+    "label": "速度",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 104008,
+  "name": "猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 70
+   },
+   {
+    "label": "会心",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 104009,
+  "name": "破盔之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 71
+   },
+   {
+    "label": "命中",
+    "value": -45
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 104010,
+  "name": "重斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 76
+   },
+   {
+    "label": "命中",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 104011,
+  "name": "毒蜘蛛之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "属攻",
+    "value": 68
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 104012,
+  "name": "狩猎手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 81
+   },
+   {
+    "label": "速度",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 104013,
+  "name": "钢斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 96
+   },
+   {
+    "label": "属攻",
+    "value": -20
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 104014,
+  "name": "投掷战斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 103
+   },
+   {
+    "label": "速度",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 104015,
+  "name": "魔力之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 40
+   },
+   {
+    "label": "属攻",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 104016,
+  "name": "冰霜之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 110
+   },
+   {
+    "label": "速度",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 104017,
+  "name": "维京斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 113
+   },
+   {
+    "label": "命中",
+    "value": 38
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 104018,
+  "name": "银斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 122
+   },
+   {
+    "label": "会心",
+    "value": 48
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 104019,
+  "name": "护卫之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 123
+   },
+   {
+    "label": "命中",
+    "value": 36
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 104020,
+  "name": "巨骨之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 128
+   },
+   {
+    "label": "命中",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 104021,
+  "name": "尖角猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 134
+   },
+   {
+    "label": "会心",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 104022,
+  "name": "灵魂手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "属攻",
+    "value": 147
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 104023,
+  "name": "岩石猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 156
+   },
+   {
+    "label": "会心",
+    "value": 64
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 104024,
+  "name": "灰熊猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 181
+   },
+   {
+    "label": "会心",
+    "value": 72
+   }
+  ],
+  "skills": [],
+  "buy": 31000,
+  "sell": 7800,
+  "exclusive": null
+ },
+ {
+  "id": 104025,
+  "name": "重力子斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 186
+   },
+   {
+    "label": "命中",
+    "value": 74
+   }
+  ],
+  "skills": [],
+  "buy": 34000,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 104026,
+  "name": "巨大猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 186
+   },
+   {
+    "label": "会心",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 34000,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 104027,
+  "name": "地狱斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 199
+   },
+   {
+    "label": "命中",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 34000,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 104028,
+  "name": "元素手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 98
+   },
+   {
+    "label": "属攻",
+    "value": 206
+   }
+  ],
+  "skills": [],
+  "buy": 38000,
+  "sell": 9500,
+  "exclusive": null
+ },
+ {
+  "id": 104029,
+  "name": "双刃斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 196
+   },
+   {
+    "label": "命中",
+    "value": 198
+   }
+  ],
+  "skills": [],
+  "buy": 44000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 104030,
+  "name": "异色边缘斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 250
+   },
+   {
+    "label": "命中",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 104031,
+  "name": "山丘猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 221
+   },
+   {
+    "label": "会心",
+    "value": 86
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 104032,
+  "name": "金钢合金手斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 112
+   },
+   {
+    "label": "属攻",
+    "value": 230
+   }
+  ],
+  "skills": [],
+  "buy": 44000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 104033,
+  "name": "巨大斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 248
+   },
+   {
+    "label": "命中",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 48000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 104034,
+  "name": "守护者之大斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 274
+   },
+   {
+    "label": "回避",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 104035,
+  "name": "食人魔猛击斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 286
+   },
+   {
+    "label": "会心",
+    "value": 110
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 104036,
+  "name": "染血的斧头",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 297
+   },
+   {
+    "label": "速度",
+    "value": 91
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 104037,
+  "name": "禁忌之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 391
+   },
+   {
+    "label": "速度",
+    "value": 80
+   },
+   {
+    "label": "命中",
+    "value": -50
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 104038,
+  "name": "希望之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 312
+   },
+   {
+    "label": "属攻",
+    "value": 214
+   },
+   {
+    "label": "命中",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 104039,
+  "name": "破碎大斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 306
+   },
+   {
+    "label": "会心",
+    "value": 90
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 104040,
+  "name": "英雄之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 340
+   },
+   {
+    "label": "会心",
+    "value": 102
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 104041,
+  "name": "灵树之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 300
+   },
+   {
+    "label": "属攻",
+    "value": 350
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 104042,
+  "name": "历战之斧",
+  "category": "武器",
+  "type": "斧头",
+  "iconKey": "weapon_ax",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 350
+   },
+   {
+    "label": "属攻",
+    "value": 250
+   }
+  ],
+  "skills": [],
+  "buy": 73000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 105000,
+  "name": "普通弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 105001,
+  "name": "长弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 8
+   },
+   {
+    "label": "属攻",
+    "value": 1
+   },
+   {
+    "label": "命中",
+    "value": 2
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 105002,
+  "name": "复合弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 18
+   },
+   {
+    "label": "属攻",
+    "value": 16
+   },
+   {
+    "label": "命中",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 105003,
+  "name": "大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 24
+   },
+   {
+    "label": "会心",
+    "value": 6
+   }
+  ],
+  "skills": [],
+  "buy": 1600,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 105004,
+  "name": "石弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 29
+   },
+   {
+    "label": "命中",
+    "value": 33
+   }
+  ],
+  "skills": [],
+  "buy": 1600,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 105005,
+  "name": "狼弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 42
+   },
+   {
+    "label": "属攻",
+    "value": 34
+   },
+   {
+    "label": "命中",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 2600,
+  "sell": 650,
+  "exclusive": null
+ },
+ {
+  "id": 105006,
+  "name": "魔咒弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 38
+   },
+   {
+    "label": "属攻",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 2800,
+  "sell": 700,
+  "exclusive": null
+ },
+ {
+  "id": 105007,
+  "name": "杀手弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 60
+   },
+   {
+    "label": "属攻",
+    "value": 30
+   },
+   {
+    "label": "命中",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 105008,
+  "name": "魔法弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 58
+   },
+   {
+    "label": "属攻",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 10000,
+  "sell": 2500,
+  "exclusive": null
+ },
+ {
+  "id": 105009,
+  "name": "重弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 69
+   },
+   {
+    "label": "属攻",
+    "value": 66
+   },
+   {
+    "label": "命中",
+    "value": 44
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 105010,
+  "name": "骑士大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 77
+   },
+   {
+    "label": "会心",
+    "value": 33
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 105011,
+  "name": "海市蜃楼弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 80
+   },
+   {
+    "label": "速度",
+    "value": 37
+   }
+  ],
+  "skills": [],
+  "buy": 14000,
+  "sell": 3500,
+  "exclusive": null
+ },
+ {
+  "id": 105012,
+  "name": "灵魂弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 82
+   },
+   {
+    "label": "属攻",
+    "value": 72
+   },
+   {
+    "label": "命中",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 14000,
+  "sell": 3500,
+  "exclusive": null
+ },
+ {
+  "id": 105013,
+  "name": "战斧弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 96
+   },
+   {
+    "label": "属攻",
+    "value": 84
+   },
+   {
+    "label": "命中",
+    "value": 61
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 105014,
+  "name": "神射手的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 105
+   },
+   {
+    "label": "会心",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 105015,
+  "name": "元素弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 108
+   },
+   {
+    "label": "属攻",
+    "value": 98
+   },
+   {
+    "label": "命中",
+    "value": 74
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 105016,
+  "name": "战斗弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 114
+   },
+   {
+    "label": "命中",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 105017,
+  "name": "速射之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 118
+   },
+   {
+    "label": "速度",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 105018,
+  "name": "猛者之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 121
+   },
+   {
+    "label": "会心",
+    "value": 23
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 105019,
+  "name": "沙暴之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 123
+   },
+   {
+    "label": "速度",
+    "value": 37
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 105020,
+  "name": "战姬的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 128
+   },
+   {
+    "label": "会心",
+    "value": 43
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 105021,
+  "name": "异国之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 134
+   },
+   {
+    "label": "命中",
+    "value": 41
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 105022,
+  "name": "碎铠之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 146
+   },
+   {
+    "label": "会心",
+    "value": 45
+   }
+  ],
+  "skills": [],
+  "buy": 33000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 105023,
+  "name": "光辉弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 152
+   },
+   {
+    "label": "属攻",
+    "value": 176
+   },
+   {
+    "label": "命中",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 37000,
+  "sell": 9300,
+  "exclusive": null
+ },
+ {
+  "id": 105024,
+  "name": "猛兽之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 179
+   },
+   {
+    "label": "回避",
+    "value": 56
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 105025,
+  "name": "海盗的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 181
+   },
+   {
+    "label": "会心",
+    "value": 77
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 105026,
+  "name": "强化弓·隼",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 182
+   },
+   {
+    "label": "属攻",
+    "value": 182
+   },
+   {
+    "label": "会心",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 41000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 105027,
+  "name": "达人的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 192
+   },
+   {
+    "label": "会心",
+    "value": 85
+   }
+  ],
+  "skills": [],
+  "buy": 39000,
+  "sell": 9800,
+  "exclusive": null
+ },
+ {
+  "id": 105028,
+  "name": "符文弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 198
+   },
+   {
+    "label": "属攻",
+    "value": 202
+   },
+   {
+    "label": "命中",
+    "value": 96
+   }
+  ],
+  "skills": [],
+  "buy": 47000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 105029,
+  "name": "金钢合金弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 178
+   },
+   {
+    "label": "属攻",
+    "value": 209
+   }
+  ],
+  "skills": [],
+  "buy": 43000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 105030,
+  "name": "异色边缘弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 235
+   },
+   {
+    "label": "属攻",
+    "value": 245
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 105031,
+  "name": "雪男的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 229
+   },
+   {
+    "label": "属攻",
+    "value": 95
+   }
+  ],
+  "skills": [],
+  "buy": 47000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 105032,
+  "name": "瞬迅之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 223
+   },
+   {
+    "label": "速度",
+    "value": 47
+   }
+  ],
+  "skills": [],
+  "buy": 47000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 105033,
+  "name": "弓圣的大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 246
+   },
+   {
+    "label": "会心",
+    "value": 103
+   }
+  ],
+  "skills": [],
+  "buy": 55000,
+  "sell": 14000,
+  "exclusive": null
+ },
+ {
+  "id": 105034,
+  "name": "守护者之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 262
+   },
+   {
+    "label": "属攻",
+    "value": 262
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 105035,
+  "name": "夕雾魔弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 293
+   },
+   {
+    "label": "属攻",
+    "value": 325
+   }
+  ],
+  "skills": [],
+  "buy": 62000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 105036,
+  "name": "海兽大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 296
+   },
+   {
+    "label": "会心",
+    "value": 89
+   }
+  ],
+  "skills": [],
+  "buy": 62000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 105037,
+  "name": "禁忌大弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 350
+   },
+   {
+    "label": "属攻",
+    "value": 350
+   },
+   {
+    "label": "速度",
+    "value": -100
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 105038,
+  "name": "希望之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 303
+   },
+   {
+    "label": "属攻",
+    "value": 289
+   },
+   {
+    "label": "速度",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 105039,
+  "name": "森林深处之人的弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 310
+   },
+   {
+    "label": "回避",
+    "value": 96
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 105040,
+  "name": "古来弓·岚",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 241
+   },
+   {
+    "label": "属攻",
+    "value": 342
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 105041,
+  "name": "月光之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 363
+   },
+   {
+    "label": "属攻",
+    "value": 370
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 105042,
+  "name": "历战之弓",
+  "category": "武器",
+  "type": "弓",
+  "iconKey": "weapon_bow",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 390
+   },
+   {
+    "label": "会心",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 106000,
+  "name": "普通杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 106001,
+  "name": "手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 1
+   },
+   {
+    "label": "属攻",
+    "value": 8
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 106002,
+  "name": "石杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 4
+   },
+   {
+    "label": "属攻",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 106003,
+  "name": "光之手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 8
+   },
+   {
+    "label": "属攻",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 106004,
+  "name": "石英杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 12
+   },
+   {
+    "label": "属攻",
+    "value": 38
+   },
+   {
+    "label": "回避",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 2400,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 106005,
+  "name": "权杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 63
+   },
+   {
+    "label": "属攻",
+    "value": 33
+   },
+   {
+    "label": "会心",
+    "value": 8
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 106006,
+  "name": "月桂手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 24
+   },
+   {
+    "label": "属攻",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 3800,
+  "sell": 950,
+  "exclusive": null
+ },
+ {
+  "id": 106007,
+  "name": "矿石杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 29
+   },
+   {
+    "label": "属攻",
+    "value": 59
+   },
+   {
+    "label": "属防",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 106008,
+  "name": "橡木手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 16
+   },
+   {
+    "label": "属攻",
+    "value": 68
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 106009,
+  "name": "连枷",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 68
+   },
+   {
+    "label": "属攻",
+    "value": 42
+   },
+   {
+    "label": "会心",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 106010,
+  "name": "长柄权杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 76
+   },
+   {
+    "label": "属攻",
+    "value": 51
+   },
+   {
+    "label": "会心",
+    "value": 23
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 106011,
+  "name": "理力之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "属攻",
+    "value": 78
+   }
+  ],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 106012,
+  "name": "祈祷之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 42
+   },
+   {
+    "label": "属攻",
+    "value": 83
+   }
+  ],
+  "skills": [],
+  "buy": 14000,
+  "sell": 3500,
+  "exclusive": null
+ },
+ {
+  "id": 106013,
+  "name": "奇迹手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 56
+   },
+   {
+    "label": "属攻",
+    "value": 92
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 106014,
+  "name": "燃木之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 58
+   },
+   {
+    "label": "属攻",
+    "value": 109
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 106015,
+  "name": "黑檀手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 73
+   },
+   {
+    "label": "属攻",
+    "value": 104
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 106016,
+  "name": "碧玉之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 58
+   },
+   {
+    "label": "属攻",
+    "value": 116
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 106017,
+  "name": "象牙手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 60
+   },
+   {
+    "label": "属攻",
+    "value": 118
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 106018,
+  "name": "连枷",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 120
+   },
+   {
+    "label": "属攻",
+    "value": 60
+   },
+   {
+    "label": "会心",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 106019,
+  "name": "机关手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 74
+   },
+   {
+    "label": "属攻",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 106020,
+  "name": "魔术师之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "属攻",
+    "value": 126
+   },
+   {
+    "label": "会心",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 106021,
+  "name": "黑曜石手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 82
+   },
+   {
+    "label": "属攻",
+    "value": 136
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 106022,
+  "name": "神盾权杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 143
+   },
+   {
+    "label": "属攻",
+    "value": 85
+   },
+   {
+    "label": "会心",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 106023,
+  "name": "蓝宝石杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 86
+   },
+   {
+    "label": "属攻",
+    "value": 158
+   },
+   {
+    "label": "回避",
+    "value": 49
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 106024,
+  "name": "巨锤",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 171
+   },
+   {
+    "label": "属攻",
+    "value": 98
+   },
+   {
+    "label": "会心",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 106025,
+  "name": "大蓝宝石杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 89
+   },
+   {
+    "label": "属攻",
+    "value": 176
+   },
+   {
+    "label": "回避",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 106026,
+  "name": "血红手杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 98
+   },
+   {
+    "label": "属攻",
+    "value": 188
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 106027,
+  "name": "晨星锤",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 196
+   },
+   {
+    "label": "属攻",
+    "value": 102
+   },
+   {
+    "label": "会心",
+    "value": 72
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 106028,
+  "name": "碎魔者权杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 198
+   },
+   {
+    "label": "属攻",
+    "value": 102
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 106029,
+  "name": "陨石杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 98
+   },
+   {
+    "label": "属攻",
+    "value": 216
+   }
+  ],
+  "skills": [],
+  "buy": 45000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 106030,
+  "name": "异色边缘杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 130
+   },
+   {
+    "label": "属攻",
+    "value": 250
+   }
+  ],
+  "skills": [],
+  "buy": 45000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 106031,
+  "name": "巨人棍棒",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 229
+   },
+   {
+    "label": "属攻",
+    "value": 112
+   },
+   {
+    "label": "会心",
+    "value": 86
+   }
+  ],
+  "skills": [],
+  "buy": 50000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 106032,
+  "name": "圣火教会之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 102
+   },
+   {
+    "label": "属攻",
+    "value": 230
+   }
+  ],
+  "skills": [],
+  "buy": 50000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 106033,
+  "name": "魔法之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 91
+   },
+   {
+    "label": "属攻",
+    "value": 242
+   }
+  ],
+  "skills": [],
+  "buy": 55000,
+  "sell": 14000,
+  "exclusive": null
+ },
+ {
+  "id": 106034,
+  "name": "守护者之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 110
+   },
+   {
+    "label": "属攻",
+    "value": 272
+   }
+  ],
+  "skills": [],
+  "buy": 58000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 106035,
+  "name": "绝对零度之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 132
+   },
+   {
+    "label": "属攻",
+    "value": 293
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 106036,
+  "name": "术士之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 113
+   },
+   {
+    "label": "属攻",
+    "value": 300
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 106037,
+  "name": "禁忌之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": -210
+   },
+   {
+    "label": "属攻",
+    "value": 342
+   },
+   {
+    "label": "属防",
+    "value": -120
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 106038,
+  "name": "希望之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 160
+   },
+   {
+    "label": "属攻",
+    "value": 300
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 106039,
+  "name": "璞玉之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 177
+   },
+   {
+    "label": "属攻",
+    "value": 315
+   },
+   {
+    "label": "速度",
+    "value": -60
+   },
+   {
+    "label": "回避",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 106040,
+  "name": "善恶之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 171
+   },
+   {
+    "label": "属攻",
+    "value": 335
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 106041,
+  "name": "秩序之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 198
+   },
+   {
+    "label": "属攻",
+    "value": 380
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 106042,
+  "name": "历战之杖",
+  "category": "武器",
+  "type": "杖",
+  "iconKey": "weapon_cane",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 212
+   },
+   {
+    "label": "属攻",
+    "value": 399
+   }
+  ],
+  "skills": [],
+  "buy": 75000,
+  "sell": 19000,
+  "exclusive": null
+ },
+ {
+  "id": 107000,
+  "name": "普通扇子",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 107001,
+  "name": "橡木扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 6
+   },
+   {
+    "label": "属攻",
+    "value": 3
+   },
+   {
+    "label": "回避",
+    "value": 7
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 107002,
+  "name": "清风扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 18
+   },
+   {
+    "label": "属攻",
+    "value": 20
+   },
+   {
+    "label": "速度",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 107003,
+  "name": "铜扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 26
+   },
+   {
+    "label": "属攻",
+    "value": 22
+   },
+   {
+    "label": "会心",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 1400,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 107004,
+  "name": "脉轮之刃",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 33
+   },
+   {
+    "label": "属攻",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 107005,
+  "name": "铁扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 72
+   },
+   {
+    "label": "会心",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 4000,
+  "sell": 1000,
+  "exclusive": null
+ },
+ {
+  "id": 107006,
+  "name": "毒蛇脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 51
+   },
+   {
+    "label": "属攻",
+    "value": 48
+   }
+  ],
+  "skills": [],
+  "buy": 7000,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 107007,
+  "name": "银扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 58
+   },
+   {
+    "label": "属攻",
+    "value": 55
+   },
+   {
+    "label": "会心",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 7500,
+  "sell": 1900,
+  "exclusive": null
+ },
+ {
+  "id": 107008,
+  "name": "鸽子羽毛",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 66
+   },
+   {
+    "label": "属攻",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 9000,
+  "sell": 2300,
+  "exclusive": null
+ },
+ {
+  "id": 107009,
+  "name": "梅花扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 70
+   },
+   {
+    "label": "属攻",
+    "value": 70
+   }
+  ],
+  "skills": [],
+  "buy": 9000,
+  "sell": 2300,
+  "exclusive": null
+ },
+ {
+  "id": 107010,
+  "name": "金扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 73
+   },
+   {
+    "label": "属攻",
+    "value": 70
+   },
+   {
+    "label": "会心",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 9500,
+  "sell": 2400,
+  "exclusive": null
+ },
+ {
+  "id": 107011,
+  "name": "虎扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 79
+   },
+   {
+    "label": "属攻",
+    "value": 72
+   },
+   {
+    "label": "命中",
+    "value": 23
+   }
+  ],
+  "skills": [],
+  "buy": 9500,
+  "sell": 2400,
+  "exclusive": null
+ },
+ {
+  "id": 107012,
+  "name": "逆风之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 86
+   },
+   {
+    "label": "属攻",
+    "value": 76
+   },
+   {
+    "label": "速度",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 107013,
+  "name": "毒液脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 92
+   },
+   {
+    "label": "属攻",
+    "value": 86
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 107014,
+  "name": "异国之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 101
+   },
+   {
+    "label": "属攻",
+    "value": 94
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 107015,
+  "name": "钢铁扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 123
+   },
+   {
+    "label": "属攻",
+    "value": 86
+   },
+   {
+    "label": "会心",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3800,
+  "exclusive": null
+ },
+ {
+  "id": 107016,
+  "name": "乌鸦羽毛",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 112
+   },
+   {
+    "label": "属攻",
+    "value": 101
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 107017,
+  "name": "神职人员之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 115
+   },
+   {
+    "label": "属攻",
+    "value": 103
+   },
+   {
+    "label": "命中",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 107018,
+  "name": "旋风之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 121
+   },
+   {
+    "label": "属攻",
+    "value": 110
+   },
+   {
+    "label": "速度",
+    "value": 32
+   }
+  ],
+  "skills": [],
+  "buy": 23000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 107019,
+  "name": "破竹扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 128
+   },
+   {
+    "label": "属攻",
+    "value": 115
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 107020,
+  "name": "黑色脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 133
+   },
+   {
+    "label": "属攻",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 107021,
+  "name": "刺客脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 138
+   },
+   {
+    "label": "属攻",
+    "value": 126
+   },
+   {
+    "label": "回避",
+    "value": 72
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 107022,
+  "name": "金合欢扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 140
+   },
+   {
+    "label": "属攻",
+    "value": 141
+   }
+  ],
+  "skills": [],
+  "buy": 33000,
+  "sell": 8300,
+  "exclusive": null
+ },
+ {
+  "id": 107023,
+  "name": "疾风之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 175
+   },
+   {
+    "label": "属攻",
+    "value": 126
+   },
+   {
+    "label": "速度",
+    "value": 75
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 107024,
+  "name": "金钢合扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 147
+   },
+   {
+    "label": "属攻",
+    "value": 168
+   },
+   {
+    "label": "会心",
+    "value": 65
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 107025,
+  "name": "催眠脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 156
+   },
+   {
+    "label": "属攻",
+    "value": 175
+   }
+  ],
+  "skills": [],
+  "buy": 37000,
+  "sell": 9300,
+  "exclusive": null
+ },
+ {
+  "id": 107026,
+  "name": "松阴扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 178
+   },
+   {
+    "label": "属攻",
+    "value": 182
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 107027,
+  "name": "鸟身女妖的羽毛",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 162
+   },
+   {
+    "label": "属攻",
+    "value": 206
+   }
+  ],
+  "skills": [],
+  "buy": 43000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 107028,
+  "name": "暴风之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 202
+   },
+   {
+    "label": "属攻",
+    "value": 190
+   },
+   {
+    "label": "速度",
+    "value": 103
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 107029,
+  "name": "老鹰羽毛",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 181
+   },
+   {
+    "label": "属攻",
+    "value": 208
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 107030,
+  "name": "异色边缘扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 217
+   },
+   {
+    "label": "属攻",
+    "value": 243
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 107031,
+  "name": "毒蝎脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 198
+   },
+   {
+    "label": "属攻",
+    "value": 222
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 107032,
+  "name": "漆黑歌后",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 226
+   },
+   {
+    "label": "属攻",
+    "value": 228
+   }
+  ],
+  "skills": [],
+  "buy": 46000,
+  "sell": 12000,
+  "exclusive": null
+ },
+ {
+  "id": 107033,
+  "name": "主人公之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 206
+   },
+   {
+    "label": "属攻",
+    "value": 248
+   },
+   {
+    "label": "回避",
+    "value": 119
+   }
+  ],
+  "skills": [],
+  "buy": 51000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 107034,
+  "name": "守护者之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 254
+   },
+   {
+    "label": "属攻",
+    "value": 268
+   }
+  ],
+  "skills": [],
+  "buy": 55000,
+  "sell": 14000,
+  "exclusive": null
+ },
+ {
+  "id": 107035,
+  "name": "始皇帝之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 286
+   },
+   {
+    "label": "属攻",
+    "value": 286
+   },
+   {
+    "label": "命中",
+    "value": 73
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 107036,
+  "name": "龙族公主之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 301
+   },
+   {
+    "label": "属攻",
+    "value": 294
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 107037,
+  "name": "禁忌之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 390
+   },
+   {
+    "label": "属攻",
+    "value": -90
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 107038,
+  "name": "希望之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 290
+   },
+   {
+    "label": "属攻",
+    "value": 296
+   },
+   {
+    "label": "回避",
+    "value": 102
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 107039,
+  "name": "神圣脉轮",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 312
+   },
+   {
+    "label": "属攻",
+    "value": 298
+   }
+  ],
+  "skills": [],
+  "buy": 63000,
+  "sell": 15500,
+  "exclusive": null
+ },
+ {
+  "id": 107040,
+  "name": "神风之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 320
+   },
+   {
+    "label": "属攻",
+    "value": 320
+   },
+   {
+    "label": "速度",
+    "value": 125
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 107041,
+  "name": "宵暗之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 352
+   },
+   {
+    "label": "属攻",
+    "value": 373
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 107042,
+  "name": "历战之扇",
+  "category": "武器",
+  "type": "扇子",
+  "iconKey": "weapon_fan",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 362
+   },
+   {
+    "label": "属攻",
+    "value": 382
+   }
+  ],
+  "skills": [],
+  "buy": 72000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 108000,
+  "name": "普通书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": null,
+  "exclusive": null
+ },
+ {
+  "id": 108001,
+  "name": "哲学书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 1
+   },
+   {
+    "label": "属攻",
+    "value": 8
+   },
+   {
+    "label": "速度",
+    "value": 1
+   }
+  ],
+  "skills": [],
+  "buy": 120,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 108002,
+  "name": "老旧魔法书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 3
+   },
+   {
+    "label": "属攻",
+    "value": 23
+   },
+   {
+    "label": "速度",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 108003,
+  "name": "炼金之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 6
+   },
+   {
+    "label": "属攻",
+    "value": 28
+   },
+   {
+    "label": "速度",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 800,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 108004,
+  "name": "助眠推荐·上卷",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 10
+   },
+   {
+    "label": "属攻",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 2400,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 108005,
+  "name": "初级战术书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 20
+   },
+   {
+    "label": "属攻",
+    "value": 41
+   },
+   {
+    "label": "回避",
+    "value": 12
+   }
+  ],
+  "skills": [],
+  "buy": 3800,
+  "sell": 950,
+  "exclusive": null
+ },
+ {
+  "id": 108006,
+  "name": "精灵之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 20
+   },
+   {
+    "label": "属攻",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 108007,
+  "name": "奥鲁斯特拉的历史",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 25
+   },
+   {
+    "label": "属攻",
+    "value": 65
+   }
+  ],
+  "skills": [],
+  "buy": 5600,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 108008,
+  "name": "初级药学书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 30
+   },
+   {
+    "label": "属攻",
+    "value": 72
+   },
+   {
+    "label": "速度",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 108009,
+  "name": "知识之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 35
+   },
+   {
+    "label": "属攻",
+    "value": 73
+   },
+   {
+    "label": "会心",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 108010,
+  "name": "非常硬的书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 80
+   },
+   {
+    "label": "属攻",
+    "value": 60
+   },
+   {
+    "label": "速度",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 108011,
+  "name": "公主与圣骑士物语",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 42
+   },
+   {
+    "label": "属攻",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 108012,
+  "name": "死灵书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 46
+   },
+   {
+    "label": "属攻",
+    "value": 86
+   }
+  ],
+  "skills": [],
+  "buy": 14000,
+  "sell": 3500,
+  "exclusive": null
+ },
+ {
+  "id": 108013,
+  "name": "药草大百科",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 50
+   },
+   {
+    "label": "属攻",
+    "value": 98
+   },
+   {
+    "label": "速度",
+    "value": 26
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 108014,
+  "name": "魔术研究书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 54
+   },
+   {
+    "label": "属攻",
+    "value": 110
+   },
+   {
+    "label": "速度",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 108015,
+  "name": "助眠推荐·中卷",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 56
+   },
+   {
+    "label": "属攻",
+    "value": 116
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 108016,
+  "name": "中级战术书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 57
+   },
+   {
+    "label": "属攻",
+    "value": 120
+   },
+   {
+    "label": "回避",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 108017,
+  "name": "高级药学书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 68
+   },
+   {
+    "label": "属攻",
+    "value": 122
+   },
+   {
+    "label": "速度",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 108018,
+  "name": "钢制的书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 124
+   },
+   {
+    "label": "属攻",
+    "value": 102
+   },
+   {
+    "label": "会心",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 108019,
+  "name": "元素魔法书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 72
+   },
+   {
+    "label": "属攻",
+    "value": 128
+   }
+  ],
+  "skills": [],
+  "buy": 22000,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 108020,
+  "name": "异国的冒险物语",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 74
+   },
+   {
+    "label": "属攻",
+    "value": 132
+   },
+   {
+    "label": "回避",
+    "value": 58
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 6300,
+  "exclusive": null
+ },
+ {
+  "id": 108021,
+  "name": "十二神信仰录",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 78
+   },
+   {
+    "label": "属攻",
+    "value": 140
+   },
+   {
+    "label": "属防",
+    "value": 32
+   }
+  ],
+  "skills": [],
+  "buy": 28000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 108022,
+  "name": "武术入门书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 135
+   },
+   {
+    "label": "属攻",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 108023,
+  "name": "高级魔术研究书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 80
+   },
+   {
+    "label": "属攻",
+    "value": 166
+   }
+  ],
+  "skills": [],
+  "buy": 32000,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 108024,
+  "name": "染血的书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 84
+   },
+   {
+    "label": "属攻",
+    "value": 173
+   }
+  ],
+  "skills": [],
+  "buy": 35000,
+  "sell": 8800,
+  "exclusive": null
+ },
+ {
+  "id": 108025,
+  "name": "高级战术书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 86
+   },
+   {
+    "label": "属攻",
+    "value": 184
+   },
+   {
+    "label": "回避",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 108026,
+  "name": "爱尔福林克圣典",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 80
+   },
+   {
+    "label": "属攻",
+    "value": 195
+   }
+  ],
+  "skills": [],
+  "buy": 40000,
+  "sell": 10000,
+  "exclusive": null
+ },
+ {
+  "id": 108027,
+  "name": "符文魔法书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 82
+   },
+   {
+    "label": "属攻",
+    "value": 200
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 108028,
+  "name": "解剖研究学",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 85
+   },
+   {
+    "label": "属攻",
+    "value": 203
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 108029,
+  "name": "助眠推荐·下卷",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 92
+   },
+   {
+    "label": "属攻",
+    "value": 220
+   }
+  ],
+  "skills": [],
+  "buy": 45000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 108030,
+  "name": "异色边缘魔法书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 126
+   },
+   {
+    "label": "属攻",
+    "value": 260
+   }
+  ],
+  "skills": [],
+  "buy": 45000,
+  "sell": 11000,
+  "exclusive": null
+ },
+ {
+  "id": 108031,
+  "name": "原初的真理",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 90
+   },
+   {
+    "label": "属攻",
+    "value": 232
+   },
+   {
+    "label": "属防",
+    "value": 62
+   }
+  ],
+  "skills": [],
+  "buy": 50000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 108032,
+  "name": "东方药学书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 98
+   },
+   {
+    "label": "属攻",
+    "value": 240
+   },
+   {
+    "label": "速度",
+    "value": 83
+   }
+  ],
+  "skills": [],
+  "buy": 50000,
+  "sell": 13000,
+  "exclusive": null
+ },
+ {
+  "id": 108033,
+  "name": "异国武术入门书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 252
+   },
+   {
+    "label": "属攻",
+    "value": 128
+   },
+   {
+    "label": "会心",
+    "value": 98
+   }
+  ],
+  "skills": [],
+  "buy": 55000,
+  "sell": 14000,
+  "exclusive": null
+ },
+ {
+  "id": 108034,
+  "name": "守护者之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 106
+   },
+   {
+    "label": "属攻",
+    "value": 280
+   }
+  ],
+  "skills": [],
+  "buy": 58000,
+  "sell": 15000,
+  "exclusive": null
+ },
+ {
+  "id": 108035,
+  "name": "安魂曲",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 118
+   },
+   {
+    "label": "属攻",
+    "value": 300
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 108036,
+  "name": "咒缚之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 120
+   },
+   {
+    "label": "属攻",
+    "value": 311
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 108037,
+  "name": "禁忌之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 130
+   },
+   {
+    "label": "属攻",
+    "value": 390
+   }
+  ],
+  "skills": [],
+  "buy": 65000,
+  "sell": 16000,
+  "exclusive": null
+ },
+ {
+  "id": 108038,
+  "name": "希望之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 148
+   },
+   {
+    "label": "属攻",
+    "value": 319
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 108039,
+  "name": "天地万有之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 160
+   },
+   {
+    "label": "属攻",
+    "value": 330
+   }
+  ],
+  "skills": [],
+  "buy": 68000,
+  "sell": 17000,
+  "exclusive": null
+ },
+ {
+  "id": 108040,
+  "name": "冰磷一对之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 165
+   },
+   {
+    "label": "属攻",
+    "value": 335
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 108041,
+  "name": "太阳之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 186
+   },
+   {
+    "label": "属攻",
+    "value": 400
+   }
+  ],
+  "skills": [],
+  "buy": 70000,
+  "sell": 18000,
+  "exclusive": null
+ },
+ {
+  "id": 108042,
+  "name": "历战之书",
+  "category": "武器",
+  "type": "书",
+  "iconKey": "weapon_book",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 198
+   },
+   {
+    "label": "属攻",
+    "value": 418
+   }
+  ],
+  "skills": [],
+  "buy": 75000,
+  "sell": 19000,
+  "exclusive": null
+ },
+ {
+  "id": 120000,
+  "name": "皮帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 3
+   },
+   {
+    "label": "属防",
+    "value": 3
+   }
+  ],
+  "skills": [],
+  "buy": 40,
+  "sell": 10,
+  "exclusive": null
+ },
+ {
+  "id": 120001,
+  "name": "橡胶头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 4
+   }
+  ],
+  "skills": [],
+  "buy": 40,
+  "sell": 10,
+  "exclusive": null
+ },
+ {
+  "id": 120002,
+  "name": "帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 2
+   },
+   {
+    "label": "属攻",
+    "value": 3
+   },
+   {
+    "label": "属防",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 40,
+  "sell": 10,
+  "exclusive": null
+ },
+ {
+  "id": 120003,
+  "name": "羽毛帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 15
+   },
+   {
+    "label": "属防",
+    "value": 15
+   }
+  ],
+  "skills": [],
+  "buy": 660,
+  "sell": 110,
+  "exclusive": null
+ },
+ {
+  "id": 120004,
+  "name": "银发饰",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 10
+   },
+   {
+    "label": "物防",
+    "value": 10
+   },
+   {
+    "label": "属防",
+    "value": 18
+   }
+  ],
+  "skills": [],
+  "buy": 900,
+  "sell": 150,
+  "exclusive": null
+ },
+ {
+  "id": 120005,
+  "name": "黑帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 15
+   },
+   {
+    "label": "属防",
+    "value": 20
+   },
+   {
+    "label": "回避",
+    "value": 3
+   }
+  ],
+  "skills": [],
+  "buy": 1260,
+  "sell": 225,
+  "exclusive": null
+ },
+ {
+  "id": 120006,
+  "name": "青铜头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 840,
+  "sell": 140,
+  "exclusive": null
+ },
+ {
+  "id": 120007,
+  "name": "尖帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 9
+   },
+   {
+    "label": "属攻",
+    "value": 8
+   },
+   {
+    "label": "属防",
+    "value": 21
+   }
+  ],
+  "skills": [],
+  "buy": 540,
+  "sell": 90,
+  "exclusive": null
+ },
+ {
+  "id": 120008,
+  "name": "饰环",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 15
+   },
+   {
+    "label": "物防",
+    "value": 15
+   },
+   {
+    "label": "属防",
+    "value": 25
+   }
+  ],
+  "skills": [],
+  "buy": 1050,
+  "sell": 175,
+  "exclusive": null
+ },
+ {
+  "id": 120009,
+  "name": "大头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 1680,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 120010,
+  "name": "帽盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 25
+   },
+   {
+    "label": "属防",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 1120,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 120011,
+  "name": "铁制头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 29
+   }
+  ],
+  "skills": [],
+  "buy": 990,
+  "sell": 165,
+  "exclusive": null
+ },
+ {
+  "id": 120012,
+  "name": "飞行头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 26
+   },
+   {
+    "label": "属防",
+    "value": 30
+   },
+   {
+    "label": "会心",
+    "value": 21
+   }
+  ],
+  "skills": [],
+  "buy": 1400,
+  "sell": 250,
+  "exclusive": null
+ },
+ {
+  "id": 120013,
+  "name": "气势额带",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 150
+   },
+   {
+    "label": "物防",
+    "value": 37
+   },
+   {
+    "label": "属防",
+    "value": 37
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 450,
+  "exclusive": null
+ },
+ {
+  "id": 120014,
+  "name": "雪隐兜帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 38
+   },
+   {
+    "label": "属防",
+    "value": 42
+   },
+   {
+    "label": "回避",
+    "value": 47
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 625,
+  "exclusive": null
+ },
+ {
+  "id": 120015,
+  "name": "神圣头冠",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 21
+   },
+   {
+    "label": "物防",
+    "value": 36
+   },
+   {
+    "label": "属防",
+    "value": 48
+   }
+  ],
+  "skills": [],
+  "buy": 2760,
+  "sell": 575,
+  "exclusive": null
+ },
+ {
+  "id": 120016,
+  "name": "脉轮头带",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 40
+   },
+   {
+    "label": "属攻",
+    "value": 38
+   },
+   {
+    "label": "属防",
+    "value": 52
+   }
+  ],
+  "skills": [],
+  "buy": 2640,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 120017,
+  "name": "猎鹰的帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 48
+   },
+   {
+    "label": "属防",
+    "value": 54
+   },
+   {
+    "label": "回避",
+    "value": 79
+   }
+  ],
+  "skills": [],
+  "buy": 6960,
+  "sell": 1450,
+  "exclusive": null
+ },
+ {
+  "id": 120018,
+  "name": "银制头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 3600,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 120019,
+  "name": "高速头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 50
+   },
+   {
+    "label": "属防",
+    "value": 58
+   },
+   {
+    "label": "速度",
+    "value": 78
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 120020,
+  "name": "淑女头冠",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 25
+   },
+   {
+    "label": "物防",
+    "value": 58
+   },
+   {
+    "label": "属防",
+    "value": 70
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 120021,
+  "name": "犄角头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 71
+   }
+  ],
+  "skills": [],
+  "buy": 8400,
+  "sell": 1750,
+  "exclusive": null
+ },
+ {
+  "id": 120022,
+  "name": "古老的仪式假面",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 49
+   },
+   {
+    "label": "属防",
+    "value": 73
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 120023,
+  "name": "星屑帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 61
+   },
+   {
+    "label": "属防",
+    "value": 79
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 120024,
+  "name": "长者饰环",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 41
+   },
+   {
+    "label": "属攻",
+    "value": 55
+   },
+   {
+    "label": "属防",
+    "value": 77
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 120025,
+  "name": "静寂头巾",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 82
+   },
+   {
+    "label": "属防",
+    "value": 78
+   },
+   {
+    "label": "回避",
+    "value": 111
+   }
+  ],
+  "skills": [],
+  "buy": 15600,
+  "sell": 3250,
+  "exclusive": null
+ },
+ {
+  "id": 120026,
+  "name": "被诅咒的头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": -66
+   },
+   {
+    "label": "物防",
+    "value": 88
+   },
+   {
+    "label": "属防",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 120027,
+  "name": "黄金发饰",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 36
+   },
+   {
+    "label": "物防",
+    "value": 52
+   },
+   {
+    "label": "属防",
+    "value": 88
+   }
+  ],
+  "skills": [],
+  "buy": 6000,
+  "sell": 1250,
+  "exclusive": null
+ },
+ {
+  "id": 120028,
+  "name": "显赫头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 89
+   }
+  ],
+  "skills": [],
+  "buy": 9600,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 120029,
+  "name": "祭司之帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 54
+   },
+   {
+    "label": "属攻",
+    "value": 56
+   },
+   {
+    "label": "属防",
+    "value": 96
+   }
+  ],
+  "skills": [],
+  "buy": 6240,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 120030,
+  "name": "毛皮帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 91
+   },
+   {
+    "label": "属防",
+    "value": 96
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 120031,
+  "name": "魔法饰环",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 53
+   },
+   {
+    "label": "物防",
+    "value": 79
+   },
+   {
+    "label": "属防",
+    "value": 104
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 120032,
+  "name": "元素帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 68
+   },
+   {
+    "label": "属攻",
+    "value": 61
+   },
+   {
+    "label": "属防",
+    "value": 113
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 2500,
+  "exclusive": null
+ },
+ {
+  "id": 120033,
+  "name": "海市蜃楼帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 103
+   },
+   {
+    "label": "属防",
+    "value": 112
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 3750,
+  "exclusive": null
+ },
+ {
+  "id": 120034,
+  "name": "帝国头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 124
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 3750,
+  "exclusive": null
+ },
+ {
+  "id": 120035,
+  "name": "白金头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 137
+   }
+  ],
+  "skills": [],
+  "buy": 21600,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 120036,
+  "name": "睡神宝冠",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 72
+   },
+   {
+    "label": "物防",
+    "value": 98
+   },
+   {
+    "label": "属防",
+    "value": 162
+   }
+  ],
+  "skills": [],
+  "buy": 38400,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 120037,
+  "name": "金钢合金帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 104
+   },
+   {
+    "label": "属攻",
+    "value": 88
+   },
+   {
+    "label": "属防",
+    "value": 180
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 120038,
+  "name": "水晶头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 180
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 8750,
+  "exclusive": null
+ },
+ {
+  "id": 120039,
+  "name": "霸者的头盔",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 99
+   },
+   {
+    "label": "物防",
+    "value": 192
+   },
+   {
+    "label": "属防",
+    "value": 192
+   }
+  ],
+  "skills": [],
+  "buy": 42000,
+  "sell": 8750,
+  "exclusive": null
+ },
+ {
+  "id": 210076,
+  "name": "收藏家帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 300
+   },
+   {
+    "label": "物防",
+    "value": 80
+   },
+   {
+    "label": "属防",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 9000,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 300365,
+  "name": "隐士帽子",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 50
+   },
+   {
+    "label": "属攻",
+    "value": 70
+   },
+   {
+    "label": "属防",
+    "value": 133
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 300373,
+  "name": "龙之帽",
+  "category": "防具",
+  "type": "头部",
+  "iconKey": "armor_head",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 148
+   },
+   {
+    "label": "属防",
+    "value": 150
+   }
+  ],
+  "skills": [],
+  "buy": 38400,
+  "sell": 9000,
+  "exclusive": null
+ },
+ {
+  "id": 130000,
+  "name": "橡胶背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 4
+   },
+   {
+    "label": "属防",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 60,
+  "sell": 15,
+  "exclusive": null
+ },
+ {
+  "id": 130001,
+  "name": "长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 3
+   },
+   {
+    "label": "属防",
+    "value": 7
+   }
+  ],
+  "skills": [],
+  "buy": 60,
+  "sell": 15,
+  "exclusive": null
+ },
+ {
+  "id": 130002,
+  "name": "橡胶盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 7
+   }
+  ],
+  "skills": [],
+  "buy": 60,
+  "sell": 15,
+  "exclusive": null
+ },
+ {
+  "id": 130003,
+  "name": "老旧盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 18
+   },
+   {
+    "label": "属防",
+    "value": 13
+   }
+  ],
+  "skills": [],
+  "buy": 960,
+  "sell": 160,
+  "exclusive": null
+ },
+ {
+  "id": 130004,
+  "name": "传统舞娘衣服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 12
+   },
+   {
+    "label": "物防",
+    "value": 20
+   },
+   {
+    "label": "属防",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 1350,
+  "sell": 225,
+  "exclusive": null
+ },
+ {
+  "id": 130005,
+  "name": "青铜背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 19
+   },
+   {
+    "label": "属防",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 1080,
+  "sell": 180,
+  "exclusive": null
+ },
+ {
+  "id": 130006,
+  "name": "疾风之服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 24
+   },
+   {
+    "label": "属防",
+    "value": 26
+   },
+   {
+    "label": "速度",
+    "value": 22
+   }
+  ],
+  "skills": [],
+  "buy": 1500,
+  "sell": 250,
+  "exclusive": null
+ },
+ {
+  "id": 130007,
+  "name": "黑色装束",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   },
+   {
+    "label": "属防",
+    "value": 28
+   },
+   {
+    "label": "回避",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 130008,
+  "name": "青铜盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 28
+   }
+  ],
+  "skills": [],
+  "buy": 1200,
+  "sell": 200,
+  "exclusive": null
+ },
+ {
+  "id": 130009,
+  "name": "铜制护胸",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 31
+   },
+   {
+    "label": "属防",
+    "value": 21
+   },
+   {
+    "label": "回避",
+    "value": 9
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 130010,
+  "name": "亚麻长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 13
+   },
+   {
+    "label": "属攻",
+    "value": 8
+   },
+   {
+    "label": "属防",
+    "value": 33
+   }
+  ],
+  "skills": [],
+  "buy": 960,
+  "sell": 160,
+  "exclusive": null
+ },
+ {
+  "id": 130011,
+  "name": "有型背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 28
+   },
+   {
+    "label": "属防",
+    "value": 36
+   },
+   {
+    "label": "速度",
+    "value": 15
+   }
+  ],
+  "skills": [],
+  "buy": 2100,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 130012,
+  "name": "安宁之服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 98
+   },
+   {
+    "label": "物防",
+    "value": 30
+   },
+   {
+    "label": "属防",
+    "value": 39
+   }
+  ],
+  "skills": [],
+  "buy": 2190,
+  "sell": 365,
+  "exclusive": null
+ },
+ {
+  "id": 130013,
+  "name": "大背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 32
+   },
+   {
+    "label": "属防",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 2100,
+  "sell": 350,
+  "exclusive": null
+ },
+ {
+  "id": 130014,
+  "name": "大盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 42
+   }
+  ],
+  "skills": [],
+  "buy": 2550,
+  "sell": 425,
+  "exclusive": null
+ },
+ {
+  "id": 130015,
+  "name": "雪隐斗篷",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 39
+   },
+   {
+    "label": "属防",
+    "value": 43
+   },
+   {
+    "label": "回避",
+    "value": 51
+   }
+  ],
+  "skills": [],
+  "buy": 3640,
+  "sell": 700,
+  "exclusive": null
+ },
+ {
+  "id": 130016,
+  "name": "铁制背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 36
+   },
+   {
+    "label": "属防",
+    "value": 49
+   }
+  ],
+  "skills": [],
+  "buy": 2280,
+  "sell": 380,
+  "exclusive": null
+ },
+ {
+  "id": 130017,
+  "name": "铁制盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 2700,
+  "sell": 450,
+  "exclusive": null
+ },
+ {
+  "id": 130018,
+  "name": "毛皮长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 24
+   },
+   {
+    "label": "属攻",
+    "value": 14
+   },
+   {
+    "label": "属防",
+    "value": 64
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 300,
+  "exclusive": null
+ },
+ {
+  "id": 130019,
+  "name": "银制背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 60
+   },
+   {
+    "label": "属防",
+    "value": 68
+   }
+  ],
+  "skills": [],
+  "buy": 4160,
+  "sell": 800,
+  "exclusive": null
+ },
+ {
+  "id": 130020,
+  "name": "魔咒长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 21
+   },
+   {
+    "label": "物防",
+    "value": 43
+   },
+   {
+    "label": "属防",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 3640,
+  "sell": 700,
+  "exclusive": null
+ },
+ {
+  "id": 130021,
+  "name": "猎鹰的装束",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 78
+   },
+   {
+    "label": "属防",
+    "value": 84
+   },
+   {
+    "label": "回避",
+    "value": 82
+   }
+  ],
+  "skills": [],
+  "buy": 8160,
+  "sell": 1700,
+  "exclusive": null
+ },
+ {
+  "id": 130022,
+  "name": "银制盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 86
+   }
+  ],
+  "skills": [],
+  "buy": 4680,
+  "sell": 900,
+  "exclusive": null
+ },
+ {
+  "id": 130023,
+  "name": "白狼围巾",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 73
+   },
+   {
+    "label": "属防",
+    "value": 89
+   },
+   {
+    "label": "回避",
+    "value": 58
+   }
+  ],
+  "skills": [],
+  "buy": 8160,
+  "sell": 1700,
+  "exclusive": null
+ },
+ {
+  "id": 130024,
+  "name": "犄角盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 92
+   }
+  ],
+  "skills": [],
+  "buy": 5460,
+  "sell": 900,
+  "exclusive": null
+ },
+ {
+  "id": 130025,
+  "name": "显赫背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 90
+   },
+   {
+    "label": "属防",
+    "value": 102
+   }
+  ],
+  "skills": [],
+  "buy": 8640,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 130026,
+  "name": "毛皮大衣",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 112
+   },
+   {
+    "label": "属防",
+    "value": 112
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 130027,
+  "name": "元素轻甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 88
+   },
+   {
+    "label": "属防",
+    "value": 108
+   },
+   {
+    "label": "速度",
+    "value": 72
+   }
+  ],
+  "skills": [],
+  "buy": 16800,
+  "sell": 3500,
+  "exclusive": null
+ },
+ {
+  "id": 130028,
+  "name": "静寂斗篷",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 102
+   },
+   {
+    "label": "属防",
+    "value": 114
+   },
+   {
+    "label": "回避",
+    "value": 14
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 130029,
+  "name": "元素重甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 90
+   },
+   {
+    "label": "属攻",
+    "value": 42
+   },
+   {
+    "label": "属防",
+    "value": 116
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 130030,
+  "name": "异国之服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 102
+   },
+   {
+    "label": "属防",
+    "value": 121
+   }
+  ],
+  "skills": [],
+  "buy": 12000,
+  "sell": 2500,
+  "exclusive": null
+ },
+ {
+  "id": 130031,
+  "name": "显赫盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 122
+   }
+  ],
+  "skills": [],
+  "buy": 9600,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 130032,
+  "name": "元素长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 72
+   },
+   {
+    "label": "属攻",
+    "value": 36
+   },
+   {
+    "label": "属防",
+    "value": 124
+   }
+  ],
+  "skills": [],
+  "buy": 8160,
+  "sell": 1700,
+  "exclusive": null
+ },
+ {
+  "id": 130033,
+  "name": "帝国背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 120
+   },
+   {
+    "label": "属防",
+    "value": 134
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 130034,
+  "name": "精致舞娘衣服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 122
+   },
+   {
+    "label": "属防",
+    "value": 134
+   },
+   {
+    "label": "回避",
+    "value": 166
+   }
+  ],
+  "skills": [],
+  "buy": 40800,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 130035,
+  "name": "石英长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 60
+   },
+   {
+    "label": "物防",
+    "value": 146
+   },
+   {
+    "label": "属防",
+    "value": 149
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 130036,
+  "name": "白金背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 140
+   },
+   {
+    "label": "属防",
+    "value": 154
+   }
+  ],
+  "skills": [],
+  "buy": 21600,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 130037,
+  "name": "名门之铠",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 158
+   },
+   {
+    "label": "属防",
+    "value": 78
+   }
+  ],
+  "skills": [],
+  "buy": 38400,
+  "sell": 8000,
+  "exclusive": null
+ },
+ {
+  "id": 130038,
+  "name": "彩虹长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 82
+   },
+   {
+    "label": "属防",
+    "value": 167
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 3750,
+  "exclusive": null
+ },
+ {
+  "id": 130039,
+  "name": "快乐背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 170
+   },
+   {
+    "label": "属防",
+    "value": 170
+   }
+  ],
+  "skills": [],
+  "buy": 26400,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 130040,
+  "name": "帝国盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 173
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 130041,
+  "name": "绚烂的演出服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 118
+   },
+   {
+    "label": "属防",
+    "value": 176
+   },
+   {
+    "label": "回避",
+    "value": 63
+   }
+  ],
+  "skills": [],
+  "buy": 21600,
+  "sell": 4500,
+  "exclusive": null
+ },
+ {
+  "id": 130042,
+  "name": "龙之背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 183
+   },
+   {
+    "label": "属防",
+    "value": 185
+   }
+  ],
+  "skills": [],
+  "buy": 43200,
+  "sell": 9000,
+  "exclusive": null
+ },
+ {
+  "id": 130043,
+  "name": "圣火骑士的礼服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 42
+   },
+   {
+    "label": "物防",
+    "value": 108
+   },
+   {
+    "label": "属防",
+    "value": 186
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6250,
+  "exclusive": null
+ },
+ {
+  "id": 130044,
+  "name": "古老长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 35
+   },
+   {
+    "label": "物防",
+    "value": 99
+   },
+   {
+    "label": "属防",
+    "value": 198
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 130045,
+  "name": "白金盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 202
+   }
+  ],
+  "skills": [],
+  "buy": 26400,
+  "sell": 5500,
+  "exclusive": null
+ },
+ {
+  "id": 130046,
+  "name": "水晶背心",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 205
+   },
+   {
+    "label": "属防",
+    "value": 205
+   }
+  ],
+  "skills": [],
+  "buy": 55200,
+  "sell": 11500,
+  "exclusive": null
+ },
+ {
+  "id": 130047,
+  "name": "君主长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 112
+   },
+   {
+    "label": "属防",
+    "value": 208
+   },
+   {
+    "label": "速度",
+    "value": 69
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6250,
+  "exclusive": null
+ },
+ {
+  "id": 130048,
+  "name": "隐士长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 121
+   },
+   {
+    "label": "属防",
+    "value": 220
+   }
+  ],
+  "skills": [],
+  "buy": 40800,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 130049,
+  "name": "被诅咒的盔甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 222
+   },
+   {
+    "label": "属防",
+    "value": 222
+   },
+   {
+    "label": "速度",
+    "value": -66
+   }
+  ],
+  "skills": [],
+  "buy": 66666,
+  "sell": 6666,
+  "exclusive": null
+ },
+ {
+  "id": 130050,
+  "name": "魔术师长袍",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 107
+   },
+   {
+    "label": "属攻",
+    "value": 50
+   },
+   {
+    "label": "属防",
+    "value": 282
+   }
+  ],
+  "skills": [],
+  "buy": 40800,
+  "sell": 8500,
+  "exclusive": null
+ },
+ {
+  "id": 130051,
+  "name": "霸者的铠甲",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 990
+   },
+   {
+    "label": "物防",
+    "value": 280
+   },
+   {
+    "label": "属防",
+    "value": 280
+   }
+  ],
+  "skills": [],
+  "buy": 60000,
+  "sell": 12500,
+  "exclusive": null
+ },
+ {
+  "id": 130052,
+  "name": "村民的衣服",
+  "category": "防具",
+  "type": "身体",
+  "iconKey": "armor_body",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 1
+   },
+   {
+    "label": "属防",
+    "value": 1
+   }
+  ],
+  "skills": [],
+  "buy": 20,
+  "sell": 5,
+  "exclusive": null
+ },
+ {
+  "id": 110000,
+  "name": "小圆盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 3
+   },
+   {
+    "label": "属防",
+    "value": 3
+   }
+  ],
+  "skills": [],
+  "buy": 40,
+  "sell": 10,
+  "exclusive": null
+ },
+ {
+  "id": 110001,
+  "name": "小盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 5
+   },
+   {
+    "label": "属防",
+    "value": 3
+   }
+  ],
+  "skills": [],
+  "buy": 200,
+  "sell": 50,
+  "exclusive": null
+ },
+ {
+  "id": 110002,
+  "name": "圆盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 13
+   },
+   {
+    "label": "属防",
+    "value": 15
+   }
+  ],
+  "skills": [],
+  "buy": 600,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 110003,
+  "name": "大盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 900,
+  "sell": 150,
+  "exclusive": null
+ },
+ {
+  "id": 110004,
+  "name": "闪避之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 21
+   },
+   {
+    "label": "属防",
+    "value": 24
+   },
+   {
+    "label": "回避",
+    "value": 56
+   }
+  ],
+  "skills": [],
+  "buy": 3600,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 110005,
+  "name": "铁盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 60
+   },
+   {
+    "label": "物防",
+    "value": 24
+   },
+   {
+    "label": "属防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 2000,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 110006,
+  "name": "风化宝盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   },
+   {
+    "label": "属防",
+    "value": 24
+   }
+  ],
+  "skills": [],
+  "buy": 2400,
+  "sell": 500,
+  "exclusive": null
+ },
+ {
+  "id": 110007,
+  "name": "鸢形盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 26
+   },
+   {
+    "label": "属防",
+    "value": 31
+   }
+  ],
+  "skills": [],
+  "buy": 2400,
+  "sell": 500,
+  "exclusive": null
+ },
+ {
+  "id": 110008,
+  "name": "伤痕累累的圣盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 20
+   },
+   {
+    "label": "物防",
+    "value": 35
+   },
+   {
+    "label": "属防",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 6900,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 110009,
+  "name": "银盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 150
+   },
+   {
+    "label": "物防",
+    "value": 42
+   },
+   {
+    "label": "属防",
+    "value": 34
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1400,
+  "exclusive": null
+ },
+ {
+  "id": 110010,
+  "name": "板盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 45
+   },
+   {
+    "label": "回避",
+    "value": -4
+   }
+  ],
+  "skills": [],
+  "buy": 3120,
+  "sell": 650,
+  "exclusive": null
+ },
+ {
+  "id": 110011,
+  "name": "尖刺盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 44
+   },
+   {
+    "label": "属防",
+    "value": 53
+   },
+   {
+    "label": "回避",
+    "value": -20
+   }
+  ],
+  "skills": [],
+  "buy": 9600,
+  "sell": 2000,
+  "exclusive": null
+ },
+ {
+  "id": 110012,
+  "name": "名门之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 58
+   },
+   {
+    "label": "属防",
+    "value": 58
+   },
+   {
+    "label": "速度",
+    "value": 31
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 110013,
+  "name": "军师之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 52
+   },
+   {
+    "label": "属防",
+    "value": 64
+   }
+  ],
+  "skills": [],
+  "buy": 11500,
+  "sell": 2800,
+  "exclusive": null
+ },
+ {
+  "id": 110014,
+  "name": "塔盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 68
+   },
+   {
+    "label": "回避",
+    "value": -25
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 110015,
+  "name": "钻石护盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 72
+   },
+   {
+    "label": "属防",
+    "value": 69
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 110016,
+  "name": "元素盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 36
+   },
+   {
+    "label": "属防",
+    "value": 74
+   },
+   {
+    "label": "回避",
+    "value": -20
+   }
+  ],
+  "skills": [],
+  "buy": 7800,
+  "sell": 1625,
+  "exclusive": null
+ },
+ {
+  "id": 110017,
+  "name": "日纹之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 91
+   },
+   {
+    "label": "属防",
+    "value": 91
+   }
+  ],
+  "skills": [],
+  "buy": 18000,
+  "sell": 3750,
+  "exclusive": null
+ },
+ {
+  "id": 110018,
+  "name": "骑士盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 92
+   },
+   {
+    "label": "属防",
+    "value": 95
+   },
+   {
+    "label": "回避",
+    "value": -95
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 110019,
+  "name": "力之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 102
+   },
+   {
+    "label": "属防",
+    "value": 102
+   },
+   {
+    "label": "回避",
+    "value": -69
+   }
+  ],
+  "skills": [],
+  "buy": 28800,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 110020,
+  "name": "石英护盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 87
+   },
+   {
+    "label": "属防",
+    "value": 105
+   }
+  ],
+  "skills": [],
+  "buy": 19200,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 110021,
+  "name": "巨人护盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 105
+   },
+   {
+    "label": "属防",
+    "value": 103
+   },
+   {
+    "label": "速度",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 30000,
+  "sell": 7000,
+  "exclusive": null
+ },
+ {
+  "id": 110022,
+  "name": "海兽之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 110
+   },
+   {
+    "label": "回避",
+    "value": -79
+   }
+  ],
+  "skills": [],
+  "buy": 19800,
+  "sell": 4125,
+  "exclusive": null
+ },
+ {
+  "id": 110023,
+  "name": "巨盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 121
+   },
+   {
+    "label": "回避",
+    "value": -101
+   }
+  ],
+  "skills": [],
+  "buy": 24000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 110024,
+  "name": "金钢合金盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 76
+   },
+   {
+    "label": "属防",
+    "value": 131
+   },
+   {
+    "label": "回避",
+    "value": -81
+   }
+  ],
+  "skills": [],
+  "buy": 14400,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 110025,
+  "name": "历战之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 132
+   },
+   {
+    "label": "回避",
+    "value": -88
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 110026,
+  "name": "禁忌之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 116
+   },
+   {
+    "label": "属防",
+    "value": 133
+   },
+   {
+    "label": "回避",
+    "value": -171
+   }
+  ],
+  "skills": [],
+  "buy": 31200,
+  "sell": 6500,
+  "exclusive": null
+ },
+ {
+  "id": 110027,
+  "name": "被诅咒的护盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 133
+   },
+   {
+    "label": "属防",
+    "value": 133
+   },
+   {
+    "label": "回避",
+    "value": -66
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 110028,
+  "name": "霸者的护盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 145
+   },
+   {
+    "label": "属防",
+    "value": 145
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 300374,
+  "name": "龙之盾",
+  "category": "防具",
+  "type": "护盾",
+  "iconKey": "armor_shield",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 110
+   },
+   {
+    "label": "属防",
+    "value": 110
+   }
+  ],
+  "skills": [],
+  "buy": 36000,
+  "sell": 7500,
+  "exclusive": null
+ },
+ {
+  "id": 150000,
+  "name": "体力项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 1000
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 150001,
+  "name": "体力手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 500
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150002,
+  "name": "体力别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 200
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 150003,
+  "name": "体力耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 360,
+  "sell": 90,
+  "exclusive": null
+ },
+ {
+  "id": 150004,
+  "name": "精神项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 150005,
+  "name": "精神手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150006,
+  "name": "精神别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 150007,
+  "name": "精神耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 360,
+  "sell": 90,
+  "exclusive": null
+ },
+ {
+  "id": 150008,
+  "name": "守护项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 80
+   },
+   {
+    "label": "属防",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 150009,
+  "name": "守护手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 50
+   },
+   {
+    "label": "属防",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150010,
+  "name": "守护别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   },
+   {
+    "label": "属防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 750,
+  "exclusive": null
+ },
+ {
+  "id": 150011,
+  "name": "守护耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 10
+   },
+   {
+    "label": "属防",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 360,
+  "sell": 90,
+  "exclusive": null
+ },
+ {
+  "id": 150012,
+  "name": "狙击项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "命中",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150013,
+  "name": "狙击手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "命中",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 5800,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 150014,
+  "name": "狙击别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "命中",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 150015,
+  "name": "狙击耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "命中",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 280,
+  "sell": 70,
+  "exclusive": null
+ },
+ {
+  "id": 150016,
+  "name": "察知项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "回避",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150017,
+  "name": "察知手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "回避",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 5800,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 150018,
+  "name": "察知别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "回避",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 150019,
+  "name": "察知耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "回避",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 280,
+  "sell": 70,
+  "exclusive": null
+ },
+ {
+  "id": 150020,
+  "name": "灵敏项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150021,
+  "name": "灵敏手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 5800,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 150022,
+  "name": "灵敏别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 150023,
+  "name": "灵敏耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 280,
+  "sell": 70,
+  "exclusive": null
+ },
+ {
+  "id": 150024,
+  "name": "会心项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 80
+   }
+  ],
+  "skills": [],
+  "buy": 16000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150025,
+  "name": "会心手环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 5800,
+  "sell": 1500,
+  "exclusive": null
+ },
+ {
+  "id": 150026,
+  "name": "会心别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 150027,
+  "name": "会心耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 280,
+  "sell": 70,
+  "exclusive": null
+ },
+ {
+  "id": 150028,
+  "name": "荷鲁布尔古的纹章",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 1200
+   }
+  ],
+  "skills": [],
+  "buy": 6200,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150029,
+  "name": "碧玉戒指",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 100
+   },
+   {
+    "label": "SP",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 150030,
+  "name": "老旧项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 30
+   },
+   {
+    "label": "SP",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 500,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 150031,
+  "name": "旅行护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 30
+   },
+   {
+    "label": "物防",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 150,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 150032,
+  "name": "图书馆员的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 120
+   },
+   {
+    "label": "属防",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150033,
+  "name": "金耳环",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 6200,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150034,
+  "name": "夜智项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 40
+   },
+   {
+    "label": "属攻",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 4700,
+  "sell": 940,
+  "exclusive": null
+ },
+ {
+  "id": 150035,
+  "name": "天使的光轮",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 30
+   },
+   {
+    "label": "属防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 150036,
+  "name": "力量腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 4000,
+  "sell": 1000,
+  "exclusive": null
+ },
+ {
+  "id": 150037,
+  "name": "战斗护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 360,
+  "exclusive": null
+ },
+ {
+  "id": 150038,
+  "name": "元素增幅器",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属攻",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 4000,
+  "sell": 1000,
+  "exclusive": null
+ },
+ {
+  "id": 150039,
+  "name": "格拉纳特的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属攻",
+    "value": 100
+   },
+   {
+    "label": "回避",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 6200,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150040,
+  "name": "银制盒式挂坠",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属攻",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 1800,
+  "sell": 360,
+  "exclusive": null
+ },
+ {
+  "id": 150041,
+  "name": "以一敌百的证明",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 100
+   },
+   {
+    "label": "速度",
+    "value": 100
+   },
+   {
+    "label": "命中",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150042,
+  "name": "物理腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 65
+   },
+   {
+    "label": "物防",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150043,
+  "name": "护卫腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 65
+   }
+  ],
+  "skills": [],
+  "buy": 4500,
+  "sell": 1100,
+  "exclusive": null
+ },
+ {
+  "id": 150044,
+  "name": "元素护卫",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属防",
+    "value": 65
+   }
+  ],
+  "skills": [],
+  "buy": 5000,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 150045,
+  "name": "精神腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属攻",
+    "value": 65
+   },
+   {
+    "label": "属防",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150046,
+  "name": "加护的饰章",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 100
+   },
+   {
+    "label": "属防",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 21400,
+  "sell": 5400,
+  "exclusive": null
+ },
+ {
+  "id": 150047,
+  "name": "守备的饰章",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 30
+   },
+   {
+    "label": "属防",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 4200,
+  "sell": 1100,
+  "exclusive": null
+ },
+ {
+  "id": 150048,
+  "name": "破烂鞋子",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 2
+   },
+   {
+    "label": "属防",
+    "value": 2
+   }
+  ],
+  "skills": [],
+  "buy": 150,
+  "sell": 30,
+  "exclusive": null
+ },
+ {
+  "id": 150049,
+  "name": "猎鹰的手套",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 10
+   },
+   {
+    "label": "回避",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 150050,
+  "name": "新月项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "命中",
+    "value": 15
+   },
+   {
+    "label": "回避",
+    "value": 15
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1440,
+  "exclusive": null
+ },
+ {
+  "id": 150051,
+  "name": "鹰王之爪",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 100
+   },
+   {
+    "label": "会心",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150052,
+  "name": "圣火骑士的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1440,
+  "exclusive": null
+ },
+ {
+  "id": 150053,
+  "name": "绯扇贝护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1440,
+  "exclusive": null
+ },
+ {
+  "id": 150054,
+  "name": "赎罪念珠",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": -60
+   },
+   {
+    "label": "会心",
+    "value": -60
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 150055,
+  "name": "游牧民的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物防",
+    "value": 20
+   },
+   {
+    "label": "属防",
+    "value": 20
+   },
+   {
+    "label": "速度",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150056,
+  "name": "灾祸魔眼",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 120
+   },
+   {
+    "label": "属攻",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 150057,
+  "name": "冠军腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 100
+   },
+   {
+    "label": "会心",
+    "value": 100
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150058,
+  "name": "必胜戒指",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "物攻",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150059,
+  "name": "疾风红羽",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "回避",
+    "value": 120
+   }
+  ],
+  "skills": [],
+  "buy": 15000,
+  "sell": 3000,
+  "exclusive": null
+ },
+ {
+  "id": 150060,
+  "name": "手工手套",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属防",
+    "value": 60
+   }
+  ],
+  "skills": [],
+  "buy": 2000,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 150061,
+  "name": "赤石护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "属防",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 25000,
+  "sell": 5000,
+  "exclusive": null
+ },
+ {
+  "id": 150062,
+  "name": "异邦戒指",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 35
+   }
+  ],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 150063,
+  "name": "帝国领巾",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150064,
+  "name": "火之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150065,
+  "name": "火焰避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150066,
+  "name": "冰之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150067,
+  "name": "冰冻避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150068,
+  "name": "雷之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150069,
+  "name": "雷电避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150070,
+  "name": "风之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150071,
+  "name": "龙卷风避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150072,
+  "name": "光之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150073,
+  "name": "闪光避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150074,
+  "name": "暗之避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6400,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150075,
+  "name": "宵暗避邪符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 150076,
+  "name": "圣火护戒长的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150077,
+  "name": "斗士的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 5000,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 150106,
+  "name": "船员的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6200,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150107,
+  "name": "猛毒耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150108,
+  "name": "睡眠耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150109,
+  "name": "沉默耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150110,
+  "name": "黑暗耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 210009,
+  "name": "麻痹耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150111,
+  "name": "恐怖耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150112,
+  "name": "出血耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150113,
+  "name": "衰弱耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 210006,
+  "name": "SP污染耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 210007,
+  "name": "丧失气力耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150114,
+  "name": "即死耐性石",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1800,
+  "exclusive": null
+ },
+ {
+  "id": 150116,
+  "name": "兽之领巾",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 150117,
+  "name": "龙之领巾",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 150090,
+  "name": "贴心护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150091,
+  "name": "一气呵成之爪",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150092,
+  "name": "加强弱化的附身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150093,
+  "name": "返咒项圈",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 150095,
+  "name": "进化獠牙",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150096,
+  "name": "意志胸针",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 150097,
+  "name": "精灵领巾",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 150098,
+  "name": "繁盛护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150099,
+  "name": "EXP增幅器",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150100,
+  "name": "JP增幅器",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150101,
+  "name": "幸福胸针",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150102,
+  "name": "超好运硬币",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 150104,
+  "name": "引诱缎带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 5000,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 150105,
+  "name": "隔离缎带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 210004,
+  "name": "勇气的证明",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 2000,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 210010,
+  "name": "反叛项圈",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 210011,
+  "name": "希望之泪",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 2000,
+  "sell": 400,
+  "exclusive": null
+ },
+ {
+  "id": 210012,
+  "name": "染血的杯盏",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 210013,
+  "name": "王族的别扣",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 200
+   },
+   {
+    "label": "物防",
+    "value": 20
+   }
+  ],
+  "skills": [],
+  "buy": 3000,
+  "sell": 600,
+  "exclusive": null
+ },
+ {
+  "id": 210014,
+  "name": "学院的纪念章",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 30
+   },
+   {
+    "label": "属攻",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 7200,
+  "sell": 1440,
+  "exclusive": null
+ },
+ {
+  "id": 210015,
+  "name": "纪念吊坠",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210016,
+  "name": "猫咪斗篷",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 210017,
+  "name": "宣誓的圣印",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 6500,
+  "sell": 1300,
+  "exclusive": null
+ },
+ {
+  "id": 210018,
+  "name": "财富的悔恨",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": -444
+   },
+   {
+    "label": "物攻",
+    "value": 55
+   },
+   {
+    "label": "属攻",
+    "value": 55
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210019,
+  "name": "圣火教会的圣印",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210020,
+  "name": "著名女演员的项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210021,
+  "name": "梦幻斗篷",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 210022,
+  "name": "辉空吊坠",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210023,
+  "name": "丽海腰带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 500
+   },
+   {
+    "label": "SP",
+    "value": 50
+   },
+   {
+    "label": "物攻",
+    "value": 30
+   },
+   {
+    "label": "物防",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210024,
+  "name": "砂楼脚镯",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210026,
+  "name": "霸者的证明",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 30000,
+  "sell": 6000,
+  "exclusive": null
+ },
+ {
+  "id": 210027,
+  "name": "助手的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 1200
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 210028,
+  "name": "笑脸护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 40
+   }
+  ],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 210029,
+  "name": "沙尘虫颚",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 50
+   },
+   {
+    "label": "回避",
+    "value": 50
+   }
+  ],
+  "skills": [],
+  "buy": 8000,
+  "sell": 1600,
+  "exclusive": null
+ },
+ {
+  "id": 210030,
+  "name": "权力的悔恨",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 444
+   },
+   {
+    "label": "SP",
+    "value": -66
+   }
+  ],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 210031,
+  "name": "救国的证明",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": 13500,
+  "sell": 3400,
+  "exclusive": null
+ },
+ {
+  "id": 210032,
+  "name": "名望的悔恨",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 66
+   },
+   {
+    "label": "物攻",
+    "value": -55
+   },
+   {
+    "label": "属攻",
+    "value": -55
+   }
+  ],
+  "skills": [],
+  "buy": 20000,
+  "sell": 4000,
+  "exclusive": null
+ },
+ {
+  "id": 99142,
+  "name": "气势腕带",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 99143,
+  "name": "约定的绳饰",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 99144,
+  "name": "圣火护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [],
+  "skills": [],
+  "buy": null,
+  "sell": 100,
+  "exclusive": null
+ },
+ {
+  "id": 300404,
+  "name": "娅娅的发夹",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "SP",
+    "value": 50
+   },
+   {
+    "label": "属攻",
+    "value": 30
+   },
+   {
+    "label": "属防",
+    "value": 30
+   }
+  ],
+  "skills": [],
+  "buy": 16500,
+  "sell": 4100,
+  "exclusive": null
+ },
+ {
+  "id": 300405,
+  "name": "阿基客氏族的护身符",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "会心",
+    "value": 5
+   },
+   {
+    "label": "命中",
+    "value": 5
+   }
+  ],
+  "skills": [],
+  "buy": 280,
+  "sell": 70,
+  "exclusive": null
+ },
+ {
+  "id": 300406,
+  "name": "盗公子项链",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "速度",
+    "value": 10
+   },
+   {
+    "label": "回避",
+    "value": 10
+   }
+  ],
+  "skills": [],
+  "buy": 2200,
+  "sell": 550,
+  "exclusive": null
+ },
+ {
+  "id": 300407,
+  "name": "吸血公戒指",
+  "category": "饰品",
+  "type": "饰品",
+  "iconKey": "accessory",
+  "stats": [
+   {
+    "label": "HP",
+    "value": 150
+   }
+  ],
+  "skills": [],
+  "buy": 4200,
+  "sell": 1100,
+  "exclusive": null
+ }
+]

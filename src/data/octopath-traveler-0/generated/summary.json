@@ -8,6 +8,10 @@
   "characters": 36,
   "recruitChars": 20,
   "jobs": 8,
+  "equipment": 610,
+  "weapons": 348,
+  "armor": 126,
+  "accessories": 136,
   "languages": 4,
   "dialogueLines": 5928
  }
