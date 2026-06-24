@@ -36,6 +36,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 9,
   "exp": 1,
   "money": 9,
   "jp": 1
@@ -77,6 +79,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 9,
   "exp": 2,
   "money": 9,
   "jp": 1
@@ -125,6 +129,8 @@
     "rate": 5
    }
   ],
+  "steal": [],
+  "stealMoney": 423,
   "exp": 192,
   "money": 423,
   "jp": 32
@@ -165,6 +171,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 517,
   "exp": 191,
   "money": 517,
   "jp": 32
@@ -205,6 +213,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 423,
   "exp": 192,
   "money": 423,
   "jp": 32
@@ -245,6 +255,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 154,
   "exp": 14,
   "money": 154,
   "jp": 10
@@ -285,6 +297,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 154,
   "exp": 14,
   "money": 154,
   "jp": 10
@@ -318,6 +332,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 165,
   "exp": 16,
   "money": 165,
   "jp": 11
@@ -351,6 +367,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 300,
   "exp": 72,
   "money": 300,
   "jp": 20
@@ -384,6 +402,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 450,
   "exp": 220,
   "money": 450,
   "jp": 34
@@ -419,6 +439,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 600,
   "exp": 328,
   "money": 600,
   "jp": 41
@@ -458,6 +480,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 660,
   "exp": 328,
   "money": 660,
   "jp": 41
@@ -505,6 +529,8 @@
     "rate": 5
    }
   ],
+  "steal": [],
+  "stealMoney": 620,
   "exp": 353,
   "money": 620,
   "jp": 42
@@ -545,6 +571,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 630,
   "exp": 460,
   "money": 630,
   "jp": 48
@@ -585,6 +613,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 630,
   "exp": 459,
   "money": 630,
   "jp": 47
@@ -617,6 +647,8 @@
     "rate": 10
    }
   ],
+  "steal": [],
+  "stealMoney": 630,
   "exp": 459,
   "money": 630,
   "jp": 47
@@ -654,6 +686,8 @@
     "rate": 8
    }
   ],
+  "steal": [],
+  "stealMoney": 700,
   "exp": 459,
   "money": 700,
   "jp": 47
@@ -702,6 +736,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 38,
   "exp": 2,
   "money": 38,
   "jp": 1
@@ -750,6 +791,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 3,
   "money": 40,
   "jp": 1
@@ -791,6 +839,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 41,
   "exp": 2,
   "money": 41,
   "jp": 1
@@ -832,6 +887,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 38,
   "exp": 3,
   "money": 38,
   "jp": 1
@@ -876,6 +938,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 2,
   "money": 40,
   "jp": 1
@@ -920,6 +989,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 102,
   "exp": 5,
   "money": 102,
   "jp": 3
@@ -961,6 +1037,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 2,
   "money": 40,
   "jp": 1
@@ -1002,6 +1085,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 3,
   "money": 40,
   "jp": 2
@@ -1046,6 +1136,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 62,
   "exp": 5,
   "money": 62,
   "jp": 3
@@ -1093,6 +1190,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 395,
   "exp": 30,
   "money": 395,
   "jp": 13
@@ -1134,6 +1238,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 102,
   "exp": 4,
   "money": 102,
   "jp": 3
@@ -1175,6 +1286,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 59,
   "exp": 3,
   "money": 59,
   "jp": 2
@@ -1216,6 +1334,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 57,
   "exp": 4,
   "money": 57,
   "jp": 2
@@ -1257,6 +1382,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 5,
   "money": 63,
   "jp": 2
@@ -1298,6 +1430,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 158,
   "exp": 11,
   "money": 158,
   "jp": 5
@@ -1339,6 +1478,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 158,
   "exp": 13,
   "money": 158,
   "jp": 5
@@ -1383,6 +1529,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 5,
   "money": 63,
   "jp": 2
@@ -1424,6 +1577,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 160,
   "exp": 15,
   "money": 160,
   "jp": 6
@@ -1460,6 +1620,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 411,
   "exp": 56,
   "money": 411,
   "jp": 13
@@ -1501,6 +1668,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "雷之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 101,
   "exp": 7,
   "money": 101,
   "jp": 4
@@ -1542,6 +1716,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "风之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 102,
   "exp": 7,
   "money": 102,
   "jp": 3
@@ -1583,6 +1764,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 58,
   "exp": 5,
   "money": 58,
   "jp": 2
@@ -1624,6 +1812,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 101,
   "exp": 7,
   "money": 101,
   "jp": 3
@@ -1668,6 +1863,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 5,
   "money": 63,
   "jp": 2
@@ -1707,6 +1909,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 414,
   "exp": 46,
   "money": 414,
   "jp": 14
@@ -1747,6 +1956,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 157,
   "exp": 15,
   "money": 157,
   "jp": 5
@@ -1787,6 +2003,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 166,
   "exp": 16,
   "money": 166,
   "jp": 6
@@ -1827,6 +2050,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "风之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 102,
   "exp": 7,
   "money": 102,
   "jp": 3
@@ -1867,6 +2097,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "雷之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 101,
   "exp": 7,
   "money": 101,
   "jp": 4
@@ -1907,6 +2144,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 102,
   "exp": 7,
   "money": 102,
   "jp": 3
@@ -1948,6 +2192,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 168,
   "exp": 16,
   "money": 168,
   "jp": 5
@@ -1988,6 +2239,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 161,
   "exp": 15,
   "money": 161,
   "jp": 6
@@ -2028,6 +2286,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 152,
   "exp": 16,
   "money": 152,
   "jp": 5
@@ -2064,6 +2329,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 390,
   "exp": 52,
   "money": 390,
   "jp": 13
@@ -2105,6 +2377,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 10,
   "exp": 3,
   "money": 10,
   "jp": 1
@@ -2146,6 +2425,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 57,
   "exp": 5,
   "money": 57,
   "jp": 4
@@ -2187,6 +2473,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 62,
   "exp": 3,
   "money": 62,
   "jp": 4
@@ -2230,6 +2523,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "风之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 62,
   "exp": 4,
   "money": 62,
   "jp": 3
@@ -2266,6 +2566,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 247,
   "exp": 17,
   "money": 247,
   "jp": 8
@@ -2314,6 +2621,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 400,
   "exp": 33,
   "money": 400,
   "jp": 13
@@ -2350,6 +2664,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 402,
   "exp": 37,
   "money": 402,
   "jp": 13
@@ -2386,6 +2707,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 372,
   "exp": 41,
   "money": 372,
   "jp": 13
@@ -2426,6 +2754,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 398,
   "exp": 41,
   "money": 398,
   "jp": 13
@@ -2467,6 +2802,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 10,
   "exp": 2,
   "money": 10,
   "jp": 1
@@ -2511,6 +2853,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 10,
   "exp": 2,
   "money": 10,
   "jp": 1
@@ -2552,6 +2901,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 19,
   "exp": 2,
   "money": 19,
   "jp": 1
@@ -2595,6 +2951,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 62,
   "exp": 5,
   "money": 62,
   "jp": 1
@@ -2636,6 +2999,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 19,
   "exp": 3,
   "money": 19,
   "jp": 1
@@ -2672,6 +3042,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 357,
   "exp": 30,
   "money": 357,
   "jp": 11
@@ -2724,6 +3101,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 42,
   "exp": 2,
   "money": 42,
   "jp": 2
@@ -2771,6 +3155,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 237,
   "exp": 13,
   "money": 237,
   "jp": 8
@@ -2815,6 +3206,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 242,
   "exp": 15,
   "money": 242,
   "jp": 8
@@ -2862,6 +3260,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 343,
   "exp": 24,
   "money": 343,
   "jp": 12
@@ -2903,6 +3308,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 42,
   "exp": 2,
   "money": 42,
   "jp": 1
@@ -2944,6 +3356,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 3,
   "money": 40,
   "jp": 2
@@ -2985,6 +3404,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 40,
   "exp": 3,
   "money": 40,
   "jp": 1
@@ -3024,6 +3450,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 244,
   "exp": 19,
   "money": 244,
   "jp": 8
@@ -3065,6 +3498,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 58,
   "exp": 3,
   "money": 58,
   "jp": 2
@@ -3109,6 +3549,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 60,
   "exp": 4,
   "money": 60,
   "jp": 2
@@ -3153,6 +3600,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 58,
   "exp": 5,
   "money": 58,
   "jp": 2
@@ -3194,6 +3648,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 159,
   "exp": 11,
   "money": 159,
   "jp": 6
@@ -3235,6 +3696,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 153,
   "exp": 13,
   "money": 153,
   "jp": 6
@@ -3276,6 +3744,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 103,
   "exp": 4,
   "money": 103,
   "jp": 4
@@ -3317,6 +3792,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 98,
   "exp": 5,
   "money": 98,
   "jp": 4
@@ -3357,6 +3839,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "黑暗瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 438,
   "exp": 52,
   "money": 438,
   "jp": 14
@@ -3393,6 +3882,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 335,
   "exp": 27,
   "money": 335,
   "jp": 12
@@ -3429,6 +3925,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 326,
   "exp": 33,
   "money": 326,
   "jp": 11
@@ -3468,6 +3971,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 356,
   "exp": 34,
   "money": 356,
   "jp": 12
@@ -3507,6 +4017,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "麻痹瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 359,
   "exp": 34,
   "money": 359,
   "jp": 12
@@ -3546,6 +4063,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 350,
   "exp": 34,
   "money": 350,
   "jp": 12
@@ -3585,6 +4109,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 376,
   "exp": 34,
   "money": 376,
   "jp": 12
@@ -3624,6 +4155,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "出血瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 374,
   "exp": 34,
   "money": 374,
   "jp": 12
@@ -3663,6 +4201,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 378,
   "exp": 34,
   "money": 378,
   "jp": 12
@@ -3702,6 +4247,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "黑暗瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 356,
   "exp": 34,
   "money": 356,
   "jp": 12
@@ -3742,6 +4294,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 399,
   "exp": 58,
   "money": 399,
   "jp": 14
@@ -3778,6 +4337,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "黑暗治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 335,
   "exp": 31,
   "money": 335,
   "jp": 12
@@ -3814,6 +4380,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 346,
   "exp": 35,
   "money": 346,
   "jp": 11
@@ -3850,6 +4423,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 344,
   "exp": 39,
   "money": 344,
   "jp": 11
@@ -3886,6 +4466,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "沉默治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 326,
   "exp": 42,
   "money": 326,
   "jp": 12
@@ -3930,6 +4517,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 39,
   "exp": 2,
   "money": 39,
   "jp": 1
@@ -3974,6 +4568,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 41,
   "exp": 2,
   "money": 41,
   "jp": 2
@@ -4010,6 +4611,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 309,
   "exp": 25,
   "money": 309,
   "jp": 10
@@ -4051,6 +4659,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 41,
   "exp": 3,
   "money": 41,
   "jp": 2
@@ -4099,6 +4714,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 41,
   "exp": 3,
   "money": 41,
   "jp": 1
@@ -4147,6 +4769,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 51,
   "exp": 4,
   "money": 51,
   "jp": 2
@@ -4195,6 +4824,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 96,
   "exp": 7,
   "money": 96,
   "jp": 3
@@ -4243,6 +4879,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 301,
   "exp": 20,
   "money": 301,
   "jp": 10
@@ -4291,6 +4934,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 413,
   "exp": 41,
   "money": 413,
   "jp": 14
@@ -4327,6 +4977,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 49,
   "exp": 2,
   "money": 49,
   "jp": 2
@@ -4366,6 +5023,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 50,
   "exp": 3,
   "money": 50,
   "jp": 2
@@ -4410,6 +5074,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 48,
   "exp": 4,
   "money": 48,
   "jp": 2
@@ -4451,6 +5122,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 60,
   "exp": 3,
   "money": 60,
   "jp": 2
@@ -4492,6 +5170,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 62,
   "exp": 4,
   "money": 62,
   "jp": 2
@@ -4533,6 +5218,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 21,
   "exp": 2,
   "money": 21,
   "jp": 2
@@ -4574,6 +5266,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 104,
   "exp": 5,
   "money": 104,
   "jp": 4
@@ -4615,6 +5314,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 99,
   "exp": 4,
   "money": 99,
   "jp": 3
@@ -4658,6 +5364,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 95,
   "exp": 4,
   "money": 95,
   "jp": 4
@@ -4699,6 +5412,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 104,
   "exp": 5,
   "money": 104,
   "jp": 3
@@ -4740,6 +5460,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 105,
   "exp": 7,
   "money": 105,
   "jp": 3
@@ -4781,6 +5508,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 157,
   "exp": 11,
   "money": 157,
   "jp": 5
@@ -4822,6 +5556,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 168,
   "exp": 13,
   "money": 168,
   "jp": 5
@@ -4858,6 +5599,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 310,
   "exp": 22,
   "money": 310,
   "jp": 10
@@ -4894,6 +5642,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 303,
   "exp": 27,
   "money": 303,
   "jp": 10
@@ -4930,6 +5685,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 361,
   "exp": 34,
   "money": 361,
   "jp": 12
@@ -4966,6 +5728,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 344,
   "exp": 38,
   "money": 344,
   "jp": 12
@@ -5005,6 +5774,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "毒瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 359,
   "exp": 43,
   "money": 359,
   "jp": 12
@@ -5044,6 +5820,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "麻痹瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 371,
   "exp": 47,
   "money": 371,
   "jp": 12
@@ -5091,6 +5874,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 402,
   "exp": 46,
   "money": 402,
   "jp": 13
@@ -5127,6 +5917,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 420,
   "exp": 52,
   "money": 420,
   "jp": 13
@@ -5162,6 +5959,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 415,
   "exp": 56,
   "money": 415,
   "jp": 13
@@ -5210,6 +6014,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 199,
   "exp": 11,
   "money": 199,
   "jp": 7
@@ -5258,6 +6069,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 206,
   "exp": 12,
   "money": 206,
   "jp": 7
@@ -5294,6 +6112,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 205,
   "exp": 14,
   "money": 205,
   "jp": 7
@@ -5334,6 +6159,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 199,
   "exp": 15,
   "money": 199,
   "jp": 7
@@ -5382,6 +6214,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 218,
   "exp": 14,
   "money": 218,
   "jp": 7
@@ -5430,6 +6269,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 216,
   "exp": 16,
   "money": 216,
   "jp": 7
@@ -5466,6 +6312,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 200,
   "exp": 18,
   "money": 200,
   "jp": 7
@@ -5503,6 +6356,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 204,
   "exp": 20,
   "money": 204,
   "jp": 7
@@ -5551,6 +6411,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 375,
   "exp": 30,
   "money": 375,
   "jp": 13
@@ -5587,6 +6454,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 395,
   "exp": 33,
   "money": 395,
   "jp": 13
@@ -5623,6 +6497,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 381,
   "exp": 37,
   "money": 381,
   "jp": 13
@@ -5671,6 +6552,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 399,
   "exp": 41,
   "money": 399,
   "jp": 13
@@ -5719,6 +6607,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 448,
   "exp": 39,
   "money": 448,
   "jp": 13
@@ -5755,6 +6650,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 440,
   "exp": 43,
   "money": 440,
   "jp": 13
@@ -5795,6 +6697,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 429,
   "exp": 48,
   "money": 429,
   "jp": 13
@@ -5835,6 +6744,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 439,
   "exp": 53,
   "money": 439,
   "jp": 13
@@ -5874,6 +6790,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "麻痹瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 420,
   "exp": 32,
   "money": 420,
   "jp": 14
@@ -5913,6 +6836,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 415,
   "exp": 35,
   "money": 415,
   "jp": 14
@@ -5952,6 +6882,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "治疗衰弱的香草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 380,
   "exp": 40,
   "money": 380,
   "jp": 14
@@ -5988,6 +6925,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 391,
   "exp": 43,
   "money": 391,
   "jp": 14
@@ -6027,6 +6971,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 387,
   "exp": 56,
   "money": 387,
   "jp": 14
@@ -6074,6 +7025,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 481,
   "exp": 51,
   "money": 481,
   "jp": 15
@@ -6114,6 +7072,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 485,
   "exp": 63,
   "money": 485,
   "jp": 15
@@ -6150,6 +7115,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 472,
   "exp": 69,
   "money": 472,
   "jp": 15
@@ -6190,6 +7162,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 490,
   "exp": 56,
   "money": 490,
   "jp": 15
@@ -6234,6 +7213,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 246,
   "exp": 13,
   "money": 246,
   "jp": 8
@@ -6270,6 +7256,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 243,
   "exp": 15,
   "money": 243,
   "jp": 8
@@ -6310,6 +7303,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 237,
   "exp": 17,
   "money": 237,
   "jp": 8
@@ -6350,6 +7350,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 229,
   "exp": 19,
   "money": 229,
   "jp": 8
@@ -6394,6 +7401,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 242,
   "exp": 14,
   "money": 242,
   "jp": 8
@@ -6441,6 +7455,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 257,
   "exp": 16,
   "money": 257,
   "jp": 8
@@ -6477,6 +7498,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 255,
   "exp": 18,
   "money": 255,
   "jp": 8
@@ -6513,6 +7541,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 253,
   "exp": 20,
   "money": 253,
   "jp": 8
@@ -6549,6 +7584,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 261,
   "exp": 26,
   "money": 261,
   "jp": 8
@@ -6593,6 +7635,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 258,
   "exp": 15,
   "money": 258,
   "jp": 9
@@ -6637,6 +7686,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 273,
   "exp": 17,
   "money": 273,
   "jp": 9
@@ -6673,6 +7729,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 265,
   "exp": 20,
   "money": 265,
   "jp": 9
@@ -6712,6 +7775,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 266,
   "exp": 21,
   "money": 266,
   "jp": 9
@@ -6748,6 +7818,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 268,
   "exp": 25,
   "money": 268,
   "jp": 9
@@ -6784,6 +7861,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 257,
   "exp": 28,
   "money": 257,
   "jp": 9
@@ -6828,6 +7912,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 333,
   "exp": 28,
   "money": 333,
   "jp": 11
@@ -6872,6 +7963,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 316,
   "exp": 32,
   "money": 316,
   "jp": 11
@@ -6916,6 +8014,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 328,
   "exp": 36,
   "money": 328,
   "jp": 11
@@ -6952,6 +8057,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 310,
   "exp": 39,
   "money": 310,
   "jp": 11
@@ -6992,6 +8104,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 328,
   "exp": 28,
   "money": 328,
   "jp": 11
@@ -7032,6 +8151,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 320,
   "exp": 28,
   "money": 320,
   "jp": 11
@@ -7068,6 +8194,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 326,
   "exp": 22,
   "money": 326,
   "jp": 11
@@ -7108,6 +8241,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 308,
   "exp": 24,
   "money": 308,
   "jp": 11
@@ -7148,6 +8288,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 319,
   "exp": 28,
   "money": 319,
   "jp": 11
@@ -7188,6 +8335,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 333,
   "exp": 30,
   "money": 333,
   "jp": 11
@@ -7235,6 +8389,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 285,
   "exp": 18,
   "money": 285,
   "jp": 9
@@ -7282,6 +8443,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 269,
   "exp": 20,
   "money": 269,
   "jp": 9
@@ -7321,6 +8489,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 278,
   "exp": 22,
   "money": 278,
   "jp": 9
@@ -7357,6 +8532,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 270,
   "exp": 24,
   "money": 270,
   "jp": 9
@@ -7404,6 +8586,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 272,
   "exp": 18,
   "money": 272,
   "jp": 9
@@ -7443,6 +8632,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 284,
   "exp": 20,
   "money": 284,
   "jp": 9
@@ -7482,6 +8678,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 270,
   "exp": 22,
   "money": 270,
   "jp": 9
@@ -7518,6 +8721,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 282,
   "exp": 24,
   "money": 282,
   "jp": 9
@@ -7554,6 +8764,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 282,
   "exp": 24,
   "money": 282,
   "jp": 10
@@ -7590,6 +8807,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 279,
   "exp": 27,
   "money": 279,
   "jp": 10
@@ -7626,6 +8850,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 280,
   "exp": 31,
   "money": 280,
   "jp": 10
@@ -7662,6 +8893,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 291,
   "exp": 33,
   "money": 291,
   "jp": 10
@@ -7701,6 +8939,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 372,
   "exp": 30,
   "money": 372,
   "jp": 13
@@ -7740,6 +8985,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 395,
   "exp": 33,
   "money": 395,
   "jp": 13
@@ -7779,6 +9031,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 398,
   "exp": 37,
   "money": 398,
   "jp": 13
@@ -7826,6 +9085,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 407,
   "exp": 41,
   "money": 407,
   "jp": 13
@@ -7866,6 +9132,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 383,
   "exp": 32,
   "money": 383,
   "jp": 14
@@ -7906,6 +9179,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 393,
   "exp": 35,
   "money": 393,
   "jp": 14
@@ -7946,6 +9226,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 413,
   "exp": 40,
   "money": 413,
   "jp": 14
@@ -7985,6 +9272,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "风之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 392,
   "exp": 43,
   "money": 392,
   "jp": 14
@@ -8032,6 +9326,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 408,
   "exp": 36,
   "money": 408,
   "jp": 14
@@ -8079,6 +9380,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 400,
   "exp": 40,
   "money": 400,
   "jp": 14
@@ -8118,6 +9426,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 432,
   "exp": 44,
   "money": 432,
   "jp": 14
@@ -8157,6 +9472,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 431,
   "exp": 48,
   "money": 431,
   "jp": 14
@@ -8196,6 +9518,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 429,
   "exp": 52,
   "money": 429,
   "jp": 15
@@ -8235,6 +9564,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 450,
   "exp": 44,
   "money": 450,
   "jp": 15
@@ -8274,6 +9610,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 422,
   "exp": 50,
   "money": 422,
   "jp": 15
@@ -8313,6 +9656,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 424,
   "exp": 70,
   "money": 424,
   "jp": 15
@@ -8352,6 +9702,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 449,
   "exp": 40,
   "money": 449,
   "jp": 15
@@ -8388,6 +9745,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 443,
   "exp": 64,
   "money": 443,
   "jp": 15
@@ -8424,6 +9788,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 446,
   "exp": 70,
   "money": 446,
   "jp": 15
@@ -8472,6 +9843,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 298,
   "exp": 18,
   "money": 298,
   "jp": 10
@@ -8516,6 +9894,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 278,
   "exp": 20,
   "money": 278,
   "jp": 10
@@ -8552,6 +9937,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 289,
   "exp": 23,
   "money": 289,
   "jp": 10
@@ -8588,6 +9980,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 303,
   "exp": 26,
   "money": 303,
   "jp": 10
@@ -8632,6 +10031,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 314,
   "exp": 20,
   "money": 314,
   "jp": 10
@@ -8668,6 +10074,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 302,
   "exp": 22,
   "money": 302,
   "jp": 10
@@ -8704,6 +10117,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "沉默治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 289,
   "exp": 25,
   "money": 289,
   "jp": 10
@@ -8740,6 +10160,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 293,
   "exp": 25,
   "money": 293,
   "jp": 10
@@ -8787,6 +10214,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 300,
   "exp": 20,
   "money": 300,
   "jp": 10
@@ -8823,6 +10257,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 302,
   "exp": 27,
   "money": 302,
   "jp": 10
@@ -8870,6 +10311,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 292,
   "exp": 22,
   "money": 292,
   "jp": 10
@@ -8909,6 +10357,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "黑暗瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 332,
   "exp": 30,
   "money": 332,
   "jp": 11
@@ -8948,6 +10403,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "毒瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 340,
   "exp": 33,
   "money": 340,
   "jp": 11
@@ -8987,6 +10449,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "出血瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 344,
   "exp": 37,
   "money": 344,
   "jp": 11
@@ -9023,6 +10492,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 319,
   "exp": 41,
   "money": 319,
   "jp": 11
@@ -9067,6 +10543,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 412,
   "exp": 36,
   "money": 412,
   "jp": 14
@@ -9103,6 +10586,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 439,
   "exp": 40,
   "money": 439,
   "jp": 14
@@ -9139,6 +10629,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 401,
   "exp": 44,
   "money": 401,
   "jp": 14
@@ -9175,6 +10672,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "沉默治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 437,
   "exp": 48,
   "money": 437,
   "jp": 14
@@ -9219,6 +10723,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 434,
   "exp": 38,
   "money": 434,
   "jp": 15
@@ -9255,6 +10766,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 427,
   "exp": 42,
   "money": 427,
   "jp": 15
@@ -9294,6 +10812,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 428,
   "exp": 47,
   "money": 428,
   "jp": 15
@@ -9333,6 +10858,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 425,
   "exp": 51,
   "money": 425,
   "jp": 15
@@ -9372,6 +10904,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 457,
   "exp": 52,
   "money": 457,
   "jp": 15
@@ -9411,6 +10950,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 450,
   "exp": 57,
   "money": 450,
   "jp": 15
@@ -9450,6 +10996,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 457,
   "exp": 64,
   "money": 457,
   "jp": 15
@@ -9486,6 +11039,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 458,
   "exp": 70,
   "money": 458,
   "jp": 15
@@ -9522,6 +11082,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 449,
   "exp": 55,
   "money": 449,
   "jp": 15
@@ -9564,6 +11131,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 439,
   "exp": 61,
   "money": 439,
   "jp": 15
@@ -9600,6 +11174,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 471,
   "exp": 68,
   "money": 471,
   "jp": 15
@@ -9639,6 +11220,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 463,
   "exp": 74,
   "money": 463,
   "jp": 15
@@ -9686,6 +11274,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 276,
   "exp": 16,
   "money": 276,
   "jp": 9
@@ -9722,6 +11317,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 277,
   "exp": 18,
   "money": 277,
   "jp": 9
@@ -9761,6 +11363,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 275,
   "exp": 21,
   "money": 275,
   "jp": 9
@@ -9800,6 +11409,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "治疗衰弱的香草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 273,
   "exp": 23,
   "money": 273,
   "jp": 9
@@ -9847,6 +11463,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 258,
   "exp": 16,
   "money": 258,
   "jp": 9
@@ -9889,6 +11512,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 283,
   "exp": 21,
   "money": 283,
   "jp": 9
@@ -9925,6 +11555,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 263,
   "exp": 23,
   "money": 263,
   "jp": 9
@@ -9972,6 +11609,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 278,
   "exp": 18,
   "money": 278,
   "jp": 9
@@ -10011,6 +11655,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 270,
   "exp": 20,
   "money": 270,
   "jp": 9
@@ -10047,6 +11698,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 270,
   "exp": 22,
   "money": 270,
   "jp": 9
@@ -10086,6 +11744,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "治疗衰弱的香草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 273,
   "exp": 24,
   "money": 273,
   "jp": 9
@@ -10125,6 +11790,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "毒瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 270,
   "exp": 23,
   "money": 270,
   "jp": 9
@@ -10164,6 +11836,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "黑暗瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 271,
   "exp": 25,
   "money": 271,
   "jp": 9
@@ -10203,6 +11882,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "出血瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 285,
   "exp": 29,
   "money": 285,
   "jp": 9
@@ -10242,6 +11928,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "睡眠瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 280,
   "exp": 31,
   "money": 280,
   "jp": 9
@@ -10278,6 +11971,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "风之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 297,
   "exp": 21,
   "money": 297,
   "jp": 10
@@ -10314,6 +12014,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "雷之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 315,
   "exp": 23,
   "money": 315,
   "jp": 10
@@ -10350,6 +12057,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 311,
   "exp": 26,
   "money": 311,
   "jp": 10
@@ -10386,6 +12100,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 321,
   "exp": 29,
   "money": 321,
   "jp": 10
@@ -10433,6 +12154,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 24,
   "money": 348,
   "jp": 11
@@ -10472,6 +12200,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 330,
   "exp": 27,
   "money": 330,
   "jp": 11
@@ -10508,6 +12243,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 345,
   "exp": 30,
   "money": 345,
   "jp": 11
@@ -10547,6 +12289,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 324,
   "exp": 33,
   "money": 324,
   "jp": 11
@@ -10583,6 +12332,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "治疗衰弱的香草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 351,
   "exp": 34,
   "money": 351,
   "jp": 12
@@ -10625,6 +12381,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 38,
   "money": 348,
   "jp": 12
@@ -10672,6 +12435,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 374,
   "exp": 43,
   "money": 374,
   "jp": 12
@@ -10711,6 +12481,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 347,
   "exp": 47,
   "money": 347,
   "jp": 12
@@ -10758,6 +12535,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级布料",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 394,
   "exp": 37,
   "money": 394,
   "jp": 13
@@ -10794,6 +12578,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 381,
   "exp": 41,
   "money": 381,
   "jp": 13
@@ -10833,6 +12624,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 392,
   "exp": 46,
   "money": 392,
   "jp": 13
@@ -10872,6 +12670,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 397,
   "exp": 51,
   "money": 397,
   "jp": 13
@@ -10908,6 +12713,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 490,
   "exp": 48,
   "money": 490,
   "jp": 16
@@ -10955,6 +12767,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 462,
   "exp": 54,
   "money": 462,
   "jp": 16
@@ -11002,6 +12821,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 460,
   "exp": 60,
   "money": 460,
   "jp": 16
@@ -11049,6 +12875,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级铁材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 473,
   "exp": 65,
   "money": 473,
   "jp": 16
@@ -11088,6 +12921,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 501,
   "exp": 65,
   "money": 501,
   "jp": 16
@@ -11124,6 +12964,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 475,
   "exp": 51,
   "money": 475,
   "jp": 17
@@ -11160,6 +13007,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 553,
   "exp": 61,
   "money": 553,
   "jp": 18
@@ -11196,6 +13050,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 582,
   "exp": 83,
   "money": 582,
   "jp": 20
@@ -11235,6 +13096,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 508,
   "exp": 56,
   "money": 508,
   "jp": 17
@@ -11274,6 +13142,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 468,
   "exp": 63,
   "money": 468,
   "jp": 17
@@ -11314,6 +13189,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 478,
   "exp": 69,
   "money": 478,
   "jp": 17
@@ -11358,6 +13240,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 524,
   "exp": 69,
   "money": 524,
   "jp": 18
@@ -11398,6 +13287,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 507,
   "exp": 76,
   "money": 507,
   "jp": 18
@@ -11434,6 +13330,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 495,
   "exp": 56,
   "money": 495,
   "jp": 18
@@ -11481,6 +13384,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 501,
   "exp": 62,
   "money": 501,
   "jp": 18
@@ -11528,6 +13438,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 544,
   "exp": 64,
   "money": 544,
   "jp": 18
@@ -11568,6 +13485,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 495,
   "exp": 69,
   "money": 495,
   "jp": 18
@@ -11607,6 +13531,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 496,
   "exp": 76,
   "money": 496,
   "jp": 18
@@ -11646,6 +13577,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 550,
   "exp": 68,
   "money": 550,
   "jp": 18
@@ -11685,6 +13623,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 532,
   "exp": 61,
   "money": 532,
   "jp": 18
@@ -11724,6 +13669,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 527,
   "exp": 68,
   "money": 527,
   "jp": 18
@@ -11763,6 +13715,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 541,
   "exp": 76,
   "money": 541,
   "jp": 18
@@ -11802,6 +13761,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 518,
   "exp": 61,
   "money": 518,
   "jp": 18
@@ -11841,6 +13807,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 538,
   "exp": 68,
   "money": 538,
   "jp": 18
@@ -11880,6 +13853,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 554,
   "exp": 76,
   "money": 554,
   "jp": 18
@@ -11916,6 +13896,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 514,
   "exp": 83,
   "money": 514,
   "jp": 18
@@ -11952,6 +13939,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 522,
   "exp": 71,
   "money": 522,
   "jp": 18
@@ -11988,6 +13982,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 543,
   "exp": 79,
   "money": 543,
   "jp": 18
@@ -12027,6 +14028,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 554,
   "exp": 67,
   "money": 554,
   "jp": 19
@@ -12066,6 +14074,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 550,
   "exp": 75,
   "money": 550,
   "jp": 19
@@ -12106,6 +14121,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 567,
   "exp": 83,
   "money": 567,
   "jp": 19
@@ -12142,6 +14164,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 572,
   "exp": 90,
   "money": 572,
   "jp": 19
@@ -12181,6 +14210,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "出血治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 548,
   "exp": 90,
   "money": 548,
   "jp": 19
@@ -12220,6 +14256,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 609,
   "exp": 92,
   "money": 609,
   "jp": 20
@@ -12259,6 +14302,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 599,
   "exp": 112,
   "money": 599,
   "jp": 20
@@ -12298,6 +14348,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 574,
   "exp": 92,
   "money": 574,
   "jp": 20
@@ -12337,6 +14394,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 614,
   "exp": 102,
   "money": 614,
   "jp": 20
@@ -12376,6 +14440,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 567,
   "exp": 112,
   "money": 567,
   "jp": 20
@@ -12415,6 +14486,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 566,
   "exp": 83,
   "money": 566,
   "jp": 20
@@ -12455,6 +14533,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 562,
   "exp": 92,
   "money": 562,
   "jp": 20
@@ -12494,6 +14579,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 574,
   "exp": 83,
   "money": 574,
   "jp": 20
@@ -12533,6 +14625,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 590,
   "exp": 92,
   "money": 590,
   "jp": 20
@@ -12572,6 +14671,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 613,
   "exp": 102,
   "money": 613,
   "jp": 20
@@ -12611,6 +14717,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 589,
   "exp": 112,
   "money": 589,
   "jp": 20
@@ -12650,6 +14763,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 653,
   "exp": 105,
   "money": 653,
   "jp": 22
@@ -12689,6 +14809,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 650,
   "exp": 117,
   "money": 650,
   "jp": 22
@@ -12728,6 +14855,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 653,
   "exp": 130,
   "money": 653,
   "jp": 22
@@ -12768,6 +14902,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 642,
   "exp": 141,
   "money": 642,
   "jp": 22
@@ -12807,6 +14948,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 622,
   "exp": 105,
   "money": 622,
   "jp": 22
@@ -12846,6 +14994,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 602,
   "exp": 130,
   "money": 602,
   "jp": 22
@@ -12885,6 +15040,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 605,
   "exp": 117,
   "money": 605,
   "jp": 22
@@ -12921,6 +15083,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 631,
   "exp": 130,
   "money": 631,
   "jp": 22
@@ -12957,6 +15126,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 613,
   "exp": 141,
   "money": 613,
   "jp": 22
@@ -12996,6 +15172,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 619,
   "exp": 105,
   "money": 619,
   "jp": 22
@@ -13032,6 +15215,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 612,
   "exp": 117,
   "money": 612,
   "jp": 22
@@ -13071,6 +15261,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 638,
   "exp": 141,
   "money": 638,
   "jp": 22
@@ -13107,6 +15304,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 318,
   "exp": 27,
   "money": 318,
   "jp": 10
@@ -13143,6 +15347,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 314,
   "exp": 30,
   "money": 314,
   "jp": 10
@@ -13183,6 +15394,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 300,
   "exp": 34,
   "money": 300,
   "jp": 10
@@ -13223,6 +15441,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 306,
   "exp": 37,
   "money": 306,
   "jp": 10
@@ -13259,6 +15484,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 200,
   "exp": 11,
   "money": 200,
   "jp": 7
@@ -13298,6 +15530,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 205,
   "exp": 12,
   "money": 205,
   "jp": 7
@@ -13337,6 +15576,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 203,
   "exp": 14,
   "money": 203,
   "jp": 7
@@ -13376,6 +15622,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 190,
   "exp": 15,
   "money": 190,
   "jp": 7
@@ -13412,6 +15665,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 380,
   "exp": 30,
   "money": 380,
   "jp": 13
@@ -13451,6 +15711,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 390,
   "exp": 33,
   "money": 390,
   "jp": 13
@@ -13490,6 +15757,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 387,
   "exp": 37,
   "money": 387,
   "jp": 13
@@ -13529,6 +15803,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 387,
   "exp": 41,
   "money": 387,
   "jp": 13
@@ -13568,6 +15849,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 531,
   "exp": 67,
   "money": 531,
   "jp": 19
@@ -13604,6 +15892,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 532,
   "exp": 75,
   "money": 532,
   "jp": 19
@@ -13643,6 +15938,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 538,
   "exp": 83,
   "money": 538,
   "jp": 19
@@ -13682,6 +15984,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 545,
   "exp": 90,
   "money": 545,
   "jp": 19
@@ -13718,6 +16027,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 513,
   "exp": 54,
   "money": 513,
   "jp": 17
@@ -13757,6 +16073,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 509,
   "exp": 60,
   "money": 509,
   "jp": 17
@@ -13793,6 +16116,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 496,
   "exp": 66,
   "money": 496,
   "jp": 17
@@ -13832,6 +16162,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 499,
   "exp": 72,
   "money": 499,
   "jp": 17
@@ -13868,6 +16205,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 413,
   "exp": 38,
   "money": 413,
   "jp": 15
@@ -13907,6 +16251,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 441,
   "exp": 42,
   "money": 441,
   "jp": 15
@@ -13946,6 +16297,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 429,
   "exp": 47,
   "money": 429,
   "jp": 15
@@ -13985,6 +16343,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 435,
   "exp": 51,
   "money": 435,
   "jp": 15
@@ -14024,6 +16389,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 507,
   "exp": 54,
   "money": 507,
   "jp": 17
@@ -14060,6 +16432,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 478,
   "exp": 60,
   "money": 478,
   "jp": 17
@@ -14096,6 +16475,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 517,
   "exp": 66,
   "money": 517,
   "jp": 17
@@ -14135,6 +16521,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 494,
   "exp": 72,
   "money": 494,
   "jp": 17
@@ -14174,6 +16567,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 644,
   "exp": 166,
   "money": 644,
   "jp": 22
@@ -14210,6 +16610,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 653,
   "exp": 184,
   "money": 653,
   "jp": 22
@@ -14249,6 +16656,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 668,
   "exp": 204,
   "money": 668,
   "jp": 22
@@ -14288,6 +16702,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 672,
   "exp": 222,
   "money": 672,
   "jp": 22
@@ -14320,6 +16741,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "猫的胡须",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3000,
   "exp": 1000,
   "money": 3000,
   "jp": 150
@@ -14352,6 +16780,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "猫的胡须",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 10000,
   "exp": 1250,
   "money": 10000,
   "jp": 400
@@ -14384,6 +16819,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "猫的胡须",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 50000,
   "exp": 2000,
   "money": 50000,
   "jp": 1000
@@ -14416,6 +16858,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "猫的胡须",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 10000,
   "exp": 4000,
   "money": 10000,
   "jp": 400
@@ -14448,6 +16897,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "猫的胡须",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 50000,
   "exp": 10000,
   "money": 50000,
   "jp": 1000
@@ -14480,6 +16936,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "章鱼的吸盘",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1500,
   "exp": 500,
   "money": 1500,
   "jp": 300
@@ -14512,6 +16975,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "章鱼的吸盘",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 25000,
   "exp": 1000,
   "money": 25000,
   "jp": 1500
@@ -14553,6 +17023,8 @@
     "rate": 5
    }
   ],
+  "steal": [],
+  "stealMoney": 42,
   "exp": 4,
   "money": 42,
   "jp": 2
@@ -14592,6 +17064,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 263,
   "exp": 32,
   "money": 263,
   "jp": 9
@@ -14631,6 +17110,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 274,
   "exp": 35,
   "money": 274,
   "jp": 10
@@ -14667,6 +17153,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 337,
   "exp": 48,
   "money": 337,
   "jp": 12
@@ -14706,6 +17199,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 337,
   "exp": 48,
   "money": 337,
   "jp": 12
@@ -14742,6 +17242,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 337,
   "exp": 48,
   "money": 337,
   "jp": 12
@@ -14781,6 +17288,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 306,
   "exp": 41,
   "money": 306,
   "jp": 11
@@ -14820,6 +17334,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 422,
   "exp": 70,
   "money": 422,
   "jp": 15
@@ -14856,6 +17377,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 464,
   "exp": 87,
   "money": 464,
   "jp": 16
@@ -14892,6 +17420,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 6,
   "money": 63,
   "jp": 2
@@ -14932,6 +17467,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 168,
   "exp": 20,
   "money": 168,
   "jp": 6
@@ -14973,6 +17515,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "雷之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 105,
   "exp": 9,
   "money": 105,
   "jp": 4
@@ -15008,6 +17557,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 380,
   "exp": 59,
   "money": 380,
   "jp": 13
@@ -15048,6 +17604,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 443,
   "exp": 78,
   "money": 443,
   "jp": 15
@@ -15087,6 +17650,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 358,
   "exp": 53,
   "money": 358,
   "jp": 12
@@ -15123,6 +17693,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 316,
   "exp": 44,
   "money": 316,
   "jp": 11
@@ -15162,6 +17739,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 51,
   "money": 348,
   "jp": 12
@@ -15201,6 +17785,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 475,
   "exp": 93,
   "money": 475,
   "jp": 16
@@ -15245,6 +17836,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级木材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 454,
   "exp": 83,
   "money": 454,
   "jp": 16
@@ -15281,6 +17879,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 464,
   "exp": 87,
   "money": 464,
   "jp": 16
@@ -15320,6 +17925,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 6,
   "money": 63,
   "jp": 2
@@ -15359,6 +17971,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 168,
   "exp": 20,
   "money": 168,
   "jp": 6
@@ -15398,6 +18017,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 105,
   "exp": 9,
   "money": 105,
   "jp": 4
@@ -15434,6 +18060,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "中毒治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 6,
   "money": 63,
   "jp": 2
@@ -15473,6 +18106,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 295,
   "exp": 39,
   "money": 295,
   "jp": 10
@@ -15513,6 +18153,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 327,
   "exp": 46,
   "money": 327,
   "jp": 11
@@ -15549,6 +18196,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 380,
   "exp": 59,
   "money": 380,
   "jp": 13
@@ -15588,6 +18242,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 401,
   "exp": 63,
   "money": 401,
   "jp": 14
@@ -15624,6 +18285,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 221,
   "exp": 24,
   "money": 221,
   "jp": 8
@@ -15663,6 +18331,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 422,
   "exp": 70,
   "money": 422,
   "jp": 15
@@ -15702,6 +18377,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 475,
   "exp": 66,
   "money": 475,
   "jp": 16
@@ -15738,6 +18420,13 @@
     "rate": 7
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 6,
   "money": 63,
   "jp": 2
@@ -15777,6 +18466,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 105,
   "exp": 9,
   "money": 105,
   "jp": 4
@@ -15825,6 +18521,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 105,
   "exp": 9,
   "money": 105,
   "jp": 4
@@ -15861,6 +18564,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 380,
   "exp": 59,
   "money": 380,
   "jp": 13
@@ -15901,6 +18611,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 422,
   "exp": 70,
   "money": 422,
   "jp": 15
@@ -15940,6 +18657,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 422,
   "exp": 70,
   "money": 422,
   "jp": 15
@@ -15982,6 +18706,13 @@
     "rate": 3
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 686,
   "exp": 277,
   "money": 686,
   "jp": 24
@@ -16021,6 +18752,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 63,
   "exp": 6,
   "money": 63,
   "jp": 2
@@ -16062,6 +18800,13 @@
     "rate": 4
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 168,
   "exp": 20,
   "money": 168,
   "jp": 6
@@ -16102,6 +18847,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 23,
   "money": 348,
   "jp": 12
@@ -16150,6 +18902,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "高级石材",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 29,
   "money": 348,
   "jp": 12
@@ -16189,6 +18948,13 @@
     "rate": 8
    }
   ],
+  "steal": [
+   {
+    "name": "恐怖治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 31,
   "money": 348,
   "jp": 12
@@ -16225,6 +18991,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 348,
   "exp": 25,
   "money": 348,
   "jp": 12
@@ -16259,6 +19032,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 449,
   "exp": 40,
   "money": 449,
   "jp": 15
@@ -16293,6 +19068,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 450,
   "exp": 44,
   "money": 450,
   "jp": 15
@@ -16324,6 +19101,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 464,
   "exp": 87,
   "money": 464,
   "jp": 16
@@ -16355,6 +19134,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 443,
   "exp": 64,
   "money": 443,
   "jp": 15
@@ -16386,6 +19167,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 446,
   "exp": 70,
   "money": 446,
   "jp": 15
@@ -16425,6 +19208,8 @@
     "rate": 50
    }
   ],
+  "steal": [],
+  "stealMoney": 963,
   "exp": 20633,
   "money": 963,
   "jp": null
@@ -16459,6 +19244,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 580,
   "exp": 134,
   "money": 580,
   "jp": 20
@@ -16494,6 +19281,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 435,
   "exp": 101,
   "money": 435,
   "jp": 15
@@ -16529,6 +19318,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 736,
   "exp": 5871,
   "money": 736,
   "jp": null
@@ -16563,6 +19354,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 861,
   "exp": 9729,
   "money": 861,
   "jp": null
@@ -16598,6 +19391,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 798,
   "exp": 9394,
   "money": 798,
   "jp": null
@@ -16632,6 +19427,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 934,
   "exp": 238,
   "money": 934,
   "jp": 32
@@ -16667,6 +19464,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 311,
   "exp": 79,
   "money": 311,
   "jp": 10
@@ -16702,6 +19501,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 311,
   "exp": 79,
   "money": 311,
   "jp": 10
@@ -16736,6 +19537,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 623,
   "exp": 159,
   "money": 623,
   "jp": 21
@@ -16776,6 +19579,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 287,
   "exp": 19,
   "money": 287,
   "jp": 10
@@ -16816,6 +19621,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 291,
   "exp": 19,
   "money": 291,
   "jp": 10
@@ -16852,6 +19659,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 289,
   "exp": 19,
   "money": 289,
   "jp": 10
@@ -16892,6 +19701,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 296,
   "exp": 19,
   "money": 296,
   "jp": 10
@@ -16929,6 +19740,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 261,
   "exp": 14,
   "money": 261,
   "jp": 9
@@ -16969,6 +19782,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 282,
   "exp": 19,
   "money": 282,
   "jp": 10
@@ -17009,6 +19824,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 566,
   "exp": 40,
   "money": 566,
   "jp": 19
@@ -17049,6 +19866,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 406,
   "exp": 33,
   "money": 406,
   "jp": 14
@@ -17092,6 +19911,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 385,
   "exp": 33,
   "money": 385,
   "jp": 14
@@ -17129,6 +19950,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 396,
   "exp": 33,
   "money": 396,
   "jp": 14
@@ -17169,6 +19992,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 395,
   "exp": 33,
   "money": 395,
   "jp": 14
@@ -17206,6 +20031,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 556,
   "exp": 40,
   "money": 556,
   "jp": 19
@@ -17243,6 +20070,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 559,
   "exp": 40,
   "money": 559,
   "jp": 19
@@ -17283,6 +20112,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 542,
   "exp": 40,
   "money": 542,
   "jp": 19
@@ -17319,6 +20150,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 597,
   "exp": 73,
   "money": 597,
   "jp": 20
@@ -17359,6 +20192,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1347,
   "exp": 232,
   "money": 1347,
   "jp": 46
@@ -17398,6 +20233,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 611,
   "exp": 57,
   "money": 611,
   "jp": 21
@@ -17445,6 +20282,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 727,
   "exp": 73,
   "money": 727,
   "jp": 25
@@ -17481,6 +20320,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 759,
   "exp": 77,
   "money": 759,
   "jp": 26
@@ -17521,6 +20362,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 780,
   "exp": 84,
   "money": 780,
   "jp": 27
@@ -17557,6 +20400,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 828,
   "exp": 88,
   "money": 828,
   "jp": 28
@@ -17598,6 +20443,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 820,
   "exp": 94,
   "money": 820,
   "jp": 29
@@ -17638,6 +20485,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 918,
   "exp": 105,
   "money": 918,
   "jp": 32
@@ -17670,6 +20519,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 974,
   "exp": 97,
   "money": 974,
   "jp": 33
@@ -17710,6 +20561,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 952,
   "exp": 101,
   "money": 952,
   "jp": 34
@@ -17746,6 +20599,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 929,
   "exp": 123,
   "money": 929,
   "jp": 33
@@ -17785,6 +20640,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1000,
   "exp": 138,
   "money": 1000,
   "jp": 35
@@ -17824,6 +20681,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 931,
   "exp": 123,
   "money": 931,
   "jp": 33
@@ -17863,6 +20722,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 970,
   "exp": 123,
   "money": 970,
   "jp": 33
@@ -17902,6 +20763,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 976,
   "exp": 123,
   "money": 976,
   "jp": 33
@@ -17946,6 +20809,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 942,
   "exp": 123,
   "money": 942,
   "jp": 33
@@ -17982,6 +20847,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1168,
   "exp": 195,
   "money": 1168,
   "jp": 41
@@ -18021,6 +20888,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1045,
   "exp": 154,
   "money": 1045,
   "jp": 36
@@ -18053,6 +20922,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 2995,
   "exp": 1000,
   "money": 2995,
   "jp": 75
@@ -18092,6 +20963,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1032,
   "exp": 200,
   "money": 1032,
   "jp": 36
@@ -18131,6 +21004,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1042,
   "exp": 200,
   "money": 1042,
   "jp": 36
@@ -18167,6 +21042,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1219,
   "exp": 253,
   "money": 1219,
   "jp": 41
@@ -18206,6 +21083,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1128,
   "exp": 218,
   "money": 1128,
   "jp": 38
@@ -18242,6 +21121,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1172,
   "exp": 240,
   "money": 1172,
   "jp": 40
@@ -18277,6 +21158,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1133,
   "exp": 240,
   "money": 1133,
   "jp": 40
@@ -18316,6 +21199,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1132,
   "exp": 229,
   "money": 1132,
   "jp": 39
@@ -18355,6 +21240,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1195,
   "exp": 240,
   "money": 1195,
   "jp": 40
@@ -18391,6 +21278,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1188,
   "exp": 240,
   "money": 1188,
   "jp": 40
@@ -18430,6 +21319,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1425,
   "exp": 253,
   "money": 1425,
   "jp": 50
@@ -18466,6 +21357,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1335,
   "exp": 317,
   "money": 1335,
   "jp": 45
@@ -18506,6 +21399,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1122,
   "exp": 229,
   "money": 1122,
   "jp": 39
@@ -18548,6 +21443,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1342,
   "exp": 317,
   "money": 1342,
   "jp": 45
@@ -18587,6 +21484,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1767,
   "exp": 966,
   "money": 1767,
   "jp": 59
@@ -18626,6 +21525,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1410,
   "exp": 302,
   "money": 1410,
   "jp": 49
@@ -18665,6 +21566,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1496,
   "exp": 330,
   "money": 1496,
   "jp": 51
@@ -18705,6 +21608,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1567,
   "exp": 365,
   "money": 1567,
   "jp": 52
@@ -18745,6 +21650,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1560,
   "exp": 365,
   "money": 1560,
   "jp": 52
@@ -18785,6 +21692,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1550,
   "exp": 365,
   "money": 1550,
   "jp": 52
@@ -18821,6 +21730,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1589,
   "exp": 391,
   "money": 1589,
   "jp": 53
@@ -18865,6 +21776,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1603,
   "exp": 391,
   "money": 1603,
   "jp": 53
@@ -18906,6 +21819,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1608,
   "exp": 417,
   "money": 1608,
   "jp": 54
@@ -18945,6 +21860,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1606,
   "exp": 417,
   "money": 1606,
   "jp": 54
@@ -18980,6 +21897,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1711,
   "exp": 545,
   "money": 1711,
   "jp": 58
@@ -19020,6 +21939,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1735,
   "exp": 545,
   "money": 1735,
   "jp": 58
@@ -19063,6 +21984,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1707,
   "exp": 545,
   "money": 1707,
   "jp": 58
@@ -19099,6 +22022,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1739,
   "exp": 545,
   "money": 1739,
   "jp": 58
@@ -19139,6 +22064,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1847,
   "exp": 798,
   "money": 1847,
   "jp": 61
@@ -19173,6 +22100,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1827,
   "exp": 798,
   "money": 1827,
   "jp": 61
@@ -19212,6 +22141,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1849,
   "exp": 798,
   "money": 1849,
   "jp": 61
@@ -19246,6 +22177,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1830,
   "exp": 798,
   "money": 1830,
   "jp": 61
@@ -19281,6 +22214,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1778,
   "exp": 798,
   "money": 1778,
   "jp": 61
@@ -19315,6 +22250,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1796,
   "exp": 798,
   "money": 1796,
   "jp": 61
@@ -19351,6 +22288,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1141,
   "exp": 188,
   "money": 1141,
   "jp": 40
@@ -19383,6 +22322,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 25000,
   "exp": 1000,
   "money": 25000,
   "jp": 1500
@@ -19420,6 +22361,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强物攻的坚果",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 242,
   "exp": 21,
   "money": 242,
   "jp": 3
@@ -19456,6 +22404,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19496,6 +22446,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "老旧盔甲",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1217,
   "exp": 40,
   "money": 1217,
   "jp": 17
@@ -19534,6 +22491,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19574,6 +22533,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "吸血匕首之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1972,
   "exp": 108,
   "money": 1972,
   "jp": 28
@@ -19614,6 +22580,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强物防的坚果",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2404,
   "exp": 71,
   "money": 2404,
   "jp": 33
@@ -19649,6 +22622,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19681,6 +22656,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19716,6 +22693,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19748,6 +22727,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19788,6 +22769,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "光辉之箭精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5283,
   "exp": 215,
   "money": 5283,
   "jp": 46
@@ -19828,6 +22816,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "光辉之箭精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5353,
   "exp": 215,
   "money": 5353,
   "jp": 46
@@ -19863,6 +22858,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19898,6 +22895,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -19936,6 +22935,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强HP的坚果",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 737,
   "exp": 21,
   "money": 737,
   "jp": 10
@@ -19977,6 +22983,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "守护耳环",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1215,
   "exp": 40,
   "money": 1215,
   "jp": 17
@@ -20014,6 +23027,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "健全化之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1970,
   "exp": 108,
   "money": 1970,
   "jp": 28
@@ -20046,6 +23066,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20078,6 +23100,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20110,6 +23134,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20149,6 +23175,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 355,
   "exp": 36,
   "money": 355,
   "jp": 10
@@ -20186,6 +23219,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强SP的坚果",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2335,
   "exp": 118,
   "money": 2335,
   "jp": 33
@@ -20221,6 +23261,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20256,6 +23298,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20296,6 +23340,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "抚斩之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5283,
   "exp": 215,
   "money": 5283,
   "jp": 46
@@ -20336,6 +23387,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "抚斩之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5353,
   "exp": 215,
   "money": 5353,
   "jp": 46
@@ -20377,6 +23435,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "石杖",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1211,
   "exp": 40,
   "money": 1211,
   "jp": 17
@@ -20413,6 +23478,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20454,6 +23521,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "夜影之诗精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1998,
   "exp": 108,
   "money": 1998,
   "jp": 28
@@ -20489,6 +23563,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20524,6 +23600,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20564,6 +23642,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "复仇之刃精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5283,
   "exp": 215,
   "money": 5283,
   "jp": 46
@@ -20604,6 +23689,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "复仇之刃精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5353,
   "exp": 215,
   "money": 5353,
   "jp": 46
@@ -20639,6 +23731,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20679,6 +23773,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3114,
   "exp": 179,
   "money": 3114,
   "jp": 44
@@ -20719,6 +23820,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "铁制背心",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3451,
   "exp": 204,
   "money": 3451,
   "jp": 48
@@ -20755,6 +23863,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20795,6 +23905,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "蛇毒牙之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3475,
   "exp": 218,
   "money": 3475,
   "jp": 50
@@ -20831,6 +23948,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -20867,6 +23986,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强HP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 547,
   "exp": 51,
   "money": 547,
   "jp": 15
@@ -20903,6 +24029,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强SP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 549,
   "exp": 51,
   "money": 549,
   "jp": 15
@@ -20943,6 +24076,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "沉默治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3803,
   "exp": 231,
   "money": 3803,
   "jp": 51
@@ -20978,6 +24118,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21018,6 +24160,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3854,
   "exp": 256,
   "money": 3854,
   "jp": 53
@@ -21058,6 +24207,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "愤怒一击之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3350,
   "exp": 171,
   "money": 3350,
   "jp": 43
@@ -21098,6 +24254,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "龙之领巾",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4014,
   "exp": 285,
   "money": 4014,
   "jp": 57
@@ -21133,6 +24296,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21168,6 +24333,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21208,6 +24375,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4175,
   "exp": 180,
   "money": 4175,
   "jp": 59
@@ -21239,6 +24413,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21279,6 +24460,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "魔术炸弹之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4384,
   "exp": 327,
   "money": 4384,
   "jp": 60
@@ -21319,6 +24507,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "反击姿势之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4520,
   "exp": 342,
   "money": 4520,
   "jp": 62
@@ -21354,6 +24549,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21389,6 +24586,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21424,6 +24628,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复BP/必杀值的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21464,6 +24675,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "属性熟练化之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 8750,
   "exp": 616,
   "money": 8750,
   "jp": 78
@@ -21505,6 +24723,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "守护别扣",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3394,
   "exp": 190,
   "money": 3394,
   "jp": 46
@@ -21545,6 +24770,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "圣火护戒长的护身符",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4561,
   "exp": 366,
   "money": 4561,
   "jp": 64
@@ -21585,6 +24817,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 999,
   "exp": 131,
   "money": 999,
   "jp": 34
@@ -21625,6 +24859,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 983,
   "exp": 131,
   "money": 983,
   "jp": 34
@@ -21665,6 +24901,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 963,
   "exp": 131,
   "money": 963,
   "jp": 34
@@ -21700,6 +24938,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21735,6 +24975,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21770,6 +25012,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21810,6 +25054,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强会心的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1448,
   "exp": 246,
   "money": 1448,
   "jp": 39
@@ -21845,6 +25096,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21880,6 +25133,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -21920,6 +25175,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强回避的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2384,
   "exp": 123,
   "money": 2384,
   "jp": 34
@@ -21955,6 +25217,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 2465,
   "exp": 123,
   "money": 2465,
   "jp": 34
@@ -21995,6 +25259,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强属防的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2431,
   "exp": 123,
   "money": 2431,
   "jp": 34
@@ -22030,6 +25301,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 2450,
   "exp": 123,
   "money": 2450,
   "jp": 34
@@ -22070,6 +25343,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复全体SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4882,
   "exp": 410,
   "money": 4882,
   "jp": 68
@@ -22105,6 +25385,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22140,6 +25422,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22175,6 +25459,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22219,6 +25505,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "斗士的护身符",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2601,
   "exp": 222,
   "money": 2601,
   "jp": 36
@@ -22258,6 +25551,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 2637,
   "exp": 222,
   "money": 2637,
   "jp": 36
@@ -22293,6 +25588,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强会心的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1005,
   "exp": 66,
   "money": 1005,
   "jp": 13
@@ -22328,6 +25630,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强物攻的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1005,
   "exp": 66,
   "money": 1005,
   "jp": 13
@@ -22368,6 +25677,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "兽之领巾",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4021,
   "exp": 267,
   "money": 4021,
   "jp": 53
@@ -22399,6 +25715,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 5266,
   "exp": 444,
   "money": 5266,
   "jp": 71
@@ -22434,6 +25752,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22469,6 +25789,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22504,6 +25826,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强物防的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1490,
   "exp": 106,
   "money": 1490,
   "jp": 19
@@ -22539,6 +25868,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1457,
   "exp": 106,
   "money": 1457,
   "jp": 19
@@ -22574,6 +25910,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1448,
   "exp": 106,
   "money": 1448,
   "jp": 19
@@ -22614,6 +25957,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "赎罪念珠",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5064,
   "exp": 444,
   "money": 5064,
   "jp": 71
@@ -22649,6 +25999,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 556,
   "exp": 56,
   "money": 556,
   "jp": 15
@@ -22689,6 +26046,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "悔恨之暗精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5925,
   "exp": 588,
   "money": 5925,
   "jp": 80
@@ -22724,6 +26088,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 584,
   "exp": 56,
   "money": 584,
   "jp": 15
@@ -22759,6 +26130,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22794,6 +26167,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22828,6 +26203,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP/SP的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4634,
   "exp": 389,
   "money": 4634,
   "jp": 60
@@ -22863,6 +26245,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -22899,6 +26283,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "四重怒击之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5777,
   "exp": 588,
   "money": 5777,
   "jp": 80
@@ -22934,6 +26325,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1719,
   "exp": 168,
   "money": 1719,
   "jp": 47
@@ -22961,6 +26359,13 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP/SP的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4457,
   "exp": 317,
   "money": 4457,
   "jp": 59
@@ -23001,6 +26406,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "邪气一闪之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5643,
   "exp": 588,
   "money": 5643,
   "jp": 80
@@ -23036,6 +26448,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23071,6 +26490,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23093,6 +26519,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23115,6 +26543,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23154,6 +26584,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6177,
   "exp": 716,
   "money": 6177,
   "jp": 87
@@ -23193,6 +26625,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23227,6 +26661,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23261,6 +26697,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23301,6 +26739,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "双破之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 12790,
   "exp": 1203,
   "money": 12790,
   "jp": 109
@@ -23336,6 +26781,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 591,
   "exp": 59,
   "money": 591,
   "jp": 16
@@ -23371,6 +26818,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 605,
   "exp": 59,
   "money": 605,
   "jp": 16
@@ -23405,6 +26854,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强物攻的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4569,
   "exp": 389,
   "money": 4569,
   "jp": 60
@@ -23440,6 +26896,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强HP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23475,6 +26938,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强命中的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 601,
   "exp": 59,
   "money": 601,
   "jp": 16
@@ -23510,6 +26980,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强SP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 605,
   "exp": 59,
   "money": 605,
   "jp": 16
@@ -23545,6 +27022,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强速度的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 586,
   "exp": 59,
   "money": 586,
   "jp": 16
@@ -23580,6 +27064,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强属攻的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 591,
   "exp": 59,
   "money": 591,
   "jp": 16
@@ -23616,6 +27107,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6144,
   "exp": 647,
   "money": 6144,
   "jp": 84
@@ -23638,6 +27136,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23669,6 +27169,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23704,6 +27206,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23744,6 +27248,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "清净之舞精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 12706,
   "exp": 1203,
   "money": 12706,
   "jp": 109
@@ -23788,6 +27299,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6020,
   "exp": 647,
   "money": 6020,
   "jp": 84
@@ -23831,6 +27349,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "起死回生之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -23870,6 +27395,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "不死橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 12307,
   "exp": 1203,
   "money": 12307,
   "jp": 109
@@ -23908,6 +27440,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强会心的坚果（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 685,
   "exp": 132,
   "money": 685,
   "jp": 18
@@ -23943,6 +27482,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强命中的坚果（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 654,
   "exp": 132,
   "money": 654,
   "jp": 18
@@ -23981,6 +27527,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强回避的坚果（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 675,
   "exp": 132,
   "money": 675,
   "jp": 18
@@ -24017,6 +27570,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "反骨精神之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6804,
   "exp": 862,
   "money": 6804,
   "jp": 93
@@ -24039,6 +27599,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24061,6 +27623,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24101,6 +27665,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "特攻强化之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7206,
   "exp": 564,
   "money": 7206,
   "jp": 96
@@ -24136,6 +27707,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "攻势之阵精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7109,
   "exp": 940,
   "money": 7109,
   "jp": 96
@@ -24171,6 +27749,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "死里求生之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7082,
   "exp": 619,
   "money": 7082,
   "jp": 100
@@ -24211,6 +27796,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "返咒项圈",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7301,
   "exp": 1031,
   "money": 7301,
   "jp": 100
@@ -24246,6 +27838,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 7715,
   "exp": 695,
   "money": 7715,
   "jp": 103
@@ -24281,6 +27875,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24316,6 +27912,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24357,6 +27955,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "不死橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7311,
   "exp": 1158,
   "money": 7311,
   "jp": 103
@@ -24398,6 +28003,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24433,6 +28040,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "完全恢复的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6203,
   "exp": 792,
   "money": 6203,
   "jp": 80
@@ -24471,6 +28085,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复BP/必杀值的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24511,6 +28132,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "体力项链",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 15313,
   "exp": 1848,
   "money": 15313,
   "jp": 134
@@ -24551,6 +28179,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "力量腰带",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7802,
   "exp": 1448,
   "money": 7802,
   "jp": 109
@@ -24591,6 +28226,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "精神项链",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7986,
   "exp": 1448,
   "money": 7986,
   "jp": 109
@@ -24634,6 +28276,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "不死橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 8016,
   "exp": 2028,
   "money": 8016,
   "jp": 109
@@ -24669,6 +28318,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "魔力的代价之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24701,6 +28357,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24736,6 +28394,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24779,6 +28439,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "重生魔法之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 16681,
   "exp": 2250,
   "money": 16681,
   "jp": 147
@@ -24801,6 +28468,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24831,6 +28500,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24864,6 +28535,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24903,6 +28576,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "极限之力之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -24931,6 +28611,13 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [
+   {
+    "name": "不死橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 17205,
   "exp": 4050,
   "money": 17205,
   "jp": 147
@@ -24970,6 +28657,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "超级恢复的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25009,6 +28703,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25051,6 +28747,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25090,6 +28788,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25125,6 +28825,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25161,6 +28863,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25197,6 +28901,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25236,6 +28942,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25272,6 +28980,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25294,6 +29004,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 16755,
   "exp": null,
   "money": null,
   "jp": null
@@ -25320,6 +29032,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25355,6 +29069,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25384,6 +29100,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25417,6 +29135,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 8495,
   "exp": 1736,
   "money": 8495,
   "jp": 114
@@ -25444,6 +29164,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 4707,
   "exp": 339,
   "money": 4707,
   "jp": 60
@@ -25478,6 +29200,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 5278,
   "exp": 477,
   "money": 5278,
   "jp": 69
@@ -25520,6 +29244,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 4430,
   "exp": 323,
   "money": 4430,
   "jp": 59
@@ -25556,6 +29282,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 4611,
   "exp": 323,
   "money": 4611,
   "jp": 59
@@ -25591,6 +29319,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 4527,
   "exp": 323,
   "money": 4527,
   "jp": 59
@@ -25627,6 +29357,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 5517,
   "exp": 499,
   "money": 5517,
   "jp": 71
@@ -25662,6 +29394,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6175,
   "exp": 751,
   "money": 6175,
   "jp": 81
@@ -25697,6 +29431,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -25732,6 +29468,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6328,
   "exp": 751,
   "money": 6328,
   "jp": 81
@@ -25765,6 +29503,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6465,
   "exp": 893,
   "money": 6465,
   "jp": 86
@@ -25798,6 +29538,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6461,
   "exp": 893,
   "money": 6461,
   "jp": 86
@@ -25831,6 +29573,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6801,
   "exp": 893,
   "money": 6801,
   "jp": 86
@@ -25864,6 +29608,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6494,
   "exp": 893,
   "money": 6494,
   "jp": 86
@@ -25899,6 +29645,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "反击长刀之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6353,
   "exp": 751,
   "money": 6353,
   "jp": 81
@@ -25935,6 +29688,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4181,
   "exp": 218,
   "money": 4181,
   "jp": 55
@@ -25966,6 +29726,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26001,6 +29763,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4624,
   "exp": 360,
   "money": 4624,
   "jp": 61
@@ -26032,6 +29801,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26063,6 +29834,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26098,6 +29871,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强属攻的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5382,
   "exp": 456,
   "money": 5382,
   "jp": 68
@@ -26130,6 +29910,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26161,6 +29943,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26195,6 +29979,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "免疫之叶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1304,
   "exp": 55,
   "money": 1304,
   "jp": 18
@@ -26226,6 +30017,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "免疫之叶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1325,
   "exp": 55,
   "money": 1325,
   "jp": 18
@@ -26263,6 +30061,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "免疫之叶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1310,
   "exp": 55,
   "money": 1310,
   "jp": 18
@@ -26298,6 +30103,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "撕裂者之精粹",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3053,
   "exp": 170,
   "money": 3053,
   "jp": 41
@@ -26338,6 +30150,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3053,
   "exp": 170,
   "money": 3053,
   "jp": 41
@@ -26373,6 +30192,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "毒瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1138,
   "exp": 46,
   "money": 1138,
   "jp": 16
@@ -26408,6 +30234,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1138,
   "exp": 46,
   "money": 1138,
   "jp": 16
@@ -26448,6 +30276,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3482,
   "exp": 165,
   "money": 3482,
   "jp": 47
@@ -26483,6 +30318,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1138,
   "exp": 46,
   "money": 1138,
   "jp": 16
@@ -26517,6 +30354,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26548,6 +30387,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4123,
   "exp": 182,
   "money": 4123,
   "jp": 55
@@ -26584,6 +30430,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强HP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4759,
   "exp": 258,
   "money": 4759,
   "jp": 59
@@ -26618,6 +30471,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4569,
   "exp": 258,
   "money": 4569,
   "jp": 59
@@ -26658,6 +30518,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强会心的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4640,
   "exp": 339,
   "money": 4640,
   "jp": 60
@@ -26689,6 +30556,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26722,6 +30591,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "全能精灵石",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4424,
   "exp": 272,
   "money": 4424,
   "jp": 55
@@ -26750,6 +30626,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26790,6 +30668,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强回避的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2723,
   "exp": 143,
   "money": 2723,
   "jp": 37
@@ -26825,6 +30710,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26859,6 +30746,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 3696,
   "exp": 206,
   "money": 3696,
   "jp": 47
@@ -26894,6 +30783,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "麻痹瓶",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2562,
   "exp": 117,
   "money": 2562,
   "jp": 33
@@ -26929,6 +30825,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -26969,6 +30867,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强物攻的坚果",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3089,
   "exp": 170,
   "money": 3089,
   "jp": 41
@@ -27000,6 +30905,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1198,
   "exp": 46,
   "money": 1198,
   "jp": 16
@@ -27031,6 +30943,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1190,
   "exp": 46,
   "money": 1190,
   "jp": 16
@@ -27062,6 +30981,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "睡眠治疗药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1172,
   "exp": 46,
   "money": 1172,
   "jp": 16
@@ -27102,6 +31028,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP/SP的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5896,
   "exp": 457,
   "money": 5896,
   "jp": 75
@@ -27142,6 +31075,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 4714,
   "exp": 288,
   "money": 4714,
   "jp": 61
@@ -27182,6 +31122,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强HP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3731,
   "exp": 165,
   "money": 3731,
   "jp": 47
@@ -27221,6 +31168,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "光之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1584,
   "exp": 80,
   "money": 1584,
   "jp": 20
@@ -27253,6 +31207,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强物攻的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 660,
   "exp": 74,
   "money": 660,
   "jp": 19
@@ -27293,6 +31254,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 440,
   "exp": 49,
   "money": 440,
   "jp": 13
@@ -27333,6 +31301,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 440,
   "exp": 49,
   "money": 440,
   "jp": 13
@@ -27368,6 +31343,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 495,
   "exp": 55,
   "money": 495,
   "jp": 14
@@ -27403,6 +31385,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 440,
   "exp": 49,
   "money": 440,
   "jp": 13
@@ -27439,6 +31428,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "雷之精灵石（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 306,
   "exp": 41,
   "money": 306,
   "jp": 11
@@ -27470,6 +31466,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "鼓鼓的钱包",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1198,
   "exp": 46,
   "money": 1198,
   "jp": 16
@@ -27510,6 +31513,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "暗之精灵石（特大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": null,
   "exp": 2175,
   "money": 6866,
   "jp": 118
@@ -27550,6 +31560,13 @@
     "rate": 5
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（巨大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7922,
   "exp": 5907,
   "money": 7922,
   "jp": 102
@@ -27585,6 +31602,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -27625,6 +31644,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "火之精灵石（巨大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 6866,
   "exp": 2250,
   "money": 6866,
   "jp": 88
@@ -27661,6 +31687,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -27697,6 +31725,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 19,
   "exp": 2,
   "money": 19,
   "jp": 1
@@ -27733,6 +31763,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 19,
   "exp": 2,
   "money": 19,
   "jp": 1
@@ -27771,6 +31803,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 62,
   "exp": 5,
   "money": 62,
   "jp": 1
@@ -27809,6 +31843,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 62,
   "exp": 5,
   "money": 62,
   "jp": 1
@@ -27844,6 +31880,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强命中的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1267,
   "exp": 50,
   "money": 1267,
   "jp": 16
@@ -27879,6 +31922,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1267,
   "exp": 50,
   "money": 1267,
   "jp": 16
@@ -27914,6 +31959,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强会心的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1584,
   "exp": 80,
   "money": 1584,
   "jp": 20
@@ -27949,6 +32001,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 80,
   "money": 1584,
   "jp": 20
@@ -27984,6 +32038,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "增强SP的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1584,
   "exp": 96,
   "money": 1584,
   "jp": 20
@@ -28019,6 +32080,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 96,
   "money": 1584,
   "jp": 20
@@ -28054,6 +32117,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 96,
   "money": 1584,
   "jp": 20
@@ -28076,6 +32141,8 @@
   "weakWeapons": [],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6175,
   "exp": 751,
   "money": 6175,
   "jp": 81
@@ -28119,6 +32186,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1386,
   "exp": 191,
   "money": 1386,
   "jp": 39
@@ -28157,6 +32231,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5940,
   "exp": 600,
   "money": 5940,
   "jp": 82
@@ -28193,6 +32274,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1386,
   "exp": 191,
   "money": 1386,
   "jp": 39
@@ -28224,6 +32312,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "包治百病的药草",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 5940,
   "exp": 600,
   "money": 5940,
   "jp": 82
@@ -28259,6 +32354,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28294,6 +32391,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28335,6 +32434,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1782,
   "exp": 325,
   "money": 1782,
   "jp": 49
@@ -28371,6 +32477,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复SP的李子（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7261,
   "exp": 991,
   "money": 7261,
   "jp": 100
@@ -28415,6 +32528,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "增强属防的坚果（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 1782,
   "exp": 325,
   "money": 1782,
   "jp": 49
@@ -28454,6 +32574,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "恢复HP的葡萄（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 7261,
   "exp": 991,
   "money": 7261,
   "jp": 100
@@ -28494,6 +32621,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2178,
   "exp": 536,
   "money": 2178,
   "jp": 60
@@ -28534,6 +32668,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "恢复BP的石榴（大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 8582,
   "exp": 2175,
   "money": 8582,
   "jp": 118
@@ -28571,6 +32712,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（巨大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 2178,
   "exp": 536,
   "money": 2178,
   "jp": 60
@@ -28608,6 +32756,13 @@
     "rate": 10
    }
   ],
+  "steal": [
+   {
+    "name": "冰之精灵石（巨大）",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 8582,
   "exp": 2175,
   "money": 8582,
   "jp": 118
@@ -28647,6 +32802,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "超级恢复的果酱",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 23521,
   "exp": 74453,
   "money": 23521,
   "jp": 203
@@ -28681,6 +32843,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28715,6 +32879,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28749,6 +32915,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28783,6 +32951,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28810,6 +32980,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 25,
   "exp": 2,
   "money": 25,
   "jp": 2
@@ -28854,6 +33026,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 393,
   "exp": 20,
   "money": 393,
   "jp": 7
@@ -28895,6 +33069,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 657,
   "exp": 36,
   "money": 657,
   "jp": 11
@@ -28927,6 +33103,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -28964,6 +33142,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "恢复SP的李子",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 70,
   "exp": 6,
   "money": 70,
   "jp": 1
@@ -29004,6 +33189,13 @@
     "rate": 100
    }
   ],
+  "steal": [
+   {
+    "name": "重斧",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 3062,
   "exp": 147,
   "money": 3062,
   "jp": 40
@@ -29040,6 +33232,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -29076,6 +33270,13 @@
    }
   ],
   "drops": [],
+  "steal": [
+   {
+    "name": "复活橄榄",
+    "rate": 100
+   }
+  ],
+  "stealMoney": 383,
   "exp": 39,
   "money": 383,
   "jp": 11
@@ -29115,6 +33316,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": null,
   "money": null,
   "jp": null
@@ -29142,6 +33345,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": 2,
   "money": 25,
   "jp": 2
@@ -29169,6 +33374,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": null,
   "exp": 2,
   "money": 25,
   "jp": 2
@@ -29204,6 +33411,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 26,
   "exp": 8,
   "money": 26,
   "jp": 2
@@ -29240,6 +33449,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 26,
   "exp": 8,
   "money": 26,
   "jp": 2
@@ -29267,6 +33478,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 26,
   "exp": 8,
   "money": 26,
   "jp": 2
@@ -29294,6 +33507,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 26,
   "exp": 2,
   "money": 25,
   "jp": 2
@@ -29329,6 +33544,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 190,
   "exp": 29,
   "money": 190,
   "jp": 6
@@ -29364,6 +33581,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -29399,6 +33618,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -29435,6 +33656,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 73,
   "exp": 8,
   "money": 73,
   "jp": 2
@@ -29471,6 +33694,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -29507,6 +33732,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -29539,6 +33766,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 190,
   "exp": 29,
   "money": 190,
   "jp": 6
@@ -29571,6 +33800,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -29607,6 +33838,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 52,
   "exp": 7,
   "money": 52,
   "jp": 2
@@ -29642,6 +33875,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 39,
   "exp": 5,
   "money": 39,
   "jp": 1
@@ -29677,6 +33912,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 39,
   "exp": 5,
   "money": 39,
   "jp": 1
@@ -29713,6 +33950,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 73,
   "exp": 8,
   "money": 73,
   "jp": 2
@@ -29744,6 +33983,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -29775,6 +34016,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 443,
   "exp": 66,
   "money": 443,
   "jp": 15
@@ -29806,6 +34049,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 295,
   "exp": 44,
   "money": 295,
   "jp": 10
@@ -29842,6 +34087,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 73,
   "exp": 8,
   "money": 73,
   "jp": 2
@@ -29878,6 +34125,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -29910,6 +34159,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -29944,6 +34195,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -29979,6 +34232,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 73,
   "money": 475,
   "jp": 17
@@ -30014,6 +34269,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1214,
   "exp": 243,
   "money": 1214,
   "jp": 42
@@ -30049,6 +34306,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 94,
   "exp": 9,
   "money": 94,
   "jp": 3
@@ -30084,6 +34343,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -30119,6 +34380,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -30154,6 +34417,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 242,
   "exp": 33,
   "money": 242,
   "jp": 8
@@ -30185,6 +34450,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -30216,6 +34483,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -30251,6 +34520,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 94,
   "exp": 9,
   "money": 94,
   "jp": 3
@@ -30286,6 +34557,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 348,
   "exp": 54,
   "money": 348,
   "jp": 12
@@ -30321,6 +34594,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 261,
   "exp": 41,
   "money": 261,
   "jp": 9
@@ -30356,6 +34631,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 261,
   "exp": 41,
   "money": 261,
   "jp": 9
@@ -30392,6 +34669,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 137,
   "exp": 23,
   "money": 137,
   "jp": 4
@@ -30424,6 +34703,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 102,
   "exp": 17,
   "money": 102,
   "jp": 3
@@ -30456,6 +34737,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 102,
   "exp": 17,
   "money": 102,
   "jp": 3
@@ -30491,6 +34774,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 73,
   "exp": 8,
   "money": 73,
   "jp": 2
@@ -30524,6 +34809,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -30560,6 +34847,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 55,
   "exp": 6,
   "money": 55,
   "jp": 2
@@ -30595,6 +34884,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 242,
   "exp": 33,
   "money": 242,
   "jp": 8
@@ -30627,6 +34918,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -30662,6 +34955,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -30695,6 +34990,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 52,
   "exp": 7,
   "money": 52,
   "jp": 2
@@ -30728,6 +35025,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 39,
   "exp": 5,
   "money": 39,
   "jp": 1
@@ -30763,6 +35062,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 190,
   "exp": 29,
   "money": 190,
   "jp": 6
@@ -30798,6 +35099,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -30833,6 +35136,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -30867,6 +35172,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -30898,6 +35205,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 190,
   "exp": 29,
   "money": 190,
   "jp": 6
@@ -30933,6 +35242,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -30968,6 +35279,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 142,
   "exp": 21,
   "money": 142,
   "jp": 5
@@ -31004,6 +35317,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 343,
   "exp": 58,
   "money": 343,
   "jp": 12
@@ -31036,6 +35351,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 739,
   "exp": 110,
   "money": 739,
   "jp": 26
@@ -31072,6 +35389,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 211,
   "exp": 22,
   "money": 211,
   "jp": 8
@@ -31108,6 +35427,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 94,
   "exp": 9,
   "money": 94,
   "jp": 3
@@ -31143,6 +35464,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -31178,6 +35501,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -31213,6 +35538,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 242,
   "exp": 33,
   "money": 242,
   "jp": 8
@@ -31247,6 +35574,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -31281,6 +35610,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -31317,6 +35648,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 237,
   "exp": 23,
   "money": 237,
   "jp": 9
@@ -31351,6 +35684,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -31382,6 +35717,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 137,
   "exp": 23,
   "money": 137,
   "jp": 4
@@ -31413,6 +35750,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 102,
   "exp": 17,
   "money": 102,
   "jp": 3
@@ -31444,6 +35783,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 102,
   "exp": 17,
   "money": 102,
   "jp": 3
@@ -31479,6 +35820,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 242,
   "exp": 33,
   "money": 242,
   "jp": 8
@@ -31514,6 +35857,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 182,
   "exp": 25,
   "money": 182,
   "jp": 6
@@ -31548,6 +35893,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -31583,6 +35930,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 72,
   "money": 475,
   "jp": 16
@@ -31618,6 +35967,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 48,
   "money": 316,
   "jp": 11
@@ -31649,6 +36000,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 73,
   "money": 475,
   "jp": 17
@@ -31684,6 +36037,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 73,
   "money": 475,
   "jp": 17
@@ -31715,6 +36070,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 338,
   "exp": 52,
   "money": 338,
   "jp": 11
@@ -31746,6 +36103,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -31777,6 +36136,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -31808,6 +36169,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 306,
   "exp": 46,
   "money": 306,
   "jp": 10
@@ -31839,6 +36202,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 229,
   "exp": 34,
   "money": 229,
   "jp": 8
@@ -31870,6 +36235,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 229,
   "exp": 34,
   "money": 229,
   "jp": 8
@@ -31905,6 +36272,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 338,
   "exp": 52,
   "money": 338,
   "jp": 11
@@ -31940,6 +36309,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -31976,6 +36347,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 94,
   "exp": 9,
   "money": 94,
   "jp": 3
@@ -32012,6 +36385,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -32048,6 +36423,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 71,
   "exp": 6,
   "money": 71,
   "jp": 2
@@ -32083,6 +36460,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 411,
   "exp": 59,
   "money": 411,
   "jp": 14
@@ -32118,6 +36497,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 274,
   "exp": 39,
   "money": 274,
   "jp": 9
@@ -32147,6 +36528,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 924,
   "exp": 150,
   "money": 924,
   "jp": 32
@@ -32181,6 +36564,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -32212,6 +36597,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 686,
   "exp": 99,
   "money": 686,
   "jp": 24
@@ -32247,6 +36634,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 501,
   "exp": 74,
   "money": 501,
   "jp": 18
@@ -32278,6 +36667,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 686,
   "exp": 99,
   "money": 686,
   "jp": 24
@@ -32310,6 +36701,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 554,
   "exp": 90,
   "money": 554,
   "jp": 19
@@ -32342,6 +36735,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 369,
   "exp": 60,
   "money": 369,
   "jp": 12
@@ -32373,6 +36768,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1267,
   "exp": 263,
   "money": 1267,
   "jp": 44
@@ -32404,6 +36801,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 454,
   "exp": 86,
   "money": 454,
   "jp": 15
@@ -32435,6 +36834,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 340,
   "exp": 65,
   "money": 340,
   "jp": 11
@@ -32466,6 +36867,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 72,
   "money": 475,
   "jp": 16
@@ -32497,6 +36900,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 48,
   "money": 316,
   "jp": 11
@@ -32531,6 +36936,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -32565,6 +36972,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 369,
   "exp": 60,
   "money": 369,
   "jp": 12
@@ -32600,6 +37009,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 277,
   "exp": 45,
   "money": 277,
   "jp": 9
@@ -32634,6 +37045,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 277,
   "exp": 45,
   "money": 277,
   "jp": 9
@@ -32668,6 +37081,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 924,
   "exp": 150,
   "money": 924,
   "jp": 32
@@ -32702,6 +37117,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1320,
   "exp": 284,
   "money": 1320,
   "jp": 46
@@ -32737,6 +37154,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 62,
   "money": 380,
   "jp": 13
@@ -32771,6 +37190,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 285,
   "exp": 46,
   "money": 285,
   "jp": 9
@@ -32805,6 +37226,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 950,
   "exp": 155,
   "money": 950,
   "jp": 33
@@ -32839,6 +37262,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 522,
   "exp": 82,
   "money": 522,
   "jp": 18
@@ -32873,6 +37298,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 348,
   "exp": 54,
   "money": 348,
   "jp": 12
@@ -32907,6 +37334,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 422,
   "exp": 76,
   "money": 422,
   "jp": 14
@@ -32941,6 +37370,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 57,
   "money": 316,
   "jp": 11
@@ -32975,6 +37406,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -33010,6 +37443,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 792,
   "exp": 121,
   "money": 792,
   "jp": 28
@@ -33041,6 +37476,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 147,
   "exp": 26,
   "money": 147,
   "jp": 5
@@ -33072,6 +37509,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 110,
   "exp": 19,
   "money": 110,
   "jp": 3
@@ -33103,6 +37542,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 110,
   "exp": 19,
   "money": 110,
   "jp": 3
@@ -33138,6 +37579,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 338,
   "exp": 52,
   "money": 338,
   "jp": 11
@@ -33169,6 +37612,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -33203,6 +37648,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 401,
   "exp": 68,
   "money": 401,
   "jp": 14
@@ -33235,6 +37682,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 300,
   "exp": 51,
   "money": 300,
   "jp": 10
@@ -33269,6 +37718,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 338,
   "exp": 52,
   "money": 338,
   "jp": 11
@@ -33303,6 +37754,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -33337,6 +37790,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 39,
   "money": 253,
   "jp": 8
@@ -33367,6 +37822,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 443,
   "exp": 83,
   "money": 443,
   "jp": 15
@@ -33401,6 +37858,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 332,
   "exp": 62,
   "money": 332,
   "jp": 11
@@ -33435,6 +37894,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 332,
   "exp": 62,
   "money": 332,
   "jp": 11
@@ -33466,6 +37927,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 422,
   "exp": 76,
   "money": 422,
   "jp": 14
@@ -33497,6 +37960,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 57,
   "money": 316,
   "jp": 11
@@ -33528,6 +37993,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 57,
   "money": 316,
   "jp": 11
@@ -33563,6 +38030,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 306,
   "exp": 46,
   "money": 306,
   "jp": 10
@@ -33594,6 +38063,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 229,
   "exp": 34,
   "money": 229,
   "jp": 8
@@ -33625,6 +38096,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 229,
   "exp": 34,
   "money": 229,
   "jp": 8
@@ -33660,6 +38133,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 665,
   "exp": 124,
   "money": 665,
   "jp": 22
@@ -33695,6 +38170,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 443,
   "exp": 83,
   "money": 443,
   "jp": 15
@@ -33729,6 +38206,8 @@
     "rate": 2
    }
   ],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -33756,6 +38235,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1109,
   "exp": 208,
   "money": 1109,
   "jp": 38
@@ -33790,6 +38271,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 48,
   "money": 316,
   "jp": 11
@@ -33821,6 +38304,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 237,
   "exp": 36,
   "money": 237,
   "jp": 8
@@ -33852,6 +38337,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 237,
   "exp": 36,
   "money": 237,
   "jp": 8
@@ -33886,6 +38373,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 422,
   "exp": 76,
   "money": 422,
   "jp": 14
@@ -33917,6 +38406,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 57,
   "money": 316,
   "jp": 11
@@ -33951,6 +38442,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 57,
   "money": 316,
   "jp": 11
@@ -33982,6 +38475,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 633,
   "exp": 114,
   "money": 633,
   "jp": 22
@@ -34013,6 +38508,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 422,
   "exp": 76,
   "money": 422,
   "jp": 14
@@ -34044,6 +38541,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -34078,6 +38577,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -34113,6 +38614,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 316,
   "exp": 48,
   "money": 316,
   "jp": 11
@@ -34147,6 +38650,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 237,
   "exp": 36,
   "money": 237,
   "jp": 8
@@ -34178,6 +38683,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 200,
   "exp": 29,
   "money": 200,
   "jp": 7
@@ -34209,6 +38716,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -34236,6 +38745,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -34267,6 +38778,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 586,
   "exp": 97,
   "money": 586,
   "jp": 20
@@ -34298,6 +38811,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 390,
   "exp": 65,
   "money": 390,
   "jp": 13
@@ -34329,6 +38844,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -34363,6 +38880,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -34397,6 +38916,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -34428,6 +38949,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 586,
   "exp": 97,
   "money": 586,
   "jp": 20
@@ -34459,6 +38982,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 390,
   "exp": 65,
   "money": 390,
   "jp": 13
@@ -34490,6 +39015,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 712,
   "exp": 142,
   "money": 712,
   "jp": 24
@@ -34521,6 +39048,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -34556,6 +39085,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1320,
   "exp": 284,
   "money": 1320,
   "jp": 46
@@ -34590,6 +39121,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 792,
   "exp": 170,
   "money": 792,
   "jp": 27
@@ -34621,6 +39154,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 528,
   "exp": 113,
   "money": 528,
   "jp": 18
@@ -34655,6 +39190,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 792,
   "exp": 170,
   "money": 792,
   "jp": 27
@@ -34686,6 +39223,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 432,
   "exp": 79,
   "money": 432,
   "jp": 14
@@ -34717,6 +39256,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 324,
   "exp": 59,
   "money": 324,
   "jp": 11
@@ -34748,6 +39289,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -34779,6 +39322,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -34810,6 +39355,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -34841,6 +39388,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -34874,6 +39423,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 765,
   "exp": 115,
   "money": 765,
   "jp": 27
@@ -34901,6 +39452,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 977,
   "exp": 163,
   "money": 977,
   "jp": 34
@@ -34932,6 +39485,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 897,
   "exp": 142,
   "money": 897,
   "jp": 31
@@ -34967,6 +39522,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 35,
   "money": 253,
   "jp": 8
@@ -35002,6 +39559,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 189,
   "exp": 26,
   "money": 189,
   "jp": 6
@@ -35033,6 +39592,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 189,
   "exp": 26,
   "money": 189,
   "jp": 6
@@ -35065,6 +39626,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 649,
   "exp": 119,
   "money": 649,
   "jp": 22
@@ -35096,6 +39659,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 432,
   "exp": 79,
   "money": 432,
   "jp": 14
@@ -35127,6 +39692,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 528,
   "exp": 113,
   "money": 528,
   "jp": 18
@@ -35162,6 +39729,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 396,
   "exp": 85,
   "money": 396,
   "jp": 13
@@ -35197,6 +39766,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 200,
   "exp": 29,
   "money": 200,
   "jp": 7
@@ -35231,6 +39802,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -35265,6 +39838,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -35300,6 +39875,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 586,
   "exp": 97,
   "money": 586,
   "jp": 20
@@ -35334,6 +39911,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 390,
   "exp": 65,
   "money": 390,
   "jp": 13
@@ -35368,6 +39947,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -35402,6 +39983,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -35436,6 +40019,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 432,
   "exp": 79,
   "money": 432,
   "jp": 14
@@ -35470,6 +40055,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 324,
   "exp": 59,
   "money": 324,
   "jp": 11
@@ -35501,6 +40088,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -35528,6 +40117,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -35559,6 +40150,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -35594,6 +40187,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 390,
   "exp": 65,
   "money": 390,
   "jp": 13
@@ -35629,6 +40224,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 293,
   "exp": 48,
   "money": 293,
   "jp": 10
@@ -35663,6 +40260,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 897,
   "exp": 142,
   "money": 897,
   "jp": 31
@@ -35694,6 +40293,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 200,
   "exp": 29,
   "money": 200,
   "jp": 7
@@ -35725,6 +40326,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -35756,6 +40359,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 150,
   "exp": 22,
   "money": 150,
   "jp": 5
@@ -35787,6 +40392,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 390,
   "exp": 65,
   "money": 390,
   "jp": 13
@@ -35818,6 +40425,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 293,
   "exp": 48,
   "money": 293,
   "jp": 10
@@ -35850,6 +40459,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 528,
   "exp": 113,
   "money": 528,
   "jp": 18
@@ -35881,6 +40492,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 396,
   "exp": 85,
   "money": 396,
   "jp": 13
@@ -35916,6 +40529,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -35950,6 +40565,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -35981,6 +40598,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1109,
   "exp": 208,
   "money": 1109,
   "jp": 38
@@ -36013,6 +40632,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 506,
   "exp": 105,
   "money": 506,
   "jp": 17
@@ -36044,6 +40665,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 78,
   "money": 380,
   "jp": 13
@@ -36075,6 +40698,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 78,
   "money": 380,
   "jp": 13
@@ -36106,6 +40731,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 506,
   "exp": 105,
   "money": 506,
   "jp": 17
@@ -36137,6 +40764,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 78,
   "money": 380,
   "jp": 13
@@ -36168,6 +40797,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 412,
   "exp": 72,
   "money": 412,
   "jp": 14
@@ -36195,6 +40826,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -36222,6 +40855,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -36253,6 +40888,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 506,
   "exp": 105,
   "money": 506,
   "jp": 17
@@ -36284,6 +40921,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 78,
   "money": 380,
   "jp": 13
@@ -36315,6 +40954,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 380,
   "exp": 78,
   "money": 380,
   "jp": 13
@@ -36346,6 +40987,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 454,
   "exp": 86,
   "money": 454,
   "jp": 15
@@ -36380,6 +41023,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 340,
   "exp": 65,
   "money": 340,
   "jp": 11
@@ -36414,6 +41059,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 340,
   "exp": 65,
   "money": 340,
   "jp": 11
@@ -36445,6 +41092,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1030,
   "exp": 181,
   "money": 1030,
   "jp": 36
@@ -36476,6 +41125,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 765,
   "exp": 115,
   "money": 765,
   "jp": 27
@@ -36507,6 +41158,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 306,
   "exp": 46,
   "money": 306,
   "jp": 10
@@ -36538,6 +41191,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 229,
   "exp": 34,
   "money": 229,
   "jp": 8
@@ -36573,6 +41228,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -36608,6 +41265,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -36642,6 +41301,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -36669,6 +41330,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -36700,6 +41363,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 559,
   "exp": 125,
   "money": 559,
   "jp": 19
@@ -36731,6 +41396,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 419,
   "exp": 94,
   "money": 419,
   "jp": 14
@@ -36762,6 +41429,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -36793,6 +41462,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -36824,6 +41495,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 454,
   "exp": 86,
   "money": 454,
   "jp": 15
@@ -36855,6 +41528,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 340,
   "exp": 65,
   "money": 340,
   "jp": 11
@@ -36886,6 +41561,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 760,
   "exp": 157,
   "money": 760,
   "jp": 26
@@ -36920,6 +41597,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 506,
   "exp": 105,
   "money": 506,
   "jp": 17
@@ -36951,6 +41630,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 412,
   "exp": 72,
   "money": 412,
   "jp": 14
@@ -36982,6 +41663,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -37013,6 +41696,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -37045,6 +41730,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 559,
   "exp": 125,
   "money": 559,
   "jp": 19
@@ -37076,6 +41763,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -37107,6 +41796,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -37139,6 +41830,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -37170,6 +41863,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -37205,6 +41900,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 412,
   "exp": 72,
   "money": 412,
   "jp": 14
@@ -37236,6 +41933,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -37263,6 +41962,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 309,
   "exp": 54,
   "money": 309,
   "jp": 10
@@ -37298,6 +41999,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -37329,6 +42032,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -37360,6 +42065,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 454,
   "exp": 86,
   "money": 454,
   "jp": 15
@@ -37387,6 +42094,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 340,
   "exp": 65,
   "money": 340,
   "jp": 11
@@ -37422,6 +42131,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1030,
   "exp": 181,
   "money": 1030,
   "jp": 36
@@ -37454,6 +42165,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1135,
   "exp": 217,
   "money": 1135,
   "jp": 39
@@ -37481,6 +42194,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 475,
   "exp": 94,
   "money": 475,
   "jp": 16
@@ -37508,6 +42223,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -37535,6 +42252,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 356,
   "exp": 71,
   "money": 356,
   "jp": 12
@@ -37569,6 +42288,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 528,
   "exp": 113,
   "money": 528,
   "jp": 18
@@ -37603,6 +42324,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 396,
   "exp": 85,
   "money": 396,
   "jp": 13
@@ -37634,6 +42357,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 686,
   "exp": 230,
   "money": 686,
   "jp": 23
@@ -37665,6 +42390,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 514,
   "exp": 172,
   "money": 514,
   "jp": 17
@@ -37701,6 +42428,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1716,
   "exp": 576,
   "money": 1716,
   "jp": 59
@@ -37737,6 +42466,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1848,
   "exp": 886,
   "money": 1848,
   "jp": 63
@@ -37773,6 +42504,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1981,
   "exp": 1381,
   "money": 1981,
   "jp": 68
@@ -37809,6 +42542,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1030,
   "exp": 181,
   "money": 1030,
   "jp": 36
@@ -37845,6 +42580,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1162,
   "exp": 226,
   "money": 1162,
   "jp": 40
@@ -37881,6 +42618,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1294,
   "exp": 273,
   "money": 1294,
   "jp": 45
@@ -37917,6 +42656,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1188,
   "exp": 237,
   "money": 1188,
   "jp": 41
@@ -37953,6 +42694,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1320,
   "exp": 284,
   "money": 1320,
   "jp": 46
@@ -37989,6 +42732,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1452,
   "exp": 337,
   "money": 1452,
   "jp": 50
@@ -38025,6 +42770,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 290,
   "exp": 38,
   "money": 290,
   "jp": 11
@@ -38061,6 +42808,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 422,
   "exp": 73,
   "money": 422,
   "jp": 15
@@ -38097,6 +42846,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 554,
   "exp": 75,
   "money": 554,
   "jp": 20
@@ -38133,6 +42884,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 396,
   "exp": 72,
   "money": 396,
   "jp": 14
@@ -38169,6 +42922,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 528,
   "exp": 76,
   "money": 528,
   "jp": 19
@@ -38205,6 +42960,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 660,
   "exp": 94,
   "money": 660,
   "jp": 23
@@ -38241,6 +42998,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1056,
   "exp": 190,
   "money": 1056,
   "jp": 37
@@ -38277,6 +43036,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1188,
   "exp": 237,
   "money": 1188,
   "jp": 41
@@ -38313,6 +43074,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1320,
   "exp": 284,
   "money": 1320,
   "jp": 46
@@ -38349,6 +43112,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1267,
   "exp": 263,
   "money": 1267,
   "jp": 44
@@ -38385,6 +43150,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1399,
   "exp": 314,
   "money": 1399,
   "jp": 48
@@ -38421,6 +43188,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1531,
   "exp": 376,
   "money": 1531,
   "jp": 53
@@ -38457,6 +43226,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 924,
   "exp": 150,
   "money": 924,
   "jp": 32
@@ -38493,6 +43264,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1056,
   "exp": 190,
   "money": 1056,
   "jp": 37
@@ -38529,6 +43302,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1188,
   "exp": 237,
   "money": 1188,
   "jp": 41
@@ -38565,6 +43340,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -38601,6 +43378,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1716,
   "exp": 576,
   "money": 1716,
   "jp": 59
@@ -38637,6 +43416,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1848,
   "exp": 886,
   "money": 1848,
   "jp": 63
@@ -38673,6 +43454,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1637,
   "exp": 446,
   "money": 1637,
   "jp": 56
@@ -38709,6 +43492,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1769,
   "exp": 684,
   "money": 1769,
   "jp": 61
@@ -38745,6 +43530,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1901,
   "exp": 983,
   "money": 1901,
   "jp": 65
@@ -38781,6 +43568,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1584,
   "exp": 421,
   "money": 1584,
   "jp": 54
@@ -38817,6 +43606,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1716,
   "exp": 576,
   "money": 1716,
   "jp": 59
@@ -38853,6 +43644,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 1848,
   "exp": 886,
   "money": 1848,
   "jp": 63
@@ -38889,6 +43682,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 89,
   "exp": 89,
   "money": 633,
   "jp": 22
@@ -38925,6 +43720,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 26,
   "exp": 8,
   "money": 26,
   "jp": 2
@@ -38956,6 +43753,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 253,
   "exp": 35,
   "money": 253,
   "jp": 8
@@ -38991,6 +43790,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 189,
   "exp": 26,
   "money": 189,
   "jp": 6
@@ -39026,6 +43827,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 189,
   "exp": 26,
   "money": 189,
   "jp": 6
@@ -39061,6 +43864,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 358,
   "exp": 56,
   "money": 358,
   "jp": 12
@@ -39096,6 +43901,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -39131,6 +43938,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 269,
   "exp": 42,
   "money": 269,
   "jp": 9
@@ -39165,6 +43974,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 570,
   "exp": 129,
   "money": 570,
   "jp": 19
@@ -39199,6 +44010,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 427,
   "exp": 97,
   "money": 427,
   "jp": 14
@@ -39230,6 +44043,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 776,
   "exp": 163,
   "money": 776,
   "jp": 27
@@ -39261,6 +44076,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 517,
   "exp": 109,
   "money": 517,
   "jp": 18
@@ -39292,6 +44109,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 760,
   "exp": 157,
   "money": 760,
   "jp": 26
@@ -39323,6 +44142,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 506,
   "exp": 105,
   "money": 506,
   "jp": 17
@@ -39357,6 +44178,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 570,
   "exp": 129,
   "money": 570,
   "jp": 19
@@ -39388,6 +44211,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 427,
   "exp": 97,
   "money": 427,
   "jp": 14
@@ -39419,6 +44244,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 517,
   "exp": 109,
   "money": 517,
   "jp": 18
@@ -39450,6 +44277,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 388,
   "exp": 81,
   "money": 388,
   "jp": 13
@@ -39481,6 +44310,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 776,
   "exp": 163,
   "money": 776,
   "jp": 27
@@ -39512,6 +44343,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 517,
   "exp": 109,
   "money": 517,
   "jp": 18
@@ -39543,6 +44376,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 855,
   "exp": 194,
   "money": 855,
   "jp": 29
@@ -39577,6 +44412,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 570,
   "exp": 129,
   "money": 570,
   "jp": 19
@@ -39608,6 +44445,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 697,
   "exp": 135,
   "money": 697,
   "jp": 24
@@ -39639,6 +44478,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 464,
   "exp": 90,
   "money": 464,
   "jp": 16
@@ -39675,6 +44516,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 953,
   "exp": 55,
   "money": 953,
   "jp": 14
@@ -39707,6 +44550,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 3275,
   "exp": 243,
   "money": 3275,
   "jp": 46
@@ -39739,6 +44584,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 3685,
   "exp": 285,
   "money": 3685,
   "jp": 51
@@ -39774,6 +44621,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 4641,
   "exp": 387,
   "money": 4641,
   "jp": 64
@@ -39809,6 +44658,8 @@
    }
   ],
   "drops": [],
+  "steal": [],
+  "stealMoney": 6827,
   "exp": 775,
   "money": 6827,
   "jp": 93
@@ -39836,6 +44687,8 @@
   ],
   "weakElements": [],
   "drops": [],
+  "steal": [],
+  "stealMoney": 7510,
   "exp": 919,
   "money": 7510,
   "jp": 103
@@ -39868,6 +44721,8 @@
     "rate": 100
    }
   ],
+  "steal": [],
+  "stealMoney": 1716,
   "exp": 576,
   "money": 1716,
   "jp": 59
@@ -39900,6 +44755,8 @@
     "rate": 5
    }
   ],
+  "steal": [],
+  "stealMoney": 50000,
   "exp": 2000,
   "money": 50000,
   "jp": 1000
@@ -39932,6 +44789,8 @@
     "rate": 5
    }
   ],
+  "steal": [],
+  "stealMoney": 25000,
   "exp": 1000,
   "money": 25000,
   "jp": 1500

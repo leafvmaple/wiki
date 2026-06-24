@@ -31,11 +31,19 @@ const eqCard = (e: Row) =>
 
 // ---- enemies (bestiary) ----
 const enRows = enemies as Row[];
+const uniqNames = (arr: any[]) => [...new Set((arr ?? []).map((d: any) => d.name))];
+const defeatStr = (e: Row) =>
+  (e.drops ?? []).map((d: any) => `${d.name}${d.rate < 100 ? ` ${d.rate}%` : ''}`).join('、');
+const stealStr = (e: Row) =>
+  [uniqNames(e.steal).join('、'), e.stealMoney ? `${e.stealMoney}钱` : ''].filter(Boolean).join(' · ');
 const enCard = (e: Row) =>
   JSON.stringify({
     kicker: `${e.isBoss ? 'BOSS' : '敌人'}${e.level ? ` · Lv${e.level}` : ''}`,
     title: e.name,
-    body: e.drops?.length ? `掉落：${e.drops.map((d: any) => `${d.name} ${d.rate}%`).join('、')}` : undefined,
+    body: [
+      stealStr(e) ? `偷盗：${stealStr(e)}` : null,
+      defeatStr(e) ? `击败：${defeatStr(e)}` : null,
+    ].filter(Boolean).join('  ／  ') || undefined,
     stats: [
       `HP ${e.hp}`, `护盾 ${e.shield}`,
       ...Object.entries(e.stats ?? {}).map(([k, v]) => `${k} ${v}`),
@@ -122,7 +130,7 @@ const skCard = (s: Row) =>
             <th data-sort="hp" class="num">HP</th>
             <th data-sort="shield" class="num">护盾</th>
             <th>弱点</th>
-            <th>掉落</th>
+            <th>掉落物（偷 / 击败）</th>
             <th data-sort="exp" class="num">EXP</th>
           </tr>
         </thead>
@@ -146,7 +154,21 @@ const skCard = (s: Row) =>
                 ))}
                 {!e.weakWeapons.length && !e.weakElements.length && <span class="ot-dt-skill">—</span>}
               </td>
-              <td class="ot-dt-drops">{e.drops?.length ? [...new Set(e.drops.map((d: any) => d.name))].join('、') : '—'}</td>
+              <td class="ot-dt-drops">
+                {(e.steal?.length || e.stealMoney) && (
+                  <div class="ot-drop-line">
+                    <span class="ot-drop-tag is-steal">偷</span>
+                    {[uniqNames(e.steal).join('、'), e.stealMoney ? `${e.stealMoney}钱` : ''].filter(Boolean).join(' · ')}
+                  </div>
+                )}
+                {e.drops?.length > 0 && (
+                  <div class="ot-drop-line">
+                    <span class="ot-drop-tag is-defeat">击</span>
+                    {e.drops.map((d: any) => `${d.name}${d.rate < 100 ? ` ${d.rate}%` : ''}`).join('、')}
+                  </div>
+                )}
+                {!e.steal?.length && !e.stealMoney && !e.drops?.length && <span class="ot-dt-skill">—</span>}
+              </td>
               <td class="num">{e.exp ? e.exp.toLocaleString('en-US') : '—'}</td>
             </tr>
           ))}
@@ -345,6 +367,33 @@ const skCard = (s: Row) =>
   .ot-dt-drops {
     color: var(--leaf-text);
     white-space: normal;
+  }
+  .ot-dt-drops {
+    min-width: 13rem;
+  }
+  .ot-drop-line {
+    align-items: baseline;
+    display: flex;
+    gap: 0.35rem;
+    padding: 0.08rem 0;
+  }
+  .ot-drop-tag {
+    border-radius: 4px;
+    flex: none;
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1.4;
+    padding: 0 0.3rem;
+  }
+  .ot-drop-tag.is-steal {
+    border: 1px solid color-mix(in srgb, #27a06b 45%, var(--leaf-border));
+    background: color-mix(in srgb, #27a06b 16%, transparent);
+    color: #2bae74;
+  }
+  .ot-drop-tag.is-defeat {
+    border: 1px solid color-mix(in srgb, #c0593f 45%, var(--leaf-border));
+    background: color-mix(in srgb, #c0593f 14%, transparent);
+    color: #d06b4f;
   }
   .ot-dt-skill {
     color: var(--leaf-text-muted);
