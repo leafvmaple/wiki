@@ -52,6 +52,7 @@ export default defineConfig({
           items: [
             { label: '游戏总览', link: '/games/octopath-traveler-0/' },
             { label: '实体资料', link: '/games/octopath-traveler-0/entities/' },
+            { label: '世界地图', link: '/games/octopath-traveler-0/worldmap/' },
             { label: '任务线总览', link: '/games/octopath-traveler-0/quests/' },
             { label: '角色一览', link: '/games/octopath-traveler-0/characters/' },
             {

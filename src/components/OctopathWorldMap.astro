@@ -1,0 +1,106 @@
+---
+// Octopath world map — the painted world-map art with location markers placed by
+// percent (WorldMapList m_IconPos, calibrated in gen_wiki_data). data/-driven.
+import worldmap from '../data/octopath-traveler-0/generated/worldmap.json';
+import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
+
+type Marker = { name: string; x: number; y: number; region: number | null };
+const { image, markers } = worldmap as { image: string; markers: Marker[] };
+const card = (m: Marker) => JSON.stringify({ kicker: '地点', title: m.name });
+---
+
+<div class="ot-map not-content">
+  <div class="ot-map-frame">
+    <img class="ot-map-img" src={image} alt="歧路旅人 0 世界地图" decoding="async" />
+    {markers.map((m) => (
+      <span class="ot-map-pin" style={`left:${m.x}%;top:${m.y}%`} data-ot-card={card(m)} tabindex="0">
+        <span class="ot-map-dot" aria-hidden="true"></span>
+        <span class="ot-map-label">{m.name}</span>
+      </span>
+    ))}
+  </div>
+  <p class="ot-map-note">共 {markers.length} 处地点。悬停查看；标记位置依据游戏地图坐标推算，可能有少量偏差。</p>
+</div>
+
+<OctopathEntityTooltip />
+
+<style>
+  .ot-map {
+    display: grid;
+    gap: 0.6rem;
+  }
+  .ot-map-frame {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .ot-map-img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .ot-map-pin {
+    cursor: help;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .ot-map-pin:hover,
+  .ot-map-pin:focus-visible {
+    z-index: 3;
+    outline: none;
+  }
+  .ot-map-dot {
+    background: #f2d24b;
+    border: 2px solid rgba(20, 14, 8, 0.85);
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    display: block;
+    height: 0.7rem;
+    margin: 0 auto;
+    width: 0.7rem;
+  }
+  .ot-map-pin:hover .ot-map-dot,
+  .ot-map-pin:focus-visible .ot-map-dot {
+    background: #fff;
+    transform: scale(1.25);
+  }
+  .ot-map-label {
+    background: rgba(18, 13, 8, 0.7);
+    border-radius: 4px;
+    color: #fdf3dd;
+    font-size: 0.72rem;
+    font-weight: 700;
+    left: 50%;
+    line-height: 1.1;
+    margin-top: 0.12rem;
+    padding: 0.05rem 0.3rem;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  .ot-map-pin:hover .ot-map-label,
+  .ot-map-pin:focus-visible .ot-map-label {
+    background: rgba(18, 13, 8, 0.92);
+    color: #fff;
+  }
+  .ot-map-note {
+    color: var(--leaf-text-muted);
+    font-size: 0.84rem;
+    margin: 0;
+  }
+  @media (max-width: 44rem) {
+    .ot-map-label {
+      display: none;
+    }
+    .ot-map-pin:hover .ot-map-label,
+    .ot-map-pin:focus-visible .ot-map-label {
+      display: block;
+    }
+  }
+</style>
