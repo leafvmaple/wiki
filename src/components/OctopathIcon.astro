@@ -1,0 +1,111 @@
+---
+// Octopath entity icon. Renders real in-game art when an asset exists
+// (character 立绘 / job 图标, generated into assets.json by tools/gen_icons.py),
+// and falls back to a colored glyph avatar otherwise.
+import assets from '../data/octopath-traveler-0/generated/assets.json';
+
+const {
+  kind = 'item',
+  label = '',
+  href,
+  compact = false,
+  assetKind,
+  assetId,
+} = Astro.props as {
+  kind?: string;
+  label?: string;
+  href?: string;
+  compact?: boolean;
+  assetKind?: 'portrait' | 'job';
+  assetId?: string | number;
+};
+
+const text = String(label || '?');
+const glyph = text.trim().slice(0, 1) || '?';
+const aid = assetId != null ? String(assetId) : '';
+let imageSrc: string | undefined;
+if (assetKind === 'portrait') {
+  imageSrc = (assets.portraitsByUid as Record<string, string>)[aid];
+} else if (assetKind === 'job') {
+  const jobs = assets.jobsById as Record<string, string>;
+  const named = assets.jobsByName as Record<string, string>;
+  imageSrc = jobs[aid] ?? named[aid] ?? named[text];
+}
+const Tag = href ? 'a' : 'span';
+---
+
+<Tag class:list={['ot-icon-label', compact && 'is-compact']} href={href}>
+  <span
+    class:list={['ot-icon', `is-${kind}`, imageSrc && 'has-image', assetKind && `as-${assetKind}`]}
+    aria-hidden="true"
+  >
+    {imageSrc ? <img src={imageSrc} alt="" loading="lazy" decoding="async" /> : glyph}
+  </span>
+  <span class="ot-icon-text">{text}</span>
+</Tag>
+
+<style>
+  .ot-icon-label {
+    align-items: center;
+    color: inherit;
+    display: inline-flex;
+    gap: 0.42rem;
+    min-width: 0;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  a.ot-icon-label:hover .ot-icon-text {
+    color: var(--leaf-primary-hover);
+  }
+  .ot-icon-label.is-compact {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    padding: 0.16rem 0.4rem 0.16rem 0.22rem;
+  }
+  .ot-icon {
+    align-items: center;
+    background: var(--leaf-primary);
+    border-radius: 6px;
+    color: #fff;
+    display: inline-flex;
+    flex: none;
+    font-size: 0.82rem;
+    font-weight: 700;
+    height: 1.5rem;
+    justify-content: center;
+    line-height: 1;
+    overflow: hidden;
+    width: 1.5rem;
+  }
+  .ot-icon.has-image {
+    background: #0e1726;
+  }
+  .ot-icon img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  /* character 立绘: full illustration, biased toward the upper body / face */
+  .ot-icon.as-portrait.has-image img {
+    object-fit: cover;
+    object-position: center 16%;
+  }
+  /* job 图标: white emblem on transparent — keep the job-colored backdrop */
+  .ot-icon.as-job.has-image {
+    background: #4d5862;
+  }
+  .ot-icon.as-job.has-image img {
+    object-fit: contain;
+    padding: 1px;
+  }
+  /* color by kind (fallback glyph + image-backdrop accents) */
+  .ot-icon.is-character { background: #23b7e5; }
+  .ot-icon.is-main      { background: #c0593f; }
+  .ot-icon.is-recruit   { background: #27a06b; }
+  .ot-icon.is-treasure  { background: #b8902a; }
+  .ot-icon.is-quest     { background: #6f5cc4; }
+  .ot-icon.is-map       { background: #3f7ac0; }
+  .ot-icon.is-job       { background: #5b6770; }
+  .ot-icon.is-note      { background: #98a3a8; }
+</style>

@@ -1,0 +1,413 @@
+---
+// Octopath Traveler 0 — character profile. The 1024² 立绘 is a large right-side
+// background spanning the whole card; all text lives in a left column that the
+// art never overlaps (the art's left edge is masked to fade into the card).
+// Renders only data-backed sections — no stubbed gift/schedule panels, no
+// templated filler prose; the hero text uses the real quest synopsis.
+import characters from '../data/octopath-traveler-0/generated/characters.json';
+import assets from '../data/octopath-traveler-0/generated/assets.json';
+import OctopathIcon from './OctopathIcon.astro';
+
+type Char = Record<string, any>;
+const { uid } = Astro.props as { uid: number | string };
+const c = (characters as Char[]).find((x) => String(x.uid) === String(uid)) ?? {};
+
+const portrait = (assets.portraitsByUid as Record<string, string>)[String(uid)];
+
+const JOIN: Record<string, { kicker: string; verb: string }> = {
+  recruit: { kicker: '可招募伙伴', verb: '招募任务' },
+  main: { kicker: '主线加入', verb: '主线剧情' },
+  quest: { kicker: '任务加入', verb: '加入任务' },
+  special: { kicker: '特殊角色', verb: '' },
+};
+const join = JOIN[c.joinType] ?? JOIN.special;
+
+const flags = c.prereqFlags ?? {};
+const flagText = [
+  flags.event && '需先触发特定剧情事件',
+  flags.item && '需持有特定道具',
+  flags.other && '需达成特定剧情进度',
+].filter(Boolean) as string[];
+
+const hasStats = c.hpMax != null || c.spMax != null;
+const stats = [
+  { key: 'hp', label: 'HP', base: c.hp, max: c.hpMax },
+  { key: 'sp', label: 'SP', base: c.sp, max: c.spMax },
+].filter((s) => s.max != null);
+
+const hasPrereq =
+  (c.prereqQuests?.length ?? 0) > 0 || (c.prereqChars?.length ?? 0) > 0 || flagText.length > 0;
+
+const VER = '1.0.8';
+---
+
+<article class="otc">
+  <div class:list={['otc-stage', !portrait && 'is-empty']}>
+    {portrait && (
+      <div class="otc-stage-art" aria-hidden="true">
+        <img src={portrait} alt={`${c.name} 立绘`} decoding="async" />
+      </div>
+    )}
+
+    <div class="otc-stage-content">
+      <header class="otc-head">
+        <p class="otc-kicker">{join.kicker}</p>
+        <h1 class="otc-name">{c.name}</h1>
+        <div class="otc-badges">
+          {c.job && <OctopathIcon kind="job" assetKind="job" assetId={c.job} label={c.job} compact />}
+          {c.gender && <span class="otc-badge">{c.gender}</span>}
+          {c.chapter && <span class="otc-badge">第{c.chapter}章</span>}
+        </div>
+      </header>
+
+      <section class="otc-block">
+        <h2>加入方式</h2>
+        {c.questHref ? (
+          <a class="otc-quest" href={c.questHref}>
+            <span class="otc-quest-verb">{join.verb}</span>
+            <span class="otc-quest-title">{c.questTitle}</span>
+            {c.recommLv && <span class="otc-quest-lv">推荐 {c.recommLv}</span>}
+          </a>
+        ) : (
+          <p class="otc-muted">加入条件待补充（特殊角色）。</p>
+        )}
+        {c.synopsis?.length > 0 && (
+          <blockquote class="otc-synopsis">
+            {c.synopsis.map((line: string) => <span>{line}</span>)}
+          </blockquote>
+        )}
+      </section>
+
+      {hasStats && (
+        <section class="otc-block">
+          <h2>基础数值</h2>
+          <div class="otc-stats">
+            {stats.map((s) => (
+              <div class:list={['otc-stat', `is-${s.key}`]}>
+                <div class="otc-stat-top">
+                  <span class="otc-stat-label">{s.label}</span>
+                  <strong class="otc-stat-max">{s.max}</strong>
+                </div>
+                <div class="otc-stat-bar" role="presentation">
+                  <span style={`width:${Math.max(3, Math.round(((s.base ?? 0) / s.max) * 100))}%`}></span>
+                </div>
+                <small class="otc-stat-foot">初始 {s.base ?? '—'} → 满级 {s.max}</small>
+              </div>
+            ))}
+          </div>
+          <small class="otc-muted">满级为面板上限，其余面板数值与技能、装备待补。</small>
+        </section>
+      )}
+
+      {hasPrereq && (
+        <section class="otc-block">
+          <h2>出现 / 招募条件</h2>
+          {c.prereqQuests?.length > 0 && (
+            <div class="otc-req">
+              <span class="otc-req-label">前置任务</span>
+              <div class="otc-chips">
+                {c.prereqQuests.map((q: any) =>
+                  q.href ? <a href={q.href}>{q.name}</a> : <span>{q.name}</span>,
+                )}
+              </div>
+            </div>
+          )}
+          {c.prereqChars?.length > 0 && (
+            <div class="otc-req">
+              <span class="otc-req-label">需已招募</span>
+              <div class="otc-chips">
+                {c.prereqChars.map((p: any) =>
+                  p.href ? <a href={p.href}>{p.name}</a> : <span>{p.name}</span>,
+                )}
+              </div>
+            </div>
+          )}
+          {flagText.length > 0 && (
+            <p class="otc-muted">其他条件：{flagText.join('、')}（待考证）。</p>
+          )}
+        </section>
+      )}
+    </div>
+  </div>
+
+  <nav class="otc-nav">
+    <a href="/games/octopath-traveler-0/characters/">← 角色一览</a>
+    {c.questHref && <a href={c.questHref}>查看任务流程 →</a>}
+  </nav>
+
+  <p class="otc-foot">{c.name} · 适用版本 v{VER} · 简体中文</p>
+</article>
+
+<!-- Character pages own their title via the in-card hero name, so hide
+     Starlight's default page title (loads only on pages mounting this). -->
+<style is:global>
+  .main-pane .content-panel:has(> .sl-container > h1#_top) {
+    display: none;
+  }
+</style>
+
+<style>
+  .otc {
+    display: grid;
+    gap: 1.1rem;
+  }
+  .otc h2 {
+    color: var(--leaf-heading);
+    font-size: 1.15rem;
+    margin: 0;
+  }
+
+  /* ---- stage: text column (left) over a large right-side 立绘 ---- */
+  .otc-stage {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    min-height: 30rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .otc-stage-art {
+    bottom: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 62%;
+  }
+  .otc-stage-art img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center 16%;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 42%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 42%);
+  }
+  .otc-stage-content {
+    display: grid;
+    gap: 1.2rem;
+    max-width: 54%;
+    padding: 1.4rem 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ---- header (name / job / gender) ---- */
+  .otc-head {
+    display: grid;
+    gap: 0.5rem;
+  }
+  .otc-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .otc-name {
+    color: var(--leaf-heading);
+    font-size: clamp(1.9rem, 4.5vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.05;
+    margin: 0;
+  }
+  .otc-badges {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .otc-badge {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text-muted);
+    font-size: 0.84rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .otc-block {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  /* join */
+  .otc-quest {
+    align-items: baseline;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 32%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-primary) 9%, var(--leaf-bg-card));
+    color: var(--leaf-heading);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.6rem;
+    padding: 0.6rem 0.75rem;
+    text-decoration: none;
+    width: fit-content;
+  }
+  .otc-quest:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 55%, var(--leaf-border));
+    box-shadow: var(--leaf-shadow-card);
+  }
+  .otc-quest-verb {
+    color: var(--leaf-primary-hover);
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+  .otc-quest-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+  .otc-quest-lv {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 0.12rem 0.5rem;
+  }
+  .otc-synopsis {
+    border-left: 3px solid color-mix(in srgb, var(--leaf-primary) 40%, var(--leaf-border));
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0.3rem 0 0.3rem 0.8rem;
+  }
+  .otc-synopsis span {
+    line-height: 1.55;
+  }
+
+  /* stats */
+  .otc-stats {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(0, 14rem));
+  }
+  .otc-stat {
+    backdrop-filter: blur(2px);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-bg-card) 86%, transparent);
+    display: grid;
+    gap: 0.4rem;
+    padding: 0.7rem 0.8rem;
+  }
+  .otc-stat-top {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+  }
+  .otc-stat-label {
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+  .otc-stat-max {
+    color: var(--leaf-heading);
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .otc-stat-bar {
+    background: var(--leaf-border);
+    border-radius: 999px;
+    height: 0.4rem;
+    overflow: hidden;
+  }
+  .otc-stat-bar span {
+    border-radius: 999px;
+    display: block;
+    height: 100%;
+  }
+  .otc-stat.is-hp .otc-stat-bar span { background: #c0593f; }
+  .otc-stat.is-sp .otc-stat-bar span { background: #3f7ac0; }
+  .otc-stat-foot {
+    color: var(--leaf-text-muted);
+    font-weight: 700;
+  }
+
+  /* prereq */
+  .otc-req {
+    align-items: baseline;
+    display: grid;
+    gap: 0.3rem 0.8rem;
+    grid-template-columns: 5rem minmax(0, 1fr);
+  }
+  .otc-req-label {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+  }
+  .otc-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .otc-chips a,
+  .otc-chips span {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-bg-card) 80%, var(--leaf-primary) 6%);
+    color: var(--leaf-text);
+    font-size: 0.86rem;
+    padding: 0.2rem 0.5rem;
+    text-decoration: none;
+  }
+  .otc-chips a:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 50%, var(--leaf-border));
+    color: var(--leaf-primary-hover);
+  }
+
+  .otc-muted {
+    color: var(--leaf-text-muted);
+    font-size: 0.88rem;
+    margin: 0;
+  }
+
+  .otc-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.2rem;
+    justify-content: space-between;
+  }
+  .otc-nav a {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .otc-nav a:hover { text-decoration: underline; }
+  .otc-foot {
+    color: var(--leaf-text-muted);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  /* tablet: give the text column a bit more room */
+  @media (max-width: 60rem) {
+    .otc-stage-art { width: 56%; }
+    .otc-stage-content { max-width: 60%; }
+  }
+
+  /* mobile: 立绘 becomes a top banner (fades at its bottom), text below */
+  @media (max-width: 44rem) {
+    .otc-stage {
+      min-height: 0;
+    }
+    .otc-stage-art {
+      height: 15rem;
+      position: relative;
+      width: 100%;
+    }
+    .otc-stage-art img {
+      object-position: center 14%;
+      -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent 100%);
+      mask-image: linear-gradient(180deg, #000 55%, transparent 100%);
+    }
+    .otc-stage-content {
+      margin-top: -3.5rem;
+      max-width: 100%;
+    }
+  }
+</style>

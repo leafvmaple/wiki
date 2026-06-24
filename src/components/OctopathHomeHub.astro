@@ -1,0 +1,168 @@
+---
+import summary from '../data/octopath-traveler-0/generated/summary.json';
+import charactersData from '../data/octopath-traveler-0/generated/characters.json';
+import questsData from '../data/octopath-traveler-0/generated/quests.json';
+import OctopathIcon from './OctopathIcon.astro';
+
+const c = summary.counts;
+const allQuests = questsData as any[];
+const allChars = charactersData as any[];
+
+const flame = allQuests.filter((q) => q.folder === 'flame');
+const recruitChars = allChars.filter((x) => x.joinType === 'recruit');
+
+// recruitable companions grouped by job
+const byJob = new Map<string, any[]>();
+for (const ch of recruitChars) {
+  const k = ch.job ?? '其他';
+  if (!byJob.has(k)) byJob.set(k, []);
+  byJob.get(k)!.push(ch);
+}
+
+const stats = [
+  { n: c.quests, label: '任务' },
+  { n: c.characters, label: '角色' },
+  { n: c.jobs, label: '职业' },
+  { n: c.dialogueLines, label: '对话行' },
+  { n: c.languages, label: '语言' },
+];
+
+const quickLinks = [
+  { label: '任务线总览', href: '/games/octopath-traveler-0/quests/', kind: 'quest', desc: '主线 + 招募，含章节 / 等级 / 流程' },
+  { label: '角色一览', href: '/games/octopath-traveler-0/characters/', kind: 'character', desc: '职业 / 性别 / 加入途径' },
+  { label: '主线 · 点燃圣火之人', href: '/games/octopath-traveler-0/quests/flame/', kind: 'main', desc: '维舒贝尔复兴主线' },
+  { label: '主线 · 极与宝物', href: '/games/octopath-traveler-0/quests/treasure/', kind: 'treasure', desc: '宝物线与各国权势者' },
+];
+
+const directory = [
+  {
+    title: '资料索引',
+    items: [
+      { label: '任务线总览', href: '/games/octopath-traveler-0/quests/', kind: 'quest' },
+      { label: '角色一览', href: '/games/octopath-traveler-0/characters/', kind: 'character' },
+    ],
+  },
+];
+---
+
+<section class="ot-hero">
+  <div class="ot-hero-title">
+    <p class="ot-hero-kicker">数据攻略资料库</p>
+    <h1>歧路旅人 0</h1>
+    <p>从游戏数据整理的任务线、角色与剧情资料。先把「查得快、查得全」做好，再逐步补地图、配装与更细的玩法页。</p>
+  </div>
+  <div class="ot-hero-stats" aria-label="数据快照">
+    {stats.map((s) => (<span><strong>{s.n}</strong>{s.label}</span>))}
+  </div>
+</section>
+
+<section class="ot-quick" aria-label="常用入口">
+  {quickLinks.map((item) => (
+    <a href={item.href}>
+      <OctopathIcon kind={item.kind} label={item.label} />
+      <span class="ot-quick-desc">{item.desc}</span>
+    </a>
+  ))}
+</section>
+
+<section class="ot-featured" aria-label="主线 · 点燃圣火之人">
+  <h2>主线 · 点燃圣火之人</h2>
+  <div class="ot-chips">
+    {flame.map((q) => (
+      <OctopathIcon kind="main" compact label={q.sub || q.title} href={q.href} />
+    ))}
+  </div>
+</section>
+
+<section class="ot-featured" aria-label="可招募伙伴">
+  <h2>可招募伙伴（{recruitChars.length}）</h2>
+  {[...byJob.entries()].map(([job, list]) => (
+    <div class="ot-job-row">
+      <span class="ot-job-name"><OctopathIcon kind="job" assetKind="job" assetId={job} label={job} /></span>
+      <div class="ot-chips">
+        {list.map((ch) => (
+          <OctopathIcon kind="recruit" compact label={ch.name} href={ch.href} assetKind="portrait" assetId={ch.uid} />
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
+
+<section class="ot-featured" aria-label="分类导航">
+  <h2>分类导航</h2>
+  {directory.map((group) => (
+    <div class="ot-dir-group">
+      <h3>{group.title}</h3>
+      <div class="ot-chips">
+        {group.items.map((it) => (<OctopathIcon kind={it.kind} compact label={it.label} href={it.href} />))}
+      </div>
+    </div>
+  ))}
+</section>
+
+<style>
+  .ot-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: linear-gradient(135deg, rgba(35, 183, 229, 0.14), rgba(111, 92, 196, 0.12)), var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    margin: 1rem 0 1.5rem;
+    padding: 1.6rem 1.4rem;
+  }
+  .ot-hero-kicker {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  .ot-hero h1 { margin: 0.25rem 0 0.5rem; }
+  .ot-hero-title p { color: var(--leaf-text); margin: 0; max-width: 42rem; }
+  .ot-hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.1rem;
+  }
+  .ot-hero-stats span { color: var(--leaf-text-muted); font-size: 0.9rem; }
+  .ot-hero-stats strong {
+    color: var(--leaf-heading);
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+  .ot-quick {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    margin: 1.25rem 0 1.75rem;
+  }
+  .ot-quick a {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.8rem 0.9rem;
+    text-decoration: none;
+    transition: box-shadow 0.15s ease;
+  }
+  .ot-quick a:hover { box-shadow: var(--leaf-shadow-card-hover); }
+  .ot-quick-desc { color: var(--leaf-text-muted); font-size: 0.85rem; }
+  .ot-featured { margin: 1.5rem 0; }
+  .ot-featured h2 { font-size: 1.2rem; margin-bottom: 0.7rem; }
+  .ot-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .ot-job-row {
+    align-items: center;
+    display: grid;
+    gap: 0.5rem 0.9rem;
+    grid-template-columns: 5.5rem 1fr;
+    margin: 0.5rem 0;
+  }
+  .ot-job-name { color: var(--leaf-text-muted); font-weight: 700; font-size: 0.9rem; }
+  .ot-dir-group h3 { font-size: 1rem; margin: 0.6rem 0 0.4rem; }
+</style>

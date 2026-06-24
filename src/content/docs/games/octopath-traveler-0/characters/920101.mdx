@@ -5,47 +5,12 @@ game: '歧路旅人 0'
 gameVersion: '1.0.8'
 status: needs-testing
 lastVerified: '2026-06-23'
+tableOfContents: false
 sidebar:
   order: 30
   label: '欧尔贝克'
 ---
 
-<div className="leaf-meta-row">
-  <span className="leaf-badge">可招募伙伴</span>
-  <span className="leaf-badge">剑士</span>
-  <span className="leaf-badge">男</span>
-  <span className="leaf-badge" data-status="needs-testing">待验证</span>
-</div>
+import OctopathCharacterProfile from '../../../../../components/OctopathCharacterProfile.astro';
 
-<div className="leaf-infobox">
-  <dl>
-    <dt>职业</dt><dd>剑士</dd>
-    <dt>性别</dt><dd>男</dd>
-    <dt>加入途径</dt><dd><a href="/games/octopath-traveler-0/quests/recruit/9001014/">邂逅欧尔贝克</a></dd>
-    <dt>推荐等级</dt><dd>Lv34</dd>
-  </dl>
-</div>
-
-## 加入方式
-
-通过招募任务 **[邂逅欧尔贝克](/games/octopath-traveler-0/quests/recruit/9001014/)** 招募该名伙伴。
-
-牧人岩的某座宅邸中，一位衣着光鲜的青年正唉声叹气。<br />他的烦恼是——
-
-| 条件 | 说明 |
-| --- | --- |
-| 推荐等级 | Lv34 |
-| 前置任务 | [终章·戒指的试炼](/games/octopath-traveler-0/quests/treasure/1004090/)<br />[点燃圣火之人·主角](/games/octopath-traveler-0/quests/flame/9001007/) |
-
-## 基础数值
-
-| 数值 | 初始 | 满级 |
-| --- | --- | --- |
-| HP | 325 | 5781 |
-| SP | 40 | 145 |
-
-> 其余面板数值与技能、装备待补。
-
----
-
-<small>欧尔贝克 · 适用版本 v1.0.8 · 简体中文</small>
+<OctopathCharacterProfile uid={920101} />

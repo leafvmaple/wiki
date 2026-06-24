@@ -1,0 +1,1035 @@
+[
+ {
+  "uid": 900900,
+  "name": "主角",
+  "job": null,
+  "gender": null,
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/900900/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 300,
+  "sp": 45,
+  "hpMax": 5336,
+  "spMax": 163
+ },
+ {
+  "uid": 950101,
+  "name": "萨赞特斯",
+  "job": "圣火护戒长",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/950101/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 300,
+  "sp": 45,
+  "hpMax": 5336,
+  "spMax": 163
+ },
+ {
+  "uid": 920101,
+  "name": "欧尔贝克",
+  "job": "剑士",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001014,
+  "questTitle": "邂逅欧尔贝克",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001014/",
+  "recommLv": "Lv34",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920101/",
+  "synopsis": [
+   "牧人岩的某座宅邸中，一位衣着光鲜的青年正唉声叹气。",
+   "他的烦恼是——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "终章·戒指的试炼",
+    "href": "/games/octopath-traveler-0/quests/treasure/1004090/"
+   },
+   {
+    "name": "点燃圣火之人·主角",
+    "href": "/games/octopath-traveler-0/quests/flame/9001007/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 325,
+  "sp": 40,
+  "hpMax": 5781,
+  "spMax": 145
+ },
+ {
+  "uid": 950201,
+  "name": "艾尔",
+  "job": "剑士",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/950201/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 250,
+  "sp": 45,
+  "hpMax": 4447,
+  "spMax": 163
+ },
+ {
+  "uid": 910101,
+  "name": "维阿特鲁",
+  "job": "剑士",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001003,
+  "questTitle": "邂逅维阿特鲁",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001003/",
+  "recommLv": "Lv30",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910101/",
+  "synopsis": [
+   "在酒馆听吟游诗人唱歌时，",
+   "邂逅了拥有同样钥匙的剑士。",
+   "他说想与你共同行动——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": true,
+   "item": true,
+   "other": false
+  },
+  "hp": 275,
+  "sp": 45,
+  "hpMax": 4891,
+  "spMax": 163
+ },
+ {
+  "uid": 910201,
+  "name": "雷梅",
+  "job": "剑士",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001020,
+  "questTitle": "邂逅雷梅",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001020/",
+  "recommLv": "Lv60",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910201/",
+  "synopsis": [
+   "黑道人士德贝奇欧曾在维克塔霍洛与你为敌。",
+   "他加入巴鲁杰罗家族之后，",
+   "给你带来了与高手的一次令人战栗的邂逅——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予财富之人·绅商伯奥斯卡",
+    "href": "/games/octopath-traveler-0/quests/treasure/1005030/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 200,
+  "sp": 50,
+  "hpMax": 3557,
+  "spMax": 182
+ },
+ {
+  "uid": 910302,
+  "name": "路德",
+  "job": "商人",
+  "gender": "男",
+  "joinType": "main",
+  "questId": 9001005,
+  "questTitle": "点燃圣火之人·商人路德",
+  "questHref": "/games/octopath-traveler-0/quests/flame/9001005/",
+  "recommLv": "Lv28",
+  "chapter": 4,
+  "href": "/games/octopath-traveler-0/characters/910302/",
+  "synopsis": [
+   "维舒贝尔建起了酒馆，开垦了田地，",
+   "可以稳定产出粮食了。",
+   "接下来需要精明的商人销售产品。"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 275,
+  "sp": 45,
+  "hpMax": 4891,
+  "spMax": 163
+ },
+ {
+  "uid": 910402,
+  "name": "卡琳达",
+  "job": "商人",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001004,
+  "questTitle": "邂逅卡琳达",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001004/",
+  "recommLv": "Lv37",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910402/",
+  "synopsis": [
+   "多尼艾斯克惨遭异族蹂躏。",
+   "在绝望蔓延之时，",
+   "一位与氛围格格不入的悠闲女性出现了——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予权力之人·侵略者",
+    "href": "/games/octopath-traveler-0/quests/treasure/1006010/"
+   },
+   {
+    "name": "点燃圣火之人·主角",
+    "href": "/games/octopath-traveler-0/quests/flame/9001007/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 55,
+  "hpMax": 4002,
+  "spMax": 200
+ },
+ {
+  "uid": 910503,
+  "name": "凯路扎斯",
+  "job": "盗贼",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9000014,
+  "questTitle": "邂逅凯路扎斯",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9000014/",
+  "recommLv": "Lv6",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910503/",
+  "synopsis": [
+   "凯路扎斯是瓦洛雷一家偏远酒馆的保镖。",
+   "他投掷匕首警告醉汉时技惊四座——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 225,
+  "sp": 50,
+  "hpMax": 4002,
+  "spMax": 182
+ },
+ {
+  "uid": 910603,
+  "name": "海德内",
+  "job": "盗贼",
+  "gender": "女",
+  "joinType": "quest",
+  "questId": 9001036,
+  "questTitle": "吸血公与海德内",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001036/",
+  "recommLv": "Lv34",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910603/",
+  "synopsis": [
+   "海德内为了与自己的父亲——臭名昭著的“吸血公”，",
+   "奴隶商人博格那对抗，去了他的藏身处。",
+   "持续多年的纠葛即将做出了断。"
+  ],
+  "prereqQuests": [
+   {
+    "name": "生命的价值",
+    "href": "/games/octopath-traveler-0/quests/recruit/9001044/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 45,
+  "hpMax": 4002,
+  "spMax": 163
+ },
+ {
+  "uid": 910704,
+  "name": "埃斯佩路",
+  "job": "药师",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001008,
+  "questTitle": "邂逅埃斯佩路",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001008/",
+  "recommLv": "Lv40",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910704/",
+  "synopsis": [
+   "斯弗拉塔尔加遍地白沙，栖息着许多别处见不到的魔物。",
+   "你在这里邂逅了一名少年，他挎着药师的包——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予财富之人·愚者的黄金",
+    "href": "/games/octopath-traveler-0/quests/treasure/1005020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 200,
+  "sp": 55,
+  "hpMax": 3557,
+  "spMax": 200
+ },
+ {
+  "uid": 910804,
+  "name": "梅西",
+  "job": "药师",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9000015,
+  "questTitle": "邂逅梅西",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9000015/",
+  "recommLv": "Lv6",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/910804/",
+  "synopsis": [
+   "在白雪皑皑的恩波格洛，有一位少年饱受疾病的折磨。",
+   "你邂逅了一位想要医治他的女性药师——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": true,
+   "item": false,
+   "other": false
+  },
+  "hp": 275,
+  "sp": 50,
+  "hpMax": 4891,
+  "spMax": 182
+ },
+ {
+  "uid": 910905,
+  "name": "弗恩",
+  "job": "猎人",
+  "gender": "男",
+  "joinType": "main",
+  "questId": 9000011,
+  "questTitle": "点燃圣火之人·猎人弗恩",
+  "questHref": "/games/octopath-traveler-0/quests/flame/9000011/",
+  "recommLv": "Lv6",
+  "chapter": 2,
+  "href": "/games/octopath-traveler-0/characters/910905/",
+  "synopsis": [
+   "故乡遭到毁灭的主角和斯蒂娅",
+   "决心振作起来复兴维舒贝尔。",
+   "另一方面，冰雪之地有位猎人十分苦恼自己的生活方式——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 250,
+  "sp": 45,
+  "hpMax": 4447,
+  "spMax": 163
+ },
+ {
+  "uid": 911005,
+  "name": "戴莉蒂娅",
+  "job": "猎人",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001009,
+  "questTitle": "邂逅戴莉蒂娅",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001009/",
+  "recommLv": "Lv16",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911005/",
+  "synopsis": [
+   "一位衣着单薄的女性伫立在白雪皑皑的恩波格洛。",
+   "她究竟是什么人——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "极权者·沫雪之梦",
+    "href": "/games/octopath-traveler-0/quests/treasure/1002020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 50,
+  "hpMax": 4002,
+  "spMax": 182
+ },
+ {
+  "uid": 911106,
+  "name": "皮乌斯",
+  "job": "神官",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001010,
+  "questTitle": "邂逅皮乌斯",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001010/",
+  "recommLv": "Lv26",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911106/",
+  "synopsis": [
+   "你在克拉古斯比亚偶然与皮乌斯重逢，",
+   "他是你小时候访问过维舒贝尔的神官。",
+   "他提出要为你母亲尤夏扫墓——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 275,
+  "sp": 60,
+  "hpMax": 4891,
+  "spMax": 218
+ },
+ {
+  "uid": 911206,
+  "name": "罗拉娜",
+  "job": "神官",
+  "gender": "女",
+  "joinType": "main",
+  "questId": 9001006,
+  "questTitle": "点燃圣火之人·神官罗拉娜",
+  "questHref": "/games/octopath-traveler-0/quests/flame/9001006/",
+  "recommLv": "Lv30",
+  "chapter": 5,
+  "href": "/games/octopath-traveler-0/characters/911206/",
+  "synopsis": [
+   "曾经的居民回归，维舒贝尔正在逐渐恢复活力。",
+   "但这里缺少关键的东西——守护人类的蓝色火焰。"
+  ],
+  "prereqQuests": [
+   {
+    "name": "复兴的灯火　第5部分",
+    "href": "/games/octopath-traveler-0/quests/recruit/9001041/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 60,
+  "hpMax": 4002,
+  "spMax": 218
+ },
+ {
+  "uid": 911307,
+  "name": "赛卢克",
+  "job": "学者",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001011,
+  "questTitle": "邂逅赛卢克",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001011/",
+  "recommLv": "Lv40",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911307/",
+  "synopsis": [
+   "学者赛卢克为了研究精灵石花钱如流水，",
+   "他的助手阿特萨为了筹钱四处奔走，饱尝艰辛。",
+   "他们计划在大拍卖会上买下所需之物——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予权力之人·要守护的东西",
+    "href": "/games/octopath-traveler-0/quests/treasure/1006020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 65,
+  "hpMax": 4002,
+  "spMax": 236
+ },
+ {
+  "uid": 911407,
+  "name": "阿蕾可西雅",
+  "job": "学者",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9000013,
+  "questTitle": "邂逅阿蕾可西雅",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9000013/",
+  "recommLv": "Lv6",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911407/",
+  "synopsis": [
+   "希亚特珀利斯的图书馆中，",
+   "有位女性正专心致志地翻找书籍。",
+   "她寻找的是——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": true,
+   "item": false,
+   "other": false
+  },
+  "hp": 250,
+  "sp": 60,
+  "hpMax": 4447,
+  "spMax": 218
+ },
+ {
+  "uid": 911508,
+  "name": "古德温",
+  "job": "舞娘",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001012,
+  "questTitle": "邂逅古德温",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001012/",
+  "recommLv": "Lv43",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911508/",
+  "synopsis": [
+   "在远海的孤岛，有一位饥肠辘辘的男性。",
+   "他似乎在寻求某种食物——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "奥露莎女王号",
+    "href": "/games/octopath-traveler-0/quests/recruit/9001025/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 275,
+  "sp": 45,
+  "hpMax": 4891,
+  "spMax": 163
+ },
+ {
+  "uid": 911608,
+  "name": "西尔莎",
+  "job": "舞娘",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001013,
+  "questTitle": "邂逅西尔莎",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001013/",
+  "recommLv": "Lv16",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/911608/",
+  "synopsis": [
+   "歌后西尔莎在希亚特珀利斯大剧场的公演即将开始。",
+   "你被选为她的搭档，毫无准备地登台演出——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "极名者·盗公子奥古斯特",
+    "href": "/games/octopath-traveler-0/quests/treasure/1003030/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 250,
+  "sp": 55,
+  "hpMax": 4447,
+  "spMax": 200
+ },
+ {
+  "uid": 920202,
+  "name": "特蕾莎",
+  "job": "商人",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001030,
+  "questTitle": "邂逅特蕾莎",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001030/",
+  "recommLv": "Lv24",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920202/",
+  "synopsis": [
+   "利布尔泰德某位商人的女儿特蕾莎",
+   "替腰痛的父亲送货去希亚特珀利斯。",
+   "你与她同行并保护她的安全——"
+  ],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": true
+  },
+  "hp": 275,
+  "sp": 50,
+  "hpMax": 4891,
+  "spMax": 182
+ },
+ {
+  "uid": 920303,
+  "name": "泰里翁",
+  "job": "盗贼",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001015,
+  "questTitle": "邂逅泰里翁",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001015/",
+  "recommLv": "Lv27",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920303/",
+  "synopsis": [
+   "克拉古斯比亚有人出售具有防贼效果的项链。",
+   "似乎没人怀疑卖家宣传的效果。",
+   "买条试试好像也挺有趣的。"
+  ],
+  "prereqQuests": [
+   {
+    "name": "穷极一切之人·马弗雷兹将军",
+    "href": "/games/octopath-traveler-0/quests/treasure/1004020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 250,
+  "sp": 40,
+  "hpMax": 4447,
+  "spMax": 145
+ },
+ {
+  "uid": 920404,
+  "name": "亚芬",
+  "job": "药师",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001032,
+  "questTitle": "邂逅亚芬",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001032/",
+  "recommLv": "Lv34",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920404/",
+  "synopsis": [
+   "亚芬为中魔物之毒的你进行了治疗。",
+   "你受邀前往他在库利亚布鲁克的家——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "终章·戒指的试炼",
+    "href": "/games/octopath-traveler-0/quests/treasure/1004090/"
+   },
+   {
+    "name": "复兴的灯火　第4部分",
+    "href": "/games/octopath-traveler-0/quests/recruit/9001040/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 300,
+  "sp": 50,
+  "hpMax": 5336,
+  "spMax": 182
+ },
+ {
+  "uid": 920505,
+  "name": "海茵特",
+  "job": "猎人",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001016,
+  "questTitle": "邂逅海茵特",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001016/",
+  "recommLv": "Lv43",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920505/",
+  "synopsis": [
+   "从不与他人合作的猎人海茵特",
+   "准备和搭档林德一起狩猎强大的猎物。",
+   "海茵特的师父请你和她协同战斗——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予财富之人·一无所有之人",
+    "href": "/games/octopath-traveler-0/quests/treasure/1005010/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 250,
+  "sp": 40,
+  "hpMax": 4447,
+  "spMax": 145
+ },
+ {
+  "uid": 920606,
+  "name": "欧菲莉亚",
+  "job": "神官",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001017,
+  "questTitle": "邂逅欧菲莉亚",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001017/",
+  "recommLv": "Lv44",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920606/",
+  "synopsis": [
+   "神官欧菲莉亚是弗雷姆葛雷斯大主教的女儿，",
+   "她爱着现在的家人。",
+   "一名男性出现在她面前，声称认识她的亲生父亲——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "点燃圣火之人·主角",
+    "href": "/games/octopath-traveler-0/quests/flame/9001007/"
+   },
+   {
+    "name": "授予名望之人·圣火之灰",
+    "href": "/games/octopath-traveler-0/quests/treasure/1007020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 65,
+  "hpMax": 4002,
+  "spMax": 236
+ },
+ {
+  "uid": 920707,
+  "name": "赛拉斯",
+  "job": "学者",
+  "gender": "男",
+  "joinType": "recruit",
+  "questId": 9001018,
+  "questTitle": "邂逅赛拉斯",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001018/",
+  "recommLv": "Lv43",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920707/",
+  "synopsis": [
+   "阿特拉斯达姆平原的中年男性委托你解决魔物。",
+   "他说只要你击败魔物，就给你报酬。"
+  ],
+  "prereqQuests": [
+   {
+    "name": "授予名望之人·圣火之灰",
+    "href": "/games/octopath-traveler-0/quests/treasure/1007020/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 200,
+  "sp": 60,
+  "hpMax": 3557,
+  "spMax": 218
+ },
+ {
+  "uid": 920808,
+  "name": "普里姆萝洁",
+  "job": "舞娘",
+  "gender": "女",
+  "joinType": "recruit",
+  "questId": 9001033,
+  "questTitle": "邂逅普里姆萝洁",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001033/",
+  "recommLv": "Lv30",
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/920808/",
+  "synopsis": [
+   "普里姆萝洁是桑谢德最受欢迎的舞娘。",
+   "神秘的她令客人趋之若鹜——"
+  ],
+  "prereqQuests": [
+   {
+    "name": "穷极一切之人·索隆国王",
+    "href": "/games/octopath-traveler-0/quests/treasure/1004040/"
+   }
+  ],
+  "prereqChars": [],
+  "prereqFlags": {
+   "event": false,
+   "item": false,
+   "other": false
+  },
+  "hp": 225,
+  "sp": 50,
+  "hpMax": 4002,
+  "spMax": 182
+ },
+ {
+  "uid": 930103,
+  "name": "巴鲁杰罗",
+  "job": "教父",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930103/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 250,
+  "sp": 45,
+  "hpMax": 4447,
+  "spMax": 163
+ },
+ {
+  "uid": 930207,
+  "name": "阿拉乌妮",
+  "job": "女王",
+  "gender": "女",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930207/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 225,
+  "sp": 60,
+  "hpMax": 4002,
+  "spMax": 218
+ },
+ {
+  "uid": 930301,
+  "name": "利夏尔",
+  "job": "国王",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930301/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 275,
+  "sp": 50,
+  "hpMax": 4891,
+  "spMax": 182
+ },
+ {
+  "uid": 930407,
+  "name": "索隆",
+  "job": "贤王",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930407/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 275,
+  "sp": 55,
+  "hpMax": 4891,
+  "spMax": 200
+ },
+ {
+  "uid": 930501,
+  "name": "艾特里克斯",
+  "job": "领主",
+  "gender": "女",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930501/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 325,
+  "sp": 45,
+  "hpMax": 5781,
+  "spMax": 163
+ },
+ {
+  "uid": 930701,
+  "name": "隆德",
+  "job": "圣火骑士",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930701/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 300,
+  "sp": 45,
+  "hpMax": 5336,
+  "spMax": 163
+ },
+ {
+  "uid": 930808,
+  "name": "塔图洛克",
+  "job": "女帝",
+  "gender": "女",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/930808/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 250,
+  "sp": 50,
+  "hpMax": 4447,
+  "spMax": 182
+ },
+ {
+  "uid": 940204,
+  "name": "斯蒂娅",
+  "job": "建筑师",
+  "gender": "女",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/940204/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 250,
+  "sp": 50,
+  "hpMax": 4447,
+  "spMax": 182
+ },
+ {
+  "uid": 960107,
+  "name": "艾拉",
+  "job": "学者猫",
+  "gender": "男",
+  "joinType": "special",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "recommLv": null,
+  "chapter": null,
+  "href": "/games/octopath-traveler-0/characters/960107/",
+  "synopsis": [],
+  "prereqQuests": [],
+  "prereqChars": [],
+  "prereqFlags": null,
+  "hp": 225,
+  "sp": 65,
+  "hpMax": 4002,
+  "spMax": 236
+ }
+]

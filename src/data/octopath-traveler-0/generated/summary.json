@@ -1,0 +1,14 @@
+{
+ "game": "歧路旅人 0",
+ "gameVersion": "1.0.8",
+ "counts": {
+  "quests": 106,
+  "mainQuests": 48,
+  "recruitQuests": 58,
+  "characters": 36,
+  "recruitChars": 20,
+  "jobs": 8,
+  "languages": 4,
+  "dialogueLines": 5928
+ }
+}
