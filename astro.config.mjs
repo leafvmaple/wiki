@@ -63,6 +63,7 @@ export default defineConfig({
               ],
             },
             { label: '敌人图鉴', link: '/games/octopath-traveler-0/enemies/' },
+            { label: '职业技能', link: '/games/octopath-traveler-0/skills/' },
           ],
         },
         {

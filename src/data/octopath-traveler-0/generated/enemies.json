@@ -16,9 +16,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -58,8 +58,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -98,7 +98,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -146,7 +146,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -185,9 +185,9 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -226,8 +226,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -265,9 +265,9 @@
    "速度": 86
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -306,10 +306,10 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [],
   "drops": [
@@ -338,10 +338,10 @@
    "速度": 113
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -373,9 +373,9 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -404,8 +404,8 @@
    "速度": 163
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -439,8 +439,8 @@
    "速度": 163
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -478,8 +478,8 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -526,7 +526,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -565,8 +565,8 @@
    "速度": 180
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -605,10 +605,10 @@
    "速度": 180
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -639,7 +639,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -675,8 +675,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -722,9 +722,9 @@
    "速度": 70
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -772,8 +772,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -813,8 +813,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -852,9 +852,9 @@
    "速度": 70
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -897,8 +897,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -941,8 +941,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -983,7 +983,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -1022,9 +1022,9 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -1067,7 +1067,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -1115,8 +1115,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -1155,9 +1155,9 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1195,9 +1195,9 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_dagger",
    "weapon_spear",
+   "weapon_dagger",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -1237,9 +1237,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -1279,8 +1279,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1320,8 +1320,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1361,7 +1361,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -1404,8 +1404,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -1445,8 +1445,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -1481,9 +1481,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1522,9 +1522,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1563,9 +1563,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1604,9 +1604,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -1646,7 +1646,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -1728,8 +1728,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1768,7 +1768,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -1809,7 +1809,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -1848,8 +1848,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1888,8 +1888,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -1929,8 +1929,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -1970,7 +1970,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -2009,8 +2009,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -2049,8 +2049,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -2086,8 +2086,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -2126,9 +2126,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2168,8 +2168,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -2207,8 +2207,8 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -2250,9 +2250,9 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2287,8 +2287,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2334,9 +2334,9 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -2371,7 +2371,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2407,8 +2407,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2447,9 +2447,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2487,8 +2487,8 @@
    "速度": 64
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2532,8 +2532,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2572,8 +2572,8 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -2616,8 +2616,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2656,8 +2656,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2694,7 +2694,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -2745,7 +2745,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -2791,8 +2791,8 @@
    "速度": 141
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -2836,7 +2836,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -2884,8 +2884,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2923,10 +2923,10 @@
    "速度": 70
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -2966,8 +2966,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -3006,7 +3006,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3045,9 +3045,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -3085,9 +3085,9 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3131,7 +3131,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3174,9 +3174,9 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -3214,10 +3214,10 @@
    "速度": 90
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3257,8 +3257,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -3298,8 +3298,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -3337,9 +3337,9 @@
    "速度": 183
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3379,7 +3379,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -3414,8 +3414,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -3488,7 +3488,7 @@
    "速度": 169
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -3528,7 +3528,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3567,7 +3567,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3606,7 +3606,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -3644,8 +3644,8 @@
    "速度": 169
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3683,8 +3683,8 @@
    "速度": 169
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3723,8 +3723,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3763,8 +3763,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -3799,8 +3799,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -3836,7 +3836,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3870,9 +3870,9 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -3908,7 +3908,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -3952,7 +3952,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -3995,8 +3995,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -4030,10 +4030,10 @@
    "速度": 78
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -4072,8 +4072,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4121,7 +4121,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4168,8 +4168,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4216,8 +4216,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4264,8 +4264,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4312,8 +4312,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4347,8 +4347,8 @@
    "速度": 62
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4388,7 +4388,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4431,9 +4431,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4471,10 +4471,10 @@
    "速度": 64
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4512,9 +4512,9 @@
    "速度": 74
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -4554,9 +4554,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4596,8 +4596,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -4635,8 +4635,8 @@
    "速度": 80
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4680,8 +4680,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -4720,9 +4720,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4761,8 +4761,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -4802,8 +4802,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -4842,8 +4842,8 @@
    "速度": 155
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -4879,8 +4879,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4916,7 +4916,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -4951,8 +4951,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -5026,7 +5026,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -5064,7 +5064,7 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -5112,7 +5112,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -5147,8 +5147,8 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -5183,8 +5183,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5231,8 +5231,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5279,8 +5279,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5315,8 +5315,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5355,8 +5355,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5403,8 +5403,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5451,8 +5451,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5487,8 +5487,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -5524,8 +5524,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5572,8 +5572,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5607,8 +5607,8 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -5644,8 +5644,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5692,8 +5692,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5740,8 +5740,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5777,7 +5777,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -5816,8 +5816,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -5855,7 +5855,7 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -5894,8 +5894,8 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5933,8 +5933,8 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -5973,7 +5973,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6008,7 +6008,7 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6048,7 +6048,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -6095,8 +6095,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -6135,8 +6135,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -6171,8 +6171,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6211,8 +6211,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6255,7 +6255,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6290,8 +6290,8 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6331,8 +6331,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -6371,8 +6371,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6414,7 +6414,7 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -6462,7 +6462,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6498,8 +6498,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6534,8 +6534,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6570,8 +6570,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6614,8 +6614,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6658,7 +6658,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6694,7 +6694,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -6733,8 +6733,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6768,8 +6768,8 @@
    "速度": 133
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -6805,8 +6805,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -6849,8 +6849,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -6892,9 +6892,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6938,7 +6938,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -6973,8 +6973,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -7013,8 +7013,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -7052,9 +7052,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -7088,9 +7088,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -7128,9 +7128,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -7169,7 +7169,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -7302,7 +7302,7 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -7343,7 +7343,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7377,7 +7377,7 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -7424,8 +7424,8 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -7463,7 +7463,7 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -7504,7 +7504,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7539,8 +7539,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7575,8 +7575,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7611,8 +7611,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7647,8 +7647,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -7682,7 +7682,7 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -7722,7 +7722,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -7760,7 +7760,7 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -7799,7 +7799,7 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -7846,9 +7846,9 @@
    "速度": 178
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -7887,8 +7887,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -7926,9 +7926,9 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -7967,7 +7967,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -8005,7 +8005,7 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8052,7 +8052,7 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8099,8 +8099,8 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -8138,8 +8138,8 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8177,7 +8177,7 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8216,8 +8216,8 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -8256,7 +8256,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -8294,8 +8294,8 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8333,8 +8333,8 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8373,8 +8373,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -8409,8 +8409,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -8445,7 +8445,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8494,7 +8494,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8536,9 +8536,9 @@
    "速度": 153
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8573,7 +8573,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8609,8 +8609,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8652,9 +8652,9 @@
    "速度": 155
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8688,9 +8688,9 @@
    "速度": 155
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -8725,7 +8725,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -8761,7 +8761,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -8808,8 +8808,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -8844,7 +8844,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9008,8 +9008,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -9043,8 +9043,8 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_bow",
-   "weapon_spear",
+   "weapon_cane",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -9087,9 +9087,9 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9123,9 +9123,9 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9159,9 +9159,9 @@
    "速度": 183
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9195,8 +9195,8 @@
    "速度": 185
   },
   "weakWeapons": [
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -9240,8 +9240,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9276,7 +9276,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -9315,7 +9315,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9393,7 +9393,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -9431,8 +9431,8 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -9471,8 +9471,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -9507,8 +9507,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9542,7 +9542,7 @@
    "速度": 190
   },
   "weakWeapons": [
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9585,7 +9585,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -9620,8 +9620,8 @@
    "速度": 190
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9660,7 +9660,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -9707,8 +9707,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -9743,7 +9743,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9781,8 +9781,8 @@
    "速度": 148
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9821,7 +9821,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9867,7 +9867,7 @@
    "速度": 121
   },
   "weakWeapons": [
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9910,8 +9910,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -9946,7 +9946,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -9992,8 +9992,8 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10032,8 +10032,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10067,8 +10067,8 @@
    "速度": 151
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -10107,7 +10107,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -10146,7 +10146,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -10185,7 +10185,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -10224,7 +10224,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -10263,8 +10263,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10299,8 +10299,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10335,8 +10335,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10371,8 +10371,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10407,7 +10407,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10453,8 +10453,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -10493,8 +10493,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10568,8 +10568,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10603,7 +10603,7 @@
    "速度": 169
   },
   "weakWeapons": [
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -10646,7 +10646,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10693,7 +10693,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -10732,7 +10732,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10779,8 +10779,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -10814,8 +10814,8 @@
    "速度": 174
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -10853,7 +10853,7 @@
    "速度": 174
   },
   "weakWeapons": [
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -10892,8 +10892,8 @@
    "速度": 197
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -10928,8 +10928,8 @@
    "速度": 197
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -10975,8 +10975,8 @@
    "速度": 197
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -11022,8 +11022,8 @@
    "速度": 197
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11070,7 +11070,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11109,8 +11109,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11145,8 +11145,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11181,8 +11181,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11217,7 +11217,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11256,7 +11256,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11295,8 +11295,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11335,8 +11335,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11379,8 +11379,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11420,7 +11420,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -11455,7 +11455,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11501,8 +11501,8 @@
    "速度": 210
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11548,8 +11548,8 @@
    "速度": 204
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -11588,8 +11588,8 @@
    "速度": 204
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11628,7 +11628,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11666,7 +11666,7 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -11706,7 +11706,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11745,7 +11745,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -11784,7 +11784,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -11822,8 +11822,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11861,8 +11861,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11901,8 +11901,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -11937,8 +11937,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -11972,9 +11972,9 @@
    "速度": 210
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12008,8 +12008,8 @@
    "速度": 213
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12048,7 +12048,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -12087,7 +12087,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -12127,8 +12127,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12162,8 +12162,8 @@
    "速度": 213
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12201,8 +12201,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12240,8 +12240,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12279,7 +12279,7 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -12318,7 +12318,7 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -12358,7 +12358,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12396,8 +12396,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12436,8 +12436,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -12476,7 +12476,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -12515,7 +12515,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -12554,7 +12554,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12592,8 +12592,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -12632,7 +12632,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -12671,7 +12671,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12710,7 +12710,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12748,9 +12748,9 @@
    "速度": 222
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -12789,7 +12789,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -12828,7 +12828,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12867,7 +12867,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -12906,8 +12906,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -12941,8 +12941,8 @@
    "速度": 222
   },
   "weakWeapons": [
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -12977,8 +12977,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13016,8 +13016,8 @@
    "速度": 222
   },
   "weakWeapons": [
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -13052,8 +13052,8 @@
    "速度": 222
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13092,8 +13092,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -13129,7 +13129,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13164,8 +13164,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -13203,9 +13203,9 @@
    "速度": 158
   },
   "weakWeapons": [
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -13243,9 +13243,9 @@
    "速度": 131
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13279,8 +13279,8 @@
    "速度": 131
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -13318,7 +13318,7 @@
    "速度": 131
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -13357,8 +13357,8 @@
    "速度": 131
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13396,9 +13396,9 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13432,8 +13432,8 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -13471,7 +13471,7 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -13510,8 +13510,8 @@
    "速度": 176
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -13550,7 +13550,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13589,8 +13589,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13625,7 +13625,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13664,7 +13664,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -13739,7 +13739,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -13778,8 +13778,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -13813,7 +13813,7 @@
    "速度": 201
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -13853,8 +13853,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -13888,7 +13888,7 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -13928,7 +13928,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -13966,8 +13966,8 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14005,8 +14005,8 @@
    "速度": 201
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -14045,8 +14045,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -14081,8 +14081,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14116,7 +14116,7 @@
    "速度": 201
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -14156,7 +14156,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -14230,8 +14230,8 @@
    "速度": 236
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -14269,8 +14269,8 @@
    "速度": 236
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14310,8 +14310,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14342,8 +14342,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14374,8 +14374,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14406,8 +14406,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14438,8 +14438,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14470,8 +14470,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14502,8 +14502,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -14534,8 +14534,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14573,8 +14573,8 @@
    "速度": 170
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14612,7 +14612,7 @@
    "速度": 159
   },
   "weakWeapons": [
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -14651,8 +14651,8 @@
    "速度": 189
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -14687,8 +14687,8 @@
    "速度": 189
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -14728,7 +14728,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -14762,8 +14762,8 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -14802,7 +14802,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -14841,8 +14841,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -14877,7 +14877,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -14913,8 +14913,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -14954,8 +14954,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -15029,8 +15029,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15068,8 +15068,8 @@
    "速度": 179
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15107,9 +15107,9 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15144,7 +15144,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15183,7 +15183,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -15221,8 +15221,8 @@
    "速度": 219
   },
   "weakWeapons": [
-   "weapon_bow",
-   "weapon_spear",
+   "weapon_cane",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -15266,8 +15266,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15302,7 +15302,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15340,8 +15340,8 @@
    "速度": 123
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -15380,7 +15380,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15420,7 +15420,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15455,7 +15455,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -15494,8 +15494,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15534,7 +15534,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -15569,8 +15569,8 @@
    "速度": 205
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -15609,8 +15609,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -15645,7 +15645,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15683,8 +15683,8 @@
    "速度": 224
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15723,8 +15723,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15758,8 +15758,8 @@
    "速度": 129
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15798,8 +15798,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -15846,7 +15846,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -15882,8 +15882,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -15921,8 +15921,8 @@
    "速度": 211
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -15960,7 +15960,7 @@
    "速度": 279
   },
   "weakWeapons": [
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -16002,8 +16002,8 @@
    "速度": 118
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -16043,8 +16043,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -16082,8 +16082,8 @@
    "速度": 446
   },
   "weakWeapons": [
-   "weapon_bow",
-   "weapon_spear",
+   "weapon_cane",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -16123,8 +16123,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16171,7 +16171,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16209,9 +16209,9 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -16245,8 +16245,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16279,8 +16279,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16314,8 +16314,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16345,8 +16345,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -16376,8 +16376,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -16445,7 +16445,7 @@
    "速度": 146
   },
   "weakWeapons": [
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -16480,7 +16480,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -16515,8 +16515,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16549,8 +16549,8 @@
    "速度": 213
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16584,7 +16584,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -16619,7 +16619,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -16652,8 +16652,8 @@
    "速度": 191
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -16688,8 +16688,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16723,7 +16723,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16757,8 +16757,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -16797,8 +16797,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16837,8 +16837,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16873,8 +16873,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -16914,8 +16914,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16950,8 +16950,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -16991,7 +16991,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17030,8 +17030,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -17069,8 +17069,8 @@
    "速度": 110
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17113,9 +17113,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17151,7 +17151,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17190,9 +17190,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17227,9 +17227,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17265,7 +17265,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -17303,9 +17303,9 @@
    "速度": 125
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -17339,9 +17339,9 @@
    "速度": 191
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17380,7 +17380,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17418,8 +17418,8 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17466,8 +17466,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -17501,8 +17501,8 @@
    "速度": 177
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -17541,7 +17541,7 @@
    "速度": 133
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -17579,7 +17579,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -17619,8 +17619,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17660,7 +17660,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -17691,8 +17691,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -17731,7 +17731,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -17767,7 +17767,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17806,7 +17806,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -17845,7 +17845,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -17884,7 +17884,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -17922,8 +17922,8 @@
    "速度": 148
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -17966,9 +17966,9 @@
    "速度": 201
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -18002,8 +18002,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18043,8 +18043,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -18074,7 +18074,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18112,8 +18112,8 @@
    "速度": 173
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -18151,9 +18151,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18188,7 +18188,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18227,8 +18227,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -18263,7 +18263,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18337,7 +18337,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -18376,8 +18376,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -18411,8 +18411,8 @@
    "速度": 146
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -18450,9 +18450,9 @@
    "速度": 193
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -18486,9 +18486,9 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -18526,7 +18526,7 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -18569,7 +18569,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18647,7 +18647,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -18685,9 +18685,9 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -18727,7 +18727,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -18765,8 +18765,8 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -18805,9 +18805,9 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -18843,7 +18843,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -18885,9 +18885,9 @@
    "速度": 204
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -18927,7 +18927,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -18966,7 +18966,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -19000,9 +19000,9 @@
    "速度": 212
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19040,8 +19040,8 @@
    "速度": 212
   },
   "weakWeapons": [
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19084,7 +19084,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -19119,9 +19119,9 @@
    "速度": 221
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -19159,8 +19159,8 @@
    "速度": 221
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -19193,7 +19193,7 @@
    "速度": 300
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -19267,7 +19267,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -19301,8 +19301,8 @@
    "速度": 236
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -19336,8 +19336,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -19373,8 +19373,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -19405,8 +19405,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -19440,10 +19440,10 @@
    "速度": 72
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19476,9 +19476,9 @@
    "速度": 79
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -19555,8 +19555,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19595,8 +19595,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -19635,8 +19635,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19669,9 +19669,9 @@
    "速度": 134
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -19702,8 +19702,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19736,9 +19736,9 @@
    "速度": 134
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -19769,8 +19769,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19809,8 +19809,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19849,8 +19849,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19884,8 +19884,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19920,9 +19920,9 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -19958,8 +19958,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -19998,9 +19998,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20035,8 +20035,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20067,8 +20067,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20099,8 +20099,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20131,7 +20131,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -20170,9 +20170,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20206,9 +20206,9 @@
    "速度": 110
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -20241,9 +20241,9 @@
    "速度": 124
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -20276,9 +20276,9 @@
    "速度": 110
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -20316,9 +20316,9 @@
    "速度": 124
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -20358,8 +20358,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20397,10 +20397,10 @@
    "速度": 95
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20435,8 +20435,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20475,8 +20475,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -20510,8 +20510,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -20545,8 +20545,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -20585,8 +20585,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -20625,8 +20625,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -20659,9 +20659,9 @@
    "速度": 125
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -20699,9 +20699,9 @@
    "速度": 160
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20739,9 +20739,9 @@
    "速度": 130
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20775,8 +20775,8 @@
    "速度": 163
   },
   "weakWeapons": [
-   "weapon_cane",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20815,9 +20815,9 @@
    "速度": 135
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -20851,9 +20851,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20887,9 +20887,9 @@
    "速度": 160
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -20923,9 +20923,9 @@
    "速度": 200
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -20964,8 +20964,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -20998,8 +20998,8 @@
    "速度": 171
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21040,7 +21040,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -21079,7 +21079,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21118,9 +21118,9 @@
    "速度": 137
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21155,7 +21155,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21189,8 +21189,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -21228,9 +21228,9 @@
    "速度": 139
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21260,8 +21260,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21300,7 +21300,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21339,9 +21339,9 @@
    "速度": 144
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21374,9 +21374,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21409,9 +21409,9 @@
    "速度": 148
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21444,9 +21444,9 @@
    "速度": 148
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21485,9 +21485,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21525,9 +21525,9 @@
    "速度": 146
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21567,7 +21567,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -21605,8 +21605,8 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21645,9 +21645,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21687,7 +21687,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -21720,8 +21720,8 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21755,9 +21755,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -21791,7 +21791,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -21830,9 +21830,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -21866,8 +21866,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -21901,8 +21901,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -21940,9 +21940,9 @@
    "速度": 135
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -21977,7 +21977,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22017,7 +22017,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22050,9 +22050,9 @@
    "速度": 152
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22091,7 +22091,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22125,9 +22125,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22161,8 +22161,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -22197,7 +22197,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22240,8 +22240,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22278,8 +22278,8 @@
    "速度": 140
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22313,8 +22313,8 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22349,7 +22349,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22388,9 +22388,9 @@
    "速度": 170
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22419,8 +22419,8 @@
    "速度": 142
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22454,8 +22454,8 @@
    "速度": 155
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22490,8 +22490,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22525,8 +22525,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22560,8 +22560,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22595,7 +22595,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22634,9 +22634,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22670,8 +22670,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -22710,8 +22710,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22745,7 +22745,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22779,9 +22779,9 @@
    "速度": 210
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22814,8 +22814,8 @@
    "速度": 165
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -22848,8 +22848,8 @@
    "速度": 155
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22884,8 +22884,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -22919,8 +22919,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
+   "weapon_spear",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -22954,9 +22954,9 @@
    "速度": 158
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
    "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -22982,8 +22982,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -23022,8 +23022,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -23057,8 +23057,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -23136,7 +23136,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23175,7 +23175,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23248,7 +23248,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -23282,7 +23282,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23321,8 +23321,8 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23356,8 +23356,8 @@
    "速度": 165
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23391,8 +23391,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -23425,8 +23425,8 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23460,8 +23460,8 @@
    "速度": 165
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23495,8 +23495,8 @@
    "速度": 165
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23531,8 +23531,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -23565,9 +23565,9 @@
    "速度": 164
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -23601,8 +23601,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -23658,9 +23658,9 @@
    "速度": 171
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -23689,9 +23689,9 @@
    "速度": 223
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -23725,8 +23725,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -23765,7 +23765,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -23808,8 +23808,8 @@
    "速度": 157
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -23852,7 +23852,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -23890,8 +23890,8 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -23928,9 +23928,9 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -23963,8 +23963,8 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -24002,7 +24002,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24082,8 +24082,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -24121,9 +24121,9 @@
    "速度": 233
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24156,9 +24156,9 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -24191,8 +24191,8 @@
    "速度": 262
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24231,8 +24231,8 @@
    "速度": 191
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24266,8 +24266,8 @@
    "速度": 212
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24302,7 +24302,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24337,8 +24337,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24418,9 +24418,9 @@
    "速度": 206
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24453,8 +24453,8 @@
    "速度": 206
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24491,9 +24491,9 @@
    "速度": 232
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24532,8 +24532,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24572,7 +24572,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24611,7 +24611,7 @@
    "速度": 195
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24655,8 +24655,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -24689,9 +24689,9 @@
    "速度": 378
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24722,8 +24722,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24822,7 +24822,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -24852,9 +24852,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -24884,9 +24884,9 @@
    "速度": 200
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -24924,10 +24924,10 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [],
   "drops": [],
@@ -24951,9 +24951,9 @@
    "速度": 219
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -24991,7 +24991,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25029,7 +25029,7 @@
    "速度": 178
   },
   "weakWeapons": [
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25071,8 +25071,8 @@
    "速度": 195
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25110,9 +25110,9 @@
    "速度": 213
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -25146,9 +25146,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -25182,9 +25182,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -25218,8 +25218,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -25257,9 +25257,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -25315,7 +25315,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [],
@@ -25438,8 +25438,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
+   "weapon_ax",
    "weapon_book",
-   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -25465,7 +25465,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -25498,8 +25498,8 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -25540,10 +25540,10 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -25576,8 +25576,8 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25613,7 +25613,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25647,8 +25647,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25682,9 +25682,9 @@
    "速度": 198
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -25717,8 +25717,8 @@
    "速度": 203
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25884,7 +25884,7 @@
    "速度": 198
   },
   "weakWeapons": [
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25920,8 +25920,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -25955,9 +25955,9 @@
    "速度": 183
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -25987,8 +25987,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26021,8 +26021,8 @@
    "速度": 155
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -26052,9 +26052,9 @@
    "速度": 165
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -26085,7 +26085,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26119,7 +26119,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -26150,7 +26150,7 @@
    "速度": 140
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -26182,7 +26182,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -26216,8 +26216,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -26246,7 +26246,7 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -26283,9 +26283,9 @@
    "速度": 135
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26318,9 +26318,9 @@
    "速度": 135
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26358,8 +26358,8 @@
    "速度": 128
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
+   "weapon_spear",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -26393,7 +26393,7 @@
    "速度": 128
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -26429,7 +26429,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -26468,9 +26468,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -26503,8 +26503,8 @@
    "速度": 140
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26538,8 +26538,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -26569,8 +26569,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -26604,8 +26604,8 @@
    "速度": 130
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -26639,8 +26639,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -26679,7 +26679,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -26709,10 +26709,10 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_dagger",
-   "weapon_cane",
    "weapon_spear",
+   "weapon_dagger",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -26742,10 +26742,10 @@
    "速度": 143
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -26772,7 +26772,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -26812,7 +26812,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -26846,7 +26846,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -26879,9 +26879,9 @@
    "速度": 123
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26914,9 +26914,9 @@
    "速度": 80
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -26950,8 +26950,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -26989,8 +26989,8 @@
    "速度": 144
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27021,8 +27021,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -27052,8 +27052,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27083,8 +27083,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -27122,8 +27122,8 @@
    "速度": 167
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27163,8 +27163,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27202,8 +27202,8 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27243,7 +27243,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -27275,7 +27275,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27315,7 +27315,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27353,9 +27353,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27389,8 +27389,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -27424,8 +27424,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -27461,7 +27461,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -27491,8 +27491,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27531,7 +27531,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27571,7 +27571,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27606,7 +27606,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27646,9 +27646,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27682,8 +27682,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27718,8 +27718,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27753,8 +27753,8 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27791,8 +27791,8 @@
    "速度": 73
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27830,7 +27830,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27864,9 +27864,9 @@
    "速度": 100
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -27899,9 +27899,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -27934,8 +27934,8 @@
    "速度": 130
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -27971,7 +27971,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -28004,9 +28004,9 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28039,9 +28039,9 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28097,7 +28097,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -28140,7 +28140,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -28177,9 +28177,9 @@
    "速度": 125
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28213,9 +28213,9 @@
    "速度": 148
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28245,8 +28245,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -28280,8 +28280,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -28315,8 +28315,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -28356,8 +28356,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -28391,9 +28391,9 @@
    "速度": 167
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28435,9 +28435,9 @@
    "速度": 187
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28474,8 +28474,8 @@
    "速度": 174
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -28514,8 +28514,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -28554,10 +28554,10 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28591,10 +28591,10 @@
    "速度": 224
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28629,7 +28629,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28668,7 +28668,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28701,7 +28701,7 @@
    "速度": 350
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -28735,8 +28735,8 @@
    "速度": 360
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28770,7 +28770,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -28804,9 +28804,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -28831,8 +28831,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28875,9 +28875,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28917,8 +28917,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -28949,8 +28949,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -28985,8 +28985,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -29024,9 +29024,9 @@
    "速度": 170
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_dagger",
    "weapon_spear",
+   "weapon_dagger",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -29060,9 +29060,9 @@
    "速度": 170
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_dagger",
    "weapon_spear",
+   "weapon_dagger",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -29097,8 +29097,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -29136,9 +29136,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -29163,9 +29163,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -29190,8 +29190,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -29226,8 +29226,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -29261,9 +29261,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -29288,9 +29288,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -29314,9 +29314,9 @@
    "速度": 110
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -29351,7 +29351,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -29386,7 +29386,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -29420,9 +29420,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29455,10 +29455,10 @@
    "速度": 87
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29491,10 +29491,10 @@
    "速度": 87
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29529,8 +29529,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29561,8 +29561,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29592,9 +29592,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29628,8 +29628,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29664,7 +29664,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29699,8 +29699,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29733,8 +29733,8 @@
    "速度": 87
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -29765,8 +29765,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -29796,8 +29796,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -29828,8 +29828,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29863,9 +29863,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -29899,8 +29899,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -29930,7 +29930,7 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -29965,8 +29965,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30000,8 +30000,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30034,9 +30034,9 @@
    "速度": 91
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30069,9 +30069,9 @@
    "速度": 91
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30104,9 +30104,9 @@
    "速度": 91
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30141,7 +30141,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -30174,9 +30174,9 @@
    "速度": 121
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30205,9 +30205,9 @@
    "速度": 121
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30236,9 +30236,9 @@
    "速度": 91
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30272,8 +30272,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -30306,9 +30306,9 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -30341,9 +30341,9 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -30377,8 +30377,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30413,8 +30413,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30445,8 +30445,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30477,8 +30477,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30512,10 +30512,10 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30545,9 +30545,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30581,8 +30581,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -30616,8 +30616,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30648,7 +30648,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -30683,10 +30683,10 @@
   },
   "weakWeapons": [
    "weapon_sword",
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30717,9 +30717,9 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -30784,7 +30784,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30819,7 +30819,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -30853,7 +30853,7 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30888,8 +30888,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30919,8 +30919,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30954,8 +30954,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -30990,8 +30990,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31024,10 +31024,10 @@
    "速度": 131
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -31057,8 +31057,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -31094,8 +31094,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31129,8 +31129,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31164,8 +31164,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31198,9 +31198,9 @@
    "速度": 121
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -31233,8 +31233,8 @@
    "速度": 121
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -31267,8 +31267,8 @@
    "速度": 121
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -31303,7 +31303,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -31371,9 +31371,9 @@
    "速度": 100
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -31403,8 +31403,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31434,8 +31434,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31500,7 +31500,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -31534,7 +31534,7 @@
    "速度": 200
   },
   "weakWeapons": [
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31569,8 +31569,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -31604,8 +31604,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31639,8 +31639,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -31670,8 +31670,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -31705,8 +31705,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -31735,9 +31735,9 @@
    "速度": 139
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31766,9 +31766,9 @@
    "速度": 139
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31798,7 +31798,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -31829,8 +31829,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31860,8 +31860,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31891,8 +31891,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31926,8 +31926,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -31962,7 +31962,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -31998,8 +31998,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32034,8 +32034,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32069,7 +32069,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -32104,8 +32104,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32139,11 +32139,11 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -32202,8 +32202,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -32233,8 +32233,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32267,9 +32267,9 @@
    "速度": 127
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32299,7 +32299,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -32331,7 +32331,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -32363,7 +32363,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -32394,8 +32394,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32425,8 +32425,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32456,8 +32456,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32486,9 +32486,9 @@
    "速度": 135
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32552,7 +32552,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32587,7 +32587,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32621,7 +32621,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32655,7 +32655,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32689,7 +32689,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32722,9 +32722,9 @@
    "速度": 148
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -32757,8 +32757,8 @@
    "速度": 148
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -32792,7 +32792,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32826,7 +32826,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -32859,8 +32859,8 @@
    "速度": 141
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -32893,8 +32893,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32927,8 +32927,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -32961,7 +32961,7 @@
    "速度": 196
   },
   "weakWeapons": [
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -32995,9 +32995,9 @@
    "速度": 135
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33030,9 +33030,9 @@
    "速度": 102
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33061,9 +33061,9 @@
    "速度": 102
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33092,9 +33092,9 @@
    "速度": 102
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33124,7 +33124,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33159,7 +33159,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33190,7 +33190,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -33224,7 +33224,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -33256,7 +33256,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -33290,7 +33290,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -33324,7 +33324,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -33357,8 +33357,8 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33387,8 +33387,8 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33421,8 +33421,8 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33455,8 +33455,8 @@
    "速度": 156
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33486,8 +33486,8 @@
    "速度": 156
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33517,8 +33517,8 @@
    "速度": 156
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33549,8 +33549,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33583,9 +33583,9 @@
    "速度": 133
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33614,9 +33614,9 @@
    "速度": 133
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -33646,8 +33646,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -33681,8 +33681,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -33715,7 +33715,7 @@
    "速度": 206
   },
   "weakWeapons": [
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -33749,9 +33749,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear",
+   "weapon_cane",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -33776,8 +33776,8 @@
    "速度": 135
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33811,8 +33811,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -33842,8 +33842,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -33872,8 +33872,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -33906,8 +33906,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -33971,9 +33971,9 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34002,8 +34002,8 @@
    "速度": 156
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34034,8 +34034,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -34064,8 +34064,8 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -34099,7 +34099,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -34168,7 +34168,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34198,9 +34198,9 @@
    "速度": 112
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34230,8 +34230,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow",
+   "weapon_spear",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -34256,9 +34256,9 @@
    "速度": 150
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34288,8 +34288,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -34318,9 +34318,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34417,8 +34417,8 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34448,8 +34448,8 @@
    "速度": 150
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34480,8 +34480,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -34510,9 +34510,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34541,9 +34541,9 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34610,9 +34610,9 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34641,8 +34641,8 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -34677,7 +34677,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -34707,7 +34707,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34737,8 +34737,8 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34768,9 +34768,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -34801,7 +34801,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -34830,8 +34830,8 @@
    "速度": 144
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -34861,7 +34861,7 @@
    "速度": 133
   },
   "weakWeapons": [
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -34895,9 +34895,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [],
   "drops": [],
@@ -34921,9 +34921,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -34954,7 +34954,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -34988,8 +34988,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -35022,8 +35022,8 @@
    "速度": 121
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35054,7 +35054,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -35118,7 +35118,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -35148,7 +35148,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35183,8 +35183,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -35218,7 +35218,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35252,7 +35252,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35286,7 +35286,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35321,7 +35321,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35355,7 +35355,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35389,7 +35389,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35423,7 +35423,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35457,7 +35457,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35491,8 +35491,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -35522,9 +35522,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [],
   "drops": [],
@@ -35548,8 +35548,8 @@
    "速度": 144
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35579,9 +35579,9 @@
    "速度": 150
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -35615,8 +35615,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane"
+   "weapon_spear",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -35650,7 +35650,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax"
+   "weapon_spear"
   ],
   "weakElements": [
    {
@@ -35683,9 +35683,9 @@
    "速度": 112
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -35714,8 +35714,8 @@
    "速度": 112
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35745,8 +35745,8 @@
    "速度": 112
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35777,8 +35777,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -35807,8 +35807,8 @@
    "速度": 150
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35838,9 +35838,9 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35871,7 +35871,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -35901,9 +35901,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -35936,7 +35936,7 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -35970,9 +35970,9 @@
    "速度": 160
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36002,8 +36002,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
    "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36034,8 +36034,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36065,8 +36065,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36095,8 +36095,8 @@
    "速度": 173
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36126,8 +36126,8 @@
    "速度": 173
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36158,8 +36158,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36189,8 +36189,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -36216,8 +36216,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -36242,7 +36242,7 @@
    "速度": 173
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -36273,9 +36273,9 @@
    "速度": 173
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36304,9 +36304,9 @@
    "速度": 173
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36337,7 +36337,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -36367,7 +36367,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -36401,7 +36401,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -36436,7 +36436,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36466,7 +36466,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36496,8 +36496,8 @@
    "速度": 133
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
+   "weapon_spear",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36527,8 +36527,8 @@
    "速度": 133
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36559,8 +36559,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36594,8 +36594,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36628,8 +36628,8 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -36663,8 +36663,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -36690,8 +36690,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36722,7 +36722,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36752,8 +36752,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_spear"
+   "weapon_ax",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -36783,8 +36783,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -36814,8 +36814,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -36844,8 +36844,8 @@
    "速度": 162
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -36876,7 +36876,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger"
   ],
   "weakElements": [
@@ -36940,9 +36940,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -36971,9 +36971,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_spear"
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -37002,9 +37002,9 @@
    "速度": 154
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37034,9 +37034,9 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -37065,9 +37065,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37096,9 +37096,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37127,10 +37127,10 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -37159,9 +37159,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37191,8 +37191,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -37226,8 +37226,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37257,7 +37257,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -37284,8 +37284,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37319,8 +37319,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37349,7 +37349,7 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -37381,7 +37381,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -37408,8 +37408,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37442,9 +37442,9 @@
    "速度": 162
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37474,9 +37474,9 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [],
@@ -37502,7 +37502,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -37529,7 +37529,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
    "weapon_fan"
   ],
@@ -37556,7 +37556,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -37589,8 +37589,8 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane"
+   "weapon_ax",
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -37623,8 +37623,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37654,8 +37654,8 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_book",
-   "weapon_cane",
+   "weapon_ax",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37686,8 +37686,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37722,8 +37722,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37758,8 +37758,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37793,9 +37793,9 @@
    "速度": 154
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37829,9 +37829,9 @@
    "速度": 164
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37865,9 +37865,9 @@
    "速度": 175
   },
   "weakWeapons": [
+   "weapon_spear",
    "weapon_ax",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -37901,10 +37901,10 @@
    "速度": 167
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37937,10 +37937,10 @@
    "速度": 177
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -37973,10 +37973,10 @@
    "速度": 187
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38010,8 +38010,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38046,8 +38046,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38082,8 +38082,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38118,8 +38118,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38154,8 +38154,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38190,8 +38190,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38226,8 +38226,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38262,8 +38262,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38298,8 +38298,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_spear",
+   "weapon_bow",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38334,8 +38334,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38370,8 +38370,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38406,8 +38406,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38442,9 +38442,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38478,9 +38478,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38514,9 +38514,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
    "weapon_bow",
-   "weapon_spear"
+   "weapon_cane",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38549,10 +38549,10 @@
    "速度": 198
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38585,10 +38585,10 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38621,10 +38621,10 @@
    "速度": 219
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38658,9 +38658,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38694,9 +38694,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38730,9 +38730,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -38765,10 +38765,10 @@
    "速度": 198
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38801,10 +38801,10 @@
    "速度": 208
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38837,10 +38837,10 @@
    "速度": 219
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38874,8 +38874,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_book",
-   "weapon_bow",
+   "weapon_ax",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -38910,9 +38910,9 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_bow"
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -38977,8 +38977,8 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39012,8 +39012,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39046,9 +39046,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -39081,9 +39081,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -39116,9 +39116,9 @@
    "速度": 144
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_cane"
+   "weapon_bow"
   ],
   "weakElements": [
    {
@@ -39152,7 +39152,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -39186,7 +39186,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -39219,8 +39219,8 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
+   "weapon_spear",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -39250,8 +39250,8 @@
    "速度": 175
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_bow",
+   "weapon_spear",
+   "weapon_cane",
    "weapon_fan"
   ],
   "weakElements": [
@@ -39281,9 +39281,9 @@
    "速度": 173
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39313,8 +39313,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39343,8 +39343,8 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39377,8 +39377,8 @@
    "速度": 185
   },
   "weakWeapons": [
-   "weapon_ax",
    "weapon_spear",
+   "weapon_book",
    "weapon_fan"
   ],
   "weakElements": [
@@ -39409,7 +39409,7 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
+   "weapon_bow",
    "weapon_fan"
   ],
   "weakElements": [
@@ -39440,8 +39440,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39471,8 +39471,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39502,8 +39502,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39534,7 +39534,7 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -39564,7 +39564,7 @@
   },
   "weakWeapons": [
    "weapon_dagger",
-   "weapon_book"
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -39597,9 +39597,9 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_spear"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_book"
   ],
   "weakElements": [
    {
@@ -39628,9 +39628,9 @@
    "速度": 164
   },
   "weakWeapons": [
-   "weapon_ax",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_spear",
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39661,8 +39661,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39697,8 +39697,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39727,9 +39727,9 @@
    "速度": 129
   },
   "weakWeapons": [
-   "weapon_ax",
+   "weapon_spear",
    "weapon_dagger",
-   "weapon_book",
+   "weapon_ax",
    "weapon_fan"
   ],
   "weakElements": [
@@ -39760,8 +39760,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_cane",
-   "weapon_bow"
+   "weapon_bow",
+   "weapon_cane"
   ],
   "weakElements": [
    {
@@ -39795,8 +39795,8 @@
   },
   "weakWeapons": [
    "weapon_sword",
-   "weapon_ax",
-   "weapon_book"
+   "weapon_spear",
+   "weapon_ax"
   ],
   "weakElements": [
    {
@@ -39831,8 +39831,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [],
@@ -39858,8 +39858,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -39890,8 +39890,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [
@@ -39922,8 +39922,8 @@
   "weakWeapons": [
    "weapon_sword",
    "weapon_dagger",
-   "weapon_book",
-   "weapon_bow"
+   "weapon_ax",
+   "weapon_cane"
   ],
   "weakElements": [],
   "drops": [

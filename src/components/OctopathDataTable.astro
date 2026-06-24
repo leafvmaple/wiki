@@ -1,10 +1,12 @@
 ---
-// Octopath data table — filterable + sortable. Two kinds:
+// Octopath data table — filterable + sortable. Kinds:
 //   kind="equipment" (category=武器/防具/饰品) — equipment.json
 //   kind="enemies"                            — enemies.json (bestiary)
-// Both share the toolbar, sort/filter script and CSS (data/-driven JSON).
+//   kind="skills"                             — skills.json (job skills)
+// All share the toolbar, sort/filter script and CSS (data/-driven JSON).
 import equipment from '../data/octopath-traveler-0/generated/equipment.json';
 import enemies from '../data/octopath-traveler-0/generated/enemies.json';
+import skills from '../data/octopath-traveler-0/generated/skills.json';
 import assets from '../data/octopath-traveler-0/generated/assets.json';
 import OctopathIcon from './OctopathIcon.astro';
 import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
@@ -41,9 +43,20 @@ const enCard = (e: Row) =>
     ].filter(Boolean),
   });
 const lvNum = (e: Row) => Number(e.level) || -1;
+
+// ---- skills (job skills) ----
+const skRows = skills as Row[];
+const skJobs = [...new Set(skRows.map((s) => s.job))];
+const skIcon = (s: Row) => (s.weaponIcon ? itemsByKey[s.weaponIcon] : s.elementIcon ? itemsByKey[s.elementIcon] : undefined);
+const skCard = (s: Row) =>
+  JSON.stringify({
+    imageSrc: skIcon(s), imageMode: 'contain', kicker: `${s.job} · ${s.type}`, title: s.name,
+    body: s.detail || undefined,
+    stats: [s.sp ? `SP ${s.sp}` : null, s.bp ? `BP ${s.bp}` : null, s.element].filter(Boolean),
+  });
 ---
 
-<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : '件'}>
+<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : kind === 'skills' ? '个' : '件'}>
   <div class="ot-dt-bar">
     {kind === 'equipment' && showType && (
       <select class="ot-dt-type" aria-label="按类型筛选">
@@ -56,6 +69,12 @@ const lvNum = (e: Row) => Number(e.level) || -1;
         <option value="">全部</option>
         <option value="BOSS">仅 Boss</option>
         <option value="普通">仅普通</option>
+      </select>
+    )}
+    {kind === 'skills' && (
+      <select class="ot-dt-type" aria-label="按职业筛选">
+        <option value="">全部职业</option>
+        {skJobs.map((j) => <option value={j}>{j}</option>)}
       </select>
     )}
     <input class="ot-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索名称" />
@@ -129,6 +148,34 @@ const lvNum = (e: Row) => Number(e.level) || -1;
               </td>
               <td class="ot-dt-drops">{e.drops?.length ? [...new Set(e.drops.map((d: any) => d.name))].join('、') : '—'}</td>
               <td class="num">{e.exp ? e.exp.toLocaleString('en-US') : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'skills' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">技能</th>
+            <th data-sort="type">职业</th>
+            <th>类型</th>
+            <th data-sort="sp" class="num">SP</th>
+            <th>效果</th>
+          </tr>
+        </thead>
+        <tbody>
+          {skRows.map((s) => (
+            <tr data-name={s.name} data-type={s.job} data-sp={s.sp ?? -1} data-ot-card={skCard(s)}>
+              <td class="ot-dt-name">
+                {skIcon(s) && <img class="ot-weak is-element" src={skIcon(s)} alt="" loading="lazy" />}
+                <span class="ot-dt-ename">{s.name}</span>
+              </td>
+              <td>{s.job}</td>
+              <td class="ot-dt-skill">{s.type}</td>
+              <td class="num">{s.sp ?? '—'}</td>
+              <td class="ot-dt-detail">{s.detail || '—'}</td>
             </tr>
           ))}
         </tbody>
@@ -267,7 +314,15 @@ const lvNum = (e: Row) => Number(e.level) || -1;
     font-variant-numeric: tabular-nums;
   }
   .ot-dt-name {
+    align-items: center;
+    display: flex;
+    gap: 0.4rem;
     white-space: nowrap;
+  }
+  .ot-dt-detail {
+    color: var(--leaf-text);
+    min-width: 16rem;
+    white-space: normal;
   }
   .ot-dt-ename {
     color: var(--leaf-heading);
