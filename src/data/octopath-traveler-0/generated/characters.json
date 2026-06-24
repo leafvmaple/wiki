@@ -15,10 +15,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 300,
-  "sp": 45,
-  "hpMax": 5336,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 300,
+    "max": 5336
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属攻",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 950101,
@@ -36,10 +84,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 300,
-  "sp": 45,
-  "hpMax": 5336,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 300,
+    "max": 5336
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "物防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 920101,
@@ -73,10 +169,58 @@
    "item": false,
    "other": false
   },
-  "hp": 325,
-  "sp": 40,
-  "hpMax": 5781,
-  "spMax": 145
+  "stats": [
+   {
+    "label": "HP",
+    "base": 325,
+    "max": 5781
+   },
+   {
+    "label": "SP",
+    "base": 40,
+    "max": 145
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 950201,
@@ -94,10 +238,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 250,
-  "sp": 45,
-  "hpMax": 4447,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 910101,
@@ -123,10 +315,58 @@
    "item": true,
    "other": false
   },
-  "hp": 275,
-  "sp": 45,
-  "hpMax": 4891,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 96,
+    "max": 342
+   }
+  ]
  },
  {
   "uid": 910201,
@@ -157,10 +397,58 @@
    "item": false,
    "other": false
   },
-  "hp": 200,
-  "sp": 50,
-  "hpMax": 3557,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 200,
+    "max": 3557
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 80,
+    "max": 285
+   }
+  ]
  },
  {
   "uid": 910302,
@@ -186,10 +474,58 @@
    "item": false,
    "other": true
   },
-  "hp": 275,
-  "sp": 45,
-  "hpMax": 4891,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 910402,
@@ -224,10 +560,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 55,
-  "hpMax": 4002,
-  "spMax": 200
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 55,
+    "max": 200
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 910503,
@@ -252,10 +636,58 @@
    "item": false,
    "other": true
   },
-  "hp": 225,
-  "sp": 50,
-  "hpMax": 4002,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 96,
+    "max": 342
+   }
+  ]
  },
  {
   "uid": 910603,
@@ -286,10 +718,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 45,
-  "hpMax": 4002,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 96,
+    "max": 342
+   }
+  ]
  },
  {
   "uid": 910704,
@@ -319,10 +799,58 @@
    "item": false,
    "other": false
   },
-  "hp": 200,
-  "sp": 55,
-  "hpMax": 3557,
-  "spMax": 200
+  "stats": [
+   {
+    "label": "HP",
+    "base": 200,
+    "max": 3557
+   },
+   {
+    "label": "SP",
+    "base": 55,
+    "max": 200
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 910804,
@@ -347,10 +875,58 @@
    "item": false,
    "other": false
   },
-  "hp": 275,
-  "sp": 50,
-  "hpMax": 4891,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 910905,
@@ -376,10 +952,58 @@
    "item": false,
    "other": true
   },
-  "hp": 250,
-  "sp": 45,
-  "hpMax": 4447,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 911005,
@@ -409,10 +1033,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 50,
-  "hpMax": 4002,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 911106,
@@ -438,10 +1110,58 @@
    "item": false,
    "other": true
   },
-  "hp": 275,
-  "sp": 60,
-  "hpMax": 4891,
-  "spMax": 218
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 60,
+    "max": 218
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 911206,
@@ -471,10 +1191,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 60,
-  "hpMax": 4002,
-  "spMax": 218
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 60,
+    "max": 218
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 911307,
@@ -505,10 +1273,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 65,
-  "hpMax": 4002,
-  "spMax": 236
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 65,
+    "max": 236
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 911407,
@@ -534,10 +1350,58 @@
    "item": false,
    "other": false
   },
-  "hp": 250,
-  "sp": 60,
-  "hpMax": 4447,
-  "spMax": 218
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 60,
+    "max": 218
+   },
+   {
+    "label": "物攻",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "物防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "属防",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 911508,
@@ -567,10 +1431,58 @@
    "item": false,
    "other": true
   },
-  "hp": 275,
-  "sp": 45,
-  "hpMax": 4891,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 911608,
@@ -600,10 +1512,58 @@
    "item": false,
    "other": false
   },
-  "hp": 250,
-  "sp": 55,
-  "hpMax": 4447,
-  "spMax": 200
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 55,
+    "max": 200
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 920202,
@@ -629,10 +1589,58 @@
    "item": false,
    "other": true
   },
-  "hp": 275,
-  "sp": 50,
-  "hpMax": 4891,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 920303,
@@ -663,10 +1671,58 @@
    "item": false,
    "other": false
   },
-  "hp": 250,
-  "sp": 40,
-  "hpMax": 4447,
-  "spMax": 145
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 40,
+    "max": 145
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 96,
+    "max": 342
+   }
+  ]
  },
  {
   "uid": 920404,
@@ -700,10 +1756,58 @@
    "item": false,
    "other": false
   },
-  "hp": 300,
-  "sp": 50,
-  "hpMax": 5336,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 300,
+    "max": 5336
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 920505,
@@ -734,10 +1838,58 @@
    "item": false,
    "other": false
   },
-  "hp": 250,
-  "sp": 40,
-  "hpMax": 4447,
-  "spMax": 145
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 40,
+    "max": 145
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 920606,
@@ -772,10 +1924,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 65,
-  "hpMax": 4002,
-  "spMax": 236
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 65,
+    "max": 236
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "速度",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "会心",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 64,
+    "max": 228
+   }
+  ]
  },
  {
   "uid": 920707,
@@ -805,10 +2005,58 @@
    "item": false,
    "other": false
   },
-  "hp": 200,
-  "sp": 60,
-  "hpMax": 3557,
-  "spMax": 218
+  "stats": [
+   {
+    "label": "HP",
+    "base": 200,
+    "max": 3557
+   },
+   {
+    "label": "SP",
+    "base": 60,
+    "max": 218
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "属防",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 80,
+    "max": 285
+   }
+  ]
  },
  {
   "uid": 920808,
@@ -838,10 +2086,58 @@
    "item": false,
    "other": false
   },
-  "hp": 225,
-  "sp": 50,
-  "hpMax": 4002,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 930103,
@@ -859,10 +2155,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 250,
-  "sp": 45,
-  "hpMax": 4447,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 96,
+    "max": 342
+   }
+  ]
  },
  {
   "uid": 930207,
@@ -880,10 +2224,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 225,
-  "sp": 60,
-  "hpMax": 4002,
-  "spMax": 218
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 60,
+    "max": 218
+   },
+   {
+    "label": "物攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 80,
+    "max": 285
+   }
+  ]
  },
  {
   "uid": 930301,
@@ -901,10 +2293,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 275,
-  "sp": 50,
-  "hpMax": 4891,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 930407,
@@ -922,10 +2362,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 275,
-  "sp": 55,
-  "hpMax": 4891,
-  "spMax": 200
+  "stats": [
+   {
+    "label": "HP",
+    "base": 275,
+    "max": 4891
+   },
+   {
+    "label": "SP",
+    "base": 55,
+    "max": 200
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 930501,
@@ -943,10 +2431,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 325,
-  "sp": 45,
-  "hpMax": 5781,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 325,
+    "max": 5781
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属攻",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属防",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "速度",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 930701,
@@ -964,10 +2500,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 300,
-  "sp": 45,
-  "hpMax": 5336,
-  "spMax": 163
+  "stats": [
+   {
+    "label": "HP",
+    "base": 300,
+    "max": 5336
+   },
+   {
+    "label": "SP",
+    "base": 45,
+    "max": 163
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "属攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "会心",
+    "base": 72,
+    "max": 256
+   },
+   {
+    "label": "命中",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "回避",
+    "base": 72,
+    "max": 256
+   }
+  ]
  },
  {
   "uid": 930808,
@@ -985,10 +2569,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 250,
-  "sp": 50,
-  "hpMax": 4447,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "物防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "属攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属防",
+    "base": 64,
+    "max": 228
+   },
+   {
+    "label": "速度",
+    "base": 96,
+    "max": 342
+   },
+   {
+    "label": "会心",
+    "base": 88,
+    "max": 313
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 88,
+    "max": 313
+   }
+  ]
  },
  {
   "uid": 940204,
@@ -1006,10 +2638,58 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 250,
-  "sp": 50,
-  "hpMax": 4447,
-  "spMax": 182
+  "stats": [
+   {
+    "label": "HP",
+    "base": 250,
+    "max": 4447
+   },
+   {
+    "label": "SP",
+    "base": 50,
+    "max": 182
+   },
+   {
+    "label": "物攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 80,
+    "max": 285
+   }
+  ]
  },
  {
   "uid": 960107,
@@ -1027,9 +2707,57 @@
   "prereqQuests": [],
   "prereqChars": [],
   "prereqFlags": null,
-  "hp": 225,
-  "sp": 65,
-  "hpMax": 4002,
-  "spMax": 236
+  "stats": [
+   {
+    "label": "HP",
+    "base": 225,
+    "max": 4002
+   },
+   {
+    "label": "SP",
+    "base": 65,
+    "max": 236
+   },
+   {
+    "label": "物攻",
+    "base": 56,
+    "max": 199
+   },
+   {
+    "label": "物防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "属攻",
+    "base": 104,
+    "max": 370
+   },
+   {
+    "label": "属防",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "速度",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "会心",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "命中",
+    "base": 80,
+    "max": 285
+   },
+   {
+    "label": "回避",
+    "base": 80,
+    "max": 285
+   }
+  ]
  }
 ]

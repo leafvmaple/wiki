@@ -29,11 +29,8 @@ const flagText = [
   flags.other && '需达成特定剧情进度',
 ].filter(Boolean) as string[];
 
-const hasStats = c.hpMax != null || c.spMax != null;
-const stats = [
-  { key: 'hp', label: 'HP', base: c.hp, max: c.hpMax },
-  { key: 'sp', label: 'SP', base: c.sp, max: c.spMax },
-].filter((s) => s.max != null);
+const stats = (c.stats ?? []) as Array<{ label: string; base: number | null; max: number | null }>;
+const hasStats = stats.length > 0;
 
 const hasPrereq =
   (c.prereqQuests?.length ?? 0) > 0 || (c.prereqChars?.length ?? 0) > 0 || flagText.length > 0;
@@ -78,57 +75,56 @@ const VER = '1.0.8';
         )}
       </section>
 
-      {hasStats && (
-        <section class="otc-block">
-          <h2>基础数值</h2>
-          <div class="otc-stats">
-            {stats.map((s) => (
-              <div class:list={['otc-stat', `is-${s.key}`]}>
-                <div class="otc-stat-top">
-                  <span class="otc-stat-label">{s.label}</span>
-                  <strong class="otc-stat-max">{s.max}</strong>
-                </div>
-                <div class="otc-stat-bar" role="presentation">
-                  <span style={`width:${Math.max(3, Math.round(((s.base ?? 0) / s.max) * 100))}%`}></span>
-                </div>
-                <small class="otc-stat-foot">初始 {s.base ?? '—'} → 满级 {s.max}</small>
-              </div>
-            ))}
-          </div>
-          <small class="otc-muted">满级为面板上限，其余面板数值与技能、装备待补。</small>
-        </section>
-      )}
-
-      {hasPrereq && (
-        <section class="otc-block">
-          <h2>出现 / 招募条件</h2>
-          {c.prereqQuests?.length > 0 && (
-            <div class="otc-req">
-              <span class="otc-req-label">前置任务</span>
-              <div class="otc-chips">
-                {c.prereqQuests.map((q: any) =>
-                  q.href ? <a href={q.href}>{q.name}</a> : <span>{q.name}</span>,
-                )}
-              </div>
-            </div>
-          )}
-          {c.prereqChars?.length > 0 && (
-            <div class="otc-req">
-              <span class="otc-req-label">需已招募</span>
-              <div class="otc-chips">
-                {c.prereqChars.map((p: any) =>
-                  p.href ? <a href={p.href}>{p.name}</a> : <span>{p.name}</span>,
-                )}
-              </div>
-            </div>
-          )}
-          {flagText.length > 0 && (
-            <p class="otc-muted">其他条件：{flagText.join('、')}（待考证）。</p>
-          )}
-        </section>
-      )}
     </div>
   </div>
+
+  {hasStats && (
+    <section class="otc-section">
+      <h2>基础数值</h2>
+      <dl class="otc-stats">
+        {stats.map((s) => (
+          <div class:list={['otc-stat', s.label === 'HP' && 'is-hp', s.label === 'SP' && 'is-sp']}>
+            <dt class="otc-stat-label">{s.label}</dt>
+            <dd class="otc-stat-val">
+              <span class="otc-stat-base">{s.base ?? '—'}</span>
+              <span class="otc-stat-arrow">→</span>
+              <strong class="otc-stat-max">{s.max ?? '—'}</strong>
+            </dd>
+          </div>
+        ))}
+      </dl>
+      <small class="otc-muted">数值为初始 → 满级（面板上限）；技能、装备加成待补。</small>
+    </section>
+  )}
+
+  {hasPrereq && (
+    <section class="otc-section">
+      <h2>出现 / 招募条件</h2>
+      {c.prereqQuests?.length > 0 && (
+        <div class="otc-req">
+          <span class="otc-req-label">前置任务</span>
+          <div class="otc-chips">
+            {c.prereqQuests.map((q: any) =>
+              q.href ? <a href={q.href}>{q.name}</a> : <span>{q.name}</span>,
+            )}
+          </div>
+        </div>
+      )}
+      {c.prereqChars?.length > 0 && (
+        <div class="otc-req">
+          <span class="otc-req-label">需已招募</span>
+          <div class="otc-chips">
+            {c.prereqChars.map((p: any) =>
+              p.href ? <a href={p.href}>{p.name}</a> : <span>{p.name}</span>,
+            )}
+          </div>
+        </div>
+      )}
+      {flagText.length > 0 && (
+        <p class="otc-muted">其他条件：{flagText.join('、')}（待考证）。</p>
+      )}
+    </section>
+  )}
 
   <nav class="otc-nav">
     <a href="/games/octopath-traveler-0/characters/">← 角色一览</a>
@@ -147,6 +143,13 @@ const VER = '1.0.8';
 </style>
 
 <style>
+  /* This component renders inside Starlight's .sl-markdown-content, which injects
+     prose margins (a `* + *` owl) onto every non-first child. That inflated the
+     HP/SP grid row (HP=first-child no margin, SP=second-child margined → shoved
+     down). We lay everything out with grid `gap`, so neutralize those margins. */
+  .otc :where(*) {
+    margin: 0;
+  }
   .otc {
     display: grid;
     gap: 1.1rem;
@@ -154,7 +157,6 @@ const VER = '1.0.8';
   .otc h2 {
     color: var(--leaf-heading);
     font-size: 1.15rem;
-    margin: 0;
   }
 
   /* ---- stage: text column (left) over a large right-side 立绘 ---- */
@@ -163,9 +165,20 @@ const VER = '1.0.8';
     border: 1px solid var(--leaf-border);
     border-radius: var(--leaf-radius-card);
     box-shadow: var(--leaf-shadow-card);
-    min-height: 30rem;
+    min-height: 24rem;
     overflow: hidden;
     position: relative;
+  }
+  /* separate blocks below the 立绘 stage — keep the stage bounded so the art
+     always renders, and let growing content live in its own cards */
+  .otc-section {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.7rem;
+    padding: 1rem 1.2rem;
   }
   .otc-stage-art {
     bottom: 0;
@@ -281,51 +294,51 @@ const VER = '1.0.8';
     line-height: 1.55;
   }
 
-  /* stats */
+  /* stats — aligned stat sheet (10 base stats). Each row is a fixed sub-grid
+     so labels, bases, arrows and maxes line up into clean columns. */
   .otc-stats {
     display: grid;
-    gap: 0.7rem;
-    grid-template-columns: repeat(auto-fit, minmax(0, 14rem));
+    gap: 0 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    margin: 0;
   }
+  /* each row: label | base | → | max, fixed widths packed to the LEFT, so every
+     row (and both columns) line up identically. .otc-stat-val is display:contents
+     so its base/arrow/max are direct grid items of the row. */
   .otc-stat {
-    backdrop-filter: blur(2px);
-    border: 1px solid var(--leaf-border);
-    border-radius: var(--leaf-radius-card);
-    background: color-mix(in srgb, var(--leaf-bg-card) 86%, transparent);
-    display: grid;
-    gap: 0.4rem;
-    padding: 0.7rem 0.8rem;
-  }
-  .otc-stat-top {
     align-items: baseline;
-    display: flex;
-    justify-content: space-between;
+    border-bottom: 1px solid var(--leaf-border);
+    column-gap: 0.55rem;
+    display: grid;
+    grid-template-columns: 3em 2.8em 1em 3.2em;
+    justify-content: start;
+    padding: 0.44rem 0;
+  }
+  .otc-stat-val {
+    display: contents;
   }
   .otc-stat-label {
     color: var(--leaf-text-muted);
     font-weight: 800;
+    margin: 0;
+  }
+  .otc-stat.is-hp .otc-stat-label { color: #c0593f; }
+  .otc-stat.is-sp .otc-stat-label { color: #3f7ac0; }
+  .otc-stat-base {
+    color: var(--leaf-text-muted);
+    font-size: 0.9rem;
+    text-align: right;
+  }
+  .otc-stat-arrow {
+    color: var(--leaf-text-muted);
+    opacity: 0.5;
+    text-align: center;
   }
   .otc-stat-max {
     color: var(--leaf-heading);
-    font-size: 1.5rem;
+    font-size: 1.08rem;
     line-height: 1;
-  }
-  .otc-stat-bar {
-    background: var(--leaf-border);
-    border-radius: 999px;
-    height: 0.4rem;
-    overflow: hidden;
-  }
-  .otc-stat-bar span {
-    border-radius: 999px;
-    display: block;
-    height: 100%;
-  }
-  .otc-stat.is-hp .otc-stat-bar span { background: #c0593f; }
-  .otc-stat.is-sp .otc-stat-bar span { background: #3f7ac0; }
-  .otc-stat-foot {
-    color: var(--leaf-text-muted);
-    font-weight: 700;
+    text-align: right;
   }
 
   /* prereq */
