@@ -47,7 +47,7 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
               class:list={[{ large: !nested }, entry.attrs.class]}
               {...entry.attrs}
             >
-              <span>{entry.label}</span>
+              <span class="sidebar-label-text" title={entry.label}>{entry.label}</span>
               {entry.badge && (
                 <Badge
                   variant={entry.badge.variant}
@@ -79,10 +79,10 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
                     class:list={['large', 'group-heading-link', groupHome.attrs.class]}
                     {...groupHome.attrs}
                   >
-                    <span>{entry.label}</span>
+                    <span class="sidebar-label-text" title={entry.label}>{entry.label}</span>
                   </a>
                 ) : (
-                  <span class="large">{entry.label}</span>
+                  <span class="large sidebar-label-text" title={entry.label}>{entry.label}</span>
                 )}
                 {entry.badge && (
                   <Badge
@@ -113,6 +113,7 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
 
     li {
       overflow-wrap: anywhere;
+      min-width: 0;
     }
 
     ul ul li {
@@ -157,17 +158,39 @@ function getVisibleEntries(entry: SidebarGroup): SidebarEntry[] {
     }
 
     .group-label {
+      display: flex;
+      align-items: center;
       flex: 1;
       min-width: 0;
     }
 
     a {
-      display: block;
+      display: flex;
+      align-items: center;
       border-radius: 0.25rem;
       text-decoration: none;
       color: var(--leaf-text);
       padding: 0.3em var(--sl-sidebar-item-padding-inline);
       line-height: 1.4;
+      min-width: 0;
+    }
+
+    .sidebar-label-text {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    a > :not(.sidebar-label-text),
+    .group-label > :not(.sidebar-label-text):not(.group-heading-link) {
+      flex: 0 0 auto;
+    }
+
+    .group-label > .group-heading-link {
+      flex: 1 1 auto;
+      min-width: 0;
     }
 
     a:hover,
