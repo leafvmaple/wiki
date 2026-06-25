@@ -18,6 +18,8 @@
   "itemsFood": 80,
   "enemies": 1092,
   "skills": 88,
+  "charSkills": 420,
+  "skillChars": 35,
   "mapLocations": 22,
   "languages": 4,
   "dialogueLines": 5928

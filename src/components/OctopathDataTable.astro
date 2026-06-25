@@ -3,12 +3,14 @@
 //   kind="equipment" (category=武器/防具/饰品) — equipment.json
 //   kind="items"     (category=消耗品/素材/美食) — consumables.json
 //   kind="enemies"                            — enemies.json (bestiary)
-//   kind="skills"                             — skills.json (job skills)
+//   kind="skills"                             — skills.json (8 base job skills)
+//   kind="charskills"                         — charskills.json (per-character skills)
 // All share the toolbar, sort/filter script and CSS (data/-driven JSON).
 import equipment from '../data/octopath-traveler-0/generated/equipment.json';
 import consumables from '../data/octopath-traveler-0/generated/consumables.json';
 import enemies from '../data/octopath-traveler-0/generated/enemies.json';
 import skills from '../data/octopath-traveler-0/generated/skills.json';
+import charskills from '../data/octopath-traveler-0/generated/charskills.json';
 import assets from '../data/octopath-traveler-0/generated/assets.json';
 import OctopathIcon from './OctopathIcon.astro';
 import OctopathEntityTooltip from './OctopathEntityTooltip.astro';
@@ -33,10 +35,15 @@ const eqCard = (e: Row) =>
 
 // ---- items (consumables / materials / food) ----
 const itRows = (consumables as Row[]).filter((i) => i.category === category);
+const isFood = category === '美食';                 // 美食 splits into 菜肴 / 食材, dishes carry a recipe
+const recipeStr = (i: Row) => (i.recipe ?? []).map((r: any) => `${r.name}×${r.num}`).join('、');
 const itCard = (i: Row) =>
   JSON.stringify({
-    kicker: i.category, title: i.name, body: i.effect || undefined,
-    stats: [i.buy ? `买 ${money(i.buy)}` : null, i.sell ? `卖 ${money(i.sell)}` : null].filter(Boolean),
+    kicker: i.sub ? `${i.category} · ${i.sub}` : i.category, title: i.name, body: i.effect || undefined,
+    stats: [
+      i.recipe?.length ? `配方 ${recipeStr(i)}` : null,
+      i.buy ? `买 ${money(i.buy)}` : null, i.sell ? `卖 ${money(i.sell)}` : null,
+    ].filter(Boolean),
   });
 
 // ---- enemies (bestiary) ----
@@ -72,9 +79,20 @@ const skCard = (s: Row) =>
     body: s.detail || undefined,
     stats: [s.sp ? `SP ${s.sp}` : null, s.bp ? `BP ${s.bp}` : null, s.element].filter(Boolean),
   });
+
+// ---- character skills (each recruitable character's own board + 必杀技) ----
+const csRows = charskills as Row[];
+const csChars = [...new Set(csRows.map((s) => s.character))];
+const csIcon = (s: Row) => (s.weaponIcon ? itemsByKey[s.weaponIcon] : s.elementIcon ? itemsByKey[s.elementIcon] : undefined);
+const csCard = (s: Row) =>
+  JSON.stringify({
+    imageSrc: csIcon(s), imageMode: 'contain', kicker: `${s.character} · ${s.type}`, title: s.name,
+    body: s.detail || undefined,
+    stats: [s.job, s.sp ? `SP ${s.sp}` : null, s.bp ? `BP ${s.bp}` : null, s.element].filter(Boolean),
+  });
 ---
 
-<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : kind === 'skills' ? '个' : kind === 'items' ? '种' : '件'}>
+<div class="ot-dt-wrap not-content" data-unit={kind === 'enemies' ? '只' : kind === 'skills' || kind === 'charskills' ? '个' : kind === 'items' ? '种' : '件'}>
   <div class="ot-dt-bar">
     {kind === 'equipment' && showType && (
       <select class="ot-dt-type" aria-label="按类型筛选">
@@ -93,6 +111,27 @@ const skCard = (s: Row) =>
       <select class="ot-dt-type" aria-label="按职业筛选">
         <option value="">全部职业</option>
         {skJobs.map((j) => <option value={j}>{j}</option>)}
+      </select>
+    )}
+    {kind === 'items' && isFood && (
+      <select class="ot-dt-type" aria-label="按种类筛选">
+        <option value="">全部</option>
+        <option value="菜肴">菜肴</option>
+        <option value="食材">食材</option>
+      </select>
+    )}
+    {kind === 'charskills' && (
+      <select class="ot-dt-type" aria-label="按角色筛选">
+        <option value="">全部角色</option>
+        {csChars.map((c) => <option value={c}>{c}</option>)}
+      </select>
+    )}
+    {(kind === 'skills' || kind === 'charskills') && (
+      <select class="ot-dt-type2" aria-label="按技能类型筛选">
+        <option value="">全部类型</option>
+        <option value="主动">主动</option>
+        <option value="辅助">辅助</option>
+        {kind === 'charskills' && <option value="必杀">必杀</option>}
       </select>
     )}
     <input class="ot-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索名称" />
@@ -137,15 +176,20 @@ const skCard = (s: Row) =>
           <tr>
             <th data-sort="name">名称</th>
             <th>效果</th>
+            {isFood && <th>配方</th>}
             <th data-sort="buy" class="num">买价</th>
             <th data-sort="sell" class="num">售价</th>
           </tr>
         </thead>
         <tbody>
           {itRows.map((i) => (
-            <tr data-name={i.name} data-buy={i.buy ?? -1} data-sell={i.sell ?? -1} data-ot-card={itCard(i)}>
-              <td class="ot-dt-name"><span class="ot-dt-ename">{i.name}</span></td>
+            <tr data-name={i.name} data-type={i.sub ?? ''} data-buy={i.buy ?? -1} data-sell={i.sell ?? -1} data-ot-card={itCard(i)}>
+              <td class="ot-dt-name">
+                <span class="ot-dt-ename">{i.name}</span>
+                {i.sub && <span class:list={['ot-dt-sub', i.sub === '菜肴' ? 'is-dish' : 'is-ingredient']}>{i.sub}</span>}
+              </td>
               <td class="ot-dt-detail">{i.effect || '—'}</td>
+              {isFood && <td class="ot-dt-recipe">{recipeStr(i) || '—'}</td>}
               <td class="num">{money(i.buy)}</td>
               <td class="num">{money(i.sell)}</td>
             </tr>
@@ -222,13 +266,46 @@ const skCard = (s: Row) =>
         </thead>
         <tbody>
           {skRows.map((s) => (
-            <tr data-name={s.name} data-type={s.job} data-sp={s.sp ?? -1} data-ot-card={skCard(s)}>
+            <tr data-name={s.name} data-type={s.job} data-type2={s.type} data-sp={s.sp ?? -1} data-ot-card={skCard(s)}>
               <td class="ot-dt-name">
                 {skIcon(s) && <img class="ot-weak is-element" src={skIcon(s)} alt="" loading="lazy" />}
                 <span class="ot-dt-ename">{s.name}</span>
               </td>
               <td>{s.job}</td>
               <td class="ot-dt-skill">{s.type}</td>
+              <td class="num">{s.sp ?? '—'}</td>
+              <td class="ot-dt-detail">{s.detail || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'charskills' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">技能</th>
+            <th data-sort="type">角色</th>
+            <th>类型</th>
+            <th data-sort="sp" class="num">SP</th>
+            <th>效果</th>
+          </tr>
+        </thead>
+        <tbody>
+          {csRows.map((s) => (
+            <tr data-name={s.name} data-type={s.character} data-type2={s.type} data-sp={s.sp ?? -1} data-ot-card={csCard(s)}>
+              <td class="ot-dt-name">
+                {csIcon(s) && <img class="ot-weak is-element" src={csIcon(s)} alt="" loading="lazy" />}
+                <span class="ot-dt-ename">{s.name}</span>
+              </td>
+              <td class="ot-dt-char">
+                <OctopathIcon kind="character" assetKind="portrait" assetId={s.uid} label={s.character}
+                  href={`/games/octopath-traveler-0/characters/${s.uid}/`} card={false} />
+              </td>
+              <td class="ot-dt-skill">
+                <span class:list={['ot-cs-type', s.type === '必杀' && 'is-special', s.type === '辅助' && 'is-support']}>{s.type}</span>
+              </td>
               <td class="num">{s.sp ?? '—'}</td>
               <td class="ot-dt-detail">{s.detail || '—'}</td>
             </tr>
@@ -247,6 +324,7 @@ const skCard = (s: Row) =>
     const tbody = table.querySelector('tbody')!;
     const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
     const typeSel = root.querySelector<HTMLSelectElement>('.ot-dt-type');
+    const typeSel2 = root.querySelector<HTMLSelectElement>('.ot-dt-type2');
     const search = root.querySelector<HTMLInputElement>('.ot-dt-search')!;
     const count = root.querySelector<HTMLElement>('.ot-dt-count')!;
     const unit = root.dataset.unit || '件';
@@ -255,10 +333,14 @@ const skCard = (s: Row) =>
 
     const apply = () => {
       const t = typeSel ? typeSel.value : '';
+      const t2 = typeSel2 ? typeSel2.value : '';
       const q = search.value.trim().toLowerCase();
       let shown = 0;
       for (const r of rows) {
-        const ok = (!t || r.dataset.type === t) && (!q || (r.dataset.name || '').toLowerCase().includes(q));
+        const ok =
+          (!t || r.dataset.type === t) &&
+          (!t2 || r.dataset.type2 === t2) &&
+          (!q || (r.dataset.name || '').toLowerCase().includes(q));
         r.hidden = !ok;
         if (ok) shown += 1;
       }
@@ -286,6 +368,7 @@ const skCard = (s: Row) =>
     };
 
     typeSel?.addEventListener('change', apply);
+    typeSel2?.addEventListener('change', apply);
     search.addEventListener('input', apply);
     table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) => th.addEventListener('click', () => sortBy(th)));
     apply();
@@ -382,6 +465,28 @@ const skCard = (s: Row) =>
     min-width: 16rem;
     white-space: normal;
   }
+  .ot-dt-recipe {
+    color: var(--leaf-text-muted);
+    min-width: 12rem;
+    white-space: normal;
+  }
+  /* 菜肴 / 食材 tag in the 美食 name cell */
+  .ot-dt-sub {
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+    padding: 0.04rem 0.4rem;
+    white-space: nowrap;
+  }
+  .ot-dt-sub.is-dish {
+    border: 1px solid color-mix(in srgb, #c0593f 50%, var(--leaf-border));
+    color: #d06b4f;
+  }
+  .ot-dt-sub.is-ingredient {
+    border: 1px solid color-mix(in srgb, #6f8a3a 55%, var(--leaf-border));
+    color: #8aa84a;
+  }
   .ot-dt-ename {
     color: var(--leaf-heading);
     font-weight: 600;
@@ -433,6 +538,27 @@ const skCard = (s: Row) =>
   }
   .ot-dt-skill {
     color: var(--leaf-text-muted);
+  }
+  .ot-dt-char {
+    white-space: nowrap;
+  }
+  /* 主动 / 辅助 / 必杀 type tag (character skills) */
+  .ot-cs-type {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    color: var(--leaf-text-muted);
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 0.04rem 0.44rem;
+    white-space: nowrap;
+  }
+  .ot-cs-type.is-support {
+    border-color: color-mix(in srgb, #6f5cc4 50%, var(--leaf-border));
+    color: #8a78d8;
+  }
+  .ot-cs-type.is-special {
+    border-color: color-mix(in srgb, #c79a2a 60%, var(--leaf-border));
+    color: #d9b24a;
   }
   /* enemy weakness icons */
   .ot-dt-weak {
