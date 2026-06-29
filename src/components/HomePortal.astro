@@ -5,6 +5,7 @@ import stardewSummary from '../data/stardew-valley/generated/summary.json';
 import stardewTown from '../data/stardew-valley/generated/maps/town.json';
 import stardewAssets from '../data/stardew-valley/generated/assets.json';
 import tdjSummary from '../data/sword-man/generated/summary.json';
+import sicklySummary from '../data/sickly-days/generated/summary.json';
 import OctopathIcon from './OctopathIcon.astro';
 import StardewIcon from './StardewIcon.astro';
 
@@ -48,6 +49,23 @@ const games = [
     ],
   },
   {
+    id: 'sickly',
+    title: 'Sickly Days',
+    href: '/games/sickly-days/',
+    kicker: 'VN · 路线 · 解包',
+    status: '私有资料索引',
+    summary: '当前补丁 KRKR 解包已完成，公开页保留结局路线摘要、覆盖率和数据边界，完整文本与资源索引进入私有库。',
+    stats: [
+      { value: sicklySummary.counts.events, label: '事件' },
+      { value: sicklySummary.counts.currentPatchScenarios, label: 'SCN' },
+      { value: sicklySummary.counts.endings, label: '结局' },
+    ],
+    links: [
+      { label: '结局路线', href: '/games/sickly-days/quick-endings/', kind: 'route' },
+      { label: '数据说明', href: '/games/sickly-days/data-notes/', kind: 'data' },
+    ],
+  },
+  {
     id: 'tdj',
     title: '天地劫·神魔至尊传',
     href: '/games/sword-man/',
@@ -70,8 +88,8 @@ const games = [
 
 const totals = [
   { value: games.length, label: '游戏入口' },
-  { value: octopathSummary.counts.quests + tdjSummary.counts.battles, label: '任务/关卡' },
-  { value: stardewSummary.counts.objects + tdjSummary.counts.skills, label: '资料条目' },
+  { value: octopathSummary.counts.quests + tdjSummary.counts.battles + sicklySummary.counts.routeEvents, label: '任务/路线' },
+  { value: stardewSummary.counts.objects + tdjSummary.counts.skills + sicklySummary.counts.events, label: '资料条目' },
 ];
 ---
 
@@ -116,7 +134,7 @@ const totals = [
           <a href={link.href}>
             {game.id === 'stardew' ? (
               <StardewIcon kind={link.kind} label={link.label} compact link={false} />
-            ) : game.id === 'tdj' ? (
+            ) : game.id === 'tdj' || game.id === 'sickly' ? (
               <span class="home-link-chip">{link.label}</span>
             ) : (
               <OctopathIcon kind={link.kind} label={link.label} compact />

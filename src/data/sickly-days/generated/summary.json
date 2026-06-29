@@ -1,0 +1,15 @@
+{
+  "gameId": "sickly-days",
+  "title": "Sickly Days and Summer Traces",
+  "titleZh": "病情哥哥与病弱妹妹的乡间生活",
+  "engine": "Kirikiri/KAG",
+  "lastVerified": "2026-06-29",
+  "counts": {
+    "events": 161,
+    "currentPatchScenarios": 157,
+    "storyRows": 18898,
+    "routeEvents": 63,
+    "endings": 4,
+    "cgRecoveryPoints": 59
+  }
+}
