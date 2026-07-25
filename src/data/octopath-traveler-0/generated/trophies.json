@@ -1,0 +1,298 @@
+[
+ {
+  "id": 1,
+  "comment": "きみが創った物語",
+  "steam": "ACH_ALL_ACHIEVEMENTS",
+  "ps5": "ACH_ALL_ACHIEVEMENTS",
+  "ps4": "ACH_ALL_ACHIEVEMENTS",
+  "xbox": "ACH_ALL_ACHIEVEMENTS"
+ },
+ {
+  "id": 2,
+  "comment": "はじめてのブレイク",
+  "steam": "ACH_FIRST_BREAK",
+  "ps5": "ACH_FIRST_BREAK",
+  "ps4": "ACH_FIRST_BREAK",
+  "xbox": "ACH_FIRST_BREAK"
+ },
+ {
+  "id": 3,
+  "comment": "ブーストMAX！",
+  "steam": "ACH_MAX_BOOST_ACTION",
+  "ps5": "ACH_MAX_BOOST_ACTION",
+  "ps4": "ACH_MAX_BOOST_ACTION",
+  "xbox": "ACH_MAX_BOOST_ACTION"
+ },
+ {
+  "id": 4,
+  "comment": "新たなアビリティ",
+  "steam": "ACH_FIRST_ABILITY_LEARNED",
+  "ps5": "ACH_FIRST_ABILITY_LEARNED",
+  "ps4": "ACH_FIRST_ABILITY_LEARNED",
+  "xbox": "ACH_FIRST_ABILITY_LEARNED"
+ },
+ {
+  "id": 5,
+  "comment": "オクトパスバトル",
+  "steam": "ACH_FIRST_8_MEMBER_BATTLE",
+  "ps5": "ACH_FIRST_8_MEMBER_BATTLE",
+  "ps4": "ACH_FIRST_8_MEMBER_BATTLE",
+  "xbox": "ACH_FIRST_8_MEMBER_BATTLE"
+ },
+ {
+  "id": 6,
+  "comment": "聖火神の指輪",
+  "steam": "ACH_ELFRIC_RING_OBTAINED",
+  "ps5": "ACH_ELFRIC_RING_OBTAINED",
+  "ps4": "ACH_ELFRIC_RING_OBTAINED",
+  "xbox": "ACH_ELFRIC_RING_OBTAINED"
+ },
+ {
+  "id": 7,
+  "comment": "狩王女の指輪",
+  "steam": "ACH_DREFAND_RING_OBTAINED",
+  "ps5": "ACH_DREFAND_RING_OBTAINED",
+  "ps4": "ACH_DREFAND_RING_OBTAINED",
+  "xbox": "ACH_DREFAND_RING_OBTAINED"
+ },
+ {
+  "id": 8,
+  "comment": "雷剣将の指輪",
+  "steam": "ACH_BRAND_RING_OBTAINED",
+  "ps5": "ACH_BRAND_RING_OBTAINED",
+  "ps4": "ACH_BRAND_RING_OBTAINED",
+  "xbox": "ACH_BRAND_RING_OBTAINED"
+ },
+ {
+  "id": 9,
+  "comment": "盗公子の指輪",
+  "steam": "ACH_EBER_RING_OBTAINED",
+  "ps5": "ACH_EBER_RING_OBTAINED",
+  "ps4": "ACH_EBER_RING_OBTAINED",
+  "xbox": "ACH_EBER_RING_OBTAINED"
+ },
+ {
+  "id": 10,
+  "comment": "碩学王の指輪",
+  "steam": "ACH_ALEFAN_RING_OBTAINED",
+  "ps5": "ACH_ALEFAN_RING_OBTAINED",
+  "ps4": "ACH_ALEFAN_RING_OBTAINED",
+  "xbox": "ACH_ALEFAN_RING_OBTAINED"
+ },
+ {
+  "id": 11,
+  "comment": "紳商伯の指輪",
+  "steam": "ACH_BIFERGAN_RING_OBTAINED",
+  "ps5": "ACH_BIFERGAN_RING_OBTAINED",
+  "ps4": "ACH_BIFERGAN_RING_OBTAINED",
+  "xbox": "ACH_BIFERGAN_RING_OBTAINED"
+ },
+ {
+  "id": 12,
+  "comment": "舞踏姫の指輪",
+  "steam": "ACH_SILTIGE_RING_OBTAINED",
+  "ps5": "ACH_SILTIGE_RING_OBTAINED",
+  "ps4": "ACH_SILTIGE_RING_OBTAINED",
+  "xbox": "ACH_SILTIGE_RING_OBTAINED"
+ },
+ {
+  "id": 13,
+  "comment": "霊薬公の指輪",
+  "steam": "ACH_DOTHER_RING_OBTAINED",
+  "ps5": "ACH_DOTHER_RING_OBTAINED",
+  "ps4": "ACH_DOTHER_RING_OBTAINED",
+  "xbox": "ACH_DOTHER_RING_OBTAINED"
+ },
+ {
+  "id": 14,
+  "comment": "大陸の覇者",
+  "steam": "ACH_ENDING_A",
+  "ps5": "ACH_ENDING_A",
+  "ps4": "ACH_ENDING_A",
+  "xbox": "ACH_ENDING_A"
+ },
+ {
+  "id": 15,
+  "comment": "零からの旅人",
+  "steam": "ACH_ENDING_B",
+  "ps5": "ACH_ENDING_B",
+  "ps4": "ACH_ENDING_B",
+  "xbox": "ACH_ENDING_B"
+ },
+ {
+  "id": 16,
+  "comment": "はじめての建築",
+  "steam": "ACH_FIRST_BUILDING_CONSTRUCTED",
+  "ps5": "ACH_FIRST_BUILDING_CONSTRUCTED",
+  "ps4": "ACH_FIRST_BUILDING_CONSTRUCTED",
+  "xbox": "ACH_FIRST_BUILDING_CONSTRUCTED"
+ },
+ {
+  "id": 17,
+  "comment": "はじめての招待",
+  "steam": "ACH_INVITE_RESIDENT",
+  "ps5": "ACH_INVITE_RESIDENT",
+  "ps4": "ACH_INVITE_RESIDENT",
+  "xbox": "ACH_INVITE_RESIDENT"
+ },
+ {
+  "id": 18,
+  "comment": "拠点となる酒場",
+  "steam": "ACH_BASE_CONSTRUCTION",
+  "ps5": "ACH_BASE_CONSTRUCTION",
+  "ps4": "ACH_BASE_CONSTRUCTION",
+  "xbox": "ACH_BASE_CONSTRUCTION"
+ },
+ {
+  "id": 19,
+  "comment": "おいしい野菜",
+  "steam": "ACH_FARM_CONSTRUCTION",
+  "ps5": "ACH_FARM_CONSTRUCTION",
+  "ps4": "ACH_FARM_CONSTRUCTION",
+  "xbox": "ACH_FARM_CONSTRUCTION"
+ },
+ {
+  "id": 20,
+  "comment": "頼れる商人",
+  "steam": "ACH_SHOP_CONSTRUCTION",
+  "ps5": "ACH_SHOP_CONSTRUCTION",
+  "ps4": "ACH_SHOP_CONSTRUCTION",
+  "xbox": "ACH_SHOP_CONSTRUCTION"
+ },
+ {
+  "id": 21,
+  "comment": "新たな教会",
+  "steam": "ACH_CHURCH_CONSTRUCTION",
+  "ps5": "ACH_CHURCH_CONSTRUCTION",
+  "ps4": "ACH_CHURCH_CONSTRUCTION",
+  "xbox": "ACH_CHURCH_CONSTRUCTION"
+ },
+ {
+  "id": 22,
+  "comment": "聖火を灯す者",
+  "steam": "ACH_TORCH_CONSTRUCTION",
+  "ps5": "ACH_TORCH_CONSTRUCTION",
+  "ps4": "ACH_TORCH_CONSTRUCTION",
+  "xbox": "ACH_TORCH_CONSTRUCTION"
+ },
+ {
+  "id": 23,
+  "comment": "知識の宝庫",
+  "steam": "ACH_MUSEUM_CONSTRUCTION",
+  "ps5": "ACH_MUSEUM_CONSTRUCTION",
+  "ps4": "ACH_MUSEUM_CONSTRUCTION",
+  "xbox": "ACH_MUSEUM_CONSTRUCTION"
+ },
+ {
+  "id": 24,
+  "comment": "滾る血潮",
+  "steam": "ACH_ARENA_CONSTRUCTION",
+  "ps5": "ACH_ARENA_CONSTRUCTION",
+  "ps4": "ACH_ARENA_CONSTRUCTION",
+  "xbox": "ACH_ARENA_CONSTRUCTION"
+ },
+ {
+  "id": 25,
+  "comment": "ウィッシュベールの明日のために",
+  "steam": "ACH_TOWN_LEVEL_MAX",
+  "ps5": "ACH_TOWN_LEVEL_MAX",
+  "ps4": "ACH_TOWN_LEVEL_MAX",
+  "xbox": "ACH_TOWN_LEVEL_MAX"
+ },
+ {
+  "id": 26,
+  "comment": "集いし者たち",
+  "steam": "ACH_ALL_TRAVELERS_RECRUITED",
+  "ps5": "ACH_ALL_TRAVELERS_RECRUITED",
+  "ps4": "ACH_ALL_TRAVELERS_RECRUITED",
+  "xbox": "ACH_ALL_TRAVELERS_RECRUITED"
+ },
+ {
+  "id": 27,
+  "comment": "ジョブコンプリート",
+  "steam": "ACH_ALL_BATTLE_JOBS_OBTAINED",
+  "ps5": "ACH_ALL_BATTLE_JOBS_OBTAINED",
+  "ps4": "ACH_ALL_BATTLE_JOBS_OBTAINED",
+  "xbox": "ACH_ALL_BATTLE_JOBS_OBTAINED"
+ },
+ {
+  "id": 28,
+  "comment": "いざ出港！",
+  "steam": "ACH_OWN_SHIP",
+  "ps5": "ACH_OWN_SHIP",
+  "ps4": "ACH_OWN_SHIP",
+  "xbox": "ACH_OWN_SHIP"
+ },
+ {
+  "id": 29,
+  "comment": "辺獄の扉",
+  "steam": "ACH_REACHED_HELL",
+  "ps5": "ACH_REACHED_HELL",
+  "ps4": "ACH_REACHED_HELL",
+  "xbox": "ACH_REACHED_HELL"
+ },
+ {
+  "id": 30,
+  "comment": "オルステラマスター",
+  "steam": "ACH_ALL_LANDS_TRAVELED",
+  "ps5": "ACH_ALL_LANDS_TRAVELED",
+  "ps4": "ACH_ALL_LANDS_TRAVELED",
+  "xbox": "ACH_ALL_LANDS_TRAVELED"
+ },
+ {
+  "id": 31,
+  "comment": "最強の一撃",
+  "steam": "ACH_DAMAGE_OVER_9999",
+  "ps5": "ACH_DAMAGE_OVER_9999",
+  "ps4": "ACH_DAMAGE_OVER_9999",
+  "xbox": "ACH_DAMAGE_OVER_9999"
+ },
+ {
+  "id": 32,
+  "comment": "楽譜コレクター",
+  "steam": "ACH_ALL_MUSIC_OBTAINED",
+  "ps5": "ACH_ALL_MUSIC_OBTAINED",
+  "ps4": "ACH_ALL_MUSIC_OBTAINED",
+  "xbox": "ACH_ALL_MUSIC_OBTAINED"
+ },
+ {
+  "id": 33,
+  "comment": "伝説の秘宝",
+  "steam": "ACH_ALL_TREASURES_OBTAINED",
+  "ps5": "ACH_ALL_TREASURES_OBTAINED",
+  "ps4": "ACH_ALL_TREASURES_OBTAINED",
+  "xbox": "ACH_ALL_TREASURES_OBTAINED"
+ },
+ {
+  "id": 34,
+  "comment": "歴戦の武具",
+  "steam": "ACH_ALL_HISTORIC_EQUIP_OBTAINED",
+  "ps5": "ACH_ALL_HISTORIC_EQUIP_OBTAINED",
+  "ps4": "ACH_ALL_HISTORIC_EQUIP_OBTAINED",
+  "xbox": "ACH_ALL_HISTORIC_EQUIP_OBTAINED"
+ },
+ {
+  "id": 35,
+  "comment": "情報通",
+  "steam": "ACH_KNOWN_200_RESIDENTS",
+  "ps5": "ACH_KNOWN_200_RESIDENTS",
+  "ps4": "ACH_KNOWN_200_RESIDENTS",
+  "xbox": "ACH_KNOWN_200_RESIDENTS"
+ },
+ {
+  "id": 36,
+  "comment": "仲間との絆",
+  "steam": "ACH_MAX_TRAVELER_BOND",
+  "ps5": "ACH_MAX_TRAVELER_BOND",
+  "ps4": "ACH_MAX_TRAVELER_BOND",
+  "xbox": "ACH_MAX_TRAVELER_BOND"
+ },
+ {
+  "id": 37,
+  "comment": "竜を超えし者",
+  "steam": "ACH_DRAGON_DEFEATED",
+  "ps5": "ACH_DRAGON_DEFEATED",
+  "ps4": "ACH_DRAGON_DEFEATED",
+  "xbox": "ACH_DRAGON_DEFEATED"
+ }
+]

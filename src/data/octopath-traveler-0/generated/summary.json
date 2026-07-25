@@ -21,6 +21,11 @@
   "charSkills": 420,
   "skillChars": 35,
   "mapLocations": 22,
+  "shopRows": 740,
+  "shopMaps": 21,
+  "npcActions": 890,
+  "storybooks": 140,
+  "trophies": 37,
   "languages": 4,
   "dialogueLines": 5928
  }

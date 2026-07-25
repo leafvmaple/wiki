@@ -1,0 +1,214 @@
+---
+// Catalog tables for shops / NPC path-actions / storybooks / trophies.
+import shops from '../data/octopath-traveler-0/generated/shops.json';
+import npcActions from '../data/octopath-traveler-0/generated/npc_actions.json';
+import storybooks from '../data/octopath-traveler-0/generated/storybooks.json';
+import trophies from '../data/octopath-traveler-0/generated/trophies.json';
+
+type Row = Record<string, any>;
+const { kind = 'shops' } = Astro.props as { kind?: string };
+
+const shopRows = shops as Row[];
+const npcRows = npcActions as Row[];
+const storyRows = storybooks as Row[];
+const trophyRows = trophies as Row[];
+
+const shopMaps = [...new Set(shopRows.map((r) => r.mapName).filter(Boolean))];
+const shopTypes = [...new Set(shopRows.map((r) => r.shopTypeLabel).filter(Boolean))];
+const npcMaps = [...new Set(npcRows.map((r) => r.mapName).filter(Boolean))];
+const money = (v: number | null | undefined) => (v ? v.toLocaleString('en-US') : '—');
+---
+
+<div class="ot-dt-wrap not-content" data-unit={kind === 'trophies' ? '个' : kind === 'storybooks' ? '篇' : kind === 'npcs' ? '人' : '件'}>
+  <div class="ot-dt-bar">
+    {kind === 'shops' && (
+      <>
+        <select class="ot-dt-type" aria-label="按城镇筛选">
+          <option value="">全部城镇</option>
+          {shopMaps.map((m) => <option value={m}>{m}</option>)}
+        </select>
+        <select class="ot-dt-type2" aria-label="按商店类型筛选">
+          <option value="">全部类型</option>
+          {shopTypes.map((t) => <option value={t}>{t}</option>)}
+        </select>
+      </>
+    )}
+    {kind === 'npcs' && (
+      <select class="ot-dt-type" aria-label="按地图筛选">
+        <option value="">全部地图</option>
+        {npcMaps.map((m) => <option value={m}>{m}</option>)}
+      </select>
+    )}
+    <input class="ot-dt-search" type="search" placeholder="搜索…" aria-label="搜索" />
+    <span class="ot-dt-count" aria-live="polite"></span>
+  </div>
+
+  <div class="ot-dt-scroll">
+    {kind === 'shops' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">道具</th>
+            <th data-sort="type">城镇</th>
+            <th>商店</th>
+            <th data-sort="buy" class="num">买价</th>
+            <th data-sort="sell" class="num">售价</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shopRows.map((r) => (
+            <tr data-name={r.itemName} data-type={r.mapName} data-type2={r.shopTypeLabel}
+              data-buy={r.buy ?? -1} data-sell={r.sell ?? -1}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.itemName || r.itemId}</span></td>
+              <td>{r.mapName || '—'}</td>
+              <td class="ot-dt-skill">{r.shopTypeLabel}</td>
+              <td class="num">{money(r.buy)}</td>
+              <td class="num">{money(r.sell)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'npcs' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">NPC</th>
+            <th data-sort="type">地图</th>
+            <th>行动</th>
+            <th>可购</th>
+            <th data-sort="buy" class="num">雇佣价</th>
+          </tr>
+        </thead>
+        <tbody>
+          {npcRows.map((r) => (
+            <tr data-name={r.name} data-type={r.mapName} data-buy={r.employPrice ?? -1}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.name}</span></td>
+              <td>{r.mapName || '—'}</td>
+              <td class="ot-dt-skill">{r.actionText || '—'}</td>
+              <td class="ot-dt-detail">{r.purchases || '—'}</td>
+              <td class="num">{money(r.employPrice)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'storybooks' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">标题</th>
+            <th data-sort="type" class="num">分类</th>
+            <th class="num">页签</th>
+            <th class="num">事件</th>
+            <th class="num">首读奖励</th>
+          </tr>
+        </thead>
+        <tbody>
+          {storyRows.map((r) => (
+            <tr data-name={r.title} data-type={String(r.categoryId ?? '')}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.title}</span></td>
+              <td class="num">{r.categoryId ?? '—'}</td>
+              <td class="num">{r.tabId ?? '—'}</td>
+              <td class="num">{r.eventId ?? '—'}</td>
+              <td class="num">{r.firstRewardNum ? `${r.firstRewardItemId}×${r.firstRewardNum}` : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'trophies' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">备注</th>
+            <th>Steam</th>
+            <th>PS5</th>
+            <th>Xbox</th>
+          </tr>
+        </thead>
+        <tbody>
+          {trophyRows.map((r) => (
+            <tr data-name={r.comment || r.steam || String(r.id)}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.comment || '—'}</span></td>
+              <td class="ot-dt-skill">{r.steam || '—'}</td>
+              <td class="ot-dt-skill">{r.ps5 || '—'}</td>
+              <td class="ot-dt-skill">{r.xbox || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+  </div>
+</div>
+
+<script>
+  const wrap = document.currentScript?.previousElementSibling as HTMLElement | null;
+  if (wrap?.classList.contains('ot-dt-wrap')) {
+    const search = wrap.querySelector('.ot-dt-search') as HTMLInputElement | null;
+    const type = wrap.querySelector('.ot-dt-type') as HTMLSelectElement | null;
+    const type2 = wrap.querySelector('.ot-dt-type2') as HTMLSelectElement | null;
+    const count = wrap.querySelector('.ot-dt-count') as HTMLElement | null;
+    const rows = [...wrap.querySelectorAll('tbody tr')] as HTMLElement[];
+    const unit = wrap.dataset.unit || '条';
+    const apply = () => {
+      const q = (search?.value || '').trim().toLowerCase();
+      const t = type?.value || '';
+      const t2 = type2?.value || '';
+      let n = 0;
+      for (const tr of rows) {
+        const name = (tr.dataset.name || '').toLowerCase();
+        const ok =
+          (!q || name.includes(q)) &&
+          (!t || tr.dataset.type === t) &&
+          (!t2 || tr.dataset.type2 === t2);
+        tr.hidden = !ok;
+        if (ok) n++;
+      }
+      if (count) count.textContent = `${n} ${unit}`;
+    };
+    search?.addEventListener('input', apply);
+    type?.addEventListener('change', apply);
+    type2?.addEventListener('change', apply);
+    wrap.querySelectorAll('th[data-sort]').forEach((th) => {
+      th.addEventListener('click', () => {
+        const key = (th as HTMLElement).dataset.sort!;
+        const tbody = wrap.querySelector('tbody')!;
+        const sorted = [...rows].sort((a, b) => {
+          const av = a.dataset[key] ?? a.dataset.name ?? '';
+          const bv = b.dataset[key] ?? b.dataset.name ?? '';
+          const an = Number(av), bn = Number(bv);
+          if (!Number.isNaN(an) && !Number.isNaN(bn) && av !== '' && bv !== '') return an - bn;
+          return String(av).localeCompare(String(bv), 'zh');
+        });
+        sorted.forEach((tr) => tbody.appendChild(tr));
+        apply();
+      });
+    });
+    apply();
+  }
+</script>
+
+<style>
+  .ot-dt-wrap { margin: 1rem 0 2rem; }
+  .ot-dt-bar {
+    display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem;
+  }
+  .ot-dt-search, .ot-dt-type, .ot-dt-type2 {
+    border: 1px solid var(--sl-color-gray-5); border-radius: 0.4rem;
+    padding: 0.35rem 0.6rem; background: var(--sl-color-bg);
+  }
+  .ot-dt-search { min-width: 12rem; }
+  .ot-dt-count { color: var(--sl-color-gray-3); font-size: 0.9rem; margin-left: auto; }
+  .ot-dt-scroll { overflow-x: auto; }
+  .ot-dt { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+  .ot-dt th, .ot-dt td { padding: 0.45rem 0.55rem; border-bottom: 1px solid var(--sl-color-gray-6); text-align: left; }
+  .ot-dt th[data-sort] { cursor: pointer; user-select: none; }
+  .ot-dt th[data-sort]:hover { color: var(--sl-color-accent); }
+  .ot-dt .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .ot-dt-ename { font-weight: 600; }
+  .ot-dt-skill, .ot-dt-detail { color: var(--sl-color-gray-2); max-width: 28rem; }
+</style>
