@@ -124,7 +124,7 @@ const money = (v: number | null | undefined) => (v ? v.toLocaleString('en-US') :
       <table class="ot-dt">
         <thead>
           <tr>
-            <th data-sort="name">备注</th>
+            <th data-sort="name">成就</th>
             <th>Steam</th>
             <th>PS5</th>
             <th>Xbox</th>
@@ -132,8 +132,8 @@ const money = (v: number | null | undefined) => (v ? v.toLocaleString('en-US') :
         </thead>
         <tbody>
           {trophyRows.map((r) => (
-            <tr data-name={r.comment || r.steam || String(r.id)}>
-              <td class="ot-dt-name"><span class="ot-dt-ename">{r.comment || '—'}</span></td>
+            <tr data-name={r.title || r.comment || r.steam || String(r.id)}>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.title || r.comment || '—'}</span></td>
               <td class="ot-dt-skill">{r.steam || '—'}</td>
               <td class="ot-dt-skill">{r.ps5 || '—'}</td>
               <td class="ot-dt-skill">{r.xbox || '—'}</td>
