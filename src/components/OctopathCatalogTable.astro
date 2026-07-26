@@ -6,6 +6,7 @@ import storybooks from '../data/octopath-traveler-0/generated/storybooks.json';
 import trophies from '../data/octopath-traveler-0/generated/trophies.json';
 import encounters from '../data/octopath-traveler-0/generated/encounters.json';
 import village from '../data/octopath-traveler-0/generated/village.json';
+import music from '../data/octopath-traveler-0/generated/music.json';
 
 type Row = Record<string, any>;
 const { kind = 'shops' } = Astro.props as { kind?: string };
@@ -16,6 +17,7 @@ const storyRows = storybooks as Row[];
 const trophyRows = trophies as Row[];
 const encounterRows = encounters as Row[];
 const villageRows = village as Row[];
+const musicRows = music as Row[];
 
 const shopMaps = [...new Set(shopRows.map((r) => r.mapName).filter(Boolean))];
 const shopTypes = [...new Set(shopRows.map((r) => r.shopTypeLabel).filter(Boolean))];
@@ -23,12 +25,13 @@ const npcMaps = [...new Set(npcRows.map((r) => r.mapName).filter(Boolean))];
 const encMaps = [...new Set(encounterRows.map((r) => r.mapName).filter(Boolean))];
 const encKinds = [...new Set(encounterRows.map((r) => r.kind).filter(Boolean))];
 const villageSections = [...new Set(villageRows.map((r) => r.section).filter(Boolean))];
+const musicSections = [...new Set(musicRows.map((r) => r.section).filter(Boolean))];
 const money = (v: number | null | undefined) => (v ? v.toLocaleString('en-US') : '—');
 const unit =
   kind === 'trophies' ? '个' :
   kind === 'storybooks' ? '篇' :
   kind === 'npcs' ? '人' :
-  kind === 'encounters' || kind === 'village' ? '条' : '件';
+  kind === 'encounters' || kind === 'village' || kind === 'music' ? '条' : '件';
 ---
 
 <div class="ot-dt-wrap not-content" data-unit={unit}>
@@ -67,6 +70,12 @@ const unit =
       <select class="ot-dt-type" aria-label="按分类筛选">
         <option value="">全部分类</option>
         {villageSections.map((t) => <option value={t}>{t}</option>)}
+      </select>
+    )}
+    {kind === 'music' && (
+      <select class="ot-dt-type" aria-label="按分类筛选">
+        <option value="">全部分类</option>
+        {musicSections.map((t) => <option value={t}>{t}</option>)}
       </select>
     )}
     <input class="ot-dt-search" type="search" placeholder="搜索…" aria-label="搜索" />
@@ -217,6 +226,29 @@ const unit =
               <td class="ot-dt-name"><span class="ot-dt-ename">{r.name}</span></td>
               <td class="ot-dt-detail">{r.detail || '—'}</td>
               <td class="num">{r.buy ? money(r.buy) : '—'}</td>
+              <td class="ot-dt-detail">{r.extra || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'music' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="type">分类</th>
+            <th data-sort="name">名称</th>
+            <th>标签 / 说明</th>
+            <th>音源表</th>
+          </tr>
+        </thead>
+        <tbody>
+          {musicRows.map((r) => (
+            <tr data-name={`${r.name || ''} ${r.detail || ''}`} data-type={r.section}>
+              <td class="ot-dt-skill">{r.section}</td>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.name}</span></td>
+              <td class="ot-dt-detail">{r.detail || '—'}</td>
               <td class="ot-dt-detail">{r.extra || '—'}</td>
             </tr>
           ))}

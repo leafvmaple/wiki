@@ -1,0 +1,1394 @@
+[
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_scholar",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_hunter",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 2
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_fencer",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 3
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_pharmacist",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 4
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_merchant",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 5
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_dancer",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 6
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_thief",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 7
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_theme_priest",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 8
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_sea",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 9
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_desert",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 10
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_mount_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 11
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_snow_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 12
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_desert_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 13
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_river_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 14
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_sea",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 15
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_mount",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 16
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_forest",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 17
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_cliff",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 18
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_snow",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 19
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_desert",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 20
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_river",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 21
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_d_cave",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 22
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_fencer",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 23
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_dancer",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 24
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_jin_win",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 25
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_jin_lose",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 26
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_jin_iin",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 27
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_kinpaku",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 28
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_huantei",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 29
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_aku",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 30
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_yuujou",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 31
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_huon",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 32
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_yasashisa",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 33
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_kyouhu",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 34
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_battle01",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 36
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_mboss2",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 37
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_mboss1",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 38
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_battle02",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 39
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_battle03",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 40
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_snow",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 49
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_sea_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 50
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_river",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 51
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_plain_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 52
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_plain",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 53
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_mount",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 54
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_forest_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 55
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_forest",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 56
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_t_cliff_sp",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 57
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_plain",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 60
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_f_last",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 61
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_d_underpass",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 62
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_d_mansion",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 63
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_d_last",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 64
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_map_d_forest",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 65
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_upboss",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 66
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_mboss2",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 67
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_mboss1",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 68
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_thief_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 69
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_thief_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 70
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_thief",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 71
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_scholar_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 72
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_scholar_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 73
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_scholar",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 74
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_priest_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 75
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_priest_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 76
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_priest",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 77
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_pharmacist_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 78
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_pharmacist_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 79
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_pharmacist",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 80
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_merchant_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 81
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_merchant_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 82
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_merchant",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 83
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_hunter_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 84
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_hunter_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 85
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_hunter",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 86
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_fencer_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 87
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_fencer_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 88
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_dancer_m45",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 89
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_extend_dancer_m44",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 90
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_exboss03",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 91
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_exboss02",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 92
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_exboss01",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 93
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_bat_csboss",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 94
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m65",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 112
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m66",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 113
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m67",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 114
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m68",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 115
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m69",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 116
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m70",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 117
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m71",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 118
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m72",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 119
+ },
+ {
+  "section": "BGM 标签",
+  "name": "bgm_event_m73",
+  "detail": "BGM_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 120
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd1",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1090
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd2",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1091
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd3",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1092
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd4",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1093
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd5",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1094
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_bgm_fd6",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1095
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_volumed_mapbgm",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1151
+ },
+ {
+  "section": "BGM 标签",
+  "name": "se_event_volumed2_mapbgm",
+  "detail": "SE_EVENT",
+  "extra": "",
+  "buy": 0,
+  "sort": 1178
+ },
+ {
+  "section": "BGM 标签",
+  "name": "BGM_MAP_BELL",
+  "detail": "BGM_COMMON",
+  "extra": "",
+  "buy": 0,
+  "sort": 88738
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅳ",
+  "detail": "bgm_map_t_sea",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 1
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅷ",
+  "detail": "bgm_map_t_mount",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 2
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅲ",
+  "detail": "bgm_map_t_plain",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 3
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅱ",
+  "detail": "bgm_map_t_snow_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 4
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅶ",
+  "detail": "bgm_map_t_desert",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 5
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅵ",
+  "detail": "bgm_map_t_river",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 6
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅳ",
+  "detail": "bgm_map_t_sea_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 7
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅰ",
+  "detail": "bgm_map_t_forest_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 8
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅴ",
+  "detail": "bgm_map_t_cliff_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 9
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅲ",
+  "detail": "bgm_map_t_plain_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 10
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅱ",
+  "detail": "bgm_map_t_snow",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 11
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅶ",
+  "detail": "bgm_map_t_desert_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 12
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅵ",
+  "detail": "bgm_map_t_river_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 13
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "旅行乐谱Ⅷ",
+  "detail": "bgm_map_t_mount_sp",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 14
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅰ",
+  "detail": "bgm_bat_battle01",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 15
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "强敌战斗曲乐谱Ⅰ",
+  "detail": "bgm_bat_upboss",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 16
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅴ",
+  "detail": "bgm_bat_mboss1",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 17
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅵ",
+  "detail": "bgm_bat_mboss2",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 18
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "强敌战斗曲乐谱Ⅱ",
+  "detail": "bgm_bat_csboss",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 19
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "强敌战斗曲乐谱Ⅲ",
+  "detail": "bgm_bat_exboss01",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 20
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "强敌战斗曲乐谱Ⅳ",
+  "detail": "bgm_bat_exboss03",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 21
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极富者”乐谱",
+  "detail": "M_Q01",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 22
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极权者”乐谱",
+  "detail": "M_Q02",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 23
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极名者”乐谱",
+  "detail": "M_Q03",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 24
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“穷极一切之人”乐谱",
+  "detail": "M_Q04",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 25
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予财富之人”乐谱",
+  "detail": "M_Q05",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 26
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予权力之人”乐谱",
+  "detail": "M_Q06",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 27
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予名望之人”乐谱",
+  "detail": "M_Q07",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 28
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极富者”乐谱",
+  "detail": "M_Q09",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 29
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极权者”乐谱",
+  "detail": "M_Q10",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 30
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极名者”乐谱",
+  "detail": "M_Q11",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 31
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“穷极一切之人”乐谱",
+  "detail": "M_Q12",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 32
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予财富之人”乐谱",
+  "detail": "M_Q13",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 33
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予权力之人”乐谱",
+  "detail": "M_Q14",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 34
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予名望之人”乐谱",
+  "detail": "M_Q15",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 35
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "未标明岛屿乐谱",
+  "detail": "M_Q18",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 36
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极富者”乐谱",
+  "detail": "M_Q19",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 37
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极权者”乐谱",
+  "detail": "M_Q20",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 38
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“极名者”乐谱",
+  "detail": "M_Q21",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 39
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“穷极一切之人”乐谱",
+  "detail": "M_Q22",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 40
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予财富之人”乐谱",
+  "detail": "M_Q23",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 41
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予权力之人”乐谱",
+  "detail": "M_Q24",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 42
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予名望之人”乐谱",
+  "detail": "M_Q25",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 43
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅶ",
+  "detail": "M_Q27",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 44
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅳ",
+  "detail": "M_Q28",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 45
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "斗技场乐谱Ⅰ",
+  "detail": "M_Q50",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 46
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "斗技场乐谱Ⅱ",
+  "detail": "M_Q51",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 47
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅰ",
+  "detail": "M_Q80",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 48
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅰ",
+  "detail": "M_Q81",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 49
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅰ",
+  "detail": "M_Q82",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 50
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "灯火守护者乐谱",
+  "detail": "M_Q85",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 51
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "边狱战斗曲乐谱",
+  "detail": "M_Q98",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 52
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "边狱战斗曲乐谱",
+  "detail": "M_Q100",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 53
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "边狱战斗曲乐谱",
+  "detail": "M_Q99",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 54
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅰ",
+  "detail": "M_Q101",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 55
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "巫女之岛乐谱",
+  "detail": "M_Q114",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 56
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "神域战斗曲乐谱",
+  "detail": "M_Q116",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 57
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "神域战斗曲乐谱",
+  "detail": "M_Q117",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 58
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅱ",
+  "detail": "M_Q118",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 59
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅱ",
+  "detail": "M_Q119",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 60
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅱ",
+  "detail": "M_Q120",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 61
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "“授予一切之人”乐谱Ⅱ",
+  "detail": "M_Q121",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 62
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "原初乐谱",
+  "detail": "M_9pcs_1",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 63
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "创生乐谱",
+  "detail": "M_9pcs_6",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 64
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "维舒贝尔乐谱",
+  "detail": "M_9pcs_7",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 65
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "维舒贝尔乐谱",
+  "detail": "M_9pcs_8",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 66
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "维舒贝尔乐谱",
+  "detail": "M_9pcs_9",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 67
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅱ",
+  "detail": "M_9pcs_12",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 68
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅲ",
+  "detail": "M_9pcs_13",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 69
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "战斗曲乐谱Ⅷ",
+  "detail": "M_9pcs_14",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 70
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "霸者的乐谱",
+  "detail": "M_9pcs_20",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 71
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "霸者的乐谱",
+  "detail": "M_9pcs_23",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 72
+ },
+ {
+  "section": "留声机乐谱",
+  "name": "最后的乐谱",
+  "detail": "M_9pcs_26",
+  "extra": "BGM_COMMON",
+  "buy": 0,
+  "sort": 73
+ }
+]
