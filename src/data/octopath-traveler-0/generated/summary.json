@@ -26,6 +26,8 @@
   "npcActions": 890,
   "storybooks": 140,
   "trophies": 37,
+  "encounterRows": 168,
+  "encounterMaps": 130,
   "languages": 4,
   "dialogueLines": 5928
  }
