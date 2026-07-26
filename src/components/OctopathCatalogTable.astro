@@ -4,6 +4,7 @@ import shops from '../data/octopath-traveler-0/generated/shops.json';
 import npcActions from '../data/octopath-traveler-0/generated/npc_actions.json';
 import storybooks from '../data/octopath-traveler-0/generated/storybooks.json';
 import scenario from '../data/octopath-traveler-0/generated/scenario.json';
+import treasures from '../data/octopath-traveler-0/generated/treasures.json';
 import trophies from '../data/octopath-traveler-0/generated/trophies.json';
 import encounters from '../data/octopath-traveler-0/generated/encounters.json';
 import village from '../data/octopath-traveler-0/generated/village.json';
@@ -16,6 +17,7 @@ const shopRows = shops as Row[];
 const npcRows = npcActions as Row[];
 const storyRows = storybooks as Row[];
 const scenarioRows = scenario as Row[];
+const treasureRows = treasures as Row[];
 const trophyRows = trophies as Row[];
 const encounterRows = encounters as Row[];
 const villageRows = village as Row[];
@@ -29,11 +31,14 @@ const encKinds = [...new Set(encounterRows.map((r) => r.kind).filter(Boolean))];
 const villageSections = [...new Set(villageRows.map((r) => r.section).filter(Boolean))];
 const musicSections = [...new Set(musicRows.map((r) => r.section).filter(Boolean))];
 const scenarioSections = [...new Set(scenarioRows.map((r) => r.section).filter(Boolean))];
+const treasureMaps = [...new Set(treasureRows.map((r) => r.mapName).filter(Boolean))];
+const treasureBoxes = [...new Set(treasureRows.map((r) => r.boxType).filter(Boolean))];
 const money = (v: number | null | undefined) => (v ? v.toLocaleString('en-US') : '—');
 const unit =
   kind === 'trophies' ? '个' :
   kind === 'storybooks' ? '篇' :
   kind === 'npcs' ? '人' :
+  kind === 'treasures' ? '个' :
   kind === 'encounters' || kind === 'village' || kind === 'music' || kind === 'scenario' ? '条' : '件';
 ---
 
@@ -86,6 +91,18 @@ const unit =
         <option value="">全部分类</option>
         {scenarioSections.map((t) => <option value={t}>{t}</option>)}
       </select>
+    )}
+    {kind === 'treasures' && (
+      <>
+        <select class="ot-dt-type" aria-label="按地图筛选">
+          <option value="">全部地图</option>
+          {treasureMaps.map((m) => <option value={m}>{m}</option>)}
+        </select>
+        <select class="ot-dt-type2" aria-label="按箱型筛选">
+          <option value="">全部箱型</option>
+          {treasureBoxes.map((t) => <option value={t}>{t}</option>)}
+        </select>
+      </>
     )}
     <input class="ot-dt-search" type="search" placeholder="搜索…" aria-label="搜索" />
     <span class="ot-dt-count" aria-live="polite"></span>
@@ -282,6 +299,30 @@ const unit =
               <td class="ot-dt-name"><span class="ot-dt-ename">{r.name}</span></td>
               <td class="ot-dt-detail">{r.detail || '—'}</td>
               <td class="ot-dt-detail">{r.extra || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'treasures' && (
+      <table class="ot-dt">
+        <thead>
+          <tr>
+            <th data-sort="type">地图</th>
+            <th data-sort="type2">箱型</th>
+            <th data-sort="name">奖励</th>
+            <th>地区</th>
+          </tr>
+        </thead>
+        <tbody>
+          {treasureRows.map((r) => (
+            <tr data-name={`${r.rewards || ''} ${r.label || ''}`}
+              data-type={r.mapName} data-type2={r.boxType}>
+              <td>{r.mapName || '—'}</td>
+              <td class="ot-dt-skill">{r.boxType}{r.isBlue ? ' · 蓝' : ''}</td>
+              <td class="ot-dt-name"><span class="ot-dt-ename">{r.rewards || (r.hasReward ? '—' : '（无奖励表）')}</span></td>
+              <td class="ot-dt-detail">{r.regionName || '—'}</td>
             </tr>
           ))}
         </tbody>
