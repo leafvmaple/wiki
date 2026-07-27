@@ -79,6 +79,20 @@ export default defineConfig({
                 { label: '角色技能', link: '/games/octopath-traveler-0/character-skills/' },
               ],
             },
+            {
+              label: '资料表',
+              items: [
+                { label: '商店一览', link: '/games/octopath-traveler-0/shops/' },
+                { label: 'NPC 行动', link: '/games/octopath-traveler-0/npc-actions/' },
+                { label: '遇敌一览', link: '/games/octopath-traveler-0/encounters/' },
+                { label: '宝箱一览', link: '/games/octopath-traveler-0/treasures/' },
+                { label: '村庄与贸易', link: '/games/octopath-traveler-0/village/' },
+                { label: '音乐与留声机', link: '/games/octopath-traveler-0/music/' },
+                { label: '故事书', link: '/games/octopath-traveler-0/storybooks/' },
+                { label: '剧情回想', link: '/games/octopath-traveler-0/scenario/' },
+                { label: '成就', link: '/games/octopath-traveler-0/trophies/' },
+              ],
+            },
           ],
         },
         {
