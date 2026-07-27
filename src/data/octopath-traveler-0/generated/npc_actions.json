@@ -12971,6 +12971,34 @@
   "hearOk": "君ならわかる？"
  },
  {
+  "name": "近衛隊長マリアンネ",
+  "mapName": "艾德拉斯城堡 -女王的房间-",
+  "mapLabel": "Map_TP_Cliff_N0_2002_F1",
+  "actions": [
+   "打听"
+  ],
+  "actionText": "打听",
+  "purchaseCount": 0,
+  "purchases": "",
+  "employPrice": 0,
+  "employRank": 0,
+  "hearOk": ""
+ },
+ {
+  "name": "重臣クラウザー",
+  "mapName": "艾德拉斯城堡 -女王的房间-",
+  "mapLabel": "Map_TP_Cliff_N0_2002_F1",
+  "actions": [
+   "打听"
+  ],
+  "actionText": "打听",
+  "purchaseCount": 0,
+  "purchases": "",
+  "employPrice": 0,
+  "employRank": 0,
+  "hearOk": ""
+ },
+ {
   "name": "重臣クラウザー",
   "mapName": "艾德拉斯城堡 -女王的房间-",
   "mapLabel": "Map_TP_Cliff_N0_2002_F1",
