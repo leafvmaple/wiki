@@ -105,6 +105,7 @@ export default defineConfig({
               items: [
                 { label: '人类装备', link: '/games/metal-max/equipment/human/' },
                 { label: '战车装备', link: '/games/metal-max/equipment/tank/' },
+                { label: '炮弹', link: '/games/metal-max/equipment/shells/' },
               ],
             },
             {

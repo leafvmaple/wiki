@@ -4,11 +4,13 @@
 //   kind="tank"    — tank-parts.json（主砲/S-E/機銃/Cユニット/エンジン，按分类筛选）
 //   kind="chassis" — tank-chassis.json（8 车体，数值来自玩家战车基础表，无筛选）
 //   kind="special" — special-items.json（非商店流通的 62 件，按大类筛选）
+//   kind="shells"  — shells.json（炮弹 S00–S0E，15 发，无筛选）
 // 名称以日版为准，中文名为民间汉化 ROM 的译名，仅作辅助识别。
 import humanEquipment from '../data/metal-max/generated/human-equipment.json';
 import tankParts from '../data/metal-max/generated/tank-parts.json';
 import chassis from '../data/metal-max/generated/tank-chassis.json';
 import specialItems from '../data/metal-max/generated/special-items.json';
+import shells from '../data/metal-max/generated/shells.json';
 
 type Row = Record<string, any>;
 const { kind = 'human' } = Astro.props as { kind?: string };
@@ -28,8 +30,10 @@ const chassisRows = chassis as Row[];
 const spRows = specialItems as Row[];
 const spGroups = [...new Set(spRows.map((s) => s.group))];
 
+const shellRows = shells as Row[];
+
 const searchKey = (r: Row) => [r.nameJa, r.nameZh].filter(Boolean).join(' ');
-const hasToolbar = kind !== 'chassis';
+const hasToolbar = kind !== 'chassis' && kind !== 'shells';
 ---
 
 <div class="mm-dt-wrap not-content" data-unit="件">
@@ -150,6 +154,32 @@ const hasToolbar = kind !== 'chassis';
               </td>
               <td class="mm-dt-long">{s.drops.length ? s.drops.join('、') : '—'}</td>
               <td class:list={['mm-dt-long', s.other === '待查' && 'mm-dt-open']}>{s.other ?? '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'shells' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">炮弹</th>
+            <th data-sort="price" class="num">单价</th>
+            <th>贩售点</th>
+            <th>备注</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shellRows.map((s) => (
+            <tr data-name={searchKey(s)} data-price={s.price ?? -1}>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{s.nameJa}</span>
+                {s.nameZh && <span class="mm-dt-zh">{s.nameZh}</span>}
+              </td>
+              <td class="num">{money(s.price)}</td>
+              <td class="mm-dt-long">{s.soldAt ?? '—'}</td>
+              <td class:list={['mm-dt-long', !s.note && 'mm-dt-open']}>{s.note ?? '—'}</td>
             </tr>
           ))}
         </tbody>

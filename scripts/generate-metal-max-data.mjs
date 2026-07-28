@@ -168,6 +168,62 @@ for (const line of unbuyableDoc.split('\n')) {
     other,
   });
 }
+
+// ---- 炮弹（独立 id 空间 S00–S0E：特殊炮弹 + 通常弹 + 装甲片）----
+// 贩售点从 services.json 的全商店清单反查（特殊炮弹店 / 炮弹售货机 / 装甲片售货机）。
+const services = (await readJson(path.join(mapViewerRoot, 'res/metal_max/data/services.json')))
+  .services;
+const shellSellers = new Map();
+for (const svc of Object.values(services)) {
+  const seen = new Set();
+  for (const entry of svc.entries ?? []) {
+    const itemId = entry.itemId;
+    if (typeof itemId !== 'string' || !itemId.startsWith('S') || seen.has(itemId)) continue;
+    seen.add(itemId);
+    const label = (svc.name?.zh ?? svc.name?.ja ?? svc.id)
+      .replace(/自[販贩][売卖]?[机機]/, '售货机')
+      .replace(/^特殊炮弹(?= \d)/, '特殊炮弹店');
+    if (!shellSellers.has(itemId)) shellSellers.set(itemId, []);
+    shellSellers.get(itemId).push(label);
+  }
+}
+const formatSellers = (labels) => {
+  if (!labels?.length) return null;
+  const groups = new Map();
+  for (const label of labels) {
+    const m = label.match(/^(.*?)\s*(\d+)$/);
+    const base = m ? m[1] : label;
+    if (!groups.has(base)) groups.set(base, []);
+    if (m) groups.get(base).push(m[2]);
+  }
+  return [...groups]
+    .map(([base, nums]) => {
+      if (!nums.length) return base;
+      nums.sort();
+      return nums.length > 6 ? `${base} ×${nums.length}` : `${base} ${nums.join('・')}`;
+    })
+    .join('、');
+};
+// 只写已考证/自明的备注；效果未逆向的炮弹留空
+const SHELL_NOTES = {
+  S00: '名字即「哑弹」，仅一家店贩售的恶趣味商品',
+  S07: '无任何商店贩售，获取渠道待查',
+  S08: '敌组全体命中/回避系数减半，可叠加持续整场（见战斗道具机制）',
+  S0D: '主炮通常弹药',
+  S0E: '装甲片：修复战车 SP，1G/枚',
+};
+const shells = Object.entries(mvItems)
+  .filter(([key]) => key.startsWith('S'))
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([key, entry]) => ({
+    id: key,
+    nameJa: entry.name.ja,
+    nameZh: entry.name.zh ?? null,
+    price: price(entry.price),
+    soldAt: formatSellers(shellSellers.get(key)),
+    note: SHELL_NOTES[key] ?? null,
+  }));
+
 const assert = (cond, message) => {
   if (!cond) throw new Error(`validation failed: ${message}`);
 };
@@ -196,6 +252,10 @@ for (const [group, expected] of Object.entries(expectedGroupCounts)) {
   );
 }
 assert(specialItems.length > 0, 'no special items parsed');
+assert(shells.length === 15, `shells ${shells.length} != 15`);
+for (const row of shells) {
+  assert(row.nameJa, `missing nameJa on shell ${row.id}`);
+}
 for (const row of specialItems) {
   assert(row.nameJa, `missing nameJa on special item ${row.id}`);
   assert(
@@ -212,6 +272,7 @@ const summary = {
     tankParts: tankParts.length,
     tankChassis: chassis.length,
     specialItems: specialItems.length,
+    shells: shells.length,
     humanByCategory: countBy(humanEquipment, 'category'),
     partsByCategory: countBy(tankParts, 'category'),
     specialByGroup,
@@ -233,8 +294,9 @@ await writeJson('human-equipment.json', humanEquipment);
 await writeJson('tank-parts.json', tankParts);
 await writeJson('tank-chassis.json', chassis);
 await writeJson('special-items.json', specialItems);
+await writeJson('shells.json', shells);
 await writeJson('summary.json', summary);
 
 console.log(
-  `metal-max: ${humanEquipment.length} human equipment, ${tankParts.length} tank parts, ${chassis.length} chassis, ${specialItems.length} special items -> ${path.relative(repoRoot, outputRoot)}`,
+  `metal-max: ${humanEquipment.length} human equipment, ${tankParts.length} tank parts, ${chassis.length} chassis, ${specialItems.length} special items, ${shells.length} shells -> ${path.relative(repoRoot, outputRoot)}`,
 );

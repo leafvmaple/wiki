@@ -6,6 +6,7 @@
     "tankParts": 80,
     "tankChassis": 8,
     "specialItems": 62,
+    "shells": 15,
     "humanByCategory": {
       "頭防具": 8,
       "体防具": 8,
