@@ -37,6 +37,9 @@ const residentSkills = (c.residentSkills ?? []) as Array<{
   name: string; detail: string; friendship: number;
 }>;
 
+// 地图上对其 NPC 分身使用「打听」获得的人物情报，随剧情推进有多个阶段。
+const intros = (c.intros ?? []) as string[];
+
 const hasPrereq =
   (c.prereqQuests?.length ?? 0) > 0 || (c.prereqChars?.length ?? 0) > 0 || flagText.length > 0;
 
@@ -116,6 +119,23 @@ const VER = '1.0.8';
           </li>
         ))}
       </ul>
+    </section>
+  )}
+
+  {intros.length > 0 && (
+    <section class="otc-section">
+      <h2>打听情报</h2>
+      <p class="otc-muted">
+        在地图上对其使用「打听」指令获得的人物情报{intros.length > 1 ? '，随剧情推进而变化' : ''}。
+      </p>
+      <div class="otc-intros">
+        {intros.map((t, i) => (
+          <blockquote class="otc-intro">
+            {intros.length > 1 && <span class="otc-intro-stage">阶段 {i + 1}</span>}
+            {t.split('\n').map((line: string) => <span>{line}</span>)}
+          </blockquote>
+        ))}
+      </div>
     </section>
   )}
 
@@ -416,6 +436,28 @@ const VER = '1.0.8';
   .otc-resident-detail {
     color: var(--leaf-text-muted);
     font-size: 0.88rem;
+  }
+
+  /* 打听情报 — staged intro quotes */
+  .otc-intros {
+    display: grid;
+    gap: 0.8rem;
+  }
+  .otc-intro {
+    border-left: 3px solid color-mix(in srgb, var(--leaf-primary) 40%, var(--leaf-border));
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0.3rem 0 0.3rem 0.8rem;
+  }
+  .otc-intro span {
+    line-height: 1.6;
+  }
+  .otc-intro-stage {
+    color: var(--leaf-primary-hover);
+    font-size: 0.78rem;
+    font-weight: 800;
   }
 
   .otc-nav {

@@ -1,0 +1,258 @@
+---
+// Octopath Traveler 0 — NON-combat Wishvale resident profile (泰姆 etc.).
+// Data-driven from residents.json: how they move in (recruit quest / field
+// invite / story), resident skills, and the 打听-revealed intro stages.
+// Combat companions use OctopathCharacterProfile instead.
+import residents from '../data/octopath-traveler-0/generated/residents.json';
+
+type Resident = Record<string, any>;
+const { uid } = Astro.props as { uid: number | string };
+const r = (residents as Resident[]).find((x) => String(x.uid) === String(uid)) ?? {};
+
+const JOIN: Record<string, string> = {
+  quest: '居民招募任务',
+  invite: '野外邀请',
+  story: '剧情入住',
+};
+const joinLabel = JOIN[r.joinType] ?? '入住方式待考证';
+
+const skills = (r.skills ?? []) as Array<{ name: string; detail: string; friendship: number }>;
+const intros = (r.intros ?? []) as string[];
+const maps = (r.maps ?? []) as string[];
+
+const VER = '1.0.8';
+---
+
+<article class="otr not-content">
+  <header class="otr-head">
+    <p class="otr-kicker">维舒贝尔居民 · 非战斗伙伴</p>
+    <h1 class="otr-name">{r.name}</h1>
+    <div class="otr-badges">
+      <span class="otr-badge">{joinLabel}</span>
+      {r.joinType === 'invite' && r.inviteRate != null && (
+        <span class="otr-badge">邀请基础成功率 {r.inviteRate}%</span>
+      )}
+    </div>
+  </header>
+
+  <section class="otr-section">
+    <h2>入住方式</h2>
+    {r.joinType === 'quest' && r.questHref ? (
+      <a class="otr-quest" href={r.questHref}>
+        <span class="otr-quest-verb">居民招募任务</span>
+        <span class="otr-quest-title">{r.questTitle}</span>
+      </a>
+    ) : r.joinType === 'quest' && r.questTitle ? (
+      <p>居民招募任务「{r.questTitle}」。</p>
+    ) : r.joinType === 'invite' ? (
+      <p>
+        在野外对其使用「邀请」指令即可招募入住（基础成功率 {r.inviteRate}%）。
+      </p>
+    ) : (
+      <p>随剧情事件入住维舒贝尔。</p>
+    )}
+    {maps.length > 0 && (
+      <p class="otr-muted">出现地点：{maps.join('、')}</p>
+    )}
+  </section>
+
+  {skills.length > 0 && (
+    <section class="otr-section">
+      <h2>居民技能</h2>
+      <ul class="otr-skills">
+        {skills.map((s) => (
+          <li>
+            <strong>{s.name}</strong>
+            {s.friendship > 0 && <span class="otr-badge">友好度 {s.friendship}</span>}
+            {s.detail && <span class="otr-skill-detail">{s.detail}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {intros.length > 0 && (
+    <section class="otr-section">
+      <h2>打听情报</h2>
+      <p class="otr-muted">
+        在地图上对其使用「打听」指令获得的人物情报{intros.length > 1 ? '，随剧情推进而变化' : ''}。
+      </p>
+      <div class="otr-intros">
+        {intros.map((t, i) => (
+          <blockquote class="otr-intro">
+            {intros.length > 1 && <span class="otr-intro-stage">阶段 {i + 1}</span>}
+            {t.split('\n').map((line: string) => <span>{line}</span>)}
+          </blockquote>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <nav class="otr-nav">
+    <a href="/games/octopath-traveler-0/characters/">← 角色一览</a>
+    <a href="/games/octopath-traveler-0/village/">村庄与贸易 →</a>
+  </nav>
+
+  <p class="otr-foot">{r.name} · 适用版本 v{VER} · 简体中文</p>
+</article>
+
+<!-- Resident pages own their title via the in-card hero name; hide
+     Starlight's default page title (loads only on pages mounting this). -->
+<style is:global>
+  .main-pane .content-panel:has(> .sl-container > h1#_top) {
+    display: none;
+  }
+</style>
+
+<style>
+  .otr {
+    display: grid;
+    gap: 1.1rem;
+  }
+  .otr h2 {
+    color: var(--leaf-heading);
+    font-size: 1.15rem;
+  }
+  .otr-head {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.4rem 1.5rem;
+  }
+  .otr-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .otr-name {
+    color: var(--leaf-heading);
+    font-size: clamp(1.9rem, 4.5vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1.05;
+    margin: 0;
+  }
+  .otr-badges {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .otr-badge {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text-muted);
+    font-size: 0.84rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.3rem 0.6rem;
+  }
+  .otr-section {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.7rem;
+    padding: 1rem 1.2rem;
+  }
+  .otr-section p {
+    margin: 0;
+  }
+  .otr-quest {
+    align-items: baseline;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 32%, var(--leaf-border));
+    border-radius: var(--leaf-radius-card);
+    background: color-mix(in srgb, var(--leaf-primary) 9%, var(--leaf-bg-card));
+    color: var(--leaf-heading);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.6rem;
+    padding: 0.6rem 0.75rem;
+    text-decoration: none;
+    width: fit-content;
+  }
+  .otr-quest:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 55%, var(--leaf-border));
+    box-shadow: var(--leaf-shadow-card);
+  }
+  .otr-quest-verb {
+    color: var(--leaf-primary-hover);
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+  .otr-quest-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+  .otr-skills {
+    display: grid;
+    gap: 0.45rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .otr-skills li {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.6rem;
+  }
+  .otr-skills strong {
+    color: var(--leaf-heading);
+  }
+  .otr-skill-detail {
+    color: var(--leaf-text-muted);
+    font-size: 0.88rem;
+  }
+  .otr-intros {
+    display: grid;
+    gap: 0.8rem;
+  }
+  .otr-intro {
+    border-left: 3px solid color-mix(in srgb, var(--leaf-primary) 40%, var(--leaf-border));
+    color: var(--leaf-text);
+    display: grid;
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0.3rem 0 0.3rem 0.8rem;
+  }
+  .otr-intro span {
+    line-height: 1.6;
+  }
+  .otr-intro-stage {
+    color: var(--leaf-primary-hover);
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+  .otr-muted {
+    color: var(--leaf-text-muted);
+    font-size: 0.88rem;
+    margin: 0;
+  }
+  .otr-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.2rem;
+    justify-content: space-between;
+  }
+  .otr-nav a {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .otr-nav a:hover {
+    text-decoration: underline;
+  }
+  .otr-foot {
+    color: var(--leaf-text-muted);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,3161 @@
+[
+ {
+  "uid": 90780,
+  "uids": [
+   90780,
+   960243
+  ],
+  "name": "泰姆",
+  "href": "/games/octopath-traveler-0/characters/90780/",
+  "joinType": "quest",
+  "questId": 9001035,
+  "questTitle": "复兴的灯火　第1部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001035/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "北希亚特珀利斯平原"
+  ],
+  "skills": [
+   {
+    "name": "供应石材",
+    "detail": "定期带来石材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "维舒贝尔的大力士。嗜酒如命。\n包揽了所有力气活，\n内心深处对被市民需要感到由衷的高兴。",
+   "在维舒贝尔出生长大的男性。\n城镇被袭击时，逃进了一个小空屋，\n自此便住了下来。\n有时会到附近的城镇干点活，\n赚的钱几乎都拿来买酒了。"
+  ]
+ },
+ {
+  "uid": 960233,
+  "uids": [
+   960233
+  ],
+  "name": "伊利安",
+  "href": "/games/octopath-traveler-0/characters/960233/",
+  "joinType": "quest",
+  "questId": 9001038,
+  "questTitle": "复兴的灯火　第2部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001038/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "赠送食材",
+    "detail": "定期带来各种食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾在维舒贝尔和妻子奥丽弗一起务农的男性。\n非常虔诚，从未间断去教堂。\n如今，他一边日夜祈祷独生女里拉平安无事，\n一边也在寻找她的下落。",
+   "在维舒贝尔务农的男性。\n因对女儿的牵挂而更加笃信教义，\n总是一边祈祷一边努力耕作。"
+  ]
+ },
+ {
+  "uid": 960234,
+  "uids": [
+   960234
+  ],
+  "name": "奥丽弗",
+  "href": "/games/octopath-traveler-0/characters/960234/",
+  "joinType": "quest",
+  "questId": 9001038,
+  "questTitle": "复兴的灯火　第2部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001038/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "烹饪行家",
+    "detail": "【据点】极少数情况下会增加美食数量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾在维舒贝尔和丈夫伊利安一起务农的女性。\n独生女里拉的走失，让她心中一直郁结难消。",
+   "在维舒贝尔务农的女性。\n原本是个爱笑爱闹、性格开朗的人，\n但因担心女儿里拉，\n便与丈夫伊利安一同频繁前往教会。"
+  ]
+ },
+ {
+  "uid": 960237,
+  "uids": [
+   960237
+  ],
+  "name": "卢塔斯",
+  "href": "/games/octopath-traveler-0/characters/960237/",
+  "joinType": "quest",
+  "questId": 9001039,
+  "questTitle": "复兴的灯火　第3部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001039/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "供应石材",
+    "detail": "定期带来石材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "维舒贝尔出身的年轻人。\n虽然有些粗野，但很有男子气概。\n为了遵守在未婚妻娜露临终前许下的承诺，\n他在心中默默发誓，无论未来如何，都要活下去。",
+   "住在维舒贝尔的年轻人。\n正为了复兴城镇而筹备建材，\n帮玛戈奶奶种菜。\n虽言语粗俗，但为人正直可靠。"
+  ]
+ },
+ {
+  "uid": 960238,
+  "uids": [
+   960238
+  ],
+  "name": "贾斯帕",
+  "href": "/games/octopath-traveler-0/characters/960238/",
+  "joinType": "quest",
+  "questId": 9001040,
+  "questTitle": "复兴的灯火　第4部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001040/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "供应食材",
+    "detail": "定期带来各种高级食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "住在维舒贝尔的年轻人。\n看上去靠不住，但在关键时刻很靠谱。\n救下里拉之后，便如家人一般待她。\n虽然体力不行，但细心周到。\n这一点玛戈奶奶也经常夸他。",
+   "维舒贝尔出身的年轻人。\n看似软弱靠不住，但在关键时刻很靠谱。\n他一直照顾着里拉的生活，\n但因过度疲劳而病倒了，\n后来在库利亚布鲁克疗养。"
+  ]
+ },
+ {
+  "uid": 960239,
+  "uids": [
+   960239
+  ],
+  "name": "里拉",
+  "href": "/games/octopath-traveler-0/characters/960239/",
+  "joinType": "quest",
+  "questId": 9001040,
+  "questTitle": "复兴的灯火　第4部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001040/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "魅力四射",
+    "detail": "与带来道具的居民同住 可小幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "伊利安和奥丽弗的独生女。\n虽然嘴上不饶人又爱逞强，但本性善良。\n经常倾听大人讲话，\n偶尔说出成熟的话，令周围的人感到惊讶。",
+   "伊利安和奥丽弗的独生女。\n虽然嘴上不饶人又爱逞强，但本性善良。\n跟父母走散以后被贾斯帕所救，\n从此便与他一起生活着。"
+  ]
+ },
+ {
+  "uid": 960240,
+  "uids": [
+   960240
+  ],
+  "name": "佳拉贝尔",
+  "href": "/games/octopath-traveler-0/characters/960240/",
+  "joinType": "quest",
+  "questId": 9001041,
+  "questTitle": "复兴的灯火　第5部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001041/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩 -城堡前广场-"
+  ],
+  "skills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "维舒贝尔出身的女性。\n无法忘记城镇被袭击的悲剧，\n一直居和卡兰住在牧人岩。\n与主角一行人重逢之后，\n她便决心重返故乡。",
+   "曾在伍多兰多的镇上经营旅店的女性。\n现在住在丈夫卡兰的故乡阿尔提尼亚。\n有时候会突然地，特别想吃故乡的乡土料理。",
+   "维舒贝尔土生土长的女性。\n与丈夫卡兰一同回到了故乡。\n大家都在为城镇的复兴努力着，\n她也在思考自己能为大家做些什么。"
+  ]
+ },
+ {
+  "uid": 960241,
+  "uids": [
+   960241
+  ],
+  "name": "卡兰",
+  "href": "/games/octopath-traveler-0/characters/960241/",
+  "joinType": "quest",
+  "questId": 9001041,
+  "questTitle": "复兴的灯火　第5部分",
+  "questHref": "/games/octopath-traveler-0/quests/recruit/9001041/",
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩 -城堡前广场-"
+  ],
+  "skills": [
+   {
+    "name": "赠送猎获",
+    "detail": "定期带来肉类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "牧人岩出身的男性。\n与佳拉贝尔结婚后移居到维舒贝尔，\n将此地视为第二故乡。\n是一个性格稳重，技艺精湛的猎人。",
+   "牧人岩出身的男性。\n移居到妻子佳拉贝尔的故乡维舒贝尔。\n是一个性格稳重，技艺精湛的猎人。\n如今作为警备团员，与弗恩一起守护城镇。"
+  ]
+ },
+ {
+  "uid": 10007,
+  "uids": [
+   10007
+  ],
+  "name": "看上去像猎人的青年",
+  "href": "/games/octopath-traveler-0/characters/10007/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [],
+  "skills": [
+   {
+    "name": "高效饲育",
+    "detail": "【牧场】有助于增加产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "看上去像猎人，实则是一位务农的青年。\n他父亲曾严格教导他猎人所需的知识，\n他却因此拒绝继承父业，开始务农。\n魔物相关知识对农业也有帮助，\n他如今十分感激父亲。"
+  ]
+ },
+ {
+  "uid": 10010,
+  "uids": [
+   10010
+  ],
+  "name": "耍嘴皮子的护卫",
+  "href": "/games/octopath-traveler-0/characters/10010/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [],
+  "skills": [
+   {
+    "name": "供应攻击道具",
+    "detail": "定期带来战斗道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "唐·塔维亚尼的部下。\n曾经是个扒窃过路旅行者的坏小孩，\n被塔维亚尼收留之后洗心革面。\n至今仍珍藏着从他身上偷来的钱包。"
+  ]
+ },
+ {
+  "uid": 10016,
+  "uids": [
+   10016
+  ],
+  "name": "擅长烹饪的流氓",
+  "href": "/games/octopath-traveler-0/characters/10016/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "瓦洛雷 -大道-"
+  ],
+  "skills": [
+   {
+    "name": "烹饪行家",
+    "detail": "【据点】极少数情况下会增加美食数量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "学别人做起“香粉”生意的男性。\n其实他对“香粉”知之甚少，只是将树木果实\n捣成粉末状出售，结果味道大受好评。"
+  ]
+ },
+ {
+  "uid": 10019,
+  "uids": [
+   10019
+  ],
+  "name": "顽强生活的舞娘",
+  "href": "/games/octopath-traveler-0/characters/10019/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "瓦洛雷 -大道-"
+  ],
+  "skills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在黑道组织掌控的城镇中顽强生活的舞娘。\n她曾在桑谢德的酒馆里工作过，\n但经理对舞娘特别狠，于是逃了出来。"
+  ]
+ },
+ {
+  "uid": 10060,
+  "uids": [
+   10060
+  ],
+  "name": "怀疑英雄的男性",
+  "href": "/games/octopath-traveler-0/characters/10060/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛"
+  ],
+  "skills": [
+   {
+    "name": "供应石材",
+    "detail": "定期带来石材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "不信任英雄泰坦斯的男性佣兵。\n他凭借自身实力，经历了许多战场的洗礼。"
+  ]
+ },
+ {
+  "uid": 10067,
+  "uids": [
+   10067
+  ],
+  "name": "过分虔诚的行商人",
+  "href": "/games/octopath-traveler-0/characters/10067/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛"
+  ],
+  "skills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "过分虔诚的他会从外出行商的七天前开始就祈祷。\n他从早到晚都在祈祷行商顺利。\n他又是担心遭到盗贼袭击货物被抢，\n又是担心出现魔物自己命丧当场，\n一直提心吊胆，一个劲地祈祷。\n也许他只是缺乏安全感而已。"
+  ]
+ },
+ {
+  "uid": 10077,
+  "uids": [
+   10077
+  ],
+  "name": "流浪的药师",
+  "href": "/games/octopath-traveler-0/characters/10077/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛"
+  ],
+  "skills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "辗转于各地的药师。\n从植物学家朋友那里听说了珍稀药草的存在，\n便来到了恩波格洛。\n可到了才发现，自己忘了问关键的问题——地点，\n现在不知如何是好。"
+  ]
+ },
+ {
+  "uid": 10079,
+  "uids": [
+   10079
+  ],
+  "name": "酷酷的猎人",
+  "href": "/games/octopath-traveler-0/characters/10079/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛 -东街-"
+  ],
+  "skills": [
+   {
+    "name": "赠送猎获",
+    "detail": "定期带来肉类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "嘴角挂着冷艳微笑的美丽猎人。\n全身笼罩着生人勿近的气场。\n其实她性格非常招人喜欢，\n把照顾人当做自己的人生意义。"
+  ]
+ },
+ {
+  "uid": 10090,
+  "uids": [
+   10090
+  ],
+  "name": "武器店学徒",
+  "href": "/games/octopath-traveler-0/characters/10090/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "希亚特珀利斯"
+  ],
+  "skills": [
+   {
+    "name": "供应铁材",
+    "detail": "定期带来铁材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "心思活络的武器店学徒。\n他很尊敬一心经营实用装备的老板，\n但对工作挑三拣四是赚不到钱的。\n他曾提议老板也应该进戏剧道具来卖，\n但老板就是听不进去。"
+  ]
+ },
+ {
+  "uid": 10093,
+  "uids": [
+   10093
+  ],
+  "name": "谈论寇斯特兰多的女性",
+  "href": "/games/octopath-traveler-0/characters/10093/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "希亚特珀利斯"
+  ],
+  "skills": [
+   {
+    "name": "赠送食材",
+    "detail": "定期带来各种食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "来自沿海地区寇斯特兰多的女性。\n姣好的容貌和与生俱来的开朗性格\n让她有了许多追求者，\n但她总是干脆地拒绝那些男人。\n这似乎让她的魅力更加难以抵挡了。"
+  ]
+ },
+ {
+  "uid": 10098,
+  "uids": [
+   10098
+  ],
+  "name": "爱看书的神官",
+  "href": "/games/octopath-traveler-0/characters/10098/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "希亚特珀利斯"
+  ],
+  "skills": [
+   {
+    "name": "信仰坚定",
+    "detail": "【教堂】邀请支援者时的 召唤次数+1。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "痴迷看书的神官。\n由于已将口才类书籍融会贯通，\n她的讲经吸引了越来越多的人，\n司书和强壮的男子等人便是其中之一。"
+  ]
+ },
+ {
+  "uid": 10102,
+  "uids": [
+   10102
+  ],
+  "name": "耿直的新人演员",
+  "href": "/games/octopath-traveler-0/characters/10102/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "大剧场 -入口-"
+  ],
+  "skills": [
+   {
+    "name": "供应布料",
+    "detail": "定期带来布料。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "刚加入剧团的新人演员。\n原本在老家帮忙干针线活，\n后因一个偶然的机会迷上了绚烂的舞台，\n下定决心，不顾父母的反对加入了剧团。"
+  ]
+ },
+ {
+  "uid": 10105,
+  "uids": [
+   10105
+  ],
+  "name": "强势的农户",
+  "href": "/games/octopath-traveler-0/characters/10105/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "希亚特珀利斯"
+  ],
+  "skills": [
+   {
+    "name": "采收行家",
+    "detail": "【田地及牧场】少量增加收成或产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "来希亚特珀利斯销售农产品的农户。\n虽然尝试过强行推销，\n但希亚特珀利斯已经有了稳定的流通网络，\n他打不开销路。\n现在他正在寻找一个能让自己一展抱负的新天地。"
+  ]
+ },
+ {
+  "uid": 10113,
+  "uids": [
+   10113
+  ],
+  "name": "卢·曼",
+  "href": "/games/octopath-traveler-0/characters/10113/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "赠送海产品",
+    "detail": "定期带来鱼类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "我名叫卢·曼。\n我志向高远，将成为一名伟大的冒险家……大概吧。\n我终将踏上旅程，现在正为那一天做准备。\n向我求助也没用哦，我不会去的。\n……诶？你不是来求助的？"
+  ]
+ },
+ {
+  "uid": 10144,
+  "uids": [
+   10144
+  ],
+  "name": "曾经很受宠的舞娘",
+  "href": "/games/octopath-traveler-0/characters/10144/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "筹集叶币",
+    "detail": "定期带来叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "赫尔根尼修曾经很受宠的一个舞娘。\n由于不擅长跳舞，她的主要工作是招待客人。\n然而，在工作中和送东西给自己的客人谈起了恋爱。\n老板知道此事后，就一直让她专门打杂。"
+  ]
+ },
+ {
+  "uid": 10145,
+  "uids": [
+   10145
+  ],
+  "name": "勇敢的招牌女店员",
+  "href": "/games/octopath-traveler-0/characters/10145/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "魅力四射",
+    "detail": "与带来道具的居民同住 可小幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在酒馆工作的女性。\n与生俱来的开朗性格，使她转眼间成为了招牌女店员。\n凭借祖父留给她的精灵石，对付闹事的客人手到擒来。\n她那勇敢的做派博得了不少客人的好感。"
+  ]
+ },
+ {
+  "uid": 10163,
+  "uids": [
+   10163
+  ],
+  "name": "厨师马格",
+  "href": "/games/octopath-traveler-0/characters/10163/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "烹饪行家",
+    "detail": "【据点】极少数情况下会增加美食数量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "库利亚布鲁克的厨师。\n他用大量从河里弄来的新鲜鱼贝烹制的小菜，\n虽然称不上豪华，但品质极好，\n人们都说味道中带着家的温馨。"
+  ]
+ },
+ {
+  "uid": 10187,
+  "uids": [
+   10187
+  ],
+  "name": "受不了酒气的男性",
+  "href": "/games/octopath-traveler-0/characters/10187/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "供应布料",
+    "detail": "定期带来布料。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "住在克拉古斯比亚酒馆隔壁的男性。\n住这里是因为离酒馆近的地方便宜。\n他的酒量极差，只要闻到酒气，人就晕乎乎的。\n虽然想搬走，但关键是没有钱。"
+  ]
+ },
+ {
+  "uid": 10189,
+  "uids": [
+   10189
+  ],
+  "name": "盗贼团的头领",
+  "href": "/games/octopath-traveler-0/characters/10189/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "赠送叶币",
+    "detail": "定期带来极少量叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "表面上是王国的普通市民，实际上是盗贼团的头领。\n前团长曾说盗窃的本质是不被人发现，\n在听了这个教诲之后，他盗取了艾德拉斯王国国民的身份。"
+  ]
+ },
+ {
+  "uid": 10197,
+  "uids": [
+   10197
+  ],
+  "name": "职业挨揍人",
+  "href": "/games/octopath-traveler-0/characters/10197/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚 -贫民窟-"
+  ],
+  "skills": [
+   {
+    "name": "实战训练",
+    "detail": "【训练所】略微增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "利用自己强健的体魄，把供人殴打当成工作的男性。\n由于工作太少，靠供那些需要发泄压力的煤矿工等人殴打\n来维持生计。"
+  ]
+ },
+ {
+  "uid": 10205,
+  "uids": [
+   10205
+  ],
+  "name": "目光严厉的木匠",
+  "href": "/games/octopath-traveler-0/characters/10205/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩"
+  ],
+  "skills": [
+   {
+    "name": "供应木材",
+    "detail": "定期带来木材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "主要进行这座城镇修缮工作的男性木匠。\n为了保留牧人岩的传统风貌，\n每天都自豪地投入到检查和修缮工作中。"
+  ]
+ },
+ {
+  "uid": 10214,
+  "uids": [
+   10214
+  ],
+  "name": "和蔼的古董商",
+  "href": "/games/octopath-traveler-0/characters/10214/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩 -城堡前广场-"
+  ],
+  "skills": [
+   {
+    "name": "慧眼识珠",
+    "detail": "【商店】在交易中，略微提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "四处旅行的好心古董商。\n为了替身体欠佳的父母完成工作而奔波。\n他似乎对物品的价值并不了解，\n只要别人热情恳求，他什么都会买下来。\n但神奇的是，他那里总能聚集到珍宝。"
+  ]
+ },
+ {
+  "uid": 10227,
+  "uids": [
+   10227
+  ],
+  "name": "中层贵族的佣人",
+  "href": "/games/octopath-traveler-0/characters/10227/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "进货行家",
+    "detail": "【商店】小幅缩短交易的进货间隔。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在艾德拉斯中层贵族家当佣人的女性。\n她工作的地方房子不算太大，打扫不会太费事，\n主人也不会要求她用珍稀食材做顶级美食，\n更不会办宴会，所以晚上从来不会特别忙，\n收入也还过得去，没有什么不满。\n非要挑出毛病来的话，就是太闲了。"
+  ]
+ },
+ {
+  "uid": 10228,
+  "uids": [
+   10228
+  ],
+  "name": "退役的士兵长",
+  "href": "/games/octopath-traveler-0/characters/10228/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "技术训练",
+    "detail": "【训练所】略微增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾在艾德拉斯军队当过士兵长的男性。\n他没有多少战斗天赋，但为人宽厚，\n战术知识丰富，深受身边人的信赖。\n然而在一次撤退行动中，负责殿后的他受了重伤。\n身体瘫痪的他，在部下的惋惜声中退役了。"
+  ]
+ },
+ {
+  "uid": 10237,
+  "uids": [
+   10237
+  ],
+  "name": "曾立志当骑士的青年",
+  "href": "/games/octopath-traveler-0/characters/10237/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩"
+  ],
+  "skills": [
+   {
+    "name": "技术训练",
+    "detail": "【训练所】略微增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾立志当骑士的青年。\n他付出双倍的努力，得到了追随的贵族认可。\n可在他即将就任骑士时，主人死于战争，\n他梦想破灭，失去了身份。\n无论走到哪里，都贴身带着主人临死前托付给他的金币。"
+  ]
+ },
+ {
+  "uid": 10281,
+  "uids": [
+   10281
+  ],
+  "name": "斗技场的舞娘",
+  "href": "/games/octopath-traveler-0/characters/10281/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斗技场"
+  ],
+  "skills": [
+   {
+    "name": "魅力非凡",
+    "detail": "与带来道具的居民同住 可大幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在斗技场工作的舞娘。\n她的工作是在比试间断时取悦观众，\n见到她舞蹈的人无不拜倒在她的石榴裙下。\n她的舞蹈越来越热情奔放，\n仿佛在和斗技场热烈氛围共鸣。"
+  ]
+ },
+ {
+  "uid": 10284,
+  "uids": [
+   10284
+  ],
+  "name": "资深主持人",
+  "href": "/games/octopath-traveler-0/characters/10284/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "斗技场"
+  ],
+  "skills": [
+   {
+    "name": "热情澎湃",
+    "detail": "【魔物斗技场】增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "长年为观众介绍剑斗士的资深主持人。\n他的主持策略是无论剑斗士强弱，\n都要将战斗的氛围推到最高潮。\n他今天也用洪亮的声音进行介绍，\n并期盼出现能名留青史的英雄。"
+  ]
+ },
+ {
+  "uid": 10296,
+  "uids": [
+   10296
+  ],
+  "name": "像是有秘密的老人",
+  "href": "/games/octopath-traveler-0/characters/10296/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛 -斗技场前-"
+  ],
+  "skills": [
+   {
+    "name": "供应高级攻击道具",
+    "detail": "定期带来优质战斗道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【剑斗士情报】外号：神秘的奥兹瓦特\n身高／体重：198／52\n弱点：剑／短剑／弓／雷\n\n据说来自某个王国。"
+  ]
+ },
+ {
+  "uid": 10304,
+  "uids": [
+   10304
+  ],
+  "name": "采购酒的女性",
+  "href": "/games/octopath-traveler-0/characters/10304/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛"
+  ],
+  "skills": [
+   {
+    "name": "慧眼识珠",
+    "detail": "【商店】在交易中，略微提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "正走访奥鲁斯特拉各地收集蒸馏酒的女性。\n她记录酒的味道和颜色，并给出综合评价。\n为了贴补旅费，她将记录编撰成了品评手册，\n结果出版后大受好评。\n如今，带着酒来求她给予好评的酿酒师络绎不绝。"
+  ]
+ },
+ {
+  "uid": 10320,
+  "uids": [
+   10320
+  ],
+  "name": "立志当圣火骑士的青年",
+  "href": "/games/octopath-traveler-0/characters/10320/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯 -大圣堂前-"
+  ],
+  "skills": [
+   {
+    "name": "信仰坚定",
+    "detail": "【教堂】邀请支援者时的 召唤次数+1。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "立志当圣火骑士的青年。\n他很崇拜自己又飒又勇的圣火骑士姐姐，\n想像姐姐一样，为守护城镇的和平尽一份力。\n可是他姐姐却担心心地善良的弟弟干不了打打杀杀的事。"
+  ]
+ },
+ {
+  "uid": 10329,
+  "uids": [
+   10329
+  ],
+  "name": "饱经磨砺的圣火骑士",
+  "href": "/games/octopath-traveler-0/characters/10329/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯"
+  ],
+  "skills": [
+   {
+    "name": "实战训练",
+    "detail": "【训练所】略微增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "从小就注定要成为圣火骑士的女性，\n她理所当然地实现了这一目标。\n没有梦想，没有愿望的她，表情总是冷若冰雪。\n唯独在战斗的那一刻，她的眼中才迸发出炽热的光芒。"
+  ]
+ },
+ {
+  "uid": 10342,
+  "uids": [
+   10342
+  ],
+  "name": "新人神官",
+  "href": "/games/octopath-traveler-0/characters/10342/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯 -大圣堂-"
+  ],
+  "skills": [
+   {
+    "name": "采收行家",
+    "detail": "【田地及牧场】少量增加收成或产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "皈依不久的新人神官。\n她出生在一个贫困家庭，为了救济餐而经常去大圣堂。\n吃饭时总是在听祭司讲经，\n不知不觉就记下了祈祷词，莫名其妙地当了神官。\n喜欢大米。"
+  ]
+ },
+ {
+  "uid": 10403,
+  "uids": [
+   10403
+  ],
+  "name": "歌颂杜德克国王的诗人",
+  "href": "/games/octopath-traveler-0/characters/10403/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "魅力非凡",
+    "detail": "与带来道具的居民同住 可大幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "歌唱英雄赞歌的诗人。\n他在大陆各地漂泊，寻找值得自己歌颂的英雄，\n辗转来到了多尼艾斯克。\n在看到杜德克国王慷慨赴死的那一刻，\n确信他就是自己要歌颂的英雄。\n国王死后他仍留在这里继续歌颂国王。"
+  ]
+ },
+ {
+  "uid": 10414,
+  "uids": [
+   10414
+  ],
+  "name": "能看清远处的士兵",
+  "href": "/games/octopath-traveler-0/characters/10414/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "高级技术训练",
+    "detail": "【训练所】增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "附近村庄出身的士兵。\n从小就能看清远处的东西，\n所以发挥专长当了看守兵。\n异族来袭时，最早发现加·罗哈舰队的就是他，\n可惜他没能看出敌人的战力有多强。"
+  ]
+ },
+ {
+  "uid": 10423,
+  "uids": [
+   10423
+  ],
+  "name": "受伤的市民",
+  "href": "/games/octopath-traveler-0/characters/10423/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "采收行家",
+    "detail": "【田地及牧场】少量增加收成或产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在城镇里过着平凡生活的男性。\n从祖父那一辈开始住在这个国家的他，\n和镇上的女性结婚生子，过着平静的生活。\n然而战争颠覆了他这样的生活。\n他失去了家人，自己也受了伤。\n一直无法接受现实的他，不知道今后该如何生活。"
+  ]
+ },
+ {
+  "uid": 10456,
+  "uids": [
+   10456
+  ],
+  "name": "工人联合会的老大",
+  "href": "/games/octopath-traveler-0/characters/10456/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "泰坦斯大圣堂前"
+  ],
+  "skills": [
+   {
+    "name": "供应高级铁材",
+    "detail": "定期带来高级铁材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "恩波格洛一带的工人联合会的老大。\n十分宠爱自己的独生女罗克珊，\n为了保护女儿，他铆足了劲想尽快重建城镇。"
+  ]
+ },
+ {
+  "uid": 10461,
+  "uids": [
+   10461
+  ],
+  "name": "曾是泰坦斯奴隶的女性",
+  "href": "/games/octopath-traveler-0/characters/10461/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "泰坦斯大圣堂前"
+  ],
+  "skills": [
+   {
+    "name": "供应布料",
+    "detail": "定期带来布料。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾是泰坦斯奴隶的女性。\n泰坦斯死后她获得了自由，\n却因红雪失去了家人，从此无家可归。\n听说一个名叫史迪尔斯诺的村子正在招募舞娘，\n想去试试改变人生。"
+  ]
+ },
+ {
+  "uid": 10495,
+  "uids": [
+   10495
+  ],
+  "name": "追寻谜团的探险家",
+  "href": "/games/octopath-traveler-0/characters/10495/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "供应猎获",
+    "detail": "定期带来高级肉类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "追寻世界各地谜团的探险家。\n为了尚未见过的秘宝，无论秘境多么险恶，\n他都毫不畏惧地前去探索。\n听说斯弗拉塔尔加有沉睡的财宝之后，\n他来到了这里。"
+  ]
+ },
+ {
+  "uid": 10497,
+  "uids": [
+   10497
+  ],
+  "name": "画画的女性",
+  "href": "/games/octopath-traveler-0/characters/10497/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加 -宫殿前-"
+  ],
+  "skills": [
+   {
+    "name": "伟大的鉴赏家",
+    "detail": "【商店】在交易中，提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "名震大陆的女画家。\n能满足客户的一切要求，什么都能画，\n在上流阶级中风评很好，\n但她总是在画中暗讽阶级社会。"
+  ]
+ },
+ {
+  "uid": 10513,
+  "uids": [
+   10513
+  ],
+  "name": "心肠慈悲的富豪",
+  "href": "/games/octopath-traveler-0/characters/10513/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "资助者",
+    "detail": "定期带来很多叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "慰问淘金工，和他们一起流汗劳作，沾了满身尘土的砂金富豪。\n他是第一个在淘金热中获得巨大财富的人，非常清楚淘金工的待遇，\n也很理解他们的梦想和艰辛，想和他们共同逐梦。"
+  ]
+ },
+ {
+  "uid": 10515,
+  "uids": [
+   10515
+  ],
+  "name": "静观其变的商人",
+  "href": "/games/octopath-traveler-0/characters/10515/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加 -宫殿前-"
+  ],
+  "skills": [
+   {
+    "name": "砍价达人",
+    "detail": "【商店】购买金额有折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "来自遥远雪国的商人。\n他认为在住着许多大富豪的国家，\n无论多昂贵的东西都能卖出去，\n于是斥巨资买了许多珍品来到这个国家。"
+  ]
+ },
+ {
+  "uid": 10524,
+  "uids": [
+   10524
+  ],
+  "name": "醉醺醺的神官",
+  "href": "/games/octopath-traveler-0/characters/10524/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特"
+  ],
+  "skills": [
+   {
+    "name": "伟大的信仰",
+    "detail": "【教堂】邀请支援者时的 召唤次数+2。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "不顾教会，大白天就在喝酒的神官。\n信仰倒非常虔诚。"
+  ]
+ },
+ {
+  "uid": 10527,
+  "uids": [
+   10527
+  ],
+  "name": "港口城市的地下商人",
+  "href": "/games/octopath-traveler-0/characters/10527/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -摊贩街-"
+  ],
+  "skills": [
+   {
+    "name": "黑市交易",
+    "detail": "【商店】交易品的购买金额翻倍， 但有机会购进特殊道具。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【未登记在册的商人】\n经营范围：有瑕疵的商品"
+  ]
+ },
+ {
+  "uid": 10537,
+  "uids": [
+   10537
+  ],
+  "name": "日记伯伯",
+  "href": "/games/octopath-traveler-0/characters/10537/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -摊贩街-"
+  ],
+  "skills": [
+   {
+    "name": "命名师",
+    "detail": "【理发店】可更改主人公的“名字” 和“喜欢的美食名”。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "日记编号：29173\n我见过许多东西，有稀罕的物件，\n也有匪夷所思的事情……\n而每当我想着最近很少有让我想写进日记里的东西时，\n这些匪夷所思的东西就会出现，\n然后我便继续写下去。"
+  ]
+ },
+ {
+  "uid": 10541,
+  "uids": [
+   10541
+  ],
+  "name": "商船的老船长",
+  "href": "/games/octopath-traveler-0/characters/10541/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -领主宅邸前-"
+  ],
+  "skills": [
+   {
+    "name": "供应海产品",
+    "detail": "定期带来高级鱼类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "返回格兰波特港口的船长。\n和这座城镇的贵族签订契约，\n一直在用自己的船运载各种货物和人员。\n还会在漫长的旅途中捕鱼，\n捕捞的海产品让城镇居民大饱口福。"
+  ]
+ },
+ {
+  "uid": 10545,
+  "uids": [
+   10545
+  ],
+  "name": "旅行的矿石商",
+  "href": "/games/octopath-traveler-0/characters/10545/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特"
+  ],
+  "skills": [
+   {
+    "name": "供应高级石材",
+    "detail": "定期带来高级石材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "经营世界各地的矿石和石材的商人。\n他脑中装满了各类石头的知识，\n从能制造美丽颜料的贵重矿石到建筑石材，\n无所不包。"
+  ]
+ },
+ {
+  "uid": 10594,
+  "uids": [
+   10594
+  ],
+  "name": "药草专业的学生",
+  "href": "/games/octopath-traveler-0/characters/10594/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆 -王立学院-"
+  ],
+  "skills": [
+   {
+    "name": "供应高级恢复道具",
+    "detail": "定期带来优质恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "研究药草的学生。\n在一名女性的建议下，着手研究万能药。\n虽然效果惊人，但临床试验的结果却惨不忍睹。\n而且不知为何，只有与他一起研究的好友\n被抓入狱，送到了恩波格洛。\n为了完成友人的夙愿，他至今仍在坚持研究。"
+  ]
+ },
+ {
+  "uid": 10597,
+  "uids": [
+   10597
+  ],
+  "name": "爱牛的农民",
+  "href": "/games/octopath-traveler-0/characters/10597/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆"
+  ],
+  "skills": [
+   {
+    "name": "饲育行家",
+    "detail": "【牧场】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "从事畜牧业的孝子。\n每天早上挤牛奶送去父母经营的旅店。\n但他倾注在牛身上的爱到了异常的地步，\n父母有些担心他的未来。"
+  ]
+ },
+ {
+  "uid": 10606,
+  "uids": [
+   10606
+  ],
+  "name": "厨艺高超的厨师",
+  "href": "/games/octopath-traveler-0/characters/10606/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆"
+  ],
+  "skills": [
+   {
+    "name": "伟大的厨师",
+    "detail": "【据点】偶尔会增加美食数量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "阿特拉斯达姆首屈一指的厨师。\n厨艺有保证，曾让挑剔的一众王族赞不绝口。\n为了追求理想的料理，对食材也十分讲究，\n但也因此常常为凑不齐食材而大为苦恼。"
+  ]
+ },
+ {
+  "uid": 10608,
+  "uids": [
+   10608
+  ],
+  "name": "消息灵通的米罗",
+  "href": "/games/octopath-traveler-0/characters/10608/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆 -王城前-"
+  ],
+  "skills": [
+   {
+    "name": "贸易达人",
+    "detail": "【商店】缩短交易的进货间隔。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "近期名声鹊起的消息灵通的男性。\n毫不夸张地说，他弄到的“下次采购！”的商品情报百发百中。\n据说现在连商业都市格兰波特的领主艾特里克斯也在关注他。"
+  ]
+ },
+ {
+  "uid": 10681,
+  "uids": [
+   10681
+  ],
+  "name": "研究和平的学者",
+  "href": "/games/octopath-traveler-0/characters/10681/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "贝尔肯"
+  ],
+  "skills": [
+   {
+    "name": "供应猎获",
+    "detail": "定期带来高级肉类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在伯恩斯坦研究魔法的学者后裔。\n他的祖先导致王国灭亡，为了赎偿祖先的罪，\n他致力于研究魔法给世界带来和平。"
+  ]
+ },
+ {
+  "uid": 10685,
+  "uids": [
+   10685
+  ],
+  "name": "达观的女性",
+  "href": "/games/octopath-traveler-0/characters/10685/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "贝尔肯"
+  ],
+  "skills": [
+   {
+    "name": "供应高级攻击道具",
+    "detail": "定期带来优质战斗道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾为“禁忌神殿”效力的祭司的后代。\n据说在那个供奉“被封印的神明”的地方，\n进行过许多禁忌的魔法实验。\n她认为古王国灭亡是因为亵渎了众神，\n因此心甘情愿地接受了现在的境遇。"
+  ]
+ },
+ {
+  "uid": 10726,
+  "uids": [
+   10726
+  ],
+  "name": "侍奉贤者的猫",
+  "href": "/games/octopath-traveler-0/characters/10726/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "贤者之岛"
+  ],
+  "skills": [
+   {
+    "name": "高级技术训练",
+    "detail": "【训练所】增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "侍奉贤者，费尽心思保护岛屿不受人类侵扰的凯特林。\n认定人类的欲望以及由此引发的纷争是毫无价值的，\n是只虚无主义猫。\n猫生最大的乐趣是品味木天蓼酒。"
+  ]
+ },
+ {
+  "uid": 11016,
+  "uids": [
+   11016
+  ],
+  "name": "肉球喵斯特西斯",
+  "href": "/games/octopath-traveler-0/characters/11016/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿迦裴亚"
+  ],
+  "skills": [
+   {
+    "name": "伟大的信仰",
+    "detail": "【教堂】邀请支援者时的 召唤次数+2。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "自称“猫巫女”的猫。\n宣称自己一直在这个不为人知的岛上\n守望整个大陆的猫……"
+  ]
+ },
+ {
+  "uid": 11020,
+  "uids": [
+   11020
+  ],
+  "name": "权力巫女",
+  "href": "/games/octopath-traveler-0/characters/11020/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿迦裴亚"
+  ],
+  "skills": [
+   {
+    "name": "高级实战训练",
+    "detail": "【训练所】增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "正在进行手指修行的巫女。\n她认为作为戒指的守护者，必须拥有强健的手指，\n于是利用威尔斯宾克的热沙对双手进行了严苛的锻炼。\n她的贯手可以贯穿陨铁打造的铠甲，\n手刀可以劈断基加提亚斯的角。"
+  ]
+ },
+ {
+  "uid": 960123,
+  "uids": [
+   960123
+  ],
+  "name": "不善言辞的木工",
+  "href": "/games/octopath-traveler-0/characters/960123/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [],
+  "skills": [
+   {
+    "name": "供应木材",
+    "detail": "定期带来木材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "从木材采购到加工一手承包的木匠。\n由于长时间在希·沃尔基附近的森林深处生活，\n和人类打交道的时候会变得沉默寡言，\n但其实很想和他人搞好关系。"
+  ]
+ },
+ {
+  "uid": 960124,
+  "uids": [
+   960124
+  ],
+  "name": "不好惹的黑道人士",
+  "href": "/games/octopath-traveler-0/characters/960124/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "瓦洛雷 -大道-"
+  ],
+  "skills": [
+   {
+    "name": "赠送叶币",
+    "detail": "定期带来极少量叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "智囊型黑道人士。\n没加入任何组织，只是作为“顾问”，\n往来各个经营困难的帮派，为其重建财政。"
+  ]
+ },
+ {
+  "uid": 960125,
+  "uids": [
+   960125
+  ],
+  "name": "独具慧眼的鉴定师",
+  "href": "/games/octopath-traveler-0/characters/960125/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "瓦洛雷 -大道-"
+  ],
+  "skills": [
+   {
+    "name": "慧眼识珠",
+    "detail": "【商店】在交易中，略微提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "伍多兰多地区著名的鉴定师。\n他敏锐的目光不仅能鉴别物品，还能识人。\n但是他评价时口无遮拦，言辞尖锐，\n所以经常得罪人。"
+  ]
+ },
+ {
+  "uid": 960149,
+  "uids": [
+   960149
+  ],
+  "name": "虔诚的修女",
+  "href": "/games/octopath-traveler-0/characters/960149/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛"
+  ],
+  "skills": [
+   {
+    "name": "魅力四射",
+    "detail": "与带来道具的居民同住 可小幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在各地传播圣火教诲的虔诚修女。\n热忱传教的她让很多人仰慕不已。\n但同时，也有不少人利用这一点趁机搭讪，\n让她感到无比困扰。"
+  ]
+ },
+ {
+  "uid": 960151,
+  "uids": [
+   960151
+  ],
+  "name": "无精打采的前女演员",
+  "href": "/games/octopath-traveler-0/characters/960151/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "大剧场 -入口-"
+  ],
+  "skills": [
+   {
+    "name": "协调者",
+    "detail": "【据点】在改善关系上 有折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "作为配角深受器重的著名女演员。\n对自己“黄金绿叶”这个评价很是满意，\n但孩童天真无邪的一句“那个人总是演配角呢。”刺痛了她的心。\n她想尝试饰演主角，但已经没有机会了。"
+  ]
+ },
+ {
+  "uid": 960158,
+  "uids": [
+   960158
+  ],
+  "name": "旅行的作家",
+  "href": "/games/octopath-traveler-0/characters/960158/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "豆闻广博",
+    "detail": "【田地】少量增加川豆的收成。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在奥鲁斯特拉各地旅行的作家。\n她的旅行笔记将她自由豁达的性格表现得淋漓尽致，\n在旅途中获得的丰富知识为她的文章增色不少。"
+  ]
+ },
+ {
+  "uid": 960159,
+  "uids": [
+   960159
+  ],
+  "name": "劳心伤神的中间商",
+  "href": "/games/octopath-traveler-0/characters/960159/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "靠做贸易中间商维生的老人。\n他擅长察言观色，深受商人好评，\n但开始对察言观色的生活感到厌倦了。"
+  ]
+ },
+ {
+  "uid": 960160,
+  "uids": [
+   960160
+  ],
+  "name": "在市场巡逻的士兵",
+  "href": "/games/octopath-traveler-0/characters/960160/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在桑谢德市场巡逻的士兵。\n他曾慷慨激昂地向镇长表示要保护善良的购物者\n免遭盗窃和敲竹杠，主动要求来这里。\n事实上，他只是想来这个珍品云集的市场而已。"
+  ]
+ },
+ {
+  "uid": 960161,
+  "uids": [
+   960161
+  ],
+  "name": "红脸矿工",
+  "href": "/games/octopath-traveler-0/characters/960161/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "供应铁材",
+    "detail": "定期带来铁材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "豪爽，不拘小节的红脸矿工。\n她一手拿着酒瓶，随兴地四处寻找优质岩盘，\n然后胆大心细地挥舞矿镐。"
+  ]
+ },
+ {
+  "uid": 960162,
+  "uids": [
+   960162
+  ],
+  "name": "沙漠的上门厨师",
+  "href": "/games/octopath-traveler-0/characters/960162/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "赠送食材",
+    "detail": "定期带来各种食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "常去桑兰多各地出差的厨师。\n虽然收费很高，但在王都马尔沙利姆练就了货真价实的厨艺，\n积累了不少粉丝。"
+  ]
+ },
+ {
+  "uid": 960164,
+  "uids": [
+   960164
+  ],
+  "name": "冷淡的中介",
+  "href": "/games/octopath-traveler-0/characters/960164/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "桑谢德"
+  ],
+  "skills": [
+   {
+    "name": "协调者",
+    "detail": "【据点】在改善关系上 有折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "介绍人才去桑谢德各地工作的中介。\n为人冷淡，但介绍时会为求职者争取有利的条件，\n所以许多劳力工人很仰仗他。"
+  ]
+ },
+ {
+  "uid": 960165,
+  "uids": [
+   960165
+  ],
+  "name": "后勤志愿兵",
+  "href": "/games/octopath-traveler-0/characters/960165/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "艾德拉斯城堡前"
+  ],
+  "skills": [
+   {
+    "name": "供应攻击道具",
+    "detail": "定期带来战斗道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "艾德拉斯王国的士兵。\n征伐西方时他怀揣着出人头地的梦想志愿入伍，\n但因为天生心软，狠不下心杀敌，被分配到后勤岗位。\n自从明白自己在这个重视军功的国家永无出头之日后，\n便一直在寻找离开军队的机会。"
+  ]
+ },
+ {
+  "uid": 960166,
+  "uids": [
+   960166
+  ],
+  "name": "亲切的服务员",
+  "href": "/games/octopath-traveler-0/characters/960166/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "克拉古斯比亚"
+  ],
+  "skills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "克拉古斯比亚酒馆的招牌女店员。\n她脸上总是带着笑容，举手投足间就能治愈上门的士兵的心灵。\n听说最近学会做贫民窟口口相传的派了。"
+  ]
+ },
+ {
+  "uid": 960167,
+  "uids": [
+   960167
+  ],
+  "name": "目光浑浊的渔夫",
+  "href": "/games/octopath-traveler-0/characters/960167/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "赠送海产品",
+    "detail": "定期带来鱼类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "用浑浊目光注视着河面的钓鱼人。\n就因为生在河边的村庄就要以渔业维生，\n她诅咒自己这样的身世，一直想找机会离开村子。"
+  ]
+ },
+ {
+  "uid": 960168,
+  "uids": [
+   960168
+  ],
+  "name": "好勇斗狠的养牛人",
+  "href": "/games/octopath-traveler-0/characters/960168/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "高效饲育",
+    "detail": "【牧场】有助于增加产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在库利亚布鲁克世代养牛的家族的传人。\n他家的家训是“养牛者必须理解牛的内心。”\n他一直遵循家训，悉心养牛，\n但与人打交道时十分粗暴，如同一头猛牛。\n因此谈崩的生意不计其数。"
+  ]
+ },
+ {
+  "uid": 960204,
+  "uids": [
+   960204
+  ],
+  "name": "过于讲究的裁缝",
+  "href": "/games/octopath-traveler-0/characters/960204/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯 -大圣堂前-"
+  ],
+  "skills": [
+   {
+    "name": "供应高级布料",
+    "detail": "定期带来高级布料。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "从布料到用于缝制的一根丝线都十分讲究的裁缝。\n承包了圣火教会祭服的缝制工作。\n她缝制的衣服舒适耐用，备受好评。"
+  ]
+ },
+ {
+  "uid": 960205,
+  "uids": [
+   960205
+  ],
+  "name": "慷慨的贵族",
+  "href": "/games/octopath-traveler-0/characters/960205/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯 -大圣堂-"
+  ],
+  "skills": [
+   {
+    "name": "筹集叶币",
+    "detail": "定期带来叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "因慷慨解囊而闻名的贵族。\n他认为贵族有义务公正地进行财富的再分配，\n在自己力所能及的范围内援助他人。"
+  ]
+ },
+ {
+  "uid": 960206,
+  "uids": [
+   960206
+  ],
+  "name": "品德高尚的神官",
+  "href": "/games/octopath-traveler-0/characters/960206/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 5.0,
+  "inviteLocked": false,
+  "maps": [
+   "弗雷姆葛雷斯 -大圣堂-"
+  ],
+  "skills": [
+   {
+    "name": "推销达人",
+    "detail": "【商店】提升销售额。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "对圣火的保佑心存感激，生活十分俭朴的神官。\n他生于富裕家庭，在无拘无束的环境中长大，\n但在知道这世上还有很多不幸的人后，\n他决定帮助那些人。\n他是个彻头彻尾的好人，据说连穷凶极恶之人在和他说话时，\n都会忏悔自己的犯下的一切罪行，并嚎啕大哭。"
+  ]
+ },
+ {
+  "uid": 960207,
+  "uids": [
+   960207
+  ],
+  "name": "特立独行的厨师",
+  "href": "/games/octopath-traveler-0/characters/960207/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛"
+  ],
+  "skills": [
+   {
+    "name": "供应食材",
+    "detail": "定期带来各种高级食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "为剑斗士烧了十来年饭的厨师。\n为满足剑斗士们对高能量饮食的需求，\n菜的味道变得越来越重了。\n繁盛的酒馆每天忙得如战场一般，\n他的声音和性格也随之变得粗犷起来。"
+  ]
+ },
+ {
+  "uid": 960208,
+  "uids": [
+   960208
+  ],
+  "name": "挥舞战斧的绅士",
+  "href": "/games/octopath-traveler-0/characters/960208/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛 -斗技场前-"
+  ],
+  "skills": [
+   {
+    "name": "供应高级木材",
+    "detail": "定期带来高级木材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【剑斗士情报】外号：战斧先生\n身高／体重：180／82\n弱点：长枪／雷／冰\n\n言谈举止虽然很绅士，但却是个挥舞巨斧作战的狂野斗士。"
+  ]
+ },
+ {
+  "uid": 960209,
+  "uids": [
+   960209
+  ],
+  "name": "暗中活跃的佣兵",
+  "href": "/games/octopath-traveler-0/characters/960209/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛 -旧街区-"
+  ],
+  "skills": [
+   {
+    "name": "协调者",
+    "detail": "【据点】在改善关系上 有折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【剑斗士情报】外号：无\n身高／体重：174／80\n弱点：剑／长枪／斧头／短剑\n\n虽然没参加过比试，但在赛场外暗中活动，确立了地位。"
+  ]
+ },
+ {
+  "uid": 960210,
+  "uids": [
+   960210
+  ],
+  "name": "洒脱的金匠",
+  "href": "/games/octopath-traveler-0/characters/960210/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "维克塔霍洛"
+  ],
+  "skills": [
+   {
+    "name": "供应高级铁材",
+    "detail": "定期带来高级铁材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "手艺超群的金匠，她打造的小型金工艺品精致而又时尚。\n平日里衣着洒脱，是个性格爽朗的大美人，\n她做事大方利落，深受好评。\n据说有很多同行嫉妒她，\n她都充耳不闻，依旧我行我素。"
+  ]
+ },
+ {
+  "uid": 960211,
+  "uids": [
+   960211
+  ],
+  "name": "里昂教官",
+  "href": "/games/octopath-traveler-0/characters/960211/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "泰坦斯大圣堂前"
+  ],
+  "skills": [
+   {
+    "name": "高级实战训练",
+    "detail": "【训练所】增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "负责训练圣火骑士团的教官。\n因恩波格洛在红雪事件中遭到破坏，\n魔物的入侵增多，\n遂被派来指挥警备工作。\n他经验丰富，备受部下信赖。"
+  ]
+ },
+ {
+  "uid": 960212,
+  "uids": [
+   960212
+  ],
+  "name": "理论派军事学家",
+  "href": "/games/octopath-traveler-0/characters/960212/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆"
+  ],
+  "skills": [
+   {
+    "name": "高级技术训练",
+    "detail": "【训练所】增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "分析传说中英雄贝武夫所经历的诸多战役，\n试图从战术与战略两方面进行理论化研究的军事学家。\n“制胜的关键在于构建最佳军事战略，而非依赖英雄”——\n她自己从未亲临过战场，\n却说将军们根本不懂这个道理。"
+  ]
+ },
+ {
+  "uid": 960213,
+  "uids": [
+   960213
+  ],
+  "name": "充满使命感的植物学家",
+  "href": "/games/octopath-traveler-0/characters/960213/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆 -王城前-"
+  ],
+  "skills": [
+   {
+    "name": "购买肥料",
+    "detail": "【田地】可使用叶币购买肥料， 增加田地的收成。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【改变土壤的花】\n培育某种花卉，可使土壤质地发生变化。\n她的理论认为：\n应用沙漠部族通过经验认知掌握的这项技法，\n可以保护那些容易发生水灾等的土地。"
+  ]
+ },
+ {
+  "uid": 960214,
+  "uids": [
+   960214
+  ],
+  "name": "实践派的农学家",
+  "href": "/games/octopath-traveler-0/characters/960214/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿特拉斯达姆 -王立学院-"
+  ],
+  "skills": [
+   {
+    "name": "伟大的农民",
+    "detail": "【田地】提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "【农业理论化】\n为何同一片土地上，相邻田地的农作物产量会有差异？\n若能弄清楚这个问题，便能构建可靠的理论体系。\n尽管能稳定提升产量，但农民们却难以接受新的理论。"
+  ]
+ },
+ {
+  "uid": 960215,
+  "uids": [
+   960215
+  ],
+  "name": "手腕强硬的中间商",
+  "href": "/games/octopath-traveler-0/characters/960215/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -大拍卖会场-"
+  ],
+  "skills": [
+   {
+    "name": "推销达人",
+    "detail": "【商店】提升销售额。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "以手腕强硬闻名的中间商。\n奉行\"高买低卖\"这一违背商业常识的信条。\n他凭借良心经营的方针与豪爽磊落的为人，\n广受好评，生意一直十分稳定。"
+  ]
+ },
+ {
+  "uid": 960216,
+  "uids": [
+   960216
+  ],
+  "name": "野心勃勃的投资家",
+  "href": "/games/octopath-traveler-0/characters/960216/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特"
+  ],
+  "skills": [
+   {
+    "name": "资助者",
+    "detail": "定期带来很多叶币。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "正在物色潜力投资项目的男性。\n他似乎很乐于看到城镇不断发展、焕发活力的样子。\n尽管格兰波特颇具魅力，但在他看来已趋于饱和。\n如今他正寻找能因自己投资而发生巨变的城镇。"
+  ]
+ },
+ {
+  "uid": 960217,
+  "uids": [
+   960217
+  ],
+  "name": "品评会常客的富农",
+  "href": "/games/octopath-traveler-0/characters/960217/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -大拍卖会场-"
+  ],
+  "skills": [
+   {
+    "name": "购买饲料",
+    "detail": "【牧场】可使用叶币购买饲料， 增加牧场的产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在拍卖场举办的农作物品评会上多次获胜的农家女性。\n她也因此成为邻近地区首屈一指的富农。\n如今已是品评会的评审员。\n她对维系人们一日三餐的农家工作颇感自豪。"
+  ]
+ },
+ {
+  "uid": 960218,
+  "uids": [
+   960218
+  ],
+  "name": "阿九氏族的畜牧家",
+  "href": "/games/octopath-traveler-0/characters/960218/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "伟大的畜牧家",
+    "detail": "【牧场】提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "桑兰多的阿九氏族的年轻人。\n他的氏族在沙漠中巧妙地寻找地下水源，\n挖掘水渠，培育草场，进行畜牧。\n而他本人更是雄心勃勃，\n想要尝试饲养更多不同种类的家畜。"
+  ]
+ },
+ {
+  "uid": 960219,
+  "uids": [
+   960219
+  ],
+  "name": "香辛料的调配师",
+  "href": "/games/octopath-traveler-0/characters/960219/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "供应食材",
+    "detail": "定期带来各种高级食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "调制各种斯弗拉塔尔加名产香辛料的男性。\n他最近开发出的最辛辣的香辛料，\n还吸引了瓦洛雷某黑帮人士前来购买。\n然而他本人其实根本吃不了辣，连尝都没尝过。"
+  ]
+ },
+ {
+  "uid": 960220,
+  "uids": [
+   960220
+  ],
+  "name": "裁缝谢利特",
+  "href": "/games/octopath-traveler-0/characters/960220/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "供应高级布料",
+    "detail": "定期带来高级布料。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "经营服装与化妆品的裁缝店女店主。\n她曾是一名舞娘，但自从斯卡拉贝上台后，\n斯弗拉塔尔加便一直禁止舞蹈。\n如今虽安分度日，但她的身体从未忘记舞蹈。"
+  ]
+ },
+ {
+  "uid": 960221,
+  "uids": [
+   960221
+  ],
+  "name": "热沙的工头",
+  "href": "/games/octopath-traveler-0/characters/960221/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "斯弗拉塔尔加"
+  ],
+  "skills": [
+   {
+    "name": "黑市交易",
+    "detail": "【商店】交易品的购买金额翻倍， 但有机会购进特殊道具。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "管理淘金奴隶的男性。\n看似对奴隶们十分苛刻，\n但心善的他会在责打时刻意放轻力道，\n还会关心奴隶们的饮食。\n虽受雇于贵族，但他良知未泯。"
+  ]
+ },
+ {
+  "uid": 960222,
+  "uids": [
+   960222
+  ],
+  "name": "不开心的老婆婆",
+  "href": "/games/octopath-traveler-0/characters/960222/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "贝尔肯"
+  ],
+  "skills": [
+   {
+    "name": "黑市交易",
+    "detail": "【商店】交易品的购买金额翻倍， 但有机会购进特殊道具。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "王国时代被当作魔法研究实验品的奴隶的后裔。\n据说她继承了祖先的禁忌大魔法，\n但似乎因为缺少必要的东西而无法举行仪式。\n总会从某处捡回一些用途不明的物品。"
+  ]
+ },
+ {
+  "uid": 960223,
+  "uids": [
+   960223
+  ],
+  "name": "治疗巫女",
+  "href": "/games/octopath-traveler-0/characters/960223/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "阿迦裴亚"
+  ],
+  "skills": [
+   {
+    "name": "供应高级恢复道具",
+    "detail": "定期带来优质恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "拥有强大治愈之力的巫女。\n一直很关心阿迦裴亚岛的巫女们的健康。\n都说她献上祈祷制作的东西只要带在身上就有治疗效果。"
+  ]
+ },
+ {
+  "uid": 960225,
+  "uids": [
+   960225
+  ],
+  "name": "为城镇劳作的伐木工",
+  "href": "/games/octopath-traveler-0/characters/960225/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "供应高级木材",
+    "detail": "定期带来高级木材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在多尼艾斯克的镇上生活的伐木工。\n终日为城镇的建设挥洒汗水的他，\n看到自己砍伐的木材派上用场，心中无比欣慰。\n但这一切在战火中转瞬崩塌的景象，\n在他心中留下了巨大的伤痕。"
+  ]
+ },
+ {
+  "uid": 960226,
+  "uids": [
+   960226
+  ],
+  "name": "沉溺于悲伤的爱犬人士",
+  "href": "/games/octopath-traveler-0/characters/960226/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "饲育行家",
+    "detail": "【牧场】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "无比热爱动物的女性。\n她自幼与爱犬相伴，情同家人。\n然而在加·罗哈入侵时，\n她的爱犬为护主而惨遭黑豹噬杀，\n只剩下她一人茫然若失。"
+  ]
+ },
+ {
+  "uid": 960229,
+  "uids": [
+   960229
+  ],
+  "name": "崇拜贤王的商人",
+  "href": "/games/octopath-traveler-0/characters/960229/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 30.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "进货行家",
+    "detail": "【商店】小幅缩短交易的进货间隔。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "崇拜阿尔提尼亚的“贤王”索隆的商人。\n他十分崇拜索隆，\n身上穿着的据说是索隆微服出行时戴的头巾，\n还日夜思考有关于羊的新俗语。\n虽然言行怪异，但进货的能力是实打实的。"
+  ]
+ },
+ {
+  "uid": 960230,
+  "uids": [
+   960230
+  ],
+  "name": "有名的石匠",
+  "href": "/games/octopath-traveler-0/characters/960230/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 20.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "供应高级石材",
+    "detail": "定期带来高级石材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "牧人岩数一数二的老练石匠。\n擅长铺山路，往来的行人对他的手艺特别放心。\n虽然年事已高，但却燃起了挑战新建筑的念头。"
+  ]
+ },
+ {
+  "uid": 960231,
+  "uids": [
+   960231
+  ],
+  "name": "露天栽培的研究者",
+  "href": "/games/octopath-traveler-0/characters/960231/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "库利亚布鲁克"
+  ],
+  "skills": [
+   {
+    "name": "栽培行家",
+    "detail": "【田地】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在哈伊兰多研究露天栽培的女性。\n她种的蔬菜味道很好，广受好评，\n同住的公公也被它的魅力所吸引。\n可是公公顿顿都缠着要吃蔬菜，让她十分烦恼。"
+  ]
+ },
+ {
+  "uid": 960232,
+  "uids": [
+   960232,
+   960249
+  ],
+  "name": "玛戈奶奶",
+  "href": "/games/octopath-traveler-0/characters/960232/",
+  "joinType": "story",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": true,
+  "maps": [
+   "通往赫露弥娅宅邸的小路"
+  ],
+  "skills": [
+   {
+    "name": "栽培行家",
+    "detail": "【田地】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在维舒贝尔务农的老婆婆。\n她从培土开始精心种植的作物味道芳醇，\n特别是蔬菜备受好评。\n如今，她坚持认为赫露弥娅宅邸的\n小路附近那片沼泽地是农田。",
+   "在维舒贝尔务农的老婆婆。\n她从培土开始精心种植的作物味道芳醇，\n特别是蔬菜备受好评。\n每天辛勤耕种，为城镇提供食材。"
+  ]
+ },
+ {
+  "uid": 960242,
+  "uids": [
+   960242
+  ],
+  "name": "巴希尔",
+  "href": "/games/octopath-traveler-0/characters/960242/",
+  "joinType": "story",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": null,
+  "inviteLocked": null,
+  "maps": [],
+  "skills": [
+   {
+    "name": "农耕把式",
+    "detail": "【田地】有助于增加收成。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "住在维舒贝尔的男孩子。\n以前就爱吃玛戈奶奶种的蔬菜，\n现在在田里帮忙，学着种菜。"
+  ]
+ },
+ {
+  "uid": 960264,
+  "uids": [
+   960264
+  ],
+  "name": "玛吉姆",
+  "href": "/games/octopath-traveler-0/characters/960264/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "赠送海产品",
+    "detail": "定期带来鱼类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "驾驶帆船“奥露莎女王”号，\n巡游从中央海到外海所有海域的海洋冒险家。\n如今正为了主角驾船驰骋于奥鲁斯特拉大陆，\n崭新的冒险让他心潮澎湃。"
+  ]
+ },
+ {
+  "uid": 960265,
+  "uids": [
+   960265
+  ],
+  "name": "琦娅拉",
+  "href": "/games/octopath-traveler-0/characters/960265/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "利布尔泰德"
+  ],
+  "skills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "冒险家玛吉姆的恋人。\n比起朝夕相处，等待的时光似乎更加漫长。\n但是待他归来时，为他烹制美食，\n听他讲述冒险经历的时刻——\n对她而言，是无可替代的珍宝。"
+  ]
+ },
+ {
+  "uid": 960371,
+  "uids": [
+   960371
+  ],
+  "name": "活动主办者亚德里安",
+  "href": "/games/octopath-traveler-0/characters/960371/",
+  "joinType": "story",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": null,
+  "inviteLocked": null,
+  "maps": [],
+  "skills": [
+   {
+    "name": "活动主办者",
+    "detail": "【魔物斗技场】可以与捕获的魔物战斗。",
+    "friendship": 0
+   }
+  ],
+  "intros": []
+ },
+ {
+  "uid": 960419,
+  "uids": [
+   960419
+  ],
+  "name": "畏寒黑猫",
+  "href": "/games/octopath-traveler-0/characters/960419/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 5.0,
+  "inviteLocked": false,
+  "maps": [
+   "恩波格洛"
+  ],
+  "skills": [
+   {
+    "name": "魅力非凡",
+    "detail": "与带来道具的居民同住 可大幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "站在雪地中十分显眼的黑猫。\n它虽然讨厌冰冷的雪，但是喜欢在上面踩脚印玩。"
+  ]
+ },
+ {
+  "uid": 960420,
+  "uids": [
+   960420
+  ],
+  "name": "爱演戏的小狗",
+  "href": "/games/octopath-traveler-0/characters/960420/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 15.0,
+  "inviteLocked": false,
+  "maps": [
+   "希亚特珀利斯"
+  ],
+  "skills": [
+   {
+    "name": "供应猎获",
+    "detail": "定期带来高级肉类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "喜欢钻进大剧场里看戏的小狗。\n记得很多戏剧的台词。\n虽然在模仿奥古斯特，但没有人能看懂。"
+  ]
+ },
+ {
+  "uid": 960421,
+  "uids": [
+   960421
+  ],
+  "name": "暴躁羊驼",
+  "href": "/games/octopath-traveler-0/characters/960421/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "南克拉古斯比亚崖道"
+  ],
+  "skills": [
+   {
+    "name": "高效饲育",
+    "detail": "【牧场】有助于增加产量。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "一只令人闻风丧胆的凶暴羊驼，\n有“克拉古斯比亚崖道的暴君”之称。\n若是被它悠闲吃草的样子蒙骗，贸然靠近，\n将会被它猛力踢下悬崖。"
+  ]
+ },
+ {
+  "uid": 960422,
+  "uids": [
+   960422
+  ],
+  "name": "曾经的领头羊",
+  "href": "/games/octopath-traveler-0/characters/960422/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "牧人岩"
+  ],
+  "skills": [
+   {
+    "name": "羊王",
+    "detail": "【牧场】从羊身上收获“刚剪下来的羊毛”。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "曾经羊群里的领头羊。\n然而，在与牧羊犬的战斗中落败，失去了羊群的信任。\n如今只是羊群中的一员，老老实实地跟着大家。"
+  ]
+ },
+ {
+  "uid": 960423,
+  "uids": [
+   960423
+  ],
+  "name": "擅长挖洞的兔子",
+  "href": "/games/octopath-traveler-0/characters/960423/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "多尼艾斯克"
+  ],
+  "skills": [
+   {
+    "name": "供应食材",
+    "detail": "定期带来各种高级食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "到处挖洞的兔子。\n当危险逼近时，会“嗖”地躲进洞里避难。\n虽软弱无力，但也凭这些洞能存活下去。"
+  ]
+ },
+ {
+  "uid": 960424,
+  "uids": [
+   960424
+  ],
+  "name": "活泼的小狗",
+  "href": "/games/octopath-traveler-0/characters/960424/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 40.0,
+  "inviteLocked": false,
+  "maps": [
+   "格兰波特 -摊贩街-"
+  ],
+  "skills": [
+   {
+    "name": "饲育行家",
+    "detail": "【牧场】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "活泼的小狗。\n没什么烦恼。"
+  ]
+ },
+ {
+  "uid": 960425,
+  "uids": [
+   960425
+  ],
+  "name": "离群海鸥",
+  "href": "/games/octopath-traveler-0/characters/960425/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "外海的小岛 -西-"
+  ],
+  "skills": [
+   {
+    "name": "供应海产品",
+    "detail": "定期带来高级鱼类食材。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "离开鸟群，追求快速飞翔的海鸥。\n没有什么理由……只是因为自己有翅膀。"
+  ]
+ },
+ {
+  "uid": 960426,
+  "uids": [
+   960426
+  ],
+  "name": "孤岛的山羊",
+  "href": "/games/octopath-traveler-0/characters/960426/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "中央海的小岛"
+  ],
+  "skills": [
+   {
+    "name": "栽培行家",
+    "detail": "【田地】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "在船运途中遭遇暴风雨，被海浪冲到岛上的山羊。\n它坚强地活了下来，但依然孤独寂寞。"
+  ]
+ },
+ {
+  "uid": 960427,
+  "uids": [
+   960427
+  ],
+  "name": "旅行章鱼君",
+  "href": "/games/octopath-traveler-0/characters/960427/",
+  "joinType": "invite",
+  "questId": null,
+  "questTitle": null,
+  "questHref": null,
+  "inviteRate": 100.0,
+  "inviteLocked": false,
+  "maps": [
+   "外海的小孤岛"
+  ],
+  "skills": [
+   {
+    "name": "伟大的鉴赏家",
+    "detail": "【商店】在交易中，提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   }
+  ],
+  "intros": [
+   "遨游世界的章鱼。\n一时心血来潮就找人类打架。"
+  ]
+ }
+]

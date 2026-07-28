@@ -249,7 +249,11 @@ const unit =
           {villageRows.map((r) => (
             <tr data-name={r.name} data-type={r.section} data-buy={r.buy ?? -1}>
               <td class="ot-dt-skill">{r.section}</td>
-              <td class="ot-dt-name"><span class="ot-dt-ename">{r.name}</span></td>
+              <td class="ot-dt-name">
+                {r.href
+                  ? <a class="ot-dt-ename" href={r.href}>{r.name}</a>
+                  : <span class="ot-dt-ename">{r.name}</span>}
+              </td>
               <td class="ot-dt-detail">{r.detail || '—'}</td>
               <td class="num">{r.buy ? money(r.buy) : '—'}</td>
               <td class="ot-dt-detail">{r.extra || '—'}</td>
