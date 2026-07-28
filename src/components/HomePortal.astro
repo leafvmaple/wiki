@@ -5,6 +5,7 @@ import stardewSummary from '../data/stardew-valley/generated/summary.json';
 import stardewTown from '../data/stardew-valley/generated/maps/town.json';
 import stardewAssets from '../data/stardew-valley/generated/assets.json';
 import tdjSummary from '../data/sword-man/generated/summary.json';
+import metalMaxSummary from '../data/metal-max/generated/summary.json';
 import OctopathIcon from './OctopathIcon.astro';
 import StardewIcon from './StardewIcon.astro';
 
@@ -48,6 +49,24 @@ const games = [
     ],
   },
   {
+    id: 'metalmax',
+    title: '重装机兵',
+    href: '/games/metal-max/',
+    kicker: '废土 · 战车 · 图鉴',
+    status: '装备先行',
+    summary: '基于 FC 日版 ROM 逆向的装备数据库与机制解析：装备数值可筛选排序，传闻判定、道具效果与事件条件的硬核分析附 ROM 依据。',
+    stats: [
+      { value: metalMaxSummary.counts.humanEquipment, label: '人类装备' },
+      { value: metalMaxSummary.counts.tankParts, label: '战车部件' },
+      { value: metalMaxSummary.counts.tankChassis, label: '车体' },
+    ],
+    links: [
+      { label: '人类装备', href: '/games/metal-max/equipment/human/', kind: 'item' },
+      { label: '战车装备', href: '/games/metal-max/equipment/tank/', kind: 'tank' },
+      { label: '机制解析', href: '/games/metal-max/research/', kind: 'note' },
+    ],
+  },
+  {
     id: 'tdj',
     title: '天地劫·神魔至尊传',
     href: '/games/sword-man/',
@@ -71,7 +90,15 @@ const games = [
 const totals = [
   { value: games.length, label: '游戏入口' },
   { value: octopathSummary.counts.quests + tdjSummary.counts.battles, label: '任务/关卡' },
-  { value: stardewSummary.counts.objects + tdjSummary.counts.skills, label: '资料条目' },
+  {
+    value:
+      stardewSummary.counts.objects +
+      tdjSummary.counts.skills +
+      metalMaxSummary.counts.humanEquipment +
+      metalMaxSummary.counts.tankParts +
+      metalMaxSummary.counts.tankChassis,
+    label: '资料条目',
+  },
 ];
 ---
 
@@ -116,7 +143,7 @@ const totals = [
           <a href={link.href}>
             {game.id === 'stardew' ? (
               <StardewIcon kind={link.kind} label={link.label} compact link={false} />
-            ) : game.id === 'tdj' ? (
+            ) : game.id === 'tdj' || game.id === 'metalmax' ? (
               <span class="home-link-chip">{link.label}</span>
             ) : (
               <OctopathIcon kind={link.kind} label={link.label} compact />
@@ -253,6 +280,12 @@ const totals = [
       var(--home-game-image);
     background-position: center 32%;
     background-size: cover;
+  }
+
+  .home-game-card.is-metalmax::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.12), var(--leaf-bg-card) 82%),
+      linear-gradient(135deg, rgba(199, 154, 42, 0.3), rgba(192, 89, 63, 0.18));
   }
 
   .home-game-card.is-tdj::before {

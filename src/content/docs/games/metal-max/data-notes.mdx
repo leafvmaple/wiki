@@ -1,0 +1,57 @@
+---
+title: 数据说明
+description: 《重装机兵》资料的数据来源、单位规则、生成方式与已知口径。
+game: '重装机兵'
+gameVersion: 'FC 日版'
+lastVerified: '2026-07-28'
+sidebar:
+  order: 7
+  label: 数据说明
+---
+
+import summary from '../../../../data/metal-max/generated/summary.json';
+
+## 数据来源
+
+数据来自 FC 日版 ROM 的逆向提取，由本机 nes_decoder 管线导出，wiki 只提交整理后的派生表：
+
+- `map_viewer/res/metal_max/data/items.json` — 全道具的日文名、汉化译名、价格与分类
+- `metalmax-godot/import/items.json` — 人类装备数值、部位、可装备角色掩码
+- `metalmax-godot/import/tanks.json` — 战车部件数值与 18 辆战车（8 玩家车 + 10 租赁车）基础表
+- `retro-save-editor/docs/metal-max-unbuyable-items.md` — 特殊来源装备/道具的获取渠道（宝箱旗标、掉落、事件脚本、售货机与改造链的挖掘结果）
+- 字段依据与偏移记录：`nes_decoder/docs/re/METAL_MAX_TANK_PARTS.md`
+
+中文名取自民间汉化 ROM 的文本表，仅作辅助识别，个别条目（如车体、引擎）是汉化版自创的缩写。
+
+## 同步方式
+
+在 wiki 仓库执行：
+
+```powershell
+npm run generate:metal-max
+```
+
+数据源不在默认路径时，可通过 `MM_MAP_VIEWER_DIR` / `MM_GODOT_DIR` 环境变量指定。
+
+## 当前规模
+
+| 类型 | 数量 |
+| --- | ---: |
+| 人类装备 | {summary.counts.humanEquipment}（防具 {summary.counts.humanArmor} / 武器 {summary.counts.humanWeapons}） |
+| 战车部件 | {summary.counts.tankParts} |
+| 车体 | {summary.counts.tankChassis} |
+| 特殊来源装备/道具 | {summary.counts.specialItems} |
+
+## 单位与口径
+
+- 部件自重的 ROM 原始单位是 0.1t，表格中已换算为吨；引擎「载重」单位为吨。
+- 车体重量的 ROM 原始单位是 0.01t，表格中已换算为吨。
+- 改造装甲（SP）没有独立的上限表，上限在游戏运行时计算：**引擎载重 − 车体重量 − Σ部件自重**，一片装甲 = 10kg。NO.5 出场时没有引擎，因此初期 SP 为 0。
+- 車体道具（0x91–0x98）本身只存价格；装甲、开孔、初期防御等取自玩家战车初始配置表（NO.k 的默认车体即对应车体道具，已逐一验证）。
+- 機銃全部为无限弹药；「非卖品」表示该道具无价格字节（如 165mmゴースト、220mmガイア 与レーザーバズーカ系列）。
+- 商店卖价 = 定价 ÷ 2（bank `0x18` 卖出例程取出定价后右移一位）；价格索引落在非卖品哨兵区（≥ `0xE0`）的道具商店拒收。损坏的战车装备另走折价报价：÷4，报废件固定 60G（该分支的分流条件待实机验证）。
+- 以上数值经过 ROM 数据与实机存档双向核对（详见逆向文档的置信度表）。
+
+## 后续计划
+
+道具、炮弹（通常弹与特殊弹）、赏金首、商店购物清单等数据在源导出中已经齐备，后续按需扩展成新的分区页面。

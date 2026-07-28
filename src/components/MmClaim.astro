@@ -1,0 +1,193 @@
+---
+// 重装机兵考证条目卡片：传闻原文 + 判定徽章 + 实际机制 + 可折叠 ROM 证据。
+// verdict: confirmed(属实) / busted(不实) / partial(部分属实) / untested(待验证)
+// version: 结论适用的 ROM 版本（FC 日版 / 汉化版…），版本限定的传闻靠它标注。
+// slot claim  — 传闻的流传说法（照抄玩家间的原话，哪怕是错的）
+// slot 默认   — 实际机制（1-3 句结论）
+// slot evidence — ROM 依据，默认折叠，保持每条 1-3 个关键地址
+const {
+  id,
+  verdict = 'untested',
+  version = 'FC 日版',
+  sources = '反汇编',
+  detail,
+} = Astro.props as {
+  id?: string;
+  verdict?: 'confirmed' | 'busted' | 'partial' | 'untested';
+  version?: string;
+  sources?: string;
+  detail?: string;
+};
+
+const VERDICTS = {
+  confirmed: { label: '属实', cls: 'is-true' },
+  busted: { label: '不实', cls: 'is-false' },
+  partial: { label: '部分属实', cls: 'is-partial' },
+  untested: { label: '待验证', cls: 'is-open' },
+} as const;
+const v = VERDICTS[verdict] ?? VERDICTS.untested;
+---
+
+<article class="mm-claim not-content" id={id} data-verdict={verdict}>
+  <header class="mm-claim-head">
+    <span class:list={['mm-claim-verdict', v.cls]}>{v.label}</span>
+    <span class="mm-claim-title">「<slot name="claim" />」</span>
+  </header>
+  <div class="mm-claim-body"><slot /></div>
+  {Astro.slots.has('evidence') && (
+    <details class="mm-claim-evidence">
+      <summary>ROM 依据</summary>
+      <div class="mm-claim-evidence-body"><slot name="evidence" /></div>
+    </details>
+  )}
+  <footer class="mm-claim-meta">
+    <span class="mm-claim-sources">{sources}</span>
+    {detail && <a class="mm-claim-detail" href={detail}>机制详解 →</a>}
+    <span class="mm-claim-version">{version}</span>
+  </footer>
+</article>
+
+<style>
+  .mm-claim {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.55rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .mm-claim-head {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .mm-claim-verdict {
+    border-radius: 999px;
+    flex: none;
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1.5;
+    padding: 0.06rem 0.55rem;
+    white-space: nowrap;
+  }
+
+  .mm-claim-verdict.is-true {
+    border: 1px solid color-mix(in srgb, #27c24c 55%, var(--leaf-border));
+    background: color-mix(in srgb, #27c24c 14%, transparent);
+    color: #27a06b;
+  }
+
+  .mm-claim-verdict.is-false {
+    border: 1px solid color-mix(in srgb, #c0593f 55%, var(--leaf-border));
+    background: color-mix(in srgb, #c0593f 12%, transparent);
+    color: #c0593f;
+  }
+
+  .mm-claim-verdict.is-partial {
+    border: 1px solid color-mix(in srgb, #c79a2a 60%, var(--leaf-border));
+    background: color-mix(in srgb, #c79a2a 12%, transparent);
+    color: #b98f2c;
+  }
+
+  .mm-claim-verdict.is-open {
+    border: 1px solid var(--leaf-border);
+    color: var(--leaf-text-muted);
+  }
+
+  .mm-claim-title {
+    color: var(--leaf-heading);
+    font-size: 1.02rem;
+    font-weight: 700;
+  }
+
+  .mm-claim-body {
+    color: var(--leaf-text);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .mm-claim-body :global(p) {
+    margin: 0 0 0.4rem;
+  }
+
+  .mm-claim-body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .mm-claim-evidence {
+    border: 1px dashed var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-subtle);
+    padding: 0.4rem 0.65rem;
+  }
+
+  .mm-claim-evidence summary {
+    color: var(--leaf-text-muted);
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 700;
+    user-select: none;
+  }
+
+  .mm-claim-evidence[open] summary {
+    margin-bottom: 0.35rem;
+  }
+
+  .mm-claim-evidence-body {
+    color: var(--leaf-text);
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+
+  .mm-claim-evidence-body :global(p),
+  .mm-claim-evidence-body :global(ul) {
+    margin: 0 0 0.3rem;
+  }
+
+  .mm-claim-evidence-body :global(ul) {
+    padding-left: 1.1rem;
+  }
+
+  .mm-claim :global(code) {
+    background: color-mix(in srgb, var(--leaf-primary) 8%, transparent);
+    border-radius: 4px;
+    color: var(--leaf-primary-hover);
+    font-family: var(--leaf-font-mono, monospace);
+    font-size: 0.84em;
+    padding: 0.06rem 0.3rem;
+  }
+
+  .mm-claim-meta {
+    align-items: center;
+    border-top: 1px solid var(--leaf-border);
+    color: var(--leaf-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+    gap: 0.7rem;
+    padding-top: 0.5rem;
+  }
+
+  .mm-claim-detail {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .mm-claim-detail:hover {
+    color: var(--leaf-primary);
+  }
+
+  .mm-claim-version {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    font-weight: 700;
+    margin-left: auto;
+    padding: 0.02rem 0.5rem;
+    white-space: nowrap;
+  }
+</style>

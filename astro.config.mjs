@@ -96,6 +96,30 @@ export default defineConfig({
           ],
         },
         {
+          label: '重装机兵',
+          collapsed: true,
+          items: [
+            { label: '游戏总览', link: '/games/metal-max/' },
+            {
+              label: '装备图鉴',
+              items: [
+                { label: '人类装备', link: '/games/metal-max/equipment/human/' },
+                { label: '战车装备', link: '/games/metal-max/equipment/tank/' },
+              ],
+            },
+            {
+              label: '机制解析',
+              items: [
+                { label: '传闻判定一览', link: '/games/metal-max/research/' },
+                { label: '战斗道具机制', link: '/games/metal-max/research/battle-items/' },
+                { label: '帕特港战车购买', link: '/games/metal-max/research/port-tank/' },
+                { label: '特殊来源装备道具', link: '/games/metal-max/research/special-items/' },
+              ],
+            },
+            { label: '数据说明', link: '/games/metal-max/data-notes/' },
+          ],
+        },
+        {
           label: '天地劫·神魔至尊传',
           collapsed: true,
           items: [

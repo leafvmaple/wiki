@@ -8,6 +8,7 @@
     "build": "npm run validate:stardew && astro check && astro build",
     "check": "astro check",
     "preview": "astro preview --host=127.0.0.1 --port=4173",
+    "generate:metal-max": "node scripts/generate-metal-max-data.mjs",
     "generate:stardew": "node scripts/generate-stardew-data.mjs",
     "generate:stardew-assets": "node scripts/generate-stardew-assets.mjs",
     "generate:tdj": "node scripts/generate-tdj-data.mjs",

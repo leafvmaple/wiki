@@ -1,0 +1,746 @@
+[
+  {
+    "id": "0x08",
+    "group": "人类装备",
+    "nameJa": "バニーキャップ",
+    "nameZh": "头巾",
+    "category": "頭防具",
+    "price": 1410,
+    "chests": [],
+    "drops": [
+      "ガソリンカイマン、そらとぶハイエナ"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0x15",
+    "group": "人类装备",
+    "nameJa": "ワニのながぐつ",
+    "nameZh": "铁靴",
+    "category": "足防具",
+    "price": 2800,
+    "chests": [
+      "#41 地图 BE(46,24)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0x17",
+    "group": "人类装备",
+    "nameJa": "プロテクタくず",
+    "nameZh": "金靴",
+    "category": "プロテクター",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "铠甲类防具破损后 id 被改写为它"
+  },
+  {
+    "id": "0x1B",
+    "group": "人类装备",
+    "nameJa": "セラミックパッド",
+    "nameZh": "钢甲",
+    "category": "プロテクター",
+    "price": 980,
+    "chests": [],
+    "drops": [],
+    "other": "ROM 内无任何发放渠道——正常流程无法入手（未使用/遗留条目）"
+  },
+  {
+    "id": "0x1C",
+    "group": "人类装备",
+    "nameJa": "てつのガードル",
+    "nameZh": "铁甲",
+    "category": "プロテクター",
+    "price": 2480,
+    "chests": [],
+    "drops": [
+      "キラークロゼット、怪物#127（ROM表无名行）"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0x23",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）"
+  },
+  {
+    "id": "0x24",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）"
+  },
+  {
+    "id": "0x25",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）"
+  },
+  {
+    "id": "0x26",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）"
+  },
+  {
+    "id": "0x27",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）"
+  },
+  {
+    "id": "0x28",
+    "group": "人类装备",
+    "nameJa": "レーザーバズーカ",
+    "nameZh": "激光炮",
+    "category": "人間武器",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "暗云博士镜片合成产物：合成例程 bank 0x10 $A33C 按已交镜片的数量/组合查表定产物（组合行 PRG 0x20382 ×11、输出表 0x203AE = 26 25 24×4 23×4 28，无匹配默认 0x27；四镜全交 = 0x28）；另见 存档格式文档 旗标 0x16/0xB9-0xBC"
+  },
+  {
+    "id": "0x40",
+    "group": "人类装备",
+    "nameJa": "はらきりソード",
+    "nameZh": "首",
+    "category": "人間武器",
+    "price": 32000,
+    "chests": [],
+    "drops": [
+      "アーミーゾンビ"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0x50",
+    "group": "战车装备",
+    "nameJa": "195mmキャノン",
+    "nameZh": "195加农炮",
+    "category": "主砲",
+    "price": 28000,
+    "chests": [
+      "#45 地图 C2(12,12)"
+    ],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル9（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x51",
+    "group": "战车装备",
+    "nameJa": "165mmゴースト",
+    "nameZh": "165钢炮",
+    "category": "主砲",
+    "price": null,
+    "chests": [
+      "#44 地图 C2(6,12)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0x54",
+    "group": "战车装备",
+    "nameJa": "220mmガイア",
+    "nameZh": "220炮",
+    "category": "主砲",
+    "price": null,
+    "chests": [
+      "#70 地图 D4(18,2)",
+      "#89 世界地图(72,233)·隐藏"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0x5E",
+    "group": "战车装备",
+    "nameJa": "トマトタイフーン",
+    "nameZh": "台风",
+    "category": "S-E",
+    "price": 5500,
+    "chests": [
+      "#47 地图 C3(26,33)"
+    ],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル5（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x64",
+    "group": "战车装备",
+    "nameJa": "Sートルネード",
+    "nameZh": "托卢",
+    "category": "S-E",
+    "price": 35000,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：NO.7（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x73",
+    "group": "战车装备",
+    "nameJa": "サンダーストーム",
+    "nameZh": "风暴",
+    "category": "機銃",
+    "price": 25000,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル6、レンタル9、レンタル10（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x74",
+    "group": "战车装备",
+    "nameJa": "ひぼたんバルカン",
+    "nameZh": "波坦",
+    "category": "機銃",
+    "price": 32000,
+    "chests": [],
+    "drops": [
+      "ATグリズリー"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0x78",
+    "group": "战车装备",
+    "nameJa": "SOLOMON2",
+    "nameZh": "SOLOMON2",
+    "category": "Cユニット",
+    "price": 10000,
+    "chests": [
+      "#90 世界地图(68,100)·隐藏"
+    ],
+    "drops": [],
+    "other": "随战车出厂装备：NO.7（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x79",
+    "group": "战车装备",
+    "nameJa": "ビートル",
+    "nameZh": "MOT1",
+    "category": "エンジン",
+    "price": 200,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：NO.1、レンタル1（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x7E",
+    "group": "战车装备",
+    "nameJa": "チヨノフS",
+    "nameZh": "SOL2",
+    "category": "エンジン",
+    "price": 1600,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル3（ROM 18 车模板表 0x22000）；引擎改造升级自チヨノフ（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x81",
+    "group": "战车装备",
+    "nameJa": "オメガブル",
+    "nameZh": "BuL11",
+    "category": "エンジン",
+    "price": 3800,
+    "chests": [],
+    "drops": [],
+    "other": "引擎改造升级自ギガブル（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x83",
+    "group": "战车装备",
+    "nameJa": "インパルス",
+    "nameZh": "HUN1",
+    "category": "エンジン",
+    "price": 6300,
+    "chests": [],
+    "drops": [],
+    "other": "引擎改造升级自インパルス（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x86",
+    "group": "战车装备",
+    "nameJa": "V32ハルク",
+    "nameZh": "V32",
+    "category": "エンジン",
+    "price": 17900,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル7（ROM 18 车模板表 0x22000）；引擎改造升级自V24ハルク（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x89",
+    "group": "战车装备",
+    "nameJa": "シルフィード",
+    "nameZh": "SIL1",
+    "category": "エンジン",
+    "price": 32400,
+    "chests": [],
+    "drops": [],
+    "other": "引擎改造升级自シルフィード（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x8A",
+    "group": "战车装备",
+    "nameJa": "シルフィードS",
+    "nameZh": "SIL2",
+    "category": "エンジン",
+    "price": 36500,
+    "chests": [],
+    "drops": [],
+    "other": "引擎改造升级自シルフィード（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x8C",
+    "group": "战车装备",
+    "nameJa": "ターボカルメン",
+    "nameZh": "涡轮",
+    "category": "エンジン",
+    "price": 56200,
+    "chests": [
+      "#60 地图 D0(38,9)"
+    ],
+    "drops": [],
+    "other": "引擎改造升级自OHCカルメン（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x8D",
+    "group": "战车装备",
+    "nameJa": "ロケットカルメン",
+    "nameZh": "喷气",
+    "category": "エンジン",
+    "price": 64000,
+    "chests": [],
+    "drops": [],
+    "other": "随战车出厂装备：NO.8（ROM 18 车模板表 0x22000）；引擎改造升级自ターボカルメン（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x8E",
+    "group": "战车装备",
+    "nameJa": "V48コング",
+    "nameZh": "V48",
+    "category": "エンジン",
+    "price": 81500,
+    "chests": [
+      "#86 世界地图(112,80)·隐藏"
+    ],
+    "drops": [],
+    "other": "随战车出厂装备：レンタル10（ROM 18 车模板表 0x22000）"
+  },
+  {
+    "id": "0x8F",
+    "group": "战车装备",
+    "nameJa": "V66コング",
+    "nameZh": "V66",
+    "category": "エンジン",
+    "price": 100800,
+    "chests": [],
+    "drops": [],
+    "other": "引擎改造升级自V48コング（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x90",
+    "group": "战车装备",
+    "nameJa": "V100コング",
+    "nameZh": "V100",
+    "category": "エンジン",
+    "price": 132000,
+    "chests": [
+      "#68 地图 D3(38,25)"
+    ],
+    "drops": [],
+    "other": "引擎改造升级自V66コング（改造柜台逐级强化；ROM 家族顶点表 PRG 0x30A3A）"
+  },
+  {
+    "id": "0x99",
+    "group": "人类道具",
+    "nameJa": "ねえさんのタオル",
+    "nameZh": "毛巾",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "初期所持品：猎人开局随身携带（ROM 初期道具表 PRG 0x2810E；Lv1 存档实证）"
+  },
+  {
+    "id": "0x9C",
+    "group": "人类道具",
+    "nameJa": "しんぐんラッパ",
+    "nameZh": "军号",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "售货机中奖品：炮弹售货机 03、装甲片售货机 02"
+  },
+  {
+    "id": "0x9D",
+    "group": "人类道具",
+    "nameJa": "ドーピングタブ",
+    "nameZh": "兴奋剂",
+    "category": "道具",
+    "price": 300,
+    "chests": [],
+    "drops": [],
+    "other": "ROM 内无任何发放渠道——正常流程无法入手（未使用/遗留条目）"
+  },
+  {
+    "id": "0xA7",
+    "group": "人类道具",
+    "nameJa": "なげやすいいし",
+    "nameZh": "石子",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [
+      "さつじんアメーバ、メタルぺッカー"
+    ],
+    "other": "售货机中奖品：炮弹售货机 06；随机宝箱池"
+  },
+  {
+    "id": "0xA8",
+    "group": "人类道具",
+    "nameJa": "がっぽりのサイフ",
+    "nameZh": "钱包",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#16 地图 84(8,2)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xAE",
+    "group": "人类道具",
+    "nameJa": "BSコントローラ",
+    "nameZh": "地图",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#0 地图 A7(12,12)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xB1",
+    "group": "人类道具",
+    "nameJa": "さいせいカプセル",
+    "nameZh": "再生丸",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "装置发放点：地图 76(11,11)·再生胶囊机"
+  },
+  {
+    "id": "0xB2",
+    "group": "人类道具",
+    "nameJa": "ふるびたコイン",
+    "nameZh": "古币",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#20 地图 8B(27,27)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xB6",
+    "group": "人类道具",
+    "nameJa": "アパートのカギ",
+    "nameZh": "钥匙",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "NPC赠与：地图 98(14,2)「ほんの できごころ だったんだ!…」"
+  },
+  {
+    "id": "0xB7",
+    "group": "人类道具",
+    "nameJa": "ロックハッカー",
+    "nameZh": "扳手",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#1 地图 98(8,3)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xB8",
+    "group": "人类道具",
+    "nameJa": "マンモスのキバ",
+    "nameZh": "象牙",
+    "category": "道具",
+    "price": 2300,
+    "chests": [
+      "#11 地图 30(24,11)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xB9",
+    "group": "人类道具",
+    "nameJa": "カメラのレンズ",
+    "nameZh": "光镜",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#42 地图 C1(8,7)"
+    ],
+    "drops": [],
+    "other": "镜片任务链物品（交给暗云博士时消失并置旗标 0xB9）"
+  },
+  {
+    "id": "0xBA",
+    "group": "人类道具",
+    "nameJa": "ルビーのレンズ",
+    "nameZh": "宝石镜",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "以けっこんゆびわ换得：麦基镇·民居 1(2,4)「これは むかしヘあのひとの ちちおやが はるか ひがしへ たびしたと…」；镜片任务链物品（同上，旗标 0xBA）"
+  },
+  {
+    "id": "0xBB",
+    "group": "人类道具",
+    "nameJa": "たいようのレンズ",
+    "nameZh": "太阳镜",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#50 地图 CD(29,26)"
+    ],
+    "drops": [],
+    "other": "镜片任务链物品（同上，旗标 0xBB）"
+  },
+  {
+    "id": "0xBC",
+    "group": "人类道具",
+    "nameJa": "メガネのレンズ",
+    "nameZh": "眼镜",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#40 地图 BE(17,11)"
+    ],
+    "drops": [],
+    "other": "镜片任务链物品（同上，旗标 0xBC）"
+  },
+  {
+    "id": "0xBD",
+    "group": "人类道具",
+    "nameJa": "けっこんゆびわ",
+    "nameZh": "戒指",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "麦基镇耕田事件的埋藏物（耕完田后找到；随后可在民居 1 以它换宝石镜）"
+  },
+  {
+    "id": "0xBE",
+    "group": "人类道具",
+    "nameJa": "いれずみシール",
+    "nameZh": "纹身",
+    "category": "道具",
+    "price": 50,
+    "chests": [
+      "#29 地图 99(11,15)"
+    ],
+    "drops": [],
+    "other": "售货机中奖品：道具售货机 09"
+  },
+  {
+    "id": "0xBF",
+    "group": "人类道具",
+    "nameJa": "きんののべぼう",
+    "nameZh": "金棒",
+    "category": "道具",
+    "price": 2000,
+    "chests": [
+      "#15 地图 84(7,2)",
+      "#35 地图 B2(6,9)"
+    ],
+    "drops": [],
+    "other": "售货机中奖品：道具售货机 04"
+  },
+  {
+    "id": "0xC1",
+    "group": "人类道具",
+    "nameJa": "ねえさんのパンツ",
+    "nameZh": "女内衣",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "装置发放点：自己的家(7,2)·调查衣柜（按 PRNG 位随机得两者之一；ROM 表 PRG 0x35D38）"
+  },
+  {
+    "id": "0xC2",
+    "group": "人类道具",
+    "nameJa": "おやじのパンツ",
+    "nameZh": "男内衣",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "装置发放点：自己的家(7,2)·调查衣柜（按 PRNG 位随机得两者之一；ROM 表 PRG 0x35D38）"
+  },
+  {
+    "id": "0xC4",
+    "group": "人类道具",
+    "nameJa": "のうしゅくメチル",
+    "nameZh": "药液",
+    "category": "道具",
+    "price": 150,
+    "chests": [
+      "#39 地图 BA(10,12)"
+    ],
+    "drops": [
+      "メチルアマゾン"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0xC5",
+    "group": "人类道具",
+    "nameJa": "ぎんののべぼう",
+    "nameZh": "银棒",
+    "category": "道具",
+    "price": 1000,
+    "chests": [],
+    "drops": [],
+    "other": "售货机中奖品：道具售货机 08"
+  },
+  {
+    "id": "0xC6",
+    "group": "人类道具",
+    "nameJa": "どうののべぼう",
+    "nameZh": "铜棒",
+    "category": "道具",
+    "price": 500,
+    "chests": [],
+    "drops": [],
+    "other": "售货机中奖品：道具售货机 07"
+  },
+  {
+    "id": "0xC7",
+    "group": "人类道具",
+    "nameJa": "けんきゅうノート",
+    "nameZh": "笔记",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#52 地图 CE(41,12)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xC8",
+    "group": "人类道具",
+    "nameJa": "ちぞめのてちょう",
+    "nameZh": "日记",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#57 地图 CF(21,7)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xC9",
+    "group": "人类道具",
+    "nameJa": "パスワードのメモ",
+    "nameZh": "密码本",
+    "category": "道具",
+    "price": null,
+    "chests": [
+      "#63 地图 D1(13,5)"
+    ],
+    "drops": [],
+    "other": "待查"
+  },
+  {
+    "id": "0xD7",
+    "group": "战车道具",
+    "nameJa": "レーダースコープ",
+    "nameZh": "雷达",
+    "category": "道具",
+    "price": 15500,
+    "chests": [],
+    "drops": [
+      "レーダーフラワー"
+    ],
+    "other": "待查"
+  },
+  {
+    "id": "0xD9",
+    "group": "战车道具",
+    "nameJa": "しょうかそうち",
+    "nameZh": "消火栓",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "ROM 内无任何发放渠道——正常流程无法入手（未使用/遗留条目）"
+  },
+  {
+    "id": "0xDC",
+    "group": "战车道具",
+    "nameJa": "とりのふん",
+    "nameZh": "鸟类",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "战斗/事件塞进战车工具箱的垃圾；塔镇洗车服务清除"
+  },
+  {
+    "id": "0xDD",
+    "group": "战车道具",
+    "nameJa": "ナマリタケ",
+    "nameZh": "铅竹",
+    "category": "道具",
+    "price": null,
+    "chests": [],
+    "drops": [],
+    "other": "战斗/事件塞进战车工具箱的垃圾；塔镇洗车服务清除"
+  }
+]

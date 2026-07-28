@@ -1,0 +1,91 @@
+---
+// 考证条目列表容器：判定筛选芯片 + 计数，配合 MmClaim 卡片使用。
+---
+
+<div class="mm-claims not-content">
+  <div class="mm-claims-bar" role="group" aria-label="按判定筛选">
+    <button class="mm-claims-chip is-active" data-filter="">全部</button>
+    <button class="mm-claims-chip" data-filter="confirmed">属实</button>
+    <button class="mm-claims-chip" data-filter="busted">不实</button>
+    <button class="mm-claims-chip" data-filter="partial">部分属实</button>
+    <button class="mm-claims-chip" data-filter="untested">待验证</button>
+    <span class="mm-claims-count" aria-live="polite"></span>
+  </div>
+  <div class="mm-claims-list">
+    <slot />
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.mm-claims').forEach((root) => {
+    const chips = [...root.querySelectorAll<HTMLButtonElement>('.mm-claims-chip')];
+    const cards = [...root.querySelectorAll<HTMLElement>('.mm-claim')];
+    const count = root.querySelector<HTMLElement>('.mm-claims-count')!;
+
+    const apply = (filter: string) => {
+      let shown = 0;
+      for (const card of cards) {
+        const ok = !filter || card.dataset.verdict === filter;
+        card.hidden = !ok;
+        if (ok) shown += 1;
+      }
+      count.textContent = `${shown} 条`;
+    };
+
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        chips.forEach((c) => c.classList.toggle('is-active', c === chip));
+        apply(chip.dataset.filter ?? '');
+      });
+    });
+    apply('');
+  });
+</script>
+
+<style>
+  .mm-claims {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .mm-claims-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .mm-claims-chip {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text-muted);
+    cursor: pointer;
+    font-size: 0.84rem;
+    font-weight: 700;
+    padding: 0.22rem 0.7rem;
+  }
+
+  .mm-claims-chip:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary-hover);
+  }
+
+  .mm-claims-chip.is-active {
+    border-color: var(--leaf-primary);
+    background: color-mix(in srgb, var(--leaf-primary) 12%, transparent);
+    color: var(--leaf-primary-hover);
+  }
+
+  .mm-claims-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .mm-claims-list {
+    display: grid;
+    gap: 0.8rem;
+  }
+</style>

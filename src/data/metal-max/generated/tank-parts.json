@@ -1,0 +1,1313 @@
+[
+  {
+    "id": "0x41",
+    "nameJa": "45mmほう",
+    "nameZh": "45炮",
+    "category": "主砲",
+    "attack": 80,
+    "defense": 48,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 1.2,
+    "capacityT": null,
+    "price": 440
+  },
+  {
+    "id": "0x42",
+    "nameJa": "55mmほう",
+    "nameZh": "55炮",
+    "category": "主砲",
+    "attack": 120,
+    "defense": 48,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 1.6,
+    "capacityT": null,
+    "price": 540
+  },
+  {
+    "id": "0x43",
+    "nameJa": "75mmほう",
+    "nameZh": "75炮",
+    "category": "主砲",
+    "attack": 160,
+    "defense": 48,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 1.8,
+    "capacityT": null,
+    "price": 860
+  },
+  {
+    "id": "0x44",
+    "nameJa": "80mmスパルク",
+    "nameZh": "80高炮",
+    "category": "主砲",
+    "attack": 200,
+    "defense": 60,
+    "ammo": 64,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 4,
+    "capacityT": null,
+    "price": 1780
+  },
+  {
+    "id": "0x45",
+    "nameJa": "95mmほう",
+    "nameZh": "95炮",
+    "category": "主砲",
+    "attack": 230,
+    "defense": 48,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.2,
+    "capacityT": null,
+    "price": 2600
+  },
+  {
+    "id": "0x46",
+    "nameJa": "105mmキャノン",
+    "nameZh": "105加农炮",
+    "category": "主砲",
+    "attack": 300,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.5,
+    "capacityT": null,
+    "price": 3200
+  },
+  {
+    "id": "0x47",
+    "nameJa": "115mmロングT",
+    "nameZh": "115t型炮",
+    "category": "主砲",
+    "attack": 350,
+    "defense": 58,
+    "ammo": 48,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.8,
+    "capacityT": null,
+    "price": 4000
+  },
+  {
+    "id": "0x48",
+    "nameJa": "125mmキャノン",
+    "nameZh": "125加农炮",
+    "category": "主砲",
+    "attack": 400,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.6,
+    "capacityT": null,
+    "price": 5500
+  },
+  {
+    "id": "0x49",
+    "nameJa": "125mmロングT",
+    "nameZh": "125t型炮",
+    "category": "主砲",
+    "attack": 420,
+    "defense": 58,
+    "ammo": 48,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 3.2,
+    "capacityT": null,
+    "price": 6000
+  },
+  {
+    "id": "0x4A",
+    "nameJa": "135mmキャノン",
+    "nameZh": "135加农炮",
+    "category": "主砲",
+    "attack": 470,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.7,
+    "capacityT": null,
+    "price": 8000
+  },
+  {
+    "id": "0x4B",
+    "nameJa": "140mmスパルク",
+    "nameZh": "140高炮",
+    "category": "主砲",
+    "attack": 520,
+    "defense": 60,
+    "ammo": 64,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 4.8,
+    "capacityT": null,
+    "price": 9900
+  },
+  {
+    "id": "0x4C",
+    "nameJa": "155mmキャノン",
+    "nameZh": "155加农炮",
+    "category": "主砲",
+    "attack": 540,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.8,
+    "capacityT": null,
+    "price": 10600
+  },
+  {
+    "id": "0x4D",
+    "nameJa": "160mmアモルフ",
+    "nameZh": "160滑膛炮",
+    "category": "主砲",
+    "attack": 570,
+    "defense": 65,
+    "ammo": 64,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 5.6,
+    "capacityT": null,
+    "price": 15500
+  },
+  {
+    "id": "0x4E",
+    "nameJa": "165mmロングT",
+    "nameZh": "165t型炮",
+    "category": "主砲",
+    "attack": 620,
+    "defense": 58,
+    "ammo": 48,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 3.6,
+    "capacityT": null,
+    "price": 18000
+  },
+  {
+    "id": "0x4F",
+    "nameJa": "175mmキャノン",
+    "nameZh": "175加农炮",
+    "category": "主砲",
+    "attack": 700,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 2.9,
+    "capacityT": null,
+    "price": 25000
+  },
+  {
+    "id": "0x50",
+    "nameJa": "195mmキャノン",
+    "nameZh": "195加农炮",
+    "category": "主砲",
+    "attack": 720,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 3,
+    "capacityT": null,
+    "price": 28000
+  },
+  {
+    "id": "0x51",
+    "nameJa": "165mmゴースト",
+    "nameZh": "165钢炮",
+    "category": "主砲",
+    "attack": 650,
+    "defense": 70,
+    "ammo": 16,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 1,
+    "capacityT": null,
+    "price": null
+  },
+  {
+    "id": "0x52",
+    "nameJa": "180mmスパルク",
+    "nameZh": "180高炮",
+    "category": "主砲",
+    "attack": 710,
+    "defense": 60,
+    "ammo": 64,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 10,
+    "capacityT": null,
+    "price": 35000
+  },
+  {
+    "id": "0x53",
+    "nameJa": "205mmキャノン",
+    "nameZh": "205加农炮",
+    "category": "主砲",
+    "attack": 780,
+    "defense": 50,
+    "ammo": 32,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 3.1,
+    "capacityT": null,
+    "price": 56200
+  },
+  {
+    "id": "0x54",
+    "nameJa": "220mmガイア",
+    "nameZh": "220炮",
+    "category": "主砲",
+    "attack": 800,
+    "defense": 86,
+    "ammo": 64,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲"
+    ],
+    "range": "単体",
+    "weightT": 10,
+    "capacityT": null,
+    "price": null
+  },
+  {
+    "id": "0x55",
+    "nameJa": "ATMミサイル",
+    "nameZh": "ATM导弹",
+    "category": "S-E",
+    "attack": 320,
+    "defense": 25,
+    "ammo": 8,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 2,
+    "capacityT": null,
+    "price": 800
+  },
+  {
+    "id": "0x56",
+    "nameJa": "かえんほうしゃき",
+    "nameZh": "喷火",
+    "category": "S-E",
+    "attack": 250,
+    "defense": 20,
+    "ammo": 8,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 2.4,
+    "capacityT": null,
+    "price": 1000
+  },
+  {
+    "id": "0x57",
+    "nameJa": "TNTグレネード",
+    "nameZh": "弹炮",
+    "category": "S-E",
+    "attack": 440,
+    "defense": 28,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 1.8,
+    "capacityT": null,
+    "price": 1500
+  },
+  {
+    "id": "0x58",
+    "nameJa": "LIピーナッツ",
+    "nameZh": "LI旋炮",
+    "category": "S-E",
+    "attack": 380,
+    "defense": 100,
+    "ammo": 2,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "全体",
+    "weightT": 4,
+    "capacityT": null,
+    "price": 1800
+  },
+  {
+    "id": "0x59",
+    "nameJa": "ファイブレス5",
+    "nameZh": "电光",
+    "category": "S-E",
+    "attack": 410,
+    "defense": 140,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 3.6,
+    "capacityT": null,
+    "price": 2300
+  },
+  {
+    "id": "0x5A",
+    "nameJa": "RDナパーム",
+    "nameZh": "汽弹",
+    "category": "S-E",
+    "attack": 340,
+    "defense": 200,
+    "ammo": 16,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 5.2,
+    "capacityT": null,
+    "price": 2600
+  },
+  {
+    "id": "0x5B",
+    "nameJa": "MCストライカー",
+    "nameZh": "拉卡",
+    "category": "S-E",
+    "attack": 540,
+    "defense": 180,
+    "ammo": 8,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 4.4,
+    "capacityT": null,
+    "price": 3100
+  },
+  {
+    "id": "0x5C",
+    "nameJa": "イオノクラフト",
+    "nameZh": "福特",
+    "category": "S-E",
+    "attack": 620,
+    "defense": 350,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 6,
+    "capacityT": null,
+    "price": 3800
+  },
+  {
+    "id": "0x5D",
+    "nameJa": "マニアックシェフ",
+    "nameZh": "火狼",
+    "category": "S-E",
+    "attack": 420,
+    "defense": 280,
+    "ammo": 16,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 7,
+    "capacityT": null,
+    "price": 5000
+  },
+  {
+    "id": "0x5E",
+    "nameJa": "トマトタイフーン",
+    "nameZh": "台风",
+    "category": "S-E",
+    "attack": 420,
+    "defense": 400,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲",
+      "副砲",
+      "S-E"
+    ],
+    "range": "全体",
+    "weightT": 11,
+    "capacityT": null,
+    "price": 5500
+  },
+  {
+    "id": "0x5F",
+    "nameJa": "DDヒステリック",
+    "nameZh": "雷电",
+    "category": "S-E",
+    "attack": 650,
+    "defense": 410,
+    "ammo": 16,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 5.6,
+    "capacityT": null,
+    "price": 15500
+  },
+  {
+    "id": "0x60",
+    "nameJa": "エクスカリバー",
+    "nameZh": "巨炮",
+    "category": "S-E",
+    "attack": 710,
+    "defense": 360,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 2.4,
+    "capacityT": null,
+    "price": 7000
+  },
+  {
+    "id": "0x61",
+    "nameJa": "ニトロスイーパー",
+    "nameZh": "火神",
+    "category": "S-E",
+    "attack": 540,
+    "defense": 420,
+    "ammo": 8,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "全体",
+    "weightT": 9,
+    "capacityT": null,
+    "price": 6750
+  },
+  {
+    "id": "0x62",
+    "nameJa": "レーンサイクロン",
+    "nameZh": "气旋",
+    "category": "S-E",
+    "attack": 680,
+    "defense": 480,
+    "ammo": 4,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "全体",
+    "weightT": 12,
+    "capacityT": null,
+    "price": 8500
+  },
+  {
+    "id": "0x63",
+    "nameJa": "インターセプター",
+    "nameZh": "截击",
+    "category": "S-E",
+    "attack": 720,
+    "defense": 500,
+    "ammo": 8,
+    "ammoInfinite": false,
+    "slots": [
+      "主砲",
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 8.4,
+    "capacityT": null,
+    "price": 16700
+  },
+  {
+    "id": "0x64",
+    "nameJa": "Sートルネード",
+    "nameZh": "托卢",
+    "category": "S-E",
+    "attack": 760,
+    "defense": 600,
+    "ammo": 16,
+    "ammoInfinite": false,
+    "slots": [
+      "S-E"
+    ],
+    "range": "グループ",
+    "weightT": 11,
+    "capacityT": null,
+    "price": 35000
+  },
+  {
+    "id": "0x65",
+    "nameJa": "7mmきかんほう",
+    "nameZh": "07机关炮",
+    "category": "機銃",
+    "attack": 40,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 0.8,
+    "capacityT": null,
+    "price": 200
+  },
+  {
+    "id": "0x66",
+    "nameJa": "9mmきかんほう",
+    "nameZh": "09机关炮",
+    "category": "機銃",
+    "attack": 60,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 0.9,
+    "capacityT": null,
+    "price": 380
+  },
+  {
+    "id": "0x67",
+    "nameJa": "ガトリングほう",
+    "nameZh": "格林炮",
+    "category": "機銃",
+    "attack": 75,
+    "defense": 30,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 1.2,
+    "capacityT": null,
+    "price": 550
+  },
+  {
+    "id": "0x68",
+    "nameJa": "11mmきかんほう",
+    "nameZh": "11机关炮",
+    "category": "機銃",
+    "attack": 100,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 1,
+    "capacityT": null,
+    "price": 1210
+  },
+  {
+    "id": "0x69",
+    "nameJa": "9mmバルカンほう",
+    "nameZh": "09火炮",
+    "category": "機銃",
+    "attack": 80,
+    "defense": 32,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 1.4,
+    "capacityT": null,
+    "price": 1075
+  },
+  {
+    "id": "0x6A",
+    "nameJa": "11mmバルカン",
+    "nameZh": "11火炮",
+    "category": "機銃",
+    "attack": 130,
+    "defense": 32,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 1.8,
+    "capacityT": null,
+    "price": 1800
+  },
+  {
+    "id": "0x6B",
+    "nameJa": "15mmきかんほう",
+    "nameZh": "15机关炮",
+    "category": "機銃",
+    "attack": 160,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 1.1,
+    "capacityT": null,
+    "price": 2000
+  },
+  {
+    "id": "0x6C",
+    "nameJa": "ビームブラスター",
+    "nameZh": "激光",
+    "category": "機銃",
+    "attack": 200,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 2,
+    "capacityT": null,
+    "price": 2480
+  },
+  {
+    "id": "0x6D",
+    "nameJa": "スキャンレーザー",
+    "nameZh": "雷神",
+    "category": "機銃",
+    "attack": 210,
+    "defense": 45,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 2,
+    "capacityT": null,
+    "price": 3800
+  },
+  {
+    "id": "0x6E",
+    "nameJa": "18mmきかんほう",
+    "nameZh": "18机关炮",
+    "category": "機銃",
+    "attack": 240,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 1.2,
+    "capacityT": null,
+    "price": 4600
+  },
+  {
+    "id": "0x6F",
+    "nameJa": "サンダーブラスト",
+    "nameZh": "闪电",
+    "category": "機銃",
+    "attack": 245,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "主砲",
+      "副砲",
+      "S-E"
+    ],
+    "range": "単体",
+    "weightT": 2.5,
+    "capacityT": null,
+    "price": 6000
+  },
+  {
+    "id": "0x70",
+    "nameJa": "20mmバルカン",
+    "nameZh": "20火炮",
+    "category": "機銃",
+    "attack": 280,
+    "defense": 32,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 2.2,
+    "capacityT": null,
+    "price": 7300
+  },
+  {
+    "id": "0x71",
+    "nameJa": "25mmきかんほう",
+    "nameZh": "25机关炮",
+    "category": "機銃",
+    "attack": 350,
+    "defense": 28,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "単体",
+    "weightT": 1.3,
+    "capacityT": null,
+    "price": 9900
+  },
+  {
+    "id": "0x72",
+    "nameJa": "バーナードラゴン",
+    "nameZh": "火龙",
+    "category": "機銃",
+    "attack": 355,
+    "defense": 45,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "主砲",
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 3.5,
+    "capacityT": null,
+    "price": 15500
+  },
+  {
+    "id": "0x73",
+    "nameJa": "サンダーストーム",
+    "nameZh": "风暴",
+    "category": "機銃",
+    "attack": 400,
+    "defense": 45,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "主砲",
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 3,
+    "capacityT": null,
+    "price": 25000
+  },
+  {
+    "id": "0x74",
+    "nameJa": "ひぼたんバルカン",
+    "nameZh": "波坦",
+    "category": "機銃",
+    "attack": 340,
+    "defense": 95,
+    "ammo": null,
+    "ammoInfinite": true,
+    "slots": [
+      "副砲"
+    ],
+    "range": "グループ",
+    "weightT": 0.1,
+    "capacityT": null,
+    "price": 32000
+  },
+  {
+    "id": "0x75",
+    "nameJa": "HAL900",
+    "nameZh": "HAL900",
+    "category": "Cユニット",
+    "attack": null,
+    "defense": 30,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.8,
+    "capacityT": null,
+    "price": 800
+  },
+  {
+    "id": "0x76",
+    "nameJa": "ウォズニアクII",
+    "nameZh": "尼克",
+    "category": "Cユニット",
+    "attack": null,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.2,
+    "capacityT": null,
+    "price": 2000
+  },
+  {
+    "id": "0x77",
+    "nameJa": "エミー",
+    "nameZh": "艾米",
+    "category": "Cユニット",
+    "attack": null,
+    "defense": 100,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 3,
+    "capacityT": null,
+    "price": 4000
+  },
+  {
+    "id": "0x78",
+    "nameJa": "SOLOMON2",
+    "nameZh": "SOLOMON2",
+    "category": "Cユニット",
+    "attack": null,
+    "defense": 190,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 2,
+    "capacityT": null,
+    "price": 10000
+  },
+  {
+    "id": "0x79",
+    "nameJa": "ビートル",
+    "nameZh": "MOT1",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 24,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.1,
+    "capacityT": 8,
+    "price": 200
+  },
+  {
+    "id": "0x7A",
+    "nameJa": "ビートル",
+    "nameZh": "MOT2",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 24,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.2,
+    "capacityT": 9,
+    "price": 340
+  },
+  {
+    "id": "0x7B",
+    "nameJa": "ビートルI",
+    "nameZh": "MOT3",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 24,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.3,
+    "capacityT": 10,
+    "price": 520
+  },
+  {
+    "id": "0x7C",
+    "nameJa": "チヨノフ",
+    "nameZh": "SOL0",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 30,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.2,
+    "capacityT": 12,
+    "price": 720
+  },
+  {
+    "id": "0x7D",
+    "nameJa": "チヨノフ",
+    "nameZh": "SOL1",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 30,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.3,
+    "capacityT": 15,
+    "price": 1210
+  },
+  {
+    "id": "0x7E",
+    "nameJa": "チヨノフS",
+    "nameZh": "SOL2",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 30,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.4,
+    "capacityT": 18,
+    "price": 1600
+  },
+  {
+    "id": "0x7F",
+    "nameJa": "ブル",
+    "nameZh": "BuL",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.3,
+    "capacityT": 20,
+    "price": 2480
+  },
+  {
+    "id": "0x80",
+    "nameJa": "ギガブル",
+    "nameZh": "BuL1",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.4,
+    "capacityT": 23,
+    "price": 3150
+  },
+  {
+    "id": "0x81",
+    "nameJa": "オメガブル",
+    "nameZh": "BuL11",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 40,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.5,
+    "capacityT": 26,
+    "price": 3800
+  },
+  {
+    "id": "0x82",
+    "nameJa": "インパルス",
+    "nameZh": "HUN0",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 58,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.4,
+    "capacityT": 27,
+    "price": 4750
+  },
+  {
+    "id": "0x83",
+    "nameJa": "インパルス",
+    "nameZh": "HUN1",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 58,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.5,
+    "capacityT": 29,
+    "price": 6300
+  },
+  {
+    "id": "0x84",
+    "nameJa": "インパルス",
+    "nameZh": "HUN2",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 58,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.6,
+    "capacityT": 31,
+    "price": 8210
+  },
+  {
+    "id": "0x85",
+    "nameJa": "V24ハルク",
+    "nameZh": "V24",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 83,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.5,
+    "capacityT": 32,
+    "price": 12800
+  },
+  {
+    "id": "0x86",
+    "nameJa": "V32ハルク",
+    "nameZh": "V32",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 83,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.6,
+    "capacityT": 35,
+    "price": 17900
+  },
+  {
+    "id": "0x87",
+    "nameJa": "V48ハルク",
+    "nameZh": "V48",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 83,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.5,
+    "capacityT": 38,
+    "price": 22000
+  },
+  {
+    "id": "0x88",
+    "nameJa": "シルフィード",
+    "nameZh": "SIL0",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 90,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.6,
+    "capacityT": 40,
+    "price": 28000
+  },
+  {
+    "id": "0x89",
+    "nameJa": "シルフィード",
+    "nameZh": "SIL1",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 90,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.7,
+    "capacityT": 42,
+    "price": 32400
+  },
+  {
+    "id": "0x8A",
+    "nameJa": "シルフィードS",
+    "nameZh": "SIL2",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 90,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.6,
+    "capacityT": 44,
+    "price": 36500
+  },
+  {
+    "id": "0x8B",
+    "nameJa": "OHCカルメン",
+    "nameZh": "OHC",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 100,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.7,
+    "capacityT": 45,
+    "price": 39800
+  },
+  {
+    "id": "0x8C",
+    "nameJa": "ターボカルメン",
+    "nameZh": "涡轮",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 100,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.8,
+    "capacityT": 48,
+    "price": 56200
+  },
+  {
+    "id": "0x8D",
+    "nameJa": "ロケットカルメン",
+    "nameZh": "喷气",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 100,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.7,
+    "capacityT": 51,
+    "price": 64000
+  },
+  {
+    "id": "0x8E",
+    "nameJa": "V48コング",
+    "nameZh": "V48",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 115,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.8,
+    "capacityT": 52,
+    "price": 81500
+  },
+  {
+    "id": "0x8F",
+    "nameJa": "V66コング",
+    "nameZh": "V66",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 115,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 0.9,
+    "capacityT": 55,
+    "price": 100800
+  },
+  {
+    "id": "0x90",
+    "nameJa": "V100コング",
+    "nameZh": "V100",
+    "category": "エンジン",
+    "attack": null,
+    "defense": 115,
+    "ammo": null,
+    "ammoInfinite": false,
+    "slots": [],
+    "range": null,
+    "weightT": 1,
+    "capacityT": 58,
+    "price": 132000
+  }
+]

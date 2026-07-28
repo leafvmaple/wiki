@@ -1,0 +1,24 @@
+---
+title: 战车装备
+description: 重装机兵（FC 日版）战车装备图鉴：主砲/S-E/機銃/Cユニット/エンジン 80 件部件与 8 具车体的攻防、弹仓、重量、载重与价格。
+game: '重装机兵'
+gameVersion: 'FC 日版'
+status: verified
+lastVerified: '2026-07-28'
+sidebar:
+  label: 战车装备
+---
+
+import MetalMaxDataTable from '../../../../../components/MetalMaxDataTable.astro';
+
+## 战车部件
+
+部件自重单位为吨（t），引擎的「载重」为其最大搭载量。機銃弹仓为「∞」表示无限弹药；改造装甲（SP）的上限就是引擎载重扣除车体与部件自重后的剩余量，一片装甲 = 10kg。
+
+<MetalMaxDataTable kind="tank" />
+
+## 车体
+
+车体道具本身只带价格；装甲、开孔、初期数值取自 8 辆玩家战车的初始配置表（NO.k 的默认车体即对应车体道具）。「防御上限」是修理店守备改造的封顶值。
+
+<MetalMaxDataTable kind="chassis" />

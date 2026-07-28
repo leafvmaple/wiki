@@ -1,0 +1,187 @@
+---
+import summary from '../data/metal-max/generated/summary.json';
+
+const { counts } = summary;
+
+const statCards = [
+  { value: counts.humanEquipment, label: '人类装备', detail: `${counts.humanArmor} 防具 / ${counts.humanWeapons} 武器` },
+  { value: counts.tankParts, label: '战车部件', detail: '主砲 / S-E / 機銃 / C装置 / 引擎' },
+  { value: counts.tankChassis, label: '车体', detail: 'NO.1–NO.8 玩家战车' },
+  { value: 'JP', label: '数据版本', detail: 'FC 日版 ROM 逆向提取' },
+];
+
+const entries = [
+  { label: '人类装备', href: '/games/metal-max/equipment/human/', meta: '防具与武器的攻防、可装备角色、价格' },
+  { label: '战车装备', href: '/games/metal-max/equipment/tank/', meta: '部件攻防、弹仓、重量、载重与车体数据' },
+  { label: '机制解析', href: '/games/metal-max/research/', meta: '传闻判定、道具效果与事件条件的硬核分析' },
+  { label: '数据说明', href: '/games/metal-max/data-notes/', meta: '来源、单位规则与同步方式' },
+];
+---
+
+<section class="mm-hub" aria-label="重装机兵资料入口">
+  <div class="mm-hero">
+    <p class="mm-kicker">数据来自 FC 日版 ROM 逆向（nes_decoder 管线）</p>
+    <h2>重装机兵（メタルマックス）资料库</h2>
+    <p>
+      废土世界的赏金猎人图鉴：人类装备与战车装备两套可筛选数据，加上带 ROM 依据的
+      机制解析专栏——传闻逐条判定，道具效果、数值公式与事件条件硬核分析。后续再扩展
+      道具、炮弹、赏金首与商店。
+    </p>
+    <div class="mm-actions">
+      <a href="/games/metal-max/equipment/human/">查人类装备</a>
+      <a href="/games/metal-max/equipment/tank/">查战车装备</a>
+      <a href="/games/metal-max/research/">看机制解析</a>
+    </div>
+  </div>
+
+  <div class="mm-stat-grid" aria-label="数据规模">
+    {statCards.map((item) => (
+      <span>
+        <strong>{item.value}</strong>
+        <em>{item.label}</em>
+        <small>{item.detail}</small>
+      </span>
+    ))}
+  </div>
+
+  <div class="mm-entry-grid" aria-label="常用入口">
+    {entries.map((entry) => (
+      <a href={entry.href}>
+        <span>{entry.label}</span>
+        <small>{entry.meta}</small>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .mm-hub {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  .mm-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, rgba(199, 154, 42, 0.14), rgba(35, 183, 229, 0.07)),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    padding: 1.1rem;
+  }
+
+  .mm-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .mm-hero h2 {
+    color: var(--leaf-heading);
+    font-size: 1.72rem;
+    line-height: 1.16;
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .mm-hero p:last-of-type {
+    color: var(--leaf-text);
+    font-size: 1rem;
+    margin: 0;
+    max-width: 44rem;
+  }
+
+  .mm-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+  }
+
+  .mm-actions a {
+    background: rgba(35, 183, 229, 0.09);
+    border: 1px solid rgba(35, 183, 229, 0.34);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-primary-hover);
+    font-weight: 800;
+    padding: 0.45rem 0.7rem;
+    text-decoration: none;
+  }
+
+  .mm-actions a:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary);
+  }
+
+  .mm-stat-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .mm-stat-grid span,
+  .mm-entry-grid a {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+  }
+
+  .mm-stat-grid span {
+    display: grid;
+    gap: 0.16rem;
+    padding: 0.8rem;
+  }
+
+  .mm-stat-grid strong {
+    color: var(--leaf-heading);
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  .mm-stat-grid em {
+    color: var(--leaf-text);
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .mm-stat-grid small,
+  .mm-entry-grid small {
+    color: var(--leaf-text-muted);
+  }
+
+  .mm-entry-grid {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mm-entry-grid a {
+    color: var(--leaf-primary-hover);
+    display: grid;
+    font-weight: 800;
+    gap: 0.28rem;
+    padding: 0.78rem 0.85rem;
+    text-decoration: none;
+  }
+
+  .mm-entry-grid a:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary);
+  }
+
+  @media (max-width: 58rem) {
+    .mm-stat-grid,
+    .mm-entry-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 34rem) {
+    .mm-stat-grid,
+    .mm-entry-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

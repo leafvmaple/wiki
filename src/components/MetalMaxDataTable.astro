@@ -1,0 +1,373 @@
+---
+// 重装机兵数据表 — 可筛选 + 可排序。kinds:
+//   kind="human"   — human-equipment.json（人类防具 + 武器，按部位筛选）
+//   kind="tank"    — tank-parts.json（主砲/S-E/機銃/Cユニット/エンジン，按分类筛选）
+//   kind="chassis" — tank-chassis.json（8 车体，数值来自玩家战车基础表，无筛选）
+//   kind="special" — special-items.json（非商店流通的 62 件，按大类筛选）
+// 名称以日版为准，中文名为民间汉化 ROM 的译名，仅作辅助识别。
+import humanEquipment from '../data/metal-max/generated/human-equipment.json';
+import tankParts from '../data/metal-max/generated/tank-parts.json';
+import chassis from '../data/metal-max/generated/tank-chassis.json';
+import specialItems from '../data/metal-max/generated/special-items.json';
+
+type Row = Record<string, any>;
+const { kind = 'human' } = Astro.props as { kind?: string };
+const money = (v: number | null) => (v == null ? '非卖品' : v.toLocaleString('en-US'));
+const num = (v: number | null | undefined) => (v == null ? '—' : String(v));
+
+const humanRows = humanEquipment as Row[];
+const humanCategories = [...new Set(humanRows.map((e) => e.category))];
+
+const partRows = tankParts as Row[];
+const partCategories = [...new Set(partRows.map((p) => p.category))];
+const ammoText = (p: Row) => (p.ammoInfinite ? '∞' : p.ammo == null ? '—' : String(p.ammo));
+const ammoSort = (p: Row) => (p.ammoInfinite ? 9999 : p.ammo ?? -1);
+
+const chassisRows = chassis as Row[];
+
+const spRows = specialItems as Row[];
+const spGroups = [...new Set(spRows.map((s) => s.group))];
+
+const searchKey = (r: Row) => [r.nameJa, r.nameZh].filter(Boolean).join(' ');
+const hasToolbar = kind !== 'chassis';
+---
+
+<div class="mm-dt-wrap not-content" data-unit="件">
+  {hasToolbar && (
+    <div class="mm-dt-bar">
+      <select class="mm-dt-type" aria-label={kind === 'human' ? '按部位筛选' : '按分类筛选'}>
+        <option value="">{kind === 'human' ? '全部部位' : '全部分类'}</option>
+        {(kind === 'human' ? humanCategories : kind === 'special' ? spGroups : partCategories).map((c) => (
+          <option value={c}>{c}</option>
+        ))}
+      </select>
+      <input class="mm-dt-search" type="search" placeholder="搜索名称…" aria-label="搜索名称" />
+      <span class="mm-dt-count" aria-live="polite"></span>
+    </div>
+  )}
+
+  <div class="mm-dt-scroll">
+    {kind === 'human' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">装备</th>
+            <th data-sort="type">部位</th>
+            <th data-sort="atk" class="num">攻击</th>
+            <th data-sort="def" class="num">防御</th>
+            <th>范围</th>
+            <th>可装备</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {humanRows.map((e) => (
+            <tr data-name={searchKey(e)} data-type={e.category}
+              data-atk={e.attack ?? -1} data-def={e.defense ?? -1} data-price={e.price ?? -1}>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{e.nameJa}</span>
+                {e.nameZh && <span class="mm-dt-zh">{e.nameZh}</span>}
+              </td>
+              <td class="mm-dt-cat">{e.category}</td>
+              <td class="num">{num(e.attack)}</td>
+              <td class="num">{num(e.defense)}</td>
+              <td class="mm-dt-muted">{e.range ?? '—'}</td>
+              <td>
+                <span class:list={['mm-dt-equip', e.equip !== '全員' && 'is-limited']}>{e.equip}</span>
+              </td>
+              <td class:list={['num', e.price == null && 'mm-dt-nosale']}>{money(e.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'tank' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">部件</th>
+            <th data-sort="type">分类</th>
+            <th data-sort="atk" class="num">攻击</th>
+            <th data-sort="def" class="num">防御</th>
+            <th data-sort="ammo" class="num">弹仓</th>
+            <th>范围</th>
+            <th>安装孔</th>
+            <th data-sort="weight" class="num">重量(t)</th>
+            <th data-sort="cap" class="num">载重(t)</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {partRows.map((p) => (
+            <tr data-name={searchKey(p)} data-type={p.category}
+              data-atk={p.attack ?? -1} data-def={p.defense ?? -1} data-ammo={ammoSort(p)}
+              data-weight={p.weightT ?? -1} data-cap={p.capacityT ?? -1} data-price={p.price ?? -1}>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{p.nameJa}</span>
+                {p.nameZh && <span class="mm-dt-zh">{p.nameZh}</span>}
+              </td>
+              <td class="mm-dt-cat">{p.category}</td>
+              <td class="num">{num(p.attack)}</td>
+              <td class="num">{num(p.defense)}</td>
+              <td class="num">{ammoText(p)}</td>
+              <td class="mm-dt-muted">{p.range ?? '—'}</td>
+              <td class="mm-dt-muted">{p.slots.length ? p.slots.join('・') : '—'}</td>
+              <td class="num">{num(p.weightT)}</td>
+              <td class="num">{num(p.capacityT)}</td>
+              <td class:list={['num', p.price == null && 'mm-dt-nosale']}>{money(p.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'special' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">名称</th>
+            <th data-sort="type">大类</th>
+            <th>分类</th>
+            <th data-sort="price" class="num">定价</th>
+            <th>宝箱</th>
+            <th>怪物掉落</th>
+            <th>其他渠道</th>
+          </tr>
+        </thead>
+        <tbody>
+          {spRows.map((s) => (
+            <tr data-name={searchKey(s)} data-type={s.group} data-price={s.price ?? -1}>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{s.nameJa}</span>
+                {s.nameZh && <span class="mm-dt-zh">{s.nameZh}</span>}
+              </td>
+              <td class="mm-dt-cat">{s.group}</td>
+              <td class="mm-dt-cat">{s.category ?? '—'}</td>
+              <td class:list={['num', s.price == null && 'mm-dt-nosale']}>{money(s.price)}</td>
+              <td class="mm-dt-long">
+                {s.chests.length ? s.chests.map((c: string) => <div>{c}</div>) : '—'}
+              </td>
+              <td class="mm-dt-long">{s.drops.length ? s.drops.join('、') : '—'}</td>
+              <td class:list={['mm-dt-long', s.other === '待查' && 'mm-dt-open']}>{s.other ?? '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'chassis' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="no" class="num">NO.</th>
+            <th data-sort="name">车体</th>
+            <th>初始开孔</th>
+            <th data-sort="sp" class="num">初期SP</th>
+            <th data-sort="def" class="num">初期防御</th>
+            <th data-sort="maxdef" class="num">防御上限</th>
+            <th data-sort="shells" class="num">初期弹仓</th>
+            <th data-sort="weight" class="num">车重(t)</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {chassisRows.map((c) => (
+            <tr data-name={searchKey(c)} data-no={c.tankNo} data-sp={c.sp} data-def={c.defense}
+              data-maxdef={c.maxDefense} data-shells={c.shells} data-weight={c.weightT} data-price={c.price ?? -1}>
+              <td class="num mm-dt-no">NO.{c.tankNo}</td>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{c.nameJa}</span>
+                {c.nameZh && <span class="mm-dt-zh">{c.nameZh}</span>}
+              </td>
+              <td class="mm-dt-muted">{c.holes.length ? c.holes.join('・') : '—'}</td>
+              <td class="num">{c.sp}</td>
+              <td class="num">{c.defense}</td>
+              <td class="num">{c.maxDefense}</td>
+              <td class="num">{c.shells}</td>
+              <td class="num">{c.weightT}</td>
+              <td class:list={['num', c.price == null && 'mm-dt-nosale']}>{money(c.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.mm-dt-wrap').forEach((root) => {
+    const table = root.querySelector('table')!;
+    const tbody = table.querySelector('tbody')!;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const typeSel = root.querySelector<HTMLSelectElement>('.mm-dt-type');
+    const search = root.querySelector<HTMLInputElement>('.mm-dt-search');
+    const count = root.querySelector<HTMLElement>('.mm-dt-count');
+    const unit = root.dataset.unit || '件';
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const t = typeSel ? typeSel.value : '';
+      const q = search ? search.value.trim().toLowerCase() : '';
+      let shown = 0;
+      for (const r of rows) {
+        const ok =
+          (!t || r.dataset.type === t) &&
+          (!q || (r.dataset.name || '').toLowerCase().includes(q));
+        r.hidden = !ok;
+        if (ok) shown += 1;
+      }
+      if (count) count.textContent = `${shown} ${unit}`;
+    };
+
+    const sortBy = (th: HTMLElement) => {
+      const key = th.dataset.sort!;
+      if (sortKey === key) sortDir = -sortDir;
+      else {
+        sortKey = key;
+        sortDir = key === 'name' || key === 'type' ? 1 : -1;
+      }
+      const numeric = th.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric ? (Number(av) - Number(bv)) * sortDir : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((r) => tbody.appendChild(r));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((h) => {
+        h.dataset.dir = h.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    typeSel?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) => th.addEventListener('click', () => sortBy(th)));
+    apply();
+  });
+</script>
+
+<style>
+  .mm-dt-wrap {
+    display: grid;
+    gap: 0.7rem;
+  }
+  .mm-dt-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .mm-dt-type,
+  .mm-dt-search {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font-size: 0.9rem;
+    padding: 0.36rem 0.6rem;
+  }
+  .mm-dt-search {
+    flex: 1 1 12rem;
+    max-width: 20rem;
+  }
+  .mm-dt-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+  .mm-dt-scroll {
+    overflow-x: auto;
+  }
+  .mm-dt {
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    width: 100%;
+  }
+  .mm-dt th,
+  .mm-dt td {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.46rem 0.7rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .mm-dt th {
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+  .mm-dt th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+  .mm-dt th[data-sort]:hover {
+    color: var(--leaf-primary-hover);
+  }
+  .mm-dt th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.3;
+  }
+  .mm-dt th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+  .mm-dt th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+  .mm-dt tbody tr:hover {
+    background: color-mix(in srgb, var(--leaf-primary) 6%, transparent);
+  }
+  .mm-dt .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .mm-dt-name {
+    white-space: nowrap;
+  }
+  .mm-dt-ja {
+    color: var(--leaf-heading);
+    font-weight: 600;
+  }
+  .mm-dt-zh {
+    color: var(--leaf-text-muted);
+    font-size: 0.8rem;
+    margin-left: 0.45rem;
+  }
+  .mm-dt-cat,
+  .mm-dt-muted {
+    color: var(--leaf-text-muted);
+  }
+  .mm-dt-long {
+    color: var(--leaf-text);
+    max-width: 24rem;
+    min-width: 9rem;
+    white-space: normal;
+  }
+  .mm-dt-open {
+    color: var(--leaf-text-muted);
+  }
+  .mm-dt-no {
+    color: var(--leaf-heading);
+    font-weight: 700;
+  }
+  .mm-dt-equip {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+  }
+  .mm-dt-equip.is-limited {
+    border: 1px solid color-mix(in srgb, #c79a2a 60%, var(--leaf-border));
+    border-radius: 999px;
+    color: #d9b24a;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.04rem 0.44rem;
+    white-space: nowrap;
+  }
+  .mm-dt-nosale {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+  }
+</style>

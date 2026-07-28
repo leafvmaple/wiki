@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "humanEquipment": 64,
+    "humanArmor": 34,
+    "humanWeapons": 30,
+    "tankParts": 80,
+    "tankChassis": 8,
+    "specialItems": 62,
+    "humanByCategory": {
+      "頭防具": 8,
+      "体防具": 8,
+      "足防具": 6,
+      "プロテクター": 6,
+      "腕防具": 6,
+      "人間武器": 30
+    },
+    "partsByCategory": {
+      "主砲": 20,
+      "S-E": 16,
+      "機銃": 16,
+      "Cユニット": 4,
+      "エンジン": 24
+    },
+    "specialByGroup": {
+      "人类装备": 12,
+      "战车装备": 20,
+      "人类道具": 26,
+      "战车道具": 4
+    }
+  },
+  "sources": {
+    "items": "map_viewer/res/metal_max/data/items.json",
+    "humanStats": "metalmax-godot/import/items.json",
+    "tankStats": "metalmax-godot/import/tanks.json",
+    "specialSources": "retro-save-editor/docs/metal-max-unbuyable-items.md",
+    "reference": "nes_decoder/docs/re/METAL_MAX_TANK_PARTS.md"
+  },
+  "generatedAt": "2026-07-28"
+}

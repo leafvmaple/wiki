@@ -1,0 +1,70 @@
+---
+title: 传闻判定一览
+description: 重装机兵传闻考证：军号 BUG、浓缩甲醇、烟幕弹、帕特港战车等玩家传闻的逐条判定，附 ROM 反汇编依据。
+game: '重装机兵'
+gameVersion: 'FC 日版'
+status: verified
+lastVerified: '2026-07-28'
+tableOfContents: false
+sidebar:
+  label: 传闻判定一览
+---
+
+import MmClaimList from '../../../../../components/MmClaimList.astro';
+import MmClaim from '../../../../../components/MmClaim.astro';
+
+玩家间流传的说法逐条对照 ROM 反汇编与实机验证给出判定。卡片标题照抄传闻原话（哪怕是错的），判定和机制才是考证结论；「ROM 依据」默认折叠，只保留关键地址。判定针对 **FC 日版**，版本限定的结论会单独标注（汉化版指流传最广的中文补丁版）。
+
+<MmClaimList>
+
+<MmClaim id="shingun-rappa" verdict="confirmed" version="汉化版限定" sources="反汇编 · 与日版逐字节对比" detail="/games/metal-max/research/battle-items/">
+  <Fragment slot="claim">军号（しんぐんラッパ）是能把全队变成无敌的 BUG 神器</Fragment>
+
+属实——但这是**汉化版独有的程序错误，日版没有**。汉化时军号效果例程的第一条指令 `LDX #$02` 被误改一个字节，循环从 3 字节越界扩大到 17 字节：每吹一次，除全队速度 +16 外，三人防御各暴增约 4112（大量普通攻击直接打出最低伤害）、命中与战斗等级被同步污染、主角和机械师的闪避档越界（第一次吹完闪避约 81.6%）。日版军号只有「全队速度 +16、可叠加、每次 1/8 概率损坏」的平凡效果。
+
+  <Fragment slot="evidence">
+    file `0x20010` 首字节：日版 `A2 02`（`LDX #$02`，循环 3 人速度）→ 汉化版 `01 02`（`ORA`，X 残留 `0x10`），循环写 `$706A–$707A` 共 17 字节；防御为 3 组小端 16 位值，低、高字节各 +0x10 ≈ +4112。
+  </Fragment>
+</MmClaim>
+
+<MmClaim id="methyl" verdict="confirmed" sources="反汇编" detail="/games/metal-max/research/battle-items/">
+  <Fragment slot="claim">浓缩甲醇（のうしゅくメチル）用不掉，威力仅次于完整激光炮</Fragment>
+
+使用脚本里没有删除道具的指令，可以无限使用；基础攻击力 500、单体、无属性，走普通伤害公式（受目标防御、闪避与随机浮动影响，对战车类目标伤害再除以 5，所以不是固定扣 500）。完整激光炮的公式输入是「500 + 人物力量」，「仅次于完整激光炮」是准确概括。
+
+  <Fragment slot="evidence">
+    行动脚本 `AB` = `D2 15 E6`，无消耗指令 `DA`（对比投掷品脚本 `93` 以 `DA` 开头）；威力表 PRG `0x22D91`/`0x22D9C` 索引 9 = `F4 01` = 500。
+  </Fragment>
+</MmClaim>
+
+<MmClaim id="smoke-shell" verdict="confirmed" sources="反汇编 · 日版/汉化版逐字节一致" detail="/games/metal-max/research/battle-items/">
+  <Fragment slot="claim">战车烟幕弹（えんまくだん）用了之后我方伤害也会变高</Fragment>
+
+属实，而且是日版原生机制。一发烟幕弹把所选敌组**每个敌人**的「命中」「回避」两个战斗系数同时减半，可反复叠加、持续整场。这两个系数直接参与双方的伤害修正（最多约 ±50%），所以既压低敌方输出，也真实抬高我方伤害——面板攻击力没变，变的是伤害公式的输入。
+
+  <Fragment slot="evidence">
+    核心指令 `D0`（CPU `$B861`）：`LSR $72DE,X`（命中）/ `LSR $72E7,X`（回避）；修正率表 `00 0D 1A 27 33 41 4E 5A 66 73 80`（0–50%，按系数差查表）。
+  </Fragment>
+</MmClaim>
+
+<MmClaim id="harakiri-sword" verdict="busted" sources="反汇编 · 属性/分派/服务表全核对">
+  <Fragment slot="claim">はらきりソード（切腹剑）有特殊效果，比如斩杀或让使用者受伤</Fragment>
+
+不实。ROM 中它是一把完全常规的武器：攻击 210（人类武器并列第三，仅次于ロケットパンチ 250 和バズーカほう 220）、单体攻击、ハンター与ソルジャー可装备；攻击动画程序与ライトサーベル完全共用，行为逐字节一致，也不在战斗道具分派表里——不存在任何「使用」触发的隐藏代码路径。「切腹」的名字加上 32000G 的离谱定价（性能几乎相同的ライトサーベル只卖 5000G）很容易让人以为藏着什么，实际什么都没有。全部商店都不出售，唯一入手渠道是アーミーゾンビ掉落（7/256 ≈ 2.7%），卖店回收 16000G。
+
+  <Fragment slot="evidence">
+    属性字节 `0xA0`（猎人+士兵・単体・武器类型 0，与其他近战同类）；动画 ID `0x36` 与ライトサーベル相同；战斗道具分派表（PRG `0x2E899`，34 项）不含 `0x40`；224 个服务零引用；掉落表 `0x2253F`：アーミーゾンビ（`0x36`，生体型 7/256）→ `0x40`。
+  </Fragment>
+</MmClaim>
+
+<MmClaim id="port-tank" verdict="confirmed" sources="反汇编 · 实机验证" detail="/games/metal-max/research/port-tank/">
+  <Fragment slot="claim">帕特港的战车商人最低 40000G 就能把战车买下来</Fragment>
+
+属实，但 40000G 档的成交概率只有 **4/256（1/64 ≈ 1.56%）**；出价 10 万 G 及以上必定成交，中间还有 6 个概率档位。失败不扣钱、没有保底计数、概率不会累积，可以无限重试；成交判定读取随游戏帧推进的伪随机字节，所以确认出价的按键时序会影响结果。
+
+  <Fragment slot="evidence">
+    判定例程 bank `0x18:$AD8F`；档位截止值表 `$AD87` = `03 05 08 0A 0D 1A 4D FF`，成交概率 =（截止值 + 1）/ 256。
+  </Fragment>
+</MmClaim>
+
+</MmClaimList>

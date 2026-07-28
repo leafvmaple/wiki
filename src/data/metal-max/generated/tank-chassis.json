@@ -1,0 +1,135 @@
+[
+  {
+    "id": "0x91",
+    "tankNo": 1,
+    "nameJa": "モスキート",
+    "nameZh": "WEN",
+    "holes": [
+      "主砲",
+      "副砲"
+    ],
+    "holeCount": 2,
+    "sp": 30,
+    "defense": 60,
+    "maxDefense": 230,
+    "shells": 16,
+    "weightT": 4,
+    "price": 31000
+  },
+  {
+    "id": "0x92",
+    "tankNo": 2,
+    "nameJa": "ワイルドバギー",
+    "nameZh": "HOR",
+    "holes": [
+      "副砲",
+      "S-E"
+    ],
+    "holeCount": 2,
+    "sp": 40,
+    "defense": 50,
+    "maxDefense": 190,
+    "shells": 0,
+    "weightT": 3.5,
+    "price": 72000
+  },
+  {
+    "id": "0x93",
+    "tankNo": 3,
+    "nameJa": "バン",
+    "nameZh": "CAr",
+    "holes": [],
+    "holeCount": 0,
+    "sp": 80,
+    "defense": 35,
+    "maxDefense": 165,
+    "shells": 0,
+    "weightT": 3,
+    "price": 56000
+  },
+  {
+    "id": "0x94",
+    "tankNo": 4,
+    "nameJa": "そうこうしゃ",
+    "nameZh": "TAN",
+    "holes": [
+      "副砲"
+    ],
+    "holeCount": 1,
+    "sp": 120,
+    "defense": 90,
+    "maxDefense": 260,
+    "shells": 0,
+    "weightT": 7.5,
+    "price": 80000
+  },
+  {
+    "id": "0x95",
+    "tankNo": 5,
+    "nameJa": "パンサー",
+    "nameZh": "BAO",
+    "holes": [
+      "主砲"
+    ],
+    "holeCount": 1,
+    "sp": 0,
+    "defense": 100,
+    "maxDefense": 290,
+    "shells": 64,
+    "weightT": 15.5,
+    "price": 94000
+  },
+  {
+    "id": "0x96",
+    "tankNo": 6,
+    "nameJa": "タイガー",
+    "nameZh": "HU",
+    "holes": [
+      "主砲",
+      "副砲"
+    ],
+    "holeCount": 2,
+    "sp": 323,
+    "defense": 120,
+    "maxDefense": 350,
+    "shells": 32,
+    "weightT": 10.5,
+    "price": 100000
+  },
+  {
+    "id": "0x97",
+    "tankNo": 7,
+    "nameJa": "Rウルフ",
+    "nameZh": "RLA",
+    "holes": [
+      "主砲",
+      "副砲",
+      "S-E"
+    ],
+    "holeCount": 3,
+    "sp": 808,
+    "defense": 150,
+    "maxDefense": 440,
+    "shells": 128,
+    "weightT": 13,
+    "price": 84100
+  },
+  {
+    "id": "0x98",
+    "tankNo": 8,
+    "nameJa": "Kタイガー",
+    "nameZh": "KHU",
+    "holes": [
+      "主砲",
+      "副砲",
+      "S-E"
+    ],
+    "holeCount": 3,
+    "sp": 1600,
+    "defense": 100,
+    "maxDefense": 490,
+    "shells": 128,
+    "weightT": 16,
+    "price": 167900
+  }
+]
