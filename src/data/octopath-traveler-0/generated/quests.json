@@ -10,6 +10,7 @@
   "recommLv": "Lv1",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -23,6 +24,7 @@
   "recommLv": "Lv6",
   "joinChar": "弗恩",
   "joinCharHref": "/games/octopath-traveler-0/characters/910905/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -36,6 +38,7 @@
   "recommLv": "Lv10",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -49,6 +52,7 @@
   "recommLv": "Lv28",
   "joinChar": "路德",
   "joinCharHref": "/games/octopath-traveler-0/characters/910302/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -62,6 +66,7 @@
   "recommLv": "Lv30",
   "joinChar": "罗拉娜",
   "joinCharHref": "/games/octopath-traveler-0/characters/911206/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -75,6 +80,7 @@
   "recommLv": "Lv31",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -88,6 +94,7 @@
   "recommLv": "Lv6",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -101,6 +108,7 @@
   "recommLv": "Lv10",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -114,6 +122,7 @@
   "recommLv": "Lv16~20",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -127,6 +136,7 @@
   "recommLv": "Lv6",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -140,6 +150,7 @@
   "recommLv": "Lv10",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -153,6 +164,7 @@
   "recommLv": "Lv16~20",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -166,6 +178,7 @@
   "recommLv": "Lv6",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -179,6 +192,7 @@
   "recommLv": "Lv10",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -192,6 +206,7 @@
   "recommLv": "Lv16~20",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -205,6 +220,7 @@
   "recommLv": "Lv21",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -218,6 +234,7 @@
   "recommLv": "Lv25",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -231,6 +248,7 @@
   "recommLv": "Lv26",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -244,6 +262,7 @@
   "recommLv": "Lv28",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -257,6 +276,7 @@
   "recommLv": "Lv28",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -270,6 +290,7 @@
   "recommLv": "Lv30",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -283,6 +304,7 @@
   "recommLv": "Lv30",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -296,6 +318,7 @@
   "recommLv": "Lv31",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -309,6 +332,7 @@
   "recommLv": "Lv32",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -322,6 +346,7 @@
   "recommLv": "Lv34",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -335,6 +360,7 @@
   "recommLv": "Lv35",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -348,6 +374,7 @@
   "recommLv": "Lv36",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -361,6 +388,7 @@
   "recommLv": "Lv40",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -374,6 +402,7 @@
   "recommLv": "Lv44",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -387,6 +416,7 @@
   "recommLv": "Lv35",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -400,6 +430,7 @@
   "recommLv": "Lv36",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -413,6 +444,7 @@
   "recommLv": "Lv40",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -426,6 +458,7 @@
   "recommLv": "Lv44",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -439,6 +472,7 @@
   "recommLv": "Lv37",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -452,6 +486,7 @@
   "recommLv": "Lv38",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -465,6 +500,7 @@
   "recommLv": "Lv42",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -478,6 +514,7 @@
   "recommLv": "Lv46",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -491,6 +528,7 @@
   "recommLv": "Lv48",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -504,6 +542,7 @@
   "recommLv": "Lv51",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -517,6 +556,7 @@
   "recommLv": "Lv51",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -530,6 +570,7 @@
   "recommLv": "Lv53",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -543,6 +584,7 @@
   "recommLv": "Lv55",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -556,6 +598,7 @@
   "recommLv": "Lv57",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -569,6 +612,7 @@
   "recommLv": "Lv59",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -582,6 +626,7 @@
   "recommLv": "Lv61",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -595,6 +640,7 @@
   "recommLv": "Lv63",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -608,6 +654,7 @@
   "recommLv": "Lv63",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -621,6 +668,7 @@
   "recommLv": "Lv63",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -634,6 +682,7 @@
   "recommLv": "Lv30",
   "joinChar": "维阿特鲁",
   "joinCharHref": "/games/octopath-traveler-0/characters/910101/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -647,6 +696,7 @@
   "recommLv": "Lv60",
   "joinChar": "雷梅",
   "joinCharHref": "/games/octopath-traveler-0/characters/910201/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -660,6 +710,7 @@
   "recommLv": "Lv37",
   "joinChar": "卡琳达",
   "joinCharHref": "/games/octopath-traveler-0/characters/910402/",
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -673,6 +724,7 @@
   "recommLv": "Lv6",
   "joinChar": "凯路扎斯",
   "joinCharHref": "/games/octopath-traveler-0/characters/910503/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -686,6 +738,7 @@
   "recommLv": "Lv34",
   "joinChar": "海德内",
   "joinCharHref": "/games/octopath-traveler-0/characters/910603/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -699,6 +752,7 @@
   "recommLv": "Lv40",
   "joinChar": "埃斯佩路",
   "joinCharHref": "/games/octopath-traveler-0/characters/910704/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -712,6 +766,7 @@
   "recommLv": "Lv6",
   "joinChar": "梅西",
   "joinCharHref": "/games/octopath-traveler-0/characters/910804/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -725,6 +780,7 @@
   "recommLv": "Lv16",
   "joinChar": "戴莉蒂娅",
   "joinCharHref": "/games/octopath-traveler-0/characters/911005/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -738,6 +794,7 @@
   "recommLv": "Lv26",
   "joinChar": "皮乌斯",
   "joinCharHref": "/games/octopath-traveler-0/characters/911106/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -751,6 +808,7 @@
   "recommLv": "Lv40",
   "joinChar": "赛卢克",
   "joinCharHref": "/games/octopath-traveler-0/characters/911307/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -764,6 +822,7 @@
   "recommLv": "Lv6",
   "joinChar": "阿蕾可西雅",
   "joinCharHref": "/games/octopath-traveler-0/characters/911407/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -777,6 +836,7 @@
   "recommLv": "Lv43",
   "joinChar": "古德温",
   "joinCharHref": "/games/octopath-traveler-0/characters/911508/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -790,6 +850,7 @@
   "recommLv": "Lv16",
   "joinChar": "西尔莎",
   "joinCharHref": "/games/octopath-traveler-0/characters/911608/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -803,6 +864,7 @@
   "recommLv": "Lv34",
   "joinChar": "欧尔贝克",
   "joinCharHref": "/games/octopath-traveler-0/characters/920101/",
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -816,6 +878,7 @@
   "recommLv": "Lv24",
   "joinChar": "特蕾莎",
   "joinCharHref": "/games/octopath-traveler-0/characters/920202/",
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -829,6 +892,7 @@
   "recommLv": "Lv27",
   "joinChar": "泰里翁",
   "joinCharHref": "/games/octopath-traveler-0/characters/920303/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -842,6 +906,7 @@
   "recommLv": "Lv34",
   "joinChar": "亚芬",
   "joinCharHref": "/games/octopath-traveler-0/characters/920404/",
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -855,6 +920,7 @@
   "recommLv": "Lv43",
   "joinChar": "海茵特",
   "joinCharHref": "/games/octopath-traveler-0/characters/920505/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -868,6 +934,7 @@
   "recommLv": "Lv44",
   "joinChar": "欧菲莉亚",
   "joinCharHref": "/games/octopath-traveler-0/characters/920606/",
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -881,6 +948,7 @@
   "recommLv": "Lv43",
   "joinChar": "赛拉斯",
   "joinCharHref": "/games/octopath-traveler-0/characters/920707/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -894,6 +962,7 @@
   "recommLv": "Lv30",
   "joinChar": "普里姆萝洁",
   "joinCharHref": "/games/octopath-traveler-0/characters/920808/",
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -907,6 +976,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -920,6 +990,7 @@
   "recommLv": "Lv36",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -933,6 +1004,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 4
  },
  {
@@ -946,6 +1018,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -959,6 +1032,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -972,6 +1046,7 @@
   "recommLv": "Lv25",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -985,6 +1060,7 @@
   "recommLv": "Lv51",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -998,6 +1074,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1011,6 +1088,7 @@
   "recommLv": "Lv52",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1024,6 +1102,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1037,6 +1116,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1050,6 +1130,7 @@
   "recommLv": "Lv52",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 4
  },
  {
@@ -1063,6 +1144,9 @@
   "recommLv": "Lv5",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [
+   "泰姆"
+  ],
   "prereqCount": 0
  },
  {
@@ -1076,6 +1160,10 @@
   "recommLv": "Lv20",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [
+   "伊利安",
+   "奥丽弗"
+  ],
   "prereqCount": 0
  },
  {
@@ -1089,6 +1177,9 @@
   "recommLv": "Lv24",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [
+   "卢塔斯"
+  ],
   "prereqCount": 0
  },
  {
@@ -1102,6 +1193,10 @@
   "recommLv": "Lv27",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [
+   "贾斯帕",
+   "里拉"
+  ],
   "prereqCount": 0
  },
  {
@@ -1115,6 +1210,10 @@
   "recommLv": "Lv29",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [
+   "卡兰",
+   "佳拉贝尔"
+  ],
   "prereqCount": 0
  },
  {
@@ -1128,6 +1227,7 @@
   "recommLv": "Lv65",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -1141,6 +1241,7 @@
   "recommLv": "Lv35",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -1154,6 +1255,7 @@
   "recommLv": "Lv35",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1167,6 +1269,7 @@
   "recommLv": "Lv65",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1180,6 +1283,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 4
  },
  {
@@ -1193,6 +1297,7 @@
   "recommLv": "Lv55",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1206,6 +1311,7 @@
   "recommLv": "Lv60",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 2
  },
  {
@@ -1219,6 +1325,7 @@
   "recommLv": "Lv7",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1232,6 +1339,7 @@
   "recommLv": "Lv18",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1245,6 +1353,7 @@
   "recommLv": "Lv18",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1258,6 +1367,7 @@
   "recommLv": "Lv21",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -1271,6 +1381,7 @@
   "recommLv": "Lv26",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1284,6 +1395,7 @@
   "recommLv": "Lv29",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1297,6 +1409,7 @@
   "recommLv": "Lv30",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1310,6 +1423,7 @@
   "recommLv": "Lv34",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1323,6 +1437,7 @@
   "recommLv": "Lv30",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 0
  },
  {
@@ -1336,6 +1451,7 @@
   "recommLv": "Lv37",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1349,6 +1465,7 @@
   "recommLv": "Lv41",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1362,6 +1479,7 @@
   "recommLv": "Lv41",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  },
  {
@@ -1375,6 +1493,7 @@
   "recommLv": "Lv45",
   "joinChar": null,
   "joinCharHref": null,
+  "joinResidents": [],
   "prereqCount": 1
  }
 ]

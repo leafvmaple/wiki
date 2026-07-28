@@ -66,6 +66,13 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "领导之才",
+    "detail": "可邀请新居民来镇子。",
+    "friendship": 0
+   }
   ]
  },
  {
@@ -134,6 +141,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "高级实战训练",
+    "detail": "【训练所】增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "高级实战训练+",
+    "detail": "【训练所】大量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -220,6 +239,18 @@
     "base": 64,
     "max": 228
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "实战训练",
+    "detail": "【训练所】略微增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "实战训练+",
+    "detail": "【训练所】少量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -289,7 +320,8 @@
     "base": 88,
     "max": 313
    }
-  ]
+  ],
+  "residentSkills": []
  },
  {
   "uid": 910101,
@@ -365,6 +397,18 @@
     "label": "回避",
     "base": 96,
     "max": 342
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "实战训练",
+    "detail": "【训练所】略微增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "实战训练+",
+    "detail": "【训练所】少量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -448,6 +492,18 @@
     "base": 80,
     "max": 285
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "热血沸腾",
+    "detail": "【魔物斗技场】大量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "热血沸腾+",
+    "detail": "【魔物斗技场】极大量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -524,6 +580,18 @@
     "label": "回避",
     "base": 64,
     "max": 228
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "服务意识",
+    "detail": "【商店】略微提升销售额。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "服务意识+",
+    "detail": "【商店】少量提升销售额。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -611,6 +679,18 @@
     "base": 64,
     "max": 228
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "购物行家+",
+    "detail": "【商店】购买金额有少量折扣。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -686,6 +766,18 @@
     "label": "回避",
     "base": 96,
     "max": 342
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "信仰坚定",
+    "detail": "【教堂】邀请支援者时的 召唤次数+1。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "信仰坚定+",
+    "detail": "【教堂】邀请支援者时的 召唤次数+2。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -769,6 +861,18 @@
     "base": 96,
     "max": 342
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "赠送叶币",
+    "detail": "定期带来极少量叶币。",
+    "friendship": 0
+   },
+   {
+    "name": "赠送叶币+",
+    "detail": "定期带来少量叶币。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -850,6 +954,18 @@
     "base": 88,
     "max": 313
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "栽培行家",
+    "detail": "【田地】略微提升生产速度。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "栽培行家+",
+    "detail": "【田地】小幅提升生产速度。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -925,6 +1041,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   },
+   {
+    "name": "供应恢复道具+",
+    "detail": "定期带来很多恢复道具。",
+    "friendship": 3
    }
   ]
  },
@@ -1002,6 +1130,18 @@
     "label": "回避",
     "base": 64,
     "max": 228
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "交涉行家",
+    "detail": "【据点】在改善关系上 有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "交涉行家+",
+    "detail": "【据点】在改善关系上 有少量折扣。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -1084,6 +1224,18 @@
     "base": 88,
     "max": 313
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "供应猎获",
+    "detail": "定期带来高级肉类食材。",
+    "friendship": 0
+   },
+   {
+    "name": "供应猎获+",
+    "detail": "定期带来大量高级肉类食材。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -1160,6 +1312,18 @@
     "label": "回避",
     "base": 64,
     "max": 228
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "信仰坚定",
+    "detail": "【教堂】邀请支援者时的 召唤次数+1。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "信仰坚定+",
+    "detail": "【教堂】邀请支援者时的 召唤次数+2。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -1241,6 +1405,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "慈悲心肠",
+    "detail": "【教堂】召唤支援者时， 极少数情况下不会消耗次数。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "慈悲心肠+",
+    "detail": "【教堂】召唤支援者时， 有时不会消耗次数。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -1324,6 +1500,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "供应攻击道具",
+    "detail": "定期带来战斗道具。",
+    "friendship": 0
+   },
+   {
+    "name": "供应攻击道具+",
+    "detail": "定期带来很多战斗道具。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -1400,6 +1588,18 @@
     "label": "回避",
     "base": 88,
     "max": 313
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "技术训练",
+    "detail": "【训练所】略微增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "技术训练+",
+    "detail": "【训练所】少量增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -1482,6 +1682,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "赠送叶币",
+    "detail": "定期带来极少量叶币。",
+    "friendship": 0
+   },
+   {
+    "name": "赠送叶币+",
+    "detail": "定期带来少量叶币。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -1563,6 +1775,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "魅力四射",
+    "detail": "与带来道具的居民同住 可小幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "魅力四射+",
+    "detail": "与带来道具的居民同住 可提升频率。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -1639,6 +1863,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "慧眼识珠",
+    "detail": "【商店】在交易中，略微提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "慧眼识珠+",
+    "detail": "【商店】在交易中，少量提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -1721,6 +1957,18 @@
     "label": "回避",
     "base": 96,
     "max": 342
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "供应攻击道具",
+    "detail": "定期带来战斗道具。",
+    "friendship": 0
+   },
+   {
+    "name": "供应攻击道具+",
+    "detail": "定期带来很多战斗道具。",
+    "friendship": 3
    }
   ]
  },
@@ -1807,6 +2055,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "供应恢复道具",
+    "detail": "定期带来恢复道具。",
+    "friendship": 0
+   },
+   {
+    "name": "供应恢复道具+",
+    "detail": "定期带来很多恢复道具。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -1888,6 +2148,18 @@
     "label": "回避",
     "base": 88,
     "max": 313
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "赠送猎获",
+    "detail": "定期带来肉类食材。",
+    "friendship": 0
+   },
+   {
+    "name": "赠送猎获+",
+    "detail": "定期带来很多肉类食材。",
+    "friendship": 3
    }
   ]
  },
@@ -1975,6 +2247,18 @@
     "base": 64,
     "max": 228
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "伟大的信仰",
+    "detail": "【教堂】邀请支援者时的 召唤次数+2。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "伟大的信仰+",
+    "detail": "【教堂】邀请支援者时的 召唤次数+3。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -2055,6 +2339,18 @@
     "label": "回避",
     "base": 80,
     "max": 285
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "技术训练",
+    "detail": "【训练所】略微增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "技术训练+",
+    "detail": "【训练所】少量增加JP获得量。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -2137,6 +2433,18 @@
     "base": 88,
     "max": 313
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "购物行家",
+    "detail": "【商店】购买金额有极少量折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "购物行家+",
+    "detail": "【商店】购买金额有少量折扣。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -2205,6 +2513,18 @@
     "label": "回避",
     "base": 96,
     "max": 342
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "协调者",
+    "detail": "【据点】在改善关系上 有折扣。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "协调者+",
+    "detail": "【据点】在改善关系上 有大量折扣。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -2275,6 +2595,18 @@
     "base": 80,
     "max": 285
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "资助者",
+    "detail": "定期带来很多叶币。",
+    "friendship": 0
+   },
+   {
+    "name": "资助者+",
+    "detail": "定期带来大量叶币。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -2343,6 +2675,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "豆闻广博",
+    "detail": "【田地】少量增加川豆的收成。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "豆闻广博+",
+    "detail": "【田地】增加川豆的收成。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -2413,6 +2757,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "羊王",
+    "detail": "【牧场】从羊身上收获“刚剪下来的羊毛”。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "羊王+",
+    "detail": "【牧场】从羊身上收获更多“刚剪下来的羊毛”。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -2481,6 +2837,18 @@
     "label": "回避",
     "base": 72,
     "max": 256
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "慧眼识珠",
+    "detail": "【商店】在交易中，略微提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "慧眼识珠+",
+    "detail": "【商店】在交易中，少量提升 稀有道具的进货概率。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -2551,6 +2919,18 @@
     "base": 72,
     "max": 256
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "实战训练",
+    "detail": "【训练所】略微增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "实战训练+",
+    "detail": "【训练所】少量增加EXP获得量。 ※同类效果不叠加。",
+    "friendship": 3
+   }
   ]
  },
  {
@@ -2619,6 +2999,18 @@
     "label": "回避",
     "base": 88,
     "max": 313
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "魅力四射",
+    "detail": "与带来道具的居民同住 可小幅提升频率。 ※同类效果不叠加。",
+    "friendship": 0
+   },
+   {
+    "name": "魅力四射+",
+    "detail": "与带来道具的居民同住 可提升频率。 ※同类效果不叠加。",
+    "friendship": 3
    }
   ]
  },
@@ -2689,6 +3081,13 @@
     "base": 80,
     "max": 285
    }
+  ],
+  "residentSkills": [
+   {
+    "name": "建筑师",
+    "detail": "【建筑工坊】可以在维舒贝尔进行建筑工程。",
+    "friendship": 0
+   }
   ]
  },
  {
@@ -2757,6 +3156,13 @@
     "label": "回避",
     "base": 80,
     "max": 285
+   }
+  ],
+  "residentSkills": [
+   {
+    "name": "心血来潮的猫",
+    "detail": "定期捡来各种物品。",
+    "friendship": 0
    }
   ]
  }

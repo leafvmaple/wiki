@@ -32,6 +32,11 @@ const flagText = [
 const stats = (c.stats ?? []) as Array<{ label: string; base: number | null; max: number | null }>;
 const hasStats = stats.length > 0;
 
+// 战斗伙伴同时也是维舒贝尔居民，入住后提供居民技能（如弗恩的“交涉行家”）。
+const residentSkills = (c.residentSkills ?? []) as Array<{
+  name: string; detail: string; friendship: number;
+}>;
+
 const hasPrereq =
   (c.prereqQuests?.length ?? 0) > 0 || (c.prereqChars?.length ?? 0) > 0 || flagText.length > 0;
 
@@ -54,6 +59,7 @@ const VER = '1.0.8';
           {c.job && <OctopathIcon kind="job" assetKind="job" assetId={c.job} label={c.job} compact />}
           {c.gender && <span class="otc-badge">{c.gender}</span>}
           {c.chapter && <span class="otc-badge">第{c.chapter}章</span>}
+          {residentSkills.length > 0 && <span class="otc-badge">维舒贝尔居民</span>}
         </div>
       </header>
 
@@ -94,6 +100,22 @@ const VER = '1.0.8';
         ))}
       </dl>
       <small class="otc-muted">数值为初始 → 满级（面板上限）；技能、装备加成待补。</small>
+    </section>
+  )}
+
+  {residentSkills.length > 0 && (
+    <section class="otc-section">
+      <h2>居民技能</h2>
+      <p class="otc-muted">加入队伍后同时入住维舒贝尔，作为居民提供以下技能。</p>
+      <ul class="otc-resident">
+        {residentSkills.map((s) => (
+          <li>
+            <strong>{s.name}</strong>
+            {s.friendship > 0 && <span class="otc-badge">友好度 {s.friendship}</span>}
+            {s.detail && <span class="otc-resident-detail">{s.detail}</span>}
+          </li>
+        ))}
+      </ul>
     </section>
   )}
 
@@ -372,6 +394,28 @@ const VER = '1.0.8';
     color: var(--leaf-text-muted);
     font-size: 0.88rem;
     margin: 0;
+  }
+
+  /* resident skills */
+  .otc-resident {
+    display: grid;
+    gap: 0.45rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .otc-resident li {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.6rem;
+  }
+  .otc-resident strong {
+    color: var(--leaf-heading);
+  }
+  .otc-resident-detail {
+    color: var(--leaf-text-muted);
+    font-size: 0.88rem;
   }
 
   .otc-nav {
