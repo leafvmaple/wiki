@@ -18,6 +18,7 @@ import summary from '../../../../data/metal-max/generated/summary.json';
 - `map_viewer/res/metal_max/data/items.json` — 全道具的日文名、汉化译名、价格与分类
 - `metalmax-godot/import/items.json` — 人类装备数值、部位、可装备角色掩码
 - `metalmax-godot/import/tanks.json` — 战车部件数值与 18 辆战车（8 玩家车 + 10 租赁车）基础表
+- `metalmax-godot/import/monsters.json` — 131 只怪物的能力值、类型、抗性与通缉赏金表
 - `retro-save-editor/docs/metal-max-unbuyable-items.md` — 特殊来源装备/道具的获取渠道（宝箱旗标、掉落、事件脚本、售货机与改造链的挖掘结果）
 - 字段依据与偏移记录：`nes_decoder/docs/re/METAL_MAX_TANK_PARTS.md`
 
@@ -42,6 +43,7 @@ npm run generate:metal-max
 | 车体 | {summary.counts.tankChassis} |
 | 特殊来源装备/道具 | {summary.counts.specialItems} |
 | 炮弹 | {summary.counts.shells} |
+| 赏金首 | {summary.counts.bounties} |
 
 ## 单位与口径
 

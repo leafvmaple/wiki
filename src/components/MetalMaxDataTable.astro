@@ -5,12 +5,14 @@
 //   kind="chassis" — tank-chassis.json（8 车体，数值来自玩家战车基础表，无筛选）
 //   kind="special" — special-items.json（非商店流通的 62 件，按大类筛选）
 //   kind="shells"  — shells.json（炮弹 S00–S0E，15 发，无筛选）
+//   kind="bounty"  — bounties.json（通缉榜 11 名赏金首，无筛选）
 // 名称以日版为准，中文名为民间汉化 ROM 的译名，仅作辅助识别。
 import humanEquipment from '../data/metal-max/generated/human-equipment.json';
 import tankParts from '../data/metal-max/generated/tank-parts.json';
 import chassis from '../data/metal-max/generated/tank-chassis.json';
 import specialItems from '../data/metal-max/generated/special-items.json';
 import shells from '../data/metal-max/generated/shells.json';
+import bounties from '../data/metal-max/generated/bounties.json';
 
 type Row = Record<string, any>;
 const { kind = 'human' } = Astro.props as { kind?: string };
@@ -31,9 +33,10 @@ const spRows = specialItems as Row[];
 const spGroups = [...new Set(spRows.map((s) => s.group))];
 
 const shellRows = shells as Row[];
+const bountyRows = bounties as Row[];
 
 const searchKey = (r: Row) => [r.nameJa, r.nameZh].filter(Boolean).join(' ');
-const hasToolbar = kind !== 'chassis' && kind !== 'shells';
+const hasToolbar = kind !== 'chassis' && kind !== 'shells' && kind !== 'bounty';
 ---
 
 <div class="mm-dt-wrap not-content" data-unit="件">
@@ -180,6 +183,56 @@ const hasToolbar = kind !== 'chassis' && kind !== 'shells';
               <td class="num">{money(s.price)}</td>
               <td class="mm-dt-long">{s.soldAt ?? '—'}</td>
               <td class:list={['mm-dt-long', !s.note && 'mm-dt-open']}>{s.note ?? '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'bounty' && (
+      <table class="mm-dt">
+        <thead>
+          <tr>
+            <th data-sort="no" class="num">#</th>
+            <th data-sort="name">赏金首</th>
+            <th data-sort="bounty" class="num">赏金</th>
+            <th data-sort="hp" class="num">HP</th>
+            <th data-sort="atk" class="num">攻击</th>
+            <th data-sort="def" class="num">防御</th>
+            <th data-sort="armor" class="num">装甲</th>
+            <th data-sort="speed" class="num">速度</th>
+            <th data-sort="hit" class="num">命中</th>
+            <th data-sort="eva" class="num">回避</th>
+            <th data-sort="exp" class="num">EXP</th>
+            <th data-sort="gold" class="num">金钱</th>
+            <th>类型</th>
+            <th>抗性(冷/火/毒)</th>
+            <th>特性</th>
+          </tr>
+        </thead>
+        <tbody>
+          {bountyRows.map((b) => (
+            <tr data-name={searchKey(b)} data-no={b.no} data-bounty={b.bounty} data-hp={b.hp}
+              data-atk={b.attack} data-def={b.defense} data-armor={b.armor} data-speed={b.speed}
+              data-hit={b.hit} data-eva={b.evasion} data-exp={b.exp} data-gold={b.gold}>
+              <td class="num mm-dt-no">{b.no}</td>
+              <td class="mm-dt-name">
+                <span class="mm-dt-ja">{b.nameJa}</span>
+                {b.nameZh && <span class="mm-dt-zh">{b.nameZh}</span>}
+              </td>
+              <td class="num mm-dt-bounty">{money(b.bounty)}</td>
+              <td class="num">{b.hp}</td>
+              <td class="num">{b.attack}</td>
+              <td class="num">{b.defense}</td>
+              <td class="num">{b.armor || '—'}</td>
+              <td class="num">{b.speed}</td>
+              <td class="num">{b.hit}</td>
+              <td class="num">{b.evasion}</td>
+              <td class="num">{b.exp.toLocaleString('en-US')}</td>
+              <td class="num">{b.gold.toLocaleString('en-US')}</td>
+              <td class="mm-dt-cat">{b.type}</td>
+              <td class="mm-dt-muted">{b.resists}</td>
+              <td class="mm-dt-muted">{b.traits.length ? b.traits.join('、') : '—'}</td>
             </tr>
           ))}
         </tbody>
@@ -378,6 +431,10 @@ const hasToolbar = kind !== 'chassis' && kind !== 'shells';
   }
   .mm-dt-open {
     color: var(--leaf-text-muted);
+  }
+  .mm-dt-bounty {
+    color: #d9b24a;
+    font-weight: 700;
   }
   .mm-dt-no {
     color: var(--leaf-heading);

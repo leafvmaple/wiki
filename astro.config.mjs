@@ -108,6 +108,7 @@ export default defineConfig({
                 { label: '炮弹', link: '/games/metal-max/equipment/shells/' },
               ],
             },
+            { label: '赏金首', link: '/games/metal-max/bounties/' },
             {
               label: '机制解析',
               items: [

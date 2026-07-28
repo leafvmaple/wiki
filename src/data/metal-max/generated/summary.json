@@ -7,6 +7,7 @@
     "tankChassis": 8,
     "specialItems": 62,
     "shells": 15,
+    "bounties": 11,
     "humanByCategory": {
       "頭防具": 8,
       "体防具": 8,
@@ -33,6 +34,7 @@
     "items": "map_viewer/res/metal_max/data/items.json",
     "humanStats": "metalmax-godot/import/items.json",
     "tankStats": "metalmax-godot/import/tanks.json",
+    "monsters": "metalmax-godot/import/monsters.json",
     "specialSources": "retro-save-editor/docs/metal-max-unbuyable-items.md",
     "reference": "nes_decoder/docs/re/METAL_MAX_TANK_PARTS.md"
   },

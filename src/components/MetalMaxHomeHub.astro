@@ -7,12 +7,14 @@ const statCards = [
   { value: counts.humanEquipment, label: '人类装备', detail: `${counts.humanArmor} 防具 / ${counts.humanWeapons} 武器` },
   { value: counts.tankParts, label: '战车部件', detail: '主砲 / S-E / 機銃 / C装置 / 引擎' },
   { value: counts.tankChassis, label: '车体', detail: 'NO.1–NO.8 玩家战车' },
-  { value: 'JP', label: '数据版本', detail: 'FC 日版 ROM 逆向提取' },
+  { value: counts.bounties, label: '赏金首', detail: '通缉榜 1,000G–200,000G' },
 ];
 
 const entries = [
   { label: '人类装备', href: '/games/metal-max/equipment/human/', meta: '防具与武器的攻防、可装备角色、价格' },
   { label: '战车装备', href: '/games/metal-max/equipment/tank/', meta: '部件攻防、弹仓、重量、载重与车体数据' },
+  { label: '炮弹', href: '/games/metal-max/equipment/shells/', meta: '特殊炮弹与装甲片的单价与贩售点' },
+  { label: '赏金首', href: '/games/metal-max/bounties/', meta: '通缉榜 11 名的赏金、能力值与特性' },
   { label: '机制解析', href: '/games/metal-max/research/', meta: '传闻判定、道具效果与事件条件的硬核分析' },
   { label: '数据说明', href: '/games/metal-max/data-notes/', meta: '来源、单位规则与同步方式' },
 ];
@@ -23,13 +25,14 @@ const entries = [
     <p class="mm-kicker">数据来自 FC 日版 ROM 逆向（nes_decoder 管线）</p>
     <h2>重装机兵（メタルマックス）资料库</h2>
     <p>
-      废土世界的赏金猎人图鉴：人类装备与战车装备两套可筛选数据，加上带 ROM 依据的
-      机制解析专栏——传闻逐条判定，道具效果、数值公式与事件条件硬核分析。后续再扩展
-      道具、炮弹、赏金首与商店。
+      废土世界的赏金猎人图鉴：人类装备、战车装备与炮弹三套可筛选数据，通缉榜 11 名
+      赏金首，以及带 ROM 依据的机制解析专栏——传闻逐条判定，道具效果、数值公式与
+      事件条件硬核分析。后续再扩展道具与商店数据。
     </p>
     <div class="mm-actions">
       <a href="/games/metal-max/equipment/human/">查人类装备</a>
       <a href="/games/metal-max/equipment/tank/">查战车装备</a>
+      <a href="/games/metal-max/bounties/">看赏金首</a>
       <a href="/games/metal-max/research/">看机制解析</a>
     </div>
   </div>

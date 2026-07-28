@@ -224,6 +224,47 @@ const shells = Object.entries(mvItems)
     note: SHELL_NOTES[key] ?? null,
   }));
 
+// ---- 赏金首（通缉榜 11 名：monsters.json 的 wanted 行 + 赏金表金额）----
+const monstersDoc = await readJson(path.join(godotRoot, 'import/monsters.json'));
+const monsterRows = Array.isArray(monstersDoc.monsters)
+  ? monstersDoc.monsters
+  : Object.values(monstersDoc.monsters);
+const speciesDoc = await readJson(path.join(mapViewerRoot, 'res/metal_max/data/species.json'));
+const speciesZh = new Map();
+for (const [key, value] of Object.entries(speciesDoc.species ?? speciesDoc)) {
+  const id = Number.parseInt(key, 16);
+  if (!Number.isNaN(id) && value?.name) speciesZh.set(id, value.name.zh ?? null);
+}
+const MONSTER_TYPES = { CYBERNETIC: '电子型', BIONIC: '生体型', TANK: '战车型', UNKNOWN: '不明型' };
+const bountyTraits = (row) => {
+  const traits = [];
+  if (row.auto_restore > 0) traits.push(`自动回复 Lv${row.auto_restore}`);
+  if (row.death_explosion) traits.push('死亡爆炸');
+  if (row.can_split) traits.push('会分裂');
+  return traits;
+};
+const bounties = monsterRows
+  .filter((row) => row.wanted)
+  .sort((a, b) => a.id - b.id)
+  .map((row, index) => ({
+    no: index + 1,
+    nameJa: row.name,
+    nameZh: speciesZh.get(row.id) ?? null,
+    bounty: row.bounty,
+    hp: row.hp,
+    attack: row.attack,
+    defense: row.defense,
+    armor: row.armor,
+    speed: row.speed,
+    hit: row.hit,
+    evasion: row.evasion,
+    exp: row.exp,
+    gold: row.gold,
+    type: MONSTER_TYPES[row.monster_type_name] ?? row.monster_type_name,
+    resists: `${row.cold_resist}/${row.fire_resist}/${row.gas_resist}`,
+    traits: bountyTraits(row),
+  }));
+
 const assert = (cond, message) => {
   if (!cond) throw new Error(`validation failed: ${message}`);
 };
@@ -256,6 +297,14 @@ assert(shells.length === 15, `shells ${shells.length} != 15`);
 for (const row of shells) {
   assert(row.nameJa, `missing nameJa on shell ${row.id}`);
 }
+assert(bounties.length === 11, `bounties ${bounties.length} != 11 (ROM has 11 wanted slots)`);
+for (const row of bounties) {
+  assert(row.nameJa && row.bounty > 0, `bad bounty row ${row.no}`);
+}
+assert(
+  bounties.every((row, i) => i === 0 || row.bounty >= bounties[i - 1].bounty),
+  'bounty amounts not ascending in wanted-list order',
+);
 for (const row of specialItems) {
   assert(row.nameJa, `missing nameJa on special item ${row.id}`);
   assert(
@@ -273,6 +322,7 @@ const summary = {
     tankChassis: chassis.length,
     specialItems: specialItems.length,
     shells: shells.length,
+    bounties: bounties.length,
     humanByCategory: countBy(humanEquipment, 'category'),
     partsByCategory: countBy(tankParts, 'category'),
     specialByGroup,
@@ -281,6 +331,7 @@ const summary = {
     items: 'map_viewer/res/metal_max/data/items.json',
     humanStats: 'metalmax-godot/import/items.json',
     tankStats: 'metalmax-godot/import/tanks.json',
+    monsters: 'metalmax-godot/import/monsters.json',
     specialSources: 'retro-save-editor/docs/metal-max-unbuyable-items.md',
     reference: 'nes_decoder/docs/re/METAL_MAX_TANK_PARTS.md',
   },
@@ -295,8 +346,9 @@ await writeJson('tank-parts.json', tankParts);
 await writeJson('tank-chassis.json', chassis);
 await writeJson('special-items.json', specialItems);
 await writeJson('shells.json', shells);
+await writeJson('bounties.json', bounties);
 await writeJson('summary.json', summary);
 
 console.log(
-  `metal-max: ${humanEquipment.length} human equipment, ${tankParts.length} tank parts, ${chassis.length} chassis, ${specialItems.length} special items, ${shells.length} shells -> ${path.relative(repoRoot, outputRoot)}`,
+  `metal-max: ${humanEquipment.length} human equipment, ${tankParts.length} tank parts, ${chassis.length} chassis, ${specialItems.length} special items, ${shells.length} shells, ${bounties.length} bounties -> ${path.relative(repoRoot, outputRoot)}`,
 );
