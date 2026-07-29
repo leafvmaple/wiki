@@ -3,7 +3,7 @@
   "slug": "sword-man",
   "dataset": {
     "schemaVersion": 1,
-    "hash": "d82f4d7993db19860a838a26a965e001ed454e5d281cd05e5bea476b83acacc3"
+    "hash": "1e88a6cf07ec3b1d87dd3d98f4f4e8a58cebeb3a327c798bcee6c53031390246"
   },
   "counts": {
     "characters": 10,
@@ -13,7 +13,10 @@
     "monsters": 116,
     "battles": 36,
     "camps": 36,
-    "campImages": 34
+    "campImages": 34,
+    "alchemyRecipes": 173,
+    "equipmentAlchemy": 153,
+    "itemAlchemy": 20
   },
   "battleStats": {
     "maxEnemyCount": 76,

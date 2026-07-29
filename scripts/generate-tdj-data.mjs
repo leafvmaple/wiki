@@ -10,6 +10,8 @@ const sourceRoot = path.resolve(
 );
 const outputRoot = path.join(repoRoot, 'src/data/sword-man/generated');
 const publicAssetRoot = path.join(repoRoot, 'public/assets/sword-man');
+const characterPageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/characters');
+const lastVerified = '2026-07-29';
 
 const skillKindLabels = {
   magic: '法术',
@@ -56,6 +58,28 @@ const statLabels = {
   luk: '运',
 };
 
+const itemTypeLabels = {
+  0: '道具',
+  1: '武器',
+  2: '防具',
+  3: '饰品',
+};
+
+const itemEffectLabels = {
+  0: '恢复体力',
+  1: '恢复术力',
+  2: '解除中毒',
+  3: '解除麻痹',
+  4: '解除封魔',
+  5: '提升体力上限',
+  6: '提升术力上限',
+  7: '提升膂力上限',
+  8: '提升灵智上限',
+  9: '提升行动力上限',
+  10: '提升筋力上限',
+  11: '提升运气上限',
+};
+
 const readJson = async (relativePath) =>
   JSON.parse(await fs.readFile(path.join(sourceRoot, relativePath), 'utf8'));
 
@@ -68,11 +92,6 @@ const compactList = (items, limit = 8) => [...new Set(items.filter(Boolean))].sl
 const asArray = (value) => (Array.isArray(value) ? value : Object.values(value ?? {}));
 const label = (labels, value) => labels[value] ?? value ?? '-';
 const cleanString = (value) => (typeof value === 'string' && value.trim() ? value.trim() : null);
-
-const readItemNames = async () => {
-  const items = await readJson('catalog/items.json');
-  return Object.fromEntries(Object.entries(items.names ?? {}).map(([id, name]) => [Number(id), name]));
-};
 
 const copyAsset = async (relativeSource, relativeOutput) => {
   const source = path.join(sourceRoot, relativeSource);
@@ -132,6 +151,13 @@ const skillBrief = (skill) =>
         attribute: skill.attribute ?? skill.attribute_type_name,
         attributeLabel: label(attributeLabels, skill.attribute ?? skill.attribute_type_name),
         mpCost: skill.mpCost ?? skill.mp_cost,
+        basePower: skill.basePower ?? skill.base_power,
+        resultLabel: skill.resultLabel ?? label(resultLabels, skill.result_type_name),
+        targetLabel: skill.targetLabel ?? label(targetLabels, skill.target_type_name),
+        rangeTypeLabel: skill.rangeTypeLabel ?? label(rangeLabels, skill.range_type_name),
+        attackRangeMin: skill.attackRangeMin ?? skill.attack_range_min,
+        attackRangeMax: skill.attackRangeMax ?? skill.attack_range_max,
+        description: cleanString(skill.description),
       }
     : null;
 
@@ -140,19 +166,46 @@ const formatGrowth = (growth) =>
     .map((key) => `${statLabels[key]}${growth?.[`${key}_base`] ?? '-'}`)
     .join(' / ');
 
+const writeCharacterPages = async (characters) => {
+  await fs.mkdir(characterPageRoot, { recursive: true });
+  for (const character of characters) {
+    const content = `---
+title: ${JSON.stringify(character.name)}
+description: ${JSON.stringify(`《天地劫·神魔至尊传》${character.name}的初始属性、装备、成长和招式习得条件。`)}
+game: '天地劫·神魔至尊传'
+lastVerified: '${lastVerified}'
+sidebar:
+  hidden: true
+---
+
+import TdjCharacterProfile from '../../../../../components/TdjCharacterProfile.astro';
+
+<TdjCharacterProfile characterId={${character.id}} />
+`;
+    await fs.writeFile(path.join(characterPageRoot, `${character.id}.mdx`), content, 'utf8');
+  }
+};
+
 const main = async () => {
   await fs.access(sourceRoot);
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb] = await Promise.all([
+  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/monsters.json'),
     readJson('catalog/level_up.json'),
     readJson('catalog/camps.json'),
+    readJson('catalog/items.json'),
+    readJson('catalog/alchemy.json'),
   ]);
-  const itemNames = await readItemNames();
+  const itemRecords = asArray(itemsDb.records);
+  const itemById = new Map(itemRecords.map((record) => [record.index, record]));
+  const itemNames = Object.fromEntries(
+    Object.entries(itemsDb.names ?? {}).map(([id, name]) => [Number(id), name]),
+  );
+  const itemName = (id) => itemNames[id] ?? itemById.get(id)?.name ?? itemById.get(id)?.source_name ?? `#${id}`;
 
   const skills = asArray(skillsDb)
     .sort((a, b) => a.id - b.id)
@@ -194,20 +247,33 @@ const main = async () => {
         skillId: entry.skill_id,
         skill: skillBrief(skillById.get(entry.skill_id)),
       }));
+    const initialSkills = (record.skills ?? [])
+      .filter((skillId) => skillId >= 0)
+      .map((skillId) => ({
+        skillId,
+        skill: skillBrief(skillById.get(skillId)),
+      }));
 
     return {
       id: characterId,
       dataIndex: record.id,
       name: record.name ?? charactersDb.names[String(characterId)] ?? `角色 ${characterId}`,
+      href: `/games/sword-man/characters/${characterId}/`,
       level: record.level,
       hp: record.hp,
       mp: record.mp,
+      str: record.str,
+      int: record.int,
+      avg: record.avg,
+      vit: record.vit,
+      luk: record.luk,
+      spirit: record.spirit,
       weaponId: record.weapon_id,
-      weaponName: itemNames[record.weapon_id] ?? record.weapon_name,
+      weaponName: itemName(record.weapon_id) ?? record.weapon_name,
       armorId: record.armor_id,
-      armorName: itemNames[record.armor_id] ?? record.armor_name,
+      armorName: itemName(record.armor_id) ?? record.armor_name,
       accessoryId: record.accessory_id,
-      accessoryName: itemNames[record.accessory_id] ?? record.accessory_name,
+      accessoryName: record.accessory_id >= 0 ? itemName(record.accessory_id) : null,
       growth: growth
         ? {
             hpRandMax: growth.hp_rand_max,
@@ -225,10 +291,43 @@ const main = async () => {
             summary: formatGrowth(growth),
           }
         : null,
+      initialSkills,
+      initialSkillCount: initialSkills.length,
       learnedSkills,
       learnedSkillCount: learnedSkills.length,
     };
   }).sort((a, b) => a.id - b.id);
+
+  const characterByDataIndex = new Map(characters.map((character) => [character.dataIndex, character]));
+  const alchemy = asArray(alchemyDb.records)
+    .sort((a, b) => a.product_id - b.product_id)
+    .map((recipe) => {
+      const product = itemById.get(recipe.product_id) ?? {};
+      const [ingredient1, ingredient2] = recipe.ingredient_ids;
+      const equipCharacters = (product.equip_units ?? [])
+        .map((unitId) => characterByDataIndex.get(unitId)?.name)
+        .filter(Boolean);
+      const effectLabel = itemEffectLabels[product.use_effect_type] ?? null;
+      return {
+        productId: recipe.product_id,
+        productName: recipe.product_name ?? itemName(recipe.product_id),
+        productType: recipe.product_type,
+        productTypeLabel: itemTypeLabels[recipe.product_type] ?? `类型 ${recipe.product_type}`,
+        ingredient1: { id: ingredient1, name: itemName(ingredient1) },
+        ingredient2: { id: ingredient2, name: itemName(ingredient2) },
+        attack: product.attack ?? 0,
+        defence: product.defence ?? 0,
+        hit: product.attack_hit ?? 0,
+        miss: product.attack_miss ?? 0,
+        critical: product.attack_critical ?? 0,
+        double: product.attack_double ?? 0,
+        effect: effectLabel,
+        effectPower: product.use_base_power ?? 0,
+        price: product.price ?? 0,
+        equipCharacters: [...new Set(equipCharacters)],
+        description: cleanString(product.description),
+      };
+    });
 
   const monsters = asArray(monstersDb)
     .sort((a, b) => a.index - b.index)
@@ -336,6 +435,9 @@ const main = async () => {
       battles: battles.length,
       camps: camps.length,
       campImages: camps.filter((camp) => camp.imagePath).length,
+      alchemyRecipes: alchemy.length,
+      equipmentAlchemy: alchemy.filter((recipe) => recipe.productType !== 0).length,
+      itemAlchemy: alchemy.filter((recipe) => recipe.productType === 0).length,
     },
     battleStats: {
       maxEnemyCount: Math.max(...battles.map((battle) => battle.enemyCount)),
@@ -351,9 +453,11 @@ const main = async () => {
   await writeJson('monsters.json', monsters);
   await writeJson('battles.json', battles);
   await writeJson('camps.json', camps);
+  await writeJson('alchemy.json', alchemy);
+  await writeCharacterPages(characters);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps.`,
+    `Generated TDJ data: ${characters.length} characters, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes.`,
   );
 };
 

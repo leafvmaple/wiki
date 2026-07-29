@@ -1,0 +1,16 @@
+---
+title: 装备炼化表
+description: 《天地劫·神魔至尊传》武器、防具和饰品的两材料炼化配方及产物属性。
+game: '天地劫·神魔至尊传'
+lastVerified: '2026-07-29'
+sidebar:
+  order: 1
+  label: 装备炼化
+---
+
+import TdjAlchemyTable from '../../../../../components/TdjAlchemyTable.astro';
+
+配方来自 `Item_dat.dat` 每项产物记录中的两项炼化材料。原版按无序组合查找，
+因此“材料一 + 材料二”与反过来放置的结果相同。属性列展示炼成装备自身的战斗修正。
+
+<TdjAlchemyTable kind="equipment" />

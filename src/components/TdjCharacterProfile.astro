@@ -1,0 +1,332 @@
+---
+import characters from '../data/sword-man/generated/characters.json';
+
+type DataRow = Record<string, any>;
+
+const { characterId } = Astro.props as { characterId: number };
+const rows = characters as DataRow[];
+const character = rows.find((row) => row.id === Number(characterId));
+
+if (!character) {
+  throw new Error(`Unknown TDJ character id: ${characterId}`);
+}
+
+const spiritLabels = ['迅', '烈', '神', '魔', '魂'];
+const statRows = [
+  ['膂力', character.str],
+  ['灵智', character.int],
+  ['行动', character.avg],
+  ['筋力', character.vit],
+  ['运气', character.luk],
+];
+const growthRows = [
+  ['HP', '-', character.growth?.hpRandMax],
+  ['MP', '-', character.growth?.mpRandMax],
+  ['膂力', character.growth?.strBase, character.growth?.strRandMax],
+  ['灵智', character.growth?.intBase, character.growth?.intRandMax],
+  ['行动', character.growth?.avgBase, character.growth?.avgRandMax],
+  ['筋力', character.growth?.vitBase, character.growth?.vitRandMax],
+  ['运气', character.growth?.lukBase, character.growth?.lukRandMax],
+];
+const dash = (value: unknown) =>
+  value === null || value === undefined || value === '' ? '-' : value;
+const previous = rows.find((row) => row.id === character.id - 1);
+const next = rows.find((row) => row.id === character.id + 1);
+---
+
+<nav class="tdj-character-nav" aria-label="角色资料导航">
+  <a href="/games/sword-man/characters/">← 角色一览</a>
+  <span>
+    {previous && <a href={previous.href}>← {previous.name}</a>}
+    {next && <a href={next.href}>{next.name} →</a>}
+  </span>
+</nav>
+
+<section class="tdj-character-summary" aria-label={`${character.name} 初始资料`}>
+  <div class="tdj-character-heading">
+    <p>角色 #{character.id}</p>
+    <h2>{character.name}</h2>
+    <span>初始 Lv.{character.level}</span>
+  </div>
+
+  <div class="tdj-vital-grid">
+    <span><strong>{character.hp}</strong><small>初始 HP</small></span>
+    <span><strong>{character.mp}</strong><small>初始 MP</small></span>
+    {statRows.map(([label, value]) => (
+      <span><strong>{value}</strong><small>{label}</small></span>
+    ))}
+  </div>
+
+  <div class="tdj-profile-split">
+    <section>
+      <h3>初始五魂</h3>
+      <div class="tdj-spirit-grid">
+        {spiritLabels.map((label, index) => (
+          <span><strong>{character.spirit?.[index] ?? '-'}</strong><small>{label}</small></span>
+        ))}
+      </div>
+    </section>
+    <section>
+      <h3>初始装备</h3>
+      <dl class="tdj-equipment-list">
+        <div><dt>武器</dt><dd>{dash(character.weaponName)}</dd></div>
+        <div><dt>防具</dt><dd>{dash(character.armorName)}</dd></div>
+        <div><dt>饰品</dt><dd>{dash(character.accessoryName)}</dd></div>
+      </dl>
+    </section>
+  </div>
+</section>
+
+<h2 id="initial-skills">初始招式</h2>
+
+{character.initialSkills.length ? (
+  <div class="tdj-initial-skills">
+    {character.initialSkills.map((entry: DataRow) => (
+      <span>
+        <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+        <small>{entry.skill?.kindLabel ?? '-'} · {entry.skill?.attributeLabel ?? '-'} · {entry.skill?.mpCost ?? 0} MP</small>
+      </span>
+    ))}
+  </div>
+) : (
+  <p>初始状态没有已持有招式。</p>
+)}
+
+<h2 id="learned-skills">招式习得条件</h2>
+
+<p>
+  等级、迅、烈、神、魔、魂是并列门槛，六项必须同时达到。原版会在角色升级时逐条检查，
+  达到条件且尚未持有该招式时才会习得；表中的“—”表示该项没有额外门槛。
+</p>
+
+{character.learnedSkills.length ? (
+  <div class="tdj-table-scroll">
+    <table class="tdj-learn-table">
+      <thead>
+        <tr>
+          <th>招式</th>
+          <th>等级</th>
+          {spiritLabels.map((label) => <th>{label}</th>)}
+          <th>类型 / 属性</th>
+          <th>MP</th>
+        </tr>
+      </thead>
+      <tbody>
+        {character.learnedSkills.map((entry: DataRow) => (
+          <tr>
+            <td>
+              <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+              {entry.skill?.description && <small>{entry.skill.description}</small>}
+            </td>
+            <td>Lv.{entry.level}</td>
+            {spiritLabels.map((_, index) => (
+              <td>{entry.spirit?.[index] > 0 ? entry.spirit[index] : '—'}</td>
+            ))}
+            <td>{entry.skill?.kindLabel ?? '-'} / {entry.skill?.attributeLabel ?? '-'}</td>
+            <td>{entry.skill?.mpCost ?? 0}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+) : (
+  <p>升级表中没有后续招式记录。</p>
+)}
+
+<h2 id="growth">升级成长</h2>
+
+<p>
+  “基值”是每次升级固定加入的数值；“随机参数”保留 <code>KMAN_LEV.dat</code> 的原始成长参数，
+  用于复现原版升级随机计算。
+</p>
+
+<div class="tdj-table-scroll tdj-growth-table">
+  <table>
+    <thead><tr><th>属性</th><th>基值</th><th>随机参数</th></tr></thead>
+    <tbody>
+      {growthRows.map(([label, base, random]) => (
+        <tr><td>{label}</td><td>{dash(base)}</td><td>{dash(random)}</td></tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .tdj-character-nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .tdj-character-nav span {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .tdj-character-nav a {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .tdj-character-summary {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .tdj-character-heading p,
+  .tdj-character-heading h2 {
+    margin: 0;
+  }
+
+  .tdj-character-heading p,
+  .tdj-character-heading span,
+  .tdj-vital-grid small,
+  .tdj-spirit-grid small,
+  .tdj-initial-skills small,
+  .tdj-learn-table small {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-character-heading h2 {
+    color: var(--leaf-heading);
+    font-size: 1.7rem;
+  }
+
+  .tdj-vital-grid,
+  .tdj-spirit-grid {
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .tdj-vital-grid {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .tdj-spirit-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .tdj-vital-grid span,
+  .tdj-spirit-grid span,
+  .tdj-initial-skills span {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-subtle);
+    display: grid;
+    gap: 0.12rem;
+    padding: 0.55rem;
+  }
+
+  .tdj-vital-grid strong,
+  .tdj-spirit-grid strong,
+  .tdj-initial-skills strong {
+    color: var(--leaf-heading);
+  }
+
+  .tdj-profile-split {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tdj-profile-split > section {
+    border-top: 1px solid var(--leaf-border);
+    padding-top: 0.7rem;
+  }
+
+  .tdj-profile-split h3 {
+    color: var(--leaf-heading);
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .tdj-equipment-list {
+    display: grid;
+    gap: 0.35rem;
+    margin: 0;
+  }
+
+  .tdj-equipment-list div {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr);
+  }
+
+  .tdj-equipment-list dt {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-equipment-list dd {
+    color: var(--leaf-heading);
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .tdj-initial-skills {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tdj-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-learn-table {
+    min-width: 49rem;
+  }
+
+  .tdj-learn-table th,
+  .tdj-learn-table td {
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .tdj-learn-table th:first-child,
+  .tdj-learn-table td:first-child {
+    min-width: 11rem;
+    text-align: left;
+  }
+
+  .tdj-learn-table td strong,
+  .tdj-learn-table td small {
+    display: block;
+  }
+
+  .tdj-learn-table td small {
+    font-size: 0.8rem;
+    line-height: 1.25;
+    margin-top: 0.18rem;
+  }
+
+  .tdj-growth-table {
+    max-width: 30rem;
+  }
+
+  @media (max-width: 48rem) {
+    .tdj-vital-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .tdj-profile-split,
+    .tdj-initial-skills {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  @media (max-width: 30rem) {
+    .tdj-vital-grid,
+    .tdj-spirit-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

@@ -16,7 +16,7 @@ import summary from '../../../../data/sword-man/generated/summary.json';
 公开站点只接收结构化资料与白名单图片，不读取复刻工程、原始游戏目录或私人研究文件。
 
 - 数据集哈希：<code>{summary.dataset.hash}</code>
-- 角色、成长、技能、怪物和物品：`catalog/*.json`
+- 角色、成长、技能、怪物、物品和炼化配方：`catalog/*.json`
 - 关卡布阵：`battles/*.json`
 - 营地：`catalog/camps.json`
 - 图片：数据包中的公开白名单资源
@@ -41,6 +41,7 @@ node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 | --- | ---: |
 | 角色 | {summary.counts.characters} |
 | 技能 | {summary.counts.skills} |
+| 炼化配方 | {summary.counts.alchemyRecipes} |
 | 怪物 / 单位 | {summary.counts.monsters} |
 | 关卡 | {summary.counts.battles} |
 | 营地 | {summary.counts.camps} |

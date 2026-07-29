@@ -1,6 +1,6 @@
 ---
 title: 角色资料
-description: 《天地劫·神魔至尊传》角色初始 HP、装备、成长基值与习得技能索引。
+description: 《天地劫·神魔至尊传》角色初始属性、装备、成长与招式习得条件索引。
 game: '天地劫·神魔至尊传'
 lastVerified: '2026-07-29'
 sidebar:
@@ -11,8 +11,11 @@ sidebar:
 import TdjDataTable from '../../../../../components/TdjDataTable.astro';
 
 角色资料由 canonical v1 的 `KMAN_STA.DAT` 初始状态、`Man_base.dat` 角色身份与
-`KMAN_LEV.DAT` 成长表汇总而来。初始装备是 `KMAN_STA` 中 `0x1E/0x20/0x22`
-三项 16 位 ID，字段布局已与 foxgame/Sword 的 `GameUnitInitData.load()` 逐项核对。
-成长表中的“力 / 智 / 速 / 体 / 运”为升级基值，随机成长另列 HP 与 MP 的随机上限。
+`KMAN_LEV.DAT` 成长/习得表汇总而来。点击角色名可进入独立页，查看初始五魂、初始招式，
+以及每项招式所需的等级和迅、烈、神、魔、魂门槛。
+
+初始装备是 `KMAN_STA` 中 `0x1E/0x20/0x22` 三项 16 位 ID，字段布局已与
+foxgame/Sword 的 `GameUnitInitData.load()` 逐项核对。招式条件也按原版升级判定整理：
+等级和五项魂力必须同时达到。
 
 <TdjDataTable kind="characters" />

@@ -11,6 +11,7 @@ const featuredCampImages = assets.featuredCamps as string[];
 const statCards = [
   { value: counts.characters, label: '角色', detail: '接入成长与习得技能' },
   { value: counts.skills, label: '技能', detail: `${counts.magicSkills} 法术 / ${counts.physicalSkills} 特技` },
+  { value: counts.alchemyRecipes, label: '炼化配方', detail: `${counts.equipmentAlchemy} 装备 / ${counts.itemAlchemy} 道具` },
   { value: counts.monsters, label: '单位', detail: '含敌人与战场单位' },
   { value: counts.battles, label: '关卡', detail: `最大敌方 ${battleStats.maxEnemyCount} 名` },
 ];
@@ -18,6 +19,8 @@ const statCards = [
 const entries = [
   { label: '角色资料', href: '/games/sword-man/characters/', meta: '成长、装备、习得技能' },
   { label: '技能法术', href: '/games/sword-man/skills/', meta: '消耗、范围、属性、说明' },
+  { label: '装备炼化', href: '/games/sword-man/alchemy/equipment/', meta: '武器、防具、饰品配方与属性' },
+  { label: '道具炼化', href: '/games/sword-man/alchemy/items/', meta: '回复、成长、符咒配方与效果' },
   { label: '怪物图鉴', href: '/games/sword-man/monsters/', meta: '等级、HP、攻防、成长' },
   { label: '关卡资料', href: '/games/sword-man/battles/', meta: '出战、敌人、地图规模' },
   { label: '营地资料', href: '/games/sword-man/camps/', meta: '营地资源与首帧预览' },
@@ -35,6 +38,7 @@ const entries = [
         <a href="/games/sword-man/characters/">查角色</a>
         <a href="/games/sword-man/battles/">看关卡</a>
         <a href="/games/sword-man/skills/">翻技能</a>
+        <a href="/games/sword-man/alchemy/equipment/">查炼化</a>
       </div>
     </div>
     <div class="tdj-visuals" aria-label="游戏资源预览">
@@ -186,7 +190,7 @@ const entries = [
   .tdj-preview-strip {
     display: grid;
     gap: 0.55rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .tdj-preview-strip img {

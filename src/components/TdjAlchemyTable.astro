@@ -1,0 +1,122 @@
+---
+import alchemy from '../data/sword-man/generated/alchemy.json';
+
+type DataRow = Record<string, any>;
+
+const { kind } = Astro.props as { kind: 'equipment' | 'items' };
+const rows = (alchemy as DataRow[]).filter((row) =>
+  kind === 'items' ? row.productType === 0 : row.productType !== 0,
+);
+const signed = (value: number) => (value ? `${value > 0 ? '+' : ''}${value}` : '-');
+const effectText = (row: DataRow) =>
+  row.effect ? `${row.effect}${row.effectPower ? ` ${signed(row.effectPower)}` : ''}` : '-';
+---
+
+<p class="tdj-alchemy-count">共 {rows.length} 项配方；两项材料前后顺序可以互换。</p>
+
+<div class="tdj-table-scroll">
+  {kind === 'equipment' ? (
+    <table class="tdj-alchemy-table tdj-equipment-table">
+      <thead>
+        <tr>
+          <th>材料一</th>
+          <th>材料二</th>
+          <th>炼化结果</th>
+          <th>类型</th>
+          <th>攻</th>
+          <th>防</th>
+          <th>命中</th>
+          <th>回避</th>
+          <th>会心</th>
+          <th>双击</th>
+          <th>可装备角色</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <td>{row.ingredient1.name}<small>#{row.ingredient1.id}</small></td>
+            <td>{row.ingredient2.name}<small>#{row.ingredient2.id}</small></td>
+            <td><strong>{row.productName}</strong><small>#{row.productId}</small></td>
+            <td>{row.productTypeLabel}</td>
+            <td>{signed(row.attack)}</td>
+            <td>{signed(row.defence)}</td>
+            <td>{signed(row.hit)}</td>
+            <td>{signed(row.miss)}</td>
+            <td>{signed(row.critical)}</td>
+            <td>{signed(row.double)}</td>
+            <td>{row.equipCharacters.join('、') || '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  ) : (
+    <table class="tdj-alchemy-table tdj-item-table">
+      <thead>
+        <tr>
+          <th>材料一</th>
+          <th>材料二</th>
+          <th>炼化结果</th>
+          <th>效果</th>
+          <th>价格</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <td>{row.ingredient1.name}<small>#{row.ingredient1.id}</small></td>
+            <td>{row.ingredient2.name}<small>#{row.ingredient2.id}</small></td>
+            <td><strong>{row.productName}</strong><small>#{row.productId}</small></td>
+            <td>{effectText(row)}</td>
+            <td>{row.price || '-'}</td>
+            <td>{row.description || '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</div>
+
+<style>
+  .tdj-alchemy-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .tdj-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-alchemy-table {
+    min-width: 55rem;
+  }
+
+  .tdj-equipment-table {
+    min-width: 68rem;
+  }
+
+  .tdj-alchemy-table th {
+    white-space: nowrap;
+  }
+
+  .tdj-alchemy-table td {
+    vertical-align: top;
+  }
+
+  .tdj-alchemy-table strong {
+    color: var(--leaf-heading);
+  }
+
+  .tdj-alchemy-table small {
+    color: var(--leaf-text-muted);
+    display: block;
+    font-size: 0.78rem;
+    margin-top: 0.08rem;
+  }
+
+  .tdj-item-table td:last-child {
+    min-width: 18rem;
+  }
+</style>

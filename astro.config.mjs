@@ -136,6 +136,13 @@ export default defineConfig({
             { label: '游戏总览', link: '/games/sword-man/' },
             { label: '角色资料', link: '/games/sword-man/characters/' },
             { label: '技能法术', link: '/games/sword-man/skills/' },
+            {
+              label: '炼化配方',
+              items: [
+                { label: '装备炼化', link: '/games/sword-man/alchemy/equipment/' },
+                { label: '道具炼化', link: '/games/sword-man/alchemy/items/' },
+              ],
+            },
             { label: '怪物图鉴', link: '/games/sword-man/monsters/' },
             { label: '关卡资料', link: '/games/sword-man/battles/' },
             { label: '营地资料', link: '/games/sword-man/camps/' },

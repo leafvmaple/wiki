@@ -49,8 +49,10 @@ const campRows = sliceRows(camps as DataRow[]);
       {characterRows.map((character) => (
         <tr>
           <td>
-            <strong>{character.name}</strong>
-            <small>#{character.id}</small>
+            <a class="tdj-character-link" href={character.href}>
+              <strong>{character.name}</strong>
+              <small>查看独立资料页 · #{character.id}</small>
+            </a>
           </td>
           <td>{character.hp}</td>
           <td>
@@ -69,7 +71,7 @@ const campRows = sliceRows(camps as DataRow[]);
           </td>
           <td>
             <span class="tdj-mini-list">
-              {(character.learnedSkills as DataRow[]).map((entry: DataRow) => (
+              {([...(character.initialSkills ?? []), ...(character.learnedSkills ?? [])] as DataRow[]).map((entry: DataRow) => (
                 <span class="tdj-pill">{skillText(entry)}</span>
               ))}
             </span>
@@ -267,6 +269,15 @@ const campRows = sliceRows(camps as DataRow[]);
     display: block;
     font-weight: 800;
     line-height: 1.15;
+  }
+
+  .tdj-character-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .tdj-character-link:hover strong {
+    color: var(--leaf-primary-hover);
   }
 
   .tdj-table small,
