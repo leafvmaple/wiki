@@ -30,6 +30,23 @@ const games = [
     ],
   },
   {
+    id: 'daikoukai2',
+    title: '大航海时代 II',
+    href: '/games/daikoukai-jidai-2/',
+    kicker: '航海 · 角色 · 机制',
+    status: '机制解析中',
+    summary: '以 Steam 版内置 PC-98 数据为基准，整理航海士招募、请酒忠诚、实力判定与月薪等角色机制。',
+    stats: [
+      { value: 120, label: '航海士' },
+      { value: 41, label: '自由角色' },
+      { value: 30, label: '同伴位' },
+    ],
+    links: [
+      { label: '航海士雇佣', href: '/games/daikoukai-jidai-2/officers/', kind: 'character' },
+      { label: '游戏总览', href: '/games/daikoukai-jidai-2/', kind: 'note' },
+    ],
+  },
+  {
     id: 'stardew',
     title: '星露谷物语',
     href: '/games/stardew-valley/',
@@ -93,6 +110,7 @@ const totals = [
   {
     value:
       stardewSummary.counts.objects +
+      41 +
       tdjSummary.counts.skills +
       metalMaxSummary.counts.humanEquipment +
       metalMaxSummary.counts.tankParts +
@@ -143,7 +161,7 @@ const totals = [
           <a href={link.href}>
             {game.id === 'stardew' ? (
               <StardewIcon kind={link.kind} label={link.label} compact link={false} />
-            ) : game.id === 'tdj' || game.id === 'metalmax' ? (
+            ) : game.id === 'tdj' || game.id === 'metalmax' || game.id === 'daikoukai2' ? (
               <span class="home-link-chip">{link.label}</span>
             ) : (
               <OctopathIcon kind={link.kind} label={link.label} compact />

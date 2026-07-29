@@ -1,0 +1,339 @@
+---
+import { daikoukai2Officers } from '../data/daikoukai2/officers';
+
+const statLabels = {
+  leadership: '统率',
+  navigation: '航海',
+  knowledge: '知识',
+  intuition: '直觉',
+  courage: '勇气',
+  swordsmanship: '剑术',
+  charm: '魅力',
+} as const;
+
+const skillLabels = [
+  [0x01, '交'],
+  [0x02, '会'],
+  [0x04, '砲'],
+  [0x08, '地'],
+  [0x10, '測'],
+] as const;
+
+const rows = daikoukai2Officers.map((officer) => {
+  const stats = Object.entries(officer.stats) as Array<[
+    keyof typeof officer.stats,
+    number,
+  ]>;
+  const [strongestKey, strongestValue] = stats.reduce((best, current) =>
+    current[1] > best[1] ? current : best,
+  );
+  const grade = (officer.navigationLevel + officer.battleLevel) * strongestValue;
+  const salaryMin = Math.min(20, Math.floor(grade / 400) + 1) * 10;
+  const salaryMax = Math.min(20, Math.floor(grade / 400) + 3) * 10;
+  const skills = skillLabels.filter(([flag]) => officer.skillFlags & flag).map(([, label]) => label);
+  const drinks = officer.facility === '宿屋'
+    ? '无需'
+    : officer.friendly ? '1 / 3' : '2 / 6';
+  return {
+    ...officer,
+    strongestLabel: statLabels[strongestKey],
+    strongestValue,
+    grade,
+    salaryMin,
+    salaryMax,
+    salaryText: salaryMin === salaryMax ? String(salaryMin) : `${salaryMin}–${salaryMax}`,
+    skills,
+    skillText: skills.join('・') || '—',
+    drinks,
+  };
+});
+
+const facilities = ['酒场', '宿屋'];
+const nationalities = [...new Set(rows.map((row) => row.nationality))];
+---
+
+<div class="dk2-officers not-content" data-unit="人">
+  <div class="dk2-officers-bar">
+    <select class="dk2-officers-facility" aria-label="按设施筛选">
+      <option value="">全部设施</option>
+      {facilities.map((facility) => <option value={facility}>{facility}</option>)}
+    </select>
+    <select class="dk2-officers-nationality" aria-label="按国籍筛选">
+      <option value="">全部国籍</option>
+      {nationalities.map((nationality) => <option value={nationality}>{nationality}</option>)}
+    </select>
+    <input class="dk2-officers-search" type="search" placeholder="搜索姓名、港口或技能…" aria-label="搜索航海士" />
+    <span class="dk2-officers-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-officers-scroll">
+    <table class="dk2-officers-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">ID</th>
+          <th data-sort="name">航海士</th>
+          <th data-sort="port">初始港口</th>
+          <th data-sort="facility">设施</th>
+          <th data-sort="nationality">国籍</th>
+          <th data-sort="nav" class="num">航Lv</th>
+          <th data-sort="battle" class="num">战Lv</th>
+          <th data-sort="strongest" class="num">最强能力</th>
+          <th data-sort="grade" class="num">格值 C</th>
+          <th data-sort="personality">性格</th>
+          <th data-sort="friendly">义理</th>
+          <th data-sort="drinks" class="num">同 / 异性格请酒</th>
+          <th data-sort="salary" class="num">月薪</th>
+          <th>技能</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-port={row.port}
+            data-facility={row.facility}
+            data-nationality={row.nationality}
+            data-nav={row.navigationLevel}
+            data-battle={row.battleLevel}
+            data-strongest={row.strongestValue}
+            data-grade={row.grade}
+            data-personality={row.personality}
+            data-friendly={row.friendly ? 1 : 0}
+            data-drinks={row.facility === '宿屋' ? 0 : row.friendly ? 1 : 2}
+            data-salary={row.salaryMin}
+            data-search={`${row.nameJa} ${row.port} ${row.facility} ${row.nationality} ${row.skillText}`}
+          >
+            <td class="num dk2-officers-id">{row.id.toString(16).toUpperCase().padStart(2, '0')}</td>
+            <td class="dk2-officers-name">{row.nameJa}</td>
+            <td>{row.port}</td>
+            <td><span class:list={['dk2-officers-facility-chip', row.facility === '宿屋' && 'is-inn']}>{row.facility}</span></td>
+            <td class="muted">{row.nationality}</td>
+            <td class="num">{row.navigationLevel}</td>
+            <td class="num">{row.battleLevel}</td>
+            <td class="num"><span class="dk2-officers-stat">{row.strongestLabel}</span>{row.strongestValue}</td>
+            <td class="num dk2-officers-grade">{row.grade.toLocaleString('en-US')}</td>
+            <td>{row.personality}</td>
+            <td>{row.friendly ? '有' : '—'}</td>
+            <td class="num">{row.drinks}</td>
+            <td class="num">{row.salaryText}</td>
+            <td class="dk2-officers-skills">{row.skillText}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-officers').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const facility = root.querySelector<HTMLSelectElement>('.dk2-officers-facility');
+    const nationality = root.querySelector<HTMLSelectElement>('.dk2-officers-nationality');
+    const search = root.querySelector<HTMLInputElement>('.dk2-officers-search');
+    const count = root.querySelector<HTMLElement>('.dk2-officers-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const facilityValue = facility?.value ?? '';
+      const nationalityValue = nationality?.value ?? '';
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const matches =
+          (!facilityValue || row.dataset.facility === facilityValue) &&
+          (!nationalityValue || row.dataset.nationality === nationalityValue) &&
+          (!query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query));
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 人`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    facility?.addEventListener('change', apply);
+    nationality?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-officers {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-officers-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-officers-bar :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-officers-search {
+    flex: 1 1 14rem;
+    max-width: 24rem;
+  }
+
+  .dk2-officers-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-officers-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-officers-table {
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    min-width: 76rem;
+    width: 100%;
+  }
+
+  .dk2-officers-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.43rem 0.58rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .dk2-officers-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .dk2-officers-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-officers-table th[data-sort]:hover {
+    color: var(--leaf-primary-hover);
+  }
+
+  .dk2-officers-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-officers-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-officers-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-officers-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-officers-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-officers-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+
+  .dk2-officers-name,
+  .dk2-officers-grade {
+    color: var(--leaf-heading);
+    font-weight: 700;
+  }
+
+  .dk2-officers-id,
+  .dk2-officers-table .muted,
+  .dk2-officers-skills {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-officers-stat {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    margin-right: 0.25rem;
+  }
+
+  .dk2-officers-facility-chip {
+    border: 1px solid color-mix(in srgb, #d28b37 48%, var(--leaf-border));
+    border-radius: 999px;
+    color: #b66a1c;
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 0.06rem 0.42rem;
+  }
+
+  .dk2-officers-facility-chip.is-inn {
+    border-color: color-mix(in srgb, var(--leaf-primary) 48%, var(--leaf-border));
+    color: var(--leaf-primary-hover);
+  }
+
+  :root[data-theme='dark'] .dk2-officers-facility-chip {
+    color: #f0bd7a;
+  }
+
+  :root[data-theme='dark'] .dk2-officers-facility-chip.is-inn {
+    color: #8be2fa;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-officers-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

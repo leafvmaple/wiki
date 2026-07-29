@@ -96,6 +96,14 @@ export default defineConfig({
           ],
         },
         {
+          label: '大航海时代 II',
+          collapsed: false,
+          items: [
+            { label: '游戏总览', link: '/games/daikoukai-jidai-2/' },
+            { label: '航海士雇佣', link: '/games/daikoukai-jidai-2/officers/' },
+          ],
+        },
+        {
           label: '重装机兵',
           collapsed: true,
           items: [
