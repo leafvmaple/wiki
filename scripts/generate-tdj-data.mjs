@@ -419,7 +419,7 @@ const main = async () => {
   const assets = {
     showcase: await existingPublicAsset('showcase.png'),
     appIcon: await copyAsset('assets/public/app-icon.png', 'app-icon.png'),
-    featuredCamps: [0, 2, 5, 9].map((id) => campImages.get(id)).filter(Boolean),
+    featuredCamps: [1, 2, 5, 9].map((id) => campImages.get(id)).filter(Boolean),
   };
 
   const summary = {

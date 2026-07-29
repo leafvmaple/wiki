@@ -12,6 +12,7 @@ import TdjDataTable from '../../../../../components/TdjDataTable.astro';
 
 营地索引与图片均来自 `swordman-unpack` 的 canonical v1。预览不是 SAF 的裸图元 `FrameConstruct[0]`，
 而是按动画参数帧 `FrameParameter[0]` 记录的坐标、层次与透明度，把场景、角色和特效合成后的完整画面。
-Camp08、12、14、17、18、20、21 的 SAF 都只是同一张单层黄色占位底图，因此不冒充营地画面，表中留空。
+Camp00 只有角色、阴影与发光特效，没有场景层；Camp08、12、14、17、18、20、21 的 SAF
+则都是同一张单层黄色占位底图。这些都不冒充完整营地画面，表中留空。
 
 <TdjDataTable kind="camps" />

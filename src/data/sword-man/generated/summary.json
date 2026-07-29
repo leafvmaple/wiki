@@ -3,7 +3,7 @@
   "slug": "sword-man",
   "dataset": {
     "schemaVersion": 1,
-    "hash": "00e7e3ef518f7bce18341ca98027fa1e271a20a6ff5bc04e9acc696ea67f533d"
+    "hash": "b637954dae37c7d81852a17eccdcb7c06627db81e1ab4b5a2f56efc922ea8544"
   },
   "counts": {
     "characters": 10,
@@ -13,7 +13,7 @@
     "monsters": 106,
     "battles": 36,
     "camps": 36,
-    "campImages": 28,
+    "campImages": 27,
     "alchemyRecipes": 173,
     "equipmentAlchemy": 153,
     "itemAlchemy": 20
@@ -27,7 +27,7 @@
     "showcase": "/assets/sword-man/showcase.png",
     "appIcon": "/assets/sword-man/app-icon.png",
     "featuredCamps": [
-      "/assets/sword-man/camps/camp00-preview.png",
+      "/assets/sword-man/camps/camp01-preview.png",
       "/assets/sword-man/camps/camp02-preview.png",
       "/assets/sword-man/camps/camp05-preview.png",
       "/assets/sword-man/camps/camp09-preview.png"

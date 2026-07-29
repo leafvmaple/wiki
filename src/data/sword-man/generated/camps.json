@@ -6,10 +6,10 @@
     "flag": 0,
     "frameCount": 8,
     "path": "camp00",
-    "hasImage": true,
-    "previewFrameIndex": 0,
-    "previewKind": "frame_parameter_composite",
-    "imagePath": "/assets/sword-man/camps/camp00-preview.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 1,
