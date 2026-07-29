@@ -1,10 +1,13 @@
 ﻿import { promises as fs } from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, '..');
-const sourceRoot = path.resolve(process.argv[2] ?? process.env.TDJ_GODOT_DIR ?? 'D:/Code/tdj-godot');
+const sourceRoot = path.resolve(
+  process.argv[2] ?? process.env.SWORDMAN_DATA_DIR ?? path.join(repoRoot, '..', 'swordman-unpack', 'exports', 'v1'),
+);
 const outputRoot = path.join(repoRoot, 'src/data/sword-man/generated');
 const publicAssetRoot = path.join(repoRoot, 'public/assets/sword-man');
 
@@ -67,13 +70,8 @@ const label = (labels, value) => labels[value] ?? value ?? '-';
 const cleanString = (value) => (typeof value === 'string' && value.trim() ? value.trim() : null);
 
 const readItemNames = async () => {
-  const file = await fs.readFile(path.join(sourceRoot, 'data/db/items.tres'), 'utf8');
-  const block = file.match(/names\s*=\s*\{([\s\S]*?)\n\}/)?.[1] ?? '';
-  const names = {};
-  for (const match of block.matchAll(/^\s*(\d+):\s*"((?:\\"|[^"])*)",?\s*$/gm)) {
-    names[Number(match[1])] = match[2].replace(/\\"/g, '"');
-  }
-  return names;
+  const items = await readJson('catalog/items.json');
+  return Object.fromEntries(Object.entries(items.names ?? {}).map(([id, name]) => [Number(id), name]));
 };
 
 const copyAsset = async (relativeSource, relativeOutput) => {
@@ -86,6 +84,36 @@ const copyAsset = async (relativeSource, relativeOutput) => {
   } catch (error) {
     if (error.code === 'ENOENT') return null;
     throw error;
+  }
+};
+
+const existingPublicAsset = async (relativeOutput) => {
+  try {
+    await fs.access(path.join(publicAssetRoot, relativeOutput));
+    return `/assets/sword-man/${relativeOutput.replaceAll(path.sep, '/')}`;
+  } catch {
+    return null;
+  }
+};
+
+const validateBundle = async (manifest) => {
+  if (manifest.schemaVersion !== 1 || manifest.producer !== 'swordman-unpack') {
+    throw new Error(`Unsupported swordman data contract: ${manifest.producer} v${manifest.schemaVersion}`);
+  }
+  const dataset = createHash('sha256');
+  for (const entry of manifest.files ?? []) {
+    const content = await fs.readFile(path.join(sourceRoot, entry.path));
+    const digest = createHash('sha256').update(content).digest('hex');
+    if (content.length !== entry.size || digest !== entry.sha256) {
+      throw new Error(`Swordman data hash mismatch: ${entry.path}`);
+    }
+    dataset.update(entry.path, 'utf8');
+    dataset.update('\0');
+    dataset.update(entry.sha256, 'ascii');
+    dataset.update('\n');
+  }
+  if (dataset.digest('hex') !== manifest.datasetHash) {
+    throw new Error('Swordman datasetHash mismatch');
   }
 };
 
@@ -115,12 +143,14 @@ const formatGrowth = (growth) =>
 const main = async () => {
   await fs.access(sourceRoot);
 
+  const manifest = await readJson('manifest.json');
+  await validateBundle(manifest);
   const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb] = await Promise.all([
-    readJson('data/db/characters.json'),
-    readJson('data/db/skills.json'),
-    readJson('data/db/monsters.json'),
-    readJson('data/db/level_up.json'),
-    readJson('data/camp/camps.json'),
+    readJson('catalog/characters.json'),
+    readJson('catalog/skills.json'),
+    readJson('catalog/monsters.json'),
+    readJson('catalog/level_up.json'),
+    readJson('catalog/camps.json'),
   ]);
   const itemNames = await readItemNames();
 
@@ -215,7 +245,7 @@ const main = async () => {
       abilities: monster.abilities,
     }));
 
-  const battleDir = path.join(sourceRoot, 'data/battles');
+  const battleDir = path.join(sourceRoot, 'battles');
   const battleFiles = (await fs.readdir(battleDir)).filter((file) => file.toLowerCase().endsWith('.json'));
   const battles = [];
   for (const file of battleFiles.sort((a, b) => stageNumber(a) - stageNumber(b))) {
@@ -265,7 +295,7 @@ const main = async () => {
     const outputName = `camps/${camp.path}-frame000.png`;
     const imagePath =
       camp.has_image && camp.path
-        ? await copyAsset(`assets/camp/image/${camp.path}/frame000.png`, outputName)
+        ? await copyAsset(`assets/public/camps/${camp.path}/frame000.png`, outputName)
         : null;
     if (imagePath) campImages.set(camp.id, imagePath);
     camps.push({
@@ -281,15 +311,18 @@ const main = async () => {
   }
 
   const assets = {
-    showcase: await copyAsset('pictures/QQ截图20260610131609.png', 'showcase.png'),
-    appIcon: await copyAsset('assets/ui/app_icon.png', 'app-icon.png'),
+    showcase: await existingPublicAsset('showcase.png'),
+    appIcon: await copyAsset('assets/public/app-icon.png', 'app-icon.png'),
     featuredCamps: [0, 2, 5, 9].map((id) => campImages.get(id)).filter(Boolean),
   };
 
   const summary = {
     title: '天地劫·神魔至尊传',
     slug: 'sword-man',
-    sourcePath: sourceRoot,
+    dataset: {
+      schemaVersion: manifest.schemaVersion,
+      hash: manifest.datasetHash,
+    },
     counts: {
       characters: characters.length,
       skills: skills.length,

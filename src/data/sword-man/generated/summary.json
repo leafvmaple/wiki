@@ -1,7 +1,10 @@
 {
   "title": "天地劫·神魔至尊传",
   "slug": "sword-man",
-  "sourcePath": "D:\\Code\\tdj-godot",
+  "dataset": {
+    "schemaVersion": 1,
+    "hash": "09e224cf7e600629e3c2698fb5a9fcb5efb1589551bade4145a4d20a7a32ea78"
+  },
   "counts": {
     "characters": 10,
     "skills": 106,

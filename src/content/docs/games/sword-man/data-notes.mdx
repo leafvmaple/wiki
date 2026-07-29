@@ -2,7 +2,7 @@
 title: 数据说明
 description: 《天地劫·神魔至尊传》资料站的数据来源、生成方式和字段说明。
 game: '天地劫·神魔至尊传'
-lastVerified: '2026-06-24'
+lastVerified: '2026-07-29'
 sidebar:
   order: 7
   label: 数据说明
@@ -12,15 +12,14 @@ import summary from '../../../../data/sword-man/generated/summary.json';
 
 ## 数据来源
 
-当前资料由本机 `D:\Code\tdj-godot` 生成，主要使用这些文件：
+当前资料来自版本化的 `swordman-data canonical` v{summary.dataset.schemaVersion} 数据包。
+公开站点只接收结构化资料与白名单图片，不读取复刻工程、原始游戏目录或私人研究文件。
 
-- `data/db/characters.json`
-- `data/db/level_up.json`
-- `data/db/skills.json`
-- `data/db/monsters.json`
-- `data/battles/*.json`
-- `data/camp/camps.json`
-- `data/db/items.tres`
+- 数据集哈希：<code>{summary.dataset.hash}</code>
+- 角色、成长、技能、怪物和物品：`catalog/*.json`
+- 关卡布阵：`battles/*.json`
+- 营地：`catalog/camps.json`
+- 图片：数据包中的公开白名单资源
 
 ## 同步方式
 
@@ -30,10 +29,10 @@ import summary from '../../../../data/sword-man/generated/summary.json';
 npm run generate:tdj
 ```
 
-如果 `tdj-godot` 不在默认路径，可以指定来源目录：
+如果数据包不在默认的相邻目录，可以显式指定：
 
 ```powershell
-node scripts/generate-tdj-data.mjs "D:\Code\tdj-godot"
+node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 ```
 
 ## 当前规模
@@ -48,4 +47,4 @@ node scripts/generate-tdj-data.mjs "D:\Code\tdj-godot"
 
 ## 说明
 
-角色表中的成长字段来自升级表；关卡表目前只做结构化统计，不把未确认的剧情章节名写入页面。后续如果在 `tdj-godot` 中补齐关卡名、胜败条件、宝箱或掉落字段，重新生成后可以继续扩展本分区。
+角色表中的成长字段来自升级表；关卡表目前只做结构化统计，不把未确认的剧情章节名写入页面。后续若在权威解析数据中补齐关卡名、胜败条件、宝箱或掉落字段，更新数据集后可以继续扩展本分区。

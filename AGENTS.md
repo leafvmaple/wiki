@@ -72,3 +72,12 @@ src/content/docs/
 1. 优先补全真实游戏攻略内容。
 2. 新增页面后同步侧边栏、游戏目录和首页入口。
 3. 提交前运行 `npm run build`。
+
+## 天地劫数据边界
+
+- 天地劫页面只读取 `swordman-data canonical v1`，默认来源为相邻
+  `swordman-unpack/exports/v1`，可用 `SWORDMAN_DATA_DIR` 覆盖。
+- 禁止重新直接读取 `tdj-godot`、Godot `.tres`、原始游戏目录或本机截图路径。
+- 公开仓库只提交生成后的结构化资料和白名单图片；不得写入本机绝对路径、NAS 地址、
+  全量剧情文本、原始资源或私人研究材料。
+- 更新后运行 `npm run generate:tdj`，确认生成差异，再运行 `npm run build`。
