@@ -228,7 +228,7 @@ const campRows = sliceRows(camps as DataRow[]);
           </td>
           <td>
             {camp.imagePath ? (
-              <img class="tdj-camp-thumb" src={camp.imagePath} alt={`营地 ${camp.id} 首帧`} loading="lazy" />
+              <img class="tdj-camp-thumb" src={camp.imagePath} alt={`营地 ${camp.id} 场景与角色合成预览`} loading="lazy" />
             ) : (
               '-'
             )}
@@ -331,6 +331,7 @@ const campRows = sliceRows(camps as DataRow[]);
   }
 
   .tdj-camp-thumb {
+    background: #000;
     border: 1px solid var(--leaf-border);
     border-radius: var(--leaf-radius-card);
     display: block;

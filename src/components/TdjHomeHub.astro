@@ -23,7 +23,7 @@ const entries = [
   { label: '道具炼化', href: '/games/sword-man/alchemy/items/', meta: '回复、成长、符咒配方与效果' },
   { label: '怪物图鉴', href: '/games/sword-man/monsters/', meta: '等级、HP、攻防、成长' },
   { label: '关卡资料', href: '/games/sword-man/battles/', meta: '出战、敌人、地图规模' },
-  { label: '营地资料', href: '/games/sword-man/camps/', meta: '营地资源与首帧预览' },
+  { label: '营地资料', href: '/games/sword-man/camps/', meta: '角色与场景合成预览' },
   { label: '数据说明', href: '/games/sword-man/data-notes/', meta: '来源、字段与同步方式' },
 ];
 ---
@@ -88,7 +88,7 @@ const entries = [
       <div class="tdj-camp-strip">
         {featureCamps.map((camp) => (
           <a href="/games/sword-man/camps/" title={`camp${String(camp.id).padStart(2, '0')}`}>
-            <img src={camp.imagePath} alt={`营地 ${camp.id} 首帧`} loading="lazy" />
+            <img src={camp.imagePath} alt={`营地 ${camp.id} 场景与角色合成预览`} loading="lazy" />
           </a>
         ))}
       </div>
@@ -190,11 +190,12 @@ const entries = [
   .tdj-preview-strip {
     display: grid;
     gap: 0.55rem;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .tdj-preview-strip img {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 8 / 5;
+    object-fit: contain;
   }
 
   .tdj-stat-grid {

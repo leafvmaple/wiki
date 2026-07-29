@@ -7,7 +7,9 @@
     "frameCount": 8,
     "path": "camp00",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp00-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp00-preview.png"
   },
   {
     "id": 1,
@@ -17,7 +19,9 @@
     "frameCount": 19,
     "path": "camp01",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp01-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp01-preview.png"
   },
   {
     "id": 2,
@@ -27,7 +31,9 @@
     "frameCount": 19,
     "path": "camp02",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp02-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp02-preview.png"
   },
   {
     "id": 3,
@@ -37,7 +43,9 @@
     "frameCount": 9,
     "path": "camp03",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp03-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp03-preview.png"
   },
   {
     "id": 4,
@@ -47,7 +55,9 @@
     "frameCount": 9,
     "path": "camp04",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp04-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp04-preview.png"
   },
   {
     "id": 5,
@@ -57,7 +67,9 @@
     "frameCount": 21,
     "path": "camp05",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp05-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp05-preview.png"
   },
   {
     "id": 6,
@@ -67,7 +79,9 @@
     "frameCount": 14,
     "path": "camp06",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp06-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp06-preview.png"
   },
   {
     "id": 7,
@@ -77,7 +91,9 @@
     "frameCount": 14,
     "path": "camp07",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp07-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp07-preview.png"
   },
   {
     "id": 8,
@@ -86,8 +102,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp08",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp08-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 9,
@@ -97,7 +115,9 @@
     "frameCount": 14,
     "path": "camp09",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp09-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp09-preview.png"
   },
   {
     "id": 10,
@@ -107,7 +127,9 @@
     "frameCount": 9,
     "path": "camp10",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp10-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp10-preview.png"
   },
   {
     "id": 11,
@@ -117,7 +139,9 @@
     "frameCount": 9,
     "path": "camp11",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp11-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp11-preview.png"
   },
   {
     "id": 12,
@@ -126,8 +150,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp12",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp12-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 13,
@@ -137,7 +163,9 @@
     "frameCount": 9,
     "path": "camp13",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp13-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp13-preview.png"
   },
   {
     "id": 14,
@@ -146,8 +174,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp14",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp14-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 15,
@@ -157,7 +187,9 @@
     "frameCount": 6,
     "path": "camp15",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp15-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp15-preview.png"
   },
   {
     "id": 16,
@@ -167,7 +199,9 @@
     "frameCount": 6,
     "path": "camp16",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp16-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp16-preview.png"
   },
   {
     "id": 17,
@@ -176,8 +210,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp17",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp17-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 18,
@@ -186,8 +222,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp18",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp18-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 19,
@@ -197,7 +235,9 @@
     "frameCount": 6,
     "path": "camp19",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp19-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp19-preview.png"
   },
   {
     "id": 20,
@@ -206,8 +246,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp20",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp20-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 21,
@@ -216,8 +258,10 @@
     "flag": 0,
     "frameCount": 1,
     "path": "camp21",
-    "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp21-frame000.png"
+    "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
+    "imagePath": null
   },
   {
     "id": 22,
@@ -227,7 +271,9 @@
     "frameCount": 6,
     "path": "camp22",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp22-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp22-preview.png"
   },
   {
     "id": 23,
@@ -237,7 +283,9 @@
     "frameCount": 31,
     "path": "camp23",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp23-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp23-preview.png"
   },
   {
     "id": 24,
@@ -247,7 +295,9 @@
     "frameCount": 31,
     "path": "camp24",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp24-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp24-preview.png"
   },
   {
     "id": 25,
@@ -257,7 +307,9 @@
     "frameCount": 31,
     "path": "camp25",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp25-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp25-preview.png"
   },
   {
     "id": 26,
@@ -267,7 +319,9 @@
     "frameCount": 29,
     "path": "camp26",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp26-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp26-preview.png"
   },
   {
     "id": 27,
@@ -277,7 +331,9 @@
     "frameCount": 29,
     "path": "camp27",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp27-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp27-preview.png"
   },
   {
     "id": 28,
@@ -287,7 +343,9 @@
     "frameCount": 31,
     "path": "camp28",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp28-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp28-preview.png"
   },
   {
     "id": 29,
@@ -297,7 +355,9 @@
     "frameCount": 31,
     "path": "camp29",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp29-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp29-preview.png"
   },
   {
     "id": 30,
@@ -307,7 +367,9 @@
     "frameCount": 31,
     "path": "camp30",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp30-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp30-preview.png"
   },
   {
     "id": 31,
@@ -317,7 +379,9 @@
     "frameCount": 31,
     "path": "camp31",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp31-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp31-preview.png"
   },
   {
     "id": 32,
@@ -327,7 +391,9 @@
     "frameCount": 31,
     "path": "camp32",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp32-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp32-preview.png"
   },
   {
     "id": 33,
@@ -337,7 +403,9 @@
     "frameCount": 31,
     "path": "camp33",
     "hasImage": true,
-    "imagePath": "/assets/sword-man/camps/camp33-frame000.png"
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp33-preview.png"
   },
   {
     "id": 34,
@@ -345,7 +413,10 @@
     "link": -1,
     "flag": 0,
     "frameCount": 0,
+    "path": "camp34",
     "hasImage": false,
+    "previewFrameIndex": null,
+    "previewKind": null,
     "imagePath": null
   },
   {
@@ -354,7 +425,10 @@
     "link": 25,
     "flag": 1,
     "frameCount": 6,
+    "path": "camp22",
     "hasImage": true,
-    "imagePath": null
+    "previewFrameIndex": 0,
+    "previewKind": "frame_parameter_composite",
+    "imagePath": "/assets/sword-man/camps/camp22-preview.png"
   }
 ]

@@ -395,12 +395,12 @@ const main = async () => {
 
   const campImages = new Map();
   const camps = [];
+  await fs.rm(path.join(publicAssetRoot, 'camps'), { recursive: true, force: true });
   for (const camp of asArray(campsDb).sort((a, b) => a.id - b.id)) {
-    const outputName = `camps/${camp.path}-frame000.png`;
-    const imagePath =
-      camp.has_image && camp.path
-        ? await copyAsset(`assets/public/camps/${camp.path}/frame000.png`, outputName)
-        : null;
+    const sourceImagePath = cleanString(camp.preview_path);
+    const resourcePath = cleanString(camp.image_path) ?? cleanString(camp.path);
+    const outputName = resourcePath ? `camps/${resourcePath}-preview.png` : null;
+    const imagePath = sourceImagePath && outputName ? await copyAsset(sourceImagePath, outputName) : null;
     if (imagePath) campImages.set(camp.id, imagePath);
     camps.push({
       id: camp.id,
@@ -408,8 +408,10 @@ const main = async () => {
       link: camp.link,
       flag: camp.flag,
       frameCount: camp.frame_count,
-      path: camp.path,
-      hasImage: Boolean(camp.has_image),
+      path: resourcePath,
+      hasImage: Boolean(imagePath),
+      previewFrameIndex: camp.preview_frame_index,
+      previewKind: camp.preview_kind,
       imagePath,
     });
   }
