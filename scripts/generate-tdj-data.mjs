@@ -191,7 +191,7 @@ const main = async () => {
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb] = await Promise.all([
+  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/monsters.json'),
@@ -199,6 +199,7 @@ const main = async () => {
     readJson('catalog/camps.json'),
     readJson('catalog/items.json'),
     readJson('catalog/alchemy.json'),
+    readJson('catalog/unit_icons.json'),
   ]);
   const itemRecords = asArray(itemsDb.records);
   const itemById = new Map(itemRecords.map((record) => [record.index, record]));
@@ -206,6 +207,16 @@ const main = async () => {
     Object.entries(itemsDb.names ?? {}).map(([id, name]) => [Number(id), name]),
   );
   const itemName = (id) => itemNames[id] ?? itemById.get(id)?.name ?? itemById.get(id)?.source_name ?? `#${id}`;
+
+  const unitIconByCategoryId = new Map();
+  await fs.rm(path.join(publicAssetRoot, 'unit-icons'), { recursive: true, force: true });
+  for (const record of asArray(unitIconsDb.records).sort((a, b) => a.category_id - b.category_id)) {
+    const categoryId = Number(record.category_id);
+    const sourcePath = cleanString(record.path);
+    const outputName = `unit-icons/${String(categoryId).padStart(3, '0')}.png`;
+    const iconPath = sourcePath ? await copyAsset(sourcePath, outputName) : null;
+    if (iconPath) unitIconByCategoryId.set(categoryId, iconPath);
+  }
 
   const skills = asArray(skillsDb)
     .sort((a, b) => a.id - b.id)
@@ -259,6 +270,7 @@ const main = async () => {
       dataIndex: record.id,
       name: record.name ?? charactersDb.names[String(characterId)] ?? `角色 ${characterId}`,
       href: `/games/sword-man/characters/${characterId}/`,
+      iconPath: unitIconByCategoryId.get(characterId) ?? null,
       level: record.level,
       hp: record.hp,
       mp: record.mp,
@@ -393,6 +405,7 @@ const main = async () => {
       exp: monster.exp,
       camp: monster.camp,
       categoryId: monster.category_id,
+      iconPath: unitIconByCategoryId.get(monster.category_id) ?? null,
       attrDefenceId: monster.attr_defence_id,
       abilities: monster.abilities,
     }));
@@ -488,6 +501,7 @@ const main = async () => {
       battles: battles.length,
       camps: camps.length,
       campImages: camps.filter((camp) => camp.imagePath).length,
+      unitIcons: unitIconByCategoryId.size,
       alchemyRecipes: alchemy.length,
       equipmentAlchemy: alchemy.filter((recipe) => recipe.productType !== 0).length,
       itemAlchemy: alchemy.filter((recipe) => recipe.productType === 0).length,
@@ -511,7 +525,7 @@ const main = async () => {
   await writeCharacterPages(characters);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes.`,
+    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
   );
 };
 

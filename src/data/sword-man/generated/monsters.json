@@ -12,6 +12,7 @@
     "exp": 360,
     "camp": 0,
     "categoryId": 14,
+    "iconPath": "/assets/sword-man/unit-icons/014.png",
     "attrDefenceId": 15,
     "abilities": {
       "str": {
@@ -49,6 +50,7 @@
     "exp": 360,
     "camp": 0,
     "categoryId": 12,
+    "iconPath": "/assets/sword-man/unit-icons/012.png",
     "attrDefenceId": 27,
     "abilities": {
       "str": {
@@ -86,6 +88,7 @@
     "exp": 360,
     "camp": 0,
     "categoryId": 13,
+    "iconPath": "/assets/sword-man/unit-icons/013.png",
     "attrDefenceId": 28,
     "abilities": {
       "str": {
@@ -123,6 +126,7 @@
     "exp": 360,
     "camp": 0,
     "categoryId": 15,
+    "iconPath": "/assets/sword-man/unit-icons/015.png",
     "attrDefenceId": 30,
     "abilities": {
       "str": {
@@ -160,6 +164,7 @@
     "exp": 220,
     "camp": 1,
     "categoryId": 201,
+    "iconPath": "/assets/sword-man/unit-icons/201.png",
     "attrDefenceId": 2,
     "abilities": {
       "str": {
@@ -197,6 +202,7 @@
     "exp": 230,
     "camp": 1,
     "categoryId": 220,
+    "iconPath": "/assets/sword-man/unit-icons/220.png",
     "attrDefenceId": 3,
     "abilities": {
       "str": {
@@ -234,6 +240,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 200,
+    "iconPath": "/assets/sword-man/unit-icons/200.png",
     "attrDefenceId": 7,
     "abilities": {
       "str": {
@@ -271,6 +278,7 @@
     "exp": 160,
     "camp": 1,
     "categoryId": 202,
+    "iconPath": "/assets/sword-man/unit-icons/202.png",
     "attrDefenceId": 7,
     "abilities": {
       "str": {
@@ -308,6 +316,7 @@
     "exp": 170,
     "camp": 1,
     "categoryId": 203,
+    "iconPath": "/assets/sword-man/unit-icons/203.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -345,6 +354,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 210,
+    "iconPath": "/assets/sword-man/unit-icons/210.png",
     "attrDefenceId": 9,
     "abilities": {
       "str": {
@@ -382,6 +392,7 @@
     "exp": 170,
     "camp": 1,
     "categoryId": 206,
+    "iconPath": "/assets/sword-man/unit-icons/206.png",
     "attrDefenceId": 10,
     "abilities": {
       "str": {
@@ -419,6 +430,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 205,
+    "iconPath": "/assets/sword-man/unit-icons/205.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -456,6 +468,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 221,
+    "iconPath": "/assets/sword-man/unit-icons/221.png",
     "attrDefenceId": 3,
     "abilities": {
       "str": {
@@ -493,6 +506,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 207,
+    "iconPath": "/assets/sword-man/unit-icons/207.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -530,6 +544,7 @@
     "exp": 160,
     "camp": 1,
     "categoryId": 204,
+    "iconPath": "/assets/sword-man/unit-icons/204.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -567,6 +582,7 @@
     "exp": 130,
     "camp": 1,
     "categoryId": 201,
+    "iconPath": "/assets/sword-man/unit-icons/201.png",
     "attrDefenceId": 2,
     "abilities": {
       "str": {
@@ -604,6 +620,7 @@
     "exp": 145,
     "camp": 1,
     "categoryId": 220,
+    "iconPath": "/assets/sword-man/unit-icons/220.png",
     "attrDefenceId": 3,
     "abilities": {
       "str": {
@@ -641,6 +658,7 @@
     "exp": 200,
     "camp": 1,
     "categoryId": 235,
+    "iconPath": "/assets/sword-man/unit-icons/235.png",
     "attrDefenceId": 16,
     "abilities": {
       "str": {
@@ -678,6 +696,7 @@
     "exp": 170,
     "camp": 1,
     "categoryId": 222,
+    "iconPath": "/assets/sword-man/unit-icons/222.png",
     "attrDefenceId": 3,
     "abilities": {
       "str": {
@@ -715,6 +734,7 @@
     "exp": 160,
     "camp": 1,
     "categoryId": 211,
+    "iconPath": "/assets/sword-man/unit-icons/211.png",
     "attrDefenceId": 9,
     "abilities": {
       "str": {
@@ -752,6 +772,7 @@
     "exp": 140,
     "camp": 1,
     "categoryId": 215,
+    "iconPath": "/assets/sword-man/unit-icons/215.png",
     "attrDefenceId": 12,
     "abilities": {
       "str": {
@@ -789,6 +810,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 213,
+    "iconPath": "/assets/sword-man/unit-icons/213.png",
     "attrDefenceId": 16,
     "abilities": {
       "str": {
@@ -826,6 +848,7 @@
     "exp": 165,
     "camp": 1,
     "categoryId": 212,
+    "iconPath": "/assets/sword-man/unit-icons/212.png",
     "attrDefenceId": 11,
     "abilities": {
       "str": {
@@ -863,6 +886,7 @@
     "exp": 125,
     "camp": 1,
     "categoryId": 228,
+    "iconPath": "/assets/sword-man/unit-icons/228.png",
     "attrDefenceId": 9,
     "abilities": {
       "str": {
@@ -900,6 +924,7 @@
     "exp": 140,
     "camp": 1,
     "categoryId": 234,
+    "iconPath": "/assets/sword-man/unit-icons/234.png",
     "attrDefenceId": 22,
     "abilities": {
       "str": {
@@ -937,6 +962,7 @@
     "exp": 155,
     "camp": 1,
     "categoryId": 208,
+    "iconPath": "/assets/sword-man/unit-icons/208.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -974,6 +1000,7 @@
     "exp": 165,
     "camp": 1,
     "categoryId": 233,
+    "iconPath": "/assets/sword-man/unit-icons/233.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -1011,6 +1038,7 @@
     "exp": 120,
     "camp": 1,
     "categoryId": 230,
+    "iconPath": "/assets/sword-man/unit-icons/230.png",
     "attrDefenceId": 12,
     "abilities": {
       "str": {
@@ -1048,6 +1076,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 227,
+    "iconPath": "/assets/sword-man/unit-icons/227.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -1085,6 +1114,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 217,
+    "iconPath": "/assets/sword-man/unit-icons/217.png",
     "attrDefenceId": 12,
     "abilities": {
       "str": {
@@ -1122,6 +1152,7 @@
     "exp": 170,
     "camp": 1,
     "categoryId": 219,
+    "iconPath": "/assets/sword-man/unit-icons/219.png",
     "attrDefenceId": 22,
     "abilities": {
       "str": {
@@ -1159,6 +1190,7 @@
     "exp": 200,
     "camp": 1,
     "categoryId": 225,
+    "iconPath": "/assets/sword-man/unit-icons/225.png",
     "attrDefenceId": 27,
     "abilities": {
       "str": {
@@ -1196,6 +1228,7 @@
     "exp": 200,
     "camp": 1,
     "categoryId": 226,
+    "iconPath": "/assets/sword-man/unit-icons/226.png",
     "attrDefenceId": 28,
     "abilities": {
       "str": {
@@ -1233,6 +1266,7 @@
     "exp": 180,
     "camp": 0,
     "categoryId": 11,
+    "iconPath": "/assets/sword-man/unit-icons/011.png",
     "attrDefenceId": 1,
     "abilities": {
       "str": {
@@ -1270,6 +1304,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 229,
+    "iconPath": "/assets/sword-man/unit-icons/229.png",
     "attrDefenceId": 16,
     "abilities": {
       "str": {
@@ -1307,6 +1342,7 @@
     "exp": 160,
     "camp": 1,
     "categoryId": 231,
+    "iconPath": "/assets/sword-man/unit-icons/231.png",
     "attrDefenceId": 9,
     "abilities": {
       "str": {
@@ -1344,6 +1380,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 218,
+    "iconPath": "/assets/sword-man/unit-icons/218.png",
     "attrDefenceId": 14,
     "abilities": {
       "str": {
@@ -1381,6 +1418,7 @@
     "exp": 150,
     "camp": 1,
     "categoryId": 232,
+    "iconPath": "/assets/sword-man/unit-icons/232.png",
     "attrDefenceId": 6,
     "abilities": {
       "str": {
@@ -1418,6 +1456,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 209,
+    "iconPath": "/assets/sword-man/unit-icons/209.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -1455,6 +1494,7 @@
     "exp": 135,
     "camp": 1,
     "categoryId": 223,
+    "iconPath": "/assets/sword-man/unit-icons/223.png",
     "attrDefenceId": 4,
     "abilities": {
       "str": {
@@ -1492,6 +1532,7 @@
     "exp": 140,
     "camp": 1,
     "categoryId": 224,
+    "iconPath": "/assets/sword-man/unit-icons/224.png",
     "attrDefenceId": 16,
     "abilities": {
       "str": {
@@ -1529,6 +1570,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 170,
+    "iconPath": "/assets/sword-man/unit-icons/170.png",
     "attrDefenceId": 19,
     "abilities": {
       "str": {
@@ -1566,6 +1608,7 @@
     "exp": 400,
     "camp": 1,
     "categoryId": 155,
+    "iconPath": "/assets/sword-man/unit-icons/155.png",
     "attrDefenceId": 23,
     "abilities": {
       "str": {
@@ -1603,6 +1646,7 @@
     "exp": 320,
     "camp": 1,
     "categoryId": 162,
+    "iconPath": "/assets/sword-man/unit-icons/162.png",
     "attrDefenceId": 26,
     "abilities": {
       "str": {
@@ -1640,6 +1684,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 166,
+    "iconPath": "/assets/sword-man/unit-icons/166.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -1677,6 +1722,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 159,
+    "iconPath": "/assets/sword-man/unit-icons/159.png",
     "attrDefenceId": 4,
     "abilities": {
       "str": {
@@ -1714,6 +1760,7 @@
     "exp": 400,
     "camp": 1,
     "categoryId": 161,
+    "iconPath": "/assets/sword-man/unit-icons/161.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -1751,6 +1798,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 158,
+    "iconPath": "/assets/sword-man/unit-icons/158.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -1788,6 +1836,7 @@
     "exp": 255,
     "camp": 1,
     "categoryId": 157,
+    "iconPath": "/assets/sword-man/unit-icons/157.png",
     "attrDefenceId": 7,
     "abilities": {
       "str": {
@@ -1825,6 +1874,7 @@
     "exp": 255,
     "camp": 1,
     "categoryId": 157,
+    "iconPath": "/assets/sword-man/unit-icons/157.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -1862,6 +1912,7 @@
     "exp": 400,
     "camp": 1,
     "categoryId": 156,
+    "iconPath": "/assets/sword-man/unit-icons/156.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -1899,6 +1950,7 @@
     "exp": 450,
     "camp": 1,
     "categoryId": 154,
+    "iconPath": "/assets/sword-man/unit-icons/154.png",
     "attrDefenceId": 21,
     "abilities": {
       "str": {
@@ -1936,6 +1988,7 @@
     "exp": 450,
     "camp": 1,
     "categoryId": 154,
+    "iconPath": "/assets/sword-man/unit-icons/154.png",
     "attrDefenceId": 20,
     "abilities": {
       "str": {
@@ -1973,6 +2026,7 @@
     "exp": 120,
     "camp": 1,
     "categoryId": 153,
+    "iconPath": "/assets/sword-man/unit-icons/153.png",
     "attrDefenceId": 19,
     "abilities": {
       "str": {
@@ -2010,6 +2064,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 152,
+    "iconPath": "/assets/sword-man/unit-icons/152.png",
     "attrDefenceId": 26,
     "abilities": {
       "str": {
@@ -2047,6 +2102,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 158,
+    "iconPath": "/assets/sword-man/unit-icons/158.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -2084,6 +2140,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 155,
+    "iconPath": "/assets/sword-man/unit-icons/155.png",
     "attrDefenceId": 23,
     "abilities": {
       "str": {
@@ -2121,6 +2178,7 @@
     "exp": 120,
     "camp": 1,
     "categoryId": 214,
+    "iconPath": "/assets/sword-man/unit-icons/214.png",
     "attrDefenceId": 17,
     "abilities": {
       "str": {
@@ -2158,6 +2216,7 @@
     "exp": 130,
     "camp": 1,
     "categoryId": 150,
+    "iconPath": "/assets/sword-man/unit-icons/150.png",
     "attrDefenceId": 23,
     "abilities": {
       "str": {
@@ -2195,6 +2254,7 @@
     "exp": 0,
     "camp": 1,
     "categoryId": 150,
+    "iconPath": "/assets/sword-man/unit-icons/150.png",
     "attrDefenceId": 21,
     "abilities": {
       "str": {
@@ -2232,6 +2292,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 171,
+    "iconPath": "/assets/sword-man/unit-icons/171.png",
     "attrDefenceId": 29,
     "abilities": {
       "str": {
@@ -2269,6 +2330,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 53,
+    "iconPath": "/assets/sword-man/unit-icons/053.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -2306,6 +2368,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 52,
+    "iconPath": "/assets/sword-man/unit-icons/052.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -2343,6 +2406,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 50,
+    "iconPath": "/assets/sword-man/unit-icons/050.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -2380,6 +2444,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 54,
+    "iconPath": "/assets/sword-man/unit-icons/054.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -2417,6 +2482,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 55,
+    "iconPath": "/assets/sword-man/unit-icons/055.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -2454,6 +2520,7 @@
     "exp": 500,
     "camp": 1,
     "categoryId": 160,
+    "iconPath": "/assets/sword-man/unit-icons/160.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -2491,6 +2558,7 @@
     "exp": 120,
     "camp": 1,
     "categoryId": 216,
+    "iconPath": "/assets/sword-man/unit-icons/216.png",
     "attrDefenceId": 12,
     "abilities": {
       "str": {
@@ -2528,6 +2596,7 @@
     "exp": 400,
     "camp": 1,
     "categoryId": 165,
+    "iconPath": "/assets/sword-man/unit-icons/165.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -2565,6 +2634,7 @@
     "exp": 160,
     "camp": 1,
     "categoryId": 236,
+    "iconPath": "/assets/sword-man/unit-icons/236.png",
     "attrDefenceId": 8,
     "abilities": {
       "str": {
@@ -2602,6 +2672,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 237,
+    "iconPath": "/assets/sword-man/unit-icons/237.png",
     "attrDefenceId": 8,
     "abilities": {
       "str": {
@@ -2639,6 +2710,7 @@
     "exp": 140,
     "camp": 1,
     "categoryId": 227,
+    "iconPath": "/assets/sword-man/unit-icons/227.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -2676,6 +2748,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 51,
+    "iconPath": "/assets/sword-man/unit-icons/051.png",
     "attrDefenceId": 2,
     "abilities": {
       "str": {
@@ -2713,6 +2786,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 167,
+    "iconPath": "/assets/sword-man/unit-icons/167.png",
     "attrDefenceId": 36,
     "abilities": {
       "str": {
@@ -2750,6 +2824,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 163,
+    "iconPath": "/assets/sword-man/unit-icons/163.png",
     "attrDefenceId": 21,
     "abilities": {
       "str": {
@@ -2787,6 +2862,7 @@
     "exp": 0,
     "camp": 1,
     "categoryId": 108,
+    "iconPath": "/assets/sword-man/unit-icons/108.png",
     "attrDefenceId": -1,
     "abilities": {
       "str": {
@@ -2824,6 +2900,7 @@
     "exp": 400,
     "camp": 1,
     "categoryId": 169,
+    "iconPath": "/assets/sword-man/unit-icons/169.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -2861,6 +2938,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 238,
+    "iconPath": "/assets/sword-man/unit-icons/238.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -2898,6 +2976,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 239,
+    "iconPath": "/assets/sword-man/unit-icons/239.png",
     "attrDefenceId": 5,
     "abilities": {
       "str": {
@@ -2935,6 +3014,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 240,
+    "iconPath": "/assets/sword-man/unit-icons/240.png",
     "attrDefenceId": 21,
     "abilities": {
       "str": {
@@ -2972,6 +3052,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 241,
+    "iconPath": "/assets/sword-man/unit-icons/241.png",
     "attrDefenceId": 24,
     "abilities": {
       "str": {
@@ -3009,6 +3090,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 243,
+    "iconPath": "/assets/sword-man/unit-icons/243.png",
     "attrDefenceId": 21,
     "abilities": {
       "str": {
@@ -3046,6 +3128,7 @@
     "exp": 1,
     "camp": 1,
     "categoryId": 242,
+    "iconPath": "/assets/sword-man/unit-icons/242.png",
     "attrDefenceId": 27,
     "abilities": {
       "str": {
@@ -3083,6 +3166,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 100,
+    "iconPath": "/assets/sword-man/unit-icons/100.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3120,6 +3204,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 101,
+    "iconPath": "/assets/sword-man/unit-icons/101.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3157,6 +3242,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 102,
+    "iconPath": "/assets/sword-man/unit-icons/102.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3194,6 +3280,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 103,
+    "iconPath": "/assets/sword-man/unit-icons/103.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3231,6 +3318,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 104,
+    "iconPath": "/assets/sword-man/unit-icons/104.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3268,6 +3356,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 105,
+    "iconPath": "/assets/sword-man/unit-icons/105.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3305,6 +3394,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 106,
+    "iconPath": "/assets/sword-man/unit-icons/106.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3342,6 +3432,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 107,
+    "iconPath": "/assets/sword-man/unit-icons/107.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3379,6 +3470,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 108,
+    "iconPath": "/assets/sword-man/unit-icons/108.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3416,6 +3508,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 109,
+    "iconPath": "/assets/sword-man/unit-icons/109.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3453,6 +3546,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 110,
+    "iconPath": "/assets/sword-man/unit-icons/110.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3490,6 +3584,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 111,
+    "iconPath": "/assets/sword-man/unit-icons/111.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3527,6 +3622,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 112,
+    "iconPath": "/assets/sword-man/unit-icons/112.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3564,6 +3660,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 113,
+    "iconPath": "/assets/sword-man/unit-icons/113.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3601,6 +3698,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 114,
+    "iconPath": "/assets/sword-man/unit-icons/114.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3638,6 +3736,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 164,
+    "iconPath": "/assets/sword-man/unit-icons/164.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3675,6 +3774,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 115,
+    "iconPath": "/assets/sword-man/unit-icons/115.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3712,6 +3812,7 @@
     "exp": 0,
     "camp": 0,
     "categoryId": 118,
+    "iconPath": "/assets/sword-man/unit-icons/118.png",
     "attrDefenceId": 37,
     "abilities": {
       "str": {
@@ -3749,6 +3850,7 @@
     "exp": 180,
     "camp": 1,
     "categoryId": 151,
+    "iconPath": "/assets/sword-man/unit-icons/151.png",
     "attrDefenceId": 1,
     "abilities": {
       "str": {
@@ -3786,6 +3888,7 @@
     "exp": 116,
     "camp": 1,
     "categoryId": 116,
+    "iconPath": "/assets/sword-man/unit-icons/116.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3823,6 +3926,7 @@
     "exp": 117,
     "camp": 1,
     "categoryId": 117,
+    "iconPath": "/assets/sword-man/unit-icons/117.png",
     "attrDefenceId": 0,
     "abilities": {
       "str": {
@@ -3860,6 +3964,7 @@
     "exp": 300,
     "camp": 1,
     "categoryId": 168,
+    "iconPath": "/assets/sword-man/unit-icons/168.png",
     "attrDefenceId": 36,
     "abilities": {
       "str": {
@@ -3897,6 +4002,7 @@
     "exp": 360,
     "camp": 0,
     "categoryId": 15,
+    "iconPath": "/assets/sword-man/unit-icons/015.png",
     "attrDefenceId": 30,
     "abilities": {
       "str": {
