@@ -184,7 +184,7 @@ const main = async () => {
 
   const levelByCharacterId = new Map(asArray(levelUpDb).map((record) => [record.char_id, record]));
   const characters = charactersDb.records.map((record) => {
-    const characterId = record.id + 1;
+    const characterId = record.character_id ?? record.id + 1;
     const growth = levelByCharacterId.get(characterId);
     const learnedSkills = (growth?.skills ?? [])
       .filter((entry) => entry.skill_id >= 0)
@@ -198,12 +198,16 @@ const main = async () => {
     return {
       id: characterId,
       dataIndex: record.id,
-      name: charactersDb.names[String(characterId)] ?? `角色 ${characterId}`,
+      name: record.name ?? charactersDb.names[String(characterId)] ?? `角色 ${characterId}`,
+      level: record.level,
       hp: record.hp,
+      mp: record.mp,
       weaponId: record.weapon_id,
       weaponName: itemNames[record.weapon_id] ?? record.weapon_name,
       armorId: record.armor_id,
       armorName: itemNames[record.armor_id] ?? record.armor_name,
+      accessoryId: record.accessory_id,
+      accessoryName: itemNames[record.accessory_id] ?? record.accessory_name,
       growth: growth
         ? {
             hpRandMax: growth.hp_rand_max,
@@ -224,7 +228,7 @@ const main = async () => {
       learnedSkills,
       learnedSkillCount: learnedSkills.length,
     };
-  });
+  }).sort((a, b) => a.id - b.id);
 
   const monsters = asArray(monstersDb)
     .sort((a, b) => a.index - b.index)

@@ -55,8 +55,9 @@ const campRows = sliceRows(camps as DataRow[]);
           <td>{character.hp}</td>
           <td>
             <span class="tdj-stack">
-              <span>{dash(character.weaponName)}</span>
-              <small>{dash(character.armorName)}</small>
+              <span>武器：{dash(character.weaponName)}</span>
+              <small>防具：{dash(character.armorName)}</small>
+              <small>饰品：{dash(character.accessoryName)}</small>
             </span>
           </td>
           <td>{character.growth?.summary ?? '-'}</td>

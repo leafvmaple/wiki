@@ -3,11 +3,15 @@
     "id": 1,
     "dataIndex": 0,
     "name": "殷劍平",
+    "level": 1,
     "hp": 60,
+    "mp": 14,
     "weaponId": 0,
     "weaponName": "长剑",
     "armorId": 99,
     "armorName": "软革 衣",
+    "accessoryId": -1,
+    "accessoryName": null,
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -191,11 +195,15 @@
     "id": 2,
     "dataIndex": 1,
     "name": "封寒月",
+    "level": 1,
     "hp": 45,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 26,
+    "weaponId": 15,
+    "weaponName": "匕首",
     "armorId": 124,
     "armorName": "法袍",
+    "accessoryId": -1,
+    "accessoryName": null,
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -417,101 +425,17 @@
   },
   {
     "id": 3,
-    "dataIndex": 2,
-    "name": "紫楓",
-    "hp": 85,
-    "weaponId": 0,
-    "weaponName": "长剑",
-    "armorId": 99,
-    "armorName": "软革 衣",
-    "growth": {
-      "hpRandMax": 2,
-      "mpRandMax": 1,
-      "strBase": 4,
-      "strRandMax": 3,
-      "intBase": 2,
-      "intRandMax": 2,
-      "avgBase": 3,
-      "avgRandMax": 4,
-      "vitBase": 2,
-      "vitRandMax": 3,
-      "lukBase": 3,
-      "lukRandMax": 3,
-      "summary": "力4 / 智2 / 速3 / 体2 / 运3"
-    },
-    "learnedSkills": [
-      {
-        "level": 18,
-        "spirit": [
-          20,
-          40,
-          0,
-          30,
-          30
-        ],
-        "skillId": 49,
-        "skill": {
-          "id": 49,
-          "name": "迴風槍",
-          "kind": "physical",
-          "kindLabel": "特技",
-          "attribute": "none",
-          "attributeLabel": "无",
-          "mpCost": 30
-        }
-      },
-      {
-        "level": 52,
-        "spirit": [
-          40,
-          60,
-          0,
-          30,
-          30
-        ],
-        "skillId": 50,
-        "skill": {
-          "id": 50,
-          "name": "剛烈破",
-          "kind": "physical",
-          "kindLabel": "特技",
-          "attribute": "none",
-          "attributeLabel": "无",
-          "mpCost": 50
-        }
-      },
-      {
-        "level": 70,
-        "spirit": [
-          80,
-          100,
-          0,
-          0,
-          0
-        ],
-        "skillId": 51,
-        "skill": {
-          "id": 51,
-          "name": "天將奔烈",
-          "kind": "physical",
-          "kindLabel": "特技",
-          "attribute": "none",
-          "attributeLabel": "无",
-          "mpCost": 75
-        }
-      }
-    ],
-    "learnedSkillCount": 3
-  },
-  {
-    "id": 4,
     "dataIndex": 3,
-    "name": "上官遠",
+    "name": "紫楓",
+    "level": 20,
     "hp": 172,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 94,
+    "weaponId": 36,
+    "weaponName": "白绢索带",
     "armorId": 125,
     "armorName": "白绢舞袖",
+    "accessoryId": 158,
+    "accessoryName": "辟邪玉佩",
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -692,14 +616,110 @@
     "learnedSkillCount": 8
   },
   {
+    "id": 4,
+    "dataIndex": 2,
+    "name": "上官遠",
+    "level": 7,
+    "hp": 85,
+    "mp": 24,
+    "weaponId": 45,
+    "weaponName": "铁枪",
+    "armorId": 99,
+    "armorName": "软革 衣",
+    "accessoryId": -1,
+    "accessoryName": null,
+    "growth": {
+      "hpRandMax": 2,
+      "mpRandMax": 1,
+      "strBase": 4,
+      "strRandMax": 3,
+      "intBase": 2,
+      "intRandMax": 2,
+      "avgBase": 3,
+      "avgRandMax": 4,
+      "vitBase": 2,
+      "vitRandMax": 3,
+      "lukBase": 3,
+      "lukRandMax": 3,
+      "summary": "力4 / 智2 / 速3 / 体2 / 运3"
+    },
+    "learnedSkills": [
+      {
+        "level": 18,
+        "spirit": [
+          20,
+          40,
+          0,
+          30,
+          30
+        ],
+        "skillId": 49,
+        "skill": {
+          "id": 49,
+          "name": "迴風槍",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 30
+        }
+      },
+      {
+        "level": 52,
+        "spirit": [
+          40,
+          60,
+          0,
+          30,
+          30
+        ],
+        "skillId": 50,
+        "skill": {
+          "id": 50,
+          "name": "剛烈破",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 50
+        }
+      },
+      {
+        "level": 70,
+        "spirit": [
+          80,
+          100,
+          0,
+          0,
+          0
+        ],
+        "skillId": 51,
+        "skill": {
+          "id": 51,
+          "name": "天將奔烈",
+          "kind": "physical",
+          "kindLabel": "特技",
+          "attribute": "none",
+          "attributeLabel": "无",
+          "mpCost": 75
+        }
+      }
+    ],
+    "learnedSkillCount": 3
+  },
+  {
     "id": 5,
     "dataIndex": 4,
     "name": "鮮于超",
+    "level": 17,
     "hp": 180,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 35,
+    "weaponId": 56,
+    "weaponName": "镔铁重剑",
     "armorId": 114,
     "armorName": "蟒神甲",
+    "accessoryId": -1,
+    "accessoryName": null,
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -763,11 +783,15 @@
     "id": 6,
     "dataIndex": 5,
     "name": "真胤",
+    "level": 25,
     "hp": 195,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 85,
+    "weaponId": 67,
+    "weaponName": "檀木禅杖",
     "armorId": 139,
     "armorName": "僧袍",
+    "accessoryId": 185,
+    "accessoryName": "佛珠",
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -911,11 +935,15 @@
     "id": 7,
     "dataIndex": 6,
     "name": "韓千秀",
+    "level": 30,
     "hp": 230,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 82,
+    "weaponId": 77,
+    "weaponName": "韩家双镰",
     "armorId": 104,
     "armorName": "薄钢环甲",
+    "accessoryId": 205,
+    "accessoryName": "昂昴角簪",
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -999,11 +1027,15 @@
     "id": 8,
     "dataIndex": 7,
     "name": "燕明蓉",
+    "level": 30,
     "hp": 228,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 120,
+    "weaponId": 20,
+    "weaponName": "辟邪玉剑",
     "armorId": 127,
     "armorName": "缀玉华装",
+    "accessoryId": -1,
+    "accessoryName": null,
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -1127,11 +1159,15 @@
     "id": 9,
     "dataIndex": 8,
     "name": "夏侯儀",
+    "level": 40,
     "hp": 256,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 240,
+    "weaponId": 85,
+    "weaponName": "铁爪",
     "armorId": 147,
     "armorName": "黑缎笼衫",
+    "accessoryId": 169,
+    "accessoryName": "冥华紫晶",
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
@@ -1335,11 +1371,15 @@
     "id": 10,
     "dataIndex": 9,
     "name": "不淨散人",
+    "level": 80,
     "hp": 525,
-    "weaponId": 0,
-    "weaponName": "长剑",
+    "mp": 480,
+    "weaponId": 93,
+    "weaponName": "酒壶",
     "armorId": 153,
     "armorName": "弭勒垢衣",
+    "accessoryId": -1,
+    "accessoryName": null,
     "growth": {
       "hpRandMax": 2,
       "mpRandMax": 1,
