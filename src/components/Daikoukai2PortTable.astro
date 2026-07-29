@@ -1,0 +1,395 @@
+---
+import { daikoukai2Officers } from '../data/daikoukai2/officers';
+import {
+  daikoukai2PortFacilityLabels,
+  daikoukai2Ports,
+} from '../data/daikoukai2/ports';
+
+const officersByPort = new Map<string, string[]>();
+for (const officer of daikoukai2Officers) {
+  const officers = officersByPort.get(officer.port) ?? [];
+  officers.push(officer.nameJa);
+  officersByPort.set(officer.port, officers);
+}
+
+const rows = daikoukai2Ports.map((port) => {
+  const officers = officersByPort.get(port.nameJa) ?? [];
+  const features = [
+    ...port.facilities,
+    port.estateService ? `邸宅·${port.estateService}` : '',
+  ].filter(Boolean);
+  return {
+    ...port,
+    officers,
+    featureText: features.join(' ') || '—',
+    coordinate: `${port.latitude} ${port.longitude}`,
+  };
+});
+
+const revenueRegions = [...new Set(rows.map((row) => row.revenueRegion))];
+const alliances = [...new Set(rows.map((row) => row.initialAlliance))];
+const featureOptions = [
+  ['capital', '首都'],
+  ...daikoukai2PortFacilityLabels.map((facility) => [facility, facility]),
+  ['estate', '有特殊邸宅'],
+  ['officer', '有初始自由航海士'],
+] as const;
+---
+
+<div class="dk2-ports not-content" data-unit="港">
+  <div class="dk2-ports-bar">
+    <select class="dk2-ports-region" aria-label="按收益地区筛选">
+      <option value="">全部地区</option>
+      {revenueRegions.map((region) => <option value={region}>{region}</option>)}
+    </select>
+    <select class="dk2-ports-alliance" aria-label="按开局归属筛选">
+      <option value="">全部开局归属</option>
+      {alliances.map((alliance) => <option value={alliance}>{alliance}</option>)}
+    </select>
+    <select class="dk2-ports-feature" aria-label="按设施或特点筛选">
+      <option value="">全部设施与特点</option>
+      {featureOptions.map(([value, label]) => <option value={value}>{label}</option>)}
+    </select>
+    <input
+      class="dk2-ports-search"
+      type="search"
+      placeholder="搜索港名、地区、设施或航海士……"
+      aria-label="搜索港口"
+    />
+    <span class="dk2-ports-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-ports-scroll" tabindex="0" aria-label="港口数据表，可横向滚动">
+    <table class="dk2-ports-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">No.</th>
+          <th data-sort="name">港口</th>
+          <th data-sort="region">收益地区</th>
+          <th data-sort="coordinate">坐标</th>
+          <th data-sort="alliance">开局归属</th>
+          <th data-sort="commerce" class="num">商业</th>
+          <th data-sort="industry" class="num">工业</th>
+          <th data-sort="trade">交易 / 造船圈</th>
+          <th>特色设施与邸宅</th>
+          <th>初始自由航海士</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-region={row.revenueRegion}
+            data-coordinate={`${row.latitude}${row.longitude}`}
+            data-alliance={row.initialAlliance}
+            data-commerce={row.initialCommerce}
+            data-industry={row.initialIndustry}
+            data-trade={row.tradeRegion}
+            data-capital={row.capital ? '1' : '0'}
+            data-estate={row.estateService ? '1' : '0'}
+            data-officer={row.officers.length ? '1' : '0'}
+            data-facilities={row.facilities.join(' ')}
+            data-search={`${row.nameJa} ${row.revenueRegion} ${row.tradeRegion} ${row.shipRegion} ${row.initialAlliance} ${row.featureText} ${row.officers.join(' ')}`}
+          >
+            <td class="num dk2-ports-id">{row.id}</td>
+            <td class="dk2-ports-name">
+              {row.nameJa}
+              {row.capital && <span class="dk2-ports-capital">首都</span>}
+            </td>
+            <td>{row.revenueRegion}</td>
+            <td class="dk2-ports-coordinate">{row.coordinate}</td>
+            <td><span class:list={['dk2-ports-alliance-chip', row.initialAlliance === '中立' && 'is-neutral']}>{row.initialAlliance}</span></td>
+            <td class="num">{row.initialCommerce}</td>
+            <td class="num">{row.initialIndustry}</td>
+            <td class="dk2-ports-zones">
+              <span>{row.tradeRegion}</span>
+              <small>{row.shipRegion}</small>
+            </td>
+            <td class="dk2-ports-features">
+              {row.facilities.map((facility) => <span>{facility}</span>)}
+              {row.estateService && <span class="is-estate">邸宅·{row.estateService}</span>}
+              {!row.facilities.length && !row.estateService && <span class="is-empty">—</span>}
+            </td>
+            <td class="dk2-ports-officers">
+              {row.officers.length ? row.officers.join('、') : '—'}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-ports').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const region = root.querySelector<HTMLSelectElement>('.dk2-ports-region');
+    const alliance = root.querySelector<HTMLSelectElement>('.dk2-ports-alliance');
+    const feature = root.querySelector<HTMLSelectElement>('.dk2-ports-feature');
+    const search = root.querySelector<HTMLInputElement>('.dk2-ports-search');
+    const count = root.querySelector<HTMLElement>('.dk2-ports-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const matchesFeature = (row: HTMLElement, value: string) => {
+      if (!value) return true;
+      if (value === 'capital' || value === 'estate' || value === 'officer') {
+        return row.dataset[value] === '1';
+      }
+      return (row.dataset.facilities ?? '').split(' ').includes(value);
+    };
+
+    const apply = () => {
+      const regionValue = region?.value ?? '';
+      const allianceValue = alliance?.value ?? '';
+      const featureValue = feature?.value ?? '';
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const matches =
+          (!regionValue || row.dataset.region === regionValue) &&
+          (!allianceValue || row.dataset.alliance === allianceValue) &&
+          matchesFeature(row, featureValue) &&
+          (!query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query));
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 港`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    region?.addEventListener('change', apply);
+    alliance?.addEventListener('change', apply);
+    feature?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-ports {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-ports-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-ports-bar :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-ports-search {
+    flex: 1 1 15rem;
+    max-width: 25rem;
+  }
+
+  .dk2-ports-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-ports-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-ports-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  .dk2-ports-table {
+    border-collapse: collapse;
+    font-size: 0.86rem;
+    min-width: 78rem;
+    width: 100%;
+  }
+
+  .dk2-ports-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.43rem 0.55rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .dk2-ports-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .dk2-ports-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-ports-table th[data-sort]:hover {
+    color: var(--leaf-primary-hover);
+  }
+
+  .dk2-ports-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-ports-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-ports-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-ports-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-ports-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-ports-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+
+  .dk2-ports-id,
+  .dk2-ports-coordinate,
+  .dk2-ports-zones small,
+  .dk2-ports-officers {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-ports-name {
+    color: var(--leaf-heading);
+    font-weight: 750;
+  }
+
+  .dk2-ports-capital,
+  .dk2-ports-alliance-chip,
+  .dk2-ports-features span {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    border-radius: 999px;
+    color: var(--leaf-primary-hover);
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1.35;
+    padding: 0.05rem 0.36rem;
+  }
+
+  .dk2-ports-capital {
+    border-color: color-mix(in srgb, #d28b37 55%, var(--leaf-border));
+    color: #b66a1c;
+    margin-left: 0.25rem;
+  }
+
+  .dk2-ports-alliance-chip.is-neutral,
+  .dk2-ports-features .is-empty {
+    border-color: var(--leaf-border);
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-ports-zones {
+    display: grid;
+    gap: 0.05rem;
+  }
+
+  .dk2-ports-zones small::before {
+    content: '造船：';
+  }
+
+  .dk2-ports-features {
+    max-width: 24rem;
+    white-space: normal;
+  }
+
+  .dk2-ports-features span {
+    margin: 0.08rem 0.1rem 0.08rem 0;
+  }
+
+  .dk2-ports-features .is-estate {
+    border-color: color-mix(in srgb, #9874cf 48%, var(--leaf-border));
+    color: #7751b5;
+  }
+
+  .dk2-ports-officers {
+    max-width: 24rem;
+    white-space: normal;
+  }
+
+  :root[data-theme='dark'] .dk2-ports-capital {
+    color: #f0bd7a;
+  }
+
+  :root[data-theme='dark'] .dk2-ports-features .is-estate {
+    color: #cbb4f0;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-ports-bar :is(select, input) {
+      flex: 1 1 10rem;
+      min-width: 0;
+    }
+
+    .dk2-ports-search {
+      flex-basis: 100%;
+      max-width: none;
+    }
+
+    .dk2-ports-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

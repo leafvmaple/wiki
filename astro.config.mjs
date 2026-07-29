@@ -100,6 +100,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: '游戏总览', link: '/games/daikoukai-jidai-2/' },
+            { label: '港口一览', link: '/games/daikoukai-jidai-2/ports/' },
             { label: '航海士雇佣', link: '/games/daikoukai-jidai-2/officers/' },
           ],
         },
