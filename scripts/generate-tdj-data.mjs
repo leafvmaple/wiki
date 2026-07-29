@@ -330,6 +330,7 @@ const main = async () => {
     });
 
   const monsters = asArray(monstersDb)
+    .filter((monster) => monster.index >= 10)
     .sort((a, b) => a.index - b.index)
     .map((monster) => ({
       id: monster.index,

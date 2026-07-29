@@ -10,6 +10,7 @@ sidebar:
 
 import TdjDataTable from '../../../../../components/TdjDataTable.astro';
 
-怪物图鉴来自 `data/db/monsters.json`。当前表格按数据索引排序，包含敌方单位，也包含原始表中出现的角色型单位。
+怪物图鉴来自 canonical v1 的 `catalog/monsters.json`，按数据索引排序。索引 `0–9`
+是主角团初始单位，已从图鉴中排除；本页从索引 `10` 的式鬼开始。
 
 <TdjDataTable kind="monsters" />
