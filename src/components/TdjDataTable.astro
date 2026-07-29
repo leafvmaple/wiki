@@ -37,7 +37,7 @@ const campRows = sliceRows(camps as DataRow[]);
   <table class="tdj-table">
     <thead>
       <tr>
-        <th>角色</th>
+        <th>角色详情</th>
         <th>初始 HP</th>
         <th>初始装备</th>
         <th>成长基值</th>
@@ -50,8 +50,8 @@ const campRows = sliceRows(camps as DataRow[]);
         <tr>
           <td>
             <a class="tdj-character-link" href={character.href}>
-              <strong>{character.name}</strong>
-              <small>查看独立资料页 · #{character.id}</small>
+              <strong>{character.name}<span aria-hidden="true"> →</span></strong>
+              <small>查看角色详情 · #{character.id}</small>
             </a>
           </td>
           <td>{character.hp}</td>
@@ -272,12 +272,29 @@ const campRows = sliceRows(camps as DataRow[]);
   }
 
   .tdj-character-link {
-    display: block;
+    border-radius: 4px;
+    display: inline-grid;
+    gap: 0.18rem;
     text-decoration: none;
   }
 
-  .tdj-character-link:hover strong {
+  .tdj-character-link strong {
+    color: var(--leaf-primary);
+    display: inline-flex;
+    white-space: nowrap;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+
+  .tdj-character-link:hover strong,
+  .tdj-character-link:focus-visible strong {
     color: var(--leaf-primary-hover);
+  }
+
+  .tdj-character-link:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 3px;
   }
 
   .tdj-table small,
