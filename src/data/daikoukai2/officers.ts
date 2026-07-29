@@ -3,6 +3,7 @@ export type Daikoukai2Facility = '酒场' | '宿屋';
 export interface Daikoukai2Officer {
   id: number;
   nameJa: string;
+  portraitUrl?: string;
   port: string;
   facility: Daikoukai2Facility;
   nationality: string;
@@ -92,6 +93,31 @@ const seeds: OfficerSeed[] = [
 const nationalities = ['葡萄牙', '西班牙', '奥斯曼', '英格兰', '意大利', '尼德兰', '海盗'];
 const personalities = ['善', '中立', '恶'] as const;
 
+// 头像字段的高字节为 0 时，低字节直接索引 Steam 版 KAO.LZW 中的
+// 64×80 固定头像。高字节非 0 的角色使用 GRAPH2.DAT 运行时组合脸，
+// 在组合规则完全还原前不以其他人物头像代替。
+const fixedPortraits: Readonly<Record<number, number>> = {
+  0x4f: 0x29,
+  0x50: 0x30,
+  0x52: 0x31,
+  0x53: 0x2a,
+  0x55: 0x2c,
+  0x57: 0x2b,
+  0x5b: 0x2e,
+  0x5d: 0x2f,
+  0x5e: 0x2d,
+  0x61: 0x33,
+  0x62: 0x32,
+  0x63: 0x34,
+  0x65: 0x35,
+  0x66: 0x36,
+  0x67: 0x37,
+  0x6c: 0x38,
+  0x6d: 0x39,
+  0x6e: 0x3a,
+  0x76: 0x3c,
+};
+
 export const daikoukai2Officers: Daikoukai2Officer[] = seeds.map((seed) => {
   const [
     id, nameJa, port, facility, nationality, navigationLevel, battleLevel,
@@ -101,6 +127,9 @@ export const daikoukai2Officers: Daikoukai2Officer[] = seeds.map((seed) => {
   return {
     id,
     nameJa,
+    portraitUrl: fixedPortraits[id] === undefined
+      ? undefined
+      : `/assets/games/daikoukai-jidai-2/officers/${id.toString(16).padStart(2, '0')}.png`,
     port,
     facility,
     nationality: nationalities[nationality] ?? '未知',

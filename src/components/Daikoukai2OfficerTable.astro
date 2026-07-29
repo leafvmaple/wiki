@@ -105,7 +105,24 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
             data-search={`${row.nameJa} ${row.port} ${row.facility} ${row.nationality} ${row.skillText}`}
           >
             <td class="num dk2-officers-id">{row.id.toString(16).toUpperCase().padStart(2, '0')}</td>
-            <td class="dk2-officers-name">{row.nameJa}</td>
+            <td class="dk2-officers-name">
+              <span class="dk2-officers-identity">
+                {row.portraitUrl ? (
+                  <img
+                    class="dk2-officers-portrait"
+                    src={row.portraitUrl}
+                    alt=""
+                    width="64"
+                    height="80"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : (
+                  <span class="dk2-officers-portrait is-composite" aria-hidden="true">组</span>
+                )}
+                <span>{row.nameJa}</span>
+              </span>
+            </td>
             <td>{row.port}</td>
             <td><span class:list={['dk2-officers-facility-chip', row.facility === '宿屋' && 'is-inn']}>{row.facility}</span></td>
             <td class="muted">{row.nationality}</td>
@@ -294,6 +311,32 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
   .dk2-officers-grade {
     color: var(--leaf-heading);
     font-weight: 700;
+  }
+
+  .dk2-officers-identity {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.48rem;
+  }
+
+  .dk2-officers-portrait {
+    background: #000;
+    border: 1px solid color-mix(in srgb, var(--leaf-border) 78%, #000);
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    height: 2.5rem;
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 2rem;
+  }
+
+  .dk2-officers-portrait.is-composite {
+    align-items: center;
+    color: var(--leaf-text-muted);
+    display: inline-flex;
+    font-size: 0.7rem;
+    justify-content: center;
   }
 
   .dk2-officers-id,
