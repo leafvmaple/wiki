@@ -1,0 +1,346 @@
+---
+import {
+  daikoukai2ItemCategories,
+  daikoukai2Items,
+} from '../data/daikoukai2/items';
+
+const rows = daikoukai2Items.map((item) => {
+  const sources = [
+    item.regularPorts.length ? 'regular' : '',
+    item.hiddenPorts.length ? 'hidden' : '',
+    !item.regularPorts.length && !item.hiddenPorts.length && !item.unused ? 'event' : '',
+    item.unused ? 'unused' : '',
+  ].filter(Boolean);
+  return {
+    ...item,
+    priceText: item.basePrice ? item.basePrice.toLocaleString('zh-CN') : '—',
+    regularText: item.regularPorts.join('、') || '—',
+    hiddenText: item.hiddenPorts.join('、') || '—',
+    sources: sources.join(' '),
+  };
+});
+---
+
+<div class="dk2-items not-content" data-unit="项">
+  <div class="dk2-items-bar">
+    <select class="dk2-items-category" aria-label="按物品类型筛选">
+      <option value="">全部类型</option>
+      {daikoukai2ItemCategories.map((category) => <option value={category}>{category}</option>)}
+    </select>
+    <select class="dk2-items-source" aria-label="按取得方式筛选">
+      <option value="active">全部可用物品</option>
+      <option value="regular">白天商店出售</option>
+      <option value="hidden">凌晨隐藏商品</option>
+      <option value="event">非卖品／剧情取得</option>
+      <option value="unused">保留／未使用数据</option>
+      <option value="all">全部 100 条记录</option>
+    </select>
+    <input
+      class="dk2-items-search"
+      type="search"
+      placeholder="搜索名称、类型、效果或港口……"
+      aria-label="搜索装备与道具"
+    />
+    <span class="dk2-items-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-items-scroll" tabindex="0" aria-label="装备与道具数据表，可横向滚动">
+    <table class="dk2-items-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">ID</th>
+          <th data-sort="name">名称</th>
+          <th data-sort="category">类型</th>
+          <th data-sort="effect" class="num">效果</th>
+          <th data-sort="price" class="num">基准价</th>
+          <th>白天销售港</th>
+          <th>隐藏销售港</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            class:list={[row.unused && 'is-unused']}
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-category={row.category}
+            data-effect={row.effect}
+            data-price={row.basePrice}
+            data-unused={row.unused ? '1' : '0'}
+            data-sources={row.sources}
+            data-search={`${row.nameJa} ${row.nameRawJa} ${row.category} ${row.effectText} ${row.regularText} ${row.hiddenText} ${row.note}`}
+          >
+            <td class="num dk2-items-id">{row.id.toString().padStart(2, '0')}</td>
+            <td class="dk2-items-name">
+              {row.nameJa}
+              {row.unused && <span class="dk2-items-unused">保留</span>}
+            </td>
+            <td><span class="dk2-items-category-chip">{row.category}</span></td>
+            <td class="num dk2-items-effect">{row.effectText}</td>
+            <td class="num dk2-items-price">{row.priceText}</td>
+            <td class="dk2-items-ports">{row.regularText}</td>
+            <td class="dk2-items-ports is-hidden">{row.hiddenText}</td>
+            <td class="dk2-items-note">{row.note || '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-items').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const category = root.querySelector<HTMLSelectElement>('.dk2-items-category');
+    const source = root.querySelector<HTMLSelectElement>('.dk2-items-source');
+    const search = root.querySelector<HTMLInputElement>('.dk2-items-search');
+    const count = root.querySelector<HTMLElement>('.dk2-items-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const matchesSource = (row: HTMLElement, value: string, categoryValue: string) => {
+      if (categoryValue === '未使用') return row.dataset.unused === '1';
+      if (value === 'all') return true;
+      if (value === 'active') return row.dataset.unused !== '1';
+      return (row.dataset.sources ?? '').split(' ').includes(value);
+    };
+
+    const apply = () => {
+      const categoryValue = category?.value ?? '';
+      const sourceValue = source?.value ?? 'active';
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const matches =
+          (!categoryValue || row.dataset.category === categoryValue) &&
+          matchesSource(row, sourceValue, categoryValue) &&
+          (!query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query));
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 项`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    category?.addEventListener('change', apply);
+    source?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-items {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-items-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-items-bar :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-items-search {
+    flex: 1 1 15rem;
+    max-width: 25rem;
+  }
+
+  .dk2-items-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-items-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-items-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  .dk2-items-table {
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    min-width: 86rem;
+    width: 100%;
+  }
+
+  .dk2-items-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.43rem 0.55rem;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .dk2-items-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  .dk2-items-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-items-table th[data-sort]:hover {
+    color: var(--leaf-primary-hover);
+  }
+
+  .dk2-items-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-items-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-items-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-items-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-items-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-items-table tr.is-unused {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-items-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .dk2-items-id,
+  .dk2-items-price {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-items-name {
+    color: var(--leaf-heading);
+    font-weight: 750;
+    min-width: 9.5rem;
+    white-space: nowrap;
+  }
+
+  .dk2-items-category-chip,
+  .dk2-items-unused {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    border-radius: 999px;
+    color: var(--leaf-primary-hover);
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1.35;
+    padding: 0.05rem 0.36rem;
+    white-space: nowrap;
+  }
+
+  .dk2-items-unused {
+    border-color: var(--leaf-border);
+    color: var(--leaf-text-muted);
+    margin-left: 0.25rem;
+  }
+
+  .dk2-items-effect {
+    color: var(--leaf-heading);
+    min-width: 8rem;
+  }
+
+  .dk2-items-ports {
+    max-width: 18rem;
+    min-width: 10rem;
+  }
+
+  .dk2-items-ports.is-hidden {
+    color: #b76622;
+    font-weight: 700;
+  }
+
+  .dk2-items-note {
+    color: var(--leaf-text-muted);
+    max-width: 22rem;
+    min-width: 12rem;
+  }
+
+  :root[data-theme='dark'] .dk2-items-ports.is-hidden {
+    color: #efb06f;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-items-bar :is(select, input) {
+      flex: 1 1 10rem;
+      min-width: 0;
+    }
+
+    .dk2-items-search {
+      flex-basis: 100%;
+      max-width: none;
+    }
+
+    .dk2-items-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

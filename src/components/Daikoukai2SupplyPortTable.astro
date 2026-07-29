@@ -1,0 +1,236 @@
+---
+import { daikoukai2SupplyPorts } from '../data/daikoukai2/supplyPorts';
+
+const rows = daikoukai2SupplyPorts.map((port) => ({
+  ...port,
+  coordinate: `${port.latitude} ${port.longitude}`,
+  latitudeValue: Number(port.latitude.slice(1)) * (port.latitude.startsWith('S') ? -1 : 1),
+  longitudeValue: Number(port.longitude.slice(1)) * (port.longitude.startsWith('W') ? -1 : 1),
+}));
+---
+
+<div class="dk2-supply not-content" data-unit="补给港">
+  <div class="dk2-supply-bar">
+    <input
+      class="dk2-supply-search"
+      type="search"
+      placeholder="搜索港名、坐标或位置……"
+      aria-label="搜索补给港"
+    />
+    <span class="dk2-supply-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-supply-scroll" tabindex="0" aria-label="补给港数据表，可横向滚动">
+    <table class="dk2-supply-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">No.</th>
+          <th data-sort="name">补给港</th>
+          <th data-sort="latitude" class="num">纬度</th>
+          <th data-sort="longitude" class="num">经度</th>
+          <th>位置提示</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-latitude={row.latitudeValue}
+            data-longitude={row.longitudeValue}
+            data-search={`${row.nameJa} ${row.coordinate} ${row.location}`}
+          >
+            <td class="num dk2-supply-id">{row.id}</td>
+            <td class="dk2-supply-name">{row.nameJa}</td>
+            <td class="num dk2-supply-coordinate">{row.latitude}</td>
+            <td class="num dk2-supply-coordinate">{row.longitude}</td>
+            <td class="dk2-supply-location">{row.location}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-supply').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const search = root.querySelector<HTMLInputElement>('.dk2-supply-search');
+    const count = root.querySelector<HTMLElement>('.dk2-supply-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const matches = !query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query);
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 个补给港`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-supply {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-supply-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-supply-search {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    flex: 1 1 15rem;
+    font: inherit;
+    font-size: 0.9rem;
+    max-width: 28rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-supply-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-supply-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-supply-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  .dk2-supply-table {
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    min-width: 46rem;
+    width: 100%;
+  }
+
+  .dk2-supply-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.45rem 0.58rem;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .dk2-supply-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  .dk2-supply-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-supply-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-supply-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-supply-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-supply-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-supply-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-supply-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .dk2-supply-id,
+  .dk2-supply-coordinate {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-supply-name {
+    color: var(--leaf-heading);
+    font-weight: 750;
+    white-space: nowrap;
+  }
+
+  .dk2-supply-location {
+    min-width: 21rem;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-supply-search {
+      max-width: none;
+      width: 100%;
+    }
+
+    .dk2-supply-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

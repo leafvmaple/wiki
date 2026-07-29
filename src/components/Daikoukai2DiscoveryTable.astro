@@ -1,0 +1,345 @@
+---
+import {
+  daikoukai2Discoveries,
+  daikoukai2DiscoveryTypeCounts,
+  daikoukai2DiscoveryTypeOrder,
+} from '../data/daikoukai2/discoveries';
+
+const rows = daikoukai2Discoveries.map((item) => ({
+  ...item,
+  coordinate: `${item.latitude} ${item.longitude}`,
+  latitudeValue: Number(item.latitude.slice(1)) * (item.latitude.startsWith('S') ? -1 : 1),
+  longitudeValue: Number(item.longitude.slice(1)) * (item.longitude.startsWith('W') ? -1 : 1),
+}));
+const regions = [...new Set(rows.map((row) => row.region))];
+---
+
+<div class="dk2-discoveries not-content" data-unit="发现物">
+  <div class="dk2-discoveries-bar">
+    <select class="dk2-discoveries-type" aria-label="按发现物类型筛选">
+      <option value="">全部类型</option>
+      {daikoukai2DiscoveryTypeOrder.map((type) => (
+        <option value={type}>{type}（{daikoukai2DiscoveryTypeCounts[type]}）</option>
+      ))}
+    </select>
+    <select class="dk2-discoveries-region" aria-label="按地区筛选">
+      <option value="">全部地区</option>
+      {regions.map((region) => <option value={region}>{region}</option>)}
+    </select>
+    <select class="dk2-discoveries-risk" aria-label="按探索风险筛选">
+      <option value="">全部风险</option>
+      <option value="safe">无减员记录</option>
+      <option value="hazard">会损失水手</option>
+    </select>
+    <input
+      class="dk2-discoveries-search"
+      type="search"
+      placeholder="搜索名称、类型、地区或坐标……"
+      aria-label="搜索发现物"
+    />
+    <span class="dk2-discoveries-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-discoveries-scroll" tabindex="0" aria-label="村庄与发现物数据表，可横向滚动">
+    <table class="dk2-discoveries-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">No.</th>
+          <th data-sort="name">发现物</th>
+          <th data-sort="type">类型</th>
+          <th data-sort="region">地区</th>
+          <th data-sort="latitude" class="num">纬度</th>
+          <th data-sort="longitude" class="num">经度</th>
+          <th data-sort="rank">等级</th>
+          <th data-sort="importance" class="num">重要度</th>
+          <th data-sort="fame" class="num">冒险声望</th>
+          <th data-sort="hazard">风险</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-type={row.type}
+            data-region={row.region}
+            data-latitude={row.latitudeValue}
+            data-longitude={row.longitudeValue}
+            data-rank={row.rank}
+            data-importance={row.importance}
+            data-fame={row.fame}
+            data-hazard={row.hazardous ? '1' : '0'}
+            data-search={`${row.nameJa} ${row.type} ${row.region} ${row.coordinate} ${row.rank}`}
+          >
+            <td class="num dk2-discoveries-id">{row.id}</td>
+            <td class="dk2-discoveries-name">{row.nameJa}</td>
+            <td><span class:list={['dk2-discoveries-type-chip', `is-${row.type}`]}>{row.type}</span></td>
+            <td>{row.region}</td>
+            <td class="num dk2-discoveries-coordinate">{row.latitude}</td>
+            <td class="num dk2-discoveries-coordinate">{row.longitude}</td>
+            <td class="dk2-discoveries-rank">{row.rank}</td>
+            <td class="num">{row.importance}</td>
+            <td class="num">{row.fame}</td>
+            <td>
+              {row.hazardous
+                ? <span class="dk2-discoveries-hazard">损失水手</span>
+                : <span class="dk2-discoveries-safe">—</span>}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-discoveries').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const type = root.querySelector<HTMLSelectElement>('.dk2-discoveries-type');
+    const region = root.querySelector<HTMLSelectElement>('.dk2-discoveries-region');
+    const risk = root.querySelector<HTMLSelectElement>('.dk2-discoveries-risk');
+    const search = root.querySelector<HTMLInputElement>('.dk2-discoveries-search');
+    const count = root.querySelector<HTMLElement>('.dk2-discoveries-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const requestedType = new URLSearchParams(window.location.search).get('type');
+    if (type && requestedType && [...type.options].some((option) => option.value === requestedType)) {
+      type.value = requestedType;
+    }
+
+    const apply = () => {
+      const typeValue = type?.value ?? '';
+      const regionValue = region?.value ?? '';
+      const riskValue = risk?.value ?? '';
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const hazard = row.dataset.hazard === '1';
+        const matchesRisk =
+          !riskValue || (riskValue === 'hazard' ? hazard : !hazard);
+        const matches =
+          (!typeValue || row.dataset.type === typeValue) &&
+          (!regionValue || row.dataset.region === regionValue) &&
+          matchesRisk &&
+          (!query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query));
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 个发现物`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    type?.addEventListener('change', apply);
+    region?.addEventListener('change', apply);
+    risk?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-discoveries {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-discoveries-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-discoveries-bar :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-discoveries-search {
+    flex: 1 1 15rem;
+    max-width: 25rem;
+  }
+
+  .dk2-discoveries-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-discoveries-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-discoveries-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  .dk2-discoveries-table {
+    border-collapse: collapse;
+    font-size: 0.86rem;
+    min-width: 64rem;
+    width: 100%;
+  }
+
+  .dk2-discoveries-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.43rem 0.55rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .dk2-discoveries-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .dk2-discoveries-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-discoveries-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-discoveries-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-discoveries-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-discoveries-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-discoveries-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-discoveries-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+
+  .dk2-discoveries-id,
+  .dk2-discoveries-coordinate,
+  .dk2-discoveries-safe {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-discoveries-name {
+    color: var(--leaf-heading);
+    font-weight: 750;
+  }
+
+  .dk2-discoveries-rank {
+    color: var(--leaf-primary-hover);
+    font-weight: 850;
+    text-align: center;
+  }
+
+  .dk2-discoveries-type-chip,
+  .dk2-discoveries-hazard {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    border-radius: 999px;
+    color: var(--leaf-primary-hover);
+    display: inline-block;
+    font-size: 0.73rem;
+    font-weight: 800;
+    line-height: 1.35;
+    padding: 0.06rem 0.38rem;
+  }
+
+  .dk2-discoveries-type-chip.is-遗迹 {
+    border-color: color-mix(in srgb, #9874cf 52%, var(--leaf-border));
+    color: #7751b5;
+  }
+
+  .dk2-discoveries-type-chip.is-财宝 {
+    border-color: color-mix(in srgb, #d28b37 58%, var(--leaf-border));
+    color: #ad651d;
+  }
+
+  .dk2-discoveries-hazard {
+    border-color: color-mix(in srgb, #d75d5d 62%, var(--leaf-border));
+    color: #b33c3c;
+  }
+
+  :root[data-theme='dark'] .dk2-discoveries-type-chip.is-遗迹 {
+    color: #cbb4f0;
+  }
+
+  :root[data-theme='dark'] .dk2-discoveries-type-chip.is-财宝 {
+    color: #f0bd7a;
+  }
+
+  :root[data-theme='dark'] .dk2-discoveries-hazard {
+    color: #f1a0a0;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-discoveries-bar :is(select, input) {
+      flex: 1 1 10rem;
+      min-width: 0;
+    }
+
+    .dk2-discoveries-search {
+      flex-basis: 100%;
+      max-width: none;
+    }
+
+    .dk2-discoveries-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

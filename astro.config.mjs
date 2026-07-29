@@ -101,6 +101,9 @@ export default defineConfig({
           items: [
             { label: '游戏总览', link: '/games/daikoukai-jidai-2/' },
             { label: '港口一览', link: '/games/daikoukai-jidai-2/ports/' },
+            { label: '补给港', link: '/games/daikoukai-jidai-2/supply-ports/' },
+            { label: '村庄与发现物', link: '/games/daikoukai-jidai-2/discoveries/' },
+            { label: '装备与道具', link: '/games/daikoukai-jidai-2/items/' },
             { label: '航海士雇佣', link: '/games/daikoukai-jidai-2/officers/' },
           ],
         },
