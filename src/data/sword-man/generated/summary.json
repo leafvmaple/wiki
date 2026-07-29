@@ -7,6 +7,8 @@
   },
   "counts": {
     "characters": 10,
+    "weapons": 95,
+    "items": 35,
     "skills": 106,
     "magicSkills": 63,
     "physicalSkills": 43,

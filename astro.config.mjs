@@ -138,6 +138,13 @@ export default defineConfig({
             { label: '角色资料', link: '/games/sword-man/characters/' },
             { label: '技能法术', link: '/games/sword-man/skills/' },
             {
+              label: '装备与道具',
+              items: [
+                { label: '武器列表', link: '/games/sword-man/equipment/weapons/' },
+                { label: '道具列表', link: '/games/sword-man/items/' },
+              ],
+            },
+            {
               label: '炼化配方',
               items: [
                 { label: '装备炼化', link: '/games/sword-man/alchemy/equipment/' },

@@ -299,6 +299,54 @@ const main = async () => {
   }).sort((a, b) => a.id - b.id);
 
   const characterByDataIndex = new Map(characters.map((character) => [character.dataIndex, character]));
+  const recipeByProductId = new Map(
+    asArray(alchemyDb.records).map((recipe) => [recipe.product_id, recipe]),
+  );
+  const catalogItem = (record) => {
+    const equipCharacters = (record.equip_units ?? [])
+      .map((unitId) => characterByDataIndex.get(unitId)?.name)
+      .filter(Boolean);
+    const recipe = recipeByProductId.get(record.index);
+    const useSkill = skillById.get(record.use_skill_id);
+    return {
+      id: record.index,
+      name: itemName(record.index),
+      type: record.item_type,
+      typeLabel: itemTypeLabels[record.item_type] ?? `类型 ${record.item_type}`,
+      attack: record.attack ?? 0,
+      hit: record.attack_hit ?? 0,
+      miss: record.attack_miss ?? 0,
+      critical: record.attack_critical ?? 0,
+      double: record.attack_double ?? 0,
+      attackRangeMin: record.attack_range_min ?? 0,
+      attackRangeMax: record.attack_range_max ?? 0,
+      equipCharacters: [...new Set(equipCharacters)],
+      useEffect: itemEffectLabels[record.use_effect_type] ?? null,
+      usePower: record.use_base_power ?? 0,
+      useSkill: useSkill ? { id: useSkill.id, name: useSkill.name } : null,
+      useMpCost: record.use_mp_cost ?? 0,
+      useRangeMin: record.use_range_min ?? 0,
+      useRangeMax: record.use_range_max ?? 0,
+      isConsumable: Boolean(record.is_consumable),
+      price: record.price ?? 0,
+      recipe: recipe
+        ? recipe.ingredient_ids.map((ingredientId) => ({ id: ingredientId, name: itemName(ingredientId) }))
+        : null,
+      description: cleanString(record.description),
+    };
+  };
+  const itemCatalog = {
+    // Item_dat also contains monster-only natural attacks under item_type=1.
+    // A wiki weapon is player equipment only: at least one hero (data index 0-9) can equip it.
+    weapons: itemRecords
+      .filter((record) => record.item_type === 1 && (record.equip_units ?? []).some((unitId) => characterByDataIndex.has(unitId)))
+      .sort((a, b) => a.index - b.index)
+      .map(catalogItem),
+    items: itemRecords
+      .filter((record) => record.item_type === 0)
+      .sort((a, b) => a.index - b.index)
+      .map(catalogItem),
+  };
   const alchemy = asArray(alchemyDb.records)
     .sort((a, b) => a.product_id - b.product_id)
     .map((recipe) => {
@@ -431,6 +479,8 @@ const main = async () => {
     },
     counts: {
       characters: characters.length,
+      weapons: itemCatalog.weapons.length,
+      items: itemCatalog.items.length,
       skills: skills.length,
       magicSkills: skills.filter((skill) => skill.kind === 'magic').length,
       physicalSkills: skills.filter((skill) => skill.kind === 'physical').length,
@@ -456,11 +506,12 @@ const main = async () => {
   await writeJson('monsters.json', monsters);
   await writeJson('battles.json', battles);
   await writeJson('camps.json', camps);
+  await writeJson('items.json', itemCatalog);
   await writeJson('alchemy.json', alchemy);
   await writeCharacterPages(characters);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes.`,
+    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes.`,
   );
 };
 

@@ -1,0 +1,138 @@
+---
+import itemCatalog from '../data/sword-man/generated/items.json';
+
+type DataRow = Record<string, any>;
+
+const { kind } = Astro.props as { kind: 'weapons' | 'items' };
+const rows = itemCatalog[kind] as DataRow[];
+const signed = (value: number) => (value ? `${value > 0 ? '+' : ''}${value}` : '-');
+const rangeText = (min: number, max: number) => {
+  const start = min === -1 ? 1 : Math.max(0, min);
+  return start === max ? `${max} 格` : `${start}–${max} 格`;
+};
+const recipeText = (row: DataRow) =>
+  row.recipe?.length === 2 ? `${row.recipe[0].name} + ${row.recipe[1].name}` : '-';
+const itemEffectText = (row: DataRow) => {
+  if (row.useEffect) return `${row.useEffect}${row.usePower ? ` ${signed(row.usePower)}` : ''}`;
+  if (row.useSkill) return `施放「${row.useSkill.name}」${row.usePower ? `（威力 ${row.usePower}）` : ''}`;
+  return '-';
+};
+const weaponSkillText = (row: DataRow) =>
+  row.useSkill ? `${row.useSkill.name}${row.useMpCost ? `（MP ${row.useMpCost}）` : ''}` : '-';
+---
+
+<p class="tdj-item-count">
+  {kind === 'weapons'
+    ? `共 ${rows.length} 件主角可装备武器；怪物的爪牙、吐息等内部武器记录不计入本表。`
+    : `共 ${rows.length} 件道具。`}
+</p>
+
+<div class="tdj-table-scroll">
+  {kind === 'weapons' ? (
+    <table class="tdj-item-table tdj-weapon-table">
+      <thead>
+        <tr>
+          <th>武器</th>
+          <th>攻</th>
+          <th>命中</th>
+          <th>回避</th>
+          <th>会心</th>
+          <th>双击</th>
+          <th>攻击距离</th>
+          <th>可装备角色</th>
+          <th>战斗使用</th>
+          <th>价格</th>
+          <th>炼化材料</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <td><strong>{row.name}</strong><small>#{row.id}</small></td>
+            <td>{signed(row.attack)}</td>
+            <td>{signed(row.hit)}</td>
+            <td>{signed(row.miss)}</td>
+            <td>{signed(row.critical)}</td>
+            <td>{signed(row.double)}</td>
+            <td>{rangeText(row.attackRangeMin, row.attackRangeMax)}</td>
+            <td>{row.equipCharacters.join('、') || '-'}</td>
+            <td>{weaponSkillText(row)}</td>
+            <td>{row.price || '-'}</td>
+            <td>{recipeText(row)}</td>
+            <td>{row.description || '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  ) : (
+    <table class="tdj-item-table tdj-consumable-table">
+      <thead>
+        <tr>
+          <th>道具</th>
+          <th>效果</th>
+          <th>使用距离</th>
+          <th>价格</th>
+          <th>炼化材料</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <td><strong>{row.name}</strong><small>#{row.id}</small></td>
+            <td>{itemEffectText(row)}</td>
+            <td>{rangeText(row.useRangeMin, row.useRangeMax)}</td>
+            <td>{row.price || '-'}</td>
+            <td>{recipeText(row)}</td>
+            <td>{row.description || '-'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</div>
+
+<style>
+  .tdj-item-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .tdj-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-item-table {
+    min-width: 62rem;
+  }
+
+  .tdj-weapon-table {
+    min-width: 88rem;
+  }
+
+  .tdj-item-table th {
+    white-space: nowrap;
+  }
+
+  .tdj-item-table td {
+    vertical-align: top;
+  }
+
+  .tdj-item-table strong {
+    color: var(--leaf-heading);
+    white-space: nowrap;
+  }
+
+  .tdj-item-table small {
+    color: var(--leaf-text-muted);
+    display: block;
+    font-size: 0.78rem;
+    margin-top: 0.08rem;
+  }
+
+  .tdj-item-table td:last-child {
+    min-width: 18rem;
+  }
+</style>

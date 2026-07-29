@@ -1,0 +1,4191 @@
+{
+  "weapons": [
+    {
+      "id": 0,
+      "name": "长剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 24,
+      "hit": 90,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 45,
+      "recipe": null,
+      "description": "最常見的長刃兵器之一，可劈刺挑點，適用於多種武術。"
+    },
+    {
+      "id": 1,
+      "name": "青钢剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 40,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 80,
+      "recipe": [
+        {
+          "id": 178,
+          "name": "燧石"
+        },
+        {
+          "id": 0,
+          "name": "长剑"
+        }
+      ],
+      "description": "外泛綠光的精鐵名曰青鋼。青鋼打造的長劍要比尋常長劍鋒利許多。"
+    },
+    {
+      "id": 2,
+      "name": "古印剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 50,
+      "hit": 105,
+      "miss": 0,
+      "critical": 100,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 135,
+      "recipe": [
+        {
+          "id": 1,
+          "name": "青钢剑"
+        },
+        {
+          "id": 167,
+          "name": "西方神徽"
+        }
+      ],
+      "description": "自地下發掘出的上古長劍，劍身上刻有奇異紋路，具奮武倍力之效。"
+    },
+    {
+      "id": 3,
+      "name": "灵剑朱雀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 70,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 100,
+      "useSkill": {
+        "id": 7,
+        "name": "焚炎之陣"
+      },
+      "useMpCost": 10,
+      "useRangeMin": -1,
+      "useRangeMax": 2,
+      "isConsumable": false,
+      "price": 220,
+      "recipe": [
+        {
+          "id": 4,
+          "name": "沉碧剑"
+        },
+        {
+          "id": 2,
+          "name": "古印剑"
+        }
+      ],
+      "description": "傳說四聖獸之一的朱雀幻化而成的神劍，劍身通紅，舞動奇速。"
+    },
+    {
+      "id": 4,
+      "name": "沉碧剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 70,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 180,
+      "recipe": [
+        {
+          "id": 179,
+          "name": "妖怜石"
+        },
+        {
+          "id": 1,
+          "name": "青钢剑"
+        }
+      ],
+      "description": "據說煉鐵時混入碧晶，可使鐵胎更韌，鋒利與堅固倍增。"
+    },
+    {
+      "id": 5,
+      "name": "古剑龙形",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 120,
+      "hit": 50,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 50,
+      "recipe": [
+        {
+          "id": 3,
+          "name": "灵剑朱雀"
+        },
+        {
+          "id": 178,
+          "name": "燧石"
+        }
+      ],
+      "description": "劍脊上隱然浮現龍形的奇異古劍，但沈重難以施使且無特異之處。"
+    },
+    {
+      "id": 6,
+      "name": "紫金剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 110,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 350,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 4,
+          "name": "沉碧剑"
+        }
+      ],
+      "description": "紫金素具辟邪之能，混入紫金打造的長劍乃是除魔之士愛用的武器。"
+    },
+    {
+      "id": 7,
+      "name": "封阵剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 150,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 600,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 6,
+          "name": "紫金剑"
+        }
+      ],
+      "description": "咒術師行儀作法時所用的金劍，劍身蘊藍色靈氣，對妖魔頗具效果。"
+    },
+    {
+      "id": 8,
+      "name": "古剑干将",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 175,
+      "hit": 120,
+      "miss": 0,
+      "critical": 10,
+      "double": 40,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1000,
+      "recipe": null,
+      "description": "鍛造於戰國時代的名劍之一，據說其上附有鑄劍師的怨魂。"
+    },
+    {
+      "id": 9,
+      "name": "玄真剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 210,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 900,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 7,
+          "name": "封阵剑"
+        }
+      ],
+      "description": "混入玄鐵鑄造的鋒利長劍，劍刃透出黑光，是劍士所愛用的武器。"
+    },
+    {
+      "id": 10,
+      "name": "狮吼剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 280,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1250,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 9,
+          "name": "玄真剑"
+        }
+      ],
+      "description": "護手鑄為獅口型狀的奇劍，舞動時會發出呼嘯吼聲，更增威猛之勢。"
+    },
+    {
+      "id": 11,
+      "name": "雷荧剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 300,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 5,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1500,
+      "recipe": [
+        {
+          "id": 25,
+          "name": "玉女银梭"
+        },
+        {
+          "id": 212,
+          "name": "太初华晶"
+        }
+      ],
+      "description": "劍刃閃爍藍紫色雷光的神兵，劈刺敵人時兼具雷電之效。"
+    },
+    {
+      "id": 12,
+      "name": "辉日之剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 360,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 300,
+      "useSkill": {
+        "id": 8,
+        "name": "天火之術"
+      },
+      "useMpCost": 60,
+      "useRangeMin": 1,
+      "useRangeMax": 3,
+      "isConsumable": false,
+      "price": 2500,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 10,
+          "name": "狮吼剑"
+        }
+      ],
+      "description": "通體遍發金光的神劍，不獨其輝令妖魔畏懼，威力亦足以降服眾魔。"
+    },
+    {
+      "id": 13,
+      "name": "古剑龙皇",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 700,
+      "hit": 120,
+      "miss": 0,
+      "critical": 60,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 600,
+      "useSkill": {
+        "id": 10,
+        "name": "九俱焚滅"
+      },
+      "useMpCost": 85,
+      "useRangeMin": 1,
+      "useRangeMax": 3,
+      "isConsumable": false,
+      "price": 3500,
+      "recipe": [
+        {
+          "id": 5,
+          "name": "古剑龙形"
+        },
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        }
+      ],
+      "description": "劍身上刻有龍形的古劍，據說是古時用來辟邪除魔的神兵利器。"
+    },
+    {
+      "id": 14,
+      "name": "九仪天尊剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 450,
+      "hit": 200,
+      "miss": 0,
+      "critical": 15,
+      "double": 5,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "殷劍平"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 4000,
+      "recipe": null,
+      "description": "黃帝用以打倒蚩尤的神劍，威力強大無倫，是天地間諸般神兵之尊。"
+    },
+    {
+      "id": 15,
+      "name": "匕首",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 20,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 40,
+      "recipe": null,
+      "description": "短而鋒利的隨身短刀，是術士之流用以護身的武器。"
+    },
+    {
+      "id": 16,
+      "name": "精钢短剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 35,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 75,
+      "recipe": [
+        {
+          "id": 178,
+          "name": "燧石"
+        },
+        {
+          "id": 15,
+          "name": "匕首"
+        }
+      ],
+      "description": "由精鋼打造的短劍，雖較匕首沈重，但堅固鋒利，亦為術士所愛用。"
+    },
+    {
+      "id": 17,
+      "name": "青铜绣剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 36,
+      "hit": 30,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 5,
+      "recipe": null,
+      "description": "從某先人遺物中發現的神秘短劍，看似腐朽無用，卻蘊含未知之力。"
+    },
+    {
+      "id": 18,
+      "name": "牙雕钩剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 60,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 145,
+      "recipe": [
+        {
+          "id": 179,
+          "name": "妖怜石"
+        },
+        {
+          "id": 16,
+          "name": "精钢短剑"
+        }
+      ],
+      "description": "刀柄鑲以雕刻精美的象牙，不但外型精緻華美，鉤狀刀刃也很鋒利。"
+    },
+    {
+      "id": 19,
+      "name": "朱纶祭剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 100,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 280,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 18,
+          "name": "牙雕钩剑"
+        }
+      ],
+      "description": "護手與刀柄上綁附朱紅穗帶的銀製短劍，通常用於行法祭儀之用。"
+    },
+    {
+      "id": 20,
+      "name": "辟邪玉剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 120,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": 0,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 750,
+      "recipe": [
+        {
+          "id": 165,
+          "name": "蟠龙玉带"
+        },
+        {
+          "id": 21,
+          "name": "蝉翼短刀"
+        }
+      ],
+      "description": "刃身由白玉雕成的短劍，雖然不甚鋒利，但據信有辟邪破魔之效。"
+    },
+    {
+      "id": 21,
+      "name": "蝉翼短刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 80,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 200,
+      "recipe": null,
+      "description": "巧匠打造的鋒利短刀，輕薄有如蟬翼，弱女子亦能輕易揮舞攻敵。"
+    },
+    {
+      "id": 22,
+      "name": "古剑莫邪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 180,
+      "hit": 120,
+      "miss": 0,
+      "critical": 10,
+      "double": 20,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 750,
+      "recipe": [
+        {
+          "id": 17,
+          "name": "青铜绣剑"
+        },
+        {
+          "id": 251,
+          "name": "时幻沙"
+        }
+      ],
+      "description": "鍛造於戰國時代的名劍之一，據說其上附有鑄劍師之妻的怨魂。"
+    },
+    {
+      "id": 23,
+      "name": "翠玉匕首",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 145,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 550,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 19,
+          "name": "朱纶祭剑"
+        }
+      ],
+      "description": "天界神兵之一，由整塊剔透無暇的翠玉雕成，據說威力極強。"
+    },
+    {
+      "id": 24,
+      "name": "封魂鬼刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 250,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 980,
+      "recipe": null,
+      "description": "彎如鉤鐮的血紅魔刀，能懾人魂魄，令中刀者如同身受咒殺之效。"
+    },
+    {
+      "id": 25,
+      "name": "玉女银梭",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 190,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 880,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 23,
+          "name": "翠玉匕首"
+        }
+      ],
+      "description": "雖然外型不像刀劍，這鑄為梭型的雙頭短劍卻具有斬滅妖物之力。"
+    },
+    {
+      "id": 26,
+      "name": "胧月银刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 260,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1250,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 24,
+          "name": "封魂鬼刀"
+        }
+      ],
+      "description": "極細極薄的銀色短劍，揮舞時流光飛幻似雲中朧月，故得其名。"
+    },
+    {
+      "id": 27,
+      "name": "血髓刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 295,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 2000,
+      "recipe": null,
+      "description": "玉雕的劍身白中帶紅，有如血髓透出的妖劍，能吸取獵物的精血。"
+    },
+    {
+      "id": 28,
+      "name": "阴阳幻刃",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 340,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月",
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 0,
+      "recipe": [
+        {
+          "id": 26,
+          "name": "胧月银刀"
+        },
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        }
+      ],
+      "description": "刀身上交互閃爍銀光黑氣的短劍，極為鋒利，但無其他神異之處。"
+    },
+    {
+      "id": 29,
+      "name": "朱刃血剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 165,
+      "hit": 100,
+      "miss": 0,
+      "critical": 50,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 700,
+      "recipe": null,
+      "description": "外型尋常，但刀刃卻鮮紅似血的奇異短劍，有不可思議的神秘之力。"
+    },
+    {
+      "id": 30,
+      "name": "朱刃血剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 5,
+      "hit": 20,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 70,
+      "recipe": null,
+      "description": "外型尋常，但刀刃卻鮮紅似血的奇異短劍，有不可思議的神秘之力。"
+    },
+    {
+      "id": 31,
+      "name": "逃诩水月",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 275,
+      "hit": 100,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月"
+      ],
+      "useEffect": null,
+      "usePower": 250,
+      "useSkill": {
+        "id": 2,
+        "name": "返命之陣"
+      },
+      "useMpCost": 45,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": false,
+      "price": 2750,
+      "recipe": [
+        {
+          "id": 29,
+          "name": "朱刃血剑"
+        },
+        {
+          "id": 176,
+          "name": "赤霞珠"
+        }
+      ],
+      "description": "形如彎月的琉璃短刀，映光時明暈流轉有如水中月影，故名曰水月。"
+    },
+    {
+      "id": 32,
+      "name": "梦想无双",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 620,
+      "hit": 120,
+      "miss": 0,
+      "critical": 0,
+      "double": 100,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "封寒月"
+      ],
+      "useEffect": null,
+      "usePower": 400,
+      "useSkill": {
+        "id": 3,
+        "name": "神還大法"
+      },
+      "useMpCost": 75,
+      "useRangeMin": 0,
+      "useRangeMax": 2,
+      "isConsumable": false,
+      "price": 4500,
+      "recipe": [
+        {
+          "id": 31,
+          "name": "逃诩水月"
+        },
+        {
+          "id": 170,
+          "name": "五尊神令"
+        }
+      ],
+      "description": "刃身泛奇異銀光的奇劍，據說久視會令人目生幻象，因而難避其鋒。"
+    },
+    {
+      "id": 33,
+      "name": "灵蛇剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 215,
+      "hit": 100,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1385,
+      "recipe": [
+        {
+          "id": 34,
+          "name": "黑玉短剑"
+        },
+        {
+          "id": 156,
+          "name": "黑玉蛇戒"
+        }
+      ],
+      "description": "外型彎曲如蛇的銀色短劍，據說封有靈蛇魂魄，一刺出便極難閃躲。"
+    },
+    {
+      "id": 34,
+      "name": "黑玉短剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 84,
+      "hit": 95,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 0,
+      "recipe": null,
+      "description": "黑玉雕成的奇形短劍，外型古拙，但據說有著不為人所知的靈力。"
+    },
+    {
+      "id": 35,
+      "name": "千幻流光",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 620,
+      "hit": 120,
+      "miss": 0,
+      "critical": 0,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "燕明蓉"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 0,
+      "recipe": [
+        {
+          "id": 33,
+          "name": "灵蛇剑"
+        },
+        {
+          "id": 208,
+          "name": "如意珠翠"
+        }
+      ],
+      "description": "遍體閃爍藍白光暈的神異短劍，揮舞時流光奔舞如瀑，故得其名。"
+    },
+    {
+      "id": 36,
+      "name": "白绢索带",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 60,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 150,
+      "recipe": null,
+      "description": "紫楓慣用的奇門兵器，雖是尋常的絹索但亦柔亦剛，兼可遠擊敵手。"
+    },
+    {
+      "id": 37,
+      "name": "素绸灵索",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 95,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 300,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 36,
+          "name": "白绢索带"
+        }
+      ],
+      "description": "以未染的生絲所織的綢索，不但質輕堅韌，更具有驅凶辟邪之力。"
+    },
+    {
+      "id": 38,
+      "name": "破魔朱绫",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 100,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 420,
+      "recipe": null,
+      "description": "施過淨法清禊、上繡經文的朱紅綾索，對於妖魔有意想不到的威力。"
+    },
+    {
+      "id": 39,
+      "name": "紫绢金索",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 145,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 680,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 37,
+          "name": "素绸灵索"
+        }
+      ],
+      "description": "紫色素有辟邪之效，以金絲混紡後倍加堅韌，更利揮舞遠擊。"
+    },
+    {
+      "id": 40,
+      "name": "冰蚕玉带",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 195,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 950,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 39,
+          "name": "紫绢金索"
+        }
+      ],
+      "description": "由珍罕的冰蠶絲織成的純白索帶，揮動之時寒氣隨帶四散是其特徵。"
+    },
+    {
+      "id": 41,
+      "name": "天瑞珠索",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 215,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1350,
+      "recipe": [
+        {
+          "id": 38,
+          "name": "破魔朱绫"
+        },
+        {
+          "id": 202,
+          "name": "水灵珠花"
+        }
+      ],
+      "description": "織串有多種辟邪珠翠的珠索，威力極強，但較沈重而不易揮使。"
+    },
+    {
+      "id": 42,
+      "name": "凝玉纱索",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 280,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1500,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 40,
+          "name": "冰蚕玉带"
+        }
+      ],
+      "description": "無數細薄玉片編成的華麗索帶，看似脆弱卻十分堅韌且且極具威力。"
+    },
+    {
+      "id": 43,
+      "name": "火浣银纱",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 360,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 2050,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 42,
+          "name": "凝玉纱索"
+        }
+      ],
+      "description": "由天界珍物火浣紗織成的索帶，耐火而堅韌，對妖物也極為有效。"
+    },
+    {
+      "id": 44,
+      "name": "七色彩绢",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 640,
+      "hit": 120,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "紫楓"
+      ],
+      "useEffect": null,
+      "usePower": 600,
+      "useSkill": {
+        "id": 4,
+        "name": "神護之陣"
+      },
+      "useMpCost": 120,
+      "useRangeMin": 1,
+      "useRangeMax": 3,
+      "isConsumable": false,
+      "price": 3500,
+      "recipe": [
+        {
+          "id": 63,
+          "name": "七岳神剑"
+        },
+        {
+          "id": 43,
+          "name": "火浣银纱"
+        }
+      ],
+      "description": "據說是天女神舞時所用的彩絹，具有無窮神力，凡人不可使用。"
+    },
+    {
+      "id": 45,
+      "name": "铁枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 40,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 95,
+      "recipe": null,
+      "description": "鐵簇木柄的短槍，輕便易使，是騎兵所愛用的兵刃。"
+    },
+    {
+      "id": 46,
+      "name": "钢铁戟",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 70,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 180,
+      "recipe": [
+        {
+          "id": 179,
+          "name": "妖怜石"
+        },
+        {
+          "id": 45,
+          "name": "铁枪"
+        }
+      ],
+      "description": "以全鋼打造而成的戰戟，雖然威猛沈厲，但不易揮使是其缺點。"
+    },
+    {
+      "id": 47,
+      "name": "啸风枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 80,
+      "hit": 95,
+      "miss": 0,
+      "critical": 20,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 250,
+      "recipe": null,
+      "description": "刃頭經過巧匠配重鑄型的短槍，舞動時會呼嘯作聲，因而得名。"
+    },
+    {
+      "id": 48,
+      "name": "朱樱枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 110,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 350,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 46,
+          "name": "钢铁戟"
+        }
+      ],
+      "description": "槍頭附上紅纓的木柄長槍，可單手或雙手握使，是騎兵的武器之一。"
+    },
+    {
+      "id": 49,
+      "name": "黑玉短戈",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 160,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 700,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 48,
+          "name": "朱樱枪"
+        }
+      ],
+      "description": "鑲以黑玉刃端的短戈，不但堅固耐用，而且破甲威力勝過鋼鐵之屬。"
+    },
+    {
+      "id": 50,
+      "name": "火铜枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 215,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 700,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 49,
+          "name": "黑玉短戈"
+        }
+      ],
+      "description": "由火銅鑄成的長矛，平時通體灼熱如火，必須裹上厚布才能握持。"
+    },
+    {
+      "id": 51,
+      "name": "虎咆枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 230,
+      "hit": 120,
+      "miss": 0,
+      "critical": 50,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 950,
+      "recipe": null,
+      "description": "據說宿有猛虎精魂的神槍，刺出之時吼聲震天，而且鋒利有如虎吻。"
+    },
+    {
+      "id": 52,
+      "name": "烈光戟",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 290,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1050,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 50,
+          "name": "火铜枪"
+        }
+      ],
+      "description": "遍體發銀光的短戟，疾刺之時光華霍霍，對妖魔之屬有極強威力。"
+    },
+    {
+      "id": 53,
+      "name": "龙王叉",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 315,
+      "hit": 120,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1350,
+      "recipe": [
+        {
+          "id": 51,
+          "name": "虎咆枪"
+        },
+        {
+          "id": 183,
+          "name": "云龙珠"
+        }
+      ],
+      "description": "據說是來自於龍宮的神兵，使用者可藉之引龍王之力呼雷喚雨。"
+    },
+    {
+      "id": 54,
+      "name": "鬼烈枪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 380,
+      "hit": 95,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1850,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 52,
+          "name": "烈光戟"
+        }
+      ],
+      "description": "地界鬥鬼持用的長槍，揮舞時鬼聲啾啾，亦具使敵人懾魂喪魄之能。"
+    },
+    {
+      "id": 55,
+      "name": "紫电金戟",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 580,
+      "hit": 120,
+      "miss": 0,
+      "critical": 3,
+      "double": 100,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "上官遠"
+      ],
+      "useEffect": null,
+      "usePower": 350,
+      "useSkill": {
+        "id": 14,
+        "name": "狂雷電刃"
+      },
+      "useMpCost": 45,
+      "useRangeMin": 1,
+      "useRangeMax": 3,
+      "isConsumable": false,
+      "price": 3600,
+      "recipe": [
+        {
+          "id": 53,
+          "name": "龙王叉"
+        },
+        {
+          "id": 194,
+          "name": "风雷冠"
+        }
+      ],
+      "description": "戟身不斷閃爍紫電星芒的天界神兵，揮舞之時有風鳴雷爍之威。"
+    },
+    {
+      "id": 56,
+      "name": "镔铁重剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 50,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 120,
+      "recipe": null,
+      "description": "以生鐵粗鑄的大劍，外表鈍重無鋒，但在力士手中便能顯出其威力。"
+    },
+    {
+      "id": 57,
+      "name": "破甲重剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 80,
+      "hit": 115,
+      "miss": 0,
+      "critical": 50,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 240,
+      "recipe": [
+        {
+          "id": 56,
+          "name": "镔铁重剑"
+        },
+        {
+          "id": 247,
+          "name": "破金符"
+        }
+      ],
+      "description": "刃身鈍厚的大劍，取其沈重而非鋒利，能夠砍開敵人的重甲盾牌。"
+    },
+    {
+      "id": 58,
+      "name": "钢煞剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 160,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 580,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 59,
+          "name": "斩马刀"
+        }
+      ],
+      "description": "長而刃身厚重的鋼鑄巨劍，劈斬之時威猛無倫，故得鋼煞之名。"
+    },
+    {
+      "id": 59,
+      "name": "斩马刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 110,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 300,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 56,
+          "name": "镔铁重剑"
+        }
+      ],
+      "description": "厚背長柄的沈重大刀，不獨用來斬倒馬匹，也是件極具威力的兵刃。"
+    },
+    {
+      "id": 60,
+      "name": "鬼斩刃",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 165,
+      "hit": 120,
+      "miss": 0,
+      "critical": 30,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 580,
+      "recipe": [
+        {
+          "id": 57,
+          "name": "破甲重剑"
+        },
+        {
+          "id": 167,
+          "name": "西方神徽"
+        }
+      ],
+      "description": "昔日為斬鬼而打造的大劍，沈重無鋒，只有身懷神力之士才能舞動。"
+    },
+    {
+      "id": 61,
+      "name": "玄铁剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 220,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1050,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 58,
+          "name": "钢煞剑"
+        }
+      ],
+      "description": "玄鐵極沈重且無堅不摧，以此打造的重劍不但威力卓絕也極為昂貴。"
+    },
+    {
+      "id": 62,
+      "name": "幽煌罗剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 295,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 2000,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 61,
+          "name": "玄铁剑"
+        }
+      ],
+      "description": "散發黑色靈氣的紫黑色巨劍，據說曾是地界某著名魔將的兵器。"
+    },
+    {
+      "id": 63,
+      "name": "七岳神剑",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 220,
+      "hit": 120,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1550,
+      "recipe": null,
+      "description": "採集七大名山的靈石精鐵合鑄的名劍，據說有劈岳開山之力。"
+    },
+    {
+      "id": 64,
+      "name": "神冥玄刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 380,
+      "hit": 95,
+      "miss": 0,
+      "critical": 5,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 3500,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 62,
+          "name": "幽煌罗剑"
+        }
+      ],
+      "description": "傳說由地界的鐵匠所打造的巨型妖刀，上刻奇異的銘文，威力極強。"
+    },
+    {
+      "id": 65,
+      "name": "古剑天罡",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 750,
+      "hit": 150,
+      "miss": 0,
+      "critical": 100,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 29,
+        "name": "地禦之陣"
+      },
+      "useMpCost": 5,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 5000,
+      "recipe": [
+        {
+          "id": 60,
+          "name": "鬼斩刃"
+        },
+        {
+          "id": 66,
+          "name": "古剑巨阙"
+        }
+      ],
+      "description": "由天界奇金鑄造的神劍，刃上帶有天煞罡氣，劍勢雄渾、無人能擋。"
+    },
+    {
+      "id": 66,
+      "name": "古剑巨阙",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 380,
+      "hit": 125,
+      "miss": 0,
+      "critical": 50,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "鮮于超"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 3750,
+      "recipe": null,
+      "description": "只有巨漢才能拿得動的古代名劍，據說威力遠在一般巨劍之上。"
+    },
+    {
+      "id": 67,
+      "name": "檀木禅杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 50,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 110,
+      "recipe": null,
+      "description": "修行僧必備的禪杖，雖是木製，但搭配棍法之後也有些許威力。"
+    },
+    {
+      "id": 68,
+      "name": "铁禅杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 95,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 235,
+      "recipe": [
+        {
+          "id": 180,
+          "name": "炼血珠"
+        },
+        {
+          "id": 67,
+          "name": "檀木禅杖"
+        }
+      ],
+      "description": "生鐵鑄的細長禪杖，威力十足且用途廣泛，周遊僧常攜帶此種鐵杖。"
+    },
+    {
+      "id": 69,
+      "name": "枯明杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 135,
+      "hit": 110,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 400,
+      "recipe": [
+        {
+          "id": 191,
+          "name": "乌光玄铁"
+        },
+        {
+          "id": 67,
+          "name": "檀木禅杖"
+        }
+      ],
+      "description": "取千年古樹枝幹製成的禪杖，取樹木榮枯之意，滿蘊生之靈氣。"
+    },
+    {
+      "id": 70,
+      "name": "金刚杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 155,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 460,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 68,
+          "name": "铁禅杖"
+        }
+      ],
+      "description": "佛門降妖伏魔的法器之一，杖頭作蓮花狀，粗逾手腕，極為沈重。"
+    },
+    {
+      "id": 71,
+      "name": "降魔杵",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 185,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 950,
+      "recipe": null,
+      "description": "杖頭有三環互嵌的大型鐵杖，在武僧手中使來威力十分驚人。"
+    },
+    {
+      "id": 72,
+      "name": "封蝉明杵",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 205,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 800,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 70,
+          "name": "金刚杖"
+        }
+      ],
+      "description": "據說是高僧使用的法器，內蘊多年的封禪之念，頗具降妖伏魔之效。"
+    },
+    {
+      "id": 73,
+      "name": "七环钢杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 275,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1350,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 71,
+          "name": "降魔杵"
+        }
+      ],
+      "description": "修道武僧最具威力的武器，一擊能碎顱斷骨，是降妖伏魔的利器。"
+    },
+    {
+      "id": 74,
+      "name": "莲华杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 355,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 2850,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 73,
+          "name": "七环钢杖"
+        }
+      ],
+      "description": "杖頭鑄為蓮花之型的沈重鐵杵，外型典雅，威力卻在七環鋼杖之上。"
+    },
+    {
+      "id": 75,
+      "name": "八叶禅杖",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 400,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 300,
+      "useSkill": {
+        "id": 13,
+        "name": "九天神雷"
+      },
+      "useMpCost": 35,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": false,
+      "price": 3500,
+      "recipe": [
+        {
+          "id": 69,
+          "name": "枯明杖"
+        },
+        {
+          "id": 194,
+          "name": "风雷冠"
+        }
+      ],
+      "description": "杖端鑄有八葉法華、刻有菩薩眾名的純銅法杖，是高僧所用的法器。"
+    },
+    {
+      "id": 76,
+      "name": "无相法杵",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 750,
+      "hit": 100,
+      "miss": 0,
+      "critical": 5,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "真胤"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 4500,
+      "recipe": [
+        {
+          "id": 75,
+          "name": "八叶禅杖"
+        },
+        {
+          "id": 168,
+          "name": "明尊舍利"
+        }
+      ],
+      "description": "看來尋常無奇卻威力無比的佛門法杖，正合佛法的無執無相之義。"
+    },
+    {
+      "id": 77,
+      "name": "韩家双镰",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 110,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 300,
+      "recipe": null,
+      "description": "韓家的獨門兵器，分時是兩柄鐮刀，合起時是刀輪，可遠擲攻敵。"
+    },
+    {
+      "id": 78,
+      "name": "燕返刃",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 160,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 620,
+      "recipe": [
+        {
+          "id": 181,
+          "name": "辉月魂石"
+        },
+        {
+          "id": 77,
+          "name": "韩家双镰"
+        }
+      ],
+      "description": "一柄巧匠打製的輕薄彎刀，擲出後會迴飛到擲出者手中，因而得名。"
+    },
+    {
+      "id": 79,
+      "name": "星幻子",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 210,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1100,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 78,
+          "name": "燕返刃"
+        }
+      ],
+      "description": "由琉璃雕成的輕薄兵刃，其體透明，故得名星幻。亦可遠擲攻敵。"
+    },
+    {
+      "id": 80,
+      "name": "光斩轮",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 250,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 50,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1650,
+      "recipe": [
+        {
+          "id": 77,
+          "name": "韩家双镰"
+        },
+        {
+          "id": 208,
+          "name": "如意珠翠"
+        }
+      ],
+      "description": "七成紫金、三成白銀打製的鋒利刀輪，擲出時光華耀眼，故得其名。"
+    },
+    {
+      "id": 81,
+      "name": "弦月刀",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 280,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1950,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 79,
+          "name": "星幻子"
+        }
+      ],
+      "description": "傳自西域的奇兵，刃身曲薄如弦月，但鋒利無比，可輕取敵方首級。"
+    },
+    {
+      "id": 82,
+      "name": "双仪天弧",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 360,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 3650,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 81,
+          "name": "弦月刀"
+        }
+      ],
+      "description": "黑白各一的一對細薄彎刀，分擲之時劃空之型有如太極，故得其名。"
+    },
+    {
+      "id": 83,
+      "name": "修罗鬼牙",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 400,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 3,
+      "attackRangeMin": 2,
+      "attackRangeMax": 4,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 3850,
+      "recipe": null,
+      "description": "兩端鑲有鋒利長牙的奇異兵器，據說帶有妖邪之力。亦可遠擲攻敵。"
+    },
+    {
+      "id": 84,
+      "name": "回光银环",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 700,
+      "hit": 100,
+      "miss": 0,
+      "critical": 15,
+      "double": 100,
+      "attackRangeMin": 2,
+      "attackRangeMax": 5,
+      "equipCharacters": [
+        "韓千秀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 5800,
+      "recipe": [
+        {
+          "id": 80,
+          "name": "光斩轮"
+        },
+        {
+          "id": 83,
+          "name": "修罗鬼牙"
+        }
+      ],
+      "description": "極輕極薄的銀色刀輪，據說是天界神兵之一，能一擊斬殺多數妖魔。"
+    },
+    {
+      "id": 85,
+      "name": "铁爪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 155,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 550,
+      "recipe": null,
+      "description": "巧匠為夏侯儀所製的鐵製義手，本身亦是一件強力的兵器。"
+    },
+    {
+      "id": 86,
+      "name": "妖魔铁爪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 175,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 750,
+      "recipe": null,
+      "description": "指套上鑲以妖魔牙爪而成的武器，其威力勝過尋常的鋼刃鐵爪。"
+    },
+    {
+      "id": 87,
+      "name": "裂钢铁手",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 210,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 980,
+      "recipe": [
+        {
+          "id": 182,
+          "name": "八荒灵石"
+        },
+        {
+          "id": 85,
+          "name": "铁爪"
+        }
+      ],
+      "description": "鐵手上鑲著精鋼打製的爪刃，據說連鐵片都能抓裂。"
+    },
+    {
+      "id": 88,
+      "name": "毒龙爪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 250,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1250,
+      "recipe": [
+        {
+          "id": 245,
+          "name": "玄鸠骨末"
+        },
+        {
+          "id": 85,
+          "name": "铁爪"
+        }
+      ],
+      "description": "據說鑲有毒龍爪牙的手爪，遭此爪抓傷者亦會身中劇毒。"
+    },
+    {
+      "id": 89,
+      "name": "龙爪手",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 280,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 1800,
+      "recipe": [
+        {
+          "id": 183,
+          "name": "云龙珠"
+        },
+        {
+          "id": 87,
+          "name": "裂钢铁手"
+        }
+      ],
+      "description": "工匠仿造龍爪之型鑄造的精巧鐵手，能以機簧牽動指爪，威力驚人。"
+    },
+    {
+      "id": 90,
+      "name": "妖骨爪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 360,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 3500,
+      "recipe": [
+        {
+          "id": 184,
+          "name": "两仪玄石"
+        },
+        {
+          "id": 89,
+          "name": "龙爪手"
+        }
+      ],
+      "description": "由妖魔死骸製成的骨爪，為其抓傷者可能會沾染未散的妖氣而麻痺。"
+    },
+    {
+      "id": 91,
+      "name": "幽冥鬼手",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 400,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 4000,
+      "recipe": [
+        {
+          "id": 86,
+          "name": "妖魔铁爪"
+        },
+        {
+          "id": 196,
+          "name": "翡翠"
+        }
+      ],
+      "description": "由切下的鬼爪煉製而成的魔兵，為其抓傷者可能會身中咒殺之害。"
+    },
+    {
+      "id": 92,
+      "name": "搜魂撂魄爪",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 800,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 3,
+      "attackRangeMin": -1,
+      "attackRangeMax": 1,
+      "equipCharacters": [
+        "夏侯儀"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 7500,
+      "recipe": [
+        {
+          "id": 91,
+          "name": "幽冥鬼手"
+        },
+        {
+          "id": 160,
+          "name": "鬼魄碧晶"
+        }
+      ],
+      "description": "傳說中的魔兵之一，據說抓中敵手後，還能吸取對方魂魄以為已用。"
+    },
+    {
+      "id": 93,
+      "name": "酒壶",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 350,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "不淨散人"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 2500,
+      "recipe": null,
+      "description": "不淨散人愛用的酒壺，同時也兼作武器使用。"
+    },
+    {
+      "id": 94,
+      "name": "酒仙葫芦",
+      "type": 1,
+      "typeLabel": "武器",
+      "attack": 700,
+      "hit": 100,
+      "miss": 0,
+      "critical": 3,
+      "double": 0,
+      "attackRangeMin": -1,
+      "attackRangeMax": 2,
+      "equipCharacters": [
+        "不淨散人"
+      ],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": false,
+      "price": 4500,
+      "recipe": null,
+      "description": "可使酒漿更加醇美的酒壺，會拿它當武器用的也只有不淨散人了。"
+    }
+  ],
+  "items": [
+    {
+      "id": 220,
+      "name": "金创药",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复体力",
+      "usePower": 100,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 6,
+      "recipe": null,
+      "description": "最常見的傷藥，效力有限但極易購得。"
+    },
+    {
+      "id": 221,
+      "name": "大补丸",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复体力",
+      "usePower": 200,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 14,
+      "recipe": [
+        {
+          "id": 225,
+          "name": "返气丸"
+        },
+        {
+          "id": 220,
+          "name": "金创药"
+        }
+      ],
+      "description": "效力較金創藥為佳的傷藥，由於使用藥材珍昂，價格也昂貴許多。"
+    },
+    {
+      "id": 222,
+      "name": "九花玉露",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复体力",
+      "usePower": 400,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 35,
+      "recipe": [
+        {
+          "id": 225,
+          "name": "返气丸"
+        },
+        {
+          "id": 221,
+          "name": "大补丸"
+        }
+      ],
+      "description": "以九花九藥煉製而成的療傷聖藥，效果雖佳，價格也因此昂貴許多。"
+    },
+    {
+      "id": 223,
+      "name": "续命神药",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复体力",
+      "usePower": 800,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 65,
+      "recipe": [
+        {
+          "id": 225,
+          "name": "返气丸"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "有起死回生之能的神藥，由於煉製極難，價格自然是十分高昂"
+    },
+    {
+      "id": 224,
+      "name": "十圣金丹",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复体力",
+      "usePower": 1600,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 200,
+      "recipe": null,
+      "description": "以十種極珍罕藥材煉製的藥中之王，一枚便能療傷補創，盡復舊觀。"
+    },
+    {
+      "id": 225,
+      "name": "返气丸",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 100,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 100,
+      "recipe": [
+        {
+          "id": 222,
+          "name": "九花玉露"
+        },
+        {
+          "id": 233,
+          "name": "八络血叁"
+        }
+      ],
+      "description": "能稍微回復氣力的壯元丹藥，雖然效果有限，但卻已經相當罕見。"
+    },
+    {
+      "id": 226,
+      "name": "聚元散",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 200,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 200,
+      "recipe": [
+        {
+          "id": 222,
+          "name": "九花玉露"
+        },
+        {
+          "id": 234,
+          "name": "冰荷仙时"
+        }
+      ],
+      "description": "較返氣丸更有效的壯元丹藥，由於煉製極難，平時幾乎不可能獲得。"
+    },
+    {
+      "id": 227,
+      "name": "混元一气散",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 400,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 400,
+      "recipe": [
+        {
+          "id": 222,
+          "name": "九花玉露"
+        },
+        {
+          "id": 235,
+          "name": "熊王金胆"
+        }
+      ],
+      "description": "由獨家秘方煉製的壯元丹藥，效果絕佳，是練武之人垂涎的珍藥。"
+    },
+    {
+      "id": 228,
+      "name": "转护元丹",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 800,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 800,
+      "recipe": [
+        {
+          "id": 222,
+          "name": "九花玉露"
+        },
+        {
+          "id": 207,
+          "name": "紫蕴晶玉"
+        }
+      ],
+      "description": "與十聖金丹同稱藥中之王的護元丹藥，服食一枚便可真元盡復。"
+    },
+    {
+      "id": 229,
+      "name": "龙涎清血丹",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "解除中毒",
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 10,
+      "recipe": [
+        {
+          "id": 230,
+          "name": "通脉补心丸"
+        },
+        {
+          "id": 231,
+          "name": "绮罗天香"
+        }
+      ],
+      "description": "以多種解毒藥材煉製而成的解毒藥，對於尋常毒傷頗具療效。"
+    },
+    {
+      "id": 230,
+      "name": "通脉补心丸",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "解除麻痹",
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 15,
+      "recipe": [
+        {
+          "id": 229,
+          "name": "龙涎清血丹"
+        },
+        {
+          "id": 231,
+          "name": "绮罗天香"
+        }
+      ],
+      "description": "能夠通筋活血、調氣順脈的丹藥，常用於治療軟癱麻病。"
+    },
+    {
+      "id": 231,
+      "name": "绮罗天香",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "解除封魔",
+      "usePower": 0,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 25,
+      "recipe": [
+        {
+          "id": 229,
+          "name": "龙涎清血丹"
+        },
+        {
+          "id": 230,
+          "name": "通脉补心丸"
+        }
+      ],
+      "description": "具有強烈的氣味，能聚四周精魂靈氣，破除封咒的禁制之力。"
+    },
+    {
+      "id": 232,
+      "name": "冰胆砂",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 0,
+      "useSkill": {
+        "id": 5,
+        "name": "靈淨大法"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 1,
+      "isConsumable": true,
+      "price": 120,
+      "recipe": [
+        {
+          "id": 225,
+          "name": "返气丸"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "冰蟾毒砂雖是至毒，但加以調理後亦能成藥解毒傷癱麻，極是靈驗。"
+    },
+    {
+      "id": 233,
+      "name": "八络血叁",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升体力上限",
+      "usePower": 15,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 234,
+          "name": "冰荷仙时"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "長白山中最珍罕的參種，服食後能壯元強身，使體力驟增。"
+    },
+    {
+      "id": 234,
+      "name": "冰荷仙时",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升术力上限",
+      "usePower": 15,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 235,
+          "name": "熊王金胆"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "極北冰海中生長的冰蓮之實，食之能增人內蘊靈華，術力大進。"
+    },
+    {
+      "id": 235,
+      "name": "熊王金胆",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升膂力上限",
+      "usePower": 7,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 236,
+          "name": "灵泉玉露"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "北地巨熊亦稱熊王，其膽囊與百藥浸製後服食，可使人膂力大增。"
+    },
+    {
+      "id": 236,
+      "name": "灵泉玉露",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升灵智上限",
+      "usePower": 7,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 237,
+          "name": "迅神五书"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "天界珍釀之一，以多種仙果釀成，能令人飲後得憑仙力、靈智大進。"
+    },
+    {
+      "id": 237,
+      "name": "迅神五书",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升行动力上限",
+      "usePower": 7,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 238,
+          "name": "鬼神天酿"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "載有奔行挪移法門的武籍，令人讀後頓悟奔行之理，行步輕盈如飛。"
+    },
+    {
+      "id": 238,
+      "name": "鬼神天酿",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升筋力上限",
+      "usePower": 7,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 239,
+          "name": "玄机道卷"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "據說是天界鬼神飲用的美酒，不獨味香醇厚，亦具強筋健體之效。"
+    },
+    {
+      "id": 239,
+      "name": "玄机道卷",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "提升运气上限",
+      "usePower": 7,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 500,
+      "recipe": [
+        {
+          "id": 233,
+          "name": "八络血叁"
+        },
+        {
+          "id": 222,
+          "name": "九花玉露"
+        }
+      ],
+      "description": "寫有玄門天機之理的捲軸，令人讀後能乘應機運之變而趨吉避禍。"
+    },
+    {
+      "id": 240,
+      "name": "轰雷符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 270,
+      "useSkill": {
+        "id": 13,
+        "name": "九天神雷"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 150,
+      "recipe": [
+        {
+          "id": 241,
+          "name": "天罡令符"
+        },
+        {
+          "id": 246,
+          "name": "披甲符"
+        }
+      ],
+      "description": "封入天法雷咒的令符，使用後可降下九天神雷擊打敵人。"
+    },
+    {
+      "id": 241,
+      "name": "天罡令符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 550,
+      "useSkill": {
+        "id": 14,
+        "name": "狂雷電刃"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 300,
+      "recipe": [
+        {
+          "id": 240,
+          "name": "轰雷符"
+        },
+        {
+          "id": 247,
+          "name": "破金符"
+        }
+      ],
+      "description": "由上位術士封法的強力天符，使用後可降下千煌神雷擊打敵人。"
+    },
+    {
+      "id": 242,
+      "name": "血妖皿",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 400,
+      "useSkill": {
+        "id": 24,
+        "name": "無天黑炎"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 100,
+      "recipe": null,
+      "description": "雲貴之地苗人豢養的蠱毒皿，使用後可令敵手有如身中咒殺之效。"
+    },
+    {
+      "id": 243,
+      "name": "破邪银针",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 400,
+      "useSkill": {
+        "id": 20,
+        "name": "群星聚華"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 100,
+      "recipe": null,
+      "description": "封入破邪咒法的銀針，若射中妖物的要害，可令其受到極大傷害。"
+    },
+    {
+      "id": 244,
+      "name": "封魔神水",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 32,
+        "name": "封魔神道"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 45,
+      "recipe": null,
+      "description": "以七種香木調製的淨水，有封隔咒力之能，當之者會暫時不能施咒。"
+    },
+    {
+      "id": 245,
+      "name": "玄鸠骨末",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 34,
+        "name": "奪魄鬼咒"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 45,
+      "recipe": null,
+      "description": "毒鳥玄鴆之骨磨製成的毒粉，散出之後能使一群敵人麻痺。"
+    },
+    {
+      "id": 246,
+      "name": "披甲符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 29,
+        "name": "地禦之陣"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 180,
+      "recipe": null,
+      "description": "密法封符之一，能令使用者一定時間內引受地象之力而增護禦之力。"
+    },
+    {
+      "id": 247,
+      "name": "破金符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 28,
+        "name": "血刃之咒"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 180,
+      "recipe": null,
+      "description": "密法封符之一，能令使用者兵刃附上金象之力，短時間內威力大進。"
+    },
+    {
+      "id": 248,
+      "name": "烈法符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 30,
+        "name": "靈智真法"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 180,
+      "recipe": null,
+      "description": "密法封符之一，能集四方靈氣精魂於用者身上，使其術法威力大增。"
+    },
+    {
+      "id": 249,
+      "name": "风行符",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 27,
+        "name": "攬風神行"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 180,
+      "recipe": null,
+      "description": "密法封符之一，能呼聚風靈之力於使用者周遭，使其迅敏輕捷大進。"
+    },
+    {
+      "id": 250,
+      "name": "水镜",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 33,
+        "name": "反咒禁制"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 300,
+      "recipe": null,
+      "description": "由淨玉封法製成的法器，使用後可在兩回合內擋下所有的咒術之力。"
+    },
+    {
+      "id": 251,
+      "name": "时幻沙",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 200,
+      "useSkill": {
+        "id": 63,
+        "name": "冥幻之陣"
+      },
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 0,
+      "isConsumable": true,
+      "price": 600,
+      "recipe": null,
+      "description": "崑崙仙界幻沙海的沙，將之遍散全身，可暫時化為無法碰觸的幻影"
+    },
+    {
+      "id": 252,
+      "name": "火凛冰实",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": null,
+      "usePower": 1000,
+      "useSkill": {
+        "id": 9,
+        "name": "七燁真火"
+      },
+      "useMpCost": 0,
+      "useRangeMin": -1,
+      "useRangeMax": 4,
+      "isConsumable": true,
+      "price": 10,
+      "recipe": null,
+      "description": "生於極熱之地的緣火木所生長的極寒之實，有多種奇異的用途。"
+    },
+    {
+      "id": 253,
+      "name": "龙涎香囊",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 250,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 800,
+      "recipe": null,
+      "description": "龍涎香不但是珍貴的香料之一，亦具有復元振氣的功效。"
+    },
+    {
+      "id": 254,
+      "name": "天魄云石",
+      "type": 0,
+      "typeLabel": "道具",
+      "attack": 0,
+      "hit": 0,
+      "miss": 0,
+      "critical": 0,
+      "double": 0,
+      "attackRangeMin": 0,
+      "attackRangeMax": 0,
+      "equipCharacters": [],
+      "useEffect": "恢复术力",
+      "usePower": 150,
+      "useSkill": null,
+      "useMpCost": 0,
+      "useRangeMin": 0,
+      "useRangeMax": 3,
+      "isConsumable": true,
+      "price": 600,
+      "recipe": null,
+      "description": "表面浮現飄逸雲紋的純白石塊，可化為四魄靈氣，具復元振氣之效。"
+    }
+  ]
+}
