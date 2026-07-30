@@ -159,6 +159,7 @@ export default defineConfig({
             },
             { label: '怪物图鉴', link: '/games/sword-man/monsters/' },
             { label: '关卡资料', link: '/games/sword-man/battles/' },
+            { label: '音乐一览', link: '/games/sword-man/music/' },
             { label: '营地资料', link: '/games/sword-man/camps/' },
             { label: '数据说明', link: '/games/sword-man/data-notes/' },
           ],

@@ -1,0 +1,66 @@
+---
+import tracks from '../data/sword-man/generated/music.json';
+import TdjMusicPlayer from './TdjMusicPlayer.astro';
+
+type DataRow = Record<string, any>;
+---
+
+<div class="tdj-music-note">
+  原始 MP3 没有可验证的曲名标签，因此这里沿用游戏文件编号，不把原声专辑曲名强行对应到文件。
+  每首曲目下方列出由 <code>STA_SCR.DAT</code> 直接指定的默认使用关卡。
+</div>
+
+<div class="tdj-music-library" aria-label="天地劫原版音乐一览">
+  {(tracks as DataRow[]).map((track) => (
+    <article id={`music-${String(track.id).padStart(2, '0')}`}>
+      <TdjMusicPlayer music={track} />
+      <div class="tdj-music-uses">
+        <strong>默认战场：</strong>
+        {track.battleStages.length ? (
+          <span>
+            {track.battleStages.map((stage: DataRow, index: number) => (
+              <>
+                {index > 0 && '、'}
+                <a href={stage.href}>{stage.title}</a>
+              </>
+            ))}
+          </span>
+        ) : <span>未被关卡标题表指定为默认战场音乐</span>}
+      </div>
+    </article>
+  ))}
+</div>
+
+<style>
+  .tdj-music-note {
+    background: var(--leaf-bg-subtle);
+    border-left: 3px solid var(--leaf-primary);
+    margin: 0.75rem 0 1rem;
+    padding: 0.65rem 0.8rem;
+  }
+
+  .tdj-music-library {
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .tdj-music-library article {
+    scroll-margin-top: 5rem;
+  }
+
+  .tdj-music-uses {
+    color: var(--leaf-text-muted);
+    font-size: 0.84rem;
+    padding: 0.45rem 0.85rem 0;
+  }
+
+  .tdj-music-uses strong {
+    color: var(--leaf-text);
+  }
+
+  .tdj-music-uses a {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>

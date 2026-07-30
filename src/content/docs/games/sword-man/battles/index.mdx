@@ -15,7 +15,7 @@ import TdjDataTable from '../../../../../components/TdjDataTable.astro';
 `Stage35` 在剧情标题卡 `STA_SCR.DAT` 中的字段确实为空，但本关 `SDES_35.DAT` 的战场说明标题明确写作
 “番外篇 两百块帝国”。详情页同时标注两种来源，不再把“标题卡空白”误写成“关卡没有名字”。
 
-每个详情页现在还显示原版 `SDES_NN.DAT` 的胜利/失败条件，以及由 `mapNN.FB2 + mapNN.MPL`
-解出的完整战场地图。`JUDGE_NN.COD` 只作为运行判定明细展示；其中未单列通用规则，不代表原版没有失败条件。
+每个详情页现在还显示原版 `SDES_NN.DAT` 的胜利/失败条件、由 `mapNN.FB2 + mapNN.MPL`
+解出的完整战场地图，以及 `STA_SCR.DAT` 为本关指定的默认战场音乐。`JUDGE_NN.COD` 只作为运行判定明细展示；其中未单列通用规则，不代表原版没有失败条件。
 
 <TdjDataTable kind="battles" />

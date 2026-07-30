@@ -3,7 +3,7 @@
   "slug": "sword-man",
   "dataset": {
     "schemaVersion": 1,
-    "hash": "f91c183be920c325571372aa71695ba0c37cdc045df26b9694efe7124c9f51ef"
+    "hash": "0cc07c59fe84465e856aa91d5bc184341133a126206613e36d34f625c6d0d438"
   },
   "counts": {
     "characters": 10,
@@ -12,6 +12,7 @@
     "skills": 106,
     "storyMovies": 17,
     "storyMovieReferences": 19,
+    "musicTracks": 22,
     "magicSkills": 63,
     "physicalSkills": 43,
     "monsters": 106,

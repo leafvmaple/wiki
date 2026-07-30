@@ -1,5 +1,6 @@
 ---
 import battles from '../data/sword-man/generated/battles.json';
+import TdjMusicPlayer from './TdjMusicPlayer.astro';
 import TdjStoryMovie from './TdjStoryMovie.astro';
 import TdjStorySequence from './TdjStorySequence.astro';
 
@@ -99,6 +100,10 @@ const transitionParts = [
     原版 <code>FB2/MPL</code> 完整无损合成图 · {battle.map.imageWidth} × {battle.map.imageHeight} 像素 · 点击查看原图
   </figcaption>
 </figure>
+
+<h3 id="battle-music">战场音乐</h3>
+
+<TdjMusicPlayer music={battle.music} showCatalogLink />
 
 <h2 id="conditions">胜败条件与战后去向</h2>
 
@@ -255,7 +260,7 @@ const transitionParts = [
 )}
 
 <aside class="tdj-provenance">
-  剧情标题卡来自 <code>Misc/STA_SCR.DAT</code>，战场说明标题与玩家可见胜败条件来自
+  剧情标题卡与默认战场音乐编号来自 <code>Misc/STA_SCR.DAT</code>，战场音乐来自对应的 <code>Music/Music_NN.mp3</code>；战场说明标题与玩家可见胜败条件来自
   <code>SDES_NN.DAT</code>；地图来自 <code>mapNN.FB2 + mapNN.MPL</code>；阵容与坐标来自逐关布阵数据；
   机器判定明细来自 <code>JUDGE_NN.COD</code>；对话来自 <code>EVENT_NN.COD + EMSG_NN.MSG</code>；
   剧情影片调用来自战斗事件 <code>0x29</code> 指令，网页媒体由原版 Bink MOV 转为 H.264/AAC MP4；

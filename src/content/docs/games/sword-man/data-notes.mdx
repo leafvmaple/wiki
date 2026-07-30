@@ -13,14 +13,15 @@ import summary from '../../../../data/sword-man/generated/summary.json';
 ## 数据来源
 
 当前资料来自版本化的 `swordman-data canonical` v{summary.dataset.schemaVersion} 数据包。
-公开站点只接收结构化资料与白名单图片，不读取复刻工程、原始游戏目录或私人研究文件。
+公开站点只接收结构化资料与白名单媒体，不读取复刻工程、原始游戏目录或私人研究文件。
 
 - 数据集哈希：<code>{summary.dataset.hash}</code>
 - 角色、成长、技能、怪物、物品和炼化配方：`catalog/*.json`
 - 关卡标题、布阵、胜败、对话与战后流程：`catalog/stages.json`（原版 `Misc/STA_SCR.DAT`）、`battles/*.json`
 - 章节过场影片及其事件调用位置：`catalog/story_movies.json`（原版 `EVENT_NN.COD` 的 `0x29` 指令）
+- 音乐与关卡默认 BGM：`catalog/music.json`、`catalog/stages.json`（原版 `Music/Music_NN.mp3`、`Misc/STA_SCR.DAT`）
 - 营地：`catalog/camps.json`
-- 图片与影片：数据包中的公开白名单资源；原版 Bink MOV 由解包仓库转为浏览器可播放的 H.264/AAC MP4
+- 图片、影片与音乐：数据包中的公开白名单资源；原版 Bink MOV 由解包仓库转为浏览器可播放的 H.264/AAC MP4，音乐保持原始 MP3
 
 ## 同步方式
 
@@ -44,6 +45,7 @@ node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 | 技能 | {summary.counts.skills} |
 | 已引用章节影片 | {summary.counts.storyMovies} |
 | 章节影片事件调用 | {summary.counts.storyMovieReferences} |
+| 音乐 | {summary.counts.musicTracks} |
 | 主角可装备武器 | {summary.counts.weapons} |
 | 道具 | {summary.counts.items} |
 | 炼化配方 | {summary.counts.alchemyRecipes} |
@@ -54,4 +56,4 @@ node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 
 ## 说明
 
-角色表中的成长字段来自升级表；关卡名来自原版标题卡，玩家可见胜败条件和机器判定条件分别保留，不互相覆盖。章节影片严格按事件指令归入战前、战中、战后或条件结局；没有事件引用的影片不会凭文件编号猜测所属章节。
+角色表中的成长字段来自升级表；关卡名和默认战场音乐编号来自原版标题卡，玩家可见胜败条件和机器判定条件分别保留，不互相覆盖。章节影片严格按事件指令归入战前、战中、战后或条件结局；没有事件引用的影片不会凭文件编号猜测所属章节。原始音乐文件没有可验证的曲名标签，站点沿用 `Music_NN` 编号，不猜测原声专辑曲名与游戏文件的对应关系。

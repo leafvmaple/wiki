@@ -1,0 +1,99 @@
+---
+type MusicTrack = {
+  id: number;
+  name: string;
+  displayName: string;
+  audioPath: string;
+  durationMs?: number | null;
+  size?: number | null;
+};
+
+const { music, showCatalogLink = false } = Astro.props as {
+  music: MusicTrack;
+  showCatalogLink?: boolean;
+};
+const durationText = (milliseconds?: number | null) => {
+  const totalSeconds = Math.round((milliseconds ?? 0) / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, '0')}`;
+};
+const sizeText = (bytes?: number | null) => `${((bytes ?? 0) / 1024 / 1024).toFixed(1)} MB`;
+---
+
+<section class="tdj-music-player" aria-label={`${music.displayName} 播放器`}>
+  <div class="tdj-music-heading">
+    <span>
+      <strong>{music.displayName}</strong>
+      <small>{music.name} · {durationText(music.durationMs)} · MP3 · {sizeText(music.size)}</small>
+    </span>
+    {showCatalogLink && <a href="/games/sword-man/music/">音乐一览</a>}
+  </div>
+  <audio controls preload="none" data-tdj-music-player>
+    <source src={music.audioPath} type="audio/mpeg" />
+    当前浏览器无法播放这首 MP3 音乐。
+  </audio>
+</section>
+
+<script>
+  document.addEventListener('play', (event) => {
+    const current = event.target;
+    if (!(current instanceof HTMLAudioElement) || !current.matches('[data-tdj-music-player]')) return;
+    document.querySelectorAll<HTMLAudioElement>('audio[data-tdj-music-player]').forEach((audio) => {
+      if (audio !== current) audio.pause();
+    });
+  }, true);
+</script>
+
+<style>
+  .tdj-music-player {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.65rem;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .tdj-music-heading {
+    align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .tdj-music-heading > span {
+    display: grid;
+    gap: 0.08rem;
+  }
+
+  .tdj-music-heading strong {
+    color: var(--leaf-heading);
+  }
+
+  .tdj-music-heading small {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-music-heading a {
+    color: var(--leaf-primary-hover);
+    flex: 0 0 auto;
+    font-size: 0.84rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .tdj-music-player audio {
+    display: block;
+    height: 2.5rem;
+    width: 100%;
+  }
+
+  @media (max-width: 34rem) {
+    .tdj-music-heading {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+</style>

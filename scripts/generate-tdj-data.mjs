@@ -301,7 +301,7 @@ const main = async () => {
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, skillVisualsDb, storyMoviesDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
+  const [charactersDb, skillsDb, skillVisualsDb, storyMoviesDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb, musicDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/skill_visuals.json'),
@@ -314,6 +314,7 @@ const main = async () => {
     readJson('catalog/unit_icons.json'),
     readJson('catalog/stages.json'),
     readJson('catalog/battle_maps.json'),
+    readJson('catalog/music.json'),
   ]);
   const itemRecords = asArray(itemsDb.records);
   const itemById = new Map(itemRecords.map((record) => [record.index, record]));
@@ -330,6 +331,39 @@ const main = async () => {
     const outputName = `unit-icons/${String(categoryId).padStart(3, '0')}.png`;
     const iconPath = sourcePath ? await copyAsset(sourcePath, outputName) : null;
     if (iconPath) unitIconByCategoryId.set(categoryId, iconPath);
+  }
+
+  const musicById = new Map();
+  const musicTracks = [];
+  await fs.rm(path.join(publicAssetRoot, 'music'), { recursive: true, force: true });
+  for (const record of asArray(musicDb.records).sort((a, b) => Number(a.id) - Number(b.id))) {
+    const id = Number(record.id);
+    const sourcePath = cleanString(record.public_path);
+    const fileName = `Music_${String(id).padStart(2, '0')}.mp3`;
+    const audioPath = sourcePath ? await copyAsset(sourcePath, `music/${fileName}`) : null;
+    if (!Number.isInteger(id) || !audioPath) {
+      throw new Error(`Missing canonical music asset: ${record.name ?? id}`);
+    }
+    const media = record.media ?? {};
+    const track = {
+      id,
+      name: cleanString(record.name) ?? `Music_${String(id).padStart(2, '0')}`,
+      displayName: cleanString(record.display_name) ?? `曲目 ${String(id).padStart(2, '0')}`,
+      audioPath,
+      durationMs: Number.isFinite(Number(media.duration_ms)) ? Number(media.duration_ms) : null,
+      bitRate: Number.isFinite(Number(media.bit_rate)) ? Number(media.bit_rate) : null,
+      sampleRate: Number.isFinite(Number(media.sample_rate)) ? Number(media.sample_rate) : null,
+      channels: Number.isFinite(Number(media.channels)) ? Number(media.channels) : null,
+      codec: cleanString(media.codec) ?? 'mp3',
+      size: Number(record.size) || 0,
+      battleStages: asArray(record.battle_stages).map((stage) => ({
+        id: stage.stage_id,
+        title: cleanString(stage.stage_title) ?? stage.stage_id,
+        href: `/games/sword-man/battles/${String(stage.stage_id).toLowerCase()}/`,
+      })),
+    };
+    musicById.set(id, track);
+    musicTracks.push(track);
   }
 
   const skills = asArray(skillsDb)
@@ -871,6 +905,8 @@ const main = async () => {
     const id = `Stage${String(order).padStart(2, '0')}`;
     const stage = stageById.get(id);
     if (!stage) throw new Error(`Missing original stage title record: ${id}`);
+    const battleMusic = musicById.get(Number(stage.music_id));
+    if (!battleMusic) throw new Error(`Missing default battle music for ${id}: ${stage.music_id}`);
     const battleMap = battleMapByStageId.get(id);
     if (!battleMap) throw new Error(`Missing published battle map: ${id}`);
     const players = battle.players ?? [];
@@ -909,6 +945,14 @@ const main = async () => {
       displayTitle: cleanString(stage.title) ?? cleanString(stage.battle_title) ?? `原始标题为空（${id}）`,
       href: `/games/sword-man/battles/${id.toLowerCase()}/`,
       source: battle.source,
+      music: {
+        id: battleMusic.id,
+        name: battleMusic.name,
+        displayName: battleMusic.displayName,
+        audioPath: battleMusic.audioPath,
+        durationMs: battleMusic.durationMs,
+        size: battleMusic.size,
+      },
       map: {
         texture: battle.map?.tex ?? null,
         width: battle.map?.w ?? null,
@@ -1021,6 +1065,7 @@ const main = async () => {
       skills: skills.length,
       storyMovies: storyMovieById.size,
       storyMovieReferences: asArray(storyMoviesDb.references).length,
+      musicTracks: musicTracks.length,
       magicSkills: skills.filter((skill) => skill.kind === 'magic').length,
       physicalSkills: skills.filter((skill) => skill.kind === 'physical').length,
       monsters: monsters.length,
@@ -1046,6 +1091,7 @@ const main = async () => {
   await writeJson('skills.json', skills);
   await writeJson('monsters.json', monsters);
   await writeJson('battles.json', battles);
+  await writeJson('music.json', musicTracks);
   await writeJson('camps.json', camps);
   await writeJson('items.json', itemCatalog);
   await writeJson('alchemy.json', alchemy);
@@ -1054,7 +1100,7 @@ const main = async () => {
   await writeBattlePages(battles);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${storyMovieById.size} story movies, ${monsters.length} monsters, ${battles.length} battles/maps, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
+    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${storyMovieById.size} story movies, ${musicTracks.length} music tracks, ${monsters.length} monsters, ${battles.length} battles/maps, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
   );
 };
 

@@ -1,0 +1,479 @@
+[
+  {
+    "id": 0,
+    "name": "Music_00",
+    "displayName": "曲目 00",
+    "audioPath": "/assets/sword-man/music/Music_00.mp3",
+    "durationMs": 225646,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3610331,
+    "battleStages": [
+      {
+        "id": "Stage00",
+        "title": "第零幕 獨行",
+        "href": "/games/sword-man/battles/stage00/"
+      },
+      {
+        "id": "Stage06",
+        "title": "第六幕 亙古魂幡",
+        "href": "/games/sword-man/battles/stage06/"
+      },
+      {
+        "id": "Stage10",
+        "title": "第十幕 懸天古徑",
+        "href": "/games/sword-man/battles/stage10/"
+      },
+      {
+        "id": "Stage20",
+        "title": "第二十幕 埋伏",
+        "href": "/games/sword-man/battles/stage20/"
+      },
+      {
+        "id": "Stage35",
+        "title": "番外篇 兩百塊帝國",
+        "href": "/games/sword-man/battles/stage35/"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Music_01",
+    "displayName": "曲目 01",
+    "audioPath": "/assets/sword-man/music/Music_01.mp3",
+    "durationMs": 115749,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 1851977,
+    "battleStages": []
+  },
+  {
+    "id": 2,
+    "name": "Music_02",
+    "displayName": "曲目 02",
+    "audioPath": "/assets/sword-man/music/Music_02.mp3",
+    "durationMs": 97149,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 1554390,
+    "battleStages": [
+      {
+        "id": "Stage01",
+        "title": "第一幕 因緣",
+        "href": "/games/sword-man/battles/stage01/"
+      },
+      {
+        "id": "Stage02",
+        "title": "第二幕 紫金王鼎",
+        "href": "/games/sword-man/battles/stage02/"
+      },
+      {
+        "id": "Stage04",
+        "title": "第四幕 隱者",
+        "href": "/games/sword-man/battles/stage04/"
+      },
+      {
+        "id": "Stage11",
+        "title": "第十一幕 故人",
+        "href": "/games/sword-man/battles/stage11/"
+      },
+      {
+        "id": "Stage16",
+        "title": "第十六幕 戰陣",
+        "href": "/games/sword-man/battles/stage16/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Music_03",
+    "displayName": "曲目 03",
+    "audioPath": "/assets/sword-man/music/Music_03.mp3",
+    "durationMs": 164989,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2639830,
+    "battleStages": [
+      {
+        "id": "Stage08",
+        "title": "第八幕 殺陣",
+        "href": "/games/sword-man/battles/stage08/"
+      },
+      {
+        "id": "Stage21",
+        "title": "第二十一幕 神兵",
+        "href": "/games/sword-man/battles/stage21/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Music_05",
+    "displayName": "曲目 05",
+    "audioPath": "/assets/sword-man/music/Music_05.mp3",
+    "durationMs": 149838,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2397413,
+    "battleStages": []
+  },
+  {
+    "id": 6,
+    "name": "Music_06",
+    "displayName": "曲目 06",
+    "audioPath": "/assets/sword-man/music/Music_06.mp3",
+    "durationMs": 90802,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 1452826,
+    "battleStages": [
+      {
+        "id": "Stage03",
+        "title": "第三幕 狂劍客",
+        "href": "/games/sword-man/battles/stage03/"
+      },
+      {
+        "id": "Stage05",
+        "title": "第五幕 十方鬼眾",
+        "href": "/games/sword-man/battles/stage05/"
+      },
+      {
+        "id": "Stage14",
+        "title": "第十四幕 螢火",
+        "href": "/games/sword-man/battles/stage14/"
+      },
+      {
+        "id": "Stage26",
+        "title": "第二十五幕 宿命",
+        "href": "/games/sword-man/battles/stage26/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Music_08",
+    "displayName": "曲目 08",
+    "audioPath": "/assets/sword-man/music/Music_08.mp3",
+    "durationMs": 206289,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3300623,
+    "battleStages": [
+      {
+        "id": "Stage07",
+        "title": "第七幕 幽谷寒琴",
+        "href": "/games/sword-man/battles/stage07/"
+      },
+      {
+        "id": "Stage29",
+        "title": "第二十八幕 天琰神煌",
+        "href": "/games/sword-man/battles/stage29/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Music_10",
+    "displayName": "曲目 10",
+    "audioPath": "/assets/sword-man/music/Music_10.mp3",
+    "durationMs": 189257,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3028114,
+    "battleStages": [
+      {
+        "id": "Stage09",
+        "title": "第九幕 玄魔刻印",
+        "href": "/games/sword-man/battles/stage09/"
+      },
+      {
+        "id": "Stage15",
+        "title": "第十五幕 魔骸",
+        "href": "/games/sword-man/battles/stage15/"
+      },
+      {
+        "id": "Stage17",
+        "title": "第十七幕 祭天塔",
+        "href": "/games/sword-man/battles/stage17/"
+      },
+      {
+        "id": "Stage24",
+        "title": "第二十三幕 黃泉幽徑",
+        "href": "/games/sword-man/battles/stage24/"
+      },
+      {
+        "id": "Stage32",
+        "title": "第三十一幕 天之顛地之涯",
+        "href": "/games/sword-man/battles/stage32/"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Music_13",
+    "displayName": "曲目 13",
+    "audioPath": "/assets/sword-man/music/Music_13.mp3",
+    "durationMs": 176170,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2818716,
+    "battleStages": [
+      {
+        "id": "Stage12",
+        "title": "第十二幕 密道",
+        "href": "/games/sword-man/battles/stage12/"
+      },
+      {
+        "id": "Stage25",
+        "title": "第二十四幕 無還之道",
+        "href": "/games/sword-man/battles/stage25/"
+      },
+      {
+        "id": "Stage33",
+        "title": "第三十二幕 千幻華舞",
+        "href": "/games/sword-man/battles/stage33/"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Music_14",
+    "displayName": "曲目 14",
+    "audioPath": "/assets/sword-man/music/Music_14.mp3",
+    "durationMs": 238629,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3818057,
+    "battleStages": [
+      {
+        "id": "Stage13",
+        "title": "第十三幕 真相",
+        "href": "/games/sword-man/battles/stage13/"
+      },
+      {
+        "id": "Stage23",
+        "title": "第二十三幕 焚炎劫火",
+        "href": "/games/sword-man/battles/stage23/"
+      },
+      {
+        "id": "Stage28",
+        "title": "第二十七幕 古月",
+        "href": "/games/sword-man/battles/stage28/"
+      },
+      {
+        "id": "Stage30",
+        "title": "第二十九幕 三界之門",
+        "href": "/games/sword-man/battles/stage30/"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Music_20",
+    "displayName": "曲目 20",
+    "audioPath": "/assets/sword-man/music/Music_20.mp3",
+    "durationMs": 239046,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3824744,
+    "battleStages": [
+      {
+        "id": "Stage18",
+        "title": "第十八幕 千魔嘯夜",
+        "href": "/games/sword-man/battles/stage18/"
+      },
+      {
+        "id": "Stage22",
+        "title": "第二十二幕 突圍",
+        "href": "/games/sword-man/battles/stage22/"
+      },
+      {
+        "id": "Stage27",
+        "title": "第二十六幕 劍與非劍",
+        "href": "/games/sword-man/battles/stage27/"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Music_32",
+    "displayName": "曲目 32",
+    "audioPath": "/assets/sword-man/music/Music_32.mp3",
+    "durationMs": 290011,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 4640182,
+    "battleStages": [
+      {
+        "id": "Stage31",
+        "title": "第三十幕 無幻剎那",
+        "href": "/games/sword-man/battles/stage31/"
+      },
+      {
+        "id": "Stage34",
+        "title": "第三十三幕 冰嶽絕劍",
+        "href": "/games/sword-man/battles/stage34/"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Music_36",
+    "displayName": "曲目 36",
+    "audioPath": "/assets/sword-man/music/Music_36.mp3",
+    "durationMs": 143673,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2298775,
+    "battleStages": [
+      {
+        "id": "Stage19",
+        "title": "第十九幕 飛天",
+        "href": "/games/sword-man/battles/stage19/"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Music_39",
+    "displayName": "曲目 39",
+    "audioPath": "/assets/sword-man/music/Music_39.mp3",
+    "durationMs": 135549,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2168790,
+    "battleStages": []
+  },
+  {
+    "id": 40,
+    "name": "Music_40",
+    "displayName": "曲目 40",
+    "audioPath": "/assets/sword-man/music/Music_40.mp3",
+    "durationMs": 86909,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 1390550,
+    "battleStages": []
+  },
+  {
+    "id": 41,
+    "name": "Music_41",
+    "displayName": "曲目 41",
+    "audioPath": "/assets/sword-man/music/Music_41.mp3",
+    "durationMs": 75259,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 1204140,
+    "battleStages": []
+  },
+  {
+    "id": 44,
+    "name": "Music_44",
+    "displayName": "曲目 44",
+    "audioPath": "/assets/sword-man/music/Music_44.mp3",
+    "durationMs": 203416,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3254648,
+    "battleStages": []
+  },
+  {
+    "id": 46,
+    "name": "Music_46",
+    "displayName": "曲目 46",
+    "audioPath": "/assets/sword-man/music/Music_46.mp3",
+    "durationMs": 187794,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3004708,
+    "battleStages": []
+  },
+  {
+    "id": 50,
+    "name": "Music_50",
+    "displayName": "曲目 50",
+    "audioPath": "/assets/sword-man/music/Music_50.mp3",
+    "durationMs": 28630,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 458083,
+    "battleStages": []
+  },
+  {
+    "id": 60,
+    "name": "Music_60",
+    "displayName": "曲目 60",
+    "audioPath": "/assets/sword-man/music/Music_60.mp3",
+    "durationMs": 2691,
+    "bitRate": 127999,
+    "sampleRate": 22050,
+    "channels": 1,
+    "codec": "mp3",
+    "size": 43049,
+    "battleStages": []
+  },
+  {
+    "id": 61,
+    "name": "Music_61",
+    "displayName": "曲目 61",
+    "audioPath": "/assets/sword-man/music/Music_61.mp3",
+    "durationMs": 194142,
+    "bitRate": 128000,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 3106272,
+    "battleStages": []
+  },
+  {
+    "id": 62,
+    "name": "Music_62",
+    "displayName": "曲目 62",
+    "audioPath": "/assets/sword-man/music/Music_62.mp3",
+    "durationMs": 177032,
+    "bitRate": 127999,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "size": 2832509,
+    "battleStages": []
+  }
+]
