@@ -213,7 +213,7 @@ const main = async () => {
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb] = await Promise.all([
+  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/monsters.json'),
@@ -223,6 +223,7 @@ const main = async () => {
     readJson('catalog/alchemy.json'),
     readJson('catalog/unit_icons.json'),
     readJson('catalog/stages.json'),
+    readJson('catalog/battle_maps.json'),
   ]);
   const itemRecords = asArray(itemsDb.records);
   const itemById = new Map(itemRecords.map((record) => [record.index, record]));
@@ -434,6 +435,23 @@ const main = async () => {
       abilities: monster.abilities,
     }));
 
+  const battleMapByStageId = new Map();
+  await fs.rm(path.join(publicAssetRoot, 'battle-maps'), { recursive: true, force: true });
+  for (const record of asArray(battleMapsDb.records).sort((a, b) => stageNumber(a.stage_id) - stageNumber(b.stage_id))) {
+    const stageId = cleanString(record.stage_id);
+    const sourcePath = cleanString(record.path);
+    if (!stageId || !sourcePath) throw new Error('Invalid canonical battle map record');
+    const outputName = `battle-maps/${stageId.toLowerCase()}.png`;
+    const imagePath = await copyAsset(sourcePath, outputName);
+    if (!imagePath) throw new Error(`Missing canonical battle map asset: ${stageId}`);
+    battleMapByStageId.set(stageId, {
+      imagePath,
+      width: Number(record.width),
+      height: Number(record.height),
+      kind: record.kind,
+    });
+  }
+
   const stageById = new Map(asArray(stagesDb.records).map((stage) => [stage.stage_id, stage]));
   const unitCategoryByType = new Map(
     asArray(monstersDb).map((unit) => [Number(unit.index), Number(unit.category_id)]),
@@ -503,7 +521,7 @@ const main = async () => {
       };
     });
   };
-  const conditionRows = (rules, units, side) => {
+  const judgeConditionRows = (rules, units, side) => {
     const unitById = new Map(units.map((unit) => [unit.idx, unit]));
     return (rules ?? [])
       .filter((rule) => rule.rule_name !== 'none')
@@ -530,6 +548,8 @@ const main = async () => {
     const id = `Stage${String(order).padStart(2, '0')}`;
     const stage = stageById.get(id);
     if (!stage) throw new Error(`Missing original stage title record: ${id}`);
+    const battleMap = battleMapByStageId.get(id);
+    if (!battleMap) throw new Error(`Missing published battle map: ${id}`);
     const players = battle.players ?? [];
     const enemies = battle.enemies ?? [];
     const combatPlayers = players.filter((unit) => unit.combatant !== false);
@@ -547,10 +567,12 @@ const main = async () => {
       order,
       file,
       title: cleanString(stage.title),
+      battleTitle: cleanString(stage.battle_title),
       chapterLabel: cleanString(stage.chapter_label),
       name: cleanString(stage.name),
+      battleName: cleanString(stage.battle_name),
       titleStatus: stage.status,
-      displayTitle: cleanString(stage.title) ?? `原始标题为空（${id}）`,
+      displayTitle: cleanString(stage.title) ?? cleanString(stage.battle_title) ?? `原始标题为空（${id}）`,
       href: `/games/sword-man/battles/${id.toLowerCase()}/`,
       source: battle.source,
       map: {
@@ -564,6 +586,10 @@ const main = async () => {
         walkableCount: battle.map?.w && battle.map?.h
           ? battle.map.w * battle.map.h - (battle.map?.blocked?.length ?? 0)
           : null,
+        imagePath: battleMap.imagePath,
+        imageWidth: battleMap.width,
+        imageHeight: battleMap.height,
+        imageKind: battleMap.kind,
       },
       playerCount: players.length,
       combatPlayerCount: combatPlayers.length,
@@ -582,8 +608,16 @@ const main = async () => {
       topEnemies,
       playerRoster: rosterGroups(players),
       enemyRoster: rosterGroups(enemies),
-      winConditions: conditionRows(battle.judge?.win, enemies, 'win'),
-      loseConditions: conditionRows(battle.judge?.lose, players, 'lose'),
+      winConditions: asArray(stage.victory_conditions).map((description) => ({
+        description,
+        source: 'SDES',
+      })),
+      loseConditions: asArray(stage.defeat_conditions).map((description) => ({
+        description,
+        source: 'SDES',
+      })),
+      judgeWinConditions: judgeConditionRows(battle.judge?.win, enemies, 'win'),
+      judgeLoseConditions: judgeConditionRows(battle.judge?.lose, players, 'lose'),
       transition: {
         decoded: Boolean(battle.transition && Object.keys(battle.transition).length),
         town: Number.isInteger(battle.transition?.town) && battle.transition.town >= 0 ? battle.transition.town : null,
@@ -651,6 +685,7 @@ const main = async () => {
       physicalSkills: skills.filter((skill) => skill.kind === 'physical').length,
       monsters: monsters.length,
       battles: battles.length,
+      battleMaps: battleMapByStageId.size,
       camps: camps.length,
       campImages: camps.filter((camp) => camp.imagePath).length,
       unitIcons: unitIconByCategoryId.size,
@@ -678,7 +713,7 @@ const main = async () => {
   await writeBattlePages(battles);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
+    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles/maps, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
   );
 };
 

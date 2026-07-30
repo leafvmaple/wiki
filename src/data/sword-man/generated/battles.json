@@ -4,8 +4,10 @@
     "order": 0,
     "file": "Stage00.json",
     "title": "第零幕 獨行",
+    "battleTitle": "第零幕 獨行",
     "chapterLabel": "第零幕",
     "name": "獨行",
+    "battleName": "獨行",
     "titleStatus": "confirmed",
     "displayTitle": "第零幕 獨行",
     "href": "/games/sword-man/battles/stage00/",
@@ -18,7 +20,11 @@
       "cellHeight": 24,
       "area": 384,
       "blockedCount": 177,
-      "walkableCount": 207
+      "walkableCount": 207,
+      "imagePath": "/assets/sword-man/battle-maps/stage00.png",
+      "imageWidth": 720,
+      "imageHeight": 384,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 3,
     "combatPlayerCount": 2,
@@ -273,6 +279,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "應奉仁死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -281,7 +299,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": 0,
@@ -296,8 +314,10 @@
     "order": 1,
     "file": "Stage01.json",
     "title": "第一幕 因緣",
+    "battleTitle": "第一幕 因緣",
     "chapterLabel": "第一幕",
     "name": "因緣",
+    "battleName": "因緣",
     "titleStatus": "confirmed",
     "displayTitle": "第一幕 因緣",
     "href": "/games/sword-man/battles/stage01/",
@@ -310,7 +330,11 @@
       "cellHeight": 24,
       "area": 957,
       "blockedCount": 664,
-      "walkableCount": 293
+      "walkableCount": 293,
+      "imagePath": "/assets/sword-man/battle-maps/stage01.png",
+      "imageWidth": 990,
+      "imageHeight": 696,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 4,
     "combatPlayerCount": 2,
@@ -630,6 +654,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -638,7 +674,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -653,8 +689,10 @@
     "order": 2,
     "file": "Stage02.json",
     "title": "第二幕 紫金王鼎",
+    "battleTitle": "第二幕 紫金王鼎",
     "chapterLabel": "第二幕",
     "name": "紫金王鼎",
+    "battleName": "紫金王鼎",
     "titleStatus": "confirmed",
     "displayTitle": "第二幕 紫金王鼎",
     "href": "/games/sword-man/battles/stage02/",
@@ -667,7 +705,11 @@
       "cellHeight": 24,
       "area": 567,
       "blockedCount": 159,
-      "walkableCount": 408
+      "walkableCount": 408,
+      "imagePath": "/assets/sword-man/battle-maps/stage02.png",
+      "imageWidth": 810,
+      "imageHeight": 504,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 3,
     "combatPlayerCount": 2,
@@ -1062,8 +1104,20 @@
         ]
       }
     ],
-    "winConditions": [],
+    "winConditions": [
+      {
+        "description": "擊退高世津",
+        "source": "SDES"
+      }
+    ],
     "loseConditions": [
+      {
+        "description": "殷劍平或封寒月任一死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -1095,8 +1149,10 @@
     "order": 3,
     "file": "Stage03.json",
     "title": "第三幕 狂劍客",
+    "battleTitle": "第三幕 狂劍客",
     "chapterLabel": "第三幕",
     "name": "狂劍客",
+    "battleName": "狂劍客",
     "titleStatus": "confirmed",
     "displayTitle": "第三幕 狂劍客",
     "href": "/games/sword-man/battles/stage03/",
@@ -1109,7 +1165,11 @@
       "cellHeight": 24,
       "area": 925,
       "blockedCount": 672,
-      "walkableCount": 253
+      "walkableCount": 253,
+      "imagePath": "/assets/sword-man/battle-maps/stage03.png",
+      "imageWidth": 750,
+      "imageHeight": 888,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 10,
@@ -1674,6 +1734,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或上官遠任一死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -1682,7 +1754,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -1722,8 +1794,10 @@
     "order": 4,
     "file": "Stage04.json",
     "title": "第四幕 隱者",
+    "battleTitle": "第四幕 隱者",
     "chapterLabel": "第四幕",
     "name": "隱者",
+    "battleName": "隱者",
     "titleStatus": "confirmed",
     "displayTitle": "第四幕 隱者",
     "href": "/games/sword-man/battles/stage04/",
@@ -1736,7 +1810,11 @@
       "cellHeight": 24,
       "area": 840,
       "blockedCount": 521,
-      "walkableCount": 319
+      "walkableCount": 319,
+      "imagePath": "/assets/sword-man/battle-maps/stage04.png",
+      "imageWidth": 900,
+      "imageHeight": 672,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 6,
     "combatPlayerCount": 4,
@@ -2376,8 +2454,20 @@
         ]
       }
     ],
-    "winConditions": [],
+    "winConditions": [
+      {
+        "description": "擊退妖女？",
+        "source": "SDES"
+      }
+    ],
     "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -2409,8 +2499,10 @@
     "order": 5,
     "file": "Stage05.json",
     "title": "第五幕 十方鬼眾",
+    "battleTitle": "第五幕 十方鬼眾",
     "chapterLabel": "第五幕",
     "name": "十方鬼眾",
+    "battleName": "十方鬼眾",
     "titleStatus": "confirmed",
     "displayTitle": "第五幕 十方鬼眾",
     "href": "/games/sword-man/battles/stage05/",
@@ -2423,7 +2515,11 @@
       "cellHeight": 24,
       "area": 999,
       "blockedCount": 669,
-      "walkableCount": 330
+      "walkableCount": 330,
+      "imagePath": "/assets/sword-man/battle-maps/stage05.png",
+      "imageWidth": 810,
+      "imageHeight": 888,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 5,
     "combatPlayerCount": 4,
@@ -3177,6 +3273,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -3185,7 +3293,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -3217,8 +3325,10 @@
     "order": 6,
     "file": "Stage06.json",
     "title": "第六幕 亙古魂幡",
+    "battleTitle": "第六幕 亙古魂幡",
     "chapterLabel": "第六幕",
     "name": "亙古魂幡",
+    "battleName": "亙古魂幡",
     "titleStatus": "confirmed",
     "displayTitle": "第六幕 亙古魂幡",
     "href": "/games/sword-man/battles/stage06/",
@@ -3231,7 +3341,11 @@
       "cellHeight": 24,
       "area": 680,
       "blockedCount": 423,
-      "walkableCount": 257
+      "walkableCount": 257,
+      "imagePath": "/assets/sword-man/battle-maps/stage06.png",
+      "imageWidth": 1020,
+      "imageHeight": 480,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 5,
     "combatPlayerCount": 4,
@@ -3893,6 +4007,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或鮮于超死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -3901,7 +4027,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -3941,8 +4067,10 @@
     "order": 7,
     "file": "Stage07.json",
     "title": "第七幕 幽谷寒琴",
+    "battleTitle": "第七幕 幽谷寒琴",
     "chapterLabel": "第七幕",
     "name": "幽谷寒琴",
+    "battleName": "幽谷寒琴",
     "titleStatus": "confirmed",
     "displayTitle": "第七幕 幽谷寒琴",
     "href": "/games/sword-man/battles/stage07/",
@@ -3955,7 +4083,11 @@
       "cellHeight": 24,
       "area": 726,
       "blockedCount": 370,
-      "walkableCount": 356
+      "walkableCount": 356,
+      "imagePath": "/assets/sword-man/battle-maps/stage07.png",
+      "imageWidth": 990,
+      "imageHeight": 528,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 6,
     "combatPlayerCount": 5,
@@ -4728,6 +4860,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "紫楓、殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -4736,7 +4880,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -4776,8 +4920,10 @@
     "order": 8,
     "file": "Stage08.json",
     "title": "第八幕 殺陣",
+    "battleTitle": "第八幕 殺陣",
     "chapterLabel": "第八幕",
     "name": "殺陣",
+    "battleName": "殺陣",
     "titleStatus": "confirmed",
     "displayTitle": "第八幕 殺陣",
     "href": "/games/sword-man/battles/stage08/",
@@ -4790,7 +4936,11 @@
       "cellHeight": 24,
       "area": 1600,
       "blockedCount": 1179,
-      "walkableCount": 421
+      "walkableCount": 421,
+      "imagePath": "/assets/sword-man/battle-maps/stage08.png",
+      "imageWidth": 1200,
+      "imageHeight": 960,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 7,
     "combatPlayerCount": 6,
@@ -5621,6 +5771,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒朱慎",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 2,
         "ruleName": "kill_one",
         "unitId": 29,
@@ -5629,7 +5791,7 @@
         "description": "击败朱慎"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -5661,8 +5823,10 @@
     "order": 9,
     "file": "STAGE09.json",
     "title": "第九幕 玄魔刻印",
+    "battleTitle": "第九幕 玄魔刻印",
     "chapterLabel": "第九幕",
     "name": "玄魔刻印",
+    "battleName": "玄魔刻印",
     "titleStatus": "confirmed",
     "displayTitle": "第九幕 玄魔刻印",
     "href": "/games/sword-man/battles/stage09/",
@@ -5675,7 +5839,11 @@
       "cellHeight": 24,
       "area": 740,
       "blockedCount": 403,
-      "walkableCount": 337
+      "walkableCount": 337,
+      "imagePath": "/assets/sword-man/battle-maps/stage09.png",
+      "imageWidth": 600,
+      "imageHeight": 888,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 7,
     "combatPlayerCount": 6,
@@ -6453,6 +6621,18 @@
     ],
     "winConditions": [
       {
+        "description": "鄲陰之外敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平，封寒月或真胤死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": 29,
@@ -6461,7 +6641,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -6493,8 +6673,10 @@
     "order": 10,
     "file": "STAGE10.json",
     "title": "第十幕 懸天古徑",
+    "battleTitle": "第十幕 懸天古徑",
     "chapterLabel": "第十幕",
     "name": "懸天古徑",
+    "battleName": "懸天古徑",
     "titleStatus": "confirmed",
     "displayTitle": "第十幕 懸天古徑",
     "href": "/games/sword-man/battles/stage10/",
@@ -6507,7 +6689,11 @@
       "cellHeight": 24,
       "area": 765,
       "blockedCount": 573,
-      "walkableCount": 192
+      "walkableCount": 192,
+      "imagePath": "/assets/sword-man/battle-maps/stage10.png",
+      "imageWidth": 1350,
+      "imageHeight": 408,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 8,
     "combatPlayerCount": 6,
@@ -7440,6 +7626,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -7448,7 +7646,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -7480,8 +7678,10 @@
     "order": 11,
     "file": "STAGE11.json",
     "title": "第十一幕 故人",
+    "battleTitle": "第十幕 故人",
     "chapterLabel": "第十一幕",
     "name": "故人",
+    "battleName": "故人",
     "titleStatus": "confirmed",
     "displayTitle": "第十一幕 故人",
     "href": "/games/sword-man/battles/stage11/",
@@ -7494,7 +7694,11 @@
       "cellHeight": 24,
       "area": 1012,
       "blockedCount": 646,
-      "walkableCount": 366
+      "walkableCount": 366,
+      "imagePath": "/assets/sword-man/battle-maps/stage11.png",
+      "imageWidth": 660,
+      "imageHeight": 1104,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 15,
     "combatPlayerCount": 13,
@@ -8263,6 +8467,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平, 封寒月或應奉仁其中之一死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -8271,7 +8487,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -8303,8 +8519,10 @@
     "order": 12,
     "file": "STAGE12.json",
     "title": "第十二幕 密道",
+    "battleTitle": "第十二幕 密道",
     "chapterLabel": "第十二幕",
     "name": "密道",
+    "battleName": "密道",
     "titleStatus": "confirmed",
     "displayTitle": "第十二幕 密道",
     "href": "/games/sword-man/battles/stage12/",
@@ -8317,7 +8535,11 @@
       "cellHeight": 24,
       "area": 1395,
       "blockedCount": 995,
-      "walkableCount": 400
+      "walkableCount": 400,
+      "imagePath": "/assets/sword-man/battle-maps/stage12.png",
+      "imageWidth": 930,
+      "imageHeight": 1080,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 8,
     "combatPlayerCount": 7,
@@ -9068,6 +9290,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒韓千秀",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月死亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -9076,7 +9310,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -9108,8 +9342,10 @@
     "order": 13,
     "file": "Stage13.json",
     "title": "第十三幕 真相",
+    "battleTitle": "第十三幕 九曜之廳",
     "chapterLabel": "第十三幕",
     "name": "真相",
+    "battleName": "九曜之廳",
     "titleStatus": "confirmed",
     "displayTitle": "第十三幕 真相",
     "href": "/games/sword-man/battles/stage13/",
@@ -9122,7 +9358,11 @@
       "cellHeight": 24,
       "area": 825,
       "blockedCount": 524,
-      "walkableCount": 301
+      "walkableCount": 301,
+      "imagePath": "/assets/sword-man/battle-maps/stage13.png",
+      "imageWidth": 750,
+      "imageHeight": 792,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 36,
     "combatPlayerCount": 7,
@@ -10453,8 +10693,20 @@
         ]
       }
     ],
-    "winConditions": [],
+    "winConditions": [
+      {
+        "description": "擊倒靈山老人",
+        "source": "SDES"
+      }
+    ],
     "loseConditions": [
+      {
+        "description": "封寒月或殷劍平陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -10486,8 +10738,10 @@
     "order": 14,
     "file": "Stage14.json",
     "title": "第十四幕 螢火",
+    "battleTitle": "第十四幕 螢火",
     "chapterLabel": "第十四幕",
     "name": "螢火",
+    "battleName": "螢火",
     "titleStatus": "confirmed",
     "displayTitle": "第十四幕 螢火",
     "href": "/games/sword-man/battles/stage14/",
@@ -10500,7 +10754,11 @@
       "cellHeight": 24,
       "area": 850,
       "blockedCount": 490,
-      "walkableCount": 360
+      "walkableCount": 360,
+      "imagePath": "/assets/sword-man/battle-maps/stage14.png",
+      "imageWidth": 510,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 7,
@@ -11424,6 +11682,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒高戚",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "封寒月、殷劍平或燕明蓉陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -11432,7 +11702,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -11472,8 +11742,10 @@
     "order": 15,
     "file": "Stage15.json",
     "title": "第十五幕 魔骸",
+    "battleTitle": "第十五幕 魔骸",
     "chapterLabel": "第十五幕",
     "name": "魔骸",
+    "battleName": "魔骸",
     "titleStatus": "confirmed",
     "displayTitle": "第十五幕 魔骸",
     "href": "/games/sword-man/battles/stage15/",
@@ -11486,7 +11758,11 @@
       "cellHeight": 24,
       "area": 1500,
       "blockedCount": 1010,
-      "walkableCount": 490
+      "walkableCount": 490,
+      "imagePath": "/assets/sword-man/battle-maps/stage15.png",
+      "imageWidth": 900,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 8,
@@ -12518,8 +12794,20 @@
         ]
       }
     ],
-    "winConditions": [],
+    "winConditions": [
+      {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
     "loseConditions": [
+      {
+        "description": "封寒月、殷劍平或紫楓陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -12559,8 +12847,10 @@
     "order": 16,
     "file": "Stage16.json",
     "title": "第十六幕 戰陣",
+    "battleTitle": "第十六幕 戰陣",
     "chapterLabel": "第十六幕",
     "name": "戰陣",
+    "battleName": "戰陣",
     "titleStatus": "confirmed",
     "displayTitle": "第十六幕 戰陣",
     "href": "/games/sword-man/battles/stage16/",
@@ -12573,7 +12863,11 @@
       "cellHeight": 24,
       "area": 1127,
       "blockedCount": 486,
-      "walkableCount": 641
+      "walkableCount": 641,
+      "imagePath": "/assets/sword-man/battle-maps/stage16.png",
+      "imageWidth": 690,
+      "imageHeight": 1176,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 22,
     "combatPlayerCount": 21,
@@ -13790,6 +14084,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月、上官遠或禁軍陣亡六人以上",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -13798,7 +14104,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": 19,
@@ -13813,8 +14119,10 @@
     "order": 17,
     "file": "Stage17.json",
     "title": "第十七幕 祭天塔",
+    "battleTitle": "第十七幕 祭天塔",
     "chapterLabel": "第十七幕",
     "name": "祭天塔",
+    "battleName": "祭天塔",
     "titleStatus": "confirmed",
     "displayTitle": "第十七幕 祭天塔",
     "href": "/games/sword-man/battles/stage17/",
@@ -13827,7 +14135,11 @@
       "cellHeight": 24,
       "area": 2046,
       "blockedCount": 1041,
-      "walkableCount": 1005
+      "walkableCount": 1005,
+      "imagePath": "/assets/sword-man/battle-maps/stage17.png",
+      "imageWidth": 660,
+      "imageHeight": 2232,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 10,
@@ -14856,6 +15168,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或上官遠陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -14864,7 +15188,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -14904,8 +15228,10 @@
     "order": 18,
     "file": "Stage18.json",
     "title": "第十八幕 千魔嘯夜",
+    "battleTitle": "第十八幕 千魔嘯夜",
     "chapterLabel": "第十八幕",
     "name": "千魔嘯夜",
+    "battleName": "千魔嘯夜",
     "titleStatus": "confirmed",
     "displayTitle": "第十八幕 千魔嘯夜",
     "href": "/games/sword-man/battles/stage18/",
@@ -14918,7 +15244,11 @@
       "cellHeight": 24,
       "area": 1700,
       "blockedCount": 1282,
-      "walkableCount": 418
+      "walkableCount": 418,
+      "imagePath": "/assets/sword-man/battle-maps/stage18.png",
+      "imageWidth": 1020,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 10,
     "combatPlayerCount": 9,
@@ -16121,6 +16451,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或紫楓陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -16129,7 +16471,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -16169,8 +16511,10 @@
     "order": 19,
     "file": "Stage19.json",
     "title": "第十九幕 飛天",
+    "battleTitle": "第十九幕 飛天",
     "chapterLabel": "第十九幕",
     "name": "飛天",
+    "battleName": "飛天",
     "titleStatus": "confirmed",
     "displayTitle": "第十九幕 飛天",
     "href": "/games/sword-man/battles/stage19/",
@@ -16183,7 +16527,11 @@
       "cellHeight": 24,
       "area": 600,
       "blockedCount": 97,
-      "walkableCount": 503
+      "walkableCount": 503,
+      "imagePath": "/assets/sword-man/battle-maps/stage19.png",
+      "imageWidth": 1200,
+      "imageHeight": 360,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 10,
@@ -17154,6 +17502,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒黑龍解臾",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或紫楓陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 2,
         "ruleName": "kill_one",
         "unitId": 46,
@@ -17162,7 +17522,7 @@
         "description": "击败黑龍解臾"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -17202,8 +17562,10 @@
     "order": 20,
     "file": "Stage20.json",
     "title": "第二十幕 埋伏",
+    "battleTitle": "第二十幕 埋伏",
     "chapterLabel": "第二十幕",
     "name": "埋伏",
+    "battleName": "埋伏",
     "titleStatus": "confirmed",
     "displayTitle": "第二十幕 埋伏",
     "href": "/games/sword-man/battles/stage20/",
@@ -17216,7 +17578,11 @@
       "cellHeight": 24,
       "area": 825,
       "blockedCount": 522,
-      "walkableCount": 303
+      "walkableCount": 303,
+      "imagePath": "/assets/sword-man/battle-maps/stage20.png",
+      "imageWidth": 750,
+      "imageHeight": 792,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 9,
@@ -18505,6 +18871,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -18513,7 +18891,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -18528,8 +18906,10 @@
     "order": 21,
     "file": "Stage21.json",
     "title": "第二十一幕 神兵",
+    "battleTitle": "第二十一幕 神兵",
     "chapterLabel": "第二十一幕",
     "name": "神兵",
+    "battleName": "神兵",
     "titleStatus": "confirmed",
     "displayTitle": "第二十一幕 神兵",
     "href": "/games/sword-man/battles/stage21/",
@@ -18542,7 +18922,11 @@
       "cellHeight": 24,
       "area": 1710,
       "blockedCount": 1305,
-      "walkableCount": 405
+      "walkableCount": 405,
+      "imagePath": "/assets/sword-man/battle-maps/stage21.png",
+      "imageWidth": 1140,
+      "imageHeight": 1080,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 10,
     "combatPlayerCount": 9,
@@ -19695,6 +20079,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -19703,7 +20099,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -19735,8 +20131,10 @@
     "order": 22,
     "file": "Stage22.json",
     "title": "第二十二幕 突圍",
+    "battleTitle": "第二十二幕 突圍",
     "chapterLabel": "第二十二幕",
     "name": "突圍",
+    "battleName": "突圍",
     "titleStatus": "confirmed",
     "displayTitle": "第二十二幕 突圍",
     "href": "/games/sword-man/battles/stage22/",
@@ -19749,7 +20147,11 @@
       "cellHeight": 24,
       "area": 1395,
       "blockedCount": 995,
-      "walkableCount": 400
+      "walkableCount": 400,
+      "imagePath": "/assets/sword-man/battle-maps/stage22.png",
+      "imageWidth": 930,
+      "imageHeight": 1080,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 10,
     "combatPlayerCount": 9,
@@ -20725,6 +21127,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒韓無砂",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 2,
         "ruleName": "kill_one",
         "unitId": 44,
@@ -20733,7 +21147,7 @@
         "description": "击败韓無砂"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -20765,8 +21179,10 @@
     "order": 23,
     "file": "Stage23.json",
     "title": "第二十三幕 焚炎劫火",
+    "battleTitle": "第二十三幕 焚炎劫火",
     "chapterLabel": "第二十三幕",
     "name": "焚炎劫火",
+    "battleName": "焚炎劫火",
     "titleStatus": "confirmed",
     "displayTitle": "第二十三幕 焚炎劫火",
     "href": "/games/sword-man/battles/stage23/",
@@ -20779,7 +21195,11 @@
       "cellHeight": 24,
       "area": 1160,
       "blockedCount": 818,
-      "walkableCount": 342
+      "walkableCount": 342,
+      "imagePath": "/assets/sword-man/battle-maps/stage23.png",
+      "imageWidth": 1200,
+      "imageHeight": 696,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 9,
@@ -21650,6 +22070,22 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      },
+      {
+        "description": "超過三十四回合",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -21658,7 +22094,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -21690,8 +22126,10 @@
     "order": 24,
     "file": "Stage24.json",
     "title": "第二十三幕 黃泉幽徑",
+    "battleTitle": "第二十三幕 黃泉幽徑",
     "chapterLabel": "第二十三幕",
     "name": "黃泉幽徑",
+    "battleName": "黃泉幽徑",
     "titleStatus": "confirmed",
     "displayTitle": "第二十三幕 黃泉幽徑",
     "href": "/games/sword-man/battles/stage24/",
@@ -21704,7 +22142,11 @@
       "cellHeight": 24,
       "area": 1750,
       "blockedCount": 1389,
-      "walkableCount": 361
+      "walkableCount": 361,
+      "imagePath": "/assets/sword-man/battle-maps/stage24.png",
+      "imageWidth": 750,
+      "imageHeight": 1680,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 9,
@@ -22523,8 +22965,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "我方全員從戰場右下角脫離",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -22539,8 +22993,10 @@
     "order": 25,
     "file": "Stage25.json",
     "title": "第二十四幕 無還之道",
+    "battleTitle": "第二十四幕 無還之道",
     "chapterLabel": "第二十四幕",
     "name": "無還之道",
+    "battleName": "無還之道",
     "titleStatus": "confirmed",
     "displayTitle": "第二十四幕 無還之道",
     "href": "/games/sword-man/battles/stage25/",
@@ -22553,7 +23009,11 @@
       "cellHeight": 24,
       "area": 2100,
       "blockedCount": 1669,
-      "walkableCount": 431
+      "walkableCount": 431,
+      "imagePath": "/assets/sword-man/battle-maps/stage25.png",
+      "imageWidth": 900,
+      "imageHeight": 1680,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 9,
@@ -23424,6 +23884,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或紫楓陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -23432,7 +23904,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",
@@ -23472,8 +23944,10 @@
     "order": 26,
     "file": "Stage26.json",
     "title": "第二十五幕 宿命",
+    "battleTitle": "第二十五幕 宿命",
     "chapterLabel": "第二十五幕",
     "name": "宿命",
+    "battleName": "宿命",
     "titleStatus": "confirmed",
     "displayTitle": "第二十五幕 宿命",
     "href": "/games/sword-man/battles/stage26/",
@@ -23486,7 +23960,11 @@
       "cellHeight": 24,
       "area": 1350,
       "blockedCount": 1105,
-      "walkableCount": 245
+      "walkableCount": 245,
+      "imagePath": "/assets/sword-man/battle-maps/stage26.png",
+      "imageWidth": 1350,
+      "imageHeight": 720,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 9,
     "combatPlayerCount": 8,
@@ -24573,6 +25051,22 @@
     ],
     "winConditions": [
       {
+        "description": "我方全員越過左方劍陣",
+        "source": "SDES"
+      },
+      {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -24581,7 +25075,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -24596,8 +25090,10 @@
     "order": 27,
     "file": "Stage27.json",
     "title": "第二十六幕 劍與非劍",
+    "battleTitle": "第二十六幕 劍與非劍",
     "chapterLabel": "第二十六幕",
     "name": "劍與非劍",
+    "battleName": "劍與非劍",
     "titleStatus": "confirmed",
     "displayTitle": "第二十六幕 劍與非劍",
     "href": "/games/sword-man/battles/stage27/",
@@ -24610,7 +25106,11 @@
       "cellHeight": 24,
       "area": 1176,
       "blockedCount": 906,
-      "walkableCount": 270
+      "walkableCount": 270,
+      "imagePath": "/assets/sword-man/battle-maps/stage27.png",
+      "imageWidth": 840,
+      "imageHeight": 1008,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 12,
     "combatPlayerCount": 12,
@@ -25216,8 +25716,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "擊倒劍聖真身",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -25232,8 +25744,10 @@
     "order": 28,
     "file": "Stage28.json",
     "title": "第二十七幕 古月",
+    "battleTitle": "第二十七幕 古月",
     "chapterLabel": "第二十七幕",
     "name": "古月",
+    "battleName": "古月",
     "titleStatus": "confirmed",
     "displayTitle": "第二十七幕 古月",
     "href": "/games/sword-man/battles/stage28/",
@@ -25246,7 +25760,11 @@
       "cellHeight": 24,
       "area": 2400,
       "blockedCount": 1958,
-      "walkableCount": 442
+      "walkableCount": 442,
+      "imagePath": "/assets/sword-man/battle-maps/stage28.png",
+      "imageWidth": 1200,
+      "imageHeight": 1440,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 8,
     "combatPlayerCount": 8,
@@ -26143,8 +26661,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "擊倒蚩尤化的封寒月",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -26159,8 +26689,10 @@
     "order": 29,
     "file": "Stage29.json",
     "title": "第二十八幕 天琰神煌",
+    "battleTitle": "第二十八幕 天琰神煌",
     "chapterLabel": "第二十八幕",
     "name": "天琰神煌",
+    "battleName": "天琰神煌",
     "titleStatus": "confirmed",
     "displayTitle": "第二十八幕 天琰神煌",
     "href": "/games/sword-man/battles/stage29/",
@@ -26173,7 +26705,11 @@
       "cellHeight": 24,
       "area": 1302,
       "blockedCount": 1302,
-      "walkableCount": 0
+      "walkableCount": 0,
+      "imagePath": "/assets/sword-man/battle-maps/stage29.png",
+      "imageWidth": 930,
+      "imageHeight": 1008,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 13,
     "combatPlayerCount": 11,
@@ -27407,6 +27943,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒冥皇鄲陰",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 2,
         "ruleName": "kill_one",
         "unitId": 56,
@@ -27415,7 +27963,7 @@
         "description": "击败鄲陰"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -27430,8 +27978,10 @@
     "order": 30,
     "file": "Stage30.json",
     "title": "第二十九幕 三界之門",
+    "battleTitle": "第二十九幕 三界之門",
     "chapterLabel": "第二十九幕",
     "name": "三界之門",
+    "battleName": "三界之門",
     "titleStatus": "confirmed",
     "displayTitle": "第二十九幕 三界之門",
     "href": "/games/sword-man/battles/stage30/",
@@ -27444,7 +27994,11 @@
       "cellHeight": 24,
       "area": 1300,
       "blockedCount": 1299,
-      "walkableCount": 1
+      "walkableCount": 1,
+      "imagePath": "/assets/sword-man/battle-maps/stage30.png",
+      "imageWidth": 780,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 10,
@@ -28518,8 +29072,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -28534,8 +29100,10 @@
     "order": 31,
     "file": "Stage31.json",
     "title": "第三十幕 無幻剎那",
+    "battleTitle": "第三十幕 無幻剎那",
     "chapterLabel": "第三十幕",
     "name": "無幻剎那",
+    "battleName": "無幻剎那",
     "titleStatus": "confirmed",
     "displayTitle": "第三十幕 無幻剎那",
     "href": "/games/sword-man/battles/stage31/",
@@ -28548,7 +29116,11 @@
       "cellHeight": 24,
       "area": 1250,
       "blockedCount": 788,
-      "walkableCount": 462
+      "walkableCount": 462,
+      "imagePath": "/assets/sword-man/battle-maps/stage31.png",
+      "imageWidth": 750,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 11,
     "combatPlayerCount": 10,
@@ -29597,8 +30169,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "擊倒劍邪",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -29613,8 +30197,10 @@
     "order": 32,
     "file": "Stage32.json",
     "title": "第三十一幕 天之顛地之涯",
+    "battleTitle": "第三十一幕 天之顛地之涯",
     "chapterLabel": "第三十一幕",
     "name": "天之顛地之涯",
+    "battleName": "天之顛地之涯",
     "titleStatus": "confirmed",
     "displayTitle": "第三十一幕 天之顛地之涯",
     "href": "/games/sword-man/battles/stage32/",
@@ -29627,7 +30213,11 @@
       "cellHeight": 24,
       "area": 1575,
       "blockedCount": 1318,
-      "walkableCount": 257
+      "walkableCount": 257,
+      "imagePath": "/assets/sword-man/battle-maps/stage32.png",
+      "imageWidth": 1350,
+      "imageHeight": 840,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 10,
     "combatPlayerCount": 10,
@@ -30691,6 +31281,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月或紫楓陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -30699,7 +31301,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -30714,8 +31316,10 @@
     "order": 33,
     "file": "Stage33.json",
     "title": "第三十二幕 千幻華舞",
+    "battleTitle": "第三十二幕 千幻華舞",
     "chapterLabel": "第三十二幕",
     "name": "千幻華舞",
+    "battleName": "千幻華舞",
     "titleStatus": "confirmed",
     "displayTitle": "第三十二幕 千幻華舞",
     "href": "/games/sword-man/battles/stage33/",
@@ -30728,7 +31332,11 @@
       "cellHeight": 24,
       "area": 1000,
       "blockedCount": 997,
-      "walkableCount": 3
+      "walkableCount": 3,
+      "imagePath": "/assets/sword-man/battle-maps/stage33.png",
+      "imageWidth": 1200,
+      "imageHeight": 600,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 10,
     "combatPlayerCount": 10,
@@ -31794,6 +32402,18 @@
     ],
     "winConditions": [
       {
+        "description": "敵全滅",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平、封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -31802,7 +32422,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": true,
       "town": null,
@@ -31817,8 +32437,10 @@
     "order": 34,
     "file": "Stage34.json",
     "title": "第三十三幕 冰嶽絕劍",
+    "battleTitle": "第三十三幕 冰嶽絕劍",
     "chapterLabel": "第三十三幕",
     "name": "冰嶽絕劍",
+    "battleName": "冰嶽絕劍",
     "titleStatus": "confirmed",
     "displayTitle": "第三十三幕 冰嶽絕劍",
     "href": "/games/sword-man/battles/stage34/",
@@ -31831,7 +32453,11 @@
       "cellHeight": 24,
       "area": 1750,
       "blockedCount": 1012,
-      "walkableCount": 738
+      "walkableCount": 738,
+      "imagePath": "/assets/sword-man/battle-maps/stage34.png",
+      "imageWidth": 1050,
+      "imageHeight": 1200,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 24,
     "combatPlayerCount": 11,
@@ -33352,8 +33978,20 @@
         ]
       }
     ],
-    "winConditions": [],
-    "loseConditions": [],
+    "winConditions": [
+      {
+        "description": "擊倒蚩尤",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平或封寒月陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [],
+    "judgeLoseConditions": [],
     "transition": {
       "decoded": false,
       "town": null,
@@ -33368,10 +34006,12 @@
     "order": 35,
     "file": "Stage35.json",
     "title": null,
+    "battleTitle": "番外篇 兩百塊帝國",
     "chapterLabel": null,
     "name": null,
+    "battleName": "兩百塊帝國",
     "titleStatus": "source_blank",
-    "displayTitle": "原始标题为空（Stage35）",
+    "displayTitle": "番外篇 兩百塊帝國",
     "href": "/games/sword-man/battles/stage35/",
     "source": "Stage/Stage35/XY_35.COD",
     "map": {
@@ -33382,7 +34022,11 @@
       "cellHeight": 24,
       "area": 3360,
       "blockedCount": 2501,
-      "walkableCount": 859
+      "walkableCount": 859,
+      "imagePath": "/assets/sword-man/battle-maps/stage35.png",
+      "imageWidth": 1200,
+      "imageHeight": 2016,
+      "imageKind": "fb2_mpl_composite"
     },
     "playerCount": 14,
     "combatPlayerCount": 14,
@@ -34751,6 +35395,18 @@
     ],
     "winConditions": [
       {
+        "description": "擊倒頭目",
+        "source": "SDES"
+      }
+    ],
+    "loseConditions": [
+      {
+        "description": "殷劍平陣亡",
+        "source": "SDES"
+      }
+    ],
+    "judgeWinConditions": [
+      {
         "rule": 1,
         "ruleName": "kill_all",
         "unitId": -1,
@@ -34759,7 +35415,7 @@
         "description": "消灭全部敌人"
       }
     ],
-    "loseConditions": [
+    "judgeLoseConditions": [
       {
         "rule": 2,
         "ruleName": "kill_one",

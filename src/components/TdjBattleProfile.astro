@@ -42,8 +42,16 @@ const transitionParts = [
   <div class="tdj-battle-heading">
     <p>{battle.id} · 原版关卡标题卡</p>
     <h2>{battle.displayTitle}</h2>
+    {battle.battleTitle && battle.battleTitle !== battle.title && (
+      <div class="tdj-battle-title-note">
+        战场说明标题：<strong>{battle.battleTitle}</strong>
+      </div>
+    )}
     {battle.titleStatus === 'source_blank' && (
-      <div class="tdj-source-blank">原始 <code>STA_SCR.DAT</code> 的这一条标题字段为空，本站不推测命名。</div>
+      <div class="tdj-source-blank">
+        原始 <code>STA_SCR.DAT</code> 标题卡字段为空；当前标题来自本关
+        <code> SDES_NN.DAT</code> 的战场说明标题。
+      </div>
     )}
   </div>
 
@@ -57,6 +65,23 @@ const transitionParts = [
   </div>
 </section>
 
+<h2 id="battle-map">战场地图</h2>
+
+<figure class="tdj-battle-map">
+  <a href={battle.map.imagePath} target="_blank" rel="noreferrer">
+    <img
+      src={battle.map.imagePath}
+      alt={`${battle.displayTitle}完整战场地图`}
+      width={battle.map.imageWidth}
+      height={battle.map.imageHeight}
+      loading="eager"
+    />
+  </a>
+  <figcaption>
+    原版 <code>FB2/MPL</code> 完整无损合成图 · {battle.map.imageWidth} × {battle.map.imageHeight} 像素 · 点击查看原图
+  </figcaption>
+</figure>
+
 <h2 id="conditions">胜败条件与战后去向</h2>
 
 <div class="tdj-condition-grid">
@@ -64,13 +89,15 @@ const transitionParts = [
     <h3>胜利条件</h3>
     {battle.winConditions.length ? (
       <ul>{battle.winConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
-    ) : <p>当前 JUDGE 脚本未解出显式胜利条件。</p>}
+    ) : <p>原版关卡说明的胜利条件字段异常为空。</p>}
+    <small>来源：原版 <code>SDES_NN.DAT</code> 战前条件栏</small>
   </section>
   <section>
     <h3>失败条件</h3>
     {battle.loseConditions.length ? (
       <ul>{battle.loseConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
-    ) : <p>当前 JUDGE 脚本未设额外失败条件。</p>}
+    ) : <p>原版关卡说明的失败条件字段异常为空。</p>}
+    <small>来源：原版 <code>SDES_NN.DAT</code> 战前条件栏</small>
   </section>
   <section>
     <h3>战后流程</h3>
@@ -88,6 +115,24 @@ const transitionParts = [
     ) : <p>当前战后脚本未解出固定场景切换。</p>}
   </section>
 </div>
+
+<details class="tdj-judge-details">
+  <summary>运行判定脚本（JUDGE）</summary>
+  <div>
+    <section>
+      <strong>通用胜利规则</strong>
+      {battle.judgeWinConditions.length
+        ? <ul>{battle.judgeWinConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
+        : <p>未单列通用规则；以原版条件栏与关卡事件为准。</p>}
+    </section>
+    <section>
+      <strong>通用失败规则</strong>
+      {battle.judgeLoseConditions.length
+        ? <ul>{battle.judgeLoseConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
+        : <p>未单列通用规则；这不表示本关没有失败条件。</p>}
+    </section>
+  </div>
+</details>
 
 {rosterSections.map((section) => (
   <>
@@ -158,8 +203,9 @@ const transitionParts = [
 </dl>
 
 <aside class="tdj-provenance">
-  标题来自 <code>Misc/STA_SCR.DAT</code>；阵容与坐标来自逐关布阵数据；胜败条件来自
-  <code>JUDGE_NN.COD</code>；战后去向来自逐关战后事件。原始未知标记和空标题都按原状保留。
+  剧情标题卡来自 <code>Misc/STA_SCR.DAT</code>，战场说明标题与玩家可见胜败条件来自
+  <code>SDES_NN.DAT</code>；地图来自 <code>mapNN.FB2 + mapNN.MPL</code>；阵容与坐标来自逐关布阵数据；
+  机器判定明细来自 <code>JUDGE_NN.COD</code>；战后去向来自逐关战后事件。不同原版来源不互相覆盖。
 </aside>
 
 <style>
@@ -218,6 +264,43 @@ const transitionParts = [
     padding: 0.55rem 0.7rem;
   }
 
+  .tdj-battle-title-note {
+    color: var(--leaf-text-muted);
+    margin-top: 0.35rem;
+  }
+
+  .tdj-battle-map {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    margin: 0;
+    overflow: hidden;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  .tdj-battle-map a {
+    background: #0b0b0b;
+    display: block;
+    overflow: auto;
+  }
+
+  .tdj-battle-map img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 75vh;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .tdj-battle-map figcaption {
+    color: var(--leaf-text-muted);
+    font-size: 0.82rem;
+    margin-top: 0.55rem;
+  }
+
   .tdj-battle-stats {
     display: grid;
     gap: 0.5rem;
@@ -256,6 +339,38 @@ const transitionParts = [
   .tdj-condition-grid p,
   .tdj-condition-grid ul {
     margin: 0;
+  }
+
+  .tdj-condition-grid small {
+    color: var(--leaf-text-muted);
+    display: block;
+    margin-top: 0.55rem;
+  }
+
+  .tdj-judge-details {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    margin-top: 0.7rem;
+    padding: 0.65rem 0.8rem;
+  }
+
+  .tdj-judge-details summary {
+    color: var(--leaf-heading);
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .tdj-judge-details > div {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 0.65rem;
+  }
+
+  .tdj-judge-details p,
+  .tdj-judge-details ul {
+    margin-bottom: 0;
   }
 
   .tdj-condition-grid h3 {
@@ -332,6 +447,7 @@ const transitionParts = [
     }
 
     .tdj-condition-grid,
+    .tdj-judge-details > div,
     .tdj-map-data {
       grid-template-columns: 1fr;
     }
