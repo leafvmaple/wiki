@@ -94,6 +94,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -261,6 +262,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -422,6 +424,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -573,6 +576,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -728,6 +732,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -866,6 +871,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1006,6 +1012,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1173,6 +1180,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1340,6 +1348,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1501,6 +1510,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1643,6 +1653,21 @@
           "origin": "Misc/KMAN_LEV.dat"
         }
       ]
+    },
+    "movie": {
+      "kind": "original_cutscene",
+      "moviePath": "/assets/sword-man/skill-effects/010/cutscene.mp4",
+      "posterPath": "/assets/sword-man/skill-effects/010/cutscene-poster.png",
+      "durationMs": 21200,
+      "width": 320,
+      "height": 200,
+      "frameRate": 15,
+      "hasAudio": true,
+      "audioChannels": 2,
+      "audioSampleRate": 44100,
+      "sourceContainer": "bink",
+      "sourceVideoCodec": "binkvideo",
+      "sourceAudioCodec": "binkaudio_rdft"
     },
     "visual": {
       "route": "magic_saf",
@@ -1799,6 +1824,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -1972,6 +1998,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -2137,6 +2164,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -2304,6 +2332,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -2446,6 +2475,21 @@
           "origin": "Misc/KMAN_LEV.dat"
         }
       ]
+    },
+    "movie": {
+      "kind": "original_cutscene",
+      "moviePath": "/assets/sword-man/skill-effects/015/cutscene.mp4",
+      "posterPath": "/assets/sword-man/skill-effects/015/cutscene-poster.png",
+      "durationMs": 24800,
+      "width": 320,
+      "height": 200,
+      "frameRate": 15,
+      "hasAudio": true,
+      "audioChannels": 2,
+      "audioSampleRate": 44100,
+      "sourceContainer": "bink",
+      "sourceVideoCodec": "binkvideo",
+      "sourceAudioCodec": "binkaudio_rdft"
     },
     "visual": {
       "route": "magic_saf",
@@ -2596,6 +2640,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -2763,6 +2808,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -2946,6 +2992,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -3123,6 +3170,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -3266,6 +3314,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -3415,6 +3464,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -3567,6 +3617,21 @@
           "origin": "Misc/KMAN_LEV.dat"
         }
       ]
+    },
+    "movie": {
+      "kind": "original_cutscene",
+      "moviePath": "/assets/sword-man/skill-effects/022/cutscene.mp4",
+      "posterPath": "/assets/sword-man/skill-effects/022/cutscene-poster.png",
+      "durationMs": 39000,
+      "width": 320,
+      "height": 200,
+      "frameRate": 15,
+      "hasAudio": true,
+      "audioChannels": 2,
+      "audioSampleRate": 44100,
+      "sourceContainer": "bink",
+      "sourceVideoCodec": "binkvideo",
+      "sourceAudioCodec": "binkaudio_rdft"
     },
     "visual": {
       "route": "magic_saf",
@@ -3729,6 +3794,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -3902,6 +3968,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4057,6 +4124,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4199,6 +4267,21 @@
           "origin": "Misc/KMAN_LEV.dat"
         }
       ]
+    },
+    "movie": {
+      "kind": "original_cutscene",
+      "moviePath": "/assets/sword-man/skill-effects/026/cutscene.mp4",
+      "posterPath": "/assets/sword-man/skill-effects/026/cutscene-poster.png",
+      "durationMs": 21333,
+      "width": 320,
+      "height": 200,
+      "frameRate": 15,
+      "hasAudio": true,
+      "audioChannels": 2,
+      "audioSampleRate": 44100,
+      "sourceContainer": "bink",
+      "sourceVideoCodec": "binkvideo",
+      "sourceAudioCodec": "binkaudio_rdft"
     },
     "visual": {
       "route": "magic_saf",
@@ -4355,6 +4438,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4512,6 +4596,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4669,6 +4754,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4832,6 +4918,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -4993,6 +5080,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5174,6 +5262,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5333,6 +5422,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5496,6 +5586,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5639,6 +5730,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5777,6 +5869,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -5896,6 +5989,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -6017,6 +6111,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -6143,6 +6238,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -6288,6 +6384,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -6424,6 +6521,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -6552,6 +6650,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -6690,6 +6789,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -6834,6 +6934,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -6979,6 +7080,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -7123,6 +7225,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -7261,6 +7364,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -7404,6 +7508,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -7548,6 +7653,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -7686,6 +7792,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -7830,6 +7937,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -7968,6 +8076,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -8111,6 +8220,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -8249,6 +8359,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -8387,6 +8498,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -8532,6 +8644,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -8660,6 +8773,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -8792,6 +8906,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -8936,6 +9051,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -9080,6 +9196,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -9224,6 +9341,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -9362,6 +9480,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -9500,6 +9619,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -9628,6 +9748,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -9767,6 +9888,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -9912,6 +10034,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10045,6 +10168,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10172,6 +10296,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10293,6 +10418,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10456,6 +10582,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -10588,6 +10715,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10709,6 +10837,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10830,6 +10959,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -10981,6 +11111,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -11102,6 +11233,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -11223,6 +11355,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -11344,6 +11477,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -11470,6 +11604,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -11597,6 +11732,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -11718,6 +11854,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -11837,6 +11974,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "learnedBy": []
   },
   {
@@ -11928,6 +12066,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin_map",
       "casterDependent": true,
@@ -12055,6 +12194,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -12176,6 +12316,7 @@
         }
       ]
     },
+    "movie": null,
     "learnedBy": []
   },
   {
@@ -12260,6 +12401,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -12386,6 +12528,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -12514,6 +12657,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -12654,6 +12798,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -12775,6 +12920,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -12896,6 +13042,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "learnedBy": []
   },
   {
@@ -12987,6 +13134,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -13113,6 +13261,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -13239,6 +13388,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -13367,6 +13517,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -13488,6 +13639,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -13607,6 +13759,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -13726,6 +13879,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
@@ -13852,6 +14006,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -13973,6 +14128,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,
@@ -14099,6 +14255,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -14213,6 +14370,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "learnedBy": []
   },
   {
@@ -14304,6 +14462,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -14418,6 +14577,7 @@
       "movieSourceExists": null,
       "casterCandidates": []
     },
+    "movie": null,
     "learnedBy": []
   },
   {
@@ -14515,6 +14675,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_cutin",
       "casterDependent": true,
@@ -14636,6 +14797,7 @@
         }
       ]
     },
+    "movie": null,
     "visual": {
       "route": "unit_map_skill",
       "casterDependent": true,

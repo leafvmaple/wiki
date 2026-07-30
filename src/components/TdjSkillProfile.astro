@@ -32,6 +32,7 @@ const rangeText = (min: unknown, max: unknown) => {
 const durationText = (milliseconds: unknown) =>
   typeof milliseconds === 'number' ? `${(milliseconds / 1000).toFixed(2)} 秒` : '—';
 const visual = skill.visual as DataRow | undefined;
+const movie = skill.movie as DataRow | undefined;
 const visualInfo = skill.visualInfo as DataRow | undefined;
 const segmentLabels: Record<string, string> = {
   common_cast: '公共施法',
@@ -147,7 +148,38 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
   <p class="tdj-skill-empty">主角团的初始招式及升级表中没有发现这项招式，可能属于敌方、剧情或特殊系统使用。</p>
 )}
 
-<h2 id="animation">原版演出</h2>
+{movie && <h2 id="cutscene">大招过场 CG</h2>}
+
+{movie && (
+  <section class="tdj-skill-movie" aria-label={`${skill.name}大招过场 CG`}>
+    <div class="tdj-skill-movie-heading">
+      <div>
+        <strong>原版过场影片</strong>
+        <small>
+          {movie.width} × {movie.height} · {movie.frameRate} fps · {durationText(movie.durationMs)}
+          {movie.hasAudio ? ' · 保留原声' : ' · 无声'}
+        </small>
+      </div>
+      <span>可全屏播放</span>
+    </div>
+    <video
+      controls
+      playsinline
+      preload="metadata"
+      poster={movie.posterPath}
+      width={movie.width}
+      height={movie.height}
+    >
+      <source src={movie.moviePath} type="video/mp4" />
+      当前浏览器无法播放这段 MP4 影片。
+    </video>
+    <p>
+      这是原版随招式提供的独立 CG，并非由下方 SAF 战斗特效拼接而成；网页版本仅转换容器与编码，保留原始画幅、帧率和声音。
+    </p>
+  </section>
+)}
+
+<h2 id="animation">{movie ? '战斗内施法与命中演出' : '原版演出'}</h2>
 
 {visual ? (
   <section class="tdj-skill-visual" data-tdj-skill-visual>
@@ -220,6 +252,7 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
       <tr><th>演出路线</th><td><code>{visualInfo?.route ?? 'unknown'}</code></td><th>公共施法段</th><td><code>{visualInfo?.cast ?? 'unknown'}</code></td></tr>
       <tr><th>命中反馈</th><td><code>{visualInfo?.impact ?? 'unknown'}</code></td><th>依赖施法者精灵</th><td>{visualInfo?.casterDependent ? '是' : '否'}</td></tr>
       <tr><th>主体资源</th><td colspan="3"><code>{visualInfo?.mainSource ?? '—'}</code></td></tr>
+      {skill.hasMovie && <tr><th>过场影片资源</th><td colspan="3"><code>{visualInfo?.movieSource ?? '—'}</code></td></tr>}
       <tr><th>战斗演出类型</th><td><code>{rawEnum(skill.battleTypeName, skill.battleType)}</code></td><th>远程演出参数</th><td><code>{rawEnum(skill.battleRangedName, skill.battleRanged)}</code></td></tr>
       <tr><th>战斗精灵参数</th><td>{skill.battleSprite}</td><th>大招影片标记</th><td>{skill.hasMovie ? '有' : '无'}</td></tr>
     </tbody>
@@ -298,6 +331,7 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
   }
 
   .tdj-skill-summary,
+  .tdj-skill-movie,
   .tdj-skill-visual,
   .tdj-skill-empty {
     background: var(--leaf-bg-card);
@@ -308,6 +342,7 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
   }
 
   .tdj-skill-heading,
+  .tdj-skill-movie-heading,
   .tdj-skill-visual-toolbar {
     align-items: center;
     display: flex;
@@ -318,6 +353,7 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
 
   .tdj-skill-heading p,
   .tdj-skill-heading h2,
+  .tdj-skill-movie p,
   .tdj-skill-visual p,
   .tdj-skill-visual figure {
     margin: 0;
@@ -325,6 +361,8 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
 
   .tdj-skill-heading p,
   .tdj-skill-stat-grid small,
+  .tdj-skill-movie-heading small,
+  .tdj-skill-movie > p,
   .tdj-skill-visual-toolbar small,
   .tdj-skill-visual figcaption,
   .tdj-skill-visual > p {
@@ -442,6 +480,32 @@ const missingVisualText = statusLabels[String(visualInfo?.status)]
   .tdj-skill-visual {
     display: grid;
     gap: 0.75rem;
+  }
+
+  .tdj-skill-movie {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .tdj-skill-movie-heading > div {
+    display: grid;
+  }
+
+  .tdj-skill-movie-heading > span {
+    background: rgba(232, 169, 61, 0.1);
+    border: 1px solid rgba(232, 169, 61, 0.35);
+    border-radius: 999px;
+    color: var(--leaf-text);
+    padding: 0.28rem 0.62rem;
+  }
+
+  .tdj-skill-movie video {
+    aspect-ratio: 8 / 5;
+    background: #000;
+    border: 1px solid var(--leaf-border);
+    display: block;
+    height: auto;
+    width: 100%;
   }
 
   .tdj-skill-visual-toolbar > div:first-child {

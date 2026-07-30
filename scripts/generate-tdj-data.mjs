@@ -378,6 +378,7 @@ const main = async () => {
   for (const skill of skills) {
     const visual = skillVisualById.get(Number(skill.id));
     const preview = visual?.preview;
+    const movie = visual?.movie;
     skill.visualInfo = visual
       ? {
           status: visual.status,
@@ -392,10 +393,34 @@ const main = async () => {
           casterCandidates: visual.caster_candidates ?? [],
         }
       : null;
+    skill.movie = null;
+    const directory = `skill-effects/${String(skill.id).padStart(3, '0')}`;
+    if (movie) {
+      const [moviePath, moviePosterPath] = await Promise.all([
+        copyAsset(movie.public_path, `${directory}/cutscene.mp4`),
+        copyAsset(movie.poster, `${directory}/cutscene-poster.png`),
+      ]);
+      skill.movie = moviePath && moviePosterPath
+        ? {
+            kind: movie.kind,
+            moviePath,
+            posterPath: moviePosterPath,
+            durationMs: movie.duration_ms,
+            width: movie.width,
+            height: movie.height,
+            frameRate: movie.frame_rate,
+            hasAudio: Boolean(movie.has_audio),
+            audioChannels: movie.audio_channels,
+            audioSampleRate: movie.audio_sample_rate,
+            sourceContainer: movie.source_container,
+            sourceVideoCodec: movie.source_video_codec,
+            sourceAudioCodec: movie.source_audio_codec,
+          }
+        : null;
+    }
     if (!preview) {
       continue;
     }
-    const directory = `skill-effects/${String(skill.id).padStart(3, '0')}`;
     const [posterPath, compactPath, fullPath] = await Promise.all([
       copyAsset(preview.poster, `${directory}/poster.png`),
       copyAsset(preview.compact, `${directory}/compact.webp`),
