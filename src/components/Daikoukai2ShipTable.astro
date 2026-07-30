@@ -1,5 +1,15 @@
 ---
 import { daikoukai2Ships } from '../data/daikoukai2/ships';
+import {
+  daikoukai2LowerCommerceByShip,
+  daikoukai2UpperRegionsByShip,
+} from '../data/daikoukai2/usedShips';
+
+const rows = daikoukai2Ships.map((ship) => ({
+  ...ship,
+  upperRegions: daikoukai2UpperRegionsByShip[ship.id],
+  lowerCommerce: daikoukai2LowerCommerceByShip[ship.id],
+}));
 ---
 
 <div class="dk2-ships not-content" data-unit="种">
@@ -20,6 +30,9 @@ import { daikoukai2Ships } from '../data/daikoukai2/ships';
           <th data-sort="id" class="num">ID</th>
           <th data-sort="name">船型</th>
           <th data-sort="price" class="num">基准价</th>
+          <th data-sort="industry" class="num">新造工业</th>
+          <th>上 3 格造船圈</th>
+          <th data-sort="lowerCommerce" class="num">下 2 格商业</th>
           <th data-sort="turning" class="num">旋回</th>
           <th data-sort="propulsion" class="num">推进</th>
           <th data-sort="durability" class="num">耐久</th>
@@ -33,11 +46,13 @@ import { daikoukai2Ships } from '../data/daikoukai2/ships';
         </tr>
       </thead>
       <tbody>
-        {daikoukai2Ships.map((ship) => (
+        {rows.map((ship) => (
           <tr
             data-id={ship.id}
             data-name={ship.nameJa}
             data-price={ship.baseUsedPrice}
+            data-industry={ship.requiredIndustry}
+            data-lower-commerce={ship.lowerCommerce ?? -1}
             data-turning={ship.turning}
             data-propulsion={ship.propulsion}
             data-durability={ship.durability}
@@ -48,11 +63,14 @@ import { daikoukai2Ships } from '../data/daikoukai2/ships';
             data-max-cannons={ship.maxCannons}
             data-used-cargo={ship.usedCargo}
             data-capacity={ship.totalCapacity}
-            data-search={ship.nameJa}
+            data-search={`${ship.nameJa} ${ship.upperRegions.join(' ')}`}
           >
             <td class="num dk2-ships-id">{ship.id}</td>
             <td class="dk2-ships-name">{ship.nameJa}</td>
             <td class="num dk2-ships-price">{ship.baseUsedPrice.toLocaleString('zh-CN')}</td>
+            <td class="num">{ship.requiredIndustry}</td>
+            <td class="dk2-ships-regions">{ship.upperRegions.join('、')}</td>
+            <td class="num">{ship.lowerCommerce ?? '—'}</td>
             <td class="num">{ship.turning}</td>
             <td class="num">{ship.propulsion}</td>
             <td class="num">{ship.durability}</td>
@@ -170,7 +188,7 @@ import { daikoukai2Ships } from '../data/daikoukai2/ships';
   .dk2-ships-table {
     border-collapse: collapse;
     font-size: 0.86rem;
-    min-width: 70rem;
+    min-width: 92rem;
     width: 100%;
   }
 
@@ -236,6 +254,12 @@ import { daikoukai2Ships } from '../data/daikoukai2/ships';
   .dk2-ships-name {
     color: var(--leaf-heading);
     font-weight: 750;
+  }
+
+  .dk2-ships-regions {
+    line-height: 1.45;
+    min-width: 10rem;
+    white-space: normal;
   }
 
   .dk2-ships-required {

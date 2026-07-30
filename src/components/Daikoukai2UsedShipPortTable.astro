@@ -1,0 +1,288 @@
+---
+import { daikoukai2Ships } from '../data/daikoukai2/ships';
+import { daikoukai2InitialUsedShipPorts } from '../data/daikoukai2/usedShips';
+
+const rows = daikoukai2InitialUsedShipPorts.map(({ port, upperShipIds, lowerShipIds }) => ({
+  ...port,
+  upperShipIds,
+  lowerShipIds,
+  upperText: upperShipIds.map((id) => daikoukai2Ships[id].nameJa).join('、') || '—',
+  lowerText: lowerShipIds.map((id) => daikoukai2Ships[id].nameJa).join('、') || '—',
+}));
+const regions = [...new Set(rows.map((row) => row.shipRegion))];
+---
+
+<div class="dk2-used-ports not-content" data-unit="港">
+  <div class="dk2-used-ports-bar">
+    <select class="dk2-used-ports-region" aria-label="按造船圈筛选">
+      <option value="">全部造船圈</option>
+      {regions.map((region) => <option value={region}>{region}</option>)}
+    </select>
+    <select class="dk2-used-ports-ship" aria-label="按可能出现的船型筛选">
+      <option value="">全部船型</option>
+      {daikoukai2Ships.map((ship) => <option value={ship.id}>{ship.nameJa}</option>)}
+    </select>
+    <input
+      class="dk2-used-ports-search"
+      type="search"
+      placeholder="搜索港口或船型……"
+      aria-label="搜索港口或船型"
+    />
+    <span class="dk2-used-ports-count" aria-live="polite"></span>
+  </div>
+
+  <div class="dk2-used-ports-scroll" tabindex="0" aria-label="各港中古船候选池，可横向滚动">
+    <table class="dk2-used-ports-table">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num">No.</th>
+          <th data-sort="name">港口</th>
+          <th data-sort="region">造船圈</th>
+          <th data-sort="industry" class="num">开局工业</th>
+          <th data-sort="commerce" class="num">开局商业</th>
+          <th>上 3 格候选</th>
+          <th>下 2 格候选</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr
+            data-id={row.id}
+            data-name={row.nameJa}
+            data-region={row.shipRegion}
+            data-industry={row.initialIndustry}
+            data-commerce={row.initialCommerce}
+            data-upper={` ${row.upperShipIds.join(' ')} `}
+            data-lower={` ${row.lowerShipIds.join(' ')} `}
+            data-search={`${row.nameJa} ${row.shipRegion} ${row.upperText} ${row.lowerText}`}
+          >
+            <td class="num dk2-used-ports-id">{row.id}</td>
+            <td class="dk2-used-ports-name">{row.nameJa}</td>
+            <td><span class="dk2-used-ports-region-chip">{row.shipRegion}</span></td>
+            <td class="num">{row.initialIndustry}</td>
+            <td class="num">{row.initialCommerce}</td>
+            <td class="dk2-used-ports-pool is-upper">{row.upperText}</td>
+            <td class="dk2-used-ports-pool">{row.lowerText}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.dk2-used-ports').forEach((root) => {
+    const table = root.querySelector<HTMLTableElement>('table');
+    const tbody = table?.querySelector('tbody');
+    if (!table || !tbody) return;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const region = root.querySelector<HTMLSelectElement>('.dk2-used-ports-region');
+    const ship = root.querySelector<HTMLSelectElement>('.dk2-used-ports-ship');
+    const search = root.querySelector<HTMLInputElement>('.dk2-used-ports-search');
+    const count = root.querySelector<HTMLElement>('.dk2-used-ports-count');
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const regionValue = region?.value ?? '';
+      const shipValue = ship?.value ?? '';
+      const shipNeedle = shipValue ? ` ${shipValue} ` : '';
+      const query = search?.value.trim().toLocaleLowerCase('ja') ?? '';
+      let shown = 0;
+      for (const row of rows) {
+        const candidates = `${row.dataset.upper ?? ''}${row.dataset.lower ?? ''}`;
+        const matches =
+          (!regionValue || row.dataset.region === regionValue) &&
+          (!shipNeedle || candidates.includes(shipNeedle)) &&
+          (!query || (row.dataset.search ?? '').toLocaleLowerCase('ja').includes(query));
+        row.hidden = !matches;
+        if (matches) shown += 1;
+      }
+      if (count) count.textContent = `${shown} 港`;
+    };
+
+    const sortBy = (heading: HTMLElement) => {
+      const key = heading.dataset.sort;
+      if (!key) return;
+      if (sortKey === key) sortDir *= -1;
+      else {
+        sortKey = key;
+        sortDir = heading.classList.contains('num') ? -1 : 1;
+      }
+      const numeric = heading.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : av.localeCompare(bv, 'ja') * sortDir;
+        })
+        .forEach((row) => tbody.appendChild(row));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((item) => {
+        item.dataset.dir = item.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    region?.addEventListener('change', apply);
+    ship?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
+      heading.addEventListener('click', () => sortBy(heading));
+    });
+    apply();
+  });
+</script>
+
+<style>
+  .dk2-used-ports {
+    display: grid;
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .dk2-used-ports-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .dk2-used-ports-bar :is(select, input) {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem;
+  }
+
+  .dk2-used-ports-search {
+    flex: 1 1 15rem;
+    max-width: 25rem;
+  }
+
+  .dk2-used-ports-count {
+    color: var(--leaf-text-muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  .dk2-used-ports-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-used-ports-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  .dk2-used-ports-table {
+    border-collapse: collapse;
+    font-size: 0.84rem;
+    min-width: 86rem;
+    width: 100%;
+  }
+
+  .dk2-used-ports-table :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.43rem 0.55rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .dk2-used-ports-table th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  .dk2-used-ports-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dk2-used-ports-table th[data-sort]::after {
+    content: ' ↕';
+    opacity: 0.28;
+  }
+
+  .dk2-used-ports-table th[data-dir='asc']::after {
+    content: ' ↑';
+    opacity: 1;
+  }
+
+  .dk2-used-ports-table th[data-dir='desc']::after {
+    content: ' ↓';
+    opacity: 1;
+  }
+
+  .dk2-used-ports-table tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  .dk2-used-ports-table tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-used-ports-table .num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .dk2-used-ports-id {
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-used-ports-name {
+    color: var(--leaf-heading);
+    font-weight: 750;
+    white-space: nowrap;
+  }
+
+  .dk2-used-ports-region-chip {
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    border-radius: 999px;
+    color: var(--leaf-primary-hover);
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 0.05rem 0.36rem;
+    white-space: nowrap;
+  }
+
+  .dk2-used-ports-pool {
+    line-height: 1.55;
+    min-width: 24rem;
+  }
+
+  .dk2-used-ports-pool.is-upper {
+    min-width: 14rem;
+  }
+
+  @media (max-width: 40rem) {
+    .dk2-used-ports-bar :is(select, input) {
+      flex: 1 1 10rem;
+      min-width: 0;
+    }
+
+    .dk2-used-ports-search {
+      flex-basis: 100%;
+      max-width: none;
+    }
+
+    .dk2-used-ports-count {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>
