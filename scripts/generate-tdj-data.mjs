@@ -385,8 +385,11 @@ const main = async () => {
           cast: visual.cast,
           impact: visual.impact,
           casterDependent: Boolean(visual.caster_dependent),
+          mainSource: visual.main_source,
           mainSourceExists: visual.main_source_exists,
-          hasMovieSource: Boolean(visual.movie_source),
+          movieSource: visual.movie_source,
+          movieSourceExists: visual.movie_source_exists,
+          casterCandidates: visual.caster_candidates ?? [],
         }
       : null;
     if (!preview) {

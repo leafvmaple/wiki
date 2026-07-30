@@ -70,13 +70,66 @@
     "battleSprite": 0,
     "description": "最初級的療癒法術，集聚體內之氣於一處，可治癒較輕微的傷勢。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic020/M20.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/000/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/000/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/000/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5000,
+        "full": 6360,
+        "main_effect": 2760,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -178,13 +231,72 @@
     "battleSprite": 0,
     "description": "應地靈之象發生癒之氣，雖然範圍相同，但效力較氣癒之術為佳。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic021/M21.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 220,
+          "evidence": "assigned",
+          "name": "四象門術",
+          "origin": "data/battles/STAGE11.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/001/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/001/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/001/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4720,
+        "full": 6080,
+        "main_effect": 2480,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -286,13 +398,66 @@
     "battleSprite": 0,
     "description": "以天法密儀搭配靈象生蘊，能同時救治較多人傷勢，故得返命之名。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic022/M22.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 159,
+          "evidence": "assigned",
+          "name": "靈山老人",
+          "origin": "data/battles/Stage13.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/002/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/002/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/002/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4640,
+        "full": 6000,
+        "main_effect": 2400,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -384,13 +549,66 @@
     "battleSprite": 0,
     "description": "極具功效的療傷法咒，以生癒之氣應合陰陽靈蘊，可救治致命重傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic023/M23.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 10,
+          "evidence": "assigned",
+          "name": "不淨散人",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/003/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/003/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/003/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5840,
+        "full": 7200,
+        "main_effect": 3600,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -492,13 +710,60 @@
     "battleSprite": 0,
     "description": "效力最強的治傷咒法，可將一步之內最多五人的傷勢全部治癒。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic073/M73.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/004/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/004/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/004/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5360,
+        "full": 6720,
+        "main_effect": 3120,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -590,13 +855,53 @@
     "battleSprite": 0,
     "description": "此咒能發清卻之氣通氣海靈台，可立即治癒一人的毒傷軟麻等病症。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "purge",
       "casterDependent": false,
+      "mainSource": "Magic/magic024/M24.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/005/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/005/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/005/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4400,
+        "full": 5760,
+        "main_effect": 1840,
+        "result_feedback": 2560
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -671,13 +976,70 @@
     "battleSprite": 0,
     "description": "引離火之氣包於敵人身邊，可焚燒小群敵人，造成一般程度的創傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic010/M10.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 235,
+          "evidence": "assigned",
+          "name": "朱焰魔火",
+          "origin": "data/battles/Stage06.json#enemies"
+        },
+        {
+          "category_id": 220,
+          "evidence": "assigned",
+          "name": "四象門術",
+          "origin": "data/battles/STAGE11.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/006/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/006/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/006/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3280,
+        "full": 4640,
+        "main_effect": 2320,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -763,13 +1125,88 @@
     "battleSprite": 0,
     "description": "以離火之氣生應地象，能自地面引出烈焰焚燒一群敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic011/M11.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage08.json#enemies"
+        },
+        {
+          "category_id": 235,
+          "evidence": "assigned",
+          "name": "朱焰魔火",
+          "origin": "data/battles/STAGE09.json#enemies"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage18.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage29.json#enemies"
+        },
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/Stage29.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/007/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/007/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/007/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3120,
+        "full": 4480,
+        "main_effect": 2160,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -861,13 +1298,82 @@
     "battleSprite": 0,
     "description": "以離火之氣懸罡風之位而發，可引天火捲焚大批敵人，威力極強。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic012/M12.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 154,
+          "evidence": "assigned",
+          "name": "韓無砂",
+          "origin": "data/battles/Stage20.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/008/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/008/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/008/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4000,
+        "full": 5360,
+        "main_effect": 3040,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -959,13 +1465,76 @@
     "battleSprite": 0,
     "description": "先凝聚離火之氣，再以金象奮勵之氣沖之，可激焦炎精火焚燒敵手。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic013/M13.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage30.json#enemies"
+        },
+        {
+          "category_id": 167,
+          "evidence": "assigned",
+          "name": "左手",
+          "origin": "data/battles/Stage34.json#enemies"
+        },
+        {
+          "category_id": 240,
+          "evidence": "assigned",
+          "name": "兩佰術士",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/009/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/009/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/009/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6880,
+        "full": 8240,
+        "main_effect": 5920,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1057,13 +1626,58 @@
     "battleSprite": 0,
     "description": "以儀法請召焰尊火眼獸降臨，其發的神火天焰能一舉焚滅大批敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic071/M71.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": true
+      "movieSource": "Magic/magic071/M71.MOV",
+      "movieSourceExists": true,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/010/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/010/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/010/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3040,
+        "full": 4400,
+        "main_effect": 2080,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1160,28 +1774,52 @@
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic001/M1.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 201,
+          "evidence": "assigned",
+          "name": "四象門劍",
+          "origin": "data/battles/Stage01.json#enemies"
+        },
+        {
+          "category_id": 220,
+          "evidence": "assigned",
+          "name": "四象門術",
+          "origin": "data/battles/Stage02.json#enemies"
+        }
+      ]
     },
     "visual": {
       "route": "magic_saf",
       "casterDependent": false,
-      "kind": "representative_sample",
+      "kind": "representative_composite",
       "posterPath": "/assets/sword-man/skill-effects/011/poster.png",
       "compactPath": "/assets/sword-man/skill-effects/011/compact.webp",
       "fullPath": "/assets/sword-man/skill-effects/011/full.webp",
       "compactSegments": [
         "main_effect",
-        "damage_feedback"
+        "result_feedback"
       ],
       "fullSegments": [
         "common_cast",
         "main_effect",
-        "damage_feedback"
+        "result_feedback"
       ],
       "representativeCaster": {
         "category_id": 3,
-        "name": "紫楓"
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_STA.dat"
       },
       "representativeTarget": {
         "category_id": 203,
@@ -1190,9 +1828,9 @@
       "durationMs": {
         "common_cast": 1360,
         "compact": 2480,
-        "damage_feedback": 960,
         "full": 3840,
-        "main_effect": 1520
+        "main_effect": 1520,
+        "result_feedback": 960
       },
       "audio": "godot_timeline_only"
     },
@@ -1280,13 +1918,94 @@
     "battleSprite": 0,
     "description": "最常用的雷咒，威力中等而領域極廣，能降下大片雷光轟擊對手。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic002/M2.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage05.json#enemies"
+        },
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage08.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/012/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/012/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/012/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3760,
+        "full": 5120,
+        "main_effect": 2800,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1394,13 +2113,64 @@
     "battleSprite": 0,
     "description": "以陽儀聚發雷象之氣，自九天引下急雷轟擊劈打敵人，範圍極廣。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic003/M3.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 153,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "data/battles/Stage28.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/013/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/013/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/013/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3680,
+        "full": 5040,
+        "main_effect": 2720,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1492,13 +2262,82 @@
     "battleSprite": 0,
     "description": "威力極強的雷電法咒，所引雷光狂劈電射，有如利刃，故得其名。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic004/M4.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/Stage29.json#enemies"
+        },
+        {
+          "category_id": 224,
+          "evidence": "assigned",
+          "name": "狂魔",
+          "origin": "data/battles/Stage31.json#enemies"
+        },
+        {
+          "category_id": 11,
+          "evidence": "assigned",
+          "name": "劍聖",
+          "origin": "data/battles/Stage34.json#players"
+        },
+        {
+          "category_id": 240,
+          "evidence": "assigned",
+          "name": "兩佰術士",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/014/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/014/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/014/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3680,
+        "full": 5040,
+        "main_effect": 2720,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1590,13 +2429,58 @@
     "battleSprite": 0,
     "description": "請召雷神雷震子降臨，雷鏡熒發的焦雷威力無比，所經之盡成焦炭。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic070/M70.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": true
+      "movieSource": "Magic/magic070/M70.MOV",
+      "movieSourceExists": true,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/015/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/015/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/015/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3200,
+        "full": 4560,
+        "main_effect": 2240,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1688,13 +2572,64 @@
     "battleSprite": 0,
     "description": "初級的冥儀咒法，引冥凜凍氣圍繞數名敵人身邊，使其遭凍傷之創。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic080/M80.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 220,
+          "evidence": "assigned",
+          "name": "四象門術",
+          "origin": "data/battles/STAGE12.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/016/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/016/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/016/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3360,
+        "full": 4720,
+        "main_effect": 2400,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1786,13 +2721,82 @@
     "battleSprite": 0,
     "description": "以玄凜凍氣循地脈陰象而發，可生結冰刃於敵人腳下造成凍創之傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic081/M81.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage08.json#enemies"
+        },
+        {
+          "category_id": 159,
+          "evidence": "assigned",
+          "name": "靈山老人",
+          "origin": "data/battles/Stage13.json#enemies"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage18.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/017/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/017/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/017/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4880,
+        "full": 6240,
+        "main_effect": 3920,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -1900,13 +2904,82 @@
     "battleSprite": 0,
     "description": "將玄凜寒氣乘罡風迸發，所及之處盡遭冰刃割裂凍凜，威力極強。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic082/M82.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/018/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/018/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/018/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6560,
+        "full": 7920,
+        "main_effect": 5600,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2014,13 +3087,76 @@
     "battleSprite": 0,
     "description": "最強的冥儀咒法，所引絕凜凍氣能結水為冰，瞬間予敵致死的傷害。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic083/M83.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage28.json#enemies"
+        },
+        {
+          "category_id": 168,
+          "evidence": "assigned",
+          "name": "右手",
+          "origin": "data/battles/Stage34.json#enemies"
+        },
+        {
+          "category_id": 240,
+          "evidence": "assigned",
+          "name": "兩佰術士",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/019/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/019/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/019/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 2,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4960,
+        "full": 6320,
+        "main_effect": 4000,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2112,13 +3248,58 @@
     "battleSprite": 0,
     "description": "集引星華之光於一隻妖魔之屬的敵人身上，令其遭受神光炙焚之傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic007/M7.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_STA.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/020/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/020/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/020/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4320,
+        "full": 5680,
+        "main_effect": 3360,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2204,13 +3385,70 @@
     "battleSprite": 0,
     "description": "集引天光於敵群頂上，一舉而發之，能將妖魔之屬焚炙而死。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic008/M8.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 10,
+          "evidence": "assigned",
+          "name": "不淨散人",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 240,
+          "evidence": "assigned",
+          "name": "兩佰術士",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/021/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/021/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/021/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5280,
+        "full": 6640,
+        "main_effect": 4320,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2312,13 +3550,58 @@
     "battleSprite": 0,
     "description": "最強的神光天法，行天象之陣，可引下烈日之輝一舉燒殺數名敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic009/M9.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": true
+      "movieSource": "Magic/magic009/M9.MOV",
+      "movieSourceExists": true,
+      "casterCandidates": [
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/022/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/022/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/022/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4880,
+        "full": 6240,
+        "main_effect": 3920,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2410,13 +3693,76 @@
     "battleSprite": 0,
     "description": "布玄陰闇氣於四方，蝕噬敵方魂魄，使其遭受魔氣侵體之效。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic034/M34.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 162,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "data/battles/STAGE10.json#enemies"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage14.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage28.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/023/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/023/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/023/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3840,
+        "full": 5200,
+        "main_effect": 2880,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2502,13 +3848,94 @@
     "battleSprite": 0,
     "description": "化玄凜闇氣為黑色火焰焚炙敵群，看似火焚其實是遭魂蝕肉碎之傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic035/M35.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage24.json#enemies"
+        },
+        {
+          "category_id": 153,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "data/battles/Stage28.json#enemies"
+        },
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/Stage29.json#enemies"
+        },
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage30.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage31.json#enemies"
+        },
+        {
+          "category_id": 240,
+          "evidence": "assigned",
+          "name": "兩佰術士",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/024/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/024/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/024/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 8960,
+        "full": 10320,
+        "main_effect": 8000,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2600,13 +4027,70 @@
     "battleSprite": 0,
     "description": "降下黑霧陰靄籠罩敵人，侵其諸氣百骸，可吸奪其精氣轉為己用。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
-      "impact": null,
+      "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic036/M36.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/STAGE09.json#enemies"
+        },
+        {
+          "category_id": 153,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "data/battles/Stage28.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/025/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/025/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/025/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 7760,
+        "full": 9120,
+        "main_effect": 6800,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2698,13 +4182,58 @@
     "battleSprite": 0,
     "description": "最強的魔道咒法，自冥界請借黃泉死霧渦卷敵群，使其立刻暴斃。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "damage",
       "casterDependent": false,
+      "mainSource": "Magic/magic060/M60.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": true
+      "movieSource": "Magic/magic060/M60.MOV",
+      "movieSourceExists": true,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/026/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/026/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/026/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4000,
+        "full": 5360,
+        "main_effect": 3040,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2796,13 +4325,72 @@
     "battleSprite": 0,
     "description": "此術可引聚風靈之力承托於同伴之下，可使其敏速立增、疾行如風。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic025/M25.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage05.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage32.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/027/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/027/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/027/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3080,
+        "full": 4440,
+        "main_effect": 1600,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2888,13 +4476,78 @@
     "battleSprite": 0,
     "description": "引聚破殺邪氣附於兵刃之上，可使一步範圍內的伙伴武器威力大增。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic032/M32.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 159,
+          "evidence": "assigned",
+          "name": "靈山老人",
+          "origin": "data/battles/Stage13.json#enemies"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage17.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage29.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/028/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/028/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/028/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4120,
+        "full": 5480,
+        "main_effect": 2640,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -2986,13 +4639,72 @@
     "battleSprite": 0,
     "description": "引地象護禦之氣，圍聚於受法眾人周遭，可在時效內提供護禦之力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic015/M15.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 222,
+          "evidence": "assigned",
+          "name": "鬼道者",
+          "origin": "data/battles/Stage16.json#enemies"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage29.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/029/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/029/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/029/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5160,
+        "full": 6520,
+        "main_effect": 3680,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3084,13 +4796,78 @@
     "battleSprite": 0,
     "description": "發天徵木象之氣，使受者神清智銳，在時效內提增所施術法的威力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic016/M16.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 10,
+          "evidence": "assigned",
+          "name": "不淨散人",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/Stage29.json#enemies"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage32.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/030/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/030/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/030/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3880,
+        "full": 5240,
+        "main_effect": 2400,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3192,13 +4969,66 @@
     "battleSprite": 0,
     "description": "引發魂魄之底的狂性殺心，使受術者擁有雙倍的攻擊力但防禦減半。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic033/M33.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 221,
+          "evidence": "assigned",
+          "name": "妖術士",
+          "origin": "data/battles/Stage06.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/031/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/031/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/031/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5000,
+        "full": 6360,
+        "main_effect": 3520,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3290,13 +5120,94 @@
     "battleSprite": 0,
     "description": "此咒逆五行擾亂對手之氣，令其不能施咒，但效果視對手修為而定。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "curse",
       "casterDependent": false,
+      "mainSource": "Magic/magic005/M5.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 10,
+          "evidence": "assigned",
+          "name": "不淨散人",
+          "origin": "Misc/KMAN_STA.dat"
+        },
+        {
+          "category_id": 2,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 220,
+          "evidence": "assigned",
+          "name": "四象門術",
+          "origin": "data/battles/STAGE11.json#enemies"
+        },
+        {
+          "category_id": 222,
+          "evidence": "assigned",
+          "name": "鬼道者",
+          "origin": "data/battles/Stage15.json#enemies"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 219,
+          "evidence": "assigned",
+          "name": "血嬰冥葵",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 233,
+          "evidence": "assigned",
+          "name": "噬魂鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/032/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/032/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/032/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 10,
+        "evidence": "assigned",
+        "name": "不淨散人",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5200,
+        "full": 6560,
+        "main_effect": 3600,
+        "result_feedback": 1600
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3398,13 +5309,66 @@
     "battleSprite": 0,
     "description": "能夠辟禦所有咒術之效的神妙咒法，但僅能持續兩回合的時間。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic006/M6.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage30.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/033/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/033/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/033/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5080,
+        "full": 6440,
+        "main_effect": 3600,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3496,13 +5460,76 @@
     "battleSprite": 0,
     "description": "以幻術惑亂敵手心神，使之諸魄散分，喪失神智而癱軟無法動彈。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "curse",
       "casterDependent": false,
+      "mainSource": "Magic/magic030/M30.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 9,
+          "evidence": "assigned",
+          "name": "夏侯儀",
+          "origin": "Misc/KMAN_LEV.dat"
+        },
+        {
+          "category_id": 213,
+          "evidence": "assigned",
+          "name": "紫焰妖靈",
+          "origin": "data/battles/Stage05.json#enemies"
+        },
+        {
+          "category_id": 221,
+          "evidence": "assigned",
+          "name": "妖術士",
+          "origin": "data/battles/Stage06.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage32.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/034/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/034/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/034/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 9,
+        "evidence": "assigned",
+        "name": "夏侯儀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3680,
+        "full": 5040,
+        "main_effect": 2080,
+        "result_feedback": 1600
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3594,13 +5621,60 @@
     "battleSprite": 0,
     "description": "真胤專用的秘法，能將自己移往幻界，變成似虛如幻的無敵之身。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "blessing",
       "casterDependent": false,
+      "mainSource": "Magic/magic042/M42.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/035/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/035/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/035/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5400,
+        "full": 6760,
+        "main_effect": 3920,
+        "result_feedback": 1480
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -3692,13 +5766,51 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic031/M31.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/036/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/036/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/036/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6200,
+        "full": 7560,
+        "main_effect": 4000,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -3773,13 +5885,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic014/M14.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/037/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/037/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/037/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4760,
+        "full": 6120,
+        "main_effect": 2560,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -3854,13 +6006,51 @@
     "battleSprite": 0,
     "description": "玄經秘法之一，能阻隔諸氣，消除提昇攻防速捷等能力的咒術之效。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic026/M26.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/038/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/038/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/038/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5160,
+        "full": 6520,
+        "main_effect": 2960,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -3935,13 +6125,60 @@
     "battleSprite": 3,
     "description": "念召不動明王的武尊之護，可同時提昇自己的攻擊防禦咒力敏捷等。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man006/006-3s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/039/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/039/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/039/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6360,
+        "full": 7720,
+        "main_effect": 4160,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4033,13 +6270,58 @@
     "battleSprite": 0,
     "description": "以式符召喚妖界的式鬼前來助陣，式鬼的能力將比照召喚者的能力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic040/M40.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/040/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/040/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/040/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5080,
+        "full": 6440,
+        "main_effect": 2880,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4131,13 +6413,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic031/M31.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/041/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/041/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/041/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6200,
+        "full": 7560,
+        "main_effect": 4000,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -4212,13 +6534,53 @@
     "battleSprite": 0,
     "description": "殷劍平初段的御劍之法，可聚氣於劍尖遠射攻敵，威力不弱。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/042/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/042/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/042/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 6240,
+        "full": 6240,
+        "main_effect": 6240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4310,13 +6672,59 @@
     "battleSprite": 2,
     "description": "殷劍平初段的御劍之法，可在周遭引降無方劍氣攻擊，範圍較廣。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-2s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/043/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/043/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/043/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 7120,
+        "full": 7120,
+        "main_effect": 3680,
+        "map_effect": 2480,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4408,13 +6816,60 @@
     "battleSprite": 3,
     "description": "奮聚劍氣護體於四周，一定時間內可抵擋所有敵方攻擊而不受傷害。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-3s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/044/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/044/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/044/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 10040,
+        "full": 11400,
+        "main_effect": 7840,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4506,13 +6961,59 @@
     "battleSprite": 4,
     "description": "以劍氣發諸火象，體化為一柄火焰巨劍落於敵群頭上燒殺敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-4s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/045/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/045/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/045/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 6760,
+        "full": 6760,
+        "main_effect": 3400,
+        "map_effect": 2400,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4604,13 +7105,53 @@
     "battleSprite": 5,
     "description": "殷劍平最強絕技，對一名敵人施以無數劍技和御劍之擊，威力無雙。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-5s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/046/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/046/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/046/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 12640,
+        "full": 12640,
+        "main_effect": 12640
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4702,13 +7243,58 @@
     "battleSprite": 6,
     "description": "以劍氣破銷五象諸氣，能破除敵群身上的攻防咒速提昇等咒法效力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-6s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/047/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/047/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/047/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 10240,
+        "full": 11600,
+        "main_effect": 8040,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4800,13 +7386,59 @@
     "battleSprite": 7,
     "description": "以劍氣引配天象之力，化為無數星華掠射而下，範圍小但威力十足。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man001/001-7s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 1,
+          "evidence": "assigned",
+          "name": "殷劍平",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/048/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/048/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/048/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 1,
+        "evidence": "assigned",
+        "name": "殷劍平",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 13640,
+        "full": 13640,
+        "main_effect": 7240,
+        "map_effect": 5440,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4898,13 +7530,53 @@
     "battleSprite": 0,
     "description": "上官遠的槍技之一，提槍飛躍而起之後予敵百數槍刺，威力十足。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man004/004s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 4,
+          "evidence": "assigned",
+          "name": "上官遠",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/049/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/049/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/049/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 4,
+        "evidence": "assigned",
+        "name": "上官遠",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4440,
+        "full": 4440,
+        "main_effect": 4440
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -4996,13 +7668,59 @@
     "battleSprite": 2,
     "description": "上官遠的得意槍技，回槍飛甩、沈雄一擊，能攻擊前方一排敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man004/004-2s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 4,
+          "evidence": "assigned",
+          "name": "上官遠",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/050/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/050/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/050/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 4,
+        "evidence": "assigned",
+        "name": "上官遠",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 14560,
+        "full": 14560,
+        "main_effect": 5280,
+        "map_effect": 8320,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5094,13 +7812,53 @@
     "battleSprite": 1,
     "description": "上官遠最強的槍技，瞬間予一名敵人無數攻擊，其威有如天將降臨。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man004/004-1s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 4,
+          "evidence": "assigned",
+          "name": "上官遠",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/051/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/051/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/051/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 4,
+        "evidence": "assigned",
+        "name": "上官遠",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 9000,
+        "full": 9000,
+        "main_effect": 9000
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5192,13 +7950,58 @@
     "battleSprite": 0,
     "description": "集全身殺念鬥氣於劍上並舉劍擊地，令四周敵人皆受煞氣衝撞之傷。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man005/005s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 5,
+          "evidence": "assigned",
+          "name": "鮮于超",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/052/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/052/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/052/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 5,
+        "evidence": "assigned",
+        "name": "鮮于超",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4840,
+        "full": 6200,
+        "main_effect": 3880,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5290,13 +8093,59 @@
     "battleSprite": 1,
     "description": "以全身力氣舞劍前劈，劍身劈出的罡風剛嵐可衝擊前方的三名敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man005/005-1s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 5,
+          "evidence": "assigned",
+          "name": "鮮于超",
+          "origin": "Misc/KMAN_STA.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/053/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/053/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/053/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 5,
+        "evidence": "assigned",
+        "name": "鮮于超",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 12280,
+        "full": 12280,
+        "main_effect": 3320,
+        "map_effect": 8000,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5382,13 +8231,53 @@
     "battleSprite": 2,
     "description": "鮮于超至剛至強的劍技，凝氣一劍直劈而下，彷彿真有斷龍之威。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man005/005-2s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 5,
+          "evidence": "assigned",
+          "name": "鮮于超",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/054/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/054/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/054/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 5,
+        "evidence": "assigned",
+        "name": "鮮于超",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 9680,
+        "full": 9680,
+        "main_effect": 9680
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5480,13 +8369,60 @@
     "battleSprite": 0,
     "description": "紫楓的絕技，以神舞凝聚周圍靈氣，能稍微回復周圍伙伴的術力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "cure",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man003/003s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "assigned",
+          "name": "紫楓",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/055/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/055/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/055/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "assigned",
+        "name": "紫楓",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6280,
+        "full": 7640,
+        "main_effect": 4040,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5578,13 +8514,60 @@
     "battleSprite": 1,
     "description": "紫楓的絕技之一，能夠請聚天華護體，兩回合之內不懼任何咒術。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready_inferred",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man003/003-1s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 3,
+          "evidence": "inferred",
+          "name": "紫楓",
+          "origin": "Mag_dat skill block + Sprite/man003/003-1s.saf"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/056/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/056/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/056/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "inferred",
+        "name": "紫楓",
+        "origin": "Mag_dat skill block + Sprite/man003/003-1s.saf"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "inferred",
+        "name": "紫楓",
+        "origin": "Mag_dat skill block + Sprite/man003/003-1s.saf"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6280,
+        "full": 7640,
+        "main_effect": 4080,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -5659,13 +8642,53 @@
     "battleSprite": 0,
     "description": "真胤的破魔絕技，以封魔九字印法飛射敵人，可及遠兼具封咒之效。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man006/006s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_STA.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/057/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/057/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/057/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_STA.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 6440,
+        "full": 6440,
+        "main_effect": 6440
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5751,13 +8774,59 @@
     "battleSprite": 2,
     "description": "飛擲鐵杵於敵陣後，請借鬼神霸力發於鐵杵，其威力和範圍均極強。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man006/006-2s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/058/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/058/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/058/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 6720,
+        "full": 6720,
+        "main_effect": 3280,
+        "map_effect": 2480,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5849,13 +8918,59 @@
     "battleSprite": 1,
     "description": "聚氣後將鐵杵插在地上，配法輪之陣將氣發迸，破衝周圍的敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man006/006-1s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 6,
+          "evidence": "assigned",
+          "name": "真胤",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/059/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/059/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/059/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 6,
+        "evidence": "assigned",
+        "name": "真胤",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 7960,
+        "full": 7960,
+        "main_effect": 4680,
+        "map_effect": 2320,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -5947,13 +9062,59 @@
     "battleSprite": 1,
     "description": "飛燕門的刀輪絕技，集全身之氣發旋斬氣刃，可攻擊前方一排敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man007/007-1s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 7,
+          "evidence": "assigned",
+          "name": "韓千秀",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/060/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/060/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/060/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 7,
+        "evidence": "assigned",
+        "name": "韓千秀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 12600,
+        "full": 12600,
+        "main_effect": 2680,
+        "map_effect": 8960,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -6045,13 +9206,53 @@
     "battleSprite": 0,
     "description": "飛燕門的刀輪絕技，將刀輪飛擲迴射一名敵人，威力與射程均極佳。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man007/007s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 7,
+          "evidence": "assigned",
+          "name": "韓千秀",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/061/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/061/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/061/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 7,
+        "evidence": "assigned",
+        "name": "韓千秀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 5880,
+        "full": 5880,
+        "main_effect": 5880
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -6143,13 +9344,53 @@
     "battleSprite": 0,
     "description": "燕明蓉的奇門絕技，瞬間分身無數合進共擊，令敵人混亂中受重創。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man008/008s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 8,
+          "evidence": "assigned",
+          "name": "燕明蓉",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/062/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/062/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/062/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 8,
+        "evidence": "assigned",
+        "name": "燕明蓉",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 7320,
+        "full": 7320,
+        "main_effect": 7320
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {
@@ -6241,13 +9482,60 @@
     "battleSprite": 4,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic042/M42.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/STAGE09.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/063/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/063/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/063/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 152,
+        "evidence": "assigned",
+        "name": "鄲陰",
+        "origin": "data/battles/STAGE09.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 152,
+        "evidence": "assigned",
+        "name": "鄲陰",
+        "origin": "data/battles/STAGE09.json#enemies"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6120,
+        "full": 7480,
+        "main_effect": 3920,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6322,13 +9610,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man204/204s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 204,
+          "evidence": "assigned",
+          "name": "刀凜鬼",
+          "origin": "data/battles/Stage08.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/064/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/064/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/064/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 204,
+        "evidence": "assigned",
+        "name": "刀凜鬼",
+        "origin": "data/battles/Stage08.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4120,
+        "full": 4120,
+        "main_effect": 4120
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6403,13 +9731,71 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man208/208s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 208,
+          "evidence": "assigned",
+          "name": "炎羅鬼",
+          "origin": "data/battles/Stage14.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 219,
+          "evidence": "assigned",
+          "name": "血嬰冥葵",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/065/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/065/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/065/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 208,
+        "evidence": "assigned",
+        "name": "炎羅鬼",
+        "origin": "data/battles/Stage14.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4800,
+        "full": 4800,
+        "main_effect": 4800
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6484,13 +9870,77 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man207/207s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 207,
+          "evidence": "assigned",
+          "name": "血煉鬼",
+          "origin": "data/battles/Stage08.json#enemies"
+        },
+        {
+          "category_id": 233,
+          "evidence": "assigned",
+          "name": "噬魂鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/066/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/066/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/066/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 207,
+        "evidence": "assigned",
+        "name": "血煉鬼",
+        "origin": "data/battles/Stage08.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 5160,
+        "full": 5160,
+        "main_effect": 5160
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6565,13 +10015,65 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man209/209s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 203,
+          "evidence": "assigned",
+          "name": "夜魑",
+          "origin": "data/battles/Stage20.json#enemies"
+        },
+        {
+          "category_id": 209,
+          "evidence": "assigned",
+          "name": "妖將",
+          "origin": "data/battles/Stage33.json#enemies"
+        },
+        {
+          "category_id": 100,
+          "evidence": "assigned",
+          "name": "天玄門人",
+          "origin": "data/battles/Stage34.json#players"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/067/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/067/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/067/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 209,
+        "evidence": "assigned",
+        "name": "妖將",
+        "origin": "data/battles/Stage33.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 3600,
+        "full": 3600,
+        "main_effect": 3600
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6646,13 +10148,59 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man210/210s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 210,
+          "evidence": "assigned",
+          "name": "羽魅",
+          "origin": "data/battles/Stage07.json#enemies"
+        },
+        {
+          "category_id": 231,
+          "evidence": "assigned",
+          "name": "魔血眼",
+          "origin": "data/battles/Stage18.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/068/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/068/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/068/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 210,
+        "evidence": "assigned",
+        "name": "羽魅",
+        "origin": "data/battles/Stage07.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 2760,
+        "full": 2760,
+        "main_effect": 2760
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6727,13 +10275,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man211/211s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 211,
+          "evidence": "assigned",
+          "name": "化蛇",
+          "origin": "data/battles/Stage05.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/069/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/069/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/069/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 211,
+        "evidence": "assigned",
+        "name": "化蛇",
+        "origin": "data/battles/Stage05.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 3120,
+        "full": 3120,
+        "main_effect": 3120
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6808,13 +10396,100 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man212/212s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage23.json#enemies"
+        },
+        {
+          "category_id": 219,
+          "evidence": "assigned",
+          "name": "血嬰冥葵",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 229,
+          "evidence": "assigned",
+          "name": "幽煌冥火",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 233,
+          "evidence": "assigned",
+          "name": "噬魂鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 225,
+          "evidence": "assigned",
+          "name": "劍魂  雄",
+          "origin": "data/battles/Stage27.json#enemies"
+        },
+        {
+          "category_id": 226,
+          "evidence": "assigned",
+          "name": "劍魂  雌",
+          "origin": "data/battles/Stage27.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/070/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/070/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/070/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 212,
+        "evidence": "assigned",
+        "name": "炎鶚",
+        "origin": "data/battles/Stage23.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 3200,
+        "full": 4560,
+        "main_effect": 2240,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6889,13 +10564,59 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man215/215s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 215,
+          "evidence": "assigned",
+          "name": "屍蟲",
+          "origin": "data/battles/Stage04.json#enemies"
+        },
+        {
+          "category_id": 216,
+          "evidence": "assigned",
+          "name": "咒首蜈蚣",
+          "origin": "data/battles/Stage14.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/071/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/071/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/071/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 215,
+        "evidence": "assigned",
+        "name": "屍蟲",
+        "origin": "data/battles/Stage04.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 2960,
+        "full": 2960,
+        "main_effect": 2960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -6970,13 +10691,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man217/217s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 217,
+          "evidence": "assigned",
+          "name": "赤殼蜈蚣",
+          "origin": "data/battles/Stage23.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/072/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/072/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/072/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 217,
+        "evidence": "assigned",
+        "name": "赤殼蜈蚣",
+        "origin": "data/battles/Stage23.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4920,
+        "full": 4920,
+        "main_effect": 4920
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7051,13 +10812,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man218/218s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 218,
+          "evidence": "assigned",
+          "name": "冰蜈蚣",
+          "origin": "data/battles/Stage30.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/073/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/073/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/073/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 218,
+        "evidence": "assigned",
+        "name": "冰蜈蚣",
+        "origin": "data/battles/Stage30.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4800,
+        "full": 4800,
+        "main_effect": 4800
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7132,13 +10933,83 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man219/219s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 219,
+          "evidence": "assigned",
+          "name": "血嬰冥葵",
+          "origin": "data/battles/Stage20.json#enemies"
+        },
+        {
+          "category_id": 233,
+          "evidence": "assigned",
+          "name": "噬魂鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 212,
+          "evidence": "assigned",
+          "name": "炎鶚",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 232,
+          "evidence": "assigned",
+          "name": "青煞鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 234,
+          "evidence": "assigned",
+          "name": "鬼吻妖蘭",
+          "origin": "data/battles/Stage32.json#enemies"
+        },
+        {
+          "category_id": 100,
+          "evidence": "assigned",
+          "name": "天玄門人",
+          "origin": "data/battles/Stage34.json#players"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/074/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/074/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/074/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 219,
+        "evidence": "assigned",
+        "name": "血嬰冥葵",
+        "origin": "data/battles/Stage20.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 2880,
+        "full": 2880,
+        "main_effect": 2880
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7213,13 +11084,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man214/214s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 214,
+          "evidence": "assigned",
+          "name": "凶羅",
+          "origin": "data/battles/Stage34.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/075/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/075/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/075/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 214,
+        "evidence": "assigned",
+        "name": "凶羅",
+        "origin": "data/battles/Stage34.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 6080,
+        "full": 6080,
+        "main_effect": 6080
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7294,13 +11205,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man158/158s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 158,
+          "evidence": "assigned",
+          "name": "高戚",
+          "origin": "data/battles/Stage14.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/076/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/076/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/076/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 158,
+        "evidence": "assigned",
+        "name": "高戚",
+        "origin": "data/battles/Stage14.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4800,
+        "full": 4800,
+        "main_effect": 4800
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7375,13 +11326,58 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man152/152s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 152,
+          "evidence": "assigned",
+          "name": "鄲陰",
+          "origin": "data/battles/STAGE09.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/077/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/077/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/077/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 152,
+        "evidence": "assigned",
+        "name": "鄲陰",
+        "origin": "data/battles/STAGE09.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 9960,
+        "full": 11320,
+        "main_effect": 9000,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7456,13 +11452,59 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man155/155s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 155,
+          "evidence": "assigned",
+          "name": "朱慎",
+          "origin": "data/battles/Stage30.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/078/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/078/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/078/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 155,
+        "evidence": "assigned",
+        "name": "朱慎",
+        "origin": "data/battles/Stage30.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 7800,
+        "full": 7800,
+        "main_effect": 3480,
+        "map_effect": 3360,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7537,13 +11579,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man154/154s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 154,
+          "evidence": "assigned",
+          "name": "韓無砂",
+          "origin": "data/battles/Stage20.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/079/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/079/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/079/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 154,
+        "evidence": "assigned",
+        "name": "韓無砂",
+        "origin": "data/battles/Stage20.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 4800,
+        "full": 4800,
+        "main_effect": 4800
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7618,13 +11700,58 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man150/150s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 150,
+          "evidence": "assigned",
+          "name": "劍邪",
+          "origin": "data/battles/Stage31.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/080/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/080/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/080/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 150,
+        "evidence": "assigned",
+        "name": "劍邪",
+        "origin": "data/battles/Stage31.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 6320,
+        "full": 7680,
+        "main_effect": 5360,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7702,10 +11829,13 @@
       "status": "missing_source",
       "route": "magic_saf",
       "cast": "common_magic",
-      "impact": null,
+      "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic062/M62.SAF",
       "mainSourceExists": false,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
     },
     "learnedBy": []
   },
@@ -7780,13 +11910,59 @@
     "battleSprite": 2,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin_map",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "unit_specific_then_map",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man150/150-2s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 150,
+          "evidence": "assigned",
+          "name": "劍邪",
+          "origin": "data/battles/Stage31.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin_map",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/082/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/082/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/082/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "main_effect",
+        "map_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 150,
+        "evidence": "assigned",
+        "name": "劍邪",
+        "origin": "data/battles/Stage31.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 13040,
+        "full": 13040,
+        "main_effect": 6640,
+        "map_effect": 5440,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7861,13 +12037,53 @@
     "battleSprite": 3,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man150/150-3s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 150,
+          "evidence": "assigned",
+          "name": "劍邪",
+          "origin": "data/battles/Stage31.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/083/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/083/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/083/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 150,
+        "evidence": "assigned",
+        "name": "劍邪",
+        "origin": "data/battles/Stage31.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 10240,
+        "full": 10240,
+        "main_effect": 10240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -7942,13 +12158,23 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "missing_source",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man011/011s.saf",
+      "mainSourceExists": false,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 11,
+          "evidence": "assigned",
+          "name": "劍聖",
+          "origin": "data/battles/Stage27.json#players"
+        }
+      ]
     },
     "learnedBy": []
   },
@@ -8023,13 +12249,51 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic075/M75.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/085/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/085/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/085/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4520,
+        "full": 5880,
+        "main_effect": 2320,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8104,13 +12368,60 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic020/M20.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 221,
+          "evidence": "assigned",
+          "name": "妖術士",
+          "origin": "data/battles/Stage06.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/086/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/086/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/086/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 221,
+        "evidence": "assigned",
+        "name": "妖術士",
+        "origin": "data/battles/Stage06.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 221,
+        "evidence": "assigned",
+        "name": "妖術士",
+        "origin": "data/battles/Stage06.json#enemies"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5000,
+        "full": 6360,
+        "main_effect": 2760,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8185,13 +12496,60 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic021/M21.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 222,
+          "evidence": "assigned",
+          "name": "鬼道者",
+          "origin": "data/battles/Stage15.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/087/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/087/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/087/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 222,
+        "evidence": "assigned",
+        "name": "鬼道者",
+        "origin": "data/battles/Stage15.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 222,
+        "evidence": "assigned",
+        "name": "鬼道者",
+        "origin": "data/battles/Stage15.json#enemies"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4720,
+        "full": 6080,
+        "main_effect": 2480,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8266,13 +12624,72 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic022/M22.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 223,
+          "evidence": "assigned",
+          "name": "死靈術士",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 219,
+          "evidence": "assigned",
+          "name": "血嬰冥葵",
+          "origin": "data/battles/Stage26.json#enemies"
+        },
+        {
+          "category_id": 233,
+          "evidence": "assigned",
+          "name": "噬魂鬼",
+          "origin": "data/battles/Stage26.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/088/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/088/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/088/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 223,
+        "evidence": "assigned",
+        "name": "死靈術士",
+        "origin": "data/battles/Stage26.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 223,
+        "evidence": "assigned",
+        "name": "死靈術士",
+        "origin": "data/battles/Stage26.json#enemies"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4640,
+        "full": 6000,
+        "main_effect": 2400,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8347,13 +12764,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "cure",
       "casterDependent": false,
+      "mainSource": "Magic/magic023/M23.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/089/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/089/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/089/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5840,
+        "full": 7200,
+        "main_effect": 3600,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8428,13 +12885,16 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "missing_caster_context",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
+      "mainSource": null,
       "mainSourceExists": null,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
     },
     "learnedBy": []
   },
@@ -8509,13 +12969,58 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man153/153s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 153,
+          "evidence": "assigned",
+          "name": "封寒月",
+          "origin": "data/battles/Stage28.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/091/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/091/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/091/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 153,
+        "evidence": "assigned",
+        "name": "封寒月",
+        "origin": "data/battles/Stage28.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4000,
+        "full": 5360,
+        "main_effect": 3040,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8590,13 +13095,58 @@
     "battleSprite": 0,
     "description": "劍魂•雄的絕技，能在範圍中飛射無數刀光刃影，予敵全體重創。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man012/012s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 12,
+          "evidence": "assigned",
+          "name": "劍魂雄",
+          "origin": "data/battles/Stage35.json#players"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/092/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/092/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/092/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 12,
+        "evidence": "assigned",
+        "name": "劍魂雄",
+        "origin": "data/battles/Stage35.json#players"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 7160,
+        "full": 8520,
+        "main_effect": 6200,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8671,13 +13221,60 @@
     "battleSprite": 0,
     "description": "劍魂•雌的絕技，能為範圍內的伙伴同時提昇攻防咒速四項能力。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "special",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man013/013s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 13,
+          "evidence": "assigned",
+          "name": "劍魂雌",
+          "origin": "data/battles/Stage35.json#players"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/093/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/093/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/093/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 13,
+        "evidence": "assigned",
+        "name": "劍魂雌",
+        "origin": "data/battles/Stage35.json#players"
+      },
+      "representativeTarget": {
+        "category_id": 13,
+        "evidence": "assigned",
+        "name": "劍魂雌",
+        "origin": "data/battles/Stage35.json#players"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 12280,
+        "full": 13640,
+        "main_effect": 10080,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8752,13 +13349,60 @@
     "battleSprite": 0,
     "description": "幻獸靈鼩的絕技，能全復伙伴的生命力，同時治癒所有毒封麻癱。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "cure",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man015/015s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 15,
+          "evidence": "assigned",
+          "name": "靈鼩",
+          "origin": "data/battles/Stage04.json#players"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/094/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/094/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/094/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 15,
+        "evidence": "assigned",
+        "name": "靈鼩",
+        "origin": "data/battles/Stage04.json#players"
+      },
+      "representativeTarget": {
+        "category_id": 15,
+        "evidence": "assigned",
+        "name": "靈鼩",
+        "origin": "data/battles/Stage04.json#players"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 7640,
+        "full": 9000,
+        "main_effect": 5400,
+        "result_feedback": 2240
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8833,13 +13477,51 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic075/M75.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/095/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/095/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/095/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4520,
+        "full": 5880,
+        "main_effect": 2320,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8914,13 +13596,51 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic075/M75.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/096/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/096/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/096/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4520,
+        "full": 5880,
+        "main_effect": 2320,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -8995,13 +13715,51 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "magic_saf",
       "cast": "common_magic",
       "impact": "special",
       "casterDependent": false,
+      "mainSource": "Magic/magic074/M74.SAF",
       "mainSourceExists": true,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
+    },
+    "visual": {
+      "route": "magic_saf",
+      "casterDependent": false,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/097/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/097/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/097/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 3,
+        "evidence": "representative",
+        "name": "紫楓",
+        "origin": "representative fallback"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 4520,
+        "full": 5880,
+        "main_effect": 2320,
+        "result_feedback": 2200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9076,13 +13834,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man238/238s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 238,
+          "evidence": "assigned",
+          "name": "兩佰塊",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/098/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/098/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/098/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 238,
+        "evidence": "assigned",
+        "name": "兩佰塊",
+        "origin": "data/battles/Stage35.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 5200,
+        "full": 5200,
+        "main_effect": 5200
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9157,13 +13955,58 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man241/241s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 241,
+          "evidence": "assigned",
+          "name": "兩佰之王",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/099/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/099/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/099/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 241,
+        "evidence": "assigned",
+        "name": "兩佰之王",
+        "origin": "data/battles/Stage35.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 5600,
+        "full": 6960,
+        "main_effect": 4640,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9238,13 +14081,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man243/243s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 243,
+          "evidence": "assigned",
+          "name": "兩佰惡魔",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/100/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/100/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/100/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 243,
+        "evidence": "assigned",
+        "name": "兩佰惡魔",
+        "origin": "data/battles/Stage35.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 7120,
+        "full": 7120,
+        "main_effect": 7120
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9319,13 +14202,16 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "missing_caster_context",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
+      "mainSource": null,
       "mainSourceExists": null,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
     },
     "learnedBy": []
   },
@@ -9400,13 +14286,53 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man242/242s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 242,
+          "evidence": "assigned",
+          "name": "兩佰小鬼",
+          "origin": "data/battles/Stage35.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/102/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/102/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/102/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 242,
+        "evidence": "assigned",
+        "name": "兩佰小鬼",
+        "origin": "data/battles/Stage35.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 3720,
+        "full": 3720,
+        "main_effect": 3720
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9484,10 +14410,13 @@
       "status": "no_main_effect",
       "route": "magic_saf",
       "cast": "common_magic",
-      "impact": null,
+      "impact": "special",
       "casterDependent": false,
+      "mainSource": null,
       "mainSourceExists": null,
-      "hasMovieSource": false
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": []
     },
     "learnedBy": []
   },
@@ -9562,13 +14491,59 @@
     "battleSprite": 0,
     "description": null,
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_cutin",
       "cast": "unit_specific",
-      "impact": null,
+      "impact": "attack_floor_target",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man215/215s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 215,
+          "evidence": "assigned",
+          "name": "屍蟲",
+          "origin": "data/battles/Stage05.json#enemies"
+        },
+        {
+          "category_id": 230,
+          "evidence": "assigned",
+          "name": "死魎蟲",
+          "origin": "data/battles/Stage17.json#enemies"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_cutin",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/104/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/104/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/104/full.webp",
+      "compactSegments": [
+        "main_effect"
+      ],
+      "fullSegments": [
+        "main_effect"
+      ],
+      "representativeCaster": {
+        "category_id": 215,
+        "evidence": "assigned",
+        "name": "屍蟲",
+        "origin": "data/battles/Stage05.json#enemies"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "compact": 2960,
+        "full": 2960,
+        "main_effect": 2960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": []
   },
@@ -9643,13 +14618,58 @@
     "battleSprite": 3,
     "description": "飛燕門的不傳絕技，以刀輪急轉激起如刃旋風，切斬周圍的敵人。",
     "visualInfo": {
-      "status": "mapped",
+      "status": "preview_ready",
       "route": "unit_map_skill",
-      "cast": "unit_specific",
-      "impact": null,
+      "cast": "common_magic_then_unit",
+      "impact": "damage",
       "casterDependent": true,
-      "mainSourceExists": null,
-      "hasMovieSource": false
+      "mainSource": "Sprite/man007/007-3s.saf",
+      "mainSourceExists": true,
+      "movieSource": null,
+      "movieSourceExists": null,
+      "casterCandidates": [
+        {
+          "category_id": 7,
+          "evidence": "assigned",
+          "name": "韓千秀",
+          "origin": "Misc/KMAN_LEV.dat"
+        }
+      ]
+    },
+    "visual": {
+      "route": "unit_map_skill",
+      "casterDependent": true,
+      "kind": "representative_composite",
+      "posterPath": "/assets/sword-man/skill-effects/105/poster.png",
+      "compactPath": "/assets/sword-man/skill-effects/105/compact.webp",
+      "fullPath": "/assets/sword-man/skill-effects/105/full.webp",
+      "compactSegments": [
+        "main_effect",
+        "result_feedback"
+      ],
+      "fullSegments": [
+        "common_cast",
+        "main_effect",
+        "result_feedback"
+      ],
+      "representativeCaster": {
+        "category_id": 7,
+        "evidence": "assigned",
+        "name": "韓千秀",
+        "origin": "Misc/KMAN_LEV.dat"
+      },
+      "representativeTarget": {
+        "category_id": 203,
+        "name": "夜魑"
+      },
+      "durationMs": {
+        "common_cast": 1360,
+        "compact": 12480,
+        "full": 13840,
+        "main_effect": 11520,
+        "result_feedback": 960
+      },
+      "audio": "godot_timeline_only"
     },
     "learnedBy": [
       {

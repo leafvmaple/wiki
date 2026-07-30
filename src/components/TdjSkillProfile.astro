@@ -33,6 +33,26 @@ const durationText = (milliseconds: unknown) =>
   typeof milliseconds === 'number' ? `${(milliseconds / 1000).toFixed(2)} 秒` : '—';
 const visual = skill.visual as DataRow | undefined;
 const visualInfo = skill.visualInfo as DataRow | undefined;
+const segmentLabels: Record<string, string> = {
+  common_cast: '公共施法',
+  main_effect: '角色／主体动画',
+  map_effect: '地图追击动画',
+  result_feedback: '命中反馈',
+};
+const segmentText = (segments: unknown) =>
+  Array.isArray(segments)
+    ? segments.map((segment) => segmentLabels[String(segment)] ?? String(segment)).join(' → ')
+    : '—';
+const compactSequenceText = segmentText(visual?.compactSegments);
+const fullSequenceText = segmentText(visual?.fullSegments);
+const hasDistinctFull = JSON.stringify(visual?.compactSegments) !== JSON.stringify(visual?.fullSegments);
+const statusLabels: Record<string, string> = {
+  missing_source: '资料已定位到原始资源路径，但安装目录中没有该 SAF 文件。',
+  missing_caster_context: '招式表没有记录施法者，现有角色成长表与关卡布阵也没有使用实例，暂时无法确定应读取哪一组 manNNN 精灵。',
+  no_main_effect: '原始记录的动画编号为 0，没有可解出的主体动画；该条目更像未完成或未使用的占位资料。',
+};
+const missingVisualText = statusLabels[String(visualInfo?.status)]
+  ?? '演出资源已经识别，但尚未形成可直接播放的网页预览。';
 ---
 
 <nav class="tdj-skill-nav" aria-label="技能资料导航">
@@ -141,38 +161,52 @@ const visualInfo = skill.visualInfo as DataRow | undefined;
           class="is-active"
           type="button"
           data-preview-src={visual.compactPath}
-          data-preview-label={`精简版 · ${durationText(visual.durationMs?.compact)} · 主体特效 → 伤害反馈`}
+          data-preview-label={`精简版 · ${durationText(visual.durationMs?.compact)} · ${compactSequenceText}`}
           aria-pressed="true"
         >精简版</button>
-        <button
-          type="button"
-          data-preview-src={visual.fullPath}
-          data-preview-label={`完整版 · ${durationText(visual.durationMs?.full)} · 公共施法 → 主体特效 → 伤害反馈`}
-          aria-pressed="false"
-        >完整版</button>
+        {hasDistinctFull && (
+          <button
+            type="button"
+            data-preview-src={visual.fullPath}
+            data-preview-label={`完整版 · ${durationText(visual.durationMs?.full)} · ${fullSequenceText}`}
+            aria-pressed="false"
+          >完整版</button>
+        )}
       </div>
     </div>
     <figure>
       <img
         src={visual.compactPath}
-        alt={`${skill.name}精简演出：${visual.representativeCaster?.name}施法、${visual.representativeTarget?.name}受击`}
+        alt={`${skill.name}原版演出代表预览`}
         width="670"
         height="442"
       />
-      <figcaption>精简版 · {durationText(visual.durationMs?.compact)} · 主体特效 → 伤害反馈</figcaption>
+      <figcaption>精简版 · {durationText(visual.durationMs?.compact)} · {compactSequenceText}</figcaption>
     </figure>
-    <p>
-      画面以{visual.representativeCaster?.name ?? '代表角色'}为施法者、
-      {visual.representativeTarget?.name ?? '代表敌人'}为受击者。普通法术的公共施法段重复度较高，
-      因而默认展示精简版；游戏内时间轴另行保留原版音效。
-    </p>
+    {visual.route === 'unit_cutin' ? (
+      <p>
+        角色专属特写取自{visual.representativeCaster?.name ?? '代表角色'}对应的原版 SAF。
+        原版会在战斗特写层另行组合战场底板、双方立绘和受击动作，网页预览只展示已确认的专属招式层，不伪造缺失画面。
+      </p>
+    ) : (
+      <p>
+        画面以{visual.representativeCaster?.name ?? '代表角色'}为施法者、
+        {visual.representativeTarget?.name ?? '代表目标'}为命中反馈对象。
+        {visual.fullSegments?.includes('common_cast') && '公共施法段重复度较高，因而默认展示精简版；'}
+        游戏内时间轴另行保留原版音效。
+      </p>
+    )}
+    {visual.representativeCaster?.evidence === 'inferred' && (
+      <p class="tdj-skill-visual-caution">
+        此招没有出现在成长表或关卡布阵中；代表施法者根据技能表分组与同编号精灵变体推定，仍标记为待验证。
+      </p>
+    )}
   </section>
 ) : (
   <div class="tdj-skill-empty">
-    <strong>演出预览待整理</strong>
+    <strong>暂无可验证的演出预览</strong>
     <p>
-      已识别动画编号 #{skill.animationId}，当前路线为 <code>{visualInfo?.route ?? '待判定'}</code>，
-      但还没有生成可在网页直接播放的代表性样例。
+      当前路线为 <code>{visualInfo?.route ?? '待判定'}</code>：{missingVisualText}
     </p>
   </div>
 )}
@@ -185,6 +219,7 @@ const visualInfo = skill.visualInfo as DataRow | undefined;
       <tr><th>动画编号</th><td>{skill.animationId}</td><th>演出整理状态</th><td><code>{visualInfo?.status ?? 'unknown'}</code></td></tr>
       <tr><th>演出路线</th><td><code>{visualInfo?.route ?? 'unknown'}</code></td><th>公共施法段</th><td><code>{visualInfo?.cast ?? 'unknown'}</code></td></tr>
       <tr><th>命中反馈</th><td><code>{visualInfo?.impact ?? 'unknown'}</code></td><th>依赖施法者精灵</th><td>{visualInfo?.casterDependent ? '是' : '否'}</td></tr>
+      <tr><th>主体资源</th><td colspan="3"><code>{visualInfo?.mainSource ?? '—'}</code></td></tr>
       <tr><th>战斗演出类型</th><td><code>{rawEnum(skill.battleTypeName, skill.battleType)}</code></td><th>远程演出参数</th><td><code>{rawEnum(skill.battleRangedName, skill.battleRanged)}</code></td></tr>
       <tr><th>战斗精灵参数</th><td>{skill.battleSprite}</td><th>大招影片标记</th><td>{skill.hasMovie ? '有' : '无'}</td></tr>
     </tbody>
@@ -441,6 +476,13 @@ const visualInfo = skill.visualInfo as DataRow | undefined;
     border-top: 1px solid var(--leaf-border);
     font-size: 0.88rem;
     padding: 0.55rem 0.7rem;
+  }
+
+  .tdj-skill-visual .tdj-skill-visual-caution {
+    background: rgba(232, 169, 61, 0.1);
+    border-left: 3px solid #e8a93d;
+    color: var(--leaf-text);
+    padding: 0.65rem 0.75rem;
   }
 
   .tdj-skill-empty p {
