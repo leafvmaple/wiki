@@ -82,6 +82,45 @@ const itemEffectLabels = {
   11: '提升运气上限',
 };
 
+// EVENT talk instructions carry a face id rather than a speaker name. These
+// labels are the stable face-to-character identities evidenced by the battle
+// dialogue itself; face -1 deliberately stays unnamed because it is used by
+// both narration and off-screen speakers.
+const dialogueSpeakerByFaceId = new Map([
+  [1, '殷劍平'],
+  [2, '封寒月'],
+  [3, '紫楓'],
+  [4, '上官遠'],
+  [5, '鮮于超'],
+  [6, '真胤'],
+  [7, '韓千秀'],
+  [8, '燕明蓉'],
+  [9, '夏侯儀'],
+  [10, '不淨散人'],
+  [11, '劍聖'],
+  [17, '應奉仁'],
+  [19, '禁軍士兵'],
+  [20, '韋統領'],
+  [24, '應靈華'],
+  [25, '神隱上人'],
+  [26, '王大人'],
+  [27, '齊祀'],
+  [32, '劍邪'],
+  [33, '鄲陰'],
+  [34, '韓無砂'],
+  [35, '朱慎'],
+  [36, '高戚'],
+  [37, '靈山老人'],
+  [38, '高世津'],
+  [39, '方芸'],
+  [40, '四象門弟子'],
+  [41, '四象門弟子'],
+  [43, '兩佰塊群'],
+  [44, '兩佰塊群'],
+  [49, '店小二'],
+  [51, '兩佰塊群'],
+]);
+
 const readJson = async (relativePath) =>
   JSON.parse(await fs.readFile(path.join(sourceRoot, relativePath), 'utf8'));
 
@@ -94,6 +133,19 @@ const compactList = (items, limit = 8) => [...new Set(items.filter(Boolean))].sl
 const asArray = (value) => (Array.isArray(value) ? value : Object.values(value ?? {}));
 const label = (labels, value) => labels[value] ?? value ?? '-';
 const cleanString = (value) => (typeof value === 'string' && value.trim() ? value.trim() : null);
+const dialogueRows = (instructions) => (instructions ?? [])
+  .filter((instruction) => instruction.op === 'talk')
+  .map((instruction, index) => {
+    const faceId = Number.isInteger(instruction.face) ? instruction.face : null;
+    return {
+      order: index + 1,
+      messageIndex: Number.isInteger(instruction.num) ? instruction.num : null,
+      speaker: dialogueSpeakerByFaceId.get(faceId)
+        ?? (faceId !== null && faceId >= 0 ? `角色头像 #${faceId}` : '未署名'),
+      faceId,
+      text: cleanString(instruction.text) ?? '（原始文本为空）',
+    };
+  });
 
 const copyAsset = async (relativeSource, relativeOutput) => {
   const source = path.join(sourceRoot, relativeSource);
@@ -553,6 +605,8 @@ const main = async () => {
     const players = battle.players ?? [];
     const enemies = battle.enemies ?? [];
     const combatPlayers = players.filter((unit) => unit.combatant !== false);
+    const introDialogue = dialogueRows(battle.intro);
+    const outroDialogue = dialogueRows(battle.outro);
     const topEnemies = [...enemies]
       .sort((a, b) => (b.hp ?? 0) - (a.hp ?? 0))
       .slice(0, 3)
@@ -598,8 +652,10 @@ const main = async () => {
       outroLineCount: battle.outro?.length ?? 0,
       introInstructionCount: battle.intro?.length ?? 0,
       outroInstructionCount: battle.outro?.length ?? 0,
-      introTalkCount: (battle.intro ?? []).filter((instruction) => instruction.op === 'talk').length,
-      outroTalkCount: (battle.outro ?? []).filter((instruction) => instruction.op === 'talk').length,
+      introTalkCount: introDialogue.length,
+      outroTalkCount: outroDialogue.length,
+      introDialogue,
+      outroDialogue,
       playerNames: compactList(players.map((unit) => unit.name), 12),
       enemyNames: compactList(enemies.map((unit) => unit.name), 12),
       enemySkillNames: compactList(enemies.flatMap((unit) => unit.skills ?? []), 8),

@@ -24,6 +24,10 @@ const rosterSections = [
   { id: 'players', title: '我方出场', rows: battle.playerRoster as DataRow[] },
   { id: 'enemies', title: '敌方出场', rows: battle.enemyRoster as DataRow[] },
 ];
+const dialogueSections = [
+  { id: 'intro-dialogue', title: '战前对话', rows: battle.introDialogue as DataRow[] },
+  { id: 'outro-dialogue', title: '战后对话', rows: battle.outroDialogue as DataRow[] },
+];
 const transitionParts = [
   battle.transition.town !== null ? `城镇 #${battle.transition.town}` : null,
   battle.transition.camp !== null ? `营地 #${battle.transition.camp}` : null,
@@ -134,6 +138,33 @@ const transitionParts = [
   </div>
 </details>
 
+<h2 id="dialogue">战前与战后对话</h2>
+
+<p class="tdj-dialogue-note">
+  按原版事件中的出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
+</p>
+
+<div class="tdj-dialogue-grid">
+  {dialogueSections.map((section) => (
+    <details class="leaf-dialogue tdj-dialogue" id={section.id}>
+      <summary>
+        <span>{section.title}</span>
+        <small>{section.rows.length} 条 · 剧透</small>
+      </summary>
+      {section.rows.length ? (
+        <div class="tdj-dialogue-body">
+          {section.rows.map((line: DataRow) => (
+            <p>
+              <strong>{line.speaker}：</strong>
+              <span>{line.text}</span>
+            </p>
+          ))}
+        </div>
+      ) : <p class="tdj-dialogue-empty">原版本段事件没有对话。</p>}
+    </details>
+  ))}
+</div>
+
 {rosterSections.map((section) => (
   <>
     <h2 id={section.id}>{section.title}</h2>
@@ -205,7 +236,8 @@ const transitionParts = [
 <aside class="tdj-provenance">
   剧情标题卡来自 <code>Misc/STA_SCR.DAT</code>，战场说明标题与玩家可见胜败条件来自
   <code>SDES_NN.DAT</code>；地图来自 <code>mapNN.FB2 + mapNN.MPL</code>；阵容与坐标来自逐关布阵数据；
-  机器判定明细来自 <code>JUDGE_NN.COD</code>；战后去向来自逐关战后事件。不同原版来源不互相覆盖。
+  机器判定明细来自 <code>JUDGE_NN.COD</code>；对话来自 <code>EVENT_NN.COD + EMSG_NN.MSG</code>；
+  战后去向来自逐关战后事件。不同原版来源不互相覆盖。
 </aside>
 
 <style>
@@ -379,6 +411,66 @@ const transitionParts = [
     margin-bottom: 0.4rem;
   }
 
+  .tdj-dialogue-note {
+    color: var(--leaf-text-muted);
+    font-size: 0.86rem;
+    margin-top: -0.25rem;
+  }
+
+  .tdj-dialogue-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  details.leaf-dialogue.tdj-dialogue {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-left: 3px solid var(--leaf-primary);
+    border-radius: var(--leaf-radius-card);
+    margin: 0;
+    padding: 0.75rem 0.85rem;
+  }
+
+  details.leaf-dialogue.tdj-dialogue > summary {
+    align-items: baseline;
+    color: var(--leaf-heading);
+    display: flex;
+    font-size: 0.95rem;
+    gap: 0.7rem;
+    justify-content: space-between;
+  }
+
+  details.leaf-dialogue.tdj-dialogue > summary small {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+
+  .tdj-dialogue-body {
+    max-height: 38rem;
+    overflow-y: auto;
+    padding-right: 0.35rem;
+  }
+
+  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: max-content minmax(0, 1fr);
+  }
+
+  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p strong {
+    white-space: nowrap;
+  }
+
+  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p span {
+    white-space: pre-line;
+  }
+
+  .tdj-dialogue-empty {
+    color: var(--leaf-text-muted);
+  }
+
   .tdj-table-scroll {
     max-width: 100%;
     overflow-x: auto;
@@ -448,6 +540,7 @@ const transitionParts = [
 
     .tdj-condition-grid,
     .tdj-judge-details > div,
+    .tdj-dialogue-grid,
     .tdj-map-data {
       grid-template-columns: 1fr;
     }
@@ -456,6 +549,11 @@ const transitionParts = [
   @media (max-width: 34rem) {
     .tdj-battle-stats {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p {
+      gap: 0.1rem;
+      grid-template-columns: 1fr;
     }
   }
 </style>
