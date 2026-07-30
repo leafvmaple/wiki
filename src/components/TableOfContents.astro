@@ -1,0 +1,11 @@
+---
+import DefaultTableOfContents from '@astrojs/starlight/components/TableOfContents.astro';
+import { getTdjBattleToc } from '../utils/tdjBattleToc';
+
+const tocItems = getTdjBattleToc(Astro.url.pathname);
+if (tocItems && Astro.locals.starlightRoute.toc) {
+  Astro.locals.starlightRoute.toc.items = tocItems;
+}
+---
+
+<DefaultTableOfContents />

@@ -1,6 +1,7 @@
 ---
 import battles from '../data/sword-man/generated/battles.json';
 import TdjStoryMovie from './TdjStoryMovie.astro';
+import TdjStorySequence from './TdjStorySequence.astro';
 
 type DataRow = Record<string, any>;
 
@@ -76,24 +77,11 @@ const transitionParts = [
   本关战斗开始前的原版事件对话，按出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
 </p>
 
-<details class="leaf-dialogue tdj-dialogue">
-  <summary>
-    <span>战前对话</span>
-    <small>{battle.introTalkCount} 条 · 剧透</small>
-  </summary>
-  {introStory.length ? (
-    <div class="tdj-dialogue-body">
-      {introStory.map((entry: DataRow) => entry.kind === 'movie'
-        ? <TdjStoryMovie scene={entry} />
-        : (
-          <p>
-            <strong>{entry.speaker}：</strong>
-            <span>{entry.text}</span>
-          </p>
-        ))}
-    </div>
-  ) : <p class="tdj-dialogue-empty">原版战前事件没有对话或影片。</p>}
-</details>
+<TdjStorySequence
+  entries={introStory}
+  label="战前对话"
+  emptyText="原版战前事件没有对话或影片。"
+/>
 
 <h2 id="battle-map">战场地图</h2>
 
@@ -116,21 +104,21 @@ const transitionParts = [
 
 <div class="tdj-condition-grid">
   <section>
-    <h3>胜利条件</h3>
+    <h3 id="win-conditions">胜利条件</h3>
     {battle.winConditions.length ? (
       <ul>{battle.winConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
     ) : <p>原版关卡说明的胜利条件字段异常为空。</p>}
     <small>来源：原版 <code>SDES_NN.DAT</code> 战前条件栏</small>
   </section>
   <section>
-    <h3>失败条件</h3>
+    <h3 id="lose-conditions">失败条件</h3>
     {battle.loseConditions.length ? (
       <ul>{battle.loseConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
     ) : <p>原版关卡说明的失败条件字段异常为空。</p>}
     <small>来源：原版 <code>SDES_NN.DAT</code> 战前条件栏</small>
   </section>
   <section>
-    <h3>战后流程</h3>
+    <h3 id="post-battle-route">战后流程</h3>
     {battle.transition.decoded ? (
       <p>
         {transitionParts.length ? transitionParts.join(' / ') : '不进入城镇或营地'}
@@ -249,24 +237,11 @@ const transitionParts = [
   本关战斗结束后的原版事件对话，按出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
 </p>
 
-<details class="leaf-dialogue tdj-dialogue">
-  <summary>
-    <span>战后对话</span>
-    <small>{battle.outroTalkCount} 条 · 剧透</small>
-  </summary>
-  {outroStory.length ? (
-    <div class="tdj-dialogue-body">
-      {outroStory.map((entry: DataRow) => entry.kind === 'movie'
-        ? <TdjStoryMovie scene={entry} />
-        : (
-          <p>
-            <strong>{entry.speaker}：</strong>
-            <span>{entry.text}</span>
-          </p>
-        ))}
-    </div>
-  ) : <p class="tdj-dialogue-empty">原版主要胜利事件没有已解出的对话或影片。</p>}
-</details>
+<TdjStorySequence
+  entries={outroStory}
+  label="战后对话"
+  emptyText="原版主要胜利事件没有已解出的对话或影片。"
+/>
 
 {endingMovieScenes.length > 0 && <h2 id="ending-cutscenes">结局剧情 CG</h2>}
 
@@ -464,54 +439,6 @@ const transitionParts = [
     margin-top: -0.25rem;
   }
 
-  details.leaf-dialogue.tdj-dialogue {
-    background: var(--leaf-bg-card);
-    border: 1px solid var(--leaf-border);
-    border-left: 3px solid var(--leaf-primary);
-    border-radius: var(--leaf-radius-card);
-    margin: 0;
-    padding: 0.75rem 0.85rem;
-  }
-
-  details.leaf-dialogue.tdj-dialogue > summary {
-    align-items: baseline;
-    color: var(--leaf-heading);
-    display: flex;
-    font-size: 0.95rem;
-    gap: 0.7rem;
-    justify-content: space-between;
-  }
-
-  details.leaf-dialogue.tdj-dialogue > summary small {
-    color: var(--leaf-text-muted);
-    font-size: 0.78rem;
-    font-weight: 500;
-  }
-
-  .tdj-dialogue-body {
-    max-height: 38rem;
-    overflow-y: auto;
-    padding-right: 0.35rem;
-  }
-
-  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p {
-    display: grid;
-    gap: 0.55rem;
-    grid-template-columns: max-content minmax(0, 1fr);
-  }
-
-  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p strong {
-    white-space: nowrap;
-  }
-
-  details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p span {
-    white-space: pre-line;
-  }
-
-  .tdj-dialogue-empty {
-    color: var(--leaf-text-muted);
-  }
-
   .tdj-table-scroll {
     max-width: 100%;
     overflow-x: auto;
@@ -591,9 +518,5 @@ const transitionParts = [
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    details.leaf-dialogue.tdj-dialogue .tdj-dialogue-body p {
-      gap: 0.1rem;
-      grid-template-columns: 1fr;
-    }
   }
 </style>

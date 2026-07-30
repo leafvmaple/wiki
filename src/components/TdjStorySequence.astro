@@ -1,0 +1,129 @@
+---
+import TdjStoryMovie from './TdjStoryMovie.astro';
+
+type DataRow = Record<string, any>;
+type StorySegment =
+  | { kind: 'dialogue'; entries: DataRow[]; start: number; end: number }
+  | { kind: 'movie'; entry: DataRow };
+
+const { entries, label, emptyText } = Astro.props as {
+  entries: DataRow[];
+  label: string;
+  emptyText: string;
+};
+
+const segments: StorySegment[] = [];
+let dialogueEntries: DataRow[] = [];
+let dialogueStart = 0;
+let dialogueCount = 0;
+
+const flushDialogue = () => {
+  if (!dialogueEntries.length) return;
+  segments.push({
+    kind: 'dialogue',
+    entries: dialogueEntries,
+    start: dialogueStart,
+    end: dialogueCount,
+  });
+  dialogueEntries = [];
+};
+
+for (const entry of entries) {
+  if (entry.kind === 'movie') {
+    flushDialogue();
+    segments.push({ kind: 'movie', entry });
+    continue;
+  }
+
+  dialogueCount += 1;
+  if (!dialogueEntries.length) dialogueStart = dialogueCount;
+  dialogueEntries.push(entry);
+}
+flushDialogue();
+
+const dialogueSegmentCount = segments.filter((segment) => segment.kind === 'dialogue').length;
+---
+
+{segments.length ? segments.map((segment) => segment.kind === 'movie'
+  ? <TdjStoryMovie scene={segment.entry} />
+  : (
+    <details class="leaf-dialogue tdj-dialogue">
+      <summary>
+        <span>
+          {dialogueSegmentCount > 1
+            ? `${label} ${segment.start}–${segment.end}`
+            : label}
+        </span>
+        <small>
+          {dialogueSegmentCount > 1
+            ? `第 ${segment.start}–${segment.end} 条 / 共 ${dialogueCount} 条 · 剧透`
+            : `${dialogueCount} 条 · 剧透`}
+        </small>
+      </summary>
+      <div class="tdj-dialogue-body">
+        {segment.entries.map((entry: DataRow) => (
+          <p>
+            <strong>{entry.speaker}：</strong>
+            <span>{entry.text}</span>
+          </p>
+        ))}
+      </div>
+    </details>
+  )) : <p class="tdj-dialogue-empty">{emptyText}</p>}
+
+<style>
+  details.leaf-dialogue.tdj-dialogue {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-left: 3px solid var(--leaf-primary);
+    border-radius: var(--leaf-radius-card);
+    margin: 0.75rem 0;
+    padding: 0.75rem 0.85rem;
+  }
+
+  details.leaf-dialogue.tdj-dialogue > summary {
+    align-items: baseline;
+    color: var(--leaf-heading);
+    display: flex;
+    font-size: 0.95rem;
+    gap: 0.7rem;
+    justify-content: space-between;
+  }
+
+  details.leaf-dialogue.tdj-dialogue > summary small {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+
+  .tdj-dialogue-body {
+    max-height: 38rem;
+    overflow-y: auto;
+    padding-right: 0.35rem;
+  }
+
+  .tdj-dialogue-body p {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: max-content minmax(0, 1fr);
+  }
+
+  .tdj-dialogue-body p strong {
+    white-space: nowrap;
+  }
+
+  .tdj-dialogue-body p span {
+    white-space: pre-line;
+  }
+
+  .tdj-dialogue-empty {
+    color: var(--leaf-text-muted);
+  }
+
+  @media (max-width: 34rem) {
+    .tdj-dialogue-body p {
+      gap: 0.1rem;
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

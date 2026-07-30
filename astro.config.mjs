@@ -29,7 +29,9 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       components: {
+        MobileTableOfContents: './src/components/MobileTableOfContents.astro',
         Sidebar: './src/components/Sidebar.astro',
+        TableOfContents: './src/components/TableOfContents.astro',
       },
       tableOfContents: {
         minHeadingLevel: 2,
