@@ -1,0 +1,345 @@
+---
+import battles from '../data/sword-man/generated/battles.json';
+
+type DataRow = Record<string, any>;
+
+const { stageId } = Astro.props as { stageId: string };
+const rows = battles as DataRow[];
+const battle = rows.find((row) => row.id === stageId);
+
+if (!battle) {
+  throw new Error(`Unknown TDJ stage id: ${stageId}`);
+}
+
+const previous = rows.find((row) => row.order === battle.order - 1);
+const next = rows.find((row) => row.order === battle.order + 1);
+const range = (value?: DataRow | null) => {
+  if (!value) return '-';
+  return value.min === value.max ? `${value.min}` : `${value.min}–${value.max}`;
+};
+const list = (values?: string[], fallback = '—') => values?.length ? values.join('、') : fallback;
+const positions = (values?: DataRow[]) =>
+  values?.map((position) => `#${position.id} (${position.x}, ${position.y})`).join('、') ?? '—';
+const rosterSections = [
+  { id: 'players', title: '我方出场', rows: battle.playerRoster as DataRow[] },
+  { id: 'enemies', title: '敌方出场', rows: battle.enemyRoster as DataRow[] },
+];
+const transitionParts = [
+  battle.transition.town !== null ? `城镇 #${battle.transition.town}` : null,
+  battle.transition.camp !== null ? `营地 #${battle.transition.camp}` : null,
+].filter(Boolean);
+---
+
+<nav class="tdj-battle-nav" aria-label="关卡资料导航">
+  <a href="/games/sword-man/battles/">← 关卡一览</a>
+  <span>
+    {previous && <a href={previous.href}>← {previous.name ?? previous.id}</a>}
+    {next && <a href={next.href}>{next.name ?? next.id} →</a>}
+  </span>
+</nav>
+
+<section class="tdj-battle-summary" aria-label={`${battle.displayTitle} 关卡概要`}>
+  <div class="tdj-battle-heading">
+    <p>{battle.id} · 原版关卡标题卡</p>
+    <h2>{battle.displayTitle}</h2>
+    {battle.titleStatus === 'source_blank' && (
+      <div class="tdj-source-blank">原始 <code>STA_SCR.DAT</code> 的这一条标题字段为空，本站不推测命名。</div>
+    )}
+  </div>
+
+  <div class="tdj-battle-stats">
+    <span><strong>{battle.map.width} × {battle.map.height}</strong><small>地图格数</small></span>
+    <span><strong>{battle.map.walkableCount}</strong><small>可通行格</small></span>
+    <span><strong>{battle.combatPlayerCount} / {battle.playerCount}</strong><small>我方战斗 / 总出场</small></span>
+    <span><strong>{battle.enemyCount}</strong><small>敌方单位</small></span>
+    <span><strong>{battle.maxEnemyLevel}</strong><small>敌方最高等级</small></span>
+    <span><strong>{battle.introTalkCount} / {battle.outroTalkCount}</strong><small>战前 / 战后对话</small></span>
+  </div>
+</section>
+
+<h2 id="conditions">胜败条件与战后去向</h2>
+
+<div class="tdj-condition-grid">
+  <section>
+    <h3>胜利条件</h3>
+    {battle.winConditions.length ? (
+      <ul>{battle.winConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
+    ) : <p>当前 JUDGE 脚本未解出显式胜利条件。</p>}
+  </section>
+  <section>
+    <h3>失败条件</h3>
+    {battle.loseConditions.length ? (
+      <ul>{battle.loseConditions.map((condition: DataRow) => <li>{condition.description}</li>)}</ul>
+    ) : <p>当前 JUDGE 脚本未设额外失败条件。</p>}
+  </section>
+  <section>
+    <h3>战后流程</h3>
+    {battle.transition.decoded ? (
+      <p>
+        {transitionParts.length ? transitionParts.join(' / ') : '不进入城镇或营地'}
+        {battle.transition.nextStageId && (
+          <>
+            <br />下一关：{battle.transition.nextStageHref
+              ? <a href={battle.transition.nextStageHref}>{battle.transition.nextStageTitle}</a>
+              : battle.transition.nextStageId}
+          </>
+        )}
+      </p>
+    ) : <p>当前战后脚本未解出固定场景切换。</p>}
+  </section>
+</div>
+
+{rosterSections.map((section) => (
+  <>
+    <h2 id={section.id}>{section.title}</h2>
+    <div class="tdj-table-scroll">
+      <table class="tdj-roster-table">
+        <thead>
+          <tr>
+            <th>单位</th>
+            <th>出场状态</th>
+            <th>等级 / HP / MP</th>
+            <th>攻 / 防 / 移动 / 射程</th>
+            <th>装备</th>
+            <th>携带道具 / 招式</th>
+            <th>初始坐标</th>
+          </tr>
+        </thead>
+        <tbody>
+          {section.rows.map((unit: DataRow) => (
+            <tr>
+              <td>
+                <span class="tdj-unit-cell">
+                  {unit.iconPath && <img src={unit.iconPath} alt="" width="48" height="48" loading="lazy" />}
+                  <span>
+                    {unit.characterHref
+                      ? <a href={unit.characterHref}><strong>{unit.name}</strong></a>
+                      : <strong>{unit.name}</strong>}
+                    <small>{unit.count > 1 ? `${unit.count} 名` : `单位类型 #${unit.sourceUnitType ?? '?'}`}</small>
+                  </span>
+                </span>
+              </td>
+              <td>{unit.combatant ? '参战' : '剧情出场'}</td>
+              <td>{unit.usesPartyState ? '随队伍状态' : !unit.combatant ? '剧情占位' : `Lv.${range(unit.levels)} / ${range(unit.hp)} / ${range(unit.mp)}`}</td>
+              <td>{unit.usesPartyState ? '随队伍状态' : !unit.combatant ? '剧情占位' : `${range(unit.atk)} / ${range(unit.def)} / ${range(unit.move)} / ${range(unit.range)}`}</td>
+              <td>{unit.usesPartyState ? '随队伍状态' : !unit.combatant ? '剧情占位，不作为战斗装备' : list(unit.equipmentNames)}</td>
+              <td>
+                <span class="tdj-detail-stack">
+                  {unit.usesPartyState ? (
+                    <span>随队伍状态</span>
+                  ) : !unit.combatant ? (
+                    <span>剧情占位</span>
+                  ) : (
+                    <>
+                      <span>道具：{list(unit.itemNames)}</span>
+                      <span>招式：{list(unit.skillNames)}</span>
+                    </>
+                  )}
+                </span>
+              </td>
+              <td>{positions(unit.positions)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </>
+))}
+
+<h2 id="map-data">战场数据</h2>
+
+<dl class="tdj-map-data">
+  <div><dt>地图资源</dt><dd>{battle.map.texture ?? '—'}</dd></div>
+  <div><dt>地图尺寸</dt><dd>{battle.map.width} × {battle.map.height} 格</dd></div>
+  <div><dt>单格尺寸</dt><dd>{battle.map.cellWidth} × {battle.map.cellHeight} 像素</dd></div>
+  <div><dt>可通行 / 阻挡</dt><dd>{battle.map.walkableCount} / {battle.map.blockedCount} 格</dd></div>
+  <div><dt>战前事件</dt><dd>{battle.introInstructionCount} 条指令，其中 {battle.introTalkCount} 条对话</dd></div>
+  <div><dt>战后事件</dt><dd>{battle.outroInstructionCount} 条指令，其中 {battle.outroTalkCount} 条对话</dd></div>
+</dl>
+
+<aside class="tdj-provenance">
+  标题来自 <code>Misc/STA_SCR.DAT</code>；阵容与坐标来自逐关布阵数据；胜败条件来自
+  <code>JUDGE_NN.COD</code>；战后去向来自逐关战后事件。原始未知标记和空标题都按原状保留。
+</aside>
+
+<style>
+  .tdj-battle-nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .tdj-battle-nav span {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .tdj-battle-nav a,
+  .tdj-roster-table a,
+  .tdj-condition-grid a {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .tdj-battle-summary {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .tdj-battle-heading p,
+  .tdj-battle-heading h2 {
+    margin: 0;
+  }
+
+  .tdj-battle-heading p,
+  .tdj-battle-stats small,
+  .tdj-unit-cell small {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-battle-heading h2 {
+    color: var(--leaf-heading);
+    font-size: 1.7rem;
+  }
+
+  .tdj-source-blank {
+    background: var(--leaf-bg-subtle);
+    border-left: 3px solid var(--leaf-primary);
+    margin-top: 0.65rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .tdj-battle-stats {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .tdj-battle-stats span {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    display: grid;
+    gap: 0.12rem;
+    padding: 0.55rem;
+  }
+
+  .tdj-battle-stats strong {
+    color: var(--leaf-heading);
+  }
+
+  .tdj-condition-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tdj-condition-grid section,
+  .tdj-map-data div,
+  .tdj-provenance {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    padding: 0.75rem;
+  }
+
+  .tdj-condition-grid h3,
+  .tdj-condition-grid p,
+  .tdj-condition-grid ul {
+    margin: 0;
+  }
+
+  .tdj-condition-grid h3 {
+    color: var(--leaf-heading);
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .tdj-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-roster-table {
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    min-width: 1040px;
+    width: 100%;
+  }
+
+  .tdj-roster-table th,
+  .tdj-roster-table td {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.55rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .tdj-unit-cell {
+    align-items: center;
+    display: flex;
+    gap: 0.55rem;
+    min-width: 9rem;
+  }
+
+  .tdj-unit-cell img {
+    border: 1px solid var(--leaf-border);
+    border-radius: 0.4rem;
+    image-rendering: pixelated;
+  }
+
+  .tdj-unit-cell span,
+  .tdj-detail-stack {
+    display: grid;
+    gap: 0.18rem;
+  }
+
+  .tdj-map-data {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0;
+  }
+
+  .tdj-map-data dt {
+    color: var(--leaf-text-muted);
+    font-size: 0.8rem;
+  }
+
+  .tdj-map-data dd {
+    color: var(--leaf-heading);
+    font-weight: 700;
+    margin: 0.15rem 0 0;
+  }
+
+  .tdj-provenance {
+    color: var(--leaf-text-muted);
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 56rem) {
+    .tdj-battle-stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .tdj-condition-grid,
+    .tdj-map-data {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 34rem) {
+    .tdj-battle-stats {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

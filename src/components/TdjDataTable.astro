@@ -180,15 +180,17 @@ const campRows = sliceRows(camps as DataRow[]);
         <th>主要敌人</th>
         <th>携带物</th>
         <th>敌方技能</th>
-        <th>文本量</th>
+        <th>事件指令</th>
       </tr>
     </thead>
     <tbody>
       {battleRows.map((battle) => (
         <tr>
           <td>
-            <strong>{battle.id}</strong>
-            <small>{battle.file}</small>
+            <a class="tdj-character-link" href={battle.href}>
+              <strong>{battle.displayTitle}<span aria-hidden="true"> →</span></strong>
+              <small>{battle.id} · 查看关卡详情</small>
+            </a>
           </td>
           <td>
             <span class="tdj-stack">

@@ -1,8 +1,8 @@
 ---
 title: 关卡资料
-description: 《天地劫·神魔至尊传》关卡布阵、地图尺寸、出战人数、敌方数量和携带物索引。
+description: 《天地劫·神魔至尊传》全关卡原版幕名、出场阵容、胜败条件、地图与战后流程索引。
 game: '天地劫·神魔至尊传'
-lastVerified: '2026-06-24'
+lastVerified: '2026-07-30'
 sidebar:
   order: 5
   label: 关卡资料
@@ -10,6 +10,8 @@ sidebar:
 
 import TdjDataTable from '../../../../../components/TdjDataTable.astro';
 
-关卡资料来自 `data/battles/*.json`。当前先整理战场规模、出战单位、敌方单位、携带物与敌方技能；剧情标题和胜败条件后续确认后再补。
+关卡幕名来自原版 `Misc/STA_SCR.DAT`，点击幕名可进入独立详情页。详情页列出我方与敌方的完整出场阵容、参战/剧情状态、初始坐标、装备、道具与招式，并结合逐关脚本展示胜败条件和战后去向。
+
+`Stage35` 的原始标题字段确实为空，本站保留为“原始标题为空”，不根据关卡内容擅自命名。
 
 <TdjDataTable kind="battles" />

@@ -11,7 +11,9 @@ const sourceRoot = path.resolve(
 const outputRoot = path.join(repoRoot, 'src/data/sword-man/generated');
 const publicAssetRoot = path.join(repoRoot, 'public/assets/sword-man');
 const characterPageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/characters');
+const battlePageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/battles');
 const lastVerified = '2026-07-29';
+const battleLastVerified = '2026-07-30';
 
 const skillKindLabels = {
   magic: '法术',
@@ -186,12 +188,32 @@ import TdjCharacterProfile from '../../../../../components/TdjCharacterProfile.a
   }
 };
 
+const writeBattlePages = async (battles) => {
+  await fs.mkdir(battlePageRoot, { recursive: true });
+  for (const battle of battles) {
+    const content = `---
+title: ${JSON.stringify(battle.displayTitle)}
+description: ${JSON.stringify(`《天地劫·神魔至尊传》${battle.displayTitle}的出场阵容、胜败条件、战场尺寸、装备与招式资料。`)}
+game: '天地劫·神魔至尊传'
+lastVerified: '${battleLastVerified}'
+sidebar:
+  hidden: true
+---
+
+import TdjBattleProfile from '../../../../../components/TdjBattleProfile.astro';
+
+<TdjBattleProfile stageId=${JSON.stringify(battle.id)} />
+`;
+    await fs.writeFile(path.join(battlePageRoot, `${battle.id.toLowerCase()}.mdx`), content, 'utf8');
+  }
+};
+
 const main = async () => {
   await fs.access(sourceRoot);
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb] = await Promise.all([
+  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/monsters.json'),
@@ -200,6 +222,7 @@ const main = async () => {
     readJson('catalog/items.json'),
     readJson('catalog/alchemy.json'),
     readJson('catalog/unit_icons.json'),
+    readJson('catalog/stages.json'),
   ]);
   const itemRecords = asArray(itemsDb.records);
   const itemById = new Map(itemRecords.map((record) => [record.index, record]));
@@ -311,6 +334,7 @@ const main = async () => {
   }).sort((a, b) => a.id - b.id);
 
   const characterByDataIndex = new Map(characters.map((character) => [character.dataIndex, character]));
+  const characterById = new Map(characters.map((character) => [character.id, character]));
   const recipeByProductId = new Map(
     asArray(alchemyDb.records).map((recipe) => [recipe.product_id, recipe]),
   );
@@ -410,11 +434,102 @@ const main = async () => {
       abilities: monster.abilities,
     }));
 
+  const stageById = new Map(asArray(stagesDb.records).map((stage) => [stage.stage_id, stage]));
+  const unitCategoryByType = new Map(
+    asArray(monstersDb).map((unit) => [Number(unit.index), Number(unit.category_id)]),
+  );
   const battleDir = path.join(sourceRoot, 'battles');
   const battleFiles = (await fs.readdir(battleDir)).filter((file) => file.toLowerCase().endsWith('.json'));
   const battles = [];
+
+  const unitCategoryId = (unit) => {
+    const characterId = Number(unit.char_id);
+    if (characterId > 0 && characterById.has(characterId)) return characterId;
+    const type = Number(unit.type);
+    return Number.isInteger(type) ? unitCategoryByType.get(type) ?? null : null;
+  };
+  const equipmentLabel = (equipment) => {
+    const name = cleanString(equipment?.name);
+    if (name) return name;
+    const id = Number(equipment?.id);
+    if (!Number.isInteger(id) || id < 0) return null;
+    const slotLabel = { weapon: '武器', armor: '防具', accessory: '饰品' }[equipment.slot] ?? '装备';
+    return `${slotLabel} #${id}（名称未解析）`;
+  };
+  const numericRange = (values) => {
+    const numbers = values.filter((value) => Number.isFinite(value));
+    return numbers.length ? { min: Math.min(...numbers), max: Math.max(...numbers) } : null;
+  };
+  const rosterGroups = (units) => {
+    const groups = new Map();
+    for (const unit of units) {
+      const categoryId = unitCategoryId(unit);
+      const combatant = unit.combatant !== false;
+      const key = `${categoryId ?? 'unknown'}:${unit.name ?? '未命名'}:${combatant ? 'combat' : 'scene'}`;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(unit);
+    }
+    return [...groups.values()].map((group) => {
+      const first = group[0];
+      const categoryId = unitCategoryId(first);
+      const character = Number(first.char_id) > 0 ? characterById.get(Number(first.char_id)) : null;
+      const equipmentNames = compactList(group.flatMap((unit) => (unit.equipment ?? []).map(equipmentLabel)), 16);
+      const namedEquipment = new Set(
+        group.flatMap((unit) => (unit.equipment ?? []).map((equipment) => cleanString(equipment.name))).filter(Boolean),
+      );
+      return {
+        name: first.name ?? '未命名单元',
+        count: group.length,
+        sourceUnitType: Number.isInteger(Number(first.type)) ? Number(first.type) : null,
+        categoryId,
+        iconPath: categoryId ? unitIconByCategoryId.get(categoryId) ?? null : null,
+        characterHref: character?.href ?? null,
+        combatant: first.combatant !== false,
+        usesPartyState: Boolean(character),
+        levels: numericRange(group.map((unit) => unit.level)),
+        hp: numericRange(group.map((unit) => unit.hp)),
+        mp: numericRange(group.map((unit) => unit.mp)),
+        atk: numericRange(group.map((unit) => unit.atk)),
+        def: numericRange(group.map((unit) => unit.def)),
+        move: numericRange(group.map((unit) => unit.move)),
+        range: numericRange(group.map((unit) => unit.range)),
+        equipmentNames,
+        itemNames: compactList(
+          group.flatMap((unit) => unit.items ?? []).filter((name) => cleanString(name) && !namedEquipment.has(name)),
+          16,
+        ),
+        skillNames: compactList(group.flatMap((unit) => unit.skills ?? []), 24),
+        positions: group.map((unit) => ({ id: unit.idx, x: unit.x, y: unit.y })),
+      };
+    });
+  };
+  const conditionRows = (rules, units, side) => {
+    const unitById = new Map(units.map((unit) => [unit.idx, unit]));
+    return (rules ?? [])
+      .filter((rule) => rule.rule_name !== 'none')
+      .map((rule) => {
+        const unit = unitById.get(rule.unit_id);
+        let description = `规则 ${rule.rule_name}`;
+        if (rule.rule_name === 'kill_all') description = '消灭全部敌人';
+        if (rule.rule_name === 'kill_one' && side === 'win') description = `击败${unit?.name ?? `指定单位 #${rule.unit_id}`}`;
+        if (rule.rule_name === 'kill_one' && side === 'lose') description = `${unit?.name ?? `指定单位 #${rule.unit_id}`}阵亡`;
+        return {
+          rule: rule.rule,
+          ruleName: rule.rule_name,
+          unitId: rule.unit_id,
+          eventId: rule.event_id,
+          unitName: unit?.name ?? null,
+          description,
+        };
+      });
+  };
+
   for (const file of battleFiles.sort((a, b) => stageNumber(a) - stageNumber(b))) {
     const battle = JSON.parse(await fs.readFile(path.join(battleDir, file), 'utf8'));
+    const order = stageNumber(file);
+    const id = `Stage${String(order).padStart(2, '0')}`;
+    const stage = stageById.get(id);
+    if (!stage) throw new Error(`Missing original stage title record: ${id}`);
     const players = battle.players ?? [];
     const enemies = battle.enemies ?? [];
     const combatPlayers = players.filter((unit) => unit.combatant !== false);
@@ -428,9 +543,15 @@ const main = async () => {
       }));
 
     battles.push({
-      id: file.replace(/\.json$/i, ''),
-      order: stageNumber(file),
+      id,
+      order,
       file,
+      title: cleanString(stage.title),
+      chapterLabel: cleanString(stage.chapter_label),
+      name: cleanString(stage.name),
+      titleStatus: stage.status,
+      displayTitle: cleanString(stage.title) ?? `原始标题为空（${id}）`,
+      href: `/games/sword-man/battles/${id.toLowerCase()}/`,
       source: battle.source,
       map: {
         texture: battle.map?.tex ?? null,
@@ -439,19 +560,50 @@ const main = async () => {
         cellWidth: battle.map?.cell_w ?? null,
         cellHeight: battle.map?.cell_h ?? null,
         area: battle.map?.w && battle.map?.h ? battle.map.w * battle.map.h : null,
+        blockedCount: battle.map?.blocked?.length ?? 0,
+        walkableCount: battle.map?.w && battle.map?.h
+          ? battle.map.w * battle.map.h - (battle.map?.blocked?.length ?? 0)
+          : null,
       },
       playerCount: players.length,
       combatPlayerCount: combatPlayers.length,
       enemyCount: enemies.length,
       introLineCount: battle.intro?.length ?? 0,
       outroLineCount: battle.outro?.length ?? 0,
+      introInstructionCount: battle.intro?.length ?? 0,
+      outroInstructionCount: battle.outro?.length ?? 0,
+      introTalkCount: (battle.intro ?? []).filter((instruction) => instruction.op === 'talk').length,
+      outroTalkCount: (battle.outro ?? []).filter((instruction) => instruction.op === 'talk').length,
       playerNames: compactList(players.map((unit) => unit.name), 12),
       enemyNames: compactList(enemies.map((unit) => unit.name), 12),
       enemySkillNames: compactList(enemies.flatMap((unit) => unit.skills ?? []), 8),
       itemNames: compactList([...players, ...enemies].flatMap((unit) => unit.items ?? []), 10),
       maxEnemyLevel: Math.max(0, ...enemies.map((unit) => unit.level ?? 0)),
       topEnemies,
+      playerRoster: rosterGroups(players),
+      enemyRoster: rosterGroups(enemies),
+      winConditions: conditionRows(battle.judge?.win, enemies, 'win'),
+      loseConditions: conditionRows(battle.judge?.lose, players, 'lose'),
+      transition: {
+        decoded: Boolean(battle.transition && Object.keys(battle.transition).length),
+        town: Number.isInteger(battle.transition?.town) && battle.transition.town >= 0 ? battle.transition.town : null,
+        camp: Number.isInteger(battle.transition?.camp) && battle.transition.camp >= 0 ? battle.transition.camp : null,
+        nextStageId: Number.isInteger(battle.transition?.next) && battle.transition.next >= 0
+          ? `Stage${String(battle.transition.next).padStart(2, '0')}`
+          : null,
+        nextStageHref: null,
+        nextStageTitle: null,
+      },
     });
+  }
+  if (battles.length !== stageById.size) {
+    throw new Error(`Stage title/battle count mismatch: ${stageById.size} titles, ${battles.length} battles`);
+  }
+  const battleById = new Map(battles.map((battle) => [battle.id, battle]));
+  for (const battle of battles) {
+    const next = battleById.get(battle.transition.nextStageId);
+    battle.transition.nextStageHref = next?.href ?? null;
+    battle.transition.nextStageTitle = next?.displayTitle ?? null;
   }
 
   const campImages = new Map();
@@ -523,6 +675,7 @@ const main = async () => {
   await writeJson('items.json', itemCatalog);
   await writeJson('alchemy.json', alchemy);
   await writeCharacterPages(characters);
+  await writeBattlePages(battles);
 
   console.log(
     `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
