@@ -27,7 +27,7 @@ export function getTdjBattleToc(pathname: string): WikiTocItem[] | null {
     item(2, '_top', '关卡概要'),
     item(2, 'intro-dialogue', '战前剧情'),
     item(2, 'battle-map', '战场地图', [
-      item(3, 'battle-music', '战场音乐'),
+      item(3, 'battle-music', '默认战场音乐'),
     ]),
     item(2, 'conditions', '胜败条件与战后去向', [
       item(3, 'win-conditions', '胜利条件'),

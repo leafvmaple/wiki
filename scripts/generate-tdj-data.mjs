@@ -322,6 +322,7 @@ const main = async () => {
     Object.entries(itemsDb.names ?? {}).map(([id, name]) => [Number(id), name]),
   );
   const itemName = (id) => itemNames[id] ?? itemById.get(id)?.name ?? itemById.get(id)?.source_name ?? `#${id}`;
+  const stageById = new Map(asArray(stagesDb.records).map((stage) => [stage.stage_id, stage]));
 
   const unitIconByCategoryId = new Map();
   await fs.rm(path.join(publicAssetRoot, 'unit-icons'), { recursive: true, force: true });
@@ -361,9 +362,67 @@ const main = async () => {
         title: cleanString(stage.stage_title) ?? stage.stage_id,
         href: `/games/sword-man/battles/${String(stage.stage_id).toLowerCase()}/`,
       })),
+      battleEventPlays: asArray(record.battle_event_plays).map((reference) => {
+        const stageId = cleanString(reference.stage_id);
+        const stage = stageById.get(stageId);
+        return {
+          stageId,
+          stageTitle: cleanString(stage?.title) ?? cleanString(stage?.battle_title) ?? stageId,
+          stageHref: stageId ? `/games/sword-man/battles/${stageId.toLowerCase()}/` : null,
+          eventId: Number(reference.event_id),
+          stepIndex: Number(reference.step_index),
+          placement: cleanString(reference.placement),
+          group: cleanString(reference.group),
+          conditionalBranch: Boolean(reference.conditional_branch),
+          contextBefore: cleanString(reference.dialogue_before?.text),
+          contextAfter: cleanString(reference.dialogue_after?.text),
+          source: cleanString(reference.source),
+        };
+      }),
+      rpgDefaults: asArray(record.rpg_defaults).map((assignment) => ({
+        rpgId: cleanString(assignment.rpg_id),
+        positionIndex: Number(assignment.position_index),
+        mapPosition: assignment.map_position ?? null,
+        playerPosition: assignment.player_position ?? null,
+        direction: Number(assignment.direction),
+        source: cleanString(assignment.source),
+      })),
+      rpgEventPlays: asArray(record.rpg_event_plays).map((reference) => ({
+        rpgId: cleanString(reference.rpg_id),
+        eventId: Number(reference.event_id),
+        stepIndex: Number(reference.step_index),
+        contextBefore: cleanString(reference.dialogue_before?.text),
+        contextAfter: cleanString(reference.dialogue_after?.text),
+        source: cleanString(reference.source),
+      })),
     };
     musicById.set(id, track);
     musicTracks.push(track);
+  }
+
+  const musicPlayerData = (track) => ({
+    id: track.id,
+    name: track.name,
+    displayName: track.displayName,
+    audioPath: track.audioPath,
+    durationMs: track.durationMs,
+    size: track.size,
+  });
+  const battleMusicReferencesByStage = new Map();
+  for (const track of musicTracks) {
+    for (const reference of track.battleEventPlays) {
+      if (!reference.stageId) continue;
+      if (!battleMusicReferencesByStage.has(reference.stageId)) {
+        battleMusicReferencesByStage.set(reference.stageId, []);
+      }
+      battleMusicReferencesByStage.get(reference.stageId).push({
+        ...reference,
+        music: musicPlayerData(track),
+      });
+    }
+  }
+  for (const references of battleMusicReferencesByStage.values()) {
+    references.sort((a, b) => a.eventId - b.eventId || a.stepIndex - b.stepIndex);
   }
 
   const skills = asArray(skillsDb)
@@ -735,7 +794,6 @@ const main = async () => {
     });
   }
 
-  const stageById = new Map(asArray(stagesDb.records).map((stage) => [stage.stage_id, stage]));
   const unitCategoryByType = new Map(
     asArray(monstersDb).map((unit) => [Number(unit.index), Number(unit.category_id)]),
   );
@@ -869,18 +927,53 @@ const main = async () => {
     };
   };
 
-  const storyRows = (instructions, placement, references) => {
+  const musicPlacementLabels = {
+    before_battle: '战前剧情',
+    during_battle: '战中事件',
+    after_battle: '战后剧情',
+  };
+  const musicScene = (reference, order) => ({
+    kind: 'music',
+    order,
+    ...reference,
+    placementLabel: musicPlacementLabels[reference.placement] ?? '剧情事件',
+  });
+
+  const storyRows = (instructions, placement, movieReferences, musicReferences) => {
     let storyOrder = 0;
+    const unusedMusicReferences = musicReferences.filter(
+      (reference) => reference.placement === placement,
+    );
     return (instructions ?? []).flatMap((instruction) => {
       if (instruction.op === 'talk') {
         storyOrder += 1;
         return [dialogueRow(instruction, storyOrder)];
       }
+      if (instruction.op === 'music' && instruction.action === 'play') {
+        const musicId = Number(instruction.id);
+        const matchingIndex = unusedMusicReferences.findIndex(
+          (reference) => reference.music.id === musicId,
+        );
+        const matching = matchingIndex >= 0
+          ? unusedMusicReferences.splice(matchingIndex, 1)[0]
+          : null;
+        const music = musicById.get(musicId);
+        if (!matching && !music) return [];
+        storyOrder += 1;
+        return [musicScene(matching ?? {
+          placement,
+          eventId: null,
+          stepIndex: null,
+          contextBefore: null,
+          contextAfter: null,
+          music: musicPlayerData(music),
+        }, storyOrder)];
+      }
       if (instruction.op !== 'movie') return [];
       const movie = storyMovieById.get(Number(instruction.id));
       if (!movie) return [];
       storyOrder += 1;
-      const matching = references.filter((reference) =>
+      const matching = movieReferences.filter((reference) =>
         Number(reference.movie_id) === movie.id && reference.placement === placement);
       return [movieScene(movie, matching, storyOrder)];
     });
@@ -915,8 +1008,19 @@ const main = async () => {
     const introDialogue = dialogueRows(battle.intro);
     const outroDialogue = dialogueRows(battle.outro);
     const storyReferences = storyReferencesByStage.get(id) ?? [];
-    const introStory = storyRows(battle.intro, 'before_battle', storyReferences);
-    const outroStory = storyRows(battle.outro, 'after_battle', storyReferences);
+    const battleMusicReferences = battleMusicReferencesByStage.get(id) ?? [];
+    const introStory = storyRows(
+      battle.intro,
+      'before_battle',
+      storyReferences,
+      battleMusicReferences,
+    );
+    const outroStory = storyRows(
+      battle.outro,
+      'after_battle',
+      storyReferences,
+      battleMusicReferences,
+    );
     const inlineMovieIds = new Set(
       [...(battle.intro ?? []), ...(battle.outro ?? [])]
         .filter((instruction) => instruction.op === 'movie')
@@ -980,6 +1084,9 @@ const main = async () => {
       outroTalkCount: outroDialogue.length,
       introStory,
       outroStory,
+      battleMusicScenes: battleMusicReferences
+        .filter((reference) => reference.placement === 'during_battle')
+        .map((reference, index) => musicScene(reference, index + 1)),
       battleMovieScenes: extraMovieScenes.filter((scene) => scene.placement === 'during_battle'),
       endingMovieScenes: extraMovieScenes.filter((scene) => scene.placement === 'after_battle'),
       playerNames: compactList(players.map((unit) => unit.name), 12),

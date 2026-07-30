@@ -1,0 +1,83 @@
+---
+import TdjMusicPlayer from './TdjMusicPlayer.astro';
+
+type DataRow = Record<string, any>;
+
+const { cue } = Astro.props as { cue: DataRow };
+const eventPosition = cue.eventId === null || cue.eventId === undefined
+  ? '事件位置未单列'
+  : `Event ${cue.eventId} · Step ${cue.stepIndex}`;
+---
+
+<aside class="tdj-story-music" aria-label={`${cue.placementLabel}音乐切换`}>
+  <header>
+    <div>
+      <strong>{cue.placementLabel}切换音乐</strong>
+      <small>{eventPosition}{cue.conditionalBranch ? ' · 条件分支' : ''}</small>
+    </div>
+    <a href={`/games/sword-man/music/#music-${String(cue.music.id).padStart(2, '0')}`}>
+      曲目资料
+    </a>
+  </header>
+  <TdjMusicPlayer music={cue.music} />
+  {(cue.contextBefore || cue.contextAfter) && (
+    <div class="tdj-story-music-context">
+      {cue.contextBefore && <p><strong>切换前：</strong><span>{cue.contextBefore}</span></p>}
+      {cue.contextAfter && <p><strong>切换后：</strong><span>{cue.contextAfter}</span></p>}
+    </div>
+  )}
+</aside>
+
+<style>
+  .tdj-story-music {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-left: 3px solid var(--leaf-primary);
+    border-radius: var(--leaf-radius-card);
+    margin: 0.75rem 0;
+    padding: 0.75rem;
+  }
+
+  .tdj-story-music > header {
+    align-items: baseline;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: space-between;
+    margin-bottom: 0.55rem;
+  }
+
+  .tdj-story-music > header div {
+    display: grid;
+    gap: 0.1rem;
+  }
+
+  .tdj-story-music > header small,
+  .tdj-story-music-context {
+    color: var(--leaf-text-muted);
+    font-size: 0.8rem;
+  }
+
+  .tdj-story-music > header a {
+    color: var(--leaf-primary-hover);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .tdj-story-music-context {
+    border-top: 1px dashed var(--leaf-border);
+    margin-top: 0.65rem;
+    padding-top: 0.5rem;
+  }
+
+  .tdj-story-music-context p {
+    display: grid;
+    gap: 0.4rem;
+    grid-template-columns: max-content minmax(0, 1fr);
+    margin: 0.25rem 0;
+  }
+
+  .tdj-story-music-context span {
+    white-space: pre-line;
+  }
+</style>

@@ -1,10 +1,12 @@
 ---
 import TdjStoryMovie from './TdjStoryMovie.astro';
+import TdjStoryMusic from './TdjStoryMusic.astro';
 
 type DataRow = Record<string, any>;
 type StorySegment =
   | { kind: 'dialogue'; entries: DataRow[]; start: number; end: number }
-  | { kind: 'movie'; entry: DataRow };
+  | { kind: 'movie'; entry: DataRow }
+  | { kind: 'music'; entry: DataRow };
 
 const { entries, label, emptyText } = Astro.props as {
   entries: DataRow[];
@@ -29,9 +31,9 @@ const flushDialogue = () => {
 };
 
 for (const entry of entries) {
-  if (entry.kind === 'movie') {
+  if (entry.kind === 'movie' || entry.kind === 'music') {
     flushDialogue();
-    segments.push({ kind: 'movie', entry });
+    segments.push({ kind: entry.kind, entry });
     continue;
   }
 
@@ -44,8 +46,10 @@ flushDialogue();
 const dialogueSegmentCount = segments.filter((segment) => segment.kind === 'dialogue').length;
 ---
 
-{segments.length ? segments.map((segment) => segment.kind === 'movie'
-  ? <TdjStoryMovie scene={segment.entry} />
+{segments.length ? segments.map((segment) => segment.kind !== 'dialogue'
+  ? segment.kind === 'movie'
+    ? <TdjStoryMovie scene={segment.entry} />
+    : <TdjStoryMusic cue={segment.entry} />
   : (
     <details class="leaf-dialogue tdj-dialogue">
       <summary>

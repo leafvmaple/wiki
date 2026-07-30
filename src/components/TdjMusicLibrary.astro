@@ -3,32 +3,99 @@ import tracks from '../data/sword-man/generated/music.json';
 import TdjMusicPlayer from './TdjMusicPlayer.astro';
 
 type DataRow = Record<string, any>;
+
+const placementLabels: Record<string, string> = {
+  before_battle: '战前剧情',
+  during_battle: '战中事件',
+  after_battle: '战后剧情',
+};
+const contextText = (reference: DataRow) => reference.contextAfter ?? reference.contextBefore ?? null;
+const contextLabel = (reference: DataRow) => reference.contextAfter ? '切换后' : '切换前';
 ---
 
 <div class="tdj-music-note">
   原始 MP3 没有可验证的曲名标签，因此这里沿用游戏文件编号，不把原声专辑曲名强行对应到文件。
-  每首曲目下方列出由 <code>STA_SCR.DAT</code> 直接指定的默认使用关卡。
+  使用位置分为四类：<code>STA_SCR.DAT</code> 指定的默认战场音乐、战斗事件脚本中的剧情切歌、
+  <code>RPG_NN.DAT</code> 指定的场景入口音乐，以及 RPG 事件脚本中的剧情切歌。
 </div>
 
 <div class="tdj-music-library" aria-label="天地劫原版音乐一览">
-  {(tracks as DataRow[]).map((track) => (
-    <article id={`music-${String(track.id).padStart(2, '0')}`}>
-      <TdjMusicPlayer music={track} />
-      <div class="tdj-music-uses">
-        <strong>默认战场：</strong>
-        {track.battleStages.length ? (
-          <span>
-            {track.battleStages.map((stage: DataRow, index: number) => (
-              <>
-                {index > 0 && '、'}
-                <a href={stage.href}>{stage.title}</a>
-              </>
-            ))}
-          </span>
-        ) : <span>未被关卡标题表指定为默认战场音乐</span>}
-      </div>
-    </article>
-  ))}
+  {(tracks as DataRow[]).map((track) => {
+    const hasUsage = track.battleStages.length
+      || track.battleEventPlays.length
+      || track.rpgDefaults.length
+      || track.rpgEventPlays.length;
+    return (
+      <article id={`music-${String(track.id).padStart(2, '0')}`}>
+        <TdjMusicPlayer music={track} />
+        <dl class="tdj-music-uses">
+          {track.battleStages.length > 0 && (
+            <div>
+              <dt>默认战场</dt>
+              <dd>
+                {track.battleStages.map((stage: DataRow, index: number) => (
+                  <>{index > 0 && '、'}<a href={stage.href}>{stage.title}</a></>
+                ))}
+              </dd>
+            </div>
+          )}
+          {track.battleEventPlays.length > 0 && (
+            <div>
+              <dt>战斗剧情</dt>
+              <dd>
+                <ul>
+                  {track.battleEventPlays.map((reference: DataRow) => (
+                    <li>
+                      <span>
+                        <a href={reference.stageHref}>{reference.stageTitle}</a>
+                        {' · '}{placementLabels[reference.placement] ?? '剧情事件'}
+                        {' · '}Event {reference.eventId} / Step {reference.stepIndex}
+                        {reference.conditionalBranch ? ' · 条件分支' : ''}
+                      </span>
+                      {contextText(reference) && (
+                        <small><strong>{contextLabel(reference)}：</strong>{contextText(reference)}</small>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
+          )}
+          {track.rpgDefaults.length > 0 && (
+            <div>
+              <dt>场景默认</dt>
+              <dd>
+                {track.rpgDefaults.map((assignment: DataRow, index: number) => (
+                  <>
+                    {index > 0 && '、'}
+                    <span>{assignment.rpgId} 入口 {assignment.positionIndex}</span>
+                  </>
+                ))}
+              </dd>
+            </div>
+          )}
+          {track.rpgEventPlays.length > 0 && (
+            <div>
+              <dt>场景剧情</dt>
+              <dd>
+                <ul>
+                  {track.rpgEventPlays.map((reference: DataRow) => (
+                    <li>
+                      <span>{reference.rpgId} · Event {reference.eventId} / Step {reference.stepIndex}</span>
+                      {contextText(reference) && (
+                        <small><strong>{contextLabel(reference)}：</strong>{contextText(reference)}</small>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
+          )}
+          {!hasUsage && <div><dt>使用位置</dt><dd>当前脚本与场景表中未检出直接引用</dd></div>}
+        </dl>
+      </article>
+    );
+  })}
 </div>
 
 <style>
@@ -41,7 +108,7 @@ type DataRow = Record<string, any>;
 
   .tdj-music-library {
     display: grid;
-    gap: 0.8rem;
+    gap: 0.9rem;
   }
 
   .tdj-music-library article {
@@ -50,17 +117,57 @@ type DataRow = Record<string, any>;
 
   .tdj-music-uses {
     color: var(--leaf-text-muted);
+    display: grid;
     font-size: 0.84rem;
-    padding: 0.45rem 0.85rem 0;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0.55rem 0.85rem 0;
   }
 
-  .tdj-music-uses strong {
+  .tdj-music-uses > div {
+    display: grid;
+    gap: 0.25rem 0.65rem;
+    grid-template-columns: 5rem minmax(0, 1fr);
+  }
+
+  .tdj-music-uses dt {
     color: var(--leaf-text);
+    font-weight: 700;
+  }
+
+  .tdj-music-uses dd {
+    margin: 0;
+  }
+
+  .tdj-music-uses ul {
+    display: grid;
+    gap: 0.35rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tdj-music-uses li,
+  .tdj-music-uses li small {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .tdj-music-uses li small {
+    border-left: 2px solid var(--leaf-border);
+    padding-left: 0.5rem;
+    white-space: pre-line;
   }
 
   .tdj-music-uses a {
     color: var(--leaf-primary-hover);
     font-weight: 700;
     text-decoration: none;
+  }
+
+  @media (max-width: 38rem) {
+    .tdj-music-uses > div {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

@@ -36,7 +36,10 @@
         "title": "番外篇 兩百塊帝國",
         "href": "/games/sword-man/battles/stage35/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 1,
@@ -49,7 +52,10 @@
     "channels": 2,
     "codec": "mp3",
     "size": 1851977,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 2,
@@ -88,7 +94,10 @@
         "title": "第十六幕 戰陣",
         "href": "/games/sword-man/battles/stage16/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 3,
@@ -112,7 +121,10 @@
         "title": "第二十一幕 神兵",
         "href": "/games/sword-man/battles/stage21/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 5,
@@ -125,7 +137,24 @@
     "channels": 2,
     "codec": "mp3",
     "size": 2397413,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage21",
+        "stageTitle": "第二十一幕 神兵",
+        "stageHref": "/games/sword-man/battles/stage21/",
+        "eventId": 2,
+        "stepIndex": 1,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "時間緊迫，這裡收藏雖多，\n但無暇一一細找，\n我只來得及拿了這幾樣東西，\n希望能派得上用場。",
+        "source": "Stage/Stage21/EVENT_21.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 6,
@@ -159,7 +188,24 @@
         "title": "第二十五幕 宿命",
         "href": "/games/sword-man/battles/stage26/"
       }
-    ]
+    ],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage11",
+        "stageTitle": "第十一幕 故人",
+        "stageHref": "/games/sword-man/battles/stage11/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "我剛才說過，天玄門一行\n只是求見貴派掌門靈山前輩，\n有要事想與他老人家求教商議，\n此外並無他意不軌。\n咱們照著道上規矩正式拜山，\n就算你們不想放我們上山，\n也用不著兵刃相見吧？",
+        "source": "Stage/STAGE11/EVENT_11.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 8,
@@ -183,7 +229,10 @@
         "title": "第二十八幕 天琰神煌",
         "href": "/games/sword-man/battles/stage29/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 10,
@@ -222,7 +271,10 @@
         "title": "第三十一幕 天之顛地之涯",
         "href": "/games/sword-man/battles/stage32/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 13,
@@ -251,7 +303,24 @@
         "title": "第三十二幕 千幻華舞",
         "href": "/games/sword-man/battles/stage33/"
       }
-    ]
+    ],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage34",
+        "stageTitle": "第三十三幕 冰嶽絕劍",
+        "stageHref": "/games/sword-man/battles/stage34/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "....啊，那..那是....",
+        "source": "Stage/Stage34/EVENT_34.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 14,
@@ -285,7 +354,10 @@
         "title": "第二十九幕 三界之門",
         "href": "/games/sword-man/battles/stage30/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 20,
@@ -314,7 +386,24 @@
         "title": "第二十六幕 劍與非劍",
         "href": "/games/sword-man/battles/stage27/"
       }
-    ]
+    ],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage07",
+        "stageTitle": "第七幕 幽谷寒琴",
+        "stageHref": "/games/sword-man/battles/stage07/",
+        "eventId": 2,
+        "stepIndex": 2,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "....好重的妖氣！\n大家快跟我來！",
+        "source": "Stage/Stage07/EVENT_07.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 32,
@@ -338,7 +427,10 @@
         "title": "第三十三幕 冰嶽絕劍",
         "href": "/games/sword-man/battles/stage34/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 36,
@@ -357,7 +449,10 @@
         "title": "第十九幕 飛天",
         "href": "/games/sword-man/battles/stage19/"
       }
-    ]
+    ],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 39,
@@ -370,7 +465,50 @@
     "channels": 2,
     "codec": "mp3",
     "size": 2168790,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage00",
+        "stageTitle": "第零幕 獨行",
+        "stageHref": "/games/sword-man/battles/stage00/",
+        "eventId": 2,
+        "stepIndex": 84,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": "師父！......唉！",
+        "contextAfter": "小師妹，送到這裡就行了。\n要是師父知道了這件事，\n回頭定會把妳痛罵一頓。",
+        "source": "Stage/Stage00/EVENT_00.COD"
+      },
+      {
+        "stageId": "Stage13",
+        "stageTitle": "第十三幕 真相",
+        "stageHref": "/games/sword-man/battles/stage13/",
+        "eventId": 2,
+        "stepIndex": 479,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": "殷大哥....",
+        "contextAfter": "殷大哥----你在這裡嗎？",
+        "source": "Stage/Stage13/EVENT_13.COD"
+      },
+      {
+        "stageId": "Stage14",
+        "stageTitle": "第十四幕 螢火",
+        "stageHref": "/games/sword-man/battles/stage14/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "今晚不冷，\n我想這些應該夠用了。\n大夥兒都安歇啦？",
+        "source": "Stage/Stage14/EVENT_14.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 40,
@@ -383,7 +521,50 @@
     "channels": 2,
     "codec": "mp3",
     "size": 1390550,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage13",
+        "stageTitle": "第十三幕 真相",
+        "stageHref": "/games/sword-man/battles/stage13/",
+        "eventId": 2,
+        "stepIndex": 2,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "妖女，\n看妳還有什麼花樣可耍！",
+        "source": "Stage/Stage13/EVENT_13.COD"
+      },
+      {
+        "stageId": "Stage31",
+        "stageTitle": "第三十幕 無幻剎那",
+        "stageHref": "/games/sword-man/battles/stage31/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "雙妹....\n平兒馬上就會來了。",
+        "source": "Stage/Stage31/EVENT_31.COD"
+      },
+      {
+        "stageId": "Stage31",
+        "stageTitle": "第三十幕 無幻剎那",
+        "stageHref": "/games/sword-man/battles/stage31/",
+        "eventId": 2,
+        "stepIndex": 0,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "爹，孩兒....孩兒得罪了！",
+        "source": "Stage/Stage31/EVENT_31.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 41,
@@ -396,7 +577,27 @@
     "channels": 2,
     "codec": "mp3",
     "size": 1204140,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": [
+      {
+        "rpgId": "Rpg07",
+        "eventId": 5,
+        "stepIndex": 6,
+        "contextBefore": null,
+        "contextAfter": "這城是在搞什麼鬼？到處都買不到酒！老子已經三天沒喝酒了，\n再不喝的話，就要活活乾死了！",
+        "source": "Rpg/rpg07/EVENT_07.COD"
+      },
+      {
+        "rpgId": "Rpg07",
+        "eventId": 5,
+        "stepIndex": 46,
+        "contextBefore": "啊，前輩請慢走....",
+        "contextAfter": "這城是在搞什麼鬼？到處都買不到酒！老子已經三天沒喝酒了，\n再不喝的話，就要活活乾死了！",
+        "source": "Rpg/rpg07/EVENT_07.COD"
+      }
+    ]
   },
   {
     "id": 44,
@@ -409,7 +610,24 @@
     "channels": 2,
     "codec": "mp3",
     "size": 3254648,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage20",
+        "stageTitle": "第二十幕 埋伏",
+        "stageHref": "/games/sword-man/battles/stage20/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "呵呵，你們果然來啦。\n前幾天我掐指一算，\n便知你們幾日內會來訪，\n果然是被我給等到了。\n怎麼，\n這回你們有什麼貴事？",
+        "source": "Stage/Stage20/EVENT_20.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 46,
@@ -422,7 +640,10 @@
     "channels": 2,
     "codec": "mp3",
     "size": 3004708,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 50,
@@ -435,7 +656,24 @@
     "channels": 2,
     "codec": "mp3",
     "size": 458083,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage00",
+        "stageTitle": "第零幕 獨行",
+        "stageHref": "/games/sword-man/battles/stage00/",
+        "eventId": 1,
+        "stepIndex": 2,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "這夜魑太難對付了！\n大家一擁而上，合力打倒牠！",
+        "source": "Stage/Stage00/EVENT_00.COD"
+      }
+    ],
+    "rpgDefaults": [],
+    "rpgEventPlays": []
   },
   {
     "id": 60,
@@ -448,7 +686,25 @@
     "channels": 1,
     "codec": "mp3",
     "size": 43049,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [],
+    "rpgDefaults": [
+      {
+        "rpgId": "Rpg26",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 19,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 24,
+          "y": 5
+        },
+        "direction": 0,
+        "source": "Rpg/rpg26/RPG_26.DAT"
+      }
+    ],
+    "rpgEventPlays": []
   },
   {
     "id": 61,
@@ -461,7 +717,361 @@
     "channels": 2,
     "codec": "mp3",
     "size": 3106272,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [
+      {
+        "stageId": "Stage01",
+        "stageTitle": "第一幕 因緣",
+        "stageHref": "/games/sword-man/battles/stage01/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "哇~好熱鬧的茶館.....",
+        "source": "Stage/Stage01/Event_01.cod"
+      }
+    ],
+    "rpgDefaults": [
+      {
+        "rpgId": "Rpg00",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 27
+        },
+        "playerPosition": {
+          "x": 1,
+          "y": 31
+        },
+        "direction": 3,
+        "source": "Rpg/Rpg00/RPG_00.DAT"
+      },
+      {
+        "rpgId": "Rpg00",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 12,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 17,
+          "y": 10
+        },
+        "direction": 0,
+        "source": "Rpg/Rpg00/RPG_00.DAT"
+      },
+      {
+        "rpgId": "Rpg03",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 27
+        },
+        "playerPosition": {
+          "x": 1,
+          "y": 31
+        },
+        "direction": 3,
+        "source": "Rpg/rpg03/RPG_03.DAT"
+      },
+      {
+        "rpgId": "Rpg03",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 12,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 17,
+          "y": 10
+        },
+        "direction": 0,
+        "source": "Rpg/rpg03/RPG_03.DAT"
+      },
+      {
+        "rpgId": "Rpg05",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 4
+        },
+        "playerPosition": {
+          "x": 5,
+          "y": 8
+        },
+        "direction": 3,
+        "source": "Rpg/rpg05/RPG_05.DAT"
+      },
+      {
+        "rpgId": "Rpg05",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 19,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 24,
+          "y": 5
+        },
+        "direction": 0,
+        "source": "Rpg/rpg05/RPG_05.DAT"
+      },
+      {
+        "rpgId": "Rpg07",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 4
+        },
+        "playerPosition": {
+          "x": 5,
+          "y": 8
+        },
+        "direction": 3,
+        "source": "Rpg/rpg07/RPG_07.DAT"
+      },
+      {
+        "rpgId": "Rpg07",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 19,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 24,
+          "y": 5
+        },
+        "direction": 0,
+        "source": "Rpg/rpg07/RPG_07.DAT"
+      },
+      {
+        "rpgId": "Rpg09",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 4
+        },
+        "playerPosition": {
+          "x": 5,
+          "y": 8
+        },
+        "direction": 3,
+        "source": "Rpg/rpg09/RPG_09.DAT"
+      },
+      {
+        "rpgId": "Rpg09",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 19,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 24,
+          "y": 5
+        },
+        "direction": 0,
+        "source": "Rpg/rpg09/RPG_09.DAT"
+      },
+      {
+        "rpgId": "Rpg11",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 8
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 11
+        },
+        "direction": 3,
+        "source": "Rpg/rpg11/RPG_11.DAT"
+      },
+      {
+        "rpgId": "Rpg11",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 15,
+          "y": 10
+        },
+        "playerPosition": {
+          "x": 19,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg11/RPG_11.DAT"
+      },
+      {
+        "rpgId": "Rpg13",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 8
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 11
+        },
+        "direction": 3,
+        "source": "Rpg/rpg13/RPG_13.DAT"
+      },
+      {
+        "rpgId": "Rpg13",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 15,
+          "y": 10
+        },
+        "playerPosition": {
+          "x": 19,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg13/RPG_13.DAT"
+      },
+      {
+        "rpgId": "Rpg15",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 8
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 11
+        },
+        "direction": 3,
+        "source": "Rpg/rpg15/RPG_15.DAT"
+      },
+      {
+        "rpgId": "Rpg15",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 15,
+          "y": 10
+        },
+        "playerPosition": {
+          "x": 19,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg15/RPG_15.DAT"
+      },
+      {
+        "rpgId": "Rpg17",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 2
+        },
+        "direction": 0,
+        "source": "Rpg/rpg17/RPG_17.DAT"
+      },
+      {
+        "rpgId": "Rpg17",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 16,
+          "y": 5
+        },
+        "playerPosition": {
+          "x": 21,
+          "y": 8
+        },
+        "direction": 0,
+        "source": "Rpg/rpg17/RPG_17.DAT"
+      },
+      {
+        "rpgId": "Rpg19",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 2
+        },
+        "direction": 0,
+        "source": "Rpg/rpg19/RPG_19.DAT"
+      },
+      {
+        "rpgId": "Rpg19",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 16,
+          "y": 5
+        },
+        "playerPosition": {
+          "x": 21,
+          "y": 8
+        },
+        "direction": 0,
+        "source": "Rpg/rpg19/RPG_19.DAT"
+      },
+      {
+        "rpgId": "Rpg21",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 2
+        },
+        "direction": 0,
+        "source": "Rpg/rpg21/RPG_21.DAT"
+      },
+      {
+        "rpgId": "Rpg21",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 16,
+          "y": 5
+        },
+        "playerPosition": {
+          "x": 21,
+          "y": 8
+        },
+        "direction": 0,
+        "source": "Rpg/rpg21/RPG_21.DAT"
+      },
+      {
+        "rpgId": "Rpg23",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 3,
+          "y": 2
+        },
+        "direction": 0,
+        "source": "Rpg/rpg23/RPG_23.DAT"
+      },
+      {
+        "rpgId": "Rpg23",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 16,
+          "y": 5
+        },
+        "playerPosition": {
+          "x": 21,
+          "y": 8
+        },
+        "direction": 0,
+        "source": "Rpg/rpg23/RPG_23.DAT"
+      }
+    ],
+    "rpgEventPlays": []
   },
   {
     "id": 62,
@@ -474,6 +1084,402 @@
     "channels": 2,
     "codec": "mp3",
     "size": 2832509,
-    "battleStages": []
+    "battleStages": [],
+    "battleEventPlays": [],
+    "rpgDefaults": [
+      {
+        "rpgId": "Rpg01",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 27
+        },
+        "playerPosition": {
+          "x": 1,
+          "y": 31
+        },
+        "direction": 3,
+        "source": "Rpg/Rpg01/RPG_01.DAT"
+      },
+      {
+        "rpgId": "Rpg01",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 12,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 17,
+          "y": 10
+        },
+        "direction": 0,
+        "source": "Rpg/Rpg01/RPG_01.DAT"
+      },
+      {
+        "rpgId": "Rpg02",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 11,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 16,
+          "y": 4
+        },
+        "direction": 0,
+        "source": "Rpg/rpg02/RPG_02.DAT"
+      },
+      {
+        "rpgId": "Rpg02",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 3,
+          "y": 8
+        },
+        "playerPosition": {
+          "x": 8,
+          "y": 11
+        },
+        "direction": 3,
+        "source": "Rpg/rpg02/RPG_02.DAT"
+      },
+      {
+        "rpgId": "Rpg04",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 11,
+          "y": 0
+        },
+        "playerPosition": {
+          "x": 16,
+          "y": 4
+        },
+        "direction": 0,
+        "source": "Rpg/rpg04/RPG_04.DAT"
+      },
+      {
+        "rpgId": "Rpg04",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 3,
+          "y": 8
+        },
+        "playerPosition": {
+          "x": 8,
+          "y": 11
+        },
+        "direction": 3,
+        "source": "Rpg/rpg04/RPG_04.DAT"
+      },
+      {
+        "rpgId": "Rpg06",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 8,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 13,
+          "y": 10
+        },
+        "direction": 1,
+        "source": "Rpg/rpg06/RPG_06.DAT"
+      },
+      {
+        "rpgId": "Rpg06",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 6,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 5
+        },
+        "direction": 3,
+        "source": "Rpg/rpg06/RPG_06.DAT"
+      },
+      {
+        "rpgId": "Rpg08",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 8,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 13,
+          "y": 10
+        },
+        "direction": 1,
+        "source": "Rpg/rpg08/RPG_08.DAT"
+      },
+      {
+        "rpgId": "Rpg08",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 6,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 6
+        },
+        "direction": 3,
+        "source": "Rpg/rpg08/RPG_08.DAT"
+      },
+      {
+        "rpgId": "Rpg10",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 8,
+          "y": 6
+        },
+        "playerPosition": {
+          "x": 13,
+          "y": 10
+        },
+        "direction": 1,
+        "source": "Rpg/rpg10/RPG_10.DAT"
+      },
+      {
+        "rpgId": "Rpg10",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 6,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 6
+        },
+        "direction": 3,
+        "source": "Rpg/rpg10/RPG_10.DAT"
+      },
+      {
+        "rpgId": "Rpg12",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 2,
+          "y": 5
+        },
+        "direction": 3,
+        "source": "Rpg/rpg12/RPG_12.DAT"
+      },
+      {
+        "rpgId": "Rpg12",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 7,
+          "y": 1
+        },
+        "playerPosition": {
+          "x": 12,
+          "y": 5
+        },
+        "direction": 1,
+        "source": "Rpg/rpg12/RPG_12.DAT"
+      },
+      {
+        "rpgId": "Rpg14",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 2,
+          "y": 5
+        },
+        "direction": 3,
+        "source": "Rpg/rpg14/RPG_14.DAT"
+      },
+      {
+        "rpgId": "Rpg14",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 7,
+          "y": 1
+        },
+        "playerPosition": {
+          "x": 12,
+          "y": 5
+        },
+        "direction": 1,
+        "source": "Rpg/rpg14/RPG_14.DAT"
+      },
+      {
+        "rpgId": "Rpg16",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 0,
+          "y": 2
+        },
+        "playerPosition": {
+          "x": 2,
+          "y": 5
+        },
+        "direction": 3,
+        "source": "Rpg/rpg16/RPG_16.DAT"
+      },
+      {
+        "rpgId": "Rpg16",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 7,
+          "y": 1
+        },
+        "playerPosition": {
+          "x": 12,
+          "y": 5
+        },
+        "direction": 1,
+        "source": "Rpg/rpg16/RPG_16.DAT"
+      },
+      {
+        "rpgId": "Rpg18",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 7,
+          "y": 12
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 17
+        },
+        "direction": 2,
+        "source": "Rpg/rpg18/RPG_18.DAT"
+      },
+      {
+        "rpgId": "Rpg18",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 0,
+          "y": 9
+        },
+        "playerPosition": {
+          "x": 4,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg18/RPG_18.DAT"
+      },
+      {
+        "rpgId": "Rpg20",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 7,
+          "y": 12
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 17
+        },
+        "direction": 2,
+        "source": "Rpg/rpg20/RPG_20.DAT"
+      },
+      {
+        "rpgId": "Rpg20",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 0,
+          "y": 9
+        },
+        "playerPosition": {
+          "x": 4,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg20/RPG_20.DAT"
+      },
+      {
+        "rpgId": "Rpg22",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 7,
+          "y": 12
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 17
+        },
+        "direction": 2,
+        "source": "Rpg/rpg22/RPG_22.DAT"
+      },
+      {
+        "rpgId": "Rpg22",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 0,
+          "y": 9
+        },
+        "playerPosition": {
+          "x": 4,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg22/RPG_22.DAT"
+      },
+      {
+        "rpgId": "Rpg24",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 7,
+          "y": 12
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 17
+        },
+        "direction": 2,
+        "source": "Rpg/rpg24/RPG_24.DAT"
+      },
+      {
+        "rpgId": "Rpg24",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 0,
+          "y": 9
+        },
+        "playerPosition": {
+          "x": 4,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg24/RPG_24.DAT"
+      },
+      {
+        "rpgId": "Rpg25",
+        "positionIndex": 0,
+        "mapPosition": {
+          "x": 7,
+          "y": 12
+        },
+        "playerPosition": {
+          "x": 11,
+          "y": 17
+        },
+        "direction": 2,
+        "source": "Rpg/rpg25/RPG_25.DAT"
+      },
+      {
+        "rpgId": "Rpg25",
+        "positionIndex": 1,
+        "mapPosition": {
+          "x": 0,
+          "y": 9
+        },
+        "playerPosition": {
+          "x": 4,
+          "y": 13
+        },
+        "direction": 0,
+        "source": "Rpg/rpg25/RPG_25.DAT"
+      }
+    ],
+    "rpgEventPlays": []
   }
 ]

@@ -70,8 +70,32 @@
         ]
       },
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 2,
+        "stageId": "Stage00",
+        "stageTitle": "第零幕 獨行",
+        "stageHref": "/games/sword-man/battles/stage00/",
+        "eventId": 1,
+        "stepIndex": 2,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "這夜魑太難對付了！\n大家一擁而上，合力打倒牠！",
+        "source": "Stage/Stage00/EVENT_00.COD",
+        "music": {
+          "id": 50,
+          "name": "Music_50",
+          "displayName": "曲目 50",
+          "audioPath": "/assets/sword-man/music/Music_50.mp3",
+          "durationMs": 28630,
+          "size": 458083
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 3,
         "messageIndex": 7,
         "speaker": "應靈華",
         "faceId": 24,
@@ -79,7 +103,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 8,
         "speaker": "應靈華",
         "faceId": 24,
@@ -87,7 +111,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 9,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -95,7 +119,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 10,
         "speaker": "應靈華",
         "faceId": 24,
@@ -103,7 +127,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 11,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -111,7 +135,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 12,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -119,7 +143,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 13,
         "speaker": "應靈華",
         "faceId": 24,
@@ -127,7 +151,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -135,7 +159,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 0,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -143,7 +167,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 1,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -151,7 +175,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 2,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -159,7 +183,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 3,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -167,7 +191,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 4,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -376,8 +400,32 @@
         "text": "師父！......唉！"
       },
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 26,
+        "stageId": "Stage00",
+        "stageTitle": "第零幕 獨行",
+        "stageHref": "/games/sword-man/battles/stage00/",
+        "eventId": 2,
+        "stepIndex": 84,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": "師父！......唉！",
+        "contextAfter": "小師妹，送到這裡就行了。\n要是師父知道了這件事，\n回頭定會把妳痛罵一頓。",
+        "source": "Stage/Stage00/EVENT_00.COD",
+        "music": {
+          "id": 39,
+          "name": "Music_39",
+          "displayName": "曲目 39",
+          "audioPath": "/assets/sword-man/music/Music_39.mp3",
+          "durationMs": 135549,
+          "size": 2168790
+        },
+        "placementLabel": "战后剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 27,
         "messageIndex": 25,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -385,7 +433,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 26,
         "speaker": "應靈華",
         "faceId": 24,
@@ -393,7 +441,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 27,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -401,7 +449,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 28,
         "speaker": "應靈華",
         "faceId": 24,
@@ -409,7 +457,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 29,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -417,7 +465,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 30,
         "speaker": "應靈華",
         "faceId": 24,
@@ -425,7 +473,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 31,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -433,7 +481,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 32,
         "speaker": "應靈華",
         "faceId": 24,
@@ -441,7 +489,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 33,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -449,7 +497,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 34,
         "speaker": "應靈華",
         "faceId": 24,
@@ -457,7 +505,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 37,
         "speaker": "應靈華",
         "faceId": 24,
@@ -465,7 +513,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 35,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -473,7 +521,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 38,
+        "order": 39,
         "messageIndex": 36,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -481,7 +529,7 @@
       },
       {
         "kind": "movie",
-        "order": 39,
+        "order": 40,
         "movieId": 17,
         "name": "Movie_17",
         "moviePath": "/assets/sword-man/story-movies/17/cutscene.mp4",
@@ -505,6 +553,7 @@
         ]
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -827,8 +876,32 @@
     "outroTalkCount": 14,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage01",
+        "stageTitle": "第一幕 因緣",
+        "stageHref": "/games/sword-man/battles/stage01/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "哇~好熱鬧的茶館.....",
+        "source": "Stage/Stage01/Event_01.cod",
+        "music": {
+          "id": 61,
+          "name": "Music_61",
+          "displayName": "曲目 61",
+          "audioPath": "/assets/sword-man/music/Music_61.mp3",
+          "durationMs": 194142,
+          "size": 3106272
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -836,7 +909,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -844,7 +917,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 7,
         "speaker": "封寒月",
         "faceId": 2,
@@ -852,7 +925,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 2,
         "speaker": "店小二",
         "faceId": 49,
@@ -860,7 +933,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 3,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -868,7 +941,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 4,
         "speaker": "店小二",
         "faceId": 49,
@@ -876,7 +949,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 5,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -884,7 +957,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 6,
         "speaker": "店小二",
         "faceId": 49,
@@ -892,7 +965,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "封寒月",
         "faceId": 2,
@@ -900,7 +973,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 18,
         "speaker": "店小二",
         "faceId": 49,
@@ -908,7 +981,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 9,
         "speaker": "店小二",
         "faceId": 49,
@@ -916,7 +989,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 10,
         "speaker": "店小二",
         "faceId": 49,
@@ -924,7 +997,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 11,
         "speaker": "店小二",
         "faceId": 49,
@@ -932,7 +1005,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 12,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -940,7 +1013,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 13,
         "speaker": "店小二",
         "faceId": 49,
@@ -948,7 +1021,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -956,7 +1029,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 15,
         "speaker": "店小二",
         "faceId": 49,
@@ -964,7 +1037,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 16,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -972,7 +1045,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 17,
         "speaker": "封寒月",
         "faceId": 2,
@@ -980,7 +1053,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -988,7 +1061,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "封寒月",
         "faceId": 2,
@@ -996,7 +1069,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1004,7 +1077,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 22,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1012,7 +1085,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 23,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1020,7 +1093,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 24,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1028,7 +1101,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 25,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1036,7 +1109,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 26,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1044,7 +1117,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 27,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1052,7 +1125,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 28,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1060,7 +1133,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 29,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1068,7 +1141,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 30,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1076,7 +1149,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 31,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1084,7 +1157,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 32,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1092,7 +1165,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 56,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1100,7 +1173,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 33,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1108,7 +1181,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 37,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1116,7 +1189,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 38,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1124,7 +1197,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 38,
+        "order": 39,
         "messageIndex": 39,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1132,7 +1205,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 39,
+        "order": 40,
         "messageIndex": 40,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1140,7 +1213,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 40,
+        "order": 41,
         "messageIndex": 41,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1148,7 +1221,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 41,
+        "order": 42,
         "messageIndex": 42,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1156,7 +1229,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 42,
+        "order": 43,
         "messageIndex": 43,
         "speaker": "店小二",
         "faceId": 49,
@@ -1164,7 +1237,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 43,
+        "order": 44,
         "messageIndex": 44,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1172,7 +1245,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 44,
+        "order": 45,
         "messageIndex": 45,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1180,7 +1253,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 45,
+        "order": 46,
         "messageIndex": 46,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1188,7 +1261,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 46,
+        "order": 47,
         "messageIndex": 47,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1196,7 +1269,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 47,
+        "order": 48,
         "messageIndex": 48,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1204,7 +1277,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 48,
+        "order": 49,
         "messageIndex": 49,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1212,7 +1285,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 49,
+        "order": 50,
         "messageIndex": 50,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1220,7 +1293,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 50,
+        "order": 51,
         "messageIndex": 51,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1228,7 +1301,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 51,
+        "order": 52,
         "messageIndex": 52,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1236,7 +1309,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 52,
+        "order": 53,
         "messageIndex": 53,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -1244,7 +1317,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 53,
+        "order": 54,
         "messageIndex": 54,
         "speaker": "封寒月",
         "faceId": 2,
@@ -1252,7 +1325,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 54,
+        "order": 55,
         "messageIndex": 55,
         "speaker": "四象門弟子",
         "faceId": 40,
@@ -1373,6 +1446,7 @@
         "text": "真是個任性的姑娘。\n但若讓她這樣孤身離去的話，\n只怕又會遇上兇險....\n我還是跟去看看好了。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -1969,6 +2043,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -3099,6 +3174,7 @@
         "text": "還是封姑娘想得周到。\n嗯，事不宜遲，\n咱們這就動身罷！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -3917,6 +3993,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -4828,6 +4905,7 @@
         "text": "上官大哥說的是。\n咱們這就走吧！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -6092,6 +6170,7 @@
         "text": "嗯，跟我來！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -7104,8 +7183,32 @@
     ],
     "outroStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage07",
+        "stageTitle": "第七幕 幽谷寒琴",
+        "stageHref": "/games/sword-man/battles/stage07/",
+        "eventId": 2,
+        "stepIndex": 2,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "....好重的妖氣！\n大家快跟我來！",
+        "source": "Stage/Stage07/EVENT_07.COD",
+        "music": {
+          "id": 20,
+          "name": "Music_20",
+          "displayName": "曲目 20",
+          "audioPath": "/assets/sword-man/music/Music_20.mp3",
+          "durationMs": 239046,
+          "size": 3824744
+        },
+        "placementLabel": "战后剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7113,7 +7216,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7121,7 +7224,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 2,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7129,7 +7232,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 3,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7137,7 +7240,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 4,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7145,7 +7248,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 5,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7153,7 +7256,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 6,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -7161,7 +7264,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 7,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7169,7 +7272,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7177,7 +7280,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 9,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7185,7 +7288,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 10,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7193,7 +7296,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 11,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7201,7 +7304,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 12,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7209,7 +7312,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 13,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7217,7 +7320,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7225,7 +7328,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 15,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7233,7 +7336,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 16,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7241,7 +7344,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 17,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7249,7 +7352,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 18,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7257,7 +7360,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7265,7 +7368,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7273,7 +7376,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7281,7 +7384,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 22,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7289,7 +7392,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 23,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7297,7 +7400,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 24,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7305,7 +7408,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 25,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7313,7 +7416,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 26,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7321,7 +7424,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 27,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7329,7 +7432,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 28,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7337,7 +7440,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 29,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7345,7 +7448,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 30,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7353,7 +7456,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 31,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7361,7 +7464,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 32,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7369,7 +7472,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 33,
         "speaker": "劍邪",
         "faceId": 32,
@@ -7377,7 +7480,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 34,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7385,7 +7488,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 35,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7393,7 +7496,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 36,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7401,7 +7504,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 38,
+        "order": 39,
         "messageIndex": 37,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7409,7 +7512,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 39,
+        "order": 40,
         "messageIndex": 38,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7417,7 +7520,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 40,
+        "order": 41,
         "messageIndex": 39,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7425,7 +7528,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 41,
+        "order": 42,
         "messageIndex": 40,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7433,7 +7536,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 42,
+        "order": 43,
         "messageIndex": 41,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7441,7 +7544,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 43,
+        "order": 44,
         "messageIndex": 42,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7449,7 +7552,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 44,
+        "order": 45,
         "messageIndex": 43,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7457,7 +7560,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 45,
+        "order": 46,
         "messageIndex": 44,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -7465,7 +7568,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 46,
+        "order": 47,
         "messageIndex": 45,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7473,7 +7576,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 47,
+        "order": 48,
         "messageIndex": 46,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7481,7 +7584,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 48,
+        "order": 49,
         "messageIndex": 47,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7489,7 +7592,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 49,
+        "order": 50,
         "messageIndex": 48,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7497,7 +7600,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 50,
+        "order": 51,
         "messageIndex": 49,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7505,7 +7608,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 51,
+        "order": 52,
         "messageIndex": 50,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7513,7 +7616,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 52,
+        "order": 53,
         "messageIndex": 51,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7521,7 +7624,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 53,
+        "order": 54,
         "messageIndex": 52,
         "speaker": "未署名",
         "faceId": -1,
@@ -7529,7 +7632,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 54,
+        "order": 55,
         "messageIndex": 53,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7537,7 +7640,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 55,
+        "order": 56,
         "messageIndex": 54,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7545,7 +7648,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 56,
+        "order": 57,
         "messageIndex": 55,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7553,7 +7656,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 57,
+        "order": 58,
         "messageIndex": 56,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7561,7 +7664,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 58,
+        "order": 59,
         "messageIndex": 57,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7569,7 +7672,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 59,
+        "order": 60,
         "messageIndex": 58,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7577,7 +7680,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 60,
+        "order": 61,
         "messageIndex": 59,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7585,7 +7688,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 61,
+        "order": 62,
         "messageIndex": 60,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -7593,7 +7696,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 62,
+        "order": 63,
         "messageIndex": 61,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7601,7 +7704,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 63,
+        "order": 64,
         "messageIndex": 62,
         "speaker": "封寒月",
         "faceId": 2,
@@ -7609,7 +7712,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 64,
+        "order": 65,
         "messageIndex": 63,
         "speaker": "紫楓",
         "faceId": 3,
@@ -7617,7 +7720,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 65,
+        "order": 66,
         "messageIndex": 64,
         "speaker": "上官遠",
         "faceId": 4,
@@ -7625,13 +7728,14 @@
       },
       {
         "kind": "dialogue",
-        "order": 66,
+        "order": 67,
         "messageIndex": 65,
         "speaker": "紫楓",
         "faceId": 3,
         "text": "嗯，也好...."
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -8835,6 +8939,7 @@
         "text": "....嗯...."
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -10152,6 +10257,7 @@
         "text": "嗯。跟我來！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -11528,6 +11634,7 @@
         "text": "那便見機行事了。\n嗯，既然決定如此，\n咱們這就動身吧！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -12545,8 +12652,32 @@
     "outroTalkCount": 15,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage11",
+        "stageTitle": "第十一幕 故人",
+        "stageHref": "/games/sword-man/battles/stage11/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "我剛才說過，天玄門一行\n只是求見貴派掌門靈山前輩，\n有要事想與他老人家求教商議，\n此外並無他意不軌。\n咱們照著道上規矩正式拜山，\n就算你們不想放我們上山，\n也用不著兵刃相見吧？",
+        "source": "Stage/STAGE11/EVENT_11.COD",
+        "music": {
+          "id": 6,
+          "name": "Music_06",
+          "displayName": "曲目 06",
+          "audioPath": "/assets/sword-man/music/Music_06.mp3",
+          "durationMs": 90802,
+          "size": 1452826
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12554,7 +12685,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -12562,7 +12693,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 2,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12570,7 +12701,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 3,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -12578,7 +12709,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 4,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12586,7 +12717,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 5,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12594,7 +12725,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 6,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12602,7 +12733,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 7,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12610,7 +12741,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "封寒月",
         "faceId": 2,
@@ -12618,7 +12749,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 9,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12626,7 +12757,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 10,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12634,7 +12765,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 12,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12642,7 +12773,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 11,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12650,7 +12781,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 13,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12658,7 +12789,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12666,7 +12797,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 15,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12674,7 +12805,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 16,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12682,7 +12813,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 17,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12690,7 +12821,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 18,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12698,7 +12829,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "封寒月",
         "faceId": 2,
@@ -12706,7 +12837,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12714,7 +12845,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12722,7 +12853,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 22,
         "speaker": "封寒月",
         "faceId": 2,
@@ -12730,7 +12861,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 23,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12738,7 +12869,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 24,
         "speaker": "封寒月",
         "faceId": 2,
@@ -12746,7 +12877,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 25,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12754,7 +12885,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 26,
         "speaker": "封寒月",
         "faceId": 2,
@@ -12762,7 +12893,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 27,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12770,7 +12901,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 28,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12778,7 +12909,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 29,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12786,7 +12917,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 30,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12794,7 +12925,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 31,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12802,7 +12933,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 32,
         "speaker": "應靈華",
         "faceId": 24,
@@ -12810,7 +12941,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 33,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12818,7 +12949,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 34,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -12826,7 +12957,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 35,
         "speaker": "應奉仁",
         "faceId": 17,
@@ -12834,7 +12965,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 36,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -12963,6 +13094,7 @@
         "text": "也好，就這麼辦！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -14130,6 +14262,7 @@
         "text": "嗯！\n只希望師父他老人家\n還一切安好...."
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -15198,6 +15331,56 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [
+      {
+        "kind": "music",
+        "order": 1,
+        "stageId": "Stage13",
+        "stageTitle": "第十三幕 真相",
+        "stageHref": "/games/sword-man/battles/stage13/",
+        "eventId": 2,
+        "stepIndex": 2,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "妖女，\n看妳還有什麼花樣可耍！",
+        "source": "Stage/Stage13/EVENT_13.COD",
+        "music": {
+          "id": 40,
+          "name": "Music_40",
+          "displayName": "曲目 40",
+          "audioPath": "/assets/sword-man/music/Music_40.mp3",
+          "durationMs": 86909,
+          "size": 1390550
+        },
+        "placementLabel": "战中事件"
+      },
+      {
+        "kind": "music",
+        "order": 2,
+        "stageId": "Stage13",
+        "stageTitle": "第十三幕 真相",
+        "stageHref": "/games/sword-man/battles/stage13/",
+        "eventId": 2,
+        "stepIndex": 479,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": "殷大哥....",
+        "contextAfter": "殷大哥----你在這裡嗎？",
+        "source": "Stage/Stage13/EVENT_13.COD",
+        "music": {
+          "id": 39,
+          "name": "Music_39",
+          "displayName": "曲目 39",
+          "audioPath": "/assets/sword-man/music/Music_39.mp3",
+          "durationMs": 135549,
+          "size": 2168790
+        },
+        "placementLabel": "战中事件"
+      }
+    ],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -16606,8 +16789,32 @@
     "outroTalkCount": 12,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage14",
+        "stageTitle": "第十四幕 螢火",
+        "stageHref": "/games/sword-man/battles/stage14/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "今晚不冷，\n我想這些應該夠用了。\n大夥兒都安歇啦？",
+        "source": "Stage/Stage14/EVENT_14.COD",
+        "music": {
+          "id": 39,
+          "name": "Music_39",
+          "displayName": "曲目 39",
+          "audioPath": "/assets/sword-man/music/Music_39.mp3",
+          "durationMs": 135549,
+          "size": 2168790
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 41,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16615,7 +16822,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 42,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16623,7 +16830,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 43,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16631,7 +16838,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 44,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16639,7 +16846,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 45,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16647,7 +16854,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 46,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16655,7 +16862,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 47,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16663,7 +16870,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 48,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16671,7 +16878,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 49,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16679,7 +16886,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 50,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16687,7 +16894,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 51,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16695,7 +16902,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 52,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16703,7 +16910,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 53,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16711,7 +16918,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 54,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16719,7 +16926,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 55,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16727,7 +16934,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 56,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16735,7 +16942,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 57,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16743,7 +16950,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 58,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16751,7 +16958,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 59,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16759,7 +16966,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 60,
         "speaker": "紫楓",
         "faceId": 3,
@@ -16767,7 +16974,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 61,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16775,7 +16982,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 38,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16783,7 +16990,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 0,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16791,7 +16998,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 1,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16799,7 +17006,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 2,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16807,7 +17014,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 3,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16815,7 +17022,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 4,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16823,7 +17030,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 5,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16831,7 +17038,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 6,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16839,7 +17046,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 7,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16847,7 +17054,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 8,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16855,7 +17062,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 9,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16863,7 +17070,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 10,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16871,7 +17078,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 11,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16879,7 +17086,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 12,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16887,7 +17094,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 13,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16895,7 +17102,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16903,7 +17110,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 38,
+        "order": 39,
         "messageIndex": 15,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16911,7 +17118,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 39,
+        "order": 40,
         "messageIndex": 16,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16919,7 +17126,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 40,
+        "order": 41,
         "messageIndex": 17,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16927,7 +17134,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 41,
+        "order": 42,
         "messageIndex": 18,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16935,7 +17142,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 42,
+        "order": 43,
         "messageIndex": 19,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16943,7 +17150,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 43,
+        "order": 44,
         "messageIndex": 20,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16951,7 +17158,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 44,
+        "order": 45,
         "messageIndex": 39,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16959,7 +17166,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 45,
+        "order": 46,
         "messageIndex": 40,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16967,7 +17174,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 46,
+        "order": 47,
         "messageIndex": 21,
         "speaker": "封寒月",
         "faceId": 2,
@@ -16975,7 +17182,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 47,
+        "order": 48,
         "messageIndex": 22,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16983,7 +17190,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 48,
+        "order": 49,
         "messageIndex": 23,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -16991,7 +17198,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 49,
+        "order": 50,
         "messageIndex": 24,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -16999,7 +17206,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 50,
+        "order": 51,
         "messageIndex": 25,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17007,7 +17214,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 51,
+        "order": 52,
         "messageIndex": 26,
         "speaker": "封寒月",
         "faceId": 2,
@@ -17015,7 +17222,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 52,
+        "order": 53,
         "messageIndex": 27,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17023,7 +17230,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 53,
+        "order": 54,
         "messageIndex": 28,
         "speaker": "高戚",
         "faceId": 36,
@@ -17031,7 +17238,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 54,
+        "order": 55,
         "messageIndex": 29,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17039,7 +17246,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 55,
+        "order": 56,
         "messageIndex": 30,
         "speaker": "封寒月",
         "faceId": 2,
@@ -17047,7 +17254,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 56,
+        "order": 57,
         "messageIndex": 31,
         "speaker": "高戚",
         "faceId": 36,
@@ -17055,7 +17262,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 57,
+        "order": 58,
         "messageIndex": 9,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -17063,7 +17270,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 58,
+        "order": 59,
         "messageIndex": 32,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17071,7 +17278,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 59,
+        "order": 60,
         "messageIndex": 33,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -17079,7 +17286,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 60,
+        "order": 61,
         "messageIndex": 34,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17087,7 +17294,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 61,
+        "order": 62,
         "messageIndex": 35,
         "speaker": "封寒月",
         "faceId": 2,
@@ -17095,7 +17302,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 62,
+        "order": 63,
         "messageIndex": 36,
         "speaker": "高戚",
         "faceId": 36,
@@ -17103,7 +17310,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 63,
+        "order": 64,
         "messageIndex": 37,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -17208,6 +17415,7 @@
         "text": "嗯，大夥跟著我來！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -18345,6 +18553,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -19744,6 +19953,7 @@
         "text": "好說，諸位請先休整片刻，\n待人馬調集妥當，\n咱們再一起前往祭天塔。\n請！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -21214,6 +21424,7 @@
         "text": "嗯，說的也對！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -22642,6 +22853,7 @@
         "text": "好，請大家閉上雙眼，\n調云呼吸，\n我沒說話之前\n不可睜開眼睛...."
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -24220,6 +24432,7 @@
         "text": "這倒容易，\n咱們倆回去瞧瞧便是。\n這一路打下來大夥兒也累得很了，\n就讓大家先好好休息吧。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -25283,8 +25496,32 @@
     "outroTalkCount": 7,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage20",
+        "stageTitle": "第二十幕 埋伏",
+        "stageHref": "/games/sword-man/battles/stage20/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "呵呵，你們果然來啦。\n前幾天我掐指一算，\n便知你們幾日內會來訪，\n果然是被我給等到了。\n怎麼，\n這回你們有什麼貴事？",
+        "source": "Stage/Stage20/EVENT_20.COD",
+        "music": {
+          "id": 44,
+          "name": "Music_44",
+          "displayName": "曲目 44",
+          "audioPath": "/assets/sword-man/music/Music_44.mp3",
+          "durationMs": 203416,
+          "size": 3254648
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25292,7 +25529,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25300,7 +25537,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 2,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25308,7 +25545,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 3,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25316,7 +25553,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 4,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25324,7 +25561,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 5,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25332,7 +25569,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 6,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25340,7 +25577,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 7,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25348,7 +25585,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25356,7 +25593,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 9,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25364,7 +25601,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 10,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25372,7 +25609,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 11,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25380,7 +25617,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 12,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25388,7 +25625,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 13,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25396,7 +25633,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 14,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25404,7 +25641,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 15,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25412,7 +25649,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 16,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25420,7 +25657,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 17,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25428,7 +25665,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 18,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25436,7 +25673,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25444,7 +25681,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "神隱上人",
         "faceId": 25,
@@ -25452,7 +25689,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25460,7 +25697,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 22,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25468,7 +25705,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 23,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25476,7 +25713,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 24,
         "speaker": "紫楓",
         "faceId": 3,
@@ -25484,7 +25721,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 25,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25492,7 +25729,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 26,
         "speaker": "真胤",
         "faceId": 6,
@@ -25500,7 +25737,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 27,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25508,7 +25745,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 28,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25516,7 +25753,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 29,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25524,7 +25761,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 31,
+        "order": 32,
         "messageIndex": 30,
         "speaker": "紫楓",
         "faceId": 3,
@@ -25532,7 +25769,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 32,
+        "order": 33,
         "messageIndex": 31,
         "speaker": "上官遠",
         "faceId": 4,
@@ -25540,7 +25777,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 33,
+        "order": 34,
         "messageIndex": 32,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25548,7 +25785,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 34,
+        "order": 35,
         "messageIndex": 33,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -25556,7 +25793,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 35,
+        "order": 36,
         "messageIndex": 34,
         "speaker": "上官遠",
         "faceId": 4,
@@ -25564,7 +25801,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 36,
+        "order": 37,
         "messageIndex": 35,
         "speaker": "韓千秀",
         "faceId": 7,
@@ -25572,7 +25809,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 37,
+        "order": 38,
         "messageIndex": 36,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25580,7 +25817,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 38,
+        "order": 39,
         "messageIndex": 37,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25588,7 +25825,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 39,
+        "order": 40,
         "messageIndex": 38,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25596,7 +25833,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 40,
+        "order": 41,
         "messageIndex": 39,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25604,7 +25841,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 41,
+        "order": 42,
         "messageIndex": 40,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25612,7 +25849,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 42,
+        "order": 43,
         "messageIndex": 41,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25620,7 +25857,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 43,
+        "order": 44,
         "messageIndex": 42,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -25628,7 +25865,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 44,
+        "order": 45,
         "messageIndex": 43,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25636,7 +25873,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 45,
+        "order": 46,
         "messageIndex": 44,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -25644,7 +25881,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 46,
+        "order": 47,
         "messageIndex": 36,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25652,7 +25889,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 47,
+        "order": 48,
         "messageIndex": 45,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25660,7 +25897,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 48,
+        "order": 49,
         "messageIndex": 46,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25668,7 +25905,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 49,
+        "order": 50,
         "messageIndex": 47,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25676,7 +25913,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 50,
+        "order": 51,
         "messageIndex": 48,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25684,7 +25921,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 51,
+        "order": 52,
         "messageIndex": 49,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25692,7 +25929,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 52,
+        "order": 53,
         "messageIndex": 50,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25700,7 +25937,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 53,
+        "order": 54,
         "messageIndex": 51,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25708,7 +25945,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 54,
+        "order": 55,
         "messageIndex": 52,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25716,7 +25953,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 55,
+        "order": 56,
         "messageIndex": 53,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25724,7 +25961,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 56,
+        "order": 57,
         "messageIndex": 54,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25732,7 +25969,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 57,
+        "order": 58,
         "messageIndex": 55,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25740,7 +25977,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 58,
+        "order": 59,
         "messageIndex": 56,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25748,7 +25985,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 59,
+        "order": 60,
         "messageIndex": 57,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25756,7 +25993,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 60,
+        "order": 61,
         "messageIndex": 58,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25764,7 +26001,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 61,
+        "order": 62,
         "messageIndex": 59,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25772,7 +26009,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 62,
+        "order": 63,
         "messageIndex": 60,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25780,7 +26017,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 63,
+        "order": 64,
         "messageIndex": 61,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25788,7 +26025,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 64,
+        "order": 65,
         "messageIndex": 62,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25796,7 +26033,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 65,
+        "order": 66,
         "messageIndex": 63,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25804,7 +26041,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 66,
+        "order": 67,
         "messageIndex": 50,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25812,7 +26049,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 67,
+        "order": 68,
         "messageIndex": 64,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -25820,7 +26057,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 68,
+        "order": 69,
         "messageIndex": 65,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25828,7 +26065,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 69,
+        "order": 70,
         "messageIndex": 66,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -25836,7 +26073,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 70,
+        "order": 71,
         "messageIndex": 67,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25844,7 +26081,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 71,
+        "order": 72,
         "messageIndex": 68,
         "speaker": "四象門弟子",
         "faceId": 41,
@@ -25852,7 +26089,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 72,
+        "order": 73,
         "messageIndex": 69,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25860,7 +26097,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 73,
+        "order": 74,
         "messageIndex": 70,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25868,7 +26105,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 74,
+        "order": 75,
         "messageIndex": 71,
         "speaker": "韓無砂",
         "faceId": 34,
@@ -25876,7 +26113,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 75,
+        "order": 76,
         "messageIndex": 72,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25884,7 +26121,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 76,
+        "order": 77,
         "messageIndex": 73,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25892,7 +26129,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 77,
+        "order": 78,
         "messageIndex": 74,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25900,7 +26137,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 78,
+        "order": 79,
         "messageIndex": 75,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25908,7 +26145,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 79,
+        "order": 80,
         "messageIndex": 76,
         "speaker": "韓無砂",
         "faceId": 34,
@@ -25916,7 +26153,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 80,
+        "order": 81,
         "messageIndex": 77,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25924,7 +26161,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 81,
+        "order": 82,
         "messageIndex": 78,
         "speaker": "封寒月",
         "faceId": 2,
@@ -25932,7 +26169,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 82,
+        "order": 83,
         "messageIndex": 79,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -25940,7 +26177,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 83,
+        "order": 84,
         "messageIndex": 80,
         "speaker": "韓無砂",
         "faceId": 34,
@@ -26005,6 +26242,7 @@
         "text": "說的也是。咱們這就下去\n拜見靈山前輩的收藏吧！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [
       {
         "kind": "movie",
@@ -27541,8 +27779,32 @@
     ],
     "outroStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage21",
+        "stageTitle": "第二十一幕 神兵",
+        "stageHref": "/games/sword-man/battles/stage21/",
+        "eventId": 2,
+        "stepIndex": 1,
+        "placement": "after_battle",
+        "group": "outro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "時間緊迫，這裡收藏雖多，\n但無暇一一細找，\n我只來得及拿了這幾樣東西，\n希望能派得上用場。",
+        "source": "Stage/Stage21/EVENT_21.COD",
+        "music": {
+          "id": 5,
+          "name": "Music_05",
+          "displayName": "曲目 05",
+          "audioPath": "/assets/sword-man/music/Music_05.mp3",
+          "durationMs": 149838,
+          "size": 2397413
+        },
+        "placementLabel": "战后剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27550,7 +27812,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -27558,7 +27820,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 2,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27566,7 +27828,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 3,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -27574,7 +27836,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 4,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27582,7 +27844,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 5,
         "speaker": "紫楓",
         "faceId": 3,
@@ -27590,7 +27852,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 6,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27598,7 +27860,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 7,
         "speaker": "紫楓",
         "faceId": 3,
@@ -27606,7 +27868,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27614,7 +27876,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 9,
         "speaker": "紫楓",
         "faceId": 3,
@@ -27622,7 +27884,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 10,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -27630,7 +27892,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 11,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27638,7 +27900,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 12,
         "speaker": "未署名",
         "faceId": -1,
@@ -27646,7 +27908,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 13,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27654,7 +27916,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 14,
         "speaker": "真胤",
         "faceId": 6,
@@ -27662,7 +27924,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 15,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27670,7 +27932,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 16,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -27678,7 +27940,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 17,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27686,7 +27948,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 18,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -27694,7 +27956,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "紫楓",
         "faceId": 3,
@@ -27702,7 +27964,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27710,7 +27972,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "紫楓",
         "faceId": 3,
@@ -27718,7 +27980,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 25,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -27726,7 +27988,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 26,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27734,7 +27996,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 25,
+        "order": 26,
         "messageIndex": 27,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -27742,7 +28004,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 26,
+        "order": 27,
         "messageIndex": 28,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27750,7 +28012,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 27,
+        "order": 28,
         "messageIndex": 29,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -27758,7 +28020,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 28,
+        "order": 29,
         "messageIndex": 22,
         "speaker": "封寒月",
         "faceId": 2,
@@ -27766,7 +28028,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 29,
+        "order": 30,
         "messageIndex": 23,
         "speaker": "上官遠",
         "faceId": 4,
@@ -27774,13 +28036,14 @@
       },
       {
         "kind": "dialogue",
-        "order": 30,
+        "order": 31,
         "messageIndex": 24,
         "speaker": "殷劍平",
         "faceId": 1,
         "text": "困在這裡也不是辦法，\n只有冒險一探了。\n咱們走吧！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -29444,6 +29707,7 @@
         "text": "啊！我一時倒沒想到這麼多。\n果然還是紫楓姑娘慮深見廣，\n咱們就這麼辦吧。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -30666,6 +30930,7 @@
         "text": "那就有勞三位了。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -31754,6 +32019,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -32739,6 +33005,7 @@
         "text": "大夥都站定了麼？\n我這就開始施「移遁之法」。\n仙道御法神移天相八方\n流轉魂軀同昇光舞騰挪...."
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -34128,6 +34395,7 @@
         "text": "嗯！大家隨我來。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -35423,6 +35691,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -36530,6 +36799,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -38009,6 +38279,7 @@
         "text": "事不宜遲，咱們這就走吧！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -39391,6 +39662,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [
       {
         "kind": "movie",
@@ -40556,8 +40828,32 @@
     "outroTalkCount": 0,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage31",
+        "stageTitle": "第三十幕 無幻剎那",
+        "stageHref": "/games/sword-man/battles/stage31/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "雙妹....\n平兒馬上就會來了。",
+        "source": "Stage/Stage31/EVENT_31.COD",
+        "music": {
+          "id": 40,
+          "name": "Music_40",
+          "displayName": "曲目 40",
+          "audioPath": "/assets/sword-man/music/Music_40.mp3",
+          "durationMs": 86909,
+          "size": 1390550
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 0,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40565,7 +40861,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 1,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40573,7 +40869,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 2,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40581,7 +40877,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 3,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40589,7 +40885,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 4,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40597,7 +40893,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 5,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40605,7 +40901,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 6,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40613,7 +40909,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 7,
         "speaker": "紫楓",
         "faceId": 3,
@@ -40621,7 +40917,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 8,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40629,7 +40925,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 9,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40637,7 +40933,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 10,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40645,7 +40941,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 11,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40653,7 +40949,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 12,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40661,7 +40957,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 14,
+        "order": 15,
         "messageIndex": 13,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40669,7 +40965,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 14,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40677,7 +40973,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 15,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40685,7 +40981,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 16,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40693,7 +40989,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 17,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40701,7 +40997,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 18,
         "speaker": "紫楓",
         "faceId": 3,
@@ -40709,7 +41005,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 19,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40717,7 +41013,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 20,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -40725,7 +41021,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 21,
         "speaker": "劍邪",
         "faceId": 32,
@@ -40733,6 +41029,32 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [
+      {
+        "kind": "music",
+        "order": 1,
+        "stageId": "Stage31",
+        "stageTitle": "第三十幕 無幻剎那",
+        "stageHref": "/games/sword-man/battles/stage31/",
+        "eventId": 2,
+        "stepIndex": 0,
+        "placement": "during_battle",
+        "group": "battle_event",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "爹，孩兒....孩兒得罪了！",
+        "source": "Stage/Stage31/EVENT_31.COD",
+        "music": {
+          "id": 40,
+          "name": "Music_40",
+          "displayName": "曲目 40",
+          "audioPath": "/assets/sword-man/music/Music_40.mp3",
+          "durationMs": 86909,
+          "size": 1390550
+        },
+        "placementLabel": "战中事件"
+      }
+    ],
     "battleMovieScenes": [],
     "endingMovieScenes": [
       {
@@ -42025,6 +42347,7 @@
         "text": "嗯！知道了。"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -43254,6 +43577,7 @@
         "text": "....嗯！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [
@@ -44387,8 +44711,32 @@
     "outroTalkCount": 0,
     "introStory": [
       {
-        "kind": "dialogue",
+        "kind": "music",
         "order": 1,
+        "stageId": "Stage34",
+        "stageTitle": "第三十三幕 冰嶽絕劍",
+        "stageHref": "/games/sword-man/battles/stage34/",
+        "eventId": 1,
+        "stepIndex": 1,
+        "placement": "before_battle",
+        "group": "intro",
+        "conditionalBranch": false,
+        "contextBefore": null,
+        "contextAfter": "....啊，那..那是....",
+        "source": "Stage/Stage34/EVENT_34.COD",
+        "music": {
+          "id": 13,
+          "name": "Music_13",
+          "displayName": "曲目 13",
+          "audioPath": "/assets/sword-man/music/Music_13.mp3",
+          "durationMs": 176170,
+          "size": 2818716
+        },
+        "placementLabel": "战前剧情"
+      },
+      {
+        "kind": "dialogue",
+        "order": 2,
         "messageIndex": 22,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -44396,7 +44744,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 2,
+        "order": 3,
         "messageIndex": 0,
         "speaker": "上官遠",
         "faceId": 4,
@@ -44404,7 +44752,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 3,
+        "order": 4,
         "messageIndex": 1,
         "speaker": "封寒月",
         "faceId": 2,
@@ -44412,7 +44760,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 4,
+        "order": 5,
         "messageIndex": 2,
         "speaker": "燕明蓉",
         "faceId": 8,
@@ -44420,7 +44768,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 5,
+        "order": 6,
         "messageIndex": 3,
         "speaker": "紫楓",
         "faceId": 3,
@@ -44428,7 +44776,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 6,
+        "order": 7,
         "messageIndex": 4,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -44436,7 +44784,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 7,
+        "order": 8,
         "messageIndex": 5,
         "speaker": "紫楓",
         "faceId": 3,
@@ -44444,7 +44792,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 8,
+        "order": 9,
         "messageIndex": 6,
         "speaker": "未署名",
         "faceId": -1,
@@ -44452,7 +44800,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 9,
+        "order": 10,
         "messageIndex": 7,
         "speaker": "上官遠",
         "faceId": 4,
@@ -44460,7 +44808,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 10,
+        "order": 11,
         "messageIndex": 8,
         "speaker": "未署名",
         "faceId": -1,
@@ -44468,7 +44816,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 11,
+        "order": 12,
         "messageIndex": 9,
         "speaker": "未署名",
         "faceId": -1,
@@ -44476,7 +44824,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 12,
+        "order": 13,
         "messageIndex": 10,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -44484,7 +44832,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 13,
+        "order": 14,
         "messageIndex": 11,
         "speaker": "未署名",
         "faceId": -1,
@@ -44492,7 +44840,7 @@
       },
       {
         "kind": "movie",
-        "order": 14,
+        "order": 15,
         "movieId": 7,
         "name": "Movie_07",
         "moviePath": "/assets/sword-man/story-movies/07/cutscene.mp4",
@@ -44517,7 +44865,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 15,
+        "order": 16,
         "messageIndex": 12,
         "speaker": "鮮于超",
         "faceId": 5,
@@ -44525,7 +44873,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 16,
+        "order": 17,
         "messageIndex": 13,
         "speaker": "韓千秀",
         "faceId": 7,
@@ -44533,7 +44881,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 17,
+        "order": 18,
         "messageIndex": 14,
         "speaker": "上官遠",
         "faceId": 4,
@@ -44541,7 +44889,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 18,
+        "order": 19,
         "messageIndex": 15,
         "speaker": "紫楓",
         "faceId": 3,
@@ -44549,7 +44897,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 19,
+        "order": 20,
         "messageIndex": 16,
         "speaker": "上官遠",
         "faceId": 4,
@@ -44557,7 +44905,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 20,
+        "order": 21,
         "messageIndex": 17,
         "speaker": "紫楓",
         "faceId": 3,
@@ -44565,7 +44913,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 21,
+        "order": 22,
         "messageIndex": 18,
         "speaker": "真胤",
         "faceId": 6,
@@ -44573,7 +44921,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 22,
+        "order": 23,
         "messageIndex": 19,
         "speaker": "紫楓",
         "faceId": 3,
@@ -44581,7 +44929,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 23,
+        "order": 24,
         "messageIndex": 20,
         "speaker": "殷劍平",
         "faceId": 1,
@@ -44589,7 +44937,7 @@
       },
       {
         "kind": "dialogue",
-        "order": 24,
+        "order": 25,
         "messageIndex": 21,
         "speaker": "未署名",
         "faceId": -1,
@@ -44597,6 +44945,7 @@
       }
     ],
     "outroStory": [],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [
       {
@@ -46564,6 +46913,7 @@
         "text": "殷大哥，你杵在那兒幹嘛？\n走了啦！發什麼呆呀！"
       }
     ],
+    "battleMusicScenes": [],
     "battleMovieScenes": [],
     "endingMovieScenes": [],
     "playerNames": [

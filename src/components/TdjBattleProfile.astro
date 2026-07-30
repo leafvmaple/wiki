@@ -1,6 +1,7 @@
 ---
 import battles from '../data/sword-man/generated/battles.json';
 import TdjMusicPlayer from './TdjMusicPlayer.astro';
+import TdjStoryMusic from './TdjStoryMusic.astro';
 import TdjStoryMovie from './TdjStoryMovie.astro';
 import TdjStorySequence from './TdjStorySequence.astro';
 
@@ -30,6 +31,7 @@ const rosterSections = [
 const introStory = battle.introStory as DataRow[];
 const outroStory = battle.outroStory as DataRow[];
 const battleMovieScenes = battle.battleMovieScenes as DataRow[];
+const battleMusicScenes = battle.battleMusicScenes as DataRow[];
 const endingMovieScenes = battle.endingMovieScenes as DataRow[];
 const transitionParts = [
   battle.transition.town !== null ? `城镇 #${battle.transition.town}` : null,
@@ -101,9 +103,13 @@ const transitionParts = [
   </figcaption>
 </figure>
 
-<h3 id="battle-music">战场音乐</h3>
+<h3 id="battle-music">默认战场音乐</h3>
 
 <TdjMusicPlayer music={battle.music} showCatalogLink />
+
+{battleMusicScenes.length > 0 && <h3 id="battle-story-music">战中剧情音乐</h3>}
+
+{battleMusicScenes.map((cue: DataRow) => <TdjStoryMusic cue={cue} />)}
 
 <h2 id="conditions">胜败条件与战后去向</h2>
 
@@ -260,7 +266,7 @@ const transitionParts = [
 )}
 
 <aside class="tdj-provenance">
-  剧情标题卡与默认战场音乐编号来自 <code>Misc/STA_SCR.DAT</code>，战场音乐来自对应的 <code>Music/Music_NN.mp3</code>；战场说明标题与玩家可见胜败条件来自
+  剧情标题卡与默认战场音乐编号来自 <code>Misc/STA_SCR.DAT</code>，剧情音乐切换来自战斗事件 <code>0x2A–0x2E</code> 指令，音乐媒体来自对应的 <code>Music/Music_NN.mp3</code>；战场说明标题与玩家可见胜败条件来自
   <code>SDES_NN.DAT</code>；地图来自 <code>mapNN.FB2 + mapNN.MPL</code>；阵容与坐标来自逐关布阵数据；
   机器判定明细来自 <code>JUDGE_NN.COD</code>；对话来自 <code>EVENT_NN.COD + EMSG_NN.MSG</code>；
   剧情影片调用来自战斗事件 <code>0x29</code> 指令，网页媒体由原版 Bink MOV 转为 H.264/AAC MP4；
