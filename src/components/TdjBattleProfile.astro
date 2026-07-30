@@ -24,10 +24,8 @@ const rosterSections = [
   { id: 'players', title: '我方出场', rows: battle.playerRoster as DataRow[] },
   { id: 'enemies', title: '敌方出场', rows: battle.enemyRoster as DataRow[] },
 ];
-const dialogueSections = [
-  { id: 'intro-dialogue', title: '战前对话', rows: battle.introDialogue as DataRow[] },
-  { id: 'outro-dialogue', title: '战后对话', rows: battle.outroDialogue as DataRow[] },
-];
+const introDialogue = battle.introDialogue as DataRow[];
+const outroDialogue = battle.outroDialogue as DataRow[];
 const transitionParts = [
   battle.transition.town !== null ? `城镇 #${battle.transition.town}` : null,
   battle.transition.camp !== null ? `营地 #${battle.transition.camp}` : null,
@@ -68,6 +66,29 @@ const transitionParts = [
     <span><strong>{battle.introTalkCount} / {battle.outroTalkCount}</strong><small>战前 / 战后对话</small></span>
   </div>
 </section>
+
+<h2 id="intro-dialogue">战前剧情</h2>
+
+<p class="tdj-dialogue-note">
+  本关战斗开始前的原版事件对话，按出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
+</p>
+
+<details class="leaf-dialogue tdj-dialogue">
+  <summary>
+    <span>战前对话</span>
+    <small>{introDialogue.length} 条 · 剧透</small>
+  </summary>
+  {introDialogue.length ? (
+    <div class="tdj-dialogue-body">
+      {introDialogue.map((line: DataRow) => (
+        <p>
+          <strong>{line.speaker}：</strong>
+          <span>{line.text}</span>
+        </p>
+      ))}
+    </div>
+  ) : <p class="tdj-dialogue-empty">原版战前事件没有对话。</p>}
+</details>
 
 <h2 id="battle-map">战场地图</h2>
 
@@ -138,33 +159,6 @@ const transitionParts = [
   </div>
 </details>
 
-<h2 id="dialogue">战前与战后对话</h2>
-
-<p class="tdj-dialogue-note">
-  按原版事件中的出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
-</p>
-
-<div class="tdj-dialogue-grid">
-  {dialogueSections.map((section) => (
-    <details class="leaf-dialogue tdj-dialogue" id={section.id}>
-      <summary>
-        <span>{section.title}</span>
-        <small>{section.rows.length} 条 · 剧透</small>
-      </summary>
-      {section.rows.length ? (
-        <div class="tdj-dialogue-body">
-          {section.rows.map((line: DataRow) => (
-            <p>
-              <strong>{line.speaker}：</strong>
-              <span>{line.text}</span>
-            </p>
-          ))}
-        </div>
-      ) : <p class="tdj-dialogue-empty">原版本段事件没有对话。</p>}
-    </details>
-  ))}
-</div>
-
 {rosterSections.map((section) => (
   <>
     <h2 id={section.id}>{section.title}</h2>
@@ -232,6 +226,29 @@ const transitionParts = [
   <div><dt>战前事件</dt><dd>{battle.introInstructionCount} 条指令，其中 {battle.introTalkCount} 条对话</dd></div>
   <div><dt>战后事件</dt><dd>{battle.outroInstructionCount} 条指令，其中 {battle.outroTalkCount} 条对话</dd></div>
 </dl>
+
+<h2 id="outro-dialogue">战后剧情</h2>
+
+<p class="tdj-dialogue-note">
+  本关战斗结束后的原版事件对话，按出现顺序列出，默认折叠以避免剧透。“未署名”表示原脚本未指定角色头像。
+</p>
+
+<details class="leaf-dialogue tdj-dialogue">
+  <summary>
+    <span>战后对话</span>
+    <small>{outroDialogue.length} 条 · 剧透</small>
+  </summary>
+  {outroDialogue.length ? (
+    <div class="tdj-dialogue-body">
+      {outroDialogue.map((line: DataRow) => (
+        <p>
+          <strong>{line.speaker}：</strong>
+          <span>{line.text}</span>
+        </p>
+      ))}
+    </div>
+  ) : <p class="tdj-dialogue-empty">原版战后事件没有对话。</p>}
+</details>
 
 <aside class="tdj-provenance">
   剧情标题卡来自 <code>Misc/STA_SCR.DAT</code>，战场说明标题与玩家可见胜败条件来自
@@ -417,12 +434,6 @@ const transitionParts = [
     margin-top: -0.25rem;
   }
 
-  .tdj-dialogue-grid {
-    display: grid;
-    gap: 0.7rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   details.leaf-dialogue.tdj-dialogue {
     background: var(--leaf-bg-card);
     border: 1px solid var(--leaf-border);
@@ -540,7 +551,6 @@ const transitionParts = [
 
     .tdj-condition-grid,
     .tdj-judge-details > div,
-    .tdj-dialogue-grid,
     .tdj-map-data {
       grid-template-columns: 1fr;
     }
