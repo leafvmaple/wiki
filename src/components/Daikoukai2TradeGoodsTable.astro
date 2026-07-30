@@ -1,0 +1,118 @@
+---
+import {
+  daikoukai2Ports,
+  daikoukai2TradeRegions,
+} from '../data/daikoukai2/ports';
+
+const portsByRegion = new Map<string, string[]>();
+for (const port of daikoukai2Ports) {
+  const names = portsByRegion.get(port.tradeRegion) ?? [];
+  names.push(port.nameJa);
+  portsByRegion.set(port.tradeRegion, names);
+}
+---
+
+<div class="dk2-trade-regions not-content">
+  <div class="dk2-trade-regions-scroll" tabindex="0" aria-label="各地区共同交易品表，可横向滚动">
+    <table>
+      <thead>
+        <tr>
+          <th>交易地区</th>
+          <th>所属港口</th>
+          <th>共同交易品</th>
+        </tr>
+      </thead>
+      <tbody>
+        {daikoukai2TradeRegions.map((region) => (
+          <tr>
+            <td class="dk2-trade-region-name">{region.name}</td>
+            <td class="dk2-trade-region-ports">{(portsByRegion.get(region.name) ?? []).join('、')}</td>
+            <td class="dk2-trade-region-goods">
+              {region.goods.map((item) => (
+                <span>
+                  <strong>{item.name}</strong>
+                  <small>价 {item.basePrice}{item.requiredCommerce ? ` · 商业 ${item.requiredCommerce}` : ''}</small>
+                </span>
+              ))}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .dk2-trade-regions {
+    margin: 1rem 0;
+  }
+
+  .dk2-trade-regions-scroll {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    overflow-x: auto;
+  }
+
+  .dk2-trade-regions-scroll:focus-visible {
+    outline: 2px solid var(--leaf-primary);
+    outline-offset: 2px;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 0.86rem;
+    min-width: 68rem;
+    width: 100%;
+  }
+
+  :is(th, td) {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.48rem 0.58rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--leaf-bg-subtle);
+    color: var(--leaf-text-muted);
+    font-weight: 800;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--leaf-table-stripe);
+  }
+
+  tbody tr:hover {
+    background: var(--leaf-table-hover);
+  }
+
+  .dk2-trade-region-name {
+    color: var(--leaf-heading);
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .dk2-trade-region-ports {
+    color: var(--leaf-text-muted);
+    max-width: 25rem;
+  }
+
+  .dk2-trade-region-goods {
+    max-width: 37rem;
+  }
+
+  .dk2-trade-region-goods span {
+    border: 1px solid var(--leaf-border);
+    border-radius: 0.45rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0.08rem 0.12rem 0.08rem 0;
+    padding: 0.16rem 0.38rem;
+  }
+
+  .dk2-trade-region-goods small {
+    color: var(--leaf-text-muted);
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+</style>

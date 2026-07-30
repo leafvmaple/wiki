@@ -21,6 +21,19 @@ export interface Daikoukai2Port {
   initialAlliance: string;
   facilities: string[];
   estateService: string;
+  specialty: Daikoukai2TradeGood | null;
+  regionalGoods: readonly Daikoukai2TradeGood[];
+}
+
+export interface Daikoukai2TradeGood {
+  name: string;
+  basePrice: number;
+  requiredCommerce: number;
+}
+
+export interface Daikoukai2TradeRegion {
+  name: string;
+  goods: readonly Daikoukai2TradeGood[];
 }
 
 type PortSeed = readonly [
@@ -96,6 +109,188 @@ const estateLabels: Record<string, string> = {
   地図: '地图工房',
   測量: '测量',
   砲術: '炮术',
+};
+
+const good = (
+  name: string,
+  basePrice: number,
+  requiredCommerce = 0,
+): Daikoukai2TradeGood => ({ name, basePrice, requiredCommerce });
+
+/**
+ * 地区共同交易品。资料表常把商业值缩写成 0..100；这里统一换回港口页使用的
+ * 0..1000 数值，避免把“70”误读成只需商业 70。
+ */
+export const daikoukai2TradeRegions: readonly Daikoukai2TradeRegion[] = [
+  {
+    name: '伊比利亚',
+    goods: [
+      good('乳制品', 30), good('鱼肉', 20), good('橄榄油', 28), good('葡萄酒', 36),
+      good('棉织品', 70), good('天鹅绒', 80, 500), good('麻布', 50),
+      good('染料', 120, 600), good('武器', 120, 750),
+    ],
+  },
+  {
+    name: '北欧',
+    goods: [
+      good('乳制品', 25), good('鱼肉', 20), good('谷类', 20), good('棉花', 45),
+      good('棉织品', 60, 400), good('铁矿石', 110, 700), good('陶瓷器', 90, 750),
+    ],
+  },
+  {
+    name: '地中海',
+    goods: [
+      good('鱼肉', 25), good('谷类', 18), good('橄榄油', 30), good('葡萄酒', 40, 300),
+      good('棉花', 38), good('羊毛', 65, 600), good('麻布', 50), good('玻璃珠', 3, 400),
+    ],
+  },
+  {
+    name: '北非',
+    goods: [
+      good('鱼肉', 25), good('橄榄油', 35), good('岩盐', 60, 300),
+      good('羊毛', 70, 400), good('麻', 35), good('麻布', 50, 400),
+    ],
+  },
+  {
+    name: '伊斯兰',
+    goods: [
+      good('乳制品', 30), good('谷类', 14), good('岩盐', 55, 300), good('棉花', 65, 200),
+      good('羊毛', 60, 400), good('铜矿石', 100, 500), good('染料', 115, 400),
+      good('木材', 70, 300),
+    ],
+  },
+  {
+    name: '西非',
+    goods: [
+      good('可可', 50, 300), good('鱼肉', 25), good('麻', 35), good('麻布', 45, 250),
+      good('琥珀', 220, 300), good('金', 700, 400),
+    ],
+  },
+  {
+    name: '中美',
+    goods: [
+      good('多香果', 20, 200), good('鱼肉', 15), good('岩盐', 40, 300),
+      good('珊瑚', 120, 100), good('玳瑁', 60, 350), good('染料', 35, 200),
+    ],
+  },
+  {
+    name: '南美',
+    goods: [
+      good('多香果', 20, 150), good('谷类', 25), good('玳瑁', 55, 150),
+      good('银', 150, 250), good('铁矿石', 90, 300),
+    ],
+  },
+  {
+    name: '东非',
+    goods: [
+      good('鱼肉', 20), good('岩盐', 18, 200), good('麻', 30, 150), good('珊瑚', 120),
+      good('金', 550, 300), good('铜矿石', 80, 300), good('染料', 40, 250),
+    ],
+  },
+  {
+    name: '中近东',
+    goods: [
+      good('咖啡', 35, 150), good('橄榄油', 10), good('岩盐', 20, 300), good('棉花', 15),
+      good('羊毛', 30), good('棉织品', 32, 200), good('毛织品', 45, 200),
+      good('地毯', 75, 400), good('香水', 50, 400),
+    ],
+  },
+  {
+    name: '印度',
+    goods: [
+      good('丁香', 25, 200), good('胡椒', 15, 100), good('茶', 20), good('谷类', 12),
+      good('棉花', 25), good('麻', 8), good('麻布', 30, 150), good('铜矿石', 60, 300),
+    ],
+  },
+  {
+    name: '东南亚',
+    goods: [
+      good('胡椒', 3), good('姜', 3), good('鱼肉', 15), good('珊瑚', 50, 150),
+      good('玳瑁', 30, 200), good('锡矿石', 60, 300),
+    ],
+  },
+  {
+    name: '东亚',
+    goods: [
+      good('姜', 20), good('茶', 20), good('鱼肉', 10), good('麻布', 25, 100),
+      good('珍珠', 60, 100), good('美术品', 120, 400), good('陶瓷器', 30, 300),
+    ],
+  },
+];
+
+const regionalGoodsByName = new Map(
+  daikoukai2TradeRegions.map((region) => [region.name, region.goods]),
+);
+
+// 港口特产：基准价格，以及交易所出现该商品所需的商业值。
+const specialtyByPortId: Readonly<Record<number, Daikoukai2TradeGood>> = {
+  1: good('岩盐', 38, 100),
+  2: good('陶瓷器', 100, 100),
+  3: good('地毯', 210, 100),
+  4: good('岩盐', 45, 100),
+  6: good('铁矿石', 90, 600),
+  7: good('毛织品', 56, 200),
+  8: good('香水', 105, 200),
+  9: good('银', 190, 300),
+  10: good('丝织品', 170, 400),
+  11: good('毛织品', 68, 200),
+  14: good('玻璃器具', 180, 300),
+  15: good('染料', 92, 200),
+  17: good('美术品', 310, 300),
+  19: good('棉织品', 25, 200),
+  21: good('地毯', 210, 300),
+  22: good('铜矿石', 88, 400),
+  24: good('铁矿石', 85, 400),
+  26: good('棉织品', 58, 100),
+  28: good('葡萄酒', 32, 200),
+  30: good('羊毛', 45, 100),
+  31: good('锡矿石', 75, 650),
+  33: good('毛织品', 52, 300),
+  34: good('玻璃珠', 3, 100),
+  35: good('玻璃器具', 190, 450),
+  36: good('染料', 85, 400),
+  37: good('木材', 82, 100),
+  38: good('铜矿石', 80, 500),
+  39: good('银', 170, 500),
+  41: good('木材', 80, 100),
+  43: good('烟草', 40, 200),
+  45: good('烟草', 35, 200),
+  49: good('砂糖', 18, 200),
+  50: good('金', 400, 400),
+  51: good('砂糖', 18, 200),
+  52: good('谷类', 10, 90),
+  53: good('染料', 35, 250),
+  54: good('金', 380, 450),
+  57: good('木材', 60, 100),
+  58: good('砂糖', 12, 100),
+  60: good('象牙', 100, 200),
+  62: good('珊瑚', 120, 100),
+  65: good('象牙', 60, 100),
+  66: good('麝香', 80, 200),
+  67: good('象牙', 90, 100),
+  68: good('麝香', 70, 150),
+  69: good('象牙', 85, 150),
+  72: good('玳瑁', 45, 200),
+  73: good('琥珀', 110, 250),
+  74: good('姜', 25, 300),
+  75: good('多香果', 25, 300),
+  76: good('美术品', 190, 400),
+  77: good('乳制品', 10, 50),
+  78: good('麝香', 50, 200),
+  79: good('玳瑁', 35, 150),
+  84: good('肉桂', 4, 50),
+  85: good('肉豆蔻', 5, 70),
+  86: good('姜', 10, 200),
+  87: good('肉桂', 3, 50),
+  88: good('丁香', 4, 80),
+  89: good('肉豆蔻', 3, 30),
+  90: good('丁香', 4, 50),
+  93: good('肉豆蔻', 15, 250),
+  95: good('生丝', 20, 300),
+  97: good('珊瑚', 70, 300),
+  98: good('丝织品', 20, 400),
+  99: good('丝织品', 15, 400),
+  100: good('银', 35, 150),
 };
 
 // 港口顺序、坐标、开局值和设施以《大航海时代 II》基础版资料表为底稿。
@@ -234,5 +429,7 @@ export const daikoukai2Ports: Daikoukai2Port[] = seeds.map((seed) => {
     initialAlliance: allianceLabels[initialAlliance],
     facilities: daikoukai2PortFacilityLabels.filter((_, index) => facilityMask & (1 << index)),
     estateService: estateLabels[estateService],
+    specialty: specialtyByPortId[id] ?? null,
+    regionalGoods: regionalGoodsByName.get(tradeRegionLabels[tradeRegion]) ?? [],
   };
 });

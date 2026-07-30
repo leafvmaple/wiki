@@ -1,10 +1,10 @@
 ---
 title: 港口一览
-description: 《大航海时代 II》100 个普通港口的坐标、开局归属、商业与工业、地区分类、特色设施和初始自由航海士速查表。
+description: 《大航海时代 II》100 个普通港口的坐标、开局归属、商业与工业、特产、地区交易品、设施和初始自由航海士速查表。
 game: '大航海时代 II'
 gameVersion: 'Steam / PC-98'
 status: needs-testing
-lastVerified: '2026-07-29'
+lastVerified: '2026-07-30'
 tableOfContents: false
 sidebar:
   order: 2
@@ -12,15 +12,34 @@ sidebar:
 ---
 
 import Daikoukai2PortTable from '../../../../components/Daikoukai2PortTable.astro';
+import Daikoukai2TradeGoodsTable from '../../../../components/Daikoukai2TradeGoodsTable.astro';
 
-共 **100 个普通港口**。可按地区、开局归属和设施筛选，也可搜索港名或[自由航海士](../officers/)；点击
-表头可排序。
+共 **100 个普通港口**。可按地区、开局归属、特产和设施筛选，也可搜索港名、交易品或
+[自由航海士](../officers/)；点击表头可排序。
+
+:::tip[阿里的铁矿石敕命]
+这次敕命需要 **10 份铁矿石**。离伊斯坦布尔较近的是 **カッファ（卡法，N45 E034）**：铁矿石是当地
+特产，商业值达到 **400** 后出售，开局商业为 340，当前值不足时先投资交易所。无需投资的确定产地是
+**ロンドン（伦敦）**和 **アムステルダム（阿姆斯特丹）**，两港开局商业已经达到北欧铁矿石所需的 700。
+チュニス（突尼斯）也有铁矿石特产，但要把商业提高到 600，通常不如卡法方便。
+:::
 
 :::note
 归属、商业和工业均为开局值，游戏中会随投资和月份推进而变化。
 :::
 
 <Daikoukai2PortTable />
+
+## 交易品规则
+
+每个普通港口出售所属交易地区的共同商品；部分港口另有一种特产。商品只有在港口当前商业值达到表中
+要求后才会出现，商业值会随玩家和各国商船队投资而变化。
+
+- **基准价**：物价 100% 时购买 10 份商品的参考价格；实际报价还受行情、交易税和交涉影响。
+- **商业**：商品出现所需的港口商业值。港口表的商业列是开局值。
+- 港口表搜索会同时匹配特产和地区共同商品。例如搜索“铁矿石”会列出卡法、突尼斯，以及北欧、南美的港口。
+
+<Daikoukai2TradeGoodsTable />
 
 ## 设施说明
 
@@ -51,3 +70,9 @@ import Daikoukai2PortTable from '../../../../components/Daikoukai2PortTable.astr
 :::tip[补给港]
 世界上另有 [30 个补给港](../supply-ports/)，可补充水、粮食、修理材料和炮弹，不计入本表。
 :::
+
+## 资料来源
+
+- Steam 版内置 PC-98 `MAIN.EXE`：交易品名称及内部顺序；铁矿石为商品编号 35。
+- [大航海时代系列攻略 Wiki：商品地区与特产](https://w.atwiki.jp/offlinedaikoukai/pages/33.html)
+- [GCGX：交易所与地区商品](https://gcgx.games/dkj2/trade.html)

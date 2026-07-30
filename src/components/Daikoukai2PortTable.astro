@@ -22,6 +22,10 @@ const rows = daikoukai2Ports.map((port) => {
     ...port,
     officers,
     featureText: features.join(' ') || '—',
+    specialtyText: port.specialty
+      ? `${port.specialty.name} ${port.specialty.basePrice} ${port.specialty.requiredCommerce}`
+      : '',
+    regionalGoodsText: port.regionalGoods.map((item) => item.name).join(' '),
     coordinate: `${port.latitude} ${port.longitude}`,
   };
 });
@@ -33,6 +37,7 @@ const featureOptions = [
   ...daikoukai2PortFacilityLabels.map((facility) => [facility, facility]),
   ['estate', '有特殊邸宅'],
   ['officer', '有初始自由航海士'],
+  ['specialty', '有特产'],
 ] as const;
 ---
 
@@ -53,7 +58,7 @@ const featureOptions = [
     <input
       class="dk2-ports-search"
       type="search"
-      placeholder="搜索港名、地区、设施或航海士……"
+      placeholder="搜索港名、交易品、设施或航海士……"
       aria-label="搜索港口"
     />
     <span class="dk2-ports-count" aria-live="polite"></span>
@@ -71,6 +76,7 @@ const featureOptions = [
           <th data-sort="commerce" class="num">商业</th>
           <th data-sort="industry" class="num">工业</th>
           <th data-sort="trade">交易 / 造船圈</th>
+          <th data-sort="specialtyName">特产</th>
           <th>特色设施与邸宅</th>
           <th>初始自由航海士</th>
         </tr>
@@ -89,8 +95,10 @@ const featureOptions = [
             data-capital={row.capital ? '1' : '0'}
             data-estate={row.estateService ? '1' : '0'}
             data-officer={row.officers.length ? '1' : '0'}
+            data-specialty={row.specialty ? '1' : '0'}
+            data-specialty-name={row.specialty?.name ?? ''}
             data-facilities={row.facilities.join(' ')}
-            data-search={`${row.nameJa} ${row.revenueRegion} ${row.tradeRegion} ${row.shipRegion} ${row.initialAlliance} ${row.featureText} ${row.officers.join(' ')}`}
+            data-search={`${row.nameJa} ${row.revenueRegion} ${row.tradeRegion} ${row.shipRegion} ${row.initialAlliance} ${row.specialtyText} ${row.regionalGoodsText} ${row.featureText} ${row.officers.join(' ')}`}
           >
             <td class="num dk2-ports-id">{row.id}</td>
             <td class="dk2-ports-name">
@@ -105,6 +113,14 @@ const featureOptions = [
             <td class="dk2-ports-zones">
               <span>{row.tradeRegion}</span>
               <small>{row.shipRegion}</small>
+            </td>
+            <td class="dk2-ports-specialty">
+              {row.specialty ? (
+                <>
+                  <strong>{row.specialty.name}</strong>
+                  <small>基准 {row.specialty.basePrice} · 商业 {row.specialty.requiredCommerce}</small>
+                </>
+              ) : <span class="is-empty">—</span>}
             </td>
             <td class="dk2-ports-features">
               {row.facilities.map((facility) => <span>{facility}</span>)}
@@ -137,7 +153,7 @@ const featureOptions = [
 
     const matchesFeature = (row: HTMLElement, value: string) => {
       if (!value) return true;
-      if (value === 'capital' || value === 'estate' || value === 'officer') {
+      if (value === 'capital' || value === 'estate' || value === 'officer' || value === 'specialty') {
         return row.dataset[value] === '1';
       }
       return (row.dataset.facilities ?? '').split(' ').includes(value);
@@ -245,7 +261,7 @@ const featureOptions = [
   .dk2-ports-table {
     border-collapse: collapse;
     font-size: 0.86rem;
-    min-width: 78rem;
+    min-width: 88rem;
     width: 100%;
   }
 
@@ -306,6 +322,7 @@ const featureOptions = [
   .dk2-ports-id,
   .dk2-ports-coordinate,
   .dk2-ports-zones small,
+  .dk2-ports-specialty small,
   .dk2-ports-officers {
     color: var(--leaf-text-muted);
   }
@@ -343,6 +360,19 @@ const featureOptions = [
   .dk2-ports-zones {
     display: grid;
     gap: 0.05rem;
+  }
+
+  .dk2-ports-specialty {
+    display: grid;
+    gap: 0.05rem;
+  }
+
+  .dk2-ports-specialty strong {
+    color: var(--leaf-heading);
+  }
+
+  .dk2-ports-specialty .is-empty {
+    color: var(--leaf-text-muted);
   }
 
   .dk2-ports-zones small::before {
