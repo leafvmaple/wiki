@@ -17,10 +17,10 @@ import summary from '../../../../data/sword-man/generated/summary.json';
 
 - 数据集哈希：<code>{summary.dataset.hash}</code>
 - 角色、成长、技能、怪物、物品和炼化配方：`catalog/*.json`
-- 关卡标题：`catalog/stages.json`（原版 `Misc/STA_SCR.DAT`）
-- 关卡布阵、胜败与战后流程：`battles/*.json`
+- 关卡标题、布阵、胜败、对话与战后流程：`catalog/stages.json`（原版 `Misc/STA_SCR.DAT`）、`battles/*.json`
+- 章节过场影片及其事件调用位置：`catalog/story_movies.json`（原版 `EVENT_NN.COD` 的 `0x29` 指令）
 - 营地：`catalog/camps.json`
-- 图片：数据包中的公开白名单资源
+- 图片与影片：数据包中的公开白名单资源；原版 Bink MOV 由解包仓库转为浏览器可播放的 H.264/AAC MP4
 
 ## 同步方式
 
@@ -42,6 +42,8 @@ node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 | --- | ---: |
 | 角色 | {summary.counts.characters} |
 | 技能 | {summary.counts.skills} |
+| 已引用章节影片 | {summary.counts.storyMovies} |
+| 章节影片事件调用 | {summary.counts.storyMovieReferences} |
 | 主角可装备武器 | {summary.counts.weapons} |
 | 道具 | {summary.counts.items} |
 | 炼化配方 | {summary.counts.alchemyRecipes} |
@@ -52,4 +54,4 @@ node scripts/generate-tdj-data.mjs "D:\Data\swordman-data\v1"
 
 ## 说明
 
-角色表中的成长字段来自升级表；关卡表目前只做结构化统计，不把未确认的剧情章节名写入页面。后续若在权威解析数据中补齐关卡名、胜败条件、宝箱或掉落字段，更新数据集后可以继续扩展本分区。
+角色表中的成长字段来自升级表；关卡名来自原版标题卡，玩家可见胜败条件和机器判定条件分别保留，不互相覆盖。章节影片严格按事件指令归入战前、战中、战后或条件结局；没有事件引用的影片不会凭文件编号猜测所属章节。

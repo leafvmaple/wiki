@@ -146,19 +146,21 @@ const compactList = (items, limit = 8) => [...new Set(items.filter(Boolean))].sl
 const asArray = (value) => (Array.isArray(value) ? value : Object.values(value ?? {}));
 const label = (labels, value) => labels[value] ?? value ?? '-';
 const cleanString = (value) => (typeof value === 'string' && value.trim() ? value.trim() : null);
+const dialogueRow = (instruction, order) => {
+  const faceId = Number.isInteger(instruction.face) ? instruction.face : null;
+  return {
+    kind: 'dialogue',
+    order,
+    messageIndex: Number.isInteger(instruction.num) ? instruction.num : null,
+    speaker: dialogueSpeakerByFaceId.get(faceId)
+      ?? (faceId !== null && faceId >= 0 ? `角色头像 #${faceId}` : '未署名'),
+    faceId,
+    text: cleanString(instruction.text) ?? '（原始文本为空）',
+  };
+};
 const dialogueRows = (instructions) => (instructions ?? [])
   .filter((instruction) => instruction.op === 'talk')
-  .map((instruction, index) => {
-    const faceId = Number.isInteger(instruction.face) ? instruction.face : null;
-    return {
-      order: index + 1,
-      messageIndex: Number.isInteger(instruction.num) ? instruction.num : null,
-      speaker: dialogueSpeakerByFaceId.get(faceId)
-        ?? (faceId !== null && faceId >= 0 ? `角色头像 #${faceId}` : '未署名'),
-      faceId,
-      text: cleanString(instruction.text) ?? '（原始文本为空）',
-    };
-  });
+  .map((instruction, index) => dialogueRow(instruction, index + 1));
 
 const copyAsset = async (relativeSource, relativeOutput) => {
   const source = path.join(sourceRoot, relativeSource);
@@ -279,7 +281,7 @@ const writeBattlePages = async (battles) => {
   for (const battle of battles) {
     const content = `---
 title: ${JSON.stringify(battle.displayTitle)}
-description: ${JSON.stringify(`《天地劫·神魔至尊传》${battle.displayTitle}的出场阵容、胜败条件、战场尺寸、装备与招式资料。`)}
+description: ${JSON.stringify(`《天地劫·神魔至尊传》${battle.displayTitle}的战前战后剧情、过场影片、出场阵容、胜败条件与战场资料。`)}
 game: '天地劫·神魔至尊传'
 lastVerified: '${battleLastVerified}'
 sidebar:
@@ -299,10 +301,11 @@ const main = async () => {
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, skillVisualsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
+  const [charactersDb, skillsDb, skillVisualsDb, storyMoviesDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
     readJson('catalog/skill_visuals.json'),
+    readJson('catalog/story_movies.json'),
     readJson('catalog/monsters.json'),
     readJson('catalog/level_up.json'),
     readJson('catalog/camps.json'),
@@ -638,6 +641,49 @@ const main = async () => {
       abilities: monster.abilities,
     }));
 
+  const storyMovieById = new Map();
+  await fs.rm(path.join(publicAssetRoot, 'story-movies'), { recursive: true, force: true });
+  for (const record of asArray(storyMoviesDb.records).sort((a, b) => a.movie_id - b.movie_id)) {
+    const movieId = Number(record.movie_id);
+    const media = record.media;
+    if (!Number.isInteger(movieId) || record.status !== 'referenced' || !media) continue;
+    const directory = `story-movies/${String(movieId).padStart(2, '0')}`;
+    const [moviePath, posterPath] = await Promise.all([
+      copyAsset(media.public_path, `${directory}/cutscene.mp4`),
+      copyAsset(media.poster, `${directory}/cutscene-poster.png`),
+    ]);
+    if (!moviePath || !posterPath) {
+      throw new Error(`Missing canonical story movie asset: Movie_${String(movieId).padStart(2, '0')}`);
+    }
+    storyMovieById.set(movieId, {
+      id: movieId,
+      name: record.name,
+      status: record.status,
+      moviePath,
+      posterPath,
+      durationMs: media.duration_ms,
+      width: media.width,
+      height: media.height,
+      frameRate: media.frame_rate,
+      hasAudio: Boolean(media.has_audio),
+    });
+  }
+
+  const storyReferencesByStage = new Map();
+  for (const reference of asArray(storyMoviesDb.references)) {
+    const stageId = cleanString(reference.stage_id);
+    const movie = storyMovieById.get(Number(reference.movie_id));
+    if (!stageId || !movie) continue;
+    if (!storyReferencesByStage.has(stageId)) storyReferencesByStage.set(stageId, []);
+    storyReferencesByStage.get(stageId).push({
+      ...reference,
+      movie,
+    });
+  }
+  for (const references of storyReferencesByStage.values()) {
+    references.sort((a, b) => a.event_id - b.event_id || a.step_index - b.step_index);
+  }
+
   const battleMapByStageId = new Map();
   await fs.rm(path.join(publicAssetRoot, 'battle-maps'), { recursive: true, force: true });
   for (const record of asArray(battleMapsDb.records).sort((a, b) => stageNumber(a.stage_id) - stageNumber(b.stage_id))) {
@@ -745,6 +791,80 @@ const main = async () => {
       });
   };
 
+  const triggerLabel = (references) => {
+    const unitNames = compactList(
+      references.flatMap((reference) => (reference.triggers ?? [])
+        .filter((trigger) => trigger.kind === 'unit_kill')
+        .flatMap((trigger) => trigger.units ?? [])
+        .map((unit) => cleanString(unit.unit_name))),
+      12,
+    );
+    if (unitNames.length) return `击倒${unitNames.join('或')}`;
+    const triggerKinds = new Set(references.flatMap((reference) => (reference.triggers ?? []).map((trigger) => trigger.kind)));
+    if (triggerKinds.has('judge_win')) return '达成胜利条件';
+    if (triggerKinds.has('judge_lose')) return '触发失败条件';
+    if (references.some((reference) => reference.placement === 'before_battle')) return '战斗开始前';
+    if (triggerKinds.has('turn_event')) return '战中条件事件';
+    return '剧情事件触发';
+  };
+
+  const movieScene = (movie, references, order) => {
+    const first = references[0];
+    return {
+      kind: 'movie',
+      order,
+      movieId: movie.id,
+      name: movie.name,
+      moviePath: movie.moviePath,
+      posterPath: movie.posterPath,
+      durationMs: movie.durationMs,
+      width: movie.width,
+      height: movie.height,
+      frameRate: movie.frameRate,
+      hasAudio: movie.hasAudio,
+      placement: first?.placement ?? null,
+      group: first?.group ?? null,
+      triggerLabel: triggerLabel(references),
+      contextBefore: cleanString(first?.dialogue_before?.text),
+      contextAfter: cleanString(first?.dialogue_after?.text),
+      sourceEvents: references.map((reference) => ({
+        eventId: reference.event_id,
+        stepIndex: reference.step_index,
+        source: reference.source,
+      })),
+    };
+  };
+
+  const storyRows = (instructions, placement, references) => {
+    let storyOrder = 0;
+    return (instructions ?? []).flatMap((instruction) => {
+      if (instruction.op === 'talk') {
+        storyOrder += 1;
+        return [dialogueRow(instruction, storyOrder)];
+      }
+      if (instruction.op !== 'movie') return [];
+      const movie = storyMovieById.get(Number(instruction.id));
+      if (!movie) return [];
+      storyOrder += 1;
+      const matching = references.filter((reference) =>
+        Number(reference.movie_id) === movie.id && reference.placement === placement);
+      return [movieScene(movie, matching, storyOrder)];
+    });
+  };
+
+  const additionalMovieScenes = (references, inlineMovieIds) => {
+    const grouped = new Map();
+    for (const reference of references) {
+      if (inlineMovieIds.has(Number(reference.movie_id))) continue;
+      const key = `${reference.placement}:${reference.group}:${reference.movie_id}`;
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(reference);
+    }
+    return [...grouped.values()]
+      .sort((a, b) => a[0].event_id - b[0].event_id || a[0].step_index - b[0].step_index)
+      .map((group, index) => movieScene(group[0].movie, group, index + 1));
+  };
+
   for (const file of battleFiles.sort((a, b) => stageNumber(a) - stageNumber(b))) {
     const battle = JSON.parse(await fs.readFile(path.join(battleDir, file), 'utf8'));
     const order = stageNumber(file);
@@ -758,6 +878,15 @@ const main = async () => {
     const combatPlayers = players.filter((unit) => unit.combatant !== false);
     const introDialogue = dialogueRows(battle.intro);
     const outroDialogue = dialogueRows(battle.outro);
+    const storyReferences = storyReferencesByStage.get(id) ?? [];
+    const introStory = storyRows(battle.intro, 'before_battle', storyReferences);
+    const outroStory = storyRows(battle.outro, 'after_battle', storyReferences);
+    const inlineMovieIds = new Set(
+      [...(battle.intro ?? []), ...(battle.outro ?? [])]
+        .filter((instruction) => instruction.op === 'movie')
+        .map((instruction) => Number(instruction.id)),
+    );
+    const extraMovieScenes = additionalMovieScenes(storyReferences, inlineMovieIds);
     const topEnemies = [...enemies]
       .sort((a, b) => (b.hp ?? 0) - (a.hp ?? 0))
       .slice(0, 3)
@@ -805,8 +934,10 @@ const main = async () => {
       outroInstructionCount: battle.outro?.length ?? 0,
       introTalkCount: introDialogue.length,
       outroTalkCount: outroDialogue.length,
-      introDialogue,
-      outroDialogue,
+      introStory,
+      outroStory,
+      battleMovieScenes: extraMovieScenes.filter((scene) => scene.placement === 'during_battle'),
+      endingMovieScenes: extraMovieScenes.filter((scene) => scene.placement === 'after_battle'),
       playerNames: compactList(players.map((unit) => unit.name), 12),
       enemyNames: compactList(enemies.map((unit) => unit.name), 12),
       enemySkillNames: compactList(enemies.flatMap((unit) => unit.skills ?? []), 8),
@@ -888,6 +1019,8 @@ const main = async () => {
       weapons: itemCatalog.weapons.length,
       items: itemCatalog.items.length,
       skills: skills.length,
+      storyMovies: storyMovieById.size,
+      storyMovieReferences: asArray(storyMoviesDb.references).length,
       magicSkills: skills.filter((skill) => skill.kind === 'magic').length,
       physicalSkills: skills.filter((skill) => skill.kind === 'physical').length,
       monsters: monsters.length,
@@ -921,7 +1054,7 @@ const main = async () => {
   await writeBattlePages(battles);
 
   console.log(
-    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${monsters.length} monsters, ${battles.length} battles/maps, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
+    `Generated TDJ data: ${characters.length} characters, ${itemCatalog.weapons.length} weapons, ${itemCatalog.items.length} items, ${skills.length} skills, ${storyMovieById.size} story movies, ${monsters.length} monsters, ${battles.length} battles/maps, ${camps.length} camps, ${alchemy.length} alchemy recipes, ${unitIconByCategoryId.size} unit icons.`,
   );
 };
 

@@ -1,5 +1,6 @@
 ---
 import battles from '../data/sword-man/generated/battles.json';
+import TdjStoryMovie from './TdjStoryMovie.astro';
 
 type DataRow = Record<string, any>;
 
@@ -24,8 +25,10 @@ const rosterSections = [
   { id: 'players', title: '我方出场', rows: battle.playerRoster as DataRow[] },
   { id: 'enemies', title: '敌方出场', rows: battle.enemyRoster as DataRow[] },
 ];
-const introDialogue = battle.introDialogue as DataRow[];
-const outroDialogue = battle.outroDialogue as DataRow[];
+const introStory = battle.introStory as DataRow[];
+const outroStory = battle.outroStory as DataRow[];
+const battleMovieScenes = battle.battleMovieScenes as DataRow[];
+const endingMovieScenes = battle.endingMovieScenes as DataRow[];
 const transitionParts = [
   battle.transition.town !== null ? `城镇 #${battle.transition.town}` : null,
   battle.transition.camp !== null ? `营地 #${battle.transition.camp}` : null,
@@ -76,18 +79,20 @@ const transitionParts = [
 <details class="leaf-dialogue tdj-dialogue">
   <summary>
     <span>战前对话</span>
-    <small>{introDialogue.length} 条 · 剧透</small>
+    <small>{battle.introTalkCount} 条 · 剧透</small>
   </summary>
-  {introDialogue.length ? (
+  {introStory.length ? (
     <div class="tdj-dialogue-body">
-      {introDialogue.map((line: DataRow) => (
-        <p>
-          <strong>{line.speaker}：</strong>
-          <span>{line.text}</span>
-        </p>
-      ))}
+      {introStory.map((entry: DataRow) => entry.kind === 'movie'
+        ? <TdjStoryMovie scene={entry} />
+        : (
+          <p>
+            <strong>{entry.speaker}：</strong>
+            <span>{entry.text}</span>
+          </p>
+        ))}
     </div>
-  ) : <p class="tdj-dialogue-empty">原版战前事件没有对话。</p>}
+  ) : <p class="tdj-dialogue-empty">原版战前事件没有对话或影片。</p>}
 </details>
 
 <h2 id="battle-map">战场地图</h2>
@@ -158,6 +163,17 @@ const transitionParts = [
     </section>
   </div>
 </details>
+
+{battleMovieScenes.length > 0 && <h2 id="battle-cutscenes">战中剧情 CG</h2>}
+
+{battleMovieScenes.length > 0 && (
+  <section class="tdj-movie-sequence" aria-label={`${battle.displayTitle}战中剧情 CG`}>
+    <p class="tdj-dialogue-note">
+      以下影片由战场条件事件触发；同一影片被多个等价条件调用时只展示一次，并合并触发说明。
+    </p>
+    {battleMovieScenes.map((scene: DataRow) => <TdjStoryMovie scene={scene} />)}
+  </section>
+)}
 
 {rosterSections.map((section) => (
   <>
@@ -236,24 +252,38 @@ const transitionParts = [
 <details class="leaf-dialogue tdj-dialogue">
   <summary>
     <span>战后对话</span>
-    <small>{outroDialogue.length} 条 · 剧透</small>
+    <small>{battle.outroTalkCount} 条 · 剧透</small>
   </summary>
-  {outroDialogue.length ? (
+  {outroStory.length ? (
     <div class="tdj-dialogue-body">
-      {outroDialogue.map((line: DataRow) => (
-        <p>
-          <strong>{line.speaker}：</strong>
-          <span>{line.text}</span>
-        </p>
-      ))}
+      {outroStory.map((entry: DataRow) => entry.kind === 'movie'
+        ? <TdjStoryMovie scene={entry} />
+        : (
+          <p>
+            <strong>{entry.speaker}：</strong>
+            <span>{entry.text}</span>
+          </p>
+        ))}
     </div>
-  ) : <p class="tdj-dialogue-empty">原版战后事件没有对话。</p>}
+  ) : <p class="tdj-dialogue-empty">原版主要胜利事件没有已解出的对话或影片。</p>}
 </details>
+
+{endingMovieScenes.length > 0 && <h2 id="ending-cutscenes">结局剧情 CG</h2>}
+
+{endingMovieScenes.length > 0 && (
+  <section class="tdj-movie-sequence tdj-ending-movies" aria-label={`${battle.displayTitle}结局剧情 CG`}>
+    <p class="tdj-dialogue-note">
+      以下为主要胜利事件之外的条件结局或最终结局影片，顺序严格按原版事件指令排列。
+    </p>
+    {endingMovieScenes.map((scene: DataRow) => <TdjStoryMovie scene={scene} />)}
+  </section>
+)}
 
 <aside class="tdj-provenance">
   剧情标题卡来自 <code>Misc/STA_SCR.DAT</code>，战场说明标题与玩家可见胜败条件来自
   <code>SDES_NN.DAT</code>；地图来自 <code>mapNN.FB2 + mapNN.MPL</code>；阵容与坐标来自逐关布阵数据；
   机器判定明细来自 <code>JUDGE_NN.COD</code>；对话来自 <code>EVENT_NN.COD + EMSG_NN.MSG</code>；
+  剧情影片调用来自战斗事件 <code>0x29</code> 指令，网页媒体由原版 Bink MOV 转为 H.264/AAC MP4；
   战后去向来自逐关战后事件。不同原版来源不互相覆盖。
 </aside>
 
