@@ -104,8 +104,10 @@ const campRows = sliceRows(camps as DataRow[]);
       {skillRows.map((skill) => (
         <tr>
           <td>
-            <strong>{skill.name}</strong>
-            <small>#{skill.id}</small>
+            <a class="tdj-character-link" href={skill.href}>
+              <strong>{skill.name}<span aria-hidden="true"> →</span></strong>
+              <small>#{skill.id} · 查看技能详情</small>
+            </a>
           </td>
           <td>{skill.kindLabel}</td>
           <td>{skill.attributeLabel} / {skill.resultLabel}</td>
@@ -374,4 +376,5 @@ const campRows = sliceRows(camps as DataRow[]);
     max-width: 9rem;
     width: 9rem;
   }
+
 </style>

@@ -11,8 +11,10 @@ const sourceRoot = path.resolve(
 const outputRoot = path.join(repoRoot, 'src/data/sword-man/generated');
 const publicAssetRoot = path.join(repoRoot, 'public/assets/sword-man');
 const characterPageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/characters');
+const skillPageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/skills');
 const battlePageRoot = path.join(repoRoot, 'src/content/docs/games/sword-man/battles');
 const lastVerified = '2026-07-29';
+const skillLastVerified = '2026-07-30';
 const battleLastVerified = '2026-07-30';
 
 const skillKindLabels = {
@@ -35,6 +37,7 @@ const targetLabels = {
   all: '全体',
   enemy: '敌方',
   self: '自身',
+  summon: '召唤位置',
   user: '使用者',
 };
 
@@ -47,9 +50,19 @@ const rangeLabels = {
 
 const resultLabels = {
   attack: '伤害',
+  blessing: '增益',
   cure: '治疗',
+  curse: '妨害',
+  damage: '伤害',
   effect: '状态',
   none: '无',
+  purge: '驱散',
+  special: '特殊',
+};
+
+const moveAttackLabels = {
+  move: '移动后可用',
+  stand: '原地使用',
 };
 
 const statLabels = {
@@ -200,6 +213,7 @@ const skillBrief = (skill) =>
     ? {
         id: skill.id,
         name: skill.name,
+        href: `/games/sword-man/skills/${skill.id}/`,
         kind: skill.kind,
         kindLabel: label(skillKindLabels, skill.kind),
         attribute: skill.attribute ?? skill.attribute_type_name,
@@ -240,6 +254,26 @@ import TdjCharacterProfile from '../../../../../components/TdjCharacterProfile.a
   }
 };
 
+const writeSkillPages = async (skills) => {
+  await fs.mkdir(skillPageRoot, { recursive: true });
+  for (const skill of skills) {
+    const content = `---
+title: ${JSON.stringify(skill.name)}
+description: ${JSON.stringify(`《天地劫·神魔至尊传》${skill.name}的效果、范围、消耗、习得条件和原版演出。`)}
+game: '天地劫·神魔至尊传'
+lastVerified: '${skillLastVerified}'
+sidebar:
+  hidden: true
+---
+
+import TdjSkillProfile from '../../../../../components/TdjSkillProfile.astro';
+
+<TdjSkillProfile skillId={${skill.id}} />
+`;
+    await fs.writeFile(path.join(skillPageRoot, `${skill.id}.mdx`), content, 'utf8');
+  }
+};
+
 const writeBattlePages = async (battles) => {
   await fs.mkdir(battlePageRoot, { recursive: true });
   for (const battle of battles) {
@@ -265,9 +299,10 @@ const main = async () => {
 
   const manifest = await readJson('manifest.json');
   await validateBundle(manifest);
-  const [charactersDb, skillsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
+  const [charactersDb, skillsDb, skillVisualsDb, monstersDb, levelUpDb, campsDb, itemsDb, alchemyDb, unitIconsDb, stagesDb, battleMapsDb] = await Promise.all([
     readJson('catalog/characters.json'),
     readJson('catalog/skills.json'),
+    readJson('catalog/skill_visuals.json'),
     readJson('catalog/monsters.json'),
     readJson('catalog/level_up.json'),
     readJson('catalog/camps.json'),
@@ -299,8 +334,11 @@ const main = async () => {
     .map((skill) => ({
       id: skill.id,
       name: skill.name,
+      href: `/games/sword-man/skills/${skill.id}/`,
       kind: skill.kind,
       kindLabel: label(skillKindLabels, skill.kind),
+      moveAttackType: skill.move_attack_type_name,
+      moveAttackTypeLabel: label(moveAttackLabels, skill.move_attack_type_name),
       attribute: skill.attribute_type_name,
       attributeLabel: label(attributeLabels, skill.attribute_type_name),
       result: skill.result_type_name,
@@ -309,6 +347,7 @@ const main = async () => {
       targetLabel: label(targetLabels, skill.target_type_name),
       rangeType: skill.range_type_name,
       rangeTypeLabel: label(rangeLabels, skill.range_type_name),
+      attackRadius: skill.attack_range,
       attackRangeMin: skill.attack_range_min,
       attackRangeMax: skill.attack_range_max,
       mpCost: skill.mp_cost,
@@ -316,10 +355,66 @@ const main = async () => {
       basePower: skill.base_power,
       hit: skill.hit,
       hitAdd: skill.hit_add,
+      resultEffect: skill.result_effect,
+      resultEffectName: skill.result_effect_name,
+      otherType: skill.other_type,
+      otherTypeName: skill.other_type_name,
+      otherEffect: skill.other_effect,
+      otherEffectName: skill.other_effect_name,
+      additions: skill.additions,
       animationId: skill.animation_id,
       hasMovie: Boolean(skill.has_movie),
+      battleType: skill.battle_type,
+      battleTypeName: skill.battle_type_name,
+      battleRanged: skill.battle_ranged,
+      battleRangedName: skill.battle_ranged_name,
+      battleSprite: skill.battle_sprite,
       description: cleanString(skill.description),
     }));
+  const skillVisualById = new Map(
+    asArray(skillVisualsDb.records).map((record) => [Number(record.skill_id), record]),
+  );
+  await fs.rm(path.join(publicAssetRoot, 'skill-effects'), { recursive: true, force: true });
+  for (const skill of skills) {
+    const visual = skillVisualById.get(Number(skill.id));
+    const preview = visual?.preview;
+    skill.visualInfo = visual
+      ? {
+          status: visual.status,
+          route: visual.route,
+          cast: visual.cast,
+          impact: visual.impact,
+          casterDependent: Boolean(visual.caster_dependent),
+          mainSourceExists: visual.main_source_exists,
+          hasMovieSource: Boolean(visual.movie_source),
+        }
+      : null;
+    if (!preview) {
+      continue;
+    }
+    const directory = `skill-effects/${String(skill.id).padStart(3, '0')}`;
+    const [posterPath, compactPath, fullPath] = await Promise.all([
+      copyAsset(preview.poster, `${directory}/poster.png`),
+      copyAsset(preview.compact, `${directory}/compact.webp`),
+      copyAsset(preview.full, `${directory}/full.webp`),
+    ]);
+    skill.visual = posterPath && compactPath && fullPath
+      ? {
+          route: visual.route,
+          casterDependent: Boolean(visual.caster_dependent),
+          kind: preview.kind,
+          posterPath,
+          compactPath,
+          fullPath,
+          compactSegments: preview.compact_segments,
+          fullSegments: preview.full_segments,
+          representativeCaster: preview.representative_caster,
+          representativeTarget: preview.representative_target,
+          durationMs: preview.duration_ms,
+          audio: preview.audio,
+        }
+      : null;
+  }
   const skillById = new Map(skills.map((skill) => [skill.id, skill]));
 
   const levelByCharacterId = new Map(asArray(levelUpDb).map((record) => [record.char_id, record]));
@@ -385,6 +480,34 @@ const main = async () => {
       learnedSkillCount: learnedSkills.length,
     };
   }).sort((a, b) => a.id - b.id);
+
+  for (const skill of skills) skill.learnedBy = [];
+  for (const character of characters) {
+    for (const entry of character.initialSkills ?? []) {
+      skillById.get(entry.skillId)?.learnedBy.push({
+        characterId: character.id,
+        characterName: character.name,
+        characterHref: character.href,
+        characterIconPath: character.iconPath,
+        acquisition: 'initial',
+        acquisitionLabel: '初始持有',
+        level: null,
+        spirit: null,
+      });
+    }
+    for (const entry of character.learnedSkills ?? []) {
+      skillById.get(entry.skillId)?.learnedBy.push({
+        characterId: character.id,
+        characterName: character.name,
+        characterHref: character.href,
+        characterIconPath: character.iconPath,
+        acquisition: 'level_up',
+        acquisitionLabel: '升级习得',
+        level: entry.level,
+        spirit: entry.spirit,
+      });
+    }
+  }
 
   const characterByDataIndex = new Map(characters.map((character) => [character.dataIndex, character]));
   const characterById = new Map(characters.map((character) => [character.id, character]));
@@ -766,6 +889,7 @@ const main = async () => {
   await writeJson('items.json', itemCatalog);
   await writeJson('alchemy.json', alchemy);
   await writeCharacterPages(characters);
+  await writeSkillPages(skills);
   await writeBattlePages(battles);
 
   console.log(

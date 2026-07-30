@@ -1,0 +1,466 @@
+---
+import skills from '../data/sword-man/generated/skills.json';
+
+type DataRow = Record<string, any>;
+
+const { skillId } = Astro.props as { skillId: number };
+const rows = skills as DataRow[];
+const skill = rows.find((row) => row.id === Number(skillId));
+
+if (!skill) {
+  throw new Error(`Unknown TDJ skill id: ${skillId}`);
+}
+
+const spiritLabels = ['迅', '烈', '神', '魔', '魂'];
+const additionTargetLabels: Record<string, string> = {
+  none: '—',
+  self: '施法者',
+  target: '目标',
+};
+const previous = rows.find((row) => row.id === skill.id - 1);
+const next = rows.find((row) => row.id === skill.id + 1);
+const learnedBy = (skill.learnedBy ?? []) as DataRow[];
+const additions = (skill.additions ?? []) as DataRow[];
+const dash = (value: unknown) =>
+  value === null || value === undefined || value === '' ? '—' : value;
+const rawEnum = (name: unknown, value: unknown) =>
+  `${name && name !== 'none' ? name : 'none'} (${dash(value)})`;
+const rangeText = (min: unknown, max: unknown) => {
+  if (typeof min !== 'number' || typeof max !== 'number') return '—';
+  return min === max ? `${min} 格` : `${min}–${max} 格`;
+};
+const durationText = (milliseconds: unknown) =>
+  typeof milliseconds === 'number' ? `${(milliseconds / 1000).toFixed(2)} 秒` : '—';
+const visual = skill.visual as DataRow | undefined;
+const visualInfo = skill.visualInfo as DataRow | undefined;
+---
+
+<nav class="tdj-skill-nav" aria-label="技能资料导航">
+  <a href="/games/sword-man/skills/">← 技能法术一览</a>
+  <span>
+    {previous && <a href={previous.href}>← {previous.name}</a>}
+    {next && <a href={next.href}>{next.name} →</a>}
+  </span>
+</nav>
+
+<section class="tdj-skill-summary" aria-label={`${skill.name}概要`}>
+  <div class="tdj-skill-heading">
+    <div>
+      <p>招式 #{skill.id}</p>
+      <h2>{skill.name}</h2>
+    </div>
+    <div class="tdj-skill-tags" aria-label="招式分类">
+      <span>{skill.kindLabel}</span>
+      <span>{skill.attributeLabel}</span>
+      <span>{skill.resultLabel}</span>
+    </div>
+  </div>
+
+  <p class="tdj-skill-description">{skill.description ?? '原始资料没有说明文本。'}</p>
+
+  <div class="tdj-skill-stat-grid">
+    <span><strong>{skill.mpCost}</strong><small>MP 消耗</small></span>
+    <span><strong>{skill.basePower}</strong><small>基础威力 / 治疗量</small></span>
+    <span><strong>{skill.hitAdd}</strong><small>命中修正</small></span>
+    <span><strong>{rangeText(skill.attackRangeMin, skill.attackRangeMax)}</strong><small>目标距离（原始值）</small></span>
+    <span><strong>{skill.attackRadius} 格</strong><small>目标点影响半径</small></span>
+    <span><strong>{skill.moveCost}</strong><small>行动力参数</small></span>
+  </div>
+</section>
+
+<h2 id="battle-data">作用方式</h2>
+
+<div class="tdj-skill-facts">
+  <dl>
+    <div><dt>使用时机</dt><dd>{skill.moveAttackTypeLabel}</dd></div>
+    <div><dt>目标</dt><dd>{skill.targetLabel}</dd></div>
+    <div><dt>范围形状</dt><dd>{skill.rangeTypeLabel}</dd></div>
+    <div><dt>结果类型</dt><dd>{skill.resultLabel}</dd></div>
+  </dl>
+  <dl>
+    <div><dt>命中 / 特殊参数</dt><dd>{dash(skill.hit)}</dd></div>
+    <div><dt>结果效果枚举</dt><dd><code>{rawEnum(skill.resultEffectName, skill.resultEffect)}</code></dd></div>
+    <div><dt>附加效果枚举</dt><dd><code>{rawEnum(skill.otherEffectName, skill.otherEffect)}</code></dd></div>
+    <div><dt>附加作用对象</dt><dd><code>{rawEnum(skill.otherTypeName, skill.otherType)}</code></dd></div>
+  </dl>
+</div>
+
+<h2 id="learned-by">习得角色与条件</h2>
+
+<p>
+  “升级习得”需要等级、迅、烈、神、魔、魂六项同时达到；“初始持有”不套用升级门槛。
+</p>
+
+{learnedBy.length ? (
+  <div class="tdj-table-scroll">
+    <table class="tdj-skill-learn-table">
+      <thead>
+        <tr>
+          <th>角色</th>
+          <th>取得方式</th>
+          <th>等级</th>
+          {spiritLabels.map((label) => <th>{label}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {learnedBy.map((entry) => (
+          <tr>
+            <td>
+              <a class="tdj-skill-character" href={entry.characterHref}>
+                {entry.characterIconPath && (
+                  <img src={entry.characterIconPath} alt="" width="40" height="40" loading="lazy" />
+                )}
+                <strong>{entry.characterName}</strong>
+              </a>
+            </td>
+            <td>{entry.acquisitionLabel}</td>
+            <td>{entry.level ? `Lv.${entry.level}` : '—'}</td>
+            {spiritLabels.map((_, index) => (
+              <td>{entry.spirit?.[index] > 0 ? entry.spirit[index] : '—'}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+) : (
+  <p class="tdj-skill-empty">主角团的初始招式及升级表中没有发现这项招式，可能属于敌方、剧情或特殊系统使用。</p>
+)}
+
+<h2 id="animation">原版演出</h2>
+
+{visual ? (
+  <section class="tdj-skill-visual" data-tdj-skill-visual>
+    <div class="tdj-skill-visual-toolbar">
+      <div>
+        <strong>网页演出预览</strong>
+        <small>原版 335 × 221 坐标 · 无声动画</small>
+      </div>
+      <div role="group" aria-label="演出版本">
+        <button
+          class="is-active"
+          type="button"
+          data-preview-src={visual.compactPath}
+          data-preview-label={`精简版 · ${durationText(visual.durationMs?.compact)} · 主体特效 → 伤害反馈`}
+          aria-pressed="true"
+        >精简版</button>
+        <button
+          type="button"
+          data-preview-src={visual.fullPath}
+          data-preview-label={`完整版 · ${durationText(visual.durationMs?.full)} · 公共施法 → 主体特效 → 伤害反馈`}
+          aria-pressed="false"
+        >完整版</button>
+      </div>
+    </div>
+    <figure>
+      <img
+        src={visual.compactPath}
+        alt={`${skill.name}精简演出：${visual.representativeCaster?.name}施法、${visual.representativeTarget?.name}受击`}
+        width="670"
+        height="442"
+      />
+      <figcaption>精简版 · {durationText(visual.durationMs?.compact)} · 主体特效 → 伤害反馈</figcaption>
+    </figure>
+    <p>
+      画面以{visual.representativeCaster?.name ?? '代表角色'}为施法者、
+      {visual.representativeTarget?.name ?? '代表敌人'}为受击者。普通法术的公共施法段重复度较高，
+      因而默认展示精简版；游戏内时间轴另行保留原版音效。
+    </p>
+  </section>
+) : (
+  <div class="tdj-skill-empty">
+    <strong>演出预览待整理</strong>
+    <p>
+      已识别动画编号 #{skill.animationId}，当前路线为 <code>{visualInfo?.route ?? '待判定'}</code>，
+      但还没有生成可在网页直接播放的代表性样例。
+    </p>
+  </div>
+)}
+
+<h2 id="technical-data">原始演出与效果参数</h2>
+
+<div class="tdj-table-scroll">
+  <table class="tdj-skill-technical-table">
+    <tbody>
+      <tr><th>动画编号</th><td>{skill.animationId}</td><th>演出整理状态</th><td><code>{visualInfo?.status ?? 'unknown'}</code></td></tr>
+      <tr><th>演出路线</th><td><code>{visualInfo?.route ?? 'unknown'}</code></td><th>公共施法段</th><td><code>{visualInfo?.cast ?? 'unknown'}</code></td></tr>
+      <tr><th>命中反馈</th><td><code>{visualInfo?.impact ?? 'unknown'}</code></td><th>依赖施法者精灵</th><td>{visualInfo?.casterDependent ? '是' : '否'}</td></tr>
+      <tr><th>战斗演出类型</th><td><code>{rawEnum(skill.battleTypeName, skill.battleType)}</code></td><th>远程演出参数</th><td><code>{rawEnum(skill.battleRangedName, skill.battleRanged)}</code></td></tr>
+      <tr><th>战斗精灵参数</th><td>{skill.battleSprite}</td><th>大招影片标记</th><td>{skill.hasMovie ? '有' : '无'}</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="spirit-scaling">招式自身的五魂参数</h3>
+
+<p>
+  这些是 <code>Mag_dat.dat</code> 中用于招式效果计算的五组原始参数，不是上方的习得门槛；
+  具体公式仍需逐招验证。
+</p>
+
+<div class="tdj-table-scroll">
+  <table class="tdj-skill-addition-table">
+    <thead><tr><th>五魂</th><th>作用对象</th><th>需求参数</th><th>加成参数</th></tr></thead>
+    <tbody>
+      {spiritLabels.map((label, index) => {
+        const addition = additions[index] ?? {};
+        const enabled = addition.type_name && addition.type_name !== 'none';
+        return (
+          <tr>
+            <th>{label}</th>
+            <td>{enabled ? (additionTargetLabels[addition.type_name] ?? addition.type_name) : '—'}</td>
+            <td>{enabled ? addition.request : '—'}</td>
+            <td>{enabled ? addition.plus : '—'}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.querySelectorAll('[data-tdj-skill-visual]').forEach((panel) => {
+    const image = panel.querySelector('figure img');
+    const caption = panel.querySelector('figcaption');
+    if (!(image instanceof HTMLImageElement)) return;
+    panel.querySelectorAll('[data-preview-src]').forEach((candidate) => {
+      if (!(candidate instanceof HTMLButtonElement)) return;
+      candidate.addEventListener('click', () => {
+        const source = candidate.dataset.previewSrc;
+        if (source) image.src = source;
+        if (caption) caption.textContent = candidate.dataset.previewLabel ?? '';
+        panel.querySelectorAll('[data-preview-src]').forEach((button) => {
+          const active = button === candidate;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+      });
+    });
+  });
+</script>
+
+<style>
+  .tdj-skill-nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .tdj-skill-nav span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .tdj-skill-nav a,
+  .tdj-skill-character {
+    color: var(--leaf-primary-hover);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .tdj-skill-summary,
+  .tdj-skill-visual,
+  .tdj-skill-empty {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    padding: 1rem;
+  }
+
+  .tdj-skill-heading,
+  .tdj-skill-visual-toolbar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .tdj-skill-heading p,
+  .tdj-skill-heading h2,
+  .tdj-skill-visual p,
+  .tdj-skill-visual figure {
+    margin: 0;
+  }
+
+  .tdj-skill-heading p,
+  .tdj-skill-stat-grid small,
+  .tdj-skill-visual-toolbar small,
+  .tdj-skill-visual figcaption,
+  .tdj-skill-visual > p {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-skill-heading h2 {
+    color: var(--leaf-heading);
+    font-size: 1.75rem;
+  }
+
+  .tdj-skill-tags,
+  .tdj-skill-visual-toolbar > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tdj-skill-tags span,
+  .tdj-skill-visual-toolbar button {
+    background: rgba(35, 183, 229, 0.08);
+    border: 1px solid rgba(35, 183, 229, 0.28);
+    border-radius: 999px;
+    color: var(--leaf-text);
+    padding: 0.32rem 0.68rem;
+  }
+
+  .tdj-skill-description {
+    font-size: 1.02rem;
+    line-height: 1.7;
+    margin: 0.9rem 0;
+  }
+
+  .tdj-skill-stat-grid {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tdj-skill-stat-grid span {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    display: grid;
+    gap: 0.12rem;
+    padding: 0.6rem;
+  }
+
+  .tdj-skill-stat-grid strong {
+    color: var(--leaf-heading);
+    font-size: 1.1rem;
+  }
+
+  .tdj-skill-facts {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tdj-skill-facts dl {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    margin: 0;
+    padding: 0.45rem 0.75rem;
+  }
+
+  .tdj-skill-facts dl div {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: minmax(7rem, 0.7fr) minmax(0, 1fr);
+    padding: 0.42rem 0;
+  }
+
+  .tdj-skill-facts dl div + div {
+    border-top: 1px solid var(--leaf-border);
+  }
+
+  .tdj-skill-facts dt {
+    color: var(--leaf-text-muted);
+  }
+
+  .tdj-skill-facts dd {
+    margin: 0;
+  }
+
+  .tdj-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .tdj-skill-learn-table,
+  .tdj-skill-technical-table,
+  .tdj-skill-addition-table {
+    min-width: 42rem;
+  }
+
+  .tdj-skill-character {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .tdj-skill-character img {
+    background: rgba(11, 19, 27, 0.64);
+    border: 1px solid var(--leaf-border);
+    border-radius: 0.4rem;
+    height: 2.5rem;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 2.5rem;
+  }
+
+  .tdj-skill-visual {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .tdj-skill-visual-toolbar > div:first-child {
+    display: grid;
+  }
+
+  .tdj-skill-visual-toolbar button {
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .tdj-skill-visual-toolbar button.is-active {
+    background: var(--leaf-primary);
+    color: #061018;
+  }
+
+  .tdj-skill-visual figure {
+    background: #03080d;
+    border: 1px solid var(--leaf-border);
+    display: grid;
+  }
+
+  .tdj-skill-visual figure img {
+    aspect-ratio: 335 / 221;
+    display: block;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .tdj-skill-visual figcaption {
+    border-top: 1px solid var(--leaf-border);
+    font-size: 0.88rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .tdj-skill-empty p {
+    margin-bottom: 0;
+  }
+
+  .tdj-skill-technical-table th,
+  .tdj-skill-addition-table th {
+    white-space: nowrap;
+  }
+
+  @media (max-width: 46rem) {
+    .tdj-skill-stat-grid,
+    .tdj-skill-facts {
+      grid-template-columns: 1fr;
+    }
+
+    .tdj-skill-nav {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+</style>

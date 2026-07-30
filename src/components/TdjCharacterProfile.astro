@@ -83,7 +83,11 @@ const next = rows.find((row) => row.id === character.id + 1);
   <div class="tdj-initial-skills">
     {character.initialSkills.map((entry: DataRow) => (
       <span>
-        <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+        {entry.skill?.href ? (
+          <a class="tdj-character-skill-link" href={entry.skill.href}>{entry.skill.name} →</a>
+        ) : (
+          <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+        )}
         <small>{entry.skill?.kindLabel ?? '-'} · {entry.skill?.attributeLabel ?? '-'} · {entry.skill?.mpCost ?? 0} MP</small>
       </span>
     ))}
@@ -115,7 +119,11 @@ const next = rows.find((row) => row.id === character.id + 1);
         {character.learnedSkills.map((entry: DataRow) => (
           <tr>
             <td>
-              <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+              {entry.skill?.href ? (
+                <a class="tdj-character-skill-link" href={entry.skill.href}>{entry.skill.name} →</a>
+              ) : (
+                <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
+              )}
               {entry.skill?.description && <small>{entry.skill.description}</small>}
             </td>
             <td>Lv.{entry.level}</td>
@@ -228,8 +236,21 @@ const next = rows.find((row) => row.id === character.id + 1);
 
   .tdj-vital-grid strong,
   .tdj-spirit-grid strong,
-  .tdj-initial-skills strong {
+  .tdj-initial-skills strong,
+  .tdj-character-skill-link {
     color: var(--leaf-heading);
+  }
+
+  .tdj-character-skill-link {
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .tdj-character-skill-link:hover,
+  .tdj-character-skill-link:focus-visible {
+    color: var(--leaf-primary-hover);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
   }
 
   .tdj-profile-split {
