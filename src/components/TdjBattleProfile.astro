@@ -113,7 +113,7 @@ const transitionParts = [
 
 <h2 id="conditions">胜败条件与战后去向</h2>
 
-<div class="tdj-condition-grid">
+<div class="tdj-condition-grid not-content">
   <section>
     <h3 id="win-conditions">胜利条件</h3>
     {battle.winConditions.length ? (
@@ -147,7 +147,7 @@ const transitionParts = [
 
 <details class="tdj-judge-details">
   <summary>运行判定脚本（JUDGE）</summary>
-  <div>
+  <div class="not-content">
     <section>
       <strong>通用胜利规则</strong>
       {battle.judgeWinConditions.length
@@ -233,7 +233,7 @@ const transitionParts = [
 
 <h2 id="map-data">战场数据</h2>
 
-<dl class="tdj-map-data">
+<dl class="tdj-map-data not-content">
   <div><dt>地图资源</dt><dd>{battle.map.texture ?? '—'}</dd></div>
   <div><dt>地图尺寸</dt><dd>{battle.map.width} × {battle.map.height} 格</dd></div>
   <div><dt>单格尺寸</dt><dd>{battle.map.cellWidth} × {battle.map.cellHeight} 像素</dd></div>

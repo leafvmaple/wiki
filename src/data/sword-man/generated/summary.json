@@ -3,7 +3,7 @@
   "slug": "sword-man",
   "dataset": {
     "schemaVersion": 1,
-    "hash": "98f57be5314bd687f0e65f2d377f4ca12bc2d3416aa966bbf390f68b259b7f89"
+    "hash": "71cf7ea753b1c19a46b5c29a3f85911db4e239a6aec3c68c93693a1440a1dc39"
   },
   "counts": {
     "characters": 10,
@@ -32,6 +32,7 @@
   },
   "assets": {
     "showcase": "/assets/sword-man/showcase.png",
+    "titleScreen": "/assets/sword-man/title-screen.png",
     "appIcon": "/assets/sword-man/app-icon.png",
     "featuredCamps": [
       "/assets/sword-man/camps/camp01-preview.png",
