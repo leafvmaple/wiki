@@ -108,6 +108,7 @@ export default defineConfig({
             { label: '装备与道具', link: '/games/daikoukai-jidai-2/items/' },
             { label: '船只与中古船', link: '/games/daikoukai-jidai-2/ships/' },
             { label: '航海士雇佣', link: '/games/daikoukai-jidai-2/officers/' },
+            { label: '声望与爵位', link: '/games/daikoukai-jidai-2/fame/' },
           ],
         },
         {

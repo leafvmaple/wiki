@@ -36,6 +36,7 @@ const rows = daikoukai2Officers.map((officer) => {
     : officer.friendly ? '1 / 3' : '2 / 6';
   return {
     ...officer,
+    strongestKey,
     strongestLabel: statLabels[strongestKey],
     strongestValue,
     grade,
@@ -53,6 +54,59 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
 ---
 
 <div class="dk2-officers not-content" data-unit="人">
+  <section class="dk2-officers-calculator" aria-label="雇佣成功率计算器">
+    <div class="dk2-officers-calculator-intro">
+      <strong>雇佣成功率计算器</strong>
+      <p>输入主角当前数据，表格会按每名航海士的最强能力实时计算单次邀请成功率。</p>
+    </div>
+
+    <form class="dk2-officers-player" autocomplete="off">
+      <fieldset>
+        <legend>等级与爵位</legend>
+        <label>
+          <span>航海 Lv</span>
+          <input type="number" min="0" max="100" step="1" value="1" inputmode="numeric" data-player-field="navigationLevel" />
+        </label>
+        <label>
+          <span>战斗 Lv</span>
+          <input type="number" min="0" max="100" step="1" value="1" inputmode="numeric" data-player-field="battleLevel" />
+        </label>
+        <label>
+          <span>爵位等级</span>
+          <input type="number" min="0" max="9" step="1" value="0" inputmode="numeric" data-player-field="titleLevel" aria-describedby="dk2-title-level-help" />
+        </label>
+        <small id="dk2-title-level-help">无爵位填 0；每升一级填 1，门槛增加 10%。</small>
+      </fieldset>
+
+      <fieldset class="dk2-officers-player-stats">
+        <legend>七项能力</legend>
+        {Object.entries(statLabels).map(([key, label]) => (
+          <label>
+            <span>{label}</span>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              step="1"
+              value={({ leadership: 80, navigation: 86, knowledge: 84, intuition: 65, courage: 53, swordsmanship: 42, charm: 80 } as Record<string, number>)[key]}
+              inputmode="numeric"
+              data-player-field={key}
+            />
+          </label>
+        ))}
+      </fieldset>
+
+      <div class="dk2-officers-player-actions">
+        <label class="dk2-officers-checkbox">
+          <input type="checkbox" checked data-player-field="hasRosterSpace" />
+          <span>同伴表有空位</span>
+        </label>
+        <button type="button" class="dk2-officers-reset">恢复阿尔开局值</button>
+      </div>
+      <output class="dk2-officers-calculator-result" aria-live="polite"></output>
+    </form>
+  </section>
+
   <div class="dk2-officers-bar">
     <select class="dk2-officers-facility" aria-label="按设施筛选">
       <option value="">全部设施</option>
@@ -79,6 +133,8 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
           <th data-sort="battle" class="num">战Lv</th>
           <th data-sort="strongest" class="num">最强能力</th>
           <th data-sort="grade" class="num">格值 C</th>
+          <th data-sort="player" class="num">你的门槛 P</th>
+          <th data-sort="chance" class="num">成功率</th>
           <th data-sort="personality">性格</th>
           <th data-sort="friendly">义理</th>
           <th data-sort="drinks" class="num">同 / 异性格请酒</th>
@@ -97,7 +153,11 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
             data-nav={row.navigationLevel}
             data-battle={row.battleLevel}
             data-strongest={row.strongestValue}
+            data-strongest-key={row.strongestKey}
+            data-strongest-label={row.strongestLabel}
             data-grade={row.grade}
+            data-player="0"
+            data-chance="0"
             data-personality={row.personality}
             data-friendly={row.friendly ? 1 : 0}
             data-drinks={row.facility === '宿屋' ? 0 : row.friendly ? 1 : 2}
@@ -130,6 +190,8 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
             <td class="num">{row.battleLevel}</td>
             <td class="num"><span class="dk2-officers-stat">{row.strongestLabel}</span>{row.strongestValue}</td>
             <td class="num dk2-officers-grade">{row.grade.toLocaleString('en-US')}</td>
+            <td class="num dk2-officers-player-grade">—</td>
+            <td class="num dk2-officers-chance"><strong>—</strong></td>
             <td>{row.personality}</td>
             <td>{row.friendly ? '有' : '—'}</td>
             <td class="num">{row.drinks}</td>
@@ -152,8 +214,114 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
     const nationality = root.querySelector<HTMLSelectElement>('.dk2-officers-nationality');
     const search = root.querySelector<HTMLInputElement>('.dk2-officers-search');
     const count = root.querySelector<HTMLElement>('.dk2-officers-count');
+    const calculatorResult = root.querySelector<HTMLOutputElement>('.dk2-officers-calculator-result');
+    const playerInputs = [...root.querySelectorAll<HTMLInputElement>('[data-player-field]')];
+    const reset = root.querySelector<HTMLButtonElement>('.dk2-officers-reset');
+    const storageKey = 'daikoukai2-officer-calculator-v1';
+    const defaults: Record<string, number | boolean> = {
+      navigationLevel: 1,
+      battleLevel: 1,
+      titleLevel: 0,
+      leadership: 80,
+      navigation: 86,
+      knowledge: 84,
+      intuition: 65,
+      courage: 53,
+      swordsmanship: 42,
+      charm: 80,
+      hasRosterSpace: true,
+    };
     let sortKey = '';
     let sortDir = 1;
+
+    const setPlayerValues = (values: Record<string, unknown>) => {
+      for (const input of playerInputs) {
+        const key = input.dataset.playerField ?? '';
+        const value = values[key];
+        if (input.type === 'checkbox') input.checked = typeof value === 'boolean' ? value : true;
+        else if (typeof value === 'number' && Number.isFinite(value)) input.value = String(value);
+      }
+    };
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) ?? 'null');
+      if (saved && typeof saved === 'object') setPlayerValues({ ...defaults, ...saved });
+    } catch {
+      // 无法读取本地设置时继续使用页面默认值。
+    }
+
+    const readInteger = (key: string, fallback: number) => {
+      const input = playerInputs.find((item) => item.dataset.playerField === key);
+      const value = input?.valueAsNumber;
+      if (value === undefined || !Number.isFinite(value)) return fallback;
+      const min = input?.min === '' ? Number.MIN_SAFE_INTEGER : Number(input?.min);
+      const max = input?.max === '' ? Number.MAX_SAFE_INTEGER : Number(input?.max);
+      return Math.min(max, Math.max(min, Math.trunc(value)));
+    };
+
+    const updateCalculator = (persist = true) => {
+      const navigationLevel = readInteger('navigationLevel', 1);
+      const battleLevel = readInteger('battleLevel', 1);
+      const titleLevel = readInteger('titleLevel', 0);
+      const levelTotal = navigationLevel + battleLevel;
+      const playerStats: Record<string, number> = {
+        leadership: readInteger('leadership', 80),
+        navigation: readInteger('navigation', 86),
+        knowledge: readInteger('knowledge', 84),
+        intuition: readInteger('intuition', 65),
+        courage: readInteger('courage', 53),
+        swordsmanship: readInteger('swordsmanship', 42),
+        charm: readInteger('charm', 80),
+      };
+      const rosterInput = playerInputs.find((item) => item.dataset.playerField === 'hasRosterSpace');
+      const hasRosterSpace = rosterInput?.checked ?? true;
+      let possible = 0;
+      let guaranteed = 0;
+
+      for (const row of rows) {
+        const statKey = row.dataset.strongestKey ?? '';
+        const statValue = playerStats[statKey] ?? 0;
+        const candidateGrade = Number(row.dataset.grade ?? 0);
+        const baseGrade = levelTotal * statValue;
+        const playerGrade = baseGrade + Math.floor(baseGrade * titleLevel / 10);
+        const chance = hasRosterSpace
+          ? Math.min(20, Math.max(0, playerGrade - candidateGrade)) * 5
+          : -1;
+        const playerCell = row.querySelector<HTMLElement>('.dk2-officers-player-grade');
+        const chanceCell = row.querySelector<HTMLElement>('.dk2-officers-chance');
+        const chanceValue = chanceCell?.querySelector<HTMLElement>('strong');
+
+        row.dataset.player = String(playerGrade);
+        row.dataset.chance = String(chance);
+        if (playerCell) playerCell.textContent = playerGrade.toLocaleString('en-US');
+        if (chanceCell && chanceValue) {
+          chanceValue.textContent = chance < 0 ? '不可邀请' : `${chance}%`;
+          chanceCell.classList.toggle('is-zero', chance === 0);
+          chanceCell.classList.toggle('is-partial', chance > 0 && chance < 100);
+          chanceCell.classList.toggle('is-full', chance === 100);
+          chanceCell.title = chance < 0
+            ? '同伴表没有空位，邀请会在实力判定前失败'
+            : `${row.dataset.strongestLabel}：P ${playerGrade} / C ${candidateGrade}`;
+        }
+        if (chance > 0) possible += 1;
+        if (chance === 100) guaranteed += 1;
+      }
+
+      if (calculatorResult) {
+        calculatorResult.textContent = hasRosterSpace
+          ? `当前有 ${possible} 人具备成功率，其中 ${guaranteed} 人为 100%；每档相差 5%。`
+          : '同伴表没有空位时，所有普通邀请都会在实力判定前失败。';
+      }
+
+      if (persist) {
+        const saved = { navigationLevel, battleLevel, titleLevel, ...playerStats, hasRosterSpace };
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(saved));
+        } catch {
+          // 禁用本地存储不影响计算。
+        }
+      }
+    };
 
     const apply = () => {
       const facilityValue = facility?.value ?? '';
@@ -197,9 +365,17 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
     facility?.addEventListener('change', apply);
     nationality?.addEventListener('change', apply);
     search?.addEventListener('input', apply);
+    playerInputs.forEach((input) => {
+      input.addEventListener(input.type === 'checkbox' ? 'change' : 'input', () => updateCalculator());
+    });
+    reset?.addEventListener('click', () => {
+      setPlayerValues(defaults);
+      updateCalculator();
+    });
     table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((heading) => {
       heading.addEventListener('click', () => sortBy(heading));
     });
+    updateCalculator(false);
     apply();
   });
 </script>
@@ -209,6 +385,129 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
     display: grid;
     gap: 0.7rem;
     margin: 1rem 0;
+  }
+
+  .dk2-officers-calculator {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    box-shadow: var(--leaf-shadow-card);
+    display: grid;
+    gap: 0.85rem;
+    padding: 0.9rem;
+  }
+
+  .dk2-officers-calculator-intro strong {
+    color: var(--leaf-heading);
+    font-size: 1rem;
+  }
+
+  .dk2-officers-calculator-intro p {
+    color: var(--leaf-text-muted);
+    font-size: 0.88rem;
+    margin: 0.15rem 0 0;
+  }
+
+  .dk2-officers-player {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .dk2-officers-player fieldset {
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .dk2-officers-player legend {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    margin-bottom: 0.38rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  .dk2-officers-player label:not(.dk2-officers-checkbox) {
+    display: grid;
+    gap: 0.18rem;
+  }
+
+  .dk2-officers-player label > span {
+    color: var(--leaf-text-muted);
+    font-size: 0.76rem;
+    font-weight: 700;
+  }
+
+  .dk2-officers-player input[type='number'] {
+    background: var(--leaf-bg-card);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-text);
+    font: inherit;
+    font-variant-numeric: tabular-nums;
+    padding: 0.36rem 0.45rem;
+    width: 5.25rem;
+  }
+
+  .dk2-officers-player input:focus-visible,
+  .dk2-officers-reset:focus-visible {
+    border-color: var(--leaf-primary);
+    outline: 2px solid color-mix(in srgb, var(--leaf-primary) 30%, transparent);
+    outline-offset: 1px;
+  }
+
+  .dk2-officers-player fieldset > small {
+    align-self: end;
+    color: var(--leaf-text-muted);
+    font-size: 0.76rem;
+    padding-bottom: 0.38rem;
+  }
+
+  .dk2-officers-player-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .dk2-officers-checkbox {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.4rem;
+  }
+
+  .dk2-officers-checkbox input {
+    accent-color: var(--leaf-primary);
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .dk2-officers-reset {
+    background: var(--leaf-bg-subtle);
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    color: var(--leaf-text);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.34rem 0.58rem;
+  }
+
+  .dk2-officers-reset:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary-hover);
+  }
+
+  .dk2-officers-calculator-result {
+    color: var(--leaf-heading);
+    font-size: 0.86rem;
+    font-weight: 700;
   }
 
   .dk2-officers-bar {
@@ -373,7 +672,48 @@ const nationalities = [...new Set(rows.map((row) => row.nationality))];
     color: #8be2fa;
   }
 
+  .dk2-officers-chance strong {
+    border-radius: 999px;
+    display: inline-block;
+    font-size: 0.8rem;
+    min-width: 3.4rem;
+    padding: 0.08rem 0.4rem;
+    text-align: center;
+  }
+
+  .dk2-officers-chance.is-zero strong {
+    background: color-mix(in srgb, var(--leaf-text-muted) 12%, transparent);
+    color: var(--leaf-text-muted);
+  }
+
+  .dk2-officers-chance.is-partial strong {
+    background: color-mix(in srgb, #d28b37 15%, transparent);
+    color: #a85f16;
+  }
+
+  .dk2-officers-chance.is-full strong {
+    background: color-mix(in srgb, var(--leaf-accent-green) 15%, transparent);
+    color: color-mix(in srgb, var(--leaf-accent-green) 75%, var(--leaf-heading));
+  }
+
+  :root[data-theme='dark'] .dk2-officers-chance.is-partial strong {
+    color: #f0bd7a;
+  }
+
   @media (max-width: 40rem) {
+    .dk2-officers-player label:not(.dk2-officers-checkbox) {
+      flex: 1 1 4.5rem;
+    }
+
+    .dk2-officers-player input[type='number'] {
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .dk2-officers-player fieldset > small {
+      flex-basis: 100%;
+    }
+
     .dk2-officers-count {
       margin-left: 0;
       width: 100%;
