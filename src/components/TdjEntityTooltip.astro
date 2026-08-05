@@ -1,0 +1,394 @@
+<script>
+  type TooltipField = {
+    label?: string;
+    value?: string;
+  };
+
+  type TooltipCard = {
+    imageSrc?: string;
+    kicker?: string;
+    title?: string;
+    body?: string;
+    fields?: TooltipField[];
+    /** @deprecated pill stats fallback */
+    stats?: string[];
+    href?: string;
+  };
+
+  const tooltipWindow = window as Window & { __tdjEntityTooltipReady?: boolean };
+
+  if (!tooltipWindow.__tdjEntityTooltipReady) {
+    tooltipWindow.__tdjEntityTooltipReady = true;
+
+    const parseCard = (target: HTMLElement): TooltipCard | null => {
+      try {
+        return JSON.parse(target.dataset.tdjCard || 'null');
+      } catch {
+        return null;
+      }
+    };
+
+    const ensureTooltip = (): HTMLElement => {
+      let tooltip = document.querySelector<HTMLElement>('.tdj-entity-tooltip');
+      if (tooltip) return tooltip;
+
+      tooltip = document.createElement('div');
+      tooltip.className = 'tdj-entity-tooltip';
+      tooltip.hidden = true;
+      tooltip.setAttribute('role', 'tooltip');
+      document.body.append(tooltip);
+      return tooltip;
+    };
+
+    const renderTooltip = (tooltip: HTMLElement, card: TooltipCard) => {
+      tooltip.replaceChildren();
+
+      const header = document.createElement('div');
+      header.className = 'tdj-entity-tooltip-header';
+
+      if (card.imageSrc) {
+        const imageWrap = document.createElement('span');
+        imageWrap.className = 'tdj-entity-tooltip-image';
+        const image = document.createElement('img');
+        image.src = card.imageSrc;
+        image.alt = '';
+        image.loading = 'lazy';
+        image.decoding = 'async';
+        imageWrap.append(image);
+        header.append(imageWrap);
+      }
+
+      const titleWrap = document.createElement('span');
+      titleWrap.className = 'tdj-entity-tooltip-title';
+      const kicker = document.createElement('span');
+      kicker.className = 'tdj-entity-tooltip-kicker';
+      kicker.textContent = card.kicker || '条目';
+      const title = document.createElement('strong');
+      title.textContent = card.title || '条目';
+      titleWrap.append(kicker, title);
+      header.append(titleWrap);
+      tooltip.append(header);
+
+      if (card.body) {
+        const body = document.createElement('p');
+        body.className = 'tdj-entity-tooltip-body';
+        body.textContent = card.body;
+        tooltip.append(body);
+      }
+
+      const fields =
+        Array.isArray(card.fields) && card.fields.length
+          ? card.fields.filter((field) => field && (field.label || field.value))
+          : Array.isArray(card.stats)
+            ? card.stats.filter(Boolean).map((value) => ({ label: '', value }))
+            : [];
+
+      if (fields.length) {
+        const list = document.createElement('dl');
+        list.className = 'tdj-entity-tooltip-fields';
+        for (const field of fields.slice(0, 8)) {
+          const row = document.createElement('div');
+          row.className = 'tdj-entity-tooltip-field';
+          const dt = document.createElement('dt');
+          dt.textContent = field.label || '—';
+          const dd = document.createElement('dd');
+          dd.textContent = field.value || '—';
+          row.append(dt, dd);
+          list.append(row);
+        }
+        tooltip.append(list);
+      }
+
+      if (card.href) {
+        const foot = document.createElement('div');
+        foot.className = 'tdj-entity-tooltip-foot';
+        foot.textContent = '点击查看详情';
+        tooltip.append(foot);
+      }
+    };
+
+    const placeTooltip = (tooltip: HTMLElement, target: Element) => {
+      const rect = target.getBoundingClientRect();
+      const gap = 12;
+      const width = tooltip.offsetWidth;
+      const height = tooltip.offsetHeight;
+      const viewportWidth = document.documentElement.clientWidth;
+      const viewportHeight = document.documentElement.clientHeight;
+
+      let left = rect.left + rect.width / 2 - width / 2;
+      let top = rect.bottom + gap;
+
+      if (top + height + gap > viewportHeight) {
+        top = rect.top - height - gap;
+      }
+
+      left = Math.max(12, Math.min(left, viewportWidth - width - 12));
+      top = Math.max(12, Math.min(top, viewportHeight - height - 12));
+
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+    };
+
+    let activeTarget: Element | null = null;
+
+    const showTooltip = (target: Element) => {
+      if (!(target instanceof HTMLElement)) return;
+      const card = parseCard(target);
+      if (!card) return;
+      const tooltip = ensureTooltip();
+      activeTarget = target;
+      renderTooltip(tooltip, card);
+      tooltip.hidden = false;
+      requestAnimationFrame(() => {
+        placeTooltip(tooltip, target);
+        tooltip.classList.add('is-visible');
+      });
+    };
+
+    const hideTooltip = (target?: Element | null) => {
+      if (target && activeTarget && target !== activeTarget) return;
+      const tooltip = document.querySelector<HTMLElement>('.tdj-entity-tooltip');
+      activeTarget = null;
+      if (!tooltip) return;
+      tooltip.classList.remove('is-visible');
+      tooltip.hidden = true;
+    };
+
+    document.addEventListener(
+      'pointerover',
+      (event) => {
+        const target = event.target instanceof Element ? event.target.closest('[data-tdj-card]') : null;
+        const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+        if (!target || (related && target.contains(related))) return;
+        showTooltip(target);
+      },
+      true
+    );
+
+    document.addEventListener(
+      'pointerout',
+      (event) => {
+        const target = event.target instanceof Element ? event.target.closest('[data-tdj-card]') : null;
+        const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+        if (!target || (related && target.contains(related))) return;
+        hideTooltip(target);
+      },
+      true
+    );
+
+    document.addEventListener('focusin', (event) => {
+      const target = event.target instanceof Element ? event.target.closest('[data-tdj-card]') : null;
+      if (target) showTooltip(target);
+    });
+
+    document.addEventListener('focusout', (event) => {
+      const target = event.target instanceof Element ? event.target.closest('[data-tdj-card]') : null;
+      if (target) hideTooltip(target);
+    });
+
+    window.addEventListener('scroll', () => hideTooltip(), { passive: true });
+    window.addEventListener('resize', () => hideTooltip(), { passive: true });
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') hideTooltip();
+    });
+  }
+</script>
+
+<style is:global>
+  .tdj-entity-tooltip {
+    border: 1px solid color-mix(in srgb, var(--leaf-heading) 12%, var(--leaf-border));
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--leaf-bg-card) 92%, #0b1320);
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, #fff 55%, transparent),
+      0 18px 42px rgba(15, 23, 42, 0.28);
+    color: var(--leaf-text);
+    left: 0;
+    max-width: calc(100vw - 1.5rem);
+    opacity: 0;
+    overflow: hidden;
+    padding: 0.95rem 1rem 0.85rem;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: translateY(4px);
+    transition: opacity 120ms ease, transform 120ms ease;
+    width: 22.5rem;
+    z-index: 1000;
+  }
+
+  .tdj-entity-tooltip::before {
+    background: linear-gradient(90deg, #1f8fb8, #23b7e5 55%, #3ecf6a);
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .tdj-entity-tooltip.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip {
+    background: color-mix(in srgb, #1c222b 88%, #0a0d12);
+    border-color: color-mix(in srgb, #fff 10%, #353535);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.04),
+      0 20px 48px rgba(0, 0, 0, 0.55);
+    color: #d2d7dd;
+  }
+
+  .tdj-entity-tooltip[hidden] {
+    display: none;
+  }
+
+  .tdj-entity-tooltip-header {
+    align-items: center;
+    display: flex;
+    gap: 0.85rem;
+    min-width: 0;
+  }
+
+  .tdj-entity-tooltip-image {
+    align-items: center;
+    border: 1px solid color-mix(in srgb, var(--leaf-primary) 30%, var(--leaf-border));
+    border-radius: 8px;
+    background:
+      linear-gradient(160deg, rgba(35, 183, 229, 0.16), transparent 55%),
+      #0f1722;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 3.35rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0.2rem;
+    width: 3.35rem;
+  }
+
+  .tdj-entity-tooltip-image img {
+    display: block;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .tdj-entity-tooltip-title {
+    display: grid;
+    gap: 0.34rem;
+    min-width: 0;
+  }
+
+  .tdj-entity-tooltip-title strong {
+    color: var(--leaf-heading);
+    font-size: 1.14rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-title strong {
+    color: #f3f5f7;
+  }
+
+  .tdj-entity-tooltip-kicker {
+    color: #1782a8;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: fit-content;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-kicker {
+    color: #6fd0ef;
+  }
+
+  .tdj-entity-tooltip-body {
+    border-top: 1px solid color-mix(in srgb, var(--leaf-border) 88%, transparent);
+    color: color-mix(in srgb, var(--leaf-heading) 72%, var(--leaf-text));
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 0.82rem 0 0;
+    padding-top: 0.72rem;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-body {
+    border-top-color: rgba(255, 255, 255, 0.08);
+    color: #c5cbd3;
+  }
+
+  .tdj-entity-tooltip-fields {
+    border-top: 1px solid color-mix(in srgb, var(--leaf-border) 88%, transparent);
+    display: grid;
+    gap: 0.42rem;
+    margin: 0.78rem 0 0;
+    padding-top: 0.72rem;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-fields {
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .tdj-entity-tooltip-field {
+    align-items: baseline;
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: 4.6rem minmax(0, 1fr);
+  }
+
+  .tdj-entity-tooltip-field dt {
+    color: var(--leaf-text-muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  .tdj-entity-tooltip-field dd {
+    color: var(--leaf-heading);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-field dt {
+    color: #8b939c;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-field dd {
+    color: #eef1f4;
+  }
+
+  .tdj-entity-tooltip-foot {
+    border-top: 1px solid color-mix(in srgb, var(--leaf-border) 88%, transparent);
+    color: #1782a8;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-top: 0.78rem;
+    padding-top: 0.62rem;
+  }
+
+  :root[data-theme='dark'] .tdj-entity-tooltip-foot {
+    border-top-color: rgba(255, 255, 255, 0.08);
+    color: #6fd0ef;
+  }
+
+  .tdj-has-card {
+    cursor: help;
+  }
+
+  a.tdj-has-card {
+    cursor: pointer;
+  }
+</style>

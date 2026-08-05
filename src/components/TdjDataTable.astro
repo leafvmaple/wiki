@@ -4,6 +4,16 @@ import skills from '../data/sword-man/generated/skills.json';
 import monsters from '../data/sword-man/generated/monsters.json';
 import battles from '../data/sword-man/generated/battles.json';
 import camps from '../data/sword-man/generated/camps.json';
+import TdjEntityTooltip from './TdjEntityTooltip.astro';
+import {
+  cardFromBattle,
+  cardFromCamp,
+  cardFromCharacter,
+  cardFromMonster,
+  cardFromSkill,
+  cardFromSkillEntry,
+  tdjCardPayload,
+} from '../lib/tdjEntities';
 
 type DataRow = Record<string, any>;
 
@@ -12,18 +22,14 @@ const { kind, limit } = Astro.props as { kind: string; limit?: number };
 const sliceRows = (rows: DataRow[]) => rows.slice(0, limit ?? rows.length);
 const dash = (value: unknown) => (value === null || value === undefined || value === '' ? '-' : value);
 const joinList = (items?: string[], fallback = '-') => (items?.filter(Boolean).length ? items.filter(Boolean).join('、') : fallback);
-const range = (min?: number, max?: number) =>
-  typeof min === 'number' && typeof max === 'number' ? (min === max ? `${min}` : `${min}-${max}`) : '-';
-const ability = (row: DataRow, key: string) => {
-  const stat = row.abilities?.[key];
-  return stat ? `${stat.base} / +${stat.grow}` : '-';
-};
 const skillText = (entry: DataRow) => {
   const skill = entry.skill;
   if (!skill) return `#${entry.skillId}`;
   const level = entry.level > 0 ? `Lv.${entry.level}` : '初始';
   return `${level} ${skill.name}`;
 };
+const skillCount = (character: DataRow) =>
+  (character.initialSkills?.length ?? 0) + (character.learnedSkills?.length ?? 0);
 
 const characterRows = sliceRows(characters as DataRow[]);
 const skillRows = sliceRows(skills as DataRow[]);
@@ -37,52 +43,57 @@ const campRows = sliceRows(camps as DataRow[]);
   <table class="tdj-table">
     <thead>
       <tr>
-        <th>角色详情</th>
-        <th>初始 HP</th>
-        <th>初始装备</th>
-        <th>成长基值</th>
-        <th>随机成长</th>
-        <th>习得技能</th>
+        <th>角色</th>
+        <th>HP / MP</th>
+        <th>成长</th>
+        <th>技能</th>
       </tr>
     </thead>
     <tbody>
-      {characterRows.map((character) => (
-        <tr>
-          <td>
-            <a class="tdj-character-link tdj-unit-cell" href={character.href}>
-              {character.iconPath && (
-                <img class="tdj-unit-icon" src={character.iconPath} alt="" width="48" height="48" loading="lazy" />
-              )}
-              <span class="tdj-unit-copy">
-                <strong>{character.name}<span aria-hidden="true"> →</span></strong>
-                <small>查看角色详情 · #{character.id}</small>
+      {characterRows.map((character) => {
+        const skills = [...(character.initialSkills ?? []), ...(character.learnedSkills ?? [])] as DataRow[];
+        return (
+          <tr>
+            <td>
+              <a
+                class="tdj-character-link tdj-unit-cell tdj-has-card"
+                href={character.href}
+                data-tdj-card={tdjCardPayload(cardFromCharacter(character))}
+              >
+                {character.iconPath && (
+                  <img class="tdj-unit-icon" src={character.iconPath} alt="" width="48" height="48" loading="lazy" />
+                )}
+                <span class="tdj-unit-copy">
+                  <strong>{character.name}<span aria-hidden="true"> →</span></strong>
+                  <small>#{character.id}</small>
+                </span>
+              </a>
+            </td>
+            <td>{character.hp} / {character.mp}</td>
+            <td>{character.growth?.summary ?? '-'}</td>
+            <td>
+              <span class="tdj-mini-list">
+                <span class="tdj-pill">{skillCount(character)} 项</span>
+                {skills.slice(0, 2).map((entry: DataRow) => {
+                  const card = cardFromSkillEntry(entry);
+                  return entry.skill?.href ? (
+                    <a
+                      class="tdj-pill tdj-pill-link tdj-has-card"
+                      href={entry.skill.href}
+                      data-tdj-card={tdjCardPayload(card)}
+                    >
+                      {skillText(entry)}
+                    </a>
+                  ) : (
+                    <span class="tdj-pill">{skillText(entry)}</span>
+                  );
+                })}
+                {skills.length > 2 && <span class="tdj-pill">+{skills.length - 2}</span>}
               </span>
-            </a>
-          </td>
-          <td>{character.hp}</td>
-          <td>
-            <span class="tdj-stack">
-              <span>武器：{dash(character.weaponName)}</span>
-              <small>防具：{dash(character.armorName)}</small>
-              <small>饰品：{dash(character.accessoryName)}</small>
-            </span>
-          </td>
-          <td>{character.growth?.summary ?? '-'}</td>
-          <td>
-            <span class="tdj-stack">
-              <span>HP +{character.growth?.hpRandMax ?? '-'}</span>
-              <small>MP +{character.growth?.mpRandMax ?? '-'}</small>
-            </span>
-          </td>
-          <td>
-            <span class="tdj-mini-list">
-              {([...(character.initialSkills ?? []), ...(character.learnedSkills ?? [])] as DataRow[]).map((entry: DataRow) => (
-                <span class="tdj-pill">{skillText(entry)}</span>
-              ))}
-            </span>
-          </td>
-        </tr>
-      ))}
+            </td>
+          </tr>
+        );
+      })}
     </tbody>
   </table>
 )}
@@ -93,33 +104,28 @@ const campRows = sliceRows(camps as DataRow[]);
       <tr>
         <th>技能</th>
         <th>类型</th>
-        <th>属性 / 效果</th>
-        <th>目标 / 范围</th>
+        <th>属性</th>
         <th>消耗</th>
         <th>威力</th>
-        <th>说明</th>
       </tr>
     </thead>
     <tbody>
       {skillRows.map((skill) => (
         <tr>
           <td>
-            <a class="tdj-character-link" href={skill.href}>
+            <a
+              class="tdj-character-link tdj-has-card"
+              href={skill.href}
+              data-tdj-card={tdjCardPayload(cardFromSkill(skill))}
+            >
               <strong>{skill.name}<span aria-hidden="true"> →</span></strong>
-              <small>#{skill.id} · 查看技能详情</small>
+              <small>#{skill.id}</small>
             </a>
           </td>
           <td>{skill.kindLabel}</td>
-          <td>{skill.attributeLabel} / {skill.resultLabel}</td>
-          <td>
-            <span class="tdj-stack">
-              <span>{skill.targetLabel}</span>
-              <small>{skill.rangeTypeLabel} {range(skill.attackRangeMin, skill.attackRangeMax)}</small>
-            </span>
-          </td>
+          <td>{skill.attributeLabel}</td>
           <td>{skill.mpCost ? `${skill.mpCost} MP` : '-'}</td>
           <td>{dash(skill.basePower)}</td>
-          <td>{dash(skill.description)}</td>
         </tr>
       ))}
     </tbody>
@@ -134,15 +140,18 @@ const campRows = sliceRows(camps as DataRow[]);
         <th>等级</th>
         <th>HP / MP</th>
         <th>攻 / 防</th>
-        <th>移动 / 经验</th>
-        <th>五维基础 / 成长</th>
+        <th>移动</th>
       </tr>
     </thead>
     <tbody>
       {monsterRows.map((monster) => (
         <tr>
           <td>
-            <span class="tdj-unit-cell">
+            <span
+              class="tdj-unit-cell tdj-has-card"
+              tabindex="0"
+              data-tdj-card={tdjCardPayload(cardFromMonster(monster))}
+            >
               {monster.iconPath && (
                 <img class="tdj-unit-icon" src={monster.iconPath} alt="" width="48" height="48" loading="lazy" />
               )}
@@ -155,16 +164,7 @@ const campRows = sliceRows(camps as DataRow[]);
           <td>{monster.level}</td>
           <td>{monster.hp} / {monster.mp}</td>
           <td>{monster.atk} / {monster.def}</td>
-          <td>{monster.move} / {monster.exp}</td>
-          <td>
-            <span class="tdj-mini-list">
-              <span class="tdj-pill">力 {ability(monster, 'str')}</span>
-              <span class="tdj-pill">魔 {ability(monster, 'mag')}</span>
-              <span class="tdj-pill">技 {ability(monster, 'dex')}</span>
-              <span class="tdj-pill">体 {ability(monster, 'vit')}</span>
-              <span class="tdj-pill">运 {ability(monster, 'luck')}</span>
-            </span>
-          </td>
+          <td>{monster.move}</td>
         </tr>
       ))}
     </tbody>
@@ -176,34 +176,28 @@ const campRows = sliceRows(camps as DataRow[]);
     <thead>
       <tr>
         <th>关卡</th>
-        <th>地图</th>
         <th>我方</th>
         <th>敌方</th>
         <th>主要敌人</th>
-        <th>携带物</th>
-        <th>敌方技能</th>
-        <th>事件指令</th>
       </tr>
     </thead>
     <tbody>
       {battleRows.map((battle) => (
         <tr>
           <td>
-            <a class="tdj-character-link" href={battle.href}>
+            <a
+              class="tdj-character-link tdj-has-card"
+              href={battle.href}
+              data-tdj-card={tdjCardPayload(cardFromBattle(battle))}
+            >
               <strong>{battle.displayTitle}<span aria-hidden="true"> →</span></strong>
-              <small>{battle.id} · 查看关卡详情</small>
+              <small>{battle.id}</small>
             </a>
           </td>
           <td>
             <span class="tdj-stack">
-              <span>{battle.map.width} × {battle.map.height}</span>
-              <small>{dash(battle.map.texture)}</small>
-            </span>
-          </td>
-          <td>
-            <span class="tdj-stack">
               <span>{battle.combatPlayerCount} / {battle.playerCount}</span>
-              <small>{joinList(battle.playerNames.slice(0, 4))}</small>
+              <small>{joinList(battle.playerNames.slice(0, 3))}</small>
             </span>
           </td>
           <td>
@@ -213,9 +207,6 @@ const campRows = sliceRows(camps as DataRow[]);
             </span>
           </td>
           <td>{(battle.topEnemies as DataRow[]).map((enemy: DataRow) => `${enemy.name}(${enemy.hp})`).join('、') || '-'}</td>
-          <td>{joinList(battle.itemNames.slice(0, 6))}</td>
-          <td>{joinList(battle.enemySkillNames.slice(0, 6))}</td>
-          <td>{battle.introLineCount} / {battle.outroLineCount}</td>
         </tr>
       ))}
     </tbody>
@@ -223,43 +214,48 @@ const campRows = sliceRows(camps as DataRow[]);
 )}
 
 {kind === 'camps' && (
-  <table class="tdj-table">
+  <table class="tdj-table tdj-camp-table">
     <thead>
       <tr>
         <th>营地</th>
         <th>预览</th>
-        <th>资源路径</th>
-        <th>帧数</th>
-        <th>图像 ID</th>
-        <th>关联</th>
-        <th>标记</th>
       </tr>
     </thead>
     <tbody>
       {campRows.map((camp) => (
         <tr>
           <td>
-            <strong>camp{String(camp.id).padStart(2, '0')}</strong>
-            <small>#{camp.id}</small>
+            <span
+              class="tdj-has-card"
+              tabindex="0"
+              data-tdj-card={tdjCardPayload(cardFromCamp(camp))}
+            >
+              <strong>camp{String(camp.id).padStart(2, '0')}</strong>
+              <small>#{camp.id}</small>
+            </span>
           </td>
           <td>
             {camp.imagePath ? (
-              <img class="tdj-camp-thumb" src={camp.imagePath} alt={`营地 ${camp.id} 场景与角色合成预览`} loading="lazy" />
+              <img
+                class="tdj-camp-thumb tdj-has-card"
+                src={camp.imagePath}
+                alt={`营地 ${camp.id} 场景与角色合成预览`}
+                loading="lazy"
+                tabindex="0"
+                data-tdj-card={tdjCardPayload(cardFromCamp(camp))}
+              />
             ) : (
               '-'
             )}
           </td>
-          <td>{dash(camp.path)}</td>
-          <td>{dash(camp.frameCount)}</td>
-          <td>{dash(camp.imageId)}</td>
-          <td>{dash(camp.link)}</td>
-          <td>{dash(camp.flag)}</td>
         </tr>
       ))}
     </tbody>
   </table>
 )}
 </div>
+
+<TdjEntityTooltip />
 
 <style>
   .tdj-table-scroll {
@@ -269,7 +265,11 @@ const campRows = sliceRows(camps as DataRow[]);
   }
 
   .tdj-table {
-    min-width: 48rem;
+    min-width: 36rem;
+  }
+
+  .tdj-camp-table {
+    min-width: 22rem;
   }
 
   .tdj-table th {
@@ -353,7 +353,7 @@ const campRows = sliceRows(camps as DataRow[]);
     display: flex;
     flex-wrap: wrap;
     gap: 0.32rem;
-    min-width: 14rem;
+    min-width: 10rem;
   }
 
   .tdj-pill {
@@ -367,6 +367,16 @@ const campRows = sliceRows(camps as DataRow[]);
     padding: 0.22rem 0.4rem;
   }
 
+  .tdj-pill-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .tdj-pill-link:hover {
+    border-color: color-mix(in srgb, var(--leaf-primary) 42%, var(--leaf-border));
+    color: var(--leaf-primary-hover);
+  }
+
   .tdj-camp-thumb {
     background: #000;
     border: 1px solid var(--leaf-border);
@@ -376,5 +386,4 @@ const campRows = sliceRows(camps as DataRow[]);
     max-width: 9rem;
     width: 9rem;
   }
-
 </style>

@@ -1,6 +1,8 @@
 ﻿---
 import summary from '../data/sword-man/generated/summary.json';
 import battles from '../data/sword-man/generated/battles.json';
+import TdjEntityTooltip from './TdjEntityTooltip.astro';
+import { cardFromBattle, tdjCardPayload } from '../lib/tdjEntities';
 
 const { counts, assets } = summary;
 const firstBattles = battles.slice(0, 4);
@@ -80,7 +82,11 @@ const entries = [
     <h3>关卡速览</h3>
     <div class="tdj-battle-list">
       {firstBattles.map((battle) => (
-        <a href={battle.href}>
+        <a
+          class="tdj-has-card"
+          href={battle.href}
+          data-tdj-card={tdjCardPayload(cardFromBattle(battle))}
+        >
           <strong>{battle.displayTitle}</strong>
           <span>{battle.map.width} × {battle.map.height} / 敌方 {battle.enemyCount}</span>
           <small>{battle.id} · {battle.enemyNames.join('、') || '敌方待整理'}</small>
@@ -89,6 +95,8 @@ const entries = [
     </div>
   </section>
 </section>
+
+<TdjEntityTooltip />
 
 <style>
   .tdj-hub {

@@ -1,5 +1,7 @@
 ---
 import alchemy from '../data/sword-man/generated/alchemy.json';
+import TdjEntityTooltip from './TdjEntityTooltip.astro';
+import { cardFromAlchemy, tdjCardPayload } from '../lib/tdjEntities';
 
 type DataRow = Record<string, any>;
 
@@ -10,9 +12,17 @@ const rows = (alchemy as DataRow[]).filter((row) =>
 const signed = (value: number) => (value ? `${value > 0 ? '+' : ''}${value}` : '-');
 const effectText = (row: DataRow) =>
   row.effect ? `${row.effect}${row.effectPower ? ` ${signed(row.effectPower)}` : ''}` : '-';
+const atkDef = (row: DataRow) => {
+  const attack = signed(row.attack);
+  const defence = signed(row.defence);
+  if (attack === '-' && defence === '-') return '-';
+  return `${attack} / ${defence}`;
+};
 ---
 
-<p class="tdj-alchemy-count">共 {rows.length} 项配方；两项材料前后顺序可以互换。</p>
+<p class="tdj-alchemy-count">
+  共 {rows.length} 项配方；两项材料前后顺序可以互换。悬停炼化结果可看完整属性与说明。
+</p>
 
 <div class="tdj-table-scroll">
   {kind === 'equipment' ? (
@@ -23,12 +33,7 @@ const effectText = (row: DataRow) =>
           <th>材料二</th>
           <th>炼化结果</th>
           <th>类型</th>
-          <th>攻</th>
-          <th>防</th>
-          <th>命中</th>
-          <th>回避</th>
-          <th>会心</th>
-          <th>双击</th>
+          <th>攻 / 防</th>
           <th>可装备角色</th>
         </tr>
       </thead>
@@ -37,14 +42,18 @@ const effectText = (row: DataRow) =>
           <tr>
             <td>{row.ingredient1.name}<small>#{row.ingredient1.id}</small></td>
             <td>{row.ingredient2.name}<small>#{row.ingredient2.id}</small></td>
-            <td><strong>{row.productName}</strong><small>#{row.productId}</small></td>
+            <td>
+              <span
+                class="tdj-item-name tdj-has-card"
+                tabindex="0"
+                data-tdj-card={tdjCardPayload(cardFromAlchemy(row))}
+              >
+                <strong>{row.productName}</strong>
+                <small>#{row.productId}</small>
+              </span>
+            </td>
             <td>{row.productTypeLabel}</td>
-            <td>{signed(row.attack)}</td>
-            <td>{signed(row.defence)}</td>
-            <td>{signed(row.hit)}</td>
-            <td>{signed(row.miss)}</td>
-            <td>{signed(row.critical)}</td>
-            <td>{signed(row.double)}</td>
+            <td>{atkDef(row)}</td>
             <td>{row.equipCharacters.join('、') || '-'}</td>
           </tr>
         ))}
@@ -59,7 +68,6 @@ const effectText = (row: DataRow) =>
           <th>炼化结果</th>
           <th>效果</th>
           <th>价格</th>
-          <th>说明</th>
         </tr>
       </thead>
       <tbody>
@@ -67,16 +75,26 @@ const effectText = (row: DataRow) =>
           <tr>
             <td>{row.ingredient1.name}<small>#{row.ingredient1.id}</small></td>
             <td>{row.ingredient2.name}<small>#{row.ingredient2.id}</small></td>
-            <td><strong>{row.productName}</strong><small>#{row.productId}</small></td>
+            <td>
+              <span
+                class="tdj-item-name tdj-has-card"
+                tabindex="0"
+                data-tdj-card={tdjCardPayload(cardFromAlchemy(row))}
+              >
+                <strong>{row.productName}</strong>
+                <small>#{row.productId}</small>
+              </span>
+            </td>
             <td>{effectText(row)}</td>
             <td>{row.price || '-'}</td>
-            <td>{row.description || '-'}</td>
           </tr>
         ))}
       </tbody>
     </table>
   )}
 </div>
+
+<TdjEntityTooltip />
 
 <style>
   .tdj-alchemy-count {
@@ -90,11 +108,11 @@ const effectText = (row: DataRow) =>
   }
 
   .tdj-alchemy-table {
-    min-width: 55rem;
+    min-width: 40rem;
   }
 
   .tdj-equipment-table {
-    min-width: 68rem;
+    min-width: 48rem;
   }
 
   .tdj-alchemy-table th {
@@ -103,6 +121,11 @@ const effectText = (row: DataRow) =>
 
   .tdj-alchemy-table td {
     vertical-align: top;
+  }
+
+  .tdj-item-name {
+    display: inline-grid;
+    gap: 0.08rem;
   }
 
   .tdj-alchemy-table strong {
@@ -114,9 +137,5 @@ const effectText = (row: DataRow) =>
     display: block;
     font-size: 0.78rem;
     margin-top: 0.08rem;
-  }
-
-  .tdj-item-table td:last-child {
-    min-width: 18rem;
   }
 </style>

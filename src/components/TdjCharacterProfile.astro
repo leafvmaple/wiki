@@ -1,5 +1,7 @@
 ---
 import characters from '../data/sword-man/generated/characters.json';
+import TdjEntityTooltip from './TdjEntityTooltip.astro';
+import { cardFromSkillEntry, tdjCardPayload } from '../lib/tdjEntities';
 
 type DataRow = Record<string, any>;
 
@@ -84,7 +86,13 @@ const next = rows.find((row) => row.id === character.id + 1);
     {character.initialSkills.map((entry: DataRow) => (
       <span>
         {entry.skill?.href ? (
-          <a class="tdj-character-skill-link" href={entry.skill.href}>{entry.skill.name} →</a>
+          <a
+            class="tdj-character-skill-link tdj-has-card"
+            href={entry.skill.href}
+            data-tdj-card={tdjCardPayload(cardFromSkillEntry(entry))}
+          >
+            {entry.skill.name} →
+          </a>
         ) : (
           <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
         )}
@@ -120,11 +128,16 @@ const next = rows.find((row) => row.id === character.id + 1);
           <tr>
             <td>
               {entry.skill?.href ? (
-                <a class="tdj-character-skill-link" href={entry.skill.href}>{entry.skill.name} →</a>
+                <a
+                  class="tdj-character-skill-link tdj-has-card"
+                  href={entry.skill.href}
+                  data-tdj-card={tdjCardPayload(cardFromSkillEntry(entry))}
+                >
+                  {entry.skill.name} →
+                </a>
               ) : (
                 <strong>{entry.skill?.name ?? `技能 #${entry.skillId}`}</strong>
               )}
-              {entry.skill?.description && <small>{entry.skill.description}</small>}
             </td>
             <td>Lv.{entry.level}</td>
             {spiritLabels.map((_, index) => (
@@ -158,6 +171,8 @@ const next = rows.find((row) => row.id === character.id + 1);
     </tbody>
   </table>
 </div>
+
+<TdjEntityTooltip />
 
 <style>
   .tdj-character-nav {

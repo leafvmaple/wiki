@@ -1,5 +1,7 @@
 ---
 import itemCatalog from '../data/sword-man/generated/items.json';
+import TdjEntityTooltip from './TdjEntityTooltip.astro';
+import { cardFromItem, cardFromWeapon, tdjCardPayload } from '../lib/tdjEntities';
 
 type DataRow = Record<string, any>;
 
@@ -10,21 +12,17 @@ const rangeText = (min: number, max: number) => {
   const start = min === -1 ? 1 : Math.max(0, min);
   return start === max ? `${max} 格` : `${start}–${max} 格`;
 };
-const recipeText = (row: DataRow) =>
-  row.recipe?.length === 2 ? `${row.recipe[0].name} + ${row.recipe[1].name}` : '-';
 const itemEffectText = (row: DataRow) => {
   if (row.useEffect) return `${row.useEffect}${row.usePower ? ` ${signed(row.usePower)}` : ''}`;
   if (row.useSkill) return `施放「${row.useSkill.name}」${row.usePower ? `（威力 ${row.usePower}）` : ''}`;
   return '-';
 };
-const weaponSkillText = (row: DataRow) =>
-  row.useSkill ? `${row.useSkill.name}${row.useMpCost ? `（MP ${row.useMpCost}）` : ''}` : '-';
 ---
 
 <p class="tdj-item-count">
   {kind === 'weapons'
-    ? `共 ${rows.length} 件主角可装备武器；怪物的爪牙、吐息等内部武器记录不计入本表。`
-    : `共 ${rows.length} 件道具。`}
+    ? `共 ${rows.length} 件主角可装备武器；怪物的爪牙、吐息等内部武器记录不计入本表。悬停名称可看完整属性与说明。`
+    : `共 ${rows.length} 件道具。悬停名称可看使用距离、炼化材料与说明。`}
 </p>
 
 <div class="tdj-table-scroll">
@@ -35,32 +33,29 @@ const weaponSkillText = (row: DataRow) =>
           <th>武器</th>
           <th>攻</th>
           <th>命中</th>
-          <th>回避</th>
-          <th>会心</th>
-          <th>双击</th>
           <th>攻击距离</th>
           <th>可装备角色</th>
-          <th>战斗使用</th>
           <th>价格</th>
-          <th>炼化材料</th>
-          <th>说明</th>
         </tr>
       </thead>
       <tbody>
         {rows.map((row) => (
           <tr>
-            <td><strong>{row.name}</strong><small>#{row.id}</small></td>
+            <td>
+              <span
+                class="tdj-item-name tdj-has-card"
+                tabindex="0"
+                data-tdj-card={tdjCardPayload(cardFromWeapon(row))}
+              >
+                <strong>{row.name}</strong>
+                <small>#{row.id}</small>
+              </span>
+            </td>
             <td>{signed(row.attack)}</td>
             <td>{signed(row.hit)}</td>
-            <td>{signed(row.miss)}</td>
-            <td>{signed(row.critical)}</td>
-            <td>{signed(row.double)}</td>
             <td>{rangeText(row.attackRangeMin, row.attackRangeMax)}</td>
             <td>{row.equipCharacters.join('、') || '-'}</td>
-            <td>{weaponSkillText(row)}</td>
             <td>{row.price || '-'}</td>
-            <td>{recipeText(row)}</td>
-            <td>{row.description || '-'}</td>
           </tr>
         ))}
       </tbody>
@@ -71,27 +66,32 @@ const weaponSkillText = (row: DataRow) =>
         <tr>
           <th>道具</th>
           <th>效果</th>
-          <th>使用距离</th>
           <th>价格</th>
-          <th>炼化材料</th>
-          <th>说明</th>
         </tr>
       </thead>
       <tbody>
         {rows.map((row) => (
           <tr>
-            <td><strong>{row.name}</strong><small>#{row.id}</small></td>
+            <td>
+              <span
+                class="tdj-item-name tdj-has-card"
+                tabindex="0"
+                data-tdj-card={tdjCardPayload(cardFromItem(row))}
+              >
+                <strong>{row.name}</strong>
+                <small>#{row.id}</small>
+              </span>
+            </td>
             <td>{itemEffectText(row)}</td>
-            <td>{rangeText(row.useRangeMin, row.useRangeMax)}</td>
             <td>{row.price || '-'}</td>
-            <td>{recipeText(row)}</td>
-            <td>{row.description || '-'}</td>
           </tr>
         ))}
       </tbody>
     </table>
   )}
 </div>
+
+<TdjEntityTooltip />
 
 <style>
   .tdj-item-count {
@@ -105,11 +105,11 @@ const weaponSkillText = (row: DataRow) =>
   }
 
   .tdj-item-table {
-    min-width: 62rem;
+    min-width: 28rem;
   }
 
   .tdj-weapon-table {
-    min-width: 88rem;
+    min-width: 42rem;
   }
 
   .tdj-item-table th {
@@ -118,6 +118,11 @@ const weaponSkillText = (row: DataRow) =>
 
   .tdj-item-table td {
     vertical-align: top;
+  }
+
+  .tdj-item-name {
+    display: inline-grid;
+    gap: 0.08rem;
   }
 
   .tdj-item-table strong {
@@ -130,9 +135,5 @@ const weaponSkillText = (row: DataRow) =>
     display: block;
     font-size: 0.78rem;
     margin-top: 0.08rem;
-  }
-
-  .tdj-item-table td:last-child {
-    min-width: 18rem;
   }
 </style>
