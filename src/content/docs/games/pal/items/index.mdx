@@ -1,0 +1,17 @@
+---
+title: 道具图鉴
+description: 仙剑奇侠传道具图鉴：可使用物品与价格，可搜索排序。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-07-29'
+tableOfContents: false
+sidebar:
+  label: 道具图鉴
+---
+
+import PalDataTable from '../../../../../components/PalDataTable.astro';
+
+数据来自 `SSS.MKF` 对象表 + `WORD_chs.txt`。价格为商店标价；「非卖品」表示表内无有效价格。
+
+<PalDataTable kind="items" />

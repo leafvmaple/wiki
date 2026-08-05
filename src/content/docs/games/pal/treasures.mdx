@@ -1,0 +1,17 @@
+---
+title: 采集与宝箱
+description: 仙剑奇侠传可采集草药、宝箱与脚本给予的道具一览。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-05'
+tableOfContents: false
+sidebar:
+  label: 采集与宝箱
+---
+
+import PalDataTable from '../../../../components/PalDataTable.astro';
+
+由事件触发脚本中的给予物品指令，结合 MSG 中「采得 / 摘得 / 获得 / 打开箱子」等提示文自动汇总。坐标与完整点位见 map-viewer。
+
+<PalDataTable kind="treasures" />

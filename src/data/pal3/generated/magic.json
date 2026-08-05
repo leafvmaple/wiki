@@ -1,0 +1,1511 @@
+[
+  {
+    "id": 303,
+    "name": "仙风云体",
+    "source": "magic",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 3,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "速增",
+    "description": "暂时提高我方单体速度。"
+  },
+  {
+    "id": 313,
+    "name": "天罡战气",
+    "source": "magic",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 3,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "单 武增",
+    "description": "暂时提高我方单体攻击力。"
+  },
+  {
+    "id": 323,
+    "name": "真元护体",
+    "source": "magic",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 3,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "单 防增",
+    "description": "暂时提高我方单体防御力。"
+  },
+  {
+    "id": 330,
+    "name": "天魔附体",
+    "source": "magic",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 20,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷",
+      "土"
+    ],
+    "stats": {},
+    "effect": "增加武防速运",
+    "description": "同时增加我方单体的武、防、速、运。"
+  },
+  {
+    "id": 301,
+    "name": "风咒",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 4,
+    "users": [
+      "景天",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "单 减少精",
+    "description": "初级风系攻击仙术，攻击敌单体。"
+  },
+  {
+    "id": 304,
+    "name": "风卷尘生",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 22,
+    "users": [
+      "景天",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -100
+    },
+    "effect": "全 减少精",
+    "description": "中级风系仙术，攻击敌全体。"
+  },
+  {
+    "id": 305,
+    "name": "罡风惊天",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 35,
+    "users": [
+      "景天",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -120
+    },
+    "effect": "全 减少精",
+    "description": "高级风系仙术，攻击敌全体，威力惊人。"
+  },
+  {
+    "id": 306,
+    "name": "炎咒",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 5,
+    "users": [
+      "景天",
+      "雪见",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "单 减少精",
+    "description": "初级火系仙术，攻击敌单体。"
+  },
+  {
+    "id": 308,
+    "name": "三昧真火",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 16,
+    "users": [
+      "景天",
+      "雪见",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -60
+    },
+    "effect": "全 减少精",
+    "description": "中级火系仙术，攻击敌全体。"
+  },
+  {
+    "id": 309,
+    "name": "流星火雨",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 18,
+    "users": [
+      "景天",
+      "雪见",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -140
+    },
+    "effect": "单 减少精",
+    "description": "高级火系仙术，攻击敌单体。"
+  },
+  {
+    "id": 310,
+    "name": "炼狱火海",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 36,
+    "users": [
+      "景天",
+      "雪见",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -120
+    },
+    "effect": "全 减少精",
+    "description": "高级火系仙术，攻击敌全体。"
+  },
+  {
+    "id": 311,
+    "name": "雷咒",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 5,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -30
+    },
+    "effect": "单 减少精",
+    "description": "初级雷系仙术，攻击敌单体。"
+  },
+  {
+    "id": 312,
+    "name": "惊雷闪",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 12,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -55
+    },
+    "effect": "全 减少精",
+    "description": "中级雷系仙术，攻击敌全体。"
+  },
+  {
+    "id": 314,
+    "name": "天雷空破",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 20,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -140
+    },
+    "effect": "单 减少精",
+    "description": "高级雷系仙术，攻击敌单体。"
+  },
+  {
+    "id": 315,
+    "name": "雷动九天",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 32,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -120
+    },
+    "effect": "全 减少精",
+    "description": "高级雷系仙术，攻击敌全体。"
+  },
+  {
+    "id": 316,
+    "name": "冰咒",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 6,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "全 减少精",
+    "description": "初级水系仙术，攻击敌全体。"
+  },
+  {
+    "id": 319,
+    "name": "雨恨云愁",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 24,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -130
+    },
+    "effect": "单 减少精",
+    "description": "高级水系仙术，攻击敌单体。"
+  },
+  {
+    "id": 321,
+    "name": "土咒",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 8,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "全 减少精",
+    "description": "初级土系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 322,
+    "name": "飞岩术",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 16,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -55
+    },
+    "effect": "全 减少精",
+    "description": "中级土系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 325,
+    "name": "泰山压顶",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": null,
+    "shen": 28,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -140
+    },
+    "effect": "单 减少精",
+    "description": "高级土系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 329,
+    "name": "风雪冰天",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 36,
+    "users": [
+      "景天",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "景天、龙葵、紫萱",
+    "elements": [
+      "水",
+      "风"
+    ],
+    "stats": {
+      "精": -140
+    },
+    "effect": "全 减少精",
+    "description": "风、水属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 331,
+    "name": "烈焰燃雷",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 42,
+    "users": [
+      "雪见",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、紫萱、长卿",
+    "elements": [
+      "火",
+      "雷"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "全 减少精",
+    "description": "雷、火属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 332,
+    "name": "举火燎天",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 43,
+    "users": [
+      "景天",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、紫萱、长卿",
+    "elements": [
+      "火",
+      "风"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "全 减少精",
+    "description": "风、火属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 333,
+    "name": "星沉地动",
+    "source": "magic",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": 48,
+    "users": [
+      "景天",
+      "雪见",
+      "长卿"
+    ],
+    "equip": "景天、雪见、长卿",
+    "elements": [
+      "火",
+      "土"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "全 减少精",
+    "description": "火、土属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 302,
+    "name": "暖雾",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 6,
+    "users": [
+      "景天",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": 40
+    },
+    "effect": "单 增加精",
+    "description": "恢复我方单体精。"
+  },
+  {
+    "id": 307,
+    "name": "净衣咒",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 10,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "解除定封禁",
+    "description": "解除我方单体麻痹、封咒、禁忌。"
+  },
+  {
+    "id": 317,
+    "name": "雨润",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 8,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "单 解除眠乱狂",
+    "description": "解除我方单体眠、乱、狂。"
+  },
+  {
+    "id": 318,
+    "name": "烟水还魂",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 36,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "单 复活 增加精",
+    "description": "我方单体复活，同时恢复少量精。"
+  },
+  {
+    "id": 320,
+    "name": "五气连波",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": 32,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 200
+    },
+    "effect": "全 增加精",
+    "description": "恢复我方全体“精”。"
+  },
+  {
+    "id": 324,
+    "name": "承天载物",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": 20,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "全 增加精",
+    "description": "恢复我方全体“精”。"
+  },
+  {
+    "id": 326,
+    "name": "风露饮",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 28,
+    "users": [
+      "景天",
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "景天、雪见、紫萱",
+    "elements": [
+      "水",
+      "风"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "单 增加精",
+    "description": "恢复我方单体全部“精”。"
+  },
+  {
+    "id": 327,
+    "name": "灵血咒",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 16,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火"
+    ],
+    "stats": {},
+    "effect": "解除定封禁眠乱狂",
+    "description": "恢复除中毒外其他一切不良状态。"
+  },
+  {
+    "id": 328,
+    "name": "赎魂光",
+    "source": "magic",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": null,
+    "shen": 40,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "雷"
+    ],
+    "stats": {
+      "精": 350
+    },
+    "effect": "复活 增加精",
+    "description": "我方单体复活，并同时恢复大量精。"
+  },
+  {
+    "id": 2201,
+    "name": "乱刃风",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "风 减少精"
+  },
+  {
+    "id": 2202,
+    "name": "惊魂雷",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -120
+    },
+    "effect": "",
+    "description": "雷 减少精"
+  },
+  {
+    "id": 2203,
+    "name": "凝寒雪",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "水 减少精"
+  },
+  {
+    "id": 2204,
+    "name": "燎天火",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "火 减少精"
+  },
+  {
+    "id": 2205,
+    "name": "裂地岩",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "土 减少精"
+  },
+  {
+    "id": 2206,
+    "name": "剑斥风雷",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风",
+      "雷"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "风雷 减少精"
+  },
+  {
+    "id": 2207,
+    "name": "风水流转",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "风"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "风水 解定封禁眠乱狂 解五毒"
+  },
+  {
+    "id": 2208,
+    "name": "火舞风云",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "风"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "风火 减少精"
+  },
+  {
+    "id": 2209,
+    "name": "风刃裂地",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风",
+      "土"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "风土 减少精"
+  },
+  {
+    "id": 2210,
+    "name": "幻水惊雷",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "雷水 增武防速运"
+  },
+  {
+    "id": 2211,
+    "name": "剑气燃雷",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "雷"
+    ],
+    "stats": {
+      "精": -350
+    },
+    "effect": "",
+    "description": "雷火 减少精"
+  },
+  {
+    "id": 2212,
+    "name": "地火唤月",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷",
+      "土"
+    ],
+    "stats": {
+      "精": -350
+    },
+    "effect": "",
+    "description": "雷土 减少精"
+  },
+  {
+    "id": 2213,
+    "name": "冰火封神",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "水火 减少精"
+  },
+  {
+    "id": 2214,
+    "name": "殒冰飞堕",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "土"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "水土 减少精"
+  },
+  {
+    "id": 2215,
+    "name": "地火惊天",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "土"
+    ],
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": "火土 减少精"
+  },
+  {
+    "id": 2216,
+    "name": "流光诛仙斩",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "风",
+      "雷"
+    ],
+    "stats": {
+      "精": -450
+    },
+    "effect": "",
+    "description": "风雷火 减少精"
+  },
+  {
+    "id": 2217,
+    "name": "乱影降魔剑",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火",
+      "风"
+    ],
+    "stats": {
+      "精": -450
+    },
+    "effect": "",
+    "description": "风水火 减少精"
+  },
+  {
+    "id": 2218,
+    "name": "万灵还神光",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "风",
+      "土"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "",
+    "description": "风水土 精恢复100%"
+  },
+  {
+    "id": 2219,
+    "name": "三才破魔阵",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "雷",
+      "土"
+    ],
+    "stats": {
+      "精": -450
+    },
+    "effect": "",
+    "description": "雷火土 减少精"
+  },
+  {
+    "id": 2220,
+    "name": "旋光吞日月",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火",
+      "风",
+      "雷",
+      "土"
+    ],
+    "stats": {
+      "精": -600
+    },
+    "effect": "",
+    "description": "风雷火土 减少精"
+  },
+  {
+    "id": 2221,
+    "name": "极咒返阴阳",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "风",
+      "雷",
+      "土"
+    ],
+    "stats": {
+      "精": 100,
+      "神": 100
+    },
+    "effect": "",
+    "description": "风雷水土 解所有异常状态 精神恢复100%"
+  },
+  {
+    "id": 2222,
+    "name": "剑气逆乾坤",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "土"
+    ],
+    "stats": {
+      "精": -600
+    },
+    "effect": "",
+    "description": "风水火土 减少精"
+  },
+  {
+    "id": 2223,
+    "name": "天地元灵斩",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ],
+    "stats": {
+      "精": -900
+    },
+    "effect": "",
+    "description": "风雷水火土 减少精"
+  },
+  {
+    "id": 2224,
+    "name": "残影剑",
+    "source": "magic",
+    "category": "合灵技",
+    "skillType": 4,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": null,
+    "shen": null,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {
+      "精": -100
+    },
+    "effect": "",
+    "description": "减少精"
+  }
+]

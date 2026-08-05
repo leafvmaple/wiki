@@ -1,0 +1,8267 @@
+[
+  {
+    "id": "s4_e108",
+    "sceneId": 4,
+    "sceneName": "场景 4",
+    "mapNum": 1,
+    "eventId": 108,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "采得一颗龙涎草",
+    "x": 1184,
+    "y": 336
+  },
+  {
+    "id": "s4_e109",
+    "sceneId": 4,
+    "sceneName": "场景 4",
+    "mapNum": 1,
+    "eventId": 109,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "采得一颗止血草",
+    "x": 1248,
+    "y": 352
+  },
+  {
+    "id": "s5_e129",
+    "sceneId": 5,
+    "sceneName": "场景 5",
+    "mapNum": 2,
+    "eventId": 129,
+    "items": [
+      {
+        "id": 92,
+        "name": "水果"
+      }
+    ],
+    "itemNames": "水果",
+    "message": "水果贩：",
+    "x": 512,
+    "y": 1408
+  },
+  {
+    "id": "s6_e167",
+    "sceneId": 6,
+    "sceneName": "场景 6",
+    "mapNum": 4,
+    "eventId": 167,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 256,
+    "y": 896
+  },
+  {
+    "id": "s6_e168",
+    "sceneId": 6,
+    "sceneName": "场景 6",
+    "mapNum": 4,
+    "eventId": 168,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1840,
+    "y": 568
+  },
+  {
+    "id": "s14_e225",
+    "sceneId": 14,
+    "sceneName": "场景 14",
+    "mapNum": 119,
+    "eventId": 225,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 880,
+    "y": 248
+  },
+  {
+    "id": "s17_e264",
+    "sceneId": 17,
+    "sceneName": "场景 17",
+    "mapNum": 6,
+    "eventId": 264,
+    "items": [
+      {
+        "id": 67,
+        "name": "风灵符"
+      },
+      {
+        "id": 68,
+        "name": "雷灵符"
+      },
+      {
+        "id": 69,
+        "name": "水灵符"
+      },
+      {
+        "id": 70,
+        "name": "火灵符"
+      },
+      {
+        "id": 71,
+        "name": "土灵符"
+      }
+    ],
+    "itemNames": "风灵符、雷灵符、水灵符、火灵符、土灵符",
+    "message": "得到五张灵符",
+    "x": 1408,
+    "y": 432
+  },
+  {
+    "id": "s20_e364",
+    "sceneId": 20,
+    "sceneName": "场景 20",
+    "mapNum": 9,
+    "eventId": 364,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "打开箱子，取得三张观音符",
+    "x": 848,
+    "y": 1080
+  },
+  {
+    "id": "s36_e608",
+    "sceneId": 36,
+    "sceneName": "场景 36",
+    "mapNum": 51,
+    "eventId": 608,
+    "items": [
+      {
+        "id": 238,
+        "name": "绣花鞋"
+      }
+    ],
+    "itemNames": "绣花鞋",
+    "message": "获得绣花鞋",
+    "x": 816,
+    "y": 472
+  },
+  {
+    "id": "s40_e668",
+    "sceneId": 40,
+    "sceneName": "场景 40",
+    "mapNum": 42,
+    "eventId": 668,
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      }
+    ],
+    "itemNames": "雄黄",
+    "message": "获得雄黄",
+    "x": 1344,
+    "y": 1328
+  },
+  {
+    "id": "s40_e669",
+    "sceneId": 40,
+    "sceneName": "场景 40",
+    "mapNum": 42,
+    "eventId": 669,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 1760,
+    "y": 1328
+  },
+  {
+    "id": "s40_e670",
+    "sceneId": 40,
+    "sceneName": "场景 40",
+    "mapNum": 42,
+    "eventId": 670,
+    "items": [
+      {
+        "id": 255,
+        "name": "银针"
+      }
+    ],
+    "itemNames": "银针",
+    "message": "获得银针",
+    "x": 1200,
+    "y": 1896
+  },
+  {
+    "id": "s40_e671",
+    "sceneId": 40,
+    "sceneName": "场景 40",
+    "mapNum": 42,
+    "eventId": 671,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 720,
+    "y": 1816
+  },
+  {
+    "id": "s40_e672",
+    "sceneId": 40,
+    "sceneName": "场景 40",
+    "mapNum": 42,
+    "eventId": 672,
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      }
+    ],
+    "itemNames": "雄黄",
+    "message": "获得雄黄",
+    "x": 832,
+    "y": 1552
+  },
+  {
+    "id": "s41_e689",
+    "sceneId": 41,
+    "sceneName": "场景 41",
+    "mapNum": 131,
+    "eventId": 689,
+    "items": [
+      {
+        "id": 255,
+        "name": "银针"
+      }
+    ],
+    "itemNames": "银针",
+    "message": "获得银针",
+    "x": 816,
+    "y": 1096
+  },
+  {
+    "id": "s41_e690",
+    "sceneId": 41,
+    "sceneName": "场景 41",
+    "mapNum": 131,
+    "eventId": 690,
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      }
+    ],
+    "itemNames": "雄黄",
+    "message": "获得雄黄",
+    "x": 1056,
+    "y": 1040
+  },
+  {
+    "id": "s44_e720",
+    "sceneId": 44,
+    "sceneName": "场景 44",
+    "mapNum": 40,
+    "eventId": 720,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1088,
+    "y": 1136
+  },
+  {
+    "id": "s44_e721",
+    "sceneId": 44,
+    "sceneName": "场景 44",
+    "mapNum": 40,
+    "eventId": 721,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 1760,
+    "y": 1328
+  },
+  {
+    "id": "s44_e722",
+    "sceneId": 44,
+    "sceneName": "场景 44",
+    "mapNum": 40,
+    "eventId": 722,
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      }
+    ],
+    "itemNames": "雄黄",
+    "message": "获得雄黄",
+    "x": 1888,
+    "y": 1232
+  },
+  {
+    "id": "s45_e752",
+    "sceneId": 45,
+    "sceneName": "场景 45",
+    "mapNum": 41,
+    "eventId": 752,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 576,
+    "y": 1296
+  },
+  {
+    "id": "s45_e753",
+    "sceneId": 45,
+    "sceneName": "场景 45",
+    "mapNum": 41,
+    "eventId": 753,
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      }
+    ],
+    "itemNames": "雄黄",
+    "message": "获得雄黄",
+    "x": 336,
+    "y": 1176
+  },
+  {
+    "id": "s45_e754",
+    "sceneId": 45,
+    "sceneName": "场景 45",
+    "mapNum": 41,
+    "eventId": 754,
+    "items": [
+      {
+        "id": 209,
+        "name": "藤甲"
+      }
+    ],
+    "itemNames": "藤甲",
+    "message": "获得藤甲",
+    "x": 1248,
+    "y": 1248
+  },
+  {
+    "id": "s45_e755",
+    "sceneId": 45,
+    "sceneName": "场景 45",
+    "mapNum": 41,
+    "eventId": 755,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 1104,
+    "y": 712
+  },
+  {
+    "id": "s46_e767",
+    "sceneId": 46,
+    "sceneName": "场景 46",
+    "mapNum": 70,
+    "eventId": 767,
+    "items": [
+      {
+        "id": 255,
+        "name": "银针"
+      }
+    ],
+    "itemNames": "银针",
+    "message": "获得银针",
+    "x": 1568,
+    "y": 992
+  },
+  {
+    "id": "s47_e771",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 771,
+    "items": [
+      {
+        "id": 289,
+        "name": "石钥匙"
+      }
+    ],
+    "itemNames": "石钥匙",
+    "message": "妖狐女：",
+    "x": 1440,
+    "y": 304
+  },
+  {
+    "id": "s47_e785",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 785,
+    "items": [
+      {
+        "id": 256,
+        "name": "铜镜"
+      }
+    ],
+    "itemNames": "铜镜",
+    "message": "获得铜镜",
+    "x": 688,
+    "y": 1048
+  },
+  {
+    "id": "s47_e786",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 786,
+    "items": [
+      {
+        "id": 199,
+        "name": "银钗"
+      }
+    ],
+    "itemNames": "银钗",
+    "message": "获得银钗",
+    "x": 848,
+    "y": 1032
+  },
+  {
+    "id": "s47_e787",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 787,
+    "items": [
+      {
+        "id": 252,
+        "name": "珍珠"
+      }
+    ],
+    "itemNames": "珍珠",
+    "message": "获得珍珠",
+    "x": 304,
+    "y": 712
+  },
+  {
+    "id": "s47_e788",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 788,
+    "items": [
+      {
+        "id": 253,
+        "name": "玉镯"
+      }
+    ],
+    "itemNames": "玉镯",
+    "message": "获得玉镯",
+    "x": 288,
+    "y": 720
+  },
+  {
+    "id": "s47_e789",
+    "sceneId": 47,
+    "sceneName": "场景 47",
+    "mapNum": 43,
+    "eventId": 789,
+    "items": [
+      {
+        "id": 239,
+        "name": "铁履"
+      }
+    ],
+    "itemNames": "铁履",
+    "message": "获得铁履",
+    "x": 1296,
+    "y": 248
+  },
+  {
+    "id": "s59_e1053",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1053,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "从骷颅头内取得二只傀儡虫",
+    "x": 1424,
+    "y": 216
+  },
+  {
+    "id": "s59_e1054",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1054,
+    "items": [
+      {
+        "id": 267,
+        "name": "土灵珠"
+      }
+    ],
+    "itemNames": "土灵珠",
+    "message": "小石头：",
+    "x": 752,
+    "y": 104
+  },
+  {
+    "id": "s59_e1081",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1081,
+    "items": [
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ],
+    "itemNames": "还魂香",
+    "message": "获得还魂香",
+    "x": 1424,
+    "y": 1640
+  },
+  {
+    "id": "s59_e1082",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1082,
+    "items": [
+      {
+        "id": 64,
+        "name": "净衣符"
+      }
+    ],
+    "itemNames": "净衣符",
+    "message": "获得净衣符",
+    "x": 304,
+    "y": 1608
+  },
+  {
+    "id": "s59_e1083",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1083,
+    "items": [
+      {
+        "id": 155,
+        "name": "透骨钉"
+      }
+    ],
+    "itemNames": "透骨钉",
+    "message": "获得透骨钉",
+    "x": 592,
+    "y": 1320
+  },
+  {
+    "id": "s59_e1084",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1084,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "获得观音符",
+    "x": 832,
+    "y": 1840
+  },
+  {
+    "id": "s59_e1085",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1085,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 1488,
+    "y": 1128
+  },
+  {
+    "id": "s59_e1086",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1086,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1680,
+    "y": 856
+  },
+  {
+    "id": "s59_e1087",
+    "sceneId": 59,
+    "sceneName": "场景 59",
+    "mapNum": 76,
+    "eventId": 1087,
+    "items": [
+      {
+        "id": 71,
+        "name": "土灵符"
+      }
+    ],
+    "itemNames": "土灵符",
+    "message": "获得土灵符",
+    "x": 672,
+    "y": 544
+  },
+  {
+    "id": "s60_e1193",
+    "sceneId": 60,
+    "sceneName": "场景 60",
+    "mapNum": 55,
+    "eventId": 1193,
+    "items": [
+      {
+        "id": 153,
+        "name": "梅花镖"
+      }
+    ],
+    "itemNames": "梅花镖",
+    "message": "获得梅花镖",
+    "x": 1632,
+    "y": 1872
+  },
+  {
+    "id": "s60_e1195",
+    "sceneId": 60,
+    "sceneName": "场景 60",
+    "mapNum": 55,
+    "eventId": 1195,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1616,
+    "y": 1432
+  },
+  {
+    "id": "s60_e1196",
+    "sceneId": 60,
+    "sceneName": "场景 60",
+    "mapNum": 55,
+    "eventId": 1196,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 272,
+    "y": 1320
+  },
+  {
+    "id": "s60_e1197",
+    "sceneId": 60,
+    "sceneName": "场景 60",
+    "mapNum": 55,
+    "eventId": 1197,
+    "items": [
+      {
+        "id": 100,
+        "name": "行军丹"
+      }
+    ],
+    "itemNames": "行军丹",
+    "message": "获得行军丹",
+    "x": 768,
+    "y": 1840
+  },
+  {
+    "id": "s60_e1199",
+    "sceneId": 60,
+    "sceneName": "场景 60",
+    "mapNum": 55,
+    "eventId": 1199,
+    "items": [
+      {
+        "id": 239,
+        "name": "铁履"
+      }
+    ],
+    "itemNames": "铁履",
+    "message": "获得铁履",
+    "x": 1744,
+    "y": 472
+  },
+  {
+    "id": "s61_e1215",
+    "sceneId": 61,
+    "sceneName": "场景 61",
+    "mapNum": 52,
+    "eventId": 1215,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 960,
+    "y": 496
+  },
+  {
+    "id": "s62_e1219",
+    "sceneId": 62,
+    "sceneName": "场景 62",
+    "mapNum": 56,
+    "eventId": 1219,
+    "items": [
+      {
+        "id": 64,
+        "name": "净衣符"
+      }
+    ],
+    "itemNames": "净衣符",
+    "message": "获得净衣符",
+    "x": 1088,
+    "y": 1168
+  },
+  {
+    "id": "s62_e1220",
+    "sceneId": 62,
+    "sceneName": "场景 62",
+    "mapNum": 56,
+    "eventId": 1220,
+    "items": [
+      {
+        "id": 75,
+        "name": "糯米"
+      }
+    ],
+    "itemNames": "糯米",
+    "message": "获得糯米",
+    "x": 752,
+    "y": 1432
+  },
+  {
+    "id": "s62_e1221",
+    "sceneId": 62,
+    "sceneName": "场景 62",
+    "mapNum": 56,
+    "eventId": 1221,
+    "items": [
+      {
+        "id": 63,
+        "name": "金刚符"
+      }
+    ],
+    "itemNames": "金刚符",
+    "message": "获得金刚符",
+    "x": 304,
+    "y": 536
+  },
+  {
+    "id": "s64_e1279",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1279,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 480,
+    "y": 1408
+  },
+  {
+    "id": "s64_e1280",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1280,
+    "items": [
+      {
+        "id": 91,
+        "name": "十里香"
+      }
+    ],
+    "itemNames": "十里香",
+    "message": "获得十里香",
+    "x": 1184,
+    "y": 1776
+  },
+  {
+    "id": "s64_e1281",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1281,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 960,
+    "y": 1840
+  },
+  {
+    "id": "s64_e1282",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1282,
+    "items": [
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ],
+    "itemNames": "还魂香",
+    "message": "获得还魂香",
+    "x": 800,
+    "y": 1824
+  },
+  {
+    "id": "s64_e1284",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1284,
+    "items": [
+      {
+        "id": 64,
+        "name": "净衣符"
+      }
+    ],
+    "itemNames": "净衣符",
+    "message": "获得净衣符",
+    "x": 608,
+    "y": 1680
+  },
+  {
+    "id": "s64_e1285",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1285,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1024,
+    "y": 1424
+  },
+  {
+    "id": "s64_e1286",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1286,
+    "items": [
+      {
+        "id": 66,
+        "name": "天师符"
+      }
+    ],
+    "itemNames": "天师符",
+    "message": "获得天师符",
+    "x": 1232,
+    "y": 1464
+  },
+  {
+    "id": "s64_e1287",
+    "sceneId": 64,
+    "sceneName": "场景 64",
+    "mapNum": 54,
+    "eventId": 1287,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 1680,
+    "y": 1544
+  },
+  {
+    "id": "s65_e1394",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1394,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1264,
+    "y": 1896
+  },
+  {
+    "id": "s65_e1395",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1395,
+    "items": [
+      {
+        "id": 226,
+        "name": "护肩"
+      }
+    ],
+    "itemNames": "护肩",
+    "message": "获得护肩",
+    "x": 512,
+    "y": 1344
+  },
+  {
+    "id": "s65_e1397",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1397,
+    "items": [
+      {
+        "id": 155,
+        "name": "透骨钉"
+      }
+    ],
+    "itemNames": "透骨钉",
+    "message": "获得透骨钉",
+    "x": 976,
+    "y": 680
+  },
+  {
+    "id": "s65_e1398",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1398,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "获得鬼枯藤",
+    "x": 960,
+    "y": 1184
+  },
+  {
+    "id": "s65_e1399",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1399,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1760,
+    "y": 1232
+  },
+  {
+    "id": "s65_e1400",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1400,
+    "items": [
+      {
+        "id": 100,
+        "name": "行军丹"
+      }
+    ],
+    "itemNames": "行军丹",
+    "message": "获得行军丹",
+    "x": 1488,
+    "y": 1224
+  },
+  {
+    "id": "s65_e1401",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1401,
+    "items": [
+      {
+        "id": 250,
+        "name": "铁护腕"
+      }
+    ],
+    "itemNames": "铁护腕",
+    "message": "获得铁护腕",
+    "x": 1280,
+    "y": 1744
+  },
+  {
+    "id": "s65_e1402",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1402,
+    "items": [
+      {
+        "id": 256,
+        "name": "铜镜"
+      }
+    ],
+    "itemNames": "铜镜",
+    "message": "获得铜镜",
+    "x": 1072,
+    "y": 1672
+  },
+  {
+    "id": "s65_e1403",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1403,
+    "items": [
+      {
+        "id": 153,
+        "name": "梅花镖"
+      }
+    ],
+    "itemNames": "梅花镖",
+    "message": "获得梅花镖",
+    "x": 976,
+    "y": 1544
+  },
+  {
+    "id": "s65_e1404",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1404,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "获得鬼枯藤",
+    "x": 656,
+    "y": 632
+  },
+  {
+    "id": "s65_e1405",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1405,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1248,
+    "y": 256
+  },
+  {
+    "id": "s65_e1406",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1406,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 880,
+    "y": 344
+  },
+  {
+    "id": "s65_e1407",
+    "sceneId": 65,
+    "sceneName": "场景 65",
+    "mapNum": 57,
+    "eventId": 1407,
+    "items": [
+      {
+        "id": 169,
+        "name": "大刀"
+      }
+    ],
+    "itemNames": "大刀",
+    "message": "获得大刀",
+    "x": 704,
+    "y": 800
+  },
+  {
+    "id": "s69_e1451",
+    "sceneId": 69,
+    "sceneName": "场景 69",
+    "mapNum": 62,
+    "eventId": 1451,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 1776,
+    "y": 1480
+  },
+  {
+    "id": "s69_e1452",
+    "sceneId": 69,
+    "sceneName": "场景 69",
+    "mapNum": 62,
+    "eventId": 1452,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 880,
+    "y": 1624
+  },
+  {
+    "id": "s69_e1453",
+    "sceneId": 69,
+    "sceneName": "场景 69",
+    "mapNum": 62,
+    "eventId": 1453,
+    "items": [
+      {
+        "id": 104,
+        "name": "鼠儿果"
+      }
+    ],
+    "itemNames": "鼠儿果",
+    "message": "摘得鼠儿果",
+    "x": 912,
+    "y": 1352
+  },
+  {
+    "id": "s69_e1454",
+    "sceneId": 69,
+    "sceneName": "场景 69",
+    "mapNum": 62,
+    "eventId": 1454,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 1232,
+    "y": 904
+  },
+  {
+    "id": "s70_e1462",
+    "sceneId": 70,
+    "sceneName": "场景 70",
+    "mapNum": 63,
+    "eventId": 1462,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 480,
+    "y": 624
+  },
+  {
+    "id": "s70_e1463",
+    "sceneId": 70,
+    "sceneName": "场景 70",
+    "mapNum": 63,
+    "eventId": 1463,
+    "items": [
+      {
+        "id": 154,
+        "name": "袖里剑"
+      }
+    ],
+    "itemNames": "袖里剑",
+    "message": "获得袖里剑",
+    "x": 1328,
+    "y": 696
+  },
+  {
+    "id": "s71_e1471",
+    "sceneId": 71,
+    "sceneName": "场景 71",
+    "mapNum": 64,
+    "eventId": 1471,
+    "items": [
+      {
+        "id": 154,
+        "name": "袖里剑"
+      }
+    ],
+    "itemNames": "袖里剑",
+    "message": "获得袖里剑",
+    "x": 928,
+    "y": 1024
+  },
+  {
+    "id": "s71_e1472",
+    "sceneId": 71,
+    "sceneName": "场景 71",
+    "mapNum": 64,
+    "eventId": 1472,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 1184,
+    "y": 656
+  },
+  {
+    "id": "s72_e1480",
+    "sceneId": 72,
+    "sceneName": "场景 72",
+    "mapNum": 65,
+    "eventId": 1480,
+    "items": [
+      {
+        "id": 100,
+        "name": "行军丹"
+      }
+    ],
+    "itemNames": "行军丹",
+    "message": "获得行军丹",
+    "x": 912,
+    "y": 1320
+  },
+  {
+    "id": "s72_e1481",
+    "sceneId": 72,
+    "sceneName": "场景 72",
+    "mapNum": 65,
+    "eventId": 1481,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 688,
+    "y": 1368
+  },
+  {
+    "id": "s73_e1488",
+    "sceneId": 73,
+    "sceneName": "场景 73",
+    "mapNum": 66,
+    "eventId": 1488,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 736,
+    "y": 800
+  },
+  {
+    "id": "s74_e1491",
+    "sceneId": 74,
+    "sceneName": "场景 74",
+    "mapNum": 67,
+    "eventId": 1491,
+    "items": [
+      {
+        "id": 133,
+        "name": "赤蠍粉"
+      }
+    ],
+    "itemNames": "赤蠍粉",
+    "message": "获得赤蠍粉",
+    "x": 1152,
+    "y": 1120
+  },
+  {
+    "id": "s75_e1496",
+    "sceneId": 75,
+    "sceneName": "场景 75",
+    "mapNum": 68,
+    "eventId": 1496,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1344,
+    "y": 1216
+  },
+  {
+    "id": "s75_e1497",
+    "sceneId": 75,
+    "sceneName": "场景 75",
+    "mapNum": 68,
+    "eventId": 1497,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 304,
+    "y": 696
+  },
+  {
+    "id": "s75_e1498",
+    "sceneId": 75,
+    "sceneName": "场景 75",
+    "mapNum": 68,
+    "eventId": 1498,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "获得止血草",
+    "x": 1184,
+    "y": 992
+  },
+  {
+    "id": "s75_e1499",
+    "sceneId": 75,
+    "sceneName": "场景 75",
+    "mapNum": 68,
+    "eventId": 1499,
+    "items": [
+      {
+        "id": 133,
+        "name": "赤蠍粉"
+      }
+    ],
+    "itemNames": "赤蠍粉",
+    "message": "获得赤蠍粉",
+    "x": 1328,
+    "y": 1208
+  },
+  {
+    "id": "s75_e1500",
+    "sceneId": 75,
+    "sceneName": "场景 75",
+    "mapNum": 68,
+    "eventId": 1500,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 512,
+    "y": 1680
+  },
+  {
+    "id": "s76_e1553",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1553,
+    "items": [
+      {
+        "id": 227,
+        "name": "武士披风"
+      }
+    ],
+    "itemNames": "武士披风",
+    "message": "获得武士披风",
+    "x": 1584,
+    "y": 1256
+  },
+  {
+    "id": "s76_e1554",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1554,
+    "items": [
+      {
+        "id": 211,
+        "name": "铁锁衣"
+      }
+    ],
+    "itemNames": "铁锁衣",
+    "message": "获得铁锁衣",
+    "x": 336,
+    "y": 1128
+  },
+  {
+    "id": "s76_e1555",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1555,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1152,
+    "y": 960
+  },
+  {
+    "id": "s76_e1556",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1556,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1088,
+    "y": 1088
+  },
+  {
+    "id": "s76_e1557",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1557,
+    "items": [
+      {
+        "id": 153,
+        "name": "梅花镖"
+      }
+    ],
+    "itemNames": "梅花镖",
+    "message": "获得梅花镖",
+    "x": 1664,
+    "y": 1040
+  },
+  {
+    "id": "s76_e1558",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1558,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 1696,
+    "y": 1024
+  },
+  {
+    "id": "s76_e1559",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1559,
+    "items": [
+      {
+        "id": 133,
+        "name": "赤蠍粉"
+      }
+    ],
+    "itemNames": "赤蠍粉",
+    "message": "获得赤蠍粉",
+    "x": 1760,
+    "y": 624
+  },
+  {
+    "id": "s76_e1560",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1560,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 544,
+    "y": 496
+  },
+  {
+    "id": "s76_e1561",
+    "sceneId": 76,
+    "sceneName": "场景 76",
+    "mapNum": 72,
+    "eventId": 1561,
+    "items": [
+      {
+        "id": 174,
+        "name": "戒刀"
+      }
+    ],
+    "itemNames": "戒刀",
+    "message": "获得戒刀",
+    "x": 1152,
+    "y": 1104
+  },
+  {
+    "id": "s80_e1591",
+    "sceneId": 80,
+    "sceneName": "场景 80",
+    "mapNum": 77,
+    "eventId": 1591,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 384,
+    "y": 464
+  },
+  {
+    "id": "s80_e1592",
+    "sceneId": 80,
+    "sceneName": "场景 80",
+    "mapNum": 77,
+    "eventId": 1592,
+    "items": [
+      {
+        "id": 104,
+        "name": "鼠儿果"
+      }
+    ],
+    "itemNames": "鼠儿果",
+    "message": "摘得鼠儿果",
+    "x": 1120,
+    "y": 976
+  },
+  {
+    "id": "s92_e1772",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1772,
+    "items": [
+      {
+        "id": 230,
+        "name": "菩提袈裟"
+      }
+    ],
+    "itemNames": "菩提袈裟",
+    "message": "获得菩提袈裟",
+    "x": 672,
+    "y": 1536
+  },
+  {
+    "id": "s92_e1773",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1773,
+    "items": [
+      {
+        "id": 229,
+        "name": "霓虹羽衣"
+      }
+    ],
+    "itemNames": "霓虹羽衣",
+    "message": "获得霓虹羽衣",
+    "x": 640,
+    "y": 1552
+  },
+  {
+    "id": "s92_e1774",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1774,
+    "items": [
+      {
+        "id": 141,
+        "name": "隐蛊"
+      }
+    ],
+    "itemNames": "隐蛊",
+    "message": "获得隐蛊",
+    "x": 608,
+    "y": 1568
+  },
+  {
+    "id": "s92_e1775",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1775,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 864,
+    "y": 1568
+  },
+  {
+    "id": "s92_e1776",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1776,
+    "items": [
+      {
+        "id": 161,
+        "name": "无影神针"
+      }
+    ],
+    "itemNames": "无影神针",
+    "message": "获得无影神针",
+    "x": 816,
+    "y": 1528
+  },
+  {
+    "id": "s92_e1777",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1777,
+    "items": [
+      {
+        "id": 154,
+        "name": "袖里剑"
+      }
+    ],
+    "itemNames": "袖里剑",
+    "message": "得到五把袖里剑",
+    "x": 848,
+    "y": 1592
+  },
+  {
+    "id": "s92_e1780",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1780,
+    "items": [
+      {
+        "id": 109,
+        "name": "天仙玉露"
+      }
+    ],
+    "itemNames": "天仙玉露",
+    "message": "获得天仙玉露",
+    "x": 512,
+    "y": 1680
+  },
+  {
+    "id": "s92_e1781",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1781,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 544,
+    "y": 1664
+  },
+  {
+    "id": "s92_e1782",
+    "sceneId": 92,
+    "sceneName": "场景 92",
+    "mapNum": 85,
+    "eventId": 1782,
+    "items": [
+      {
+        "id": 242,
+        "name": "疾风靴"
+      }
+    ],
+    "itemNames": "疾风靴",
+    "message": "获得疾风靴",
+    "x": 592,
+    "y": 1640
+  },
+  {
+    "id": "s100_e1893",
+    "sceneId": 100,
+    "sceneName": "场景 100",
+    "mapNum": 105,
+    "eventId": 1893,
+    "items": [
+      {
+        "id": 287,
+        "name": "情书"
+      }
+    ],
+    "itemNames": "情书",
+    "message": "守卫阿辉：",
+    "x": 528,
+    "y": 248
+  },
+  {
+    "id": "s101_e1944",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1944,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "摘得鬼枯藤",
+    "x": 384,
+    "y": 464
+  },
+  {
+    "id": "s101_e1945",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1945,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1680,
+    "y": 1528
+  },
+  {
+    "id": "s101_e1946",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1946,
+    "items": [
+      {
+        "id": 91,
+        "name": "十里香"
+      }
+    ],
+    "itemNames": "十里香",
+    "message": "获得十里香",
+    "x": 1808,
+    "y": 1416
+  },
+  {
+    "id": "s101_e1947",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1947,
+    "items": [
+      {
+        "id": 74,
+        "name": "银杏子"
+      }
+    ],
+    "itemNames": "银杏子",
+    "message": "采得银杏子",
+    "x": 1392,
+    "y": 1096
+  },
+  {
+    "id": "s101_e1948",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1948,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1376,
+    "y": 1536
+  },
+  {
+    "id": "s101_e1949",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1949,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "摘得忘魂花",
+    "x": 1264,
+    "y": 1576
+  },
+  {
+    "id": "s101_e1950",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1950,
+    "items": [
+      {
+        "id": 119,
+        "name": "毒蟾卵"
+      }
+    ],
+    "itemNames": "毒蟾卵",
+    "message": "获得９个毒蟾卵",
+    "x": 624,
+    "y": 1432
+  },
+  {
+    "id": "s101_e1951",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1951,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "摘得鬼枯藤",
+    "x": 384,
+    "y": 1360
+  },
+  {
+    "id": "s101_e1952",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1952,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "获得紫罂粟",
+    "x": 656,
+    "y": 408
+  },
+  {
+    "id": "s101_e1953",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1953,
+    "items": [
+      {
+        "id": 134,
+        "name": "化屍水"
+      }
+    ],
+    "itemNames": "化屍水",
+    "message": "获得化屍水",
+    "x": 560,
+    "y": 376
+  },
+  {
+    "id": "s101_e1954",
+    "sceneId": 101,
+    "sceneName": "场景 101",
+    "mapNum": 98,
+    "eventId": 1954,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 736,
+    "y": 1056
+  },
+  {
+    "id": "s102_e1963",
+    "sceneId": 102,
+    "sceneName": "场景 102",
+    "mapNum": 97,
+    "eventId": 1963,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 1824,
+    "y": 1744
+  },
+  {
+    "id": "s102_e1964",
+    "sceneId": 102,
+    "sceneName": "场景 102",
+    "mapNum": 97,
+    "eventId": 1964,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1760,
+    "y": 624
+  },
+  {
+    "id": "s102_e1965",
+    "sceneId": 102,
+    "sceneName": "场景 102",
+    "mapNum": 97,
+    "eventId": 1965,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 1024,
+    "y": 672
+  },
+  {
+    "id": "s103_e1994",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1994,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 880,
+    "y": 1256
+  },
+  {
+    "id": "s103_e1995",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1995,
+    "items": [
+      {
+        "id": 140,
+        "name": "幻蛊"
+      }
+    ],
+    "itemNames": "幻蛊",
+    "message": "获得幻蛊",
+    "x": 720,
+    "y": 1336
+  },
+  {
+    "id": "s103_e1996",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1996,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 832,
+    "y": 1392
+  },
+  {
+    "id": "s103_e1997",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1997,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 896,
+    "y": 1312
+  },
+  {
+    "id": "s103_e1998",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1998,
+    "items": [
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ],
+    "itemNames": "九阴散",
+    "message": "获得九阴散",
+    "x": 368,
+    "y": 1192
+  },
+  {
+    "id": "s103_e1999",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 1999,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 416,
+    "y": 1216
+  },
+  {
+    "id": "s103_e2000",
+    "sceneId": 103,
+    "sceneName": "场景 103",
+    "mapNum": 99,
+    "eventId": 2000,
+    "items": [
+      {
+        "id": 141,
+        "name": "隐蛊"
+      }
+    ],
+    "itemNames": "隐蛊",
+    "message": "获得隐蛊",
+    "x": 1168,
+    "y": 1080
+  },
+  {
+    "id": "s104_e2031",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2031,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "获得紫罂粟",
+    "x": 880,
+    "y": 1464
+  },
+  {
+    "id": "s104_e2032",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2032,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 816,
+    "y": 1640
+  },
+  {
+    "id": "s104_e2033",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2033,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1632,
+    "y": 1296
+  },
+  {
+    "id": "s104_e2034",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2034,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 1328,
+    "y": 680
+  },
+  {
+    "id": "s104_e2035",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2035,
+    "items": [
+      {
+        "id": 145,
+        "name": "灵蛊"
+      }
+    ],
+    "itemNames": "灵蛊",
+    "message": "获得灵蛊",
+    "x": 320,
+    "y": 720
+  },
+  {
+    "id": "s104_e2036",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2036,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 592,
+    "y": 568
+  },
+  {
+    "id": "s104_e2037",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2037,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1440,
+    "y": 432
+  },
+  {
+    "id": "s104_e2038",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2038,
+    "items": [
+      {
+        "id": 119,
+        "name": "毒蟾卵"
+      }
+    ],
+    "itemNames": "毒蟾卵",
+    "message": "获得９个毒蟾卵",
+    "x": 832,
+    "y": 992
+  },
+  {
+    "id": "s104_e2039",
+    "sceneId": 104,
+    "sceneName": "场景 104",
+    "mapNum": 100,
+    "eventId": 2039,
+    "items": [
+      {
+        "id": 132,
+        "name": "雪蛤蟆"
+      }
+    ],
+    "itemNames": "雪蛤蟆",
+    "message": "获得雪蛤蟆",
+    "x": 880,
+    "y": 792
+  },
+  {
+    "id": "s119_e2262",
+    "sceneId": 119,
+    "sceneName": "场景 119",
+    "mapNum": 111,
+    "eventId": 2262,
+    "items": [
+      {
+        "id": 83,
+        "name": "檀香"
+      },
+      {
+        "id": 81,
+        "name": "蜡烛"
+      }
+    ],
+    "itemNames": "檀香、蜡烛",
+    "message": "得到檀香、蜡烛",
+    "x": 496,
+    "y": 776
+  },
+  {
+    "id": "s119_e2263",
+    "sceneId": 119,
+    "sceneName": "场景 119",
+    "mapNum": 111,
+    "eventId": 2263,
+    "items": [
+      {
+        "id": 82,
+        "name": "符纸"
+      }
+    ],
+    "itemNames": "符纸",
+    "message": "得到符纸",
+    "x": 560,
+    "y": 552
+  },
+  {
+    "id": "s139_e2434",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2434,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "摘得鬼枯藤",
+    "x": 944,
+    "y": 1384
+  },
+  {
+    "id": "s139_e2435",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2435,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 1328,
+    "y": 1720
+  },
+  {
+    "id": "s139_e2436",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2436,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "摘得忘魂花",
+    "x": 1136,
+    "y": 1224
+  },
+  {
+    "id": "s139_e2437",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2437,
+    "items": [
+      {
+        "id": 159,
+        "name": "缠魂丝"
+      }
+    ],
+    "itemNames": "缠魂丝",
+    "message": "获得缠魂丝",
+    "x": 1488,
+    "y": 344
+  },
+  {
+    "id": "s139_e2438",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2438,
+    "items": [
+      {
+        "id": 120,
+        "name": "蜘蛛卵"
+      }
+    ],
+    "itemNames": "蜘蛛卵",
+    "message": "获得９个蜘蛛卵",
+    "x": 1040,
+    "y": 456
+  },
+  {
+    "id": "s139_e2439",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2439,
+    "items": [
+      {
+        "id": 115,
+        "name": "蜂巢"
+      }
+    ],
+    "itemNames": "蜂巢",
+    "message": "获得蜂巢",
+    "x": 992,
+    "y": 608
+  },
+  {
+    "id": "s139_e2440",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2440,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "获得灵山仙芝",
+    "x": 848,
+    "y": 824
+  },
+  {
+    "id": "s139_e2441",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2441,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "获得醍醐香",
+    "x": 1312,
+    "y": 432
+  },
+  {
+    "id": "s139_e2442",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2442,
+    "items": [
+      {
+        "id": 91,
+        "name": "十里香"
+      }
+    ],
+    "itemNames": "十里香",
+    "message": "获得十里香",
+    "x": 1632,
+    "y": 672
+  },
+  {
+    "id": "s139_e2443",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2443,
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      }
+    ],
+    "itemNames": "九节菖蒲",
+    "message": "获得九节菖蒲",
+    "x": 768,
+    "y": 992
+  },
+  {
+    "id": "s139_e2444",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2444,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1792,
+    "y": 1712
+  },
+  {
+    "id": "s139_e2445",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2445,
+    "items": [
+      {
+        "id": 120,
+        "name": "蜘蛛卵"
+      }
+    ],
+    "itemNames": "蜘蛛卵",
+    "message": "获得９个蜘蛛卵",
+    "x": 1184,
+    "y": 816
+  },
+  {
+    "id": "s139_e2446",
+    "sceneId": 139,
+    "sceneName": "场景 139",
+    "mapNum": 129,
+    "eventId": 2446,
+    "items": [
+      {
+        "id": 99,
+        "name": "止血草"
+      }
+    ],
+    "itemNames": "止血草",
+    "message": "摘得止血草",
+    "x": 944,
+    "y": 1112
+  },
+  {
+    "id": "s147_e2483",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2483,
+    "items": [
+      {
+        "id": 186,
+        "name": "七星剑"
+      }
+    ],
+    "itemNames": "七星剑",
+    "message": "得到一把\"七星剑\"",
+    "x": 1472,
+    "y": 1136
+  },
+  {
+    "id": "s147_e2499",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2499,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 656,
+    "y": 1240
+  },
+  {
+    "id": "s147_e2500",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2500,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 656,
+    "y": 584
+  },
+  {
+    "id": "s147_e2501",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2501,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 880,
+    "y": 632
+  },
+  {
+    "id": "s147_e2502",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2502,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 944,
+    "y": 600
+  },
+  {
+    "id": "s147_e2503",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2503,
+    "items": [
+      {
+        "id": 91,
+        "name": "十里香"
+      }
+    ],
+    "itemNames": "十里香",
+    "message": "获得十里香",
+    "x": 1504,
+    "y": 864
+  },
+  {
+    "id": "s147_e2504",
+    "sceneId": 147,
+    "sceneName": "场景 147",
+    "mapNum": 144,
+    "eventId": 2504,
+    "items": [
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ],
+    "itemNames": "灵葫仙丹",
+    "message": "获得灵葫仙丹",
+    "x": 336,
+    "y": 1032
+  },
+  {
+    "id": "s148_e2538",
+    "sceneId": 148,
+    "sceneName": "场景 148",
+    "mapNum": 146,
+    "eventId": 2538,
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      }
+    ],
+    "itemNames": "九节菖蒲",
+    "message": "获得九节菖蒲",
+    "x": 1184,
+    "y": 688
+  },
+  {
+    "id": "s148_e2539",
+    "sceneId": 148,
+    "sceneName": "场景 148",
+    "mapNum": 146,
+    "eventId": 2539,
+    "items": [
+      {
+        "id": 203,
+        "name": "天师帽"
+      }
+    ],
+    "itemNames": "天师帽",
+    "message": "获得天师帽",
+    "x": 1248,
+    "y": 1312
+  },
+  {
+    "id": "s148_e2540",
+    "sceneId": 148,
+    "sceneName": "场景 148",
+    "mapNum": 146,
+    "eventId": 2540,
+    "items": [
+      {
+        "id": 72,
+        "name": "舍利子"
+      }
+    ],
+    "itemNames": "舍利子",
+    "message": "获得舍利子",
+    "x": 848,
+    "y": 1080
+  },
+  {
+    "id": "s148_e2541",
+    "sceneId": 148,
+    "sceneName": "场景 148",
+    "mapNum": 146,
+    "eventId": 2541,
+    "items": [
+      {
+        "id": 65,
+        "name": "灵心符"
+      }
+    ],
+    "itemNames": "灵心符",
+    "message": "获得灵心符",
+    "x": 608,
+    "y": 864
+  },
+  {
+    "id": "s148_e2542",
+    "sceneId": 148,
+    "sceneName": "场景 148",
+    "mapNum": 146,
+    "eventId": 2542,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "获得灵山仙芝",
+    "x": 656,
+    "y": 680
+  },
+  {
+    "id": "s154_e2607",
+    "sceneId": 154,
+    "sceneName": "场景 154",
+    "mapNum": 147,
+    "eventId": 2607,
+    "items": [
+      {
+        "id": 102,
+        "name": "蟠果"
+      }
+    ],
+    "itemNames": "蟠果",
+    "message": "获得蟠果",
+    "x": 944,
+    "y": 824
+  },
+  {
+    "id": "s154_e2608",
+    "sceneId": 154,
+    "sceneName": "场景 154",
+    "mapNum": 147,
+    "eventId": 2608,
+    "items": [
+      {
+        "id": 180,
+        "name": "凤鸣刀"
+      }
+    ],
+    "itemNames": "凤鸣刀",
+    "message": "获得凤鸣刀",
+    "x": 320,
+    "y": 1136
+  },
+  {
+    "id": "s154_e2609",
+    "sceneId": 154,
+    "sceneName": "场景 154",
+    "mapNum": 147,
+    "eventId": 2609,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 800,
+    "y": 1168
+  },
+  {
+    "id": "s154_e2610",
+    "sceneId": 154,
+    "sceneName": "场景 154",
+    "mapNum": 147,
+    "eventId": 2610,
+    "items": [
+      {
+        "id": 91,
+        "name": "十里香"
+      }
+    ],
+    "itemNames": "十里香",
+    "message": "获得十里香",
+    "x": 352,
+    "y": 752
+  },
+  {
+    "id": "s154_e2611",
+    "sceneId": 154,
+    "sceneName": "场景 154",
+    "mapNum": 147,
+    "eventId": 2611,
+    "items": [
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ],
+    "itemNames": "灵葫仙丹",
+    "message": "获得灵葫仙丹",
+    "x": 704,
+    "y": 576
+  },
+  {
+    "id": "s156_e2680",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2680,
+    "items": [
+      {
+        "id": 102,
+        "name": "蟠果"
+      }
+    ],
+    "itemNames": "蟠果",
+    "message": "获得蟠果",
+    "x": 1584,
+    "y": 312
+  },
+  {
+    "id": "s156_e2681",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2681,
+    "items": [
+      {
+        "id": 134,
+        "name": "化屍水"
+      }
+    ],
+    "itemNames": "化屍水",
+    "message": "获得化屍水",
+    "x": 1408,
+    "y": 592
+  },
+  {
+    "id": "s156_e2682",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2682,
+    "items": [
+      {
+        "id": 257,
+        "name": "八卦镜"
+      }
+    ],
+    "itemNames": "八卦镜",
+    "message": "获得八卦镜",
+    "x": 816,
+    "y": 472
+  },
+  {
+    "id": "s156_e2683",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2683,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 992,
+    "y": 704
+  },
+  {
+    "id": "s156_e2684",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2684,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 704,
+    "y": 688
+  },
+  {
+    "id": "s156_e2685",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2685,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "获得观音符",
+    "x": 816,
+    "y": 872
+  },
+  {
+    "id": "s156_e2687",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2687,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 640,
+    "y": 1504
+  },
+  {
+    "id": "s156_e2688",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2688,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 1456,
+    "y": 1432
+  },
+  {
+    "id": "s156_e2689",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2689,
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      }
+    ],
+    "itemNames": "九节菖蒲",
+    "message": "获得九节菖蒲",
+    "x": 1344,
+    "y": 1744
+  },
+  {
+    "id": "s156_e2690",
+    "sceneId": 156,
+    "sceneName": "场景 156",
+    "mapNum": 156,
+    "eventId": 2690,
+    "items": [
+      {
+        "id": 62,
+        "name": "圣灵符"
+      }
+    ],
+    "itemNames": "圣灵符",
+    "message": "获得圣灵符",
+    "x": 1040,
+    "y": 1784
+  },
+  {
+    "id": "s165_e2843",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2843,
+    "items": [
+      {
+        "id": 72,
+        "name": "舍利子"
+      }
+    ],
+    "itemNames": "舍利子",
+    "message": "获得舍利子",
+    "x": 1136,
+    "y": 296
+  },
+  {
+    "id": "s165_e2844",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2844,
+    "items": [
+      {
+        "id": 68,
+        "name": "雷灵符"
+      }
+    ],
+    "itemNames": "雷灵符",
+    "message": "获得雷灵符",
+    "x": 736,
+    "y": 384
+  },
+  {
+    "id": "s165_e2845",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2845,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "获得观音符",
+    "x": 832,
+    "y": 432
+  },
+  {
+    "id": "s165_e2846",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2846,
+    "items": [
+      {
+        "id": 70,
+        "name": "火灵符"
+      }
+    ],
+    "itemNames": "火灵符",
+    "message": "获得火灵符",
+    "x": 1616,
+    "y": 328
+  },
+  {
+    "id": "s165_e2847",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2847,
+    "items": [
+      {
+        "id": 71,
+        "name": "土灵符"
+      }
+    ],
+    "itemNames": "土灵符",
+    "message": "获得土灵符",
+    "x": 1760,
+    "y": 464
+  },
+  {
+    "id": "s165_e2848",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2848,
+    "items": [
+      {
+        "id": 72,
+        "name": "舍利子"
+      }
+    ],
+    "itemNames": "舍利子",
+    "message": "获得舍利子",
+    "x": 1184,
+    "y": 864
+  },
+  {
+    "id": "s165_e2849",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2849,
+    "items": [
+      {
+        "id": 63,
+        "name": "金刚符"
+      }
+    ],
+    "itemNames": "金刚符",
+    "message": "获得金刚符",
+    "x": 1664,
+    "y": 1872
+  },
+  {
+    "id": "s165_e2850",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2850,
+    "items": [
+      {
+        "id": 69,
+        "name": "水灵符"
+      }
+    ],
+    "itemNames": "水灵符",
+    "message": "获得水灵符",
+    "x": 1056,
+    "y": 1472
+  },
+  {
+    "id": "s165_e2851",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2851,
+    "items": [
+      {
+        "id": 74,
+        "name": "银杏子"
+      }
+    ],
+    "itemNames": "银杏子",
+    "message": "获得银杏子",
+    "x": 1120,
+    "y": 1856
+  },
+  {
+    "id": "s165_e2852",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2852,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 752,
+    "y": 1816
+  },
+  {
+    "id": "s165_e2853",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2853,
+    "items": [
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ],
+    "itemNames": "还魂香",
+    "message": "获得还魂香",
+    "x": 352,
+    "y": 880
+  },
+  {
+    "id": "s165_e2854",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2854,
+    "items": [
+      {
+        "id": 67,
+        "name": "风灵符"
+      }
+    ],
+    "itemNames": "风灵符",
+    "message": "获得风灵符",
+    "x": 464,
+    "y": 936
+  },
+  {
+    "id": "s165_e2855",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2855,
+    "items": [
+      {
+        "id": 66,
+        "name": "天师符"
+      }
+    ],
+    "itemNames": "天师符",
+    "message": "获得天师符",
+    "x": 1536,
+    "y": 720
+  },
+  {
+    "id": "s165_e2856",
+    "sceneId": 165,
+    "sceneName": "场景 165",
+    "mapNum": 142,
+    "eventId": 2856,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 1632,
+    "y": 768
+  },
+  {
+    "id": "s166_e2891",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2891,
+    "items": [
+      {
+        "id": 62,
+        "name": "圣灵符"
+      }
+    ],
+    "itemNames": "圣灵符",
+    "message": "获得圣灵符",
+    "x": 1168,
+    "y": 408
+  },
+  {
+    "id": "s166_e2892",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2892,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "获得龙涎草",
+    "x": 1344,
+    "y": 480
+  },
+  {
+    "id": "s166_e2893",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2893,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 624,
+    "y": 1528
+  },
+  {
+    "id": "s166_e2894",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2894,
+    "items": [
+      {
+        "id": 105,
+        "name": "还神丹"
+      }
+    ],
+    "itemNames": "还神丹",
+    "message": "获得还神丹",
+    "x": 1616,
+    "y": 328
+  },
+  {
+    "id": "s166_e2896",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2896,
+    "items": [
+      {
+        "id": 101,
+        "name": "金创药"
+      }
+    ],
+    "itemNames": "金创药",
+    "message": "获得金创药",
+    "x": 1184,
+    "y": 864
+  },
+  {
+    "id": "s166_e2897",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2897,
+    "items": [
+      {
+        "id": 74,
+        "name": "银杏子"
+      }
+    ],
+    "itemNames": "银杏子",
+    "message": "获得银杏子",
+    "x": 400,
+    "y": 648
+  },
+  {
+    "id": "s166_e2898",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2898,
+    "items": [
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ],
+    "itemNames": "还魂香",
+    "message": "获得还魂香",
+    "x": 1056,
+    "y": 1376
+  },
+  {
+    "id": "s166_e2899",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2899,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "获得龙涎草",
+    "x": 1024,
+    "y": 1568
+  },
+  {
+    "id": "s166_e2900",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2900,
+    "items": [
+      {
+        "id": 102,
+        "name": "蟠果"
+      }
+    ],
+    "itemNames": "蟠果",
+    "message": "获得蟠果",
+    "x": 1104,
+    "y": 1608
+  },
+  {
+    "id": "s166_e2901",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2901,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "获得观音符",
+    "x": 1760,
+    "y": 1088
+  },
+  {
+    "id": "s166_e2902",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2902,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 464,
+    "y": 936
+  },
+  {
+    "id": "s166_e2903",
+    "sceneId": 166,
+    "sceneName": "场景 166",
+    "mapNum": 143,
+    "eventId": 2903,
+    "items": [
+      {
+        "id": 61,
+        "name": "观音符"
+      }
+    ],
+    "itemNames": "观音符",
+    "message": "获得观音符",
+    "x": 1120,
+    "y": 912
+  },
+  {
+    "id": "s167_e2947",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2947,
+    "items": [
+      {
+        "id": 73,
+        "name": "玉菩提"
+      }
+    ],
+    "itemNames": "玉菩提",
+    "message": "获得玉菩提",
+    "x": 1264,
+    "y": 552
+  },
+  {
+    "id": "s167_e2948",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2948,
+    "items": [
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ],
+    "itemNames": "綑仙绳",
+    "message": "获得綑仙绳",
+    "x": 912,
+    "y": 312
+  },
+  {
+    "id": "s167_e2949",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2949,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 1584,
+    "y": 968
+  },
+  {
+    "id": "s167_e2950",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2950,
+    "items": [
+      {
+        "id": 219,
+        "name": "鬼针胄"
+      }
+    ],
+    "itemNames": "鬼针胄",
+    "message": "获得鬼针胄",
+    "x": 1168,
+    "y": 1208
+  },
+  {
+    "id": "s167_e2951",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2951,
+    "items": [
+      {
+        "id": 154,
+        "name": "袖里剑"
+      }
+    ],
+    "itemNames": "袖里剑",
+    "message": "获得袖里剑",
+    "x": 1040,
+    "y": 888
+  },
+  {
+    "id": "s167_e2952",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2952,
+    "items": [
+      {
+        "id": 257,
+        "name": "八卦镜"
+      }
+    ],
+    "itemNames": "八卦镜",
+    "message": "获得八卦镜",
+    "x": 1760,
+    "y": 1168
+  },
+  {
+    "id": "s167_e2953",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2953,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "获得龙涎草",
+    "x": 912,
+    "y": 1720
+  },
+  {
+    "id": "s167_e2954",
+    "sceneId": 167,
+    "sceneName": "场景 167",
+    "mapNum": 145,
+    "eventId": 2954,
+    "items": [
+      {
+        "id": 63,
+        "name": "金刚符"
+      }
+    ],
+    "itemNames": "金刚符",
+    "message": "获得金刚符",
+    "x": 320,
+    "y": 624
+  },
+  {
+    "id": "s168_e2976",
+    "sceneId": 168,
+    "sceneName": "场景 168",
+    "mapNum": 148,
+    "eventId": 2976,
+    "items": [
+      {
+        "id": 181,
+        "name": "双龙剑"
+      }
+    ],
+    "itemNames": "双龙剑",
+    "message": "获得双龙剑",
+    "x": 752,
+    "y": 584
+  },
+  {
+    "id": "s168_e2977",
+    "sceneId": 168,
+    "sceneName": "场景 168",
+    "mapNum": 148,
+    "eventId": 2977,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 1808,
+    "y": 696
+  },
+  {
+    "id": "s168_e2978",
+    "sceneId": 168,
+    "sceneName": "场景 168",
+    "mapNum": 148,
+    "eventId": 2978,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 1408,
+    "y": 576
+  },
+  {
+    "id": "s176_e3079",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3079,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 1040,
+    "y": 584
+  },
+  {
+    "id": "s176_e3080",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3080,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 928,
+    "y": 592
+  },
+  {
+    "id": "s176_e3081",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3081,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 1072,
+    "y": 616
+  },
+  {
+    "id": "s176_e3082",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3082,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "摘得一株紫罂粟",
+    "x": 784,
+    "y": 584
+  },
+  {
+    "id": "s176_e3083",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3083,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "摘得一株醍醐香",
+    "x": 624,
+    "y": 760
+  },
+  {
+    "id": "s176_e3084",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3084,
+    "items": [
+      {
+        "id": 129,
+        "name": "鬼枯藤"
+      }
+    ],
+    "itemNames": "鬼枯藤",
+    "message": "摘得一株鬼枯藤",
+    "x": 240,
+    "y": 1288
+  },
+  {
+    "id": "s176_e3086",
+    "sceneId": 176,
+    "sceneName": "场景 176",
+    "mapNum": 201,
+    "eventId": 3086,
+    "items": [
+      {
+        "id": 291,
+        "name": "香蕉"
+      }
+    ],
+    "itemNames": "香蕉",
+    "message": "摘得两支\"香蕉\"",
+    "x": 1776,
+    "y": 872
+  },
+  {
+    "id": "s179_e3111",
+    "sceneId": 179,
+    "sceneName": "场景 179",
+    "mapNum": 149,
+    "eventId": 3111,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 1584,
+    "y": 744
+  },
+  {
+    "id": "s179_e3112",
+    "sceneId": 179,
+    "sceneName": "场景 179",
+    "mapNum": 149,
+    "eventId": 3112,
+    "items": [
+      {
+        "id": 125,
+        "name": "断肠草"
+      }
+    ],
+    "itemNames": "断肠草",
+    "message": "摘得断肠草",
+    "x": 1488,
+    "y": 872
+  },
+  {
+    "id": "s180_e3127",
+    "sceneId": 180,
+    "sceneName": "场景 180",
+    "mapNum": 157,
+    "eventId": 3127,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 480,
+    "y": 1696
+  },
+  {
+    "id": "s180_e3130",
+    "sceneId": 180,
+    "sceneName": "场景 180",
+    "mapNum": 157,
+    "eventId": 3130,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 704,
+    "y": 832
+  },
+  {
+    "id": "s184_e3186",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3186,
+    "items": [
+      {
+        "id": 268,
+        "name": "炼蛊皿"
+      }
+    ],
+    "itemNames": "炼蛊皿",
+    "message": "获得炼蛊皿",
+    "x": 992,
+    "y": 192
+  },
+  {
+    "id": "s184_e3187",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3187,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 1056,
+    "y": 224
+  },
+  {
+    "id": "s184_e3188",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3188,
+    "items": [
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ],
+    "itemNames": "灵葫仙丹",
+    "message": "获得灵葫仙丹",
+    "x": 1168,
+    "y": 824
+  },
+  {
+    "id": "s184_e3189",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3189,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1088,
+    "y": 704
+  },
+  {
+    "id": "s184_e3190",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3190,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 1296,
+    "y": 1352
+  },
+  {
+    "id": "s184_e3191",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3191,
+    "items": [
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ],
+    "itemNames": "綑仙绳",
+    "message": "获得綑仙绳",
+    "x": 800,
+    "y": 1648
+  },
+  {
+    "id": "s184_e3192",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3192,
+    "items": [
+      {
+        "id": 161,
+        "name": "无影神针"
+      }
+    ],
+    "itemNames": "无影神针",
+    "message": "获得无影神针",
+    "x": 720,
+    "y": 1672
+  },
+  {
+    "id": "s184_e3193",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3193,
+    "items": [
+      {
+        "id": 162,
+        "name": "血玲胧"
+      }
+    ],
+    "itemNames": "血玲胧",
+    "message": "获得血玲珑",
+    "x": 448,
+    "y": 1888
+  },
+  {
+    "id": "s184_e3194",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3194,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 688,
+    "y": 984
+  },
+  {
+    "id": "s184_e3195",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3195,
+    "items": [
+      {
+        "id": 189,
+        "name": "磐龙剑"
+      }
+    ],
+    "itemNames": "磐龙剑",
+    "message": "获得磐龙剑",
+    "x": 720,
+    "y": 1000
+  },
+  {
+    "id": "s184_e3196",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3196,
+    "items": [
+      {
+        "id": 258,
+        "name": "干坤镜"
+      }
+    ],
+    "itemNames": "干坤镜",
+    "message": "获得乾坤镜",
+    "x": 816,
+    "y": 1048
+  },
+  {
+    "id": "s184_e3197",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3197,
+    "items": [
+      {
+        "id": 204,
+        "name": "紫金冠"
+      }
+    ],
+    "itemNames": "紫金冠",
+    "message": "获得紫金冠",
+    "x": 848,
+    "y": 1064
+  },
+  {
+    "id": "s184_e3198",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3198,
+    "items": [
+      {
+        "id": 179,
+        "name": "苗刀"
+      }
+    ],
+    "itemNames": "苗刀",
+    "message": "获得苗刀",
+    "x": 656,
+    "y": 1000
+  },
+  {
+    "id": "s184_e3201",
+    "sceneId": 184,
+    "sceneName": "场景 184",
+    "mapNum": 154,
+    "eventId": 3201,
+    "items": [
+      {
+        "id": 252,
+        "name": "珍珠"
+      }
+    ],
+    "itemNames": "珍珠",
+    "message": "获得珍珠",
+    "x": 560,
+    "y": 1048
+  },
+  {
+    "id": "s186_e3311",
+    "sceneId": 186,
+    "sceneName": "场景 186",
+    "mapNum": 150,
+    "eventId": 3311,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "摘得醍醐香",
+    "x": 368,
+    "y": 1352
+  },
+  {
+    "id": "s186_e3312",
+    "sceneId": 186,
+    "sceneName": "场景 186",
+    "mapNum": 150,
+    "eventId": 3312,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "摘得忘魂花",
+    "x": 1296,
+    "y": 1688
+  },
+  {
+    "id": "s186_e3313",
+    "sceneId": 186,
+    "sceneName": "场景 186",
+    "mapNum": 150,
+    "eventId": 3313,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 1040,
+    "y": 1336
+  },
+  {
+    "id": "s186_e3314",
+    "sceneId": 186,
+    "sceneName": "场景 186",
+    "mapNum": 150,
+    "eventId": 3314,
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      }
+    ],
+    "itemNames": "九节菖蒲",
+    "message": "获得九节菖蒲",
+    "x": 880,
+    "y": 1128
+  },
+  {
+    "id": "s186_e3315",
+    "sceneId": 186,
+    "sceneName": "场景 186",
+    "mapNum": 150,
+    "eventId": 3315,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1728,
+    "y": 1056
+  },
+  {
+    "id": "s188_e3323",
+    "sceneId": 188,
+    "sceneName": "场景 188",
+    "mapNum": 153,
+    "eventId": 3323,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 1776,
+    "y": 1080
+  },
+  {
+    "id": "s188_e3324",
+    "sceneId": 188,
+    "sceneName": "场景 188",
+    "mapNum": 153,
+    "eventId": 3324,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1696,
+    "y": 1520
+  },
+  {
+    "id": "s188_e3325",
+    "sceneId": 188,
+    "sceneName": "场景 188",
+    "mapNum": 153,
+    "eventId": 3325,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 912,
+    "y": 1144
+  },
+  {
+    "id": "s189_e3363",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3363,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1056,
+    "y": 1792
+  },
+  {
+    "id": "s189_e3364",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3364,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 352,
+    "y": 1408
+  },
+  {
+    "id": "s189_e3365",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3365,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 1200,
+    "y": 1224
+  },
+  {
+    "id": "s189_e3366",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3366,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 784,
+    "y": 1016
+  },
+  {
+    "id": "s189_e3367",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3367,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 736,
+    "y": 880
+  },
+  {
+    "id": "s189_e3368",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3368,
+    "items": [
+      {
+        "id": 146,
+        "name": "爆烈蛊"
+      }
+    ],
+    "itemNames": "爆烈蛊",
+    "message": "获得爆烈蛊",
+    "x": 1136,
+    "y": 792
+  },
+  {
+    "id": "s189_e3369",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3369,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1680,
+    "y": 584
+  },
+  {
+    "id": "s189_e3370",
+    "sceneId": 189,
+    "sceneName": "场景 189",
+    "mapNum": 200,
+    "eventId": 3370,
+    "items": [
+      {
+        "id": 255,
+        "name": "银针"
+      }
+    ],
+    "itemNames": "银针",
+    "message": "获得银针",
+    "x": 496,
+    "y": 328
+  },
+  {
+    "id": "s190_e3392",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3392,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 736,
+    "y": 1296
+  },
+  {
+    "id": "s190_e3393",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3393,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 272,
+    "y": 1144
+  },
+  {
+    "id": "s190_e3394",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3394,
+    "items": [
+      {
+        "id": 145,
+        "name": "灵蛊"
+      }
+    ],
+    "itemNames": "灵蛊",
+    "message": "获得灵蛊",
+    "x": 1312,
+    "y": 592
+  },
+  {
+    "id": "s190_e3395",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3395,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 928,
+    "y": 832
+  },
+  {
+    "id": "s190_e3396",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3396,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 576,
+    "y": 1056
+  },
+  {
+    "id": "s190_e3397",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3397,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 720,
+    "y": 600
+  },
+  {
+    "id": "s190_e3398",
+    "sceneId": 190,
+    "sceneName": "场景 190",
+    "mapNum": 159,
+    "eventId": 3398,
+    "items": [
+      {
+        "id": 110,
+        "name": "神仙茶"
+      }
+    ],
+    "itemNames": "神仙茶",
+    "message": "获得神仙茶",
+    "x": 1088,
+    "y": 1056
+  },
+  {
+    "id": "s192_e3503",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3503,
+    "items": [
+      {
+        "id": 73,
+        "name": "玉菩提"
+      }
+    ],
+    "itemNames": "玉菩提",
+    "message": "摘得玉菩提",
+    "x": 320,
+    "y": 1504
+  },
+  {
+    "id": "s192_e3504",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3504,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 256,
+    "y": 1520
+  },
+  {
+    "id": "s192_e3505",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3505,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 672,
+    "y": 1184
+  },
+  {
+    "id": "s192_e3506",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3506,
+    "items": [
+      {
+        "id": 74,
+        "name": "银杏子"
+      }
+    ],
+    "itemNames": "银杏子",
+    "message": "采得银杏子",
+    "x": 1344,
+    "y": 1088
+  },
+  {
+    "id": "s192_e3507",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3507,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "摘得龙涎草",
+    "x": 1136,
+    "y": 632
+  },
+  {
+    "id": "s192_e3508",
+    "sceneId": 192,
+    "sceneName": "场景 192",
+    "mapNum": 151,
+    "eventId": 3508,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "采得灵山仙芝",
+    "x": 672,
+    "y": 224
+  },
+  {
+    "id": "s200_e3543",
+    "sceneId": 200,
+    "sceneName": "场景 200",
+    "mapNum": 187,
+    "eventId": 3543,
+    "items": [
+      {
+        "id": 266,
+        "name": "火灵珠"
+      }
+    ],
+    "itemNames": "火灵珠",
+    "message": "李逍遥：",
+    "x": 1584,
+    "y": 1448
+  },
+  {
+    "id": "s213_e3871",
+    "sceneId": 213,
+    "sceneName": "场景 213",
+    "mapNum": 225,
+    "eventId": 3871,
+    "items": [
+      {
+        "id": 187,
+        "name": "玄冥宝刀"
+      }
+    ],
+    "itemNames": "玄冥宝刀",
+    "message": "获得玄冥宝刀",
+    "x": 1472,
+    "y": 1072
+  },
+  {
+    "id": "s213_e3872",
+    "sceneId": 213,
+    "sceneName": "场景 213",
+    "mapNum": 225,
+    "eventId": 3872,
+    "items": [
+      {
+        "id": 194,
+        "name": "冥蛇杖"
+      }
+    ],
+    "itemNames": "冥蛇杖",
+    "message": "获得冥蛇杖",
+    "x": 1568,
+    "y": 1120
+  },
+  {
+    "id": "s213_e3873",
+    "sceneId": 213,
+    "sceneName": "场景 213",
+    "mapNum": 225,
+    "eventId": 3873,
+    "items": [
+      {
+        "id": 191,
+        "name": "无尘剑"
+      }
+    ],
+    "itemNames": "无尘剑",
+    "message": "获得无尘剑",
+    "x": 1664,
+    "y": 1168
+  },
+  {
+    "id": "s213_e3874",
+    "sceneId": 213,
+    "sceneName": "场景 213",
+    "mapNum": 225,
+    "eventId": 3874,
+    "items": [
+      {
+        "id": 261,
+        "name": "金罡珠"
+      }
+    ],
+    "itemNames": "金罡珠",
+    "message": "获得金罡珠",
+    "x": 1760,
+    "y": 1216
+  },
+  {
+    "id": "s219_e3978",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3978,
+    "items": [
+      {
+        "id": 268,
+        "name": "炼蛊皿"
+      }
+    ],
+    "itemNames": "炼蛊皿",
+    "message": "获得炼蛊皿",
+    "x": 1552,
+    "y": 1096
+  },
+  {
+    "id": "s219_e3979",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3979,
+    "items": [
+      {
+        "id": 117,
+        "name": "毒蛇卵"
+      }
+    ],
+    "itemNames": "毒蛇卵",
+    "message": "获得９个毒蛇卵",
+    "x": 1584,
+    "y": 1112
+  },
+  {
+    "id": "s219_e3980",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3980,
+    "items": [
+      {
+        "id": 118,
+        "name": "毒蠍卵"
+      }
+    ],
+    "itemNames": "毒蠍卵",
+    "message": "获得９个毒蠍卵",
+    "x": 1616,
+    "y": 1128
+  },
+  {
+    "id": "s219_e3981",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3981,
+    "items": [
+      {
+        "id": 119,
+        "name": "毒蟾卵"
+      }
+    ],
+    "itemNames": "毒蟾卵",
+    "message": "获得９个毒蟾卵",
+    "x": 1664,
+    "y": 1152
+  },
+  {
+    "id": "s219_e3982",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3982,
+    "items": [
+      {
+        "id": 120,
+        "name": "蜘蛛卵"
+      }
+    ],
+    "itemNames": "蜘蛛卵",
+    "message": "获得９个蜘蛛卵",
+    "x": 1568,
+    "y": 1216
+  },
+  {
+    "id": "s219_e3983",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3983,
+    "items": [
+      {
+        "id": 121,
+        "name": "蜈蚣卵"
+      }
+    ],
+    "itemNames": "蜈蚣卵",
+    "message": "获得９个蜈蚣卵",
+    "x": 1424,
+    "y": 1144
+  },
+  {
+    "id": "s219_e3984",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3984,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 736,
+    "y": 1456
+  },
+  {
+    "id": "s219_e3985",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3985,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 784,
+    "y": 1480
+  },
+  {
+    "id": "s219_e3986",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3986,
+    "items": [
+      {
+        "id": 134,
+        "name": "化屍水"
+      }
+    ],
+    "itemNames": "化屍水",
+    "message": "获得化屍水",
+    "x": 832,
+    "y": 1504
+  },
+  {
+    "id": "s219_e3987",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3987,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 800,
+    "y": 1424
+  },
+  {
+    "id": "s219_e3988",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3988,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 992,
+    "y": 1440
+  },
+  {
+    "id": "s219_e3989",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3989,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "获得紫罂粟",
+    "x": 1584,
+    "y": 1720
+  },
+  {
+    "id": "s219_e3990",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3990,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1632,
+    "y": 1696
+  },
+  {
+    "id": "s219_e3991",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3991,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "获得醍醐香",
+    "x": 1680,
+    "y": 1672
+  },
+  {
+    "id": "s219_e3992",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3992,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 1728,
+    "y": 1648
+  },
+  {
+    "id": "s219_e3993",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3993,
+    "items": [
+      {
+        "id": 157,
+        "name": "毒龙砂"
+      }
+    ],
+    "itemNames": "毒龙砂",
+    "message": "获得毒龙砂",
+    "x": 1488,
+    "y": 1672
+  },
+  {
+    "id": "s219_e3994",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3994,
+    "items": [
+      {
+        "id": 133,
+        "name": "赤蠍粉"
+      }
+    ],
+    "itemNames": "赤蠍粉",
+    "message": "获得赤蠍粉",
+    "x": 1632,
+    "y": 1600
+  },
+  {
+    "id": "s219_e3995",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3995,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 1648,
+    "y": 216
+  },
+  {
+    "id": "s219_e3996",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3996,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1760,
+    "y": 272
+  },
+  {
+    "id": "s219_e3997",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3997,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 1552,
+    "y": 264
+  },
+  {
+    "id": "s219_e3998",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3998,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 1664,
+    "y": 320
+  },
+  {
+    "id": "s219_e3999",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 3999,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1520,
+    "y": 792
+  },
+  {
+    "id": "s219_e4000",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4000,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 1568,
+    "y": 816
+  },
+  {
+    "id": "s219_e4001",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4001,
+    "items": [
+      {
+        "id": 157,
+        "name": "毒龙砂"
+      }
+    ],
+    "itemNames": "毒龙砂",
+    "message": "获得毒龙砂",
+    "x": 1616,
+    "y": 840
+  },
+  {
+    "id": "s219_e4002",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4002,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 1648,
+    "y": 856
+  },
+  {
+    "id": "s219_e4003",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4003,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 1456,
+    "y": 808
+  },
+  {
+    "id": "s219_e4004",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4004,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "获得醍醐香",
+    "x": 1392,
+    "y": 840
+  },
+  {
+    "id": "s219_e4005",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4005,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "获得紫罂粟",
+    "x": 1632,
+    "y": 896
+  },
+  {
+    "id": "s219_e4006",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4006,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 1568,
+    "y": 928
+  },
+  {
+    "id": "s219_e4007",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4007,
+    "items": [
+      {
+        "id": 179,
+        "name": "苗刀"
+      }
+    ],
+    "itemNames": "苗刀",
+    "message": "获得苗刀",
+    "x": 1504,
+    "y": 832
+  },
+  {
+    "id": "s219_e4008",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4008,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1584,
+    "y": 872
+  },
+  {
+    "id": "s219_e4009",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4009,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 1520,
+    "y": 904
+  },
+  {
+    "id": "s219_e4010",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4010,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 1440,
+    "y": 864
+  },
+  {
+    "id": "s219_e4011",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4011,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 336,
+    "y": 696
+  },
+  {
+    "id": "s219_e4012",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4012,
+    "items": [
+      {
+        "id": 159,
+        "name": "缠魂丝"
+      }
+    ],
+    "itemNames": "缠魂丝",
+    "message": "获得缠魂丝",
+    "x": 336,
+    "y": 1448
+  },
+  {
+    "id": "s219_e4013",
+    "sceneId": 219,
+    "sceneName": "场景 219",
+    "mapNum": 217,
+    "eventId": 4013,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 240,
+    "y": 1400
+  },
+  {
+    "id": "s220_e4017",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4017,
+    "items": [
+      {
+        "id": 185,
+        "name": "鬼牙刀"
+      }
+    ],
+    "itemNames": "鬼牙刀",
+    "message": "获得鬼牙刀",
+    "x": 720,
+    "y": 632
+  },
+  {
+    "id": "s220_e4018",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4018,
+    "items": [
+      {
+        "id": 193,
+        "name": "鬼头杖"
+      }
+    ],
+    "itemNames": "鬼头杖",
+    "message": "获得鬼头杖",
+    "x": 624,
+    "y": 1496
+  },
+  {
+    "id": "s220_e4019",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4019,
+    "items": [
+      {
+        "id": 206,
+        "name": "凤凰羽毛"
+      }
+    ],
+    "itemNames": "凤凰羽毛",
+    "message": "获得凤凰羽毛",
+    "x": 1456,
+    "y": 1400
+  },
+  {
+    "id": "s220_e4020",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4020,
+    "items": [
+      {
+        "id": 179,
+        "name": "苗刀"
+      }
+    ],
+    "itemNames": "苗刀",
+    "message": "获得苗刀",
+    "x": 1616,
+    "y": 648
+  },
+  {
+    "id": "s220_e4021",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4021,
+    "items": [
+      {
+        "id": 259,
+        "name": "豹牙手环"
+      }
+    ],
+    "itemNames": "豹牙手环",
+    "message": "获得豹牙手环",
+    "x": 1392,
+    "y": 488
+  },
+  {
+    "id": "s220_e4022",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4022,
+    "items": [
+      {
+        "id": 145,
+        "name": "灵蛊"
+      }
+    ],
+    "itemNames": "灵蛊",
+    "message": "获得灵蛊",
+    "x": 1216,
+    "y": 1392
+  },
+  {
+    "id": "s220_e4023",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4023,
+    "items": [
+      {
+        "id": 149,
+        "name": "赤血蚕"
+      }
+    ],
+    "itemNames": "赤血蚕",
+    "message": "获得赤血蚕",
+    "x": 1184,
+    "y": 1408
+  },
+  {
+    "id": "s220_e4024",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4024,
+    "items": [
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ],
+    "itemNames": "九阴散",
+    "message": "获得九阴散",
+    "x": 1136,
+    "y": 1432
+  },
+  {
+    "id": "s220_e4025",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4025,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 1088,
+    "y": 1456
+  },
+  {
+    "id": "s220_e4026",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4026,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 1040,
+    "y": 1480
+  },
+  {
+    "id": "s220_e4027",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4027,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 976,
+    "y": 1512
+  },
+  {
+    "id": "s220_e4028",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4028,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 1312,
+    "y": 784
+  },
+  {
+    "id": "s220_e4029",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4029,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 1344,
+    "y": 800
+  },
+  {
+    "id": "s220_e4030",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4030,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 1376,
+    "y": 816
+  },
+  {
+    "id": "s220_e4031",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4031,
+    "items": [
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ],
+    "itemNames": "綑仙绳",
+    "message": "获得綑仙绳",
+    "x": 1408,
+    "y": 832
+  },
+  {
+    "id": "s220_e4032",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4032,
+    "items": [
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ],
+    "itemNames": "綑仙绳",
+    "message": "获得綑仙绳",
+    "x": 1440,
+    "y": 848
+  },
+  {
+    "id": "s220_e4033",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4033,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1472,
+    "y": 864
+  },
+  {
+    "id": "s220_e4034",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4034,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1504,
+    "y": 880
+  },
+  {
+    "id": "s220_e4035",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4035,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 1536,
+    "y": 896
+  },
+  {
+    "id": "s220_e4036",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4036,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 496,
+    "y": 568
+  },
+  {
+    "id": "s220_e4037",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4037,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 560,
+    "y": 536
+  },
+  {
+    "id": "s220_e4038",
+    "sceneId": 220,
+    "sceneName": "场景 220",
+    "mapNum": 218,
+    "eventId": 4038,
+    "items": [
+      {
+        "id": 179,
+        "name": "苗刀"
+      }
+    ],
+    "itemNames": "苗刀",
+    "message": "获得苗刀",
+    "x": 640,
+    "y": 496
+  },
+  {
+    "id": "s222_e4075",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4075,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 720,
+    "y": 600
+  },
+  {
+    "id": "s222_e4076",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4076,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 752,
+    "y": 584
+  },
+  {
+    "id": "s222_e4077",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4077,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 784,
+    "y": 568
+  },
+  {
+    "id": "s222_e4078",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4078,
+    "items": [
+      {
+        "id": 159,
+        "name": "缠魂丝"
+      }
+    ],
+    "itemNames": "缠魂丝",
+    "message": "获得缠魂丝",
+    "x": 816,
+    "y": 568
+  },
+  {
+    "id": "s222_e4079",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4079,
+    "items": [
+      {
+        "id": 127,
+        "name": "忘魂花"
+      }
+    ],
+    "itemNames": "忘魂花",
+    "message": "获得忘魂花",
+    "x": 848,
+    "y": 584
+  },
+  {
+    "id": "s222_e4080",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4080,
+    "items": [
+      {
+        "id": 128,
+        "name": "紫罂粟"
+      }
+    ],
+    "itemNames": "紫罂粟",
+    "message": "获得紫罂粟",
+    "x": 880,
+    "y": 600
+  },
+  {
+    "id": "s222_e4081",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4081,
+    "items": [
+      {
+        "id": 140,
+        "name": "幻蛊"
+      }
+    ],
+    "itemNames": "幻蛊",
+    "message": "获得幻蛊",
+    "x": 912,
+    "y": 616
+  },
+  {
+    "id": "s222_e4082",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4082,
+    "items": [
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ],
+    "itemNames": "綑仙绳",
+    "message": "获得綑仙绳",
+    "x": 944,
+    "y": 632
+  },
+  {
+    "id": "s222_e4083",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4083,
+    "items": [
+      {
+        "id": 126,
+        "name": "醍醐香"
+      }
+    ],
+    "itemNames": "醍醐香",
+    "message": "获得醍醐香",
+    "x": 1392,
+    "y": 1480
+  },
+  {
+    "id": "s222_e4084",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4084,
+    "items": [
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ],
+    "itemNames": "引路蜂",
+    "message": "获得引路蜂",
+    "x": 1424,
+    "y": 1496
+  },
+  {
+    "id": "s222_e4085",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4085,
+    "items": [
+      {
+        "id": 135,
+        "name": "迷魂香"
+      }
+    ],
+    "itemNames": "迷魂香",
+    "message": "获得迷魂香",
+    "x": 1456,
+    "y": 1512
+  },
+  {
+    "id": "s222_e4086",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4086,
+    "items": [
+      {
+        "id": 134,
+        "name": "化屍水"
+      }
+    ],
+    "itemNames": "化屍水",
+    "message": "获得化屍水",
+    "x": 1488,
+    "y": 1496
+  },
+  {
+    "id": "s222_e4087",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4087,
+    "items": [
+      {
+        "id": 117,
+        "name": "毒蛇卵"
+      }
+    ],
+    "itemNames": "毒蛇卵",
+    "message": "获得９个毒蛇卵",
+    "x": 1520,
+    "y": 1480
+  },
+  {
+    "id": "s222_e4088",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4088,
+    "items": [
+      {
+        "id": 118,
+        "name": "毒蠍卵"
+      }
+    ],
+    "itemNames": "毒蠍卵",
+    "message": "获得９个毒蠍卵",
+    "x": 1552,
+    "y": 1464
+  },
+  {
+    "id": "s222_e4089",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4089,
+    "items": [
+      {
+        "id": 119,
+        "name": "毒蟾卵"
+      }
+    ],
+    "itemNames": "毒蟾卵",
+    "message": "获得９个毒蟾卵",
+    "x": 1520,
+    "y": 1448
+  },
+  {
+    "id": "s222_e4090",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4090,
+    "items": [
+      {
+        "id": 120,
+        "name": "蜘蛛卵"
+      }
+    ],
+    "itemNames": "蜘蛛卵",
+    "message": "获得９个蜘蛛卵",
+    "x": 1488,
+    "y": 1432
+  },
+  {
+    "id": "s222_e4091",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4091,
+    "items": [
+      {
+        "id": 121,
+        "name": "蜈蚣卵"
+      }
+    ],
+    "itemNames": "蜈蚣卵",
+    "message": "获得９个蜈蚣卵",
+    "x": 1456,
+    "y": 1416
+  },
+  {
+    "id": "s222_e4092",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4092,
+    "items": [
+      {
+        "id": 133,
+        "name": "赤蠍粉"
+      }
+    ],
+    "itemNames": "赤蠍粉",
+    "message": "获得赤蠍粉",
+    "x": 768,
+    "y": 1360
+  },
+  {
+    "id": "s222_e4093",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4093,
+    "items": [
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ],
+    "itemNames": "九阴散",
+    "message": "获得九阴散",
+    "x": 800,
+    "y": 1344
+  },
+  {
+    "id": "s222_e4094",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4094,
+    "items": [
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ],
+    "itemNames": "九阴散",
+    "message": "获得九阴散",
+    "x": 832,
+    "y": 1328
+  },
+  {
+    "id": "s222_e4095",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4095,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 864,
+    "y": 1328
+  },
+  {
+    "id": "s222_e4096",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4096,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 896,
+    "y": 1344
+  },
+  {
+    "id": "s222_e4097",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4097,
+    "items": [
+      {
+        "id": 145,
+        "name": "灵蛊"
+      }
+    ],
+    "itemNames": "灵蛊",
+    "message": "获得灵蛊",
+    "x": 928,
+    "y": 1360
+  },
+  {
+    "id": "s222_e4098",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4098,
+    "items": [
+      {
+        "id": 149,
+        "name": "赤血蚕"
+      }
+    ],
+    "itemNames": "赤血蚕",
+    "message": "获得赤血蚕",
+    "x": 1024,
+    "y": 832
+  },
+  {
+    "id": "s222_e4099",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4099,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 640,
+    "y": 1696
+  },
+  {
+    "id": "s222_e4100",
+    "sceneId": 222,
+    "sceneName": "场景 222",
+    "mapNum": 220,
+    "eventId": 4100,
+    "items": [
+      {
+        "id": 158,
+        "name": "吸星锁"
+      }
+    ],
+    "itemNames": "吸星锁",
+    "message": "获得吸星锁",
+    "x": 1344,
+    "y": 448
+  },
+  {
+    "id": "s223_e4120",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4120,
+    "items": [
+      {
+        "id": 138,
+        "name": "三屍蛊"
+      }
+    ],
+    "itemNames": "三屍蛊",
+    "message": "获得三屍蛊",
+    "x": 1328,
+    "y": 776
+  },
+  {
+    "id": "s223_e4121",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4121,
+    "items": [
+      {
+        "id": 138,
+        "name": "三屍蛊"
+      }
+    ],
+    "itemNames": "三屍蛊",
+    "message": "获得三屍蛊",
+    "x": 1360,
+    "y": 792
+  },
+  {
+    "id": "s223_e4122",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4122,
+    "items": [
+      {
+        "id": 138,
+        "name": "三屍蛊"
+      }
+    ],
+    "itemNames": "三屍蛊",
+    "message": "获得三屍蛊",
+    "x": 1392,
+    "y": 808
+  },
+  {
+    "id": "s223_e4123",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4123,
+    "items": [
+      {
+        "id": 122,
+        "name": "鹤顶红"
+      }
+    ],
+    "itemNames": "鹤顶红",
+    "message": "获得鹤顶红",
+    "x": 1424,
+    "y": 824
+  },
+  {
+    "id": "s223_e4124",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4124,
+    "items": [
+      {
+        "id": 122,
+        "name": "鹤顶红"
+      }
+    ],
+    "itemNames": "鹤顶红",
+    "message": "获得鹤顶红",
+    "x": 1456,
+    "y": 840
+  },
+  {
+    "id": "s223_e4125",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4125,
+    "items": [
+      {
+        "id": 122,
+        "name": "鹤顶红"
+      }
+    ],
+    "itemNames": "鹤顶红",
+    "message": "获得鹤顶红",
+    "x": 1488,
+    "y": 856
+  },
+  {
+    "id": "s223_e4126",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4126,
+    "items": [
+      {
+        "id": 123,
+        "name": "孔雀胆"
+      }
+    ],
+    "itemNames": "孔雀胆",
+    "message": "获得孔雀胆",
+    "x": 1536,
+    "y": 864
+  },
+  {
+    "id": "s223_e4127",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4127,
+    "items": [
+      {
+        "id": 123,
+        "name": "孔雀胆"
+      }
+    ],
+    "itemNames": "孔雀胆",
+    "message": "获得孔雀胆",
+    "x": 1200,
+    "y": 360
+  },
+  {
+    "id": "s223_e4128",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4128,
+    "items": [
+      {
+        "id": 123,
+        "name": "孔雀胆"
+      }
+    ],
+    "itemNames": "孔雀胆",
+    "message": "获得孔雀胆",
+    "x": 1232,
+    "y": 376
+  },
+  {
+    "id": "s223_e4129",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4129,
+    "items": [
+      {
+        "id": 124,
+        "name": "血海棠"
+      }
+    ],
+    "itemNames": "血海棠",
+    "message": "获得血海棠",
+    "x": 1264,
+    "y": 392
+  },
+  {
+    "id": "s223_e4130",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4130,
+    "items": [
+      {
+        "id": 124,
+        "name": "血海棠"
+      }
+    ],
+    "itemNames": "血海棠",
+    "message": "获得血海棠",
+    "x": 1296,
+    "y": 408
+  },
+  {
+    "id": "s223_e4131",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4131,
+    "items": [
+      {
+        "id": 124,
+        "name": "血海棠"
+      }
+    ],
+    "itemNames": "血海棠",
+    "message": "获得血海棠",
+    "x": 1328,
+    "y": 424
+  },
+  {
+    "id": "s223_e4132",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4132,
+    "items": [
+      {
+        "id": 278,
+        "name": "毒龙胆"
+      }
+    ],
+    "itemNames": "毒龙胆",
+    "message": "获得毒龙胆",
+    "x": 832,
+    "y": 1264
+  },
+  {
+    "id": "s223_e4133",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4133,
+    "items": [
+      {
+        "id": 139,
+        "name": "金蚕蛊"
+      }
+    ],
+    "itemNames": "金蚕蛊",
+    "message": "获得金蚕蛊",
+    "x": 848,
+    "y": 1256
+  },
+  {
+    "id": "s223_e4134",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4134,
+    "items": [
+      {
+        "id": 139,
+        "name": "金蚕蛊"
+      }
+    ],
+    "itemNames": "金蚕蛊",
+    "message": "获得金蚕蛊",
+    "x": 864,
+    "y": 1248
+  },
+  {
+    "id": "s223_e4135",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4135,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 880,
+    "y": 1240
+  },
+  {
+    "id": "s223_e4136",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4136,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 896,
+    "y": 1232
+  },
+  {
+    "id": "s223_e4137",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4137,
+    "items": [
+      {
+        "id": 141,
+        "name": "隐蛊"
+      }
+    ],
+    "itemNames": "隐蛊",
+    "message": "获得隐蛊",
+    "x": 912,
+    "y": 1224
+  },
+  {
+    "id": "s223_e4138",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4138,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 592,
+    "y": 1416
+  },
+  {
+    "id": "s223_e4139",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4139,
+    "items": [
+      {
+        "id": 140,
+        "name": "幻蛊"
+      }
+    ],
+    "itemNames": "幻蛊",
+    "message": "获得幻蛊",
+    "x": 624,
+    "y": 1432
+  },
+  {
+    "id": "s223_e4140",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4140,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 656,
+    "y": 1448
+  },
+  {
+    "id": "s223_e4141",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4141,
+    "items": [
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ],
+    "itemNames": "驱魔香",
+    "message": "获得驱魔香",
+    "x": 688,
+    "y": 1432
+  },
+  {
+    "id": "s223_e4142",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4142,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 720,
+    "y": 1416
+  },
+  {
+    "id": "s223_e4143",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4143,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 752,
+    "y": 1400
+  },
+  {
+    "id": "s223_e4144",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4144,
+    "items": [
+      {
+        "id": 159,
+        "name": "缠魂丝"
+      }
+    ],
+    "itemNames": "缠魂丝",
+    "message": "获得缠魂丝",
+    "x": 1024,
+    "y": 1152
+  },
+  {
+    "id": "s223_e4145",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4145,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1056,
+    "y": 1168
+  },
+  {
+    "id": "s223_e4146",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4146,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1088,
+    "y": 1184
+  },
+  {
+    "id": "s223_e4147",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4147,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 1120,
+    "y": 1168
+  },
+  {
+    "id": "s223_e4148",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4148,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 1152,
+    "y": 1152
+  },
+  {
+    "id": "s223_e4149",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4149,
+    "items": [
+      {
+        "id": 157,
+        "name": "毒龙砂"
+      }
+    ],
+    "itemNames": "毒龙砂",
+    "message": "获得毒龙砂",
+    "x": 1008,
+    "y": 648
+  },
+  {
+    "id": "s223_e4150",
+    "sceneId": 223,
+    "sceneName": "场景 223",
+    "mapNum": 221,
+    "eventId": 4150,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 816,
+    "y": 312
+  },
+  {
+    "id": "s225_e4187",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4187,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 1680,
+    "y": 264
+  },
+  {
+    "id": "s225_e4188",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4188,
+    "items": [
+      {
+        "id": 139,
+        "name": "金蚕蛊"
+      }
+    ],
+    "itemNames": "金蚕蛊",
+    "message": "获得金蚕蛊",
+    "x": 496,
+    "y": 264
+  },
+  {
+    "id": "s225_e4189",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4189,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 928,
+    "y": 672
+  },
+  {
+    "id": "s225_e4190",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4190,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 1424,
+    "y": 776
+  },
+  {
+    "id": "s225_e4191",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4191,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 336,
+    "y": 968
+  },
+  {
+    "id": "s225_e4192",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4192,
+    "items": [
+      {
+        "id": 146,
+        "name": "爆烈蛊"
+      }
+    ],
+    "itemNames": "爆烈蛊",
+    "message": "获得爆烈蛊",
+    "x": 1536,
+    "y": 1520
+  },
+  {
+    "id": "s225_e4193",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4193,
+    "items": [
+      {
+        "id": 146,
+        "name": "爆烈蛊"
+      }
+    ],
+    "itemNames": "爆烈蛊",
+    "message": "获得爆烈蛊",
+    "x": 1040,
+    "y": 1768
+  },
+  {
+    "id": "s225_e4194",
+    "sceneId": 225,
+    "sceneName": "场景 225",
+    "mapNum": 223,
+    "eventId": 4194,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 576,
+    "y": 1520
+  },
+  {
+    "id": "s226_e4237",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4237,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 576,
+    "y": 832
+  },
+  {
+    "id": "s226_e4238",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4238,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 576,
+    "y": 1040
+  },
+  {
+    "id": "s226_e4239",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4239,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 720,
+    "y": 1368
+  },
+  {
+    "id": "s226_e4240",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4240,
+    "items": [
+      {
+        "id": 205,
+        "name": "天蚕丝带"
+      }
+    ],
+    "itemNames": "天蚕丝带",
+    "message": "获得天蚕丝带",
+    "x": 1392,
+    "y": 1384
+  },
+  {
+    "id": "s226_e4241",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4241,
+    "items": [
+      {
+        "id": 220,
+        "name": "天蚕宝衣"
+      }
+    ],
+    "itemNames": "天蚕宝衣",
+    "message": "获得天蚕宝衣",
+    "x": 528,
+    "y": 648
+  },
+  {
+    "id": "s226_e4242",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4242,
+    "items": [
+      {
+        "id": 141,
+        "name": "隐蛊"
+      }
+    ],
+    "itemNames": "隐蛊",
+    "message": "获得隐蛊",
+    "x": 1040,
+    "y": 1448
+  },
+  {
+    "id": "s226_e4243",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4243,
+    "items": [
+      {
+        "id": 278,
+        "name": "毒龙胆"
+      }
+    ],
+    "itemNames": "毒龙胆",
+    "message": "获得毒龙胆",
+    "x": 1008,
+    "y": 1128
+  },
+  {
+    "id": "s226_e4244",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4244,
+    "items": [
+      {
+        "id": 149,
+        "name": "赤血蚕"
+      }
+    ],
+    "itemNames": "赤血蚕",
+    "message": "获得赤血蚕",
+    "x": 1088,
+    "y": 224
+  },
+  {
+    "id": "s226_e4245",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4245,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 1568,
+    "y": 528
+  },
+  {
+    "id": "s226_e4246",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4246,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1152,
+    "y": 320
+  },
+  {
+    "id": "s226_e4247",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4247,
+    "items": [
+      {
+        "id": 132,
+        "name": "雪蛤蟆"
+      }
+    ],
+    "itemNames": "雪蛤蟆",
+    "message": "获得雪蛤蟆",
+    "x": 1600,
+    "y": 1616
+  },
+  {
+    "id": "s226_e4248",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4248,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 1408,
+    "y": 1520
+  },
+  {
+    "id": "s226_e4249",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4249,
+    "items": [
+      {
+        "id": 132,
+        "name": "雪蛤蟆"
+      }
+    ],
+    "itemNames": "雪蛤蟆",
+    "message": "获得雪蛤蟆",
+    "x": 608,
+    "y": 1648
+  },
+  {
+    "id": "s226_e4250",
+    "sceneId": 226,
+    "sceneName": "场景 226",
+    "mapNum": 224,
+    "eventId": 4250,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 752,
+    "y": 1576
+  },
+  {
+    "id": "s231_e4317",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4317,
+    "items": [
+      {
+        "id": 132,
+        "name": "雪蛤蟆"
+      }
+    ],
+    "itemNames": "雪蛤蟆",
+    "message": "获得雪蛤蟆",
+    "x": 1072,
+    "y": 408
+  },
+  {
+    "id": "s231_e4318",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4318,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 1744,
+    "y": 744
+  },
+  {
+    "id": "s231_e4319",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4319,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 1568,
+    "y": 1024
+  },
+  {
+    "id": "s231_e4320",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4320,
+    "items": [
+      {
+        "id": 74,
+        "name": "银杏子"
+      }
+    ],
+    "itemNames": "银杏子",
+    "message": "获得银杏子",
+    "x": 304,
+    "y": 1592
+  },
+  {
+    "id": "s231_e4321",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4321,
+    "items": [
+      {
+        "id": 114,
+        "name": "八仙石"
+      }
+    ],
+    "itemNames": "八仙石",
+    "message": "获得八仙石",
+    "x": 1072,
+    "y": 1096
+  },
+  {
+    "id": "s231_e4322",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4322,
+    "items": [
+      {
+        "id": 112,
+        "name": "试炼果"
+      }
+    ],
+    "itemNames": "试炼果",
+    "message": "获得试炼果",
+    "x": 1024,
+    "y": 640
+  },
+  {
+    "id": "s231_e4323",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4323,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 368,
+    "y": 568
+  },
+  {
+    "id": "s231_e4324",
+    "sceneId": 231,
+    "sceneName": "场景 231",
+    "mapNum": 188,
+    "eventId": 4324,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 544,
+    "y": 944
+  },
+  {
+    "id": "s233_e4353",
+    "sceneId": 233,
+    "sceneName": "场景 233",
+    "mapNum": 189,
+    "eventId": 4353,
+    "items": [
+      {
+        "id": 114,
+        "name": "八仙石"
+      }
+    ],
+    "itemNames": "八仙石",
+    "message": "获得八仙石",
+    "x": 1568,
+    "y": 336
+  },
+  {
+    "id": "s233_e4354",
+    "sceneId": 233,
+    "sceneName": "场景 233",
+    "mapNum": 189,
+    "eventId": 4354,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 736,
+    "y": 576
+  },
+  {
+    "id": "s233_e4355",
+    "sceneId": 233,
+    "sceneName": "场景 233",
+    "mapNum": 189,
+    "eventId": 4355,
+    "items": [
+      {
+        "id": 73,
+        "name": "玉菩提"
+      }
+    ],
+    "itemNames": "玉菩提",
+    "message": "获得玉菩提",
+    "x": 496,
+    "y": 1384
+  },
+  {
+    "id": "s233_e4356",
+    "sceneId": 233,
+    "sceneName": "场景 233",
+    "mapNum": 189,
+    "eventId": 4356,
+    "items": [
+      {
+        "id": 72,
+        "name": "舍利子"
+      }
+    ],
+    "itemNames": "舍利子",
+    "message": "获得舍利子",
+    "x": 320,
+    "y": 1440
+  },
+  {
+    "id": "s233_e4357",
+    "sceneId": 233,
+    "sceneName": "场景 233",
+    "mapNum": 189,
+    "eventId": 4357,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 720,
+    "y": 1704
+  },
+  {
+    "id": "s244_e4516",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4516,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1120,
+    "y": 1776
+  },
+  {
+    "id": "s244_e4517",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4517,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1568,
+    "y": 1264
+  },
+  {
+    "id": "s244_e4518",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4518,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 928,
+    "y": 976
+  },
+  {
+    "id": "s244_e4519",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4519,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 1040,
+    "y": 1032
+  },
+  {
+    "id": "s244_e4520",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4520,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 256,
+    "y": 1024
+  },
+  {
+    "id": "s244_e4521",
+    "sceneId": 244,
+    "sceneName": "场景 244",
+    "mapNum": 207,
+    "eventId": 4521,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 320,
+    "y": 992
+  },
+  {
+    "id": "s245_e4558",
+    "sceneId": 245,
+    "sceneName": "场景 245",
+    "mapNum": 208,
+    "eventId": 4558,
+    "items": [
+      {
+        "id": 62,
+        "name": "圣灵符"
+      }
+    ],
+    "itemNames": "圣灵符",
+    "message": "获得圣灵符",
+    "x": 1280,
+    "y": 768
+  },
+  {
+    "id": "s245_e4559",
+    "sceneId": 245,
+    "sceneName": "场景 245",
+    "mapNum": 208,
+    "eventId": 4559,
+    "items": [
+      {
+        "id": 62,
+        "name": "圣灵符"
+      }
+    ],
+    "itemNames": "圣灵符",
+    "message": "获得圣灵符",
+    "x": 1424,
+    "y": 968
+  },
+  {
+    "id": "s245_e4560",
+    "sceneId": 245,
+    "sceneName": "场景 245",
+    "mapNum": 208,
+    "eventId": 4560,
+    "items": [
+      {
+        "id": 246,
+        "name": "步云靴"
+      }
+    ],
+    "itemNames": "步云靴",
+    "message": "获得步云靴",
+    "x": 1152,
+    "y": 704
+  },
+  {
+    "id": "s245_e4561",
+    "sceneId": 245,
+    "sceneName": "场景 245",
+    "mapNum": 208,
+    "eventId": 4561,
+    "items": [
+      {
+        "id": 113,
+        "name": "女娲石"
+      }
+    ],
+    "itemNames": "女娲石",
+    "message": "获得女娲石",
+    "x": 1712,
+    "y": 952
+  },
+  {
+    "id": "s246_e4564",
+    "sceneId": 246,
+    "sceneName": "场景 246",
+    "mapNum": 209,
+    "eventId": 4564,
+    "items": [
+      {
+        "id": 195,
+        "name": "天蛇杖"
+      }
+    ],
+    "itemNames": "天蛇杖",
+    "message": "取得天蛇杖",
+    "x": 1504,
+    "y": 640
+  },
+  {
+    "id": "s279_e5042",
+    "sceneId": 279,
+    "sceneName": "场景 279",
+    "mapNum": 210,
+    "eventId": 5042,
+    "items": [
+      {
+        "id": 142,
+        "name": "冰蚕蛊"
+      }
+    ],
+    "itemNames": "冰蚕蛊",
+    "message": "获得冰蚕蛊",
+    "x": 1616,
+    "y": 1496
+  },
+  {
+    "id": "s279_e5043",
+    "sceneId": 279,
+    "sceneName": "场景 279",
+    "mapNum": 210,
+    "eventId": 5043,
+    "items": [
+      {
+        "id": 143,
+        "name": "火蚕蛊"
+      }
+    ],
+    "itemNames": "火蚕蛊",
+    "message": "获得火蚕蛊",
+    "x": 1568,
+    "y": 1520
+  },
+  {
+    "id": "s279_e5044",
+    "sceneId": 279,
+    "sceneName": "场景 279",
+    "mapNum": 210,
+    "eventId": 5044,
+    "items": [
+      {
+        "id": 146,
+        "name": "爆烈蛊"
+      }
+    ],
+    "itemNames": "爆烈蛊",
+    "message": "获得爆烈蛊",
+    "x": 928,
+    "y": 1040
+  },
+  {
+    "id": "s279_e5045",
+    "sceneId": 279,
+    "sceneName": "场景 279",
+    "mapNum": 210,
+    "eventId": 5045,
+    "items": [
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ],
+    "itemNames": "九阴散",
+    "message": "获得九阴散",
+    "x": 576,
+    "y": 1344
+  },
+  {
+    "id": "s279_e5046",
+    "sceneId": 279,
+    "sceneName": "场景 279",
+    "mapNum": 210,
+    "eventId": 5046,
+    "items": [
+      {
+        "id": 278,
+        "name": "毒龙胆"
+      }
+    ],
+    "itemNames": "毒龙胆",
+    "message": "获得毒龙胆",
+    "x": 880,
+    "y": 1368
+  },
+  {
+    "id": "s286_e5101",
+    "sceneId": 286,
+    "sceneName": "场景 286",
+    "mapNum": 204,
+    "eventId": 5101,
+    "items": [
+      {
+        "id": 150,
+        "name": "金蚕王"
+      }
+    ],
+    "itemNames": "金蚕王",
+    "message": "获得金蚕王",
+    "x": 1248,
+    "y": 704
+  },
+  {
+    "id": "s286_e5102",
+    "sceneId": 286,
+    "sceneName": "场景 286",
+    "mapNum": 204,
+    "eventId": 5102,
+    "items": [
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      }
+    ],
+    "itemNames": "孟婆汤",
+    "message": "获得孟婆汤",
+    "x": 1152,
+    "y": 656
+  },
+  {
+    "id": "s286_e5103",
+    "sceneId": 286,
+    "sceneName": "场景 286",
+    "mapNum": 204,
+    "eventId": 5103,
+    "items": [
+      {
+        "id": 152,
+        "name": "傀儡虫"
+      }
+    ],
+    "itemNames": "傀儡虫",
+    "message": "获得傀儡虫",
+    "x": 1808,
+    "y": 712
+  },
+  {
+    "id": "s286_e5104",
+    "sceneId": 286,
+    "sceneName": "场景 286",
+    "mapNum": 204,
+    "eventId": 5104,
+    "items": [
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ],
+    "itemNames": "蜂王蜜",
+    "message": "获得蜂王蜜",
+    "x": 1200,
+    "y": 408
+  },
+  {
+    "id": "s286_e5105",
+    "sceneId": 286,
+    "sceneName": "场景 286",
+    "mapNum": 204,
+    "eventId": 5105,
+    "items": [
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ],
+    "itemNames": "灵葫仙丹",
+    "message": "获得灵葫仙丹",
+    "x": 1312,
+    "y": 1552
+  },
+  {
+    "id": "s287_e5124",
+    "sceneId": 287,
+    "sceneName": "场景 287",
+    "mapNum": 205,
+    "eventId": 5124,
+    "items": [
+      {
+        "id": 98,
+        "name": "天香续命露"
+      }
+    ],
+    "itemNames": "天香续命露",
+    "message": "获得天香续命露",
+    "x": 1232,
+    "y": 1000
+  },
+  {
+    "id": "s287_e5125",
+    "sceneId": 287,
+    "sceneName": "场景 287",
+    "mapNum": 205,
+    "eventId": 5125,
+    "items": [
+      {
+        "id": 98,
+        "name": "天香续命露"
+      }
+    ],
+    "itemNames": "天香续命露",
+    "message": "获得天香续命露",
+    "x": 1056,
+    "y": 912
+  },
+  {
+    "id": "s288_e5161",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5161,
+    "items": [
+      {
+        "id": 138,
+        "name": "三屍蛊"
+      }
+    ],
+    "itemNames": "三屍蛊",
+    "message": "获得三屍蛊",
+    "x": 544,
+    "y": 1616
+  },
+  {
+    "id": "s288_e5162",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5162,
+    "items": [
+      {
+        "id": 122,
+        "name": "鹤顶红"
+      }
+    ],
+    "itemNames": "鹤顶红",
+    "message": "获得鹤顶红",
+    "x": 672,
+    "y": 1552
+  },
+  {
+    "id": "s288_e5163",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5163,
+    "items": [
+      {
+        "id": 123,
+        "name": "孔雀胆"
+      }
+    ],
+    "itemNames": "孔雀胆",
+    "message": "获得孔雀胆",
+    "x": 304,
+    "y": 1336
+  },
+  {
+    "id": "s288_e5164",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5164,
+    "items": [
+      {
+        "id": 124,
+        "name": "血海棠"
+      }
+    ],
+    "itemNames": "血海棠",
+    "message": "获得血海棠",
+    "x": 1600,
+    "y": 1488
+  },
+  {
+    "id": "s288_e5165",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5165,
+    "items": [
+      {
+        "id": 125,
+        "name": "断肠草"
+      }
+    ],
+    "itemNames": "断肠草",
+    "message": "获得断肠草",
+    "x": 1744,
+    "y": 1560
+  },
+  {
+    "id": "s288_e5166",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5166,
+    "items": [
+      {
+        "id": 139,
+        "name": "金蚕蛊"
+      }
+    ],
+    "itemNames": "金蚕蛊",
+    "message": "获得金蚕蛊",
+    "x": 1136,
+    "y": 936
+  },
+  {
+    "id": "s288_e5167",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5167,
+    "items": [
+      {
+        "id": 137,
+        "name": "无影毒"
+      }
+    ],
+    "itemNames": "无影毒",
+    "message": "获得无影毒",
+    "x": 992,
+    "y": 992
+  },
+  {
+    "id": "s288_e5168",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5168,
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      }
+    ],
+    "itemNames": "蛊",
+    "message": "获得九只蛊",
+    "x": 1632,
+    "y": 656
+  },
+  {
+    "id": "s288_e5169",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5169,
+    "items": [
+      {
+        "id": 144,
+        "name": "食妖虫"
+      }
+    ],
+    "itemNames": "食妖虫",
+    "message": "获得食妖虫",
+    "x": 1152,
+    "y": 464
+  },
+  {
+    "id": "s288_e5170",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5170,
+    "items": [
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      }
+    ],
+    "itemNames": "碧血蚕",
+    "message": "获得碧血蚕",
+    "x": 544,
+    "y": 880
+  },
+  {
+    "id": "s288_e5171",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5171,
+    "items": [
+      {
+        "id": 141,
+        "name": "隐蛊"
+      }
+    ],
+    "itemNames": "隐蛊",
+    "message": "获得隐蛊",
+    "x": 672,
+    "y": 944
+  },
+  {
+    "id": "s288_e5172",
+    "sceneId": 288,
+    "sceneName": "场景 288",
+    "mapNum": 206,
+    "eventId": 5172,
+    "items": [
+      {
+        "id": 140,
+        "name": "幻蛊"
+      }
+    ],
+    "itemNames": "幻蛊",
+    "message": "获得幻蛊",
+    "x": 544,
+    "y": 1616
+  },
+  {
+    "id": "s289_e5205",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5205,
+    "items": [
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      }
+    ],
+    "itemNames": "赎魂灯",
+    "message": "获得赎魂灯",
+    "x": 912,
+    "y": 1368
+  },
+  {
+    "id": "s289_e5206",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5206,
+    "items": [
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ],
+    "itemNames": "还魂香",
+    "message": "获得还魂香",
+    "x": 992,
+    "y": 1408
+  },
+  {
+    "id": "s289_e5207",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5207,
+    "items": [
+      {
+        "id": 108,
+        "name": "雪莲子"
+      }
+    ],
+    "itemNames": "雪莲子",
+    "message": "获得雪莲子",
+    "x": 528,
+    "y": 1352
+  },
+  {
+    "id": "s289_e5208",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5208,
+    "items": [
+      {
+        "id": 109,
+        "name": "天仙玉露"
+      }
+    ],
+    "itemNames": "天仙玉露",
+    "message": "获得天仙玉露",
+    "x": 1456,
+    "y": 984
+  },
+  {
+    "id": "s289_e5209",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5209,
+    "items": [
+      {
+        "id": 207,
+        "name": "冲天冠"
+      }
+    ],
+    "itemNames": "冲天冠",
+    "message": "获得冲天冠",
+    "x": 1184,
+    "y": 720
+  },
+  {
+    "id": "s289_e5210",
+    "sceneId": 289,
+    "sceneName": "场景 289",
+    "mapNum": 208,
+    "eventId": 5210,
+    "items": [
+      {
+        "id": 106,
+        "name": "龙涎草"
+      }
+    ],
+    "itemNames": "龙涎草",
+    "message": "获得龙涎草",
+    "x": 1280,
+    "y": 768
+  },
+  {
+    "id": "s290_e5219",
+    "sceneId": 290,
+    "sceneName": "场景 290",
+    "mapNum": 209,
+    "eventId": 5219,
+    "items": [
+      {
+        "id": 221,
+        "name": "青龙宝甲"
+      }
+    ],
+    "itemNames": "青龙宝甲",
+    "message": "获得青龙宝甲",
+    "x": 1504,
+    "y": 640
+  },
+  {
+    "id": "s290_e5220",
+    "sceneId": 290,
+    "sceneName": "场景 290",
+    "mapNum": 209,
+    "eventId": 5220,
+    "items": [
+      {
+        "id": 194,
+        "name": "冥蛇杖"
+      }
+    ],
+    "itemNames": "冥蛇杖",
+    "message": "获得冥蛇杖",
+    "x": 1024,
+    "y": 816
+  },
+  {
+    "id": "s290_e5221",
+    "sceneId": 290,
+    "sceneName": "场景 290",
+    "mapNum": 209,
+    "eventId": 5221,
+    "items": [
+      {
+        "id": 190,
+        "name": "太极剑"
+      }
+    ],
+    "itemNames": "太极剑",
+    "message": "获得太极剑",
+    "x": 1376,
+    "y": 992
+  },
+  {
+    "id": "s291_e5247",
+    "sceneId": 291,
+    "sceneName": "场景 291",
+    "mapNum": 190,
+    "eventId": 5247,
+    "items": [
+      {
+        "id": 222,
+        "name": "白虎之铠"
+      }
+    ],
+    "itemNames": "白虎之铠",
+    "message": "获得白虎之铠",
+    "x": 176,
+    "y": 760
+  },
+  {
+    "id": "s291_e5248",
+    "sceneId": 291,
+    "sceneName": "场景 291",
+    "mapNum": 190,
+    "eventId": 5248,
+    "items": [
+      {
+        "id": 232,
+        "name": "凤纹披风"
+      }
+    ],
+    "itemNames": "凤纹披风",
+    "message": "获得凤纹披风",
+    "x": 1248,
+    "y": 768
+  },
+  {
+    "id": "s291_e5249",
+    "sceneId": 291,
+    "sceneName": "场景 291",
+    "mapNum": 190,
+    "eventId": 5249,
+    "items": [
+      {
+        "id": 193,
+        "name": "鬼头杖"
+      }
+    ],
+    "itemNames": "鬼头杖",
+    "message": "获得鬼头杖",
+    "x": 1824,
+    "y": 896
+  },
+  {
+    "id": "s291_e5250",
+    "sceneId": 291,
+    "sceneName": "场景 291",
+    "mapNum": 190,
+    "eventId": 5250,
+    "items": [
+      {
+        "id": 278,
+        "name": "毒龙胆"
+      }
+    ],
+    "itemNames": "毒龙胆",
+    "message": "获得毒龙胆",
+    "x": 320,
+    "y": 352
+  },
+  {
+    "id": "s292_e5295",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5295,
+    "items": [
+      {
+        "id": 188,
+        "name": "巫月神刀"
+      }
+    ],
+    "itemNames": "巫月神刀",
+    "message": "获得巫月神刀",
+    "x": 1712,
+    "y": 344
+  },
+  {
+    "id": "s292_e5296",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5296,
+    "items": [
+      {
+        "id": 145,
+        "name": "灵蛊"
+      }
+    ],
+    "itemNames": "灵蛊",
+    "message": "获得灵蛊",
+    "x": 368,
+    "y": 632
+  },
+  {
+    "id": "s292_e5297",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5297,
+    "items": [
+      {
+        "id": 102,
+        "name": "蟠果"
+      }
+    ],
+    "itemNames": "蟠果",
+    "message": "获得蟠果",
+    "x": 864,
+    "y": 544
+  },
+  {
+    "id": "s292_e5298",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5298,
+    "items": [
+      {
+        "id": 233,
+        "name": "龙纹披风"
+      }
+    ],
+    "itemNames": "龙纹披风",
+    "message": "获得龙纹披风",
+    "x": 1248,
+    "y": 288
+  },
+  {
+    "id": "s292_e5299",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5299,
+    "items": [
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      }
+    ],
+    "itemNames": "灵山仙芝",
+    "message": "获得灵山仙芝",
+    "x": 864,
+    "y": 1648
+  },
+  {
+    "id": "s292_e5300",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5300,
+    "items": [
+      {
+        "id": 62,
+        "name": "圣灵符"
+      }
+    ],
+    "itemNames": "圣灵符",
+    "message": "获得圣灵符",
+    "x": 1280,
+    "y": 1232
+  },
+  {
+    "id": "s292_e5301",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5301,
+    "items": [
+      {
+        "id": 108,
+        "name": "雪莲子"
+      }
+    ],
+    "itemNames": "雪莲子",
+    "message": "获得雪莲子",
+    "x": 1808,
+    "y": 504
+  },
+  {
+    "id": "s292_e5302",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5302,
+    "items": [
+      {
+        "id": 224,
+        "name": "朱雀战衣"
+      }
+    ],
+    "itemNames": "朱雀战衣",
+    "message": "获得朱雀战衣",
+    "x": 816,
+    "y": 1512
+  },
+  {
+    "id": "s292_e5303",
+    "sceneId": 292,
+    "sceneName": "场景 292",
+    "mapNum": 191,
+    "eventId": 5303,
+    "items": [
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ],
+    "itemNames": "灵葫仙丹",
+    "message": "获得灵葫仙丹",
+    "x": 1312,
+    "y": 1744
+  },
+  {
+    "id": "s293_e5323",
+    "sceneId": 293,
+    "sceneName": "场景 293",
+    "mapNum": 192,
+    "eventId": 5323,
+    "items": [
+      {
+        "id": 63,
+        "name": "金刚符"
+      }
+    ],
+    "itemNames": "金刚符",
+    "message": "获得金刚符",
+    "x": 864,
+    "y": 1056
+  },
+  {
+    "id": "s293_e5324",
+    "sceneId": 293,
+    "sceneName": "场景 293",
+    "mapNum": 192,
+    "eventId": 5324,
+    "items": [
+      {
+        "id": 223,
+        "name": "玄武战袍"
+      }
+    ],
+    "itemNames": "玄武战袍",
+    "message": "获得玄武战袍",
+    "x": 1664,
+    "y": 704
+  },
+  {
+    "id": "s293_e5325",
+    "sceneId": 293,
+    "sceneName": "场景 293",
+    "mapNum": 192,
+    "eventId": 5325,
+    "items": [
+      {
+        "id": 110,
+        "name": "神仙茶"
+      }
+    ],
+    "itemNames": "神仙茶",
+    "message": "获得神仙茶",
+    "x": 688,
+    "y": 1000
+  }
+]

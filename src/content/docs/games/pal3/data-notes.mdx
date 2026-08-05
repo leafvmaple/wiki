@@ -1,0 +1,62 @@
+---
+title: 数据说明
+description: 《仙剑奇侠传三》资料的数据来源、字段口径与同步方式。
+game: '仙剑奇侠传三'
+gameVersion: 'Steam PAL3'
+lastVerified: '2026-07-29'
+sidebar:
+  order: 9
+  label: 数据说明
+---
+
+import summary from '../../../../data/pal3/generated/summary.json';
+
+## 数据来源
+
+与《重装机兵》一样：从游戏资源抽出数值表，wiki 只提交整理后的派生 JSON。
+
+| 表 | 文件 | 条目 |
+| --- | --- | ---: |
+| 道具 | `cbdata/Item.attrib` | {summary.counts.items} |
+| 防具饰品 | `cbdata/Equip.attrib` | {summary.counts.equipment} |
+| 武器 | `cbdata/Weapon.attrib` | {summary.counts.weapons} |
+| 炼妖材料 | `cbdata/Plunder.attrib` | {summary.counts.plunder} |
+| 仙术 | `cbdata/Magic.attrib` | {summary.counts.magic} |
+| 特技 | `cbdata/Skill.attrib` | {summary.counts.skills} |
+| 敌方仙术库 | `cbdata/Theurgy.attrib` | {summary.counts.theurgy} |
+| 合击 | `cbdata/Combo.attrib` | {summary.counts.combos} |
+| 怪物 | `cbdata/Monster.attrib` | {summary.counts.monsters} |
+| 商店 | `DealScript/*` | {summary.counts.shops} |
+| 大地图地点 | `ui/BigMap/BigMap.sce` | {summary.counts.locations} |
+
+## 同步方式
+
+在 `pal3-unpack`：
+
+```powershell
+python tools\gen_wiki_data.py --install-wiki
+```
+
+写入 `D:\Code\wiki\src\data\pal3\generated\`。
+
+map-viewer（Metal Max 契约，对齐 NAS `\\10.0.0.20\docker\map-viewer\data\res\metal_max`）：
+
+```powershell
+python tools\export_to_map_viewer.py
+python tools\export_to_map_viewer.py --nas
+```
+
+## 字段口径
+
+- **分类 / 武器类 / 可装备 / 效果 `$` 摘要 / 价格**：同前一版说明。
+- **仙术类型**：`Skill_Type` → 辅助/攻击/治疗/合灵；特技为 type 0。
+- **商店**：`DealScript` 的 `Equip`/`Prop` 货架 ID 关联 attrib；客栈读 `M_RestPrice`。
+- **大地图地点**：SCE 脚本名 → 场景包代码（如安宁村→`Q07`）；`mapX`/`mapY` 为 Element 模板匹配中心（原生 1536×1024），`matchScore` 为匹配分。
+
+## 后续
+
+- ~~世界地图叠 `Element/*.tga` 场景精灵 + 小门热区~~（已导出；坐标仍为匹配近似，待对照原作精校）
+- ~~点进地点 → 场景 `.pol` 贴图俯视图（`tools/build_scene_overviews.py`）~~（已接 `scene_maps`）
+- 大地图精灵像素坐标若能从引擎表精确还原，替换当前模板匹配
+- 俯视图可再叠 lightmap 调制 / 多子场景切换
+- 怪物掉落 / 技能交叉引用

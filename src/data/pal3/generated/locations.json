@@ -1,0 +1,912 @@
+[
+  {
+    "id": 100,
+    "name": "安宁村",
+    "script": "从大地图进入安宁村",
+    "scenes": [
+      "Q07"
+    ],
+    "scene": "Q07",
+    "sceneName": "安宁村",
+    "mapX": 147,
+    "mapY": 858,
+    "boundsNative": [
+      [
+        94,
+        824
+      ],
+      [
+        200,
+        893
+      ]
+    ],
+    "matchScore": 0.2789,
+    "elementFile": "anningchun.tga"
+  },
+  {
+    "id": 101,
+    "name": "安溪",
+    "script": "从大地图进入安溪",
+    "scenes": [
+      "Q16"
+    ],
+    "scene": "Q16",
+    "sceneName": "安溪",
+    "mapX": 913,
+    "mapY": 192,
+    "boundsNative": [
+      [
+        849,
+        137
+      ],
+      [
+        977,
+        247
+      ]
+    ],
+    "matchScore": 0.1732,
+    "elementFile": "anxi.tga"
+  },
+  {
+    "id": 102,
+    "name": "宾化",
+    "script": "从大地图进入宾化",
+    "scenes": [
+      "Q02"
+    ],
+    "scene": "Q02",
+    "sceneName": "宾化",
+    "mapX": 399,
+    "mapY": 880,
+    "boundsNative": [
+      [
+        314,
+        819
+      ],
+      [
+        484,
+        941
+      ]
+    ],
+    "matchScore": 0.1885,
+    "elementFile": "binhua.tga"
+  },
+  {
+    "id": 103,
+    "name": "璧山",
+    "script": "从大地图进入璧山",
+    "scenes": [
+      "M01"
+    ],
+    "scene": "M01",
+    "sceneName": "璧山",
+    "mapX": 1149,
+    "mapY": 567,
+    "boundsNative": [
+      [
+        1080,
+        519
+      ],
+      [
+        1218,
+        616
+      ]
+    ],
+    "matchScore": 0.5019,
+    "elementFile": "bishan.tga"
+  },
+  {
+    "id": 104,
+    "name": "冰风谷",
+    "script": "从大地图进入冰风谷",
+    "scenes": [
+      "M22"
+    ],
+    "scene": "M22",
+    "sceneName": "冰风谷",
+    "mapX": 754,
+    "mapY": 347,
+    "boundsNative": [
+      [
+        702,
+        296
+      ],
+      [
+        806,
+        399
+      ]
+    ],
+    "matchScore": 0.4485,
+    "elementFile": "bingfenggu.tga"
+  },
+  {
+    "id": 105,
+    "name": "草海",
+    "script": "从大地图进入草海",
+    "scenes": [
+      "M18"
+    ],
+    "scene": "M18",
+    "sceneName": "草海",
+    "mapX": 311,
+    "mapY": 633,
+    "boundsNative": [
+      [
+        262,
+        588
+      ],
+      [
+        361,
+        679
+      ]
+    ],
+    "matchScore": 0.4349,
+    "elementFile": "chaohai.tga"
+  },
+  {
+    "id": 106,
+    "name": "船长江",
+    "script": "从大地图进入船长江",
+    "scenes": [],
+    "scene": null,
+    "sceneName": null,
+    "mapX": 446,
+    "mapY": 95,
+    "boundsNative": [
+      [
+        397,
+        53
+      ],
+      [
+        495,
+        138
+      ]
+    ],
+    "matchScore": 0.448,
+    "elementFile": "chuanchangjiang.tga"
+  },
+  {
+    "id": 107,
+    "name": "船海",
+    "script": "从大地图进入船海",
+    "scenes": [
+      "M03"
+    ],
+    "scene": "M03",
+    "sceneName": "大渡口",
+    "mapX": 821,
+    "mapY": 966,
+    "boundsNative": [
+      [
+        776,
+        934
+      ],
+      [
+        866,
+        999
+      ]
+    ],
+    "matchScore": 0.3686,
+    "elementFile": "chuanhai.tga"
+  },
+  {
+    "id": 108,
+    "name": "大渡口",
+    "script": "从大地图进入大渡口",
+    "scenes": [
+      "M03"
+    ],
+    "scene": "M03",
+    "sceneName": "大渡口",
+    "mapX": 1170,
+    "mapY": 606,
+    "boundsNative": [
+      [
+        1067,
+        533
+      ],
+      [
+        1273,
+        680
+      ]
+    ],
+    "matchScore": 0.3874,
+    "elementFile": "dadukou.tga"
+  },
+  {
+    "id": 109,
+    "name": "德阳",
+    "script": "从大地图进入德阳",
+    "scenes": [
+      "Q06"
+    ],
+    "scene": "Q06",
+    "sceneName": "德阳",
+    "mapX": 978,
+    "mapY": 404,
+    "boundsNative": [
+      [
+        927,
+        366
+      ],
+      [
+        1029,
+        442
+      ]
+    ],
+    "matchScore": 0.312,
+    "elementFile": "deyang.tga"
+  },
+  {
+    "id": 110,
+    "name": "酆都",
+    "script": "从大地图进入酆都",
+    "scenes": [
+      "Q13"
+    ],
+    "scene": "Q13",
+    "sceneName": "酆都",
+    "mapX": 951,
+    "mapY": 934,
+    "boundsNative": [
+      [
+        884,
+        886
+      ],
+      [
+        1019,
+        983
+      ]
+    ],
+    "matchScore": 0.2339,
+    "elementFile": "fengdu.tga"
+  },
+  {
+    "id": 111,
+    "name": "古城镇",
+    "script": "从大地图进入古城镇",
+    "scenes": [
+      "Q12"
+    ],
+    "scene": "Q12",
+    "sceneName": "古城镇",
+    "mapX": 1445,
+    "mapY": 488,
+    "boundsNative": [
+      [
+        1377,
+        435
+      ],
+      [
+        1514,
+        541
+      ]
+    ],
+    "matchScore": 0.271,
+    "elementFile": "guchengzhen.tga"
+  },
+  {
+    "id": 112,
+    "name": "古藤林",
+    "script": "从大地图进入古藤林",
+    "scenes": [
+      "M10"
+    ],
+    "scene": "M10",
+    "sceneName": "古藤林",
+    "mapX": 667,
+    "mapY": 797,
+    "boundsNative": [
+      [
+        578,
+        732
+      ],
+      [
+        756,
+        862
+      ]
+    ],
+    "matchScore": 0.3639,
+    "elementFile": "gutenglin.tga"
+  },
+  {
+    "id": 113,
+    "name": "鬼界外围",
+    "script": "从大地图进入鬼界外围",
+    "scenes": [
+      "Q14"
+    ],
+    "scene": "Q14",
+    "sceneName": "鬼界外围",
+    "mapX": 353,
+    "mapY": 331,
+    "boundsNative": [
+      [
+        300,
+        276
+      ],
+      [
+        407,
+        386
+      ]
+    ],
+    "matchScore": 0.4768,
+    "elementFile": "guijiewaiwei.tga"
+  },
+  {
+    "id": 114,
+    "name": "海底城",
+    "script": "从大地图进入海底城",
+    "scenes": [
+      "M23"
+    ],
+    "scene": "M23",
+    "sceneName": "海底城",
+    "mapX": 789,
+    "mapY": 201,
+    "boundsNative": [
+      [
+        748,
+        125
+      ],
+      [
+        831,
+        277
+      ]
+    ],
+    "matchScore": 0.3448,
+    "elementFile": "haidicheng.tga"
+  },
+  {
+    "id": 115,
+    "name": "黄泉路",
+    "script": "从大地图进入黄泉路",
+    "scenes": [
+      "M21"
+    ],
+    "scene": "M21",
+    "sceneName": "黄泉路",
+    "mapX": 600,
+    "mapY": 248,
+    "boundsNative": [
+      [
+        497,
+        216
+      ],
+      [
+        703,
+        280
+      ]
+    ],
+    "matchScore": 0.3184,
+    "elementFile": "huangquanlu.tga"
+  },
+  {
+    "id": 116,
+    "name": "剑冢",
+    "script": "从大地图进入剑冢",
+    "scenes": [
+      "M24"
+    ],
+    "scene": "M24",
+    "sceneName": "剑冢",
+    "mapX": 628,
+    "mapY": 373,
+    "boundsNative": [
+      [
+        586,
+        307
+      ],
+      [
+        670,
+        439
+      ]
+    ],
+    "matchScore": 0.3215,
+    "elementFile": "jianzhong.tga"
+  },
+  {
+    "id": 117,
+    "name": "九顶山",
+    "script": "从大地图进入九顶山",
+    "scenes": [
+      "M08"
+    ],
+    "scene": "M08",
+    "sceneName": "九顶山",
+    "mapX": 134,
+    "mapY": 605,
+    "boundsNative": [
+      [
+        65,
+        549
+      ],
+      [
+        204,
+        662
+      ]
+    ],
+    "matchScore": 0.6383,
+    "elementFile": "jiudingshan.tga"
+  },
+  {
+    "id": 118,
+    "name": "九龙坡",
+    "script": "从大地图进入九龙坡",
+    "scenes": [
+      "M02"
+    ],
+    "scene": "M02",
+    "sceneName": "九龙坡",
+    "mapX": 505,
+    "mapY": 435,
+    "boundsNative": [
+      [
+        448,
+        390
+      ],
+      [
+        563,
+        481
+      ]
+    ],
+    "matchScore": 0.4779,
+    "elementFile": "jiulongpo.tga"
+  },
+  {
+    "id": 119,
+    "name": "雷州",
+    "script": "从大地图进入雷州",
+    "scenes": [
+      "Q09"
+    ],
+    "scene": "Q09",
+    "sceneName": "雷州",
+    "mapX": 1043,
+    "mapY": 853,
+    "boundsNative": [
+      [
+        968,
+        787
+      ],
+      [
+        1118,
+        920
+      ]
+    ],
+    "matchScore": 0.1915,
+    "elementFile": "leizhou.tga"
+  },
+  {
+    "id": 120,
+    "name": "蛮州",
+    "script": "从大地图进入蛮州",
+    "scenes": [
+      "Q11"
+    ],
+    "scene": "Q11",
+    "sceneName": "蛮州",
+    "mapX": 219,
+    "mapY": 565,
+    "boundsNative": [
+      [
+        133,
+        502
+      ],
+      [
+        305,
+        628
+      ]
+    ],
+    "matchScore": 0.2423,
+    "elementFile": "manzhou.tga"
+  },
+  {
+    "id": 121,
+    "name": "神魔之井",
+    "script": "从大地图进入神魔之井",
+    "scenes": [
+      "M15"
+    ],
+    "scene": "M15",
+    "sceneName": "神魔之井",
+    "mapX": 814,
+    "mapY": 147,
+    "boundsNative": [
+      [
+        746,
+        75
+      ],
+      [
+        883,
+        219
+      ]
+    ],
+    "matchScore": 0.2228,
+    "elementFile": "mohuankongjian.tga"
+  },
+  {
+    "id": 122,
+    "name": "蓬莱",
+    "script": "从大地图进入蓬莱",
+    "scenes": [
+      "Q04"
+    ],
+    "scene": "Q04",
+    "sceneName": "蓬莱御剑堂",
+    "mapX": 1181,
+    "mapY": 265,
+    "boundsNative": [
+      [
+        1134,
+        219
+      ],
+      [
+        1228,
+        311
+      ]
+    ],
+    "matchScore": 0.4922,
+    "elementFile": "penglai.tga"
+  },
+  {
+    "id": 123,
+    "name": "蓬莱迷宫",
+    "script": "从大地图进入蓬莱迷宫",
+    "scenes": [
+      "M06"
+    ],
+    "scene": "M06",
+    "sceneName": "蓬莱",
+    "mapX": 571,
+    "mapY": 924,
+    "boundsNative": [
+      [
+        539,
+        876
+      ],
+      [
+        603,
+        972
+      ]
+    ],
+    "matchScore": 0.4063,
+    "elementFile": "penglaimigong.tga"
+  },
+  {
+    "id": 124,
+    "name": "霹雳堂",
+    "script": "从大地图进入霹雳堂",
+    "scenes": [
+      "M09"
+    ],
+    "scene": "M09",
+    "sceneName": "霹雳堂总舵",
+    "mapX": 149,
+    "mapY": 49,
+    "boundsNative": [
+      [
+        114,
+        16
+      ],
+      [
+        185,
+        82
+      ]
+    ],
+    "matchScore": 0.4022,
+    "elementFile": "pilitang.tga"
+  },
+  {
+    "id": 125,
+    "name": "熔岩地狱",
+    "script": "从大地图进入熔岩地狱",
+    "scenes": [
+      "M20"
+    ],
+    "scene": "M20",
+    "sceneName": "熔岩地狱",
+    "mapX": 128,
+    "mapY": 774,
+    "boundsNative": [
+      [
+        75,
+        721
+      ],
+      [
+        181,
+        827
+      ]
+    ],
+    "matchScore": 0.4014,
+    "elementFile": "rongyandiyu.tga"
+  },
+  {
+    "id": 126,
+    "name": "神界天门",
+    "script": "从大地图进入神界天门",
+    "scenes": [
+      "Q10"
+    ],
+    "scene": "Q10",
+    "sceneName": "神界天门",
+    "mapX": 522,
+    "mapY": 199,
+    "boundsNative": [
+      [
+        403,
+        116
+      ],
+      [
+        642,
+        282
+      ]
+    ],
+    "matchScore": 0.282,
+    "elementFile": "shenjietianmen.tga"
+  },
+  {
+    "id": 127,
+    "name": "神树",
+    "script": "从大地图进入神树",
+    "scenes": [
+      "M16"
+    ],
+    "scene": "M16",
+    "sceneName": "神树",
+    "mapX": 924,
+    "mapY": 675,
+    "boundsNative": [
+      [
+        876,
+        629
+      ],
+      [
+        972,
+        722
+      ]
+    ],
+    "matchScore": 0.3883,
+    "elementFile": "shenshu.tga"
+  },
+  {
+    "id": 128,
+    "name": "蜀山",
+    "script": "从大地图进入蜀山",
+    "scenes": [
+      "Q08"
+    ],
+    "scene": "Q08",
+    "sceneName": "蜀山派",
+    "mapX": 756,
+    "mapY": 249,
+    "boundsNative": [
+      [
+        686,
+        160
+      ],
+      [
+        827,
+        339
+      ]
+    ],
+    "matchScore": 0.4444,
+    "elementFile": "shushan.tga"
+  },
+  {
+    "id": 129,
+    "name": "蜀山故道",
+    "script": "从大地图进入蜀山故道",
+    "scenes": [
+      "M11"
+    ],
+    "scene": "M11",
+    "sceneName": "蜀山故道",
+    "mapX": 559,
+    "mapY": 128,
+    "boundsNative": [
+      [
+        459,
+        0
+      ],
+      [
+        659,
+        256
+      ]
+    ],
+    "matchScore": 0.4117,
+    "elementFile": "shushangudao.tga"
+  },
+  {
+    "id": 130,
+    "name": "锁妖塔",
+    "script": "从大地图进入锁妖塔",
+    "scenes": [
+      "M17"
+    ],
+    "scene": "M17",
+    "sceneName": "锁妖塔",
+    "mapX": 380,
+    "mapY": 716,
+    "boundsNative": [
+      [
+        313,
+        631
+      ],
+      [
+        448,
+        802
+      ]
+    ],
+    "matchScore": 0.2869,
+    "elementFile": "suoyaota.tga"
+  },
+  {
+    "id": 131,
+    "name": "唐家堡",
+    "script": "从大地图进入唐家堡",
+    "scenes": [
+      "Q05"
+    ],
+    "scene": "Q05",
+    "sceneName": "唐家堡",
+    "mapX": 422,
+    "mapY": 601,
+    "boundsNative": [
+      [
+        362,
+        555
+      ],
+      [
+        483,
+        647
+      ]
+    ],
+    "matchScore": 0.1916,
+    "elementFile": "tangjiabao.tga"
+  },
+  {
+    "id": 132,
+    "name": "灵山仙人洞",
+    "script": "从大地图进入灵山仙人洞",
+    "scenes": [
+      "M19"
+    ],
+    "scene": "M19",
+    "sceneName": "灵山仙人洞",
+    "mapX": 180,
+    "mapY": 591,
+    "boundsNative": [
+      [
+        105,
+        547
+      ],
+      [
+        256,
+        636
+      ]
+    ],
+    "matchScore": 0.6922,
+    "elementFile": "xianrendong.tga"
+  },
+  {
+    "id": 133,
+    "name": "新仙界",
+    "script": "从大地图进入新仙界",
+    "scenes": [
+      "M25"
+    ],
+    "scene": "M25",
+    "sceneName": "新仙界",
+    "mapX": 1245,
+    "mapY": 562,
+    "boundsNative": [
+      [
+        1171,
+        490
+      ],
+      [
+        1319,
+        634
+      ]
+    ],
+    "matchScore": 0.3598,
+    "elementFile": "xinxianjie.tga"
+  },
+  {
+    "id": 134,
+    "name": "星森",
+    "script": "从大地图进入星森",
+    "scenes": [
+      "M26"
+    ],
+    "scene": "M26",
+    "sceneName": "星森",
+    "mapX": 743,
+    "mapY": 982,
+    "boundsNative": [
+      [
+        725,
+        967
+      ],
+      [
+        762,
+        998
+      ]
+    ],
+    "matchScore": 0.4964,
+    "elementFile": "xingsen.tga"
+  },
+  {
+    "id": 135,
+    "name": "雪岭镇",
+    "script": "从大地图进入雪岭镇",
+    "scenes": [
+      "Q15"
+    ],
+    "scene": "Q15",
+    "sceneName": "雪岭镇",
+    "mapX": 1243,
+    "mapY": 327,
+    "boundsNative": [
+      [
+        1166,
+        274
+      ],
+      [
+        1321,
+        381
+      ]
+    ],
+    "matchScore": 0.2906,
+    "elementFile": "xuelingzhen.tga"
+  },
+  {
+    "id": 136,
+    "name": "渝州",
+    "script": "从大地图进入渝州",
+    "scenes": [
+      "Q01"
+    ],
+    "scene": "Q01",
+    "sceneName": "渝州",
+    "mapX": 546,
+    "mapY": 453,
+    "boundsNative": [
+      [
+        454,
+        395
+      ],
+      [
+        639,
+        511
+      ]
+    ],
+    "matchScore": 0.261,
+    "elementFile": "yuzhou.tga"
+  },
+  {
+    "id": 137,
+    "name": "镇江",
+    "script": "从大地图进入镇江",
+    "scenes": [
+      "Q03"
+    ],
+    "scene": "Q03",
+    "sceneName": "镇江",
+    "mapX": 620,
+    "mapY": 145,
+    "boundsNative": [
+      [
+        552,
+        91
+      ],
+      [
+        688,
+        200
+      ]
+    ],
+    "matchScore": 0.2596,
+    "elementFile": "zhenjiang.tga"
+  }
+]

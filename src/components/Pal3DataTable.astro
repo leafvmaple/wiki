@@ -1,0 +1,438 @@
+---
+// 仙剑三数据表 — 可筛选 + 可排序。
+// kinds: items | equipment | weapons | plunder | magic | skills | theurgy | combos | shops | locations | monsters
+import items from '../data/pal3/generated/items.json';
+import equipment from '../data/pal3/generated/equipment.json';
+import weapons from '../data/pal3/generated/weapons.json';
+import plunder from '../data/pal3/generated/plunder.json';
+import magic from '../data/pal3/generated/magic.json';
+import skills from '../data/pal3/generated/skills.json';
+import theurgy from '../data/pal3/generated/theurgy.json';
+import combos from '../data/pal3/generated/combos.json';
+import shops from '../data/pal3/generated/shops.json';
+import locations from '../data/pal3/generated/locations.json';
+import monsters from '../data/pal3/generated/monsters.json';
+
+type Row = Record<string, any>;
+const { kind = 'items' } = Astro.props as { kind?: string };
+
+const itemRows = items as Row[];
+const equipRows = equipment as Row[];
+const weaponRows = weapons as Row[];
+const plunderRows = plunder as Row[];
+const magicRows = magic as Row[];
+const skillRows = skills as Row[];
+const theurgyRows = theurgy as Row[];
+const comboRows = combos as Row[];
+const shopRows = shops as Row[];
+const locationRows = locations as Row[];
+const monsterRows = monsters as Row[];
+
+const catsFor = (rows: Row[], key: string) => [...new Set(rows.map((r) => r[key]).filter(Boolean))];
+
+const filterCats =
+  kind === 'items' ? catsFor(itemRows, 'category')
+  : kind === 'equipment' ? catsFor(equipRows, 'category')
+  : kind === 'weapons' ? catsFor(weaponRows, 'weaponClass')
+  : kind === 'magic' ? catsFor(magicRows, 'category')
+  : kind === 'skills' ? catsFor(skillRows, 'category')
+  : kind === 'theurgy' ? catsFor(theurgyRows, 'category')
+  : kind === 'shops' ? catsFor(shopRows, 'kind')
+  : [];
+
+const showTypeFilter = filterCats.length > 0;
+const money = (v: number | null | undefined) =>
+  v == null || v <= 0 ? '非卖品' : v.toLocaleString('zh-CN');
+const num = (v: number | null | undefined) => (v == null ? '—' : String(v));
+const elemText = (r: Row) => ((r.elements ?? []) as string[]).join('') || '—';
+const statsText = (r: Row) => {
+  const s = r.stats ?? {};
+  const keys = Object.keys(s);
+  if (!keys.length) return r.effect || '—';
+  return keys.map((k) => `${k}${s[k] > 0 ? '+' : ''}${s[k]}`).join(' ');
+};
+---
+
+<div class="pal3-dt-wrap not-content" data-unit="件">
+  <div class="pal3-dt-bar">
+    {showTypeFilter && (
+      <select class="pal3-dt-type" aria-label="按分类筛选">
+        <option value="">全部分类</option>
+        {filterCats.map((c) => <option value={c}>{c}</option>)}
+      </select>
+    )}
+    <input class="pal3-dt-search" type="search" placeholder="搜索…" aria-label="搜索" />
+    <span class="pal3-dt-count" aria-live="polite"></span>
+  </div>
+
+  <div class="pal3-dt-scroll">
+    {kind === 'items' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="type">分类</th>
+            <th data-sort="effect">效果</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {itemRows.map((r) => (
+            <tr data-name={`${r.name} ${r.effect ?? ''} ${r.description ?? ''}`} data-type={r.category} data-id={r.id} data-price={r.price ?? -1} data-effect={r.effect ?? ''}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.category}</td>
+              <td class="pal3-dt-long">{r.effect || r.description || '—'}</td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'pal3-dt-nosale']}>{money(r.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'equipment' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="type">部位</th>
+            <th data-sort="wu" class="num">武</th>
+            <th data-sort="fang" class="num">防</th>
+            <th data-sort="su" class="num">速</th>
+            <th data-sort="yun" class="num">运</th>
+            <th>效果</th>
+            <th>可装备</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {equipRows.map((r) => (
+            <tr data-name={`${r.name} ${r.effect ?? ''} ${r.equip ?? ''}`} data-type={r.category} data-id={r.id} data-wu={r.stats?.武 ?? 0} data-fang={r.stats?.防 ?? 0} data-su={r.stats?.速 ?? 0} data-yun={r.stats?.运 ?? 0} data-price={r.price ?? -1}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.category}</td>
+              <td class="num">{num(r.stats?.武)}</td>
+              <td class="num">{num(r.stats?.防)}</td>
+              <td class="num">{num(r.stats?.速)}</td>
+              <td class="num">{num(r.stats?.运)}</td>
+              <td class="pal3-dt-long">{r.effect || statsText(r)}</td>
+              <td><span class:list={['pal3-dt-equip', r.users?.length && r.users.length < 5 && 'is-limited']}>{r.equip}</span></td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'pal3-dt-nosale']}>{money(r.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'weapons' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="type">武器类</th>
+            <th data-sort="elem">五灵</th>
+            <th data-sort="wu" class="num">武</th>
+            <th>效果</th>
+            <th>可装备</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {weaponRows.map((r) => (
+            <tr data-name={`${r.name} ${r.effect ?? ''} ${r.equip ?? ''}`} data-type={r.weaponClass} data-id={r.id} data-elem={elemText(r)} data-wu={r.stats?.武 ?? 0} data-price={r.price ?? -1}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.weaponClass}</td>
+              <td>{elemText(r)}</td>
+              <td class="num">{num(r.stats?.武)}</td>
+              <td class="pal3-dt-long">{r.effect || statsText(r)}</td>
+              <td><span class:list={['pal3-dt-equip', r.users?.length && r.users.length < 5 && 'is-limited']}>{r.equip}</span></td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'pal3-dt-nosale']}>{money(r.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'plunder' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="effect">效果 / 说明</th>
+            <th data-sort="price" class="num">价格</th>
+          </tr>
+        </thead>
+        <tbody>
+          {plunderRows.map((r) => (
+            <tr data-name={`${r.name} ${r.effect ?? ''} ${r.description ?? ''}`} data-type="炼妖" data-id={r.id} data-price={r.price ?? -1} data-effect={r.effect ?? r.description ?? ''}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-long">{r.effect || r.description || '—'}</td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'pal3-dt-nosale']}>{money(r.price)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {(kind === 'magic' || kind === 'skills' || kind === 'theurgy') && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="type">类型</th>
+            <th data-sort="elem">五灵</th>
+            <th>范围</th>
+            <th data-sort="qi" class="num">气</th>
+            <th data-sort="shen" class="num">神</th>
+            <th>效果</th>
+            <th>使用者</th>
+          </tr>
+        </thead>
+        <tbody>
+          {(kind === 'magic' ? magicRows : kind === 'skills' ? skillRows : theurgyRows).map((r) => (
+            <tr data-name={`${r.name} ${r.effect ?? ''} ${r.description ?? ''} ${r.equip ?? ''}`} data-type={r.category} data-id={r.id} data-elem={elemText(r)} data-qi={r.qi ?? -1} data-shen={r.shen ?? -1}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.category}</td>
+              <td>{elemText(r)}</td>
+              <td class="pal3-dt-muted">{r.range}</td>
+              <td class="num">{num(r.qi)}</td>
+              <td class="num">{num(r.shen)}</td>
+              <td class="pal3-dt-long">{r.effect || r.description || '—'}</td>
+              <td><span class:list={['pal3-dt-equip', r.users?.length && r.users.length < 5 && 'is-limited']}>{r.equip}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'combos' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th>参战</th>
+            <th>条件</th>
+            <th>范围</th>
+            <th>效果</th>
+          </tr>
+        </thead>
+        <tbody>
+          {comboRows.map((r) => (
+            <tr data-name={`${r.name} ${r.actorsText ?? ''} ${r.conditionsText ?? ''}`} data-id={r.id}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td>{r.actorsText}</td>
+              <td class="pal3-dt-long">{r.conditionsText}</td>
+              <td class="pal3-dt-muted">{r.range}</td>
+              <td class="pal3-dt-long">{r.effect || statsText(r)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'shops' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id">脚本</th>
+            <th data-sort="name">店名 / 掌柜</th>
+            <th data-sort="type">类型</th>
+            <th data-sort="count" class="num">货品数</th>
+            <th>货架（节选）</th>
+            <th data-sort="rest" class="num">住宿价</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shopRows.map((r) => (
+            <tr data-name={`${r.name} ${r.id} ${r.goodsText ?? ''} ${r.kind}`} data-type={r.kind} data-id={r.id} data-count={r.itemCount ?? 0} data-rest={r.restPrice ?? -1}>
+              <td class="pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.kind}</td>
+              <td class="num">{r.itemCount ?? 0}</td>
+              <td class="pal3-dt-long">{r.goodsText || (r.kind === '客栈' ? '住宿' : '—')}</td>
+              <td class="num">{r.restPrice != null ? money(r.restPrice) : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'locations' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">地点</th>
+            <th data-sort="scene">场景包</th>
+            <th>场景名</th>
+            <th data-sort="mapx" class="num">X</th>
+            <th data-sort="mapy" class="num">Y</th>
+            <th data-sort="matchscore" class="num">匹配</th>
+          </tr>
+        </thead>
+        <tbody>
+          {locationRows.map((r) => (
+            <tr data-name={`${r.name} ${r.scene ?? ''} ${r.sceneName ?? ''}`} data-id={r.id} data-scene={r.scene ?? ''} data-mapx={r.mapX ?? -1} data-mapy={r.mapY ?? -1} data-matchscore={r.matchScore ?? -1}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="pal3-dt-cat">{r.scene || '—'}</td>
+              <td>{r.sceneName || '—'}</td>
+              <td class="num">{r.mapX != null ? r.mapX : '—'}</td>
+              <td class="num">{r.mapY != null ? r.mapY : '—'}</td>
+              <td class="num pal3-dt-muted">{r.matchScore != null ? Number(r.matchScore).toFixed(2) : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'monsters' && (
+      <table class="pal3-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="level" class="num">等级</th>
+            <th data-sort="jing" class="num">精</th>
+            <th data-sort="wu" class="num">武</th>
+            <th data-sort="fang" class="num">防</th>
+            <th data-sort="su" class="num">速</th>
+            <th data-sort="exp" class="num">经验</th>
+            <th data-sort="money" class="num">金钱</th>
+            <th>五灵</th>
+          </tr>
+        </thead>
+        <tbody>
+          {monsterRows.map((r) => (
+            <tr data-name={`${r.name}`} data-id={r.id} data-level={r.level ?? -1} data-jing={r.jing ?? -1} data-wu={r.wu ?? -1} data-fang={r.fang ?? -1} data-su={r.su ?? -1} data-exp={r.exp ?? -1} data-money={r.money ?? -1}>
+              <td class="num pal3-dt-muted">{r.id}</td>
+              <td class="pal3-dt-name"><span class="pal3-dt-zh">{r.name}</span></td>
+              <td class="num">{num(r.level)}</td>
+              <td class="num">{num(r.jing)}</td>
+              <td class="num">{num(r.wu)}</td>
+              <td class="num">{num(r.fang)}</td>
+              <td class="num">{num(r.su)}</td>
+              <td class="num">{num(r.exp)}</td>
+              <td class="num">{num(r.money)}</td>
+              <td>{elemText(r)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.pal3-dt-wrap').forEach((root) => {
+    const table = root.querySelector('table');
+    if (!table) return;
+    const tbody = table.querySelector('tbody')!;
+    const rows = [...tbody.querySelectorAll<HTMLElement>('tr')];
+    const typeSel = root.querySelector<HTMLSelectElement>('.pal3-dt-type');
+    const search = root.querySelector<HTMLInputElement>('.pal3-dt-search');
+    const count = root.querySelector<HTMLElement>('.pal3-dt-count');
+    const unit = root.dataset.unit || '件';
+    let sortKey = '';
+    let sortDir = 1;
+
+    const apply = () => {
+      const t = typeSel ? typeSel.value : '';
+      const q = search ? search.value.trim().toLowerCase() : '';
+      let shown = 0;
+      for (const r of rows) {
+        const ok =
+          (!t || r.dataset.type === t) &&
+          (!q || (r.dataset.name || '').toLowerCase().includes(q));
+        r.hidden = !ok;
+        if (ok) shown += 1;
+      }
+      if (count) count.textContent = `${shown} ${unit}`;
+    };
+
+    const sortBy = (th: HTMLElement) => {
+      const key = th.dataset.sort!;
+      if (sortKey === key) sortDir = -sortDir;
+      else {
+        sortKey = key;
+        sortDir = ['name', 'type', 'effect', 'elem', 'scene'].includes(key) ? 1 : -1;
+      }
+      const numeric = th.classList.contains('num');
+      [...rows]
+        .sort((a, b) => {
+          const av = a.dataset[key] ?? '';
+          const bv = b.dataset[key] ?? '';
+          return numeric
+            ? (Number(av) - Number(bv)) * sortDir
+            : String(av).localeCompare(String(bv), 'zh') * sortDir;
+        })
+        .forEach((r) => tbody.appendChild(r));
+      table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((h) => {
+        h.dataset.dir = h.dataset.sort === key ? (sortDir > 0 ? 'asc' : 'desc') : '';
+      });
+    };
+
+    typeSel?.addEventListener('change', apply);
+    search?.addEventListener('input', apply);
+    table.querySelectorAll<HTMLElement>('th[data-sort]').forEach((th) =>
+      th.addEventListener('click', () => sortBy(th)),
+    );
+    apply();
+  });
+</script>
+
+<style>
+  .pal3-dt-wrap { display: grid; gap: 0.7rem; }
+  .pal3-dt-bar { align-items: center; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .pal3-dt-type, .pal3-dt-search {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    color: var(--leaf-text);
+    font-size: 0.9rem;
+    padding: 0.36rem 0.6rem;
+  }
+  .pal3-dt-search { flex: 1 1 12rem; max-width: 22rem; }
+  .pal3-dt-count { color: var(--leaf-text-muted); font-size: 0.85rem; font-weight: 700; margin-left: auto; }
+  .pal3-dt-scroll { overflow-x: auto; }
+  .pal3-dt { border-collapse: collapse; font-size: 0.92rem; width: 100%; }
+  .pal3-dt th, .pal3-dt td {
+    border-bottom: 1px solid var(--leaf-border);
+    padding: 0.46rem 0.7rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .pal3-dt th { color: var(--leaf-text-muted); font-weight: 800; }
+  .pal3-dt th[data-sort] { cursor: pointer; user-select: none; }
+  .pal3-dt th[data-sort]:hover { color: var(--leaf-primary-hover); }
+  .pal3-dt th[data-sort]::after { content: ' ↕'; opacity: 0.3; }
+  .pal3-dt th[data-dir='asc']::after { content: ' ↑'; opacity: 1; }
+  .pal3-dt th[data-dir='desc']::after { content: ' ↓'; opacity: 1; }
+  .pal3-dt tbody tr:hover { background: color-mix(in srgb, var(--leaf-primary) 6%, transparent); }
+  .pal3-dt .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pal3-dt-zh { color: var(--leaf-heading); font-weight: 600; }
+  .pal3-dt-cat, .pal3-dt-muted { color: var(--leaf-text-muted); }
+  .pal3-dt-long { color: var(--leaf-text); max-width: 28rem; min-width: 8rem; white-space: normal; }
+  .pal3-dt-equip { color: var(--leaf-text-muted); font-size: 0.85rem; }
+  .pal3-dt-equip.is-limited {
+    border: 1px solid color-mix(in srgb, #c79a2a 60%, var(--leaf-border));
+    border-radius: 999px;
+    color: #d9b24a;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.04rem 0.44rem;
+    white-space: nowrap;
+  }
+  .pal3-dt-nosale { color: var(--leaf-text-muted); font-size: 0.85rem; }
+</style>

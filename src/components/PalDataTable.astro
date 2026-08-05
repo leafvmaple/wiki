@@ -1,0 +1,253 @@
+---
+// 仙剑一数据表 — 可筛选排序。
+// kinds: items | equipment | shops | locations | treasures | npcs
+import items from '../data/pal/generated/items.json';
+import equipment from '../data/pal/generated/equipment.json';
+import shops from '../data/pal/generated/shops.json';
+import locations from '../data/pal/generated/locations.json';
+import treasures from '../data/pal/generated/treasures.json';
+import npcs from '../data/pal/generated/npcs.json';
+
+type Row = Record<string, any>;
+const { kind = 'items' } = Astro.props as { kind?: string };
+
+const nameOf = (r: Row) =>
+  typeof r.name === 'string' ? r.name : (r.name?.zh ?? r.name?.en ?? `#${r.id}`);
+
+const itemRows = (items as Row[]).map((r) => ({ ...(r as Row), _name: nameOf(r) })) as Row[];
+const equipRows = (equipment as Row[]).map((r) => ({ ...(r as Row), _name: nameOf(r) })) as Row[];
+const shopRows = shops as Row[];
+const locationRows = locations as Row[];
+const treasureRows = treasures as Row[];
+const npcRows = npcs as Row[];
+
+const money = (v: number | null | undefined) =>
+  v == null || v <= 0 ? '非卖品' : v.toLocaleString('zh-CN');
+
+const unit =
+  kind === 'npcs' ? '人' :
+  kind === 'treasures' ? '处' :
+  kind === 'shops' ? '家' :
+  kind === 'locations' ? '处' : '件';
+---
+
+<div class="pal-dt-wrap not-content" data-unit={unit}>
+  <div class="pal-dt-bar">
+    <input class="pal-dt-search" type="search" placeholder="搜索…" aria-label="搜索" />
+    <span class="pal-dt-count" aria-live="polite"></span>
+  </div>
+
+  <div class="pal-dt-scroll">
+    {kind === 'items' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="price" class="num">价格</th>
+            <th>属性</th>
+          </tr>
+        </thead>
+        <tbody>
+          {itemRows.map((r) => (
+            <tr data-name={r._name} data-id={r.id} data-price={r.price ?? -1}>
+              <td class="num muted">{r.id}</td>
+              <td class="name">{r._name}</td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
+              <td class="muted">{[r.usable && '可用', r.sellable && '可卖'].filter(Boolean).join(' · ') || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'equipment' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="price" class="num">价格</th>
+            <th>属性</th>
+          </tr>
+        </thead>
+        <tbody>
+          {equipRows.map((r) => (
+            <tr data-name={r._name} data-id={r.id} data-price={r.price ?? -1}>
+              <td class="num muted">{r.id}</td>
+              <td class="name">{r._name}</td>
+              <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
+              <td class="muted">{[r.sellable && '可卖'].filter(Boolean).join(' · ') || '装备'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'shops' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">店主 / 名称</th>
+            <th data-sort="scene">场景</th>
+            <th>类型</th>
+            <th>商品</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shopRows.map((r) => (
+            <tr
+              data-name={`${r.name} ${r.sceneName ?? ''} ${(r.items ?? []).map((it: any) => it.name).join(' ')}`}
+              data-id={r.id}
+              data-scene={r.sceneId ?? 9999}
+            >
+              <td class="num muted">{r.id}</td>
+              <td class="name">{r.name}</td>
+              <td>{r.sceneName ?? '—'}</td>
+              <td class="muted">{r.kind === 'sell' ? '收购' : '买入'}</td>
+              <td class="long">{(r.items ?? []).map((it: any) => it.name).join('、') || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'locations' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">场景</th>
+            <th data-sort="name">名称</th>
+            <th data-sort="map" class="num">地图号</th>
+          </tr>
+        </thead>
+        <tbody>
+          {locationRows.map((r) => (
+            <tr data-name={r.name} data-id={r.id} data-map={r.mapNum}>
+              <td class="num muted">{r.id}</td>
+              <td class="name">{r.name}</td>
+              <td class="num">{r.mapNum}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'treasures' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="scene" class="num">场景</th>
+            <th data-sort="name">道具</th>
+            <th>提示文</th>
+            <th data-sort="map" class="num">地图</th>
+          </tr>
+        </thead>
+        <tbody>
+          {treasureRows.map((r) => (
+            <tr
+              data-name={`${r.itemNames} ${r.sceneName} ${r.message}`}
+              data-id={r.id}
+              data-scene={r.sceneId}
+              data-map={r.mapNum}
+            >
+              <td class="num muted">{r.sceneId}</td>
+              <td class="name">{r.itemNames || '—'}</td>
+              <td class="long muted">{r.message || '—'}</td>
+              <td class="num">{r.mapNum}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'npcs' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">姓名</th>
+            <th data-sort="count" class="num">出现</th>
+            <th>场景</th>
+            <th>身份</th>
+          </tr>
+        </thead>
+        <tbody>
+          {npcRows.map((r) => (
+            <tr
+              data-name={`${r.name} ${r.scenes} ${(r.kinds ?? []).join(' ')}`}
+              data-id={r.name}
+              data-count={r.appearanceCount}
+            >
+              <td class="name">{r.name}</td>
+              <td class="num">{r.appearanceCount}</td>
+              <td class="long">{r.scenes}</td>
+              <td class="muted">{(r.kinds ?? []).map((k: string) => ({ npc: 'NPC', shop: '商店', treasure: '道具' }[k] ?? k)).join(' · ')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+  </div>
+</div>
+
+<script>
+  const root = document.currentScript?.previousElementSibling as HTMLElement | null;
+  if (root?.classList.contains('pal-dt-wrap')) {
+    const search = root.querySelector('.pal-dt-search') as HTMLInputElement | null;
+    const count = root.querySelector('.pal-dt-count') as HTMLElement | null;
+    const rows = [...root.querySelectorAll('tbody tr')] as HTMLTableRowElement[];
+    const unit = root.dataset.unit || '件';
+    const refresh = () => {
+      const q = (search?.value || '').trim().toLowerCase();
+      let n = 0;
+      for (const tr of rows) {
+        const ok = !q || (tr.dataset.name || '').toLowerCase().includes(q) || (tr.dataset.id || '').includes(q);
+        tr.hidden = !ok;
+        if (ok) n++;
+      }
+      if (count) count.textContent = `${n} ${unit}`;
+    };
+    search?.addEventListener('input', refresh);
+    refresh();
+
+    root.querySelectorAll('th[data-sort]').forEach((th) => {
+      th.addEventListener('click', () => {
+        const key = (th as HTMLElement).dataset.sort!;
+        const tbody = root.querySelector('tbody')!;
+        const sorted = [...rows].sort((a, b) => {
+          const av = a.dataset[key] ?? a.dataset.name ?? '';
+          const bv = b.dataset[key] ?? b.dataset.name ?? '';
+          const an = Number(av), bn = Number(bv);
+          if (!Number.isNaN(an) && !Number.isNaN(bn)) return an - bn;
+          return String(av).localeCompare(String(bv), 'zh');
+        });
+        sorted.forEach((tr) => tbody.appendChild(tr));
+      });
+    });
+  }
+</script>
+
+<style>
+  .pal-dt-wrap { margin: 1rem 0 2rem; }
+  .pal-dt-bar { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; }
+  .pal-dt-search {
+    flex: 1; min-width: 12rem; padding: 0.45rem 0.7rem; border: 1px solid #c9d4dc;
+    border-radius: 6px; background: #fff; color: #1a2b36;
+  }
+  .pal-dt-count { color: #5a6b76; font-size: 0.9rem; }
+  .pal-dt-scroll { overflow-x: auto; border: 1px solid #d7e0e6; border-radius: 8px; }
+  .pal-dt { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+  .pal-dt th, .pal-dt td { padding: 0.45rem 0.65rem; border-bottom: 1px solid #e6edf1; text-align: left; }
+  .pal-dt th { background: #f4f8fa; cursor: pointer; white-space: nowrap; color: #3a4d58; }
+  .pal-dt .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pal-dt .name { font-weight: 600; color: #16303d; }
+  .pal-dt .muted { color: #7a8b95; }
+  .pal-dt .long { max-width: 28rem; }
+  .pal-dt .nosale { color: #a07040; }
+  :global([data-theme='dark']) .pal-dt-search { background: #1a242b; border-color: #33444e; color: #e8eef2; }
+  :global([data-theme='dark']) .pal-dt th { background: #1a242b; color: #b7c6d0; }
+  :global([data-theme='dark']) .pal-dt th, :global([data-theme='dark']) .pal-dt td { border-bottom-color: #2a3840; }
+  :global([data-theme='dark']) .pal-dt-scroll { border-color: #2a3840; }
+  :global([data-theme='dark']) .pal-dt .name { color: #e8eef2; }
+</style>

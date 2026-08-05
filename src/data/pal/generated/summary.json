@@ -1,0 +1,27 @@
+{
+  "game": "仙剑奇侠传",
+  "gameVersion": "Steam PAL (SDLPal)",
+  "generatedAt": "2026-08-05",
+  "counts": {
+    "items": 119,
+    "equipment": 208,
+    "allObjects": 327,
+    "shops": 21,
+    "shopPoints": 26,
+    "scenes": 293,
+    "warps": 807,
+    "treasures": 485,
+    "npcs": 221,
+    "words": 566,
+    "messages": 12881
+  },
+  "sources": {
+    "items": "SSS.MKF#2 objects + WORD_chs.txt",
+    "shops": "DATA.MKF#0 stores + SSS scripts 0x0026/0x0027 + MSG",
+    "scenes": "SSS.MKF#1 scenes",
+    "warps": "SSS.MKF scripts opcode 0x0059/0x0046",
+    "treasures": "SSS event scripts + MSG pickup lines",
+    "npcs": "MSG speaker names (「某某：」) via event trigger scripts",
+    "producer": "pal-unpack@gen_wiki_data"
+  }
+}

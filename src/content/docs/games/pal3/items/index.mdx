@@ -1,0 +1,17 @@
+---
+title: 道具图鉴
+description: 仙剑奇侠传三道具图鉴：药品、暗器、辅助、古董、矿石与杂项，含效果摘要与价格，可筛选排序。
+game: '仙剑奇侠传三'
+gameVersion: 'Steam PAL3'
+status: needs-testing
+lastVerified: '2026-07-29'
+tableOfContents: false
+sidebar:
+  label: 道具图鉴
+---
+
+import Pal3DataTable from '../../../../../components/Pal3DataTable.astro';
+
+数据来自 `basedata.cpk` 内 `cbdata/Item.attrib`。「效果」优先取备注 `$` 后的战斗摘要；无摘要时显示叙述文字。「非卖品」表示表内无有效价格。
+
+<Pal3DataTable kind="items" />

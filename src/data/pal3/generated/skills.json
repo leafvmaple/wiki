@@ -1,0 +1,522 @@
+[
+  {
+    "id": 4101,
+    "name": "飞龙探云手",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 2,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {},
+    "effect": "偷取物品或金钱",
+    "description": "神不知鬼不觉偷取敌人身上的财物的技能。"
+  },
+  {
+    "id": 4102,
+    "name": "洒金笺",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": 4,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "精": 80
+    },
+    "effect": "全 增加精",
+    "description": "用金钱换取我方全员精回复。"
+  },
+  {
+    "id": 4103,
+    "name": "绣口锦心咒",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 6,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {},
+    "effect": "单 降低武防速运",
+    "description": "用优秀的口才使敌人丧失自信，降低敌人的各项能力。"
+  },
+  {
+    "id": 4104,
+    "name": "鬼炼狂魔",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 9,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {},
+    "effect": "全 狂",
+    "description": "使群体敌人疯狂的技能。"
+  },
+  {
+    "id": 4105,
+    "name": "百无禁忌",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 20,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {},
+    "effect": "单 解除不良状态",
+    "description": "能够解除一切不良的状态。"
+  },
+  {
+    "id": 4106,
+    "name": "倾国银弹波",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 27,
+    "shen": null,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "精": -700
+    },
+    "effect": "全 减少精",
+    "description": "由对金钱的强烈渴望转变而来的攻击敌方全体的技能。"
+  },
+  {
+    "id": 4201,
+    "name": "绿波红露斩",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 5,
+    "shen": null,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "精": -100
+    },
+    "effect": "单 吸收精",
+    "description": "操纵吸血植物吸取敌人的精并收为己用。"
+  },
+  {
+    "id": 4202,
+    "name": "回生照",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 12,
+    "shen": null,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "精": 50
+    },
+    "effect": "单 复活 增加精",
+    "description": "利用花楹的力量使我方单体复活。"
+  },
+  {
+    "id": 4203,
+    "name": "五毒归元",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 15,
+    "shen": null,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {},
+    "effect": "单 解五毒",
+    "description": "利用花楹的力量给我方单体解毒。"
+  },
+  {
+    "id": 4204,
+    "name": "玉露还精",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": 30,
+    "shen": null,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "精": 350
+    },
+    "effect": "全 增加精",
+    "description": "利用花楹的力量给我方全体补充精。"
+  },
+  {
+    "id": 4205,
+    "name": "天灵千裂破",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 25,
+    "shen": null,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "精": -600
+    },
+    "effect": "单 减少精",
+    "description": "操纵花楹攻击敌方单体。"
+  },
+  {
+    "id": 4301,
+    "name": "鬼降",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 5,
+    "shen": null,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {},
+    "effect": "全 乱",
+    "description": "使敌方全体混乱的鬼系法术。"
+  },
+  {
+    "id": 4302,
+    "name": "鬼禁",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 10,
+    "shen": null,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {},
+    "effect": "全 禁",
+    "description": "比较强力的鬼系法术，使敌方全体陷入禁忌状态。"
+  },
+  {
+    "id": 4303,
+    "name": "幻鬼三叠杀",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 13,
+    "shen": null,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "精": -80
+    },
+    "effect": "全 减少精",
+    "description": "带有攻击敌方全体的鬼系法术。"
+  },
+  {
+    "id": 4304,
+    "name": "鬼狱还神",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 18,
+    "shen": null,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "神": -40
+    },
+    "effect": "单 吸收神",
+    "description": "能够吸取敌方单体神的鬼系法术。"
+  },
+  {
+    "id": 4305,
+    "name": "乾坤一掷",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 25,
+    "shen": null,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "精": -1000
+    },
+    "effect": "全 减少精",
+    "description": "把钱作为暗器掷出，能使敌人遭到巨大伤害的最强力法术。"
+  },
+  {
+    "id": 4401,
+    "name": "万蚁蛊",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 5,
+    "shen": null,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {},
+    "effect": "单 解除壁界隐",
+    "description": "操控蚂蚁来攻击敌方单体的蛊咒。"
+  },
+  {
+    "id": 4402,
+    "name": "吸精蛊",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 9,
+    "shen": null,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {},
+    "effect": "单 连续三回合精吸收",
+    "description": "吸取敌人精，并收为己用的蛊咒。"
+  },
+  {
+    "id": 4403,
+    "name": "梦蛇蛊",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 12,
+    "shen": null,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {},
+    "effect": "全 眠",
+    "description": "使敌人全体催眠的一种蛊咒。"
+  },
+  {
+    "id": 4404,
+    "name": "潜身蛊",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 25,
+    "shen": null,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {},
+    "effect": "单 隐",
+    "description": "使用之后能够使我方隐身的蛊咒。"
+  },
+  {
+    "id": 4405,
+    "name": "万蛊蚀天",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 35,
+    "shen": null,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {
+      "精": -800
+    },
+    "effect": "全 减少精",
+    "description": "威力巨大的禁忌蛊咒。"
+  },
+  {
+    "id": 4501,
+    "name": "禁咒封",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 10,
+    "shen": null,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "单 封",
+    "description": "将敌人封印的符法。"
+  },
+  {
+    "id": 4502,
+    "name": "束身定",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 20,
+    "shen": null,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "单 定",
+    "description": "使敌人麻痹的符法。"
+  },
+  {
+    "id": 4503,
+    "name": "天师符",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 25,
+    "shen": null,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "精": -350
+    },
+    "effect": "全 减少精",
+    "description": "蜀山派的强力符法，攻击敌全体。"
+  },
+  {
+    "id": 4504,
+    "name": "剑神",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 30,
+    "shen": null,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "精": -600
+    },
+    "effect": "全 减少精",
+    "description": "蜀山派最强的御剑术，召唤剑神攻击敌全体。"
+  },
+  {
+    "id": 4505,
+    "name": "魔焰闪空斩",
+    "source": "skill",
+    "category": "特技",
+    "skillType": 0,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 35,
+    "shen": null,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "精": -1000
+    },
+    "effect": "单 减少精",
+    "description": "蜀山派最强的符法，攻击敌单体。"
+  }
+]

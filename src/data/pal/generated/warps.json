@@ -1,0 +1,11201 @@
+[
+  {
+    "fromScene": 1,
+    "fromMap": 12,
+    "event": 1,
+    "x": 512,
+    "y": 800,
+    "toScene": 3,
+    "focus": [
+      1440,
+      1536
+    ],
+    "script": 4667,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 1,
+    "fromMap": 12,
+    "event": 4,
+    "x": 1152,
+    "y": 384,
+    "toScene": 3,
+    "focus": [
+      1568,
+      1504
+    ],
+    "script": 4475,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 1,
+    "fromMap": 12,
+    "event": 13,
+    "x": 1200,
+    "y": 1128,
+    "toScene": 3,
+    "focus": [
+      1408,
+      1424
+    ],
+    "script": 4635,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 1,
+    "fromMap": 12,
+    "event": 18,
+    "x": 416,
+    "y": 400,
+    "toScene": 3,
+    "focus": [
+      1248,
+      1344
+    ],
+    "script": 4643,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 1,
+    "fromMap": 12,
+    "event": 19,
+    "x": 688,
+    "y": 1288,
+    "toScene": 3,
+    "focus": [
+      1024,
+      1488
+    ],
+    "script": 4651,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 2,
+    "fromMap": 12,
+    "event": 33,
+    "x": 1184,
+    "y": 784,
+    "toScene": 3,
+    "focus": [
+      1296,
+      1464
+    ],
+    "script": 4467,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 45,
+    "x": 976,
+    "y": 1704,
+    "toScene": 4,
+    "focus": [
+      1248,
+      896
+    ],
+    "script": 6065,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 46,
+    "x": 1472,
+    "y": 1520,
+    "toScene": 1,
+    "focus": [
+      544,
+      784
+    ],
+    "script": 4659,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 50,
+    "x": 1328,
+    "y": 1448,
+    "toScene": 2,
+    "focus": [
+      1232,
+      760
+    ],
+    "script": 4463,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 51,
+    "x": 1616,
+    "y": 1480,
+    "toScene": 1,
+    "focus": [
+      1200,
+      360
+    ],
+    "script": 4471,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 52,
+    "x": 1456,
+    "y": 1400,
+    "toScene": 1,
+    "focus": [
+      1248,
+      1104
+    ],
+    "script": 4631,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 53,
+    "x": 1296,
+    "y": 1320,
+    "toScene": 1,
+    "focus": [
+      464,
+      376
+    ],
+    "script": 4639,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 3,
+    "fromMap": 10,
+    "event": 54,
+    "x": 992,
+    "y": 1472,
+    "toScene": 1,
+    "focus": [
+      656,
+      1272
+    ],
+    "script": 4647,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 95,
+    "x": 1296,
+    "y": 872,
+    "toScene": 3,
+    "focus": [
+      1056,
+      1664
+    ],
+    "script": 4459,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 96,
+    "x": 1824,
+    "y": 1328,
+    "toScene": 5,
+    "focus": [
+      256,
+      1648
+    ],
+    "script": 5804,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 97,
+    "x": 128,
+    "y": 1344,
+    "toScene": 6,
+    "focus": [
+      1792,
+      1904
+    ],
+    "script": 6047,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 98,
+    "x": 1520,
+    "y": 1640,
+    "toScene": 8,
+    "focus": [
+      656,
+      504
+    ],
+    "script": 4655,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 99,
+    "x": 1280,
+    "y": 1232,
+    "toScene": 8,
+    "focus": [
+      688,
+      1640
+    ],
+    "script": 6031,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 100,
+    "x": 960,
+    "y": 912,
+    "toScene": 9,
+    "focus": [
+      960,
+      528
+    ],
+    "script": 6039,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 4,
+    "fromMap": 1,
+    "event": 101,
+    "x": 1216,
+    "y": 1552,
+    "toScene": 10,
+    "focus": [
+      992,
+      1536
+    ],
+    "script": 6447,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 5,
+    "fromMap": 2,
+    "event": 116,
+    "x": 192,
+    "y": 1680,
+    "toScene": 4,
+    "focus": [
+      1744,
+      1368
+    ],
+    "script": 5808,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 5,
+    "fromMap": 2,
+    "event": 127,
+    "x": 1248,
+    "y": 1200,
+    "toScene": 22,
+    "focus": [
+      1360,
+      1688
+    ],
+    "script": 7916,
+    "triggerMode": 0
+  },
+  {
+    "fromScene": 5,
+    "fromMap": 2,
+    "event": 137,
+    "x": 416,
+    "y": 1328,
+    "toScene": 13,
+    "focus": [
+      672,
+      880
+    ],
+    "script": 4447,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 5,
+    "fromMap": 2,
+    "event": 140,
+    "x": 672,
+    "y": 1232,
+    "toScene": 12,
+    "focus": [
+      688,
+      600
+    ],
+    "script": 4439,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 5,
+    "fromMap": 2,
+    "event": 142,
+    "x": 640,
+    "y": 1680,
+    "toScene": 9,
+    "focus": [
+      608,
+      1200
+    ],
+    "script": 8249,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 6,
+    "fromMap": 4,
+    "event": 149,
+    "x": 1872,
+    "y": 1944,
+    "toScene": 4,
+    "focus": [
+      224,
+      1376
+    ],
+    "script": 6051,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 6,
+    "fromMap": 4,
+    "event": 150,
+    "x": 160,
+    "y": 144,
+    "toScene": 7,
+    "focus": [
+      1424,
+      936
+    ],
+    "script": 6055,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 6,
+    "fromMap": 4,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 4,
+    "focus": [
+      224,
+      1376
+    ],
+    "script": 6051,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 7,
+    "fromMap": 5,
+    "event": 170,
+    "x": 1504,
+    "y": 960,
+    "toScene": 6,
+    "focus": [
+      208,
+      184
+    ],
+    "script": 6059,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 7,
+    "fromMap": 5,
+    "event": 171,
+    "x": 1072,
+    "y": 680,
+    "toScene": 11,
+    "focus": [
+      464,
+      504
+    ],
+    "script": 6614,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 8,
+    "fromMap": 11,
+    "event": 175,
+    "x": 624,
+    "y": 520,
+    "toScene": 4,
+    "focus": [
+      1488,
+      1672
+    ],
+    "script": 4663,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 8,
+    "fromMap": 11,
+    "event": 180,
+    "x": 656,
+    "y": 1656,
+    "toScene": 4,
+    "focus": [
+      1248,
+      1248
+    ],
+    "script": 6035,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 9,
+    "fromMap": 13,
+    "event": 186,
+    "x": 992,
+    "y": 544,
+    "toScene": 4,
+    "focus": [
+      992,
+      928
+    ],
+    "script": 6043,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 9,
+    "fromMap": 13,
+    "event": 187,
+    "x": 560,
+    "y": 1224,
+    "toScene": 5,
+    "focus": [
+      592,
+      1704
+    ],
+    "script": 8253,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 10,
+    "fromMap": 14,
+    "event": 193,
+    "x": 1024,
+    "y": 1552,
+    "toScene": 4,
+    "focus": [
+      1248,
+      1568
+    ],
+    "script": 6451,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 11,
+    "fromMap": 19,
+    "event": 195,
+    "x": 416,
+    "y": 528,
+    "toScene": 7,
+    "focus": [
+      1024,
+      704
+    ],
+    "script": 6618,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 12,
+    "fromMap": 21,
+    "event": 197,
+    "x": 640,
+    "y": 624,
+    "toScene": 5,
+    "focus": [
+      640,
+      1248
+    ],
+    "script": 4443,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 13,
+    "fromMap": 22,
+    "event": 199,
+    "x": 624,
+    "y": 904,
+    "toScene": 5,
+    "focus": [
+      384,
+      1344
+    ],
+    "script": 4451,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 14,
+    "fromMap": 119,
+    "event": 202,
+    "x": 240,
+    "y": 856,
+    "toScene": 18,
+    "focus": [
+      1824,
+      512
+    ],
+    "script": 9587,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 14,
+    "fromMap": 119,
+    "event": 203,
+    "x": 1856,
+    "y": 1040,
+    "toScene": 19,
+    "focus": [
+      288,
+      1088
+    ],
+    "script": 9603,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 15,
+    "fromMap": 3,
+    "event": 227,
+    "x": 1472,
+    "y": 448,
+    "toScene": 16,
+    "focus": [
+      416,
+      1664
+    ],
+    "script": 8440,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 16,
+    "fromMap": 7,
+    "event": 229,
+    "x": 1856,
+    "y": 928,
+    "toScene": 17,
+    "focus": [
+      576,
+      1152
+    ],
+    "script": 8444,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 16,
+    "fromMap": 7,
+    "event": 230,
+    "x": 352,
+    "y": 1696,
+    "toScene": 15,
+    "focus": [
+      1408,
+      480
+    ],
+    "script": 8448,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 17,
+    "fromMap": 6,
+    "event": 235,
+    "x": 512,
+    "y": 1184,
+    "toScene": 16,
+    "focus": [
+      1792,
+      960
+    ],
+    "script": 8452,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 17,
+    "fromMap": 6,
+    "event": 263,
+    "x": 1024,
+    "y": 912,
+    "toScene": 18,
+    "focus": null,
+    "script": 8628,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 18,
+    "fromMap": 25,
+    "event": 265,
+    "x": 512,
+    "y": 1184,
+    "toScene": 16,
+    "focus": [
+      1792,
+      960
+    ],
+    "script": 8452,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 18,
+    "fromMap": 25,
+    "event": 266,
+    "x": 1872,
+    "y": 488,
+    "toScene": 14,
+    "focus": [
+      304,
+      824
+    ],
+    "script": 9591,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 18,
+    "fromMap": 25,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 14,
+    "focus": [
+      304,
+      824
+    ],
+    "script": 9591,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 19,
+    "fromMap": 8,
+    "event": 268,
+    "x": 224,
+    "y": 1120,
+    "toScene": 14,
+    "focus": [
+      1808,
+      1064
+    ],
+    "script": 9607,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 19,
+    "fromMap": 8,
+    "event": 269,
+    "x": 1088,
+    "y": 592,
+    "toScene": 20,
+    "focus": [
+      512,
+      1520
+    ],
+    "script": 8456,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 20,
+    "fromMap": 9,
+    "event": 342,
+    "x": 480,
+    "y": 1536,
+    "toScene": 19,
+    "focus": [
+      1024,
+      624
+    ],
+    "script": 8460,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 21,
+    "fromMap": 23,
+    "event": 400,
+    "x": 1120,
+    "y": 1424,
+    "toScene": 24,
+    "focus": [
+      320,
+      1072
+    ],
+    "script": 11093,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 21,
+    "fromMap": 23,
+    "event": 401,
+    "x": 1344,
+    "y": 1536,
+    "toScene": 24,
+    "focus": [
+      1200,
+      1112
+    ],
+    "script": 11097,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 21,
+    "fromMap": 23,
+    "event": 402,
+    "x": 880,
+    "y": 1080,
+    "toScene": 23,
+    "focus": null,
+    "script": 10033,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 21,
+    "fromMap": 23,
+    "event": 403,
+    "x": 352,
+    "y": 1344,
+    "toScene": 22,
+    "focus": [
+      1360,
+      392
+    ],
+    "script": 10604,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 22,
+    "fromMap": 18,
+    "event": 411,
+    "x": 1472,
+    "y": 336,
+    "toScene": 21,
+    "focus": [
+      448,
+      1296
+    ],
+    "script": 10600,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 424,
+    "x": 704,
+    "y": 448,
+    "toScene": 32,
+    "focus": [
+      1376,
+      864
+    ],
+    "script": 10608,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 454,
+    "x": 1088,
+    "y": 800,
+    "toScene": 25,
+    "focus": [
+      960,
+      816
+    ],
+    "script": 10829,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 455,
+    "x": 768,
+    "y": 896,
+    "toScene": 29,
+    "focus": [
+      704,
+      624
+    ],
+    "script": 10990,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 456,
+    "x": 608,
+    "y": 816,
+    "toScene": 30,
+    "focus": [
+      832,
+      656
+    ],
+    "script": 11029,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 457,
+    "x": 1328,
+    "y": 680,
+    "toScene": 31,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 11033,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 458,
+    "x": 1440,
+    "y": 272,
+    "toScene": 24,
+    "focus": [
+      368,
+      456
+    ],
+    "script": 11085,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 459,
+    "x": 1632,
+    "y": 368,
+    "toScene": 24,
+    "focus": [
+      1232,
+      472
+    ],
+    "script": 11089,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 23,
+    "fromMap": 23,
+    "event": 460,
+    "x": 800,
+    "y": 1120,
+    "toScene": 21,
+    "focus": null,
+    "script": 10035,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 24,
+    "fromMap": 38,
+    "event": 462,
+    "x": 320,
+    "y": 480,
+    "toScene": 23,
+    "focus": [
+      1408,
+      304
+    ],
+    "script": 11101,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 24,
+    "fromMap": 38,
+    "event": 463,
+    "x": 1184,
+    "y": 496,
+    "toScene": 23,
+    "focus": [
+      1600,
+      400
+    ],
+    "script": 11105,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 24,
+    "fromMap": 38,
+    "event": 464,
+    "x": 272,
+    "y": 1096,
+    "toScene": 21,
+    "focus": [
+      1056,
+      1440
+    ],
+    "script": 11109,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 24,
+    "fromMap": 38,
+    "event": 465,
+    "x": 1152,
+    "y": 1136,
+    "toScene": 21,
+    "focus": [
+      1280,
+      1552
+    ],
+    "script": 11113,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 493,
+    "x": 1008,
+    "y": 840,
+    "toScene": 23,
+    "focus": [
+      1152,
+      832
+    ],
+    "script": 10928,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 494,
+    "x": 464,
+    "y": 696,
+    "toScene": 28,
+    "focus": [
+      1008,
+      824
+    ],
+    "script": 10932,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 495,
+    "x": 864,
+    "y": 448,
+    "toScene": 26,
+    "focus": [
+      544,
+      1072
+    ],
+    "script": 11037,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 496,
+    "x": 1024,
+    "y": 528,
+    "toScene": 26,
+    "focus": [
+      1408,
+      400
+    ],
+    "script": 11041,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 497,
+    "x": 1184,
+    "y": 608,
+    "toScene": 26,
+    "focus": [
+      608,
+      480
+    ],
+    "script": 11045,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 498,
+    "x": 704,
+    "y": 448,
+    "toScene": 27,
+    "focus": [
+      1440,
+      480
+    ],
+    "script": 11049,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 499,
+    "x": 544,
+    "y": 528,
+    "toScene": 27,
+    "focus": [
+      1280,
+      560
+    ],
+    "script": 11053,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 25,
+    "fromMap": 26,
+    "event": 500,
+    "x": 384,
+    "y": 608,
+    "toScene": 27,
+    "focus": [
+      1120,
+      640
+    ],
+    "script": 11057,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 26,
+    "fromMap": 36,
+    "event": 501,
+    "x": 512,
+    "y": 1088,
+    "toScene": 25,
+    "focus": [
+      816,
+      472
+    ],
+    "script": 11061,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 26,
+    "fromMap": 36,
+    "event": 502,
+    "x": 1376,
+    "y": 416,
+    "toScene": 25,
+    "focus": [
+      976,
+      552
+    ],
+    "script": 11065,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 26,
+    "fromMap": 36,
+    "event": 503,
+    "x": 576,
+    "y": 496,
+    "toScene": 25,
+    "focus": [
+      1136,
+      632
+    ],
+    "script": 11069,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 27,
+    "fromMap": 37,
+    "event": 513,
+    "x": 1472,
+    "y": 496,
+    "toScene": 25,
+    "focus": [
+      752,
+      472
+    ],
+    "script": 11073,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 27,
+    "fromMap": 37,
+    "event": 514,
+    "x": 1312,
+    "y": 576,
+    "toScene": 25,
+    "focus": [
+      592,
+      552
+    ],
+    "script": 11077,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 27,
+    "fromMap": 37,
+    "event": 515,
+    "x": 1152,
+    "y": 656,
+    "toScene": 25,
+    "focus": [
+      432,
+      632
+    ],
+    "script": 11081,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 28,
+    "fromMap": 27,
+    "event": 524,
+    "x": 1040,
+    "y": 840,
+    "toScene": 25,
+    "focus": [
+      496,
+      712
+    ],
+    "script": 10936,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 28,
+    "fromMap": 27,
+    "event": 525,
+    "x": 944,
+    "y": 792,
+    "toScene": 26,
+    "focus": null,
+    "script": 11165,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 29,
+    "fromMap": 28,
+    "event": 535,
+    "x": 656,
+    "y": 648,
+    "toScene": 23,
+    "focus": [
+      720,
+      936
+    ],
+    "script": 10994,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 30,
+    "fromMap": 29,
+    "event": 539,
+    "x": 784,
+    "y": 680,
+    "toScene": 23,
+    "focus": [
+      560,
+      856
+    ],
+    "script": 11021,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 31,
+    "fromMap": 30,
+    "event": 542,
+    "x": 880,
+    "y": 760,
+    "toScene": 23,
+    "focus": [
+      1376,
+      704
+    ],
+    "script": 11025,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 32,
+    "fromMap": 31,
+    "event": 546,
+    "x": 1472,
+    "y": 912,
+    "toScene": 23,
+    "focus": [
+      768,
+      480
+    ],
+    "script": 12033,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 32,
+    "fromMap": 31,
+    "event": 547,
+    "x": 672,
+    "y": 512,
+    "toScene": 34,
+    "focus": [
+      1424,
+      1384
+    ],
+    "script": 12037,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 33,
+    "fromMap": 50,
+    "event": 570,
+    "x": 672,
+    "y": 512,
+    "toScene": 34,
+    "focus": [
+      1424,
+      1384
+    ],
+    "script": 12037,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 34,
+    "fromMap": 32,
+    "event": 571,
+    "x": 1472,
+    "y": 1408,
+    "toScene": 33,
+    "focus": [
+      720,
+      552
+    ],
+    "script": 12041,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 34,
+    "fromMap": 32,
+    "event": 572,
+    "x": 688,
+    "y": 1128,
+    "toScene": 35,
+    "focus": [
+      1520,
+      776
+    ],
+    "script": 12045,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 35,
+    "fromMap": 15,
+    "event": 583,
+    "x": 1584,
+    "y": 808,
+    "toScene": 34,
+    "focus": [
+      720,
+      1144
+    ],
+    "script": 12049,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 35,
+    "fromMap": 15,
+    "event": 587,
+    "x": 1104,
+    "y": 104,
+    "toScene": 38,
+    "focus": [
+      432,
+      776
+    ],
+    "script": 12053,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 35,
+    "fromMap": 15,
+    "event": 588,
+    "x": 1360,
+    "y": 232,
+    "toScene": 38,
+    "focus": [
+      1440,
+      1152
+    ],
+    "script": 12057,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 35,
+    "fromMap": 15,
+    "event": 589,
+    "x": 1792,
+    "y": 448,
+    "toScene": 38,
+    "focus": [
+      400,
+      1336
+    ],
+    "script": 12061,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 35,
+    "fromMap": 15,
+    "event": 590,
+    "x": 464,
+    "y": 872,
+    "toScene": 36,
+    "focus": [
+      1088,
+      496
+    ],
+    "script": 12081,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 36,
+    "fromMap": 51,
+    "event": 601,
+    "x": 1136,
+    "y": 472,
+    "toScene": 35,
+    "focus": [
+      528,
+      840
+    ],
+    "script": 12065,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 36,
+    "fromMap": 51,
+    "event": 603,
+    "x": 1072,
+    "y": 696,
+    "toScene": 37,
+    "focus": null,
+    "script": 13247,
+    "triggerMode": 8
+  },
+  {
+    "fromScene": 37,
+    "fromMap": 33,
+    "event": 612,
+    "x": 1136,
+    "y": 472,
+    "toScene": 35,
+    "focus": [
+      528,
+      840
+    ],
+    "script": 12065,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 37,
+    "fromMap": 33,
+    "event": 613,
+    "x": 960,
+    "y": 736,
+    "toScene": 39,
+    "focus": [
+      1648,
+      968
+    ],
+    "script": 12089,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 38,
+    "fromMap": 34,
+    "event": 621,
+    "x": 384,
+    "y": 800,
+    "toScene": 35,
+    "focus": [
+      1056,
+      128
+    ],
+    "script": 12069,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 38,
+    "fromMap": 34,
+    "event": 622,
+    "x": 1392,
+    "y": 1176,
+    "toScene": 35,
+    "focus": [
+      1312,
+      256
+    ],
+    "script": 12073,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 38,
+    "fromMap": 34,
+    "event": 623,
+    "x": 352,
+    "y": 1360,
+    "toScene": 35,
+    "focus": [
+      1744,
+      472
+    ],
+    "script": 12077,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 39,
+    "fromMap": 35,
+    "event": 633,
+    "x": 192,
+    "y": 240,
+    "toScene": 42,
+    "focus": [
+      1760,
+      1792
+    ],
+    "script": 13538,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 40,
+    "fromMap": 42,
+    "event": 636,
+    "x": 1856,
+    "y": 1888,
+    "toScene": 46,
+    "focus": [
+      592,
+      1688
+    ],
+    "script": 13745,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 40,
+    "fromMap": 42,
+    "event": 637,
+    "x": 528,
+    "y": 952,
+    "toScene": 46,
+    "focus": [
+      1664,
+      1696
+    ],
+    "script": 13749,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 40,
+    "fromMap": 42,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 41,
+    "fromMap": 131,
+    "event": 673,
+    "x": 768,
+    "y": 672,
+    "toScene": 47,
+    "focus": [
+      1280,
+      1328
+    ],
+    "script": 13592,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 41,
+    "fromMap": 131,
+    "event": 675,
+    "x": 496,
+    "y": 824,
+    "toScene": 46,
+    "focus": [
+      1600,
+      1568
+    ],
+    "script": 13753,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 41,
+    "fromMap": 131,
+    "event": 676,
+    "x": 1376,
+    "y": 864,
+    "toScene": 46,
+    "focus": [
+      640,
+      1024
+    ],
+    "script": 13757,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 41,
+    "fromMap": 131,
+    "event": 677,
+    "x": 1200,
+    "y": 968,
+    "toScene": 46,
+    "focus": [
+      224,
+      1136
+    ],
+    "script": 13761,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 41,
+    "fromMap": 131,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 42,
+    "fromMap": 39,
+    "event": 691,
+    "x": 1792,
+    "y": 1808,
+    "toScene": 39,
+    "focus": [
+      224,
+      256
+    ],
+    "script": 13542,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 42,
+    "fromMap": 39,
+    "event": 692,
+    "x": 400,
+    "y": 696,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 42,
+    "fromMap": 39,
+    "event": 693,
+    "x": 1808,
+    "y": 1448,
+    "toScene": 43,
+    "focus": [
+      672,
+      656
+    ],
+    "script": 13600,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 43,
+    "fromMap": 44,
+    "event": 702,
+    "x": 624,
+    "y": 680,
+    "toScene": 42,
+    "focus": [
+      1776,
+      1464
+    ],
+    "script": 13604,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 44,
+    "fromMap": 40,
+    "event": 703,
+    "x": 1904,
+    "y": 1896,
+    "toScene": 42,
+    "focus": [
+      480,
+      736
+    ],
+    "script": 13588,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 44,
+    "fromMap": 40,
+    "event": 704,
+    "x": 720,
+    "y": 1432,
+    "toScene": 46,
+    "focus": [
+      560,
+      680
+    ],
+    "script": 13725,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 44,
+    "fromMap": 40,
+    "event": 705,
+    "x": 912,
+    "y": 1304,
+    "toScene": 46,
+    "focus": [
+      784,
+      536
+    ],
+    "script": 13809,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 44,
+    "fromMap": 40,
+    "event": 706,
+    "x": 1344,
+    "y": 592,
+    "toScene": 46,
+    "focus": [
+      1504,
+      1376
+    ],
+    "script": 13729,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 45,
+    "fromMap": 41,
+    "event": 731,
+    "x": 192,
+    "y": 1488,
+    "toScene": 46,
+    "focus": [
+      1392,
+      792
+    ],
+    "script": 13733,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 45,
+    "fromMap": 41,
+    "event": 732,
+    "x": 304,
+    "y": 1912,
+    "toScene": 46,
+    "focus": [
+      1040,
+      1032
+    ],
+    "script": 13737,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 45,
+    "fromMap": 41,
+    "event": 733,
+    "x": 1184,
+    "y": 288,
+    "toScene": 46,
+    "focus": [
+      800,
+      1632
+    ],
+    "script": 13741,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 45,
+    "fromMap": 41,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 756,
+    "x": 832,
+    "y": 512,
+    "toScene": 44,
+    "focus": [
+      960,
+      1280
+    ],
+    "script": 13765,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 757,
+    "x": 1440,
+    "y": 768,
+    "toScene": 45,
+    "focus": [
+      272,
+      1448
+    ],
+    "script": 13769,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 758,
+    "x": 1440,
+    "y": 1408,
+    "toScene": 44,
+    "focus": [
+      1280,
+      640
+    ],
+    "script": 13773,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 759,
+    "x": 992,
+    "y": 1056,
+    "toScene": 45,
+    "focus": [
+      272,
+      1928
+    ],
+    "script": 13777,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 760,
+    "x": 496,
+    "y": 712,
+    "toScene": 44,
+    "focus": [
+      672,
+      1472
+    ],
+    "script": 13781,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 761,
+    "x": 832,
+    "y": 1648,
+    "toScene": 45,
+    "focus": [
+      1248,
+      320
+    ],
+    "script": 13785,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 762,
+    "x": 528,
+    "y": 1656,
+    "toScene": 40,
+    "focus": [
+      1776,
+      1848
+    ],
+    "script": 13789,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 763,
+    "x": 1728,
+    "y": 1728,
+    "toScene": 40,
+    "focus": [
+      576,
+      976
+    ],
+    "script": 13793,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 764,
+    "x": 1552,
+    "y": 1544,
+    "toScene": 41,
+    "focus": [
+      448,
+      816
+    ],
+    "script": 13797,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 765,
+    "x": 704,
+    "y": 1056,
+    "toScene": 41,
+    "focus": [
+      1424,
+      888
+    ],
+    "script": 13801,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 766,
+    "x": 176,
+    "y": 1112,
+    "toScene": 41,
+    "focus": [
+      1152,
+      944
+    ],
+    "script": 13805,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 46,
+    "fromMap": 70,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 47,
+    "fromMap": 43,
+    "event": 769,
+    "x": 448,
+    "y": 976,
+    "toScene": 48,
+    "focus": [
+      464,
+      1672
+    ],
+    "script": 13813,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 47,
+    "fromMap": 43,
+    "event": 770,
+    "x": 1344,
+    "y": 1360,
+    "toScene": 41,
+    "focus": [
+      800,
+      688
+    ],
+    "script": 13596,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 47,
+    "fromMap": 43,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 44,
+    "focus": [
+      1824,
+      1872
+    ],
+    "script": 13546,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 48,
+    "fromMap": 45,
+    "event": 790,
+    "x": 1824,
+    "y": 1504,
+    "toScene": 49,
+    "focus": [
+      576,
+      1632
+    ],
+    "script": 14183,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 48,
+    "fromMap": 45,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 49,
+    "focus": [
+      576,
+      1632
+    ],
+    "script": 14183,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 801,
+    "x": 528,
+    "y": 1656,
+    "toScene": 48,
+    "focus": [
+      1776,
+      1528
+    ],
+    "script": 14187,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 802,
+    "x": 672,
+    "y": 480,
+    "toScene": 54,
+    "focus": [
+      1056,
+      1792
+    ],
+    "script": 14119,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 803,
+    "x": 1632,
+    "y": 704,
+    "toScene": 52,
+    "focus": [
+      416,
+      1264
+    ],
+    "script": 14111,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 804,
+    "x": 896,
+    "y": 1168,
+    "toScene": 51,
+    "focus": [
+      752,
+      456
+    ],
+    "script": 14127,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 805,
+    "x": 624,
+    "y": 1304,
+    "toScene": 51,
+    "focus": [
+      656,
+      1080
+    ],
+    "script": 14131,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 806,
+    "x": 1072,
+    "y": 1256,
+    "toScene": 51,
+    "focus": [
+      832,
+      1664
+    ],
+    "script": 14135,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 807,
+    "x": 800,
+    "y": 1392,
+    "toScene": 51,
+    "focus": [
+      1616,
+      1000
+    ],
+    "script": 14139,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 808,
+    "x": 1280,
+    "y": 1408,
+    "toScene": 51,
+    "focus": [
+      1648,
+      456
+    ],
+    "script": 14143,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 809,
+    "x": 1024,
+    "y": 1536,
+    "toScene": 51,
+    "focus": [
+      1536,
+      1696
+    ],
+    "script": 14147,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 49,
+    "fromMap": 46,
+    "event": 830,
+    "x": 928,
+    "y": 832,
+    "toScene": 50,
+    "focus": [
+      816,
+      920
+    ],
+    "script": 14082,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 50,
+    "fromMap": 58,
+    "event": 844,
+    "x": 768,
+    "y": 944,
+    "toScene": 49,
+    "focus": [
+      896,
+      848
+    ],
+    "script": 14086,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 871,
+    "x": 800,
+    "y": 480,
+    "toScene": 49,
+    "focus": [
+      928,
+      1184
+    ],
+    "script": 14151,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 872,
+    "x": 688,
+    "y": 1096,
+    "toScene": 49,
+    "focus": [
+      656,
+      1320
+    ],
+    "script": 14155,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 873,
+    "x": 864,
+    "y": 1680,
+    "toScene": 49,
+    "focus": [
+      1104,
+      1272
+    ],
+    "script": 14159,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 874,
+    "x": 1648,
+    "y": 1016,
+    "toScene": 49,
+    "focus": [
+      832,
+      1408
+    ],
+    "script": 14163,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 875,
+    "x": 1680,
+    "y": 472,
+    "toScene": 49,
+    "focus": [
+      1312,
+      1424
+    ],
+    "script": 14167,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 51,
+    "fromMap": 48,
+    "event": 876,
+    "x": 1568,
+    "y": 1712,
+    "toScene": 49,
+    "focus": [
+      1056,
+      1552
+    ],
+    "script": 14171,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 52,
+    "fromMap": 47,
+    "event": 885,
+    "x": 384,
+    "y": 1280,
+    "toScene": 49,
+    "focus": [
+      1600,
+      720
+    ],
+    "script": 14115,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 52,
+    "fromMap": 47,
+    "event": 886,
+    "x": 864,
+    "y": 816,
+    "toScene": 53,
+    "focus": [
+      1280,
+      880
+    ],
+    "script": 14175,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 53,
+    "fromMap": 49,
+    "event": 904,
+    "x": 1312,
+    "y": 896,
+    "toScene": 52,
+    "focus": [
+      896,
+      832
+    ],
+    "script": 14179,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 54,
+    "fromMap": 59,
+    "event": 924,
+    "x": 1104,
+    "y": 1816,
+    "toScene": 49,
+    "focus": [
+      720,
+      504
+    ],
+    "script": 14090,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 54,
+    "fromMap": 59,
+    "event": 925,
+    "x": 1488,
+    "y": 248,
+    "toScene": 61,
+    "focus": [
+      1312,
+      1376
+    ],
+    "script": 14123,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 54,
+    "fromMap": 59,
+    "event": 926,
+    "x": 192,
+    "y": 1296,
+    "toScene": 55,
+    "focus": [
+      1728,
+      1488
+    ],
+    "script": 14095,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 54,
+    "fromMap": 59,
+    "event": 927,
+    "x": 352,
+    "y": 512,
+    "toScene": 56,
+    "focus": [
+      1472,
+      1824
+    ],
+    "script": 14103,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 54,
+    "fromMap": 59,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 49,
+    "focus": [
+      720,
+      504
+    ],
+    "script": 14090,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 55,
+    "fromMap": 60,
+    "event": 933,
+    "x": 1808,
+    "y": 1464,
+    "toScene": 54,
+    "focus": [
+      256,
+      1264
+    ],
+    "script": 14099,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 55,
+    "fromMap": 60,
+    "event": 934,
+    "x": 192,
+    "y": 1504,
+    "toScene": 70,
+    "focus": [
+      1632,
+      720
+    ],
+    "script": 14644,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 55,
+    "fromMap": 60,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 49,
+    "focus": [
+      720,
+      504
+    ],
+    "script": 14090,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 56,
+    "fromMap": 69,
+    "event": 937,
+    "x": 1520,
+    "y": 1848,
+    "toScene": 54,
+    "focus": [
+      416,
+      544
+    ],
+    "script": 15521,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 56,
+    "fromMap": 69,
+    "event": 938,
+    "x": 992,
+    "y": 560,
+    "toScene": 58,
+    "focus": [
+      1392,
+      1400
+    ],
+    "script": 15636,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 57,
+    "fromMap": 125,
+    "event": 945,
+    "x": 1520,
+    "y": 1848,
+    "toScene": 54,
+    "focus": [
+      416,
+      544
+    ],
+    "script": 15521,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 58,
+    "fromMap": 71,
+    "event": 946,
+    "x": 1456,
+    "y": 1432,
+    "toScene": 56,
+    "focus": [
+      1056,
+      592
+    ],
+    "script": 15640,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1126,
+    "x": 1392,
+    "y": 1512,
+    "toScene": 64,
+    "focus": [
+      608,
+      240
+    ],
+    "script": 16276,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1127,
+    "x": 1376,
+    "y": 1008,
+    "toScene": 65,
+    "focus": [
+      1232,
+      1160
+    ],
+    "script": 16283,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1128,
+    "x": 1536,
+    "y": 752,
+    "toScene": 65,
+    "focus": [
+      1392,
+      904
+    ],
+    "script": 16288,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1129,
+    "x": 1776,
+    "y": 648,
+    "toScene": 65,
+    "focus": [
+      1632,
+      800
+    ],
+    "script": 16293,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1130,
+    "x": 1616,
+    "y": 376,
+    "toScene": 65,
+    "focus": [
+      1472,
+      528
+    ],
+    "script": 16298,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1131,
+    "x": 1312,
+    "y": 272,
+    "toScene": 65,
+    "focus": [
+      1168,
+      424
+    ],
+    "script": 16303,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1132,
+    "x": 544,
+    "y": 688,
+    "toScene": 65,
+    "focus": [
+      400,
+      840
+    ],
+    "script": 16308,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1133,
+    "x": 432,
+    "y": 968,
+    "toScene": 65,
+    "focus": [
+      288,
+      1120
+    ],
+    "script": 16313,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1134,
+    "x": 640,
+    "y": 1712,
+    "toScene": 65,
+    "focus": [
+      496,
+      1864
+    ],
+    "script": 16318,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1135,
+    "x": 928,
+    "y": 1488,
+    "toScene": 65,
+    "focus": [
+      784,
+      1640
+    ],
+    "script": 16323,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1136,
+    "x": 784,
+    "y": 1240,
+    "toScene": 65,
+    "focus": [
+      640,
+      1392
+    ],
+    "script": 16328,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 1137,
+    "x": 1152,
+    "y": 896,
+    "toScene": 65,
+    "focus": [
+      1008,
+      1048
+    ],
+    "script": 16333,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 60,
+    "fromMap": 55,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 64,
+    "focus": [
+      608,
+      240
+    ],
+    "script": 16277,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 61,
+    "fromMap": 52,
+    "event": 1200,
+    "x": 1280,
+    "y": 1392,
+    "toScene": 54,
+    "focus": [
+      1376,
+      320
+    ],
+    "script": 16250,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 61,
+    "fromMap": 52,
+    "event": 1201,
+    "x": 160,
+    "y": 448,
+    "toScene": 63,
+    "focus": [
+      1840,
+      1896
+    ],
+    "script": 16254,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 61,
+    "fromMap": 52,
+    "event": 1202,
+    "x": 1280,
+    "y": 800,
+    "toScene": 62,
+    "focus": [
+      960,
+      768
+    ],
+    "script": 16226,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 61,
+    "fromMap": 52,
+    "event": 1203,
+    "x": 912,
+    "y": 664,
+    "toScene": 62,
+    "focus": [
+      928,
+      1600
+    ],
+    "script": 16230,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 61,
+    "fromMap": 52,
+    "event": 1204,
+    "x": 528,
+    "y": 520,
+    "toScene": 62,
+    "focus": [
+      1248,
+      1312
+    ],
+    "script": 16234,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 62,
+    "fromMap": 56,
+    "event": 1216,
+    "x": 928,
+    "y": 784,
+    "toScene": 61,
+    "focus": [
+      1248,
+      816
+    ],
+    "script": 16238,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 62,
+    "fromMap": 56,
+    "event": 1217,
+    "x": 960,
+    "y": 1616,
+    "toScene": 61,
+    "focus": [
+      944,
+      680
+    ],
+    "script": 16242,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 62,
+    "fromMap": 56,
+    "event": 1218,
+    "x": 1216,
+    "y": 1328,
+    "toScene": 61,
+    "focus": [
+      496,
+      536
+    ],
+    "script": 16246,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 63,
+    "fromMap": 53,
+    "event": 1230,
+    "x": 1872,
+    "y": 1912,
+    "toScene": 61,
+    "focus": [
+      192,
+      464
+    ],
+    "script": 16258,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 63,
+    "fromMap": 53,
+    "event": 1231,
+    "x": 1600,
+    "y": 272,
+    "toScene": 64,
+    "focus": [
+      416,
+      1840
+    ],
+    "script": 16263,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 63,
+    "fromMap": 53,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 61,
+    "focus": [
+      192,
+      464
+    ],
+    "script": 16258,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 64,
+    "fromMap": 54,
+    "event": 1250,
+    "x": 352,
+    "y": 1872,
+    "toScene": 63,
+    "focus": [
+      1568,
+      288
+    ],
+    "script": 16267,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 64,
+    "fromMap": 54,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 61,
+    "focus": [
+      192,
+      464
+    ],
+    "script": 16258,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1288,
+    "x": 1264,
+    "y": 1144,
+    "toScene": 60,
+    "focus": [
+      1408,
+      992
+    ],
+    "script": 16338,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1289,
+    "x": 1424,
+    "y": 888,
+    "toScene": 60,
+    "focus": [
+      1568,
+      736
+    ],
+    "script": 16343,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1290,
+    "x": 1664,
+    "y": 784,
+    "toScene": 60,
+    "focus": [
+      1808,
+      632
+    ],
+    "script": 16348,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1291,
+    "x": 1504,
+    "y": 512,
+    "toScene": 60,
+    "focus": [
+      1648,
+      360
+    ],
+    "script": 16353,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1292,
+    "x": 1200,
+    "y": 408,
+    "toScene": 60,
+    "focus": [
+      1344,
+      256
+    ],
+    "script": 16358,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1293,
+    "x": 432,
+    "y": 824,
+    "toScene": 60,
+    "focus": [
+      576,
+      672
+    ],
+    "script": 16363,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1294,
+    "x": 320,
+    "y": 1104,
+    "toScene": 60,
+    "focus": [
+      464,
+      952
+    ],
+    "script": 16368,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1295,
+    "x": 528,
+    "y": 1848,
+    "toScene": 60,
+    "focus": [
+      688,
+      1704
+    ],
+    "script": 16373,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1296,
+    "x": 816,
+    "y": 1624,
+    "toScene": 60,
+    "focus": [
+      960,
+      1472
+    ],
+    "script": 16378,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1297,
+    "x": 672,
+    "y": 1376,
+    "toScene": 60,
+    "focus": [
+      816,
+      1224
+    ],
+    "script": 16383,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1298,
+    "x": 1040,
+    "y": 1032,
+    "toScene": 60,
+    "focus": [
+      1184,
+      880
+    ],
+    "script": 16388,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 1353,
+    "x": 544,
+    "y": 256,
+    "toScene": 66,
+    "focus": null,
+    "script": 16550,
+    "triggerMode": 8
+  },
+  {
+    "fromScene": 65,
+    "fromMap": 57,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 64,
+    "focus": [
+      608,
+      240
+    ],
+    "script": 16277,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 67,
+    "fromMap": 73,
+    "event": 1411,
+    "x": 880,
+    "y": 1736,
+    "toScene": 76,
+    "focus": [
+      480,
+      528
+    ],
+    "script": 17042,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 67,
+    "fromMap": 73,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 69,
+    "focus": [
+      1344,
+      848
+    ],
+    "script": 17030,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1433,
+    "x": 1648,
+    "y": 1704,
+    "toScene": 70,
+    "focus": [
+      1552,
+      1000
+    ],
+    "script": 16932,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1434,
+    "x": 1360,
+    "y": 1144,
+    "toScene": 71,
+    "focus": [
+      1120,
+      1056
+    ],
+    "script": 16936,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1435,
+    "x": 1392,
+    "y": 568,
+    "toScene": 71,
+    "focus": [
+      1696,
+      1104
+    ],
+    "script": 16940,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1436,
+    "x": 1664,
+    "y": 1216,
+    "toScene": 72,
+    "focus": [
+      1568,
+      1712
+    ],
+    "script": 16944,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1437,
+    "x": 944,
+    "y": 648,
+    "toScene": 72,
+    "focus": [
+      336,
+      1304
+    ],
+    "script": 16948,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1438,
+    "x": 576,
+    "y": 1056,
+    "toScene": 73,
+    "focus": [
+      1168,
+      1192
+    ],
+    "script": 16960,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1439,
+    "x": 320,
+    "y": 800,
+    "toScene": 73,
+    "focus": [
+      1216,
+      784
+    ],
+    "script": 16964,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1440,
+    "x": 1328,
+    "y": 904,
+    "toScene": 74,
+    "focus": [
+      624,
+      1592
+    ],
+    "script": 16952,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1441,
+    "x": 848,
+    "y": 872,
+    "toScene": 74,
+    "focus": [
+      416,
+      1168
+    ],
+    "script": 16956,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1442,
+    "x": 640,
+    "y": 1280,
+    "toScene": 75,
+    "focus": [
+      1728,
+      1136
+    ],
+    "script": 16968,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 68,
+    "fromMap": 61,
+    "event": 1443,
+    "x": 560,
+    "y": 520,
+    "toScene": 69,
+    "focus": [
+      560,
+      1848
+    ],
+    "script": 16972,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 69,
+    "fromMap": 62,
+    "event": 1446,
+    "x": 496,
+    "y": 1880,
+    "toScene": 68,
+    "focus": [
+      512,
+      544
+    ],
+    "script": 16975,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 69,
+    "fromMap": 62,
+    "event": 1447,
+    "x": 1424,
+    "y": 808,
+    "toScene": 76,
+    "focus": [
+      976,
+      1880
+    ],
+    "script": 17022,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 69,
+    "fromMap": 62,
+    "event": 1448,
+    "x": 1232,
+    "y": 712,
+    "toScene": 76,
+    "focus": [
+      768,
+      1776
+    ],
+    "script": 17026,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 70,
+    "fromMap": 63,
+    "event": 1455,
+    "x": 1584,
+    "y": 1032,
+    "toScene": 68,
+    "focus": [
+      1696,
+      1728
+    ],
+    "script": 16978,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 70,
+    "fromMap": 63,
+    "event": 1456,
+    "x": 1680,
+    "y": 744,
+    "toScene": 55,
+    "focus": [
+      240,
+      1528
+    ],
+    "script": 16982,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 70,
+    "fromMap": 63,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      1696,
+      1728
+    ],
+    "script": 16978,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 71,
+    "fromMap": 64,
+    "event": 1464,
+    "x": 1168,
+    "y": 1080,
+    "toScene": 68,
+    "focus": [
+      1408,
+      1168
+    ],
+    "script": 16986,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 71,
+    "fromMap": 64,
+    "event": 1465,
+    "x": 1744,
+    "y": 1128,
+    "toScene": 68,
+    "focus": [
+      1440,
+      592
+    ],
+    "script": 16990,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 71,
+    "fromMap": 64,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      1408,
+      1168
+    ],
+    "script": 16986,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 72,
+    "fromMap": 65,
+    "event": 1473,
+    "x": 1616,
+    "y": 1736,
+    "toScene": 68,
+    "focus": [
+      1712,
+      1240
+    ],
+    "script": 16994,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 72,
+    "fromMap": 65,
+    "event": 1474,
+    "x": 384,
+    "y": 1328,
+    "toScene": 68,
+    "focus": [
+      992,
+      672
+    ],
+    "script": 16998,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 72,
+    "fromMap": 65,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      1712,
+      1240
+    ],
+    "script": 16994,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 73,
+    "fromMap": 66,
+    "event": 1482,
+    "x": 1216,
+    "y": 1216,
+    "toScene": 68,
+    "focus": [
+      624,
+      1080
+    ],
+    "script": 17002,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 73,
+    "fromMap": 66,
+    "event": 1483,
+    "x": 1264,
+    "y": 808,
+    "toScene": 68,
+    "focus": [
+      368,
+      824
+    ],
+    "script": 17006,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 73,
+    "fromMap": 66,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      624,
+      1080
+    ],
+    "script": 17002,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 74,
+    "fromMap": 67,
+    "event": 1489,
+    "x": 672,
+    "y": 1616,
+    "toScene": 68,
+    "focus": [
+      1376,
+      928
+    ],
+    "script": 17010,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 74,
+    "fromMap": 67,
+    "event": 1490,
+    "x": 464,
+    "y": 1192,
+    "toScene": 68,
+    "focus": [
+      896,
+      896
+    ],
+    "script": 17014,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 74,
+    "fromMap": 67,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      1376,
+      928
+    ],
+    "script": 17010,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 75,
+    "fromMap": 68,
+    "event": 1492,
+    "x": 1776,
+    "y": 1160,
+    "toScene": 68,
+    "focus": [
+      688,
+      1304
+    ],
+    "script": 17018,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 75,
+    "fromMap": 68,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 68,
+    "focus": [
+      688,
+      1304
+    ],
+    "script": 17018,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 76,
+    "fromMap": 72,
+    "event": 1501,
+    "x": 912,
+    "y": 1912,
+    "toScene": 69,
+    "focus": [
+      1344,
+      848
+    ],
+    "script": 17030,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 76,
+    "fromMap": 72,
+    "event": 1502,
+    "x": 720,
+    "y": 1800,
+    "toScene": 69,
+    "focus": [
+      1168,
+      760
+    ],
+    "script": 17034,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 76,
+    "fromMap": 72,
+    "event": 1503,
+    "x": 416,
+    "y": 496,
+    "toScene": 67,
+    "focus": [
+      816,
+      1704
+    ],
+    "script": 17038,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 76,
+    "fromMap": 72,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 69,
+    "focus": [
+      1344,
+      848
+    ],
+    "script": 17030,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 77,
+    "fromMap": 24,
+    "event": 1562,
+    "x": 1184,
+    "y": 880,
+    "toScene": 78,
+    "focus": [
+      416,
+      1056
+    ],
+    "script": 17046,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 78,
+    "fromMap": 75,
+    "event": 1571,
+    "x": 368,
+    "y": 1080,
+    "toScene": 77,
+    "focus": [
+      1152,
+      912
+    ],
+    "script": 17050,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 78,
+    "fromMap": 75,
+    "event": 1572,
+    "x": 1104,
+    "y": 1320,
+    "toScene": 80,
+    "focus": [
+      288,
+      448
+    ],
+    "script": 17054,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 79,
+    "fromMap": 79,
+    "event": 1573,
+    "x": 352,
+    "y": 1488,
+    "toScene": 83,
+    "focus": [
+      1696,
+      752
+    ],
+    "script": 17370,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 79,
+    "fromMap": 79,
+    "event": 1576,
+    "x": 432,
+    "y": 1192,
+    "toScene": 82,
+    "focus": null,
+    "script": 17638,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 80,
+    "fromMap": 77,
+    "event": 1581,
+    "x": 256,
+    "y": 432,
+    "toScene": 78,
+    "focus": [
+      1072,
+      1288
+    ],
+    "script": 17354,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 80,
+    "fromMap": 77,
+    "event": 1582,
+    "x": 1728,
+    "y": 1136,
+    "toScene": 83,
+    "focus": [
+      224,
+      848
+    ],
+    "script": 17358,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 81,
+    "fromMap": 84,
+    "event": 1593,
+    "x": 848,
+    "y": 1336,
+    "toScene": 84,
+    "focus": [
+      512,
+      928
+    ],
+    "script": 17449,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1621,
+    "x": 1744,
+    "y": 424,
+    "toScene": 84,
+    "focus": [
+      208,
+      376
+    ],
+    "script": 17374,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1622,
+    "x": 1728,
+    "y": 1200,
+    "toScene": 84,
+    "focus": [
+      368,
+      1288
+    ],
+    "script": 17378,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1623,
+    "x": 768,
+    "y": 512,
+    "toScene": 93,
+    "focus": [
+      816,
+      904
+    ],
+    "script": 17390,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1624,
+    "x": 784,
+    "y": 904,
+    "toScene": 96,
+    "focus": [
+      672,
+      656
+    ],
+    "script": 17402,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1625,
+    "x": 1136,
+    "y": 728,
+    "toScene": 96,
+    "focus": [
+      1456,
+      680
+    ],
+    "script": 17406,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1626,
+    "x": 1040,
+    "y": 1128,
+    "toScene": 96,
+    "focus": [
+      544,
+      1072
+    ],
+    "script": 17410,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1627,
+    "x": 880,
+    "y": 584,
+    "toScene": 95,
+    "focus": [
+      544,
+      704
+    ],
+    "script": 17463,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 82,
+    "fromMap": 79,
+    "event": 1628,
+    "x": 624,
+    "y": 456,
+    "toScene": 94,
+    "focus": [
+      480,
+      496
+    ],
+    "script": 17467,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 83,
+    "fromMap": 78,
+    "event": 1646,
+    "x": 176,
+    "y": 872,
+    "toScene": 80,
+    "focus": [
+      1600,
+      1200
+    ],
+    "script": 17362,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 83,
+    "fromMap": 78,
+    "event": 1647,
+    "x": 1760,
+    "y": 720,
+    "toScene": 79,
+    "focus": [
+      416,
+      1456
+    ],
+    "script": 17366,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1649,
+    "x": 176,
+    "y": 360,
+    "toScene": 82,
+    "focus": [
+      1712,
+      408
+    ],
+    "script": 17382,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1650,
+    "x": 224,
+    "y": 1360,
+    "toScene": 82,
+    "focus": [
+      1664,
+      1232
+    ],
+    "script": 17386,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1651,
+    "x": 368,
+    "y": 360,
+    "toScene": 96,
+    "focus": [
+      1232,
+      1000
+    ],
+    "script": 17414,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1653,
+    "x": 1744,
+    "y": 984,
+    "toScene": 88,
+    "focus": [
+      464,
+      1816
+    ],
+    "script": 17429,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1654,
+    "x": 1152,
+    "y": 432,
+    "toScene": 89,
+    "focus": [
+      816,
+      1224
+    ],
+    "script": 17495,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1655,
+    "x": 1568,
+    "y": 704,
+    "toScene": 86,
+    "focus": null,
+    "script": 17351,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1656,
+    "x": 608,
+    "y": 432,
+    "toScene": 99,
+    "focus": [
+      544,
+      464
+    ],
+    "script": 17587,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1657,
+    "x": 784,
+    "y": 456,
+    "toScene": 99,
+    "focus": [
+      1232,
+      392
+    ],
+    "script": 17595,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1658,
+    "x": 1824,
+    "y": 384,
+    "toScene": 105,
+    "focus": [
+      224,
+      1072
+    ],
+    "script": 19868,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 84,
+    "fromMap": 80,
+    "event": 1685,
+    "x": 528,
+    "y": 280,
+    "toScene": 92,
+    "focus": [
+      512,
+      304
+    ],
+    "script": 17817,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 85,
+    "fromMap": 92,
+    "event": 1694,
+    "x": 880,
+    "y": 376,
+    "toScene": 93,
+    "focus": [
+      736,
+      496
+    ],
+    "script": 17531,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 85,
+    "fromMap": 92,
+    "event": 1695,
+    "x": 416,
+    "y": 128,
+    "toScene": 98,
+    "focus": [
+      576,
+      560
+    ],
+    "script": 17555,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 85,
+    "fromMap": 92,
+    "event": 1696,
+    "x": 1344,
+    "y": 208,
+    "toScene": 98,
+    "focus": [
+      1296,
+      536
+    ],
+    "script": 17559,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 85,
+    "fromMap": 92,
+    "event": 1697,
+    "x": 1840,
+    "y": 296,
+    "toScene": 98,
+    "focus": [
+      432,
+      1096
+    ],
+    "script": 17563,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 86,
+    "fromMap": 93,
+    "event": 1700,
+    "x": 320,
+    "y": 240,
+    "toScene": 98,
+    "focus": [
+      544,
+      1040
+    ],
+    "script": 17583,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 86,
+    "fromMap": 93,
+    "event": 1701,
+    "x": 1568,
+    "y": 656,
+    "toScene": 84,
+    "focus": null,
+    "script": 17348,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 87,
+    "fromMap": 81,
+    "event": 1711,
+    "x": 400,
+    "y": 1704,
+    "toScene": 98,
+    "focus": [
+      448,
+      496
+    ],
+    "script": 17547,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 87,
+    "fromMap": 81,
+    "event": 1712,
+    "x": 1360,
+    "y": 1784,
+    "toScene": 98,
+    "focus": [
+      1408,
+      480
+    ],
+    "script": 17551,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 88,
+    "fromMap": 82,
+    "event": 1722,
+    "x": 416,
+    "y": 1840,
+    "toScene": 84,
+    "focus": [
+      1664,
+      1024
+    ],
+    "script": 17499,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 88,
+    "fromMap": 82,
+    "event": 1723,
+    "x": 416,
+    "y": 1584,
+    "toScene": 91,
+    "focus": [
+      1056,
+      1264
+    ],
+    "script": 17603,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 89,
+    "fromMap": 82,
+    "event": 1724,
+    "x": 768,
+    "y": 1248,
+    "toScene": 84,
+    "focus": [
+      1088,
+      464
+    ],
+    "script": 17507,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 89,
+    "fromMap": 82,
+    "event": 1736,
+    "x": 1056,
+    "y": 1104,
+    "toScene": 90,
+    "focus": null,
+    "script": 19040,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 90,
+    "fromMap": 120,
+    "event": 1738,
+    "x": 768,
+    "y": 1248,
+    "toScene": 84,
+    "focus": [
+      1088,
+      464
+    ],
+    "script": 17507,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 90,
+    "fromMap": 120,
+    "event": 1739,
+    "x": 960,
+    "y": 1008,
+    "toScene": 92,
+    "focus": [
+      512,
+      1360
+    ],
+    "script": 19055,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 91,
+    "fromMap": 83,
+    "event": 1741,
+    "x": 1088,
+    "y": 1248,
+    "toScene": 88,
+    "focus": [
+      448,
+      1568
+    ],
+    "script": 17615,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 92,
+    "fromMap": 85,
+    "event": 1766,
+    "x": 848,
+    "y": 1528,
+    "toScene": 84,
+    "focus": null,
+    "script": 18726,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 92,
+    "fromMap": 85,
+    "event": 1768,
+    "x": 544,
+    "y": 304,
+    "toScene": 81,
+    "focus": null,
+    "script": 19077,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1799,
+    "x": 768,
+    "y": 928,
+    "toScene": 82,
+    "focus": [
+      704,
+      544
+    ],
+    "script": 17394,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1800,
+    "x": 768,
+    "y": 464,
+    "toScene": 85,
+    "focus": [
+      912,
+      360
+    ],
+    "script": 17398,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1801,
+    "x": 560,
+    "y": 696,
+    "toScene": 94,
+    "focus": [
+      656,
+      488
+    ],
+    "script": 17483,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1802,
+    "x": 1264,
+    "y": 872,
+    "toScene": 95,
+    "focus": [
+      656,
+      568
+    ],
+    "script": 17487,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1803,
+    "x": 1248,
+    "y": 704,
+    "toScene": 97,
+    "focus": [
+      400,
+      504
+    ],
+    "script": 17515,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1804,
+    "x": 1072,
+    "y": 616,
+    "toScene": 97,
+    "focus": [
+      1344,
+      432
+    ],
+    "script": 17523,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 93,
+    "fromMap": 86,
+    "event": 1805,
+    "x": 896,
+    "y": 528,
+    "toScene": 97,
+    "focus": [
+      320,
+      1264
+    ],
+    "script": 17535,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 94,
+    "fromMap": 87,
+    "event": 1836,
+    "x": 432,
+    "y": 520,
+    "toScene": 82,
+    "focus": [
+      576,
+      480
+    ],
+    "script": 17475,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 94,
+    "fromMap": 87,
+    "event": 1837,
+    "x": 704,
+    "y": 512,
+    "toScene": 93,
+    "focus": [
+      592,
+      712
+    ],
+    "script": 17479,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 95,
+    "fromMap": 88,
+    "event": 1838,
+    "x": 496,
+    "y": 728,
+    "toScene": 82,
+    "focus": [
+      832,
+      608
+    ],
+    "script": 17471,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 95,
+    "fromMap": 88,
+    "event": 1839,
+    "x": 608,
+    "y": 544,
+    "toScene": 93,
+    "focus": [
+      1216,
+      848
+    ],
+    "script": 17491,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 96,
+    "fromMap": 89,
+    "event": 1843,
+    "x": 720,
+    "y": 680,
+    "toScene": 82,
+    "focus": [
+      816,
+      936
+    ],
+    "script": 17433,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 96,
+    "fromMap": 89,
+    "event": 1844,
+    "x": 1504,
+    "y": 704,
+    "toScene": 82,
+    "focus": [
+      1168,
+      760
+    ],
+    "script": 17437,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 96,
+    "fromMap": 89,
+    "event": 1845,
+    "x": 496,
+    "y": 1096,
+    "toScene": 82,
+    "focus": [
+      992,
+      1152
+    ],
+    "script": 17441,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 96,
+    "fromMap": 89,
+    "event": 1846,
+    "x": 1184,
+    "y": 1024,
+    "toScene": 84,
+    "focus": [
+      336,
+      392
+    ],
+    "script": 17445,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 97,
+    "fromMap": 90,
+    "event": 1855,
+    "x": 352,
+    "y": 528,
+    "toScene": 93,
+    "focus": [
+      1200,
+      728
+    ],
+    "script": 17511,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 97,
+    "fromMap": 90,
+    "event": 1856,
+    "x": 1296,
+    "y": 456,
+    "toScene": 93,
+    "focus": [
+      1024,
+      640
+    ],
+    "script": 17519,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 97,
+    "fromMap": 90,
+    "event": 1857,
+    "x": 288,
+    "y": 1280,
+    "toScene": 93,
+    "focus": [
+      864,
+      560
+    ],
+    "script": 17527,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1864,
+    "x": 400,
+    "y": 472,
+    "toScene": 87,
+    "focus": [
+      336,
+      1688
+    ],
+    "script": 17539,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1865,
+    "x": 1456,
+    "y": 456,
+    "toScene": 87,
+    "focus": [
+      1392,
+      1768
+    ],
+    "script": 17543,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1866,
+    "x": 624,
+    "y": 584,
+    "toScene": 85,
+    "focus": [
+      464,
+      152
+    ],
+    "script": 17567,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1867,
+    "x": 1248,
+    "y": 560,
+    "toScene": 85,
+    "focus": [
+      1296,
+      232
+    ],
+    "script": 17571,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1868,
+    "x": 384,
+    "y": 1120,
+    "toScene": 85,
+    "focus": [
+      1792,
+      320
+    ],
+    "script": 17575,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 98,
+    "fromMap": 91,
+    "event": 1869,
+    "x": 592,
+    "y": 1016,
+    "toScene": 86,
+    "focus": [
+      352,
+      224
+    ],
+    "script": 17579,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 99,
+    "fromMap": 94,
+    "event": 1870,
+    "x": 592,
+    "y": 488,
+    "toScene": 84,
+    "focus": [
+      656,
+      456
+    ],
+    "script": 17591,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 99,
+    "fromMap": 94,
+    "event": 1871,
+    "x": 1184,
+    "y": 416,
+    "toScene": 84,
+    "focus": [
+      752,
+      488
+    ],
+    "script": 17599,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1885,
+    "x": 368,
+    "y": 264,
+    "toScene": 114,
+    "focus": [
+      1568,
+      1216
+    ],
+    "script": 20074,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1886,
+    "x": 1008,
+    "y": 568,
+    "toScene": 127,
+    "focus": [
+      752,
+      680
+    ],
+    "script": 20086,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1894,
+    "x": 1248,
+    "y": 1424,
+    "toScene": 129,
+    "focus": [
+      960,
+      720
+    ],
+    "script": 20152,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1895,
+    "x": 1008,
+    "y": 1000,
+    "toScene": 130,
+    "focus": [
+      736,
+      1104
+    ],
+    "script": 20168,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1896,
+    "x": 736,
+    "y": 432,
+    "toScene": 137,
+    "focus": [
+      608,
+      576
+    ],
+    "script": 20296,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1897,
+    "x": 1440,
+    "y": 816,
+    "toScene": 135,
+    "focus": [
+      400,
+      472
+    ],
+    "script": 20304,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1898,
+    "x": 1264,
+    "y": 1192,
+    "toScene": 136,
+    "focus": [
+      704,
+      624
+    ],
+    "script": 20312,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 100,
+    "fromMap": 105,
+    "event": 1914,
+    "x": 336,
+    "y": 392,
+    "toScene": 115,
+    "focus": null,
+    "script": 24930,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 101,
+    "fromMap": 98,
+    "event": 1918,
+    "x": 1856,
+    "y": 1776,
+    "toScene": 102,
+    "focus": [
+      624,
+      1080
+    ],
+    "script": 19900,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 101,
+    "fromMap": 98,
+    "event": 1919,
+    "x": 928,
+    "y": 864,
+    "toScene": 103,
+    "focus": [
+      544,
+      1808
+    ],
+    "script": 25801,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 102,
+    "fromMap": 97,
+    "event": 1955,
+    "x": 480,
+    "y": 1344,
+    "toScene": 105,
+    "focus": [
+      1776,
+      648
+    ],
+    "script": 19892,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 102,
+    "fromMap": 97,
+    "event": 1956,
+    "x": 496,
+    "y": 1016,
+    "toScene": 101,
+    "focus": [
+      1792,
+      1744
+    ],
+    "script": 19896,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 103,
+    "fromMap": 99,
+    "event": 1980,
+    "x": 480,
+    "y": 1840,
+    "toScene": 101,
+    "focus": [
+      896,
+      896
+    ],
+    "script": 25805,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 103,
+    "fromMap": 99,
+    "event": 1981,
+    "x": 688,
+    "y": 824,
+    "toScene": 104,
+    "focus": [
+      1344,
+      1760
+    ],
+    "script": 25809,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 103,
+    "fromMap": 99,
+    "event": 1982,
+    "x": 800,
+    "y": 768,
+    "toScene": 104,
+    "focus": [
+      1504,
+      1696
+    ],
+    "script": 25817,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 104,
+    "fromMap": 100,
+    "event": 2001,
+    "x": 1408,
+    "y": 1792,
+    "toScene": 103,
+    "focus": [
+      736,
+      848
+    ],
+    "script": 25813,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 104,
+    "fromMap": 100,
+    "event": 2002,
+    "x": 1552,
+    "y": 1720,
+    "toScene": 103,
+    "focus": [
+      848,
+      792
+    ],
+    "script": 25821,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 104,
+    "fromMap": 100,
+    "event": 2003,
+    "x": 256,
+    "y": 416,
+    "toScene": 106,
+    "focus": [
+      1680,
+      520
+    ],
+    "script": 25573,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 104,
+    "fromMap": 100,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 103,
+    "focus": [
+      544,
+      1808
+    ],
+    "script": 25801,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 105,
+    "fromMap": 95,
+    "event": 2040,
+    "x": 1840,
+    "y": 680,
+    "toScene": 102,
+    "focus": [
+      576,
+      1376
+    ],
+    "script": 19888,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 105,
+    "fromMap": 95,
+    "event": 2041,
+    "x": 160,
+    "y": 1104,
+    "toScene": 84,
+    "focus": [
+      1760,
+      416
+    ],
+    "script": 17627,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 105,
+    "fromMap": 95,
+    "event": 2042,
+    "x": 192,
+    "y": 400,
+    "toScene": 113,
+    "focus": [
+      480,
+      1856
+    ],
+    "script": 19872,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 105,
+    "fromMap": 95,
+    "event": 2043,
+    "x": 1024,
+    "y": 144,
+    "toScene": 113,
+    "focus": [
+      1632,
+      1888
+    ],
+    "script": 19880,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 106,
+    "fromMap": 101,
+    "event": 2044,
+    "x": 1728,
+    "y": 496,
+    "toScene": 104,
+    "focus": [
+      320,
+      384
+    ],
+    "script": 25569,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 106,
+    "fromMap": 101,
+    "event": 2045,
+    "x": 320,
+    "y": 1008,
+    "toScene": 107,
+    "focus": [
+      1744,
+      1752
+    ],
+    "script": 25561,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 106,
+    "fromMap": 101,
+    "event": 2046,
+    "x": 864,
+    "y": 1040,
+    "toScene": 110,
+    "focus": [
+      976,
+      712
+    ],
+    "script": 20794,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 107,
+    "fromMap": 102,
+    "event": 2066,
+    "x": 1792,
+    "y": 1776,
+    "toScene": 106,
+    "focus": [
+      384,
+      1056
+    ],
+    "script": 25565,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 107,
+    "fromMap": 102,
+    "event": 2067,
+    "x": 992,
+    "y": 816,
+    "toScene": 112,
+    "focus": [
+      1216,
+      1728
+    ],
+    "script": 19908,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 108,
+    "fromMap": 108,
+    "event": 2071,
+    "x": 1168,
+    "y": 1048,
+    "toScene": 117,
+    "focus": [
+      256,
+      1872
+    ],
+    "script": 19996,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 108,
+    "fromMap": 108,
+    "event": 2072,
+    "x": 816,
+    "y": 1080,
+    "toScene": 122,
+    "focus": [
+      800,
+      656
+    ],
+    "script": 20004,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 108,
+    "fromMap": 108,
+    "event": 2073,
+    "x": 672,
+    "y": 1888,
+    "toScene": 116,
+    "focus": [
+      688,
+      1464
+    ],
+    "script": 20028,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 108,
+    "fromMap": 108,
+    "event": 2077,
+    "x": 912,
+    "y": 1128,
+    "toScene": 120,
+    "focus": null,
+    "script": 22381,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 109,
+    "fromMap": 101,
+    "event": 2111,
+    "x": 320,
+    "y": 1008,
+    "toScene": 107,
+    "focus": [
+      1744,
+      1752
+    ],
+    "script": 25561,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 109,
+    "fromMap": 101,
+    "event": 2112,
+    "x": 1728,
+    "y": 496,
+    "toScene": 104,
+    "focus": [
+      320,
+      384
+    ],
+    "script": 25569,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 109,
+    "fromMap": 101,
+    "event": 2113,
+    "x": 864,
+    "y": 1040,
+    "toScene": 110,
+    "focus": [
+      976,
+      712
+    ],
+    "script": 20794,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 110,
+    "fromMap": 126,
+    "event": 2131,
+    "x": 1024,
+    "y": 736,
+    "toScene": 106,
+    "focus": [
+      912,
+      1064
+    ],
+    "script": 20786,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 111,
+    "fromMap": 103,
+    "event": 2160,
+    "x": 448,
+    "y": 1392,
+    "toScene": 112,
+    "focus": null,
+    "script": 20104,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 112,
+    "fromMap": 103,
+    "event": 2162,
+    "x": 352,
+    "y": 1344,
+    "toScene": 111,
+    "focus": null,
+    "script": 20106,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 112,
+    "fromMap": 103,
+    "event": 2163,
+    "x": 1088,
+    "y": 1792,
+    "toScene": 107,
+    "focus": [
+      864,
+      880
+    ],
+    "script": 19912,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 113,
+    "fromMap": 96,
+    "event": 2187,
+    "x": 544,
+    "y": 1904,
+    "toScene": 105,
+    "focus": [
+      256,
+      432
+    ],
+    "script": 19876,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 113,
+    "fromMap": 96,
+    "event": 2188,
+    "x": 1584,
+    "y": 1912,
+    "toScene": 105,
+    "focus": [
+      960,
+      176
+    ],
+    "script": 19884,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 114,
+    "fromMap": 106,
+    "event": 2198,
+    "x": 1248,
+    "y": 1040,
+    "toScene": 118,
+    "focus": [
+      1104,
+      648
+    ],
+    "script": 20066,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 114,
+    "fromMap": 106,
+    "event": 2199,
+    "x": 1648,
+    "y": 1256,
+    "toScene": 100,
+    "focus": [
+      432,
+      312
+    ],
+    "script": 20070,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 115,
+    "fromMap": 106,
+    "event": 2210,
+    "x": 192,
+    "y": 736,
+    "toScene": 116,
+    "focus": [
+      1744,
+      1784
+    ],
+    "script": 20040,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 115,
+    "fromMap": 106,
+    "event": 2211,
+    "x": 1072,
+    "y": 952,
+    "toScene": 118,
+    "focus": [
+      720,
+      520
+    ],
+    "script": 20044,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 116,
+    "fromMap": 107,
+    "event": 2224,
+    "x": 608,
+    "y": 1424,
+    "toScene": 108,
+    "focus": [
+      608,
+      1856
+    ],
+    "script": 20032,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 116,
+    "fromMap": 107,
+    "event": 2225,
+    "x": 1808,
+    "y": 1800,
+    "toScene": 115,
+    "focus": [
+      256,
+      768
+    ],
+    "script": 20036,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 117,
+    "fromMap": 109,
+    "event": 2227,
+    "x": 576,
+    "y": 1664,
+    "toScene": 139,
+    "focus": [
+      480,
+      1808
+    ],
+    "script": 26058,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 117,
+    "fromMap": 109,
+    "event": 2228,
+    "x": 160,
+    "y": 1920,
+    "toScene": 108,
+    "focus": [
+      1104,
+      1080
+    ],
+    "script": 20000,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 118,
+    "fromMap": 110,
+    "event": 2236,
+    "x": 672,
+    "y": 496,
+    "toScene": 115,
+    "focus": [
+      1024,
+      928
+    ],
+    "script": 20048,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 118,
+    "fromMap": 110,
+    "event": 2237,
+    "x": 1024,
+    "y": 384,
+    "toScene": 119,
+    "focus": [
+      704,
+      512
+    ],
+    "script": 20052,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 118,
+    "fromMap": 110,
+    "event": 2238,
+    "x": 1152,
+    "y": 672,
+    "toScene": 114,
+    "focus": [
+      1296,
+      1064
+    ],
+    "script": 20062,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 118,
+    "fromMap": 110,
+    "event": 2239,
+    "x": 800,
+    "y": 432,
+    "toScene": 120,
+    "focus": [
+      544,
+      672
+    ],
+    "script": 22300,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 119,
+    "fromMap": 111,
+    "event": 2249,
+    "x": 672,
+    "y": 528,
+    "toScene": 118,
+    "focus": [
+      992,
+      400
+    ],
+    "script": 20057,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 120,
+    "fromMap": 127,
+    "event": 2265,
+    "x": 592,
+    "y": 696,
+    "toScene": 118,
+    "focus": [
+      848,
+      456
+    ],
+    "script": 22296,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 121,
+    "fromMap": 128,
+    "event": 2271,
+    "x": 592,
+    "y": 696,
+    "toScene": 118,
+    "focus": [
+      848,
+      456
+    ],
+    "script": 22296,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 122,
+    "fromMap": 112,
+    "event": 2275,
+    "x": 848,
+    "y": 680,
+    "toScene": 108,
+    "focus": [
+      864,
+      1104
+    ],
+    "script": 20008,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 122,
+    "fromMap": 112,
+    "event": 2278,
+    "x": 656,
+    "y": 536,
+    "toScene": 123,
+    "focus": [
+      640,
+      544
+    ],
+    "script": 20078,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 123,
+    "fromMap": 113,
+    "event": 2279,
+    "x": 704,
+    "y": 464,
+    "toScene": 122,
+    "focus": [
+      720,
+      456
+    ],
+    "script": 20082,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 123,
+    "fromMap": 113,
+    "event": 2280,
+    "x": 320,
+    "y": 608,
+    "toScene": 124,
+    "focus": [
+      800,
+      704
+    ],
+    "script": 20020,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 124,
+    "fromMap": 114,
+    "event": 2281,
+    "x": 848,
+    "y": 728,
+    "toScene": 123,
+    "focus": [
+      352,
+      624
+    ],
+    "script": 20024,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 125,
+    "fromMap": 114,
+    "event": 2289,
+    "x": 848,
+    "y": 728,
+    "toScene": 123,
+    "focus": [
+      352,
+      624
+    ],
+    "script": 20024,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 126,
+    "fromMap": 114,
+    "event": 2291,
+    "x": 848,
+    "y": 728,
+    "toScene": 123,
+    "focus": [
+      352,
+      624
+    ],
+    "script": 20024,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 127,
+    "fromMap": 115,
+    "event": 2297,
+    "x": 704,
+    "y": 704,
+    "toScene": 100,
+    "focus": [
+      944,
+      600
+    ],
+    "script": 20090,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 127,
+    "fromMap": 115,
+    "event": 2298,
+    "x": 720,
+    "y": 552,
+    "toScene": 128,
+    "focus": [
+      720,
+      1304
+    ],
+    "script": 20094,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 128,
+    "fromMap": 115,
+    "event": 2307,
+    "x": 688,
+    "y": 1320,
+    "toScene": 127,
+    "focus": [
+      688,
+      568
+    ],
+    "script": 20099,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 129,
+    "fromMap": 116,
+    "event": 2322,
+    "x": 912,
+    "y": 744,
+    "toScene": 100,
+    "focus": [
+      1200,
+      1448
+    ],
+    "script": 20148,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 130,
+    "fromMap": 117,
+    "event": 2336,
+    "x": 688,
+    "y": 1128,
+    "toScene": 100,
+    "focus": [
+      960,
+      1024
+    ],
+    "script": 20164,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 130,
+    "fromMap": 117,
+    "event": 2337,
+    "x": 736,
+    "y": 1008,
+    "toScene": 131,
+    "focus": null,
+    "script": 20160,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2357,
+    "x": 784,
+    "y": 936,
+    "toScene": 130,
+    "focus": null,
+    "script": 20156,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2358,
+    "x": 256,
+    "y": 768,
+    "toScene": 134,
+    "focus": [
+      496,
+      392
+    ],
+    "script": 20220,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2359,
+    "x": 416,
+    "y": 800,
+    "toScene": 132,
+    "focus": [
+      448,
+      768
+    ],
+    "script": 20228,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2360,
+    "x": 528,
+    "y": 856,
+    "toScene": 132,
+    "focus": [
+      464,
+      1128
+    ],
+    "script": 20236,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2361,
+    "x": 688,
+    "y": 856,
+    "toScene": 132,
+    "focus": [
+      576,
+      1440
+    ],
+    "script": 20244,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2362,
+    "x": 800,
+    "y": 800,
+    "toScene": 132,
+    "focus": [
+      528,
+      1816
+    ],
+    "script": 20252,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2363,
+    "x": 992,
+    "y": 768,
+    "toScene": 132,
+    "focus": [
+      1136,
+      360
+    ],
+    "script": 20260,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2364,
+    "x": 1120,
+    "y": 784,
+    "toScene": 132,
+    "focus": [
+      992,
+      688
+    ],
+    "script": 20268,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2365,
+    "x": 1264,
+    "y": 760,
+    "toScene": 132,
+    "focus": [
+      1104,
+      1112
+    ],
+    "script": 20276,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2366,
+    "x": 1424,
+    "y": 792,
+    "toScene": 132,
+    "focus": [
+      1136,
+      1448
+    ],
+    "script": 20284,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2367,
+    "x": 1536,
+    "y": 848,
+    "toScene": 132,
+    "focus": [
+      1104,
+      1784
+    ],
+    "script": 20292,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 131,
+    "fromMap": 118,
+    "event": 2368,
+    "x": 864,
+    "y": 896,
+    "toScene": 133,
+    "focus": null,
+    "script": 20352,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2371,
+    "x": 400,
+    "y": 792,
+    "toScene": 131,
+    "focus": [
+      384,
+      816
+    ],
+    "script": 20232,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2372,
+    "x": 416,
+    "y": 1152,
+    "toScene": 131,
+    "focus": [
+      496,
+      872
+    ],
+    "script": 20240,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2373,
+    "x": 624,
+    "y": 1464,
+    "toScene": 131,
+    "focus": [
+      720,
+      872
+    ],
+    "script": 20248,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2374,
+    "x": 576,
+    "y": 1840,
+    "toScene": 131,
+    "focus": [
+      832,
+      816
+    ],
+    "script": 20256,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2375,
+    "x": 1184,
+    "y": 384,
+    "toScene": 131,
+    "focus": [
+      1024,
+      784
+    ],
+    "script": 20264,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2376,
+    "x": 944,
+    "y": 712,
+    "toScene": 131,
+    "focus": [
+      1088,
+      800
+    ],
+    "script": 20272,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2377,
+    "x": 1152,
+    "y": 1136,
+    "toScene": 131,
+    "focus": [
+      1296,
+      776
+    ],
+    "script": 20280,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2378,
+    "x": 1088,
+    "y": 1472,
+    "toScene": 131,
+    "focus": [
+      1392,
+      808
+    ],
+    "script": 20288,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 132,
+    "fromMap": 121,
+    "event": 2379,
+    "x": 1056,
+    "y": 1808,
+    "toScene": 131,
+    "focus": [
+      1504,
+      864
+    ],
+    "script": 20320,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 133,
+    "fromMap": 121,
+    "event": 2390,
+    "x": 1152,
+    "y": 1136,
+    "toScene": 131,
+    "focus": [
+      1296,
+      776
+    ],
+    "script": 20280,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 134,
+    "fromMap": 121,
+    "event": 2393,
+    "x": 544,
+    "y": 416,
+    "toScene": 131,
+    "focus": [
+      288,
+      784
+    ],
+    "script": 20224,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 135,
+    "fromMap": 122,
+    "event": 2398,
+    "x": 352,
+    "y": 496,
+    "toScene": 100,
+    "focus": [
+      1408,
+      848
+    ],
+    "script": 20308,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 136,
+    "fromMap": 123,
+    "event": 2403,
+    "x": 752,
+    "y": 648,
+    "toScene": 100,
+    "focus": [
+      1312,
+      1216
+    ],
+    "script": 20316,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 137,
+    "fromMap": 124,
+    "event": 2407,
+    "x": 560,
+    "y": 600,
+    "toScene": 100,
+    "focus": [
+      704,
+      464
+    ],
+    "script": 20300,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 138,
+    "fromMap": 130,
+    "event": 2412,
+    "x": 1616,
+    "y": 1464,
+    "toScene": 139,
+    "focus": [
+      608,
+      784
+    ],
+    "script": 26066,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 138,
+    "fromMap": 130,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 117,
+    "focus": [
+      512,
+      1696
+    ],
+    "script": 25305,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 139,
+    "fromMap": 129,
+    "event": 2420,
+    "x": 416,
+    "y": 1856,
+    "toScene": 117,
+    "focus": [
+      512,
+      1696
+    ],
+    "script": 25305,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 139,
+    "fromMap": 129,
+    "event": 2421,
+    "x": 528,
+    "y": 744,
+    "toScene": 138,
+    "focus": [
+      1552,
+      1432
+    ],
+    "script": 26062,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 139,
+    "fromMap": 129,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 117,
+    "focus": [
+      512,
+      1696
+    ],
+    "script": 25305,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2466,
+    "x": 496,
+    "y": 712,
+    "toScene": 149,
+    "focus": null,
+    "script": 29189,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2467,
+    "x": 496,
+    "y": 1352,
+    "toScene": 149,
+    "focus": null,
+    "script": 29192,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2468,
+    "x": 880,
+    "y": 520,
+    "toScene": 149,
+    "focus": null,
+    "script": 29195,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2469,
+    "x": 1200,
+    "y": 1624,
+    "toScene": 149,
+    "focus": null,
+    "script": 29198,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2470,
+    "x": 896,
+    "y": 1152,
+    "toScene": 149,
+    "focus": null,
+    "script": 29201,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2471,
+    "x": 1472,
+    "y": 448,
+    "toScene": 149,
+    "focus": null,
+    "script": 29204,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 144,
+    "fromMap": 185,
+    "event": 2472,
+    "x": 1344,
+    "y": 848,
+    "toScene": 149,
+    "focus": null,
+    "script": 29207,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 145,
+    "fromMap": 74,
+    "event": 2473,
+    "x": 512,
+    "y": 1184,
+    "toScene": 168,
+    "focus": [
+      1296,
+      712
+    ],
+    "script": 27000,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 145,
+    "fromMap": 74,
+    "event": 2475,
+    "x": 1536,
+    "y": 432,
+    "toScene": 169,
+    "focus": null,
+    "script": 28338,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 146,
+    "fromMap": 141,
+    "event": 2479,
+    "x": 1552,
+    "y": 376,
+    "toScene": 165,
+    "focus": [
+      1440,
+      288
+    ],
+    "script": 26814,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 147,
+    "fromMap": 144,
+    "event": 2482,
+    "x": 1104,
+    "y": 376,
+    "toScene": 167,
+    "focus": [
+      848,
+      712
+    ],
+    "script": 26826,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 148,
+    "fromMap": 146,
+    "event": 2505,
+    "x": 320,
+    "y": 576,
+    "toScene": 154,
+    "focus": [
+      1456,
+      1384
+    ],
+    "script": 26834,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 152,
+    "fromMap": 74,
+    "event": 2560,
+    "x": 512,
+    "y": 1184,
+    "toScene": 168,
+    "focus": [
+      1296,
+      712
+    ],
+    "script": 27000,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 152,
+    "fromMap": 74,
+    "event": 2561,
+    "x": 960,
+    "y": 1056,
+    "toScene": 144,
+    "focus": null,
+    "script": 29171,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 154,
+    "fromMap": 147,
+    "event": 2577,
+    "x": 1504,
+    "y": 1408,
+    "toScene": 148,
+    "focus": [
+      368,
+      600
+    ],
+    "script": 26838,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 154,
+    "fromMap": 147,
+    "event": 2578,
+    "x": 1152,
+    "y": 1120,
+    "toScene": 156,
+    "focus": [
+      320,
+      1712
+    ],
+    "script": 26842,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 155,
+    "fromMap": 132,
+    "event": 2615,
+    "x": 1552,
+    "y": 1336,
+    "toScene": 157,
+    "focus": [
+      576,
+      1664
+    ],
+    "script": 27012,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 156,
+    "fromMap": 156,
+    "event": 2616,
+    "x": 592,
+    "y": 1832,
+    "toScene": 168,
+    "focus": [
+      464,
+      856
+    ],
+    "script": 26846,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 157,
+    "fromMap": 133,
+    "event": 2746,
+    "x": 432,
+    "y": 1736,
+    "toScene": 155,
+    "focus": [
+      1424,
+      1400
+    ],
+    "script": 27016,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 157,
+    "fromMap": 133,
+    "event": 2747,
+    "x": 1296,
+    "y": 1256,
+    "toScene": 159,
+    "focus": [
+      608,
+      1488
+    ],
+    "script": 27020,
+    "triggerMode": 8
+  },
+  {
+    "fromScene": 158,
+    "fromMap": 134,
+    "event": 2750,
+    "x": 592,
+    "y": 1576,
+    "toScene": 159,
+    "focus": [
+      1216,
+      1152
+    ],
+    "script": 27032,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 159,
+    "fromMap": 135,
+    "event": 2758,
+    "x": 512,
+    "y": 1536,
+    "toScene": 157,
+    "focus": [
+      1184,
+      1312
+    ],
+    "script": 27024,
+    "triggerMode": 8
+  },
+  {
+    "fromScene": 159,
+    "fromMap": 135,
+    "event": 2759,
+    "x": 1280,
+    "y": 1120,
+    "toScene": 158,
+    "focus": [
+      656,
+      1544
+    ],
+    "script": 27028,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 159,
+    "fromMap": 135,
+    "event": 2760,
+    "x": 1008,
+    "y": 1128,
+    "toScene": 160,
+    "focus": [
+      656,
+      1528
+    ],
+    "script": 27036,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 159,
+    "fromMap": 135,
+    "event": 2761,
+    "x": 848,
+    "y": 1128,
+    "toScene": 160,
+    "focus": [
+      608,
+      784
+    ],
+    "script": 27044,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 160,
+    "fromMap": 136,
+    "event": 2780,
+    "x": 656,
+    "y": 808,
+    "toScene": 159,
+    "focus": [
+      896,
+      1152
+    ],
+    "script": 27048,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 160,
+    "fromMap": 136,
+    "event": 2781,
+    "x": 608,
+    "y": 1552,
+    "toScene": 159,
+    "focus": [
+      960,
+      1152
+    ],
+    "script": 27040,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 161,
+    "fromMap": 137,
+    "event": 2792,
+    "x": 1792,
+    "y": 928,
+    "toScene": 162,
+    "focus": [
+      432,
+      168
+    ],
+    "script": 26798,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 161,
+    "fromMap": 137,
+    "event": 2793,
+    "x": 400,
+    "y": 1768,
+    "toScene": 158,
+    "focus": [
+      944,
+      1384
+    ],
+    "script": 27060,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 161,
+    "fromMap": 137,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 158,
+    "focus": [
+      944,
+      1384
+    ],
+    "script": 27060,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 162,
+    "fromMap": 138,
+    "event": 2803,
+    "x": 384,
+    "y": 144,
+    "toScene": 161,
+    "focus": [
+      1744,
+      904
+    ],
+    "script": 26802,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 162,
+    "fromMap": 138,
+    "event": 2804,
+    "x": 864,
+    "y": 1392,
+    "toScene": 163,
+    "focus": [
+      672,
+      704
+    ],
+    "script": 26806,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 162,
+    "fromMap": 138,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 158,
+    "focus": [
+      944,
+      1384
+    ],
+    "script": 27060,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 163,
+    "fromMap": 139,
+    "event": 2810,
+    "x": 608,
+    "y": 672,
+    "toScene": 162,
+    "focus": [
+      800,
+      1360
+    ],
+    "script": 26810,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 163,
+    "fromMap": 139,
+    "event": 2811,
+    "x": 1184,
+    "y": 1104,
+    "toScene": 164,
+    "focus": null,
+    "script": 27064,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 163,
+    "fromMap": 139,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 158,
+    "focus": [
+      944,
+      1384
+    ],
+    "script": 27060,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 165,
+    "fromMap": 142,
+    "event": 2815,
+    "x": 1392,
+    "y": 1528,
+    "toScene": 166,
+    "focus": [
+      1024,
+      720
+    ],
+    "script": 26818,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 166,
+    "fromMap": 143,
+    "event": 2857,
+    "x": 976,
+    "y": 1720,
+    "toScene": 147,
+    "focus": [
+      1520,
+      1160
+    ],
+    "script": 26822,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 167,
+    "fromMap": 145,
+    "event": 2904,
+    "x": 688,
+    "y": 520,
+    "toScene": 148,
+    "focus": [
+      1280,
+      288
+    ],
+    "script": 26830,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 168,
+    "fromMap": 148,
+    "event": 2955,
+    "x": 1264,
+    "y": 696,
+    "toScene": 145,
+    "focus": [
+      464,
+      1160
+    ],
+    "script": 27008,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 173,
+    "fromMap": 202,
+    "event": 3011,
+    "x": 656,
+    "y": 648,
+    "toScene": 176,
+    "focus": [
+      1424,
+      712
+    ],
+    "script": 32130,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 173,
+    "fromMap": 202,
+    "event": 3019,
+    "x": 656,
+    "y": 520,
+    "toScene": 174,
+    "focus": null,
+    "script": 32824,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 174,
+    "fromMap": 202,
+    "event": 3023,
+    "x": 656,
+    "y": 648,
+    "toScene": 176,
+    "focus": [
+      1424,
+      712
+    ],
+    "script": 32130,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3042,
+    "x": 576,
+    "y": 1472,
+    "toScene": 191,
+    "focus": [
+      1376,
+      1328
+    ],
+    "script": 29533,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3043,
+    "x": 960,
+    "y": 1200,
+    "toScene": 191,
+    "focus": [
+      944,
+      968
+    ],
+    "script": 29541,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3044,
+    "x": 1056,
+    "y": 1536,
+    "toScene": 191,
+    "focus": [
+      1488,
+      504
+    ],
+    "script": 29549,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3045,
+    "x": 768,
+    "y": 1040,
+    "toScene": 191,
+    "focus": [
+      608,
+      352
+    ],
+    "script": 29557,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3046,
+    "x": 1344,
+    "y": 1392,
+    "toScene": 191,
+    "focus": [
+      528,
+      1480
+    ],
+    "script": 29565,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3047,
+    "x": 1472,
+    "y": 1696,
+    "toScene": 180,
+    "focus": [
+      944,
+      520
+    ],
+    "script": 29509,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 175,
+    "fromMap": 158,
+    "event": 3048,
+    "x": 208,
+    "y": 1576,
+    "toScene": 190,
+    "focus": [
+      944,
+      1880
+    ],
+    "script": 29513,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 176,
+    "fromMap": 201,
+    "event": 3070,
+    "x": 320,
+    "y": 912,
+    "toScene": 186,
+    "focus": [
+      1808,
+      1160
+    ],
+    "script": 32110,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 176,
+    "fromMap": 201,
+    "event": 3071,
+    "x": 1472,
+    "y": 688,
+    "toScene": 174,
+    "focus": [
+      704,
+      624
+    ],
+    "script": 32134,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 178,
+    "fromMap": 16,
+    "event": 3101,
+    "x": 1728,
+    "y": 1728,
+    "toScene": 186,
+    "focus": [
+      1216,
+      1120
+    ],
+    "script": 29577,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 179,
+    "fromMap": 149,
+    "event": 3107,
+    "x": 1696,
+    "y": 1424,
+    "toScene": 186,
+    "focus": [
+      1840,
+      1032
+    ],
+    "script": 30360,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 179,
+    "fromMap": 149,
+    "event": 3108,
+    "x": 1824,
+    "y": 1072,
+    "toScene": 202,
+    "focus": [
+      208,
+      504
+    ],
+    "script": 32118,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 179,
+    "fromMap": 149,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 176,
+    "focus": [
+      384,
+      944
+    ],
+    "script": 32114,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 180,
+    "fromMap": 157,
+    "event": 3113,
+    "x": 1728,
+    "y": 1728,
+    "toScene": 186,
+    "focus": [
+      1216,
+      1120
+    ],
+    "script": 29581,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 180,
+    "fromMap": 157,
+    "event": 3114,
+    "x": 912,
+    "y": 488,
+    "toScene": 182,
+    "focus": [
+      1424,
+      1656
+    ],
+    "script": 29501,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 180,
+    "fromMap": 157,
+    "event": 3124,
+    "x": 1824,
+    "y": 592,
+    "toScene": 189,
+    "focus": [
+      608,
+      1920
+    ],
+    "script": 32094,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 180,
+    "fromMap": 157,
+    "event": 3125,
+    "x": 176,
+    "y": 1304,
+    "toScene": 189,
+    "focus": [
+      1776,
+      712
+    ],
+    "script": 32102,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 180,
+    "fromMap": 157,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 186,
+    "focus": [
+      1216,
+      1120
+    ],
+    "script": 29581,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 181,
+    "fromMap": 160,
+    "event": 3131,
+    "x": 1600,
+    "y": 1904,
+    "toScene": 190,
+    "focus": [
+      1792,
+      768
+    ],
+    "script": 29525,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 182,
+    "fromMap": 17,
+    "event": 3137,
+    "x": 1472,
+    "y": 1696,
+    "toScene": 180,
+    "focus": [
+      944,
+      520
+    ],
+    "script": 29509,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 182,
+    "fromMap": 17,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 186,
+    "focus": [
+      1216,
+      1120
+    ],
+    "script": 29581,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 184,
+    "fromMap": 154,
+    "event": 3164,
+    "x": 336,
+    "y": 1400,
+    "toScene": 187,
+    "focus": [
+      384,
+      1248
+    ],
+    "script": 29489,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 184,
+    "fromMap": 154,
+    "event": 3165,
+    "x": 272,
+    "y": 648,
+    "toScene": 188,
+    "focus": [
+      1216,
+      1136
+    ],
+    "script": 29493,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 185,
+    "fromMap": 152,
+    "event": 3202,
+    "x": 960,
+    "y": 1376,
+    "toScene": 192,
+    "focus": [
+      192,
+      288
+    ],
+    "script": 30016,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 3296,
+    "x": 1856,
+    "y": 1184,
+    "toScene": 176,
+    "focus": [
+      384,
+      944
+    ],
+    "script": 32114,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 3297,
+    "x": 1824,
+    "y": 1008,
+    "toScene": 179,
+    "focus": [
+      1664,
+      1440
+    ],
+    "script": 30365,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 3298,
+    "x": 624,
+    "y": 1128,
+    "toScene": 192,
+    "focus": [
+      1488,
+      1512
+    ],
+    "script": 30370,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 3299,
+    "x": 1168,
+    "y": 1080,
+    "toScene": 178,
+    "focus": [
+      1664,
+      1696
+    ],
+    "script": 29569,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 3300,
+    "x": 224,
+    "y": 1376,
+    "toScene": 187,
+    "focus": [
+      1504,
+      976
+    ],
+    "script": 29477,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 186,
+    "fromMap": 150,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 176,
+    "focus": [
+      384,
+      944
+    ],
+    "script": 32114,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 187,
+    "fromMap": 155,
+    "event": 3316,
+    "x": 1552,
+    "y": 1000,
+    "toScene": 186,
+    "focus": [
+      224,
+      1408
+    ],
+    "script": 29481,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 187,
+    "fromMap": 155,
+    "event": 3317,
+    "x": 352,
+    "y": 1264,
+    "toScene": 184,
+    "focus": [
+      304,
+      1416
+    ],
+    "script": 29485,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 188,
+    "fromMap": 153,
+    "event": 3321,
+    "x": 1248,
+    "y": 1104,
+    "toScene": 184,
+    "focus": [
+      320,
+      624
+    ],
+    "script": 29497,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 189,
+    "fromMap": 200,
+    "event": 3326,
+    "x": 560,
+    "y": 1944,
+    "toScene": 180,
+    "focus": [
+      1760,
+      624
+    ],
+    "script": 32098,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 189,
+    "fromMap": 200,
+    "event": 3327,
+    "x": 1824,
+    "y": 688,
+    "toScene": 180,
+    "focus": [
+      224,
+      1280
+    ],
+    "script": 32106,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 189,
+    "fromMap": 200,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 186,
+    "focus": [
+      1216,
+      1120
+    ],
+    "script": 29581,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 190,
+    "fromMap": 159,
+    "event": 3371,
+    "x": 1728,
+    "y": 736,
+    "toScene": 181,
+    "focus": [
+      1552,
+      1880
+    ],
+    "script": 29521,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 190,
+    "fromMap": 159,
+    "event": 3372,
+    "x": 1008,
+    "y": 1912,
+    "toScene": 175,
+    "focus": [
+      272,
+      1608
+    ],
+    "script": 29517,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 190,
+    "fromMap": 159,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 175,
+    "focus": [
+      272,
+      1608
+    ],
+    "script": 29517,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 191,
+    "fromMap": 161,
+    "event": 3399,
+    "x": 1328,
+    "y": 1352,
+    "toScene": 175,
+    "focus": [
+      528,
+      1496
+    ],
+    "script": 29529,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 191,
+    "fromMap": 161,
+    "event": 3400,
+    "x": 992,
+    "y": 992,
+    "toScene": 175,
+    "focus": [
+      992,
+      1232
+    ],
+    "script": 29537,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 191,
+    "fromMap": 161,
+    "event": 3401,
+    "x": 1536,
+    "y": 528,
+    "toScene": 175,
+    "focus": [
+      1088,
+      1568
+    ],
+    "script": 29545,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 191,
+    "fromMap": 161,
+    "event": 3402,
+    "x": 656,
+    "y": 376,
+    "toScene": 175,
+    "focus": [
+      800,
+      1072
+    ],
+    "script": 29553,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 191,
+    "fromMap": 161,
+    "event": 3403,
+    "x": 576,
+    "y": 1504,
+    "toScene": 175,
+    "focus": [
+      1376,
+      1424
+    ],
+    "script": 29561,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 192,
+    "fromMap": 151,
+    "event": 3426,
+    "x": 1520,
+    "y": 1496,
+    "toScene": 186,
+    "focus": [
+      640,
+      1152
+    ],
+    "script": 30375,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 192,
+    "fromMap": 151,
+    "event": 3479,
+    "x": 160,
+    "y": 272,
+    "toScene": 185,
+    "focus": [
+      912,
+      1352
+    ],
+    "script": 30020,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 200,
+    "fromMap": 187,
+    "event": 3542,
+    "x": 1776,
+    "y": 1320,
+    "toScene": 212,
+    "focus": [
+      656,
+      456
+    ],
+    "script": 33211,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 200,
+    "fromMap": 187,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 206,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 33199,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 202,
+    "fromMap": 162,
+    "event": 3594,
+    "x": 160,
+    "y": 480,
+    "toScene": 179,
+    "focus": [
+      1744,
+      1032
+    ],
+    "script": 32126,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 202,
+    "fromMap": 162,
+    "event": 3595,
+    "x": 1568,
+    "y": 384,
+    "toScene": 206,
+    "focus": [
+      352,
+      1744
+    ],
+    "script": 33043,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 202,
+    "fromMap": 162,
+    "event": 3596,
+    "x": 1376,
+    "y": 864,
+    "toScene": 214,
+    "focus": [
+      752,
+      184
+    ],
+    "script": 34737,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 203,
+    "fromMap": 175,
+    "event": 3614,
+    "x": 208,
+    "y": 1448,
+    "toScene": 211,
+    "focus": [
+      1312,
+      736
+    ],
+    "script": 33083,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 203,
+    "fromMap": 175,
+    "event": 3615,
+    "x": 1824,
+    "y": 1136,
+    "toScene": 204,
+    "focus": [
+      480,
+      1488
+    ],
+    "script": 33087,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 204,
+    "fromMap": 176,
+    "event": 3642,
+    "x": 400,
+    "y": 1528,
+    "toScene": 203,
+    "focus": [
+      1744,
+      1176
+    ],
+    "script": 33091,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 205,
+    "fromMap": 170,
+    "event": 3651,
+    "x": 1520,
+    "y": 1608,
+    "toScene": 206,
+    "focus": [
+      496,
+      296
+    ],
+    "script": 33067,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 205,
+    "fromMap": 170,
+    "event": 3652,
+    "x": 1136,
+    "y": 1192,
+    "toScene": 210,
+    "focus": [
+      880,
+      408
+    ],
+    "script": 33215,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 205,
+    "fromMap": 170,
+    "event": 3654,
+    "x": 928,
+    "y": 1200,
+    "toScene": 206,
+    "focus": [
+      928,
+      1200
+    ],
+    "script": 33879,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3670,
+    "x": 288,
+    "y": 1776,
+    "toScene": 202,
+    "focus": [
+      1504,
+      416
+    ],
+    "script": 33047,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3671,
+    "x": 1568,
+    "y": 1728,
+    "toScene": 208,
+    "focus": [
+      528,
+      472
+    ],
+    "script": 33059,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3672,
+    "x": 464,
+    "y": 280,
+    "toScene": 205,
+    "focus": [
+      1488,
+      1592
+    ],
+    "script": 33063,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3673,
+    "x": 512,
+    "y": 912,
+    "toScene": 211,
+    "focus": [
+      560,
+      1272
+    ],
+    "script": 33071,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3674,
+    "x": 560,
+    "y": 1784,
+    "toScene": 207,
+    "focus": [
+      1136,
+      1368
+    ],
+    "script": 33135,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3675,
+    "x": 1648,
+    "y": 1480,
+    "toScene": 207,
+    "focus": [
+      1424,
+      1800
+    ],
+    "script": 33143,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3676,
+    "x": 976,
+    "y": 1560,
+    "toScene": 207,
+    "focus": [
+      736,
+      1760
+    ],
+    "script": 33151,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3677,
+    "x": 256,
+    "y": 1664,
+    "toScene": 207,
+    "focus": [
+      656,
+      1304
+    ],
+    "script": 33159,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3678,
+    "x": 1584,
+    "y": 1192,
+    "toScene": 207,
+    "focus": [
+      608,
+      864
+    ],
+    "script": 33167,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3679,
+    "x": 400,
+    "y": 1304,
+    "toScene": 207,
+    "focus": [
+      1440,
+      944
+    ],
+    "script": 33175,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3680,
+    "x": 528,
+    "y": 1400,
+    "toScene": 207,
+    "focus": [
+      1408,
+      512
+    ],
+    "script": 33183,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3681,
+    "x": 736,
+    "y": 1280,
+    "toScene": 207,
+    "focus": [
+      560,
+      392
+    ],
+    "script": 33191,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 206,
+    "fromMap": 163,
+    "event": 3682,
+    "x": 1712,
+    "y": 824,
+    "toScene": 212,
+    "focus": [
+      272,
+      1608
+    ],
+    "script": 33203,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3707,
+    "x": 1088,
+    "y": 1392,
+    "toScene": 206,
+    "focus": [
+      544,
+      1808
+    ],
+    "script": 33139,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3708,
+    "x": 1376,
+    "y": 1824,
+    "toScene": 206,
+    "focus": [
+      1632,
+      1504
+    ],
+    "script": 33147,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3709,
+    "x": 784,
+    "y": 1784,
+    "toScene": 206,
+    "focus": [
+      992,
+      1584
+    ],
+    "script": 33155,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3710,
+    "x": 704,
+    "y": 1328,
+    "toScene": 206,
+    "focus": [
+      272,
+      1688
+    ],
+    "script": 33163,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3711,
+    "x": 656,
+    "y": 888,
+    "toScene": 206,
+    "focus": [
+      1600,
+      1216
+    ],
+    "script": 33171,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3712,
+    "x": 1488,
+    "y": 968,
+    "toScene": 206,
+    "focus": [
+      416,
+      1328
+    ],
+    "script": 33179,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3713,
+    "x": 1456,
+    "y": 536,
+    "toScene": 206,
+    "focus": [
+      544,
+      1424
+    ],
+    "script": 33187,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 207,
+    "fromMap": 166,
+    "event": 3714,
+    "x": 608,
+    "y": 416,
+    "toScene": 206,
+    "focus": [
+      752,
+      1304
+    ],
+    "script": 33195,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3758,
+    "x": 496,
+    "y": 456,
+    "toScene": 206,
+    "focus": [
+      1520,
+      1704
+    ],
+    "script": 33055,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3759,
+    "x": 1184,
+    "y": 768,
+    "toScene": 209,
+    "focus": [
+      704,
+      1392
+    ],
+    "script": 33099,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3760,
+    "x": 928,
+    "y": 544,
+    "toScene": 209,
+    "focus": [
+      896,
+      944
+    ],
+    "script": 33107,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3761,
+    "x": 768,
+    "y": 960,
+    "toScene": 209,
+    "focus": [
+      1344,
+      944
+    ],
+    "script": 33115,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3762,
+    "x": 640,
+    "y": 688,
+    "toScene": 209,
+    "focus": [
+      784,
+      456
+    ],
+    "script": 33123,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 208,
+    "fromMap": 167,
+    "event": 3763,
+    "x": 928,
+    "y": 784,
+    "toScene": 209,
+    "focus": [
+      1440,
+      448
+    ],
+    "script": 33131,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 209,
+    "fromMap": 169,
+    "event": 3776,
+    "x": 656,
+    "y": 1416,
+    "toScene": 208,
+    "focus": [
+      1152,
+      800
+    ],
+    "script": 33095,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 209,
+    "fromMap": 169,
+    "event": 3777,
+    "x": 944,
+    "y": 968,
+    "toScene": 208,
+    "focus": [
+      960,
+      576
+    ],
+    "script": 33103,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 209,
+    "fromMap": 169,
+    "event": 3778,
+    "x": 1296,
+    "y": 968,
+    "toScene": 208,
+    "focus": [
+      736,
+      992
+    ],
+    "script": 33111,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 209,
+    "fromMap": 169,
+    "event": 3779,
+    "x": 832,
+    "y": 480,
+    "toScene": 208,
+    "focus": [
+      672,
+      720
+    ],
+    "script": 33119,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 209,
+    "fromMap": 169,
+    "event": 3780,
+    "x": 1488,
+    "y": 472,
+    "toScene": 208,
+    "focus": [
+      960,
+      816
+    ],
+    "script": 33127,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 210,
+    "fromMap": 172,
+    "event": 3791,
+    "x": 928,
+    "y": 432,
+    "toScene": 205,
+    "focus": [
+      1168,
+      1224
+    ],
+    "script": 33219,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 211,
+    "fromMap": 173,
+    "event": 3792,
+    "x": 432,
+    "y": 1336,
+    "toScene": 206,
+    "focus": [
+      448,
+      944
+    ],
+    "script": 33075,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 211,
+    "fromMap": 173,
+    "event": 3793,
+    "x": 1376,
+    "y": 704,
+    "toScene": 203,
+    "focus": [
+      288,
+      1392
+    ],
+    "script": 33079,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 212,
+    "fromMap": 186,
+    "event": 3797,
+    "x": 608,
+    "y": 432,
+    "toScene": 200,
+    "focus": [
+      1728,
+      1296
+    ],
+    "script": 33207,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 212,
+    "fromMap": 186,
+    "event": 3798,
+    "x": 208,
+    "y": 1640,
+    "toScene": 206,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 33199,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 212,
+    "fromMap": 186,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 206,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 33199,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 213,
+    "fromMap": 225,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 214,
+    "fromMap": 212,
+    "event": 3875,
+    "x": 352,
+    "y": 880,
+    "toScene": 215,
+    "focus": [
+      1776,
+      1544
+    ],
+    "script": 34866,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 214,
+    "fromMap": 212,
+    "event": 3876,
+    "x": 704,
+    "y": 160,
+    "toScene": 202,
+    "focus": [
+      1248,
+      800
+    ],
+    "script": 35290,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 215,
+    "fromMap": 213,
+    "event": 3883,
+    "x": 1808,
+    "y": 1528,
+    "toScene": 214,
+    "focus": [
+      384,
+      864
+    ],
+    "script": 34870,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 215,
+    "fromMap": 213,
+    "event": 3884,
+    "x": 864,
+    "y": 720,
+    "toScene": 216,
+    "focus": [
+      448,
+      1152
+    ],
+    "script": 34942,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 215,
+    "fromMap": 213,
+    "event": 3885,
+    "x": 1056,
+    "y": 816,
+    "toScene": 216,
+    "focus": [
+      672,
+      1280
+    ],
+    "script": 34950,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 215,
+    "fromMap": 213,
+    "event": 3886,
+    "x": 1056,
+    "y": 640,
+    "toScene": 216,
+    "focus": [
+      1072,
+      840
+    ],
+    "script": 34958,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 215,
+    "fromMap": 213,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 214,
+    "focus": [
+      752,
+      184
+    ],
+    "script": 34737,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3901,
+    "x": 1008,
+    "y": 424,
+    "toScene": 217,
+    "focus": [
+      1232,
+      1144
+    ],
+    "script": 34874,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3902,
+    "x": 1280,
+    "y": 736,
+    "toScene": 217,
+    "focus": [
+      1168,
+      1448
+    ],
+    "script": 34882,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3903,
+    "x": 768,
+    "y": 336,
+    "toScene": 217,
+    "focus": [
+      1072,
+      232
+    ],
+    "script": 34890,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3904,
+    "x": 1648,
+    "y": 1144,
+    "toScene": 217,
+    "focus": [
+      944,
+      1784
+    ],
+    "script": 34930,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3905,
+    "x": 416,
+    "y": 1168,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3906,
+    "x": 640,
+    "y": 1296,
+    "toScene": 215,
+    "focus": [
+      1024,
+      832
+    ],
+    "script": 34954,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 3907,
+    "x": 1040,
+    "y": 856,
+    "toScene": 215,
+    "focus": [
+      1024,
+      656
+    ],
+    "script": 34962,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 216,
+    "fromMap": 214,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3917,
+    "x": 880,
+    "y": 968,
+    "toScene": 216,
+    "focus": [
+      544,
+      688
+    ],
+    "script": 34878,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3918,
+    "x": 1568,
+    "y": 1248,
+    "toScene": 216,
+    "focus": [
+      1616,
+      584
+    ],
+    "script": 34886,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3919,
+    "x": 1072,
+    "y": 232,
+    "toScene": 218,
+    "focus": [
+      928,
+      272
+    ],
+    "script": 34894,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3920,
+    "x": 864,
+    "y": 1264,
+    "toScene": 218,
+    "focus": [
+      624,
+      728
+    ],
+    "script": 34898,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3921,
+    "x": 416,
+    "y": 1584,
+    "toScene": 218,
+    "focus": [
+      672,
+      1088
+    ],
+    "script": 34906,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 3922,
+    "x": 944,
+    "y": 1784,
+    "toScene": 218,
+    "focus": [
+      1568,
+      1216
+    ],
+    "script": 34934,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 217,
+    "fromMap": 215,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 3942,
+    "x": 320,
+    "y": 1088,
+    "toScene": 217,
+    "focus": [
+      688,
+      1400
+    ],
+    "script": 34902,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 3943,
+    "x": 1520,
+    "y": 712,
+    "toScene": 217,
+    "focus": [
+      1536,
+      1648
+    ],
+    "script": 34910,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 3944,
+    "x": 288,
+    "y": 576,
+    "toScene": 219,
+    "focus": [
+      768,
+      320
+    ],
+    "script": 34914,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 3945,
+    "x": 1008,
+    "y": 1688,
+    "toScene": 219,
+    "focus": [
+      1664,
+      272
+    ],
+    "script": 34922,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 3946,
+    "x": 1568,
+    "y": 1216,
+    "toScene": 219,
+    "focus": [
+      1552,
+      1160
+    ],
+    "script": 34938,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 218,
+    "fromMap": 216,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 219,
+    "fromMap": 217,
+    "event": 3964,
+    "x": 352,
+    "y": 1392,
+    "toScene": 218,
+    "focus": [
+      1680,
+      1528
+    ],
+    "script": 34918,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 219,
+    "fromMap": 217,
+    "event": 3965,
+    "x": 1616,
+    "y": 1656,
+    "toScene": 218,
+    "focus": [
+      960,
+      640
+    ],
+    "script": 34926,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 219,
+    "fromMap": 217,
+    "event": 3966,
+    "x": 1408,
+    "y": 416,
+    "toScene": 220,
+    "focus": [
+      736,
+      480
+    ],
+    "script": 35038,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 219,
+    "fromMap": 217,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 220,
+    "fromMap": 218,
+    "event": 4014,
+    "x": 1296,
+    "y": 456,
+    "toScene": 222,
+    "focus": [
+      1248,
+      464
+    ],
+    "script": 34974,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 220,
+    "fromMap": 218,
+    "event": 4015,
+    "x": 432,
+    "y": 1176,
+    "toScene": 222,
+    "focus": [
+      432,
+      1192
+    ],
+    "script": 34982,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 220,
+    "fromMap": 218,
+    "event": 4016,
+    "x": 768,
+    "y": 464,
+    "toScene": 219,
+    "focus": [
+      1456,
+      392
+    ],
+    "script": 35042,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 220,
+    "fromMap": 218,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 221,
+    "fromMap": 219,
+    "event": 4054,
+    "x": 560,
+    "y": 1576,
+    "toScene": 225,
+    "focus": [
+      928,
+      896
+    ],
+    "script": 35250,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 221,
+    "fromMap": 219,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 222,
+    "fromMap": 220,
+    "event": 4057,
+    "x": 1520,
+    "y": 1096,
+    "toScene": 220,
+    "focus": [
+      1520,
+      1112
+    ],
+    "script": 34978,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 222,
+    "fromMap": 220,
+    "event": 4058,
+    "x": 672,
+    "y": 1664,
+    "toScene": 223,
+    "focus": [
+      720,
+      1544
+    ],
+    "script": 34986,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 222,
+    "fromMap": 220,
+    "event": 4059,
+    "x": 832,
+    "y": 1168,
+    "toScene": 223,
+    "focus": [
+      912,
+      1064
+    ],
+    "script": 34994,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 222,
+    "fromMap": 220,
+    "event": 4060,
+    "x": 944,
+    "y": 792,
+    "toScene": 223,
+    "focus": [
+      1008,
+      680
+    ],
+    "script": 35002,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 222,
+    "fromMap": 220,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 223,
+    "fromMap": 221,
+    "event": 4101,
+    "x": 1152,
+    "y": 1520,
+    "toScene": 224,
+    "focus": [
+      1184,
+      1504
+    ],
+    "script": 34966,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 223,
+    "fromMap": 221,
+    "event": 4102,
+    "x": 1280,
+    "y": 1248,
+    "toScene": 222,
+    "focus": [
+      1200,
+      1352
+    ],
+    "script": 34990,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 223,
+    "fromMap": 221,
+    "event": 4103,
+    "x": 768,
+    "y": 352,
+    "toScene": 222,
+    "focus": [
+      720,
+      456
+    ],
+    "script": 34998,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 223,
+    "fromMap": 221,
+    "event": 4104,
+    "x": 1616,
+    "y": 712,
+    "toScene": 221,
+    "focus": [
+      1024,
+      528
+    ],
+    "script": 35006,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 223,
+    "fromMap": 221,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 224,
+    "fromMap": 222,
+    "event": 4151,
+    "x": 416,
+    "y": 976,
+    "toScene": 223,
+    "focus": [
+      448,
+      960
+    ],
+    "script": 34970,
+    "triggerMode": 1
+  },
+  {
+    "fromScene": 224,
+    "fromMap": 222,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4175,
+    "x": 416,
+    "y": 416,
+    "toScene": 226,
+    "focus": [
+      384,
+      1152
+    ],
+    "script": 35242,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4176,
+    "x": 1360,
+    "y": 1368,
+    "toScene": 226,
+    "focus": [
+      800,
+      944
+    ],
+    "script": 35102,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4177,
+    "x": 1568,
+    "y": 704,
+    "toScene": 226,
+    "focus": [
+      224,
+      832
+    ],
+    "script": 35110,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4178,
+    "x": 1184,
+    "y": 896,
+    "toScene": 226,
+    "focus": [
+      1488,
+      1272
+    ],
+    "script": 35118,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4179,
+    "x": 1376,
+    "y": 1200,
+    "toScene": 226,
+    "focus": [
+      1696,
+      1136
+    ],
+    "script": 35126,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4180,
+    "x": 1392,
+    "y": 360,
+    "toScene": 226,
+    "focus": [
+      1136,
+      1848
+    ],
+    "script": 35134,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4181,
+    "x": 1456,
+    "y": 392,
+    "toScene": 226,
+    "focus": [
+      1312,
+      1696
+    ],
+    "script": 35202,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4182,
+    "x": 928,
+    "y": 1456,
+    "toScene": 226,
+    "focus": [
+      1760,
+      1472
+    ],
+    "script": 35214,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4183,
+    "x": 1184,
+    "y": 896,
+    "toScene": 226,
+    "focus": [
+      1104,
+      1480
+    ],
+    "script": 35218,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4184,
+    "x": 1376,
+    "y": 1200,
+    "toScene": 226,
+    "focus": [
+      992,
+      1424
+    ],
+    "script": 35230,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4185,
+    "x": 608,
+    "y": 944,
+    "toScene": 226,
+    "focus": [
+      592,
+      1304
+    ],
+    "script": 35234,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 4186,
+    "x": 400,
+    "y": 856,
+    "toScene": 226,
+    "focus": [
+      304,
+      968
+    ],
+    "script": 35238,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 225,
+    "fromMap": 223,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4195,
+    "x": 1088,
+    "y": 752,
+    "toScene": 213,
+    "focus": [
+      1456,
+      312
+    ],
+    "script": 35298,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4196,
+    "x": 784,
+    "y": 936,
+    "toScene": 225,
+    "focus": [
+      1344,
+      1376
+    ],
+    "script": 35098,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4197,
+    "x": 368,
+    "y": 1144,
+    "toScene": 225,
+    "focus": [
+      432,
+      424
+    ],
+    "script": 35106,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4198,
+    "x": 208,
+    "y": 840,
+    "toScene": 225,
+    "focus": [
+      1552,
+      712
+    ],
+    "script": 35114,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4199,
+    "x": 1712,
+    "y": 1144,
+    "toScene": 225,
+    "focus": [
+      1392,
+      1208
+    ],
+    "script": 35122,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4200,
+    "x": 1472,
+    "y": 1264,
+    "toScene": 225,
+    "focus": [
+      1168,
+      904
+    ],
+    "script": 35130,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4217,
+    "x": 1296,
+    "y": 1688,
+    "toScene": 225,
+    "focus": [
+      1472,
+      400
+    ],
+    "script": 35206,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4218,
+    "x": 1744,
+    "y": 1464,
+    "toScene": 225,
+    "focus": [
+      912,
+      1448
+    ],
+    "script": 35210,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4219,
+    "x": 1120,
+    "y": 1488,
+    "toScene": 225,
+    "focus": [
+      1168,
+      904
+    ],
+    "script": 35222,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4220,
+    "x": 976,
+    "y": 1416,
+    "toScene": 225,
+    "focus": [
+      1392,
+      1208
+    ],
+    "script": 35226,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4221,
+    "x": 1152,
+    "y": 1840,
+    "toScene": 225,
+    "focus": [
+      1376,
+      368
+    ],
+    "script": 35254,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4222,
+    "x": 576,
+    "y": 1296,
+    "toScene": 225,
+    "focus": [
+      592,
+      952
+    ],
+    "script": 35258,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 4223,
+    "x": 288,
+    "y": 976,
+    "toScene": 225,
+    "focus": [
+      384,
+      864
+    ],
+    "script": 35262,
+    "triggerMode": 4
+  },
+  {
+    "fromScene": 226,
+    "fromMap": 224,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 215,
+    "focus": [
+      832,
+      736
+    ],
+    "script": 34946,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 227,
+    "fromMap": 177,
+    "event": 4267,
+    "x": 896,
+    "y": 1152,
+    "toScene": 235,
+    "focus": [
+      1680,
+      1720
+    ],
+    "script": 35760,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 228,
+    "fromMap": 184,
+    "event": 4268,
+    "x": 400,
+    "y": 744,
+    "toScene": 237,
+    "focus": [
+      1776,
+      1432
+    ],
+    "script": 35538,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 229,
+    "fromMap": 178,
+    "event": 4273,
+    "x": 1328,
+    "y": 744,
+    "toScene": 236,
+    "focus": [
+      640,
+      1600
+    ],
+    "script": 35486,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 229,
+    "fromMap": 178,
+    "event": 4274,
+    "x": 1280,
+    "y": 1536,
+    "toScene": 235,
+    "focus": [
+      256,
+      960
+    ],
+    "script": 35790,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4298,
+    "x": 1040,
+    "y": 696,
+    "toScene": 242,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 36981,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4300,
+    "x": 816,
+    "y": 488,
+    "toScene": 241,
+    "focus": [
+      1600,
+      1584
+    ],
+    "script": 37004,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4301,
+    "x": 624,
+    "y": 584,
+    "toScene": 241,
+    "focus": [
+      1312,
+      1728
+    ],
+    "script": 37012,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4302,
+    "x": 1216,
+    "y": 480,
+    "toScene": 241,
+    "focus": [
+      688,
+      696
+    ],
+    "script": 37020,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4303,
+    "x": 1440,
+    "y": 592,
+    "toScene": 241,
+    "focus": [
+      1168,
+      1048
+    ],
+    "script": 37028,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 230,
+    "fromMap": 203,
+    "event": 4304,
+    "x": 1664,
+    "y": 704,
+    "toScene": 241,
+    "focus": [
+      1168,
+      1048
+    ],
+    "script": 37032,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 231,
+    "fromMap": 188,
+    "event": 4311,
+    "x": 272,
+    "y": 344,
+    "toScene": 233,
+    "focus": [
+      1760,
+      1120
+    ],
+    "script": 35542,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 232,
+    "fromMap": 177,
+    "event": 4348,
+    "x": 416,
+    "y": 1360,
+    "toScene": 247,
+    "focus": null,
+    "script": 36782,
+    "triggerMode": 0
+  },
+  {
+    "fromScene": 233,
+    "fromMap": 189,
+    "event": 4349,
+    "x": 1808,
+    "y": 1144,
+    "toScene": 231,
+    "focus": [
+      320,
+      368
+    ],
+    "script": 35546,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 235,
+    "fromMap": 193,
+    "event": 4382,
+    "x": 192,
+    "y": 928,
+    "toScene": 229,
+    "focus": [
+      1216,
+      1504
+    ],
+    "script": 35786,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4399,
+    "x": 592,
+    "y": 1624,
+    "toScene": 229,
+    "focus": [
+      1280,
+      784
+    ],
+    "script": 35490,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4400,
+    "x": 464,
+    "y": 1224,
+    "toScene": 239,
+    "focus": [
+      1168,
+      1704
+    ],
+    "script": 35494,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4401,
+    "x": 1328,
+    "y": 1704,
+    "toScene": 240,
+    "focus": [
+      304,
+      872
+    ],
+    "script": 35502,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4402,
+    "x": 1696,
+    "y": 1440,
+    "toScene": 237,
+    "focus": [
+      704,
+      1696
+    ],
+    "script": 35510,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4403,
+    "x": 960,
+    "y": 1056,
+    "toScene": 237,
+    "focus": [
+      288,
+      1456
+    ],
+    "script": 35518,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 236,
+    "fromMap": 179,
+    "event": 4404,
+    "x": 1344,
+    "y": 1248,
+    "toScene": 238,
+    "focus": [
+      720,
+      1656
+    ],
+    "script": 35526,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 237,
+    "fromMap": 183,
+    "event": 4445,
+    "x": 656,
+    "y": 1720,
+    "toScene": 236,
+    "focus": [
+      1664,
+      1456
+    ],
+    "script": 35514,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 237,
+    "fromMap": 183,
+    "event": 4446,
+    "x": 240,
+    "y": 1480,
+    "toScene": 236,
+    "focus": [
+      912,
+      1080
+    ],
+    "script": 35522,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 237,
+    "fromMap": 183,
+    "event": 4447,
+    "x": 1824,
+    "y": 1456,
+    "toScene": 228,
+    "focus": [
+      560,
+      824
+    ],
+    "script": 35534,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 238,
+    "fromMap": 182,
+    "event": 4466,
+    "x": 672,
+    "y": 1680,
+    "toScene": 236,
+    "focus": [
+      1296,
+      1272
+    ],
+    "script": 35530,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 239,
+    "fromMap": 180,
+    "event": 4468,
+    "x": 1216,
+    "y": 1728,
+    "toScene": 236,
+    "focus": [
+      512,
+      1248
+    ],
+    "script": 35498,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 240,
+    "fromMap": 181,
+    "event": 4469,
+    "x": 256,
+    "y": 848,
+    "toScene": 236,
+    "focus": [
+      1280,
+      1680
+    ],
+    "script": 35506,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 241,
+    "fromMap": 204,
+    "event": 4470,
+    "x": 1648,
+    "y": 1608,
+    "toScene": 230,
+    "focus": [
+      864,
+      512
+    ],
+    "script": 37008,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 241,
+    "fromMap": 204,
+    "event": 4471,
+    "x": 1360,
+    "y": 1752,
+    "toScene": 230,
+    "focus": [
+      672,
+      608
+    ],
+    "script": 37016,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 241,
+    "fromMap": 204,
+    "event": 4472,
+    "x": 624,
+    "y": 728,
+    "toScene": 230,
+    "focus": [
+      1168,
+      504
+    ],
+    "script": 37024,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 241,
+    "fromMap": 204,
+    "event": 4473,
+    "x": 1104,
+    "y": 1080,
+    "toScene": 230,
+    "focus": [
+      1616,
+      728
+    ],
+    "script": 37036,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 241,
+    "fromMap": 204,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 230,
+    "focus": [
+      336,
+      696
+    ],
+    "script": 36969,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 242,
+    "fromMap": 205,
+    "event": 4477,
+    "x": 464,
+    "y": 1480,
+    "toScene": 230,
+    "focus": [
+      1008,
+      712
+    ],
+    "script": 37000,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 242,
+    "fromMap": 205,
+    "event": 4478,
+    "x": 864,
+    "y": 928,
+    "toScene": 243,
+    "focus": [
+      1744,
+      1672
+    ],
+    "script": 37040,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 242,
+    "fromMap": 205,
+    "event": 4479,
+    "x": 1184,
+    "y": 928,
+    "toScene": 245,
+    "focus": [
+      976,
+      1880
+    ],
+    "script": 37048,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 243,
+    "fromMap": 206,
+    "event": 4482,
+    "x": 1808,
+    "y": 1704,
+    "toScene": 242,
+    "focus": [
+      912,
+      952
+    ],
+    "script": 37044,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 243,
+    "fromMap": 206,
+    "event": 4483,
+    "x": 304,
+    "y": 376,
+    "toScene": 244,
+    "focus": [
+      1696,
+      1568
+    ],
+    "script": 37056,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 243,
+    "fromMap": 206,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 242,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 36997,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 244,
+    "fromMap": 207,
+    "event": 4502,
+    "x": 1760,
+    "y": 1600,
+    "toScene": 243,
+    "focus": [
+      336,
+      392
+    ],
+    "script": 37060,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 244,
+    "fromMap": 207,
+    "event": 4503,
+    "x": 752,
+    "y": 632,
+    "toScene": 246,
+    "focus": [
+      624,
+      856
+    ],
+    "script": 37064,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 244,
+    "fromMap": 207,
+    "event": 4504,
+    "x": 992,
+    "y": 752,
+    "toScene": 246,
+    "focus": [
+      1120,
+      1104
+    ],
+    "script": 37072,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 244,
+    "fromMap": 207,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 242,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 36997,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 245,
+    "fromMap": 208,
+    "event": 4522,
+    "x": 912,
+    "y": 1912,
+    "toScene": 242,
+    "focus": [
+      1136,
+      952
+    ],
+    "script": 37052,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 245,
+    "fromMap": 208,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 242,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 36997,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 246,
+    "fromMap": 209,
+    "event": 4562,
+    "x": 560,
+    "y": 888,
+    "toScene": 244,
+    "focus": [
+      720,
+      648
+    ],
+    "script": 37068,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 246,
+    "fromMap": 209,
+    "event": 4563,
+    "x": 1056,
+    "y": 1136,
+    "toScene": 244,
+    "focus": [
+      960,
+      768
+    ],
+    "script": 37076,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 246,
+    "fromMap": 209,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 242,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 36997,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 247,
+    "fromMap": 5,
+    "event": 4571,
+    "x": 1504,
+    "y": 960,
+    "toScene": 250,
+    "focus": [
+      208,
+      184
+    ],
+    "script": 37176,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 247,
+    "fromMap": 5,
+    "event": 4572,
+    "x": 1072,
+    "y": 680,
+    "toScene": 249,
+    "focus": [
+      464,
+      504
+    ],
+    "script": 37180,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 247,
+    "fromMap": 5,
+    "event": 4578,
+    "x": 928,
+    "y": 1696,
+    "toScene": 203,
+    "focus": null,
+    "script": 37913,
+    "triggerMode": 2
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4579,
+    "x": 1712,
+    "y": 1128,
+    "toScene": 254,
+    "focus": [
+      240,
+      1640
+    ],
+    "script": 37279,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4580,
+    "x": 304,
+    "y": 1160,
+    "toScene": 250,
+    "focus": [
+      1776,
+      1896
+    ],
+    "script": 37243,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4581,
+    "x": 1264,
+    "y": 600,
+    "toScene": 251,
+    "focus": [
+      1040,
+      1672
+    ],
+    "script": 37247,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4582,
+    "x": 1280,
+    "y": 960,
+    "toScene": 253,
+    "focus": [
+      688,
+      1640
+    ],
+    "script": 37255,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4583,
+    "x": 960,
+    "y": 1136,
+    "toScene": 253,
+    "focus": [
+      624,
+      1064
+    ],
+    "script": 37263,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 248,
+    "fromMap": 195,
+    "event": 4584,
+    "x": 1520,
+    "y": 1368,
+    "toScene": 253,
+    "focus": [
+      672,
+      496
+    ],
+    "script": 37271,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 249,
+    "fromMap": 19,
+    "event": 4588,
+    "x": 416,
+    "y": 528,
+    "toScene": 247,
+    "focus": [
+      1024,
+      704
+    ],
+    "script": 37184,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 250,
+    "fromMap": 4,
+    "event": 4595,
+    "x": 160,
+    "y": 144,
+    "toScene": 247,
+    "focus": [
+      1424,
+      936
+    ],
+    "script": 37172,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 250,
+    "fromMap": 4,
+    "event": 4596,
+    "x": 1856,
+    "y": 1952,
+    "toScene": 248,
+    "focus": [
+      336,
+      1176
+    ],
+    "script": 37239,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4613,
+    "x": 992,
+    "y": 1472,
+    "toScene": 252,
+    "focus": [
+      640,
+      1264
+    ],
+    "script": 37192,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4614,
+    "x": 1488,
+    "y": 1528,
+    "toScene": 252,
+    "focus": [
+      560,
+      776
+    ],
+    "script": 37200,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4615,
+    "x": 1280,
+    "y": 1328,
+    "toScene": 252,
+    "focus": [
+      464,
+      376
+    ],
+    "script": 37208,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4616,
+    "x": 1600,
+    "y": 1488,
+    "toScene": 252,
+    "focus": [
+      1200,
+      360
+    ],
+    "script": 37216,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4617,
+    "x": 1312,
+    "y": 1440,
+    "toScene": 252,
+    "focus": [
+      1232,
+      760
+    ],
+    "script": 37224,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4618,
+    "x": 1440,
+    "y": 1408,
+    "toScene": 252,
+    "focus": [
+      1248,
+      1104
+    ],
+    "script": 37232,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 251,
+    "fromMap": 197,
+    "event": 4619,
+    "x": 992,
+    "y": 1696,
+    "toScene": 248,
+    "focus": [
+      1232,
+      616
+    ],
+    "script": 37251,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4623,
+    "x": 688,
+    "y": 1288,
+    "toScene": 251,
+    "focus": [
+      1024,
+      1488
+    ],
+    "script": 37188,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4624,
+    "x": 512,
+    "y": 800,
+    "toScene": 251,
+    "focus": [
+      1456,
+      1544
+    ],
+    "script": 37196,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4625,
+    "x": 416,
+    "y": 400,
+    "toScene": 251,
+    "focus": [
+      1248,
+      1344
+    ],
+    "script": 37204,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4626,
+    "x": 1152,
+    "y": 384,
+    "toScene": 251,
+    "focus": [
+      1568,
+      1504
+    ],
+    "script": 37212,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4627,
+    "x": 1184,
+    "y": 784,
+    "toScene": 251,
+    "focus": [
+      1280,
+      1456
+    ],
+    "script": 37220,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 252,
+    "fromMap": 198,
+    "event": 4628,
+    "x": 1200,
+    "y": 1128,
+    "toScene": 251,
+    "focus": [
+      1408,
+      1424
+    ],
+    "script": 37228,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 253,
+    "fromMap": 199,
+    "event": 4629,
+    "x": 640,
+    "y": 1664,
+    "toScene": 248,
+    "focus": [
+      1248,
+      976
+    ],
+    "script": 37259,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 253,
+    "fromMap": 199,
+    "event": 4630,
+    "x": 672,
+    "y": 1088,
+    "toScene": 248,
+    "focus": [
+      992,
+      1152
+    ],
+    "script": 37267,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 253,
+    "fromMap": 199,
+    "event": 4631,
+    "x": 624,
+    "y": 520,
+    "toScene": 248,
+    "focus": [
+      1488,
+      1384
+    ],
+    "script": 37275,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 254,
+    "fromMap": 196,
+    "event": 4635,
+    "x": 192,
+    "y": 1680,
+    "toScene": 248,
+    "focus": [
+      1648,
+      1160
+    ],
+    "script": 37283,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 254,
+    "fromMap": 196,
+    "event": 4636,
+    "x": 416,
+    "y": 1328,
+    "toScene": 257,
+    "focus": [
+      672,
+      880
+    ],
+    "script": 37303,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 254,
+    "fromMap": 196,
+    "event": 4637,
+    "x": 672,
+    "y": 1232,
+    "toScene": 256,
+    "focus": [
+      688,
+      600
+    ],
+    "script": 37295,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 254,
+    "fromMap": 196,
+    "event": 4638,
+    "x": 640,
+    "y": 1680,
+    "toScene": 255,
+    "focus": [
+      608,
+      1200
+    ],
+    "script": 37287,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 255,
+    "fromMap": 13,
+    "event": 4646,
+    "x": 560,
+    "y": 1224,
+    "toScene": 254,
+    "focus": [
+      592,
+      1704
+    ],
+    "script": 37291,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 256,
+    "fromMap": 21,
+    "event": 4647,
+    "x": 640,
+    "y": 624,
+    "toScene": 254,
+    "focus": [
+      640,
+      1248
+    ],
+    "script": 37299,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 257,
+    "fromMap": 22,
+    "event": 4649,
+    "x": 624,
+    "y": 904,
+    "toScene": 254,
+    "focus": [
+      384,
+      1344
+    ],
+    "script": 37307,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 259,
+    "fromMap": 162,
+    "event": 4659,
+    "x": 1568,
+    "y": 384,
+    "toScene": 260,
+    "focus": [
+      336,
+      1736
+    ],
+    "script": 38117,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 259,
+    "fromMap": 162,
+    "event": 4660,
+    "x": 1376,
+    "y": 864,
+    "toScene": 214,
+    "focus": [
+      752,
+      184
+    ],
+    "script": 38780,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4703,
+    "x": 272,
+    "y": 1768,
+    "toScene": 259,
+    "focus": [
+      1504,
+      416
+    ],
+    "script": 38121,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4704,
+    "x": 1568,
+    "y": 1728,
+    "toScene": 269,
+    "focus": [
+      528,
+      472
+    ],
+    "script": 38129,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4705,
+    "x": 464,
+    "y": 280,
+    "toScene": 267,
+    "focus": [
+      1488,
+      1592
+    ],
+    "script": 38133,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4706,
+    "x": 512,
+    "y": 912,
+    "toScene": 263,
+    "focus": [
+      560,
+      1272
+    ],
+    "script": 38141,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4707,
+    "x": 560,
+    "y": 1784,
+    "toScene": 268,
+    "focus": [
+      1136,
+      1368
+    ],
+    "script": 38205,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4708,
+    "x": 1648,
+    "y": 1480,
+    "toScene": 268,
+    "focus": [
+      1424,
+      1800
+    ],
+    "script": 38213,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4709,
+    "x": 976,
+    "y": 1560,
+    "toScene": 268,
+    "focus": [
+      736,
+      1760
+    ],
+    "script": 38221,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4710,
+    "x": 256,
+    "y": 1664,
+    "toScene": 268,
+    "focus": [
+      656,
+      1304
+    ],
+    "script": 38229,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4711,
+    "x": 1584,
+    "y": 1192,
+    "toScene": 268,
+    "focus": [
+      608,
+      864
+    ],
+    "script": 38237,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4712,
+    "x": 400,
+    "y": 1304,
+    "toScene": 268,
+    "focus": [
+      1440,
+      944
+    ],
+    "script": 38245,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4713,
+    "x": 528,
+    "y": 1400,
+    "toScene": 268,
+    "focus": [
+      1408,
+      512
+    ],
+    "script": 38253,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4714,
+    "x": 736,
+    "y": 1280,
+    "toScene": 268,
+    "focus": [
+      560,
+      392
+    ],
+    "script": 38261,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 260,
+    "fromMap": 163,
+    "event": 4715,
+    "x": 1712,
+    "y": 824,
+    "toScene": 273,
+    "focus": [
+      272,
+      1608
+    ],
+    "script": 38273,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 263,
+    "fromMap": 173,
+    "event": 4812,
+    "x": 432,
+    "y": 1336,
+    "toScene": 260,
+    "focus": [
+      448,
+      944
+    ],
+    "script": 38145,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 263,
+    "fromMap": 173,
+    "event": 4813,
+    "x": 1376,
+    "y": 704,
+    "toScene": 265,
+    "focus": [
+      288,
+      1392
+    ],
+    "script": 38149,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 265,
+    "fromMap": 175,
+    "event": 4841,
+    "x": 208,
+    "y": 1448,
+    "toScene": 263,
+    "focus": [
+      1312,
+      736
+    ],
+    "script": 38153,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 265,
+    "fromMap": 175,
+    "event": 4842,
+    "x": 1824,
+    "y": 1136,
+    "toScene": 272,
+    "focus": [
+      480,
+      1488
+    ],
+    "script": 38157,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 265,
+    "fromMap": 175,
+    "event": 4865,
+    "x": 1232,
+    "y": 728,
+    "toScene": 264,
+    "focus": null,
+    "script": 38029,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 266,
+    "fromMap": 187,
+    "event": 4867,
+    "x": 1776,
+    "y": 1320,
+    "toScene": 273,
+    "focus": [
+      656,
+      456
+    ],
+    "script": 38281,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 266,
+    "fromMap": 187,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 260,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 38269,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 267,
+    "fromMap": 170,
+    "event": 4868,
+    "x": 1520,
+    "y": 1608,
+    "toScene": 260,
+    "focus": [
+      496,
+      296
+    ],
+    "script": 38137,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 267,
+    "fromMap": 170,
+    "event": 4869,
+    "x": 1136,
+    "y": 1192,
+    "toScene": 271,
+    "focus": [
+      880,
+      408
+    ],
+    "script": 38285,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4885,
+    "x": 1088,
+    "y": 1392,
+    "toScene": 260,
+    "focus": [
+      544,
+      1808
+    ],
+    "script": 38209,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4886,
+    "x": 1376,
+    "y": 1824,
+    "toScene": 260,
+    "focus": [
+      1632,
+      1504
+    ],
+    "script": 38217,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4887,
+    "x": 784,
+    "y": 1784,
+    "toScene": 260,
+    "focus": [
+      992,
+      1584
+    ],
+    "script": 38225,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4888,
+    "x": 704,
+    "y": 1328,
+    "toScene": 260,
+    "focus": [
+      272,
+      1688
+    ],
+    "script": 38233,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4889,
+    "x": 656,
+    "y": 888,
+    "toScene": 260,
+    "focus": [
+      1600,
+      1216
+    ],
+    "script": 38241,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4890,
+    "x": 1488,
+    "y": 968,
+    "toScene": 260,
+    "focus": [
+      416,
+      1328
+    ],
+    "script": 38249,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4891,
+    "x": 1456,
+    "y": 536,
+    "toScene": 260,
+    "focus": [
+      544,
+      1424
+    ],
+    "script": 38257,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 268,
+    "fromMap": 166,
+    "event": 4892,
+    "x": 608,
+    "y": 416,
+    "toScene": 260,
+    "focus": [
+      752,
+      1304
+    ],
+    "script": 38265,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4893,
+    "x": 496,
+    "y": 456,
+    "toScene": 260,
+    "focus": [
+      1520,
+      1704
+    ],
+    "script": 38125,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4894,
+    "x": 1184,
+    "y": 768,
+    "toScene": 270,
+    "focus": [
+      704,
+      1392
+    ],
+    "script": 38169,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4895,
+    "x": 928,
+    "y": 544,
+    "toScene": 270,
+    "focus": [
+      896,
+      944
+    ],
+    "script": 38177,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4896,
+    "x": 768,
+    "y": 960,
+    "toScene": 270,
+    "focus": [
+      1344,
+      944
+    ],
+    "script": 38185,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4897,
+    "x": 640,
+    "y": 688,
+    "toScene": 270,
+    "focus": [
+      784,
+      456
+    ],
+    "script": 38193,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 269,
+    "fromMap": 167,
+    "event": 4898,
+    "x": 928,
+    "y": 784,
+    "toScene": 270,
+    "focus": [
+      1440,
+      448
+    ],
+    "script": 38201,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 270,
+    "fromMap": 169,
+    "event": 4916,
+    "x": 656,
+    "y": 1416,
+    "toScene": 269,
+    "focus": [
+      1152,
+      800
+    ],
+    "script": 38165,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 270,
+    "fromMap": 169,
+    "event": 4917,
+    "x": 944,
+    "y": 968,
+    "toScene": 269,
+    "focus": [
+      960,
+      576
+    ],
+    "script": 38173,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 270,
+    "fromMap": 169,
+    "event": 4918,
+    "x": 1296,
+    "y": 968,
+    "toScene": 269,
+    "focus": [
+      736,
+      992
+    ],
+    "script": 38181,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 270,
+    "fromMap": 169,
+    "event": 4919,
+    "x": 832,
+    "y": 480,
+    "toScene": 269,
+    "focus": [
+      672,
+      720
+    ],
+    "script": 38189,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 270,
+    "fromMap": 169,
+    "event": 4920,
+    "x": 1488,
+    "y": 472,
+    "toScene": 269,
+    "focus": [
+      960,
+      816
+    ],
+    "script": 38197,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 271,
+    "fromMap": 172,
+    "event": 4921,
+    "x": 928,
+    "y": 432,
+    "toScene": 267,
+    "focus": [
+      1168,
+      1224
+    ],
+    "script": 38289,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 272,
+    "fromMap": 176,
+    "event": 4922,
+    "x": 400,
+    "y": 1528,
+    "toScene": 265,
+    "focus": [
+      1744,
+      1176
+    ],
+    "script": 38161,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 273,
+    "fromMap": 186,
+    "event": 4936,
+    "x": 608,
+    "y": 432,
+    "toScene": 266,
+    "focus": [
+      1728,
+      1296
+    ],
+    "script": 38277,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 273,
+    "fromMap": 186,
+    "event": 4937,
+    "x": 208,
+    "y": 1640,
+    "toScene": 260,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 38269,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 273,
+    "fromMap": 186,
+    "event": 0,
+    "x": 0,
+    "y": 0,
+    "toScene": 260,
+    "focus": [
+      1664,
+      864
+    ],
+    "script": 38269,
+    "kind": "teleport"
+  },
+  {
+    "fromScene": 277,
+    "fromMap": 182,
+    "event": 4991,
+    "x": 672,
+    "y": 1680,
+    "toScene": 281,
+    "focus": [
+      1296,
+      1272
+    ],
+    "script": 3958,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 278,
+    "fromMap": 183,
+    "event": 4993,
+    "x": 656,
+    "y": 1720,
+    "toScene": 281,
+    "focus": [
+      1664,
+      1456
+    ],
+    "script": 3942,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 278,
+    "fromMap": 183,
+    "event": 4994,
+    "x": 240,
+    "y": 1480,
+    "toScene": 281,
+    "focus": [
+      912,
+      1080
+    ],
+    "script": 3950,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 278,
+    "fromMap": 183,
+    "event": 4995,
+    "x": 1824,
+    "y": 1456,
+    "toScene": 284,
+    "focus": [
+      528,
+      808
+    ],
+    "script": 3962,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 279,
+    "fromMap": 210,
+    "event": 5006,
+    "x": 1760,
+    "y": 1600,
+    "toScene": 288,
+    "focus": [
+      336,
+      392
+    ],
+    "script": 3894,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 279,
+    "fromMap": 210,
+    "event": 5007,
+    "x": 752,
+    "y": 632,
+    "toScene": 290,
+    "focus": [
+      624,
+      856
+    ],
+    "script": 3898,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 279,
+    "fromMap": 210,
+    "event": 5008,
+    "x": 992,
+    "y": 752,
+    "toScene": 290,
+    "focus": [
+      1120,
+      1104
+    ],
+    "script": 3906,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 279,
+    "fromMap": 210,
+    "event": 5009,
+    "x": 1472,
+    "y": 656,
+    "toScene": 293,
+    "focus": [
+      352,
+      256
+    ],
+    "script": 3974,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 280,
+    "fromMap": 211,
+    "event": 5047,
+    "x": 1328,
+    "y": 744,
+    "toScene": 281,
+    "focus": [
+      640,
+      1600
+    ],
+    "script": 3914,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5048,
+    "x": 592,
+    "y": 1624,
+    "toScene": 280,
+    "focus": [
+      1280,
+      784
+    ],
+    "script": 3918,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5049,
+    "x": 464,
+    "y": 1224,
+    "toScene": 282,
+    "focus": [
+      1168,
+      1704
+    ],
+    "script": 3922,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5050,
+    "x": 1328,
+    "y": 1704,
+    "toScene": 283,
+    "focus": [
+      304,
+      872
+    ],
+    "script": 3930,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5051,
+    "x": 1696,
+    "y": 1440,
+    "toScene": 278,
+    "focus": [
+      704,
+      1696
+    ],
+    "script": 3938,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5052,
+    "x": 960,
+    "y": 1056,
+    "toScene": 278,
+    "focus": [
+      288,
+      1456
+    ],
+    "script": 3946,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 281,
+    "fromMap": 194,
+    "event": 5053,
+    "x": 1344,
+    "y": 1248,
+    "toScene": 277,
+    "focus": [
+      720,
+      1656
+    ],
+    "script": 3954,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 282,
+    "fromMap": 180,
+    "event": 5060,
+    "x": 1216,
+    "y": 1728,
+    "toScene": 281,
+    "focus": [
+      512,
+      1248
+    ],
+    "script": 3926,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 283,
+    "fromMap": 181,
+    "event": 5061,
+    "x": 256,
+    "y": 848,
+    "toScene": 281,
+    "focus": [
+      1280,
+      1680
+    ],
+    "script": 3934,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 284,
+    "fromMap": 184,
+    "event": 5062,
+    "x": 400,
+    "y": 744,
+    "toScene": 278,
+    "focus": [
+      1776,
+      1432
+    ],
+    "script": 3966,
+    "triggerMode": 7
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5064,
+    "x": 1040,
+    "y": 696,
+    "toScene": 287,
+    "focus": [
+      496,
+      1464
+    ],
+    "script": 4207,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5066,
+    "x": 816,
+    "y": 488,
+    "toScene": 286,
+    "focus": [
+      1600,
+      1584
+    ],
+    "script": 3834,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5067,
+    "x": 624,
+    "y": 584,
+    "toScene": 286,
+    "focus": [
+      1312,
+      1728
+    ],
+    "script": 3842,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5068,
+    "x": 1216,
+    "y": 480,
+    "toScene": 286,
+    "focus": [
+      688,
+      696
+    ],
+    "script": 3850,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5069,
+    "x": 1440,
+    "y": 592,
+    "toScene": 286,
+    "focus": [
+      1168,
+      1048
+    ],
+    "script": 3858,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 285,
+    "fromMap": 203,
+    "event": 5070,
+    "x": 1664,
+    "y": 704,
+    "toScene": 286,
+    "focus": [
+      1168,
+      1048
+    ],
+    "script": 3862,
+    "triggerMode": 6
+  },
+  {
+    "fromScene": 286,
+    "fromMap": 204,
+    "event": 5082,
+    "x": 1648,
+    "y": 1608,
+    "toScene": 285,
+    "focus": [
+      864,
+      512
+    ],
+    "script": 3838,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 286,
+    "fromMap": 204,
+    "event": 5083,
+    "x": 1360,
+    "y": 1752,
+    "toScene": 285,
+    "focus": [
+      672,
+      608
+    ],
+    "script": 3846,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 286,
+    "fromMap": 204,
+    "event": 5084,
+    "x": 624,
+    "y": 728,
+    "toScene": 285,
+    "focus": [
+      1168,
+      504
+    ],
+    "script": 3854,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 286,
+    "fromMap": 204,
+    "event": 5085,
+    "x": 1104,
+    "y": 1080,
+    "toScene": 285,
+    "focus": [
+      1616,
+      728
+    ],
+    "script": 3866,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 287,
+    "fromMap": 205,
+    "event": 5106,
+    "x": 464,
+    "y": 1480,
+    "toScene": 285,
+    "focus": [
+      1008,
+      712
+    ],
+    "script": 3870,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 287,
+    "fromMap": 205,
+    "event": 5107,
+    "x": 864,
+    "y": 928,
+    "toScene": 288,
+    "focus": [
+      1744,
+      1672
+    ],
+    "script": 3874,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 287,
+    "fromMap": 205,
+    "event": 5108,
+    "x": 1184,
+    "y": 928,
+    "toScene": 289,
+    "focus": [
+      976,
+      1880
+    ],
+    "script": 3882,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 288,
+    "fromMap": 206,
+    "event": 5126,
+    "x": 1808,
+    "y": 1704,
+    "toScene": 287,
+    "focus": [
+      912,
+      952
+    ],
+    "script": 3878,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 288,
+    "fromMap": 206,
+    "event": 5127,
+    "x": 304,
+    "y": 376,
+    "toScene": 279,
+    "focus": [
+      1696,
+      1568
+    ],
+    "script": 3890,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 289,
+    "fromMap": 208,
+    "event": 5173,
+    "x": 912,
+    "y": 1912,
+    "toScene": 287,
+    "focus": [
+      1136,
+      952
+    ],
+    "script": 3886,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 290,
+    "fromMap": 209,
+    "event": 5211,
+    "x": 560,
+    "y": 888,
+    "toScene": 279,
+    "focus": [
+      720,
+      648
+    ],
+    "script": 3902,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 290,
+    "fromMap": 209,
+    "event": 5212,
+    "x": 1056,
+    "y": 1136,
+    "toScene": 279,
+    "focus": [
+      960,
+      768
+    ],
+    "script": 3910,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 291,
+    "fromMap": 190,
+    "event": 5222,
+    "x": 1856,
+    "y": 528,
+    "toScene": 292,
+    "focus": [
+      208,
+      1800
+    ],
+    "script": 3801,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 292,
+    "fromMap": 191,
+    "event": 5251,
+    "x": 176,
+    "y": 1816,
+    "toScene": 291,
+    "focus": [
+      1824,
+      544
+    ],
+    "script": 3805,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 292,
+    "fromMap": 191,
+    "event": 5252,
+    "x": 1840,
+    "y": 552,
+    "toScene": 293,
+    "focus": [
+      240,
+      1736
+    ],
+    "script": 3809,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 293,
+    "fromMap": 192,
+    "event": 5305,
+    "x": 208,
+    "y": 1752,
+    "toScene": 292,
+    "focus": [
+      1808,
+      568
+    ],
+    "script": 3813,
+    "triggerMode": 5
+  },
+  {
+    "fromScene": 293,
+    "fromMap": 192,
+    "event": 5306,
+    "x": 304,
+    "y": 280,
+    "toScene": 279,
+    "focus": [
+      1408,
+      704
+    ],
+    "script": 3970,
+    "triggerMode": 5
+  }
+]

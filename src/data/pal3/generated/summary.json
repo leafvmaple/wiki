@@ -1,0 +1,70 @@
+{
+  "game": "仙剑奇侠传三",
+  "gameVersion": "Steam PAL3",
+  "generatedAt": "2026-07-29",
+  "counts": {
+    "items": 155,
+    "equipment": 159,
+    "weapons": 67,
+    "plunder": 27,
+    "magic": 57,
+    "skills": 26,
+    "theurgy": 104,
+    "combos": 10,
+    "actors": 5,
+    "monsters": 162,
+    "shops": 49,
+    "locations": 38,
+    "scenes": 39,
+    "itemsByCategory": {
+      "药品": 34,
+      "暗器": 25,
+      "辅助": 27,
+      "古董": 30,
+      "矿石": 10,
+      "杂项": 29
+    },
+    "equipmentByCategory": {
+      "身体": 43,
+      "头部": 33,
+      "足部": 29,
+      "佩戴": 54
+    },
+    "weaponsByClass": {
+      "剑": 17,
+      "枪": 4,
+      "弓": 10,
+      "双短刃": 20,
+      "杖": 7,
+      "刀": 9
+    },
+    "magicByCategory": {
+      "辅助仙术": 4,
+      "攻击仙术": 20,
+      "治疗仙术": 9,
+      "合灵技": 24
+    },
+    "shopsByKind": {
+      "客栈": 13,
+      "杂货店": 12,
+      "武器店": 7,
+      "药店": 17
+    }
+  },
+  "sources": {
+    "items": "basedata/cbdata/Item.attrib",
+    "equipment": "basedata/cbdata/Equip.attrib",
+    "weapons": "basedata/cbdata/Weapon.attrib",
+    "plunder": "basedata/cbdata/Plunder.attrib",
+    "magic": "basedata/cbdata/Magic.attrib",
+    "skills": "basedata/cbdata/Skill.attrib",
+    "theurgy": "basedata/cbdata/Theurgy.attrib",
+    "combos": "basedata/cbdata/Combo.attrib",
+    "actors": "basedata/cbdata/Actor.attrib",
+    "monsters": "basedata/cbdata/Monster.attrib",
+    "shops": "basedata/DealScript/{WeaponShop,DragShop,AnyShop,Rest}",
+    "locations": "basedata/ui/BigMap/BigMap.sce + out/wiki/bigmap_hotspots.json",
+    "scenes": "basedata/datascript/SceneName.txt",
+    "producer": "pal3-unpack@gen_wiki_data"
+  }
+}

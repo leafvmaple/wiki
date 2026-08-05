@@ -1,0 +1,7911 @@
+[
+  {
+    "id": "q01res2t",
+    "file": "DealScript/Rest/q01res2t.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈掌柜",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q01rest",
+    "file": "DealScript/Rest/q01rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈掌柜",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q01rest2",
+    "file": "DealScript/Rest/q01rest2.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "李澜",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q02rest",
+    "file": "DealScript/Rest/q02rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈老板",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q03rest",
+    "file": "DealScript/Rest/q03rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "裴万金",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q06rest",
+    "file": "DealScript/Rest/q06rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "沈福英",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q07rest",
+    "file": "DealScript/Rest/q07rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈老板",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q09rest",
+    "file": "DealScript/Rest/q09rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈老板",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q11rest",
+    "file": "DealScript/Rest/q11rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "韩朴山",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q12rest",
+    "file": "DealScript/Rest/q12rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "齐炳昌",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q13rest",
+    "file": "DealScript/Rest/q13rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "麻婶",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q15rest",
+    "file": "DealScript/Rest/q15rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "芙蓉",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "q16rest",
+    "file": "DealScript/Rest/q16rest.txt",
+    "folder": "Rest",
+    "kind": "客栈",
+    "shopType": null,
+    "shopTypeLabel": "客栈",
+    "name": "客栈老板",
+    "bargain": false,
+    "restPrice": 50,
+    "equip": [],
+    "props": [],
+    "itemCount": 0,
+    "goods": [],
+    "goodsText": ""
+  },
+  {
+    "id": "m06any1",
+    "file": "DealScript/AnyShop/m06any1.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 3,
+    "shopTypeLabel": "商人",
+    "name": "米源",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 8103,
+        "name": "银戒指",
+        "category": "佩戴",
+        "price": 120,
+        "note": "银戒指"
+      },
+      {
+        "id": 8104,
+        "name": "竹笛",
+        "category": "佩戴",
+        "price": 150,
+        "note": "竹笛"
+      },
+      {
+        "id": 8105,
+        "name": "金耳环",
+        "category": "佩戴",
+        "price": 200,
+        "note": "金耳环"
+      },
+      {
+        "id": 8106,
+        "name": "描金锦囊",
+        "category": "佩戴",
+        "price": 450,
+        "note": "描金锦囊"
+      }
+    ],
+    "props": [
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6401,
+        "name": "引路蜂",
+        "category": "辅助",
+        "price": 100,
+        "note": "引路蜂"
+      }
+    ],
+    "itemCount": 10,
+    "goods": [
+      {
+        "id": 8103,
+        "name": "银戒指",
+        "category": "佩戴",
+        "price": 120,
+        "note": "银戒指"
+      },
+      {
+        "id": 8104,
+        "name": "竹笛",
+        "category": "佩戴",
+        "price": 150,
+        "note": "竹笛"
+      },
+      {
+        "id": 8105,
+        "name": "金耳环",
+        "category": "佩戴",
+        "price": 200,
+        "note": "金耳环"
+      },
+      {
+        "id": 8106,
+        "name": "描金锦囊",
+        "category": "佩戴",
+        "price": 450,
+        "note": "描金锦囊"
+      },
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6401,
+        "name": "引路蜂",
+        "category": "辅助",
+        "price": 100,
+        "note": "引路蜂"
+      }
+    ],
+    "goodsText": "银戒指、竹笛、金耳环、描金锦囊、鬼遁水、软骨浆、破甲散、减速砂、厄咒霜、引路蜂"
+  },
+  {
+    "id": "q01any",
+    "file": "DealScript/AnyShop/q01any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "阿郁",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80001,
+        "name": "头巾",
+        "category": "头部",
+        "price": 40,
+        "note": "头巾"
+      },
+      {
+        "id": 80002,
+        "name": "绸布方巾",
+        "category": "头部",
+        "price": 65,
+        "note": "绸布方巾"
+      },
+      {
+        "id": 80101,
+        "name": "青丝巾",
+        "category": "头部",
+        "price": 40,
+        "note": "青丝巾"
+      },
+      {
+        "id": 80102,
+        "name": "银凤钗",
+        "category": "头部",
+        "price": 80,
+        "note": "银凤钗"
+      },
+      {
+        "id": 80103,
+        "name": "五彩花冠",
+        "category": "头部",
+        "price": 150,
+        "note": "五彩花冠"
+      },
+      {
+        "id": 83001,
+        "name": "草鞋",
+        "category": "足部",
+        "price": 30,
+        "note": "草鞋"
+      },
+      {
+        "id": 83101,
+        "name": "绣花鞋",
+        "category": "足部",
+        "price": 120,
+        "note": "绣花鞋"
+      },
+      {
+        "id": 83102,
+        "name": "鹿皮短靴",
+        "category": "足部",
+        "price": 150,
+        "note": "鹿皮短靴"
+      },
+      {
+        "id": 84001,
+        "name": "布袍",
+        "category": "身体",
+        "price": 100,
+        "note": "布袍"
+      },
+      {
+        "id": 84002,
+        "name": "软藤甲",
+        "category": "身体",
+        "price": 300,
+        "note": "软藤甲"
+      },
+      {
+        "id": 84003,
+        "name": "英雄氅",
+        "category": "身体",
+        "price": 800,
+        "note": "英雄氅"
+      },
+      {
+        "id": 84101,
+        "name": "丝锻披风",
+        "category": "身体",
+        "price": 130,
+        "note": "丝锻披风"
+      },
+      {
+        "id": 84102,
+        "name": "素纱衣",
+        "category": "身体",
+        "price": 150,
+        "note": "素纱衣"
+      },
+      {
+        "id": 84104,
+        "name": "纨素服",
+        "category": "身体",
+        "price": 300,
+        "note": "纨素服"
+      }
+    ],
+    "props": [],
+    "itemCount": 14,
+    "goods": [
+      {
+        "id": 80001,
+        "name": "头巾",
+        "category": "头部",
+        "price": 40,
+        "note": "头巾"
+      },
+      {
+        "id": 80002,
+        "name": "绸布方巾",
+        "category": "头部",
+        "price": 65,
+        "note": "绸布方巾"
+      },
+      {
+        "id": 80101,
+        "name": "青丝巾",
+        "category": "头部",
+        "price": 40,
+        "note": "青丝巾"
+      },
+      {
+        "id": 80102,
+        "name": "银凤钗",
+        "category": "头部",
+        "price": 80,
+        "note": "银凤钗"
+      },
+      {
+        "id": 80103,
+        "name": "五彩花冠",
+        "category": "头部",
+        "price": 150,
+        "note": "五彩花冠"
+      },
+      {
+        "id": 83001,
+        "name": "草鞋",
+        "category": "足部",
+        "price": 30,
+        "note": "草鞋"
+      },
+      {
+        "id": 83101,
+        "name": "绣花鞋",
+        "category": "足部",
+        "price": 120,
+        "note": "绣花鞋"
+      },
+      {
+        "id": 83102,
+        "name": "鹿皮短靴",
+        "category": "足部",
+        "price": 150,
+        "note": "鹿皮短靴"
+      },
+      {
+        "id": 84001,
+        "name": "布袍",
+        "category": "身体",
+        "price": 100,
+        "note": "布袍"
+      },
+      {
+        "id": 84002,
+        "name": "软藤甲",
+        "category": "身体",
+        "price": 300,
+        "note": "软藤甲"
+      },
+      {
+        "id": 84003,
+        "name": "英雄氅",
+        "category": "身体",
+        "price": 800,
+        "note": "英雄氅"
+      },
+      {
+        "id": 84101,
+        "name": "丝锻披风",
+        "category": "身体",
+        "price": 130,
+        "note": "丝锻披风"
+      },
+      {
+        "id": 84102,
+        "name": "素纱衣",
+        "category": "身体",
+        "price": 150,
+        "note": "素纱衣"
+      },
+      {
+        "id": 84104,
+        "name": "纨素服",
+        "category": "身体",
+        "price": 300,
+        "note": "纨素服"
+      }
+    ],
+    "goodsText": "头巾、绸布方巾、青丝巾、银凤钗、五彩花冠、草鞋、绣花鞋、鹿皮短靴、布袍、软藤甲、英雄氅、丝锻披风 等14件"
+  },
+  {
+    "id": "q01any1",
+    "file": "DealScript/AnyShop/q01any1.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 3,
+    "shopTypeLabel": "商人",
+    "name": "米财",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 8101,
+        "name": "护腕",
+        "category": "佩戴",
+        "price": 70,
+        "note": "护腕"
+      },
+      {
+        "id": 8102,
+        "name": "香袋",
+        "category": "佩戴",
+        "price": 100,
+        "note": "香袋"
+      },
+      {
+        "id": 8103,
+        "name": "银戒指",
+        "category": "佩戴",
+        "price": 120,
+        "note": "银戒指"
+      },
+      {
+        "id": 8104,
+        "name": "竹笛",
+        "category": "佩戴",
+        "price": 150,
+        "note": "竹笛"
+      }
+    ],
+    "props": [
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6401,
+        "name": "引路蜂",
+        "category": "辅助",
+        "price": 100,
+        "note": "引路蜂"
+      }
+    ],
+    "itemCount": 10,
+    "goods": [
+      {
+        "id": 8101,
+        "name": "护腕",
+        "category": "佩戴",
+        "price": 70,
+        "note": "护腕"
+      },
+      {
+        "id": 8102,
+        "name": "香袋",
+        "category": "佩戴",
+        "price": 100,
+        "note": "香袋"
+      },
+      {
+        "id": 8103,
+        "name": "银戒指",
+        "category": "佩戴",
+        "price": 120,
+        "note": "银戒指"
+      },
+      {
+        "id": 8104,
+        "name": "竹笛",
+        "category": "佩戴",
+        "price": 150,
+        "note": "竹笛"
+      },
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6401,
+        "name": "引路蜂",
+        "category": "辅助",
+        "price": 100,
+        "note": "引路蜂"
+      }
+    ],
+    "goodsText": "护腕、香袋、银戒指、竹笛、鬼遁水、软骨浆、破甲散、减速砂、厄咒霜、引路蜂"
+  },
+  {
+    "id": "q02any",
+    "file": "DealScript/AnyShop/q02any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "段大婶",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80003,
+        "name": "浩然巾",
+        "category": "头部",
+        "price": 100,
+        "note": "浩然巾"
+      },
+      {
+        "id": 80104,
+        "name": "描金头帕",
+        "category": "头部",
+        "price": 400,
+        "note": "描金头帕"
+      },
+      {
+        "id": 80105,
+        "name": "翠玉金钗",
+        "category": "头部",
+        "price": 600,
+        "note": "翠玉金钗"
+      },
+      {
+        "id": 83002,
+        "name": "布靴",
+        "category": "足部",
+        "price": 150,
+        "note": "布靴"
+      },
+      {
+        "id": 83103,
+        "name": "凤头丝履",
+        "category": "足部",
+        "price": 600,
+        "note": "凤头丝履"
+      },
+      {
+        "id": 83104,
+        "name": "青丝软履",
+        "category": "足部",
+        "price": 800,
+        "note": "青丝软履"
+      },
+      {
+        "id": 84004,
+        "name": "流云披风",
+        "category": "身体",
+        "price": 1600,
+        "note": "流云披风"
+      },
+      {
+        "id": 84005,
+        "name": "松绿锦袍",
+        "category": "身体",
+        "price": 2000,
+        "note": "松绿锦袍"
+      },
+      {
+        "id": 84103,
+        "name": "青丝绣衣",
+        "category": "身体",
+        "price": 250,
+        "note": "青丝绣衣"
+      }
+    ],
+    "props": [],
+    "itemCount": 9,
+    "goods": [
+      {
+        "id": 80003,
+        "name": "浩然巾",
+        "category": "头部",
+        "price": 100,
+        "note": "浩然巾"
+      },
+      {
+        "id": 80104,
+        "name": "描金头帕",
+        "category": "头部",
+        "price": 400,
+        "note": "描金头帕"
+      },
+      {
+        "id": 80105,
+        "name": "翠玉金钗",
+        "category": "头部",
+        "price": 600,
+        "note": "翠玉金钗"
+      },
+      {
+        "id": 83002,
+        "name": "布靴",
+        "category": "足部",
+        "price": 150,
+        "note": "布靴"
+      },
+      {
+        "id": 83103,
+        "name": "凤头丝履",
+        "category": "足部",
+        "price": 600,
+        "note": "凤头丝履"
+      },
+      {
+        "id": 83104,
+        "name": "青丝软履",
+        "category": "足部",
+        "price": 800,
+        "note": "青丝软履"
+      },
+      {
+        "id": 84004,
+        "name": "流云披风",
+        "category": "身体",
+        "price": 1600,
+        "note": "流云披风"
+      },
+      {
+        "id": 84005,
+        "name": "松绿锦袍",
+        "category": "身体",
+        "price": 2000,
+        "note": "松绿锦袍"
+      },
+      {
+        "id": 84103,
+        "name": "青丝绣衣",
+        "category": "身体",
+        "price": 250,
+        "note": "青丝绣衣"
+      }
+    ],
+    "goodsText": "浩然巾、描金头帕、翠玉金钗、布靴、凤头丝履、青丝软履、流云披风、松绿锦袍、青丝绣衣"
+  },
+  {
+    "id": "q05any",
+    "file": "DealScript/AnyShop/q05any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "昌大婶",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80004,
+        "name": "状元冠",
+        "category": "头部",
+        "price": 200,
+        "note": "状元冠"
+      },
+      {
+        "id": 80106,
+        "name": "如意发带",
+        "category": "头部",
+        "price": 850,
+        "note": "如意发带"
+      },
+      {
+        "id": 83003,
+        "name": "铁履",
+        "category": "足部",
+        "price": 700,
+        "note": "铁履"
+      },
+      {
+        "id": 83105,
+        "name": "木棉靴",
+        "category": "足部",
+        "price": 2000,
+        "note": "木棉靴"
+      },
+      {
+        "id": 84006,
+        "name": "真元披风",
+        "category": "身体",
+        "price": 3500,
+        "note": "真元披风"
+      },
+      {
+        "id": 84109,
+        "name": "紫鲛衫",
+        "category": "身体",
+        "price": 1500,
+        "note": "紫鲛衫"
+      },
+      {
+        "id": 84110,
+        "name": "白绫石榴裙",
+        "category": "身体",
+        "price": 1500,
+        "note": "白绫石榴裙"
+      }
+    ],
+    "props": [],
+    "itemCount": 7,
+    "goods": [
+      {
+        "id": 80004,
+        "name": "状元冠",
+        "category": "头部",
+        "price": 200,
+        "note": "状元冠"
+      },
+      {
+        "id": 80106,
+        "name": "如意发带",
+        "category": "头部",
+        "price": 850,
+        "note": "如意发带"
+      },
+      {
+        "id": 83003,
+        "name": "铁履",
+        "category": "足部",
+        "price": 700,
+        "note": "铁履"
+      },
+      {
+        "id": 83105,
+        "name": "木棉靴",
+        "category": "足部",
+        "price": 2000,
+        "note": "木棉靴"
+      },
+      {
+        "id": 84006,
+        "name": "真元披风",
+        "category": "身体",
+        "price": 3500,
+        "note": "真元披风"
+      },
+      {
+        "id": 84109,
+        "name": "紫鲛衫",
+        "category": "身体",
+        "price": 1500,
+        "note": "紫鲛衫"
+      },
+      {
+        "id": 84110,
+        "name": "白绫石榴裙",
+        "category": "身体",
+        "price": 1500,
+        "note": "白绫石榴裙"
+      }
+    ],
+    "goodsText": "状元冠、如意发带、铁履、木棉靴、真元披风、紫鲛衫、白绫石榴裙"
+  },
+  {
+    "id": "q06any",
+    "file": "DealScript/AnyShop/q06any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "顾永新",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80107,
+        "name": "凤凰翎",
+        "category": "头部",
+        "price": 1500,
+        "note": "凤凰翎"
+      },
+      {
+        "id": 83004,
+        "name": "虎头靴",
+        "category": "足部",
+        "price": 1500,
+        "note": "虎头靴"
+      },
+      {
+        "id": 83106,
+        "name": "鸳鸯履",
+        "category": "足部",
+        "price": 2500,
+        "note": "鸳鸯履"
+      },
+      {
+        "id": 84007,
+        "name": "火浣衣",
+        "category": "身体",
+        "price": 5000,
+        "note": "火浣衣"
+      },
+      {
+        "id": 84008,
+        "name": "碧鳞甲",
+        "category": "身体",
+        "price": 5300,
+        "note": "碧鳞甲"
+      },
+      {
+        "id": 84105,
+        "name": "紫锦深衣",
+        "category": "身体",
+        "price": 950,
+        "note": "紫锦深衣"
+      },
+      {
+        "id": 84106,
+        "name": "轻纱罗衣",
+        "category": "身体",
+        "price": 600,
+        "note": "轻纱罗衣"
+      },
+      {
+        "id": 84107,
+        "name": "燕行衣",
+        "category": "身体",
+        "price": 650,
+        "note": "燕行衣"
+      },
+      {
+        "id": 84108,
+        "name": "云锦衣",
+        "category": "身体",
+        "price": 800,
+        "note": "云锦衣"
+      }
+    ],
+    "props": [],
+    "itemCount": 9,
+    "goods": [
+      {
+        "id": 80107,
+        "name": "凤凰翎",
+        "category": "头部",
+        "price": 1500,
+        "note": "凤凰翎"
+      },
+      {
+        "id": 83004,
+        "name": "虎头靴",
+        "category": "足部",
+        "price": 1500,
+        "note": "虎头靴"
+      },
+      {
+        "id": 83106,
+        "name": "鸳鸯履",
+        "category": "足部",
+        "price": 2500,
+        "note": "鸳鸯履"
+      },
+      {
+        "id": 84007,
+        "name": "火浣衣",
+        "category": "身体",
+        "price": 5000,
+        "note": "火浣衣"
+      },
+      {
+        "id": 84008,
+        "name": "碧鳞甲",
+        "category": "身体",
+        "price": 5300,
+        "note": "碧鳞甲"
+      },
+      {
+        "id": 84105,
+        "name": "紫锦深衣",
+        "category": "身体",
+        "price": 950,
+        "note": "紫锦深衣"
+      },
+      {
+        "id": 84106,
+        "name": "轻纱罗衣",
+        "category": "身体",
+        "price": 600,
+        "note": "轻纱罗衣"
+      },
+      {
+        "id": 84107,
+        "name": "燕行衣",
+        "category": "身体",
+        "price": 650,
+        "note": "燕行衣"
+      },
+      {
+        "id": 84108,
+        "name": "云锦衣",
+        "category": "身体",
+        "price": 800,
+        "note": "云锦衣"
+      }
+    ],
+    "goodsText": "凤凰翎、虎头靴、鸳鸯履、火浣衣、碧鳞甲、紫锦深衣、轻纱罗衣、燕行衣、云锦衣"
+  },
+  {
+    "id": "q08any",
+    "file": "DealScript/AnyShop/q08any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "常素",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80005,
+        "name": "诸葛巾",
+        "category": "头部",
+        "price": 800,
+        "note": "诸葛巾"
+      },
+      {
+        "id": 80006,
+        "name": "精铁发箍",
+        "category": "头部",
+        "price": 1000,
+        "note": "精铁发箍"
+      },
+      {
+        "id": 80007,
+        "name": "九阳帽",
+        "category": "头部",
+        "price": 2500,
+        "note": "九阳帽"
+      },
+      {
+        "id": 80008,
+        "name": "五灵纶巾",
+        "category": "头部",
+        "price": 5000,
+        "note": "五灵纶巾"
+      },
+      {
+        "id": 80009,
+        "name": "金刚斗笠",
+        "category": "头部",
+        "price": 6000,
+        "note": "金刚斗笠"
+      },
+      {
+        "id": 80108,
+        "name": "珍珠冠",
+        "category": "头部",
+        "price": 3000,
+        "note": "珍珠冠"
+      },
+      {
+        "id": 80109,
+        "name": "玉玲珑",
+        "category": "头部",
+        "price": 3500,
+        "note": "玉玲珑"
+      },
+      {
+        "id": 83005,
+        "name": "钩镰鞋",
+        "category": "足部",
+        "price": 3000,
+        "note": "钩镰鞋"
+      },
+      {
+        "id": 83107,
+        "name": "白绸羽鞋",
+        "category": "足部",
+        "price": 4000,
+        "note": "白绸羽鞋"
+      },
+      {
+        "id": 83108,
+        "name": "鲷鳞靴",
+        "category": "足部",
+        "price": 4500,
+        "note": "鲷鳞靴"
+      },
+      {
+        "id": 84009,
+        "name": "金缕衣",
+        "category": "身体",
+        "price": 7300,
+        "note": "金缕衣"
+      },
+      {
+        "id": 84111,
+        "name": "五彩苗裙",
+        "category": "身体",
+        "price": 3500,
+        "note": "五彩苗裙"
+      },
+      {
+        "id": 84112,
+        "name": "百绣衣",
+        "category": "身体",
+        "price": 4000,
+        "note": "百绣衣"
+      },
+      {
+        "id": 84113,
+        "name": "银狐氅",
+        "category": "身体",
+        "price": 4500,
+        "note": "银狐氅"
+      }
+    ],
+    "props": [],
+    "itemCount": 14,
+    "goods": [
+      {
+        "id": 80005,
+        "name": "诸葛巾",
+        "category": "头部",
+        "price": 800,
+        "note": "诸葛巾"
+      },
+      {
+        "id": 80006,
+        "name": "精铁发箍",
+        "category": "头部",
+        "price": 1000,
+        "note": "精铁发箍"
+      },
+      {
+        "id": 80007,
+        "name": "九阳帽",
+        "category": "头部",
+        "price": 2500,
+        "note": "九阳帽"
+      },
+      {
+        "id": 80008,
+        "name": "五灵纶巾",
+        "category": "头部",
+        "price": 5000,
+        "note": "五灵纶巾"
+      },
+      {
+        "id": 80009,
+        "name": "金刚斗笠",
+        "category": "头部",
+        "price": 6000,
+        "note": "金刚斗笠"
+      },
+      {
+        "id": 80108,
+        "name": "珍珠冠",
+        "category": "头部",
+        "price": 3000,
+        "note": "珍珠冠"
+      },
+      {
+        "id": 80109,
+        "name": "玉玲珑",
+        "category": "头部",
+        "price": 3500,
+        "note": "玉玲珑"
+      },
+      {
+        "id": 83005,
+        "name": "钩镰鞋",
+        "category": "足部",
+        "price": 3000,
+        "note": "钩镰鞋"
+      },
+      {
+        "id": 83107,
+        "name": "白绸羽鞋",
+        "category": "足部",
+        "price": 4000,
+        "note": "白绸羽鞋"
+      },
+      {
+        "id": 83108,
+        "name": "鲷鳞靴",
+        "category": "足部",
+        "price": 4500,
+        "note": "鲷鳞靴"
+      },
+      {
+        "id": 84009,
+        "name": "金缕衣",
+        "category": "身体",
+        "price": 7300,
+        "note": "金缕衣"
+      },
+      {
+        "id": 84111,
+        "name": "五彩苗裙",
+        "category": "身体",
+        "price": 3500,
+        "note": "五彩苗裙"
+      },
+      {
+        "id": 84112,
+        "name": "百绣衣",
+        "category": "身体",
+        "price": 4000,
+        "note": "百绣衣"
+      },
+      {
+        "id": 84113,
+        "name": "银狐氅",
+        "category": "身体",
+        "price": 4500,
+        "note": "银狐氅"
+      }
+    ],
+    "goodsText": "诸葛巾、精铁发箍、九阳帽、五灵纶巾、金刚斗笠、珍珠冠、玉玲珑、钩镰鞋、白绸羽鞋、鲷鳞靴、金缕衣、五彩苗裙 等14件"
+  },
+  {
+    "id": "q08any1",
+    "file": "DealScript/AnyShop/q08any1.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 3,
+    "shopTypeLabel": "商人",
+    "name": "米广",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 8106,
+        "name": "描金锦囊",
+        "category": "佩戴",
+        "price": 450,
+        "note": "描金锦囊"
+      },
+      {
+        "id": 8107,
+        "name": "牛皮板带",
+        "category": "佩戴",
+        "price": 500,
+        "note": "牛皮板带"
+      },
+      {
+        "id": 8108,
+        "name": "白玉手镯",
+        "category": "佩戴",
+        "price": 600,
+        "note": "白玉手镯"
+      },
+      {
+        "id": 8109,
+        "name": "碧玉笛",
+        "category": "佩戴",
+        "price": 700,
+        "note": "碧玉笛"
+      }
+    ],
+    "props": [
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6403,
+        "name": "极目水",
+        "category": "辅助",
+        "price": 1000,
+        "note": "极目水"
+      },
+      {
+        "id": 6406,
+        "name": "神炼水",
+        "category": "辅助",
+        "price": 2000,
+        "note": "神炼水"
+      }
+    ],
+    "itemCount": 11,
+    "goods": [
+      {
+        "id": 8106,
+        "name": "描金锦囊",
+        "category": "佩戴",
+        "price": 450,
+        "note": "描金锦囊"
+      },
+      {
+        "id": 8107,
+        "name": "牛皮板带",
+        "category": "佩戴",
+        "price": 500,
+        "note": "牛皮板带"
+      },
+      {
+        "id": 8108,
+        "name": "白玉手镯",
+        "category": "佩戴",
+        "price": 600,
+        "note": "白玉手镯"
+      },
+      {
+        "id": 8109,
+        "name": "碧玉笛",
+        "category": "佩戴",
+        "price": 700,
+        "note": "碧玉笛"
+      },
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6403,
+        "name": "极目水",
+        "category": "辅助",
+        "price": 1000,
+        "note": "极目水"
+      },
+      {
+        "id": 6406,
+        "name": "神炼水",
+        "category": "辅助",
+        "price": 2000,
+        "note": "神炼水"
+      }
+    ],
+    "goodsText": "描金锦囊、牛皮板带、白玉手镯、碧玉笛、鬼遁水、软骨浆、破甲散、减速砂、厄咒霜、极目水、神炼水"
+  },
+  {
+    "id": "q11any",
+    "file": "DealScript/AnyShop/q11any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "杜孝",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80010,
+        "name": "玄天帽",
+        "category": "头部",
+        "price": 8000,
+        "note": "玄天帽"
+      },
+      {
+        "id": 80110,
+        "name": "三色流金带",
+        "category": "头部",
+        "price": 6000,
+        "note": "三色流金带"
+      },
+      {
+        "id": 80111,
+        "name": "神木簪",
+        "category": "头部",
+        "price": 7000,
+        "note": "神木簪"
+      },
+      {
+        "id": 83006,
+        "name": "真武战靴",
+        "category": "足部",
+        "price": 5500,
+        "note": "真武战靴"
+      },
+      {
+        "id": 83109,
+        "name": "莲花靴",
+        "category": "足部",
+        "price": 7500,
+        "note": "莲花靴"
+      },
+      {
+        "id": 83110,
+        "name": "双歧履",
+        "category": "足部",
+        "price": 8000,
+        "note": "双歧履"
+      },
+      {
+        "id": 84010,
+        "name": "天师道袍",
+        "category": "身体",
+        "price": 9000,
+        "note": "天师道袍"
+      },
+      {
+        "id": 84011,
+        "name": "乌蚕背心",
+        "category": "身体",
+        "price": 9800,
+        "note": "乌蚕背心"
+      },
+      {
+        "id": 84114,
+        "name": "雪羽披风",
+        "category": "身体",
+        "price": 6500,
+        "note": "雪羽披风"
+      },
+      {
+        "id": 84115,
+        "name": "流萦醉花衣",
+        "category": "身体",
+        "price": 7500,
+        "note": "流萦醉花衣"
+      },
+      {
+        "id": 84116,
+        "name": "巫月柔甲",
+        "category": "身体",
+        "price": 8500,
+        "note": "巫月柔甲"
+      }
+    ],
+    "props": [],
+    "itemCount": 11,
+    "goods": [
+      {
+        "id": 80010,
+        "name": "玄天帽",
+        "category": "头部",
+        "price": 8000,
+        "note": "玄天帽"
+      },
+      {
+        "id": 80110,
+        "name": "三色流金带",
+        "category": "头部",
+        "price": 6000,
+        "note": "三色流金带"
+      },
+      {
+        "id": 80111,
+        "name": "神木簪",
+        "category": "头部",
+        "price": 7000,
+        "note": "神木簪"
+      },
+      {
+        "id": 83006,
+        "name": "真武战靴",
+        "category": "足部",
+        "price": 5500,
+        "note": "真武战靴"
+      },
+      {
+        "id": 83109,
+        "name": "莲花靴",
+        "category": "足部",
+        "price": 7500,
+        "note": "莲花靴"
+      },
+      {
+        "id": 83110,
+        "name": "双歧履",
+        "category": "足部",
+        "price": 8000,
+        "note": "双歧履"
+      },
+      {
+        "id": 84010,
+        "name": "天师道袍",
+        "category": "身体",
+        "price": 9000,
+        "note": "天师道袍"
+      },
+      {
+        "id": 84011,
+        "name": "乌蚕背心",
+        "category": "身体",
+        "price": 9800,
+        "note": "乌蚕背心"
+      },
+      {
+        "id": 84114,
+        "name": "雪羽披风",
+        "category": "身体",
+        "price": 6500,
+        "note": "雪羽披风"
+      },
+      {
+        "id": 84115,
+        "name": "流萦醉花衣",
+        "category": "身体",
+        "price": 7500,
+        "note": "流萦醉花衣"
+      },
+      {
+        "id": 84116,
+        "name": "巫月柔甲",
+        "category": "身体",
+        "price": 8500,
+        "note": "巫月柔甲"
+      }
+    ],
+    "goodsText": "玄天帽、三色流金带、神木簪、真武战靴、莲花靴、双歧履、天师道袍、乌蚕背心、雪羽披风、流萦醉花衣、巫月柔甲"
+  },
+  {
+    "id": "q13any",
+    "file": "DealScript/AnyShop/q13any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "远眉",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80011,
+        "name": "五岳冠",
+        "category": "头部",
+        "price": 15000,
+        "note": "五岳冠"
+      },
+      {
+        "id": 80112,
+        "name": "天蚕发带",
+        "category": "头部",
+        "price": 12000,
+        "note": "天蚕发带"
+      },
+      {
+        "id": 80113,
+        "name": "夜光七彩兜",
+        "category": "头部",
+        "price": 11500,
+        "note": "夜光七彩兜"
+      },
+      {
+        "id": 83007,
+        "name": "望仙鞋",
+        "category": "足部",
+        "price": 8800,
+        "note": "望仙鞋"
+      },
+      {
+        "id": 83111,
+        "name": "金镂鞋",
+        "category": "足部",
+        "price": 15000,
+        "note": "金镂鞋"
+      },
+      {
+        "id": 84012,
+        "name": "癸鬼袍",
+        "category": "身体",
+        "price": 16500,
+        "note": "癸鬼袍"
+      },
+      {
+        "id": 84013,
+        "name": "鬼针胄",
+        "category": "身体",
+        "price": 21000,
+        "note": "鬼针胄"
+      },
+      {
+        "id": 84117,
+        "name": "绛纱复裙",
+        "category": "身体",
+        "price": 10000,
+        "note": "绛纱复裙"
+      },
+      {
+        "id": 84118,
+        "name": "龙女纱",
+        "category": "身体",
+        "price": 11000,
+        "note": "龙女纱"
+      },
+      {
+        "id": 84119,
+        "name": "青绮绫",
+        "category": "身体",
+        "price": 13000,
+        "note": "青绮绫"
+      }
+    ],
+    "props": [],
+    "itemCount": 10,
+    "goods": [
+      {
+        "id": 80011,
+        "name": "五岳冠",
+        "category": "头部",
+        "price": 15000,
+        "note": "五岳冠"
+      },
+      {
+        "id": 80112,
+        "name": "天蚕发带",
+        "category": "头部",
+        "price": 12000,
+        "note": "天蚕发带"
+      },
+      {
+        "id": 80113,
+        "name": "夜光七彩兜",
+        "category": "头部",
+        "price": 11500,
+        "note": "夜光七彩兜"
+      },
+      {
+        "id": 83007,
+        "name": "望仙鞋",
+        "category": "足部",
+        "price": 8800,
+        "note": "望仙鞋"
+      },
+      {
+        "id": 83111,
+        "name": "金镂鞋",
+        "category": "足部",
+        "price": 15000,
+        "note": "金镂鞋"
+      },
+      {
+        "id": 84012,
+        "name": "癸鬼袍",
+        "category": "身体",
+        "price": 16500,
+        "note": "癸鬼袍"
+      },
+      {
+        "id": 84013,
+        "name": "鬼针胄",
+        "category": "身体",
+        "price": 21000,
+        "note": "鬼针胄"
+      },
+      {
+        "id": 84117,
+        "name": "绛纱复裙",
+        "category": "身体",
+        "price": 10000,
+        "note": "绛纱复裙"
+      },
+      {
+        "id": 84118,
+        "name": "龙女纱",
+        "category": "身体",
+        "price": 11000,
+        "note": "龙女纱"
+      },
+      {
+        "id": 84119,
+        "name": "青绮绫",
+        "category": "身体",
+        "price": 13000,
+        "note": "青绮绫"
+      }
+    ],
+    "goodsText": "五岳冠、天蚕发带、夜光七彩兜、望仙鞋、金镂鞋、癸鬼袍、鬼针胄、绛纱复裙、龙女纱、青绮绫"
+  },
+  {
+    "id": "q16any",
+    "file": "DealScript/AnyShop/q16any.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 2,
+    "shopTypeLabel": "杂货店",
+    "name": "范晴宜",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 80012,
+        "name": "冲天冠",
+        "category": "头部",
+        "price": 18000,
+        "note": "冲天冠"
+      },
+      {
+        "id": 80114,
+        "name": "天冥束",
+        "category": "头部",
+        "price": 17000,
+        "note": "天冥束"
+      },
+      {
+        "id": 80115,
+        "name": "阎后冠",
+        "category": "头部",
+        "price": 18000,
+        "note": "阎后冠"
+      },
+      {
+        "id": 83008,
+        "name": "王乔仙履",
+        "category": "足部",
+        "price": 21000,
+        "note": "王乔仙履"
+      },
+      {
+        "id": 83009,
+        "name": "魅影神靴",
+        "category": "足部",
+        "price": 25000,
+        "note": "魅影神靴"
+      },
+      {
+        "id": 83112,
+        "name": "白蟒靴",
+        "category": "足部",
+        "price": 25000,
+        "note": "白蟒靴"
+      },
+      {
+        "id": 83113,
+        "name": "蹙金云履",
+        "category": "足部",
+        "price": 25000,
+        "note": "蹙金云履"
+      },
+      {
+        "id": 83114,
+        "name": "五彩屐",
+        "category": "足部",
+        "price": 26000,
+        "note": "五彩屐"
+      },
+      {
+        "id": 84014,
+        "name": "青龙宝甲",
+        "category": "身体",
+        "price": 28500,
+        "note": "青龙宝甲"
+      },
+      {
+        "id": 84015,
+        "name": "玄武战袍",
+        "category": "身体",
+        "price": 27000,
+        "note": "玄武战袍"
+      },
+      {
+        "id": 84120,
+        "name": "鲛绡",
+        "category": "身体",
+        "price": 20000,
+        "note": "鲛绡"
+      },
+      {
+        "id": 84121,
+        "name": "凤纹披风",
+        "category": "身体",
+        "price": 27500,
+        "note": "凤纹披风"
+      },
+      {
+        "id": 84122,
+        "name": "圣灵披风",
+        "category": "身体",
+        "price": 29500,
+        "note": "圣灵披风"
+      }
+    ],
+    "props": [],
+    "itemCount": 13,
+    "goods": [
+      {
+        "id": 80012,
+        "name": "冲天冠",
+        "category": "头部",
+        "price": 18000,
+        "note": "冲天冠"
+      },
+      {
+        "id": 80114,
+        "name": "天冥束",
+        "category": "头部",
+        "price": 17000,
+        "note": "天冥束"
+      },
+      {
+        "id": 80115,
+        "name": "阎后冠",
+        "category": "头部",
+        "price": 18000,
+        "note": "阎后冠"
+      },
+      {
+        "id": 83008,
+        "name": "王乔仙履",
+        "category": "足部",
+        "price": 21000,
+        "note": "王乔仙履"
+      },
+      {
+        "id": 83009,
+        "name": "魅影神靴",
+        "category": "足部",
+        "price": 25000,
+        "note": "魅影神靴"
+      },
+      {
+        "id": 83112,
+        "name": "白蟒靴",
+        "category": "足部",
+        "price": 25000,
+        "note": "白蟒靴"
+      },
+      {
+        "id": 83113,
+        "name": "蹙金云履",
+        "category": "足部",
+        "price": 25000,
+        "note": "蹙金云履"
+      },
+      {
+        "id": 83114,
+        "name": "五彩屐",
+        "category": "足部",
+        "price": 26000,
+        "note": "五彩屐"
+      },
+      {
+        "id": 84014,
+        "name": "青龙宝甲",
+        "category": "身体",
+        "price": 28500,
+        "note": "青龙宝甲"
+      },
+      {
+        "id": 84015,
+        "name": "玄武战袍",
+        "category": "身体",
+        "price": 27000,
+        "note": "玄武战袍"
+      },
+      {
+        "id": 84120,
+        "name": "鲛绡",
+        "category": "身体",
+        "price": 20000,
+        "note": "鲛绡"
+      },
+      {
+        "id": 84121,
+        "name": "凤纹披风",
+        "category": "身体",
+        "price": 27500,
+        "note": "凤纹披风"
+      },
+      {
+        "id": 84122,
+        "name": "圣灵披风",
+        "category": "身体",
+        "price": 29500,
+        "note": "圣灵披风"
+      }
+    ],
+    "goodsText": "冲天冠、天冥束、阎后冠、王乔仙履、魅影神靴、白蟒靴、蹙金云履、五彩屐、青龙宝甲、玄武战袍、鲛绡、凤纹披风 等13件"
+  },
+  {
+    "id": "q16any1",
+    "file": "DealScript/AnyShop/q16any1.txt",
+    "folder": "AnyShop",
+    "kind": "杂货店",
+    "shopType": 3,
+    "shopTypeLabel": "商人",
+    "name": "米进",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 8108,
+        "name": "白玉手镯",
+        "category": "佩戴",
+        "price": 600,
+        "note": "白玉手镯"
+      },
+      {
+        "id": 8109,
+        "name": "碧玉笛",
+        "category": "佩戴",
+        "price": 700,
+        "note": "碧玉笛"
+      },
+      {
+        "id": 8110,
+        "name": "青铜护镜",
+        "category": "佩戴",
+        "price": 1250,
+        "note": "青铜护镜"
+      },
+      {
+        "id": 8111,
+        "name": "金丝腰带",
+        "category": "佩戴",
+        "price": 1500,
+        "note": "金丝腰带"
+      }
+    ],
+    "props": [
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6402,
+        "name": "驱魔香",
+        "category": "辅助",
+        "price": 1000,
+        "note": "驱魔香"
+      },
+      {
+        "id": 6404,
+        "name": "狂龙香",
+        "category": "辅助",
+        "price": 1200,
+        "note": "狂龙香"
+      },
+      {
+        "id": 6407,
+        "name": "搜宝鼠",
+        "category": "辅助",
+        "price": 3000,
+        "note": "搜宝鼠"
+      },
+      {
+        "id": 6405,
+        "name": "紫幽粉",
+        "category": "辅助",
+        "price": 1500,
+        "note": "紫幽粉"
+      }
+    ],
+    "itemCount": 13,
+    "goods": [
+      {
+        "id": 8108,
+        "name": "白玉手镯",
+        "category": "佩戴",
+        "price": 600,
+        "note": "白玉手镯"
+      },
+      {
+        "id": 8109,
+        "name": "碧玉笛",
+        "category": "佩戴",
+        "price": 700,
+        "note": "碧玉笛"
+      },
+      {
+        "id": 8110,
+        "name": "青铜护镜",
+        "category": "佩戴",
+        "price": 1250,
+        "note": "青铜护镜"
+      },
+      {
+        "id": 8111,
+        "name": "金丝腰带",
+        "category": "佩戴",
+        "price": 1500,
+        "note": "金丝腰带"
+      },
+      {
+        "id": 6114,
+        "name": "鬼遁水",
+        "category": "暗器",
+        "price": 400,
+        "note": "鬼遁水"
+      },
+      {
+        "id": 6115,
+        "name": "软骨浆",
+        "category": "暗器",
+        "price": 500,
+        "note": "软骨浆"
+      },
+      {
+        "id": 6116,
+        "name": "破甲散",
+        "category": "暗器",
+        "price": 500,
+        "note": "破甲散"
+      },
+      {
+        "id": 6117,
+        "name": "减速砂",
+        "category": "暗器",
+        "price": 500,
+        "note": "减速砂"
+      },
+      {
+        "id": 6118,
+        "name": "厄咒霜",
+        "category": "暗器",
+        "price": 500,
+        "note": "厄咒霜"
+      },
+      {
+        "id": 6402,
+        "name": "驱魔香",
+        "category": "辅助",
+        "price": 1000,
+        "note": "驱魔香"
+      },
+      {
+        "id": 6404,
+        "name": "狂龙香",
+        "category": "辅助",
+        "price": 1200,
+        "note": "狂龙香"
+      },
+      {
+        "id": 6407,
+        "name": "搜宝鼠",
+        "category": "辅助",
+        "price": 3000,
+        "note": "搜宝鼠"
+      },
+      {
+        "id": 6405,
+        "name": "紫幽粉",
+        "category": "辅助",
+        "price": 1500,
+        "note": "紫幽粉"
+      }
+    ],
+    "goodsText": "白玉手镯、碧玉笛、青铜护镜、金丝腰带、鬼遁水、软骨浆、破甲散、减速砂、厄咒霜、驱魔香、狂龙香、搜宝鼠 等13件"
+  },
+  {
+    "id": "q01weapon",
+    "file": "DealScript/WeaponShop/q01weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "封大全",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82102,
+        "name": "铁胎弓",
+        "category": "武器",
+        "price": 600,
+        "note": "铁胎弓"
+      },
+      {
+        "id": 82111,
+        "name": "缅钢刀",
+        "category": "武器",
+        "price": 200,
+        "note": "缅钢刀"
+      },
+      {
+        "id": 82112,
+        "name": "钩镰",
+        "category": "武器",
+        "price": 1000,
+        "note": "钩镰"
+      },
+      {
+        "id": 82202,
+        "name": "龙形针",
+        "category": "武器",
+        "price": 500,
+        "note": "龙形针"
+      },
+      {
+        "id": 82204,
+        "name": "连环爪",
+        "category": "武器",
+        "price": 1300,
+        "note": "连环爪"
+      },
+      {
+        "id": 82205,
+        "name": "护手钺",
+        "category": "武器",
+        "price": 2500,
+        "note": "护手钺"
+      }
+    ],
+    "props": [
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 8,
+    "goods": [
+      {
+        "id": 82102,
+        "name": "铁胎弓",
+        "category": "武器",
+        "price": 600,
+        "note": "铁胎弓"
+      },
+      {
+        "id": 82111,
+        "name": "缅钢刀",
+        "category": "武器",
+        "price": 200,
+        "note": "缅钢刀"
+      },
+      {
+        "id": 82112,
+        "name": "钩镰",
+        "category": "武器",
+        "price": 1000,
+        "note": "钩镰"
+      },
+      {
+        "id": 82202,
+        "name": "龙形针",
+        "category": "武器",
+        "price": 500,
+        "note": "龙形针"
+      },
+      {
+        "id": 82204,
+        "name": "连环爪",
+        "category": "武器",
+        "price": 1300,
+        "note": "连环爪"
+      },
+      {
+        "id": 82205,
+        "name": "护手钺",
+        "category": "武器",
+        "price": 2500,
+        "note": "护手钺"
+      },
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "铁胎弓、缅钢刀、钩镰、龙形针、连环爪、护手钺、梅花镖、蛊"
+  },
+  {
+    "id": "q01weapon1",
+    "file": "DealScript/WeaponShop/q01weapon1.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "田茹襄",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82217,
+        "name": "风魔",
+        "category": "武器",
+        "price": 25000,
+        "note": "风魔"
+      },
+      {
+        "id": 82218,
+        "name": "日月乾坤轮",
+        "category": "武器",
+        "price": 30000,
+        "note": "日月乾坤轮"
+      },
+      {
+        "id": 82219,
+        "name": "天龙刺",
+        "category": "武器",
+        "price": 35000,
+        "note": "天龙刺"
+      },
+      {
+        "id": 82110,
+        "name": "射日弓",
+        "category": "武器",
+        "price": 40000,
+        "note": "射日弓"
+      },
+      {
+        "id": 82119,
+        "name": "九转修罗斩",
+        "category": "武器",
+        "price": 50000,
+        "note": "九转修罗斩"
+      },
+      {
+        "id": 82306,
+        "name": "天蛇杖",
+        "category": "武器",
+        "price": 25000,
+        "note": "天蛇杖"
+      },
+      {
+        "id": 82314,
+        "name": "玄冥宝刀",
+        "category": "武器",
+        "price": 23000,
+        "note": "玄冥宝刀"
+      },
+      {
+        "id": 82315,
+        "name": "巫月神刀",
+        "category": "武器",
+        "price": 27000,
+        "note": "巫月神刀"
+      },
+      {
+        "id": 82004,
+        "name": "无尘剑",
+        "category": "武器",
+        "price": 28000,
+        "note": "无尘剑"
+      }
+    ],
+    "props": [
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6111,
+        "name": "散花天女",
+        "category": "暗器",
+        "price": 8000,
+        "note": "散花天女"
+      },
+      {
+        "id": 6112,
+        "name": "裂天钉",
+        "category": "暗器",
+        "price": 9000,
+        "note": "裂天钉"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 22,
+    "goods": [
+      {
+        "id": 82217,
+        "name": "风魔",
+        "category": "武器",
+        "price": 25000,
+        "note": "风魔"
+      },
+      {
+        "id": 82218,
+        "name": "日月乾坤轮",
+        "category": "武器",
+        "price": 30000,
+        "note": "日月乾坤轮"
+      },
+      {
+        "id": 82219,
+        "name": "天龙刺",
+        "category": "武器",
+        "price": 35000,
+        "note": "天龙刺"
+      },
+      {
+        "id": 82110,
+        "name": "射日弓",
+        "category": "武器",
+        "price": 40000,
+        "note": "射日弓"
+      },
+      {
+        "id": 82119,
+        "name": "九转修罗斩",
+        "category": "武器",
+        "price": 50000,
+        "note": "九转修罗斩"
+      },
+      {
+        "id": 82306,
+        "name": "天蛇杖",
+        "category": "武器",
+        "price": 25000,
+        "note": "天蛇杖"
+      },
+      {
+        "id": 82314,
+        "name": "玄冥宝刀",
+        "category": "武器",
+        "price": 23000,
+        "note": "玄冥宝刀"
+      },
+      {
+        "id": 82315,
+        "name": "巫月神刀",
+        "category": "武器",
+        "price": 27000,
+        "note": "巫月神刀"
+      },
+      {
+        "id": 82004,
+        "name": "无尘剑",
+        "category": "武器",
+        "price": 28000,
+        "note": "无尘剑"
+      },
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6111,
+        "name": "散花天女",
+        "category": "暗器",
+        "price": 8000,
+        "note": "散花天女"
+      },
+      {
+        "id": 6112,
+        "name": "裂天钉",
+        "category": "暗器",
+        "price": 9000,
+        "note": "裂天钉"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "风魔、日月乾坤轮、天龙刺、射日弓、九转修罗斩、天蛇杖、玄冥宝刀、巫月神刀、无尘剑、梅花镖、袖箭、毒蒺藜 等22件"
+  },
+  {
+    "id": "q03weapon",
+    "file": "DealScript/WeaponShop/q03weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "祝刀南",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82203,
+        "name": "灵牙",
+        "category": "武器",
+        "price": 1000,
+        "note": "灵牙"
+      },
+      {
+        "id": 82204,
+        "name": "连环爪",
+        "category": "武器",
+        "price": 1300,
+        "note": "连环爪"
+      },
+      {
+        "id": 82205,
+        "name": "护手钺",
+        "category": "武器",
+        "price": 2500,
+        "note": "护手钺"
+      },
+      {
+        "id": 82302,
+        "name": "降魔杖",
+        "category": "武器",
+        "price": 1500,
+        "note": "降魔杖"
+      },
+      {
+        "id": 82308,
+        "name": "红缨刀",
+        "category": "武器",
+        "price": 1000,
+        "note": "红缨刀"
+      },
+      {
+        "id": 82309,
+        "name": "芙蓉刀",
+        "category": "武器",
+        "price": 1500,
+        "note": "芙蓉刀"
+      },
+      {
+        "id": 82006,
+        "name": "金蛇枪",
+        "category": "武器",
+        "price": 2000,
+        "note": "金蛇枪"
+      }
+    ],
+    "props": [
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 12,
+    "goods": [
+      {
+        "id": 82203,
+        "name": "灵牙",
+        "category": "武器",
+        "price": 1000,
+        "note": "灵牙"
+      },
+      {
+        "id": 82204,
+        "name": "连环爪",
+        "category": "武器",
+        "price": 1300,
+        "note": "连环爪"
+      },
+      {
+        "id": 82205,
+        "name": "护手钺",
+        "category": "武器",
+        "price": 2500,
+        "note": "护手钺"
+      },
+      {
+        "id": 82302,
+        "name": "降魔杖",
+        "category": "武器",
+        "price": 1500,
+        "note": "降魔杖"
+      },
+      {
+        "id": 82308,
+        "name": "红缨刀",
+        "category": "武器",
+        "price": 1000,
+        "note": "红缨刀"
+      },
+      {
+        "id": 82309,
+        "name": "芙蓉刀",
+        "category": "武器",
+        "price": 1500,
+        "note": "芙蓉刀"
+      },
+      {
+        "id": 82006,
+        "name": "金蛇枪",
+        "category": "武器",
+        "price": 2000,
+        "note": "金蛇枪"
+      },
+      {
+        "id": 6101,
+        "name": "梅花镖",
+        "category": "暗器",
+        "price": 280,
+        "note": "梅花镖"
+      },
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "灵牙、连环爪、护手钺、降魔杖、红缨刀、芙蓉刀、金蛇枪、梅花镖、袖箭、毒蒺藜、燕子金镖、蛊"
+  },
+  {
+    "id": "q06weapon",
+    "file": "DealScript/WeaponShop/q06weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "曾吉祥",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82206,
+        "name": "五行钩",
+        "category": "武器",
+        "price": 4000,
+        "note": "五行钩"
+      },
+      {
+        "id": 82207,
+        "name": "望月",
+        "category": "武器",
+        "price": 4000,
+        "note": "望月"
+      },
+      {
+        "id": 82208,
+        "name": "寒梅",
+        "category": "武器",
+        "price": 4500,
+        "note": "寒梅"
+      },
+      {
+        "id": 82103,
+        "name": "玉腰弓",
+        "category": "武器",
+        "price": 1000,
+        "note": "玉腰弓"
+      },
+      {
+        "id": 82113,
+        "name": "断月",
+        "category": "武器",
+        "price": 1800,
+        "note": "断月"
+      },
+      {
+        "id": 82114,
+        "name": "风轮",
+        "category": "武器",
+        "price": 3800,
+        "note": "风轮"
+      }
+    ],
+    "props": [
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 12,
+    "goods": [
+      {
+        "id": 82206,
+        "name": "五行钩",
+        "category": "武器",
+        "price": 4000,
+        "note": "五行钩"
+      },
+      {
+        "id": 82207,
+        "name": "望月",
+        "category": "武器",
+        "price": 4000,
+        "note": "望月"
+      },
+      {
+        "id": 82208,
+        "name": "寒梅",
+        "category": "武器",
+        "price": 4500,
+        "note": "寒梅"
+      },
+      {
+        "id": 82103,
+        "name": "玉腰弓",
+        "category": "武器",
+        "price": 1000,
+        "note": "玉腰弓"
+      },
+      {
+        "id": 82113,
+        "name": "断月",
+        "category": "武器",
+        "price": 1800,
+        "note": "断月"
+      },
+      {
+        "id": 82114,
+        "name": "风轮",
+        "category": "武器",
+        "price": 3800,
+        "note": "风轮"
+      },
+      {
+        "id": 6102,
+        "name": "袖箭",
+        "category": "暗器",
+        "price": 500,
+        "note": "袖箭"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "五行钩、望月、寒梅、玉腰弓、断月、风轮、袖箭、毒蒺藜、燕子金镖、毒龙砂、蓝芒胆、蛊"
+  },
+  {
+    "id": "q09weapon",
+    "file": "DealScript/WeaponShop/q09weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "颖勤",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82209,
+        "name": "点金钎",
+        "category": "武器",
+        "price": 6500,
+        "note": "点金钎"
+      },
+      {
+        "id": 82210,
+        "name": "鸳鸯钺",
+        "category": "武器",
+        "price": 7000,
+        "note": "鸳鸯钺"
+      },
+      {
+        "id": 82211,
+        "name": "八卦刺",
+        "category": "武器",
+        "price": 9000,
+        "note": "八卦刺"
+      },
+      {
+        "id": 82212,
+        "name": "轰雷",
+        "category": "武器",
+        "price": 9500,
+        "note": "轰雷"
+      },
+      {
+        "id": 82104,
+        "name": "连珠弩",
+        "category": "武器",
+        "price": 2500,
+        "note": "连珠弩"
+      },
+      {
+        "id": 82105,
+        "name": "元戎弩",
+        "category": "武器",
+        "price": 3500,
+        "note": "元戎弩"
+      },
+      {
+        "id": 82115,
+        "name": "绝情",
+        "category": "武器",
+        "price": 6000,
+        "note": "绝情"
+      },
+      {
+        "id": 82002,
+        "name": "定魂剑",
+        "category": "武器",
+        "price": 8000,
+        "note": "定魂剑"
+      },
+      {
+        "id": 82007,
+        "name": "啸天枪",
+        "category": "武器",
+        "price": 7000,
+        "note": "啸天枪"
+      }
+    ],
+    "props": [
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 16,
+    "goods": [
+      {
+        "id": 82209,
+        "name": "点金钎",
+        "category": "武器",
+        "price": 6500,
+        "note": "点金钎"
+      },
+      {
+        "id": 82210,
+        "name": "鸳鸯钺",
+        "category": "武器",
+        "price": 7000,
+        "note": "鸳鸯钺"
+      },
+      {
+        "id": 82211,
+        "name": "八卦刺",
+        "category": "武器",
+        "price": 9000,
+        "note": "八卦刺"
+      },
+      {
+        "id": 82212,
+        "name": "轰雷",
+        "category": "武器",
+        "price": 9500,
+        "note": "轰雷"
+      },
+      {
+        "id": 82104,
+        "name": "连珠弩",
+        "category": "武器",
+        "price": 2500,
+        "note": "连珠弩"
+      },
+      {
+        "id": 82105,
+        "name": "元戎弩",
+        "category": "武器",
+        "price": 3500,
+        "note": "元戎弩"
+      },
+      {
+        "id": 82115,
+        "name": "绝情",
+        "category": "武器",
+        "price": 6000,
+        "note": "绝情"
+      },
+      {
+        "id": 82002,
+        "name": "定魂剑",
+        "category": "武器",
+        "price": 8000,
+        "note": "定魂剑"
+      },
+      {
+        "id": 82007,
+        "name": "啸天枪",
+        "category": "武器",
+        "price": 7000,
+        "note": "啸天枪"
+      },
+      {
+        "id": 6103,
+        "name": "毒蒺藜",
+        "category": "暗器",
+        "price": 750,
+        "note": "毒蒺藜"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "点金钎、鸳鸯钺、八卦刺、轰雷、连珠弩、元戎弩、绝情、定魂剑、啸天枪、毒蒺藜、燕子金镖、毒龙砂 等16件"
+  },
+  {
+    "id": "q11weapon",
+    "file": "DealScript/WeaponShop/q11weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "魏大婶",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82106,
+        "name": "七巧弓",
+        "category": "武器",
+        "price": 7000,
+        "note": "七巧弓"
+      },
+      {
+        "id": 82107,
+        "name": "幽冥弓",
+        "category": "武器",
+        "price": 10000,
+        "note": "幽冥弓"
+      },
+      {
+        "id": 82116,
+        "name": "滚龙",
+        "category": "武器",
+        "price": 10000,
+        "note": "滚龙"
+      },
+      {
+        "id": 82117,
+        "name": "七星伴月",
+        "category": "武器",
+        "price": 20000,
+        "note": "七星伴月"
+      },
+      {
+        "id": 82303,
+        "name": "灵泉杖",
+        "category": "武器",
+        "price": 3500,
+        "note": "灵泉杖"
+      },
+      {
+        "id": 82304,
+        "name": "鬼头杖",
+        "category": "武器",
+        "price": 5000,
+        "note": "鬼头杖"
+      },
+      {
+        "id": 82310,
+        "name": "柳叶刀",
+        "category": "武器",
+        "price": 3000,
+        "note": "柳叶刀"
+      },
+      {
+        "id": 82311,
+        "name": "蝉翼刀",
+        "category": "武器",
+        "price": 4000,
+        "note": "蝉翼刀"
+      },
+      {
+        "id": 82312,
+        "name": "凤鸣刀",
+        "category": "武器",
+        "price": 8000,
+        "note": "凤鸣刀"
+      },
+      {
+        "id": 82313,
+        "name": "流云刀",
+        "category": "武器",
+        "price": 10000,
+        "note": "流云刀"
+      }
+    ],
+    "props": [
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 18,
+    "goods": [
+      {
+        "id": 82106,
+        "name": "七巧弓",
+        "category": "武器",
+        "price": 7000,
+        "note": "七巧弓"
+      },
+      {
+        "id": 82107,
+        "name": "幽冥弓",
+        "category": "武器",
+        "price": 10000,
+        "note": "幽冥弓"
+      },
+      {
+        "id": 82116,
+        "name": "滚龙",
+        "category": "武器",
+        "price": 10000,
+        "note": "滚龙"
+      },
+      {
+        "id": 82117,
+        "name": "七星伴月",
+        "category": "武器",
+        "price": 20000,
+        "note": "七星伴月"
+      },
+      {
+        "id": 82303,
+        "name": "灵泉杖",
+        "category": "武器",
+        "price": 3500,
+        "note": "灵泉杖"
+      },
+      {
+        "id": 82304,
+        "name": "鬼头杖",
+        "category": "武器",
+        "price": 5000,
+        "note": "鬼头杖"
+      },
+      {
+        "id": 82310,
+        "name": "柳叶刀",
+        "category": "武器",
+        "price": 3000,
+        "note": "柳叶刀"
+      },
+      {
+        "id": 82311,
+        "name": "蝉翼刀",
+        "category": "武器",
+        "price": 4000,
+        "note": "蝉翼刀"
+      },
+      {
+        "id": 82312,
+        "name": "凤鸣刀",
+        "category": "武器",
+        "price": 8000,
+        "note": "凤鸣刀"
+      },
+      {
+        "id": 82313,
+        "name": "流云刀",
+        "category": "武器",
+        "price": 10000,
+        "note": "流云刀"
+      },
+      {
+        "id": 6104,
+        "name": "燕子金镖",
+        "category": "暗器",
+        "price": 1200,
+        "note": "燕子金镖"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "七巧弓、幽冥弓、滚龙、七星伴月、灵泉杖、鬼头杖、柳叶刀、蝉翼刀、凤鸣刀、流云刀、燕子金镖、毒龙砂 等18件"
+  },
+  {
+    "id": "q13weapon",
+    "file": "DealScript/WeaponShop/q13weapon.txt",
+    "folder": "WeaponShop",
+    "kind": "武器店",
+    "shopType": 1,
+    "shopTypeLabel": "武器店",
+    "name": "都西",
+    "bargain": true,
+    "restPrice": null,
+    "equip": [
+      {
+        "id": 82213,
+        "name": "鬼手",
+        "category": "武器",
+        "price": 13500,
+        "note": "鬼手"
+      },
+      {
+        "id": 82214,
+        "name": "蛇刃",
+        "category": "武器",
+        "price": 14000,
+        "note": "蛇刃"
+      },
+      {
+        "id": 82215,
+        "name": "百魅",
+        "category": "武器",
+        "price": 18000,
+        "note": "百魅"
+      },
+      {
+        "id": 82116,
+        "name": "滚龙",
+        "category": "武器",
+        "price": 10000,
+        "note": "子午定心圈"
+      },
+      {
+        "id": 82108,
+        "name": "火神弓",
+        "category": "武器",
+        "price": 19000,
+        "note": "火神弓"
+      },
+      {
+        "id": 82109,
+        "name": "乾坤弓",
+        "category": "武器",
+        "price": 26000,
+        "note": "乾坤弓"
+      },
+      {
+        "id": 82118,
+        "name": "鬼眼双刃",
+        "category": "武器",
+        "price": 27500,
+        "note": "鬼眼双刃"
+      },
+      {
+        "id": 82305,
+        "name": "轰雷杖",
+        "category": "武器",
+        "price": 17000,
+        "note": "轰雷杖"
+      },
+      {
+        "id": 82312,
+        "name": "凤鸣刀",
+        "category": "武器",
+        "price": 8000,
+        "note": "凤鸣刀"
+      },
+      {
+        "id": 82313,
+        "name": "流云刀",
+        "category": "武器",
+        "price": 10000,
+        "note": "流云刀"
+      },
+      {
+        "id": 82314,
+        "name": "玄冥宝刀",
+        "category": "武器",
+        "price": 23000,
+        "note": "玄冥宝刀"
+      },
+      {
+        "id": 82003,
+        "name": "太极剑",
+        "category": "武器",
+        "price": 12000,
+        "note": "太极剑"
+      },
+      {
+        "id": 82008,
+        "name": "烈日枪",
+        "category": "武器",
+        "price": 18000,
+        "note": "烈日枪"
+      }
+    ],
+    "props": [
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6111,
+        "name": "散花天女",
+        "category": "暗器",
+        "price": 8000,
+        "note": "散花天女"
+      },
+      {
+        "id": 6112,
+        "name": "裂天钉",
+        "category": "暗器",
+        "price": 9000,
+        "note": "裂天钉"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "itemCount": 22,
+    "goods": [
+      {
+        "id": 82213,
+        "name": "鬼手",
+        "category": "武器",
+        "price": 13500,
+        "note": "鬼手"
+      },
+      {
+        "id": 82214,
+        "name": "蛇刃",
+        "category": "武器",
+        "price": 14000,
+        "note": "蛇刃"
+      },
+      {
+        "id": 82215,
+        "name": "百魅",
+        "category": "武器",
+        "price": 18000,
+        "note": "百魅"
+      },
+      {
+        "id": 82116,
+        "name": "滚龙",
+        "category": "武器",
+        "price": 10000,
+        "note": "子午定心圈"
+      },
+      {
+        "id": 82108,
+        "name": "火神弓",
+        "category": "武器",
+        "price": 19000,
+        "note": "火神弓"
+      },
+      {
+        "id": 82109,
+        "name": "乾坤弓",
+        "category": "武器",
+        "price": 26000,
+        "note": "乾坤弓"
+      },
+      {
+        "id": 82118,
+        "name": "鬼眼双刃",
+        "category": "武器",
+        "price": 27500,
+        "note": "鬼眼双刃"
+      },
+      {
+        "id": 82305,
+        "name": "轰雷杖",
+        "category": "武器",
+        "price": 17000,
+        "note": "轰雷杖"
+      },
+      {
+        "id": 82312,
+        "name": "凤鸣刀",
+        "category": "武器",
+        "price": 8000,
+        "note": "凤鸣刀"
+      },
+      {
+        "id": 82313,
+        "name": "流云刀",
+        "category": "武器",
+        "price": 10000,
+        "note": "流云刀"
+      },
+      {
+        "id": 82314,
+        "name": "玄冥宝刀",
+        "category": "武器",
+        "price": 23000,
+        "note": "玄冥宝刀"
+      },
+      {
+        "id": 82003,
+        "name": "太极剑",
+        "category": "武器",
+        "price": 12000,
+        "note": "太极剑"
+      },
+      {
+        "id": 82008,
+        "name": "烈日枪",
+        "category": "武器",
+        "price": 18000,
+        "note": "烈日枪"
+      },
+      {
+        "id": 6105,
+        "name": "毒龙砂",
+        "category": "暗器",
+        "price": 1800,
+        "note": "毒龙砂"
+      },
+      {
+        "id": 6106,
+        "name": "蓝芒胆",
+        "category": "暗器",
+        "price": 2300,
+        "note": "蓝芒胆"
+      },
+      {
+        "id": 6107,
+        "name": "透骨钉",
+        "category": "暗器",
+        "price": 3000,
+        "note": "透骨钉"
+      },
+      {
+        "id": 6108,
+        "name": "搜魂砂",
+        "category": "暗器",
+        "price": 3800,
+        "note": "搜魂砂"
+      },
+      {
+        "id": 6109,
+        "name": "无影神针",
+        "category": "暗器",
+        "price": 5000,
+        "note": "无影神针"
+      },
+      {
+        "id": 6110,
+        "name": "千叶刃",
+        "category": "暗器",
+        "price": 6400,
+        "note": "千叶刃"
+      },
+      {
+        "id": 6111,
+        "name": "散花天女",
+        "category": "暗器",
+        "price": 8000,
+        "note": "散花天女"
+      },
+      {
+        "id": 6112,
+        "name": "裂天钉",
+        "category": "暗器",
+        "price": 9000,
+        "note": "裂天钉"
+      },
+      {
+        "id": 6113,
+        "name": "蛊",
+        "category": "暗器",
+        "price": 50,
+        "note": "蛊"
+      }
+    ],
+    "goodsText": "鬼手、蛇刃、百魅、滚龙、火神弓、乾坤弓、鬼眼双刃、轰雷杖、凤鸣刀、流云刀、玄冥宝刀、太极剑 等22件"
+  },
+  {
+    "id": "q01drag",
+    "file": "DealScript/DragShop/q01drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "方驰海",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 8,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "止血草、鼠儿果、还魂香、冰蟾子、赤炎果、寒山枫、紫石乳、鬼蛤蜊"
+  },
+  {
+    "id": "q02drag",
+    "file": "DealScript/DragShop/q02drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "倪婆婆",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 14,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "止血草、鼠儿果、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等14件"
+  },
+  {
+    "id": "q03drag",
+    "file": "DealScript/DragShop/q03drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "崔大夫",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "itemCount": 16,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "goodsText": "止血草、鼠儿果、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等16件"
+  },
+  {
+    "id": "q04drag",
+    "file": "DealScript/DragShop/q04drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "玉司",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      }
+    ],
+    "itemCount": 15,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      }
+    ],
+    "goodsText": "止血草、鼠儿果、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等15件"
+  },
+  {
+    "id": "q05drag",
+    "file": "DealScript/DragShop/q05drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "潘适淮",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "itemCount": 18,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "goodsText": "止血草、金创药、鼠儿果、还神丹、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子 等18件"
+  },
+  {
+    "id": "q06drag",
+    "file": "DealScript/DragShop/q06drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "如意",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "itemCount": 18,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      }
+    ],
+    "goodsText": "止血草、金创药、鼠儿果、还神丹、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子 等18件"
+  },
+  {
+    "id": "q07drag",
+    "file": "DealScript/DragShop/q07drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "房大爷",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 8,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、冰蟾子、赤炎果、寒山枫、紫石乳、鬼蛤蜊"
+  },
+  {
+    "id": "q08drag",
+    "file": "DealScript/DragShop/q08drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "知月",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 14,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等14件"
+  },
+  {
+    "id": "q09drag",
+    "file": "DealScript/DragShop/q09drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "任群松",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      }
+    ],
+    "itemCount": 17,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等17件"
+  },
+  {
+    "id": "q10drag",
+    "file": "DealScript/DragShop/q10drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "灯蝶",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6212,
+        "name": "九转再造丹",
+        "category": "药品",
+        "price": 1500,
+        "note": "九转再造丹"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6220,
+        "name": "烟月神镜",
+        "category": "药品",
+        "price": 1500,
+        "note": "烟月神镜"
+      },
+      {
+        "id": 6221,
+        "name": "烛龙内丹",
+        "category": "药品",
+        "price": 1000,
+        "note": "烛龙内丹"
+      },
+      {
+        "id": 6222,
+        "name": "幻界水晶",
+        "category": "药品",
+        "price": 1000,
+        "note": "幻界水晶"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 18,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6212,
+        "name": "九转再造丹",
+        "category": "药品",
+        "price": 1500,
+        "note": "九转再造丹"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6220,
+        "name": "烟月神镜",
+        "category": "药品",
+        "price": 1500,
+        "note": "烟月神镜"
+      },
+      {
+        "id": 6221,
+        "name": "烛龙内丹",
+        "category": "药品",
+        "price": 1000,
+        "note": "烛龙内丹"
+      },
+      {
+        "id": 6222,
+        "name": "幻界水晶",
+        "category": "药品",
+        "price": 1000,
+        "note": "幻界水晶"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、九转再造丹、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、烟月神镜、烛龙内丹 等18件"
+  },
+  {
+    "id": "q11drag",
+    "file": "DealScript/DragShop/q11drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "顾良",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "itemCount": 20,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "goodsText": "金创药、首阳参、还神丹、雪莲精、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子 等20件"
+  },
+  {
+    "id": "q12drag",
+    "file": "DealScript/DragShop/q12drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "吴闻卓",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 16,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "金创药、首阳参、还神丹、雪莲精、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子 等16件"
+  },
+  {
+    "id": "q13drag",
+    "file": "DealScript/DragShop/q13drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "叶法善",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6209,
+        "name": "蜂王蜜",
+        "category": "药品",
+        "price": 650,
+        "note": "蜂王蜜"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "itemCount": 19,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6203,
+        "name": "首阳参",
+        "category": "药品",
+        "price": 800,
+        "note": "首阳参"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6207,
+        "name": "雪莲精",
+        "category": "药品",
+        "price": 1300,
+        "note": "雪莲精"
+      },
+      {
+        "id": 6209,
+        "name": "蜂王蜜",
+        "category": "药品",
+        "price": 650,
+        "note": "蜂王蜜"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "goodsText": "金创药、首阳参、还神丹、雪莲精、蜂王蜜、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸 等19件"
+  },
+  {
+    "id": "q14drag",
+    "file": "DealScript/DragShop/q14drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "童蔼",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6212,
+        "name": "九转再造丹",
+        "category": "药品",
+        "price": 1500,
+        "note": "九转再造丹"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6220,
+        "name": "烟月神镜",
+        "category": "药品",
+        "price": 1500,
+        "note": "烟月神镜"
+      },
+      {
+        "id": 6221,
+        "name": "烛龙内丹",
+        "category": "药品",
+        "price": 1000,
+        "note": "烛龙内丹"
+      },
+      {
+        "id": 6222,
+        "name": "幻界水晶",
+        "category": "药品",
+        "price": 1000,
+        "note": "幻界水晶"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "itemCount": 22,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6212,
+        "name": "九转再造丹",
+        "category": "药品",
+        "price": 1500,
+        "note": "九转再造丹"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6220,
+        "name": "烟月神镜",
+        "category": "药品",
+        "price": 1500,
+        "note": "烟月神镜"
+      },
+      {
+        "id": 6221,
+        "name": "烛龙内丹",
+        "category": "药品",
+        "price": 1000,
+        "note": "烛龙内丹"
+      },
+      {
+        "id": 6222,
+        "name": "幻界水晶",
+        "category": "药品",
+        "price": 1000,
+        "note": "幻界水晶"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6231,
+        "name": "流风散",
+        "category": "药品",
+        "price": 300,
+        "note": "流风散"
+      },
+      {
+        "id": 6232,
+        "name": "行运丸",
+        "category": "药品",
+        "price": 300,
+        "note": "行运丸"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、九转再造丹、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、烟月神镜、烛龙内丹 等22件"
+  },
+  {
+    "id": "q15drag",
+    "file": "DealScript/DragShop/q15drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "于霜雪",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 14,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "金创药、还神丹、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果、寒山枫 等14件"
+  },
+  {
+    "id": "q16drag",
+    "file": "DealScript/DragShop/q16drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "茅予风",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6209,
+        "name": "蜂王蜜",
+        "category": "药品",
+        "price": 650,
+        "note": "蜂王蜜"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "itemCount": 17,
+    "goods": [
+      {
+        "id": 6202,
+        "name": "金创药",
+        "category": "药品",
+        "price": 280,
+        "note": "金创药"
+      },
+      {
+        "id": 6206,
+        "name": "还神丹",
+        "category": "药品",
+        "price": 350,
+        "note": "还神丹"
+      },
+      {
+        "id": 6209,
+        "name": "蜂王蜜",
+        "category": "药品",
+        "price": 650,
+        "note": "蜂王蜜"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6214,
+        "name": "脉络散",
+        "category": "药品",
+        "price": 50,
+        "note": "脉络散"
+      },
+      {
+        "id": 6215,
+        "name": "解咒草",
+        "category": "药品",
+        "price": 50,
+        "note": "解咒草"
+      },
+      {
+        "id": 6216,
+        "name": "石南藤",
+        "category": "药品",
+        "price": 50,
+        "note": "石南藤"
+      },
+      {
+        "id": 6217,
+        "name": "百里香",
+        "category": "药品",
+        "price": 50,
+        "note": "百里香"
+      },
+      {
+        "id": 6218,
+        "name": "抚心草",
+        "category": "药品",
+        "price": 50,
+        "note": "抚心草"
+      },
+      {
+        "id": 6219,
+        "name": "定神丸",
+        "category": "药品",
+        "price": 50,
+        "note": "定神丸"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      },
+      {
+        "id": 6233,
+        "name": "两仪仙丹",
+        "category": "药品",
+        "price": 600,
+        "note": "两仪仙丹"
+      },
+      {
+        "id": 6234,
+        "name": "神机四枢丸",
+        "category": "药品",
+        "price": 1200,
+        "note": "神机四枢丸"
+      }
+    ],
+    "goodsText": "金创药、还神丹、蜂王蜜、还魂香、脉络散、解咒草、石南藤、百里香、抚心草、定神丸、冰蟾子、赤炎果 等17件"
+  },
+  {
+    "id": "q17drag",
+    "file": "DealScript/DragShop/q17drag.txt",
+    "folder": "DragShop",
+    "kind": "药店",
+    "shopType": 0,
+    "shopTypeLabel": null,
+    "name": "羁旅行囊",
+    "bargain": false,
+    "restPrice": null,
+    "equip": [],
+    "props": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "itemCount": 8,
+    "goods": [
+      {
+        "id": 6201,
+        "name": "止血草",
+        "category": "药品",
+        "price": 50,
+        "note": "止血草"
+      },
+      {
+        "id": 6205,
+        "name": "鼠儿果",
+        "category": "药品",
+        "price": 80,
+        "note": "鼠儿果"
+      },
+      {
+        "id": 6211,
+        "name": "还魂香",
+        "category": "药品",
+        "price": 700,
+        "note": "还魂香"
+      },
+      {
+        "id": 6225,
+        "name": "冰蟾子",
+        "category": "药品",
+        "price": 60,
+        "note": "冰蟾子"
+      },
+      {
+        "id": 6226,
+        "name": "赤炎果",
+        "category": "药品",
+        "price": 60,
+        "note": "赤炎果"
+      },
+      {
+        "id": 6227,
+        "name": "寒山枫",
+        "category": "药品",
+        "price": 60,
+        "note": "寒山枫"
+      },
+      {
+        "id": 6228,
+        "name": "紫石乳",
+        "category": "药品",
+        "price": 60,
+        "note": "紫石乳"
+      },
+      {
+        "id": 6229,
+        "name": "鬼蛤蜊",
+        "category": "药品",
+        "price": 60,
+        "note": "鬼蛤蜊"
+      }
+    ],
+    "goodsText": "止血草、鼠儿果、还魂香、冰蟾子、赤炎果、寒山枫、紫石乳、鬼蛤蜊"
+  }
+]

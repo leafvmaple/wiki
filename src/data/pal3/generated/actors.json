@@ -1,0 +1,117 @@
+[
+  {
+    "id": 101,
+    "name": "景天",
+    "kind": "actor",
+    "modelId": "Null",
+    "level": 1,
+    "jing": 80,
+    "qi": 8,
+    "shen": 25,
+    "wu": 26,
+    "fang": 14,
+    "su": 3,
+    "yun": 2,
+    "exp": 0,
+    "money": null,
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "长卿",
+    "kind": "actor",
+    "modelId": "Null",
+    "level": 1,
+    "jing": 100,
+    "qi": 9,
+    "shen": 20,
+    "wu": 35,
+    "fang": 18,
+    "su": 3,
+    "yun": 3,
+    "exp": 0,
+    "money": null,
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "雪见",
+    "kind": "actor",
+    "modelId": "Null",
+    "level": 1,
+    "jing": 75,
+    "qi": 6,
+    "shen": 25,
+    "wu": 24,
+    "fang": 16,
+    "su": 5,
+    "yun": 4,
+    "exp": 0,
+    "money": null,
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "龙葵",
+    "kind": "actor",
+    "modelId": "Null",
+    "level": 1,
+    "jing": 80,
+    "qi": 7,
+    "shen": 22,
+    "wu": 20,
+    "fang": 16,
+    "su": 4,
+    "yun": 5,
+    "exp": 0,
+    "money": null,
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "紫萱",
+    "kind": "actor",
+    "modelId": "Null",
+    "level": 1,
+    "jing": 60,
+    "qi": 5,
+    "shen": 30,
+    "wu": 22,
+    "fang": 14,
+    "su": 4,
+    "yun": 1,
+    "exp": 0,
+    "money": null,
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ]
+  }
+]

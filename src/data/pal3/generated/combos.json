@@ -1,0 +1,223 @@
+[
+  {
+    "id": 501,
+    "name": "连环破斩",
+    "actors": [
+      "景天",
+      "紫萱"
+    ],
+    "actorsText": "景天、紫萱",
+    "conditions": [
+      "4102",
+      "封"
+    ],
+    "conditionsText": "4102、封",
+    "range": "己方单体",
+    "stats": {
+      "精": -300
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 502,
+    "name": "魔剑飞仙",
+    "actors": [
+      "景天",
+      "魔剑"
+    ],
+    "actorsText": "景天、魔剑",
+    "conditions": [
+      "4101",
+      "濒死"
+    ],
+    "conditionsText": "4101、濒死",
+    "range": "己方单体",
+    "stats": {
+      "精": -400
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 503,
+    "name": "珠联璧合",
+    "actors": [
+      "雪见",
+      "107"
+    ],
+    "actorsText": "雪见、107",
+    "conditions": [
+      "4502",
+      "定"
+    ],
+    "conditionsText": "4502、定",
+    "range": "横排",
+    "stats": {
+      "精": 500
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 504,
+    "name": "断空噬地",
+    "actors": [
+      "景天",
+      "紫萱",
+      "魔剑"
+    ],
+    "actorsText": "景天、紫萱、魔剑",
+    "conditions": [
+      "4103",
+      "武增",
+      "防增"
+    ],
+    "conditionsText": "4103、武增、防增",
+    "range": "己方单体",
+    "stats": {
+      "精": -600
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 505,
+    "name": "灵奴奈落",
+    "actors": [
+      "魔剑",
+      "景天",
+      "紫萱"
+    ],
+    "actorsText": "魔剑、景天、紫萱",
+    "conditions": [
+      "4301",
+      "壁",
+      "界"
+    ],
+    "conditionsText": "4301、壁、界",
+    "range": "己方单体",
+    "stats": {
+      "精": -700
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 506,
+    "name": "飞鸟裂天",
+    "actors": [
+      "紫萱",
+      "景天",
+      "魔剑"
+    ],
+    "actorsText": "紫萱、景天、魔剑",
+    "conditions": [
+      "4201",
+      "速增",
+      "速增"
+    ],
+    "conditionsText": "4201、速增、速增",
+    "range": "己方单体",
+    "stats": {
+      "精": -800
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 507,
+    "name": "修罗绝杀阵",
+    "actors": [
+      "景天",
+      "紫萱",
+      "魔剑",
+      "雪见"
+    ],
+    "actorsText": "景天、紫萱、魔剑、雪见",
+    "conditions": [
+      "309",
+      "濒死",
+      "濒死",
+      "濒死"
+    ],
+    "conditionsText": "309、濒死、濒死、濒死",
+    "range": "全体",
+    "stats": {
+      "精": -1000
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 508,
+    "name": "十方封魔斩",
+    "actors": [
+      "景天",
+      "紫萱",
+      "魔剑",
+      "107"
+    ],
+    "actorsText": "景天、紫萱、魔剑、107",
+    "conditions": [
+      "任意毒",
+      "任意毒",
+      "任意毒"
+    ],
+    "conditionsText": "任意毒、任意毒、任意毒",
+    "range": "全体",
+    "stats": {
+      "精": -1100
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 509,
+    "name": "天魔往生诀",
+    "actors": [
+      "景天",
+      "雪见",
+      "107",
+      "紫萱"
+    ],
+    "actorsText": "景天、雪见、107、紫萱",
+    "conditions": [
+      "325",
+      "武增",
+      "防增",
+      "运增"
+    ],
+    "conditionsText": "325、武增、防增、运增",
+    "range": "全体",
+    "stats": {
+      "精": -1200
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 510,
+    "name": "五芒镇邪破",
+    "actors": [
+      "景天",
+      "雪见",
+      "107",
+      "魔剑"
+    ],
+    "actorsText": "景天、雪见、107、魔剑",
+    "conditions": [
+      "327",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "conditionsText": "327、死亡、死亡、死亡",
+    "range": "全体",
+    "stats": {
+      "精": -1200
+    },
+    "effect": "",
+    "description": ""
+  }
+]

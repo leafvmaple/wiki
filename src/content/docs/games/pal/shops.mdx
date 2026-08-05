@@ -1,0 +1,17 @@
+---
+title: 商店一览
+description: 仙剑奇侠传商店货表，并标注店主与场景（能解析到的）。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-05'
+tableOfContents: false
+sidebar:
+  label: 商店一览
+---
+
+import PalDataTable from '../../../../components/PalDataTable.astro';
+
+货表来自 `DATA.MKF`；店主名与场景来自事件脚本的买入/卖出菜单（`0x0026` / `0x0027`）及 MSG 发言人。未能绑定场景的商店仍显示货表。
+
+<PalDataTable kind="shops" />

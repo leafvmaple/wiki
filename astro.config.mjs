@@ -166,6 +166,49 @@ export default defineConfig({
           ],
         },
         {
+          label: '仙剑奇侠传',
+          collapsed: true,
+          items: [
+            { label: '游戏总览', link: '/games/pal/' },
+            { label: '道具图鉴', link: '/games/pal/items/' },
+            { label: '装备图鉴', link: '/games/pal/equipment/' },
+            { label: '商店一览', link: '/games/pal/shops/' },
+            { label: '采集与宝箱', link: '/games/pal/treasures/' },
+            { label: '人物名录', link: '/games/pal/npcs/' },
+            { label: '场景一览', link: '/games/pal/locations/' },
+            { label: '数据说明', link: '/games/pal/data-notes/' },
+          ],
+        },
+        {
+          label: '仙剑奇侠传三',
+          collapsed: true,
+          items: [
+            { label: '游戏总览', link: '/games/pal3/' },
+            { label: '道具图鉴', link: '/games/pal3/items/' },
+            { label: '炼妖材料', link: '/games/pal3/items/plunder/' },
+            {
+              label: '装备图鉴',
+              items: [
+                { label: '防具饰品', link: '/games/pal3/equipment/' },
+                { label: '武器', link: '/games/pal3/equipment/weapons/' },
+              ],
+            },
+            {
+              label: '技能图鉴',
+              items: [
+                { label: '仙术', link: '/games/pal3/skills/magic/' },
+                { label: '特技', link: '/games/pal3/skills/techs/' },
+                { label: '合击', link: '/games/pal3/skills/combos/' },
+                { label: '敌方仙术库', link: '/games/pal3/skills/theurgy/' },
+              ],
+            },
+            { label: '商店一览', link: '/games/pal3/shops/' },
+            { label: '大地图地点', link: '/games/pal3/locations/' },
+            { label: '怪物图鉴', link: '/games/pal3/monsters/' },
+            { label: '数据说明', link: '/games/pal3/data-notes/' },
+          ],
+        },
+        {
           label: '星露谷物语',
           collapsed: true,
           items: [

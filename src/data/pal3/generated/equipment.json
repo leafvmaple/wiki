@@ -1,0 +1,4087 @@
+[
+  {
+    "id": 84001,
+    "name": "布袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 100,
+    "antiqueValue": 3,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 3
+    },
+    "effect": "防+3",
+    "description": "粗布缝制的交领长袍，市井中最常见的装束。",
+    "modelId": "YA",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84002,
+    "name": "软藤甲",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 300,
+    "antiqueValue": 2,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 5
+    },
+    "effect": "防+5",
+    "description": "以软质藤条编制的护甲，修炼外家功夫的武林人士常备。",
+    "modelId": "YB",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84003,
+    "name": "英雄氅",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 800,
+    "antiqueValue": 7,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 9
+    },
+    "effect": "土 防+9",
+    "description": "很受江湖豪客欢迎的外衣，穿上它会让人显得高大挺拔。",
+    "modelId": "YA",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84004,
+    "name": "流云披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1600,
+    "antiqueValue": 12,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 12
+    },
+    "effect": "防+12",
+    "description": "绣有浮云图案的披风，做工精细，质地轻薄。",
+    "modelId": "YC",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 84005,
+    "name": "松绿锦袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2000,
+    "antiqueValue": 17,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 18
+    },
+    "effect": "风 防+18",
+    "description": "薄而挺的绵袍，上面绣有华丽的花纹，在贵族子弟中很流行。",
+    "modelId": "YA",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 84006,
+    "name": "真元披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3500,
+    "antiqueValue": 21,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "精": 5,
+      "防": 25
+    },
+    "effect": "防+25 精恢复5%",
+    "description": "具有强化真元的功能，据说能够融合穿着者的真气。",
+    "modelId": "YC",
+    "imageId": 7,
+    "special": 32
+  },
+  {
+    "id": 84007,
+    "name": "火浣衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 5000,
+    "antiqueValue": 26,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 32,
+      "运": 1
+    },
+    "effect": "防+32 运+1",
+    "description": "石棉布制成的单衣，火烧不毁，牢固坚实。",
+    "modelId": "YD",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84008,
+    "name": "碧鳞甲",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 5300,
+    "antiqueValue": 34,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 35
+    },
+    "effect": "水 防+35",
+    "description": "传说是以蛟龙之鳞拼制而成的软甲，厚重而不乏华丽。",
+    "modelId": "YB",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84009,
+    "name": "金缕衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 7300,
+    "antiqueValue": 39,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 46,
+      "速": -1
+    },
+    "effect": "雷 防+46 速-1",
+    "description": "以金线穿玉片编制而成，精致美观，防护性绝佳。",
+    "modelId": "YB",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84010,
+    "name": "天师道袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 9000,
+    "antiqueValue": 45,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 58,
+      "运": 1
+    },
+    "effect": "风 防+58 运+1",
+    "description": "天师道祖的法衣，传说具有驱魔避邪功能，为仙家至宝。",
+    "modelId": "YA",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 84011,
+    "name": "乌蚕背心",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 9800,
+    "antiqueValue": 51,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 64
+    },
+    "effect": "土 防+64",
+    "description": "乌蚕丝织成的背心，极其坚韧，刀枪不入，水火不侵。",
+    "modelId": "YB",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 84012,
+    "name": "癸鬼袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 16500,
+    "antiqueValue": 59,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 75
+    },
+    "effect": "火 防+75",
+    "description": "蕴含有鬼力的道袍，传说可沟通阴阳两界。",
+    "modelId": "YA",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 84013,
+    "name": "鬼针胄",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 21000,
+    "antiqueValue": 67,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "武": 20,
+      "防": 72,
+      "速": -1
+    },
+    "effect": "雷 防+72 武+20 速-1",
+    "description": "布满倒刺的铜制软甲，攻守兼备，令人防不胜防。",
+    "modelId": "YB",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 84014,
+    "name": "青龙宝甲",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 28500,
+    "antiqueValue": 76,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 90
+    },
+    "effect": "雷 防+90",
+    "description": "龙鳞编缀而成的甲胄，是人世间的绝顶战甲。",
+    "modelId": "YB",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 84015,
+    "name": "玄武战袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 27000,
+    "antiqueValue": 84,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 90,
+      "速": -1
+    },
+    "effect": "土 防+90 速-1",
+    "description": "以玄武的甲壳锻造而成，轻巧坚韧，极为稀有难得。",
+    "modelId": "YD",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84016,
+    "name": "逍遥仙袍",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 50000,
+    "antiqueValue": 95,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 110,
+      "速": 1
+    },
+    "effect": "风 防+110 速+1",
+    "description": "上古仙人留下的神奇宝衣，传说穿上此衣可御风飞翔。",
+    "modelId": "YA",
+    "imageId": 8,
+    "special": 0
+  },
+  {
+    "id": 84017,
+    "name": "天帝祭服",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 55000,
+    "antiqueValue": 99,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 15,
+      "防": 115,
+      "速": -1
+    },
+    "effect": "水 防+115 速-1 精恢复15%",
+    "description": "天帝的法服，可承接天地之浩气，吸纳万物之元神。",
+    "modelId": "YA",
+    "imageId": 9,
+    "special": 0
+  },
+  {
+    "id": 84018,
+    "name": "通神",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 0,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "神界异宝，能破财挡灾。",
+    "modelId": "YH",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84101,
+    "name": "丝锻披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 130,
+    "antiqueValue": 3,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 4
+    },
+    "effect": "防+4",
+    "description": "上好的丝绸锦缎制成的披风，江南一带女子常备的服装。",
+    "modelId": "YC",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84102,
+    "name": "素纱衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 150,
+    "antiqueValue": 0,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 6,
+      "速": 1
+    },
+    "effect": "防+6 速+1",
+    "description": "以蚕丝制成，极为轻柔飘逸。通常罩在衣服外面作为装饰。",
+    "modelId": "YE",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84103,
+    "name": "青丝绣衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 250,
+    "antiqueValue": 5,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 10
+    },
+    "effect": "防+10",
+    "description": "青丝绣成的短装，做工精细，纹样华丽。",
+    "modelId": "YF",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84104,
+    "name": "纨素服",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 300,
+    "antiqueValue": 7,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 10
+    },
+    "effect": "土 防+10",
+    "description": "式样高雅庄重，由前朝宫廷服饰变化而来。",
+    "modelId": "YA",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84105,
+    "name": "紫锦深衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 950,
+    "antiqueValue": 1,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 22
+    },
+    "effect": "防+22",
+    "description": "紫色锦缎制成的外衣，式样宽松，光滑柔美。",
+    "modelId": "YA",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84106,
+    "name": "轻纱罗衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 600,
+    "antiqueValue": 8,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 16
+    },
+    "effect": "火 防+16",
+    "description": "又轻又薄的罗纱制成，纹理斑驳，飘逸秀丽。",
+    "modelId": "YE",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84107,
+    "name": "燕行衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 650,
+    "antiqueValue": 14,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 18
+    },
+    "effect": "防+18",
+    "description": "江湖侠女的夜行服，紧身窄袖，便于活动。",
+    "modelId": "YF",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84108,
+    "name": "云锦衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 800,
+    "antiqueValue": 16,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "防": 18,
+      "速": -1,
+      "运": 1
+    },
+    "effect": "防+18 速-1 运+1",
+    "description": "上等云锦裁制而成的女装，质地厚实而柔软。",
+    "modelId": "YF",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84109,
+    "name": "紫鲛衫",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1500,
+    "antiqueValue": 28,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 24,
+      "运": 1
+    },
+    "effect": "防+24 运+1",
+    "description": "具有防水作用的紧身水靠，海蛟皮制成。",
+    "modelId": "YF",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84110,
+    "name": "白绫石榴裙",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1500,
+    "antiqueValue": 29,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [],
+    "stats": {
+      "防": 25
+    },
+    "effect": "防+25",
+    "description": "裙幅层层折叠，错落有至，犹如盛开的石榴花。",
+    "modelId": "YG",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84111,
+    "name": "五彩苗裙",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3500,
+    "antiqueValue": 43,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 30
+    },
+    "effect": "火 防+30",
+    "description": "五彩丝线交错编织而成，从不同方向看呈现不同的色彩，是服饰中的珍品。",
+    "modelId": "YG",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84112,
+    "name": "百绣衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4000,
+    "antiqueValue": 40,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 30
+    },
+    "effect": "雷 防+30",
+    "description": "专为皇家定制，用一百种不同的刺绣方法绣成，为举世无双的珍品。",
+    "modelId": "YF",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 84113,
+    "name": "银狐氅",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4500,
+    "antiqueValue": 38,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 30,
+      "运": 1
+    },
+    "effect": "防+30 运+1",
+    "description": "用狐狸腋下的银色毛皮缝缀而成的披风，十分珍贵。",
+    "modelId": "YC",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 84114,
+    "name": "雪羽披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6500,
+    "antiqueValue": 55,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [],
+    "stats": {
+      "防": 40,
+      "速": -1
+    },
+    "effect": "防+40 速-1",
+    "description": "纯白的雪鸟羽毛制成的披风，轻软无比，甚至可随风飘起。",
+    "modelId": "YC",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84115,
+    "name": "流萦醉花衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 7500,
+    "antiqueValue": 54,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 40,
+      "运": 1
+    },
+    "effect": "土 防+40 运+1",
+    "description": "衣料经过了七七四十九天的熏香，因此富含奇香，经久不散。",
+    "modelId": "YE",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84116,
+    "name": "巫月柔甲",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 8500,
+    "antiqueValue": 67,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [],
+    "stats": {
+      "精": 5,
+      "防": 45
+    },
+    "effect": "防+45 精恢复5%",
+    "description": "用爬虫皮革制成的软甲，质地冰润柔软。",
+    "modelId": "YB",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 84117,
+    "name": "绛纱复裙",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 10000,
+    "antiqueValue": 64,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 58,
+      "速": -1
+    },
+    "effect": "火 防+58 速-1",
+    "description": "前朝风格的长裙，穿法特别而复杂，往往需要他人帮助才能穿上。",
+    "modelId": "YG",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 84118,
+    "name": "龙女纱",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 11000,
+    "antiqueValue": 75,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 60
+    },
+    "effect": "雷 防+60",
+    "description": "相传为龙宫里的龙女们所穿的衣服，宽大飘逸，柔软轻薄。",
+    "modelId": "YE",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84119,
+    "name": "青绮绫",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 13000,
+    "antiqueValue": 76,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 65
+    },
+    "effect": "风 防+65",
+    "description": "稀有的绮绫混织服，该种纺织技艺已经失传，世间仅有数件而已。",
+    "modelId": "YF",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 84120,
+    "name": "鲛绡",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 20000,
+    "antiqueValue": 83,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 75
+    },
+    "effect": "水 防+75",
+    "description": "海底蛟人所织，给龙王的贡品，不知缘何流落至人间。",
+    "modelId": "YF",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 84121,
+    "name": "凤纹披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 27500,
+    "antiqueValue": 85,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 85
+    },
+    "effect": "雷 防+85",
+    "description": "相传为织女缝制的披风，绣凤织锦，光彩夺目。",
+    "modelId": "YC",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84122,
+    "name": "圣灵披风",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 29500,
+    "antiqueValue": 89,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {
+      "防": 90,
+      "运": 1
+    },
+    "effect": "雷 防+90 运+1",
+    "description": "女娲一族世代相传的宝物，潜藏着神奇的力量。",
+    "modelId": "YC",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 84123,
+    "name": "九阴穹光衣",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 55000,
+    "antiqueValue": 96,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 15,
+      "防": 105
+    },
+    "effect": "水 防+105 精恢复15%",
+    "description": "吸纳月光灵力的法衣，在暗处可隐隐发光，是至阴至柔的仙袍。",
+    "modelId": "YE",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 84124,
+    "name": "九重天后裙",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 55000,
+    "antiqueValue": 97,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 120
+    },
+    "effect": "土 防+120",
+    "description": "天后的礼服，复杂华丽，庄重典雅，兼有皇家与仙家的气质。",
+    "modelId": "YG",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 84125,
+    "name": "广袖流仙裙",
+    "category": "身体",
+    "itemType": 7,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 52000,
+    "antiqueValue": 98,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 118
+    },
+    "effect": "火 防+118",
+    "description": "上古宫廷中的至宝，式样华丽无比。",
+    "modelId": "YG",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 80001,
+    "name": "头巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40,
+    "antiqueValue": 0,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 1
+    },
+    "effect": "防+1",
+    "description": "普通百姓佩戴的用来束发的布条，一般会和衣服的颜色搭配。",
+    "modelId": "MA",
+    "imageId": 4,
+    "special": null
+  },
+  {
+    "id": 80002,
+    "name": "绸布方巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 65,
+    "antiqueValue": 1,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 3
+    },
+    "effect": "防+3",
+    "description": "用上好的丝绸制成的方巾。在文人学士中很受欢迎，颇有儒雅风范。",
+    "modelId": "MA",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 80003,
+    "name": "浩然巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 100,
+    "antiqueValue": 3,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 6
+    },
+    "effect": "风 防+6",
+    "description": "做工十分精细的头巾。质地挺括，戴起来感觉神清气爽。",
+    "modelId": "MA",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 80004,
+    "name": "状元冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 200,
+    "antiqueValue": 7,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 10,
+      "运": 1
+    },
+    "effect": "防+10 运+1",
+    "description": "很受读书人喜爱的帽子。做工优良，式样别致。",
+    "modelId": "MB",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 80005,
+    "name": "诸葛巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 800,
+    "antiqueValue": 12,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 15
+    },
+    "effect": "雷 防+15",
+    "description": "用经过特殊加工的青丝制成，质地柔韧顺滑。",
+    "modelId": "MA",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 80006,
+    "name": "精铁发箍",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1000,
+    "antiqueValue": 15,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "防": 16
+    },
+    "effect": "防+16",
+    "description": "江湖豪侠用来束发的工具。用精铁锻造而成。",
+    "modelId": "MC",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 80007,
+    "name": "九阳帽",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2500,
+    "antiqueValue": 23,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 20,
+      "速": -1
+    },
+    "effect": "火 防+20 速-1",
+    "description": "江湖侠士所戴的帽子。分量虽重，但防护效果优良。",
+    "modelId": "MD",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80008,
+    "name": "五灵纶巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 5000,
+    "antiqueValue": 38,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "武": 1,
+      "防": 24
+    },
+    "effect": "防+24 武+1",
+    "description": "运用特殊的纺织方法，令头巾隐隐散发五彩灵光，是一件不可多得的宝物。",
+    "modelId": "MA",
+    "imageId": 8,
+    "special": 0
+  },
+  {
+    "id": 80009,
+    "name": "金刚斗笠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6000,
+    "antiqueValue": 48,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "防": 28,
+      "速": -1
+    },
+    "effect": "防+28 速-1",
+    "description": "青竹加乌钢丝编成的斗笠。极为坚固耐用，是行走江湖的至宝。",
+    "modelId": "ME",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80010,
+    "name": "玄天帽",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 8000,
+    "antiqueValue": 56,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 32
+    },
+    "effect": "水 防+32",
+    "description": "白色仿古的布制高冠，式样普通，但是上面刺绣的符咒含有法力。",
+    "modelId": "MB",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 80011,
+    "name": "五岳冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 15000,
+    "antiqueValue": 71,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 35,
+      "运": 1
+    },
+    "effect": "防+35 运+1",
+    "description": "造型庄重而威严的帽子，隐隐散发出的光芒显示它决非凡品。",
+    "modelId": "MB",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 80012,
+    "name": "冲天冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 18000,
+    "antiqueValue": 82,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 38,
+      "速": 1
+    },
+    "effect": "防+38 速+1",
+    "description": "天兵神将遗留的护头金盔，顶插双雉尾羽，十分威风。",
+    "modelId": "MD",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80013,
+    "name": "九龙紫金冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 38000,
+    "antiqueValue": 93,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 48
+    },
+    "effect": "雷 防+48",
+    "description": "极细的紫金丝编织而成，质地轻盈，具有非凡的神力。",
+    "modelId": "MB",
+    "imageId": 8,
+    "special": 0
+  },
+  {
+    "id": 80014,
+    "name": "瑞日临天冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 96,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 50
+    },
+    "effect": "火 防+50",
+    "description": "相传是日神所佩带的神冠，蕴含万道瑞气，可赐予人无上神力。",
+    "modelId": "MD",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 80015,
+    "name": "绿幞头",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 0,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "相传为附有恶咒的破财之冠。",
+    "modelId": "MJ",
+    "imageId": 1,
+    "special": null
+  },
+  {
+    "id": 80101,
+    "name": "青丝巾",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40,
+    "antiqueValue": 0,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 1,
+      "速": 1
+    },
+    "effect": "防+1 速+1",
+    "description": "青色的丝织发带，女子束扎头发必备之物。",
+    "modelId": "MA",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80102,
+    "name": "银凤钗",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 80,
+    "antiqueValue": 3,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 3
+    },
+    "effect": "防+3",
+    "description": "银制的头钗，为凤凰展翅造型，是民间非常流行的女子饰物。",
+    "modelId": "MF",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80103,
+    "name": "五彩花冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 150,
+    "antiqueValue": 0,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 6
+    },
+    "effect": "防+6",
+    "description": "五色绢花扎成的花冠，用来固定头发。色泽艳丽，栩栩如生。",
+    "modelId": "MG",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80104,
+    "name": "描金头帕",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 400,
+    "antiqueValue": 6,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [],
+    "stats": {
+      "防": 9
+    },
+    "effect": "防+9",
+    "description": "上好丝绸制成的头帕，上有金银丝绣成的花纹。",
+    "modelId": "MA",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80105,
+    "name": "翠玉金钗",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 600,
+    "antiqueValue": 11,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 10
+    },
+    "effect": "风 防+10",
+    "description": "镶嵌有上好翠玉的金钗，做工精细，质地优良。",
+    "modelId": "MF",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80106,
+    "name": "如意发带",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 850,
+    "antiqueValue": 9,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [],
+    "stats": {
+      "防": 13,
+      "运": 1
+    },
+    "effect": "防+13 运+1",
+    "description": "设计巧妙的发带，用七彩丝绳制成。配合不同的结法令发型有多种变化。",
+    "modelId": "MH",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80107,
+    "name": "凤凰翎",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1500,
+    "antiqueValue": 17,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 16,
+      "速": 1
+    },
+    "effect": "风 防+16 速+1",
+    "description": "金翅凤凰尾部的绿色羽毛，坚实而柔韧，是珍贵的头饰。",
+    "modelId": "MI",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80108,
+    "name": "珍珠冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3000,
+    "antiqueValue": 16,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {
+      "防": 18
+    },
+    "effect": "防+18",
+    "description": "苗族式样的红色锦冠，上面有珍珠缝缀的精美装饰。",
+    "modelId": "MB",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80109,
+    "name": "玉玲珑",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3500,
+    "antiqueValue": 23,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 22
+    },
+    "effect": "土 防+22",
+    "description": "羊脂白玉雕刻而成，用来固定头发，材质珍贵，做工精巧。",
+    "modelId": "MC",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 80110,
+    "name": "三色流金带",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6000,
+    "antiqueValue": 27,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "防": 28,
+      "运": 1
+    },
+    "effect": "防+28 运+1",
+    "description": "用紫金、赤金、黄金三色金丝织就的丝带，流光溢彩，堪称极品。",
+    "modelId": "MH",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80111,
+    "name": "神木簪",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 7000,
+    "antiqueValue": 33,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 30,
+      "运": 1
+    },
+    "effect": "防+30 运+1",
+    "description": "用千年沉香木雕刻而成的木簪子，幽香四逸，提神醒脑。",
+    "modelId": "MF",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 80112,
+    "name": "天蚕发带",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 12000,
+    "antiqueValue": 39,
+    "users": [
+      "雪见",
+      "龙葵"
+    ],
+    "equip": "雪见、龙葵",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 36
+    },
+    "effect": "水 防+36",
+    "description": "以极珍贵的天蚕丝织成。轻薄柔韧，利刃也不能损其分毫。",
+    "modelId": "MH",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 80113,
+    "name": "夜光七彩兜",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 11500,
+    "antiqueValue": 45,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {
+      "防": 36,
+      "速": 1
+    },
+    "effect": "防+36 速+1",
+    "description": "式样奇古的头巾，在幽暗的地方可以散发七彩斑斓的光芒，被视为圣物。",
+    "modelId": "MA",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 80114,
+    "name": "天冥束",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 17000,
+    "antiqueValue": 50,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 40,
+      "速": -1
+    },
+    "effect": "雷 防+40 速-1",
+    "description": "天然形成的发箍，质地非金非玉，坚硬而温润，十分稀有。",
+    "modelId": "MC",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80115,
+    "name": "阎后冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 18000,
+    "antiqueValue": 61,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 40,
+      "运": -1
+    },
+    "effect": "防+40 运-1",
+    "description": "传说中阎后娘娘所戴的帽子，材质珍贵，非人间之物。",
+    "modelId": "MB",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 80116,
+    "name": "九天玄女冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 38000,
+    "antiqueValue": 73,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 48,
+      "运": 1
+    },
+    "effect": "防+48 运+1",
+    "description": "九天玄女平魔荡妖时戴的发冠，具有无上的神力。",
+    "modelId": "MB",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 80117,
+    "name": "天魃圣泉冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 39000,
+    "antiqueValue": 89,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 55,
+      "速": -1,
+      "运": -1
+    },
+    "effect": "火 防+55 速-1 运-1",
+    "description": "相传是天女魃为了克制自己过于强大的灵力而佩戴的水晶冠。",
+    "modelId": "MB",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 80118,
+    "name": "梦华天蛇冠",
+    "category": "头部",
+    "itemType": 8,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 93,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 48,
+      "速": 1
+    },
+    "effect": "水 防+48 速+1",
+    "description": "传说中女娲娘娘佩带的发冠，有洞悉人心的神力。",
+    "modelId": "MC",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83001,
+    "name": "草鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 30,
+    "antiqueValue": 2,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 1
+    },
+    "effect": "防+1",
+    "description": "以蔺草编织而成，十分轻便，适宜日常穿着。",
+    "modelId": "XA",
+    "imageId": 1,
+    "special": null
+  },
+  {
+    "id": 83002,
+    "name": "布靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 150,
+    "antiqueValue": 2,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 4
+    },
+    "effect": "防+4",
+    "description": "粗布缝制的软底长靴。结实耐穿，是很常见的靴子。",
+    "modelId": "XB",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83003,
+    "name": "铁履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 700,
+    "antiqueValue": 8,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 9
+    },
+    "effect": "防+9",
+    "description": "鞋底镶嵌了铁片的短布靴，经久耐用，很受江湖豪侠的喜爱。",
+    "modelId": "XA",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83004,
+    "name": "虎头靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1500,
+    "antiqueValue": 17,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 15,
+      "速": 1
+    },
+    "effect": "防+15 速+1",
+    "description": "在靴子前头绣有虎头，做工优良，式样美观。",
+    "modelId": "XB",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83005,
+    "name": "钩镰鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3000,
+    "antiqueValue": 28,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 22
+    },
+    "effect": "风 防+22",
+    "description": "鞋头底部镶有凸起的倒刺，抓地性好，适合走山路。",
+    "modelId": "XA",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83006,
+    "name": "真武战靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 5500,
+    "antiqueValue": 41,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 30
+    },
+    "effect": "火 防+30",
+    "description": "靴的外表面包着一层精钢打造而成的鳞片，具有很强的防护功能。",
+    "modelId": "XB",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83007,
+    "name": "望仙鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 8800,
+    "antiqueValue": 55,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 35,
+      "运": 1
+    },
+    "effect": "防+35 运+1",
+    "description": "秦代的宫廷鞋履。据说经过方士的炼制处理，具有延年益寿的效果。",
+    "modelId": "XC",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83008,
+    "name": "王乔仙履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 21000,
+    "antiqueValue": 75,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 38,
+      "运": 1
+    },
+    "effect": "防+38 运+1",
+    "description": "东汉县令王乔升仙后留下的鞋，传说可自由变幻。",
+    "modelId": "XC",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83009,
+    "name": "魅影神靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 25000,
+    "antiqueValue": 80,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [],
+    "stats": {
+      "防": 40,
+      "速": 1
+    },
+    "effect": "风 防+40 速+1",
+    "description": "修习轻功的至宝，穿上此鞋如妖魔附体，身如魅影。",
+    "modelId": "XB",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 83010,
+    "name": "混天神鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 45000,
+    "antiqueValue": 91,
+    "users": [
+      "景天"
+    ],
+    "equip": "景天",
+    "elements": [],
+    "stats": {
+      "防": 55,
+      "运": 1,
+      "土": 1
+    },
+    "effect": "土 防+55 运+1",
+    "description": "神界的宝物。据说穿上它可以乘风步云。",
+    "modelId": "XA",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 83011,
+    "name": "荡魔战靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 42000,
+    "antiqueValue": 89,
+    "users": [
+      "长卿"
+    ],
+    "equip": "长卿",
+    "elements": [],
+    "stats": {
+      "防": 60,
+      "雷": 1
+    },
+    "effect": "雷 防+60",
+    "description": "神界的宝物，神将们斩妖除魔的战靴。",
+    "modelId": "XB",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 83012,
+    "name": "元宝靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 0,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "元宝形状的靴子，传说是可吸纳黄金而令自身增重的异物。",
+    "modelId": "XG",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83101,
+    "name": "绣花鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 120,
+    "antiqueValue": 3,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 1
+    },
+    "effect": "防+1",
+    "description": "民间女子常穿的鞋。 以丝缎缝制，鞋面绣有龙头凤尾花。",
+    "modelId": "XD",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83102,
+    "name": "鹿皮短靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 150,
+    "antiqueValue": 2,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 4,
+      "速": 1
+    },
+    "effect": "防+4 速+1",
+    "description": "广受江湖女子喜爱的轻便短靴，由鹿皮制成。",
+    "modelId": "XE",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83103,
+    "name": "凤头丝履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 600,
+    "antiqueValue": 5,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 9
+    },
+    "effect": "防+9",
+    "description": "鞋尖处有丝制的凤回头装饰，做工非常精致。流行于宫廷之中。",
+    "modelId": "XD",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83104,
+    "name": "青丝软履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 800,
+    "antiqueValue": 13,
+    "users": [
+      "雪见",
+      "紫萱"
+    ],
+    "equip": "雪见、紫萱",
+    "elements": [],
+    "stats": {
+      "防": 8,
+      "速": 1
+    },
+    "effect": "防+8 速+1",
+    "description": "用上乘的青丝缝制而成，仿古样式，轻软异常。",
+    "modelId": "XD",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83105,
+    "name": "木棉靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2000,
+    "antiqueValue": 15,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 15
+    },
+    "effect": "土 防+15",
+    "description": "由特别坚韧的木棉制成，防护性能很好。",
+    "modelId": "XF",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 83106,
+    "name": "鸳鸯履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2500,
+    "antiqueValue": 15,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 15
+    },
+    "effect": "水 防+15",
+    "description": "绣有鸳鸯图案，木底浅口，造型古朴，色彩艳丽。",
+    "modelId": "XD",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 83107,
+    "name": "白绸羽鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4000,
+    "antiqueValue": 32,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [],
+    "stats": {
+      "防": 18,
+      "速": 1
+    },
+    "effect": "防+18 速+1",
+    "description": "用羽毛和绸布一层一层拼接缝合而成，轻便而漂亮。",
+    "modelId": "XE",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83108,
+    "name": "鲷鳞靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4500,
+    "antiqueValue": 37,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 20
+    },
+    "effect": "雷 防+20",
+    "description": "鲷鱼的鱼皮鱼鳞经过特殊处理制成的靴子，既牢固又轻便。",
+    "modelId": "XF",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 83109,
+    "name": "莲花靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 7500,
+    "antiqueValue": 35,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 25
+    },
+    "effect": "防+25",
+    "description": "饰以金莲的高帮绣花鞋，很受江湖侠女喜爱的鞋子。",
+    "modelId": "XE",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83110,
+    "name": "双歧履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 8000,
+    "antiqueValue": 47,
+    "users": [
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "龙葵、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 25
+    },
+    "effect": "风 防+25",
+    "description": "尖头圆底，为来自西域的式样，柔软而牢固。",
+    "modelId": "XD",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 83111,
+    "name": "金镂鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 15000,
+    "antiqueValue": 49,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [],
+    "stats": {
+      "精": 10,
+      "防": 30
+    },
+    "effect": "防+30 精恢复10%",
+    "description": "鞋子分为两层，里层是棉布做成的鞋子；外层包裹着黄金雕刻而成的薄鞋套，精致漂亮。",
+    "modelId": "XE",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 83112,
+    "name": "白蟒靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 25000,
+    "antiqueValue": 50,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [],
+    "stats": {
+      "防": 38,
+      "运": 1
+    },
+    "effect": "防+38 运+1",
+    "description": "用珍稀的白蟒皮做成的短靴，价格非常昂贵。",
+    "modelId": "XF",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 83113,
+    "name": "蹙金云履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 25000,
+    "antiqueValue": 69,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [],
+    "stats": {
+      "防": 38,
+      "运": 1
+    },
+    "effect": "防+38 运+1",
+    "description": "以帛为鞋面，用金箔做装饰，传说其中蕴含有仙家法力。",
+    "modelId": "XD",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 83114,
+    "name": "五彩屐",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 26000,
+    "antiqueValue": 72,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 40
+    },
+    "effect": "土 防+40",
+    "description": "古代式样的木屐，鞋底有齿，鞋上有华丽的彩绘，并以五彩丝带系住。",
+    "modelId": "XD",
+    "imageId": 7,
+    "special": 0
+  },
+  {
+    "id": 83115,
+    "name": "踏云靴",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 45000,
+    "antiqueValue": 88,
+    "users": [
+      "雪见"
+    ],
+    "equip": "雪见",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "防": 60,
+      "速": 1
+    },
+    "effect": "风 防+60 速+1",
+    "description": "天女所穿的鞋，穿上后身轻如燕，据说可以翱翔于天际。",
+    "modelId": "XE",
+    "imageId": 5,
+    "special": 0
+  },
+  {
+    "id": 83116,
+    "name": "赤玉履",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 91,
+    "users": [
+      "龙葵"
+    ],
+    "equip": "龙葵",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "防": 60
+    },
+    "effect": "火 防+60",
+    "description": "相传为仙人留给秦始皇的仙履，缀有玛瑙和玉石装饰，华丽漂亮。",
+    "modelId": "XD",
+    "imageId": 8,
+    "special": 0
+  },
+  {
+    "id": 83117,
+    "name": "雪虹鞋",
+    "category": "足部",
+    "itemType": 9,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 42000,
+    "antiqueValue": 92,
+    "users": [
+      "紫萱"
+    ],
+    "equip": "紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 55,
+      "运": 1
+    },
+    "effect": "水 防+55 运+1",
+    "description": "出自极北苦寒之地，鞋上隐隐现出五色神光，如雪中彩虹。",
+    "modelId": "XE",
+    "imageId": 6,
+    "special": 0
+  },
+  {
+    "id": 8101,
+    "name": "护腕",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 70,
+    "antiqueValue": 1,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "土",
+    "description": "粗布缝制，饰以铜钉，用来保护手腕。",
+    "modelId": "PA",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8102,
+    "name": "香袋",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 100,
+    "antiqueValue": 0,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "神": 2
+    },
+    "effect": "火 神恢复2%",
+    "description": "填充有香料的布包，常用来装饰兼辟邪。",
+    "modelId": "PC",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8103,
+    "name": "银戒指",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 120,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "雷",
+    "description": "用纯银打造而成的戒指。",
+    "modelId": "PD",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8104,
+    "name": "竹笛",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 150,
+    "antiqueValue": 4,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "风 神耗-3%",
+    "description": "青竹削制之七孔横笛。",
+    "modelId": "PG",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8105,
+    "name": "金耳环",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 200,
+    "antiqueValue": 5,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "水",
+    "description": "用纯金打造而成的耳环。",
+    "modelId": "PE",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8106,
+    "name": "描金锦囊",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 450,
+    "antiqueValue": 7,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "火",
+    "description": "用金丝描边的织锦香囊，做工十分精细。",
+    "modelId": "PC",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8107,
+    "name": "牛皮板带",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 500,
+    "antiqueValue": 12,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 5
+    },
+    "effect": "土 防+5",
+    "description": "宽大厚实的护腰皮带，用上等牛皮制成。",
+    "modelId": "PB",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8108,
+    "name": "白玉手镯",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 600,
+    "antiqueValue": 14,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "水",
+    "description": "羊脂白玉雕刻而成，全无瑕疵。",
+    "modelId": "PF",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8109,
+    "name": "碧玉笛",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 700,
+    "antiqueValue": 20,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "风 神耗-5%",
+    "description": "碧玉制成的短笛，音质柔美。",
+    "modelId": "PG",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8110,
+    "name": "青铜护镜",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1250,
+    "antiqueValue": 21,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "防": 10
+    },
+    "effect": "雷 防+10",
+    "description": "青铜护心镜，古时战阵常用之物。",
+    "modelId": "PH",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8111,
+    "name": "金丝腰带",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1500,
+    "antiqueValue": 23,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "防": 15
+    },
+    "effect": "土 防+15",
+    "description": "用极细的金丝编织而成，华丽异常。",
+    "modelId": "PB",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8112,
+    "name": "翡翠耳坠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1600,
+    "antiqueValue": 30,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "风 特技+5%",
+    "description": "一对通体翠绿的翡翠耳坠，毫无瑕疵，价格不菲。",
+    "modelId": "PE",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8113,
+    "name": "天禄辟邪玉",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 1750,
+    "antiqueValue": 32,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "火 运+1 经验+5%",
+    "description": "雕成天禄模样的古玉，据说有辟邪作用。",
+    "modelId": "PI",
+    "imageId": 1,
+    "special": 20
+  },
+  {
+    "id": 8114,
+    "name": "隐身符",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2500,
+    "antiqueValue": 32,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "速": 1
+    },
+    "effect": "土 速+1",
+    "description": "可以用来隐身的护符，但是使用方法已经失传。",
+    "modelId": "PJ",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8115,
+    "name": "檀木佛珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2500,
+    "antiqueValue": 37,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "土 气耗-5%",
+    "description": "香檀木做成的佛珠，散发出一股沁人心脾的檀香。",
+    "modelId": "PK",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8116,
+    "name": "凤凰衣带",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2600,
+    "antiqueValue": 37,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "火 暴击+10%",
+    "description": "绣有凤凰图案的缎带，十分华丽漂亮。",
+    "modelId": "PB",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8117,
+    "name": "青玉飞天佩",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2550,
+    "antiqueValue": 40,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "运": 1
+    },
+    "effect": "风 运+1",
+    "description": "雕刻有飞天形象的玉佩，青玉制成。",
+    "modelId": "PI",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8118,
+    "name": "翡翠指环",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 2550,
+    "antiqueValue": 45,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "武": 5
+    },
+    "effect": "水 武+5",
+    "description": "通体由整块翡翠雕刻而成，出自名家之手，价值不菲。",
+    "modelId": "PD",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8119,
+    "name": "软玉手镯",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3800,
+    "antiqueValue": 46,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "神": 5
+    },
+    "effect": "火 神恢复5%",
+    "description": "不知什么朝代遗留下的古物，玉质细腻，入手温暖。",
+    "modelId": "PF",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8120,
+    "name": "紫晶项链",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3800,
+    "antiqueValue": 47,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "雷 气耗-10%",
+    "description": "紫水晶串成的项链，价值连城。",
+    "modelId": "PL",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8121,
+    "name": "玄铁护腕",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 3800,
+    "antiqueValue": 53,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "武": 5,
+      "防": 10
+    },
+    "effect": "雷 防+10 武+5",
+    "description": "万年玄铁打造而成的护腕，十分沉重，可御刀剑。",
+    "modelId": "PA",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8122,
+    "name": "太极护符",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4000,
+    "antiqueValue": 55,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": 5,
+      "防": 10
+    },
+    "effect": "火 防+10 精恢复5%",
+    "description": "刻有太极图的护符，附有仙家法力。",
+    "modelId": "PJ",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8123,
+    "name": "蟠龙玉佩",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 4000,
+    "antiqueValue": 57,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "土 暴击+15%",
+    "description": "浮雕有蟠龙的玉佩，是前朝宫廷御用之物。",
+    "modelId": "PI",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8124,
+    "name": "罗汉佛珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6000,
+    "antiqueValue": 65,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "武": -5
+    },
+    "effect": "土 武-5 气耗-20%",
+    "description": "一百零八颗佛珠上雕有一百零八罗汉，是佛门的宝物。",
+    "modelId": "PK",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8125,
+    "name": "龙骨吊坠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6500,
+    "antiqueValue": 71,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "雷 暴击+20%",
+    "description": "用传说中的龙骨制成，据说戴在身上有护身作用。",
+    "modelId": "PL",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8126,
+    "name": "祝融玉佩",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6000,
+    "antiqueValue": 72,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": 10
+    },
+    "effect": "火 精恢复10%",
+    "description": "用稀有的暖玉雕刻而成的玉佩，蕴含着火灵的力量。",
+    "modelId": "PI",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 8127,
+    "name": "驱魔护符",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 6000,
+    "antiqueValue": 74,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "武": 10,
+      "速": 1
+    },
+    "effect": "土 武+10 速+1",
+    "description": "写有神秘咒语的护符，具有除妖驱魔的神奇功效。",
+    "modelId": "PJ",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8128,
+    "name": "凤纹金扇",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 9500,
+    "antiqueValue": 79,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "武": 5,
+      "防": 5,
+      "运": 1
+    },
+    "effect": "风 防+5 武+5 运+1",
+    "description": "纯金扇骨的羽毛扇，用珍珠装饰成凤凰图案。",
+    "modelId": "PM",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8129,
+    "name": "豹牙手环",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 9500,
+    "antiqueValue": 79,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "武": 20
+    },
+    "effect": "雷 武+20",
+    "description": "花豹的犬齿串成的手环。",
+    "modelId": "PA",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8130,
+    "name": "摘星手套",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 9800,
+    "antiqueValue": 84,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "武": 10
+    },
+    "effect": "风 武+10 暴击+15%",
+    "description": "是多年以前，江湖上一位著名侠盗留下的宝物。",
+    "modelId": "PN",
+    "imageId": 1,
+    "special": 23
+  },
+  {
+    "id": 8131,
+    "name": "双虎兵符",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 10000,
+    "antiqueValue": 85,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "武": 15,
+      "速": 1
+    },
+    "effect": "火 武+10 速+1",
+    "description": "前朝兵符，不知如何流传到民间。",
+    "modelId": "PO",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8132,
+    "name": "阎王令",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 10500,
+    "antiqueValue": 87,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "武": 30,
+      "防": -10
+    },
+    "effect": "水 防-10 武+30",
+    "description": "据说是地府的阎王缉鬼勾魂的令牌。",
+    "modelId": "PJ",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 8133,
+    "name": "仙草结",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 18000,
+    "antiqueValue": 91,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": 10
+    },
+    "effect": "风 精恢复10% 特技+2%",
+    "description": "用仙界的仙草编制而成的吉祥如意结。",
+    "modelId": "PP",
+    "imageId": 1,
+    "special": 22
+  },
+  {
+    "id": 8134,
+    "name": "聚宝盆",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 24000,
+    "antiqueValue": 93,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "火 经验+15%",
+    "description": "传说中可令宝物增生的神奇之物。",
+    "modelId": "PQ",
+    "imageId": 1,
+    "special": 21
+  },
+  {
+    "id": 8135,
+    "name": "狼齿链",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 24000,
+    "antiqueValue": 95,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "武": 20
+    },
+    "effect": "水 武+20",
+    "description": "用千年妖狼的牙齿打磨而成的项链。",
+    "modelId": "PL",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8136,
+    "name": "镇魔槌",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 26000,
+    "antiqueValue": 95,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "气": 10,
+      "武": 15
+    },
+    "effect": "雷 武+15 气恢复10%",
+    "description": "表面写满符咒的紫金锤，蕴含着很强的法力。",
+    "modelId": "PR",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8137,
+    "name": "冰晶戒指",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 26000,
+    "antiqueValue": 95,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 20
+    },
+    "effect": "水 防+20 神耗-10%",
+    "description": "北方极寒之地的千年冰魄制成的戒指，具有凝神静气的功效。",
+    "modelId": "PD",
+    "imageId": 3,
+    "special": 0
+  },
+  {
+    "id": 8138,
+    "name": "寿葫芦",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 25000,
+    "antiqueValue": 96,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "运": 1
+    },
+    "effect": "土 运+1 气耗神耗-10%",
+    "description": "可源源不断地涌出真气，为武林中的至宝。",
+    "modelId": "PS",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8139,
+    "name": "天冥宝戒",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 45000,
+    "antiqueValue": 98,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "气": 15,
+      "防": 10
+    },
+    "effect": "雷 防+10 气恢复15%",
+    "description": "上古仙人留下来的宝戒，蕴含有无穷的灵力。",
+    "modelId": "PD",
+    "imageId": 4,
+    "special": 0
+  },
+  {
+    "id": 8140,
+    "name": "封神结",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 43000,
+    "antiqueValue": 98,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "神": 15,
+      "防": 10
+    },
+    "effect": "风 防+10 神恢复15%",
+    "description": "蕴含有强大的力量，只要使用得法，便能束缚万物。",
+    "modelId": "PP",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8141,
+    "name": "天河水石",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 98,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "水 暴击+20%",
+    "description": "产于神界天河之中，能吸取日月精华。",
+    "modelId": "PV",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8142,
+    "name": "魔兽角",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 99,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "武": 35,
+      "防": -10
+    },
+    "effect": "土 防-10 武+35",
+    "description": "上古魔兽的独角，尖锐而犀利。",
+    "modelId": "PT",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8143,
+    "name": "追风头带",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 40000,
+    "antiqueValue": 97,
+    "users": [
+      "景天",
+      "长卿"
+    ],
+    "equip": "景天、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "气": 5,
+      "武": 10,
+      "速": 1
+    },
+    "effect": "风 武+10 速+1 气恢复5%",
+    "description": "上书“风”字的头带，看似数百年前的古物。",
+    "modelId": "PU",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8144,
+    "name": "蓬莱仙珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 41000,
+    "antiqueValue": 99,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "防": 10
+    },
+    "effect": "水 防+10 经验+20%",
+    "description": "流落凡间的仙界至宝，没有人知道如何运用它的强大法力。",
+    "modelId": "PV",
+    "imageId": 2,
+    "special": 24
+  },
+  {
+    "id": 8145,
+    "name": "昆仑宝盖",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 44000,
+    "antiqueValue": 99,
+    "users": [
+      "雪见",
+      "龙葵",
+      "紫萱"
+    ],
+    "equip": "雪见、龙葵、紫萱",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "武": 5,
+      "防": 15,
+      "运": 1
+    },
+    "effect": "火 防+15 武+5 运+1",
+    "description": "道家的至宝，一直收藏在昆仑山。",
+    "modelId": "PH",
+    "imageId": 2,
+    "special": 0
+  },
+  {
+    "id": 8146,
+    "name": "风灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的风系灵珠。",
+    "modelId": "P1",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8147,
+    "name": "雷灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的雷系灵珠。",
+    "modelId": "P2",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8148,
+    "name": "水灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的水系灵珠。",
+    "modelId": "P3",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8149,
+    "name": "火灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的火系灵珠。",
+    "modelId": "P4",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8150,
+    "name": "土灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的土系灵珠。",
+    "modelId": "P5",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8151,
+    "name": "圣灵珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [
+      "水",
+      "火",
+      "风",
+      "雷",
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着无穷法力的神圣灵珠。",
+    "modelId": "P6",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8152,
+    "name": "五毒珠",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": null,
+    "antiqueValue": null,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "蕴含着巨大力量的神奇毒珠。",
+    "modelId": "P7",
+    "imageId": 1,
+    "special": null
+  },
+  {
+    "id": 8153,
+    "name": "右利",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 0,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "用不知名贝壳的右扇做成的饰品。传说它和异界神器有关。",
+    "modelId": "P8",
+    "imageId": 1,
+    "special": 0
+  },
+  {
+    "id": 8154,
+    "name": "左利",
+    "category": "佩戴",
+    "itemType": 10,
+    "typeVal": 0,
+    "weaponClass": null,
+    "price": 0,
+    "antiqueValue": 0,
+    "users": [
+      "景天",
+      "雪见",
+      "龙葵",
+      "紫萱",
+      "长卿"
+    ],
+    "equip": "景天、雪见、龙葵、紫萱、长卿",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "用不知名贝壳的左扇做成的饰品。传说它和异界神器有关。",
+    "modelId": "P8",
+    "imageId": 2,
+    "special": 0
+  }
+]

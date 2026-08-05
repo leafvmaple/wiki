@@ -1,0 +1,2914 @@
+[
+  {
+    "id": "24",
+    "name": {
+      "zh": "投掷",
+      "en": "投掷"
+    },
+    "price": 0,
+    "bitmap": 96,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "163",
+    "name": {
+      "zh": "长鞭",
+      "en": "长鞭"
+    },
+    "price": 1700,
+    "bitmap": 16,
+    "flags": 302,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "164",
+    "name": {
+      "zh": "九截鞭",
+      "en": "九截鞭"
+    },
+    "price": 4400,
+    "bitmap": 18,
+    "flags": 302,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "165",
+    "name": {
+      "zh": "金蛇鞭",
+      "en": "金蛇鞭"
+    },
+    "price": 10100,
+    "bitmap": 20,
+    "flags": 302,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "166",
+    "name": {
+      "zh": "木剑",
+      "en": "木剑"
+    },
+    "price": 50,
+    "bitmap": 56,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "167",
+    "name": {
+      "zh": "短刀",
+      "en": "短刀"
+    },
+    "price": 200,
+    "bitmap": 48,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "168",
+    "name": {
+      "zh": "铁剑",
+      "en": "铁剑"
+    },
+    "price": 850,
+    "bitmap": 49,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "169",
+    "name": {
+      "zh": "大刀",
+      "en": "大刀"
+    },
+    "price": 900,
+    "bitmap": 76,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "170",
+    "name": {
+      "zh": "仙女剑",
+      "en": "仙女剑"
+    },
+    "price": 2000,
+    "bitmap": 63,
+    "flags": 174,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "171",
+    "name": {
+      "zh": "长剑",
+      "en": "长剑"
+    },
+    "price": 1500,
+    "bitmap": 59,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "172",
+    "name": {
+      "zh": "红缨刀",
+      "en": "红缨刀"
+    },
+    "price": 1950,
+    "bitmap": 52,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "173",
+    "name": {
+      "zh": "越女剑",
+      "en": "越女剑"
+    },
+    "price": 1000,
+    "bitmap": 184,
+    "flags": 430,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "174",
+    "name": {
+      "zh": "戒刀",
+      "en": "戒刀"
+    },
+    "price": 2500,
+    "bitmap": 60,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "175",
+    "name": {
+      "zh": "玄铁剑",
+      "en": "玄铁剑"
+    },
+    "price": 4800,
+    "bitmap": 88,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "176",
+    "name": {
+      "zh": "芙蓉刀",
+      "en": "芙蓉刀"
+    },
+    "price": 1300,
+    "bitmap": 64,
+    "flags": 174,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "177",
+    "name": {
+      "zh": "柳月刀",
+      "en": "柳月刀"
+    },
+    "price": 2600,
+    "bitmap": 77,
+    "flags": 174,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "178",
+    "name": {
+      "zh": "青锋剑",
+      "en": "青锋剑"
+    },
+    "price": 5100,
+    "bitmap": 58,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "179",
+    "name": {
+      "zh": "苗刀",
+      "en": "苗刀"
+    },
+    "price": 5000,
+    "bitmap": 51,
+    "flags": 1070,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "180",
+    "name": {
+      "zh": "凤鸣刀",
+      "en": "凤鸣刀"
+    },
+    "price": 14000,
+    "bitmap": 66,
+    "flags": 302,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "181",
+    "name": {
+      "zh": "双龙剑",
+      "en": "双龙剑"
+    },
+    "price": 7200,
+    "bitmap": 61,
+    "flags": 174,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "182",
+    "name": {
+      "zh": "玉女剑",
+      "en": "玉女剑"
+    },
+    "price": 12000,
+    "bitmap": 62,
+    "flags": 430,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "183",
+    "name": {
+      "zh": "金童剑",
+      "en": "金童剑"
+    },
+    "price": 12000,
+    "bitmap": 54,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "184",
+    "name": {
+      "zh": "龙泉剑",
+      "en": "龙泉剑"
+    },
+    "price": 9000,
+    "bitmap": 50,
+    "flags": 366,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "185",
+    "name": {
+      "zh": "鬼牙刀",
+      "en": "鬼牙刀"
+    },
+    "price": 13000,
+    "bitmap": 65,
+    "flags": 1070,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "186",
+    "name": {
+      "zh": "七星剑",
+      "en": "七星剑"
+    },
+    "price": 16000,
+    "bitmap": 57,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "187",
+    "name": {
+      "zh": "玄冥宝刀",
+      "en": "玄冥宝刀"
+    },
+    "price": 20000,
+    "bitmap": 67,
+    "flags": 1070,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "188",
+    "name": {
+      "zh": "巫月神刀",
+      "en": "巫月神刀"
+    },
+    "price": 28000,
+    "bitmap": 53,
+    "flags": 1070,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "189",
+    "name": {
+      "zh": "磐龙剑",
+      "en": "磐龙剑"
+    },
+    "price": 24000,
+    "bitmap": 55,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "190",
+    "name": {
+      "zh": "太极剑",
+      "en": "太极剑"
+    },
+    "price": 30000,
+    "bitmap": 185,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "191",
+    "name": {
+      "zh": "无尘剑",
+      "en": "无尘剑"
+    },
+    "price": 32000,
+    "bitmap": 186,
+    "flags": 110,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "192",
+    "name": {
+      "zh": "青蛇杖",
+      "en": "青蛇杖"
+    },
+    "price": 6500,
+    "bitmap": 71,
+    "flags": 1198,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "193",
+    "name": {
+      "zh": "鬼头杖",
+      "en": "鬼头杖"
+    },
+    "price": 14000,
+    "bitmap": 69,
+    "flags": 1198,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "194",
+    "name": {
+      "zh": "冥蛇杖",
+      "en": "冥蛇杖"
+    },
+    "price": 27000,
+    "bitmap": 70,
+    "flags": 1198,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "195",
+    "name": {
+      "zh": "天蛇杖",
+      "en": "天蛇杖"
+    },
+    "price": 31000,
+    "bitmap": 68,
+    "flags": 682,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "196",
+    "name": {
+      "zh": "头巾",
+      "en": "头巾"
+    },
+    "price": 40,
+    "bitmap": 176,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "197",
+    "name": {
+      "zh": "青丝巾",
+      "en": "青丝巾"
+    },
+    "price": 100,
+    "bitmap": 169,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "198",
+    "name": {
+      "zh": "发饰",
+      "en": "发饰"
+    },
+    "price": 60,
+    "bitmap": 177,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "199",
+    "name": {
+      "zh": "银钗",
+      "en": "银钗"
+    },
+    "price": 420,
+    "bitmap": 145,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "200",
+    "name": {
+      "zh": "翠玉金钗",
+      "en": "翠玉金钗"
+    },
+    "price": 1800,
+    "bitmap": 178,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "201",
+    "name": {
+      "zh": "皮帽",
+      "en": "皮帽"
+    },
+    "price": 390,
+    "bitmap": 85,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "202",
+    "name": {
+      "zh": "珍珠冠",
+      "en": "珍珠冠"
+    },
+    "price": 2700,
+    "bitmap": 182,
+    "flags": 1578,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "203",
+    "name": {
+      "zh": "天师帽",
+      "en": "天师帽"
+    },
+    "price": 3300,
+    "bitmap": 180,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "204",
+    "name": {
+      "zh": "紫金冠",
+      "en": "紫金冠"
+    },
+    "price": 5600,
+    "bitmap": 181,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "205",
+    "name": {
+      "zh": "天蚕丝带",
+      "en": "天蚕丝带"
+    },
+    "price": 11000,
+    "bitmap": 168,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "206",
+    "name": {
+      "zh": "凤凰羽毛",
+      "en": "凤凰羽毛"
+    },
+    "price": 5000,
+    "bitmap": 206,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "207",
+    "name": {
+      "zh": "冲天冠",
+      "en": "冲天冠"
+    },
+    "price": 19800,
+    "bitmap": 183,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "208",
+    "name": {
+      "zh": "布袍",
+      "en": "布袍"
+    },
+    "price": 100,
+    "bitmap": 78,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "209",
+    "name": {
+      "zh": "藤甲",
+      "en": "藤甲"
+    },
+    "price": 400,
+    "bitmap": 74,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "210",
+    "name": {
+      "zh": "丝衣",
+      "en": "丝衣"
+    },
+    "price": 750,
+    "bitmap": 198,
+    "flags": 1962,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "211",
+    "name": {
+      "zh": "铁锁衣",
+      "en": "铁锁衣"
+    },
+    "price": 1230,
+    "bitmap": 213,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "212",
+    "name": {
+      "zh": "夜行衣",
+      "en": "夜行衣"
+    },
+    "price": 2000,
+    "bitmap": 82,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "213",
+    "name": {
+      "zh": "青铜甲",
+      "en": "青铜甲"
+    },
+    "price": 3200,
+    "bitmap": 225,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "214",
+    "name": {
+      "zh": "罗汉袍",
+      "en": "罗汉袍"
+    },
+    "price": 4000,
+    "bitmap": 187,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "215",
+    "name": {
+      "zh": "铁鳞甲",
+      "en": "铁鳞甲"
+    },
+    "price": 6500,
+    "bitmap": 79,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "216",
+    "name": {
+      "zh": "天师道袍",
+      "en": "天师道袍"
+    },
+    "price": 8000,
+    "bitmap": 75,
+    "flags": 362,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "217",
+    "name": {
+      "zh": "精铁战甲",
+      "en": "精铁战甲"
+    },
+    "price": 9900,
+    "bitmap": 83,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "218",
+    "name": {
+      "zh": "金缕衣",
+      "en": "金缕衣"
+    },
+    "price": 12000,
+    "bitmap": 208,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "219",
+    "name": {
+      "zh": "鬼针胄",
+      "en": "鬼针胄"
+    },
+    "price": 14800,
+    "bitmap": 93,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "220",
+    "name": {
+      "zh": "天蚕宝衣",
+      "en": "天蚕宝衣"
+    },
+    "price": 18000,
+    "bitmap": 230,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "221",
+    "name": {
+      "zh": "青龙宝甲",
+      "en": "青龙宝甲"
+    },
+    "price": 29500,
+    "bitmap": 209,
+    "flags": 170,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "222",
+    "name": {
+      "zh": "白虎之铠",
+      "en": "白虎之铠"
+    },
+    "price": 22000,
+    "bitmap": 210,
+    "flags": 426,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "223",
+    "name": {
+      "zh": "玄武战袍",
+      "en": "玄武战袍"
+    },
+    "price": 25000,
+    "bitmap": 89,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "224",
+    "name": {
+      "zh": "朱雀战衣",
+      "en": "朱雀战衣"
+    },
+    "price": 24000,
+    "bitmap": 228,
+    "flags": 1066,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "225",
+    "name": {
+      "zh": "披风",
+      "en": "披风"
+    },
+    "price": 160,
+    "bitmap": 95,
+    "flags": 362,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "226",
+    "name": {
+      "zh": "护肩",
+      "en": "护肩"
+    },
+    "price": 400,
+    "bitmap": 84,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "227",
+    "name": {
+      "zh": "武士披风",
+      "en": "武士披风"
+    },
+    "price": 900,
+    "bitmap": 91,
+    "flags": 362,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "228",
+    "name": {
+      "zh": "护心镜",
+      "en": "护心镜"
+    },
+    "price": 2000,
+    "bitmap": 94,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "229",
+    "name": {
+      "zh": "霓虹羽衣",
+      "en": "霓虹羽衣"
+    },
+    "price": 3900,
+    "bitmap": 229,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "230",
+    "name": {
+      "zh": "菩提袈裟",
+      "en": "菩提袈裟"
+    },
+    "price": 4100,
+    "bitmap": 205,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "231",
+    "name": {
+      "zh": "虎纹披风",
+      "en": "虎纹披风"
+    },
+    "price": 9000,
+    "bitmap": 90,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "232",
+    "name": {
+      "zh": "凤纹披风",
+      "en": "凤纹披风"
+    },
+    "price": 15000,
+    "bitmap": 87,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "233",
+    "name": {
+      "zh": "龙纹披风",
+      "en": "龙纹披风"
+    },
+    "price": 16000,
+    "bitmap": 86,
+    "flags": 234,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "234",
+    "name": {
+      "zh": "圣灵披风",
+      "en": "圣灵披风"
+    },
+    "price": 30000,
+    "bitmap": 226,
+    "flags": 682,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "235",
+    "name": {
+      "zh": "草鞋",
+      "en": "草鞋"
+    },
+    "price": 30,
+    "bitmap": 97,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "236",
+    "name": {
+      "zh": "木鞋",
+      "en": "木鞋"
+    },
+    "price": 80,
+    "bitmap": 98,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "237",
+    "name": {
+      "zh": "布靴",
+      "en": "布靴"
+    },
+    "price": 120,
+    "bitmap": 212,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "238",
+    "name": {
+      "zh": "绣花鞋",
+      "en": "绣花鞋"
+    },
+    "price": 450,
+    "bitmap": 107,
+    "flags": 426,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "239",
+    "name": {
+      "zh": "铁履",
+      "en": "铁履"
+    },
+    "price": 1100,
+    "bitmap": 96,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "240",
+    "name": {
+      "zh": "武僧靴",
+      "en": "武僧靴"
+    },
+    "price": 2000,
+    "bitmap": 102,
+    "flags": 106,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "241",
+    "name": {
+      "zh": "鹿皮靴",
+      "en": "鹿皮靴"
+    },
+    "price": 3900,
+    "bitmap": 105,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "242",
+    "name": {
+      "zh": "疾风靴",
+      "en": "疾风靴"
+    },
+    "price": 5700,
+    "bitmap": 100,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "243",
+    "name": {
+      "zh": "莲花靴",
+      "en": "莲花靴"
+    },
+    "price": 6000,
+    "bitmap": 101,
+    "flags": 938,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "244",
+    "name": {
+      "zh": "虎皮靴",
+      "en": "虎皮靴"
+    },
+    "price": 9000,
+    "bitmap": 106,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "245",
+    "name": {
+      "zh": "龙鳞靴",
+      "en": "龙鳞靴"
+    },
+    "price": 10000,
+    "bitmap": 103,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "246",
+    "name": {
+      "zh": "步云靴",
+      "en": "步云靴"
+    },
+    "price": 18000,
+    "bitmap": 104,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "247",
+    "name": {
+      "zh": "魅影神靴",
+      "en": "魅影神靴"
+    },
+    "price": 27000,
+    "bitmap": 99,
+    "flags": 490,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "248",
+    "name": {
+      "zh": "香袋",
+      "en": "香袋"
+    },
+    "price": 10,
+    "bitmap": 227,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "249",
+    "name": {
+      "zh": "护腕",
+      "en": "护腕"
+    },
+    "price": 70,
+    "bitmap": 224,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "250",
+    "name": {
+      "zh": "铁护腕",
+      "en": "铁护腕"
+    },
+    "price": 360,
+    "bitmap": 10,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "251",
+    "name": {
+      "zh": "竹笛",
+      "en": "竹笛"
+    },
+    "price": 100,
+    "bitmap": 128,
+    "flags": 1522,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "252",
+    "name": {
+      "zh": "珍珠",
+      "en": "珍珠"
+    },
+    "price": 400,
+    "bitmap": 140,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "253",
+    "name": {
+      "zh": "玉镯",
+      "en": "玉镯"
+    },
+    "price": 950,
+    "bitmap": 29,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "254",
+    "name": {
+      "zh": "念珠",
+      "en": "念珠"
+    },
+    "price": 70,
+    "bitmap": 117,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "256",
+    "name": {
+      "zh": "铜镜",
+      "en": "铜镜"
+    },
+    "price": 800,
+    "bitmap": 24,
+    "flags": 1450,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "257",
+    "name": {
+      "zh": "八卦镜",
+      "en": "八卦镜"
+    },
+    "price": 3100,
+    "bitmap": 38,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "258",
+    "name": {
+      "zh": "干坤镜",
+      "en": "干坤镜"
+    },
+    "price": 4900,
+    "bitmap": 39,
+    "flags": 1514,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "259",
+    "name": {
+      "zh": "豹牙手环",
+      "en": "豹牙手环"
+    },
+    "price": 4400,
+    "bitmap": 25,
+    "flags": 2026,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "260",
+    "name": {
+      "zh": "圣灵珠",
+      "en": "圣灵珠"
+    },
+    "price": 0,
+    "bitmap": 2,
+    "flags": 659,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "261",
+    "name": {
+      "zh": "金罡珠",
+      "en": "金罡珠"
+    },
+    "price": 10000,
+    "bitmap": 13,
+    "flags": 1506,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "262",
+    "name": {
+      "zh": "五毒珠",
+      "en": "五毒珠"
+    },
+    "price": 10000,
+    "bitmap": 3,
+    "flags": 1506,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "263",
+    "name": {
+      "zh": "风灵珠",
+      "en": "风灵珠"
+    },
+    "price": 0,
+    "bitmap": 7,
+    "flags": 1491,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "264",
+    "name": {
+      "zh": "雷灵珠",
+      "en": "雷灵珠"
+    },
+    "price": 0,
+    "bitmap": 5,
+    "flags": 1491,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "265",
+    "name": {
+      "zh": "水灵珠",
+      "en": "水灵珠"
+    },
+    "price": 0,
+    "bitmap": 1,
+    "flags": 1491,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "266",
+    "name": {
+      "zh": "火灵珠",
+      "en": "火灵珠"
+    },
+    "price": 0,
+    "bitmap": 4,
+    "flags": 1491,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "267",
+    "name": {
+      "zh": "土灵珠",
+      "en": "土灵珠"
+    },
+    "price": 0,
+    "bitmap": 6,
+    "flags": 1491,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "269",
+    "name": {
+      "zh": "寿葫芦",
+      "en": "寿葫芦"
+    },
+    "price": 8600,
+    "bitmap": 8,
+    "flags": 1506,
+    "category": "equipment",
+    "sellable": true,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "274",
+    "name": {
+      "zh": "玉佛珠",
+      "en": "玉佛珠"
+    },
+    "price": 0,
+    "bitmap": 11,
+    "flags": 130,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "295",
+    "name": {
+      "zh": "梦蛇",
+      "en": "梦蛇"
+    },
+    "price": 0,
+    "bitmap": 47,
+    "flags": 18,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "296",
+    "name": {
+      "zh": "气疗术",
+      "en": "气疗术"
+    },
+    "price": 0,
+    "bitmap": 33,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "297",
+    "name": {
+      "zh": "观音咒",
+      "en": "观音咒"
+    },
+    "price": 0,
+    "bitmap": 35,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "298",
+    "name": {
+      "zh": "凝神归元",
+      "en": "凝神归元"
+    },
+    "price": 0,
+    "bitmap": 34,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "299",
+    "name": {
+      "zh": "元灵归心术",
+      "en": "元灵归心术"
+    },
+    "price": 0,
+    "bitmap": 51,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "300",
+    "name": {
+      "zh": "五气朝元",
+      "en": "五气朝元"
+    },
+    "price": 0,
+    "bitmap": 46,
+    "flags": 19,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "301",
+    "name": {
+      "zh": "还魂咒",
+      "en": "还魂咒"
+    },
+    "price": 0,
+    "bitmap": 36,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "302",
+    "name": {
+      "zh": "赎魂",
+      "en": "赎魂"
+    },
+    "price": 0,
+    "bitmap": 37,
+    "flags": 3,
+    "category": "equipment",
+    "sellable": false,
+    "usable": true,
+    "equipable": true
+  },
+  {
+    "id": "303",
+    "name": {
+      "zh": "回梦",
+      "en": "回梦"
+    },
+    "price": 0,
+    "bitmap": 66,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "304",
+    "name": {
+      "zh": "夺魂",
+      "en": "夺魂"
+    },
+    "price": 0,
+    "bitmap": 67,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "305",
+    "name": {
+      "zh": "鬼降",
+      "en": "鬼降"
+    },
+    "price": 0,
+    "bitmap": 68,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "306",
+    "name": {
+      "zh": "净衣咒",
+      "en": "净衣咒"
+    },
+    "price": 0,
+    "bitmap": 38,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "307",
+    "name": {
+      "zh": "冰心诀",
+      "en": "冰心诀"
+    },
+    "price": 0,
+    "bitmap": 31,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "308",
+    "name": {
+      "zh": "灵血咒",
+      "en": "灵血咒"
+    },
+    "price": 0,
+    "bitmap": 52,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "309",
+    "name": {
+      "zh": "金刚咒",
+      "en": "金刚咒"
+    },
+    "price": 0,
+    "bitmap": 39,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "310",
+    "name": {
+      "zh": "真元护体",
+      "en": "真元护体"
+    },
+    "price": 0,
+    "bitmap": 40,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "311",
+    "name": {
+      "zh": "天罡战气",
+      "en": "天罡战气"
+    },
+    "price": 0,
+    "bitmap": 41,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "312",
+    "name": {
+      "zh": "风咒",
+      "en": "风咒"
+    },
+    "price": 0,
+    "bitmap": 0,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "313",
+    "name": {
+      "zh": "旋风咒",
+      "en": "旋风咒"
+    },
+    "price": 0,
+    "bitmap": 5,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "314",
+    "name": {
+      "zh": "风卷残云",
+      "en": "风卷残云"
+    },
+    "price": 0,
+    "bitmap": 72,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "315",
+    "name": {
+      "zh": "风神",
+      "en": "风神"
+    },
+    "price": 0,
+    "bitmap": 73,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "316",
+    "name": {
+      "zh": "雷咒",
+      "en": "雷咒"
+    },
+    "price": 0,
+    "bitmap": 1,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "317",
+    "name": {
+      "zh": "五雷咒",
+      "en": "五雷咒"
+    },
+    "price": 0,
+    "bitmap": 6,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "318",
+    "name": {
+      "zh": "天雷破",
+      "en": "天雷破"
+    },
+    "price": 0,
+    "bitmap": 64,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "319",
+    "name": {
+      "zh": "狂雷",
+      "en": "狂雷"
+    },
+    "price": 0,
+    "bitmap": 77,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "320",
+    "name": {
+      "zh": "雷神",
+      "en": "雷神"
+    },
+    "price": 0,
+    "bitmap": 76,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "321",
+    "name": {
+      "zh": "冰咒",
+      "en": "冰咒"
+    },
+    "price": 0,
+    "bitmap": 2,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "322",
+    "name": {
+      "zh": "玄冰咒",
+      "en": "玄冰咒"
+    },
+    "price": 0,
+    "bitmap": 7,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "323",
+    "name": {
+      "zh": "风雪冰天",
+      "en": "风雪冰天"
+    },
+    "price": 0,
+    "bitmap": 23,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "324",
+    "name": {
+      "zh": "风雪冰天1",
+      "en": "风雪冰天1"
+    },
+    "price": 0,
+    "bitmap": 92,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "325",
+    "name": {
+      "zh": "雪妖",
+      "en": "雪妖"
+    },
+    "price": 0,
+    "bitmap": 22,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "326",
+    "name": {
+      "zh": "火术",
+      "en": "火术"
+    },
+    "price": 0,
+    "bitmap": 3,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "327",
+    "name": {
+      "zh": "炎咒",
+      "en": "炎咒"
+    },
+    "price": 0,
+    "bitmap": 8,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "328",
+    "name": {
+      "zh": "三昧真火",
+      "en": "三昧真火"
+    },
+    "price": 0,
+    "bitmap": 42,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "329",
+    "name": {
+      "zh": "炎杀咒",
+      "en": "炎杀咒"
+    },
+    "price": 0,
+    "bitmap": 14,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "330",
+    "name": {
+      "zh": "炼狱真火",
+      "en": "炼狱真火"
+    },
+    "price": 0,
+    "bitmap": 17,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "332",
+    "name": {
+      "zh": "土咒",
+      "en": "土咒"
+    },
+    "price": 0,
+    "bitmap": 4,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "333",
+    "name": {
+      "zh": "飞岩术",
+      "en": "飞岩术"
+    },
+    "price": 0,
+    "bitmap": 9,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "334",
+    "name": {
+      "zh": "地裂天崩",
+      "en": "地裂天崩"
+    },
+    "price": 0,
+    "bitmap": 29,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "335",
+    "name": {
+      "zh": "泰山压顶",
+      "en": "泰山压顶"
+    },
+    "price": 0,
+    "bitmap": 26,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "336",
+    "name": {
+      "zh": "山神",
+      "en": "山神"
+    },
+    "price": 0,
+    "bitmap": 25,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "337",
+    "name": {
+      "zh": "气剑指",
+      "en": "气剑指"
+    },
+    "price": 0,
+    "bitmap": 43,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "338",
+    "name": {
+      "zh": "弦月斩",
+      "en": "弦月斩"
+    },
+    "price": 0,
+    "bitmap": 15,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "339",
+    "name": {
+      "zh": "弦月斩1",
+      "en": "弦月斩1"
+    },
+    "price": 0,
+    "bitmap": 88,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "340",
+    "name": {
+      "zh": "一阳指",
+      "en": "一阳指"
+    },
+    "price": 0,
+    "bitmap": 12,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "341",
+    "name": {
+      "zh": "七诀剑气",
+      "en": "七诀剑气"
+    },
+    "price": 0,
+    "bitmap": 13,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "342",
+    "name": {
+      "zh": "斩龙诀",
+      "en": "斩龙诀"
+    },
+    "price": 0,
+    "bitmap": 16,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "343",
+    "name": {
+      "zh": "暗器",
+      "en": "暗器"
+    },
+    "price": 0,
+    "bitmap": 49,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "344",
+    "name": {
+      "zh": "铜钱镖",
+      "en": "铜钱镖"
+    },
+    "price": 0,
+    "bitmap": 53,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "345",
+    "name": {
+      "zh": "御剑术",
+      "en": "御剑术"
+    },
+    "price": 0,
+    "bitmap": 10,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "346",
+    "name": {
+      "zh": "万剑诀",
+      "en": "万剑诀"
+    },
+    "price": 0,
+    "bitmap": 30,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "347",
+    "name": {
+      "zh": "心剑合一",
+      "en": "心剑合一"
+    },
+    "price": 0,
+    "bitmap": 20,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "348",
+    "name": {
+      "zh": "天剑",
+      "en": "天剑"
+    },
+    "price": 0,
+    "bitmap": 21,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "349",
+    "name": {
+      "zh": "天师符法",
+      "en": "天师符法"
+    },
+    "price": 0,
+    "bitmap": 54,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "350",
+    "name": {
+      "zh": "斩魔刀",
+      "en": "斩魔刀"
+    },
+    "price": 0,
+    "bitmap": 18,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "351",
+    "name": {
+      "zh": "武神",
+      "en": "武神"
+    },
+    "price": 0,
+    "bitmap": 19,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "352",
+    "name": {
+      "zh": "三屍咒",
+      "en": "三屍咒"
+    },
+    "price": 0,
+    "bitmap": 48,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "353",
+    "name": {
+      "zh": "御蜂术",
+      "en": "御蜂术"
+    },
+    "price": 0,
+    "bitmap": 24,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "354",
+    "name": {
+      "zh": "万蚁蚀象",
+      "en": "万蚁蚀象"
+    },
+    "price": 0,
+    "bitmap": 71,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "355",
+    "name": {
+      "zh": "天女散花",
+      "en": "天女散花"
+    },
+    "price": 0,
+    "bitmap": 27,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "356",
+    "name": {
+      "zh": "剑气",
+      "en": "剑气"
+    },
+    "price": 0,
+    "bitmap": 11,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "357",
+    "name": {
+      "zh": "炼狱爪",
+      "en": "炼狱爪"
+    },
+    "price": 0,
+    "bitmap": 44,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "358",
+    "name": {
+      "zh": "血魔神功",
+      "en": "血魔神功"
+    },
+    "price": 0,
+    "bitmap": 45,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "359",
+    "name": {
+      "zh": "狂风术",
+      "en": "狂风术"
+    },
+    "price": 0,
+    "bitmap": 50,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "360",
+    "name": {
+      "zh": "鞭击",
+      "en": "鞭击"
+    },
+    "price": 0,
+    "bitmap": 28,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "361",
+    "name": {
+      "zh": "御剑伏魔",
+      "en": "御剑伏魔"
+    },
+    "price": 0,
+    "bitmap": 55,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "362",
+    "name": {
+      "zh": "御剑伏魔1",
+      "en": "御剑伏魔1"
+    },
+    "price": 0,
+    "bitmap": 89,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "363",
+    "name": {
+      "zh": "剑神",
+      "en": "剑神"
+    },
+    "price": 0,
+    "bitmap": 90,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "364",
+    "name": {
+      "zh": "风灵符法",
+      "en": "风灵符法"
+    },
+    "price": 0,
+    "bitmap": 56,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "365",
+    "name": {
+      "zh": "雷灵符法",
+      "en": "雷灵符法"
+    },
+    "price": 0,
+    "bitmap": 57,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "366",
+    "name": {
+      "zh": "水灵符法",
+      "en": "水灵符法"
+    },
+    "price": 0,
+    "bitmap": 58,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "367",
+    "name": {
+      "zh": "火灵符法",
+      "en": "火灵符法"
+    },
+    "price": 0,
+    "bitmap": 59,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "368",
+    "name": {
+      "zh": "土灵符法",
+      "en": "土灵符法"
+    },
+    "price": 0,
+    "bitmap": 60,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "369",
+    "name": {
+      "zh": "气吞天下",
+      "en": "气吞天下"
+    },
+    "price": 0,
+    "bitmap": 61,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "370",
+    "name": {
+      "zh": "酒神",
+      "en": "酒神"
+    },
+    "price": 0,
+    "bitmap": 75,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "371",
+    "name": {
+      "zh": "瘴气",
+      "en": "瘴气"
+    },
+    "price": 0,
+    "bitmap": 62,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "372",
+    "name": {
+      "zh": "万蛊蚀天",
+      "en": "万蛊蚀天"
+    },
+    "price": 0,
+    "bitmap": 63,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "373",
+    "name": {
+      "zh": "毒吞天下",
+      "en": "毒吞天下"
+    },
+    "price": 0,
+    "bitmap": 91,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "374",
+    "name": {
+      "zh": "爆炸蛊",
+      "en": "爆炸蛊"
+    },
+    "price": 0,
+    "bitmap": 65,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "375",
+    "name": {
+      "zh": "镇天鼎",
+      "en": "镇天鼎"
+    },
+    "price": 0,
+    "bitmap": 69,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "376",
+    "name": {
+      "zh": "咒蛇",
+      "en": "咒蛇"
+    },
+    "price": 0,
+    "bitmap": 70,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "377",
+    "name": {
+      "zh": "飞龙探云手",
+      "en": "飞龙探云手"
+    },
+    "price": 0,
+    "bitmap": 98,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "378",
+    "name": {
+      "zh": "火龙掌",
+      "en": "火龙掌"
+    },
+    "price": 0,
+    "bitmap": 85,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "379",
+    "name": {
+      "zh": "灭绝一击",
+      "en": "灭绝一击"
+    },
+    "price": 0,
+    "bitmap": 78,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "380",
+    "name": {
+      "zh": "横扫千军",
+      "en": "横扫千军"
+    },
+    "price": 0,
+    "bitmap": 16,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "381",
+    "name": {
+      "zh": "爆炸",
+      "en": "爆炸"
+    },
+    "price": 0,
+    "bitmap": 79,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "382",
+    "name": {
+      "zh": "魔掌天下",
+      "en": "魔掌天下"
+    },
+    "price": 0,
+    "bitmap": 82,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "383",
+    "name": {
+      "zh": "佛法无边",
+      "en": "佛法无边"
+    },
+    "price": 0,
+    "bitmap": 83,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "384",
+    "name": {
+      "zh": "灵葫咒",
+      "en": "灵葫咒"
+    },
+    "price": 0,
+    "bitmap": 84,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "385",
+    "name": {
+      "zh": "气魔焰",
+      "en": "气魔焰"
+    },
+    "price": 0,
+    "bitmap": 74,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "386",
+    "name": {
+      "zh": "合体气功",
+      "en": "合体气功"
+    },
+    "price": 0,
+    "bitmap": 86,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "387",
+    "name": {
+      "zh": "气功",
+      "en": "气功"
+    },
+    "price": 0,
+    "bitmap": 87,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "388",
+    "name": {
+      "zh": "剑气斩",
+      "en": "剑气斩"
+    },
+    "price": 0,
+    "bitmap": 93,
+    "flags": 10,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "389",
+    "name": {
+      "zh": "火神",
+      "en": "火神"
+    },
+    "price": 0,
+    "bitmap": 94,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "390",
+    "name": {
+      "zh": "醉仙望月步",
+      "en": "醉仙望月步"
+    },
+    "price": 0,
+    "bitmap": 95,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "392",
+    "name": {
+      "zh": "金蝉脱壳",
+      "en": "金蝉脱壳"
+    },
+    "price": 0,
+    "bitmap": 99,
+    "flags": 18,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "393",
+    "name": {
+      "zh": "仙风云体术",
+      "en": "仙风云体术"
+    },
+    "price": 0,
+    "bitmap": 97,
+    "flags": 2,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "394",
+    "name": {
+      "zh": "乾坤一掷",
+      "en": "乾坤一掷"
+    },
+    "price": 0,
+    "bitmap": 100,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "395",
+    "name": {
+      "zh": "大咒蛇",
+      "en": "大咒蛇"
+    },
+    "price": 0,
+    "bitmap": 101,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "396",
+    "name": {
+      "zh": "腥风血雨",
+      "en": "腥风血雨"
+    },
+    "price": 0,
+    "bitmap": 102,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  },
+  {
+    "id": "397",
+    "name": {
+      "zh": "群魔乱舞",
+      "en": "群魔乱舞"
+    },
+    "price": 0,
+    "bitmap": 103,
+    "flags": 26,
+    "category": "equipment",
+    "sellable": false,
+    "usable": false,
+    "equipable": true
+  }
+]

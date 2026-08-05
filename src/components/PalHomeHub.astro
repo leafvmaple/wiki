@@ -1,0 +1,103 @@
+---
+import summary from '../data/pal/generated/summary.json';
+
+const { counts } = summary;
+
+const statCards = [
+  { value: counts.items, label: '道具', detail: `对象合计 ${counts.allObjects}` },
+  { value: counts.equipment, label: '装备', detail: '可装备物件' },
+  { value: counts.shops, label: '商店', detail: `点位 ${counts.shopPoints ?? counts.shops}` },
+  { value: counts.npcs ?? '—', label: '具名人物', detail: `采集点 ${counts.treasures ?? '—'}` },
+];
+
+const entries = [
+  { label: '道具图鉴', href: '/games/pal/items/', meta: '药品符咒等可使用物品' },
+  { label: '装备图鉴', href: '/games/pal/equipment/', meta: '武器防具饰品' },
+  { label: '商店一览', href: '/games/pal/shops/', meta: '货表 + 店主/场景' },
+  { label: '采集与宝箱', href: '/games/pal/treasures/', meta: '采得/获得类道具点' },
+  { label: '人物名录', href: '/games/pal/npcs/', meta: '对话发言人索引' },
+  { label: '场景一览', href: '/games/pal/locations/', meta: 'SSS 场景 ↔ 地图号' },
+  { label: '数据说明', href: '/games/pal/data-notes/', meta: '来源与同步方式' },
+];
+---
+
+<section class="pal-hub" aria-label="仙剑奇侠传资料入口">
+  <div class="pal-hero">
+    <p class="pal-kicker">数据来自 Steam PAL · SDLPal 资源（MKF / WORD / MSG）</p>
+    <h2>仙剑奇侠传资料库</h2>
+    <p>
+      从 SSS / DATA / WORD / MSG 导出的可检索图鉴：道具装备、商店与地点、采集点与具名 NPC。
+      场景地图与点击传送在 map-viewer，不进本仓库。
+    </p>
+    <div class="pal-actions">
+      <a href="/games/pal/items/">查道具</a>
+      <a href="/games/pal/shops/">查商店</a>
+      <a href="/games/pal/treasures/">查采集</a>
+      <a href="/games/pal/npcs/">查人物</a>
+    </div>
+  </div>
+
+  <div class="pal-stat-grid" aria-label="数据规模">
+    {statCards.map((item) => (
+      <span>
+        <strong>{item.value}</strong>
+        <em>{item.label}</em>
+        <small>{item.detail}</small>
+      </span>
+    ))}
+  </div>
+
+  <ul class="pal-entry-list">
+    {entries.map((e) => (
+      <li>
+        <a href={e.href}>
+          <strong>{e.label}</strong>
+          <span>{e.meta}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .pal-hub { margin: 0.5rem 0 2rem; }
+  .pal-hero {
+    padding: 1.25rem 1.4rem 1.4rem;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #eef7f4 0%, #f7f3ea 100%);
+    border: 1px solid #d5e4dc;
+  }
+  .pal-kicker { margin: 0 0 0.4rem; color: #5a7a6a; font-size: 0.85rem; }
+  .pal-hero h2 { margin: 0 0 0.5rem; color: #1e3d32; font-size: 1.55rem; }
+  .pal-hero p { margin: 0 0 1rem; color: #3d554a; line-height: 1.55; max-width: 46rem; }
+  .pal-actions { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+  .pal-actions a {
+    padding: 0.4rem 0.85rem; border-radius: 6px; background: #2d6a4f; color: #fff;
+    text-decoration: none; font-size: 0.92rem;
+  }
+  .pal-actions a:hover { background: #1b4332; }
+  .pal-stat-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 0.75rem; margin: 1.1rem 0;
+  }
+  .pal-stat-grid span {
+    display: flex; flex-direction: column; gap: 0.15rem;
+    padding: 0.75rem 0.85rem; border-radius: 8px; border: 1px solid #d7e0e6; background: #fff;
+  }
+  .pal-stat-grid strong { font-size: 1.35rem; color: #1e3d32; }
+  .pal-stat-grid em { font-style: normal; color: #3d554a; }
+  .pal-stat-grid small { color: #7a8b95; }
+  .pal-entry-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; }
+  .pal-entry-list a {
+    display: flex; justify-content: space-between; gap: 1rem; align-items: baseline;
+    padding: 0.65rem 0.85rem; border-radius: 8px; border: 1px solid #d7e0e6;
+    text-decoration: none; color: inherit; background: #fff;
+  }
+  .pal-entry-list a:hover { border-color: #2d6a4f; }
+  .pal-entry-list strong { color: #1e3d32; }
+  .pal-entry-list span { color: #7a8b95; font-size: 0.88rem; }
+  :global([data-theme='dark']) .pal-hero { background: linear-gradient(135deg, #1a2a24, #242018); border-color: #2f4038; }
+  :global([data-theme='dark']) .pal-hero h2, :global([data-theme='dark']) .pal-stat-grid strong, :global([data-theme='dark']) .pal-entry-list strong { color: #e8eef2; }
+  :global([data-theme='dark']) .pal-hero p, :global([data-theme='dark']) .pal-stat-grid em { color: #b7c6d0; }
+  :global([data-theme='dark']) .pal-stat-grid span, :global([data-theme='dark']) .pal-entry-list a { background: #1a242b; border-color: #2a3840; }
+</style>

@@ -6,6 +6,8 @@ import stardewTown from '../data/stardew-valley/generated/maps/town.json';
 import stardewAssets from '../data/stardew-valley/generated/assets.json';
 import tdjSummary from '../data/sword-man/generated/summary.json';
 import metalMaxSummary from '../data/metal-max/generated/summary.json';
+import pal3Summary from '../data/pal3/generated/summary.json';
+import palSummary from '../data/pal/generated/summary.json';
 import OctopathIcon from './OctopathIcon.astro';
 import StardewIcon from './StardewIcon.astro';
 
@@ -105,6 +107,42 @@ const games = [
       { label: '关卡资料', href: '/games/sword-man/battles/', kind: 'battle' },
     ],
   },
+  {
+    id: 'pal',
+    title: '仙剑奇侠传',
+    href: '/games/pal/',
+    kicker: '道具 · 商店 · 人物',
+    status: '图鉴先行',
+    summary: '基于 Steam PAL（SDLPal MKF / MSG）导出的道具装备、商店与场景绑定、采集点与具名 NPC；场景地图在 map-viewer。',
+    stats: [
+      { value: palSummary.counts.allObjects, label: '道具装备' },
+      { value: palSummary.counts.npcs ?? palSummary.counts.shops, label: '具名人物' },
+      { value: palSummary.counts.treasures ?? palSummary.counts.shops, label: '采集点' },
+    ],
+    links: [
+      { label: '商店一览', href: '/games/pal/shops/', kind: 'item' },
+      { label: '采集与宝箱', href: '/games/pal/treasures/', kind: 'item' },
+      { label: '人物名录', href: '/games/pal/npcs/', kind: 'character' },
+    ],
+  },
+  {
+    id: 'pal3',
+    title: '仙剑奇侠传三',
+    href: '/games/pal3/',
+    kicker: '道具 · 装备 · 武器',
+    status: '图鉴先行',
+    summary: '基于 Steam PAL3 basedata 的可检索图鉴（接法对齐重装机兵）：道具装备、仙术特技、商店与大地图地点对照。',
+    stats: [
+      { value: pal3Summary.counts.items + pal3Summary.counts.equipment + pal3Summary.counts.weapons, label: '道具装备' },
+      { value: pal3Summary.counts.magic + pal3Summary.counts.skills, label: '仙术特技' },
+      { value: pal3Summary.counts.shops, label: '商店' },
+    ],
+    links: [
+      { label: '道具图鉴', href: '/games/pal3/items/', kind: 'item' },
+      { label: '仙术图鉴', href: '/games/pal3/skills/magic/', kind: 'skill' },
+      { label: '商店一览', href: '/games/pal3/shops/', kind: 'item' },
+    ],
+  },
 ];
 
 const totals = [
@@ -118,7 +156,18 @@ const totals = [
       tdjSummary.counts.skills +
       metalMaxSummary.counts.humanEquipment +
       metalMaxSummary.counts.tankParts +
-      metalMaxSummary.counts.tankChassis,
+      metalMaxSummary.counts.tankChassis +
+      palSummary.counts.allObjects +
+      palSummary.counts.shops +
+      palSummary.counts.scenes +
+      pal3Summary.counts.items +
+      pal3Summary.counts.equipment +
+      pal3Summary.counts.weapons +
+      pal3Summary.counts.plunder +
+      pal3Summary.counts.magic +
+      pal3Summary.counts.skills +
+      pal3Summary.counts.shops +
+      pal3Summary.counts.monsters,
     label: '资料条目',
   },
 ];
@@ -315,6 +364,18 @@ const totals = [
       linear-gradient(180deg, rgba(10, 17, 28, 0.08), var(--leaf-bg-card) 86%),
       var(--home-game-image);
     background-position: center 44%;
+  }
+
+  .home-game-card.is-pal::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.1), var(--leaf-bg-card) 82%),
+      linear-gradient(135deg, rgba(45, 106, 79, 0.3), rgba(212, 163, 115, 0.18));
+  }
+
+  .home-game-card.is-pal3::before {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.1), var(--leaf-bg-card) 82%),
+      linear-gradient(135deg, rgba(46, 139, 87, 0.28), rgba(35, 183, 229, 0.16));
   }
 
   .home-game-card > * {

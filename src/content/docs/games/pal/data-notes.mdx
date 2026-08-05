@@ -1,0 +1,38 @@
+---
+title: 数据说明
+description: 仙剑奇侠传公开派生数据的来源、边界与更新方式。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-05'
+sidebar:
+  label: 数据说明
+---
+
+## 来源
+
+| 内容 | 源文件 | 生成 |
+| --- | --- | --- |
+| 道具 / 装备名 | `WORD_chs.txt` + `SSS.MKF`#2 | `pal-unpack` `gen_wiki_data.py` |
+| 商店货表 | `DATA.MKF`#0 | 同上 |
+| 商店店主 / 场景 | 脚本 `0x0026` / `0x0027` + MSG | 同上 |
+| 场景 | `SSS.MKF`#1 | 同上 |
+| 传送点 | 脚本 `0x0059` / `0x0046` | 同上 + map-viewer |
+| 采集 / 宝箱 | 脚本给予物品 + MSG 提示文 | 同上 |
+| 具名人物 | MSG「某某：」发言人 | 同上 |
+| 场景图 | `MAP.MKF` + `GOP.MKF` + `PAT.MKF` | `render_all_maps.py` → map-viewer |
+
+## 边界
+
+- 公开 wiki 只放整理后的 JSON 索引与说明，不发布完整 MKF / 音频 / 可替代本体的资源包。
+- 不收录完整对白剧本；人物页只保留发言人姓名与出现场景。
+- map-viewer 地图 PNG 与点击坐标属于预览派生数据，部署在 map-viewer 数据目录，不进 wiki 仓库。
+
+## 同步
+
+在 `D:\Code\pal-unpack`（中间产物在 `out/`；wiki 写本仓库；map-viewer 写 NAS）：
+
+```powershell
+python tools\gen_wiki_data.py
+python tools\export_to_map_viewer.py --no-render
+```

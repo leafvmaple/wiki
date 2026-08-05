@@ -1,0 +1,1209 @@
+[
+  {
+    "id": 2,
+    "name": "曾伯",
+    "kind": "buy",
+    "sceneId": 12,
+    "sceneName": "场景 12",
+    "mapNum": 21,
+    "eventId": 198,
+    "locations": [
+      {
+        "sceneId": 12,
+        "sceneName": "场景 12",
+        "mapNum": 21,
+        "eventId": 198,
+        "keeper": "曾伯",
+        "x": 880,
+        "y": 568
+      },
+      {
+        "sceneId": 256,
+        "sceneName": "场景 256",
+        "mapNum": 21,
+        "eventId": 4648,
+        "keeper": "铁匠",
+        "x": 880,
+        "y": 568
+      }
+    ],
+    "items": [
+      {
+        "id": 167,
+        "name": "短刀"
+      },
+      {
+        "id": 226,
+        "name": "护肩"
+      },
+      {
+        "id": 225,
+        "name": "披风"
+      },
+      {
+        "id": 239,
+        "name": "铁履"
+      },
+      {
+        "id": 249,
+        "name": "护腕"
+      },
+      {
+        "id": 250,
+        "name": "铁护腕"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "卖吃小贩",
+    "kind": "buy",
+    "sceneId": 23,
+    "sceneName": "场景 23",
+    "mapNum": 23,
+    "eventId": 427,
+    "locations": [
+      {
+        "sceneId": 23,
+        "sceneName": "场景 23",
+        "mapNum": 23,
+        "eventId": 427,
+        "keeper": "卖吃小贩",
+        "x": 1040,
+        "y": 872
+      }
+    ],
+    "items": [
+      {
+        "id": 93,
+        "name": "烧肉"
+      },
+      {
+        "id": 86,
+        "name": "酒"
+      },
+      {
+        "id": 78,
+        "name": "茶叶蛋"
+      },
+      {
+        "id": 92,
+        "name": "水果"
+      },
+      {
+        "id": 76,
+        "name": "糯米糕"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "杂货小贩",
+    "kind": "buy",
+    "sceneId": 23,
+    "sceneName": "场景 23",
+    "mapNum": 23,
+    "eventId": 434,
+    "locations": [
+      {
+        "sceneId": 23,
+        "sceneName": "场景 23",
+        "mapNum": 23,
+        "eventId": 434,
+        "keeper": "杂货小贩",
+        "x": 1376,
+        "y": 880
+      }
+    ],
+    "items": [
+      {
+        "id": 199,
+        "name": "银钗"
+      },
+      {
+        "id": 198,
+        "name": "发饰"
+      },
+      {
+        "id": 200,
+        "name": "翠玉金钗"
+      },
+      {
+        "id": 238,
+        "name": "绣花鞋"
+      },
+      {
+        "id": 255,
+        "name": "银针"
+      },
+      {
+        "id": 256,
+        "name": "铜镜"
+      },
+      {
+        "id": 253,
+        "name": "玉镯"
+      },
+      {
+        "id": 248,
+        "name": "香袋"
+      },
+      {
+        "id": 255,
+        "name": "银针"
+      }
+    ]
+  },
+  {
+    "id": "sell-536",
+    "name": "当铺老板",
+    "kind": "sell",
+    "sceneId": 29,
+    "sceneName": "场景 29",
+    "mapNum": 28,
+    "eventId": 536,
+    "locations": [
+      {
+        "sceneId": 29,
+        "sceneName": "场景 29",
+        "mapNum": 28,
+        "eventId": 536,
+        "keeper": "当铺老板",
+        "x": 880,
+        "y": 520,
+        "kind": "sell"
+      }
+    ],
+    "items": []
+  },
+  {
+    "id": 5,
+    "name": "药铺老板",
+    "kind": "buy",
+    "sceneId": 30,
+    "sceneName": "场景 30",
+    "mapNum": 29,
+    "eventId": 540,
+    "locations": [
+      {
+        "sceneId": 30,
+        "sceneName": "场景 30",
+        "mapNum": 29,
+        "eventId": 540,
+        "keeper": "药铺老板",
+        "x": 1008,
+        "y": 568
+      }
+    ],
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      },
+      {
+        "id": 99,
+        "name": "止血草"
+      },
+      {
+        "id": 100,
+        "name": "行军丹"
+      },
+      {
+        "id": 101,
+        "name": "金创药"
+      },
+      {
+        "id": 105,
+        "name": "还神丹"
+      },
+      {
+        "id": 95,
+        "name": "还魂香"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "铁铺老板",
+    "kind": "buy",
+    "sceneId": 31,
+    "sceneName": "场景 31",
+    "mapNum": 30,
+    "eventId": 543,
+    "locations": [
+      {
+        "sceneId": 31,
+        "sceneName": "场景 31",
+        "mapNum": 30,
+        "eventId": 543,
+        "keeper": "铁铺老板",
+        "x": 656,
+        "y": 648
+      }
+    ],
+    "items": [
+      {
+        "id": 209,
+        "name": "藤甲"
+      },
+      {
+        "id": 211,
+        "name": "铁锁衣"
+      },
+      {
+        "id": 227,
+        "name": "武士披风"
+      },
+      {
+        "id": 171,
+        "name": "长剑"
+      },
+      {
+        "id": 169,
+        "name": "大刀"
+      },
+      {
+        "id": 173,
+        "name": "越女剑"
+      },
+      {
+        "id": 176,
+        "name": "芙蓉刀"
+      },
+      {
+        "id": 239,
+        "name": "铁履"
+      },
+      {
+        "id": 250,
+        "name": "铁护腕"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "骆员外",
+    "kind": "buy",
+    "sceneId": 50,
+    "sceneName": "场景 50",
+    "mapNum": 58,
+    "eventId": 845,
+    "locations": [
+      {
+        "sceneId": 50,
+        "sceneName": "场景 50",
+        "mapNum": 58,
+        "eventId": 845,
+        "keeper": "骆员外",
+        "x": 784,
+        "y": 808
+      }
+    ],
+    "items": [
+      {
+        "id": 228,
+        "name": "护心镜"
+      },
+      {
+        "id": 211,
+        "name": "铁锁衣"
+      },
+      {
+        "id": 177,
+        "name": "柳月刀"
+      },
+      {
+        "id": 172,
+        "name": "红缨刀"
+      },
+      {
+        "id": 153,
+        "name": "梅花镖"
+      },
+      {
+        "id": 240,
+        "name": "武僧靴"
+      },
+      {
+        "id": 66,
+        "name": "天师符"
+      },
+      {
+        "id": 61,
+        "name": "观音符"
+      },
+      {
+        "id": 63,
+        "name": "金刚符"
+      }
+    ]
+  },
+  {
+    "id": "sell-849",
+    "name": "骆记总管",
+    "kind": "sell",
+    "sceneId": 50,
+    "sceneName": "场景 50",
+    "mapNum": 58,
+    "eventId": 849,
+    "locations": [
+      {
+        "sceneId": 50,
+        "sceneName": "场景 50",
+        "mapNum": 58,
+        "eventId": 849,
+        "keeper": "骆记总管",
+        "x": 816,
+        "y": 792,
+        "kind": "sell"
+      }
+    ],
+    "items": []
+  },
+  {
+    "id": 12,
+    "name": "少女",
+    "kind": "buy",
+    "sceneId": 82,
+    "sceneName": "场景 82",
+    "mapNum": 79,
+    "eventId": 1639,
+    "locations": [
+      {
+        "sceneId": 82,
+        "sceneName": "场景 82",
+        "mapNum": 79,
+        "eventId": 1639,
+        "keeper": "少女",
+        "x": 656,
+        "y": 984
+      }
+    ],
+    "items": [
+      {
+        "id": 86,
+        "name": "酒"
+      },
+      {
+        "id": 88,
+        "name": "雄黄酒"
+      },
+      {
+        "id": 92,
+        "name": "水果"
+      },
+      {
+        "id": 93,
+        "name": "烧肉"
+      },
+      {
+        "id": 94,
+        "name": "腌肉"
+      },
+      {
+        "id": 76,
+        "name": "糯米糕"
+      }
+    ]
+  },
+  {
+    "id": "sell-1640",
+    "name": "当铺老板",
+    "kind": "sell",
+    "sceneId": 82,
+    "sceneName": "场景 82",
+    "mapNum": 79,
+    "eventId": 1640,
+    "locations": [
+      {
+        "sceneId": 82,
+        "sceneName": "场景 82",
+        "mapNum": 79,
+        "eventId": 1640,
+        "keeper": "当铺老板",
+        "x": 1376,
+        "y": 624,
+        "kind": "sell"
+      }
+    ],
+    "items": []
+  },
+  {
+    "id": 10,
+    "name": "老板",
+    "kind": "buy",
+    "sceneId": 96,
+    "sceneName": "场景 96",
+    "mapNum": 89,
+    "eventId": 1848,
+    "locations": [
+      {
+        "sceneId": 96,
+        "sceneName": "场景 96",
+        "mapNum": 89,
+        "eventId": 1848,
+        "keeper": "老板",
+        "x": 656,
+        "y": 568
+      }
+    ],
+    "items": [
+      {
+        "id": 164,
+        "name": "九截鞭"
+      },
+      {
+        "id": 175,
+        "name": "玄铁剑"
+      },
+      {
+        "id": 178,
+        "name": "青锋剑"
+      },
+      {
+        "id": 213,
+        "name": "青铜甲"
+      },
+      {
+        "id": 215,
+        "name": "铁鳞甲"
+      },
+      {
+        "id": 228,
+        "name": "护心镜"
+      },
+      {
+        "id": 240,
+        "name": "武僧靴"
+      },
+      {
+        "id": 241,
+        "name": "鹿皮靴"
+      },
+      {
+        "id": 200,
+        "name": "翠玉金钗"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "药铺老板",
+    "kind": "buy",
+    "sceneId": 96,
+    "sceneName": "场景 96",
+    "mapNum": 89,
+    "eventId": 1850,
+    "locations": [
+      {
+        "sceneId": 96,
+        "sceneName": "场景 96",
+        "mapNum": 89,
+        "eventId": 1850,
+        "keeper": "药铺老板",
+        "x": 1280,
+        "y": 592
+      }
+    ],
+    "items": [
+      {
+        "id": 88,
+        "name": "雄黄酒"
+      },
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      },
+      {
+        "id": 95,
+        "name": "还魂香"
+      },
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      },
+      {
+        "id": 106,
+        "name": "龙涎草"
+      },
+      {
+        "id": 101,
+        "name": "金创药"
+      },
+      {
+        "id": 103,
+        "name": "紫菁玉蓉膏"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "商店",
+    "kind": "buy",
+    "sceneId": 100,
+    "sceneName": "场景 100",
+    "mapNum": 105,
+    "eventId": 1915,
+    "locations": [
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1915,
+        "keeper": "商店",
+        "x": 1584,
+        "y": 1368
+      }
+    ],
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      },
+      {
+        "id": 90,
+        "name": "驱魔香"
+      },
+      {
+        "id": 136,
+        "name": "九阴散"
+      },
+      {
+        "id": 98,
+        "name": "天香续命露"
+      },
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      },
+      {
+        "id": 103,
+        "name": "紫菁玉蓉膏"
+      },
+      {
+        "id": 101,
+        "name": "金创药"
+      },
+      {
+        "id": 108,
+        "name": "雪莲子"
+      },
+      {
+        "id": 109,
+        "name": "天仙玉露"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "商店",
+    "kind": "buy",
+    "sceneId": 100,
+    "sceneName": "场景 100",
+    "mapNum": 105,
+    "eventId": 1916,
+    "locations": [
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1916,
+        "keeper": "商店",
+        "x": 352,
+        "y": 1008
+      }
+    ],
+    "items": [
+      {
+        "id": 255,
+        "name": "银针"
+      },
+      {
+        "id": 155,
+        "name": "透骨钉"
+      },
+      {
+        "id": 154,
+        "name": "袖里剑"
+      },
+      {
+        "id": 156,
+        "name": "雷火珠"
+      },
+      {
+        "id": 157,
+        "name": "毒龙砂"
+      },
+      {
+        "id": 158,
+        "name": "吸星锁"
+      },
+      {
+        "id": 161,
+        "name": "无影神针"
+      },
+      {
+        "id": 162,
+        "name": "血玲胧"
+      },
+      {
+        "id": 151,
+        "name": "引路蜂"
+      }
+    ]
+  },
+  {
+    "id": "sell-1917",
+    "name": "当铺",
+    "kind": "sell",
+    "sceneId": 100,
+    "sceneName": "场景 100",
+    "mapNum": 105,
+    "eventId": 1917,
+    "locations": [
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1917,
+        "keeper": "当铺",
+        "x": 1184,
+        "y": 688,
+        "kind": "sell"
+      }
+    ],
+    "items": []
+  },
+  {
+    "id": 20,
+    "name": "茅山道士",
+    "kind": "buy",
+    "sceneId": 128,
+    "sceneName": "场景 128",
+    "mapNum": 115,
+    "eventId": 2321,
+    "locations": [
+      {
+        "sceneId": 128,
+        "sceneName": "场景 128",
+        "mapNum": 115,
+        "eventId": 2321,
+        "keeper": "茅山道士",
+        "x": 880,
+        "y": 1480
+      }
+    ],
+    "items": [
+      {
+        "id": 63,
+        "name": "金刚符"
+      },
+      {
+        "id": 64,
+        "name": "净衣符"
+      },
+      {
+        "id": 65,
+        "name": "灵心符"
+      },
+      {
+        "id": 66,
+        "name": "天师符"
+      },
+      {
+        "id": 67,
+        "name": "风灵符"
+      },
+      {
+        "id": 68,
+        "name": "雷灵符"
+      },
+      {
+        "id": 69,
+        "name": "水灵符"
+      },
+      {
+        "id": 70,
+        "name": "火灵符"
+      },
+      {
+        "id": 71,
+        "name": "土灵符"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "老板",
+    "kind": "buy",
+    "sceneId": 135,
+    "sceneName": "场景 135",
+    "mapNum": 122,
+    "eventId": 2399,
+    "locations": [
+      {
+        "sceneId": 135,
+        "sceneName": "场景 135",
+        "mapNum": 122,
+        "eventId": 2399,
+        "keeper": "老板",
+        "x": 384,
+        "y": 368
+      }
+    ],
+    "items": [
+      {
+        "id": 183,
+        "name": "金童剑"
+      },
+      {
+        "id": 182,
+        "name": "玉女剑"
+      },
+      {
+        "id": 184,
+        "name": "龙泉剑"
+      },
+      {
+        "id": 165,
+        "name": "金蛇鞭"
+      },
+      {
+        "id": 217,
+        "name": "精铁战甲"
+      },
+      {
+        "id": 218,
+        "name": "金缕衣"
+      },
+      {
+        "id": 241,
+        "name": "鹿皮靴"
+      },
+      {
+        "id": 242,
+        "name": "疾风靴"
+      },
+      {
+        "id": 229,
+        "name": "霓虹羽衣"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "店家",
+    "kind": "buy",
+    "sceneId": 207,
+    "sceneName": "场景 207",
+    "mapNum": 166,
+    "eventId": 3715,
+    "locations": [
+      {
+        "sceneId": 207,
+        "sceneName": "场景 207",
+        "mapNum": 166,
+        "eventId": 3715,
+        "keeper": "店家",
+        "x": 624,
+        "y": 744
+      }
+    ],
+    "items": [
+      {
+        "id": 179,
+        "name": "苗刀"
+      },
+      {
+        "id": 185,
+        "name": "鬼牙刀"
+      },
+      {
+        "id": 193,
+        "name": "鬼头杖"
+      },
+      {
+        "id": 205,
+        "name": "天蚕丝带"
+      },
+      {
+        "id": 220,
+        "name": "天蚕宝衣"
+      },
+      {
+        "id": 244,
+        "name": "虎皮靴"
+      },
+      {
+        "id": 259,
+        "name": "豹牙手环"
+      },
+      {
+        "id": 162,
+        "name": "血玲胧"
+      },
+      {
+        "id": 161,
+        "name": "无影神针"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "店主",
+    "kind": "buy",
+    "sceneId": 207,
+    "sceneName": "场景 207",
+    "mapNum": 166,
+    "eventId": 3719,
+    "locations": [
+      {
+        "sceneId": 207,
+        "sceneName": "场景 207",
+        "mapNum": 166,
+        "eventId": 3719,
+        "keeper": "店主",
+        "x": 768,
+        "y": 1648
+      }
+    ],
+    "items": [
+      {
+        "id": 148,
+        "name": "蛊"
+      },
+      {
+        "id": 150,
+        "name": "金蚕王"
+      },
+      {
+        "id": 144,
+        "name": "食妖虫"
+      },
+      {
+        "id": 147,
+        "name": "碧血蚕"
+      },
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      },
+      {
+        "id": 90,
+        "name": "驱魔香"
+      },
+      {
+        "id": 91,
+        "name": "十里香"
+      },
+      {
+        "id": 96,
+        "name": "赎魂灯"
+      },
+      {
+        "id": 157,
+        "name": "毒龙砂"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "老板",
+    "kind": "buy",
+    "sceneId": 209,
+    "sceneName": "场景 209",
+    "mapNum": 169,
+    "eventId": 3782,
+    "locations": [
+      {
+        "sceneId": 209,
+        "sceneName": "场景 209",
+        "mapNum": 169,
+        "eventId": 3782,
+        "keeper": "老板",
+        "x": 912,
+        "y": 1288
+      }
+    ],
+    "items": [
+      {
+        "id": 207,
+        "name": "冲天冠"
+      },
+      {
+        "id": 219,
+        "name": "鬼针胄"
+      },
+      {
+        "id": 243,
+        "name": "莲花靴"
+      },
+      {
+        "id": 245,
+        "name": "龙鳞靴"
+      },
+      {
+        "id": 232,
+        "name": "凤纹披风"
+      },
+      {
+        "id": 258,
+        "name": "干坤镜"
+      },
+      {
+        "id": 156,
+        "name": "雷火珠"
+      },
+      {
+        "id": 160,
+        "name": "綑仙绳"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "药铺老板",
+    "kind": "buy",
+    "sceneId": 209,
+    "sceneName": "场景 209",
+    "mapNum": 169,
+    "eventId": 3783,
+    "locations": [
+      {
+        "sceneId": 209,
+        "sceneName": "场景 209",
+        "mapNum": 169,
+        "eventId": 3783,
+        "keeper": "药铺老板",
+        "x": 1584,
+        "y": 824
+      }
+    ],
+    "items": [
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      },
+      {
+        "id": 101,
+        "name": "金创药"
+      },
+      {
+        "id": 103,
+        "name": "紫菁玉蓉膏"
+      },
+      {
+        "id": 107,
+        "name": "灵山仙芝"
+      },
+      {
+        "id": 108,
+        "name": "雪莲子"
+      },
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      },
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      },
+      {
+        "id": 90,
+        "name": "驱魔香"
+      },
+      {
+        "id": 136,
+        "name": "九阴散"
+      }
+    ]
+  },
+  {
+    "id": "sell-3781",
+    "name": "当舖老板",
+    "kind": "sell",
+    "sceneId": 209,
+    "sceneName": "场景 209",
+    "mapNum": 169,
+    "eventId": 3781,
+    "locations": [
+      {
+        "sceneId": 209,
+        "sceneName": "场景 209",
+        "mapNum": 169,
+        "eventId": 3781,
+        "keeper": "当舖老板",
+        "x": 688,
+        "y": 840,
+        "kind": "sell"
+      }
+    ],
+    "items": []
+  },
+  {
+    "id": 3,
+    "name": "木匠",
+    "kind": "buy",
+    "sceneId": 257,
+    "sceneName": "场景 257",
+    "mapNum": 22,
+    "eventId": 4650,
+    "locations": [
+      {
+        "sceneId": 257,
+        "sceneName": "场景 257",
+        "mapNum": 22,
+        "eventId": 4650,
+        "keeper": "木匠",
+        "x": 880,
+        "y": 776
+      }
+    ],
+    "items": [
+      {
+        "id": 166,
+        "name": "木剑"
+      },
+      {
+        "id": 209,
+        "name": "藤甲"
+      },
+      {
+        "id": 236,
+        "name": "木鞋"
+      },
+      {
+        "id": 235,
+        "name": "草鞋"
+      },
+      {
+        "id": 201,
+        "name": "皮帽"
+      },
+      {
+        "id": 198,
+        "name": "发饰"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "商店 0",
+    "kind": "buy",
+    "sceneId": null,
+    "sceneName": null,
+    "mapNum": null,
+    "eventId": null,
+    "locations": [],
+    "items": [
+      {
+        "id": 100,
+        "name": "行军丹"
+      },
+      {
+        "id": 105,
+        "name": "还神丹"
+      },
+      {
+        "id": 95,
+        "name": "还魂香"
+      },
+      {
+        "id": 112,
+        "name": "试炼果"
+      },
+      {
+        "id": 72,
+        "name": "舍利子"
+      },
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      },
+      {
+        "id": 97,
+        "name": "孟婆汤"
+      },
+      {
+        "id": 102,
+        "name": "蟠果"
+      },
+      {
+        "id": 111,
+        "name": "灵葫仙丹"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "商店 1",
+    "kind": "buy",
+    "sceneId": null,
+    "sceneName": null,
+    "mapNum": null,
+    "eventId": null,
+    "locations": [],
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      },
+      {
+        "id": 99,
+        "name": "止血草"
+      },
+      {
+        "id": 105,
+        "name": "还神丹"
+      },
+      {
+        "id": 95,
+        "name": "还魂香"
+      },
+      {
+        "id": 90,
+        "name": "驱魔香"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "商店 8",
+    "kind": "buy",
+    "sceneId": null,
+    "sceneName": null,
+    "mapNum": null,
+    "eventId": null,
+    "locations": [],
+    "items": [
+      {
+        "id": 87,
+        "name": "雄黄"
+      },
+      {
+        "id": 99,
+        "name": "止血草"
+      },
+      {
+        "id": 100,
+        "name": "行军丹"
+      },
+      {
+        "id": 105,
+        "name": "还神丹"
+      },
+      {
+        "id": 95,
+        "name": "还魂香"
+      },
+      {
+        "id": 89,
+        "name": "九节菖蒲"
+      },
+      {
+        "id": 131,
+        "name": "蜂王蜜"
+      }
+    ]
+  }
+]

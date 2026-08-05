@@ -1,0 +1,1957 @@
+[
+  {
+    "id": 205,
+    "name": "厄雾",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时降低敌方单体的“运”"
+  },
+  {
+    "id": 206,
+    "name": "飘风",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时增加己方单体的身法速度。"
+  },
+  {
+    "id": 213,
+    "name": "火隐",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "让己方单人进入隐状态。"
+  },
+  {
+    "id": 214,
+    "name": "业火",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "减弱敌方单体攻击力。"
+  },
+  {
+    "id": 218,
+    "name": "天罡战气",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时提高我方单体攻击力。"
+  },
+  {
+    "id": 221,
+    "name": "雷界",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 12,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "使我方单体处于结界状态。"
+  },
+  {
+    "id": 222,
+    "name": "电掣",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "使敌方单体的身法速度大大降低。"
+  },
+  {
+    "id": 223,
+    "name": "雷壁",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 12,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "使我方单体处于防壁状态。"
+  },
+  {
+    "id": 229,
+    "name": "水镜",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 16,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "反射敌人的物理攻击。"
+  },
+  {
+    "id": 235,
+    "name": "真元护体",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时提高我方单体防御力。"
+  },
+  {
+    "id": 238,
+    "name": "破壁",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 3,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时大大降低敌方单体的防御力。"
+  },
+  {
+    "id": 239,
+    "name": "行运",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 4,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "暂时提高我方单体的“运”。"
+  },
+  {
+    "id": 244,
+    "name": "天魔附体",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷",
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "同时增加我方单体的攻、防、速、运。"
+  },
+  {
+    "id": 250,
+    "name": "禁咒封",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 10,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "将敌人封印的符法。"
+  },
+  {
+    "id": 256,
+    "name": "鬼降",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "使敌人全体陷入混乱状态。"
+  },
+  {
+    "id": 257,
+    "name": "鬼禁",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "比较强力的鬼系法术，使全体敌人进入禁忌状态。"
+  },
+  {
+    "id": 258,
+    "name": "鬼狱还神",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "能够吸取敌方单体神的鬼系法术。"
+  },
+  {
+    "id": 259,
+    "name": "夺魂",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "夺人魂魄的即死攻击。"
+  },
+  {
+    "id": 260,
+    "name": "鬼炼狂魔",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "使敌人全体抓狂。"
+  },
+  {
+    "id": 263,
+    "name": "大挪移",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "使对方阵型随机变化。"
+  },
+  {
+    "id": 7710,
+    "name": "唤妖术",
+    "source": "theurgy",
+    "category": "辅助仙术",
+    "skillType": 1,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 201,
+    "name": "风咒",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 4,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "",
+    "description": "初级风系攻击仙术，攻击敌方单体。"
+  },
+  {
+    "id": 203,
+    "name": "风卷尘生",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 18,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -100
+    },
+    "effect": "",
+    "description": "中级风系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 204,
+    "name": "罡风惊天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 35,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "高级风系仙术，攻击敌方全体，威力惊人。"
+  },
+  {
+    "id": 207,
+    "name": "毒瘴",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的风。"
+  },
+  {
+    "id": 208,
+    "name": "炎咒",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 5,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "",
+    "description": "初级火系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 210,
+    "name": "三昧真火",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 16,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -60
+    },
+    "effect": "",
+    "description": "中级火系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 211,
+    "name": "流星火雨",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 18,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -175
+    },
+    "effect": "",
+    "description": "高级火系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 212,
+    "name": "炼狱火海",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 42,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "高级火系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 215,
+    "name": "毒焰",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的火焰。"
+  },
+  {
+    "id": 216,
+    "name": "雷咒",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 5,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -30
+    },
+    "effect": "",
+    "description": "初级雷系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 217,
+    "name": "惊雷闪",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 10,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -55
+    },
+    "effect": "",
+    "description": "中级雷系法术，攻击敌方全体。"
+  },
+  {
+    "id": 219,
+    "name": "天雷空破",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -180
+    },
+    "effect": "",
+    "description": "高级雷系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 220,
+    "name": "雷动九天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": "高级雷系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 224,
+    "name": "毒雷",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "雷"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的雷电。"
+  },
+  {
+    "id": 225,
+    "name": "冰咒",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 6,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "",
+    "description": "初级水系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 227,
+    "name": "雨恨云愁",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 24,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -130
+    },
+    "effect": "",
+    "description": "高级水系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 231,
+    "name": "冰刺",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": -140
+    },
+    "effect": "",
+    "description": "高级水系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 232,
+    "name": "毒雨",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的雨。"
+  },
+  {
+    "id": 233,
+    "name": "土咒",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 8,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -25
+    },
+    "effect": "",
+    "description": "初级土系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 234,
+    "name": "飞岩术",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 14,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -55
+    },
+    "effect": "",
+    "description": "中级土系仙术，攻击敌方全体。"
+  },
+  {
+    "id": 237,
+    "name": "泰山压顶",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 30,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": -180
+    },
+    "effect": "",
+    "description": "高级土系仙术，攻击敌方单体。"
+  },
+  {
+    "id": 240,
+    "name": "毒沼",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的泥浆。"
+  },
+  {
+    "id": 243,
+    "name": "风雪冰天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 30,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水",
+      "风"
+    ],
+    "stats": {
+      "精": -160
+    },
+    "effect": "",
+    "description": "风、水属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 245,
+    "name": "烈焰燃雷",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 32,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火",
+      "雷"
+    ],
+    "stats": {
+      "精": -180
+    },
+    "effect": "",
+    "description": "雷、火属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 246,
+    "name": "举火燎天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 36,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火",
+      "风"
+    ],
+    "stats": {
+      "精": -180
+    },
+    "effect": "",
+    "description": "风、火属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 247,
+    "name": "星沉地动",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火",
+      "土"
+    ],
+    "stats": {
+      "精": -180
+    },
+    "effect": "",
+    "description": "火、土属性组合而成的强力仙术，攻击敌方全体。"
+  },
+  {
+    "id": 248,
+    "name": "御剑术",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 10,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -45
+    },
+    "effect": "",
+    "description": "蜀山弟子入门的御剑术，攻击敌方单体。"
+  },
+  {
+    "id": 249,
+    "name": "万剑诀",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 25,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -80
+    },
+    "effect": "",
+    "description": "比较高深的蜀山剑诀，攻击敌方全体。"
+  },
+  {
+    "id": 251,
+    "name": "新月斩",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 15,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -60
+    },
+    "effect": "",
+    "description": "聚出一个新月状光圈来攻击敌方单体。"
+  },
+  {
+    "id": 252,
+    "name": "十字弧光斩",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 35,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -90
+    },
+    "effect": "",
+    "description": "攻击敌方全体，威力极大。"
+  },
+  {
+    "id": 253,
+    "name": "绞杀藤",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -80
+    },
+    "effect": "",
+    "description": "操纵剧毒植物攻击敌方全体，附加雷毒效果。"
+  },
+  {
+    "id": 254,
+    "name": "五彩光波",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 15,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "含有剧毒的光球，连使用者也不知道后果，攻击敌方单体。"
+  },
+  {
+    "id": 255,
+    "name": "声波攻击",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 15,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": "使敌方单体进入睡眠中。"
+  },
+  {
+    "id": 261,
+    "name": "鬼杀术",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -130
+    },
+    "effect": "",
+    "description": "操控鬼魅攻击敌方全体。"
+  },
+  {
+    "id": 262,
+    "name": "千蜂蛊",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -160
+    },
+    "effect": "",
+    "description": "控制蜜蜂来攻击敌方单体。"
+  },
+  {
+    "id": 901,
+    "name": "物理攻击1",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 902,
+    "name": "物理攻击2",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 903,
+    "name": "物理攻击3",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 904,
+    "name": "物理攻击4",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 905,
+    "name": "物理攻击5",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 906,
+    "name": "物理攻击6",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 907,
+    "name": "物理攻击7",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 908,
+    "name": "物理攻击8",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 909,
+    "name": "物理攻击9",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 910,
+    "name": "物理攻击10",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 911,
+    "name": "物理攻击11",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 912,
+    "name": "物理攻击12",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 913,
+    "name": "物理攻击13",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 914,
+    "name": "物理攻击14",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 915,
+    "name": "物理攻击15",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 916,
+    "name": "物理攻击16",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 917,
+    "name": "物理攻击17",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 918,
+    "name": "物理攻击18.",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "6",
+    "rangeId": 6,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 919,
+    "name": "物理攻击19",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "6",
+    "rangeId": 6,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 920,
+    "name": "物理攻击20",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "6",
+    "rangeId": 6,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 921,
+    "name": "物理攻击21",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 922,
+    "name": "物理攻击22",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 923,
+    "name": "物理攻击23",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "6",
+    "rangeId": 6,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 924,
+    "name": "物理攻击24",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 925,
+    "name": "物理攻击25",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "0",
+    "rangeId": 0,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 926,
+    "name": "物理攻击26",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 927,
+    "name": "物理攻击27",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "5",
+    "rangeId": 5,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 928,
+    "name": "物理攻击28",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "6",
+    "rangeId": 6,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 929,
+    "name": "物理攻击29",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "0",
+    "rangeId": 0,
+    "qi": 0,
+    "shen": null,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7701,
+    "name": "魔翼遮天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -140
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7702,
+    "name": "地裂绞杀",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -150
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7703,
+    "name": "烈火阵",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -280
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7704,
+    "name": "蹬云鞭",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 50,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -200
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7705,
+    "name": "邪灵出壳",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 50,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -220
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7706,
+    "name": "千尾雀屏",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -260
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7707,
+    "name": "乱刃斩",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -320
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7708,
+    "name": "邪灵祢天",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 40,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -330
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7709,
+    "name": "心波",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 80,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -360
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7711,
+    "name": "仙术2",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方单体",
+    "rangeId": 3,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {},
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 7712,
+    "name": "邪剑斩",
+    "source": "theurgy",
+    "category": "攻击仙术",
+    "skillType": 2,
+    "range": "己方全体",
+    "rangeId": 4,
+    "qi": 0,
+    "shen": 30,
+    "users": [],
+    "equip": "—",
+    "elements": [],
+    "stats": {
+      "精": -200
+    },
+    "effect": "",
+    "description": ""
+  },
+  {
+    "id": 202,
+    "name": "暖雾",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 6,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "风"
+    ],
+    "stats": {
+      "精": 40
+    },
+    "effect": "",
+    "description": "恢复我方单体精。"
+  },
+  {
+    "id": 209,
+    "name": "净衣咒",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 10,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "解除我方单体麻痹、封咒、禁忌。"
+  },
+  {
+    "id": 226,
+    "name": "雨润",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 8,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "解除我方单体催眠、混乱、疯狂。"
+  },
+  {
+    "id": 228,
+    "name": "五气连波",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": 0,
+    "shen": 32,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 200
+    },
+    "effect": "",
+    "description": "恢复我方全体“精”。"
+  },
+  {
+    "id": 230,
+    "name": "凝露",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 10,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "",
+    "description": "恢复我方单体少量“精”。"
+  },
+  {
+    "id": 236,
+    "name": "承天载物",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "全体",
+    "rangeId": 2,
+    "qi": 0,
+    "shen": 20,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "土"
+    ],
+    "stats": {
+      "精": 150
+    },
+    "effect": "",
+    "description": "恢复我方全体“精”。"
+  },
+  {
+    "id": 241,
+    "name": "风露饮",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 28,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水",
+      "风"
+    ],
+    "stats": {
+      "精": 100
+    },
+    "effect": "",
+    "description": "恢复我方单体全部“精”。"
+  },
+  {
+    "id": 242,
+    "name": "灵血咒",
+    "source": "theurgy",
+    "category": "治疗仙术",
+    "skillType": 3,
+    "range": "横排",
+    "rangeId": 1,
+    "qi": 0,
+    "shen": 16,
+    "users": [],
+    "equip": "—",
+    "elements": [
+      "水",
+      "火"
+    ],
+    "stats": {},
+    "effect": "",
+    "description": "恢复除中毒外其他一切不良状态。"
+  }
+]

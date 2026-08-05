@@ -1,0 +1,169 @@
+---
+import summary from '../data/pal3/generated/summary.json';
+
+const { counts } = summary;
+
+const statCards = [
+  { value: counts.items, label: '道具', detail: `炼妖 ${counts.plunder}` },
+  { value: counts.equipment + counts.weapons, label: '装备', detail: `防具 ${counts.equipment} / 武器 ${counts.weapons}` },
+  { value: counts.magic + counts.skills + counts.combos, label: '技能', detail: `仙术 ${counts.magic} / 特技 ${counts.skills} / 合击 ${counts.combos}` },
+  { value: counts.shops, label: '商店', detail: `地点 ${counts.locations} / 怪物 ${counts.monsters}` },
+];
+
+const entries = [
+  { label: '道具图鉴', href: '/games/pal3/items/', meta: '药品、暗器、辅助、古董、矿石与杂项' },
+  { label: '防具饰品', href: '/games/pal3/equipment/', meta: '头部 / 身体 / 足部 / 佩戴' },
+  { label: '武器图鉴', href: '/games/pal3/equipment/weapons/', meta: '剑枪刀弓杖与双短刃' },
+  { label: '仙术图鉴', href: '/games/pal3/skills/magic/', meta: '玩家仙术与合灵技' },
+  { label: '特技 / 合击', href: '/games/pal3/skills/techs/', meta: '角色特技与合击技' },
+  { label: '商店一览', href: '/games/pal3/shops/', meta: '武器店 / 药店 / 杂货 / 客栈' },
+  { label: '大地图地点', href: '/games/pal3/locations/', meta: 'BigMap → 场景包对照' },
+  { label: '怪物图鉴', href: '/games/pal3/monsters/', meta: '基础数值与五灵' },
+  { label: '数据说明', href: '/games/pal3/data-notes/', meta: '来源、字段口径与同步方式' },
+];
+---
+
+<section class="pal3-hub" aria-label="仙剑奇侠传三资料入口">
+  <div class="pal3-hero">
+    <p class="pal3-kicker">数据来自 Steam PAL3 · basedata.cpk（对齐重装机兵的资料表接法）</p>
+    <h2>仙剑奇侠传三资料库</h2>
+    <p>
+      战斗数据表与商店脚本导出的可检索图鉴：道具、装备、仙术、特技、商店、大地图地点与怪物。
+      map-viewer 侧按 Metal Max 契约只先接世界底图与 data 目录，场景跳转等热点坐标齐了再补。
+    </p>
+    <div class="pal3-actions">
+      <a href="/games/pal3/items/">查道具</a>
+      <a href="/games/pal3/equipment/">查防具</a>
+      <a href="/games/pal3/skills/magic/">查仙术</a>
+      <a href="/games/pal3/shops/">查商店</a>
+    </div>
+  </div>
+
+  <div class="pal3-stat-grid" aria-label="数据规模">
+    {statCards.map((item) => (
+      <span>
+        <strong>{item.value}</strong>
+        <em>{item.label}</em>
+        <small>{item.detail}</small>
+      </span>
+    ))}
+  </div>
+
+  <div class="pal3-entry-grid" aria-label="常用入口">
+    {entries.map((entry) => (
+      <a href={entry.href}>
+        <span>{entry.label}</span>
+        <small>{entry.meta}</small>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .pal3-hub {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  .pal3-hero {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background:
+      linear-gradient(135deg, rgba(46, 139, 87, 0.14), rgba(35, 183, 229, 0.08)),
+      var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    padding: 1.1rem;
+  }
+
+  .pal3-kicker {
+    color: var(--leaf-primary-hover);
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin: 0 0 0.35rem;
+  }
+
+  .pal3-hero h2 {
+    margin: 0 0 0.45rem;
+  }
+
+  .pal3-hero p {
+    color: var(--leaf-text-muted);
+    margin: 0;
+    max-width: 46rem;
+  }
+
+  .pal3-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 0.9rem;
+  }
+
+  .pal3-actions a {
+    border: 1px solid var(--leaf-border);
+    border-radius: 999px;
+    color: var(--leaf-heading);
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding: 0.28rem 0.75rem;
+    text-decoration: none;
+  }
+
+  .pal3-actions a:hover {
+    border-color: var(--leaf-primary);
+    color: var(--leaf-primary-hover);
+  }
+
+  .pal3-stat-grid,
+  .pal3-entry-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  }
+
+  .pal3-stat-grid > span,
+  .pal3-entry-grid > a {
+    border: 1px solid var(--leaf-border);
+    border-radius: var(--leaf-radius-card);
+    background: var(--leaf-bg-card);
+    box-shadow: var(--leaf-shadow-card);
+    padding: 0.8rem 0.9rem;
+  }
+
+  .pal3-stat-grid strong {
+    color: var(--leaf-heading);
+    display: block;
+    font-size: 1.45rem;
+    line-height: 1.1;
+  }
+
+  .pal3-stat-grid em {
+    color: var(--leaf-text);
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.2rem;
+  }
+
+  .pal3-stat-grid small,
+  .pal3-entry-grid small {
+    color: var(--leaf-text-muted);
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .pal3-entry-grid > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .pal3-entry-grid > a:hover {
+    border-color: var(--leaf-primary);
+  }
+
+  .pal3-entry-grid span {
+    color: var(--leaf-heading);
+    font-weight: 700;
+  }
+</style>
