@@ -3056,13 +3056,13 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 15,
@@ -3629,7 +3629,7 @@
     "gathers": [
       {
         "sceneId": 20,
-        "sceneName": "场景 20",
+        "sceneName": "水月宫",
         "mapNum": 9,
         "eventId": 364,
         "message": "打开箱子，取得三张观音符",
@@ -5460,7 +5460,7 @@
         "shopId": 4,
         "name": "卖吃小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 12,
@@ -5472,7 +5472,7 @@
     "gathers": [
       {
         "sceneId": 5,
-        "sceneName": "场景 5",
+        "sceneName": "余杭镇",
         "mapNum": 2,
         "eventId": 129,
         "message": "水果贩：",
@@ -6101,7 +6101,7 @@
         "shopId": 4,
         "name": "卖吃小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 12,
@@ -6746,7 +6746,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [
@@ -7076,7 +7076,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [
@@ -7236,7 +7236,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [
@@ -7311,7 +7311,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [
@@ -7376,7 +7376,7 @@
         "shopId": 4,
         "name": "卖吃小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 12,
@@ -7424,7 +7424,7 @@
         "shopId": 4,
         "name": "卖吃小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 12,
@@ -7764,7 +7764,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 3,
@@ -7788,7 +7788,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       },
       {
         "shopId": 10,
@@ -8318,7 +8318,7 @@
         "shopId": 7,
         "name": "杂货小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [],
@@ -8505,7 +8505,7 @@
         "shopId": 4,
         "name": "卖吃小贩",
         "sceneId": 23,
-        "sceneName": "场景 23"
+        "sceneName": "苏州城"
       }
     ],
     "gathers": [],

@@ -1,0 +1,24 @@
+---
+title: 战斗队伍
+description: 仙剑奇侠传 380 支敌人队伍的组成、奖励与出没场景。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-08'
+tableOfContents: false
+sidebar:
+  label: 战斗队伍
+---
+
+import PalDataTable from '../../../../components/PalDataTable.astro';
+
+取自 `DATA.MKF#2`（`ENEMYTEAM`），每队 5 个槽位。380 队里 1 人 129、2 人 139、
+3 人 101、4 人 8、5 人 3，**没有空队**。
+
+**槽位允许重复**，157 队含同种多只（史莱姆×2、蜜蜂×3）。所以组成按数量写，
+经验与金钱也按数量累乘——三只的队伍给三份。
+
+「出没场景」由脚本 `0x0007`（开始战斗）反查，326 队能定位到场景；
+标「未定位」的 54 队没有任何已遍历到的脚本启动它们，多半藏在遍历不到的分支里。
+
+<PalDataTable kind="teams" />

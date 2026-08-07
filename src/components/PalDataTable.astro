@@ -1,7 +1,7 @@
 ---
 // 仙剑一数据表 — 可筛选排序。
 // kinds: items | equipment | shops | locations | treasures | npcs
-//        | enemies | magics | sources
+//        | enemies | magics | sources | teams
 import items from '../data/pal/generated/items.json';
 import equipment from '../data/pal/generated/equipment.json';
 import shops from '../data/pal/generated/shops.json';
@@ -11,6 +11,7 @@ import npcs from '../data/pal/generated/npcs.json';
 import enemies from '../data/pal/generated/enemies.json';
 import magics from '../data/pal/generated/magics.json';
 import itemSources from '../data/pal/generated/item_sources.json';
+import battleTeams from '../data/pal/generated/battle_teams.json';
 
 type Row = Record<string, any>;
 const { kind = 'items' } = Astro.props as { kind?: string };
@@ -27,6 +28,10 @@ const npcRows = npcs as Row[];
 const enemyRows = enemies as Row[];
 const magicRows = magics as Row[];
 const sourceRows = (itemSources as Row[]).filter((r) => r.sourceCount > 0);
+const teamRows = battleTeams as Row[];
+const enemyHref = (id: unknown) => `/games/pal/enemies/#enemy-${id}`;
+// 「灯笼×2」；单只不写数量。
+const memberLabel = (m: any) => (m.count > 1 ? `${m.name}×${m.count}` : m.name);
 
 // 跨表互链：道具分散在「道具图鉴」和「装备图鉴」两页，先建 ID -> 页面锚点。
 const ITEMS_PAGE = '/games/pal/items/';
@@ -74,6 +79,7 @@ const unit =
   kind === 'npcs' ? '人' :
   kind === 'enemies' ? '种' :
   kind === 'magics' ? '个' :
+  kind === 'teams' ? '队' :
   kind === 'treasures' ? '处' :
   kind === 'shops' ? '家' :
   kind === 'locations' ? '处' : '件';
@@ -306,13 +312,14 @@ const unit =
             <th data-sort="exp" class="num">经验</th>
             <th data-sort="cash" class="num">金钱</th>
             <th>可偷</th>
+            <th>同行</th>
             <th>出没场景</th>
           </tr>
         </thead>
         <tbody>
           {enemyRows.map((r) => (
             <tr
-              data-name={`${r.name} ${r.stealItem?.name ?? ''}`}
+              data-name={`${r.name} ${r.stealItem?.name ?? ''} ${r.companions.map((c: any) => c.name).join(' ')}`}
               data-id={r.id}
               data-level={r.level}
               data-health={r.health}
@@ -335,6 +342,14 @@ const unit =
                       {r.stealAmount > 1 && ` ×${r.stealAmount}`}
                     </>
                   : '—'}
+              </td>
+              <td class="muted">
+                {r.companions.length
+                  ? r.companions.slice(0, 4).map((c: any, i: number) => (
+                      <>{i > 0 && '、'}<a href={enemyHref(c.id)}>{c.name}</a></>
+                    ))
+                  : <span title="从不与别的种类同队">单一</span>}
+                {r.companions.length > 4 && ` +${r.companions.length - 4}`}
               </td>
               <td class="long muted">
                 {r.sceneIds.length
@@ -383,6 +398,53 @@ const unit =
               <td>{r.elementalName}</td>
               <td class="muted">{r.typeName}</td>
               <td class="long muted">{firstLine(r.description) || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'teams' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="id" class="num">队伍</th>
+            <th data-sort="size" class="num">人数</th>
+            <th>组成</th>
+            <th data-sort="exp" class="num">经验</th>
+            <th data-sort="cash" class="num">金钱</th>
+            <th>出没场景</th>
+          </tr>
+        </thead>
+        <tbody>
+          {teamRows.map((r) => (
+            <tr
+              id={`team-${r.id}`}
+              data-name={r.members.map(memberLabel).join(' ')}
+              data-id={r.id}
+              data-size={r.size}
+              data-exp={r.exp}
+              data-cash={r.cash}
+            >
+              <td class="num muted">{r.id}</td>
+              <td class="num">{r.size}</td>
+              <td class="name">
+                {r.members.map((m: any, i: number) => (
+                  <>{i > 0 && '、'}<a href={enemyHref(m.id)}>{memberLabel(m)}</a></>
+                ))}
+              </td>
+              <td class="num">{r.exp.toLocaleString('zh-CN')}</td>
+              <td class="num">{r.cash.toLocaleString('zh-CN')}</td>
+              <td class="long muted">
+                {r.sceneIds.length
+                  ? <>
+                      {r.sceneIds.slice(0, 6).map((sid: number, i: number) => (
+                        <>{i > 0 && '、'}<a href={sceneHref(sid)}>{sid}</a></>
+                      ))}
+                      {r.sceneIds.length > 6 && ` … 共 ${r.sceneIds.length} 处`}
+                    </>
+                  : <span title="没有任何脚本以 0x0007 启动它">未定位</span>}
+              </td>
             </tr>
           ))}
         </tbody>

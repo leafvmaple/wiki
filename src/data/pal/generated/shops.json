@@ -59,13 +59,13 @@
     "name": "卖吃小贩",
     "kind": "buy",
     "sceneId": 23,
-    "sceneName": "场景 23",
+    "sceneName": "苏州城",
     "mapNum": 23,
     "eventId": 427,
     "locations": [
       {
         "sceneId": 23,
-        "sceneName": "场景 23",
+        "sceneName": "苏州城",
         "mapNum": 23,
         "eventId": 427,
         "keeper": "卖吃小贩",
@@ -101,13 +101,13 @@
     "name": "杂货小贩",
     "kind": "buy",
     "sceneId": 23,
-    "sceneName": "场景 23",
+    "sceneName": "苏州城",
     "mapNum": 23,
     "eventId": 434,
     "locations": [
       {
         "sceneId": 23,
-        "sceneName": "场景 23",
+        "sceneName": "苏州城",
         "mapNum": 23,
         "eventId": 434,
         "keeper": "杂货小贩",

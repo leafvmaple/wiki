@@ -134,6 +134,53 @@
     "avatar": 1,
     "spriteNum": 2,
     "battleSprite": 0,
+    "learns": [
+      {
+        "level": 7,
+        "id": 349,
+        "name": "天师符法"
+      },
+      {
+        "level": 9,
+        "id": 311,
+        "name": "天罡战气"
+      },
+      {
+        "level": 11,
+        "id": 298,
+        "name": "凝神归元"
+      },
+      {
+        "level": 13,
+        "id": 346,
+        "name": "万剑诀"
+      },
+      {
+        "level": 18,
+        "id": 299,
+        "name": "元灵归心术"
+      },
+      {
+        "level": 20,
+        "id": 310,
+        "name": "真元护体"
+      },
+      {
+        "level": 23,
+        "id": 348,
+        "name": "天剑"
+      },
+      {
+        "level": 28,
+        "id": 392,
+        "name": "金蝉脱壳"
+      },
+      {
+        "level": 36,
+        "id": 363,
+        "name": "剑神"
+      }
+    ],
     "avatarFile": "/assets/pal/sprites/avatar_036.png",
     "spriteFile": "/assets/pal/sprites/player_036.png",
     "battleFile": "/assets/pal/sprites/battle_036.png"
@@ -302,6 +349,78 @@
     "avatar": 11,
     "spriteNum": 3,
     "battleSprite": 1,
+    "learns": [
+      {
+        "level": 7,
+        "id": 313,
+        "name": "旋风咒"
+      },
+      {
+        "level": 8,
+        "id": 300,
+        "name": "五气朝元"
+      },
+      {
+        "level": 9,
+        "id": 322,
+        "name": "玄冰咒"
+      },
+      {
+        "level": 10,
+        "id": 333,
+        "name": "飞岩术"
+      },
+      {
+        "level": 11,
+        "id": 317,
+        "name": "五雷咒"
+      },
+      {
+        "level": 13,
+        "id": 328,
+        "name": "三昧真火"
+      },
+      {
+        "level": 15,
+        "id": 314,
+        "name": "风卷残云"
+      },
+      {
+        "level": 17,
+        "id": 323,
+        "name": "风雪冰天"
+      },
+      {
+        "level": 20,
+        "id": 334,
+        "name": "地裂天崩"
+      },
+      {
+        "level": 22,
+        "id": 318,
+        "name": "天雷破"
+      },
+      {
+        "level": 25,
+        "id": 335,
+        "name": "泰山压顶"
+      },
+      {
+        "level": 28,
+        "id": 319,
+        "name": "狂雷"
+      },
+      {
+        "level": 29,
+        "id": 330,
+        "name": "炼狱真火"
+      },
+      {
+        "level": 32,
+        "id": 351,
+        "name": "武神"
+      }
+    ],
     "avatarFile": "/assets/pal/sprites/avatar_037.png",
     "spriteFile": "/assets/pal/sprites/player_037.png",
     "battleFile": "/assets/pal/sprites/battle_037.png"
@@ -445,6 +564,38 @@
     "avatar": 21,
     "spriteNum": 7,
     "battleSprite": 2,
+    "learns": [
+      {
+        "level": 7,
+        "id": 340,
+        "name": "一阳指"
+      },
+      {
+        "level": 10,
+        "id": 344,
+        "name": "铜钱镖"
+      },
+      {
+        "level": 14,
+        "id": 341,
+        "name": "七诀剑气"
+      },
+      {
+        "level": 17,
+        "id": 299,
+        "name": "元灵归心术"
+      },
+      {
+        "level": 18,
+        "id": 394,
+        "name": "乾坤一掷"
+      },
+      {
+        "level": 22,
+        "id": 342,
+        "name": "斩龙诀"
+      }
+    ],
     "avatarFile": "/assets/pal/sprites/avatar_038.png",
     "spriteFile": "/assets/pal/sprites/player_038.png",
     "battleFile": "/assets/pal/sprites/battle_038.png"
@@ -620,6 +771,7 @@
     "avatar": 73,
     "spriteNum": 525,
     "battleSprite": 3,
+    "learns": [],
     "avatarFile": "/assets/pal/sprites/avatar_040.png",
     "spriteFile": "/assets/pal/sprites/player_040.png",
     "battleFile": "/assets/pal/sprites/battle_040.png"
@@ -788,6 +940,23 @@
     "avatar": 27,
     "spriteNum": 5,
     "battleSprite": 4,
+    "learns": [
+      {
+        "level": 30,
+        "id": 354,
+        "name": "万蚁蚀象"
+      },
+      {
+        "level": 33,
+        "id": 374,
+        "name": "爆炸蛊"
+      },
+      {
+        "level": 35,
+        "id": 372,
+        "name": "万蛊蚀天"
+      }
+    ],
     "avatarFile": "/assets/pal/sprites/avatar_039.png",
     "spriteFile": "/assets/pal/sprites/player_039.png",
     "battleFile": "/assets/pal/sprites/battle_039.png"
@@ -951,6 +1120,7 @@
     "avatar": 44,
     "spriteNum": 26,
     "battleSprite": 8,
+    "learns": [],
     "avatarFile": "/assets/pal/sprites/avatar_041.png",
     "spriteFile": "/assets/pal/sprites/player_041.png",
     "battleFile": "/assets/pal/sprites/battle_041.png"

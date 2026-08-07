@@ -7,7 +7,7 @@ const statCards = [
   { value: counts.items, label: '道具', detail: `对象合计 ${counts.allObjects}` },
   { value: counts.equipment, label: '装备', detail: '可装备物件' },
   { value: counts.shops, label: '商店', detail: `点位 ${counts.shopPoints ?? counts.shops}` },
-  { value: counts.enemies ?? '—', label: '怪物', detail: `法术 ${counts.magics ?? '—'}` },
+  { value: counts.enemies ?? '—', label: '怪物', detail: `队伍 ${counts.battleTeams ?? '—'} · 法术 ${counts.magics ?? '—'}` },
 ];
 
 const entries = [
@@ -15,7 +15,8 @@ const entries = [
   { label: '道具图鉴', href: '/games/pal/items/', meta: '药品符咒等可使用物品' },
   { label: '装备图鉴', href: '/games/pal/equipment/', meta: '部位 · 属性加成' },
   { label: '法术图鉴', href: '/games/pal/magics/', meta: '消耗 · 威力 · 五灵属性' },
-  { label: '怪物图鉴', href: '/games/pal/enemies/', meta: '数值 · 可偷 · 出没场景' },
+  { label: '怪物图鉴', href: '/games/pal/enemies/', meta: '数值 · 可偷 · 同行 · 出没场景' },
+  { label: '战斗队伍', href: '/games/pal/battle-teams/', meta: '380 队组成与奖励' },
   { label: '道具出处', href: '/games/pal/item-sources/', meta: '哪里买 · 哪里采 · 偷谁' },
   { label: '商店一览', href: '/games/pal/shops/', meta: '货表 + 店主/场景' },
   { label: '采集与宝箱', href: '/games/pal/treasures/', meta: '采得/获得类道具点' },

@@ -1,0 +1,7827 @@
+[
+  {
+    "id": 0,
+    "members": [
+      {
+        "id": 398,
+        "name": "史莱姆",
+        "count": 2,
+        "enemyId": 1
+      }
+    ],
+    "size": 2,
+    "exp": 2,
+    "cash": 2,
+    "sceneIds": [
+      6,
+      250
+    ]
+  },
+  {
+    "id": 1,
+    "members": [
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 1,
+        "enemyId": 2
+      }
+    ],
+    "size": 1,
+    "exp": 1,
+    "cash": 3,
+    "sceneIds": [
+      6,
+      64
+    ]
+  },
+  {
+    "id": 2,
+    "members": [
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 2,
+        "enemyId": 2
+      }
+    ],
+    "size": 2,
+    "exp": 2,
+    "cash": 6,
+    "sceneIds": [
+      6,
+      40,
+      60,
+      64,
+      250
+    ]
+  },
+  {
+    "id": 3,
+    "members": [
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 3,
+        "enemyId": 2
+      }
+    ],
+    "size": 3,
+    "exp": 3,
+    "cash": 9,
+    "sceneIds": [
+      6,
+      40,
+      64,
+      250
+    ]
+  },
+  {
+    "id": 4,
+    "members": [
+      {
+        "id": 403,
+        "name": "蜜蜂",
+        "count": 2,
+        "enemyId": 6
+      }
+    ],
+    "size": 2,
+    "exp": 4,
+    "cash": 4,
+    "sceneIds": [
+      6,
+      250
+    ]
+  },
+  {
+    "id": 5,
+    "members": [
+      {
+        "id": 403,
+        "name": "蜜蜂",
+        "count": 2,
+        "enemyId": 6
+      },
+      {
+        "id": 404,
+        "name": "蛹",
+        "count": 1,
+        "enemyId": 7
+      }
+    ],
+    "size": 3,
+    "exp": 6,
+    "cash": 8,
+    "sceneIds": [
+      6,
+      190,
+      250
+    ]
+  },
+  {
+    "id": 6,
+    "members": [
+      {
+        "id": 403,
+        "name": "蜜蜂",
+        "count": 3,
+        "enemyId": 6
+      }
+    ],
+    "size": 3,
+    "exp": 6,
+    "cash": 6,
+    "sceneIds": [
+      6,
+      40,
+      42,
+      54,
+      70,
+      72,
+      75,
+      180,
+      250
+    ]
+  },
+  {
+    "id": 7,
+    "members": [
+      {
+        "id": 404,
+        "name": "蛹",
+        "count": 2,
+        "enemyId": 7
+      },
+      {
+        "id": 403,
+        "name": "蜜蜂",
+        "count": 3,
+        "enemyId": 6
+      }
+    ],
+    "size": 5,
+    "exp": 10,
+    "cash": 14,
+    "sceneIds": [
+      40,
+      41,
+      45,
+      54,
+      71,
+      72,
+      73,
+      75,
+      190,
+      250
+    ]
+  },
+  {
+    "id": 8,
+    "members": [
+      {
+        "id": 415,
+        "name": "酒瓮",
+        "count": 1,
+        "enemyId": 18
+      }
+    ],
+    "size": 1,
+    "exp": 5,
+    "cash": 5,
+    "sceneIds": [
+      6,
+      42
+    ]
+  },
+  {
+    "id": 9,
+    "members": [
+      {
+        "id": 415,
+        "name": "酒瓮",
+        "count": 2,
+        "enemyId": 18
+      }
+    ],
+    "size": 2,
+    "exp": 10,
+    "cash": 10,
+    "sceneIds": [
+      6,
+      40,
+      64,
+      216,
+      250
+    ]
+  },
+  {
+    "id": 10,
+    "members": [
+      {
+        "id": 415,
+        "name": "酒瓮",
+        "count": 2,
+        "enemyId": 18
+      },
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 1,
+        "enemyId": 2
+      }
+    ],
+    "size": 3,
+    "exp": 11,
+    "cash": 13,
+    "sceneIds": [
+      6,
+      40,
+      64,
+      148,
+      215,
+      250
+    ]
+  },
+  {
+    "id": 11,
+    "members": [
+      {
+        "id": 400,
+        "name": "黑毛球",
+        "count": 1,
+        "enemyId": 3
+      }
+    ],
+    "size": 1,
+    "exp": 4,
+    "cash": 4,
+    "sceneIds": [
+      6,
+      40,
+      250
+    ]
+  },
+  {
+    "id": 12,
+    "members": [
+      {
+        "id": 400,
+        "name": "黑毛球",
+        "count": 2,
+        "enemyId": 3
+      }
+    ],
+    "size": 2,
+    "exp": 8,
+    "cash": 8,
+    "sceneIds": [
+      6,
+      40,
+      41,
+      42,
+      64,
+      250
+    ]
+  },
+  {
+    "id": 13,
+    "members": [
+      {
+        "id": 400,
+        "name": "黑毛球",
+        "count": 1,
+        "enemyId": 3
+      },
+      {
+        "id": 423,
+        "name": "树根",
+        "count": 1,
+        "enemyId": 26
+      },
+      {
+        "id": 401,
+        "name": "烂香菇",
+        "count": 1,
+        "enemyId": 4
+      }
+    ],
+    "size": 3,
+    "exp": 304,
+    "cash": 119,
+    "sceneIds": [
+      250
+    ]
+  },
+  {
+    "id": 14,
+    "members": [
+      {
+        "id": 400,
+        "name": "黑毛球",
+        "count": 3,
+        "enemyId": 3
+      }
+    ],
+    "size": 3,
+    "exp": 12,
+    "cash": 12,
+    "sceneIds": [
+      40,
+      44,
+      45,
+      64,
+      250
+    ]
+  },
+  {
+    "id": 15,
+    "members": [
+      {
+        "id": 499,
+        "name": "绿叶小妖",
+        "count": 1,
+        "enemyId": 100
+      }
+    ],
+    "size": 1,
+    "exp": 1,
+    "cash": 0,
+    "sceneIds": [
+      16
+    ]
+  },
+  {
+    "id": 16,
+    "members": [
+      {
+        "id": 499,
+        "name": "绿叶小妖",
+        "count": 2,
+        "enemyId": 100
+      }
+    ],
+    "size": 2,
+    "exp": 2,
+    "cash": 0,
+    "sceneIds": [
+      16
+    ]
+  },
+  {
+    "id": 17,
+    "members": [
+      {
+        "id": 499,
+        "name": "绿叶小妖",
+        "count": 2,
+        "enemyId": 100
+      },
+      {
+        "id": 530,
+        "name": "绿叶妖精",
+        "count": 1,
+        "enemyId": 132
+      }
+    ],
+    "size": 3,
+    "exp": 5,
+    "cash": 0,
+    "sceneIds": [
+      16,
+      250
+    ]
+  },
+  {
+    "id": 18,
+    "members": [
+      {
+        "id": 495,
+        "name": "苗人拳",
+        "count": 2,
+        "enemyId": 97
+      }
+    ],
+    "size": 2,
+    "exp": 52,
+    "cash": 96,
+    "sceneIds": [
+      1,
+      76
+    ]
+  },
+  {
+    "id": 19,
+    "members": [
+      {
+        "id": 495,
+        "name": "苗人拳",
+        "count": 2,
+        "enemyId": 97
+      },
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      }
+    ],
+    "size": 3,
+    "exp": 162,
+    "cash": 336,
+    "sceneIds": [
+      70
+    ]
+  },
+  {
+    "id": 20,
+    "members": [
+      {
+        "id": 401,
+        "name": "烂香菇",
+        "count": 1,
+        "enemyId": 4
+      }
+    ],
+    "size": 1,
+    "exp": 140,
+    "cash": 60,
+    "sceneIds": []
+  },
+  {
+    "id": 21,
+    "members": [
+      {
+        "id": 480,
+        "name": "林月如一",
+        "count": 1,
+        "enemyId": 82
+      }
+    ],
+    "size": 1,
+    "exp": 200,
+    "cash": 500,
+    "sceneIds": [
+      22
+    ]
+  },
+  {
+    "id": 22,
+    "members": [
+      {
+        "id": 454,
+        "name": "刀手",
+        "count": 1,
+        "enemyId": 57
+      },
+      {
+        "id": 443,
+        "name": "罗汉腿",
+        "count": 1,
+        "enemyId": 46
+      }
+    ],
+    "size": 2,
+    "exp": 45,
+    "cash": 95,
+    "sceneIds": []
+  },
+  {
+    "id": 23,
+    "members": [
+      {
+        "id": 477,
+        "name": "小双钩",
+        "count": 1,
+        "enemyId": 80
+      },
+      {
+        "id": 476,
+        "name": "锤护院",
+        "count": 1,
+        "enemyId": 79
+      },
+      {
+        "id": 481,
+        "name": "暗器手",
+        "count": 1,
+        "enemyId": 83
+      }
+    ],
+    "size": 3,
+    "exp": 62,
+    "cash": 113,
+    "sceneIds": [
+      28,
+      71
+    ]
+  },
+  {
+    "id": 24,
+    "members": [
+      {
+        "id": 483,
+        "name": "林月如二",
+        "count": 1,
+        "enemyId": 85
+      }
+    ],
+    "size": 1,
+    "exp": 200,
+    "cash": 0,
+    "sceneIds": [
+      32
+    ]
+  },
+  {
+    "id": 25,
+    "members": [
+      {
+        "id": 502,
+        "name": "蛇女灵儿",
+        "count": 1,
+        "enemyId": 103
+      }
+    ],
+    "size": 1,
+    "exp": 0,
+    "cash": 0,
+    "sceneIds": [
+      36
+    ]
+  },
+  {
+    "id": 26,
+    "members": [
+      {
+        "id": 472,
+        "name": "僵屍王",
+        "count": 1,
+        "enemyId": 75
+      }
+    ],
+    "size": 1,
+    "exp": 660,
+    "cash": 1253,
+    "sceneIds": [
+      65
+    ]
+  },
+  {
+    "id": 27,
+    "members": [
+      {
+        "id": 473,
+        "name": "赤鬼王",
+        "count": 1,
+        "enemyId": 76
+      }
+    ],
+    "size": 1,
+    "exp": 950,
+    "cash": 1750,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 28,
+    "members": [
+      {
+        "id": 451,
+        "name": "红衣喇嘛",
+        "count": 1,
+        "enemyId": 54
+      },
+      {
+        "id": 482,
+        "name": "智杖和尚",
+        "count": 1,
+        "enemyId": 84
+      },
+      {
+        "id": 453,
+        "name": "灰衣喇嘛",
+        "count": 1,
+        "enemyId": 56
+      }
+    ],
+    "size": 3,
+    "exp": 350,
+    "cash": 673,
+    "sceneIds": [
+      58
+    ]
+  },
+  {
+    "id": 29,
+    "members": [
+      {
+        "id": 478,
+        "name": "女飞贼",
+        "count": 1,
+        "enemyId": 81
+      }
+    ],
+    "size": 1,
+    "exp": 1100,
+    "cash": 3350,
+    "sceneIds": [
+      86,
+      93
+    ]
+  },
+  {
+    "id": 30,
+    "members": [
+      {
+        "id": 526,
+        "name": "黑衣女贼",
+        "count": 2,
+        "enemyId": 128
+      },
+      {
+        "id": 479,
+        "name": "女飞贼1",
+        "count": 1,
+        "enemyId": 81
+      }
+    ],
+    "size": 3,
+    "exp": 1200,
+    "cash": 3548,
+    "sceneIds": [
+      92
+    ]
+  },
+  {
+    "id": 31,
+    "members": [
+      {
+        "id": 526,
+        "name": "黑衣女贼",
+        "count": 2,
+        "enemyId": 128
+      }
+    ],
+    "size": 2,
+    "exp": 100,
+    "cash": 198,
+    "sceneIds": [
+      87,
+      92
+    ]
+  },
+  {
+    "id": 32,
+    "members": [
+      {
+        "id": 526,
+        "name": "黑衣女贼",
+        "count": 3,
+        "enemyId": 128
+      }
+    ],
+    "size": 3,
+    "exp": 150,
+    "cash": 297,
+    "sceneIds": [
+      87
+    ]
+  },
+  {
+    "id": 33,
+    "members": [
+      {
+        "id": 527,
+        "name": "苗枪卒",
+        "count": 1,
+        "enemyId": 129
+      },
+      {
+        "id": 454,
+        "name": "刀手",
+        "count": 1,
+        "enemyId": 57
+      }
+    ],
+    "size": 2,
+    "exp": 76,
+    "cash": 100,
+    "sceneIds": [
+      70
+    ]
+  },
+  {
+    "id": 34,
+    "members": [
+      {
+        "id": 527,
+        "name": "苗枪卒",
+        "count": 2,
+        "enemyId": 129
+      },
+      {
+        "id": 496,
+        "name": "石长老",
+        "count": 1,
+        "enemyId": 119
+      }
+    ],
+    "size": 3,
+    "exp": 102,
+    "cash": 102,
+    "sceneIds": [
+      67
+    ]
+  },
+  {
+    "id": 35,
+    "members": [
+      {
+        "id": 524,
+        "name": "智修大师",
+        "count": 1,
+        "enemyId": 126
+      }
+    ],
+    "size": 1,
+    "exp": 180,
+    "cash": 4789,
+    "sceneIds": [
+      58
+    ]
+  },
+  {
+    "id": 36,
+    "members": [
+      {
+        "id": 500,
+        "name": "金蟾鬼母",
+        "count": 1,
+        "enemyId": 101
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 1480,
+    "cash": 3400,
+    "sceneIds": []
+  },
+  {
+    "id": 37,
+    "members": [
+      {
+        "id": 496,
+        "name": "石长老",
+        "count": 1,
+        "enemyId": 119
+      }
+    ],
+    "size": 1,
+    "exp": 0,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 38,
+    "members": [
+      {
+        "id": 525,
+        "name": "林天南",
+        "count": 1,
+        "enemyId": 127
+      }
+    ],
+    "size": 1,
+    "exp": 2500,
+    "cash": 2500,
+    "sceneIds": []
+  },
+  {
+    "id": 39,
+    "members": [
+      {
+        "id": 468,
+        "name": "蝶精彩依",
+        "count": 1,
+        "enemyId": 71
+      }
+    ],
+    "size": 1,
+    "exp": 5000,
+    "cash": 0,
+    "sceneIds": [
+      108
+    ]
+  },
+  {
+    "id": 40,
+    "members": [
+      {
+        "id": 499,
+        "name": "绿叶小妖",
+        "count": 1,
+        "enemyId": 100
+      },
+      {
+        "id": 530,
+        "name": "绿叶妖精",
+        "count": 1,
+        "enemyId": 132
+      }
+    ],
+    "size": 2,
+    "exp": 4,
+    "cash": 0,
+    "sceneIds": [
+      16
+    ]
+  },
+  {
+    "id": 41,
+    "members": [
+      {
+        "id": 530,
+        "name": "绿叶妖精",
+        "count": 2,
+        "enemyId": 132
+      }
+    ],
+    "size": 2,
+    "exp": 6,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 42,
+    "members": [
+      {
+        "id": 435,
+        "name": "六脚蜘蛛",
+        "count": 1,
+        "enemyId": 38
+      }
+    ],
+    "size": 1,
+    "exp": 0,
+    "cash": 0,
+    "sceneIds": [
+      138
+    ]
+  },
+  {
+    "id": 43,
+    "members": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      }
+    ],
+    "size": 1,
+    "exp": 420,
+    "cash": 0,
+    "sceneIds": [
+      139,
+      217,
+      218
+    ]
+  },
+  {
+    "id": 44,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 1,
+        "enemyId": 72
+      }
+    ],
+    "size": 1,
+    "exp": 180,
+    "cash": 350,
+    "sceneIds": [
+      47,
+      148,
+      165
+    ]
+  },
+  {
+    "id": 45,
+    "members": [
+      {
+        "id": 486,
+        "name": "半人蛇",
+        "count": 1,
+        "enemyId": 88
+      }
+    ],
+    "size": 1,
+    "exp": 250,
+    "cash": 1100,
+    "sceneIds": [
+      41
+    ]
+  },
+  {
+    "id": 46,
+    "members": [
+      {
+        "id": 402,
+        "name": "凤梨小妖",
+        "count": 2,
+        "enemyId": 5
+      }
+    ],
+    "size": 2,
+    "exp": 300,
+    "cash": 0,
+    "sceneIds": [
+      217
+    ]
+  },
+  {
+    "id": 47,
+    "members": [
+      {
+        "id": 534,
+        "name": "红史莱姆",
+        "count": 1,
+        "enemyId": 136
+      }
+    ],
+    "size": 1,
+    "exp": 5,
+    "cash": 5,
+    "sceneIds": [
+      42,
+      64
+    ]
+  },
+  {
+    "id": 48,
+    "members": [
+      {
+        "id": 487,
+        "name": "赤色小蛇",
+        "count": 1,
+        "enemyId": 89
+      }
+    ],
+    "size": 1,
+    "exp": 6,
+    "cash": 6,
+    "sceneIds": []
+  },
+  {
+    "id": 49,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 1,
+        "enemyId": 90
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇",
+        "count": 1,
+        "enemyId": 89
+      }
+    ],
+    "size": 2,
+    "exp": 12,
+    "cash": 11,
+    "sceneIds": [
+      41,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 50,
+    "members": [
+      {
+        "id": 534,
+        "name": "红史莱姆",
+        "count": 3,
+        "enemyId": 136
+      }
+    ],
+    "size": 3,
+    "exp": 15,
+    "cash": 15,
+    "sceneIds": [
+      40,
+      41,
+      44,
+      45,
+      200
+    ]
+  },
+  {
+    "id": 51,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 2,
+        "enemyId": 90
+      },
+      {
+        "id": 404,
+        "name": "蛹",
+        "count": 1,
+        "enemyId": 7
+      }
+    ],
+    "size": 3,
+    "exp": 14,
+    "cash": 14,
+    "sceneIds": [
+      40,
+      44,
+      45,
+      71
+    ]
+  },
+  {
+    "id": 52,
+    "members": [
+      {
+        "id": 534,
+        "name": "红史莱姆",
+        "count": 2,
+        "enemyId": 136
+      },
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 1,
+        "enemyId": 90
+      }
+    ],
+    "size": 3,
+    "exp": 16,
+    "cash": 15,
+    "sceneIds": [
+      45
+    ]
+  },
+  {
+    "id": 53,
+    "members": [
+      {
+        "id": 487,
+        "name": "赤色小蛇",
+        "count": 1,
+        "enemyId": 89
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 2,
+    "exp": 61,
+    "cash": 58,
+    "sceneIds": [
+      80
+    ]
+  },
+  {
+    "id": 54,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 1,
+        "enemyId": 90
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 2,
+    "exp": 61,
+    "cash": 57,
+    "sceneIds": [
+      65,
+      80
+    ]
+  },
+  {
+    "id": 55,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 1,
+        "enemyId": 90
+      },
+      {
+        "id": 426,
+        "name": "蜥蜴",
+        "count": 1,
+        "enemyId": 29
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇",
+        "count": 1,
+        "enemyId": 89
+      }
+    ],
+    "size": 3,
+    "exp": 20,
+    "cash": 21,
+    "sceneIds": [
+      40,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 56,
+    "members": [
+      {
+        "id": 426,
+        "name": "蜥蜴",
+        "count": 1,
+        "enemyId": 29
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 2,
+    "exp": 63,
+    "cash": 62,
+    "sceneIds": [
+      40,
+      41,
+      80,
+      216,
+      217
+    ]
+  },
+  {
+    "id": 57,
+    "members": [
+      {
+        "id": 520,
+        "name": "九头蛇",
+        "count": 1,
+        "enemyId": 122
+      }
+    ],
+    "size": 1,
+    "exp": 110,
+    "cash": 55,
+    "sceneIds": [
+      40,
+      41,
+      75,
+      217
+    ]
+  },
+  {
+    "id": 58,
+    "members": [
+      {
+        "id": 419,
+        "name": "僵屍",
+        "count": 1,
+        "enemyId": 22
+      }
+    ],
+    "size": 1,
+    "exp": 9,
+    "cash": 7,
+    "sceneIds": [
+      54,
+      61
+    ]
+  },
+  {
+    "id": 59,
+    "members": [
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 1,
+        "enemyId": 2
+      },
+      {
+        "id": 419,
+        "name": "僵屍",
+        "count": 2,
+        "enemyId": 22
+      }
+    ],
+    "size": 3,
+    "exp": 19,
+    "cash": 17,
+    "sceneIds": [
+      60,
+      61,
+      63,
+      64
+    ]
+  },
+  {
+    "id": 60,
+    "members": [
+      {
+        "id": 419,
+        "name": "僵屍",
+        "count": 3,
+        "enemyId": 22
+      }
+    ],
+    "size": 3,
+    "exp": 27,
+    "cash": 21,
+    "sceneIds": [
+      60,
+      61,
+      63,
+      64
+    ]
+  },
+  {
+    "id": 61,
+    "members": [
+      {
+        "id": 407,
+        "name": "开膛鬼",
+        "count": 1,
+        "enemyId": 10
+      },
+      {
+        "id": 419,
+        "name": "僵屍",
+        "count": 1,
+        "enemyId": 22
+      }
+    ],
+    "size": 2,
+    "exp": 19,
+    "cash": 17,
+    "sceneIds": [
+      60,
+      61,
+      63,
+      64
+    ]
+  },
+  {
+    "id": 62,
+    "members": [
+      {
+        "id": 407,
+        "name": "开膛鬼",
+        "count": 1,
+        "enemyId": 10
+      },
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 1,
+        "enemyId": 2
+      }
+    ],
+    "size": 2,
+    "exp": 11,
+    "cash": 13,
+    "sceneIds": [
+      63
+    ]
+  },
+  {
+    "id": 63,
+    "members": [
+      {
+        "id": 441,
+        "name": "扫把",
+        "count": 3,
+        "enemyId": 44
+      }
+    ],
+    "size": 3,
+    "exp": 114,
+    "cash": 66,
+    "sceneIds": [
+      60,
+      166
+    ]
+  },
+  {
+    "id": 64,
+    "members": [
+      {
+        "id": 409,
+        "name": "菜刀婆婆",
+        "count": 1,
+        "enemyId": 12
+      }
+    ],
+    "size": 1,
+    "exp": 36,
+    "cash": 96,
+    "sceneIds": [
+      61
+    ]
+  },
+  {
+    "id": 65,
+    "members": [
+      {
+        "id": 409,
+        "name": "菜刀婆婆",
+        "count": 1,
+        "enemyId": 12
+      },
+      {
+        "id": 407,
+        "name": "开膛鬼",
+        "count": 1,
+        "enemyId": 10
+      }
+    ],
+    "size": 2,
+    "exp": 46,
+    "cash": 106,
+    "sceneIds": [
+      60,
+      63
+    ]
+  },
+  {
+    "id": 66,
+    "members": [
+      {
+        "id": 407,
+        "name": "开膛鬼",
+        "count": 2,
+        "enemyId": 10
+      },
+      {
+        "id": 409,
+        "name": "菜刀婆婆",
+        "count": 1,
+        "enemyId": 12
+      }
+    ],
+    "size": 3,
+    "exp": 56,
+    "cash": 116,
+    "sceneIds": [
+      60,
+      61,
+      63,
+      65
+    ]
+  },
+  {
+    "id": 67,
+    "members": [
+      {
+        "id": 407,
+        "name": "开膛鬼",
+        "count": 1,
+        "enemyId": 10
+      }
+    ],
+    "size": 1,
+    "exp": 10,
+    "cash": 10,
+    "sceneIds": [
+      59,
+      60,
+      63,
+      65
+    ]
+  },
+  {
+    "id": 68,
+    "members": [
+      {
+        "id": 408,
+        "name": "半截僵屍",
+        "count": 1,
+        "enemyId": 11
+      }
+    ],
+    "size": 1,
+    "exp": 52,
+    "cash": 27,
+    "sceneIds": [
+      60,
+      63,
+      65,
+      167
+    ]
+  },
+  {
+    "id": 69,
+    "members": [
+      {
+        "id": 504,
+        "name": "僵屍兵A",
+        "count": 1,
+        "enemyId": 105
+      }
+    ],
+    "size": 1,
+    "exp": 10,
+    "cash": 8,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 70,
+    "members": [
+      {
+        "id": 505,
+        "name": "僵屍兵B",
+        "count": 1,
+        "enemyId": 106
+      }
+    ],
+    "size": 1,
+    "exp": 12,
+    "cash": 6,
+    "sceneIds": [
+      60
+    ]
+  },
+  {
+    "id": 71,
+    "members": [
+      {
+        "id": 506,
+        "name": "僵屍兵C",
+        "count": 1,
+        "enemyId": 107
+      }
+    ],
+    "size": 1,
+    "exp": 10,
+    "cash": 7,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 72,
+    "members": [
+      {
+        "id": 433,
+        "name": "飞头",
+        "count": 1,
+        "enemyId": 36
+      }
+    ],
+    "size": 1,
+    "exp": 8,
+    "cash": 0,
+    "sceneIds": [
+      60,
+      64
+    ]
+  },
+  {
+    "id": 73,
+    "members": [
+      {
+        "id": 433,
+        "name": "飞头",
+        "count": 3,
+        "enemyId": 36
+      }
+    ],
+    "size": 3,
+    "exp": 24,
+    "cash": 0,
+    "sceneIds": [
+      60,
+      64,
+      65,
+      167
+    ]
+  },
+  {
+    "id": 74,
+    "members": [
+      {
+        "id": 504,
+        "name": "僵屍兵A",
+        "count": 1,
+        "enemyId": 105
+      },
+      {
+        "id": 505,
+        "name": "僵屍兵B",
+        "count": 1,
+        "enemyId": 106
+      },
+      {
+        "id": 506,
+        "name": "僵屍兵C",
+        "count": 1,
+        "enemyId": 107
+      }
+    ],
+    "size": 3,
+    "exp": 32,
+    "cash": 21,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 75,
+    "members": [
+      {
+        "id": 504,
+        "name": "僵屍兵A",
+        "count": 2,
+        "enemyId": 105
+      },
+      {
+        "id": 505,
+        "name": "僵屍兵B",
+        "count": 1,
+        "enemyId": 106
+      }
+    ],
+    "size": 3,
+    "exp": 32,
+    "cash": 22,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 76,
+    "members": [
+      {
+        "id": 505,
+        "name": "僵屍兵B",
+        "count": 2,
+        "enemyId": 106
+      }
+    ],
+    "size": 2,
+    "exp": 24,
+    "cash": 12,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 77,
+    "members": [
+      {
+        "id": 506,
+        "name": "僵屍兵C",
+        "count": 2,
+        "enemyId": 107
+      }
+    ],
+    "size": 2,
+    "exp": 20,
+    "cash": 14,
+    "sceneIds": [
+      60,
+      65
+    ]
+  },
+  {
+    "id": 78,
+    "members": [
+      {
+        "id": 452,
+        "name": "白无常",
+        "count": 1,
+        "enemyId": 55
+      }
+    ],
+    "size": 1,
+    "exp": 13,
+    "cash": 0,
+    "sceneIds": [
+      64,
+      167
+    ]
+  },
+  {
+    "id": 79,
+    "members": [
+      {
+        "id": 452,
+        "name": "白无常",
+        "count": 2,
+        "enemyId": 55
+      }
+    ],
+    "size": 2,
+    "exp": 26,
+    "cash": 0,
+    "sceneIds": [
+      60,
+      65,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 80,
+    "members": [
+      {
+        "id": 452,
+        "name": "白无常",
+        "count": 1,
+        "enemyId": 55
+      },
+      {
+        "id": 504,
+        "name": "僵屍兵A",
+        "count": 1,
+        "enemyId": 105
+      }
+    ],
+    "size": 2,
+    "exp": 23,
+    "cash": 8,
+    "sceneIds": [
+      60
+    ]
+  },
+  {
+    "id": 81,
+    "members": [
+      {
+        "id": 452,
+        "name": "白无常",
+        "count": 2,
+        "enemyId": 55
+      },
+      {
+        "id": 399,
+        "name": "灯笼",
+        "count": 1,
+        "enemyId": 2
+      }
+    ],
+    "size": 3,
+    "exp": 27,
+    "cash": 3,
+    "sceneIds": [
+      59,
+      60,
+      65,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 82,
+    "members": [
+      {
+        "id": 436,
+        "name": "伏地罗汉",
+        "count": 2,
+        "enemyId": 39
+      }
+    ],
+    "size": 2,
+    "exp": 20,
+    "cash": 30,
+    "sceneIds": [
+      59,
+      65,
+      167
+    ]
+  },
+  {
+    "id": 83,
+    "members": [
+      {
+        "id": 436,
+        "name": "伏地罗汉",
+        "count": 1,
+        "enemyId": 39
+      }
+    ],
+    "size": 1,
+    "exp": 10,
+    "cash": 15,
+    "sceneIds": [
+      65
+    ]
+  },
+  {
+    "id": 84,
+    "members": [
+      {
+        "id": 445,
+        "name": "血云雾",
+        "count": 1,
+        "enemyId": 48
+      }
+    ],
+    "size": 1,
+    "exp": 33,
+    "cash": 30,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 85,
+    "members": [
+      {
+        "id": 425,
+        "name": "青鬼",
+        "count": 1,
+        "enemyId": 28
+      }
+    ],
+    "size": 1,
+    "exp": 16,
+    "cash": 30,
+    "sceneIds": []
+  },
+  {
+    "id": 86,
+    "members": [
+      {
+        "id": 427,
+        "name": "红鬼",
+        "count": 1,
+        "enemyId": 30
+      }
+    ],
+    "size": 1,
+    "exp": 16,
+    "cash": 30,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 87,
+    "members": [
+      {
+        "id": 445,
+        "name": "血云雾",
+        "count": 1,
+        "enemyId": 48
+      },
+      {
+        "id": 427,
+        "name": "红鬼",
+        "count": 1,
+        "enemyId": 30
+      }
+    ],
+    "size": 2,
+    "exp": 49,
+    "cash": 60,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 88,
+    "members": [
+      {
+        "id": 427,
+        "name": "红鬼",
+        "count": 2,
+        "enemyId": 30
+      },
+      {
+        "id": 425,
+        "name": "青鬼",
+        "count": 1,
+        "enemyId": 28
+      }
+    ],
+    "size": 3,
+    "exp": 48,
+    "cash": 90,
+    "sceneIds": [
+      59,
+      167
+    ]
+  },
+  {
+    "id": 89,
+    "members": [
+      {
+        "id": 439,
+        "name": "连体妖",
+        "count": 2,
+        "enemyId": 42
+      }
+    ],
+    "size": 2,
+    "exp": 40,
+    "cash": 60,
+    "sceneIds": [
+      59,
+      165
+    ]
+  },
+  {
+    "id": 90,
+    "members": [
+      {
+        "id": 439,
+        "name": "连体妖",
+        "count": 1,
+        "enemyId": 42
+      }
+    ],
+    "size": 1,
+    "exp": 20,
+    "cash": 30,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 91,
+    "members": [
+      {
+        "id": 425,
+        "name": "青鬼",
+        "count": 2,
+        "enemyId": 28
+      }
+    ],
+    "size": 2,
+    "exp": 32,
+    "cash": 60,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 92,
+    "members": [
+      {
+        "id": 425,
+        "name": "青鬼",
+        "count": 1,
+        "enemyId": 28
+      },
+      {
+        "id": 427,
+        "name": "红鬼",
+        "count": 1,
+        "enemyId": 30
+      },
+      {
+        "id": 439,
+        "name": "连体妖",
+        "count": 1,
+        "enemyId": 42
+      }
+    ],
+    "size": 3,
+    "exp": 52,
+    "cash": 90,
+    "sceneIds": [
+      59,
+      165
+    ]
+  },
+  {
+    "id": 93,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 3,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 135,
+    "cash": 30,
+    "sceneIds": [
+      102,
+      104
+    ]
+  },
+  {
+    "id": 94,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 2,
+        "enemyId": 139
+      }
+    ],
+    "size": 2,
+    "exp": 90,
+    "cash": 20,
+    "sceneIds": [
+      101,
+      104
+    ]
+  },
+  {
+    "id": 95,
+    "members": [
+      {
+        "id": 410,
+        "name": "小土鬼",
+        "count": 3,
+        "enemyId": 13
+      }
+    ],
+    "size": 3,
+    "exp": 84,
+    "cash": 39,
+    "sceneIds": [
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 96,
+    "members": [
+      {
+        "id": 410,
+        "name": "小土鬼",
+        "count": 2,
+        "enemyId": 13
+      }
+    ],
+    "size": 2,
+    "exp": 56,
+    "cash": 26,
+    "sceneIds": [
+      80,
+      167
+    ]
+  },
+  {
+    "id": 97,
+    "members": [
+      {
+        "id": 410,
+        "name": "小土鬼",
+        "count": 2,
+        "enemyId": 13
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 101,
+    "cash": 36,
+    "sceneIds": [
+      102,
+      104
+    ]
+  },
+  {
+    "id": 98,
+    "members": [
+      {
+        "id": 410,
+        "name": "小土鬼",
+        "count": 2,
+        "enemyId": 13
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 3,
+    "exp": 111,
+    "cash": 78,
+    "sceneIds": []
+  },
+  {
+    "id": 99,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 2,
+    "exp": 100,
+    "cash": 62,
+    "sceneIds": [
+      80,
+      104
+    ]
+  },
+  {
+    "id": 100,
+    "members": [
+      {
+        "id": 426,
+        "name": "蜥蜴",
+        "count": 1,
+        "enemyId": 29
+      }
+    ],
+    "size": 1,
+    "exp": 8,
+    "cash": 10,
+    "sceneIds": []
+  },
+  {
+    "id": 101,
+    "members": [
+      {
+        "id": 426,
+        "name": "蜥蜴",
+        "count": 2,
+        "enemyId": 29
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 61,
+    "cash": 30,
+    "sceneIds": [
+      102
+    ]
+  },
+  {
+    "id": 102,
+    "members": [
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 2,
+        "enemyId": 87
+      }
+    ],
+    "size": 2,
+    "exp": 220,
+    "cash": 480,
+    "sceneIds": [
+      76,
+      227,
+      260,
+      269
+    ]
+  },
+  {
+    "id": 103,
+    "members": [
+      {
+        "id": 454,
+        "name": "刀手",
+        "count": 3,
+        "enemyId": 57
+      }
+    ],
+    "size": 3,
+    "exp": 75,
+    "cash": 147,
+    "sceneIds": []
+  },
+  {
+    "id": 104,
+    "members": [
+      {
+        "id": 475,
+        "name": "剑护院",
+        "count": 1,
+        "enemyId": 78
+      },
+      {
+        "id": 476,
+        "name": "锤护院",
+        "count": 1,
+        "enemyId": 79
+      },
+      {
+        "id": 481,
+        "name": "暗器手",
+        "count": 1,
+        "enemyId": 83
+      }
+    ],
+    "size": 3,
+    "exp": 62,
+    "cash": 120,
+    "sceneIds": [
+      71,
+      72,
+      73,
+      76
+    ]
+  },
+  {
+    "id": 105,
+    "members": [
+      {
+        "id": 477,
+        "name": "小双钩",
+        "count": 1,
+        "enemyId": 80
+      },
+      {
+        "id": 454,
+        "name": "刀手",
+        "count": 1,
+        "enemyId": 57
+      },
+      {
+        "id": 443,
+        "name": "罗汉腿",
+        "count": 1,
+        "enemyId": 46
+      }
+    ],
+    "size": 3,
+    "exp": 65,
+    "cash": 136,
+    "sceneIds": [
+      70,
+      71,
+      72,
+      73,
+      76
+    ]
+  },
+  {
+    "id": 106,
+    "members": [
+      {
+        "id": 443,
+        "name": "罗汉腿",
+        "count": 2,
+        "enemyId": 46
+      }
+    ],
+    "size": 2,
+    "exp": 40,
+    "cash": 92,
+    "sceneIds": [
+      70
+    ]
+  },
+  {
+    "id": 107,
+    "members": [
+      {
+        "id": 475,
+        "name": "剑护院",
+        "count": 2,
+        "enemyId": 78
+      }
+    ],
+    "size": 2,
+    "exp": 40,
+    "cash": 96,
+    "sceneIds": [
+      76
+    ]
+  },
+  {
+    "id": 108,
+    "members": [
+      {
+        "id": 450,
+        "name": "枪卒",
+        "count": 1,
+        "enemyId": 53
+      }
+    ],
+    "size": 1,
+    "exp": 26,
+    "cash": 14,
+    "sceneIds": []
+  },
+  {
+    "id": 109,
+    "members": [
+      {
+        "id": 450,
+        "name": "枪卒",
+        "count": 3,
+        "enemyId": 53
+      }
+    ],
+    "size": 3,
+    "exp": 78,
+    "cash": 42,
+    "sceneIds": [
+      72,
+      76
+    ]
+  },
+  {
+    "id": 110,
+    "members": [
+      {
+        "id": 476,
+        "name": "锤护院",
+        "count": 2,
+        "enemyId": 79
+      },
+      {
+        "id": 481,
+        "name": "暗器手",
+        "count": 1,
+        "enemyId": 83
+      }
+    ],
+    "size": 3,
+    "exp": 62,
+    "cash": 114,
+    "sceneIds": [
+      76
+    ]
+  },
+  {
+    "id": 111,
+    "members": [
+      {
+        "id": 454,
+        "name": "刀手",
+        "count": 1,
+        "enemyId": 57
+      },
+      {
+        "id": 481,
+        "name": "暗器手",
+        "count": 1,
+        "enemyId": 83
+      }
+    ],
+    "size": 2,
+    "exp": 47,
+    "cash": 79,
+    "sceneIds": [
+      73
+    ]
+  },
+  {
+    "id": 112,
+    "members": [
+      {
+        "id": 477,
+        "name": "小双钩",
+        "count": 1,
+        "enemyId": 80
+      },
+      {
+        "id": 450,
+        "name": "枪卒",
+        "count": 1,
+        "enemyId": 53
+      }
+    ],
+    "size": 2,
+    "exp": 46,
+    "cash": 55,
+    "sceneIds": []
+  },
+  {
+    "id": 113,
+    "members": [
+      {
+        "id": 527,
+        "name": "苗枪卒",
+        "count": 3,
+        "enemyId": 129
+      }
+    ],
+    "size": 3,
+    "exp": 153,
+    "cash": 153,
+    "sceneIds": [
+      227
+    ]
+  },
+  {
+    "id": 114,
+    "members": [
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      },
+      {
+        "id": 527,
+        "name": "苗枪卒",
+        "count": 1,
+        "enemyId": 129
+      }
+    ],
+    "size": 2,
+    "exp": 161,
+    "cash": 291,
+    "sceneIds": [
+      76
+    ]
+  },
+  {
+    "id": 115,
+    "members": [
+      {
+        "id": 406,
+        "name": "血口虫",
+        "count": 1,
+        "enemyId": 9
+      }
+    ],
+    "size": 1,
+    "exp": 14,
+    "cash": 9,
+    "sceneIds": [
+      59,
+      101
+    ]
+  },
+  {
+    "id": 116,
+    "members": [
+      {
+        "id": 406,
+        "name": "血口虫",
+        "count": 3,
+        "enemyId": 9
+      }
+    ],
+    "size": 3,
+    "exp": 42,
+    "cash": 27,
+    "sceneIds": [
+      59,
+      80,
+      101
+    ]
+  },
+  {
+    "id": 117,
+    "members": [
+      {
+        "id": 406,
+        "name": "血口虫",
+        "count": 2,
+        "enemyId": 9
+      },
+      {
+        "id": 426,
+        "name": "蜥蜴",
+        "count": 1,
+        "enemyId": 29
+      }
+    ],
+    "size": 3,
+    "exp": 36,
+    "cash": 28,
+    "sceneIds": [
+      101
+    ]
+  },
+  {
+    "id": 118,
+    "members": [
+      {
+        "id": 406,
+        "name": "血口虫",
+        "count": 2,
+        "enemyId": 9
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 73,
+    "cash": 28,
+    "sceneIds": [
+      80,
+      101,
+      102
+    ]
+  },
+  {
+    "id": 119,
+    "members": [
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      }
+    ],
+    "size": 1,
+    "exp": 55,
+    "cash": 52,
+    "sceneIds": [
+      40,
+      41,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 120,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 1,
+    "exp": 45,
+    "cash": 10,
+    "sceneIds": [
+      113
+    ]
+  },
+  {
+    "id": 121,
+    "members": [
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 1,
+        "enemyId": 140
+      }
+    ],
+    "size": 1,
+    "exp": 50,
+    "cash": 10,
+    "sceneIds": [
+      102
+    ]
+  },
+  {
+    "id": 122,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 1,
+        "enemyId": 140
+      }
+    ],
+    "size": 3,
+    "exp": 155,
+    "cash": 20,
+    "sceneIds": [
+      104
+    ]
+  },
+  {
+    "id": 123,
+    "members": [
+      {
+        "id": 534,
+        "name": "红史莱姆",
+        "count": 2,
+        "enemyId": 136
+      }
+    ],
+    "size": 2,
+    "exp": 10,
+    "cash": 10,
+    "sceneIds": [
+      42,
+      44,
+      45,
+      64,
+      215
+    ]
+  },
+  {
+    "id": 124,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 1,
+        "enemyId": 90
+      }
+    ],
+    "size": 1,
+    "exp": 6,
+    "cash": 5,
+    "sceneIds": [
+      42
+    ]
+  },
+  {
+    "id": 125,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 2,
+        "enemyId": 120
+      }
+    ],
+    "size": 2,
+    "exp": 120,
+    "cash": 0,
+    "sceneIds": [
+      101,
+      104,
+      212
+    ]
+  },
+  {
+    "id": 126,
+    "members": [
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 2,
+        "enemyId": 140
+      }
+    ],
+    "size": 2,
+    "exp": 100,
+    "cash": 20,
+    "sceneIds": [
+      101,
+      104,
+      200
+    ]
+  },
+  {
+    "id": 127,
+    "members": [
+      {
+        "id": 500,
+        "name": "金蟾鬼母",
+        "count": 1,
+        "enemyId": 101
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 1,
+        "enemyId": 140
+      }
+    ],
+    "size": 2,
+    "exp": 810,
+    "cash": 3410,
+    "sceneIds": []
+  },
+  {
+    "id": 128,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 2,
+        "enemyId": 139
+      },
+      {
+        "id": 500,
+        "name": "金蟾鬼母",
+        "count": 1,
+        "enemyId": 101
+      }
+    ],
+    "size": 3,
+    "exp": 850,
+    "cash": 3420,
+    "sceneIds": []
+  },
+  {
+    "id": 129,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 2,
+    "exp": 105,
+    "cash": 10,
+    "sceneIds": [
+      101,
+      102,
+      104
+    ]
+  },
+  {
+    "id": 130,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 1,
+        "enemyId": 140
+      }
+    ],
+    "size": 2,
+    "exp": 110,
+    "cash": 10,
+    "sceneIds": [
+      101,
+      104
+    ]
+  },
+  {
+    "id": 131,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 1,
+        "enemyId": 117
+      }
+    ],
+    "size": 1,
+    "exp": 28,
+    "cash": 18,
+    "sceneIds": [
+      102
+    ]
+  },
+  {
+    "id": 132,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 1,
+        "enemyId": 118
+      }
+    ],
+    "size": 1,
+    "exp": 27,
+    "cash": 20,
+    "sceneIds": [
+      102
+    ]
+  },
+  {
+    "id": 133,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 3,
+        "enemyId": 117
+      }
+    ],
+    "size": 3,
+    "exp": 84,
+    "cash": 54,
+    "sceneIds": [
+      101,
+      104,
+      215,
+      216
+    ]
+  },
+  {
+    "id": 134,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 2,
+        "enemyId": 117
+      }
+    ],
+    "size": 2,
+    "exp": 56,
+    "cash": 36,
+    "sceneIds": [
+      101,
+      102,
+      104,
+      216
+    ]
+  },
+  {
+    "id": 135,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 3,
+        "enemyId": 118
+      }
+    ],
+    "size": 3,
+    "exp": 81,
+    "cash": 60,
+    "sceneIds": [
+      101,
+      102,
+      104,
+      113,
+      215,
+      216
+    ]
+  },
+  {
+    "id": 136,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 2,
+        "enemyId": 118
+      }
+    ],
+    "size": 2,
+    "exp": 54,
+    "cash": 40,
+    "sceneIds": [
+      101,
+      102,
+      113
+    ]
+  },
+  {
+    "id": 137,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 1,
+        "enemyId": 118
+      },
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 1,
+        "enemyId": 117
+      }
+    ],
+    "size": 2,
+    "exp": 55,
+    "cash": 38,
+    "sceneIds": [
+      101,
+      104,
+      215,
+      216
+    ]
+  },
+  {
+    "id": 138,
+    "members": [
+      {
+        "id": 500,
+        "name": "金蟾鬼母",
+        "count": 1,
+        "enemyId": 101
+      }
+    ],
+    "size": 1,
+    "exp": 760,
+    "cash": 3400,
+    "sceneIds": []
+  },
+  {
+    "id": 139,
+    "members": [
+      {
+        "id": 411,
+        "name": "跳蚤",
+        "count": 1,
+        "enemyId": 14
+      }
+    ],
+    "size": 1,
+    "exp": 42,
+    "cash": 7,
+    "sceneIds": [
+      139
+    ]
+  },
+  {
+    "id": 140,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 1,
+        "enemyId": 15
+      }
+    ],
+    "size": 1,
+    "exp": 40,
+    "cash": 13,
+    "sceneIds": []
+  },
+  {
+    "id": 141,
+    "members": [
+      {
+        "id": 411,
+        "name": "跳蚤",
+        "count": 3,
+        "enemyId": 14
+      }
+    ],
+    "size": 3,
+    "exp": 126,
+    "cash": 21,
+    "sceneIds": [
+      139
+    ]
+  },
+  {
+    "id": 142,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 3,
+        "enemyId": 15
+      }
+    ],
+    "size": 3,
+    "exp": 120,
+    "cash": 39,
+    "sceneIds": [
+      139
+    ]
+  },
+  {
+    "id": 143,
+    "members": [
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 3,
+        "enemyId": 109
+      }
+    ],
+    "size": 3,
+    "exp": 150,
+    "cash": 114,
+    "sceneIds": [
+      139,
+      148
+    ]
+  },
+  {
+    "id": 144,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 1,
+    "exp": 45,
+    "cash": 23,
+    "sceneIds": [
+      139
+    ]
+  },
+  {
+    "id": 145,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 2,
+        "enemyId": 115
+      }
+    ],
+    "size": 2,
+    "exp": 90,
+    "cash": 46,
+    "sceneIds": [
+      139,
+      185,
+      192,
+      216
+    ]
+  },
+  {
+    "id": 146,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 2,
+        "enemyId": 15
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 3,
+    "exp": 125,
+    "cash": 49,
+    "sceneIds": [
+      139,
+      217
+    ]
+  },
+  {
+    "id": 147,
+    "members": [
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 2,
+        "enemyId": 109
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 3,
+    "exp": 145,
+    "cash": 99,
+    "sceneIds": [
+      139
+    ]
+  },
+  {
+    "id": 148,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 2,
+        "enemyId": 15
+      },
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 1,
+        "enemyId": 109
+      }
+    ],
+    "size": 3,
+    "exp": 130,
+    "cash": 64,
+    "sceneIds": [
+      139,
+      216,
+      217
+    ]
+  },
+  {
+    "id": 149,
+    "members": [
+      {
+        "id": 444,
+        "name": "醉罗汉",
+        "count": 1,
+        "enemyId": 47
+      }
+    ],
+    "size": 1,
+    "exp": 63,
+    "cash": 100,
+    "sceneIds": []
+  },
+  {
+    "id": 150,
+    "members": [
+      {
+        "id": 446,
+        "name": "哈将",
+        "count": 1,
+        "enemyId": 49
+      }
+    ],
+    "size": 1,
+    "exp": 66,
+    "cash": 90,
+    "sceneIds": []
+  },
+  {
+    "id": 151,
+    "members": [
+      {
+        "id": 447,
+        "name": "金鎚武士",
+        "count": 1,
+        "enemyId": 50
+      }
+    ],
+    "size": 1,
+    "exp": 72,
+    "cash": 135,
+    "sceneIds": [
+      161,
+      162
+    ]
+  },
+  {
+    "id": 152,
+    "members": [
+      {
+        "id": 448,
+        "name": "巨斧武士",
+        "count": 1,
+        "enemyId": 51
+      }
+    ],
+    "size": 1,
+    "exp": 61,
+    "cash": 105,
+    "sceneIds": [
+      161
+    ]
+  },
+  {
+    "id": 153,
+    "members": [
+      {
+        "id": 449,
+        "name": "角力士",
+        "count": 1,
+        "enemyId": 52
+      }
+    ],
+    "size": 1,
+    "exp": 70,
+    "cash": 130,
+    "sceneIds": []
+  },
+  {
+    "id": 154,
+    "members": [
+      {
+        "id": 448,
+        "name": "巨斧武士",
+        "count": 1,
+        "enemyId": 51
+      },
+      {
+        "id": 447,
+        "name": "金鎚武士",
+        "count": 1,
+        "enemyId": 50
+      },
+      {
+        "id": 449,
+        "name": "角力士",
+        "count": 1,
+        "enemyId": 52
+      }
+    ],
+    "size": 3,
+    "exp": 203,
+    "cash": 370,
+    "sceneIds": [
+      161,
+      162
+    ]
+  },
+  {
+    "id": 155,
+    "members": [
+      {
+        "id": 446,
+        "name": "哈将",
+        "count": 3,
+        "enemyId": 49
+      }
+    ],
+    "size": 3,
+    "exp": 198,
+    "cash": 270,
+    "sceneIds": [
+      161
+    ]
+  },
+  {
+    "id": 156,
+    "members": [
+      {
+        "id": 418,
+        "name": "小雷公",
+        "count": 3,
+        "enemyId": 21
+      }
+    ],
+    "size": 3,
+    "exp": 150,
+    "cash": 210,
+    "sceneIds": [
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "id": 157,
+    "members": [
+      {
+        "id": 444,
+        "name": "醉罗汉",
+        "count": 2,
+        "enemyId": 47
+      }
+    ],
+    "size": 2,
+    "exp": 126,
+    "cash": 200,
+    "sceneIds": [
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "id": 158,
+    "members": [
+      {
+        "id": 449,
+        "name": "角力士",
+        "count": 2,
+        "enemyId": 52
+      }
+    ],
+    "size": 2,
+    "exp": 140,
+    "cash": 260,
+    "sceneIds": [
+      161
+    ]
+  },
+  {
+    "id": 159,
+    "members": [
+      {
+        "id": 447,
+        "name": "金鎚武士",
+        "count": 2,
+        "enemyId": 50
+      }
+    ],
+    "size": 2,
+    "exp": 144,
+    "cash": 270,
+    "sceneIds": []
+  },
+  {
+    "id": 160,
+    "members": [
+      {
+        "id": 446,
+        "name": "哈将",
+        "count": 1,
+        "enemyId": 49
+      },
+      {
+        "id": 418,
+        "name": "小雷公",
+        "count": 1,
+        "enemyId": 21
+      }
+    ],
+    "size": 2,
+    "exp": 116,
+    "cash": 160,
+    "sceneIds": [
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "id": 161,
+    "members": [
+      {
+        "id": 448,
+        "name": "巨斧武士",
+        "count": 2,
+        "enemyId": 51
+      }
+    ],
+    "size": 2,
+    "exp": 122,
+    "cash": 210,
+    "sceneIds": []
+  },
+  {
+    "id": 162,
+    "members": [
+      {
+        "id": 448,
+        "name": "巨斧武士",
+        "count": 1,
+        "enemyId": 51
+      },
+      {
+        "id": 447,
+        "name": "金鎚武士",
+        "count": 1,
+        "enemyId": 50
+      }
+    ],
+    "size": 2,
+    "exp": 133,
+    "cash": 240,
+    "sceneIds": [
+      161
+    ]
+  },
+  {
+    "id": 163,
+    "members": [
+      {
+        "id": 494,
+        "name": "剑老头",
+        "count": 1,
+        "enemyId": 96
+      }
+    ],
+    "size": 1,
+    "exp": 2500,
+    "cash": 2000,
+    "sceneIds": [
+      147
+    ]
+  },
+  {
+    "id": 164,
+    "members": [
+      {
+        "id": 532,
+        "name": "土蛟龙",
+        "count": 1,
+        "enemyId": 134
+      }
+    ],
+    "size": 1,
+    "exp": 525,
+    "cash": 525,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      167,
+      168
+    ]
+  },
+  {
+    "id": 165,
+    "members": [
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 1,
+        "enemyId": 43
+      }
+    ],
+    "size": 1,
+    "exp": 88,
+    "cash": 125,
+    "sceneIds": [
+      148,
+      167
+    ]
+  },
+  {
+    "id": 166,
+    "members": [
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 2,
+        "enemyId": 43
+      }
+    ],
+    "size": 2,
+    "exp": 176,
+    "cash": 250,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      168,
+      292
+    ]
+  },
+  {
+    "id": 167,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 1,
+        "enemyId": 72
+      },
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 1,
+        "enemyId": 43
+      }
+    ],
+    "size": 2,
+    "exp": 268,
+    "cash": 475,
+    "sceneIds": [
+      148
+    ]
+  },
+  {
+    "id": 168,
+    "members": [
+      {
+        "id": 428,
+        "name": "公背婆",
+        "count": 2,
+        "enemyId": 31
+      },
+      {
+        "id": 422,
+        "name": "怪老子",
+        "count": 1,
+        "enemyId": 25
+      }
+    ],
+    "size": 3,
+    "exp": 188,
+    "cash": 224,
+    "sceneIds": [
+      154,
+      166
+    ]
+  },
+  {
+    "id": 169,
+    "members": [
+      {
+        "id": 422,
+        "name": "怪老子",
+        "count": 2,
+        "enemyId": 25
+      },
+      {
+        "id": 428,
+        "name": "公背婆",
+        "count": 1,
+        "enemyId": 31
+      }
+    ],
+    "size": 3,
+    "exp": 184,
+    "cash": 250,
+    "sceneIds": [
+      154,
+      166
+    ]
+  },
+  {
+    "id": 170,
+    "members": [
+      {
+        "id": 422,
+        "name": "怪老子",
+        "count": 2,
+        "enemyId": 25
+      }
+    ],
+    "size": 2,
+    "exp": 120,
+    "cash": 184,
+    "sceneIds": [
+      154,
+      165,
+      166
+    ]
+  },
+  {
+    "id": 171,
+    "members": [
+      {
+        "id": 428,
+        "name": "公背婆",
+        "count": 2,
+        "enemyId": 31
+      }
+    ],
+    "size": 2,
+    "exp": 128,
+    "cash": 132,
+    "sceneIds": [
+      154,
+      165,
+      166
+    ]
+  },
+  {
+    "id": 172,
+    "members": [
+      {
+        "id": 428,
+        "name": "公背婆",
+        "count": 1,
+        "enemyId": 31
+      }
+    ],
+    "size": 1,
+    "exp": 64,
+    "cash": 66,
+    "sceneIds": [
+      165
+    ]
+  },
+  {
+    "id": 173,
+    "members": [
+      {
+        "id": 441,
+        "name": "扫把",
+        "count": 1,
+        "enemyId": 44
+      }
+    ],
+    "size": 1,
+    "exp": 38,
+    "cash": 22,
+    "sceneIds": []
+  },
+  {
+    "id": 174,
+    "members": [
+      {
+        "id": 441,
+        "name": "扫把",
+        "count": 1,
+        "enemyId": 44
+      },
+      {
+        "id": 421,
+        "name": "大手",
+        "count": 1,
+        "enemyId": 24
+      }
+    ],
+    "size": 2,
+    "exp": 116,
+    "cash": 72,
+    "sceneIds": [
+      147,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 175,
+    "members": [
+      {
+        "id": 421,
+        "name": "大手",
+        "count": 1,
+        "enemyId": 24
+      }
+    ],
+    "size": 1,
+    "exp": 78,
+    "cash": 50,
+    "sceneIds": [
+      147,
+      148,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 176,
+    "members": [
+      {
+        "id": 422,
+        "name": "怪老子",
+        "count": 1,
+        "enemyId": 25
+      }
+    ],
+    "size": 1,
+    "exp": 60,
+    "cash": 92,
+    "sceneIds": [
+      154,
+      156,
+      165,
+      166
+    ]
+  },
+  {
+    "id": 177,
+    "members": [
+      {
+        "id": 535,
+        "name": "紫兽人",
+        "count": 1,
+        "enemyId": 137
+      }
+    ],
+    "size": 1,
+    "exp": 85,
+    "cash": 88,
+    "sceneIds": [
+      147,
+      166,
+      167,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 178,
+    "members": [
+      {
+        "id": 535,
+        "name": "紫兽人",
+        "count": 1,
+        "enemyId": 137
+      },
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 1,
+        "enemyId": 43
+      }
+    ],
+    "size": 2,
+    "exp": 173,
+    "cash": 213,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      167,
+      168,
+      291
+    ]
+  },
+  {
+    "id": 179,
+    "members": [
+      {
+        "id": 455,
+        "name": "铁叉牛头",
+        "count": 1,
+        "enemyId": 58
+      }
+    ],
+    "size": 1,
+    "exp": 60,
+    "cash": 75,
+    "sceneIds": [
+      147,
+      148,
+      154,
+      166,
+      167,
+      168
+    ]
+  },
+  {
+    "id": 180,
+    "members": [
+      {
+        "id": 455,
+        "name": "铁叉牛头",
+        "count": 2,
+        "enemyId": 58
+      }
+    ],
+    "size": 2,
+    "exp": 120,
+    "cash": 150,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      167
+    ]
+  },
+  {
+    "id": 181,
+    "members": [
+      {
+        "id": 452,
+        "name": "白无常",
+        "count": 1,
+        "enemyId": 55
+      },
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 1,
+        "enemyId": 43
+      },
+      {
+        "id": 455,
+        "name": "铁叉牛头",
+        "count": 1,
+        "enemyId": 58
+      }
+    ],
+    "size": 3,
+    "exp": 161,
+    "cash": 200,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      168
+    ]
+  },
+  {
+    "id": 182,
+    "members": [
+      {
+        "id": 535,
+        "name": "紫兽人",
+        "count": 1,
+        "enemyId": 137
+      },
+      {
+        "id": 455,
+        "name": "铁叉牛头",
+        "count": 1,
+        "enemyId": 58
+      }
+    ],
+    "size": 2,
+    "exp": 145,
+    "cash": 163,
+    "sceneIds": [
+      148,
+      154,
+      156,
+      167,
+      168
+    ]
+  },
+  {
+    "id": 183,
+    "members": [
+      {
+        "id": 417,
+        "name": "猪头人",
+        "count": 1,
+        "enemyId": 20
+      },
+      {
+        "id": 434,
+        "name": "肥肥",
+        "count": 1,
+        "enemyId": 37
+      }
+    ],
+    "size": 2,
+    "exp": 143,
+    "cash": 114,
+    "sceneIds": [
+      147,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 184,
+    "members": [
+      {
+        "id": 434,
+        "name": "肥肥",
+        "count": 1,
+        "enemyId": 37
+      }
+    ],
+    "size": 1,
+    "exp": 78,
+    "cash": 64,
+    "sceneIds": [
+      147,
+      165,
+      167
+    ]
+  },
+  {
+    "id": 185,
+    "members": [
+      {
+        "id": 417,
+        "name": "猪头人",
+        "count": 1,
+        "enemyId": 20
+      }
+    ],
+    "size": 1,
+    "exp": 65,
+    "cash": 50,
+    "sceneIds": [
+      147,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "id": 186,
+    "members": [
+      {
+        "id": 418,
+        "name": "小雷公",
+        "count": 1,
+        "enemyId": 21
+      }
+    ],
+    "size": 1,
+    "exp": 50,
+    "cash": 70,
+    "sceneIds": []
+  },
+  {
+    "id": 187,
+    "members": [
+      {
+        "id": 416,
+        "name": "芒刺鬼",
+        "count": 1,
+        "enemyId": 19
+      }
+    ],
+    "size": 1,
+    "exp": 128,
+    "cash": 310,
+    "sceneIds": [
+      156,
+      168
+    ]
+  },
+  {
+    "id": 188,
+    "members": [
+      {
+        "id": 519,
+        "name": "明王",
+        "count": 1,
+        "enemyId": 121
+      }
+    ],
+    "size": 1,
+    "exp": 4985,
+    "cash": 3000,
+    "sceneIds": []
+  },
+  {
+    "id": 189,
+    "members": [
+      {
+        "id": 533,
+        "name": "黑凤凰",
+        "count": 1,
+        "enemyId": 135
+      }
+    ],
+    "size": 1,
+    "exp": 130,
+    "cash": 230,
+    "sceneIds": []
+  },
+  {
+    "id": 190,
+    "members": [
+      {
+        "id": 503,
+        "name": "鸟人",
+        "count": 2,
+        "enemyId": 104
+      }
+    ],
+    "size": 2,
+    "exp": 242,
+    "cash": 194,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 191,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      },
+      {
+        "id": 503,
+        "name": "鸟人",
+        "count": 1,
+        "enemyId": 104
+      }
+    ],
+    "size": 2,
+    "exp": 166,
+    "cash": 120,
+    "sceneIds": []
+  },
+  {
+    "id": 192,
+    "members": [
+      {
+        "id": 456,
+        "name": "猩猩",
+        "count": 1,
+        "enemyId": 59
+      }
+    ],
+    "size": 1,
+    "exp": 98,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 193,
+    "members": [
+      {
+        "id": 513,
+        "name": "狒狒",
+        "count": 1,
+        "enemyId": 114
+      }
+    ],
+    "size": 1,
+    "exp": 92,
+    "cash": 33,
+    "sceneIds": [
+      192
+    ]
+  },
+  {
+    "id": 194,
+    "members": [
+      {
+        "id": 456,
+        "name": "猩猩",
+        "count": 2,
+        "enemyId": 59
+      }
+    ],
+    "size": 2,
+    "exp": 196,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 195,
+    "members": [
+      {
+        "id": 513,
+        "name": "狒狒",
+        "count": 2,
+        "enemyId": 114
+      }
+    ],
+    "size": 2,
+    "exp": 184,
+    "cash": 66,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 196,
+    "members": [
+      {
+        "id": 513,
+        "name": "狒狒",
+        "count": 1,
+        "enemyId": 114
+      },
+      {
+        "id": 456,
+        "name": "猩猩",
+        "count": 1,
+        "enemyId": 59
+      }
+    ],
+    "size": 2,
+    "exp": 190,
+    "cash": 33,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 197,
+    "members": [
+      {
+        "id": 503,
+        "name": "鸟人",
+        "count": 1,
+        "enemyId": 104
+      }
+    ],
+    "size": 1,
+    "exp": 121,
+    "cash": 97,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 198,
+    "members": [
+      {
+        "id": 515,
+        "name": "紫凤鸟",
+        "count": 1,
+        "enemyId": 116
+      },
+      {
+        "id": 503,
+        "name": "鸟人",
+        "count": 1,
+        "enemyId": 104
+      }
+    ],
+    "size": 2,
+    "exp": 216,
+    "cash": 142,
+    "sceneIds": []
+  },
+  {
+    "id": 199,
+    "members": [
+      {
+        "id": 515,
+        "name": "紫凤鸟",
+        "count": 2,
+        "enemyId": 116
+      }
+    ],
+    "size": 2,
+    "exp": 190,
+    "cash": 90,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 200,
+    "members": [
+      {
+        "id": 515,
+        "name": "紫凤鸟",
+        "count": 2,
+        "enemyId": 116
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 3,
+    "exp": 235,
+    "cash": 113,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 201,
+    "members": [
+      {
+        "id": 515,
+        "name": "紫凤鸟",
+        "count": 1,
+        "enemyId": 116
+      }
+    ],
+    "size": 1,
+    "exp": 95,
+    "cash": 45,
+    "sceneIds": [
+      185,
+      192
+    ]
+  },
+  {
+    "id": 202,
+    "members": [
+      {
+        "id": 413,
+        "name": "石鬼头",
+        "count": 3,
+        "enemyId": 16
+      }
+    ],
+    "size": 3,
+    "exp": 450,
+    "cash": 195,
+    "sceneIds": [
+      189
+    ]
+  },
+  {
+    "id": 203,
+    "members": [
+      {
+        "id": 464,
+        "name": "凤凰",
+        "count": 1,
+        "enemyId": 67
+      }
+    ],
+    "size": 1,
+    "exp": 5290,
+    "cash": 0,
+    "sceneIds": [
+      185
+    ]
+  },
+  {
+    "id": 204,
+    "members": [
+      {
+        "id": 507,
+        "name": "半人树妖",
+        "count": 1,
+        "enemyId": 108
+      }
+    ],
+    "size": 1,
+    "exp": 135,
+    "cash": 60,
+    "sceneIds": [
+      180,
+      184,
+      189,
+      190
+    ]
+  },
+  {
+    "id": 205,
+    "members": [
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 1,
+        "enemyId": 109
+      }
+    ],
+    "size": 1,
+    "exp": 50,
+    "cash": 38,
+    "sceneIds": [
+      184,
+      189
+    ]
+  },
+  {
+    "id": 206,
+    "members": [
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 1,
+        "enemyId": 110
+      }
+    ],
+    "size": 1,
+    "exp": 125,
+    "cash": 52,
+    "sceneIds": [
+      180,
+      184,
+      189,
+      190
+    ]
+  },
+  {
+    "id": 207,
+    "members": [
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 1,
+        "enemyId": 109
+      },
+      {
+        "id": 507,
+        "name": "半人树妖",
+        "count": 1,
+        "enemyId": 108
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 1,
+        "enemyId": 110
+      }
+    ],
+    "size": 3,
+    "exp": 310,
+    "cash": 150,
+    "sceneIds": [
+      180,
+      184,
+      189,
+      190
+    ]
+  },
+  {
+    "id": 208,
+    "members": [
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 2,
+        "enemyId": 110
+      },
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 1,
+        "enemyId": 109
+      }
+    ],
+    "size": 3,
+    "exp": 300,
+    "cash": 142,
+    "sceneIds": [
+      180,
+      184,
+      189,
+      190
+    ]
+  },
+  {
+    "id": 209,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 1,
+        "enemyId": 110
+      }
+    ],
+    "size": 2,
+    "exp": 170,
+    "cash": 62,
+    "sceneIds": [
+      184,
+      189
+    ]
+  },
+  {
+    "id": 210,
+    "members": [
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 2,
+        "enemyId": 110
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 295,
+    "cash": 114,
+    "sceneIds": [
+      184,
+      189
+    ]
+  },
+  {
+    "id": 211,
+    "members": [
+      {
+        "id": 507,
+        "name": "半人树妖",
+        "count": 1,
+        "enemyId": 108
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖",
+        "count": 1,
+        "enemyId": 110
+      }
+    ],
+    "size": 2,
+    "exp": 260,
+    "cash": 112,
+    "sceneIds": [
+      184,
+      189
+    ]
+  },
+  {
+    "id": 212,
+    "members": [
+      {
+        "id": 413,
+        "name": "石鬼头",
+        "count": 2,
+        "enemyId": 16
+      }
+    ],
+    "size": 2,
+    "exp": 300,
+    "cash": 130,
+    "sceneIds": []
+  },
+  {
+    "id": 213,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 1,
+        "enemyId": 72
+      },
+      {
+        "id": 401,
+        "name": "烂香菇",
+        "count": 1,
+        "enemyId": 4
+      }
+    ],
+    "size": 2,
+    "exp": 320,
+    "cash": 410,
+    "sceneIds": [
+      180,
+      189
+    ]
+  },
+  {
+    "id": 214,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 1,
+        "enemyId": 72
+      },
+      {
+        "id": 508,
+        "name": "小树妖",
+        "count": 1,
+        "enemyId": 109
+      }
+    ],
+    "size": 2,
+    "exp": 230,
+    "cash": 388,
+    "sceneIds": [
+      180,
+      189
+    ]
+  },
+  {
+    "id": 215,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 2,
+        "enemyId": 72
+      }
+    ],
+    "size": 2,
+    "exp": 360,
+    "cash": 700,
+    "sceneIds": [
+      189,
+      217
+    ]
+  },
+  {
+    "id": 216,
+    "members": [
+      {
+        "id": 401,
+        "name": "烂香菇",
+        "count": 3,
+        "enemyId": 4
+      }
+    ],
+    "size": 3,
+    "exp": 420,
+    "cash": 180,
+    "sceneIds": [
+      180,
+      189
+    ]
+  },
+  {
+    "id": 217,
+    "members": [
+      {
+        "id": 402,
+        "name": "凤梨小妖",
+        "count": 1,
+        "enemyId": 5
+      }
+    ],
+    "size": 1,
+    "exp": 150,
+    "cash": 0,
+    "sceneIds": [
+      180,
+      189,
+      190,
+      216
+    ]
+  },
+  {
+    "id": 218,
+    "members": [
+      {
+        "id": 512,
+        "name": "黑衣道众",
+        "count": 3,
+        "enemyId": 113
+      }
+    ],
+    "size": 3,
+    "exp": 1050,
+    "cash": 750,
+    "sceneIds": [
+      184,
+      190
+    ]
+  },
+  {
+    "id": 219,
+    "members": [
+      {
+        "id": 512,
+        "name": "黑衣道众",
+        "count": 2,
+        "enemyId": 113
+      }
+    ],
+    "size": 2,
+    "exp": 700,
+    "cash": 500,
+    "sceneIds": [
+      184,
+      190
+    ]
+  },
+  {
+    "id": 220,
+    "members": [
+      {
+        "id": 512,
+        "name": "黑衣道众",
+        "count": 1,
+        "enemyId": 113
+      }
+    ],
+    "size": 1,
+    "exp": 350,
+    "cash": 250,
+    "sceneIds": [
+      184,
+      190
+    ]
+  },
+  {
+    "id": 221,
+    "members": [
+      {
+        "id": 474,
+        "name": "木灵道士",
+        "count": 1,
+        "enemyId": 77
+      }
+    ],
+    "size": 1,
+    "exp": 6400,
+    "cash": 5210,
+    "sceneIds": [
+      181
+    ]
+  },
+  {
+    "id": 222,
+    "members": [
+      {
+        "id": 462,
+        "name": "树妖",
+        "count": 1,
+        "enemyId": 65
+      }
+    ],
+    "size": 1,
+    "exp": 15000,
+    "cash": 0,
+    "sceneIds": [
+      278
+    ]
+  },
+  {
+    "id": 223,
+    "members": [
+      {
+        "id": 501,
+        "name": "盖罗娇1",
+        "count": 1,
+        "enemyId": 102
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 2,
+    "exp": 5010,
+    "cash": 4500,
+    "sceneIds": [
+      215
+    ]
+  },
+  {
+    "id": 224,
+    "members": [
+      {
+        "id": 463,
+        "name": "麒麟",
+        "count": 1,
+        "enemyId": 66
+      }
+    ],
+    "size": 1,
+    "exp": 7000,
+    "cash": 1600,
+    "sceneIds": [
+      200
+    ]
+  },
+  {
+    "id": 225,
+    "members": [
+      {
+        "id": 531,
+        "name": "火蛟龙",
+        "count": 1,
+        "enemyId": 133
+      }
+    ],
+    "size": 1,
+    "exp": 600,
+    "cash": 600,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 226,
+    "members": [
+      {
+        "id": 521,
+        "name": "雷龙",
+        "count": 1,
+        "enemyId": 123
+      }
+    ],
+    "size": 1,
+    "exp": 580,
+    "cash": 0,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 227,
+    "members": [
+      {
+        "id": 424,
+        "name": "小独角",
+        "count": 1,
+        "enemyId": 27
+      }
+    ],
+    "size": 1,
+    "exp": 170,
+    "cash": 66,
+    "sceneIds": [
+      212
+    ]
+  },
+  {
+    "id": 228,
+    "members": [
+      {
+        "id": 424,
+        "name": "小独角",
+        "count": 1,
+        "enemyId": 27
+      },
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      },
+      {
+        "id": 423,
+        "name": "树根",
+        "count": 1,
+        "enemyId": 26
+      }
+    ],
+    "size": 3,
+    "exp": 390,
+    "cash": 121,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 229,
+    "members": [
+      {
+        "id": 424,
+        "name": "小独角",
+        "count": 3,
+        "enemyId": 27
+      }
+    ],
+    "size": 3,
+    "exp": 510,
+    "cash": 198,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 230,
+    "members": [
+      {
+        "id": 424,
+        "name": "小独角",
+        "count": 2,
+        "enemyId": 27
+      }
+    ],
+    "size": 2,
+    "exp": 340,
+    "cash": 132,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 231,
+    "members": [
+      {
+        "id": 423,
+        "name": "树根",
+        "count": 3,
+        "enemyId": 26
+      }
+    ],
+    "size": 3,
+    "exp": 480,
+    "cash": 165,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 232,
+    "members": [
+      {
+        "id": 423,
+        "name": "树根",
+        "count": 2,
+        "enemyId": 26
+      }
+    ],
+    "size": 2,
+    "exp": 320,
+    "cash": 110,
+    "sceneIds": [
+      212
+    ]
+  },
+  {
+    "id": 233,
+    "members": [
+      {
+        "id": 423,
+        "name": "树根",
+        "count": 2,
+        "enemyId": 26
+      },
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      }
+    ],
+    "size": 3,
+    "exp": 380,
+    "cash": 110,
+    "sceneIds": [
+      200,
+      212
+    ]
+  },
+  {
+    "id": 234,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 3,
+        "enemyId": 90
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇",
+        "count": 1,
+        "enemyId": 89
+      }
+    ],
+    "size": 4,
+    "exp": 24,
+    "cash": 21,
+    "sceneIds": [
+      40,
+      45
+    ]
+  },
+  {
+    "id": 235,
+    "members": [
+      {
+        "id": 458,
+        "name": "小苗女",
+        "count": 2,
+        "enemyId": 61
+      }
+    ],
+    "size": 2,
+    "exp": 500,
+    "cash": 180,
+    "sceneIds": [
+      260,
+      286
+    ]
+  },
+  {
+    "id": 236,
+    "members": [
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 2,
+        "enemyId": 63
+      }
+    ],
+    "size": 2,
+    "exp": 540,
+    "cash": 194,
+    "sceneIds": [
+      260,
+      269,
+      285,
+      286
+    ]
+  },
+  {
+    "id": 237,
+    "members": [
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 1,
+        "enemyId": 63
+      }
+    ],
+    "size": 2,
+    "exp": 380,
+    "cash": 337,
+    "sceneIds": [
+      260,
+      267,
+      269,
+      285
+    ]
+  },
+  {
+    "id": 238,
+    "members": [
+      {
+        "id": 458,
+        "name": "小苗女",
+        "count": 2,
+        "enemyId": 61
+      },
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      }
+    ],
+    "size": 3,
+    "exp": 610,
+    "cash": 420,
+    "sceneIds": [
+      260,
+      267,
+      269,
+      287,
+      288
+    ]
+  },
+  {
+    "id": 239,
+    "members": [
+      {
+        "id": 549,
+        "name": "苗枪卒1",
+        "count": 2,
+        "enemyId": 152
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 1,
+        "enemyId": 63
+      }
+    ],
+    "size": 3,
+    "exp": 1320,
+    "cash": 301,
+    "sceneIds": [
+      259,
+      260,
+      267,
+      285,
+      286
+    ]
+  },
+  {
+    "id": 240,
+    "members": [
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 1,
+        "enemyId": 60
+      }
+    ],
+    "size": 1,
+    "exp": 450,
+    "cash": 220,
+    "sceneIds": [
+      206,
+      287
+    ]
+  },
+  {
+    "id": 241,
+    "members": [
+      {
+        "id": 458,
+        "name": "小苗女",
+        "count": 1,
+        "enemyId": 61
+      }
+    ],
+    "size": 1,
+    "exp": 250,
+    "cash": 90,
+    "sceneIds": [
+      260,
+      267,
+      287
+    ]
+  },
+  {
+    "id": 242,
+    "members": [
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 1,
+        "enemyId": 62
+      }
+    ],
+    "size": 1,
+    "exp": 330,
+    "cash": 210,
+    "sceneIds": [
+      285,
+      287
+    ]
+  },
+  {
+    "id": 243,
+    "members": [
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 1,
+        "enemyId": 63
+      }
+    ],
+    "size": 1,
+    "exp": 270,
+    "cash": 97,
+    "sceneIds": [
+      260
+    ]
+  },
+  {
+    "id": 244,
+    "members": [
+      {
+        "id": 405,
+        "name": "小鱼",
+        "count": 5,
+        "enemyId": 8
+      }
+    ],
+    "size": 5,
+    "exp": 350,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 245,
+    "members": [
+      {
+        "id": 405,
+        "name": "小鱼",
+        "count": 3,
+        "enemyId": 8
+      },
+      {
+        "id": 431,
+        "name": "大蝌蚪",
+        "count": 1,
+        "enemyId": 34
+      }
+    ],
+    "size": 4,
+    "exp": 380,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 246,
+    "members": [
+      {
+        "id": 405,
+        "name": "小鱼",
+        "count": 3,
+        "enemyId": 8
+      },
+      {
+        "id": 432,
+        "name": "蚌壳",
+        "count": 1,
+        "enemyId": 35
+      }
+    ],
+    "size": 4,
+    "exp": 380,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 247,
+    "members": [
+      {
+        "id": 437,
+        "name": "海螺女",
+        "count": 1,
+        "enemyId": 40
+      }
+    ],
+    "size": 1,
+    "exp": 450,
+    "cash": 0,
+    "sceneIds": [
+      231
+    ]
+  },
+  {
+    "id": 248,
+    "members": [
+      {
+        "id": 437,
+        "name": "海螺女",
+        "count": 1,
+        "enemyId": 40
+      },
+      {
+        "id": 431,
+        "name": "大蝌蚪",
+        "count": 1,
+        "enemyId": 34
+      }
+    ],
+    "size": 2,
+    "exp": 620,
+    "cash": 0,
+    "sceneIds": [
+      231
+    ]
+  },
+  {
+    "id": 249,
+    "members": [
+      {
+        "id": 429,
+        "name": "傻仔龟",
+        "count": 1,
+        "enemyId": 32
+      },
+      {
+        "id": 430,
+        "name": "短腿章鱼",
+        "count": 1,
+        "enemyId": 33
+      }
+    ],
+    "size": 2,
+    "exp": 460,
+    "cash": 0,
+    "sceneIds": [
+      231
+    ]
+  },
+  {
+    "id": 250,
+    "members": [
+      {
+        "id": 405,
+        "name": "小鱼",
+        "count": 2,
+        "enemyId": 8
+      },
+      {
+        "id": 429,
+        "name": "傻仔龟",
+        "count": 1,
+        "enemyId": 32
+      }
+    ],
+    "size": 3,
+    "exp": 380,
+    "cash": 0,
+    "sceneIds": [
+      231
+    ]
+  },
+  {
+    "id": 251,
+    "members": [
+      {
+        "id": 431,
+        "name": "大蝌蚪",
+        "count": 3,
+        "enemyId": 34
+      }
+    ],
+    "size": 3,
+    "exp": 510,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 252,
+    "members": [
+      {
+        "id": 431,
+        "name": "大蝌蚪",
+        "count": 2,
+        "enemyId": 34
+      }
+    ],
+    "size": 2,
+    "exp": 340,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 253,
+    "members": [
+      {
+        "id": 432,
+        "name": "蚌壳",
+        "count": 3,
+        "enemyId": 35
+      }
+    ],
+    "size": 3,
+    "exp": 510,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 254,
+    "members": [
+      {
+        "id": 430,
+        "name": "短腿章鱼",
+        "count": 2,
+        "enemyId": 33
+      }
+    ],
+    "size": 2,
+    "exp": 440,
+    "cash": 0,
+    "sceneIds": [
+      231
+    ]
+  },
+  {
+    "id": 255,
+    "members": [
+      {
+        "id": 429,
+        "name": "傻仔龟",
+        "count": 2,
+        "enemyId": 32
+      }
+    ],
+    "size": 2,
+    "exp": 480,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 256,
+    "members": [
+      {
+        "id": 405,
+        "name": "小鱼",
+        "count": 1,
+        "enemyId": 8
+      }
+    ],
+    "size": 1,
+    "exp": 70,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 257,
+    "members": [
+      {
+        "id": 429,
+        "name": "傻仔龟",
+        "count": 1,
+        "enemyId": 32
+      }
+    ],
+    "size": 1,
+    "exp": 240,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 258,
+    "members": [
+      {
+        "id": 430,
+        "name": "短腿章鱼",
+        "count": 1,
+        "enemyId": 33
+      }
+    ],
+    "size": 1,
+    "exp": 220,
+    "cash": 0,
+    "sceneIds": [
+      233
+    ]
+  },
+  {
+    "id": 259,
+    "members": [
+      {
+        "id": 431,
+        "name": "大蝌蚪",
+        "count": 1,
+        "enemyId": 34
+      }
+    ],
+    "size": 1,
+    "exp": 170,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 260,
+    "members": [
+      {
+        "id": 432,
+        "name": "蚌壳",
+        "count": 1,
+        "enemyId": 35
+      }
+    ],
+    "size": 1,
+    "exp": 170,
+    "cash": 0,
+    "sceneIds": [
+      233
+    ]
+  },
+  {
+    "id": 261,
+    "members": [
+      {
+        "id": 458,
+        "name": "小苗女",
+        "count": 2,
+        "enemyId": 61
+      },
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 1,
+        "enemyId": 60
+      }
+    ],
+    "size": 3,
+    "exp": 950,
+    "cash": 400,
+    "sceneIds": []
+  },
+  {
+    "id": 262,
+    "members": [
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 2,
+        "enemyId": 60
+      }
+    ],
+    "size": 2,
+    "exp": 900,
+    "cash": 440,
+    "sceneIds": [
+      286,
+      287,
+      288
+    ]
+  },
+  {
+    "id": 263,
+    "members": [
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 1,
+        "enemyId": 60
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 1,
+        "enemyId": 63
+      }
+    ],
+    "size": 2,
+    "exp": 720,
+    "cash": 317,
+    "sceneIds": [
+      286
+    ]
+  },
+  {
+    "id": 264,
+    "members": [
+      {
+        "id": 549,
+        "name": "苗枪卒1",
+        "count": 1,
+        "enemyId": 152
+      },
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 1,
+        "enemyId": 60
+      }
+    ],
+    "size": 2,
+    "exp": 975,
+    "cash": 322,
+    "sceneIds": [
+      279,
+      286,
+      287
+    ]
+  },
+  {
+    "id": 265,
+    "members": [
+      {
+        "id": 457,
+        "name": "双节棍苗",
+        "count": 1,
+        "enemyId": 60
+      },
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 1,
+        "enemyId": 62
+      }
+    ],
+    "size": 2,
+    "exp": 780,
+    "cash": 430,
+    "sceneIds": [
+      287
+    ]
+  },
+  {
+    "id": 266,
+    "members": [
+      {
+        "id": 410,
+        "name": "小土鬼",
+        "count": 1,
+        "enemyId": 13
+      }
+    ],
+    "size": 1,
+    "exp": 28,
+    "cash": 13,
+    "sceneIds": []
+  },
+  {
+    "id": 267,
+    "members": [
+      {
+        "id": 522,
+        "name": "黑巫师",
+        "count": 1,
+        "enemyId": 124
+      }
+    ],
+    "size": 1,
+    "exp": 680,
+    "cash": 350,
+    "sceneIds": [
+      286,
+      289
+    ]
+  },
+  {
+    "id": 268,
+    "members": [
+      {
+        "id": 523,
+        "name": "黑苗祭司",
+        "count": 1,
+        "enemyId": 125
+      }
+    ],
+    "size": 1,
+    "exp": 910,
+    "cash": 500,
+    "sceneIds": [
+      279,
+      287,
+      288
+    ]
+  },
+  {
+    "id": 269,
+    "members": [
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 3,
+        "enemyId": 62
+      }
+    ],
+    "size": 3,
+    "exp": 990,
+    "cash": 630,
+    "sceneIds": [
+      279,
+      286,
+      287
+    ]
+  },
+  {
+    "id": 270,
+    "members": [
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 2,
+        "enemyId": 62
+      }
+    ],
+    "size": 2,
+    "exp": 660,
+    "cash": 420,
+    "sceneIds": []
+  },
+  {
+    "id": 271,
+    "members": [
+      {
+        "id": 458,
+        "name": "小苗女",
+        "count": 2,
+        "enemyId": 61
+      },
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 1,
+        "enemyId": 62
+      }
+    ],
+    "size": 3,
+    "exp": 830,
+    "cash": 390,
+    "sceneIds": [
+      279,
+      286,
+      288
+    ]
+  },
+  {
+    "id": 272,
+    "members": [
+      {
+        "id": 460,
+        "name": "长鞭苗女",
+        "count": 1,
+        "enemyId": 63
+      },
+      {
+        "id": 459,
+        "name": "小巫师",
+        "count": 1,
+        "enemyId": 62
+      }
+    ],
+    "size": 2,
+    "exp": 600,
+    "cash": 307,
+    "sceneIds": [
+      279,
+      289
+    ]
+  },
+  {
+    "id": 273,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 1,
+    "exp": 550,
+    "cash": 0,
+    "sceneIds": [
+      218,
+      219,
+      287,
+      289,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 274,
+    "members": [
+      {
+        "id": 461,
+        "name": "蛟龙",
+        "count": 1,
+        "enemyId": 64
+      }
+    ],
+    "size": 1,
+    "exp": 600,
+    "cash": 300,
+    "sceneIds": [
+      292,
+      293
+    ]
+  },
+  {
+    "id": 275,
+    "members": [
+      {
+        "id": 510,
+        "name": "尖嘴魔兵",
+        "count": 1,
+        "enemyId": 111
+      }
+    ],
+    "size": 1,
+    "exp": 800,
+    "cash": 200,
+    "sceneIds": [
+      289,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 276,
+    "members": [
+      {
+        "id": 510,
+        "name": "尖嘴魔兵",
+        "count": 1,
+        "enemyId": 111
+      },
+      {
+        "id": 511,
+        "name": "铁棍魔兵",
+        "count": 1,
+        "enemyId": 112
+      }
+    ],
+    "size": 2,
+    "exp": 1620,
+    "cash": 420,
+    "sceneIds": [
+      279,
+      286,
+      288,
+      289,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 277,
+    "members": [
+      {
+        "id": 511,
+        "name": "铁棍魔兵",
+        "count": 1,
+        "enemyId": 112
+      }
+    ],
+    "size": 1,
+    "exp": 820,
+    "cash": 220,
+    "sceneIds": [
+      286,
+      289,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 278,
+    "members": [
+      {
+        "id": 493,
+        "name": "青兽人",
+        "count": 1,
+        "enemyId": 95
+      }
+    ],
+    "size": 1,
+    "exp": 480,
+    "cash": 170,
+    "sceneIds": [
+      287,
+      289,
+      291
+    ]
+  },
+  {
+    "id": 279,
+    "members": [
+      {
+        "id": 484,
+        "name": "食人兽",
+        "count": 2,
+        "enemyId": 86
+      }
+    ],
+    "size": 2,
+    "exp": 760,
+    "cash": 200,
+    "sceneIds": [
+      222,
+      291,
+      292
+    ]
+  },
+  {
+    "id": 280,
+    "members": [
+      {
+        "id": 484,
+        "name": "食人兽",
+        "count": 1,
+        "enemyId": 86
+      },
+      {
+        "id": 493,
+        "name": "青兽人",
+        "count": 1,
+        "enemyId": 95
+      }
+    ],
+    "size": 2,
+    "exp": 860,
+    "cash": 270,
+    "sceneIds": [
+      289,
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 281,
+    "members": [
+      {
+        "id": 484,
+        "name": "食人兽",
+        "count": 3,
+        "enemyId": 86
+      }
+    ],
+    "size": 3,
+    "exp": 1140,
+    "cash": 300,
+    "sceneIds": [
+      287,
+      289,
+      292
+    ]
+  },
+  {
+    "id": 282,
+    "members": [
+      {
+        "id": 493,
+        "name": "青兽人",
+        "count": 2,
+        "enemyId": 95
+      }
+    ],
+    "size": 2,
+    "exp": 960,
+    "cash": 340,
+    "sceneIds": [
+      288,
+      289,
+      292
+    ]
+  },
+  {
+    "id": 283,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 1,
+    "exp": 520,
+    "cash": 0,
+    "sceneIds": [
+      291,
+      292
+    ]
+  },
+  {
+    "id": 284,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 1,
+    "exp": 510,
+    "cash": 0,
+    "sceneIds": [
+      219,
+      289,
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 285,
+    "members": [
+      {
+        "id": 438,
+        "name": "魔兽武士",
+        "count": 1,
+        "enemyId": 41
+      }
+    ],
+    "size": 1,
+    "exp": 1010,
+    "cash": 660,
+    "sceneIds": [
+      279,
+      288,
+      289,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 286,
+    "members": [
+      {
+        "id": 467,
+        "name": "瘟神",
+        "count": 1,
+        "enemyId": 70
+      }
+    ],
+    "size": 1,
+    "exp": 1005,
+    "cash": 0,
+    "sceneIds": [
+      279,
+      285,
+      288,
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 287,
+    "members": [
+      {
+        "id": 466,
+        "name": "牛鬼",
+        "count": 1,
+        "enemyId": 69
+      }
+    ],
+    "size": 1,
+    "exp": 920,
+    "cash": 0,
+    "sceneIds": [
+      279,
+      288,
+      289,
+      292
+    ]
+  },
+  {
+    "id": 288,
+    "members": [
+      {
+        "id": 471,
+        "name": "玩蛇女",
+        "count": 1,
+        "enemyId": 74
+      }
+    ],
+    "size": 1,
+    "exp": 1160,
+    "cash": 640,
+    "sceneIds": [
+      279,
+      287,
+      288,
+      289,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 289,
+    "members": [
+      {
+        "id": 528,
+        "name": "巫王侍卫",
+        "count": 2,
+        "enemyId": 130
+      }
+    ],
+    "size": 2,
+    "exp": 2420,
+    "cash": 1600,
+    "sceneIds": [
+      278,
+      279,
+      288,
+      289
+    ]
+  },
+  {
+    "id": 290,
+    "members": [
+      {
+        "id": 522,
+        "name": "黑巫师",
+        "count": 2,
+        "enemyId": 124
+      }
+    ],
+    "size": 2,
+    "exp": 1360,
+    "cash": 700,
+    "sceneIds": [
+      286
+    ]
+  },
+  {
+    "id": 291,
+    "members": [
+      {
+        "id": 522,
+        "name": "黑巫师",
+        "count": 1,
+        "enemyId": 124
+      },
+      {
+        "id": 528,
+        "name": "巫王侍卫",
+        "count": 1,
+        "enemyId": 130
+      }
+    ],
+    "size": 2,
+    "exp": 1890,
+    "cash": 1150,
+    "sceneIds": [
+      279,
+      288,
+      289
+    ]
+  },
+  {
+    "id": 292,
+    "members": [
+      {
+        "id": 528,
+        "name": "巫王侍卫",
+        "count": 1,
+        "enemyId": 130
+      }
+    ],
+    "size": 1,
+    "exp": 1210,
+    "cash": 800,
+    "sceneIds": [
+      279,
+      288
+    ]
+  },
+  {
+    "id": 293,
+    "members": [
+      {
+        "id": 529,
+        "name": "天鬼皇",
+        "count": 1,
+        "enemyId": 131
+      }
+    ],
+    "size": 1,
+    "exp": 5050,
+    "cash": 0,
+    "sceneIds": [
+      148
+    ]
+  },
+  {
+    "id": 294,
+    "members": [
+      {
+        "id": 414,
+        "name": "镰刀鼬",
+        "count": 1,
+        "enemyId": 17
+      }
+    ],
+    "size": 1,
+    "exp": 110,
+    "cash": 220,
+    "sceneIds": [
+      154,
+      156,
+      168
+    ]
+  },
+  {
+    "id": 295,
+    "members": [
+      {
+        "id": 420,
+        "name": "跳跳蛙",
+        "count": 1,
+        "enemyId": 23
+      }
+    ],
+    "size": 1,
+    "exp": 80,
+    "cash": 70,
+    "sceneIds": [
+      156,
+      168
+    ]
+  },
+  {
+    "id": 296,
+    "members": [
+      {
+        "id": 475,
+        "name": "剑护院",
+        "count": 1,
+        "enemyId": 78
+      },
+      {
+        "id": 476,
+        "name": "锤护院",
+        "count": 1,
+        "enemyId": 79
+      }
+    ],
+    "size": 2,
+    "exp": 40,
+    "cash": 90,
+    "sceneIds": [
+      76
+    ]
+  },
+  {
+    "id": 297,
+    "members": [
+      {
+        "id": 476,
+        "name": "锤护院",
+        "count": 1,
+        "enemyId": 79
+      }
+    ],
+    "size": 1,
+    "exp": 20,
+    "cash": 42,
+    "sceneIds": []
+  },
+  {
+    "id": 298,
+    "members": [
+      {
+        "id": 477,
+        "name": "小双钩",
+        "count": 1,
+        "enemyId": 80
+      }
+    ],
+    "size": 1,
+    "exp": 20,
+    "cash": 41,
+    "sceneIds": []
+  },
+  {
+    "id": 299,
+    "members": [
+      {
+        "id": 481,
+        "name": "暗器手",
+        "count": 1,
+        "enemyId": 83
+      }
+    ],
+    "size": 1,
+    "exp": 22,
+    "cash": 30,
+    "sceneIds": []
+  },
+  {
+    "id": 300,
+    "members": [
+      {
+        "id": 489,
+        "name": "老虎",
+        "count": 1,
+        "enemyId": 91
+      }
+    ],
+    "size": 1,
+    "exp": 30,
+    "cash": 0,
+    "sceneIds": [
+      54
+    ]
+  },
+  {
+    "id": 301,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 2,
+        "enemyId": 90
+      }
+    ],
+    "size": 2,
+    "exp": 12,
+    "cash": 10,
+    "sceneIds": [
+      44,
+      45
+    ]
+  },
+  {
+    "id": 302,
+    "members": [
+      {
+        "id": 488,
+        "name": "绿色小蛇",
+        "count": 5,
+        "enemyId": 90
+      }
+    ],
+    "size": 5,
+    "exp": 30,
+    "cash": 25,
+    "sceneIds": [
+      40,
+      41,
+      45,
+      80,
+      215
+    ]
+  },
+  {
+    "id": 303,
+    "members": [
+      {
+        "id": 445,
+        "name": "血云雾",
+        "count": 2,
+        "enemyId": 48
+      }
+    ],
+    "size": 2,
+    "exp": 66,
+    "cash": 60,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 304,
+    "members": [
+      {
+        "id": 439,
+        "name": "连体妖",
+        "count": 1,
+        "enemyId": 42
+      },
+      {
+        "id": 445,
+        "name": "血云雾",
+        "count": 1,
+        "enemyId": 48
+      }
+    ],
+    "size": 2,
+    "exp": 53,
+    "cash": 60,
+    "sceneIds": [
+      59
+    ]
+  },
+  {
+    "id": 305,
+    "members": [
+      {
+        "id": 539,
+        "name": "毒神龙",
+        "count": 1,
+        "enemyId": 141
+      }
+    ],
+    "size": 1,
+    "exp": 3108,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 306,
+    "members": [
+      {
+        "id": 540,
+        "name": "金神龙",
+        "count": 1,
+        "enemyId": 142
+      }
+    ],
+    "size": 1,
+    "exp": 3100,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 307,
+    "members": [
+      {
+        "id": 541,
+        "name": "土神龙",
+        "count": 1,
+        "enemyId": 143
+      }
+    ],
+    "size": 1,
+    "exp": 2896,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 308,
+    "members": [
+      {
+        "id": 542,
+        "name": "火神龙",
+        "count": 1,
+        "enemyId": 144
+      }
+    ],
+    "size": 1,
+    "exp": 3020,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 309,
+    "members": [
+      {
+        "id": 543,
+        "name": "冰神龙",
+        "count": 1,
+        "enemyId": 145
+      }
+    ],
+    "size": 1,
+    "exp": 2950,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 310,
+    "members": [
+      {
+        "id": 544,
+        "name": "风神龙",
+        "count": 1,
+        "enemyId": 146
+      }
+    ],
+    "size": 1,
+    "exp": 2680,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 311,
+    "members": [
+      {
+        "id": 545,
+        "name": "雷神龙",
+        "count": 1,
+        "enemyId": 147
+      }
+    ],
+    "size": 1,
+    "exp": 2764,
+    "cash": 0,
+    "sceneIds": [
+      144
+    ]
+  },
+  {
+    "id": 312,
+    "members": [
+      {
+        "id": 497,
+        "name": "石长老1",
+        "count": 1,
+        "enemyId": 148
+      }
+    ],
+    "size": 1,
+    "exp": 0,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 313,
+    "members": [
+      {
+        "id": 546,
+        "name": "拜月教主",
+        "count": 1,
+        "enemyId": 149
+      }
+    ],
+    "size": 1,
+    "exp": 30000,
+    "cash": 10800,
+    "sceneIds": [
+      281
+    ]
+  },
+  {
+    "id": 314,
+    "members": [
+      {
+        "id": 438,
+        "name": "魔兽武士",
+        "count": 1,
+        "enemyId": 41
+      },
+      {
+        "id": 440,
+        "name": "刑天",
+        "count": 1,
+        "enemyId": 43
+      }
+    ],
+    "size": 2,
+    "exp": 1098,
+    "cash": 785,
+    "sceneIds": [
+      288,
+      289,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 315,
+    "members": [
+      {
+        "id": 547,
+        "name": "八头蛇",
+        "count": 1,
+        "enemyId": 150
+      }
+    ],
+    "size": 1,
+    "exp": 3050,
+    "cash": 0,
+    "sceneIds": [
+      231,
+      233
+    ]
+  },
+  {
+    "id": 316,
+    "members": [
+      {
+        "id": 548,
+        "name": "苗人拳1",
+        "count": 2,
+        "enemyId": 151
+      }
+    ],
+    "size": 2,
+    "exp": 976,
+    "cash": 140,
+    "sceneIds": [
+      259,
+      260,
+      267,
+      269
+    ]
+  },
+  {
+    "id": 317,
+    "members": [
+      {
+        "id": 548,
+        "name": "苗人拳1",
+        "count": 2,
+        "enemyId": 151
+      },
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      }
+    ],
+    "size": 3,
+    "exp": 1086,
+    "cash": 380,
+    "sceneIds": [
+      260,
+      267,
+      269
+    ]
+  },
+  {
+    "id": 318,
+    "members": [
+      {
+        "id": 549,
+        "name": "苗枪卒1",
+        "count": 3,
+        "enemyId": 152
+      }
+    ],
+    "size": 3,
+    "exp": 1575,
+    "cash": 306,
+    "sceneIds": [
+      259,
+      260,
+      269
+    ]
+  },
+  {
+    "id": 319,
+    "members": [
+      {
+        "id": 485,
+        "name": "胖苗",
+        "count": 1,
+        "enemyId": 87
+      },
+      {
+        "id": 549,
+        "name": "苗枪卒1",
+        "count": 1,
+        "enemyId": 152
+      }
+    ],
+    "size": 2,
+    "exp": 635,
+    "cash": 342,
+    "sceneIds": [
+      259,
+      260,
+      267,
+      269
+    ]
+  },
+  {
+    "id": 320,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 2,
+        "enemyId": 94
+      }
+    ],
+    "size": 2,
+    "exp": 1040,
+    "cash": 0,
+    "sceneIds": [
+      224
+    ]
+  },
+  {
+    "id": 321,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 2,
+        "enemyId": 92
+      }
+    ],
+    "size": 2,
+    "exp": 1020,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 322,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 2,
+    "exp": 1030,
+    "cash": 0,
+    "sceneIds": [
+      223
+    ]
+  },
+  {
+    "id": 323,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 1,
+        "enemyId": 117
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 1058,
+    "cash": 18,
+    "sceneIds": []
+  },
+  {
+    "id": 324,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 2,
+    "exp": 1240,
+    "cash": 0,
+    "sceneIds": [
+      219
+    ]
+  },
+  {
+    "id": 325,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 2,
+    "exp": 1230,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 326,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 1230,
+    "cash": 0,
+    "sceneIds": [
+      223
+    ]
+  },
+  {
+    "id": 327,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 1240,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 328,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 2,
+        "enemyId": 117
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 3,
+    "exp": 566,
+    "cash": 36,
+    "sceneIds": [
+      219,
+      222,
+      226
+    ]
+  },
+  {
+    "id": 329,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 2,
+        "enemyId": 118
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 3,
+    "exp": 564,
+    "cash": 40,
+    "sceneIds": [
+      219,
+      220
+    ]
+  },
+  {
+    "id": 330,
+    "members": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 2,
+    "exp": 465,
+    "cash": 23,
+    "sceneIds": [
+      217,
+      218
+    ]
+  },
+  {
+    "id": 331,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 2,
+    "exp": 595,
+    "cash": 23,
+    "sceneIds": []
+  },
+  {
+    "id": 332,
+    "members": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      },
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 1,
+        "enemyId": 15
+      }
+    ],
+    "size": 2,
+    "exp": 460,
+    "cash": 13,
+    "sceneIds": [
+      219
+    ]
+  },
+  {
+    "id": 333,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 1,
+        "enemyId": 15
+      }
+    ],
+    "size": 2,
+    "exp": 590,
+    "cash": 13,
+    "sceneIds": [
+      220
+    ]
+  },
+  {
+    "id": 334,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 2,
+        "enemyId": 15
+      },
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      }
+    ],
+    "size": 3,
+    "exp": 500,
+    "cash": 26,
+    "sceneIds": [
+      217,
+      220,
+      222
+    ]
+  },
+  {
+    "id": 335,
+    "members": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 2,
+        "enemyId": 99
+      }
+    ],
+    "size": 2,
+    "exp": 840,
+    "cash": 0,
+    "sceneIds": [
+      217,
+      218,
+      222,
+      223
+    ]
+  },
+  {
+    "id": 336,
+    "members": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 2,
+    "exp": 970,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 337,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 2,
+    "exp": 1270,
+    "cash": 0,
+    "sceneIds": [
+      218
+    ]
+  },
+  {
+    "id": 338,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 2,
+    "exp": 1060,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 339,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 2,
+    "exp": 1070,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 340,
+    "members": [
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      },
+      {
+        "id": 520,
+        "name": "九头蛇",
+        "count": 1,
+        "enemyId": 122
+      }
+    ],
+    "size": 2,
+    "exp": 165,
+    "cash": 107,
+    "sceneIds": [
+      148,
+      217
+    ]
+  },
+  {
+    "id": 341,
+    "members": [
+      {
+        "id": 491,
+        "name": "五毒巨蛇",
+        "count": 1,
+        "enemyId": 93
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 755,
+    "cash": 52,
+    "sceneIds": [
+      220,
+      222,
+      223
+    ]
+  },
+  {
+    "id": 342,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 2,
+        "enemyId": 120
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 3,
+    "exp": 840,
+    "cash": 0,
+    "sceneIds": [
+      218,
+      220
+    ]
+  },
+  {
+    "id": 343,
+    "members": [
+      {
+        "id": 518,
+        "name": "食火蟾",
+        "count": 1,
+        "enemyId": 120
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 780,
+    "cash": 0,
+    "sceneIds": [
+      218,
+      219
+    ]
+  },
+  {
+    "id": 344,
+    "members": [
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 1,
+        "enemyId": 140
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 1,
+        "enemyId": 139
+      }
+    ],
+    "size": 3,
+    "exp": 815,
+    "cash": 20,
+    "sceneIds": [
+      218
+    ]
+  },
+  {
+    "id": 345,
+    "members": [
+      {
+        "id": 537,
+        "name": "绿食火蟾",
+        "count": 2,
+        "enemyId": 139
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 3,
+    "exp": 810,
+    "cash": 20,
+    "sceneIds": []
+  },
+  {
+    "id": 346,
+    "members": [
+      {
+        "id": 538,
+        "name": "蓝食火蟾",
+        "count": 2,
+        "enemyId": 140
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 3,
+    "exp": 820,
+    "cash": 20,
+    "sceneIds": [
+      218
+    ]
+  },
+  {
+    "id": 347,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 2,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 1440,
+    "cash": 0,
+    "sceneIds": [
+      218,
+      222
+    ]
+  },
+  {
+    "id": 348,
+    "members": [
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 1,
+    "exp": 700,
+    "cash": 0,
+    "sceneIds": [
+      222
+    ]
+  },
+  {
+    "id": 349,
+    "members": [
+      {
+        "id": 520,
+        "name": "九头蛇",
+        "count": 2,
+        "enemyId": 122
+      }
+    ],
+    "size": 2,
+    "exp": 220,
+    "cash": 110,
+    "sceneIds": [
+      212,
+      217,
+      219,
+      222,
+      223
+    ]
+  },
+  {
+    "id": 350,
+    "members": [
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 2,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 1400,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 351,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 3,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 1560,
+    "cash": 0,
+    "sceneIds": [
+      224,
+      226
+    ]
+  },
+  {
+    "id": 352,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 3,
+        "enemyId": 117
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 4,
+    "exp": 594,
+    "cash": 54,
+    "sceneIds": [
+      219,
+      220,
+      222
+    ]
+  },
+  {
+    "id": 353,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 3,
+        "enemyId": 115
+      },
+      {
+        "id": 498,
+        "name": "黑蜘蛛精",
+        "count": 1,
+        "enemyId": 99
+      }
+    ],
+    "size": 4,
+    "exp": 555,
+    "cash": 69,
+    "sceneIds": [
+      217,
+      222
+    ]
+  },
+  {
+    "id": 354,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 3,
+        "enemyId": 115
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 4,
+    "exp": 685,
+    "cash": 69,
+    "sceneIds": []
+  },
+  {
+    "id": 355,
+    "members": [
+      {
+        "id": 412,
+        "name": "小蜘蛛",
+        "count": 2,
+        "enemyId": 15
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      }
+    ],
+    "size": 4,
+    "exp": 675,
+    "cash": 49,
+    "sceneIds": [
+      218,
+      223
+    ]
+  },
+  {
+    "id": 356,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 3,
+        "enemyId": 117
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      }
+    ],
+    "size": 4,
+    "exp": 594,
+    "cash": 54,
+    "sceneIds": [
+      219,
+      220,
+      222,
+      223
+    ]
+  },
+  {
+    "id": 357,
+    "members": [
+      {
+        "id": 520,
+        "name": "九头蛇",
+        "count": 1,
+        "enemyId": 122
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 810,
+    "cash": 55,
+    "sceneIds": [
+      223
+    ]
+  },
+  {
+    "id": 358,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 1250,
+    "cash": 0,
+    "sceneIds": [
+      220
+    ]
+  },
+  {
+    "id": 359,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 1210,
+    "cash": 0,
+    "sceneIds": [
+      220
+    ]
+  },
+  {
+    "id": 360,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 1220,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 361,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 2,
+    "exp": 1420,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 362,
+    "members": [
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 2,
+    "exp": 1420,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 363,
+    "members": [
+      {
+        "id": 517,
+        "name": "赤蜈蚣",
+        "count": 2,
+        "enemyId": 118
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 574,
+    "cash": 40,
+    "sceneIds": [
+      222,
+      223,
+      224
+    ]
+  },
+  {
+    "id": 364,
+    "members": [
+      {
+        "id": 516,
+        "name": "小毒蠍",
+        "count": 2,
+        "enemyId": 117
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 576,
+    "cash": 36,
+    "sceneIds": [
+      222,
+      223
+    ]
+  },
+  {
+    "id": 365,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 3,
+        "enemyId": 92
+      }
+    ],
+    "size": 3,
+    "exp": 1530,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 366,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 2,
+        "enemyId": 92
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 1540,
+    "cash": 0,
+    "sceneIds": []
+  },
+  {
+    "id": 367,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 2,
+        "enemyId": 92
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 3,
+    "exp": 1740,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 368,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 2,
+        "enemyId": 94
+      },
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 3,
+    "exp": 1760,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 369,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 1580,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 370,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 520,
+        "name": "九头蛇",
+        "count": 1,
+        "enemyId": 122
+      }
+    ],
+    "size": 3,
+    "exp": 1140,
+    "cash": 55,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 371,
+    "members": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍",
+        "count": 1,
+        "enemyId": 92
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      }
+    ],
+    "size": 3,
+    "exp": 1730,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 372,
+    "members": [
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 2,
+        "enemyId": 138
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      }
+    ],
+    "size": 3,
+    "exp": 1620,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 373,
+    "members": [
+      {
+        "id": 492,
+        "name": "五毒蜈蚣",
+        "count": 1,
+        "enemyId": 94
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇",
+        "count": 1,
+        "enemyId": 153
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛",
+        "count": 1,
+        "enemyId": 138
+      }
+    ],
+    "size": 3,
+    "exp": 1770,
+    "cash": 0,
+    "sceneIds": [
+      226
+    ]
+  },
+  {
+    "id": 374,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 1,
+        "enemyId": 115
+      },
+      {
+        "id": 470,
+        "name": "牡丹精",
+        "count": 1,
+        "enemyId": 73
+      }
+    ],
+    "size": 2,
+    "exp": 295,
+    "cash": 523,
+    "sceneIds": [
+      189,
+      220,
+      221
+    ]
+  },
+  {
+    "id": 375,
+    "members": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛",
+        "count": 2,
+        "enemyId": 115
+      },
+      {
+        "id": 470,
+        "name": "牡丹精",
+        "count": 1,
+        "enemyId": 73
+      }
+    ],
+    "size": 3,
+    "exp": 340,
+    "cash": 546,
+    "sceneIds": [
+      190,
+      220
+    ]
+  },
+  {
+    "id": 376,
+    "members": [
+      {
+        "id": 402,
+        "name": "凤梨小妖",
+        "count": 1,
+        "enemyId": 5
+      },
+      {
+        "id": 470,
+        "name": "牡丹精",
+        "count": 1,
+        "enemyId": 73
+      }
+    ],
+    "size": 2,
+    "exp": 400,
+    "cash": 500,
+    "sceneIds": [
+      190,
+      220,
+      221
+    ]
+  },
+  {
+    "id": 377,
+    "members": [
+      {
+        "id": 469,
+        "name": "狐狸精",
+        "count": 1,
+        "enemyId": 72
+      },
+      {
+        "id": 470,
+        "name": "牡丹精",
+        "count": 1,
+        "enemyId": 73
+      }
+    ],
+    "size": 2,
+    "exp": 430,
+    "cash": 850,
+    "sceneIds": [
+      190,
+      222
+    ]
+  },
+  {
+    "id": 378,
+    "members": [
+      {
+        "id": 465,
+        "name": "金蟾",
+        "count": 1,
+        "enemyId": 68
+      }
+    ],
+    "size": 1,
+    "exp": 720,
+    "cash": 0,
+    "sceneIds": [
+      148,
+      218,
+      220
+    ]
+  },
+  {
+    "id": 379,
+    "members": [
+      {
+        "id": 402,
+        "name": "凤梨小妖",
+        "count": 3,
+        "enemyId": 5
+      }
+    ],
+    "size": 3,
+    "exp": 450,
+    "cash": 0,
+    "sceneIds": []
+  }
+]

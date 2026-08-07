@@ -175,6 +175,7 @@ export default defineConfig({
             { label: '装备图鉴', link: '/games/pal/equipment/' },
             { label: '法术图鉴', link: '/games/pal/magics/' },
             { label: '怪物图鉴', link: '/games/pal/enemies/' },
+            { label: '战斗队伍', link: '/games/pal/battle-teams/' },
             { label: '道具出处', link: '/games/pal/item-sources/' },
             { label: '商店一览', link: '/games/pal/shops/' },
             { label: '采集与宝箱', link: '/games/pal/treasures/' },

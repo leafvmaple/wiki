@@ -34,6 +34,8 @@
     "teams": [
       0
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       6,
       250
@@ -81,6 +83,25 @@
       62,
       81
     ],
+    "companions": [
+      {
+        "id": 407,
+        "name": "开膛鬼"
+      },
+      {
+        "id": 415,
+        "name": "酒瓮"
+      },
+      {
+        "id": 419,
+        "name": "僵屍"
+      },
+      {
+        "id": 452,
+        "name": "白无常"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       6,
       40,
@@ -140,6 +161,17 @@
       13,
       14
     ],
+    "companions": [
+      {
+        "id": 401,
+        "name": "烂香菇"
+      },
+      {
+        "id": 423,
+        "name": "树根"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       6,
       40,
@@ -196,6 +228,21 @@
       213,
       216
     ],
+    "companions": [
+      {
+        "id": 400,
+        "name": "黑毛球"
+      },
+      {
+        "id": 423,
+        "name": "树根"
+      },
+      {
+        "id": 469,
+        "name": "狐狸精"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       180,
       189,
@@ -244,6 +291,13 @@
       376,
       379
     ],
+    "companions": [
+      {
+        "id": 470,
+        "name": "牡丹精"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       180,
       189,
@@ -296,6 +350,13 @@
       6,
       7
     ],
+    "companions": [
+      {
+        "id": 404,
+        "name": "蛹"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       6,
       40,
@@ -354,6 +415,17 @@
       7,
       51
     ],
+    "companions": [
+      {
+        "id": 403,
+        "name": "蜜蜂"
+      },
+      {
+        "id": 488,
+        "name": "绿色小蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       6,
       40,
@@ -409,6 +481,21 @@
       250,
       256
     ],
+    "companions": [
+      {
+        "id": 429,
+        "name": "傻仔龟"
+      },
+      {
+        "id": 431,
+        "name": "大蝌蚪"
+      },
+      {
+        "id": 432,
+        "name": "蚌壳"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231,
       233
@@ -459,6 +546,17 @@
       117,
       118
     ],
+    "companions": [
+      {
+        "id": 426,
+        "name": "蜥蜴"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       80,
@@ -512,6 +610,21 @@
       66,
       67
     ],
+    "companions": [
+      {
+        "id": 399,
+        "name": "灯笼"
+      },
+      {
+        "id": 409,
+        "name": "菜刀婆婆"
+      },
+      {
+        "id": 419,
+        "name": "僵屍"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       60,
@@ -563,6 +676,8 @@
     "teams": [
       68
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       60,
       63,
@@ -611,6 +726,13 @@
       65,
       66
     ],
+    "companions": [
+      {
+        "id": 407,
+        "name": "开膛鬼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       60,
       61,
@@ -664,6 +786,17 @@
       98,
       266
     ],
+    "companions": [
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       80,
       102,
@@ -710,6 +843,8 @@
       139,
       141
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       139
     ],
@@ -763,6 +898,25 @@
       334,
       355
     ],
+    "companions": [
+      {
+        "id": 498,
+        "name": "黑蜘蛛精"
+      },
+      {
+        "id": 508,
+        "name": "小树妖"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       139,
       216,
@@ -817,6 +971,8 @@
       202,
       212
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       189
     ],
@@ -863,6 +1019,8 @@
     "teams": [
       294
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       154,
       156,
@@ -910,6 +1068,13 @@
       9,
       10
     ],
+    "companions": [
+      {
+        "id": 399,
+        "name": "灯笼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       6,
       40,
@@ -963,6 +1128,8 @@
     "teams": [
       187
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       156,
       168
@@ -1005,6 +1172,13 @@
       183,
       185
     ],
+    "companions": [
+      {
+        "id": 434,
+        "name": "肥肥"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       147,
       165,
@@ -1056,6 +1230,13 @@
       160,
       186
     ],
+    "companions": [
+      {
+        "id": 446,
+        "name": "哈将"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       161,
       162,
@@ -1107,6 +1288,17 @@
       60,
       61
     ],
+    "companions": [
+      {
+        "id": 399,
+        "name": "灯笼"
+      },
+      {
+        "id": 407,
+        "name": "开膛鬼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       54,
       60,
@@ -1154,6 +1346,8 @@
     "teams": [
       295
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       156,
       168
@@ -1196,6 +1390,13 @@
       174,
       175
     ],
+    "companions": [
+      {
+        "id": 441,
+        "name": "扫把"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       147,
       148,
@@ -1249,6 +1450,13 @@
       170,
       176
     ],
+    "companions": [
+      {
+        "id": 428,
+        "name": "公背婆"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       154,
       156,
@@ -1299,6 +1507,25 @@
       232,
       233
     ],
+    "companions": [
+      {
+        "id": 400,
+        "name": "黑毛球"
+      },
+      {
+        "id": 401,
+        "name": "烂香菇"
+      },
+      {
+        "id": 424,
+        "name": "小独角"
+      },
+      {
+        "id": 518,
+        "name": "食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       200,
       212,
@@ -1347,6 +1574,17 @@
       229,
       230
     ],
+    "companions": [
+      {
+        "id": 423,
+        "name": "树根"
+      },
+      {
+        "id": 518,
+        "name": "食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       200,
       212
@@ -1394,6 +1632,17 @@
       91,
       92
     ],
+    "companions": [
+      {
+        "id": 427,
+        "name": "红鬼"
+      },
+      {
+        "id": 439,
+        "name": "连体妖"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       165,
@@ -1440,6 +1689,29 @@
       101,
       117
     ],
+    "companions": [
+      {
+        "id": 406,
+        "name": "血口虫"
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇"
+      },
+      {
+        "id": 488,
+        "name": "绿色小蛇"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -1494,6 +1766,21 @@
       88,
       92
     ],
+    "companions": [
+      {
+        "id": 425,
+        "name": "青鬼"
+      },
+      {
+        "id": 439,
+        "name": "连体妖"
+      },
+      {
+        "id": 445,
+        "name": "血云雾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       165,
@@ -1542,6 +1829,13 @@
       171,
       172
     ],
+    "companions": [
+      {
+        "id": 422,
+        "name": "怪老子"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       154,
       165,
@@ -1590,6 +1884,17 @@
       255,
       257
     ],
+    "companions": [
+      {
+        "id": 405,
+        "name": "小鱼"
+      },
+      {
+        "id": 430,
+        "name": "短腿章鱼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231,
       233
@@ -1636,6 +1941,13 @@
       254,
       258
     ],
+    "companions": [
+      {
+        "id": 429,
+        "name": "傻仔龟"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231,
       233
@@ -1681,6 +1993,17 @@
       252,
       259
     ],
+    "companions": [
+      {
+        "id": 405,
+        "name": "小鱼"
+      },
+      {
+        "id": 437,
+        "name": "海螺女"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231,
       233
@@ -1730,6 +2053,13 @@
       253,
       260
     ],
+    "companions": [
+      {
+        "id": 405,
+        "name": "小鱼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231,
       233
@@ -1772,6 +2102,8 @@
       72,
       73
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       60,
       64,
@@ -1816,6 +2148,13 @@
       183,
       184
     ],
+    "companions": [
+      {
+        "id": 417,
+        "name": "猪头人"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       147,
       165,
@@ -1865,6 +2204,8 @@
     "teams": [
       42
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       138
     ],
@@ -1912,6 +2253,8 @@
       82,
       83
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       59,
       65,
@@ -1961,6 +2304,13 @@
       247,
       248
     ],
+    "companions": [
+      {
+        "id": 431,
+        "name": "大蝌蚪"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       231
     ],
@@ -2008,6 +2358,13 @@
       285,
       314
     ],
+    "companions": [
+      {
+        "id": 440,
+        "name": "刑天"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       279,
       288,
@@ -2061,6 +2418,21 @@
       92,
       304
     ],
+    "companions": [
+      {
+        "id": 425,
+        "name": "青鬼"
+      },
+      {
+        "id": 427,
+        "name": "红鬼"
+      },
+      {
+        "id": 445,
+        "name": "血云雾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       165
@@ -2113,6 +2485,29 @@
       181,
       314
     ],
+    "companions": [
+      {
+        "id": 438,
+        "name": "魔兽武士"
+      },
+      {
+        "id": 452,
+        "name": "白无常"
+      },
+      {
+        "id": 455,
+        "name": "铁叉牛头"
+      },
+      {
+        "id": 469,
+        "name": "狐狸精"
+      },
+      {
+        "id": 535,
+        "name": "紫兽人"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       148,
       154,
@@ -2164,6 +2559,13 @@
       173,
       174
     ],
+    "companions": [
+      {
+        "id": 421,
+        "name": "大手"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       60,
       147,
@@ -2210,6 +2612,17 @@
       105,
       106
     ],
+    "companions": [
+      {
+        "id": 454,
+        "name": "刀手"
+      },
+      {
+        "id": 477,
+        "name": "小双钩"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       70,
       71,
@@ -2258,6 +2671,8 @@
       149,
       157
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       161,
       162,
@@ -2303,6 +2718,17 @@
       303,
       304
     ],
+    "companions": [
+      {
+        "id": 427,
+        "name": "红鬼"
+      },
+      {
+        "id": 439,
+        "name": "连体妖"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59
     ],
@@ -2351,6 +2777,13 @@
       155,
       160
     ],
+    "companions": [
+      {
+        "id": 418,
+        "name": "小雷公"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       161,
       162,
@@ -2399,6 +2832,17 @@
       159,
       162
     ],
+    "companions": [
+      {
+        "id": 448,
+        "name": "巨斧武士"
+      },
+      {
+        "id": 449,
+        "name": "角力士"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       161,
       162
@@ -2443,6 +2887,17 @@
       161,
       162
     ],
+    "companions": [
+      {
+        "id": 447,
+        "name": "金鎚武士"
+      },
+      {
+        "id": 449,
+        "name": "角力士"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       161,
       162
@@ -2489,6 +2944,17 @@
       154,
       158
     ],
+    "companions": [
+      {
+        "id": 447,
+        "name": "金鎚武士"
+      },
+      {
+        "id": 448,
+        "name": "巨斧武士"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       161,
       162
@@ -2532,6 +2998,13 @@
       109,
       112
     ],
+    "companions": [
+      {
+        "id": 477,
+        "name": "小双钩"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       72,
       76
@@ -2576,6 +3049,17 @@
     "teams": [
       28
     ],
+    "companions": [
+      {
+        "id": 453,
+        "name": "灰衣喇嘛"
+      },
+      {
+        "id": 482,
+        "name": "智杖和尚"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       58
     ],
@@ -2626,6 +3110,25 @@
       81,
       181
     ],
+    "companions": [
+      {
+        "id": 399,
+        "name": "灯笼"
+      },
+      {
+        "id": 440,
+        "name": "刑天"
+      },
+      {
+        "id": 455,
+        "name": "铁叉牛头"
+      },
+      {
+        "id": 504,
+        "name": "僵屍兵A"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       59,
       60,
@@ -2679,6 +3182,17 @@
     "teams": [
       28
     ],
+    "companions": [
+      {
+        "id": 451,
+        "name": "红衣喇嘛"
+      },
+      {
+        "id": 482,
+        "name": "智杖和尚"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       58
     ],
@@ -2726,6 +3240,25 @@
       105,
       111
     ],
+    "companions": [
+      {
+        "id": 443,
+        "name": "罗汉腿"
+      },
+      {
+        "id": 477,
+        "name": "小双钩"
+      },
+      {
+        "id": 481,
+        "name": "暗器手"
+      },
+      {
+        "id": 527,
+        "name": "苗枪卒"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       70,
       71,
@@ -2773,6 +3306,21 @@
       181,
       182
     ],
+    "companions": [
+      {
+        "id": 440,
+        "name": "刑天"
+      },
+      {
+        "id": 452,
+        "name": "白无常"
+      },
+      {
+        "id": 535,
+        "name": "紫兽人"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       147,
       148,
@@ -2827,6 +3375,13 @@
       194,
       196
     ],
+    "companions": [
+      {
+        "id": 513,
+        "name": "狒狒"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       185,
       192
@@ -2876,6 +3431,25 @@
       264,
       265
     ],
+    "companions": [
+      {
+        "id": 458,
+        "name": "小苗女"
+      },
+      {
+        "id": 459,
+        "name": "小巫师"
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女"
+      },
+      {
+        "id": 549,
+        "name": "苗枪卒1"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       206,
       279,
@@ -2927,6 +3501,21 @@
       261,
       271
     ],
+    "companions": [
+      {
+        "id": 457,
+        "name": "双节棍苗"
+      },
+      {
+        "id": 459,
+        "name": "小巫师"
+      },
+      {
+        "id": 485,
+        "name": "胖苗"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       260,
       267,
@@ -2984,6 +3573,21 @@
       271,
       272
     ],
+    "companions": [
+      {
+        "id": 457,
+        "name": "双节棍苗"
+      },
+      {
+        "id": 458,
+        "name": "小苗女"
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       279,
       285,
@@ -3040,6 +3644,25 @@
       263,
       272
     ],
+    "companions": [
+      {
+        "id": 457,
+        "name": "双节棍苗"
+      },
+      {
+        "id": 459,
+        "name": "小巫师"
+      },
+      {
+        "id": 485,
+        "name": "胖苗"
+      },
+      {
+        "id": 549,
+        "name": "苗枪卒1"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       259,
       260,
@@ -3093,6 +3716,8 @@
     "teams": [
       274
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       292,
       293
@@ -3140,6 +3765,8 @@
     "teams": [
       222
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       278
     ],
@@ -3186,6 +3813,8 @@
     "teams": [
       224
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       200
     ],
@@ -3232,6 +3861,8 @@
     "teams": [
       203
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       185
     ],
@@ -3294,6 +3925,41 @@
       368,
       378
     ],
+    "companions": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 500,
+        "name": "金蟾鬼母"
+      },
+      {
+        "id": 518,
+        "name": "食火蟾"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       148,
       218,
@@ -3346,6 +4012,8 @@
     "teams": [
       287
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       279,
       288,
@@ -3398,6 +4066,8 @@
     "teams": [
       286
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       279,
       285,
@@ -3449,6 +4119,8 @@
     "teams": [
       39
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       108
     ],
@@ -3500,6 +4172,25 @@
       215,
       377
     ],
+    "companions": [
+      {
+        "id": 401,
+        "name": "烂香菇"
+      },
+      {
+        "id": 440,
+        "name": "刑天"
+      },
+      {
+        "id": 470,
+        "name": "牡丹精"
+      },
+      {
+        "id": 508,
+        "name": "小树妖"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       47,
       148,
@@ -3556,6 +4247,21 @@
       376,
       377
     ],
+    "companions": [
+      {
+        "id": 402,
+        "name": "凤梨小妖"
+      },
+      {
+        "id": 469,
+        "name": "狐狸精"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       189,
       190,
@@ -3609,6 +4315,8 @@
     "teams": [
       288
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       279,
       287,
@@ -3663,6 +4371,8 @@
     "teams": [
       26
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       65
     ],
@@ -3709,6 +4419,8 @@
     "teams": [
       27
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       59
     ],
@@ -3758,6 +4470,8 @@
     "teams": [
       221
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       181
     ],
@@ -3800,6 +4514,17 @@
       107,
       296
     ],
+    "companions": [
+      {
+        "id": 476,
+        "name": "锤护院"
+      },
+      {
+        "id": 481,
+        "name": "暗器手"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       71,
       72,
@@ -3850,6 +4575,21 @@
       296,
       297
     ],
+    "companions": [
+      {
+        "id": 475,
+        "name": "剑护院"
+      },
+      {
+        "id": 477,
+        "name": "小双钩"
+      },
+      {
+        "id": 481,
+        "name": "暗器手"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       28,
       71,
@@ -3900,6 +4640,29 @@
       112,
       298
     ],
+    "companions": [
+      {
+        "id": 443,
+        "name": "罗汉腿"
+      },
+      {
+        "id": 450,
+        "name": "枪卒"
+      },
+      {
+        "id": 454,
+        "name": "刀手"
+      },
+      {
+        "id": 476,
+        "name": "锤护院"
+      },
+      {
+        "id": 481,
+        "name": "暗器手"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       28,
       70,
@@ -3951,6 +4714,8 @@
     "teams": [
       29
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       86,
       93
@@ -3998,6 +4763,13 @@
     "teams": [
       30
     ],
+    "companions": [
+      {
+        "id": 526,
+        "name": "黑衣女贼"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       92
     ],
@@ -4041,6 +4813,8 @@
     "teams": [
       21
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       22
     ],
@@ -4091,6 +4865,25 @@
       111,
       299
     ],
+    "companions": [
+      {
+        "id": 454,
+        "name": "刀手"
+      },
+      {
+        "id": 475,
+        "name": "剑护院"
+      },
+      {
+        "id": 476,
+        "name": "锤护院"
+      },
+      {
+        "id": 477,
+        "name": "小双钩"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       28,
       71,
@@ -4138,6 +4931,17 @@
     "teams": [
       28
     ],
+    "companions": [
+      {
+        "id": 451,
+        "name": "红衣喇嘛"
+      },
+      {
+        "id": 453,
+        "name": "灰衣喇嘛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       58
     ],
@@ -4181,6 +4985,8 @@
     "teams": [
       24
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       32
     ],
@@ -4226,6 +5032,13 @@
       280,
       281
     ],
+    "companions": [
+      {
+        "id": 493,
+        "name": "青兽人"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       222,
       287,
@@ -4283,6 +5096,33 @@
       317,
       319
     ],
+    "companions": [
+      {
+        "id": 458,
+        "name": "小苗女"
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女"
+      },
+      {
+        "id": 495,
+        "name": "苗人拳"
+      },
+      {
+        "id": 527,
+        "name": "苗枪卒"
+      },
+      {
+        "id": 548,
+        "name": "苗人拳1"
+      },
+      {
+        "id": 549,
+        "name": "苗枪卒1"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       70,
       76,
@@ -4335,6 +5175,8 @@
     "teams": [
       45
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       41
     ],
@@ -4385,6 +5227,21 @@
       55,
       234
     ],
+    "companions": [
+      {
+        "id": 426,
+        "name": "蜥蜴"
+      },
+      {
+        "id": 488,
+        "name": "绿色小蛇"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -4440,6 +5297,29 @@
       301,
       302
     ],
+    "companions": [
+      {
+        "id": 404,
+        "name": "蛹"
+      },
+      {
+        "id": 426,
+        "name": "蜥蜴"
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 534,
+        "name": "红史莱姆"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -4488,6 +5368,8 @@
     "teams": [
       300
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       54
     ],
@@ -4555,6 +5437,41 @@
       370,
       371
     ],
+    "companions": [
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 501,
+        "name": "盖罗娇1"
+      },
+      {
+        "id": 516,
+        "name": "小毒蠍"
+      },
+      {
+        "id": 517,
+        "name": "赤蜈蚣"
+      },
+      {
+        "id": 520,
+        "name": "九头蛇"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       215,
       219,
@@ -4620,6 +5537,37 @@
       340,
       341
     ],
+    "companions": [
+      {
+        "id": 410,
+        "name": "小土鬼"
+      },
+      {
+        "id": 426,
+        "name": "蜥蜴"
+      },
+      {
+        "id": 487,
+        "name": "赤色小蛇"
+      },
+      {
+        "id": 488,
+        "name": "绿色小蛇"
+      },
+      {
+        "id": 520,
+        "name": "九头蛇"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -4698,6 +5646,37 @@
       372,
       373
     ],
+    "companions": [
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 516,
+        "name": "小毒蠍"
+      },
+      {
+        "id": 517,
+        "name": "赤蜈蚣"
+      },
+      {
+        "id": 520,
+        "name": "九头蛇"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       219,
       222,
@@ -4752,6 +5731,13 @@
       280,
       282
     ],
+    "companions": [
+      {
+        "id": 484,
+        "name": "食人兽"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       287,
       288,
@@ -4803,6 +5789,8 @@
     "teams": [
       163
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       147
     ],
@@ -4844,6 +5832,13 @@
       18,
       19
     ],
+    "companions": [
+      {
+        "id": 485,
+        "name": "胖苗"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       1,
       70,
@@ -4901,6 +5896,21 @@
       336,
       353
     ],
+    "companions": [
+      {
+        "id": 412,
+        "name": "小蜘蛛"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       139,
       217,
@@ -4950,6 +5960,13 @@
       17,
       40
     ],
+    "companions": [
+      {
+        "id": 530,
+        "name": "绿叶妖精"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       16,
       250
@@ -5000,6 +6017,21 @@
       128,
       138
     ],
+    "companions": [
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [],
     "spriteFile": "/assets/pal/sprites/enemy_101.png"
   },
@@ -5044,6 +6076,13 @@
     "teams": [
       223
     ],
+    "companions": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       215
     ],
@@ -5084,6 +6123,8 @@
     "teams": [
       25
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       36
     ],
@@ -5133,6 +6174,17 @@
       197,
       198
     ],
+    "companions": [
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      },
+      {
+        "id": 515,
+        "name": "紫凤鸟"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       185,
       192
@@ -5180,6 +6232,21 @@
       75,
       80
     ],
+    "companions": [
+      {
+        "id": 452,
+        "name": "白无常"
+      },
+      {
+        "id": 505,
+        "name": "僵屍兵B"
+      },
+      {
+        "id": 506,
+        "name": "僵屍兵C"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       60,
       65
@@ -5227,6 +6294,17 @@
       75,
       76
     ],
+    "companions": [
+      {
+        "id": 504,
+        "name": "僵屍兵A"
+      },
+      {
+        "id": 506,
+        "name": "僵屍兵C"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       60,
       65
@@ -5273,6 +6351,17 @@
       74,
       77
     ],
+    "companions": [
+      {
+        "id": 504,
+        "name": "僵屍兵A"
+      },
+      {
+        "id": 505,
+        "name": "僵屍兵B"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       60,
       65
@@ -5322,6 +6411,17 @@
       207,
       211
     ],
+    "companions": [
+      {
+        "id": 508,
+        "name": "小树妖"
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       180,
       184,
@@ -5374,6 +6474,29 @@
       208,
       214
     ],
+    "companions": [
+      {
+        "id": 412,
+        "name": "小蜘蛛"
+      },
+      {
+        "id": 469,
+        "name": "狐狸精"
+      },
+      {
+        "id": 507,
+        "name": "半人树妖"
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       139,
       148,
@@ -5429,6 +6552,21 @@
       210,
       211
     ],
+    "companions": [
+      {
+        "id": 507,
+        "name": "半人树妖"
+      },
+      {
+        "id": 508,
+        "name": "小树妖"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       180,
       184,
@@ -5479,6 +6617,13 @@
       275,
       276
     ],
+    "companions": [
+      {
+        "id": 511,
+        "name": "铁棍魔兵"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       279,
       286,
@@ -5531,6 +6676,13 @@
       276,
       277
     ],
+    "companions": [
+      {
+        "id": 510,
+        "name": "尖嘴魔兵"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       279,
       286,
@@ -5587,6 +6739,8 @@
       219,
       220
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       184,
       190
@@ -5633,6 +6787,13 @@
       195,
       196
     ],
+    "companions": [
+      {
+        "id": 456,
+        "name": "猩猩"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       185,
       192
@@ -5692,6 +6853,37 @@
       374,
       375
     ],
+    "companions": [
+      {
+        "id": 412,
+        "name": "小蜘蛛"
+      },
+      {
+        "id": 470,
+        "name": "牡丹精"
+      },
+      {
+        "id": 498,
+        "name": "黑蜘蛛精"
+      },
+      {
+        "id": 503,
+        "name": "鸟人"
+      },
+      {
+        "id": 508,
+        "name": "小树妖"
+      },
+      {
+        "id": 515,
+        "name": "紫凤鸟"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       139,
       185,
@@ -5749,6 +6941,17 @@
       200,
       201
     ],
+    "companions": [
+      {
+        "id": 503,
+        "name": "鸟人"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       185,
       192
@@ -5804,6 +7007,21 @@
       356,
       364
     ],
+    "companions": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 517,
+        "name": "赤蜈蚣"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       101,
       102,
@@ -5867,6 +7085,21 @@
       329,
       363
     ],
+    "companions": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 516,
+        "name": "小毒蠍"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       101,
       102,
@@ -5924,6 +7157,13 @@
       34,
       37
     ],
+    "companions": [
+      {
+        "id": 527,
+        "name": "苗枪卒"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       67
     ],
@@ -5980,6 +7220,29 @@
       342,
       343
     ],
+    "companions": [
+      {
+        "id": 423,
+        "name": "树根"
+      },
+      {
+        "id": 424,
+        "name": "小独角"
+      },
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       101,
       102,
@@ -6033,6 +7296,8 @@
     "teams": [
       188
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [],
     "spriteFile": "/assets/pal/sprites/enemy_121.png"
   },
@@ -6084,6 +7349,25 @@
       357,
       370
     ],
+    "companions": [
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -6139,6 +7423,8 @@
     "teams": [
       226
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       200,
       212
@@ -6191,6 +7477,13 @@
       290,
       291
     ],
+    "companions": [
+      {
+        "id": 528,
+        "name": "巫王侍卫"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       279,
       286,
@@ -6240,6 +7533,8 @@
     "teams": [
       268
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       279,
       287,
@@ -6288,6 +7583,8 @@
     "teams": [
       35
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       58
     ],
@@ -6334,6 +7631,8 @@
     "teams": [
       38
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [],
     "spriteFile": "/assets/pal/sprites/enemy_127.png"
   },
@@ -6380,6 +7679,13 @@
       31,
       32
     ],
+    "companions": [
+      {
+        "id": 479,
+        "name": "女飞贼1"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       87,
       92
@@ -6424,6 +7730,21 @@
       113,
       114
     ],
+    "companions": [
+      {
+        "id": 454,
+        "name": "刀手"
+      },
+      {
+        "id": 485,
+        "name": "胖苗"
+      },
+      {
+        "id": 496,
+        "name": "石长老"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       67,
       70,
@@ -6478,6 +7799,13 @@
       291,
       292
     ],
+    "companions": [
+      {
+        "id": 522,
+        "name": "黑巫师"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       278,
       279,
@@ -6527,6 +7855,8 @@
     "teams": [
       293
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       148
     ],
@@ -6572,6 +7902,13 @@
       40,
       41
     ],
+    "companions": [
+      {
+        "id": 499,
+        "name": "绿叶小妖"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       16,
       250
@@ -6619,6 +7956,8 @@
     "teams": [
       225
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       200,
       212
@@ -6666,6 +8005,8 @@
     "teams": [
       164
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       148,
       154,
@@ -6713,6 +8054,8 @@
     "teams": [
       189
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [],
     "spriteFile": "/assets/pal/sprites/enemy_135.png"
   },
@@ -6754,6 +8097,13 @@
       52,
       123
     ],
+    "companions": [
+      {
+        "id": 488,
+        "name": "绿色小蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       40,
       41,
@@ -6809,6 +8159,17 @@
       178,
       182
     ],
+    "companions": [
+      {
+        "id": 440,
+        "name": "刑天"
+      },
+      {
+        "id": 455,
+        "name": "铁叉牛头"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       147,
       148,
@@ -6878,6 +8239,37 @@
       372,
       373
     ],
+    "companions": [
+      {
+        "id": 412,
+        "name": "小蜘蛛"
+      },
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 498,
+        "name": "黑蜘蛛精"
+      },
+      {
+        "id": 514,
+        "name": "五彩蜘蛛"
+      },
+      {
+        "id": 550,
+        "name": "紫九头蛇"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       218,
       219,
@@ -6942,6 +8334,45 @@
       344,
       345
     ],
+    "companions": [
+      {
+        "id": 406,
+        "name": "血口虫"
+      },
+      {
+        "id": 410,
+        "name": "小土鬼"
+      },
+      {
+        "id": 426,
+        "name": "蜥蜴"
+      },
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 500,
+        "name": "金蟾鬼母"
+      },
+      {
+        "id": 509,
+        "name": "尖头树妖"
+      },
+      {
+        "id": 518,
+        "name": "食火蟾"
+      },
+      {
+        "id": 538,
+        "name": "蓝食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       80,
       101,
@@ -7001,6 +8432,25 @@
       344,
       346
     ],
+    "companions": [
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 500,
+        "name": "金蟾鬼母"
+      },
+      {
+        "id": 518,
+        "name": "食火蟾"
+      },
+      {
+        "id": 537,
+        "name": "绿食火蟾"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       101,
       102,
@@ -7051,6 +8501,8 @@
     "teams": [
       305
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7097,6 +8549,8 @@
     "teams": [
       306
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7143,6 +8597,8 @@
     "teams": [
       307
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7189,6 +8645,8 @@
     "teams": [
       308
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7235,6 +8693,8 @@
     "teams": [
       309
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7281,6 +8741,8 @@
     "teams": [
       310
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7327,6 +8789,8 @@
     "teams": [
       311
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       144
     ],
@@ -7370,6 +8834,8 @@
     "teams": [
       312
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [],
     "spriteFile": "/assets/pal/sprites/enemy_148.png"
   },
@@ -7417,6 +8883,8 @@
     "teams": [
       313
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       281
     ],
@@ -7466,6 +8934,8 @@
     "teams": [
       315
     ],
+    "companions": [],
+    "neverMixed": true,
     "sceneIds": [
       231,
       233
@@ -7508,6 +8978,13 @@
       316,
       317
     ],
+    "companions": [
+      {
+        "id": 485,
+        "name": "胖苗"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       259,
       260,
@@ -7554,6 +9031,21 @@
       318,
       319
     ],
+    "companions": [
+      {
+        "id": 457,
+        "name": "双节棍苗"
+      },
+      {
+        "id": 460,
+        "name": "长鞭苗女"
+      },
+      {
+        "id": 485,
+        "name": "胖苗"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       259,
       260,
@@ -7620,6 +9112,33 @@
       371,
       373
     ],
+    "companions": [
+      {
+        "id": 465,
+        "name": "金蟾"
+      },
+      {
+        "id": 490,
+        "name": "五毒巨蠍"
+      },
+      {
+        "id": 491,
+        "name": "五毒巨蛇"
+      },
+      {
+        "id": 492,
+        "name": "五毒蜈蚣"
+      },
+      {
+        "id": 520,
+        "name": "九头蛇"
+      },
+      {
+        "id": 536,
+        "name": "土蜘蛛"
+      }
+    ],
+    "neverMixed": false,
     "sceneIds": [
       220,
       222,

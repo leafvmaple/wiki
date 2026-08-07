@@ -78,6 +78,18 @@ const CORE = ['武术', '灵力', '防御', '身法', '吉运'];
           <a href={magicHref(r.cooperativeMagic.id)}>{r.cooperativeMagic.name}</a>
         </p>
       )}
+      <p class="line learns">
+        <b>升级习得</b>
+        {r.learns.length
+          ? r.learns.map((m: any, i: number) => (
+              <>
+                {i > 0 && '　'}
+                <span class="lv">Lv{m.level}</span>
+                <a href={magicHref(m.id)}>{m.name}</a>
+              </>
+            ))
+          : <span class="none">无（入队时法术已定）</span>}
+      </p>
     </article>
   ))}
 </div>
@@ -116,6 +128,11 @@ const CORE = ['武术', '灵力', '防御', '身法', '吉运'];
   .line { margin: 0.2rem 0; font-size: 0.88rem; color: #58666e; }
   .line b { color: #3a4d58; margin-right: 0.4rem; }
   .line a { color: #1ba0c9; text-decoration: none; }
+  .learns .lv {
+    display: inline-block; min-width: 2.6em; margin-right: 0.15rem;
+    color: #98a3a8; font-variant-numeric: tabular-nums; font-size: 0.82rem;
+  }
+  .learns .none { color: #98a3a8; }
   .line a:hover { text-decoration: underline; }
 
   :global([data-theme='dark']) .pal-card { background: #242424; border-color: #2a3840; }
