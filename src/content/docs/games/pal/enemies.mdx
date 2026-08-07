@@ -1,0 +1,21 @@
+---
+title: 怪物图鉴
+description: 仙剑奇侠传敌人数值：体力、经验、金钱、可偷物品与出没场景。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-07'
+tableOfContents: false
+sidebar:
+  label: 怪物图鉴
+---
+
+import PalDataTable from '../../../../components/PalDataTable.astro';
+
+数值取自 `DATA.MKF#1`（每条 70 字节），立绘取自 `ABC.MKF` 待机首帧。
+「出没场景」由脚本 `0x0007`（开始战斗）反查战斗队伍表得到，152 种里 147 种能定位到场景。
+
+攻防敏在原始数据里是**有符号的修正值**（加在等级基准上，最低 -99），故未列入本表；
+需要时见 `enemies.json` 的 `attackStrength` / `defense` 等字段。
+
+<PalDataTable kind="enemies" />

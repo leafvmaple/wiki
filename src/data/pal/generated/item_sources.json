@@ -1,0 +1,9966 @@
+[
+  {
+    "id": "152",
+    "name": "傀儡虫",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1053,
+        "message": "从骷颅头内取得二只傀儡虫",
+        "x": 1424,
+        "y": 216
+      },
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1994,
+        "message": "获得傀儡虫",
+        "x": 880,
+        "y": 1256
+      },
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1997,
+        "message": "获得傀儡虫",
+        "x": 896,
+        "y": 1312
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2037,
+        "message": "获得傀儡虫",
+        "x": 1440,
+        "y": 432
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2684,
+        "message": "获得傀儡虫",
+        "x": 704,
+        "y": 688
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2687,
+        "message": "获得傀儡虫",
+        "x": 640,
+        "y": 1504
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3189,
+        "message": "获得傀儡虫",
+        "x": 1088,
+        "y": 704
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3369,
+        "message": "获得傀儡虫",
+        "x": 1680,
+        "y": 584
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3392,
+        "message": "获得傀儡虫",
+        "x": 736,
+        "y": 1296
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3396,
+        "message": "获得傀儡虫",
+        "x": 576,
+        "y": 1056
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4142,
+        "message": "获得傀儡虫",
+        "x": 720,
+        "y": 1416
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4143,
+        "message": "获得傀儡虫",
+        "x": 752,
+        "y": 1400
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4150,
+        "message": "获得傀儡虫",
+        "x": 816,
+        "y": 312
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4194,
+        "message": "获得傀儡虫",
+        "x": 576,
+        "y": 1520
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4237,
+        "message": "获得傀儡虫",
+        "x": 576,
+        "y": 832
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4238,
+        "message": "获得傀儡虫",
+        "x": 576,
+        "y": 1040
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4246,
+        "message": "获得傀儡虫",
+        "x": 1152,
+        "y": 320
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4323,
+        "message": "获得傀儡虫",
+        "x": 368,
+        "y": 568
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4516,
+        "message": "获得傀儡虫",
+        "x": 1120,
+        "y": 1776
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4517,
+        "message": "获得傀儡虫",
+        "x": 1568,
+        "y": 1264
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4518,
+        "message": "获得傀儡虫",
+        "x": 928,
+        "y": 976
+      },
+      {
+        "sceneId": 286,
+        "sceneName": "场景 286",
+        "mapNum": 204,
+        "eventId": 5103,
+        "message": "获得傀儡虫",
+        "x": 1808,
+        "y": 712
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 22
+  },
+  {
+    "id": "148",
+    "name": "蛊",
+    "price": 100,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2032,
+        "message": "获得九只蛊",
+        "x": 816,
+        "y": 1640
+      },
+      {
+        "sceneId": 180,
+        "sceneName": "场景 180",
+        "mapNum": 157,
+        "eventId": 3127,
+        "message": "获得九只蛊",
+        "x": 480,
+        "y": 1696
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3984,
+        "message": "获得九只蛊",
+        "x": 736,
+        "y": 1456
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3992,
+        "message": "获得九只蛊",
+        "x": 1728,
+        "y": 1648
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4037,
+        "message": "获得九只蛊",
+        "x": 560,
+        "y": 536
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4076,
+        "message": "获得九只蛊",
+        "x": 752,
+        "y": 584
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4077,
+        "message": "获得九只蛊",
+        "x": 784,
+        "y": 568
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5168,
+        "message": "获得九只蛊",
+        "x": 1632,
+        "y": 656
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 404,
+        "name": "蛹",
+        "amount": 1,
+        "sceneIds": [
+          6,
+          40,
+          41,
+          44,
+          45,
+          54,
+          71,
+          72,
+          73,
+          75,
+          190,
+          250
+        ]
+      },
+      {
+        "enemyId": 459,
+        "name": "小巫师",
+        "amount": 1,
+        "sceneIds": [
+          279,
+          285,
+          286,
+          287,
+          288,
+          289
+        ]
+      },
+      {
+        "enemyId": 484,
+        "name": "食人兽",
+        "amount": 1,
+        "sceneIds": [
+          222,
+          287,
+          289,
+          291,
+          292,
+          293
+        ]
+      },
+      {
+        "enemyId": 493,
+        "name": "青兽人",
+        "amount": 1,
+        "sceneIds": [
+          287,
+          288,
+          289,
+          291,
+          292,
+          293
+        ]
+      },
+      {
+        "enemyId": 507,
+        "name": "半人树妖",
+        "amount": 1,
+        "sceneIds": [
+          180,
+          184,
+          189,
+          190
+        ]
+      },
+      {
+        "enemyId": 510,
+        "name": "尖嘴魔兵",
+        "amount": 1,
+        "sceneIds": [
+          279,
+          286,
+          288,
+          289,
+          291,
+          292
+        ]
+      },
+      {
+        "enemyId": 511,
+        "name": "铁棍魔兵",
+        "amount": 1,
+        "sceneIds": [
+          279,
+          286,
+          288,
+          289,
+          291,
+          292
+        ]
+      },
+      {
+        "enemyId": 515,
+        "name": "紫凤鸟",
+        "amount": 1,
+        "sceneIds": [
+          185,
+          192
+        ]
+      },
+      {
+        "enemyId": 521,
+        "name": "雷龙",
+        "amount": 1,
+        "sceneIds": [
+          200,
+          212
+        ]
+      },
+      {
+        "enemyId": 523,
+        "name": "黑苗祭司",
+        "amount": 3,
+        "sceneIds": [
+          279,
+          287,
+          288
+        ]
+      },
+      {
+        "enemyId": 535,
+        "name": "紫兽人",
+        "amount": 1,
+        "sceneIds": [
+          147,
+          148,
+          154,
+          156,
+          166,
+          167,
+          168,
+          291,
+          292
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 20
+  },
+  {
+    "id": "99",
+    "name": "止血草",
+    "price": 50,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 1,
+        "name": "商店 1",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 4,
+        "sceneName": "场景 4",
+        "mapNum": 1,
+        "eventId": 109,
+        "message": "采得一颗止血草",
+        "x": 1248,
+        "y": 352
+      },
+      {
+        "sceneId": 6,
+        "sceneName": "场景 6",
+        "mapNum": 4,
+        "eventId": 167,
+        "message": "摘得止血草",
+        "x": 256,
+        "y": 896
+      },
+      {
+        "sceneId": 14,
+        "sceneName": "场景 14",
+        "mapNum": 119,
+        "eventId": 225,
+        "message": "摘得止血草",
+        "x": 880,
+        "y": 248
+      },
+      {
+        "sceneId": 40,
+        "sceneName": "场景 40",
+        "mapNum": 42,
+        "eventId": 669,
+        "message": "获得止血草",
+        "x": 1760,
+        "y": 1328
+      },
+      {
+        "sceneId": 44,
+        "sceneName": "场景 44",
+        "mapNum": 40,
+        "eventId": 721,
+        "message": "获得止血草",
+        "x": 1760,
+        "y": 1328
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1281,
+        "message": "获得止血草",
+        "x": 960,
+        "y": 1840
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1287,
+        "message": "获得止血草",
+        "x": 1680,
+        "y": 1544
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1406,
+        "message": "获得止血草",
+        "x": 880,
+        "y": 344
+      },
+      {
+        "sceneId": 69,
+        "sceneName": "场景 69",
+        "mapNum": 62,
+        "eventId": 1451,
+        "message": "摘得止血草",
+        "x": 1776,
+        "y": 1480
+      },
+      {
+        "sceneId": 69,
+        "sceneName": "场景 69",
+        "mapNum": 62,
+        "eventId": 1452,
+        "message": "摘得止血草",
+        "x": 880,
+        "y": 1624
+      },
+      {
+        "sceneId": 69,
+        "sceneName": "场景 69",
+        "mapNum": 62,
+        "eventId": 1454,
+        "message": "摘得止血草",
+        "x": 1232,
+        "y": 904
+      },
+      {
+        "sceneId": 75,
+        "sceneName": "场景 75",
+        "mapNum": 68,
+        "eventId": 1498,
+        "message": "获得止血草",
+        "x": 1184,
+        "y": 992
+      },
+      {
+        "sceneId": 80,
+        "sceneName": "场景 80",
+        "mapNum": 77,
+        "eventId": 1591,
+        "message": "摘得止血草",
+        "x": 384,
+        "y": 464
+      },
+      {
+        "sceneId": 102,
+        "sceneName": "场景 102",
+        "mapNum": 97,
+        "eventId": 1963,
+        "message": "摘得止血草",
+        "x": 1824,
+        "y": 1744
+      },
+      {
+        "sceneId": 102,
+        "sceneName": "场景 102",
+        "mapNum": 97,
+        "eventId": 1965,
+        "message": "摘得止血草",
+        "x": 1024,
+        "y": 672
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2446,
+        "message": "摘得止血草",
+        "x": 944,
+        "y": 1112
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 19
+  },
+  {
+    "id": "113",
+    "name": "女娲石",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2902,
+        "message": "获得女娲石",
+        "x": 464,
+        "y": 936
+      },
+      {
+        "sceneId": 180,
+        "sceneName": "场景 180",
+        "mapNum": 157,
+        "eventId": 3130,
+        "message": "获得女娲石",
+        "x": 704,
+        "y": 832
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3365,
+        "message": "获得女娲石",
+        "x": 1200,
+        "y": 1224
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3395,
+        "message": "获得女娲石",
+        "x": 928,
+        "y": 832
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3397,
+        "message": "获得女娲石",
+        "x": 720,
+        "y": 600
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4248,
+        "message": "获得女娲石",
+        "x": 1408,
+        "y": 1520
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4250,
+        "message": "获得女娲石",
+        "x": 752,
+        "y": 1576
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4319,
+        "message": "获得女娲石",
+        "x": 1568,
+        "y": 1024
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4324,
+        "message": "获得女娲石",
+        "x": 544,
+        "y": 944
+      },
+      {
+        "sceneId": 233,
+        "sceneName": "场景 233",
+        "mapNum": 189,
+        "eventId": 4354,
+        "message": "获得女娲石",
+        "x": 736,
+        "y": 576
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4519,
+        "message": "获得女娲石",
+        "x": 1040,
+        "y": 1032
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4520,
+        "message": "获得女娲石",
+        "x": 256,
+        "y": 1024
+      },
+      {
+        "sceneId": 244,
+        "sceneName": "场景 244",
+        "mapNum": 207,
+        "eventId": 4521,
+        "message": "获得女娲石",
+        "x": 320,
+        "y": 992
+      },
+      {
+        "sceneId": 245,
+        "sceneName": "场景 245",
+        "mapNum": 208,
+        "eventId": 4561,
+        "message": "获得女娲石",
+        "x": 1712,
+        "y": 952
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 413,
+        "name": "石鬼头",
+        "amount": 1,
+        "sceneIds": [
+          189
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 15
+  },
+  {
+    "id": "101",
+    "name": "金创药",
+    "price": 280,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 60,
+        "sceneName": "场景 60",
+        "mapNum": 55,
+        "eventId": 1195,
+        "message": "获得金创药",
+        "x": 1616,
+        "y": 1432
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1394,
+        "message": "获得金创药",
+        "x": 1264,
+        "y": 1896
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1405,
+        "message": "获得金创药",
+        "x": 1248,
+        "y": 256
+      },
+      {
+        "sceneId": 75,
+        "sceneName": "场景 75",
+        "mapNum": 68,
+        "eventId": 1496,
+        "message": "获得金创药",
+        "x": 1344,
+        "y": 1216
+      },
+      {
+        "sceneId": 75,
+        "sceneName": "场景 75",
+        "mapNum": 68,
+        "eventId": 1500,
+        "message": "获得金创药",
+        "x": 512,
+        "y": 1680
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1555,
+        "message": "获得金创药",
+        "x": 1152,
+        "y": 960
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2852,
+        "message": "获得金创药",
+        "x": 752,
+        "y": 1816
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2896,
+        "message": "获得金创药",
+        "x": 1184,
+        "y": 864
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 440,
+        "name": "刑天",
+        "amount": 1,
+        "sceneIds": [
+          148,
+          154,
+          156,
+          167,
+          168,
+          288,
+          289,
+          291,
+          292,
+          293
+        ]
+      },
+      {
+        "enemyId": 485,
+        "name": "胖苗",
+        "amount": 1,
+        "sceneIds": [
+          70,
+          76,
+          227,
+          259,
+          260,
+          267,
+          269,
+          285,
+          287,
+          288
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 14
+  },
+  {
+    "id": "107",
+    "name": "灵山仙芝",
+    "price": 900,
+    "shops": [
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2440,
+        "message": "获得灵山仙芝",
+        "x": 848,
+        "y": 824
+      },
+      {
+        "sceneId": 148,
+        "sceneName": "场景 148",
+        "mapNum": 146,
+        "eventId": 2542,
+        "message": "获得灵山仙芝",
+        "x": 656,
+        "y": 680
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3079,
+        "message": "采得灵山仙芝",
+        "x": 1040,
+        "y": 584
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3080,
+        "message": "采得灵山仙芝",
+        "x": 928,
+        "y": 592
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3081,
+        "message": "采得灵山仙芝",
+        "x": 1072,
+        "y": 616
+      },
+      {
+        "sceneId": 186,
+        "sceneName": "场景 186",
+        "mapNum": 150,
+        "eventId": 3313,
+        "message": "采得灵山仙芝",
+        "x": 1040,
+        "y": 1336
+      },
+      {
+        "sceneId": 188,
+        "sceneName": "场景 188",
+        "mapNum": 153,
+        "eventId": 3323,
+        "message": "采得灵山仙芝",
+        "x": 1776,
+        "y": 1080
+      },
+      {
+        "sceneId": 188,
+        "sceneName": "场景 188",
+        "mapNum": 153,
+        "eventId": 3325,
+        "message": "采得灵山仙芝",
+        "x": 912,
+        "y": 1144
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3504,
+        "message": "采得灵山仙芝",
+        "x": 256,
+        "y": 1520
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3508,
+        "message": "采得灵山仙芝",
+        "x": 672,
+        "y": 224
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5299,
+        "message": "获得灵山仙芝",
+        "x": 864,
+        "y": 1648
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 401,
+        "name": "烂香菇",
+        "amount": 1,
+        "sceneIds": [
+          180,
+          189,
+          250
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 14
+  },
+  {
+    "id": "105",
+    "name": "还神丹",
+    "price": 200,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 1,
+        "name": "商店 1",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 44,
+        "sceneName": "场景 44",
+        "mapNum": 40,
+        "eventId": 720,
+        "message": "获得还神丹",
+        "x": 1088,
+        "y": 1136
+      },
+      {
+        "sceneId": 45,
+        "sceneName": "场景 45",
+        "mapNum": 41,
+        "eventId": 752,
+        "message": "获得还神丹",
+        "x": 576,
+        "y": 1296
+      },
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1086,
+        "message": "获得还神丹",
+        "x": 1680,
+        "y": 856
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1285,
+        "message": "获得还神丹",
+        "x": 1024,
+        "y": 1424
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1399,
+        "message": "获得还神丹",
+        "x": 1760,
+        "y": 1232
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1556,
+        "message": "获得还神丹",
+        "x": 1088,
+        "y": 1088
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1560,
+        "message": "获得还神丹",
+        "x": 544,
+        "y": 496
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2894,
+        "message": "获得还神丹",
+        "x": 1616,
+        "y": 328
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 449,
+        "name": "角力士",
+        "amount": 1,
+        "sceneIds": [
+          161,
+          162
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 13
+  },
+  {
+    "id": "106",
+    "name": "龙涎草",
+    "price": 440,
+    "shops": [
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 4,
+        "sceneName": "场景 4",
+        "mapNum": 1,
+        "eventId": 108,
+        "message": "采得一颗龙涎草",
+        "x": 1184,
+        "y": 336
+      },
+      {
+        "sceneId": 6,
+        "sceneName": "场景 6",
+        "mapNum": 4,
+        "eventId": 168,
+        "message": "摘得龙涎草",
+        "x": 1840,
+        "y": 568
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1945,
+        "message": "摘得龙涎草",
+        "x": 1680,
+        "y": 1528
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2444,
+        "message": "摘得龙涎草",
+        "x": 1792,
+        "y": 1712
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2892,
+        "message": "获得龙涎草",
+        "x": 1344,
+        "y": 480
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2899,
+        "message": "获得龙涎草",
+        "x": 1024,
+        "y": 1568
+      },
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2953,
+        "message": "获得龙涎草",
+        "x": 912,
+        "y": 1720
+      },
+      {
+        "sceneId": 186,
+        "sceneName": "场景 186",
+        "mapNum": 150,
+        "eventId": 3315,
+        "message": "摘得龙涎草",
+        "x": 1728,
+        "y": 1056
+      },
+      {
+        "sceneId": 188,
+        "sceneName": "场景 188",
+        "mapNum": 153,
+        "eventId": 3324,
+        "message": "摘得龙涎草",
+        "x": 1696,
+        "y": 1520
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3507,
+        "message": "摘得龙涎草",
+        "x": 1136,
+        "y": 632
+      },
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5210,
+        "message": "获得龙涎草",
+        "x": 1280,
+        "y": 768
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 461,
+        "name": "蛟龙",
+        "amount": 2,
+        "sceneIds": [
+          292,
+          293
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 13
+  },
+  {
+    "id": "144",
+    "name": "食妖虫",
+    "price": 800,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1948,
+        "message": "获得食妖虫",
+        "x": 1376,
+        "y": 1536
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2033,
+        "message": "获得食妖虫",
+        "x": 1632,
+        "y": 1296
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2036,
+        "message": "获得食妖虫",
+        "x": 592,
+        "y": 568
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3990,
+        "message": "获得食妖虫",
+        "x": 1632,
+        "y": 1696
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3999,
+        "message": "获得食妖虫",
+        "x": 1520,
+        "y": 792
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4008,
+        "message": "获得食妖虫",
+        "x": 1584,
+        "y": 872
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4011,
+        "message": "获得食妖虫",
+        "x": 336,
+        "y": 696
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4033,
+        "message": "获得食妖虫",
+        "x": 1472,
+        "y": 864
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4034,
+        "message": "获得食妖虫",
+        "x": 1504,
+        "y": 880
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5169,
+        "message": "获得食妖虫",
+        "x": 1152,
+        "y": 464
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 416,
+        "name": "芒刺鬼",
+        "amount": 1,
+        "sceneIds": [
+          156,
+          168
+        ]
+      },
+      {
+        "enemyId": 437,
+        "name": "海螺女",
+        "amount": 2,
+        "sceneIds": [
+          231
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 13
+  },
+  {
+    "id": "159",
+    "name": "缠魂丝",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2437,
+        "message": "获得缠魂丝",
+        "x": 1488,
+        "y": 344
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4012,
+        "message": "获得缠魂丝",
+        "x": 336,
+        "y": 1448
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4078,
+        "message": "获得缠魂丝",
+        "x": 816,
+        "y": 568
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4144,
+        "message": "获得缠魂丝",
+        "x": 1024,
+        "y": 1152
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 435,
+        "name": "六脚蜘蛛",
+        "amount": 2,
+        "sceneIds": [
+          138
+        ]
+      },
+      {
+        "enemyId": 498,
+        "name": "黑蜘蛛精",
+        "amount": 3,
+        "sceneIds": [
+          139,
+          217,
+          218,
+          219,
+          220,
+          222,
+          223
+        ]
+      },
+      {
+        "enemyId": 514,
+        "name": "五彩蜘蛛",
+        "amount": 1,
+        "sceneIds": [
+          139,
+          185,
+          189,
+          190,
+          192,
+          216,
+          217,
+          218,
+          220,
+          221,
+          222,
+          223
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 435,
+        "name": "六脚蜘蛛",
+        "rate": 3
+      },
+      {
+        "enemyId": 467,
+        "name": "瘟神",
+        "rate": 5
+      },
+      {
+        "enemyId": 471,
+        "name": "玩蛇女",
+        "rate": 5
+      },
+      {
+        "enemyId": 492,
+        "name": "五毒蜈蚣",
+        "rate": 5
+      },
+      {
+        "enemyId": 498,
+        "name": "黑蜘蛛精",
+        "rate": 4
+      },
+      {
+        "enemyId": 536,
+        "name": "土蜘蛛",
+        "rate": 4
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 13
+  },
+  {
+    "id": "127",
+    "name": "忘魂花",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 40,
+        "sceneName": "场景 40",
+        "mapNum": 42,
+        "eventId": 671,
+        "message": "获得忘魂花",
+        "x": 720,
+        "y": 1816
+      },
+      {
+        "sceneId": 45,
+        "sceneName": "场景 45",
+        "mapNum": 41,
+        "eventId": 755,
+        "message": "获得忘魂花",
+        "x": 1104,
+        "y": 712
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1949,
+        "message": "摘得忘魂花",
+        "x": 1264,
+        "y": 1576
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2436,
+        "message": "摘得忘魂花",
+        "x": 1136,
+        "y": 1224
+      },
+      {
+        "sceneId": 154,
+        "sceneName": "场景 154",
+        "mapNum": 147,
+        "eventId": 2609,
+        "message": "获得忘魂花",
+        "x": 800,
+        "y": 1168
+      },
+      {
+        "sceneId": 186,
+        "sceneName": "场景 186",
+        "mapNum": 150,
+        "eventId": 3312,
+        "message": "摘得忘魂花",
+        "x": 1296,
+        "y": 1688
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3985,
+        "message": "获得忘魂花",
+        "x": 784,
+        "y": 1480
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4002,
+        "message": "获得忘魂花",
+        "x": 1648,
+        "y": 856
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4079,
+        "message": "获得忘魂花",
+        "x": 848,
+        "y": 584
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 469,
+        "name": "狐狸精",
+        "amount": 2,
+        "sceneIds": [
+          47,
+          148,
+          165,
+          180,
+          189,
+          190,
+          217,
+          222
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 401,
+        "name": "烂香菇",
+        "rate": 2
+      },
+      {
+        "enemyId": 514,
+        "name": "五彩蜘蛛",
+        "rate": 3
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 12
+  },
+  {
+    "id": "147",
+    "name": "碧血蚕",
+    "price": 800,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1999,
+        "message": "获得碧血蚕",
+        "x": 416,
+        "y": 1216
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2034,
+        "message": "获得碧血蚕",
+        "x": 1328,
+        "y": 680
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3998,
+        "message": "获得碧血蚕",
+        "x": 1664,
+        "y": 320
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4003,
+        "message": "获得碧血蚕",
+        "x": 1456,
+        "y": 808
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4006,
+        "message": "获得碧血蚕",
+        "x": 1568,
+        "y": 928
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4035,
+        "message": "获得碧血蚕",
+        "x": 1536,
+        "y": 896
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4036,
+        "message": "获得碧血蚕",
+        "x": 496,
+        "y": 568
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5170,
+        "message": "获得碧血蚕",
+        "x": 544,
+        "y": 880
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 406,
+        "name": "血口虫",
+        "amount": 1,
+        "sceneIds": [
+          59,
+          80,
+          101,
+          102
+        ]
+      },
+      {
+        "enemyId": 429,
+        "name": "傻仔龟",
+        "amount": 1,
+        "sceneIds": [
+          231,
+          233
+        ]
+      },
+      {
+        "enemyId": 430,
+        "name": "短腿章鱼",
+        "amount": 1,
+        "sceneIds": [
+          231,
+          233
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 12
+  },
+  {
+    "id": "143",
+    "name": "火蚕蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3366,
+        "message": "获得火蚕蛊",
+        "x": 784,
+        "y": 1016
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3988,
+        "message": "获得火蚕蛊",
+        "x": 992,
+        "y": 1440
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3997,
+        "message": "获得火蚕蛊",
+        "x": 1552,
+        "y": 264
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4096,
+        "message": "获得火蚕蛊",
+        "x": 896,
+        "y": 1344
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4147,
+        "message": "获得火蚕蛊",
+        "x": 1120,
+        "y": 1168
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4148,
+        "message": "获得火蚕蛊",
+        "x": 1152,
+        "y": 1152
+      },
+      {
+        "sceneId": 279,
+        "sceneName": "场景 279",
+        "mapNum": 210,
+        "eventId": 5043,
+        "message": "获得火蚕蛊",
+        "x": 1568,
+        "y": 1520
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 439,
+        "name": "连体妖",
+        "amount": 1,
+        "sceneIds": [
+          59,
+          165
+        ]
+      },
+      {
+        "enemyId": 518,
+        "name": "食火蟾",
+        "amount": 1,
+        "sceneIds": [
+          101,
+          102,
+          104,
+          200,
+          212,
+          218,
+          219,
+          220
+        ]
+      },
+      {
+        "enemyId": 520,
+        "name": "九头蛇",
+        "amount": 2,
+        "sceneIds": [
+          40,
+          41,
+          75,
+          148,
+          212,
+          217,
+          219,
+          222,
+          223,
+          226
+        ]
+      },
+      {
+        "enemyId": 531,
+        "name": "火蛟龙",
+        "amount": 1,
+        "sceneIds": [
+          200,
+          212
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 11
+  },
+  {
+    "id": "150",
+    "name": "金蚕王",
+    "price": 9000,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3194,
+        "message": "获得金蚕王",
+        "x": 688,
+        "y": 984
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4025,
+        "message": "获得金蚕王",
+        "x": 1088,
+        "y": 1456
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4138,
+        "message": "获得金蚕王",
+        "x": 592,
+        "y": 1416
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4187,
+        "message": "获得金蚕王",
+        "x": 1680,
+        "y": 264
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4239,
+        "message": "获得金蚕王",
+        "x": 720,
+        "y": 1368
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4245,
+        "message": "获得金蚕王",
+        "x": 1568,
+        "y": 528
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4318,
+        "message": "获得金蚕王",
+        "x": 1744,
+        "y": 744
+      },
+      {
+        "sceneId": 233,
+        "sceneName": "场景 233",
+        "mapNum": 189,
+        "eventId": 4357,
+        "message": "获得金蚕王",
+        "x": 720,
+        "y": 1704
+      },
+      {
+        "sceneId": 286,
+        "sceneName": "场景 286",
+        "mapNum": 204,
+        "eventId": 5101,
+        "message": "获得金蚕王",
+        "x": 1248,
+        "y": 704
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 462,
+        "name": "树妖",
+        "amount": 3,
+        "sceneIds": [
+          278
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 11
+  },
+  {
+    "id": "158",
+    "name": "吸星锁",
+    "price": 1500,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 70,
+        "sceneName": "场景 70",
+        "mapNum": 63,
+        "eventId": 1462,
+        "message": "获得吸星锁",
+        "x": 480,
+        "y": 624
+      },
+      {
+        "sceneId": 72,
+        "sceneName": "场景 72",
+        "mapNum": 65,
+        "eventId": 1481,
+        "message": "获得吸星锁",
+        "x": 688,
+        "y": 1368
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1558,
+        "message": "获得吸星锁",
+        "x": 1696,
+        "y": 1024
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4026,
+        "message": "获得吸星锁",
+        "x": 1040,
+        "y": 1480
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4027,
+        "message": "获得吸星锁",
+        "x": 976,
+        "y": 1512
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4028,
+        "message": "获得吸星锁",
+        "x": 1312,
+        "y": 784
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4029,
+        "message": "获得吸星锁",
+        "x": 1344,
+        "y": 800
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4099,
+        "message": "获得吸星锁",
+        "x": 640,
+        "y": 1696
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4100,
+        "message": "获得吸星锁",
+        "x": 1344,
+        "y": 448
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 452,
+        "name": "白无常",
+        "amount": 1,
+        "sceneIds": [
+          59,
+          60,
+          64,
+          65,
+          148,
+          154,
+          156,
+          165,
+          166,
+          167,
+          168
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 11
+  },
+  {
+    "id": "90",
+    "name": "驱魔香",
+    "price": 3000,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      },
+      {
+        "shopId": 1,
+        "name": "商店 1",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2949,
+        "message": "获得驱魔香",
+        "x": 1584,
+        "y": 968
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3187,
+        "message": "获得驱魔香",
+        "x": 1056,
+        "y": 224
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4030,
+        "message": "获得驱魔香",
+        "x": 1376,
+        "y": 816
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4075,
+        "message": "获得驱魔香",
+        "x": 720,
+        "y": 600
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4140,
+        "message": "获得驱魔香",
+        "x": 656,
+        "y": 1448
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4141,
+        "message": "获得驱魔香",
+        "x": 688,
+        "y": 1432
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 10
+  },
+  {
+    "id": "95",
+    "name": "还魂香",
+    "price": 550,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 1,
+        "name": "商店 1",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1081,
+        "message": "获得还魂香",
+        "x": 1424,
+        "y": 1640
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1282,
+        "message": "获得还魂香",
+        "x": 800,
+        "y": 1824
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2853,
+        "message": "获得还魂香",
+        "x": 352,
+        "y": 880
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2898,
+        "message": "获得还魂香",
+        "x": 1056,
+        "y": 1376
+      },
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5206,
+        "message": "获得还魂香",
+        "x": 992,
+        "y": 1408
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 10
+  },
+  {
+    "id": "131",
+    "name": "蜂王蜜",
+    "price": 1200,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      },
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 60,
+        "sceneName": "场景 60",
+        "mapNum": 55,
+        "eventId": 1196,
+        "message": "获得蜂王蜜",
+        "x": 272,
+        "y": 1320
+      },
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2499,
+        "message": "获得蜂王蜜",
+        "x": 656,
+        "y": 1240
+      },
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2501,
+        "message": "获得蜂王蜜",
+        "x": 880,
+        "y": 632
+      },
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2502,
+        "message": "获得蜂王蜜",
+        "x": 944,
+        "y": 600
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3393,
+        "message": "获得蜂王蜜",
+        "x": 272,
+        "y": 1144
+      },
+      {
+        "sceneId": 286,
+        "sceneName": "场景 286",
+        "mapNum": 204,
+        "eventId": 5104,
+        "message": "获得蜂王蜜",
+        "x": 1200,
+        "y": 408
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 10
+  },
+  {
+    "id": "142",
+    "name": "冰蚕蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 102,
+        "sceneName": "场景 102",
+        "mapNum": 97,
+        "eventId": 1964,
+        "message": "获得冰蚕蛊",
+        "x": 1760,
+        "y": 624
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3363,
+        "message": "获得冰蚕蛊",
+        "x": 1056,
+        "y": 1792
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3987,
+        "message": "获得冰蚕蛊",
+        "x": 800,
+        "y": 1424
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3996,
+        "message": "获得冰蚕蛊",
+        "x": 1760,
+        "y": 272
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4095,
+        "message": "获得冰蚕蛊",
+        "x": 864,
+        "y": 1328
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4145,
+        "message": "获得冰蚕蛊",
+        "x": 1056,
+        "y": 1168
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4146,
+        "message": "获得冰蚕蛊",
+        "x": 1088,
+        "y": 1184
+      },
+      {
+        "sceneId": 279,
+        "sceneName": "场景 279",
+        "mapNum": 210,
+        "eventId": 5042,
+        "message": "获得冰蚕蛊",
+        "x": 1616,
+        "y": 1496
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 538,
+        "name": "蓝食火蟾",
+        "amount": 1,
+        "sceneIds": [
+          101,
+          102,
+          104,
+          200,
+          218
+        ]
+      },
+      {
+        "enemyId": 550,
+        "name": "紫九头蛇",
+        "amount": 2,
+        "sceneIds": [
+          220,
+          222,
+          223,
+          226
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 10
+  },
+  {
+    "id": "87",
+    "name": "雄黄",
+    "price": 50,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 1,
+        "name": "商店 1",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 40,
+        "sceneName": "场景 40",
+        "mapNum": 42,
+        "eventId": 668,
+        "message": "获得雄黄",
+        "x": 1344,
+        "y": 1328
+      },
+      {
+        "sceneId": 40,
+        "sceneName": "场景 40",
+        "mapNum": 42,
+        "eventId": 672,
+        "message": "获得雄黄",
+        "x": 832,
+        "y": 1552
+      },
+      {
+        "sceneId": 41,
+        "sceneName": "场景 41",
+        "mapNum": 131,
+        "eventId": 690,
+        "message": "获得雄黄",
+        "x": 1056,
+        "y": 1040
+      },
+      {
+        "sceneId": 44,
+        "sceneName": "场景 44",
+        "mapNum": 40,
+        "eventId": 722,
+        "message": "获得雄黄",
+        "x": 1888,
+        "y": 1232
+      },
+      {
+        "sceneId": 45,
+        "sceneName": "场景 45",
+        "mapNum": 41,
+        "eventId": 753,
+        "message": "获得雄黄",
+        "x": 336,
+        "y": 1176
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 410,
+        "name": "小土鬼",
+        "amount": 2,
+        "sceneIds": [
+          80,
+          102,
+          104,
+          165,
+          166,
+          167
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "96",
+    "name": "赎魂灯",
+    "price": 1500,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1085,
+        "message": "获得赎魂灯",
+        "x": 1488,
+        "y": 1128
+      },
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1781,
+        "message": "获得赎魂灯",
+        "x": 544,
+        "y": 1664
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2688,
+        "message": "获得赎魂灯",
+        "x": 1456,
+        "y": 1432
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2893,
+        "message": "获得赎魂灯",
+        "x": 624,
+        "y": 1528
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3367,
+        "message": "获得赎魂灯",
+        "x": 736,
+        "y": 880
+      },
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5205,
+        "message": "获得赎魂灯",
+        "x": 912,
+        "y": 1368
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 486,
+        "name": "半人蛇",
+        "amount": 1,
+        "sceneIds": [
+          41
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "112",
+    "name": "试炼果",
+    "price": 0,
+    "shops": [
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2435,
+        "message": "获得试炼果",
+        "x": 1328,
+        "y": 1720
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2683,
+        "message": "获得试炼果",
+        "x": 992,
+        "y": 704
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2856,
+        "message": "获得试炼果",
+        "x": 1632,
+        "y": 768
+      },
+      {
+        "sceneId": 168,
+        "sceneName": "场景 168",
+        "mapNum": 148,
+        "eventId": 2978,
+        "message": "获得试炼果",
+        "x": 1408,
+        "y": 576
+      },
+      {
+        "sceneId": 179,
+        "sceneName": "场景 179",
+        "mapNum": 149,
+        "eventId": 3111,
+        "message": "获得试炼果",
+        "x": 1584,
+        "y": 744
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3505,
+        "message": "获得试炼果",
+        "x": 672,
+        "y": 1184
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4322,
+        "message": "获得试炼果",
+        "x": 1024,
+        "y": 640
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 420,
+        "name": "跳跳蛙",
+        "amount": 1,
+        "sceneIds": [
+          156,
+          168
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "129",
+    "name": "鬼枯藤",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1398,
+        "message": "获得鬼枯藤",
+        "x": 960,
+        "y": 1184
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1404,
+        "message": "获得鬼枯藤",
+        "x": 656,
+        "y": 632
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1944,
+        "message": "摘得鬼枯藤",
+        "x": 384,
+        "y": 464
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1951,
+        "message": "摘得鬼枯藤",
+        "x": 384,
+        "y": 1360
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2434,
+        "message": "摘得鬼枯藤",
+        "x": 944,
+        "y": 1384
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3084,
+        "message": "摘得一株鬼枯藤",
+        "x": 240,
+        "y": 1288
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 423,
+        "name": "树根",
+        "amount": 1,
+        "sceneIds": [
+          200,
+          212,
+          250
+        ]
+      },
+      {
+        "enemyId": 508,
+        "name": "小树妖",
+        "amount": 1,
+        "sceneIds": [
+          139,
+          148,
+          180,
+          184,
+          189,
+          190,
+          216,
+          217
+        ]
+      },
+      {
+        "enemyId": 509,
+        "name": "尖头树妖",
+        "amount": 1,
+        "sceneIds": [
+          180,
+          184,
+          189,
+          190
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "130",
+    "name": "腹蛇涎",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 491,
+        "name": "五毒巨蛇",
+        "amount": 1,
+        "sceneIds": [
+          40,
+          41,
+          44,
+          45,
+          65,
+          80,
+          104,
+          148,
+          216,
+          217,
+          220,
+          222,
+          223
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 487,
+        "name": "赤色小蛇",
+        "rate": 5
+      },
+      {
+        "enemyId": 490,
+        "name": "五毒巨蠍",
+        "rate": 5
+      },
+      {
+        "enemyId": 491,
+        "name": "五毒巨蛇",
+        "rate": 7
+      },
+      {
+        "enemyId": 516,
+        "name": "小毒蠍",
+        "rate": 6
+      },
+      {
+        "enemyId": 517,
+        "name": "赤蜈蚣",
+        "rate": 6
+      },
+      {
+        "enemyId": 520,
+        "name": "九头蛇",
+        "rate": 8
+      },
+      {
+        "enemyId": 547,
+        "name": "八头蛇",
+        "rate": 5
+      },
+      {
+        "enemyId": 550,
+        "name": "紫九头蛇",
+        "rate": 8
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "151",
+    "name": "引路蜂",
+    "price": 200,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 61,
+        "sceneName": "场景 61",
+        "mapNum": 52,
+        "eventId": 1215,
+        "message": "获得引路蜂",
+        "x": 960,
+        "y": 496
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1279,
+        "message": "获得引路蜂",
+        "x": 480,
+        "y": 1408
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1954,
+        "message": "获得引路蜂",
+        "x": 736,
+        "y": 1056
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3190,
+        "message": "获得引路蜂",
+        "x": 1296,
+        "y": 1352
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3364,
+        "message": "获得引路蜂",
+        "x": 352,
+        "y": 1408
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4009,
+        "message": "获得引路蜂",
+        "x": 1520,
+        "y": 904
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4084,
+        "message": "获得引路蜂",
+        "x": 1424,
+        "y": 1496
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 503,
+        "name": "鸟人",
+        "amount": 1,
+        "sceneIds": [
+          185,
+          192
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "255",
+    "name": "银针",
+    "price": 500,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 40,
+        "sceneName": "场景 40",
+        "mapNum": 42,
+        "eventId": 670,
+        "message": "获得银针",
+        "x": 1200,
+        "y": 1896
+      },
+      {
+        "sceneId": 41,
+        "sceneName": "场景 41",
+        "mapNum": 131,
+        "eventId": 689,
+        "message": "获得银针",
+        "x": 816,
+        "y": 1096
+      },
+      {
+        "sceneId": 46,
+        "sceneName": "场景 46",
+        "mapNum": 70,
+        "eventId": 767,
+        "message": "获得银针",
+        "x": 1568,
+        "y": 992
+      },
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3370,
+        "message": "获得银针",
+        "x": 496,
+        "y": 328
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 478,
+        "name": "女飞贼",
+        "amount": 9,
+        "sceneIds": [
+          86,
+          93
+        ]
+      },
+      {
+        "enemyId": 479,
+        "name": "女飞贼1",
+        "amount": 9,
+        "sceneIds": [
+          92
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 9
+  },
+  {
+    "id": "63",
+    "name": "金刚符",
+    "price": 1300,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      },
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 62,
+        "sceneName": "场景 62",
+        "mapNum": 56,
+        "eventId": 1221,
+        "message": "获得金刚符",
+        "x": 304,
+        "y": 536
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2849,
+        "message": "获得金刚符",
+        "x": 1664,
+        "y": 1872
+      },
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2954,
+        "message": "获得金刚符",
+        "x": 320,
+        "y": 624
+      },
+      {
+        "sceneId": 293,
+        "sceneName": "场景 293",
+        "mapNum": 192,
+        "eventId": 5323,
+        "message": "获得金刚符",
+        "x": 864,
+        "y": 1056
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 447,
+        "name": "金鎚武士",
+        "amount": 1,
+        "sceneIds": [
+          161,
+          162
+        ]
+      },
+      {
+        "enemyId": 540,
+        "name": "金神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "89",
+    "name": "九节菖蒲",
+    "price": 330,
+    "shops": [
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2443,
+        "message": "获得九节菖蒲",
+        "x": 768,
+        "y": 992
+      },
+      {
+        "sceneId": 148,
+        "sceneName": "场景 148",
+        "mapNum": 146,
+        "eventId": 2538,
+        "message": "获得九节菖蒲",
+        "x": 1184,
+        "y": 688
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2689,
+        "message": "获得九节菖蒲",
+        "x": 1344,
+        "y": 1744
+      },
+      {
+        "sceneId": 186,
+        "sceneName": "场景 186",
+        "mapNum": 150,
+        "eventId": 3314,
+        "message": "获得九节菖蒲",
+        "x": 880,
+        "y": 1128
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "97",
+    "name": "孟婆汤",
+    "price": 2800,
+    "shops": [
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1996,
+        "message": "获得孟婆汤",
+        "x": 832,
+        "y": 1392
+      },
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2500,
+        "message": "获得孟婆汤",
+        "x": 656,
+        "y": 584
+      },
+      {
+        "sceneId": 168,
+        "sceneName": "场景 168",
+        "mapNum": 148,
+        "eventId": 2977,
+        "message": "获得孟婆汤",
+        "x": 1808,
+        "y": 696
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4000,
+        "message": "获得孟婆汤",
+        "x": 1568,
+        "y": 816
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4010,
+        "message": "获得孟婆汤",
+        "x": 1440,
+        "y": 864
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4013,
+        "message": "获得孟婆汤",
+        "x": 240,
+        "y": 1400
+      },
+      {
+        "sceneId": 286,
+        "sceneName": "场景 286",
+        "mapNum": 204,
+        "eventId": 5102,
+        "message": "获得孟婆汤",
+        "x": 1152,
+        "y": 656
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "100",
+    "name": "行军丹",
+    "price": 120,
+    "shops": [
+      {
+        "shopId": 5,
+        "name": "药铺老板",
+        "sceneId": 30,
+        "sceneName": "场景 30"
+      },
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      },
+      {
+        "shopId": 8,
+        "name": "商店 8",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 60,
+        "sceneName": "场景 60",
+        "mapNum": 55,
+        "eventId": 1197,
+        "message": "获得行军丹",
+        "x": 768,
+        "y": 1840
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1400,
+        "message": "获得行军丹",
+        "x": 1488,
+        "y": 1224
+      },
+      {
+        "sceneId": 72,
+        "sceneName": "场景 72",
+        "mapNum": 65,
+        "eventId": 1480,
+        "message": "获得行军丹",
+        "x": 912,
+        "y": 1320
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 504,
+        "name": "僵屍兵A",
+        "amount": 1,
+        "sceneIds": [
+          60,
+          65
+        ]
+      },
+      {
+        "enemyId": 505,
+        "name": "僵屍兵B",
+        "amount": 1,
+        "sceneIds": [
+          60,
+          65
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "119",
+    "name": "毒蟾卵",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1950,
+        "message": "获得９个毒蟾卵",
+        "x": 624,
+        "y": 1432
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2038,
+        "message": "获得９个毒蟾卵",
+        "x": 832,
+        "y": 992
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3981,
+        "message": "获得９个毒蟾卵",
+        "x": 1664,
+        "y": 1152
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4089,
+        "message": "获得９个毒蟾卵",
+        "x": 1520,
+        "y": 1448
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 465,
+        "name": "金蟾",
+        "amount": 10,
+        "sceneIds": [
+          148,
+          218,
+          219,
+          220,
+          222,
+          223,
+          226
+        ]
+      },
+      {
+        "enemyId": 537,
+        "name": "绿食火蟾",
+        "amount": 2,
+        "sceneIds": [
+          80,
+          101,
+          102,
+          104,
+          113,
+          184,
+          189,
+          218
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 465,
+        "name": "金蟾",
+        "rate": 4
+      },
+      {
+        "enemyId": 518,
+        "name": "食火蟾",
+        "rate": 3
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "123",
+    "name": "孔雀胆",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4126,
+        "message": "获得孔雀胆",
+        "x": 1536,
+        "y": 864
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4127,
+        "message": "获得孔雀胆",
+        "x": 1200,
+        "y": 360
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4128,
+        "message": "获得孔雀胆",
+        "x": 1232,
+        "y": 376
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5163,
+        "message": "获得孔雀胆",
+        "x": 304,
+        "y": 1336
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 496,
+        "name": "石长老",
+        "amount": 3,
+        "sceneIds": [
+          67
+        ]
+      },
+      {
+        "enemyId": 522,
+        "name": "黑巫师",
+        "amount": 2,
+        "sceneIds": [
+          279,
+          286,
+          288,
+          289
+        ]
+      },
+      {
+        "enemyId": 533,
+        "name": "黑凤凰",
+        "amount": 1,
+        "sceneIds": []
+      },
+      {
+        "enemyId": 546,
+        "name": "拜月教主",
+        "amount": 30,
+        "sceneIds": [
+          281
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 8
+  },
+  {
+    "id": "61",
+    "name": "观音符",
+    "price": 150,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 20,
+        "sceneName": "场景 20",
+        "mapNum": 9,
+        "eventId": 364,
+        "message": "打开箱子，取得三张观音符",
+        "x": 848,
+        "y": 1080
+      },
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1084,
+        "message": "获得观音符",
+        "x": 832,
+        "y": 1840
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2685,
+        "message": "获得观音符",
+        "x": 816,
+        "y": 872
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2845,
+        "message": "获得观音符",
+        "x": 832,
+        "y": 432
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2901,
+        "message": "获得观音符",
+        "x": 1760,
+        "y": 1088
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2903,
+        "message": "获得观音符",
+        "x": 1120,
+        "y": 912
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "72",
+    "name": "舍利子",
+    "price": 0,
+    "shops": [
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 148,
+        "sceneName": "场景 148",
+        "mapNum": 146,
+        "eventId": 2540,
+        "message": "获得舍利子",
+        "x": 848,
+        "y": 1080
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2843,
+        "message": "获得舍利子",
+        "x": 1136,
+        "y": 296
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2848,
+        "message": "获得舍利子",
+        "x": 1184,
+        "y": 864
+      },
+      {
+        "sceneId": 233,
+        "sceneName": "场景 233",
+        "mapNum": 189,
+        "eventId": 4356,
+        "message": "获得舍利子",
+        "x": 320,
+        "y": 1440
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 453,
+        "name": "灰衣喇嘛",
+        "amount": 1,
+        "sceneIds": [
+          58
+        ]
+      },
+      {
+        "enemyId": 524,
+        "name": "智修大师",
+        "amount": 9,
+        "sceneIds": [
+          58
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "91",
+    "name": "十里香",
+    "price": 640,
+    "shops": [
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1280,
+        "message": "获得十里香",
+        "x": 1184,
+        "y": 1776
+      },
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1946,
+        "message": "获得十里香",
+        "x": 1808,
+        "y": 1416
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2442,
+        "message": "获得十里香",
+        "x": 1632,
+        "y": 672
+      },
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2503,
+        "message": "获得十里香",
+        "x": 1504,
+        "y": 864
+      },
+      {
+        "sceneId": 154,
+        "sceneName": "场景 154",
+        "mapNum": 147,
+        "eventId": 2610,
+        "message": "获得十里香",
+        "x": 352,
+        "y": 752
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 400,
+        "name": "黑毛球",
+        "amount": 1,
+        "sceneIds": [
+          6,
+          40,
+          41,
+          42,
+          44,
+          45,
+          64,
+          250
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "111",
+    "name": "灵葫仙丹",
+    "price": 2500,
+    "shops": [
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      },
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2504,
+        "message": "获得灵葫仙丹",
+        "x": 336,
+        "y": 1032
+      },
+      {
+        "sceneId": 154,
+        "sceneName": "场景 154",
+        "mapNum": 147,
+        "eventId": 2611,
+        "message": "获得灵葫仙丹",
+        "x": 704,
+        "y": 576
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3188,
+        "message": "获得灵葫仙丹",
+        "x": 1168,
+        "y": 824
+      },
+      {
+        "sceneId": 286,
+        "sceneName": "场景 286",
+        "mapNum": 204,
+        "eventId": 5105,
+        "message": "获得灵葫仙丹",
+        "x": 1312,
+        "y": 1552
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5303,
+        "message": "获得灵葫仙丹",
+        "x": 1312,
+        "y": 1744
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "116",
+    "name": "屍腐肉",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 407,
+        "name": "开膛鬼",
+        "amount": 1,
+        "sceneIds": [
+          59,
+          60,
+          61,
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "enemyId": 408,
+        "name": "半截僵屍",
+        "amount": 1,
+        "sceneIds": [
+          60,
+          63,
+          65,
+          167
+        ]
+      },
+      {
+        "enemyId": 419,
+        "name": "僵屍",
+        "amount": 1,
+        "sceneIds": [
+          54,
+          60,
+          61,
+          63,
+          64
+        ]
+      },
+      {
+        "enemyId": 506,
+        "name": "僵屍兵C",
+        "amount": 2,
+        "sceneIds": [
+          60,
+          65
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 407,
+        "name": "开膛鬼",
+        "rate": 1
+      },
+      {
+        "enemyId": 419,
+        "name": "僵屍",
+        "rate": 4
+      },
+      {
+        "enemyId": 472,
+        "name": "僵屍王",
+        "rate": 4
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "120",
+    "name": "蜘蛛卵",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2438,
+        "message": "获得９个蜘蛛卵",
+        "x": 1040,
+        "y": 456
+      },
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2445,
+        "message": "获得９个蜘蛛卵",
+        "x": 1184,
+        "y": 816
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3982,
+        "message": "获得９个蜘蛛卵",
+        "x": 1568,
+        "y": 1216
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4090,
+        "message": "获得９个蜘蛛卵",
+        "x": 1488,
+        "y": 1432
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 412,
+        "name": "小蜘蛛",
+        "amount": 1,
+        "sceneIds": [
+          139,
+          216,
+          217,
+          218,
+          219,
+          220,
+          222,
+          223
+        ]
+      },
+      {
+        "enemyId": 536,
+        "name": "土蜘蛛",
+        "amount": 1,
+        "sceneIds": [
+          218,
+          219,
+          220,
+          223,
+          226,
+          287,
+          289,
+          291,
+          292
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 412,
+        "name": "小蜘蛛",
+        "rate": 1
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "126",
+    "name": "醍醐香",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2441,
+        "message": "获得醍醐香",
+        "x": 1312,
+        "y": 432
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3083,
+        "message": "摘得一株醍醐香",
+        "x": 624,
+        "y": 760
+      },
+      {
+        "sceneId": 186,
+        "sceneName": "场景 186",
+        "mapNum": 150,
+        "eventId": 3311,
+        "message": "摘得醍醐香",
+        "x": 368,
+        "y": 1352
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3991,
+        "message": "获得醍醐香",
+        "x": 1680,
+        "y": 1672
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4004,
+        "message": "获得醍醐香",
+        "x": 1392,
+        "y": 840
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4083,
+        "message": "获得醍醐香",
+        "x": 1392,
+        "y": 1480
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 422,
+        "name": "怪老子",
+        "amount": 1,
+        "sceneIds": [
+          154,
+          156,
+          165,
+          166
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "136",
+    "name": "九阴散",
+    "price": 1100,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1998,
+        "message": "获得九阴散",
+        "x": 368,
+        "y": 1192
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4024,
+        "message": "获得九阴散",
+        "x": 1136,
+        "y": 1432
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4093,
+        "message": "获得九阴散",
+        "x": 800,
+        "y": 1344
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4094,
+        "message": "获得九阴散",
+        "x": 832,
+        "y": 1328
+      },
+      {
+        "sceneId": 279,
+        "sceneName": "场景 279",
+        "mapNum": 210,
+        "eventId": 5045,
+        "message": "获得九阴散",
+        "x": 576,
+        "y": 1344
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "154",
+    "name": "袖里剑",
+    "price": 600,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 70,
+        "sceneName": "场景 70",
+        "mapNum": 63,
+        "eventId": 1463,
+        "message": "获得袖里剑",
+        "x": 1328,
+        "y": 696
+      },
+      {
+        "sceneId": 71,
+        "sceneName": "场景 71",
+        "mapNum": 64,
+        "eventId": 1471,
+        "message": "获得袖里剑",
+        "x": 928,
+        "y": 1024
+      },
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1777,
+        "message": "得到五把袖里剑",
+        "x": 848,
+        "y": 1592
+      },
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2951,
+        "message": "获得袖里剑",
+        "x": 1040,
+        "y": 888
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 477,
+        "name": "小双钩",
+        "amount": 1,
+        "sceneIds": [
+          28,
+          70,
+          71,
+          72,
+          73,
+          76
+        ]
+      },
+      {
+        "enemyId": 526,
+        "name": "黑衣女贼",
+        "amount": 2,
+        "sceneIds": [
+          87,
+          92
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "160",
+    "name": "綑仙绳",
+    "price": 900,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2948,
+        "message": "获得綑仙绳",
+        "x": 912,
+        "y": 312
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3191,
+        "message": "获得綑仙绳",
+        "x": 800,
+        "y": 1648
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4031,
+        "message": "获得綑仙绳",
+        "x": 1408,
+        "y": 832
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4032,
+        "message": "获得綑仙绳",
+        "x": 1440,
+        "y": 848
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4082,
+        "message": "获得綑仙绳",
+        "x": 944,
+        "y": 632
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 446,
+        "name": "哈将",
+        "amount": 1,
+        "sceneIds": [
+          161,
+          162,
+          163
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 7
+  },
+  {
+    "id": "62",
+    "name": "圣灵符",
+    "price": 2000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2690,
+        "message": "获得圣灵符",
+        "x": 1040,
+        "y": 1784
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2891,
+        "message": "获得圣灵符",
+        "x": 1168,
+        "y": 408
+      },
+      {
+        "sceneId": 245,
+        "sceneName": "场景 245",
+        "mapNum": 208,
+        "eventId": 4558,
+        "message": "获得圣灵符",
+        "x": 1280,
+        "y": 768
+      },
+      {
+        "sceneId": 245,
+        "sceneName": "场景 245",
+        "mapNum": 208,
+        "eventId": 4559,
+        "message": "获得圣灵符",
+        "x": 1424,
+        "y": 968
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5300,
+        "message": "获得圣灵符",
+        "x": 1280,
+        "y": 1232
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 474,
+        "name": "木灵道士",
+        "amount": 3,
+        "sceneIds": [
+          181
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "67",
+    "name": "风灵符",
+    "price": 1000,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 17,
+        "sceneName": "场景 17",
+        "mapNum": 6,
+        "eventId": 264,
+        "message": "得到五张灵符",
+        "x": 1408,
+        "y": 432
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2854,
+        "message": "获得风灵符",
+        "x": 464,
+        "y": 936
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 436,
+        "name": "伏地罗汉",
+        "amount": 1,
+        "sceneIds": [
+          59,
+          65,
+          167
+        ]
+      },
+      {
+        "enemyId": 512,
+        "name": "黑衣道众",
+        "amount": 1,
+        "sceneIds": [
+          184,
+          190
+        ]
+      },
+      {
+        "enemyId": 544,
+        "name": "风神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "74",
+    "name": "银杏子",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1947,
+        "message": "采得银杏子",
+        "x": 1392,
+        "y": 1096
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2851,
+        "message": "获得银杏子",
+        "x": 1120,
+        "y": 1856
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2897,
+        "message": "获得银杏子",
+        "x": 400,
+        "y": 648
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3506,
+        "message": "采得银杏子",
+        "x": 1344,
+        "y": 1088
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4320,
+        "message": "获得银杏子",
+        "x": 304,
+        "y": 1592
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 482,
+        "name": "智杖和尚",
+        "amount": 1,
+        "sceneIds": [
+          58
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "117",
+    "name": "毒蛇卵",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3979,
+        "message": "获得９个毒蛇卵",
+        "x": 1584,
+        "y": 1112
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4087,
+        "message": "获得９个毒蛇卵",
+        "x": 1520,
+        "y": 1480
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 487,
+        "name": "赤色小蛇",
+        "amount": 2,
+        "sceneIds": [
+          40,
+          41,
+          44,
+          45,
+          80
+        ]
+      },
+      {
+        "enemyId": 488,
+        "name": "绿色小蛇",
+        "amount": 1,
+        "sceneIds": [
+          40,
+          41,
+          42,
+          44,
+          45,
+          65,
+          71,
+          80,
+          215
+        ]
+      }
+    ],
+    "enemyAttacks": [
+      {
+        "enemyId": 403,
+        "name": "蜜蜂",
+        "rate": 2
+      },
+      {
+        "enemyId": 406,
+        "name": "血口虫",
+        "rate": 4
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "122",
+    "name": "鹤顶红",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4123,
+        "message": "获得鹤顶红",
+        "x": 1424,
+        "y": 824
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4124,
+        "message": "获得鹤顶红",
+        "x": 1456,
+        "y": 840
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4125,
+        "message": "获得鹤顶红",
+        "x": 1488,
+        "y": 856
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5162,
+        "message": "获得鹤顶红",
+        "x": 672,
+        "y": 1552
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 467,
+        "name": "瘟神",
+        "amount": 2,
+        "sceneIds": [
+          279,
+          285,
+          288,
+          291,
+          292,
+          293
+        ]
+      },
+      {
+        "enemyId": 501,
+        "name": "盖罗娇1",
+        "amount": 5,
+        "sceneIds": [
+          215
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "128",
+    "name": "紫罂粟",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1952,
+        "message": "获得紫罂粟",
+        "x": 656,
+        "y": 408
+      },
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2031,
+        "message": "获得紫罂粟",
+        "x": 880,
+        "y": 1464
+      },
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3082,
+        "message": "摘得一株紫罂粟",
+        "x": 784,
+        "y": 584
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3989,
+        "message": "获得紫罂粟",
+        "x": 1584,
+        "y": 1720
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4005,
+        "message": "获得紫罂粟",
+        "x": 1632,
+        "y": 896
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4080,
+        "message": "获得紫罂粟",
+        "x": 880,
+        "y": 600
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "133",
+    "name": "赤蠍粉",
+    "price": 700,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 74,
+        "sceneName": "场景 74",
+        "mapNum": 67,
+        "eventId": 1491,
+        "message": "获得赤蠍粉",
+        "x": 1152,
+        "y": 1120
+      },
+      {
+        "sceneId": 75,
+        "sceneName": "场景 75",
+        "mapNum": 68,
+        "eventId": 1499,
+        "message": "获得赤蠍粉",
+        "x": 1328,
+        "y": 1208
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1559,
+        "message": "获得赤蠍粉",
+        "x": 1760,
+        "y": 624
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3994,
+        "message": "获得赤蠍粉",
+        "x": 1632,
+        "y": 1600
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4092,
+        "message": "获得赤蠍粉",
+        "x": 768,
+        "y": 1360
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 490,
+        "name": "五毒巨蠍",
+        "amount": 1,
+        "sceneIds": [
+          215,
+          219,
+          220,
+          222,
+          223,
+          226,
+          289,
+          291,
+          292,
+          293
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "135",
+    "name": "迷魂香",
+    "price": 1300,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 71,
+        "sceneName": "场景 71",
+        "mapNum": 64,
+        "eventId": 1472,
+        "message": "获得迷魂香",
+        "x": 1184,
+        "y": 656
+      },
+      {
+        "sceneId": 73,
+        "sceneName": "场景 73",
+        "mapNum": 66,
+        "eventId": 1488,
+        "message": "获得迷魂香",
+        "x": 736,
+        "y": 800
+      },
+      {
+        "sceneId": 75,
+        "sceneName": "场景 75",
+        "mapNum": 68,
+        "eventId": 1497,
+        "message": "获得迷魂香",
+        "x": 304,
+        "y": 696
+      },
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1775,
+        "message": "获得迷魂香",
+        "x": 864,
+        "y": 1568
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3995,
+        "message": "获得迷魂香",
+        "x": 1648,
+        "y": 216
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4085,
+        "message": "获得迷魂香",
+        "x": 1456,
+        "y": 1512
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "137",
+    "name": "无影毒",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4135,
+        "message": "获得无影毒",
+        "x": 880,
+        "y": 1240
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4136,
+        "message": "获得无影毒",
+        "x": 896,
+        "y": 1232
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4189,
+        "message": "获得无影毒",
+        "x": 928,
+        "y": 672
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4190,
+        "message": "获得无影毒",
+        "x": 1424,
+        "y": 776
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4191,
+        "message": "获得无影毒",
+        "x": 336,
+        "y": 968
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5167,
+        "message": "获得无影毒",
+        "x": 992,
+        "y": 992
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "145",
+    "name": "灵蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2035,
+        "message": "获得灵蛊",
+        "x": 320,
+        "y": 720
+      },
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3394,
+        "message": "获得灵蛊",
+        "x": 1312,
+        "y": 592
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4022,
+        "message": "获得灵蛊",
+        "x": 1216,
+        "y": 1392
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4097,
+        "message": "获得灵蛊",
+        "x": 928,
+        "y": 1360
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5296,
+        "message": "获得灵蛊",
+        "x": 368,
+        "y": 632
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 466,
+        "name": "牛鬼",
+        "amount": 2,
+        "sceneIds": [
+          279,
+          288,
+          289,
+          292
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "157",
+    "name": "毒龙砂",
+    "price": 1200,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 18,
+        "name": "店主",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3993,
+        "message": "获得毒龙砂",
+        "x": 1488,
+        "y": 1672
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4001,
+        "message": "获得毒龙砂",
+        "x": 1616,
+        "y": 840
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4149,
+        "message": "获得毒龙砂",
+        "x": 1008,
+        "y": 648
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 492,
+        "name": "五毒蜈蚣",
+        "amount": 1,
+        "sceneIds": [
+          219,
+          222,
+          223,
+          224,
+          226,
+          291,
+          292
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "179",
+    "name": "苗刀",
+    "price": 5000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3198,
+        "message": "获得苗刀",
+        "x": 656,
+        "y": 1000
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 4007,
+        "message": "获得苗刀",
+        "x": 1504,
+        "y": 832
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4020,
+        "message": "获得苗刀",
+        "x": 1616,
+        "y": 648
+      },
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4038,
+        "message": "获得苗刀",
+        "x": 640,
+        "y": 496
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 458,
+        "name": "小苗女",
+        "amount": 1,
+        "sceneIds": [
+          260,
+          267,
+          269,
+          279,
+          286,
+          287,
+          288
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "278",
+    "name": "毒龙胆",
+    "price": 2000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4132,
+        "message": "获得毒龙胆",
+        "x": 832,
+        "y": 1264
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4243,
+        "message": "获得毒龙胆",
+        "x": 1008,
+        "y": 1128
+      },
+      {
+        "sceneId": 279,
+        "sceneName": "场景 279",
+        "mapNum": 210,
+        "eventId": 5046,
+        "message": "获得毒龙胆",
+        "x": 880,
+        "y": 1368
+      },
+      {
+        "sceneId": 291,
+        "sceneName": "场景 291",
+        "mapNum": 190,
+        "eventId": 5250,
+        "message": "获得毒龙胆",
+        "x": 320,
+        "y": 352
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 539,
+        "name": "毒神龙",
+        "amount": 13,
+        "sceneIds": [
+          144
+        ]
+      },
+      {
+        "enemyId": 547,
+        "name": "八头蛇",
+        "amount": 3,
+        "sceneIds": [
+          231,
+          233
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 6
+  },
+  {
+    "id": "66",
+    "name": "天师符",
+    "price": 500,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      },
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1286,
+        "message": "获得天师符",
+        "x": 1232,
+        "y": 1464
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2855,
+        "message": "获得天师符",
+        "x": 1536,
+        "y": 720
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 494,
+        "name": "剑老头",
+        "amount": 9,
+        "sceneIds": [
+          147
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "68",
+    "name": "雷灵符",
+    "price": 1200,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 17,
+        "sceneName": "场景 17",
+        "mapNum": 6,
+        "eventId": 264,
+        "message": "得到五张灵符",
+        "x": 1408,
+        "y": 432
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2844,
+        "message": "获得雷灵符",
+        "x": 736,
+        "y": 384
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 418,
+        "name": "小雷公",
+        "amount": 3,
+        "sceneIds": [
+          161,
+          162,
+          163
+        ]
+      },
+      {
+        "enemyId": 545,
+        "name": "雷神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "71",
+    "name": "土灵符",
+    "price": 1800,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 17,
+        "sceneName": "场景 17",
+        "mapNum": 6,
+        "eventId": 264,
+        "message": "得到五张灵符",
+        "x": 1408,
+        "y": 432
+      },
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1087,
+        "message": "获得土灵符",
+        "x": 672,
+        "y": 544
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2847,
+        "message": "获得土灵符",
+        "x": 1760,
+        "y": 464
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 541,
+        "name": "土神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "85",
+    "name": "黑狗血",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [
+      {
+        "enemyId": 474,
+        "name": "木灵道士",
+        "rate": 3
+      },
+      {
+        "enemyId": 512,
+        "name": "黑衣道众",
+        "rate": 3
+      },
+      {
+        "enemyId": 522,
+        "name": "黑巫师",
+        "rate": 5
+      },
+      {
+        "enemyId": 528,
+        "name": "巫王侍卫",
+        "rate": 3
+      },
+      {
+        "enemyId": 546,
+        "name": "拜月教主",
+        "rate": 3
+      }
+    ],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "92",
+    "name": "水果",
+    "price": 25,
+    "shops": [
+      {
+        "shopId": 4,
+        "name": "卖吃小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 5,
+        "sceneName": "场景 5",
+        "mapNum": 2,
+        "eventId": 129,
+        "message": "水果贩：",
+        "x": 512,
+        "y": 1408
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 456,
+        "name": "猩猩",
+        "amount": 2,
+        "sceneIds": [
+          185,
+          192
+        ]
+      },
+      {
+        "enemyId": 513,
+        "name": "狒狒",
+        "amount": 2,
+        "sceneIds": [
+          185,
+          192
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "102",
+    "name": "蟠果",
+    "price": 600,
+    "shops": [
+      {
+        "shopId": 0,
+        "name": "商店 0",
+        "sceneId": null,
+        "sceneName": null
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 154,
+        "sceneName": "场景 154",
+        "mapNum": 147,
+        "eventId": 2607,
+        "message": "获得蟠果",
+        "x": 944,
+        "y": 824
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2680,
+        "message": "获得蟠果",
+        "x": 1584,
+        "y": 312
+      },
+      {
+        "sceneId": 166,
+        "sceneName": "场景 166",
+        "mapNum": 143,
+        "eventId": 2900,
+        "message": "获得蟠果",
+        "x": 1104,
+        "y": 1608
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5297,
+        "message": "获得蟠果",
+        "x": 864,
+        "y": 544
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "109",
+    "name": "天仙玉露",
+    "price": 4000,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1780,
+        "message": "获得天仙玉露",
+        "x": 512,
+        "y": 1680
+      },
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5208,
+        "message": "获得天仙玉露",
+        "x": 1456,
+        "y": 984
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 468,
+        "name": "蝶精彩依",
+        "amount": 3,
+        "sceneIds": [
+          108
+        ]
+      },
+      {
+        "enemyId": 470,
+        "name": "牡丹精",
+        "amount": 1,
+        "sceneIds": [
+          189,
+          190,
+          220,
+          221,
+          222
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "124",
+    "name": "血海棠",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4129,
+        "message": "获得血海棠",
+        "x": 1264,
+        "y": 392
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4130,
+        "message": "获得血海棠",
+        "x": 1296,
+        "y": 408
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4131,
+        "message": "获得血海棠",
+        "x": 1328,
+        "y": 424
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5164,
+        "message": "获得血海棠",
+        "x": 1600,
+        "y": 1488
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 471,
+        "name": "玩蛇女",
+        "amount": 2,
+        "sceneIds": [
+          279,
+          287,
+          288,
+          289,
+          292,
+          293
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "141",
+    "name": "隐蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1774,
+        "message": "获得隐蛊",
+        "x": 608,
+        "y": 1568
+      },
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 2000,
+        "message": "获得隐蛊",
+        "x": 1168,
+        "y": 1080
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4137,
+        "message": "获得隐蛊",
+        "x": 912,
+        "y": 1224
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4242,
+        "message": "获得隐蛊",
+        "x": 1040,
+        "y": 1448
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5171,
+        "message": "获得隐蛊",
+        "x": 672,
+        "y": 944
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "146",
+    "name": "爆烈蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 189,
+        "sceneName": "场景 189",
+        "mapNum": 200,
+        "eventId": 3368,
+        "message": "获得爆烈蛊",
+        "x": 1136,
+        "y": 792
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4192,
+        "message": "获得爆烈蛊",
+        "x": 1536,
+        "y": 1520
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4193,
+        "message": "获得爆烈蛊",
+        "x": 1040,
+        "y": 1768
+      },
+      {
+        "sceneId": 279,
+        "sceneName": "场景 279",
+        "mapNum": 210,
+        "eventId": 5044,
+        "message": "获得爆烈蛊",
+        "x": 928,
+        "y": 1040
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 528,
+        "name": "巫王侍卫",
+        "amount": 1,
+        "sceneIds": [
+          278,
+          279,
+          288,
+          289
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "153",
+    "name": "梅花镖",
+    "price": 280,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 60,
+        "sceneName": "场景 60",
+        "mapNum": 55,
+        "eventId": 1193,
+        "message": "获得梅花镖",
+        "x": 1632,
+        "y": 1872
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1403,
+        "message": "获得梅花镖",
+        "x": 976,
+        "y": 1544
+      },
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1557,
+        "message": "获得梅花镖",
+        "x": 1664,
+        "y": 1040
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 481,
+        "name": "暗器手",
+        "amount": 2,
+        "sceneIds": [
+          28,
+          71,
+          72,
+          73,
+          76
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "162",
+    "name": "血玲胧",
+    "price": 2800,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3193,
+        "message": "获得血玲珑",
+        "x": 448,
+        "y": 1888
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 414,
+        "name": "镰刀鼬",
+        "amount": 1,
+        "sceneIds": [
+          154,
+          156,
+          168
+        ]
+      },
+      {
+        "enemyId": 473,
+        "name": "赤鬼王",
+        "amount": 2,
+        "sceneIds": [
+          59
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 5
+  },
+  {
+    "id": "64",
+    "name": "净衣符",
+    "price": 120,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1082,
+        "message": "获得净衣符",
+        "x": 304,
+        "y": 1608
+      },
+      {
+        "sceneId": 62,
+        "sceneName": "场景 62",
+        "mapNum": 56,
+        "eventId": 1219,
+        "message": "获得净衣符",
+        "x": 1088,
+        "y": 1168
+      },
+      {
+        "sceneId": 64,
+        "sceneName": "场景 64",
+        "mapNum": 54,
+        "eventId": 1284,
+        "message": "获得净衣符",
+        "x": 608,
+        "y": 1680
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "69",
+    "name": "水灵符",
+    "price": 1400,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 17,
+        "sceneName": "场景 17",
+        "mapNum": 6,
+        "eventId": 264,
+        "message": "得到五张灵符",
+        "x": 1408,
+        "y": 432
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2850,
+        "message": "获得水灵符",
+        "x": 1056,
+        "y": 1472
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 543,
+        "name": "冰神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "70",
+    "name": "火灵符",
+    "price": 1600,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 17,
+        "sceneName": "场景 17",
+        "mapNum": 6,
+        "eventId": 264,
+        "message": "得到五张灵符",
+        "x": 1408,
+        "y": 432
+      },
+      {
+        "sceneId": 165,
+        "sceneName": "场景 165",
+        "mapNum": 142,
+        "eventId": 2846,
+        "message": "获得火灵符",
+        "x": 1616,
+        "y": 328
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 542,
+        "name": "火神龙",
+        "amount": 3,
+        "sceneIds": [
+          144
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "73",
+    "name": "玉菩提",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2947,
+        "message": "获得玉菩提",
+        "x": 1264,
+        "y": 552
+      },
+      {
+        "sceneId": 192,
+        "sceneName": "场景 192",
+        "mapNum": 151,
+        "eventId": 3503,
+        "message": "摘得玉菩提",
+        "x": 320,
+        "y": 1504
+      },
+      {
+        "sceneId": 233,
+        "sceneName": "场景 233",
+        "mapNum": 189,
+        "eventId": 4355,
+        "message": "获得玉菩提",
+        "x": 496,
+        "y": 1384
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 519,
+        "name": "明王",
+        "amount": 9,
+        "sceneIds": []
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "86",
+    "name": "酒",
+    "price": 80,
+    "shops": [
+      {
+        "shopId": 4,
+        "name": "卖吃小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      }
+    ],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 415,
+        "name": "酒瓮",
+        "amount": 2,
+        "sceneIds": [
+          6,
+          40,
+          42,
+          64,
+          148,
+          215,
+          216,
+          250
+        ]
+      },
+      {
+        "enemyId": 444,
+        "name": "醉罗汉",
+        "amount": 3,
+        "sceneIds": [
+          161,
+          162,
+          163
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "98",
+    "name": "天香续命露",
+    "price": 5000,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 287,
+        "sceneName": "场景 287",
+        "mapNum": 205,
+        "eventId": 5124,
+        "message": "获得天香续命露",
+        "x": 1232,
+        "y": 1000
+      },
+      {
+        "sceneId": 287,
+        "sceneName": "场景 287",
+        "mapNum": 205,
+        "eventId": 5125,
+        "message": "获得天香续命露",
+        "x": 1056,
+        "y": 912
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 529,
+        "name": "天鬼皇",
+        "amount": 1,
+        "sceneIds": [
+          148
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "108",
+    "name": "雪莲子",
+    "price": 2000,
+    "shops": [
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5207,
+        "message": "获得雪莲子",
+        "x": 528,
+        "y": 1352
+      },
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5301,
+        "message": "获得雪莲子",
+        "x": 1808,
+        "y": 504
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "132",
+    "name": "雪蛤蟆",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 104,
+        "sceneName": "场景 104",
+        "mapNum": 100,
+        "eventId": 2039,
+        "message": "获得雪蛤蟆",
+        "x": 880,
+        "y": 792
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4247,
+        "message": "获得雪蛤蟆",
+        "x": 1600,
+        "y": 1616
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4249,
+        "message": "获得雪蛤蟆",
+        "x": 608,
+        "y": 1648
+      },
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4317,
+        "message": "获得雪蛤蟆",
+        "x": 1072,
+        "y": 408
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "134",
+    "name": "化屍水",
+    "price": 1800,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 101,
+        "sceneName": "场景 101",
+        "mapNum": 98,
+        "eventId": 1953,
+        "message": "获得化屍水",
+        "x": 560,
+        "y": 376
+      },
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2681,
+        "message": "获得化屍水",
+        "x": 1408,
+        "y": 592
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3986,
+        "message": "获得化屍水",
+        "x": 832,
+        "y": 1504
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4086,
+        "message": "获得化屍水",
+        "x": 1488,
+        "y": 1496
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "138",
+    "name": "三屍蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4120,
+        "message": "获得三屍蛊",
+        "x": 1328,
+        "y": 776
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4121,
+        "message": "获得三屍蛊",
+        "x": 1360,
+        "y": 792
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4122,
+        "message": "获得三屍蛊",
+        "x": 1392,
+        "y": 808
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5161,
+        "message": "获得三屍蛊",
+        "x": 544,
+        "y": 1616
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "139",
+    "name": "金蚕蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4133,
+        "message": "获得金蚕蛊",
+        "x": 848,
+        "y": 1256
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4134,
+        "message": "获得金蚕蛊",
+        "x": 864,
+        "y": 1248
+      },
+      {
+        "sceneId": 225,
+        "sceneName": "场景 225",
+        "mapNum": 223,
+        "eventId": 4188,
+        "message": "获得金蚕蛊",
+        "x": 496,
+        "y": 264
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5166,
+        "message": "获得金蚕蛊",
+        "x": 1136,
+        "y": 936
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "140",
+    "name": "幻蛊",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 103,
+        "sceneName": "场景 103",
+        "mapNum": 99,
+        "eventId": 1995,
+        "message": "获得幻蛊",
+        "x": 720,
+        "y": 1336
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4081,
+        "message": "获得幻蛊",
+        "x": 912,
+        "y": 616
+      },
+      {
+        "sceneId": 223,
+        "sceneName": "场景 223",
+        "mapNum": 221,
+        "eventId": 4139,
+        "message": "获得幻蛊",
+        "x": 624,
+        "y": 1432
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5172,
+        "message": "获得幻蛊",
+        "x": 544,
+        "y": 1616
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "149",
+    "name": "赤血蚕",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4023,
+        "message": "获得赤血蚕",
+        "x": 1184,
+        "y": 1408
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4098,
+        "message": "获得赤血蚕",
+        "x": 1024,
+        "y": 832
+      },
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4244,
+        "message": "获得赤血蚕",
+        "x": 1088,
+        "y": 224
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 463,
+        "name": "麒麟",
+        "amount": 3,
+        "sceneIds": [
+          200
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "161",
+    "name": "无影神针",
+    "price": 2000,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1776,
+        "message": "获得无影神针",
+        "x": 816,
+        "y": 1528
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3192,
+        "message": "获得无影神针",
+        "x": 720,
+        "y": 1672
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "193",
+    "name": "鬼头杖",
+    "price": 14000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4018,
+        "message": "获得鬼头杖",
+        "x": 624,
+        "y": 1496
+      },
+      {
+        "sceneId": 291,
+        "sceneName": "场景 291",
+        "mapNum": 190,
+        "eventId": 5249,
+        "message": "获得鬼头杖",
+        "x": 1824,
+        "y": 896
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 4
+  },
+  {
+    "id": "209",
+    "name": "藤甲",
+    "price": 400,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      },
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 45,
+        "sceneName": "场景 45",
+        "mapNum": 41,
+        "eventId": 754,
+        "message": "获得藤甲",
+        "x": 1248,
+        "y": 1248
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 39,
+        "name": "阿奴",
+        "slot": 2,
+        "slotName": "身体"
+      }
+    ],
+    "sourceCount": 4
+  },
+  {
+    "id": "239",
+    "name": "铁履",
+    "price": 1100,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      },
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 789,
+        "message": "获得铁履",
+        "x": 1296,
+        "y": 248
+      },
+      {
+        "sceneId": 60,
+        "sceneName": "场景 60",
+        "mapNum": 55,
+        "eventId": 1199,
+        "message": "获得铁履",
+        "x": 1744,
+        "y": 472
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "250",
+    "name": "铁护腕",
+    "price": 360,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      },
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1401,
+        "message": "获得铁护腕",
+        "x": 1280,
+        "y": 1744
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 476,
+        "name": "锤护院",
+        "amount": 1,
+        "sceneIds": [
+          28,
+          71,
+          72,
+          73,
+          76
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 4
+  },
+  {
+    "id": "253",
+    "name": "玉镯",
+    "price": 950,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 788,
+        "message": "获得玉镯",
+        "x": 288,
+        "y": 720
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 5,
+        "slotName": "饰品"
+      },
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 5,
+        "slotName": "饰品"
+      }
+    ],
+    "sourceCount": 4
+  },
+  {
+    "id": "103",
+    "name": "紫菁玉蓉膏",
+    "price": 1700,
+    "shops": [
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 14,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 19,
+        "name": "药铺老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "104",
+    "name": "鼠儿果",
+    "price": 80,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 69,
+        "sceneName": "场景 69",
+        "mapNum": 62,
+        "eventId": 1453,
+        "message": "摘得鼠儿果",
+        "x": 912,
+        "y": 1352
+      },
+      {
+        "sceneId": 80,
+        "sceneName": "场景 80",
+        "mapNum": 77,
+        "eventId": 1592,
+        "message": "摘得鼠儿果",
+        "x": 1120,
+        "y": 976
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 402,
+        "name": "凤梨小妖",
+        "amount": 1,
+        "sceneIds": [
+          180,
+          189,
+          190,
+          216,
+          217,
+          220,
+          221
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "114",
+    "name": "八仙石",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 231,
+        "sceneName": "场景 231",
+        "mapNum": 188,
+        "eventId": 4321,
+        "message": "获得八仙石",
+        "x": 1072,
+        "y": 1096
+      },
+      {
+        "sceneId": 233,
+        "sceneName": "场景 233",
+        "mapNum": 189,
+        "eventId": 4353,
+        "message": "获得八仙石",
+        "x": 1568,
+        "y": 336
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 532,
+        "name": "土蛟龙",
+        "amount": 1,
+        "sceneIds": [
+          148,
+          154,
+          156,
+          167,
+          168
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "118",
+    "name": "毒蠍卵",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3980,
+        "message": "获得９个毒蠍卵",
+        "x": 1616,
+        "y": 1128
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4088,
+        "message": "获得９个毒蠍卵",
+        "x": 1552,
+        "y": 1464
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 516,
+        "name": "小毒蠍",
+        "amount": 1,
+        "sceneIds": [
+          101,
+          102,
+          104,
+          215,
+          216,
+          219,
+          220,
+          222,
+          223,
+          226
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "121",
+    "name": "蜈蚣卵",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3983,
+        "message": "获得９个蜈蚣卵",
+        "x": 1424,
+        "y": 1144
+      },
+      {
+        "sceneId": 222,
+        "sceneName": "场景 222",
+        "mapNum": 220,
+        "eventId": 4091,
+        "message": "获得９个蜈蚣卵",
+        "x": 1456,
+        "y": 1416
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 517,
+        "name": "赤蜈蚣",
+        "amount": 1,
+        "sceneIds": [
+          101,
+          102,
+          104,
+          113,
+          215,
+          216,
+          219,
+          220,
+          222,
+          223,
+          224
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "125",
+    "name": "断肠草",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 179,
+        "sceneName": "场景 179",
+        "mapNum": 149,
+        "eventId": 3112,
+        "message": "摘得断肠草",
+        "x": 1488,
+        "y": 872
+      },
+      {
+        "sceneId": 288,
+        "sceneName": "场景 288",
+        "mapNum": 206,
+        "eventId": 5165,
+        "message": "获得断肠草",
+        "x": 1744,
+        "y": 1560
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 500,
+        "name": "金蟾鬼母",
+        "amount": 9,
+        "sceneIds": []
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "155",
+    "name": "透骨钉",
+    "price": 1100,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1083,
+        "message": "获得透骨钉",
+        "x": 592,
+        "y": 1320
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1397,
+        "message": "获得透骨钉",
+        "x": 976,
+        "y": 680
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "199",
+    "name": "银钗",
+    "price": 420,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 786,
+        "message": "获得银钗",
+        "x": 848,
+        "y": 1032
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 0,
+        "slotName": "头部"
+      }
+    ],
+    "sourceCount": 3
+  },
+  {
+    "id": "202",
+    "name": "珍珠冠",
+    "price": 2700,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 0,
+        "slotName": "头部"
+      },
+      {
+        "playerId": 39,
+        "name": "阿奴",
+        "slot": 0,
+        "slotName": "头部"
+      },
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 0,
+        "slotName": "头部"
+      }
+    ],
+    "sourceCount": 3
+  },
+  {
+    "id": "210",
+    "name": "丝衣",
+    "price": 750,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 37,
+        "name": "赵灵儿",
+        "slot": 2,
+        "slotName": "身体"
+      },
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 2,
+        "slotName": "身体"
+      },
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 2,
+        "slotName": "身体"
+      }
+    ],
+    "sourceCount": 3
+  },
+  {
+    "id": "211",
+    "name": "铁锁衣",
+    "price": 1230,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      },
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1554,
+        "message": "获得铁锁衣",
+        "x": 336,
+        "y": 1128
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "228",
+    "name": "护心镜",
+    "price": 2000,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      },
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 1,
+        "slotName": "披风"
+      }
+    ],
+    "sourceCount": 3
+  },
+  {
+    "id": "238",
+    "name": "绣花鞋",
+    "price": 450,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 36,
+        "sceneName": "场景 36",
+        "mapNum": 51,
+        "eventId": 608,
+        "message": "获得绣花鞋",
+        "x": 816,
+        "y": 472
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 4,
+        "slotName": "鞋"
+      }
+    ],
+    "sourceCount": 3
+  },
+  {
+    "id": "252",
+    "name": "珍珠",
+    "price": 400,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 787,
+        "message": "获得珍珠",
+        "x": 304,
+        "y": 712
+      },
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3201,
+        "message": "获得珍珠",
+        "x": 560,
+        "y": 1048
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 432,
+        "name": "蚌壳",
+        "amount": 1,
+        "sceneIds": [
+          231,
+          233
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "256",
+    "name": "铜镜",
+    "price": 800,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 785,
+        "message": "获得铜镜",
+        "x": 688,
+        "y": 1048
+      },
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1402,
+        "message": "获得铜镜",
+        "x": 1072,
+        "y": 1672
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 3
+  },
+  {
+    "id": "65",
+    "name": "灵心符",
+    "price": 120,
+    "shops": [
+      {
+        "shopId": 20,
+        "name": "茅山道士",
+        "sceneId": 128,
+        "sceneName": "场景 128"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 148,
+        "sceneName": "场景 148",
+        "mapNum": 146,
+        "eventId": 2541,
+        "message": "获得灵心符",
+        "x": 608,
+        "y": 864
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "76",
+    "name": "糯米糕",
+    "price": 100,
+    "shops": [
+      {
+        "shopId": 4,
+        "name": "卖吃小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "88",
+    "name": "雄黄酒",
+    "price": 150,
+    "shops": [
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      },
+      {
+        "shopId": 11,
+        "name": "药铺老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "93",
+    "name": "烧肉",
+    "price": 40,
+    "shops": [
+      {
+        "shopId": 4,
+        "name": "卖吃小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "110",
+    "name": "神仙茶",
+    "price": 5500,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 190,
+        "sceneName": "场景 190",
+        "mapNum": 159,
+        "eventId": 3398,
+        "message": "获得神仙茶",
+        "x": 1088,
+        "y": 1056
+      },
+      {
+        "sceneId": 293,
+        "sceneName": "场景 293",
+        "mapNum": 192,
+        "eventId": 5325,
+        "message": "获得神仙茶",
+        "x": 688,
+        "y": 1000
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "156",
+    "name": "雷火珠",
+    "price": 1500,
+    "shops": [
+      {
+        "shopId": 15,
+        "name": "商店",
+        "sceneId": 100,
+        "sceneName": "场景 100"
+      },
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "163",
+    "name": "长鞭",
+    "price": 1700,
+    "shops": [],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 460,
+        "name": "长鞭苗女",
+        "amount": 1,
+        "sceneIds": [
+          259,
+          260,
+          267,
+          269,
+          279,
+          285,
+          286,
+          289
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 38,
+        "name": "林月如",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "166",
+    "name": "木剑",
+    "price": 50,
+    "shops": [
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "167",
+    "name": "短刀",
+    "price": 200,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      }
+    ],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 409,
+        "name": "菜刀婆婆",
+        "amount": 1,
+        "sceneIds": [
+          60,
+          61,
+          63,
+          65
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "169",
+    "name": "大刀",
+    "price": 900,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1407,
+        "message": "获得大刀",
+        "x": 704,
+        "y": 800
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "174",
+    "name": "戒刀",
+    "price": 2500,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1561,
+        "message": "获得戒刀",
+        "x": 1152,
+        "y": 1104
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 438,
+        "name": "魔兽武士",
+        "amount": 1,
+        "sceneIds": [
+          279,
+          288,
+          289,
+          292,
+          293
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "184",
+    "name": "龙泉剑",
+    "price": 9000,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 525,
+        "name": "林天南",
+        "amount": 1,
+        "sceneIds": []
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "185",
+    "name": "鬼牙刀",
+    "price": 13000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4017,
+        "message": "获得鬼牙刀",
+        "x": 720,
+        "y": 632
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "194",
+    "name": "冥蛇杖",
+    "price": 27000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 213,
+        "sceneName": "场景 213",
+        "mapNum": 225,
+        "eventId": 3872,
+        "message": "获得冥蛇杖",
+        "x": 1568,
+        "y": 1120
+      },
+      {
+        "sceneId": 290,
+        "sceneName": "场景 290",
+        "mapNum": 209,
+        "eventId": 5220,
+        "message": "获得冥蛇杖",
+        "x": 1024,
+        "y": 816
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "195",
+    "name": "天蛇杖",
+    "price": 31000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 246,
+        "sceneName": "场景 246",
+        "mapNum": 209,
+        "eventId": 4564,
+        "message": "取得天蛇杖",
+        "x": 1504,
+        "y": 640
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "198",
+    "name": "发饰",
+    "price": 60,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "200",
+    "name": "翠玉金钗",
+    "price": 1800,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      },
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "205",
+    "name": "天蚕丝带",
+    "price": 11000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4240,
+        "message": "获得天蚕丝带",
+        "x": 1392,
+        "y": 1384
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "206",
+    "name": "凤凰羽毛",
+    "price": 5000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4019,
+        "message": "获得凤凰羽毛",
+        "x": 1456,
+        "y": 1400
+      }
+    ],
+    "steals": [
+      {
+        "enemyId": 464,
+        "name": "凤凰",
+        "amount": 3,
+        "sceneIds": [
+          185
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "207",
+    "name": "冲天冠",
+    "price": 19800,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 289,
+        "sceneName": "场景 289",
+        "mapNum": 208,
+        "eventId": 5209,
+        "message": "获得冲天冠",
+        "x": 1184,
+        "y": 720
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "213",
+    "name": "青铜甲",
+    "price": 3200,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 472,
+        "name": "僵屍王",
+        "amount": 1,
+        "sceneIds": [
+          65
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "215",
+    "name": "铁鳞甲",
+    "price": 6500,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 2,
+        "slotName": "身体"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "219",
+    "name": "鬼针胄",
+    "price": 14800,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2950,
+        "message": "获得鬼针胄",
+        "x": 1168,
+        "y": 1208
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "220",
+    "name": "天蚕宝衣",
+    "price": 18000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 226,
+        "sceneName": "场景 226",
+        "mapNum": 224,
+        "eventId": 4241,
+        "message": "获得天蚕宝衣",
+        "x": 528,
+        "y": 648
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "225",
+    "name": "披风",
+    "price": 160,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 1,
+        "slotName": "披风"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "226",
+    "name": "护肩",
+    "price": 400,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 65,
+        "sceneName": "场景 65",
+        "mapNum": 57,
+        "eventId": 1395,
+        "message": "获得护肩",
+        "x": 512,
+        "y": 1344
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "227",
+    "name": "武士披风",
+    "price": 900,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 76,
+        "sceneName": "场景 76",
+        "mapNum": 72,
+        "eventId": 1553,
+        "message": "获得武士披风",
+        "x": 1584,
+        "y": 1256
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "229",
+    "name": "霓虹羽衣",
+    "price": 3900,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1773,
+        "message": "获得霓虹羽衣",
+        "x": 640,
+        "y": 1552
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "231",
+    "name": "虎纹披风",
+    "price": 9000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 39,
+        "name": "阿奴",
+        "slot": 1,
+        "slotName": "披风"
+      },
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 1,
+        "slotName": "披风"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "232",
+    "name": "凤纹披风",
+    "price": 15000,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 291,
+        "sceneName": "场景 291",
+        "mapNum": 190,
+        "eventId": 5248,
+        "message": "获得凤纹披风",
+        "x": 1248,
+        "y": 768
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "235",
+    "name": "草鞋",
+    "price": 30,
+    "shops": [
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 4,
+        "slotName": "鞋"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "240",
+    "name": "武僧靴",
+    "price": 2000,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      },
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "241",
+    "name": "鹿皮靴",
+    "price": 3900,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      },
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "242",
+    "name": "疾风靴",
+    "price": 5700,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1782,
+        "message": "获得疾风靴",
+        "x": 592,
+        "y": 1640
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "243",
+    "name": "莲花靴",
+    "price": 6000,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 4,
+        "slotName": "鞋"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "244",
+    "name": "虎皮靴",
+    "price": 9000,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 41,
+        "name": "盖罗娇",
+        "slot": 4,
+        "slotName": "鞋"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "248",
+    "name": "香袋",
+    "price": 10,
+    "shops": [
+      {
+        "shopId": 7,
+        "name": "杂货小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 37,
+        "name": "赵灵儿",
+        "slot": 5,
+        "slotName": "饰品"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "249",
+    "name": "护腕",
+    "price": 70,
+    "shops": [
+      {
+        "shopId": 2,
+        "name": "曾伯",
+        "sceneId": 12,
+        "sceneName": "场景 12"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 5,
+        "slotName": "饰品"
+      }
+    ],
+    "sourceCount": 2
+  },
+  {
+    "id": "257",
+    "name": "八卦镜",
+    "price": 3100,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 156,
+        "sceneName": "场景 156",
+        "mapNum": 156,
+        "eventId": 2682,
+        "message": "获得八卦镜",
+        "x": 816,
+        "y": 472
+      },
+      {
+        "sceneId": 167,
+        "sceneName": "场景 167",
+        "mapNum": 145,
+        "eventId": 2952,
+        "message": "获得八卦镜",
+        "x": 1760,
+        "y": 1168
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "258",
+    "name": "干坤镜",
+    "price": 4900,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3196,
+        "message": "获得乾坤镜",
+        "x": 816,
+        "y": 1048
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "259",
+    "name": "豹牙手环",
+    "price": 4400,
+    "shops": [
+      {
+        "shopId": 16,
+        "name": "店家",
+        "sceneId": 207,
+        "sceneName": "场景 207"
+      }
+    ],
+    "gathers": [
+      {
+        "sceneId": 220,
+        "sceneName": "场景 220",
+        "mapNum": 218,
+        "eventId": 4021,
+        "message": "获得豹牙手环",
+        "x": 1392,
+        "y": 488
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "268",
+    "name": "炼蛊皿",
+    "price": 1000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3186,
+        "message": "获得炼蛊皿",
+        "x": 992,
+        "y": 192
+      },
+      {
+        "sceneId": 219,
+        "sceneName": "场景 219",
+        "mapNum": 217,
+        "eventId": 3978,
+        "message": "获得炼蛊皿",
+        "x": 1552,
+        "y": 1096
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 2
+  },
+  {
+    "id": "75",
+    "name": "糯米",
+    "price": 60,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 62,
+        "sceneName": "场景 62",
+        "mapNum": 56,
+        "eventId": 1220,
+        "message": "获得糯米",
+        "x": 752,
+        "y": 1432
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "78",
+    "name": "茶叶蛋",
+    "price": 40,
+    "shops": [
+      {
+        "shopId": 4,
+        "name": "卖吃小贩",
+        "sceneId": 23,
+        "sceneName": "场景 23"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "80",
+    "name": "糖葫芦",
+    "price": 20,
+    "shops": [],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 428,
+        "name": "公背婆",
+        "amount": 3,
+        "sceneIds": [
+          154,
+          165,
+          166
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "81",
+    "name": "蜡烛",
+    "price": 50,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 119,
+        "sceneName": "场景 119",
+        "mapNum": 111,
+        "eventId": 2262,
+        "message": "得到檀香、蜡烛",
+        "x": 496,
+        "y": 776
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "82",
+    "name": "符纸",
+    "price": 8,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 119,
+        "sceneName": "场景 119",
+        "mapNum": 111,
+        "eventId": 2263,
+        "message": "得到符纸",
+        "x": 560,
+        "y": 552
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "83",
+    "name": "檀香",
+    "price": 30,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 119,
+        "sceneName": "场景 119",
+        "mapNum": 111,
+        "eventId": 2262,
+        "message": "得到檀香、蜡烛",
+        "x": 496,
+        "y": 776
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "94",
+    "name": "腌肉",
+    "price": 170,
+    "shops": [
+      {
+        "shopId": 12,
+        "name": "少女",
+        "sceneId": 82,
+        "sceneName": "场景 82"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "115",
+    "name": "蜂巢",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 139,
+        "sceneName": "场景 139",
+        "mapNum": 129,
+        "eventId": 2439,
+        "message": "获得蜂巢",
+        "x": 992,
+        "y": 608
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "164",
+    "name": "九截鞭",
+    "price": 4400,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "165",
+    "name": "金蛇鞭",
+    "price": 10100,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "170",
+    "name": "仙女剑",
+    "price": 2000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 37,
+        "name": "赵灵儿",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "171",
+    "name": "长剑",
+    "price": 1500,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "172",
+    "name": "红缨刀",
+    "price": 1950,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "173",
+    "name": "越女剑",
+    "price": 1000,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "175",
+    "name": "玄铁剑",
+    "price": 4800,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "176",
+    "name": "芙蓉刀",
+    "price": 1300,
+    "shops": [
+      {
+        "shopId": 6,
+        "name": "铁铺老板",
+        "sceneId": 31,
+        "sceneName": "场景 31"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "177",
+    "name": "柳月刀",
+    "price": 2600,
+    "shops": [
+      {
+        "shopId": 9,
+        "name": "骆员外",
+        "sceneId": 50,
+        "sceneName": "场景 50"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "178",
+    "name": "青锋剑",
+    "price": 5100,
+    "shops": [
+      {
+        "shopId": 10,
+        "name": "老板",
+        "sceneId": 96,
+        "sceneName": "场景 96"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "180",
+    "name": "凤鸣刀",
+    "price": 14000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 154,
+        "sceneName": "场景 154",
+        "mapNum": 147,
+        "eventId": 2608,
+        "message": "获得凤鸣刀",
+        "x": 320,
+        "y": 1136
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "181",
+    "name": "双龙剑",
+    "price": 7200,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 168,
+        "sceneName": "场景 168",
+        "mapNum": 148,
+        "eventId": 2976,
+        "message": "获得双龙剑",
+        "x": 752,
+        "y": 584
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "182",
+    "name": "玉女剑",
+    "price": 12000,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "183",
+    "name": "金童剑",
+    "price": 12000,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "186",
+    "name": "七星剑",
+    "price": 16000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 147,
+        "sceneName": "场景 147",
+        "mapNum": 144,
+        "eventId": 2483,
+        "message": "得到一把\"七星剑\"",
+        "x": 1472,
+        "y": 1136
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "187",
+    "name": "玄冥宝刀",
+    "price": 20000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 213,
+        "sceneName": "场景 213",
+        "mapNum": 225,
+        "eventId": 3871,
+        "message": "获得玄冥宝刀",
+        "x": 1472,
+        "y": 1072
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "188",
+    "name": "巫月神刀",
+    "price": 28000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5295,
+        "message": "获得巫月神刀",
+        "x": 1712,
+        "y": 344
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "189",
+    "name": "磐龙剑",
+    "price": 24000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3195,
+        "message": "获得磐龙剑",
+        "x": 720,
+        "y": 1000
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "190",
+    "name": "太极剑",
+    "price": 30000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 290,
+        "sceneName": "场景 290",
+        "mapNum": 209,
+        "eventId": 5221,
+        "message": "获得太极剑",
+        "x": 1376,
+        "y": 992
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "191",
+    "name": "无尘剑",
+    "price": 32000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 213,
+        "sceneName": "场景 213",
+        "mapNum": 225,
+        "eventId": 3873,
+        "message": "获得无尘剑",
+        "x": 1664,
+        "y": 1168
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "192",
+    "name": "青蛇杖",
+    "price": 6500,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 39,
+        "name": "阿奴",
+        "slot": 3,
+        "slotName": "武器"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "196",
+    "name": "头巾",
+    "price": 40,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 0,
+        "slotName": "头部"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "197",
+    "name": "青丝巾",
+    "price": 100,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 37,
+        "name": "赵灵儿",
+        "slot": 0,
+        "slotName": "头部"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "201",
+    "name": "皮帽",
+    "price": 390,
+    "shops": [
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "203",
+    "name": "天师帽",
+    "price": 3300,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 148,
+        "sceneName": "场景 148",
+        "mapNum": 146,
+        "eventId": 2539,
+        "message": "获得天师帽",
+        "x": 1248,
+        "y": 1312
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "204",
+    "name": "紫金冠",
+    "price": 5600,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 184,
+        "sceneName": "场景 184",
+        "mapNum": 154,
+        "eventId": 3197,
+        "message": "获得紫金冠",
+        "x": 848,
+        "y": 1064
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "208",
+    "name": "布袍",
+    "price": 100,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 36,
+        "name": "李逍遥",
+        "slot": 2,
+        "slotName": "身体"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "217",
+    "name": "精铁战甲",
+    "price": 9900,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "218",
+    "name": "金缕衣",
+    "price": 12000,
+    "shops": [
+      {
+        "shopId": 13,
+        "name": "老板",
+        "sceneId": 135,
+        "sceneName": "场景 135"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "221",
+    "name": "青龙宝甲",
+    "price": 29500,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 290,
+        "sceneName": "场景 290",
+        "mapNum": 209,
+        "eventId": 5219,
+        "message": "获得青龙宝甲",
+        "x": 1504,
+        "y": 640
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "222",
+    "name": "白虎之铠",
+    "price": 22000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 291,
+        "sceneName": "场景 291",
+        "mapNum": 190,
+        "eventId": 5247,
+        "message": "获得白虎之铠",
+        "x": 176,
+        "y": 760
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "223",
+    "name": "玄武战袍",
+    "price": 25000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 293,
+        "sceneName": "场景 293",
+        "mapNum": 192,
+        "eventId": 5324,
+        "message": "获得玄武战袍",
+        "x": 1664,
+        "y": 704
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "224",
+    "name": "朱雀战衣",
+    "price": 24000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5302,
+        "message": "获得朱雀战衣",
+        "x": 816,
+        "y": 1512
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "230",
+    "name": "菩提袈裟",
+    "price": 4100,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 92,
+        "sceneName": "场景 92",
+        "mapNum": 85,
+        "eventId": 1772,
+        "message": "获得菩提袈裟",
+        "x": 672,
+        "y": 1536
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "233",
+    "name": "龙纹披风",
+    "price": 16000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 292,
+        "sceneName": "场景 292",
+        "mapNum": 191,
+        "eventId": 5298,
+        "message": "获得龙纹披风",
+        "x": 1248,
+        "y": 288
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "234",
+    "name": "圣灵披风",
+    "price": 30000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 1,
+        "slotName": "披风"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "236",
+    "name": "木鞋",
+    "price": 80,
+    "shops": [
+      {
+        "shopId": 3,
+        "name": "木匠",
+        "sceneId": 257,
+        "sceneName": "场景 257"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "237",
+    "name": "布靴",
+    "price": 120,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 37,
+        "name": "赵灵儿",
+        "slot": 4,
+        "slotName": "鞋"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "245",
+    "name": "龙鳞靴",
+    "price": 10000,
+    "shops": [
+      {
+        "shopId": 17,
+        "name": "老板",
+        "sceneId": 209,
+        "sceneName": "场景 209"
+      }
+    ],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "246",
+    "name": "步云靴",
+    "price": 18000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 245,
+        "sceneName": "场景 245",
+        "mapNum": 208,
+        "eventId": 4560,
+        "message": "获得步云靴",
+        "x": 1152,
+        "y": 704
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "251",
+    "name": "竹笛",
+    "price": 100,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 39,
+        "name": "阿奴",
+        "slot": 5,
+        "slotName": "饰品"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "254",
+    "name": "念珠",
+    "price": 70,
+    "shops": [],
+    "gathers": [],
+    "steals": [
+      {
+        "enemyId": 451,
+        "name": "红衣喇嘛",
+        "amount": 2,
+        "sceneIds": [
+          58
+        ]
+      }
+    ],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "260",
+    "name": "圣灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [
+      {
+        "playerId": 40,
+        "name": "巫后",
+        "slot": 5,
+        "slotName": "饰品"
+      }
+    ],
+    "sourceCount": 1
+  },
+  {
+    "id": "261",
+    "name": "金罡珠",
+    "price": 10000,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 213,
+        "sceneName": "场景 213",
+        "mapNum": 225,
+        "eventId": 3874,
+        "message": "获得金罡珠",
+        "x": 1760,
+        "y": 1216
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "266",
+    "name": "火灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 200,
+        "sceneName": "场景 200",
+        "mapNum": 187,
+        "eventId": 3543,
+        "message": "李逍遥：",
+        "x": 1584,
+        "y": 1448
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "267",
+    "name": "土灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 59,
+        "sceneName": "场景 59",
+        "mapNum": 76,
+        "eventId": 1054,
+        "message": "小石头：",
+        "x": 752,
+        "y": 104
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "274",
+    "name": "玉佛珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 58,
+        "sceneName": "场景 58",
+        "mapNum": 71,
+        "eventId": 959,
+        "message": "智修大师：",
+        "x": 656,
+        "y": 1000
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "276",
+    "name": "火眼麒麟角",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 200,
+        "sceneName": "场景 200",
+        "mapNum": 187,
+        "eventId": 3543,
+        "message": "李逍遥：",
+        "x": 1584,
+        "y": 1448
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "287",
+    "name": "情书",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1893,
+        "message": "守卫阿辉：",
+        "x": 528,
+        "y": 248
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "289",
+    "name": "石钥匙",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 47,
+        "sceneName": "场景 47",
+        "mapNum": 43,
+        "eventId": 771,
+        "message": "妖狐女：",
+        "x": 1440,
+        "y": 304
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "291",
+    "name": "香蕉",
+    "price": 0,
+    "shops": [],
+    "gathers": [
+      {
+        "sceneId": 176,
+        "sceneName": "场景 176",
+        "mapNum": 201,
+        "eventId": 3086,
+        "message": "摘得两支\"香蕉\"",
+        "x": 1776,
+        "y": 872
+      }
+    ],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 1
+  },
+  {
+    "id": "24",
+    "name": "投掷",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "77",
+    "name": "盐巴",
+    "price": 10,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "79",
+    "name": "鸡蛋",
+    "price": 30,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "84",
+    "name": "大蒜",
+    "price": 12,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "168",
+    "name": "铁剑",
+    "price": 850,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "212",
+    "name": "夜行衣",
+    "price": 2000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "214",
+    "name": "罗汉袍",
+    "price": 4000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "216",
+    "name": "天师道袍",
+    "price": 8000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "247",
+    "name": "魅影神靴",
+    "price": 27000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "262",
+    "name": "五毒珠",
+    "price": 10000,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "263",
+    "name": "风灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "264",
+    "name": "雷灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "265",
+    "name": "水灵珠",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "269",
+    "name": "寿葫芦",
+    "price": 8600,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "270",
+    "name": "紫金葫芦",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "271",
+    "name": "布包",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "272",
+    "name": "桂花酒",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "273",
+    "name": "紫金丹",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "275",
+    "name": "金凤凰蛋壳",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "277",
+    "name": "青龙碧血玉",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "279",
+    "name": "破天鎚",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "280",
+    "name": "包袱",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "284",
+    "name": "钓竿",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "285",
+    "name": "捕兽夹",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "286",
+    "name": "六神丹",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "288",
+    "name": "玉佩",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "290",
+    "name": "天书",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "292",
+    "name": "凤纹手绢",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "293",
+    "name": "手卷",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  },
+  {
+    "id": "294",
+    "name": "芦苇漂",
+    "price": 0,
+    "shops": [],
+    "gathers": [],
+    "steals": [],
+    "enemyAttacks": [],
+    "startingGear": [],
+    "sourceCount": 0
+  }
+]

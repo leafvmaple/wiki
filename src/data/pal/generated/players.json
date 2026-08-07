@@ -1,0 +1,958 @@
+[
+  {
+    "role": 0,
+    "id": 36,
+    "name": "李逍遥",
+    "level": 1,
+    "maxHP": 150,
+    "maxMP": 100,
+    "hp": 150,
+    "mp": 100,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 33
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 20
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 32
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 28
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 32
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 196,
+        "name": "头巾"
+      },
+      {
+        "slot": 1,
+        "slotName": "披风",
+        "slotNameEn": "Cloak",
+        "id": 225,
+        "name": "披风"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 208,
+        "name": "布袍"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 166,
+        "name": "木剑"
+      },
+      {
+        "slot": 4,
+        "slotName": "鞋",
+        "slotNameEn": "Feet",
+        "id": 235,
+        "name": "草鞋"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 249,
+        "name": "护腕"
+      }
+    ],
+    "magics": [
+      {
+        "id": 296,
+        "name": "气疗术"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 386,
+      "name": "合体气功"
+    },
+    "coveredBy": 2,
+    "avatar": 1,
+    "spriteNum": 2,
+    "battleSprite": 0,
+    "avatarFile": "/assets/pal/sprites/avatar_036.png",
+    "spriteFile": "/assets/pal/sprites/player_036.png",
+    "battleFile": "/assets/pal/sprites/battle_036.png"
+  },
+  {
+    "role": 1,
+    "id": 37,
+    "name": "赵灵儿",
+    "level": 5,
+    "maxHP": 240,
+    "maxMP": 240,
+    "hp": 28,
+    "mp": 10,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 20
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 64
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 28
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 55
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 18
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 197,
+        "name": "青丝巾"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 210,
+        "name": "丝衣"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 170,
+        "name": "仙女剑"
+      },
+      {
+        "slot": 4,
+        "slotName": "鞋",
+        "slotNameEn": "Feet",
+        "id": 237,
+        "name": "布靴"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 248,
+        "name": "香袋"
+      }
+    ],
+    "magics": [
+      {
+        "id": 312,
+        "name": "风咒"
+      },
+      {
+        "id": 316,
+        "name": "雷咒"
+      },
+      {
+        "id": 321,
+        "name": "冰咒"
+      },
+      {
+        "id": 327,
+        "name": "炎咒"
+      },
+      {
+        "id": 332,
+        "name": "土咒"
+      },
+      {
+        "id": 306,
+        "name": "净衣咒"
+      },
+      {
+        "id": 297,
+        "name": "观音咒"
+      },
+      {
+        "id": 309,
+        "name": "金刚咒"
+      },
+      {
+        "id": 303,
+        "name": "回梦"
+      },
+      {
+        "id": 307,
+        "name": "冰心诀"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 381,
+      "name": "爆炸"
+    },
+    "coveredBy": 0,
+    "avatar": 11,
+    "spriteNum": 3,
+    "battleSprite": 1,
+    "avatarFile": "/assets/pal/sprites/avatar_037.png",
+    "spriteFile": "/assets/pal/sprites/player_037.png",
+    "battleFile": "/assets/pal/sprites/battle_037.png"
+  },
+  {
+    "role": 2,
+    "id": 38,
+    "name": "林月如",
+    "level": 3,
+    "maxHP": 220,
+    "maxMP": 80,
+    "hp": 220,
+    "mp": 80,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 38
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 22
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 35
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 36
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 28
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 199,
+        "name": "银钗"
+      },
+      {
+        "slot": 1,
+        "slotName": "披风",
+        "slotNameEn": "Cloak",
+        "id": 228,
+        "name": "护心镜"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 210,
+        "name": "丝衣"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 163,
+        "name": "长鞭"
+      },
+      {
+        "slot": 4,
+        "slotName": "鞋",
+        "slotNameEn": "Feet",
+        "id": 238,
+        "name": "绣花鞋"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 253,
+        "name": "玉镯"
+      }
+    ],
+    "magics": [
+      {
+        "id": 298,
+        "name": "凝神归元"
+      },
+      {
+        "id": 337,
+        "name": "气剑指"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 339,
+      "name": "弦月斩1"
+    },
+    "coveredBy": 0,
+    "avatar": 21,
+    "spriteNum": 7,
+    "battleSprite": 2,
+    "avatarFile": "/assets/pal/sprites/avatar_038.png",
+    "spriteFile": "/assets/pal/sprites/player_038.png",
+    "battleFile": "/assets/pal/sprites/battle_038.png"
+  },
+  {
+    "role": 3,
+    "id": 40,
+    "name": "巫后",
+    "level": 48,
+    "maxHP": 810,
+    "maxMP": 790,
+    "hp": 810,
+    "mp": 790,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 168
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 256
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 136
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 132
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 60
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 202,
+        "name": "珍珠冠"
+      },
+      {
+        "slot": 1,
+        "slotName": "披风",
+        "slotNameEn": "Cloak",
+        "id": 234,
+        "name": "圣灵披风"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 210,
+        "name": "丝衣"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 195,
+        "name": "天蛇杖"
+      },
+      {
+        "slot": 4,
+        "slotName": "鞋",
+        "slotNameEn": "Feet",
+        "id": 243,
+        "name": "莲花靴"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 260,
+        "name": "圣灵珠"
+      }
+    ],
+    "magics": [
+      {
+        "id": 295,
+        "name": "梦蛇"
+      },
+      {
+        "id": 304,
+        "name": "夺魂"
+      },
+      {
+        "id": 299,
+        "name": "元灵归心术"
+      },
+      {
+        "id": 315,
+        "name": "风神"
+      },
+      {
+        "id": 320,
+        "name": "雷神"
+      },
+      {
+        "id": 325,
+        "name": "雪妖"
+      },
+      {
+        "id": 389,
+        "name": "火神"
+      },
+      {
+        "id": 336,
+        "name": "山神"
+      },
+      {
+        "id": 302,
+        "name": "赎魂"
+      },
+      {
+        "id": 308,
+        "name": "灵血咒"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 374,
+      "name": "爆炸蛊"
+    },
+    "coveredBy": 0,
+    "avatar": 73,
+    "spriteNum": 525,
+    "battleSprite": 3,
+    "avatarFile": "/assets/pal/sprites/avatar_040.png",
+    "spriteFile": "/assets/pal/sprites/player_040.png",
+    "battleFile": "/assets/pal/sprites/battle_040.png"
+  },
+  {
+    "role": 4,
+    "id": 39,
+    "name": "阿奴",
+    "level": 28,
+    "maxHP": 480,
+    "maxMP": 410,
+    "hp": 480,
+    "mp": 410,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 168
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 220
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 110
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 160
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 150
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 202,
+        "name": "珍珠冠"
+      },
+      {
+        "slot": 1,
+        "slotName": "披风",
+        "slotNameEn": "Cloak",
+        "id": 231,
+        "name": "虎纹披风"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 209,
+        "name": "藤甲"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 192,
+        "name": "青蛇杖"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 251,
+        "name": "竹笛"
+      }
+    ],
+    "magics": [
+      {
+        "id": 353,
+        "name": "御蜂术"
+      },
+      {
+        "id": 352,
+        "name": "三屍咒"
+      },
+      {
+        "id": 329,
+        "name": "炎杀咒"
+      },
+      {
+        "id": 318,
+        "name": "天雷破"
+      },
+      {
+        "id": 394,
+        "name": "乾坤一掷"
+      },
+      {
+        "id": 308,
+        "name": "灵血咒"
+      },
+      {
+        "id": 299,
+        "name": "元灵归心术"
+      },
+      {
+        "id": 302,
+        "name": "赎魂"
+      },
+      {
+        "id": 305,
+        "name": "鬼降"
+      },
+      {
+        "id": 304,
+        "name": "夺魂"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 355,
+      "name": "天女散花"
+    },
+    "coveredBy": 0,
+    "avatar": 27,
+    "spriteNum": 5,
+    "battleSprite": 4,
+    "avatarFile": "/assets/pal/sprites/avatar_039.png",
+    "spriteFile": "/assets/pal/sprites/player_039.png",
+    "battleFile": "/assets/pal/sprites/battle_039.png"
+  },
+  {
+    "role": 5,
+    "id": 41,
+    "name": "盖罗娇",
+    "level": 40,
+    "maxHP": 3600,
+    "maxMP": 720,
+    "hp": 3600,
+    "mp": 720,
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 120
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 562
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 136
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 110
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 40
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 0
+      },
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 0
+      },
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 0
+      },
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 0
+      },
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 0
+      },
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 0
+      }
+    ],
+    "equipment": [
+      {
+        "slot": 0,
+        "slotName": "头部",
+        "slotNameEn": "Head",
+        "id": 202,
+        "name": "珍珠冠"
+      },
+      {
+        "slot": 1,
+        "slotName": "披风",
+        "slotNameEn": "Cloak",
+        "id": 231,
+        "name": "虎纹披风"
+      },
+      {
+        "slot": 2,
+        "slotName": "身体",
+        "slotNameEn": "Body",
+        "id": 215,
+        "name": "铁鳞甲"
+      },
+      {
+        "slot": 3,
+        "slotName": "武器",
+        "slotNameEn": "Weapon",
+        "id": 193,
+        "name": "鬼头杖"
+      },
+      {
+        "slot": 4,
+        "slotName": "鞋",
+        "slotNameEn": "Feet",
+        "id": 244,
+        "name": "虎皮靴"
+      },
+      {
+        "slot": 5,
+        "slotName": "饰品",
+        "slotNameEn": "Accessory",
+        "id": 253,
+        "name": "玉镯"
+      }
+    ],
+    "magics": [
+      {
+        "id": 353,
+        "name": "御蜂术"
+      },
+      {
+        "id": 329,
+        "name": "炎杀咒"
+      },
+      {
+        "id": 323,
+        "name": "风雪冰天"
+      },
+      {
+        "id": 374,
+        "name": "爆炸蛊"
+      },
+      {
+        "id": 308,
+        "name": "灵血咒"
+      },
+      {
+        "id": 298,
+        "name": "凝神归元"
+      },
+      {
+        "id": 304,
+        "name": "夺魂"
+      }
+    ],
+    "cooperativeMagic": {
+      "id": 381,
+      "name": "爆炸"
+    },
+    "coveredBy": 4,
+    "avatar": 44,
+    "spriteNum": 26,
+    "battleSprite": 8,
+    "avatarFile": "/assets/pal/sprites/avatar_041.png",
+    "spriteFile": "/assets/pal/sprites/player_041.png",
+    "battleFile": "/assets/pal/sprites/battle_041.png"
+  }
+]

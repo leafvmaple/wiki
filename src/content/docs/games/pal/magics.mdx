@@ -1,0 +1,23 @@
+---
+title: 法术图鉴
+description: 仙剑奇侠传法术：真气消耗、威力、五灵属性与作用范围。
+game: '仙剑奇侠传'
+gameVersion: 'Steam PAL'
+status: needs-testing
+lastVerified: '2026-08-07'
+tableOfContents: false
+sidebar:
+  label: 法术图鉴
+---
+
+import PalDataTable from '../../../../components/PalDataTable.astro';
+
+数值取自 `DATA.MKF#4`（每条 32 字节）。威力标「特殊」的五个法术
+（回梦、夺魂、鬼降、灵葫咒、飞龙探云手）在数据里写作 -999，
+表示效果由脚本决定而非伤害。
+
+属性编号在数据里只有 0–7，没有名字。这里的标注是按游戏自带说明文本反查的：
+风咒／雷咒／冰咒／火术／土咒各自写明「X 系…法术」，对应 1–5；6 是毒系。
+0 与 7 都是无属性（0 在武学、7 在辅助法术上），**数据里无从进一步区分**。
+
+<PalDataTable kind="magics" />

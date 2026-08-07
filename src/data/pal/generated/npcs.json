@@ -1387,6 +1387,153 @@
     "scenes": "场景 49、场景 50"
   },
   {
+    "name": "守卫",
+    "kinds": [
+      "npc"
+    ],
+    "sampleLine": "守　卫：",
+    "locations": [
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1887,
+        "kind": "npc",
+        "x": 432,
+        "y": 280
+      },
+      {
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1888,
+        "kind": "npc",
+        "x": 384,
+        "y": 304
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3628,
+        "kind": "npc",
+        "x": 528,
+        "y": 1240
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3629,
+        "kind": "npc",
+        "x": 624,
+        "y": 1288
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3630,
+        "kind": "npc",
+        "x": 752,
+        "y": 1032
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3631,
+        "kind": "npc",
+        "x": 880,
+        "y": 1096
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3632,
+        "kind": "npc",
+        "x": 896,
+        "y": 912
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3633,
+        "kind": "npc",
+        "x": 992,
+        "y": 960
+      },
+      {
+        "sceneId": 203,
+        "sceneName": "场景 203",
+        "mapNum": 175,
+        "eventId": 3634,
+        "kind": "npc",
+        "x": 912,
+        "y": 1240
+      },
+      {
+        "sceneId": 206,
+        "sceneName": "场景 206",
+        "mapNum": 163,
+        "eventId": 3683,
+        "kind": "npc",
+        "x": 1568,
+        "y": 1024
+      },
+      {
+        "sceneId": 206,
+        "sceneName": "场景 206",
+        "mapNum": 163,
+        "eventId": 3684,
+        "kind": "npc",
+        "x": 1552,
+        "y": 1032
+      },
+      {
+        "sceneId": 211,
+        "sceneName": "场景 211",
+        "mapNum": 173,
+        "eventId": 3794,
+        "kind": "npc",
+        "x": 1232,
+        "y": 760
+      },
+      {
+        "sceneId": 211,
+        "sceneName": "场景 211",
+        "mapNum": 173,
+        "eventId": 3795,
+        "kind": "npc",
+        "x": 1312,
+        "y": 800
+      },
+      {
+        "sceneId": 211,
+        "sceneName": "场景 211",
+        "mapNum": 173,
+        "eventId": 3796,
+        "kind": "npc",
+        "x": 1296,
+        "y": 776
+      },
+      {
+        "sceneId": 265,
+        "sceneName": "场景 265",
+        "mapNum": 175,
+        "eventId": 4858,
+        "kind": "npc",
+        "x": 912,
+        "y": 1240
+      }
+    ],
+    "sceneCount": 5,
+    "appearanceCount": 15,
+    "scenes": "场景 100、场景 203、场景 206、场景 211、场景 265"
+  },
+  {
     "name": "少女",
     "kinds": [
       "npc",
@@ -1526,133 +1673,133 @@
     "scenes": "场景 14、场景 19、场景 21、场景 24、场景 30、场景 47、场景 51、场景 82"
   },
   {
-    "name": "守卫",
+    "name": "妓女",
     "kinds": [
       "npc"
     ],
-    "sampleLine": "守卫：",
+    "sampleLine": "妓女：",
     "locations": [
       {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3628,
+        "sceneId": 91,
+        "sceneName": "场景 91",
+        "mapNum": 83,
+        "eventId": 1762,
         "kind": "npc",
-        "x": 528,
-        "y": 1240
+        "x": 1072,
+        "y": 1480
       },
       {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3629,
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1902,
         "kind": "npc",
-        "x": 624,
-        "y": 1288
+        "x": 944,
+        "y": 1000
       },
       {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3630,
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1903,
         "kind": "npc",
-        "x": 752,
-        "y": 1032
+        "x": 912,
+        "y": 1000
       },
       {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3631,
-        "kind": "npc",
-        "x": 880,
-        "y": 1096
-      },
-      {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3632,
-        "kind": "npc",
-        "x": 896,
-        "y": 912
-      },
-      {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3633,
+        "sceneId": 100,
+        "sceneName": "场景 100",
+        "mapNum": 105,
+        "eventId": 1904,
         "kind": "npc",
         "x": 992,
-        "y": 960
+        "y": 1040
       },
       {
-        "sceneId": 203,
-        "sceneName": "场景 203",
-        "mapNum": 175,
-        "eventId": 3634,
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2338,
         "kind": "npc",
-        "x": 912,
-        "y": 1240
+        "x": 960,
+        "y": 1008
       },
       {
-        "sceneId": 206,
-        "sceneName": "场景 206",
-        "mapNum": 163,
-        "eventId": 3683,
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2339,
         "kind": "npc",
-        "x": 1568,
-        "y": 1024
+        "x": 944,
+        "y": 1016
       },
       {
-        "sceneId": 206,
-        "sceneName": "场景 206",
-        "mapNum": 163,
-        "eventId": 3684,
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2341,
         "kind": "npc",
-        "x": 1552,
+        "x": 896,
+        "y": 1040
+      },
+      {
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2345,
+        "kind": "npc",
+        "x": 1040,
         "y": 1032
       },
       {
-        "sceneId": 211,
-        "sceneName": "场景 211",
-        "mapNum": 173,
-        "eventId": 3794,
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2350,
         "kind": "npc",
-        "x": 1232,
-        "y": 760
+        "x": 864,
+        "y": 1056
       },
       {
-        "sceneId": 211,
-        "sceneName": "场景 211",
-        "mapNum": 173,
-        "eventId": 3795,
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2383,
         "kind": "npc",
-        "x": 1312,
-        "y": 800
+        "x": 480,
+        "y": 672
       },
       {
-        "sceneId": 211,
-        "sceneName": "场景 211",
-        "mapNum": 173,
-        "eventId": 3796,
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2384,
         "kind": "npc",
-        "x": 1296,
-        "y": 776
+        "x": 656,
+        "y": 1752
       },
       {
-        "sceneId": 265,
-        "sceneName": "场景 265",
-        "mapNum": 175,
-        "eventId": 4858,
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2386,
         "kind": "npc",
-        "x": 912,
-        "y": 1240
+        "x": 1168,
+        "y": 664
+      },
+      {
+        "sceneId": 134,
+        "sceneName": "场景 134",
+        "mapNum": 121,
+        "eventId": 2394,
+        "kind": "npc",
+        "x": 480,
+        "y": 272
       }
     ],
-    "sceneCount": 4,
+    "sceneCount": 5,
     "appearanceCount": 13,
-    "scenes": "场景 203、场景 206、场景 211、场景 265"
+    "scenes": "场景 91、场景 100、场景 130、场景 132、场景 134"
   },
   {
     "name": "汉人俘虏",
@@ -1766,6 +1913,108 @@
     "scenes": "场景 236"
   },
   {
+    "name": "婢女",
+    "kinds": [
+      "npc"
+    ],
+    "sampleLine": "婢女：",
+    "locations": [
+      {
+        "sceneId": 89,
+        "sceneName": "场景 89",
+        "mapNum": 82,
+        "eventId": 1725,
+        "kind": "npc",
+        "x": 1056,
+        "y": 1104
+      },
+      {
+        "sceneId": 108,
+        "sceneName": "场景 108",
+        "mapNum": 108,
+        "eventId": 2074,
+        "kind": "npc",
+        "x": 688,
+        "y": 1256
+      },
+      {
+        "sceneId": 108,
+        "sceneName": "场景 108",
+        "mapNum": 108,
+        "eventId": 2075,
+        "kind": "npc",
+        "x": 752,
+        "y": 1288
+      },
+      {
+        "sceneId": 114,
+        "sceneName": "场景 114",
+        "mapNum": 106,
+        "eventId": 2206,
+        "kind": "npc",
+        "x": 1312,
+        "y": 1056
+      },
+      {
+        "sceneId": 114,
+        "sceneName": "场景 114",
+        "mapNum": 106,
+        "eventId": 2207,
+        "kind": "npc",
+        "x": 1248,
+        "y": 1088
+      },
+      {
+        "sceneId": 116,
+        "sceneName": "场景 116",
+        "mapNum": 107,
+        "eventId": 2226,
+        "kind": "npc",
+        "x": 1552,
+        "y": 1672
+      },
+      {
+        "sceneId": 118,
+        "sceneName": "场景 118",
+        "mapNum": 110,
+        "eventId": 2240,
+        "kind": "npc",
+        "x": 992,
+        "y": 400
+      },
+      {
+        "sceneId": 120,
+        "sceneName": "场景 120",
+        "mapNum": 127,
+        "eventId": 2266,
+        "kind": "npc",
+        "x": 512,
+        "y": 656
+      },
+      {
+        "sceneId": 120,
+        "sceneName": "场景 120",
+        "mapNum": 127,
+        "eventId": 2268,
+        "kind": "npc",
+        "x": 960,
+        "y": 416
+      },
+      {
+        "sceneId": 121,
+        "sceneName": "场景 121",
+        "mapNum": 128,
+        "eventId": 2273,
+        "kind": "npc",
+        "x": 944,
+        "y": 344
+      }
+    ],
+    "sceneCount": 7,
+    "appearanceCount": 10,
+    "scenes": "场景 89、场景 108、场景 114、场景 116、场景 118、场景 120、场景 121"
+  },
+  {
     "name": "官差",
     "kinds": [
       "npc"
@@ -1866,192 +2115,6 @@
     "sceneCount": 4,
     "appearanceCount": 10,
     "scenes": "场景 79、场景 82、场景 84、场景 96"
-  },
-  {
-    "name": "妓女",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "妓女：",
-    "locations": [
-      {
-        "sceneId": 91,
-        "sceneName": "场景 91",
-        "mapNum": 83,
-        "eventId": 1762,
-        "kind": "npc",
-        "x": 1072,
-        "y": 1480
-      },
-      {
-        "sceneId": 100,
-        "sceneName": "场景 100",
-        "mapNum": 105,
-        "eventId": 1902,
-        "kind": "npc",
-        "x": 944,
-        "y": 1000
-      },
-      {
-        "sceneId": 100,
-        "sceneName": "场景 100",
-        "mapNum": 105,
-        "eventId": 1903,
-        "kind": "npc",
-        "x": 912,
-        "y": 1000
-      },
-      {
-        "sceneId": 100,
-        "sceneName": "场景 100",
-        "mapNum": 105,
-        "eventId": 1904,
-        "kind": "npc",
-        "x": 992,
-        "y": 1040
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2338,
-        "kind": "npc",
-        "x": 960,
-        "y": 1008
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2339,
-        "kind": "npc",
-        "x": 944,
-        "y": 1016
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2341,
-        "kind": "npc",
-        "x": 896,
-        "y": 1040
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2345,
-        "kind": "npc",
-        "x": 1040,
-        "y": 1032
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2350,
-        "kind": "npc",
-        "x": 864,
-        "y": 1056
-      }
-    ],
-    "sceneCount": 3,
-    "appearanceCount": 9,
-    "scenes": "场景 91、场景 100、场景 130"
-  },
-  {
-    "name": "婢　女",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "婢　女：",
-    "locations": [
-      {
-        "sceneId": 108,
-        "sceneName": "场景 108",
-        "mapNum": 108,
-        "eventId": 2074,
-        "kind": "npc",
-        "x": 688,
-        "y": 1256
-      },
-      {
-        "sceneId": 108,
-        "sceneName": "场景 108",
-        "mapNum": 108,
-        "eventId": 2075,
-        "kind": "npc",
-        "x": 752,
-        "y": 1288
-      },
-      {
-        "sceneId": 114,
-        "sceneName": "场景 114",
-        "mapNum": 106,
-        "eventId": 2206,
-        "kind": "npc",
-        "x": 1312,
-        "y": 1056
-      },
-      {
-        "sceneId": 114,
-        "sceneName": "场景 114",
-        "mapNum": 106,
-        "eventId": 2207,
-        "kind": "npc",
-        "x": 1248,
-        "y": 1088
-      },
-      {
-        "sceneId": 116,
-        "sceneName": "场景 116",
-        "mapNum": 107,
-        "eventId": 2226,
-        "kind": "npc",
-        "x": 1552,
-        "y": 1672
-      },
-      {
-        "sceneId": 118,
-        "sceneName": "场景 118",
-        "mapNum": 110,
-        "eventId": 2240,
-        "kind": "npc",
-        "x": 992,
-        "y": 400
-      },
-      {
-        "sceneId": 120,
-        "sceneName": "场景 120",
-        "mapNum": 127,
-        "eventId": 2266,
-        "kind": "npc",
-        "x": 512,
-        "y": 656
-      },
-      {
-        "sceneId": 120,
-        "sceneName": "场景 120",
-        "mapNum": 127,
-        "eventId": 2268,
-        "kind": "npc",
-        "x": 960,
-        "y": 416
-      },
-      {
-        "sceneId": 121,
-        "sceneName": "场景 121",
-        "mapNum": 128,
-        "eventId": 2273,
-        "kind": "npc",
-        "x": 944,
-        "y": 344
-      }
-    ],
-    "sceneCount": 6,
-    "appearanceCount": 9,
-    "scenes": "场景 108、场景 114、场景 116、场景 118、场景 120、场景 121"
   },
   {
     "name": "村人",
@@ -2483,6 +2546,81 @@
     "scenes": "场景 56、场景 58"
   },
   {
+    "name": "嫖客",
+    "kinds": [
+      "npc"
+    ],
+    "sampleLine": "嫖客：",
+    "locations": [
+      {
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2342,
+        "kind": "npc",
+        "x": 880,
+        "y": 1048
+      },
+      {
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2343,
+        "kind": "npc",
+        "x": 832,
+        "y": 1104
+      },
+      {
+        "sceneId": 130,
+        "sceneName": "场景 130",
+        "mapNum": 117,
+        "eventId": 2344,
+        "kind": "npc",
+        "x": 864,
+        "y": 1120
+      },
+      {
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2382,
+        "kind": "npc",
+        "x": 496,
+        "y": 680
+      },
+      {
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2385,
+        "kind": "npc",
+        "x": 624,
+        "y": 1768
+      },
+      {
+        "sceneId": 132,
+        "sceneName": "场景 132",
+        "mapNum": 121,
+        "eventId": 2387,
+        "kind": "npc",
+        "x": 1104,
+        "y": 632
+      },
+      {
+        "sceneId": 134,
+        "sceneName": "场景 134",
+        "mapNum": 121,
+        "eventId": 2395,
+        "kind": "npc",
+        "x": 432,
+        "y": 296
+      }
+    ],
+    "sceneCount": 3,
+    "appearanceCount": 7,
+    "scenes": "场景 130、场景 132、场景 134"
+  },
+  {
     "name": "病人",
     "kinds": [
       "npc"
@@ -2631,72 +2769,6 @@
     "sceneCount": 5,
     "appearanceCount": 7,
     "scenes": "场景 79、场景 82、场景 84、场景 112、场景 206"
-  },
-  {
-    "name": "嫖客",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "嫖客：",
-    "locations": [
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2342,
-        "kind": "npc",
-        "x": 880,
-        "y": 1048
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2343,
-        "kind": "npc",
-        "x": 832,
-        "y": 1104
-      },
-      {
-        "sceneId": 130,
-        "sceneName": "场景 130",
-        "mapNum": 117,
-        "eventId": 2344,
-        "kind": "npc",
-        "x": 864,
-        "y": 1120
-      },
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2382,
-        "kind": "npc",
-        "x": 496,
-        "y": 680
-      },
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2385,
-        "kind": "npc",
-        "x": 624,
-        "y": 1768
-      },
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2387,
-        "kind": "npc",
-        "x": 1104,
-        "y": 632
-      }
-    ],
-    "sceneCount": 2,
-    "appearanceCount": 6,
-    "scenes": "场景 130、场景 132"
   },
   {
     "name": "客人",
@@ -3048,54 +3120,6 @@
     "sceneCount": 4,
     "appearanceCount": 5,
     "scenes": "场景 31、场景 135、场景 207、场景 209"
-  },
-  {
-    "name": "妓　女",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "妓　女：",
-    "locations": [
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2383,
-        "kind": "npc",
-        "x": 480,
-        "y": 672
-      },
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2384,
-        "kind": "npc",
-        "x": 656,
-        "y": 1752
-      },
-      {
-        "sceneId": 132,
-        "sceneName": "场景 132",
-        "mapNum": 121,
-        "eventId": 2386,
-        "kind": "npc",
-        "x": 1168,
-        "y": 664
-      },
-      {
-        "sceneId": 134,
-        "sceneName": "场景 134",
-        "mapNum": 121,
-        "eventId": 2394,
-        "kind": "npc",
-        "x": 480,
-        "y": 272
-      }
-    ],
-    "sceneCount": 2,
-    "appearanceCount": 4,
-    "scenes": "场景 132、场景 134"
   },
   {
     "name": "守门士兵",
@@ -4259,36 +4283,6 @@
     "scenes": "场景 111、场景 118"
   },
   {
-    "name": "守　卫",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "守　卫：",
-    "locations": [
-      {
-        "sceneId": 100,
-        "sceneName": "场景 100",
-        "mapNum": 105,
-        "eventId": 1887,
-        "kind": "npc",
-        "x": 432,
-        "y": 280
-      },
-      {
-        "sceneId": 100,
-        "sceneName": "场景 100",
-        "mapNum": 105,
-        "eventId": 1888,
-        "kind": "npc",
-        "x": 384,
-        "y": 304
-      }
-    ],
-    "sceneCount": 1,
-    "appearanceCount": 2,
-    "scenes": "场景 100"
-  },
-  {
     "name": "客人丁",
     "kinds": [
       "npc"
@@ -5222,7 +5216,7 @@
     "scenes": "场景 21"
   },
   {
-    "name": "佳　人",
+    "name": "佳人",
     "kinds": [
       "npc"
     ],
@@ -5556,48 +5550,6 @@
     "sceneCount": 1,
     "appearanceCount": 1,
     "scenes": "场景 47"
-  },
-  {
-    "name": "婢女",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "婢女：",
-    "locations": [
-      {
-        "sceneId": 89,
-        "sceneName": "场景 89",
-        "mapNum": 82,
-        "eventId": 1725,
-        "kind": "npc",
-        "x": 1056,
-        "y": 1104
-      }
-    ],
-    "sceneCount": 1,
-    "appearanceCount": 1,
-    "scenes": "场景 89"
-  },
-  {
-    "name": "嫖　客",
-    "kinds": [
-      "npc"
-    ],
-    "sampleLine": "嫖　客：",
-    "locations": [
-      {
-        "sceneId": 134,
-        "sceneName": "场景 134",
-        "mapNum": 121,
-        "eventId": 2395,
-        "kind": "npc",
-        "x": 432,
-        "y": 296
-      }
-    ],
-    "sceneCount": 1,
-    "appearanceCount": 1,
-    "scenes": "场景 134"
   },
   {
     "name": "学徒",
@@ -6188,7 +6140,7 @@
     "scenes": "场景 53"
   },
   {
-    "name": "才　子",
+    "name": "才子",
     "kinds": [
       "npc"
     ],
@@ -6421,7 +6373,7 @@
   {
     "name": "智修大师",
     "kinds": [
-      "npc"
+      "treasure"
     ],
     "sampleLine": "智修大师：",
     "locations": [
@@ -6430,7 +6382,7 @@
         "sceneName": "场景 58",
         "mapNum": 71,
         "eventId": 959,
-        "kind": "npc",
+        "kind": "treasure",
         "x": 656,
         "y": 1000
       }

@@ -11,7 +11,10 @@
     "category": "equipment",
     "sellable": false,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "",
+    "descriptionLines": [],
+    "icon": "/assets/pal/icons/item_024.png"
   },
   {
     "id": "163",
@@ -25,7 +28,40 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "生牛皮制的七尺软鞭。\n武术+20 身法+20",
+    "descriptionLines": [
+      "生牛皮制的七尺软鞭。",
+      "武术+20 身法+20"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 360,
+      "name": "鞭击"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 20
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 20
+      }
+    ],
+    "icon": "/assets/pal/icons/item_163.png",
+    "sources": {
+      "steals": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "164",
@@ -39,7 +75,39 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以铁节铁环组成的九节软鞭。\n武术+66 身法+33",
+    "descriptionLines": [
+      "以铁节铁环组成的九节软鞭。",
+      "武术+66 身法+33"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 360,
+      "name": "鞭击"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 66
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 33
+      }
+    ],
+    "icon": "/assets/pal/icons/item_164.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "165",
@@ -53,7 +121,39 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以蛇皮绞以金丝编织成九尺软鞭。\n武术+99 身法+60",
+    "descriptionLines": [
+      "以蛇皮绞以金丝编织成九尺软鞭。",
+      "武术+99 身法+60"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 360,
+      "name": "鞭击"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 99
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 60
+      }
+    ],
+    "icon": "/assets/pal/icons/item_165.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "166",
@@ -67,7 +167,40 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "用木材雕刻的剑，小孩玩具。\n武术+2 身法+3",
+    "descriptionLines": [
+      "用木材雕刻的剑，小孩玩具。",
+      "武术+2 身法+3"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 2
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_166.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "167",
@@ -81,7 +214,41 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "一尺半长的钝刀，可用来劈\n砍木材。\n武术+6 身法-5",
+    "descriptionLines": [
+      "一尺半长的钝刀，可用来劈",
+      "砍木材。",
+      "武术+6 身法-5"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 6
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_167.png",
+    "sources": {
+      "shops": 1,
+      "steals": 1
+    }
   },
   {
     "id": "168",
@@ -95,7 +262,37 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "一般铁匠大量生产的剑，打造\n得颇为粗劣。\n武术+10 防御+3",
+    "descriptionLines": [
+      "一般铁匠大量生产的剑，打造",
+      "得颇为粗劣。",
+      "武术+10 防御+3"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 10
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_168.png"
   },
   {
     "id": "169",
@@ -109,7 +306,41 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "刀身宽而长，刃部锋利，\n背部厚重。\n武术+16 防御+1",
+    "descriptionLines": [
+      "刀身宽而长，刃部锋利，",
+      "背部厚重。",
+      "武术+16 防御+1"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 16
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 1
+      }
+    ],
+    "icon": "/assets/pal/icons/item_169.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "170",
@@ -123,7 +354,46 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "一尺长的双手剑，适合女子\n使用，可发出两次攻击。\n武术+8 防御+5",
+    "descriptionLines": [
+      "一尺长的双手剑，适合女子",
+      "使用，可发出两次攻击。",
+      "武术+8 防御+5"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "status": {
+      "index": 8,
+      "name": "连击",
+      "nameEn": "Dual attack",
+      "rounds": 32760
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 8
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_170.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "171",
@@ -137,7 +407,34 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "一般铁匠接受订造的剑，\n比铁剑精致锋利。\n武术+25",
+    "descriptionLines": [
+      "一般铁匠接受订造的剑，",
+      "比铁剑精致锋利。",
+      "武术+25"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 25
+      }
+    ],
+    "icon": "/assets/pal/icons/item_171.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "172",
@@ -151,7 +448,34 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "精钢打造，背厚刃薄，\n刀柄饰以红色长穗。\n武术+38",
+    "descriptionLines": [
+      "精钢打造，背厚刃薄，",
+      "刀柄饰以红色长穗。",
+      "武术+38"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 38
+      }
+    ],
+    "icon": "/assets/pal/icons/item_172.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "173",
@@ -165,7 +489,40 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "剑身宽仅两指，\n专为女子打造。\n武术+22 身法+8",
+    "descriptionLines": [
+      "剑身宽仅两指，",
+      "专为女子打造。",
+      "武术+22 身法+8"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 22
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 8
+      }
+    ],
+    "icon": "/assets/pal/icons/item_173.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "174",
@@ -179,7 +536,47 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "佛门中人练武所用之刀，\n严禁伤生染血。\n武术+55 防御+5 灵力+10",
+    "descriptionLines": [
+      "佛门中人练武所用之刀，",
+      "严禁伤生染血。",
+      "武术+55 防御+5 灵力+10"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 55
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 10
+      }
+    ],
+    "icon": "/assets/pal/icons/item_174.png",
+    "sources": {
+      "gathers": 1,
+      "steals": 1
+    }
   },
   {
     "id": "175",
@@ -193,7 +590,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以珍贵的黑色铁矿打造而成，\n坚韧锋利但极笨重。\n武术+70 身法-20 灵力-15 防御+9",
+    "descriptionLines": [
+      "以珍贵的黑色铁矿打造而成，",
+      "坚韧锋利但极笨重。",
+      "武术+70 身法-20 灵力-15 防御+9"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 70
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -20
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": -15
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_175.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "176",
@@ -207,7 +649,46 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "百花派独门兵器双手弯刀，\n可发出两次攻击。\n武术+16 身法+8",
+    "descriptionLines": [
+      "百花派独门兵器双手弯刀，",
+      "可发出两次攻击。",
+      "武术+16 身法+8"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "status": {
+      "index": 8,
+      "name": "连击",
+      "nameEn": "Dual attack",
+      "rounds": 32760
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 16
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 8
+      }
+    ],
+    "icon": "/assets/pal/icons/item_176.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "177",
@@ -221,7 +702,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "细长铁制双刀，形如柳叶新月，\n可发出两次攻击。\n武术+28 身法+12 防御+3",
+    "descriptionLines": [
+      "细长铁制双刀，形如柳叶新月，",
+      "可发出两次攻击。",
+      "武术+28 身法+12 防御+3"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "status": {
+      "index": 8,
+      "name": "连击",
+      "nameEn": "Dual attack",
+      "rounds": 32760
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 28
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 12
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_177.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "178",
@@ -235,7 +761,39 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "名家精心打造的剑，轻薄锋利。\n武术+75 身法+15",
+    "descriptionLines": [
+      "名家精心打造的剑，轻薄锋利。",
+      "武术+75 身法+15"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 75
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 15
+      }
+    ],
+    "icon": "/assets/pal/icons/item_178.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "179",
@@ -249,7 +807,41 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "苗族战士所惯用的佩刀。\n武术+70 身法+32",
+    "descriptionLines": [
+      "苗族战士所惯用的佩刀。",
+      "武术+70 身法+32"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 70
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 32
+      }
+    ],
+    "icon": "/assets/pal/icons/item_179.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 4,
+      "steals": 1
+    }
   },
   {
     "id": "180",
@@ -263,7 +855,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "出鞘之声有如凤鸣，\n故称“凤鸣刀”。武术+124\n防御+9 身法+32 灵力+16",
+    "descriptionLines": [
+      "出鞘之声有如凤鸣，",
+      "故称“凤鸣刀”。武术+124",
+      "防御+9 身法+32 灵力+16"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 124
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 9
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 32
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 16
+      }
+    ],
+    "icon": "/assets/pal/icons/item_180.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "181",
@@ -277,7 +914,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "与一般剑长度相同的双手剑，\n可发出两次攻击。\n武术+62 防御+9 身法+9",
+    "descriptionLines": [
+      "与一般剑长度相同的双手剑，",
+      "可发出两次攻击。",
+      "武术+62 防御+9 身法+9"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "status": {
+      "index": 8,
+      "name": "连击",
+      "nameEn": "Dual attack",
+      "rounds": 32760
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 62
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 9
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_181.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "182",
@@ -291,7 +973,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "鸳鸯双剑中的雌剑，与金童剑为\n一对。武术+100 灵力+15\n身法+20 吉运+30",
+    "descriptionLines": [
+      "鸳鸯双剑中的雌剑，与金童剑为",
+      "一对。武术+100 灵力+15",
+      "身法+20 吉运+30"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 100
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 15
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 20
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 30
+      }
+    ],
+    "icon": "/assets/pal/icons/item_182.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "183",
@@ -305,7 +1032,58 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "鸳鸯双剑中的雄剑，与玉女剑为\n一对。武术+100 吉运+30\n身法+20 灵力+15 防御+3",
+    "descriptionLines": [
+      "鸳鸯双剑中的雄剑，与玉女剑为",
+      "一对。武术+100 吉运+30",
+      "身法+20 灵力+15 防御+3"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 100
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 30
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 20
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 15
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_183.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "184",
@@ -319,7 +1097,47 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "龙泉的水质非常适合造剑，\n当地生产的剑叫龙泉剑。\n武术+88 身法+20 吉运+22",
+    "descriptionLines": [
+      "龙泉的水质非常适合造剑，",
+      "当地生产的剑叫龙泉剑。",
+      "武术+88 身法+20 吉运+22"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 88
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 20
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 22
+      }
+    ],
+    "icon": "/assets/pal/icons/item_184.png",
+    "sources": {
+      "shops": 1,
+      "steals": 1
+    }
   },
   {
     "id": "185",
@@ -333,7 +1151,47 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "苗刀的一种，刀尖倒钩，\n又称“勾魂刀”。\n武术+90 身法+26 吉运-9",
+    "descriptionLines": [
+      "苗刀的一种，刀尖倒钩，",
+      "又称“勾魂刀”。",
+      "武术+90 身法+26 吉运-9"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 90
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 26
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": -9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_185.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "186",
@@ -347,7 +1205,58 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "剑身镶崁七颗金黄宝石，可吸取北\n斗七星之精气。武术+120 灵力+50\n身法+32 吉运+33 防御+7",
+    "descriptionLines": [
+      "剑身镶崁七颗金黄宝石，可吸取北",
+      "斗七星之精气。武术+120 灵力+50",
+      "身法+32 吉运+33 防御+7"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 120
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 50
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 32
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 33
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 7
+      }
+    ],
+    "icon": "/assets/pal/icons/item_186.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "187",
@@ -361,7 +1270,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "可连续攻击敌方全体两次，\n传说是魔族的邪异兵器。\n武术+98 身法+98 吉运+98",
+    "descriptionLines": [
+      "可连续攻击敌方全体两次，",
+      "传说是魔族的邪异兵器。",
+      "武术+98 身法+98 吉运+98"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "status": {
+      "index": 8,
+      "name": "连击",
+      "nameEn": "Dual attack",
+      "rounds": 32760
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 98
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 98
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 98
+      }
+    ],
+    "icon": "/assets/pal/icons/item_187.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "188",
@@ -375,7 +1329,58 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "苗族拜月教镇教之宝。\n武术+132 灵力+55 防御+29\n身法+45 吉运+36",
+    "descriptionLines": [
+      "苗族拜月教镇教之宝。",
+      "武术+132 灵力+55 防御+29",
+      "身法+45 吉运+36"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 132
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 55
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 29
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 45
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 36
+      }
+    ],
+    "icon": "/assets/pal/icons/item_188.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "189",
@@ -389,7 +1394,58 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "铸剑宗师欧冶子所炼宝剑，剑身铸\n有青龙盘柱。武术+134 灵力+37\n防御+8 身法+40 吉运+32",
+    "descriptionLines": [
+      "铸剑宗师欧冶子所炼宝剑，剑身铸",
+      "有青龙盘柱。武术+134 灵力+37",
+      "防御+8 身法+40 吉运+32"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 134
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 37
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 8
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 40
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 32
+      }
+    ],
+    "icon": "/assets/pal/icons/item_189.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "190",
@@ -403,7 +1459,58 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "道祖张陵之随身配剑，天师仗以降\n妖伏魔。武术+158 灵力+90\n防御+35 身法+50 吉运+33",
+    "descriptionLines": [
+      "道祖张陵之随身配剑，天师仗以降",
+      "妖伏魔。武术+158 灵力+90",
+      "防御+35 身法+50 吉运+33"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 158
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 90
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 35
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 50
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 33
+      }
+    ],
+    "icon": "/assets/pal/icons/item_190.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "191",
@@ -417,7 +1524,52 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "上古神剑，指天天崩、划地地裂。\n武术+200 防御+20 身法+77\n吉运+33",
+    "descriptionLines": [
+      "上古神剑，指天天崩、划地地裂。",
+      "武术+200 防御+20 身法+77",
+      "吉运+33"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 200
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 20
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 77
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 33
+      }
+    ],
+    "icon": "/assets/pal/icons/item_191.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "192",
@@ -431,7 +1583,45 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "雕刻双蛇缠绕的绿玉杖。\n武术+50 灵力+62 防御+6",
+    "descriptionLines": [
+      "雕刻双蛇缠绕的绿玉杖。",
+      "武术+50 灵力+62 防御+6"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 50
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 62
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 6
+      }
+    ],
+    "icon": "/assets/pal/icons/item_192.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "193",
@@ -445,7 +1635,48 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "苗族巫师役鬼炼蛊之法器，\n头颅中囚禁四十九条生魂。\n武术+70 灵力+88 防御+11",
+    "descriptionLines": [
+      "苗族巫师役鬼炼蛊之法器，",
+      "头颅中囚禁四十九条生魂。",
+      "武术+70 灵力+88 防御+11"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 70
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 88
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 11
+      }
+    ],
+    "icon": "/assets/pal/icons/item_193.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "startingGear": 1
+    }
   },
   {
     "id": "194",
@@ -459,7 +1690,46 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "来自冥界之魔杖，号令群邪，\n杖头镶崁千年蛇王内丹。\n武术+88 灵力+120 防御+22",
+    "descriptionLines": [
+      "来自冥界之魔杖，号令群邪，",
+      "杖头镶崁千年蛇王内丹。",
+      "武术+88 灵力+120 防御+22"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "throwMagic": {
+      "id": 344,
+      "name": "铜钱镖"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 88
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 120
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 22
+      }
+    ],
+    "icon": "/assets/pal/icons/item_194.png",
+    "sources": {
+      "gathers": 2
+    }
   },
   {
     "id": "195",
@@ -473,7 +1743,49 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "女神娲皇炼化五色石所用法杖。\n武术+100 灵力+150 防御+33\n吉运+36",
+    "descriptionLines": [
+      "女神娲皇炼化五色石所用法杖。",
+      "武术+100 灵力+150 防御+33",
+      "吉运+36"
+    ],
+    "equipSlot": {
+      "index": 3,
+      "name": "武器",
+      "nameEn": "Weapon"
+    },
+    "attributes": [
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 100
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 150
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 33
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 36
+      }
+    ],
+    "icon": "/assets/pal/icons/item_195.png",
+    "sources": {
+      "gathers": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "196",
@@ -487,7 +1799,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以剩余布料缝制的头巾。\n防御+1",
+    "descriptionLines": [
+      "以剩余布料缝制的头巾。",
+      "防御+1"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 1
+      }
+    ],
+    "icon": "/assets/pal/icons/item_196.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "197",
@@ -501,7 +1835,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "青色的丝织发带。\n防御+2",
+    "descriptionLines": [
+      "青色的丝织发带。",
+      "防御+2"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 2
+      }
+    ],
+    "icon": "/assets/pal/icons/item_197.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "198",
@@ -515,7 +1871,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "锡制的女子头饰。\n防御+3",
+    "descriptionLines": [
+      "锡制的女子头饰。",
+      "防御+3"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_198.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "199",
@@ -529,7 +1907,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "纯银的发钗。\n防御+5",
+    "descriptionLines": [
+      "纯银的发钗。",
+      "防御+5"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_199.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "200",
@@ -543,7 +1945,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "镶有绿翡翠的黄金发钗。\n防御+9",
+    "descriptionLines": [
+      "镶有绿翡翠的黄金发钗。",
+      "防御+9"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_200.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "201",
@@ -557,7 +1981,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "羊皮缝制的帽子，非常保暖。\n防御+4",
+    "descriptionLines": [
+      "羊皮缝制的帽子，非常保暖。",
+      "防御+4"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 4
+      }
+    ],
+    "icon": "/assets/pal/icons/item_201.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "202",
@@ -571,7 +2017,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以珍珠缝缀的红色锦冠。\n防御+13",
+    "descriptionLines": [
+      "以珍珠缝缀的红色锦冠。",
+      "防御+13"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 13
+      }
+    ],
+    "icon": "/assets/pal/icons/item_202.png",
+    "sources": {
+      "startingGear": 3
+    }
   },
   {
     "id": "203",
@@ -585,7 +2053,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "道士做法时所戴的帽子。\n防御+11 灵力+3",
+    "descriptionLines": [
+      "道士做法时所戴的帽子。",
+      "防御+11 灵力+3"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 11
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_203.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "204",
@@ -599,7 +2095,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "紫金冠以薄铜片铸成，\n外壳以紫饰金而成。\n防御+18",
+    "descriptionLines": [
+      "紫金冠以薄铜片铸成，",
+      "外壳以紫饰金而成。",
+      "防御+18"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 18
+      }
+    ],
+    "icon": "/assets/pal/icons/item_204.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "205",
@@ -613,7 +2132,37 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以极珍贵的天蚕丝织成，\n轻薄柔韧。\n防御+25 身法+8",
+    "descriptionLines": [
+      "以极珍贵的天蚕丝织成，",
+      "轻薄柔韧。",
+      "防御+25 身法+8"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 25
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 8
+      }
+    ],
+    "icon": "/assets/pal/icons/item_205.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "206",
@@ -627,7 +2176,42 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "金翅凤凰腹部的银色羽毛。\n防御+7 身法+24 吉运+9",
+    "descriptionLines": [
+      "金翅凤凰腹部的银色羽毛。",
+      "防御+7 身法+24 吉运+9"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 7
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 24
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_206.png",
+    "sources": {
+      "gathers": 1,
+      "steals": 1
+    }
   },
   {
     "id": "207",
@@ -641,7 +2225,49 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "天兵神将遗留的护头金盔，\n顶插双雉尾羽。\n防御+28法+5 灵力+3 吉运+3",
+    "descriptionLines": [
+      "天兵神将遗留的护头金盔，",
+      "顶插双雉尾羽。",
+      "防御+28法+5 灵力+3 吉运+3"
+    ],
+    "equipSlot": {
+      "index": 0,
+      "name": "头部",
+      "nameEn": "Head"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 28
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 5
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 3
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_207.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "208",
@@ -655,7 +2281,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "粗布缝制的交领长袖白袍。\n防御+3",
+    "descriptionLines": [
+      "粗布缝制的交领长袖白袍。",
+      "防御+3"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      }
+    ],
+    "icon": "/assets/pal/icons/item_208.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "209",
@@ -669,7 +2317,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以荆藤编制的护甲。\n防御+7",
+    "descriptionLines": [
+      "以荆藤编制的护甲。",
+      "防御+7"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 7
+      }
+    ],
+    "icon": "/assets/pal/icons/item_209.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "210",
@@ -683,7 +2355,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以蚕丝纺织而成，轻柔透气。\n防御+3 身法+4",
+    "descriptionLines": [
+      "以蚕丝纺织而成，轻柔透气。",
+      "防御+3 身法+4"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 4
+      }
+    ],
+    "icon": "/assets/pal/icons/item_210.png",
+    "sources": {
+      "startingGear": 3
+    }
   },
   {
     "id": "211",
@@ -697,7 +2397,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以铁环扣锁制成的护甲。\n防御+13 身法-10",
+    "descriptionLines": [
+      "以铁环扣锁制成的护甲。",
+      "防御+13 身法-10"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 13
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -10
+      }
+    ],
+    "icon": "/assets/pal/icons/item_211.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 1
+    }
   },
   {
     "id": "212",
@@ -711,7 +2440,39 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "暗黑色的紧身衣靠，\n便于隐匿夜色之中。\n防御+18 身法+12 吉运+12",
+    "descriptionLines": [
+      "暗黑色的紧身衣靠，",
+      "便于隐匿夜色之中。",
+      "防御+18 身法+12 吉运+12"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 18
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 12
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 12
+      }
+    ],
+    "icon": "/assets/pal/icons/item_212.png"
   },
   {
     "id": "213",
@@ -725,7 +2486,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "青铜制的兽面纹胸护甲。\n防御+22 身法-13",
+    "descriptionLines": [
+      "青铜制的兽面纹胸护甲。",
+      "防御+22 身法-13"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 22
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -13
+      }
+    ],
+    "icon": "/assets/pal/icons/item_213.png",
+    "sources": {
+      "shops": 1,
+      "steals": 1
+    }
   },
   {
     "id": "214",
@@ -739,7 +2529,38 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "修行得道的和尚所穿的衣袍。\n防御+10 吉运+10 灵力+10",
+    "descriptionLines": [
+      "修行得道的和尚所穿的衣袍。",
+      "防御+10 吉运+10 灵力+10"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 10
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 10
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 10
+      }
+    ],
+    "icon": "/assets/pal/icons/item_214.png"
   },
   {
     "id": "215",
@@ -753,7 +2574,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以鱼鳞形甲片编缀而成的铠甲。\n防御+28 身法-4",
+    "descriptionLines": [
+      "以鱼鳞形甲片编缀而成的铠甲。",
+      "防御+28 身法-4"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 28
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -4
+      }
+    ],
+    "icon": "/assets/pal/icons/item_215.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "216",
@@ -767,7 +2617,32 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "天师道祖修行时所穿的法衣。\n防御+33 灵力+28",
+    "descriptionLines": [
+      "天师道祖修行时所穿的法衣。",
+      "防御+33 灵力+28"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 33
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 28
+      }
+    ],
+    "icon": "/assets/pal/icons/item_216.png"
   },
   {
     "id": "217",
@@ -781,7 +2656,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以椭圆形的精铁片编缀而成，\n光亮照人，\n又称“光明铠”。防御+40 身法-7",
+    "descriptionLines": [
+      "以椭圆形的精铁片编缀而成，",
+      "光亮照人，",
+      "又称“光明铠”。防御+40 身法-7"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 40
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -7
+      }
+    ],
+    "icon": "/assets/pal/icons/item_217.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "218",
@@ -795,7 +2699,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以金线穿玉片编制而成\n又称“金缕玉衣”。\n防御+7 身法-10",
+    "descriptionLines": [
+      "以金线穿玉片编制而成",
+      "又称“金缕玉衣”。",
+      "防御+7 身法-10"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 47
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": -10
+      }
+    ],
+    "icon": "/assets/pal/icons/item_218.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "219",
@@ -809,7 +2742,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "长满倒刺的铜制盔甲。\n防御+55 武术+9",
+    "descriptionLines": [
+      "长满倒刺的铜制盔甲。",
+      "防御+55 武术+9"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 55
+      },
+      {
+        "index": 17,
+        "name": "武术",
+        "nameEn": "Attack",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_219.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "220",
@@ -823,7 +2785,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以极珍贵的天蚕丝织成，\n轻薄柔韧。\n防御+66",
+    "descriptionLines": [
+      "以极珍贵的天蚕丝织成，",
+      "轻薄柔韧。",
+      "防御+66"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 66
+      }
+    ],
+    "icon": "/assets/pal/icons/item_220.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "221",
@@ -837,7 +2823,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "龙鳞编缀而成，世间绝顶\n战甲。\n防御+90",
+    "descriptionLines": [
+      "龙鳞编缀而成，世间绝顶",
+      "战甲。",
+      "防御+90"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 90
+      }
+    ],
+    "icon": "/assets/pal/icons/item_221.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "222",
@@ -851,7 +2860,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以罕见的白虎皮制成的皮甲。\n防御+80",
+    "descriptionLines": [
+      "以罕见的白虎皮制成的皮甲。",
+      "防御+80"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 80
+      }
+    ],
+    "icon": "/assets/pal/icons/item_222.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "223",
@@ -865,7 +2896,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以玄武的壳甲锻造而成，\n材质坚韧色黑而无光泽。\n防御+80",
+    "descriptionLines": [
+      "以玄武的壳甲锻造而成，",
+      "材质坚韧色黑而无光泽。",
+      "防御+80"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 80
+      }
+    ],
+    "icon": "/assets/pal/icons/item_223.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "224",
@@ -879,7 +2933,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以南方火鸟的羽毛编织而成。\n防御+80",
+    "descriptionLines": [
+      "以南方火鸟的羽毛编织而成。",
+      "防御+80"
+    ],
+    "equipSlot": {
+      "index": 2,
+      "name": "身体",
+      "nameEn": "Body"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 80
+      }
+    ],
+    "icon": "/assets/pal/icons/item_224.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "225",
@@ -893,7 +2969,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "无领对襟、无袖的披衣，\n俗称“斗篷”。\n防御+2",
+    "descriptionLines": [
+      "无领对襟、无袖的披衣，",
+      "俗称“斗篷”。",
+      "防御+2"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 2
+      }
+    ],
+    "icon": "/assets/pal/icons/item_225.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "226",
@@ -907,7 +3007,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "披於肩臂上的铠甲，\n又称“掩膊”。\n防御+6",
+    "descriptionLines": [
+      "披於肩臂上的铠甲，",
+      "又称“掩膊”。",
+      "防御+6"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 6
+      }
+    ],
+    "icon": "/assets/pal/icons/item_226.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "227",
@@ -921,7 +3045,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "将帅所穿有护肩软甲的战帔。\n防御+12",
+    "descriptionLines": [
+      "将帅所穿有护肩软甲的战帔。",
+      "防御+12"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 12
+      }
+    ],
+    "icon": "/assets/pal/icons/item_227.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "228",
@@ -935,7 +3082,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "防护前胸要害的披甲，形如\n铜镜。防御+20",
+    "descriptionLines": [
+      "防护前胸要害的披甲，形如",
+      "铜镜。防御+20"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 20
+      }
+    ],
+    "icon": "/assets/pal/icons/item_228.png",
+    "sources": {
+      "shops": 2,
+      "startingGear": 1
+    }
   },
   {
     "id": "229",
@@ -949,7 +3119,43 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "东海霓虹鸟的羽毛织成的\n披肩。\n防御+18 身法+18 吉运+18",
+    "descriptionLines": [
+      "东海霓虹鸟的羽毛织成的",
+      "披肩。",
+      "防御+18 身法+18 吉运+18"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 18
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 18
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 18
+      }
+    ],
+    "icon": "/assets/pal/icons/item_229.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "230",
@@ -963,7 +3169,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "高等僧衣，又名“无垢衣”，\n多为高僧与长老所穿。\n防御+31 灵力+16",
+    "descriptionLines": [
+      "高等僧衣，又名“无垢衣”，",
+      "多为高僧与长老所穿。",
+      "防御+31 灵力+16"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 31
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 16
+      }
+    ],
+    "icon": "/assets/pal/icons/item_230.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "231",
@@ -977,7 +3212,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以整张千年白额虎虎皮制成，\n毛皮呈黄色，带黑色横纹。\n防御+40",
+    "descriptionLines": [
+      "以整张千年白额虎虎皮制成，",
+      "毛皮呈黄色，带黑色横纹。",
+      "防御+40"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 40
+      }
+    ],
+    "icon": "/assets/pal/icons/item_231.png",
+    "sources": {
+      "startingGear": 2
+    }
   },
   {
     "id": "232",
@@ -991,7 +3249,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "相传为织女缝制的披风，\n绣凤织锦，光彩夺目。\n防御+52",
+    "descriptionLines": [
+      "相传为织女缝制的披风，",
+      "绣凤织锦，光彩夺目。",
+      "防御+52"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 52
+      }
+    ],
+    "icon": "/assets/pal/icons/item_232.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "233",
@@ -1005,7 +3287,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "布面绣双龙抢珠之彩纹，\n有神龙护体之功效。\n防御+60",
+    "descriptionLines": [
+      "布面绣双龙抢珠之彩纹，",
+      "有神龙护体之功效。",
+      "防御+60"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 60
+      }
+    ],
+    "icon": "/assets/pal/icons/item_233.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "234",
@@ -1019,7 +3324,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "巫后的遗物，潜藏神圣的力\n量。防御+66 灵力+30",
+    "descriptionLines": [
+      "巫后的遗物，潜藏神圣的力",
+      "量。防御+66 灵力+30"
+    ],
+    "equipSlot": {
+      "index": 1,
+      "name": "披风",
+      "nameEn": "Cloak"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 66
+      },
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 30
+      }
+    ],
+    "icon": "/assets/pal/icons/item_234.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "235",
@@ -1033,7 +3366,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以蔺草编织而成，十分便宜，\n穿起来很轻便，适宜行走。\n防御+1",
+    "descriptionLines": [
+      "以蔺草编织而成，十分便宜，",
+      "穿起来很轻便，适宜行走。",
+      "防御+1"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 1
+      }
+    ],
+    "icon": "/assets/pal/icons/item_235.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "236",
@@ -1047,7 +3404,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以木材削制而成，鞋面刻有吉祥\n图案。\n防御+2",
+    "descriptionLines": [
+      "以木材削制而成，鞋面刻有吉祥",
+      "图案。",
+      "防御+2"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 2
+      }
+    ],
+    "icon": "/assets/pal/icons/item_236.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "237",
@@ -1061,7 +3441,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "粗布缝制的长统靴。\n防御+3 身法+2",
+    "descriptionLines": [
+      "粗布缝制的长统靴。",
+      "防御+3 身法+2"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 3
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 2
+      }
+    ],
+    "icon": "/assets/pal/icons/item_237.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "238",
@@ -1075,7 +3483,32 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以丝缎缝制，鞋面绣有龙头凤尾\n花。\n防御+4",
+    "descriptionLines": [
+      "以丝缎缝制，鞋面绣有龙头凤尾",
+      "花。",
+      "防御+4"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 4
+      }
+    ],
+    "icon": "/assets/pal/icons/item_238.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "239",
@@ -1089,7 +3522,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "鞋底夹缝铁片，较普通布靴重。\n防御+6",
+    "descriptionLines": [
+      "鞋底夹缝铁片，较普通布靴重。",
+      "防御+6"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 6
+      }
+    ],
+    "icon": "/assets/pal/icons/item_239.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 2
+    }
   },
   {
     "id": "240",
@@ -1103,7 +3559,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "罗汉僧练武所穿的布靴。\n防御+8 身法+6",
+    "descriptionLines": [
+      "罗汉僧练武所穿的布靴。",
+      "防御+8 身法+6"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 8
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 6
+      }
+    ],
+    "icon": "/assets/pal/icons/item_240.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "241",
@@ -1117,7 +3601,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "鞋面以鹿皮毛缝制，质地轻柔，\n行动可如鹿般迅捷。\n防御+11 身法+9",
+    "descriptionLines": [
+      "鞋面以鹿皮毛缝制，质地轻柔，",
+      "行动可如鹿般迅捷。",
+      "防御+11 身法+9"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 11
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_241.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "242",
@@ -1131,7 +3644,37 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以薄如云雾的蝉纱织成，\n助穿者疾行如风。\n防御+14 身法+17",
+    "descriptionLines": [
+      "以薄如云雾的蝉纱织成，",
+      "助穿者疾行如风。",
+      "防御+14 身法+17"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 14
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 17
+      }
+    ],
+    "icon": "/assets/pal/icons/item_242.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "243",
@@ -1145,7 +3688,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "饰以金莲的长统绣花鞋。\n防御+18 身法+5",
+    "descriptionLines": [
+      "饰以金莲的长统绣花鞋。",
+      "防御+18 身法+5"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 18
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_243.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "244",
@@ -1159,7 +3731,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "取自东北虎的皮毛缝制。\n防御+21 身法+16",
+    "descriptionLines": [
+      "取自东北虎的皮毛缝制。",
+      "防御+21 身法+16"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 21
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 16
+      }
+    ],
+    "icon": "/assets/pal/icons/item_244.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "245",
@@ -1173,7 +3774,35 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "以龙鳞编缀而成。\n防御+25 身法+12",
+    "descriptionLines": [
+      "以龙鳞编缀而成。",
+      "防御+25 身法+12"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 25
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 12
+      }
+    ],
+    "icon": "/assets/pal/icons/item_245.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "246",
@@ -1187,7 +3816,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "云中子羽化登仙後，\n所遗留之神靴。\n防御+28 身法+20",
+    "descriptionLines": [
+      "云中子羽化登仙後，",
+      "所遗留之神靴。",
+      "防御+28 身法+20"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 28
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 20
+      }
+    ],
+    "icon": "/assets/pal/icons/item_246.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "247",
@@ -1201,7 +3859,32 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "妖魔附体，身如鬼魅。\n防御+32 身法+26",
+    "descriptionLines": [
+      "妖魔附体，身如鬼魅。",
+      "防御+32 身法+26"
+    ],
+    "equipSlot": {
+      "index": 4,
+      "name": "鞋",
+      "nameEn": "Feet"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 32
+      },
+      {
+        "index": 20,
+        "name": "身法",
+        "nameEn": "Dexterity",
+        "value": 26
+      }
+    ],
+    "icon": "/assets/pal/icons/item_247.png"
   },
   {
     "id": "248",
@@ -1215,7 +3898,43 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "填充木屑、香粉的小布包，\n常用来装饰兼避邪的物品。\n灵力+8 吉运+9 避毒率+20%",
+    "descriptionLines": [
+      "填充木屑、香粉的小布包，",
+      "常用来装饰兼避邪的物品。",
+      "灵力+8 吉运+9 避毒率+20%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 8
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 9
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 20
+      }
+    ],
+    "icon": "/assets/pal/icons/item_248.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "249",
@@ -1229,7 +3948,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "粗布缝制之腕部护套。\n防御+2",
+    "descriptionLines": [
+      "粗布缝制之腕部护套。",
+      "防御+2"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 2
+      }
+    ],
+    "icon": "/assets/pal/icons/item_249.png",
+    "sources": {
+      "shops": 1,
+      "startingGear": 1
+    }
   },
   {
     "id": "250",
@@ -1243,7 +3985,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "精钢打造之腕部护环。\n防御+5",
+    "descriptionLines": [
+      "精钢打造之腕部护环。",
+      "防御+5"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_250.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 1,
+      "steals": 1
+    }
   },
   {
     "id": "251",
@@ -1257,7 +4023,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "青竹削制之七孔横笛。\n吉运+18",
+    "descriptionLines": [
+      "青竹削制之七孔横笛。",
+      "吉运+18"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 18
+      }
+    ],
+    "icon": "/assets/pal/icons/item_251.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "252",
@@ -1271,7 +4059,31 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "蚌类所生的球状物，\n是珍贵的装饰品。\n吉运+20",
+    "descriptionLines": [
+      "蚌类所生的球状物，",
+      "是珍贵的装饰品。",
+      "吉运+20"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 20
+      }
+    ],
+    "icon": "/assets/pal/icons/item_252.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "253",
@@ -1285,7 +4097,37 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "戴在手臂上的玉制环形首饰。\n防御+5 吉运+9",
+    "descriptionLines": [
+      "戴在手臂上的玉制环形首饰。",
+      "防御+5 吉运+9"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      },
+      {
+        "index": 21,
+        "name": "吉运",
+        "nameEn": "Luck",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_253.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1,
+      "startingGear": 2
+    }
   },
   {
     "id": "254",
@@ -1299,7 +4141,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "佛教徒记数念经咒或佛号次数的\n计算珠。\n灵力+5 防御+5",
+    "descriptionLines": [
+      "佛教徒记数念经咒或佛号次数的",
+      "计算珠。",
+      "灵力+5 防御+5"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 5
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 5
+      }
+    ],
+    "icon": "/assets/pal/icons/item_254.png",
+    "sources": {
+      "steals": 1
+    }
   },
   {
     "id": "256",
@@ -1313,7 +4184,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "青铜铸造的照容用具。\n防御+6",
+    "descriptionLines": [
+      "青铜铸造的照容用具。",
+      "防御+6"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 6
+      }
+    ],
+    "icon": "/assets/pal/icons/item_256.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2
+    }
   },
   {
     "id": "257",
@@ -1327,7 +4221,36 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "用朱砂在镜面画八卦，\n可借用自然界的灵气。\n灵力+8 防御+8",
+    "descriptionLines": [
+      "用朱砂在镜面画八卦，",
+      "可借用自然界的灵气。",
+      "灵力+8 防御+8"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 8
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 8
+      }
+    ],
+    "icon": "/assets/pal/icons/item_257.png",
+    "sources": {
+      "gathers": 2
+    }
   },
   {
     "id": "258",
@@ -1341,7 +4264,37 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "铜镜背面铸有太极干坤图，\n可吸取天地阴阳灵气。\n灵力+14 防御+14",
+    "descriptionLines": [
+      "铜镜背面铸有太极干坤图，",
+      "可吸取天地阴阳灵气。",
+      "灵力+14 防御+14"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 14
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 14
+      }
+    ],
+    "icon": "/assets/pal/icons/item_258.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "259",
@@ -1355,7 +4308,30 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "收集花豹的利牙串成的手环。\n防御+9",
+    "descriptionLines": [
+      "收集花豹的利牙串成的手环。",
+      "防御+9"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 9
+      }
+    ],
+    "icon": "/assets/pal/icons/item_259.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "260",
@@ -1369,7 +4345,42 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲末族祖传宝物，历代圣魂归依\n之所。合体法术: 武神\n灵力+128 防御+15 避毒率+35%",
+    "descriptionLines": [
+      "女娲末族祖传宝物，历代圣魂归依",
+      "之所。合体法术: 武神",
+      "灵力+128 防御+15 避毒率+35%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 128
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 15
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 35
+      }
+    ],
+    "icon": "/assets/pal/icons/item_260.png",
+    "sources": {
+      "startingGear": 1
+    }
   },
   {
     "id": "261",
@@ -1383,7 +4394,29 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "大罗金仙修炼千年的内丹。\n防御+90",
+    "descriptionLines": [
+      "大罗金仙修炼千年的内丹。",
+      "防御+90"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 90
+      }
+    ],
+    "icon": "/assets/pal/icons/item_261.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "262",
@@ -1397,7 +4430,26 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "成精蟾怪的内丹，\n佩戴後百毒不侵。",
+    "descriptionLines": [
+      "成精蟾怪的内丹，",
+      "佩戴後百毒不侵。"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 100
+      }
+    ],
+    "icon": "/assets/pal/icons/item_262.png"
   },
   {
     "id": "263",
@@ -1411,7 +4463,27 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲降伏风神後，禁制风神於内的\n宝珠。合体法术: 风卷残云\n避风率+50%",
+    "descriptionLines": [
+      "女娲降伏风神後，禁制风神於内的",
+      "宝珠。合体法术: 风卷残云",
+      "避风率+50%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 23,
+        "name": "避风率",
+        "nameEn": "Wind resist",
+        "value": 50
+      }
+    ],
+    "icon": "/assets/pal/icons/item_263.png"
   },
   {
     "id": "264",
@@ -1425,7 +4497,27 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲降伏雷神後，禁制雷神於内的\n宝珠。合体法术: 狂雷\n避雷率+50%",
+    "descriptionLines": [
+      "女娲降伏雷神後，禁制雷神於内的",
+      "宝珠。合体法术: 狂雷",
+      "避雷率+50%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 24,
+        "name": "避雷率",
+        "nameEn": "Thunder resist",
+        "value": 50
+      }
+    ],
+    "icon": "/assets/pal/icons/item_264.png"
   },
   {
     "id": "265",
@@ -1439,7 +4531,27 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲降伏雪妖後，禁制雪妖於内的\n宝珠。合体法术: 风雪冰天\n避水率+50%",
+    "descriptionLines": [
+      "女娲降伏雪妖後，禁制雪妖於内的",
+      "宝珠。合体法术: 风雪冰天",
+      "避水率+50%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 25,
+        "name": "避水率",
+        "nameEn": "Water resist",
+        "value": 50
+      }
+    ],
+    "icon": "/assets/pal/icons/item_265.png"
   },
   {
     "id": "266",
@@ -1453,7 +4565,30 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲降伏火神後，禁制火神於内的\n宝珠。合体法术: 炼狱真火\n避火率+50%",
+    "descriptionLines": [
+      "女娲降伏火神後，禁制火神於内的",
+      "宝珠。合体法术: 炼狱真火",
+      "避火率+50%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 26,
+        "name": "避火率",
+        "nameEn": "Fire resist",
+        "value": 50
+      }
+    ],
+    "icon": "/assets/pal/icons/item_266.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "267",
@@ -1467,7 +4602,30 @@
     "category": "equipment",
     "sellable": false,
     "usable": true,
-    "equipable": true
+    "equipable": true,
+    "description": "女娲降伏山神後，禁制山神於内的\n宝珠。合体法术: 泰山压顶\n避土率+50% 可用于脱离洞窟",
+    "descriptionLines": [
+      "女娲降伏山神後，禁制山神於内的",
+      "宝珠。合体法术: 泰山压顶",
+      "避土率+50% 可用于脱离洞窟"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 27,
+        "name": "避土率",
+        "nameEn": "Earth resist",
+        "value": 50
+      }
+    ],
+    "icon": "/assets/pal/icons/item_267.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "269",
@@ -1481,7 +4639,19 @@
     "category": "equipment",
     "sellable": true,
     "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "战斗中发出真气补充持有者，\n有提神振气之奇效。\nHPMP每回合+20",
+    "descriptionLines": [
+      "战斗中发出真气补充持有者，",
+      "有提神振气之奇效。",
+      "HPMP每回合+20"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "icon": "/assets/pal/icons/item_269.png"
   },
   {
     "id": "274",
@@ -1495,1420 +4665,41 @@
     "category": "equipment",
     "sellable": false,
     "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "295",
-    "name": {
-      "zh": "梦蛇",
-      "en": "梦蛇"
-    },
-    "price": 0,
-    "bitmap": 47,
-    "flags": 18,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "296",
-    "name": {
-      "zh": "气疗术",
-      "en": "气疗术"
-    },
-    "price": 0,
-    "bitmap": 33,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "297",
-    "name": {
-      "zh": "观音咒",
-      "en": "观音咒"
-    },
-    "price": 0,
-    "bitmap": 35,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "298",
-    "name": {
-      "zh": "凝神归元",
-      "en": "凝神归元"
-    },
-    "price": 0,
-    "bitmap": 34,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "299",
-    "name": {
-      "zh": "元灵归心术",
-      "en": "元灵归心术"
-    },
-    "price": 0,
-    "bitmap": 51,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "300",
-    "name": {
-      "zh": "五气朝元",
-      "en": "五气朝元"
-    },
-    "price": 0,
-    "bitmap": 46,
-    "flags": 19,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "301",
-    "name": {
-      "zh": "还魂咒",
-      "en": "还魂咒"
-    },
-    "price": 0,
-    "bitmap": 36,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "302",
-    "name": {
-      "zh": "赎魂",
-      "en": "赎魂"
-    },
-    "price": 0,
-    "bitmap": 37,
-    "flags": 3,
-    "category": "equipment",
-    "sellable": false,
-    "usable": true,
-    "equipable": true
-  },
-  {
-    "id": "303",
-    "name": {
-      "zh": "回梦",
-      "en": "回梦"
-    },
-    "price": 0,
-    "bitmap": 66,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "304",
-    "name": {
-      "zh": "夺魂",
-      "en": "夺魂"
-    },
-    "price": 0,
-    "bitmap": 67,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "305",
-    "name": {
-      "zh": "鬼降",
-      "en": "鬼降"
-    },
-    "price": 0,
-    "bitmap": 68,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "306",
-    "name": {
-      "zh": "净衣咒",
-      "en": "净衣咒"
-    },
-    "price": 0,
-    "bitmap": 38,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "307",
-    "name": {
-      "zh": "冰心诀",
-      "en": "冰心诀"
-    },
-    "price": 0,
-    "bitmap": 31,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "308",
-    "name": {
-      "zh": "灵血咒",
-      "en": "灵血咒"
-    },
-    "price": 0,
-    "bitmap": 52,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "309",
-    "name": {
-      "zh": "金刚咒",
-      "en": "金刚咒"
-    },
-    "price": 0,
-    "bitmap": 39,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "310",
-    "name": {
-      "zh": "真元护体",
-      "en": "真元护体"
-    },
-    "price": 0,
-    "bitmap": 40,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "311",
-    "name": {
-      "zh": "天罡战气",
-      "en": "天罡战气"
-    },
-    "price": 0,
-    "bitmap": 41,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "312",
-    "name": {
-      "zh": "风咒",
-      "en": "风咒"
-    },
-    "price": 0,
-    "bitmap": 0,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "313",
-    "name": {
-      "zh": "旋风咒",
-      "en": "旋风咒"
-    },
-    "price": 0,
-    "bitmap": 5,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "314",
-    "name": {
-      "zh": "风卷残云",
-      "en": "风卷残云"
-    },
-    "price": 0,
-    "bitmap": 72,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "315",
-    "name": {
-      "zh": "风神",
-      "en": "风神"
-    },
-    "price": 0,
-    "bitmap": 73,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "316",
-    "name": {
-      "zh": "雷咒",
-      "en": "雷咒"
-    },
-    "price": 0,
-    "bitmap": 1,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "317",
-    "name": {
-      "zh": "五雷咒",
-      "en": "五雷咒"
-    },
-    "price": 0,
-    "bitmap": 6,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "318",
-    "name": {
-      "zh": "天雷破",
-      "en": "天雷破"
-    },
-    "price": 0,
-    "bitmap": 64,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "319",
-    "name": {
-      "zh": "狂雷",
-      "en": "狂雷"
-    },
-    "price": 0,
-    "bitmap": 77,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "320",
-    "name": {
-      "zh": "雷神",
-      "en": "雷神"
-    },
-    "price": 0,
-    "bitmap": 76,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "321",
-    "name": {
-      "zh": "冰咒",
-      "en": "冰咒"
-    },
-    "price": 0,
-    "bitmap": 2,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "322",
-    "name": {
-      "zh": "玄冰咒",
-      "en": "玄冰咒"
-    },
-    "price": 0,
-    "bitmap": 7,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "323",
-    "name": {
-      "zh": "风雪冰天",
-      "en": "风雪冰天"
-    },
-    "price": 0,
-    "bitmap": 23,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "324",
-    "name": {
-      "zh": "风雪冰天1",
-      "en": "风雪冰天1"
-    },
-    "price": 0,
-    "bitmap": 92,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "325",
-    "name": {
-      "zh": "雪妖",
-      "en": "雪妖"
-    },
-    "price": 0,
-    "bitmap": 22,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "326",
-    "name": {
-      "zh": "火术",
-      "en": "火术"
-    },
-    "price": 0,
-    "bitmap": 3,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "327",
-    "name": {
-      "zh": "炎咒",
-      "en": "炎咒"
-    },
-    "price": 0,
-    "bitmap": 8,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "328",
-    "name": {
-      "zh": "三昧真火",
-      "en": "三昧真火"
-    },
-    "price": 0,
-    "bitmap": 42,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "329",
-    "name": {
-      "zh": "炎杀咒",
-      "en": "炎杀咒"
-    },
-    "price": 0,
-    "bitmap": 14,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "330",
-    "name": {
-      "zh": "炼狱真火",
-      "en": "炼狱真火"
-    },
-    "price": 0,
-    "bitmap": 17,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "332",
-    "name": {
-      "zh": "土咒",
-      "en": "土咒"
-    },
-    "price": 0,
-    "bitmap": 4,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "333",
-    "name": {
-      "zh": "飞岩术",
-      "en": "飞岩术"
-    },
-    "price": 0,
-    "bitmap": 9,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "334",
-    "name": {
-      "zh": "地裂天崩",
-      "en": "地裂天崩"
-    },
-    "price": 0,
-    "bitmap": 29,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "335",
-    "name": {
-      "zh": "泰山压顶",
-      "en": "泰山压顶"
-    },
-    "price": 0,
-    "bitmap": 26,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "336",
-    "name": {
-      "zh": "山神",
-      "en": "山神"
-    },
-    "price": 0,
-    "bitmap": 25,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "337",
-    "name": {
-      "zh": "气剑指",
-      "en": "气剑指"
-    },
-    "price": 0,
-    "bitmap": 43,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "338",
-    "name": {
-      "zh": "弦月斩",
-      "en": "弦月斩"
-    },
-    "price": 0,
-    "bitmap": 15,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "339",
-    "name": {
-      "zh": "弦月斩1",
-      "en": "弦月斩1"
-    },
-    "price": 0,
-    "bitmap": 88,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "340",
-    "name": {
-      "zh": "一阳指",
-      "en": "一阳指"
-    },
-    "price": 0,
-    "bitmap": 12,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "341",
-    "name": {
-      "zh": "七诀剑气",
-      "en": "七诀剑气"
-    },
-    "price": 0,
-    "bitmap": 13,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "342",
-    "name": {
-      "zh": "斩龙诀",
-      "en": "斩龙诀"
-    },
-    "price": 0,
-    "bitmap": 16,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "343",
-    "name": {
-      "zh": "暗器",
-      "en": "暗器"
-    },
-    "price": 0,
-    "bitmap": 49,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "344",
-    "name": {
-      "zh": "铜钱镖",
-      "en": "铜钱镖"
-    },
-    "price": 0,
-    "bitmap": 53,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "345",
-    "name": {
-      "zh": "御剑术",
-      "en": "御剑术"
-    },
-    "price": 0,
-    "bitmap": 10,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "346",
-    "name": {
-      "zh": "万剑诀",
-      "en": "万剑诀"
-    },
-    "price": 0,
-    "bitmap": 30,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "347",
-    "name": {
-      "zh": "心剑合一",
-      "en": "心剑合一"
-    },
-    "price": 0,
-    "bitmap": 20,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "348",
-    "name": {
-      "zh": "天剑",
-      "en": "天剑"
-    },
-    "price": 0,
-    "bitmap": 21,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "349",
-    "name": {
-      "zh": "天师符法",
-      "en": "天师符法"
-    },
-    "price": 0,
-    "bitmap": 54,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "350",
-    "name": {
-      "zh": "斩魔刀",
-      "en": "斩魔刀"
-    },
-    "price": 0,
-    "bitmap": 18,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "351",
-    "name": {
-      "zh": "武神",
-      "en": "武神"
-    },
-    "price": 0,
-    "bitmap": 19,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "352",
-    "name": {
-      "zh": "三屍咒",
-      "en": "三屍咒"
-    },
-    "price": 0,
-    "bitmap": 48,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "353",
-    "name": {
-      "zh": "御蜂术",
-      "en": "御蜂术"
-    },
-    "price": 0,
-    "bitmap": 24,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "354",
-    "name": {
-      "zh": "万蚁蚀象",
-      "en": "万蚁蚀象"
-    },
-    "price": 0,
-    "bitmap": 71,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "355",
-    "name": {
-      "zh": "天女散花",
-      "en": "天女散花"
-    },
-    "price": 0,
-    "bitmap": 27,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "356",
-    "name": {
-      "zh": "剑气",
-      "en": "剑气"
-    },
-    "price": 0,
-    "bitmap": 11,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "357",
-    "name": {
-      "zh": "炼狱爪",
-      "en": "炼狱爪"
-    },
-    "price": 0,
-    "bitmap": 44,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "358",
-    "name": {
-      "zh": "血魔神功",
-      "en": "血魔神功"
-    },
-    "price": 0,
-    "bitmap": 45,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "359",
-    "name": {
-      "zh": "狂风术",
-      "en": "狂风术"
-    },
-    "price": 0,
-    "bitmap": 50,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "360",
-    "name": {
-      "zh": "鞭击",
-      "en": "鞭击"
-    },
-    "price": 0,
-    "bitmap": 28,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "361",
-    "name": {
-      "zh": "御剑伏魔",
-      "en": "御剑伏魔"
-    },
-    "price": 0,
-    "bitmap": 55,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "362",
-    "name": {
-      "zh": "御剑伏魔1",
-      "en": "御剑伏魔1"
-    },
-    "price": 0,
-    "bitmap": 89,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "363",
-    "name": {
-      "zh": "剑神",
-      "en": "剑神"
-    },
-    "price": 0,
-    "bitmap": 90,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "364",
-    "name": {
-      "zh": "风灵符法",
-      "en": "风灵符法"
-    },
-    "price": 0,
-    "bitmap": 56,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "365",
-    "name": {
-      "zh": "雷灵符法",
-      "en": "雷灵符法"
-    },
-    "price": 0,
-    "bitmap": 57,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "366",
-    "name": {
-      "zh": "水灵符法",
-      "en": "水灵符法"
-    },
-    "price": 0,
-    "bitmap": 58,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "367",
-    "name": {
-      "zh": "火灵符法",
-      "en": "火灵符法"
-    },
-    "price": 0,
-    "bitmap": 59,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "368",
-    "name": {
-      "zh": "土灵符法",
-      "en": "土灵符法"
-    },
-    "price": 0,
-    "bitmap": 60,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "369",
-    "name": {
-      "zh": "气吞天下",
-      "en": "气吞天下"
-    },
-    "price": 0,
-    "bitmap": 61,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "370",
-    "name": {
-      "zh": "酒神",
-      "en": "酒神"
-    },
-    "price": 0,
-    "bitmap": 75,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "371",
-    "name": {
-      "zh": "瘴气",
-      "en": "瘴气"
-    },
-    "price": 0,
-    "bitmap": 62,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "372",
-    "name": {
-      "zh": "万蛊蚀天",
-      "en": "万蛊蚀天"
-    },
-    "price": 0,
-    "bitmap": 63,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "373",
-    "name": {
-      "zh": "毒吞天下",
-      "en": "毒吞天下"
-    },
-    "price": 0,
-    "bitmap": 91,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "374",
-    "name": {
-      "zh": "爆炸蛊",
-      "en": "爆炸蛊"
-    },
-    "price": 0,
-    "bitmap": 65,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "375",
-    "name": {
-      "zh": "镇天鼎",
-      "en": "镇天鼎"
-    },
-    "price": 0,
-    "bitmap": 69,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "376",
-    "name": {
-      "zh": "咒蛇",
-      "en": "咒蛇"
-    },
-    "price": 0,
-    "bitmap": 70,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "377",
-    "name": {
-      "zh": "飞龙探云手",
-      "en": "飞龙探云手"
-    },
-    "price": 0,
-    "bitmap": 98,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "378",
-    "name": {
-      "zh": "火龙掌",
-      "en": "火龙掌"
-    },
-    "price": 0,
-    "bitmap": 85,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "379",
-    "name": {
-      "zh": "灭绝一击",
-      "en": "灭绝一击"
-    },
-    "price": 0,
-    "bitmap": 78,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "380",
-    "name": {
-      "zh": "横扫千军",
-      "en": "横扫千军"
-    },
-    "price": 0,
-    "bitmap": 16,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "381",
-    "name": {
-      "zh": "爆炸",
-      "en": "爆炸"
-    },
-    "price": 0,
-    "bitmap": 79,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "382",
-    "name": {
-      "zh": "魔掌天下",
-      "en": "魔掌天下"
-    },
-    "price": 0,
-    "bitmap": 82,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "383",
-    "name": {
-      "zh": "佛法无边",
-      "en": "佛法无边"
-    },
-    "price": 0,
-    "bitmap": 83,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "384",
-    "name": {
-      "zh": "灵葫咒",
-      "en": "灵葫咒"
-    },
-    "price": 0,
-    "bitmap": 84,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "385",
-    "name": {
-      "zh": "气魔焰",
-      "en": "气魔焰"
-    },
-    "price": 0,
-    "bitmap": 74,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "386",
-    "name": {
-      "zh": "合体气功",
-      "en": "合体气功"
-    },
-    "price": 0,
-    "bitmap": 86,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "387",
-    "name": {
-      "zh": "气功",
-      "en": "气功"
-    },
-    "price": 0,
-    "bitmap": 87,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "388",
-    "name": {
-      "zh": "剑气斩",
-      "en": "剑气斩"
-    },
-    "price": 0,
-    "bitmap": 93,
-    "flags": 10,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "389",
-    "name": {
-      "zh": "火神",
-      "en": "火神"
-    },
-    "price": 0,
-    "bitmap": 94,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "390",
-    "name": {
-      "zh": "醉仙望月步",
-      "en": "醉仙望月步"
-    },
-    "price": 0,
-    "bitmap": 95,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "392",
-    "name": {
-      "zh": "金蝉脱壳",
-      "en": "金蝉脱壳"
-    },
-    "price": 0,
-    "bitmap": 99,
-    "flags": 18,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "393",
-    "name": {
-      "zh": "仙风云体术",
-      "en": "仙风云体术"
-    },
-    "price": 0,
-    "bitmap": 97,
-    "flags": 2,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "394",
-    "name": {
-      "zh": "乾坤一掷",
-      "en": "乾坤一掷"
-    },
-    "price": 0,
-    "bitmap": 100,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "395",
-    "name": {
-      "zh": "大咒蛇",
-      "en": "大咒蛇"
-    },
-    "price": 0,
-    "bitmap": 101,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "396",
-    "name": {
-      "zh": "腥风血雨",
-      "en": "腥风血雨"
-    },
-    "price": 0,
-    "bitmap": 102,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
-  },
-  {
-    "id": "397",
-    "name": {
-      "zh": "群魔乱舞",
-      "en": "群魔乱舞"
-    },
-    "price": 0,
-    "bitmap": 103,
-    "flags": 26,
-    "category": "equipment",
-    "sellable": false,
-    "usable": false,
-    "equipable": true
+    "equipable": true,
+    "description": "西方如来檀前的念珠，经佛法熏陶\n变化通灵。合体法术: 佛法无边\n灵力+88 防御+18 避毒率+30%",
+    "descriptionLines": [
+      "西方如来檀前的念珠，经佛法熏陶",
+      "变化通灵。合体法术: 佛法无边",
+      "灵力+88 防御+18 避毒率+30%"
+    ],
+    "equipSlot": {
+      "index": 5,
+      "name": "饰品",
+      "nameEn": "Accessory"
+    },
+    "attributes": [
+      {
+        "index": 18,
+        "name": "灵力",
+        "nameEn": "Magic",
+        "value": 88
+      },
+      {
+        "index": 19,
+        "name": "防御",
+        "nameEn": "Defense",
+        "value": 18
+      },
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 30
+      }
+    ],
+    "icon": "/assets/pal/icons/item_274.png",
+    "sources": {
+      "gathers": 1
+    }
   }
 ]

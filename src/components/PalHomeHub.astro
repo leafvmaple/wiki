@@ -7,12 +7,16 @@ const statCards = [
   { value: counts.items, label: '道具', detail: `对象合计 ${counts.allObjects}` },
   { value: counts.equipment, label: '装备', detail: '可装备物件' },
   { value: counts.shops, label: '商店', detail: `点位 ${counts.shopPoints ?? counts.shops}` },
-  { value: counts.npcs ?? '—', label: '具名人物', detail: `采集点 ${counts.treasures ?? '—'}` },
+  { value: counts.enemies ?? '—', label: '怪物', detail: `法术 ${counts.magics ?? '—'}` },
 ];
 
 const entries = [
+  { label: '主角一览', href: '/games/pal/party/', meta: '六人初始数值与立绘' },
   { label: '道具图鉴', href: '/games/pal/items/', meta: '药品符咒等可使用物品' },
-  { label: '装备图鉴', href: '/games/pal/equipment/', meta: '武器防具饰品' },
+  { label: '装备图鉴', href: '/games/pal/equipment/', meta: '部位 · 属性加成' },
+  { label: '法术图鉴', href: '/games/pal/magics/', meta: '消耗 · 威力 · 五灵属性' },
+  { label: '怪物图鉴', href: '/games/pal/enemies/', meta: '数值 · 可偷 · 出没场景' },
+  { label: '道具出处', href: '/games/pal/item-sources/', meta: '哪里买 · 哪里采 · 偷谁' },
   { label: '商店一览', href: '/games/pal/shops/', meta: '货表 + 店主/场景' },
   { label: '采集与宝箱', href: '/games/pal/treasures/', meta: '采得/获得类道具点' },
   { label: '人物名录', href: '/games/pal/npcs/', meta: '对话发言人索引' },
@@ -26,14 +30,15 @@ const entries = [
     <p class="pal-kicker">数据来自 Steam PAL · SDLPal 资源（MKF / WORD / MSG）</p>
     <h2>仙剑奇侠传资料库</h2>
     <p>
-      从 SSS / DATA / WORD / MSG 导出的可检索图鉴：道具装备、商店与地点、采集点与具名 NPC。
+      从 SSS / DATA / WORD / MSG 导出的可检索图鉴：道具装备（含图标与属性加成）、法术、
+      怪物、主角、道具出处、商店与地点、采集点与具名 NPC。
       场景地图与点击传送在 map-viewer，不进本仓库。
     </p>
     <div class="pal-actions">
       <a href="/games/pal/items/">查道具</a>
-      <a href="/games/pal/shops/">查商店</a>
-      <a href="/games/pal/treasures/">查采集</a>
-      <a href="/games/pal/npcs/">查人物</a>
+      <a href="/games/pal/enemies/">查怪物</a>
+      <a href="/games/pal/item-sources/">查出处</a>
+      <a href="/games/pal/party/">看主角</a>
     </div>
   </div>
 

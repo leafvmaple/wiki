@@ -1,12 +1,16 @@
 ---
 // 仙剑一数据表 — 可筛选排序。
 // kinds: items | equipment | shops | locations | treasures | npcs
+//        | enemies | magics | sources
 import items from '../data/pal/generated/items.json';
 import equipment from '../data/pal/generated/equipment.json';
 import shops from '../data/pal/generated/shops.json';
 import locations from '../data/pal/generated/locations.json';
 import treasures from '../data/pal/generated/treasures.json';
 import npcs from '../data/pal/generated/npcs.json';
+import enemies from '../data/pal/generated/enemies.json';
+import magics from '../data/pal/generated/magics.json';
+import itemSources from '../data/pal/generated/item_sources.json';
 
 type Row = Record<string, any>;
 const { kind = 'items' } = Astro.props as { kind?: string };
@@ -20,12 +24,36 @@ const shopRows = shops as Row[];
 const locationRows = locations as Row[];
 const treasureRows = treasures as Row[];
 const npcRows = npcs as Row[];
+const enemyRows = enemies as Row[];
+const magicRows = magics as Row[];
+const sourceRows = (itemSources as Row[]).filter((r) => r.sourceCount > 0);
+
+// 装备属性：只列非零项，形如「武术+2 身法+3」。
+const statLine = (r: Row) =>
+  (r.attributes ?? [])
+    .filter((a: any) => a.value)
+    .map((a: any) => `${a.name}${a.value > 0 ? '+' : ''}${a.value}`)
+    .join(' ');
+
+const firstLine = (s: string | undefined) => (s ?? '').split(String.fromCharCode(10))[0];
+
+const sourceLine = (r: Row) =>
+  [
+    r.shops?.length && `商店 ${r.shops.map((s: any) => s.name).join('、')}`,
+    r.gathers?.length && `采集 ${r.gathers.length} 处`,
+    r.steals?.length && `可偷自 ${r.steals.map((s: any) => s.name).join('、')}`,
+    r.startingGear?.length && `初始装备 ${r.startingGear.map((s: any) => s.name).join('、')}`,
+  ]
+    .filter(Boolean)
+    .join(' · ');
 
 const money = (v: number | null | undefined) =>
   v == null || v <= 0 ? '非卖品' : v.toLocaleString('zh-CN');
 
 const unit =
   kind === 'npcs' ? '人' :
+  kind === 'enemies' ? '种' :
+  kind === 'magics' ? '个' :
   kind === 'treasures' ? '处' :
   kind === 'shops' ? '家' :
   kind === 'locations' ? '处' : '件';
@@ -42,19 +70,30 @@ const unit =
       <table class="pal-dt">
         <thead>
           <tr>
+            <th class="icon" />
             <th data-sort="id" class="num">ID</th>
             <th data-sort="name">名称</th>
             <th data-sort="price" class="num">价格</th>
-            <th>属性</th>
+            <th>效果</th>
+            <th>说明</th>
           </tr>
         </thead>
         <tbody>
           {itemRows.map((r) => (
-            <tr data-name={r._name} data-id={r.id} data-price={r.price ?? -1}>
+            <tr data-name={`${r._name} ${firstLine(r.description)}`} data-id={r.id} data-price={r.price ?? -1}>
+              <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
               <td class="num muted">{r.id}</td>
               <td class="name">{r._name}</td>
               <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
-              <td class="muted">{[r.usable && '可用', r.sellable && '可卖'].filter(Boolean).join(' · ') || '—'}</td>
+              <td class="muted">
+                {[
+                  r.healHP && `HP+${r.healHP}`,
+                  r.healMP && `MP+${r.healMP}`,
+                  r.status && `${r.status.name} ${r.status.rounds} 回合`,
+                  r.throwMagic && `投掷 ${r.throwMagic.name}`,
+                ].filter(Boolean).join(' · ') || (r.usable ? '可用' : '—')}
+              </td>
+              <td class="long muted">{firstLine(r.description) || '—'}</td>
             </tr>
           ))}
         </tbody>
@@ -65,19 +104,30 @@ const unit =
       <table class="pal-dt">
         <thead>
           <tr>
+            <th class="icon" />
             <th data-sort="id" class="num">ID</th>
             <th data-sort="name">名称</th>
+            <th data-sort="slot">部位</th>
             <th data-sort="price" class="num">价格</th>
-            <th>属性</th>
+            <th>属性加成</th>
+            <th>说明</th>
           </tr>
         </thead>
         <tbody>
           {equipRows.map((r) => (
-            <tr data-name={r._name} data-id={r.id} data-price={r.price ?? -1}>
+            <tr
+              data-name={`${r._name} ${r.equipSlot?.name ?? ''} ${statLine(r)}`}
+              data-id={r.id}
+              data-slot={r.equipSlot?.index ?? 9}
+              data-price={r.price ?? -1}
+            >
+              <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
               <td class="num muted">{r.id}</td>
               <td class="name">{r._name}</td>
+              <td>{r.equipSlot?.name ?? '—'}</td>
               <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
-              <td class="muted">{[r.sellable && '可卖'].filter(Boolean).join(' · ') || '装备'}</td>
+              <td class="stats">{statLine(r) || '—'}</td>
+              <td class="long muted">{firstLine(r.description) || '—'}</td>
             </tr>
           ))}
         </tbody>
@@ -188,6 +238,101 @@ const unit =
         </tbody>
       </table>
     )}
+    {kind === 'enemies' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th class="icon" />
+            <th data-sort="name">名称</th>
+            <th data-sort="level" class="num">等级</th>
+            <th data-sort="health" class="num">体力</th>
+            <th data-sort="exp" class="num">经验</th>
+            <th data-sort="cash" class="num">金钱</th>
+            <th>可偷</th>
+            <th>出没场景</th>
+          </tr>
+        </thead>
+        <tbody>
+          {enemyRows.map((r) => (
+            <tr
+              data-name={`${r.name} ${r.stealItem?.name ?? ''}`}
+              data-id={r.id}
+              data-level={r.level}
+              data-health={r.health}
+              data-exp={r.exp}
+              data-cash={r.cash}
+            >
+              <td class="icon">{r.spriteFile && <img src={r.spriteFile} alt="" loading="lazy" height="40" />}</td>
+              <td class="name">{r.name}</td>
+              <td class="num">{r.level}</td>
+              <td class="num">{r.health.toLocaleString('zh-CN')}</td>
+              <td class="num">{r.exp.toLocaleString('zh-CN')}</td>
+              <td class="num">{r.cash.toLocaleString('zh-CN')}</td>
+              <td class="muted">{r.stealItem ? `${r.stealItem.name}${r.stealAmount > 1 ? ` ×${r.stealAmount}` : ''}` : '—'}</td>
+              <td class="muted num">{r.sceneIds.length ? `${r.sceneIds.length} 处` : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'magics' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th data-sort="name">名称</th>
+            <th data-sort="mp" class="num">消耗</th>
+            <th data-sort="damage" class="num">威力</th>
+            <th data-sort="element">属性</th>
+            <th>类型</th>
+            <th>说明</th>
+          </tr>
+        </thead>
+        <tbody>
+          {magicRows.map((r) => (
+            <tr
+              data-name={`${r.name} ${r.elementalName} ${r.typeName} ${firstLine(r.description)}`}
+              data-id={r.id}
+              data-mp={r.costMP}
+              data-damage={r.specialEffect ? -1 : r.baseDamage}
+              data-element={r.elemental}
+            >
+              <td class="name">{r.name}</td>
+              <td class="num">{r.costMP || '—'}</td>
+              <td class="num">{r.specialEffect ? <span class="muted">特殊</span> : (r.baseDamage || '—')}</td>
+              <td>{r.elementalName}</td>
+              <td class="muted">{r.typeName}</td>
+              <td class="long muted">{firstLine(r.description) || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    {kind === 'sources' && (
+      <table class="pal-dt">
+        <thead>
+          <tr>
+            <th class="icon" />
+            <th data-sort="id" class="num">ID</th>
+            <th data-sort="name">道具</th>
+            <th data-sort="count" class="num">来源数</th>
+            <th>出处</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sourceRows.map((r) => (
+            <tr data-name={`${r.name} ${sourceLine(r)}`} data-id={r.id} data-count={r.sourceCount}>
+              <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
+              <td class="num muted">{r.id}</td>
+              <td class="name">{r.name}</td>
+              <td class="num">{r.sourceCount}</td>
+              <td class="long muted">{sourceLine(r) || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
   </div>
 </div>
 
@@ -245,6 +390,10 @@ const unit =
   .pal-dt .muted { color: #7a8b95; }
   .pal-dt .long { max-width: 28rem; }
   .pal-dt .nosale { color: #a07040; }
+  .pal-dt .stats { color: #2f7d4f; white-space: nowrap; }
+  .pal-dt th.icon, .pal-dt td.icon { width: 3rem; padding: 0.25rem 0.4rem; text-align: center; }
+  .pal-dt td.icon img { display: block; margin: 0 auto; image-rendering: pixelated; max-height: 40px; width: auto; }
+  :global([data-theme='dark']) .pal-dt .stats { color: #6cc48d; }
   :global([data-theme='dark']) .pal-dt-search { background: #1a242b; border-color: #33444e; color: #e8eef2; }
   :global([data-theme='dark']) .pal-dt th { background: #1a242b; color: #b7c6d0; }
   :global([data-theme='dark']) .pal-dt th, :global([data-theme='dark']) .pal-dt td { border-bottom-color: #2a3840; }

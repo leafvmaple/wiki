@@ -170,8 +170,12 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: '游戏总览', link: '/games/pal/' },
+            { label: '主角一览', link: '/games/pal/party/' },
             { label: '道具图鉴', link: '/games/pal/items/' },
             { label: '装备图鉴', link: '/games/pal/equipment/' },
+            { label: '法术图鉴', link: '/games/pal/magics/' },
+            { label: '怪物图鉴', link: '/games/pal/enemies/' },
+            { label: '道具出处', link: '/games/pal/item-sources/' },
             { label: '商店一览', link: '/games/pal/shops/' },
             { label: '采集与宝箱', link: '/games/pal/treasures/' },
             { label: '人物名录', link: '/games/pal/npcs/' },

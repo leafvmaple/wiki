@@ -1,0 +1,9525 @@
+[
+  {
+    "sprite": 26,
+    "file": "/assets/pal/sprites/npcs/npc_026.png",
+    "eventCount": 6,
+    "sceneIds": [
+      83,
+      110,
+      205,
+      215,
+      263,
+      276
+    ],
+    "sceneCount": 6,
+    "names": [
+      {
+        "name": "盖罗娇",
+        "count": 2
+      },
+      {
+        "name": "李逍遥",
+        "count": 1
+      },
+      {
+        "name": "阿奴",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4,
+      "decor": 2
+    },
+    "player": {
+      "id": 41,
+      "name": "盖罗娇"
+    }
+  },
+  {
+    "sprite": 7,
+    "file": "/assets/pal/sprites/npcs/npc_007.png",
+    "eventCount": 4,
+    "sceneIds": [
+      39,
+      193,
+      198,
+      199
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "林月如",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 3
+    },
+    "player": {
+      "id": 38,
+      "name": "林月如"
+    }
+  },
+  {
+    "sprite": 3,
+    "file": "/assets/pal/sprites/npcs/npc_003.png",
+    "eventCount": 2,
+    "sceneIds": [
+      19,
+      34
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "少女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": {
+      "id": 37,
+      "name": "赵灵儿"
+    }
+  },
+  {
+    "sprite": 2,
+    "file": "/assets/pal/sprites/npcs/npc_002.png",
+    "eventCount": 4,
+    "sceneIds": [
+      173,
+      196,
+      198,
+      264
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4
+    },
+    "player": {
+      "id": 36,
+      "name": "李逍遥"
+    }
+  },
+  {
+    "sprite": 5,
+    "file": "/assets/pal/sprites/npcs/npc_005.png",
+    "eventCount": 3,
+    "sceneIds": [
+      182,
+      183,
+      264
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": {
+      "id": 39,
+      "name": "阿奴"
+    }
+  },
+  {
+    "sprite": 51,
+    "file": "/assets/pal/sprites/npcs/npc_051.png",
+    "eventCount": 14,
+    "sceneIds": [
+      5,
+      24,
+      32,
+      49,
+      51,
+      52,
+      120,
+      129,
+      193
+    ],
+    "sceneCount": 9,
+    "names": [
+      {
+        "name": "居民",
+        "count": 3
+      },
+      {
+        "name": "观众",
+        "count": 2
+      },
+      {
+        "name": "村民",
+        "count": 2
+      },
+      {
+        "name": "鱼嫂",
+        "count": 1
+      },
+      {
+        "name": "卖菜老杨",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "煮饭婆",
+        "count": 1
+      },
+      {
+        "name": "澡堂老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 8,
+    "kinds": {
+      "npc": 12,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 90,
+    "file": "/assets/pal/sprites/npcs/npc_090.png",
+    "eventCount": 12,
+    "sceneIds": [
+      5,
+      24,
+      28,
+      29,
+      32,
+      50,
+      81,
+      96,
+      130,
+      132,
+      135,
+      193
+    ],
+    "sceneCount": 12,
+    "names": [
+      {
+        "name": "老板",
+        "count": 2
+      },
+      {
+        "name": "卖酱老苏",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "赌场老板",
+        "count": 1
+      },
+      {
+        "name": "当铺老板",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "骆员外",
+        "count": 1
+      },
+      {
+        "name": "嫖客",
+        "count": 1
+      }
+    ],
+    "nameCount": 8,
+    "kinds": {
+      "npc": 6,
+      "shop": 4,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 140,
+    "file": "/assets/pal/sprites/npcs/npc_140.png",
+    "eventCount": 11,
+    "sceneIds": [
+      5,
+      23,
+      32,
+      47,
+      129,
+      137,
+      193,
+      265
+    ],
+    "sceneCount": 8,
+    "names": [
+      {
+        "name": "林家家仆",
+        "count": 2
+      },
+      {
+        "name": "少女",
+        "count": 2
+      },
+      {
+        "name": "妇人",
+        "count": 1
+      },
+      {
+        "name": "民女乙",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "澡堂女客甲",
+        "count": 1
+      },
+      {
+        "name": "宋氏",
+        "count": 1
+      },
+      {
+        "name": "汉族妇女",
+        "count": 1
+      }
+    ],
+    "nameCount": 8,
+    "kinds": {
+      "npc": 10,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 144,
+    "file": "/assets/pal/sprites/npcs/npc_144.png",
+    "eventCount": 9,
+    "sceneIds": [
+      9,
+      23,
+      34,
+      47,
+      51,
+      136,
+      183,
+      208
+    ],
+    "sceneCount": 8,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "路人甲",
+        "count": 1
+      },
+      {
+        "name": "仆人",
+        "count": 1
+      },
+      {
+        "name": "少女",
+        "count": 1
+      },
+      {
+        "name": "小玉",
+        "count": 1
+      },
+      {
+        "name": "村姑",
+        "count": 1
+      },
+      {
+        "name": "妇人",
+        "count": 1
+      },
+      {
+        "name": "汉人妇女",
+        "count": 1
+      }
+    ],
+    "nameCount": 8,
+    "kinds": {
+      "npc": 8,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 443,
+    "file": "/assets/pal/sprites/npcs/npc_443.png",
+    "eventCount": 37,
+    "sceneIds": [
+      202,
+      203,
+      205,
+      206,
+      211,
+      214,
+      215,
+      263,
+      265,
+      275
+    ],
+    "sceneCount": 10,
+    "names": [
+      {
+        "name": "守卫",
+        "count": 12
+      },
+      {
+        "name": "侍卫",
+        "count": 5
+      },
+      {
+        "name": "守门士兵",
+        "count": 4
+      },
+      {
+        "name": "士兵",
+        "count": 3
+      },
+      {
+        "name": "白苗女兵",
+        "count": 2
+      },
+      {
+        "name": "白苗居民",
+        "count": 1
+      },
+      {
+        "name": "白苗士兵",
+        "count": 1
+      }
+    ],
+    "nameCount": 7,
+    "kinds": {
+      "npc": 30,
+      "decor": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 342,
+    "file": "/assets/pal/sprites/npcs/npc_342.png",
+    "eventCount": 11,
+    "sceneIds": [
+      32,
+      49,
+      50,
+      79,
+      135,
+      193,
+      205,
+      208
+    ],
+    "sceneCount": 8,
+    "names": [
+      {
+        "name": "观众",
+        "count": 2
+      },
+      {
+        "name": "村民",
+        "count": 2
+      },
+      {
+        "name": "李逍遥",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      },
+      {
+        "name": "顾客",
+        "count": 1
+      },
+      {
+        "name": "汉人壮丁",
+        "count": 1
+      },
+      {
+        "name": "阿蛮",
+        "count": 1
+      }
+    ],
+    "nameCount": 7,
+    "kinds": {
+      "npc": 9,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 142,
+    "file": "/assets/pal/sprites/npcs/npc_142.png",
+    "eventCount": 10,
+    "sceneIds": [
+      23,
+      32,
+      47,
+      50,
+      99,
+      183,
+      193,
+      209
+    ],
+    "sceneCount": 8,
+    "names": [
+      {
+        "name": "林家家仆",
+        "count": 2
+      },
+      {
+        "name": "路人乙",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "少女",
+        "count": 1
+      },
+      {
+        "name": "村民",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "顾客",
+        "count": 1
+      }
+    ],
+    "nameCount": 7,
+    "kinds": {
+      "npc": 8,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 117,
+    "file": "/assets/pal/sprites/npcs/npc_117.png",
+    "eventCount": 9,
+    "sceneIds": [
+      25,
+      49,
+      50,
+      52,
+      93,
+      112,
+      127,
+      183,
+      265
+    ],
+    "sceneCount": 9,
+    "names": [
+      {
+        "name": "掌柜",
+        "count": 2
+      },
+      {
+        "name": "村民",
+        "count": 1
+      },
+      {
+        "name": "骆记总管",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "小贩",
+        "count": 1
+      },
+      {
+        "name": "酒馆老板",
+        "count": 1
+      },
+      {
+        "name": "汉人",
+        "count": 1
+      }
+    ],
+    "nameCount": 7,
+    "kinds": {
+      "npc": 7,
+      "shop": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 134,
+    "file": "/assets/pal/sprites/npcs/npc_134.png",
+    "eventCount": 19,
+    "sceneIds": [
+      81,
+      100,
+      111,
+      114
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "官兵",
+        "count": 4
+      },
+      {
+        "name": "守卫",
+        "count": 2
+      },
+      {
+        "name": "守卫阿德",
+        "count": 1
+      },
+      {
+        "name": "守卫阿方",
+        "count": 1
+      },
+      {
+        "name": "守卫阿坤",
+        "count": 1
+      },
+      {
+        "name": "守卫阿辉",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "npc": 12,
+      "treasure": 1,
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 100,
+    "file": "/assets/pal/sprites/npcs/npc_100.png",
+    "eventCount": 13,
+    "sceneIds": [
+      23,
+      27,
+      28,
+      31,
+      50,
+      93,
+      128
+    ],
+    "sceneCount": 7,
+    "names": [
+      {
+        "name": "飞鹰堡",
+        "count": 3
+      },
+      {
+        "name": "报名者戊",
+        "count": 1
+      },
+      {
+        "name": "剑客",
+        "count": 1
+      },
+      {
+        "name": "赌客",
+        "count": 1
+      },
+      {
+        "name": "顾客",
+        "count": 1
+      },
+      {
+        "name": "保镳",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "decor": 5,
+      "npc": 8
+    },
+    "player": null
+  },
+  {
+    "sprite": 111,
+    "file": "/assets/pal/sprites/npcs/npc_111.png",
+    "eventCount": 12,
+    "sceneIds": [
+      23,
+      27,
+      96,
+      130,
+      157,
+      158,
+      160
+    ],
+    "sceneCount": 7,
+    "names": [
+      {
+        "name": "青衣弟子",
+        "count": 4
+      },
+      {
+        "name": "书生",
+        "count": 2
+      },
+      {
+        "name": "报名者乙",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "男子",
+        "count": 1
+      },
+      {
+        "name": "阿青",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "npc": 10,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 104,
+    "file": "/assets/pal/sprites/npcs/npc_104.png",
+    "eventCount": 11,
+    "sceneIds": [
+      23,
+      27,
+      32,
+      82,
+      93,
+      96,
+      128,
+      193
+    ],
+    "sceneCount": 8,
+    "names": [
+      {
+        "name": "巨鲸帮众",
+        "count": 4
+      },
+      {
+        "name": "李逍遥",
+        "count": 1
+      },
+      {
+        "name": "拳师",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "npc": 9,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 125,
+    "file": "/assets/pal/sprites/npcs/npc_125.png",
+    "eventCount": 9,
+    "sceneIds": [
+      32,
+      49,
+      50,
+      51,
+      52,
+      84,
+      193
+    ],
+    "sceneCount": 7,
+    "names": [
+      {
+        "name": "村民",
+        "count": 3
+      },
+      {
+        "name": "林家家仆",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "npc": 8,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 206,
+    "file": "/assets/pal/sprites/npcs/npc_206.png",
+    "eventCount": 9,
+    "sceneIds": [
+      202,
+      205,
+      206,
+      207,
+      214
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "白苗居民",
+        "count": 2
+      },
+      {
+        "name": "白苗长老",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      },
+      {
+        "name": "顾客",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "白苗士兵",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "decor": 2,
+      "npc": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 106,
+    "file": "/assets/pal/sprites/npcs/npc_106.png",
+    "eventCount": 7,
+    "sceneIds": [
+      25,
+      28,
+      50,
+      52,
+      130,
+      134,
+      208
+    ],
+    "sceneCount": 7,
+    "names": [
+      {
+        "name": "赌客",
+        "count": 2
+      },
+      {
+        "name": "村民",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "妓女",
+        "count": 1
+      },
+      {
+        "name": "嫖客",
+        "count": 1
+      },
+      {
+        "name": "汉人居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 6,
+    "kinds": {
+      "npc": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 102,
+    "file": "/assets/pal/sprites/npcs/npc_102.png",
+    "eventCount": 10,
+    "sceneIds": [
+      23,
+      27,
+      32,
+      96,
+      135,
+      193
+    ],
+    "sceneCount": 6,
+    "names": [
+      {
+        "name": "观众",
+        "count": 2
+      },
+      {
+        "name": "报名者丁",
+        "count": 1
+      },
+      {
+        "name": "护院",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "顾客",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 6,
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 198,
+    "file": "/assets/pal/sprites/npcs/npc_198.png",
+    "eventCount": 9,
+    "sceneIds": [
+      110,
+      206,
+      207,
+      275
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "盖罗娇",
+        "count": 1
+      },
+      {
+        "name": "苗女",
+        "count": 1
+      },
+      {
+        "name": "白苗壮丁",
+        "count": 1
+      },
+      {
+        "name": "店主",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 4,
+      "decor": 4,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 147,
+    "file": "/assets/pal/sprites/npcs/npc_147.png",
+    "eventCount": 8,
+    "sceneIds": [
+      34,
+      38,
+      47,
+      51,
+      128,
+      131,
+      194
+    ],
+    "sceneCount": 7,
+    "names": [
+      {
+        "name": "仆人",
+        "count": 1
+      },
+      {
+        "name": "晓慧",
+        "count": 1
+      },
+      {
+        "name": "少女",
+        "count": 1
+      },
+      {
+        "name": "小妹",
+        "count": 1
+      },
+      {
+        "name": "茶水小妹",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 6,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 402,
+    "file": "/assets/pal/sprites/npcs/npc_402.png",
+    "eventCount": 7,
+    "sceneIds": [
+      27,
+      82,
+      100,
+      102,
+      130,
+      132
+    ],
+    "sceneCount": 6,
+    "names": [
+      {
+        "name": "嫖客",
+        "count": 3
+      },
+      {
+        "name": "刘楚香",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      },
+      {
+        "name": "才子",
+        "count": 1
+      },
+      {
+        "name": "旅人",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 40,
+    "file": "/assets/pal/sprites/npcs/npc_040.png",
+    "eventCount": 6,
+    "sceneIds": [
+      5,
+      22,
+      28,
+      31,
+      52,
+      208
+    ],
+    "sceneCount": 6,
+    "names": [
+      {
+        "name": "方老板",
+        "count": 1
+      },
+      {
+        "name": "赌客",
+        "count": 1
+      },
+      {
+        "name": "铁铺老板",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "汉人居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 4,
+      "decor": 1,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 121,
+    "file": "/assets/pal/sprites/npcs/npc_121.png",
+    "eventCount": 5,
+    "sceneIds": [
+      10,
+      21,
+      43,
+      52,
+      253
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "张老头",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "来福伯",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 205,
+    "file": "/assets/pal/sprites/npcs/npc_205.png",
+    "eventCount": 5,
+    "sceneIds": [
+      202,
+      205,
+      206,
+      207
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 1
+      },
+      {
+        "name": "白苗长老",
+        "count": 1
+      },
+      {
+        "name": "白苗居民",
+        "count": 1
+      },
+      {
+        "name": "白苗壮丁",
+        "count": 1
+      },
+      {
+        "name": "店家",
+        "count": 1
+      }
+    ],
+    "nameCount": 5,
+    "kinds": {
+      "npc": 4,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 127,
+    "file": "/assets/pal/sprites/npcs/npc_127.png",
+    "eventCount": 6,
+    "sceneIds": [
+      5,
+      49,
+      50,
+      127
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "村民",
+        "count": 3
+      },
+      {
+        "name": "水果贩",
+        "count": 1
+      },
+      {
+        "name": "卖包子",
+        "count": 1
+      },
+      {
+        "name": "小二",
+        "count": 1
+      }
+    ],
+    "nameCount": 4,
+    "kinds": {
+      "treasure": 1,
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 129,
+    "file": "/assets/pal/sprites/npcs/npc_129.png",
+    "eventCount": 6,
+    "sceneIds": [
+      23,
+      50,
+      93
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "卖吃小贩",
+        "count": 1
+      },
+      {
+        "name": "杂货小贩",
+        "count": 1
+      },
+      {
+        "name": "报名者甲",
+        "count": 1
+      },
+      {
+        "name": "村民",
+        "count": 1
+      }
+    ],
+    "nameCount": 4,
+    "kinds": {
+      "shop": 2,
+      "npc": 2,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 267,
+    "file": "/assets/pal/sprites/npcs/npc_267.png",
+    "eventCount": 6,
+    "sceneIds": [
+      47,
+      48,
+      111,
+      114
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 2
+      },
+      {
+        "name": "少女",
+        "count": 1
+      },
+      {
+        "name": "婢女阿萍",
+        "count": 1
+      },
+      {
+        "name": "婢女阿香",
+        "count": 1
+      }
+    ],
+    "nameCount": 4,
+    "kinds": {
+      "npc": 5,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 163,
+    "file": "/assets/pal/sprites/npcs/npc_163.png",
+    "eventCount": 4,
+    "sceneIds": [
+      4,
+      52,
+      84,
+      257
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "林木匠",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      },
+      {
+        "name": "路人",
+        "count": 1
+      },
+      {
+        "name": "木匠",
+        "count": 1
+      }
+    ],
+    "nameCount": 4,
+    "kinds": {
+      "npc": 3,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 217,
+    "file": "/assets/pal/sprites/npcs/npc_217.png",
+    "eventCount": 7,
+    "sceneIds": [
+      206,
+      207,
+      208,
+      265,
+      275
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 4
+      },
+      {
+        "name": "小玉",
+        "count": 1
+      },
+      {
+        "name": "苗族小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 6,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 13,
+    "file": "/assets/pal/sprites/npcs/npc_013.png",
+    "eventCount": 5,
+    "sceneIds": [
+      5,
+      15,
+      77,
+      111,
+      209
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "张四",
+        "count": 1
+      },
+      {
+        "name": "张四哥",
+        "count": 1
+      },
+      {
+        "name": "老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3,
+      "decor": 1,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 113,
+    "file": "/assets/pal/sprites/npcs/npc_113.png",
+    "eventCount": 5,
+    "sceneIds": [
+      32,
+      50,
+      112,
+      193
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "伙计",
+        "count": 2
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "小贩",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 321,
+    "file": "/assets/pal/sprites/npcs/npc_321.png",
+    "eventCount": 5,
+    "sceneIds": [
+      23,
+      100,
+      130,
+      132
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "妓女",
+        "count": 3
+      },
+      {
+        "name": "民女甲",
+        "count": 1
+      },
+      {
+        "name": "佳人",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 33,
+    "file": "/assets/pal/sprites/npcs/npc_033.png",
+    "eventCount": 4,
+    "sceneIds": [
+      8,
+      28,
+      52,
+      253
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "老王",
+        "count": 2
+      },
+      {
+        "name": "赌客",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 149,
+    "file": "/assets/pal/sprites/npcs/npc_149.png",
+    "eventCount": 4,
+    "sceneIds": [
+      23,
+      100,
+      136,
+      265
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 2
+      },
+      {
+        "name": "小童",
+        "count": 1
+      },
+      {
+        "name": "孩童",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 407,
+    "file": "/assets/pal/sprites/npcs/npc_407.png",
+    "eventCount": 4,
+    "sceneIds": [
+      21,
+      28,
+      130
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "赌客",
+        "count": 2
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "男",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 446,
+    "file": "/assets/pal/sprites/npcs/npc_446.png",
+    "eventCount": 4,
+    "sceneIds": [
+      21,
+      120,
+      121,
+      208
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 2
+      },
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "汉人少女",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 14,
+    "file": "/assets/pal/sprites/npcs/npc_014.png",
+    "eventCount": 3,
+    "sceneIds": [
+      28,
+      31,
+      91
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "赌客",
+        "count": 1
+      },
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "犯人",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 34,
+    "file": "/assets/pal/sprites/npcs/npc_034.png",
+    "eventCount": 3,
+    "sceneIds": [
+      28,
+      100,
+      209
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "赌客",
+        "count": 1
+      },
+      {
+        "name": "张大夫",
+        "count": 1
+      },
+      {
+        "name": "当舖老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 2,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 42,
+    "file": "/assets/pal/sprites/npcs/npc_042.png",
+    "eventCount": 3,
+    "sceneIds": [
+      4,
+      47,
+      208
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "阿珠",
+        "count": 1
+      },
+      {
+        "name": "少女",
+        "count": 1
+      },
+      {
+        "name": "汉人居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 72,
+    "file": "/assets/pal/sprites/npcs/npc_072.png",
+    "eventCount": 3,
+    "sceneIds": [
+      25,
+      93,
+      128
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "客人甲",
+        "count": 1
+      },
+      {
+        "name": "旅客",
+        "count": 1
+      },
+      {
+        "name": "酒客",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 79,
+    "file": "/assets/pal/sprites/npcs/npc_079.png",
+    "eventCount": 3,
+    "sceneIds": [
+      21,
+      49
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "二宝",
+        "count": 1
+      },
+      {
+        "name": "小童",
+        "count": 1
+      },
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 150,
+    "file": "/assets/pal/sprites/npcs/npc_150.png",
+    "eventCount": 3,
+    "sceneIds": [
+      49,
+      208
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "阿九",
+        "count": 1
+      },
+      {
+        "name": "李逍遥",
+        "count": 1
+      },
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 153,
+    "file": "/assets/pal/sprites/npcs/npc_153.png",
+    "eventCount": 3,
+    "sceneIds": [
+      21,
+      112
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      },
+      {
+        "name": "孩童甲",
+        "count": 1
+      },
+      {
+        "name": "孩童丙",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 292,
+    "file": "/assets/pal/sprites/npcs/npc_292.png",
+    "eventCount": 3,
+    "sceneIds": [
+      24,
+      99,
+      112
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "父",
+        "count": 1
+      },
+      {
+        "name": "旅客",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 307,
+    "file": "/assets/pal/sprites/npcs/npc_307.png",
+    "eventCount": 3,
+    "sceneIds": [
+      24,
+      50,
+      129
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "妻",
+        "count": 1
+      },
+      {
+        "name": "村民",
+        "count": 1
+      },
+      {
+        "name": "澡堂女客乙",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 325,
+    "file": "/assets/pal/sprites/npcs/npc_325.png",
+    "eventCount": 3,
+    "sceneIds": [
+      112,
+      130
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "观众",
+        "count": 1
+      },
+      {
+        "name": "妓女",
+        "count": 1
+      },
+      {
+        "name": "男子",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 354,
+    "file": "/assets/pal/sprites/npcs/npc_354.png",
+    "eventCount": 3,
+    "sceneIds": [
+      136,
+      209,
+      254
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "药铺老板",
+        "count": 1
+      },
+      {
+        "name": "船商",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 2,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 408,
+    "file": "/assets/pal/sprites/npcs/npc_408.png",
+    "eventCount": 3,
+    "sceneIds": [
+      26,
+      128,
+      132
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "宋元祺",
+        "count": 1
+      },
+      {
+        "name": "飞鹰帮",
+        "count": 1
+      },
+      {
+        "name": "嫖客",
+        "count": 1
+      }
+    ],
+    "nameCount": 3,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 544,
+    "file": "/assets/pal/sprites/npcs/npc_544.png",
+    "eventCount": 32,
+    "sceneIds": [
+      227,
+      229,
+      234,
+      236,
+      237,
+      275
+    ],
+    "sceneCount": 6,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 10
+      },
+      {
+        "name": "黑苗士兵",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "decor": 21,
+      "npc": 11
+    },
+    "player": null
+  },
+  {
+    "sprite": 137,
+    "file": "/assets/pal/sprites/npcs/npc_137.png",
+    "eventCount": 25,
+    "sceneIds": [
+      81,
+      84,
+      86
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "官差",
+        "count": 5
+      },
+      {
+        "name": "衙役",
+        "count": 2
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 23,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 16,
+    "file": "/assets/pal/sprites/npcs/npc_016.png",
+    "eventCount": 6,
+    "sceneIds": [
+      11,
+      140,
+      150,
+      155,
+      159
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "酒剑仙",
+        "count": 2
+      },
+      {
+        "name": "醉道士",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3,
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 30,
+    "file": "/assets/pal/sprites/npcs/npc_030.png",
+    "eventCount": 6,
+    "sceneIds": [
+      3,
+      237
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "王宫卫兵",
+        "count": 3
+      },
+      {
+        "name": "苗人喽罗",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 4,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 327,
+    "file": "/assets/pal/sprites/npcs/npc_327.png",
+    "eventCount": 6,
+    "sceneIds": [
+      100,
+      130,
+      132,
+      133
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "妓女",
+        "count": 4
+      },
+      {
+        "name": "小雪",
+        "count": 2
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 199,
+    "file": "/assets/pal/sprites/npcs/npc_199.png",
+    "eventCount": 5,
+    "sceneIds": [
+      110,
+      206,
+      207,
+      275
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "白苗妇女",
+        "count": 1
+      },
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "decor": 3,
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 98,
+    "file": "/assets/pal/sprites/npcs/npc_098.png",
+    "eventCount": 4,
+    "sceneIds": [
+      81,
+      91,
+      96
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "衙役",
+        "count": 1
+      },
+      {
+        "name": "官差",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 313,
+    "file": "/assets/pal/sprites/npcs/npc_313.png",
+    "eventCount": 4,
+    "sceneIds": [
+      21,
+      24,
+      84,
+      209
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "少女",
+        "count": 2
+      },
+      {
+        "name": "妻",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 343,
+    "file": "/assets/pal/sprites/npcs/npc_343.png",
+    "eventCount": 4,
+    "sceneIds": [
+      102,
+      202,
+      205
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "猎人",
+        "count": 1
+      },
+      {
+        "name": "汉人壮士",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 355,
+    "file": "/assets/pal/sprites/npcs/npc_355.png",
+    "eventCount": 4,
+    "sceneIds": [
+      9,
+      96,
+      175,
+      183
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "药铺老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2,
+      "shop": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 401,
+    "file": "/assets/pal/sprites/npcs/npc_401.png",
+    "eventCount": 4,
+    "sceneIds": [
+      100,
+      118
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "婢女阿香",
+        "count": 1
+      },
+      {
+        "name": "婢女阿萍",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "decor": 2,
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 35,
+    "file": "/assets/pal/sprites/npcs/npc_035.png",
+    "eventCount": 3,
+    "sceneIds": [
+      4,
+      48,
+      248
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "丁大伯",
+        "count": 2
+      },
+      {
+        "name": "老农夫",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 82,
+    "file": "/assets/pal/sprites/npcs/npc_082.png",
+    "eventCount": 3,
+    "sceneIds": [
+      77,
+      82,
+      209
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      },
+      {
+        "name": "妻",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "decor": 1,
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 83,
+    "file": "/assets/pal/sprites/npcs/npc_083.png",
+    "eventCount": 3,
+    "sceneIds": [
+      102,
+      183,
+      190
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "秀才",
+        "count": 1
+      },
+      {
+        "name": "宋贺文",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 156,
+    "file": "/assets/pal/sprites/npcs/npc_156.png",
+    "eventCount": 3,
+    "sceneIds": [
+      21,
+      82
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "大宝",
+        "count": 2
+      },
+      {
+        "name": "小宝",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 159,
+    "file": "/assets/pal/sprites/npcs/npc_159.png",
+    "eventCount": 3,
+    "sceneIds": [
+      23,
+      24,
+      49
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "小豆子",
+        "count": 1
+      },
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 224,
+    "file": "/assets/pal/sprites/npcs/npc_224.png",
+    "eventCount": 3,
+    "sceneIds": [
+      19,
+      116,
+      204
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 1
+      },
+      {
+        "name": "妇人",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 315,
+    "file": "/assets/pal/sprites/npcs/npc_315.png",
+    "eventCount": 3,
+    "sceneIds": [
+      29,
+      50
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "村民",
+        "count": 2
+      },
+      {
+        "name": "居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 323,
+    "file": "/assets/pal/sprites/npcs/npc_323.png",
+    "eventCount": 3,
+    "sceneIds": [
+      91,
+      130
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "妓女",
+        "count": 2
+      },
+      {
+        "name": "男",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 6,
+    "file": "/assets/pal/sprites/npcs/npc_006.png",
+    "eventCount": 2,
+    "sceneIds": [
+      27,
+      91
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "铁面煞星",
+        "count": 1
+      },
+      {
+        "name": "犯人",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 41,
+    "file": "/assets/pal/sprites/npcs/npc_041.png",
+    "eventCount": 2,
+    "sceneIds": [
+      5,
+      52
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "水生叔",
+        "count": 1
+      },
+      {
+        "name": "村人",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 95,
+    "file": "/assets/pal/sprites/npcs/npc_095.png",
+    "eventCount": 2,
+    "sceneIds": [
+      26,
+      128
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "赵海",
+        "count": 1
+      },
+      {
+        "name": "飞鹰帮",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 96,
+    "file": "/assets/pal/sprites/npcs/npc_096.png",
+    "eventCount": 2,
+    "sceneIds": [
+      12,
+      256
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "曾伯",
+        "count": 1
+      },
+      {
+        "name": "铁匠",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "shop": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 105,
+    "file": "/assets/pal/sprites/npcs/npc_105.png",
+    "eventCount": 2,
+    "sceneIds": [
+      21,
+      97
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "员外",
+        "count": 1
+      },
+      {
+        "name": "古董商",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 107,
+    "file": "/assets/pal/sprites/npcs/npc_107.png",
+    "eventCount": 2,
+    "sceneIds": [
+      29,
+      91
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "赌鬼",
+        "count": 1
+      },
+      {
+        "name": "乞丐",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 158,
+    "file": "/assets/pal/sprites/npcs/npc_158.png",
+    "eventCount": 2,
+    "sceneIds": [
+      13,
+      84
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "学徒",
+        "count": 1
+      },
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 173,
+    "file": "/assets/pal/sprites/npcs/npc_173.png",
+    "eventCount": 2,
+    "sceneIds": [
+      25,
+      112
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "客人甲",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 183,
+    "file": "/assets/pal/sprites/npcs/npc_183.png",
+    "eventCount": 2,
+    "sceneIds": [
+      25,
+      127
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "客人丁",
+        "count": 1
+      },
+      {
+        "name": "客人甲",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 185,
+    "file": "/assets/pal/sprites/npcs/npc_185.png",
+    "eventCount": 2,
+    "sceneIds": [
+      25,
+      112
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "客人丁",
+        "count": 1
+      },
+      {
+        "name": "观众",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 276,
+    "file": "/assets/pal/sprites/npcs/npc_276.png",
+    "eventCount": 2,
+    "sceneIds": [
+      51,
+      127
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "老汉",
+        "count": 1
+      },
+      {
+        "name": "客人甲",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 293,
+    "file": "/assets/pal/sprites/npcs/npc_293.png",
+    "eventCount": 2,
+    "sceneIds": [
+      93,
+      128
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "客人",
+        "count": 1
+      },
+      {
+        "name": "酒客",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 297,
+    "file": "/assets/pal/sprites/npcs/npc_297.png",
+    "eventCount": 2,
+    "sceneIds": [
+      93,
+      112
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "旅客",
+        "count": 1
+      },
+      {
+        "name": "商人",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 317,
+    "file": "/assets/pal/sprites/npcs/npc_317.png",
+    "eventCount": 2,
+    "sceneIds": [
+      5,
+      91
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "猪肉张",
+        "count": 1
+      },
+      {
+        "name": "胖男",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 329,
+    "file": "/assets/pal/sprites/npcs/npc_329.png",
+    "eventCount": 2,
+    "sceneIds": [
+      130,
+      132
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "嫖客",
+        "count": 1
+      },
+      {
+        "name": "妓女",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 371,
+    "file": "/assets/pal/sprites/npcs/npc_371.png",
+    "eventCount": 2,
+    "sceneIds": [
+      82,
+      127
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "醉鬼",
+        "count": 1
+      },
+      {
+        "name": "醉汉甲",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 410,
+    "file": "/assets/pal/sprites/npcs/npc_410.png",
+    "eventCount": 2,
+    "sceneIds": [
+      25,
+      127
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "店小二",
+        "count": 1
+      },
+      {
+        "name": "小二",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 611,
+    "file": "/assets/pal/sprites/npcs/npc_611.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "黑苗士兵乙",
+        "count": 1
+      },
+      {
+        "name": "黑苗士兵甲",
+        "count": 1
+      }
+    ],
+    "nameCount": 2,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 492,
+    "file": "/assets/pal/sprites/npcs/npc_492.png",
+    "eventCount": 93,
+    "sceneIds": [
+      149,
+      153,
+      154,
+      279,
+      286,
+      287,
+      288,
+      289,
+      291,
+      292,
+      293
+    ],
+    "sceneCount": 11,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 7,
+      "npc": 86
+    },
+    "player": null
+  },
+  {
+    "sprite": 567,
+    "file": "/assets/pal/sprites/npcs/npc_567.png",
+    "eventCount": 18,
+    "sceneIds": [
+      259,
+      260,
+      261,
+      263,
+      274
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 8
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 4,
+      "npc": 14
+    },
+    "player": null
+  },
+  {
+    "sprite": 545,
+    "file": "/assets/pal/sprites/npcs/npc_545.png",
+    "eventCount": 16,
+    "sceneIds": [
+      229,
+      236,
+      237
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 7
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 9,
+      "npc": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 594,
+    "file": "/assets/pal/sprites/npcs/npc_594.png",
+    "eventCount": 10,
+    "sceneIds": [
+      259,
+      260,
+      263,
+      276
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 6
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 8,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 97,
+    "file": "/assets/pal/sprites/npcs/npc_097.png",
+    "eventCount": 9,
+    "sceneIds": [
+      79,
+      82,
+      84,
+      86
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "巡捕",
+        "count": 5
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 6,
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 566,
+    "file": "/assets/pal/sprites/npcs/npc_566.png",
+    "eventCount": 8,
+    "sceneIds": [
+      259,
+      260,
+      261,
+      263,
+      274
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 4,
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 593,
+    "file": "/assets/pal/sprites/npcs/npc_593.png",
+    "eventCount": 7,
+    "sceneIds": [
+      259,
+      260,
+      263
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 6,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 132,
+    "file": "/assets/pal/sprites/npcs/npc_132.png",
+    "eventCount": 6,
+    "sceneIds": [
+      58
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "和尚",
+        "count": 6
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 414,
+    "file": "/assets/pal/sprites/npcs/npc_414.png",
+    "eventCount": 6,
+    "sceneIds": [
+      79,
+      82
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "官差",
+        "count": 4
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 4,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 81,
+    "file": "/assets/pal/sprites/npcs/npc_081.png",
+    "eventCount": 5,
+    "sceneIds": [
+      100,
+      118,
+      121,
+      126,
+      143
+    ],
+    "sceneCount": 5,
+    "names": [
+      {
+        "name": "刘夫人",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 3,
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 24,
+    "file": "/assets/pal/sprites/npcs/npc_024.png",
+    "eventCount": 4,
+    "sceneIds": [
+      205,
+      262,
+      265,
+      276
+    ],
+    "sceneCount": 4,
+    "names": [
+      {
+        "name": "白苗族长",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 148,
+    "file": "/assets/pal/sprites/npcs/npc_148.png",
+    "eventCount": 4,
+    "sceneIds": [
+      30,
+      47,
+      48
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "少女",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 3,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 138,
+    "file": "/assets/pal/sprites/npcs/npc_138.png",
+    "eventCount": 3,
+    "sceneIds": [
+      53,
+      67,
+      77
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "韩梦慈",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 143,
+    "file": "/assets/pal/sprites/npcs/npc_143.png",
+    "eventCount": 3,
+    "sceneIds": [
+      38,
+      48,
+      175
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 2,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 177,
+    "file": "/assets/pal/sprites/npcs/npc_177.png",
+    "eventCount": 3,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "观众",
+        "count": 3
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 358,
+    "file": "/assets/pal/sprites/npcs/npc_358.png",
+    "eventCount": 3,
+    "sceneIds": [
+      150,
+      159,
+      177
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 2,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 364,
+    "file": "/assets/pal/sprites/npcs/npc_364.png",
+    "eventCount": 3,
+    "sceneIds": [
+      169,
+      173,
+      174
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "赵灵儿",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 405,
+    "file": "/assets/pal/sprites/npcs/npc_405.png",
+    "eventCount": 3,
+    "sceneIds": [
+      32,
+      125,
+      141
+    ],
+    "sceneCount": 3,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 20,
+    "file": "/assets/pal/sprites/npcs/npc_020.png",
+    "eventCount": 2,
+    "sceneIds": [
+      4,
+      47
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "香兰",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 22,
+    "file": "/assets/pal/sprites/npcs/npc_022.png",
+    "eventCount": 2,
+    "sceneIds": [
+      175,
+      183
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "阿桃",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 48,
+    "file": "/assets/pal/sprites/npcs/npc_048.png",
+    "eventCount": 2,
+    "sceneIds": [
+      4,
+      248
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "旺财嫂",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 49,
+    "file": "/assets/pal/sprites/npcs/npc_049.png",
+    "eventCount": 2,
+    "sceneIds": [
+      4,
+      248
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "来福婶",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 91,
+    "file": "/assets/pal/sprites/npcs/npc_091.png",
+    "eventCount": 2,
+    "sceneIds": [
+      53,
+      77
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 136,
+    "file": "/assets/pal/sprites/npcs/npc_136.png",
+    "eventCount": 2,
+    "sceneIds": [
+      126,
+      128
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "茅山道士",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 141,
+    "file": "/assets/pal/sprites/npcs/npc_141.png",
+    "eventCount": 2,
+    "sceneIds": [
+      48,
+      175
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 151,
+    "file": "/assets/pal/sprites/npcs/npc_151.png",
+    "eventCount": 2,
+    "sceneIds": [
+      21,
+      49
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 152,
+    "file": "/assets/pal/sprites/npcs/npc_152.png",
+    "eventCount": 2,
+    "sceneIds": [
+      175,
+      183
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 178,
+    "file": "/assets/pal/sprites/npcs/npc_178.png",
+    "eventCount": 2,
+    "sceneIds": [
+      25,
+      93
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "客人",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 200,
+    "file": "/assets/pal/sprites/npcs/npc_200.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗女",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 201,
+    "file": "/assets/pal/sprites/npcs/npc_201.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗女",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 202,
+    "file": "/assets/pal/sprites/npcs/npc_202.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗女",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 203,
+    "file": "/assets/pal/sprites/npcs/npc_203.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗民",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 204,
+    "file": "/assets/pal/sprites/npcs/npc_204.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗民",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 216,
+    "file": "/assets/pal/sprites/npcs/npc_216.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 218,
+    "file": "/assets/pal/sprites/npcs/npc_218.png",
+    "eventCount": 2,
+    "sceneIds": [
+      235
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 219,
+    "file": "/assets/pal/sprites/npcs/npc_219.png",
+    "eventCount": 2,
+    "sceneIds": [
+      206,
+      207
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 220,
+    "file": "/assets/pal/sprites/npcs/npc_220.png",
+    "eventCount": 2,
+    "sceneIds": [
+      56,
+      58
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "智泽",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 247,
+    "file": "/assets/pal/sprites/npcs/npc_247.png",
+    "eventCount": 2,
+    "sceneIds": [
+      32,
+      34
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "林天南",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 251,
+    "file": "/assets/pal/sprites/npcs/npc_251.png",
+    "eventCount": 2,
+    "sceneIds": [
+      41,
+      245
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "蛇妖男",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 295,
+    "file": "/assets/pal/sprites/npcs/npc_295.png",
+    "eventCount": 2,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "观众",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 314,
+    "file": "/assets/pal/sprites/npcs/npc_314.png",
+    "eventCount": 2,
+    "sceneIds": [
+      131,
+      133
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "老鸨",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 341,
+    "file": "/assets/pal/sprites/npcs/npc_341.png",
+    "eventCount": 2,
+    "sceneIds": [
+      55
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗人",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 351,
+    "file": "/assets/pal/sprites/npcs/npc_351.png",
+    "eventCount": 2,
+    "sceneIds": [
+      229,
+      243
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "石长老",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 365,
+    "file": "/assets/pal/sprites/npcs/npc_365.png",
+    "eventCount": 2,
+    "sceneIds": [
+      20,
+      169
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "赵灵儿",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 370,
+    "file": "/assets/pal/sprites/npcs/npc_370.png",
+    "eventCount": 2,
+    "sceneIds": [
+      82,
+      127
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "醉鬼",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 372,
+    "file": "/assets/pal/sprites/npcs/npc_372.png",
+    "eventCount": 2,
+    "sceneIds": [
+      59,
+      152
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小石头",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "treasure": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 412,
+    "file": "/assets/pal/sprites/npcs/npc_412.png",
+    "eventCount": 2,
+    "sceneIds": [
+      205,
+      265
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "唐钰",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 442,
+    "file": "/assets/pal/sprites/npcs/npc_442.png",
+    "eventCount": 2,
+    "sceneIds": [
+      23,
+      111
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小贩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 447,
+    "file": "/assets/pal/sprites/npcs/npc_447.png",
+    "eventCount": 2,
+    "sceneIds": [
+      192
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 451,
+    "file": "/assets/pal/sprites/npcs/npc_451.png",
+    "eventCount": 2,
+    "sceneIds": [
+      124,
+      138
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "刘晋元",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 513,
+    "file": "/assets/pal/sprites/npcs/npc_513.png",
+    "eventCount": 2,
+    "sceneIds": [
+      208,
+      265
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "苗女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 535,
+    "file": "/assets/pal/sprites/npcs/npc_535.png",
+    "eventCount": 2,
+    "sceneIds": [
+      247,
+      249
+    ],
+    "sceneCount": 2,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 554,
+    "file": "/assets/pal/sprites/npcs/npc_554.png",
+    "eventCount": 2,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "刽子手",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 555,
+    "file": "/assets/pal/sprites/npcs/npc_555.png",
+    "eventCount": 2,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 557,
+    "file": "/assets/pal/sprites/npcs/npc_557.png",
+    "eventCount": 2,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 560,
+    "file": "/assets/pal/sprites/npcs/npc_560.png",
+    "eventCount": 2,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 561,
+    "file": "/assets/pal/sprites/npcs/npc_561.png",
+    "eventCount": 2,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 634,
+    "file": "/assets/pal/sprites/npcs/npc_634.png",
+    "eventCount": 2,
+    "sceneIds": [
+      108
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 2
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 4,
+    "file": "/assets/pal/sprites/npcs/npc_004.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "秀兰",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 19,
+    "file": "/assets/pal/sprites/npcs/npc_019.png",
+    "eventCount": 1,
+    "sceneIds": [
+      103
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女子",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 21,
+    "file": "/assets/pal/sprites/npcs/npc_021.png",
+    "eventCount": 1,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李大娘",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 29,
+    "file": "/assets/pal/sprites/npcs/npc_029.png",
+    "eventCount": 1,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗人喽罗",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 31,
+    "file": "/assets/pal/sprites/npcs/npc_031.png",
+    "eventCount": 1,
+    "sceneIds": [
+      10
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "洪大夫",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 32,
+    "file": "/assets/pal/sprites/npcs/npc_032.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "王小虎",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 36,
+    "file": "/assets/pal/sprites/npcs/npc_036.png",
+    "eventCount": 1,
+    "sceneIds": [
+      5
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "渔翁",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 39,
+    "file": "/assets/pal/sprites/npcs/npc_039.png",
+    "eventCount": 1,
+    "sceneIds": [
+      49
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "村民",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 50,
+    "file": "/assets/pal/sprites/npcs/npc_050.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "孩童唱道",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 76,
+    "file": "/assets/pal/sprites/npcs/npc_076.png",
+    "eventCount": 1,
+    "sceneIds": [
+      21
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "大宝",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 77,
+    "file": "/assets/pal/sprites/npcs/npc_077.png",
+    "eventCount": 1,
+    "sceneIds": [
+      208
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 78,
+    "file": "/assets/pal/sprites/npcs/npc_078.png",
+    "eventCount": 1,
+    "sceneIds": [
+      208
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 92,
+    "file": "/assets/pal/sprites/npcs/npc_092.png",
+    "eventCount": 1,
+    "sceneIds": [
+      30
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "药铺老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 94,
+    "file": "/assets/pal/sprites/npcs/npc_094.png",
+    "eventCount": 1,
+    "sceneIds": [
+      100
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "赵大夫",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 114,
+    "file": "/assets/pal/sprites/npcs/npc_114.png",
+    "eventCount": 1,
+    "sceneIds": [
+      137
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "书生",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 116,
+    "file": "/assets/pal/sprites/npcs/npc_116.png",
+    "eventCount": 1,
+    "sceneIds": [
+      208
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 119,
+    "file": "/assets/pal/sprites/npcs/npc_119.png",
+    "eventCount": 1,
+    "sceneIds": [
+      51
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "渔夫",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 122,
+    "file": "/assets/pal/sprites/npcs/npc_122.png",
+    "eventCount": 1,
+    "sceneIds": [
+      23
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "算命仙",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 123,
+    "file": "/assets/pal/sprites/npcs/npc_123.png",
+    "eventCount": 1,
+    "sceneIds": [
+      127
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "算命仙",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 124,
+    "file": "/assets/pal/sprites/npcs/npc_124.png",
+    "eventCount": 1,
+    "sceneIds": [
+      34
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "管家林忠",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 131,
+    "file": "/assets/pal/sprites/npcs/npc_131.png",
+    "eventCount": 1,
+    "sceneIds": [
+      27
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小厮",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 135,
+    "file": "/assets/pal/sprites/npcs/npc_135.png",
+    "eventCount": 1,
+    "sceneIds": [
+      58
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "智修大师",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 145,
+    "file": "/assets/pal/sprites/npcs/npc_145.png",
+    "eventCount": 1,
+    "sceneIds": [
+      101
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 154,
+    "file": "/assets/pal/sprites/npcs/npc_154.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "孩童乙",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 155,
+    "file": "/assets/pal/sprites/npcs/npc_155.png",
+    "eventCount": 1,
+    "sceneIds": [
+      99
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 157,
+    "file": "/assets/pal/sprites/npcs/npc_157.png",
+    "eventCount": 1,
+    "sceneIds": [
+      51
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "小孩",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 167,
+    "file": "/assets/pal/sprites/npcs/npc_167.png",
+    "eventCount": 1,
+    "sceneIds": [
+      84
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "乞丐",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 169,
+    "file": "/assets/pal/sprites/npcs/npc_169.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "观众",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 171,
+    "file": "/assets/pal/sprites/npcs/npc_171.png",
+    "eventCount": 1,
+    "sceneIds": [
+      99
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "父",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 172,
+    "file": "/assets/pal/sprites/npcs/npc_172.png",
+    "eventCount": 1,
+    "sceneIds": [
+      93
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "客人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 175,
+    "file": "/assets/pal/sprites/npcs/npc_175.png",
+    "eventCount": 1,
+    "sceneIds": [
+      25
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "客人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 179,
+    "file": "/assets/pal/sprites/npcs/npc_179.png",
+    "eventCount": 1,
+    "sceneIds": [
+      25
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "客人甲",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 181,
+    "file": "/assets/pal/sprites/npcs/npc_181.png",
+    "eventCount": 1,
+    "sceneIds": [
+      25
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "客人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 188,
+    "file": "/assets/pal/sprites/npcs/npc_188.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "待诊病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 189,
+    "file": "/assets/pal/sprites/npcs/npc_189.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 190,
+    "file": "/assets/pal/sprites/npcs/npc_190.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 191,
+    "file": "/assets/pal/sprites/npcs/npc_191.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 192,
+    "file": "/assets/pal/sprites/npcs/npc_192.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 207,
+    "file": "/assets/pal/sprites/npcs/npc_207.png",
+    "eventCount": 1,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "苗人头领",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 234,
+    "file": "/assets/pal/sprites/npcs/npc_234.png",
+    "eventCount": 1,
+    "sceneIds": [
+      28
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 244,
+    "file": "/assets/pal/sprites/npcs/npc_244.png",
+    "eventCount": 1,
+    "sceneIds": [
+      36
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 248,
+    "file": "/assets/pal/sprites/npcs/npc_248.png",
+    "eventCount": 1,
+    "sceneIds": [
+      35
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "丫鬟",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 249,
+    "file": "/assets/pal/sprites/npcs/npc_249.png",
+    "eventCount": 1,
+    "sceneIds": [
+      120
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 250,
+    "file": "/assets/pal/sprites/npcs/npc_250.png",
+    "eventCount": 1,
+    "sceneIds": [
+      49
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "守桥壮丁",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 252,
+    "file": "/assets/pal/sprites/npcs/npc_252.png",
+    "eventCount": 1,
+    "sceneIds": [
+      47
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "妖狐女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 265,
+    "file": "/assets/pal/sprites/npcs/npc_265.png",
+    "eventCount": 1,
+    "sceneIds": [
+      52
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "煎药僮子",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 279,
+    "file": "/assets/pal/sprites/npcs/npc_279.png",
+    "eventCount": 1,
+    "sceneIds": [
+      24
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "居民",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 281,
+    "file": "/assets/pal/sprites/npcs/npc_281.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "老头",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 284,
+    "file": "/assets/pal/sprites/npcs/npc_284.png",
+    "eventCount": 1,
+    "sceneIds": [
+      93
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "旅客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 285,
+    "file": "/assets/pal/sprites/npcs/npc_285.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "商人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 289,
+    "file": "/assets/pal/sprites/npcs/npc_289.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "路人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 294,
+    "file": "/assets/pal/sprites/npcs/npc_294.png",
+    "eventCount": 1,
+    "sceneIds": [
+      24
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "夫",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 306,
+    "file": "/assets/pal/sprites/npcs/npc_306.png",
+    "eventCount": 1,
+    "sceneIds": [
+      118
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 309,
+    "file": "/assets/pal/sprites/npcs/npc_309.png",
+    "eventCount": 1,
+    "sceneIds": [
+      82
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "少女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 310,
+    "file": "/assets/pal/sprites/npcs/npc_310.png",
+    "eventCount": 1,
+    "sceneIds": [
+      82
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "当铺老板",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 318,
+    "file": "/assets/pal/sprites/npcs/npc_318.png",
+    "eventCount": 1,
+    "sceneIds": [
+      132
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "胖妓女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 319,
+    "file": "/assets/pal/sprites/npcs/npc_319.png",
+    "eventCount": 1,
+    "sceneIds": [
+      95
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "煮饭婆",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 326,
+    "file": "/assets/pal/sprites/npcs/npc_326.png",
+    "eventCount": 1,
+    "sceneIds": [
+      89
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "婢女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 330,
+    "file": "/assets/pal/sprites/npcs/npc_330.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 331,
+    "file": "/assets/pal/sprites/npcs/npc_331.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 332,
+    "file": "/assets/pal/sprites/npcs/npc_332.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 333,
+    "file": "/assets/pal/sprites/npcs/npc_333.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 334,
+    "file": "/assets/pal/sprites/npcs/npc_334.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 335,
+    "file": "/assets/pal/sprites/npcs/npc_335.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 336,
+    "file": "/assets/pal/sprites/npcs/npc_336.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 337,
+    "file": "/assets/pal/sprites/npcs/npc_337.png",
+    "eventCount": 1,
+    "sceneIds": [
+      129
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "女客",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 338,
+    "file": "/assets/pal/sprites/npcs/npc_338.png",
+    "eventCount": 1,
+    "sceneIds": [
+      14
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "少女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 344,
+    "file": "/assets/pal/sprites/npcs/npc_344.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 345,
+    "file": "/assets/pal/sprites/npcs/npc_345.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 346,
+    "file": "/assets/pal/sprites/npcs/npc_346.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "病人",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 360,
+    "file": "/assets/pal/sprites/npcs/npc_360.png",
+    "eventCount": 1,
+    "sceneIds": [
+      56
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "和尚",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 368,
+    "file": "/assets/pal/sprites/npcs/npc_368.png",
+    "eventCount": 1,
+    "sceneIds": [
+      96
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "磨刀老头",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 375,
+    "file": "/assets/pal/sprites/npcs/npc_375.png",
+    "eventCount": 1,
+    "sceneIds": [
+      93
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "无赖",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 382,
+    "file": "/assets/pal/sprites/npcs/npc_382.png",
+    "eventCount": 1,
+    "sceneIds": [
+      81
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "太守",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 387,
+    "file": "/assets/pal/sprites/npcs/npc_387.png",
+    "eventCount": 1,
+    "sceneIds": [
+      101
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "林月如",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 396,
+    "file": "/assets/pal/sprites/npcs/npc_396.png",
+    "eventCount": 1,
+    "sceneIds": [
+      160
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 409,
+    "file": "/assets/pal/sprites/npcs/npc_409.png",
+    "eventCount": 1,
+    "sceneIds": [
+      130
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "男子",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 415,
+    "file": "/assets/pal/sprites/npcs/npc_415.png",
+    "eventCount": 1,
+    "sceneIds": [
+      134
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "妓女",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 422,
+    "file": "/assets/pal/sprites/npcs/npc_422.png",
+    "eventCount": 1,
+    "sceneIds": [
+      263
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "士兵",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 423,
+    "file": "/assets/pal/sprites/npcs/npc_423.png",
+    "eventCount": 1,
+    "sceneIds": [
+      211
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "守卫",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 428,
+    "file": "/assets/pal/sprites/npcs/npc_428.png",
+    "eventCount": 1,
+    "sceneIds": [
+      109
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "盖罗娇",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 478,
+    "file": "/assets/pal/sprites/npcs/npc_478.png",
+    "eventCount": 1,
+    "sceneIds": [
+      200
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 504,
+    "file": "/assets/pal/sprites/npcs/npc_504.png",
+    "eventCount": 1,
+    "sceneIds": [
+      154
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "书中仙",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 505,
+    "file": "/assets/pal/sprites/npcs/npc_505.png",
+    "eventCount": 1,
+    "sceneIds": [
+      147
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 506,
+    "file": "/assets/pal/sprites/npcs/npc_506.png",
+    "eventCount": 1,
+    "sceneIds": [
+      148
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "坛中妖怪",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 536,
+    "file": "/assets/pal/sprites/npcs/npc_536.png",
+    "eventCount": 1,
+    "sceneIds": [
+      251
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 553,
+    "file": "/assets/pal/sprites/npcs/npc_553.png",
+    "eventCount": 1,
+    "sceneIds": [
+      249
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 556,
+    "file": "/assets/pal/sprites/npcs/npc_556.png",
+    "eventCount": 1,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 558,
+    "file": "/assets/pal/sprites/npcs/npc_558.png",
+    "eventCount": 1,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 559,
+    "file": "/assets/pal/sprites/npcs/npc_559.png",
+    "eventCount": 1,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "汉人俘虏",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 588,
+    "file": "/assets/pal/sprites/npcs/npc_588.png",
+    "eventCount": 1,
+    "sceneIds": [
+      249
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "李逍遥",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 589,
+    "file": "/assets/pal/sprites/npcs/npc_589.png",
+    "eventCount": 1,
+    "sceneIds": [
+      253
+    ],
+    "sceneCount": 1,
+    "names": [
+      {
+        "name": "王婶",
+        "count": 1
+      }
+    ],
+    "nameCount": 1,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 10,
+    "file": "/assets/pal/sprites/npcs/npc_010.png",
+    "eventCount": 420,
+    "sceneIds": [
+      17,
+      20,
+      36,
+      40,
+      41,
+      44,
+      45,
+      47,
+      59,
+      60,
+      61,
+      62,
+      64,
+      65,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      101,
+      102,
+      103,
+      104,
+      119,
+      139,
+      147,
+      148,
+      154,
+      156,
+      165,
+      166,
+      167,
+      168,
+      180,
+      184,
+      189,
+      190,
+      219,
+      220,
+      222,
+      223,
+      225,
+      226,
+      231,
+      233,
+      243,
+      244,
+      245,
+      279,
+      286,
+      287,
+      288,
+      289,
+      291,
+      292,
+      293
+    ],
+    "sceneCount": 58,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 403,
+      "npc": 17
+    },
+    "player": null
+  },
+  {
+    "sprite": 11,
+    "file": "/assets/pal/sprites/npcs/npc_011.png",
+    "eventCount": 169,
+    "sceneIds": [
+      6,
+      40,
+      41,
+      42,
+      44,
+      45,
+      59,
+      60,
+      64,
+      65,
+      147,
+      148,
+      154,
+      156,
+      165,
+      166,
+      167,
+      168,
+      180,
+      189,
+      190,
+      215,
+      216,
+      217,
+      220,
+      250,
+      279,
+      285,
+      288,
+      291,
+      292,
+      293
+    ],
+    "sceneCount": 32,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 169
+    },
+    "player": null
+  },
+  {
+    "sprite": 619,
+    "file": "/assets/pal/sprites/npcs/npc_619.png",
+    "eventCount": 114,
+    "sceneIds": [
+      67,
+      91,
+      230,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      279,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290
+    ],
+    "sceneCount": 16,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 114
+    },
+    "player": null
+  },
+  {
+    "sprite": 272,
+    "file": "/assets/pal/sprites/npcs/npc_272.png",
+    "eventCount": 93,
+    "sceneIds": [
+      59,
+      156
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 93
+    },
+    "player": null
+  },
+  {
+    "sprite": 548,
+    "file": "/assets/pal/sprites/npcs/npc_548.png",
+    "eventCount": 77,
+    "sceneIds": [
+      70,
+      71,
+      72,
+      73,
+      76,
+      259,
+      260,
+      267,
+      269,
+      279,
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "sceneCount": 15,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 77
+    },
+    "player": null
+  },
+  {
+    "sprite": 59,
+    "file": "/assets/pal/sprites/npcs/npc_059.png",
+    "eventCount": 76,
+    "sceneIds": [
+      54,
+      59,
+      60,
+      61,
+      63,
+      65,
+      80,
+      149,
+      156,
+      168
+    ],
+    "sceneCount": 10,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 75,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 472,
+    "file": "/assets/pal/sprites/npcs/npc_472.png",
+    "eventCount": 73,
+    "sceneIds": [
+      40,
+      41,
+      42,
+      44,
+      45,
+      71,
+      75,
+      80,
+      215,
+      216,
+      217,
+      219,
+      220,
+      222,
+      223,
+      226
+    ],
+    "sceneCount": 16,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 73
+    },
+    "player": null
+  },
+  {
+    "sprite": 470,
+    "file": "/assets/pal/sprites/npcs/npc_470.png",
+    "eventCount": 65,
+    "sceneIds": [
+      147,
+      154,
+      156,
+      165,
+      166,
+      167,
+      168
+    ],
+    "sceneCount": 7,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 65
+    },
+    "player": null
+  },
+  {
+    "sprite": 471,
+    "file": "/assets/pal/sprites/npcs/npc_471.png",
+    "eventCount": 59,
+    "sceneIds": [
+      200,
+      212
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 59
+    },
+    "player": null
+  },
+  {
+    "sprite": 591,
+    "file": "/assets/pal/sprites/npcs/npc_591.png",
+    "eventCount": 59,
+    "sceneIds": [
+      101,
+      102,
+      104,
+      113,
+      218,
+      219,
+      220,
+      222,
+      226
+    ],
+    "sceneCount": 9,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 59
+    },
+    "player": null
+  },
+  {
+    "sprite": 60,
+    "file": "/assets/pal/sprites/npcs/npc_060.png",
+    "eventCount": 54,
+    "sceneIds": [
+      6,
+      139,
+      180,
+      184,
+      189,
+      190,
+      250
+    ],
+    "sceneCount": 7,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 54
+    },
+    "player": null
+  },
+  {
+    "sprite": 8,
+    "file": "/assets/pal/sprites/npcs/npc_008.png",
+    "eventCount": 53,
+    "sceneIds": [
+      20,
+      58,
+      159
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 53
+    },
+    "player": null
+  },
+  {
+    "sprite": 488,
+    "file": "/assets/pal/sprites/npcs/npc_488.png",
+    "eventCount": 47,
+    "sceneIds": [
+      139,
+      141,
+      185,
+      192,
+      216,
+      217,
+      218,
+      219,
+      220,
+      222,
+      223,
+      226
+    ],
+    "sceneCount": 12,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 46,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 298,
+    "file": "/assets/pal/sprites/npcs/npc_298.png",
+    "eventCount": 44,
+    "sceneIds": [
+      59,
+      156
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 44
+    },
+    "player": null
+  },
+  {
+    "sprite": 271,
+    "file": "/assets/pal/sprites/npcs/npc_271.png",
+    "eventCount": 42,
+    "sceneIds": [
+      59,
+      60,
+      65,
+      89,
+      156,
+      187
+    ],
+    "sceneCount": 6,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 42
+    },
+    "player": null
+  },
+  {
+    "sprite": 460,
+    "file": "/assets/pal/sprites/npcs/npc_460.png",
+    "eventCount": 42,
+    "sceneIds": [
+      148,
+      149,
+      154,
+      156,
+      167,
+      168,
+      200,
+      212,
+      289,
+      292,
+      293
+    ],
+    "sceneCount": 11,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 41,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 495,
+    "file": "/assets/pal/sprites/npcs/npc_495.png",
+    "eventCount": 41,
+    "sceneIds": [
+      148,
+      149,
+      154,
+      156,
+      167,
+      168
+    ],
+    "sceneCount": 6,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 39,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 84,
+    "file": "/assets/pal/sprites/npcs/npc_084.png",
+    "eventCount": 40,
+    "sceneIds": [
+      17,
+      213
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 40
+    },
+    "player": null
+  },
+  {
+    "sprite": 256,
+    "file": "/assets/pal/sprites/npcs/npc_256.png",
+    "eventCount": 40,
+    "sceneIds": [
+      49,
+      231,
+      233
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1,
+      "npc": 39
+    },
+    "player": null
+  },
+  {
+    "sprite": 549,
+    "file": "/assets/pal/sprites/npcs/npc_549.png",
+    "eventCount": 39,
+    "sceneIds": [
+      70,
+      71,
+      72,
+      76,
+      279,
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "sceneCount": 10,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 39
+    },
+    "player": null
+  },
+  {
+    "sprite": 474,
+    "file": "/assets/pal/sprites/npcs/npc_474.png",
+    "eventCount": 38,
+    "sceneIds": [
+      60,
+      61,
+      63,
+      64,
+      65,
+      149
+    ],
+    "sceneCount": 6,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 37,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 490,
+    "file": "/assets/pal/sprites/npcs/npc_490.png",
+    "eventCount": 37,
+    "sceneIds": [
+      156,
+      168
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 37
+    },
+    "player": null
+  },
+  {
+    "sprite": 625,
+    "file": "/assets/pal/sprites/npcs/npc_625.png",
+    "eventCount": 37,
+    "sceneIds": [
+      101,
+      102,
+      104,
+      215,
+      216,
+      219,
+      220,
+      222,
+      223,
+      226,
+      289,
+      291,
+      292,
+      293
+    ],
+    "sceneCount": 14,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 37
+    },
+    "player": null
+  },
+  {
+    "sprite": 618,
+    "file": "/assets/pal/sprites/npcs/npc_618.png",
+    "eventCount": 34,
+    "sceneIds": [
+      67,
+      76,
+      77,
+      91,
+      92
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 34
+    },
+    "player": null
+  },
+  {
+    "sprite": 68,
+    "file": "/assets/pal/sprites/npcs/npc_068.png",
+    "eventCount": 30,
+    "sceneIds": [
+      4,
+      6,
+      69,
+      80,
+      101,
+      102,
+      139,
+      176,
+      179,
+      186,
+      192
+    ],
+    "sceneCount": 11,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 30
+    },
+    "player": null
+  },
+  {
+    "sprite": 389,
+    "file": "/assets/pal/sprites/npcs/npc_389.png",
+    "eventCount": 29,
+    "sceneIds": [
+      46,
+      47,
+      76,
+      92,
+      119,
+      184,
+      213,
+      223,
+      226,
+      290
+    ],
+    "sceneCount": 10,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 25,
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 473,
+    "file": "/assets/pal/sprites/npcs/npc_473.png",
+    "eventCount": 29,
+    "sceneIds": [
+      6,
+      40,
+      41,
+      42,
+      45,
+      54,
+      70,
+      71,
+      72,
+      73,
+      75,
+      180,
+      190,
+      250
+    ],
+    "sceneCount": 14,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 29
+    },
+    "player": null
+  },
+  {
+    "sprite": 626,
+    "file": "/assets/pal/sprites/npcs/npc_626.png",
+    "eventCount": 28,
+    "sceneIds": [
+      101,
+      102,
+      104,
+      113,
+      215,
+      216,
+      222,
+      223,
+      224,
+      226,
+      291,
+      292
+    ],
+    "sceneCount": 12,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 28
+    },
+    "player": null
+  },
+  {
+    "sprite": 617,
+    "file": "/assets/pal/sprites/npcs/npc_617.png",
+    "eventCount": 24,
+    "sceneIds": [
+      76,
+      91,
+      92
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 24
+    },
+    "player": null
+  },
+  {
+    "sprite": 1,
+    "file": "/assets/pal/sprites/npcs/npc_001.png",
+    "eventCount": 21,
+    "sceneIds": [
+      5,
+      19,
+      35,
+      176,
+      186
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 21
+    },
+    "player": null
+  },
+  {
+    "sprite": 61,
+    "file": "/assets/pal/sprites/npcs/npc_061.png",
+    "eventCount": 21,
+    "sceneIds": [
+      185,
+      192
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 21
+    },
+    "player": null
+  },
+  {
+    "sprite": 166,
+    "file": "/assets/pal/sprites/npcs/npc_166.png",
+    "eventCount": 20,
+    "sceneIds": [
+      19,
+      49,
+      52,
+      108,
+      141,
+      142,
+      275
+    ],
+    "sceneCount": 7,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 20
+    },
+    "player": null
+  },
+  {
+    "sprite": 621,
+    "file": "/assets/pal/sprites/npcs/npc_621.png",
+    "eventCount": 20,
+    "sceneIds": [
+      165,
+      166,
+      167
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 20
+    },
+    "player": null
+  },
+  {
+    "sprite": 52,
+    "file": "/assets/pal/sprites/npcs/npc_052.png",
+    "eventCount": 18,
+    "sceneIds": [
+      5,
+      19,
+      35,
+      176,
+      186
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 18
+    },
+    "player": null
+  },
+  {
+    "sprite": 466,
+    "file": "/assets/pal/sprites/npcs/npc_466.png",
+    "eventCount": 18,
+    "sceneIds": [
+      6,
+      147,
+      184,
+      190,
+      250
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 18
+    },
+    "player": null
+  },
+  {
+    "sprite": 269,
+    "file": "/assets/pal/sprites/npcs/npc_269.png",
+    "eventCount": 17,
+    "sceneIds": [
+      60,
+      65,
+      67,
+      187
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 16,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 9,
+    "file": "/assets/pal/sprites/npcs/npc_009.png",
+    "eventCount": 14,
+    "sceneIds": [
+      20,
+      34,
+      36,
+      37,
+      38,
+      89,
+      90,
+      195
+    ],
+    "sceneCount": 8,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 14
+    },
+    "player": null
+  },
+  {
+    "sprite": 464,
+    "file": "/assets/pal/sprites/npcs/npc_464.png",
+    "eventCount": 13,
+    "sceneIds": [
+      147,
+      148,
+      166
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 13
+    },
+    "player": null
+  },
+  {
+    "sprite": 429,
+    "file": "/assets/pal/sprites/npcs/npc_429.png",
+    "eventCount": 12,
+    "sceneIds": [
+      109,
+      259,
+      267,
+      274,
+      276
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 8,
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 468,
+    "file": "/assets/pal/sprites/npcs/npc_468.png",
+    "eventCount": 12,
+    "sceneIds": [
+      16,
+      54,
+      220,
+      221,
+      222
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 12
+    },
+    "player": null
+  },
+  {
+    "sprite": 623,
+    "file": "/assets/pal/sprites/npcs/npc_623.png",
+    "eventCount": 11,
+    "sceneIds": [
+      161,
+      162,
+      163
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 11
+    },
+    "player": null
+  },
+  {
+    "sprite": 430,
+    "file": "/assets/pal/sprites/npcs/npc_430.png",
+    "eventCount": 10,
+    "sceneIds": [
+      109,
+      259,
+      267,
+      274,
+      276
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 6,
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 462,
+    "file": "/assets/pal/sprites/npcs/npc_462.png",
+    "eventCount": 10,
+    "sceneIds": [
+      6,
+      180,
+      189,
+      250
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 10
+    },
+    "player": null
+  },
+  {
+    "sprite": 47,
+    "file": "/assets/pal/sprites/npcs/npc_047.png",
+    "eventCount": 9,
+    "sceneIds": [
+      4,
+      49,
+      206
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 9
+    },
+    "player": null
+  },
+  {
+    "sprite": 70,
+    "file": "/assets/pal/sprites/npcs/npc_070.png",
+    "eventCount": 9,
+    "sceneIds": [
+      176,
+      186,
+      188,
+      192
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 9
+    },
+    "player": null
+  },
+  {
+    "sprite": 196,
+    "file": "/assets/pal/sprites/npcs/npc_196.png",
+    "eventCount": 9,
+    "sceneIds": [
+      5,
+      15,
+      100,
+      111,
+      254
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 9
+    },
+    "player": null
+  },
+  {
+    "sprite": 270,
+    "file": "/assets/pal/sprites/npcs/npc_270.png",
+    "eventCount": 9,
+    "sceneIds": [
+      60,
+      65
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 9
+    },
+    "player": null
+  },
+  {
+    "sprite": 69,
+    "file": "/assets/pal/sprites/npcs/npc_069.png",
+    "eventCount": 8,
+    "sceneIds": [
+      4,
+      6,
+      14,
+      176,
+      186,
+      188,
+      192
+    ],
+    "sceneCount": 7,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 8
+    },
+    "player": null
+  },
+  {
+    "sprite": 347,
+    "file": "/assets/pal/sprites/npcs/npc_347.png",
+    "eventCount": 8,
+    "sceneIds": [
+      87
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 8
+    },
+    "player": null
+  },
+  {
+    "sprite": 540,
+    "file": "/assets/pal/sprites/npcs/npc_540.png",
+    "eventCount": 8,
+    "sceneIds": [
+      182
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 8
+    },
+    "player": null
+  },
+  {
+    "sprite": 597,
+    "file": "/assets/pal/sprites/npcs/npc_597.png",
+    "eventCount": 8,
+    "sceneIds": [
+      259,
+      260,
+      261,
+      274
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3,
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 160,
+    "file": "/assets/pal/sprites/npcs/npc_160.png",
+    "eventCount": 7,
+    "sceneIds": [
+      19,
+      49,
+      52,
+      108
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 162,
+    "file": "/assets/pal/sprites/npcs/npc_162.png",
+    "eventCount": 7,
+    "sceneIds": [
+      19,
+      52,
+      108,
+      275
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 524,
+    "file": "/assets/pal/sprites/npcs/npc_524.png",
+    "eventCount": 7,
+    "sceneIds": [
+      144
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 546,
+    "file": "/assets/pal/sprites/npcs/npc_546.png",
+    "eventCount": 7,
+    "sceneIds": [
+      259,
+      267,
+      274
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 4,
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 581,
+    "file": "/assets/pal/sprites/npcs/npc_581.png",
+    "eventCount": 7,
+    "sceneIds": [
+      236,
+      269
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 7
+    },
+    "player": null
+  },
+  {
+    "sprite": 598,
+    "file": "/assets/pal/sprites/npcs/npc_598.png",
+    "eventCount": 7,
+    "sceneIds": [
+      259,
+      260,
+      261,
+      274
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3,
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 66,
+    "file": "/assets/pal/sprites/npcs/npc_066.png",
+    "eventCount": 6,
+    "sceneIds": [
+      17
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 161,
+    "file": "/assets/pal/sprites/npcs/npc_161.png",
+    "eventCount": 6,
+    "sceneIds": [
+      19,
+      108
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 260,
+    "file": "/assets/pal/sprites/npcs/npc_260.png",
+    "eventCount": 6,
+    "sceneIds": [
+      40,
+      44
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 439,
+    "file": "/assets/pal/sprites/npcs/npc_439.png",
+    "eventCount": 6,
+    "sceneIds": [
+      130
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 514,
+    "file": "/assets/pal/sprites/npcs/npc_514.png",
+    "eventCount": 6,
+    "sceneIds": [
+      185,
+      192
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 523,
+    "file": "/assets/pal/sprites/npcs/npc_523.png",
+    "eventCount": 6,
+    "sceneIds": [
+      173,
+      175
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 578,
+    "file": "/assets/pal/sprites/npcs/npc_578.png",
+    "eventCount": 6,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 580,
+    "file": "/assets/pal/sprites/npcs/npc_580.png",
+    "eventCount": 6,
+    "sceneIds": [
+      236
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 606,
+    "file": "/assets/pal/sprites/npcs/npc_606.png",
+    "eventCount": 6,
+    "sceneIds": [
+      262
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 624,
+    "file": "/assets/pal/sprites/npcs/npc_624.png",
+    "eventCount": 6,
+    "sceneIds": [
+      161,
+      162,
+      163
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 6
+    },
+    "player": null
+  },
+  {
+    "sprite": 46,
+    "file": "/assets/pal/sprites/npcs/npc_046.png",
+    "eventCount": 5,
+    "sceneIds": [
+      4,
+      49,
+      206
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 67,
+    "file": "/assets/pal/sprites/npcs/npc_067.png",
+    "eventCount": 5,
+    "sceneIds": [
+      14,
+      17,
+      19
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 231,
+    "file": "/assets/pal/sprites/npcs/npc_231.png",
+    "eventCount": 5,
+    "sceneIds": [
+      5,
+      22,
+      79,
+      84
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1,
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 261,
+    "file": "/assets/pal/sprites/npcs/npc_261.png",
+    "eventCount": 5,
+    "sceneIds": [
+      40,
+      44
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 263,
+    "file": "/assets/pal/sprites/npcs/npc_263.png",
+    "eventCount": 5,
+    "sceneIds": [
+      41,
+      44
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 397,
+    "file": "/assets/pal/sprites/npcs/npc_397.png",
+    "eventCount": 5,
+    "sceneIds": [
+      66,
+      126,
+      194,
+      195,
+      258
+    ],
+    "sceneCount": 5,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 424,
+    "file": "/assets/pal/sprites/npcs/npc_424.png",
+    "eventCount": 5,
+    "sceneIds": [
+      109,
+      202
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 425,
+    "file": "/assets/pal/sprites/npcs/npc_425.png",
+    "eventCount": 5,
+    "sceneIds": [
+      109,
+      202
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 579,
+    "file": "/assets/pal/sprites/npcs/npc_579.png",
+    "eventCount": 5,
+    "sceneIds": [
+      236,
+      267,
+      269
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 599,
+    "file": "/assets/pal/sprites/npcs/npc_599.png",
+    "eventCount": 5,
+    "sceneIds": [
+      259,
+      260
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 4,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 600,
+    "file": "/assets/pal/sprites/npcs/npc_600.png",
+    "eventCount": 5,
+    "sceneIds": [
+      259,
+      260
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 603,
+    "file": "/assets/pal/sprites/npcs/npc_603.png",
+    "eventCount": 5,
+    "sceneIds": [
+      258
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 605,
+    "file": "/assets/pal/sprites/npcs/npc_605.png",
+    "eventCount": 5,
+    "sceneIds": [
+      262
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 633,
+    "file": "/assets/pal/sprites/npcs/npc_633.png",
+    "eventCount": 5,
+    "sceneIds": [
+      214,
+      215
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 5
+    },
+    "player": null
+  },
+  {
+    "sprite": 54,
+    "file": "/assets/pal/sprites/npcs/npc_054.png",
+    "eventCount": 4,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 274,
+    "file": "/assets/pal/sprites/npcs/npc_274.png",
+    "eventCount": 4,
+    "sceneIds": [
+      93
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 275,
+    "file": "/assets/pal/sprites/npcs/npc_275.png",
+    "eventCount": 4,
+    "sceneIds": [
+      93
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 300,
+    "file": "/assets/pal/sprites/npcs/npc_300.png",
+    "eventCount": 4,
+    "sceneIds": [
+      68,
+      69
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 400,
+    "file": "/assets/pal/sprites/npcs/npc_400.png",
+    "eventCount": 4,
+    "sceneIds": [
+      66,
+      140,
+      153,
+      155
+    ],
+    "sceneCount": 4,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 494,
+    "file": "/assets/pal/sprites/npcs/npc_494.png",
+    "eventCount": 4,
+    "sceneIds": [
+      149,
+      153
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 610,
+    "file": "/assets/pal/sprites/npcs/npc_610.png",
+    "eventCount": 4,
+    "sceneIds": [
+      274,
+      275,
+      276
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 4
+    },
+    "player": null
+  },
+  {
+    "sprite": 45,
+    "file": "/assets/pal/sprites/npcs/npc_045.png",
+    "eventCount": 3,
+    "sceneIds": [
+      4,
+      49,
+      206
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 62,
+    "file": "/assets/pal/sprites/npcs/npc_062.png",
+    "eventCount": 3,
+    "sceneIds": [
+      4,
+      5
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 63,
+    "file": "/assets/pal/sprites/npcs/npc_063.png",
+    "eventCount": 3,
+    "sceneIds": [
+      4,
+      5
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 74,
+    "file": "/assets/pal/sprites/npcs/npc_074.png",
+    "eventCount": 3,
+    "sceneIds": [
+      25,
+      93,
+      128
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 262,
+    "file": "/assets/pal/sprites/npcs/npc_262.png",
+    "eventCount": 3,
+    "sceneIds": [
+      40,
+      41
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 301,
+    "file": "/assets/pal/sprites/npcs/npc_301.png",
+    "eventCount": 3,
+    "sceneIds": [
+      113
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 369,
+    "file": "/assets/pal/sprites/npcs/npc_369.png",
+    "eventCount": 3,
+    "sceneIds": [
+      85,
+      93,
+      206
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 373,
+    "file": "/assets/pal/sprites/npcs/npc_373.png",
+    "eventCount": 3,
+    "sceneIds": [
+      24,
+      49,
+      275
+    ],
+    "sceneCount": 3,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1,
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 577,
+    "file": "/assets/pal/sprites/npcs/npc_577.png",
+    "eventCount": 3,
+    "sceneIds": [
+      267,
+      269
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 615,
+    "file": "/assets/pal/sprites/npcs/npc_615.png",
+    "eventCount": 3,
+    "sceneIds": [
+      245
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 3
+    },
+    "player": null
+  },
+  {
+    "sprite": 44,
+    "file": "/assets/pal/sprites/npcs/npc_044.png",
+    "eventCount": 2,
+    "sceneIds": [
+      4,
+      49
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 53,
+    "file": "/assets/pal/sprites/npcs/npc_053.png",
+    "eventCount": 2,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1,
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 146,
+    "file": "/assets/pal/sprites/npcs/npc_146.png",
+    "eventCount": 2,
+    "sceneIds": [
+      47,
+      194
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 164,
+    "file": "/assets/pal/sprites/npcs/npc_164.png",
+    "eventCount": 2,
+    "sceneIds": [
+      4,
+      23
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 165,
+    "file": "/assets/pal/sprites/npcs/npc_165.png",
+    "eventCount": 2,
+    "sceneIds": [
+      19,
+      275
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 223,
+    "file": "/assets/pal/sprites/npcs/npc_223.png",
+    "eventCount": 2,
+    "sceneIds": [
+      20
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 229,
+    "file": "/assets/pal/sprites/npcs/npc_229.png",
+    "eventCount": 2,
+    "sceneIds": [
+      77,
+      196
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 230,
+    "file": "/assets/pal/sprites/npcs/npc_230.png",
+    "eventCount": 2,
+    "sceneIds": [
+      76,
+      171
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 1,
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 232,
+    "file": "/assets/pal/sprites/npcs/npc_232.png",
+    "eventCount": 2,
+    "sceneIds": [
+      119,
+      124
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 241,
+    "file": "/assets/pal/sprites/npcs/npc_241.png",
+    "eventCount": 2,
+    "sceneIds": [
+      32,
+      193
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 245,
+    "file": "/assets/pal/sprites/npcs/npc_245.png",
+    "eventCount": 2,
+    "sceneIds": [
+      37,
+      195
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 339,
+    "file": "/assets/pal/sprites/npcs/npc_339.png",
+    "eventCount": 2,
+    "sceneIds": [
+      14,
+      170
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 398,
+    "file": "/assets/pal/sprites/npcs/npc_398.png",
+    "eventCount": 2,
+    "sceneIds": [
+      66,
+      196
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 421,
+    "file": "/assets/pal/sprites/npcs/npc_421.png",
+    "eventCount": 2,
+    "sceneIds": [
+      110
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 427,
+    "file": "/assets/pal/sprites/npcs/npc_427.png",
+    "eventCount": 2,
+    "sceneIds": [
+      202
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 491,
+    "file": "/assets/pal/sprites/npcs/npc_491.png",
+    "eventCount": 2,
+    "sceneIds": [
+      148,
+      154
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 501,
+    "file": "/assets/pal/sprites/npcs/npc_501.png",
+    "eventCount": 2,
+    "sceneIds": [
+      192
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 515,
+    "file": "/assets/pal/sprites/npcs/npc_515.png",
+    "eventCount": 2,
+    "sceneIds": [
+      173,
+      174
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 539,
+    "file": "/assets/pal/sprites/npcs/npc_539.png",
+    "eventCount": 2,
+    "sceneIds": [
+      172,
+      174
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 562,
+    "file": "/assets/pal/sprites/npcs/npc_562.png",
+    "eventCount": 2,
+    "sceneIds": [
+      234,
+      237
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 565,
+    "file": "/assets/pal/sprites/npcs/npc_565.png",
+    "eventCount": 2,
+    "sceneIds": [
+      237,
+      278
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 573,
+    "file": "/assets/pal/sprites/npcs/npc_573.png",
+    "eventCount": 2,
+    "sceneIds": [
+      228,
+      234
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 596,
+    "file": "/assets/pal/sprites/npcs/npc_596.png",
+    "eventCount": 2,
+    "sceneIds": [
+      181,
+      183
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 609,
+    "file": "/assets/pal/sprites/npcs/npc_609.png",
+    "eventCount": 2,
+    "sceneIds": [
+      174,
+      177
+    ],
+    "sceneCount": 2,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 620,
+    "file": "/assets/pal/sprites/npcs/npc_620.png",
+    "eventCount": 2,
+    "sceneIds": [
+      153
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 2
+    },
+    "player": null
+  },
+  {
+    "sprite": 18,
+    "file": "/assets/pal/sprites/npcs/npc_018.png",
+    "eventCount": 1,
+    "sceneIds": [
+      169
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 27,
+    "file": "/assets/pal/sprites/npcs/npc_027.png",
+    "eventCount": 1,
+    "sceneIds": [
+      138
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 37,
+    "file": "/assets/pal/sprites/npcs/npc_037.png",
+    "eventCount": 1,
+    "sceneIds": [
+      5
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 38,
+    "file": "/assets/pal/sprites/npcs/npc_038.png",
+    "eventCount": 1,
+    "sceneIds": [
+      258
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 43,
+    "file": "/assets/pal/sprites/npcs/npc_043.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 55,
+    "file": "/assets/pal/sprites/npcs/npc_055.png",
+    "eventCount": 1,
+    "sceneIds": [
+      1
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 56,
+    "file": "/assets/pal/sprites/npcs/npc_056.png",
+    "eventCount": 1,
+    "sceneIds": [
+      3
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 64,
+    "file": "/assets/pal/sprites/npcs/npc_064.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 65,
+    "file": "/assets/pal/sprites/npcs/npc_065.png",
+    "eventCount": 1,
+    "sceneIds": [
+      4
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 80,
+    "file": "/assets/pal/sprites/npcs/npc_080.png",
+    "eventCount": 1,
+    "sceneIds": [
+      143
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 86,
+    "file": "/assets/pal/sprites/npcs/npc_086.png",
+    "eventCount": 1,
+    "sceneIds": [
+      19
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 87,
+    "file": "/assets/pal/sprites/npcs/npc_087.png",
+    "eventCount": 1,
+    "sceneIds": [
+      19
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 88,
+    "file": "/assets/pal/sprites/npcs/npc_088.png",
+    "eventCount": 1,
+    "sceneIds": [
+      18
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 108,
+    "file": "/assets/pal/sprites/npcs/npc_108.png",
+    "eventCount": 1,
+    "sceneIds": [
+      181
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 112,
+    "file": "/assets/pal/sprites/npcs/npc_112.png",
+    "eventCount": 1,
+    "sceneIds": [
+      77
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 139,
+    "file": "/assets/pal/sprites/npcs/npc_139.png",
+    "eventCount": 1,
+    "sceneIds": [
+      48
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 194,
+    "file": "/assets/pal/sprites/npcs/npc_194.png",
+    "eventCount": 1,
+    "sceneIds": [
+      22
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 195,
+    "file": "/assets/pal/sprites/npcs/npc_195.png",
+    "eventCount": 1,
+    "sceneIds": [
+      22
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 222,
+    "file": "/assets/pal/sprites/npcs/npc_222.png",
+    "eventCount": 1,
+    "sceneIds": [
+      264
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 225,
+    "file": "/assets/pal/sprites/npcs/npc_225.png",
+    "eventCount": 1,
+    "sceneIds": [
+      20
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 238,
+    "file": "/assets/pal/sprites/npcs/npc_238.png",
+    "eventCount": 1,
+    "sceneIds": [
+      53
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 240,
+    "file": "/assets/pal/sprites/npcs/npc_240.png",
+    "eventCount": 1,
+    "sceneIds": [
+      32
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 242,
+    "file": "/assets/pal/sprites/npcs/npc_242.png",
+    "eventCount": 1,
+    "sceneIds": [
+      193
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 253,
+    "file": "/assets/pal/sprites/npcs/npc_253.png",
+    "eventCount": 1,
+    "sceneIds": [
+      65
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 255,
+    "file": "/assets/pal/sprites/npcs/npc_255.png",
+    "eventCount": 1,
+    "sceneIds": [
+      47
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 257,
+    "file": "/assets/pal/sprites/npcs/npc_257.png",
+    "eventCount": 1,
+    "sceneIds": [
+      49
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 258,
+    "file": "/assets/pal/sprites/npcs/npc_258.png",
+    "eventCount": 1,
+    "sceneIds": [
+      55
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 264,
+    "file": "/assets/pal/sprites/npcs/npc_264.png",
+    "eventCount": 1,
+    "sceneIds": [
+      64
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 266,
+    "file": "/assets/pal/sprites/npcs/npc_266.png",
+    "eventCount": 1,
+    "sceneIds": [
+      48
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 299,
+    "file": "/assets/pal/sprites/npcs/npc_299.png",
+    "eventCount": 1,
+    "sceneIds": [
+      59
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 308,
+    "file": "/assets/pal/sprites/npcs/npc_308.png",
+    "eventCount": 1,
+    "sceneIds": [
+      108
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 311,
+    "file": "/assets/pal/sprites/npcs/npc_311.png",
+    "eventCount": 1,
+    "sceneIds": [
+      100
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 312,
+    "file": "/assets/pal/sprites/npcs/npc_312.png",
+    "eventCount": 1,
+    "sceneIds": [
+      100
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 374,
+    "file": "/assets/pal/sprites/npcs/npc_374.png",
+    "eventCount": 1,
+    "sceneIds": [
+      23
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 379,
+    "file": "/assets/pal/sprites/npcs/npc_379.png",
+    "eventCount": 1,
+    "sceneIds": [
+      197
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 380,
+    "file": "/assets/pal/sprites/npcs/npc_380.png",
+    "eventCount": 1,
+    "sceneIds": [
+      97
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 381,
+    "file": "/assets/pal/sprites/npcs/npc_381.png",
+    "eventCount": 1,
+    "sceneIds": [
+      92
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 388,
+    "file": "/assets/pal/sprites/npcs/npc_388.png",
+    "eventCount": 1,
+    "sceneIds": [
+      107
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 390,
+    "file": "/assets/pal/sprites/npcs/npc_390.png",
+    "eventCount": 1,
+    "sceneIds": [
+      81
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 391,
+    "file": "/assets/pal/sprites/npcs/npc_391.png",
+    "eventCount": 1,
+    "sceneIds": [
+      81
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 392,
+    "file": "/assets/pal/sprites/npcs/npc_392.png",
+    "eventCount": 1,
+    "sceneIds": [
+      81
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 395,
+    "file": "/assets/pal/sprites/npcs/npc_395.png",
+    "eventCount": 1,
+    "sceneIds": [
+      51
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 399,
+    "file": "/assets/pal/sprites/npcs/npc_399.png",
+    "eventCount": 1,
+    "sceneIds": [
+      258
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 416,
+    "file": "/assets/pal/sprites/npcs/npc_416.png",
+    "eventCount": 1,
+    "sceneIds": [
+      132
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 420,
+    "file": "/assets/pal/sprites/npcs/npc_420.png",
+    "eventCount": 1,
+    "sceneIds": [
+      110
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 426,
+    "file": "/assets/pal/sprites/npcs/npc_426.png",
+    "eventCount": 1,
+    "sceneIds": [
+      202
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 431,
+    "file": "/assets/pal/sprites/npcs/npc_431.png",
+    "eventCount": 1,
+    "sceneIds": [
+      109
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 437,
+    "file": "/assets/pal/sprites/npcs/npc_437.png",
+    "eventCount": 1,
+    "sceneIds": [
+      109
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 438,
+    "file": "/assets/pal/sprites/npcs/npc_438.png",
+    "eventCount": 1,
+    "sceneIds": [
+      194
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 445,
+    "file": "/assets/pal/sprites/npcs/npc_445.png",
+    "eventCount": 1,
+    "sceneIds": [
+      138
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 449,
+    "file": "/assets/pal/sprites/npcs/npc_449.png",
+    "eventCount": 1,
+    "sceneIds": [
+      143
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 450,
+    "file": "/assets/pal/sprites/npcs/npc_450.png",
+    "eventCount": 1,
+    "sceneIds": [
+      143
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 458,
+    "file": "/assets/pal/sprites/npcs/npc_458.png",
+    "eventCount": 1,
+    "sceneIds": [
+      117
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 477,
+    "file": "/assets/pal/sprites/npcs/npc_477.png",
+    "eventCount": 1,
+    "sceneIds": [
+      245
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 479,
+    "file": "/assets/pal/sprites/npcs/npc_479.png",
+    "eventCount": 1,
+    "sceneIds": [
+      245
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 480,
+    "file": "/assets/pal/sprites/npcs/npc_480.png",
+    "eventCount": 1,
+    "sceneIds": [
+      245
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 482,
+    "file": "/assets/pal/sprites/npcs/npc_482.png",
+    "eventCount": 1,
+    "sceneIds": [
+      245
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 489,
+    "file": "/assets/pal/sprites/npcs/npc_489.png",
+    "eventCount": 1,
+    "sceneIds": [
+      140
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 500,
+    "file": "/assets/pal/sprites/npcs/npc_500.png",
+    "eventCount": 1,
+    "sceneIds": [
+      145
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 502,
+    "file": "/assets/pal/sprites/npcs/npc_502.png",
+    "eventCount": 1,
+    "sceneIds": [
+      112
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 511,
+    "file": "/assets/pal/sprites/npcs/npc_511.png",
+    "eventCount": 1,
+    "sceneIds": [
+      199
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 512,
+    "file": "/assets/pal/sprites/npcs/npc_512.png",
+    "eventCount": 1,
+    "sceneIds": [
+      153
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 516,
+    "file": "/assets/pal/sprites/npcs/npc_516.png",
+    "eventCount": 1,
+    "sceneIds": [
+      172
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 517,
+    "file": "/assets/pal/sprites/npcs/npc_517.png",
+    "eventCount": 1,
+    "sceneIds": [
+      185
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 518,
+    "file": "/assets/pal/sprites/npcs/npc_518.png",
+    "eventCount": 1,
+    "sceneIds": [
+      185
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 519,
+    "file": "/assets/pal/sprites/npcs/npc_519.png",
+    "eventCount": 1,
+    "sceneIds": [
+      176
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 522,
+    "file": "/assets/pal/sprites/npcs/npc_522.png",
+    "eventCount": 1,
+    "sceneIds": [
+      247
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 528,
+    "file": "/assets/pal/sprites/npcs/npc_528.png",
+    "eventCount": 1,
+    "sceneIds": [
+      227
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 541,
+    "file": "/assets/pal/sprites/npcs/npc_541.png",
+    "eventCount": 1,
+    "sceneIds": [
+      247
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 547,
+    "file": "/assets/pal/sprites/npcs/npc_547.png",
+    "eventCount": 1,
+    "sceneIds": [
+      267
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 564,
+    "file": "/assets/pal/sprites/npcs/npc_564.png",
+    "eventCount": 1,
+    "sceneIds": [
+      234
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 574,
+    "file": "/assets/pal/sprites/npcs/npc_574.png",
+    "eventCount": 1,
+    "sceneIds": [
+      228
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 582,
+    "file": "/assets/pal/sprites/npcs/npc_582.png",
+    "eventCount": 1,
+    "sceneIds": [
+      231
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 592,
+    "file": "/assets/pal/sprites/npcs/npc_592.png",
+    "eventCount": 1,
+    "sceneIds": [
+      179
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 601,
+    "file": "/assets/pal/sprites/npcs/npc_601.png",
+    "eventCount": 1,
+    "sceneIds": [
+      21
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 602,
+    "file": "/assets/pal/sprites/npcs/npc_602.png",
+    "eventCount": 1,
+    "sceneIds": [
+      21
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "npc": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 608,
+    "file": "/assets/pal/sprites/npcs/npc_608.png",
+    "eventCount": 1,
+    "sceneIds": [
+      173
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 612,
+    "file": "/assets/pal/sprites/npcs/npc_612.png",
+    "eventCount": 1,
+    "sceneIds": [
+      246
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "treasure": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 613,
+    "file": "/assets/pal/sprites/npcs/npc_613.png",
+    "eventCount": 1,
+    "sceneIds": [
+      230
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 614,
+    "file": "/assets/pal/sprites/npcs/npc_614.png",
+    "eventCount": 1,
+    "sceneIds": [
+      285
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 622,
+    "file": "/assets/pal/sprites/npcs/npc_622.png",
+    "eventCount": 1,
+    "sceneIds": [
+      100
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "shop": 1
+    },
+    "player": null
+  },
+  {
+    "sprite": 628,
+    "file": "/assets/pal/sprites/npcs/npc_628.png",
+    "eventCount": 1,
+    "sceneIds": [
+      1
+    ],
+    "sceneCount": 1,
+    "names": [],
+    "nameCount": 0,
+    "kinds": {
+      "decor": 1
+    },
+    "player": null
+  }
+]

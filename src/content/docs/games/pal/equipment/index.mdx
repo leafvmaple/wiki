@@ -4,7 +4,7 @@ description: 仙剑奇侠传装备图鉴：可装备物件与价格。
 game: '仙剑奇侠传'
 gameVersion: 'Steam PAL'
 status: needs-testing
-lastVerified: '2026-07-29'
+lastVerified: '2026-08-07'
 tableOfContents: false
 sidebar:
   label: 装备图鉴
@@ -12,6 +12,9 @@ sidebar:
 
 import PalDataTable from '../../../../../components/PalDataTable.astro';
 
-按对象 flags 中的可装备位筛选。后续可补部位与攻防数值（需继续解析装备脚本）。
+部位与属性加成取自 `OBJECT_ITEM` 的装备脚本（opcode `0x0018` 定部位、`0x0017` 定属性），
+图标取自 `BALL.MKF`，说明取自随游戏分发的社区整理档 `desc_chs.dat`。
+
+对象类型按 ID 区间判定而非 flags —— 法术与装备的可用位重叠，早先按 flags 筛会混入约一百条法术。
 
 <PalDataTable kind="equipment" />

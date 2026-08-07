@@ -1,0 +1,106 @@
+---
+// 仙剑一主角卡片 — 头像 / 场景立绘 / 战斗立绘 + 初始数值。
+// 数据来自 DATA.MKF#3 PLAYERROLES，是游戏内的初始状态，不是升级後数值。
+import players from '../data/pal/generated/players.json';
+
+type Row = Record<string, any>;
+const rows = players as Row[];
+
+const statOf = (r: Row, name: string) =>
+  (r.attributes ?? []).find((a: any) => a.name === name)?.value ?? 0;
+
+const CORE = ['武术', '灵力', '防御', '身法', '吉运'];
+---
+
+<div class="pal-party not-content">
+  {rows.map((r) => (
+    <article class="pal-card">
+      <header>
+        {r.avatarFile && <img class="avatar" src={r.avatarFile} alt={r.name} loading="lazy" />}
+        <div>
+          <h3>{r.name}</h3>
+          <p class="meta">
+            Lv {r.level} · 体力 {r.maxHP.toLocaleString('zh-CN')} · 真气 {r.maxMP.toLocaleString('zh-CN')}
+          </p>
+        </div>
+      </header>
+
+      <dl class="stats">
+        {CORE.map((name) => (
+          <div>
+            <dt>{name}</dt>
+            <dd>{statOf(r, name)}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <div class="art">
+        {r.spriteFile && (
+          <figure>
+            <img src={r.spriteFile} alt={`${r.name} 场景立绘`} loading="lazy" />
+            <figcaption>场景</figcaption>
+          </figure>
+        )}
+        {r.battleFile && (
+          <figure>
+            <img src={r.battleFile} alt={`${r.name} 战斗立绘`} loading="lazy" />
+            <figcaption>战斗</figcaption>
+          </figure>
+        )}
+      </div>
+
+      <p class="line"><b>初始装备</b>{r.equipment.length
+        ? r.equipment.map((e: any) => `${e.slotName}：${e.name}`).join('　')
+        : '无'}</p>
+      <p class="line"><b>初始法术</b>{r.magics.length
+        ? r.magics.map((m: any) => m.name).join('、')
+        : '无'}</p>
+      {r.cooperativeMagic && (
+        <p class="line"><b>合体法术</b>{r.cooperativeMagic.name}</p>
+      )}
+    </article>
+  ))}
+</div>
+
+<style>
+  .pal-party {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
+  .pal-card {
+    border: 1px solid #d7e0e6;
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    background: #fff;
+  }
+  .pal-card header { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.6rem; }
+  .pal-card h3 { margin: 0; font-size: 1.05rem; color: #16303d; }
+  .pal-card .meta { margin: 0.15rem 0 0; font-size: 0.85rem; color: #7a8b95; }
+  .avatar {
+    width: 68px; height: auto; border-radius: 6px;
+    background: #f4f8fa; image-rendering: pixelated;
+  }
+  .stats {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 0.35rem; margin: 0 0 0.7rem; text-align: center;
+  }
+  .stats div { background: #f4f8fa; border-radius: 6px; padding: 0.3rem 0.1rem; }
+  .stats dt { font-size: 0.75rem; color: #7a8b95; margin: 0; }
+  .stats dd { margin: 0; font-weight: 600; color: #16303d; font-variant-numeric: tabular-nums; }
+  .art { display: flex; gap: 1rem; align-items: flex-end; margin-bottom: 0.6rem; }
+  .art figure { margin: 0; text-align: center; }
+  .art img { height: 72px; width: auto; image-rendering: pixelated; }
+  .art figcaption { font-size: 0.75rem; color: #98a3a8; }
+  .line { margin: 0.2rem 0; font-size: 0.88rem; color: #58666e; }
+  .line b { color: #3a4d58; margin-right: 0.4rem; }
+
+  :global([data-theme='dark']) .pal-card { background: #242424; border-color: #2a3840; }
+  :global([data-theme='dark']) .pal-card h3,
+  :global([data-theme='dark']) .stats dd { color: #e8eef2; }
+  :global([data-theme='dark']) .stats div,
+  :global([data-theme='dark']) .avatar { background: #1a242b; }
+  :global([data-theme='dark']) .line { color: #b0b0b0; }
+  :global([data-theme='dark']) .line b { color: #b7c6d0; }
+</style>

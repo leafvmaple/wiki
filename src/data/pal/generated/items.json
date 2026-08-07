@@ -11,7 +11,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以观音圣水书写的灵符。\nHP+150",
+    "descriptionLines": [
+      "以观音圣水书写的灵符。",
+      "HP+150"
+    ],
+    "healHP": 150,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_061.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 6
+    }
   },
   {
     "id": "62",
@@ -25,7 +37,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "具有女娲神强大灵力的符咒。\n全体HP+300",
+    "descriptionLines": [
+      "具有女娲神强大灵力的符咒。",
+      "全体HP+300"
+    ],
+    "healHP": 300,
+    "healsWholeParty": true,
+    "icon": "/assets/pal/icons/item_062.png",
+    "sources": {
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "63",
@@ -39,7 +63,24 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "使用後如有金锺铁罩护身。\n增加防御七回合。",
+    "descriptionLines": [
+      "使用後如有金锺铁罩护身。",
+      "增加防御七回合。"
+    ],
+    "status": {
+      "index": 6,
+      "name": "护体",
+      "nameEn": "Protect",
+      "rounds": 7
+    },
+    "icon": "/assets/pal/icons/item_063.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "64",
@@ -53,7 +94,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "具有祛病、驱邪的法力，\n可解赤毒、屍毒、瘴毒。",
+    "descriptionLines": [
+      "具有祛病、驱邪的法力，",
+      "可解赤毒、屍毒、瘴毒。"
+    ],
+    "icon": "/assets/pal/icons/item_064.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 3
+    }
   },
   {
     "id": "65",
@@ -67,7 +118,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "具有宁神、驱邪的灵效，\n可解疯魔、妖缚、昏睡、封咒。",
+    "descriptionLines": [
+      "具有宁神、驱邪的灵效，",
+      "可解疯魔、妖缚、昏睡、封咒。"
+    ],
+    "icon": "/assets/pal/icons/item_065.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 1
+    }
   },
   {
     "id": "72",
@@ -81,7 +142,19 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "得道高僧佛身火化後，\n结成如珠状的东西。\n最大真气值+3",
+    "descriptionLines": [
+      "得道高僧佛身火化後，",
+      "结成如珠状的东西。",
+      "最大真气值+3"
+    ],
+    "icon": "/assets/pal/icons/item_072.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "73",
@@ -95,7 +168,17 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "墨玉菩提树的种籽。\n最大真气值+5",
+    "descriptionLines": [
+      "墨玉菩提树的种籽。",
+      "最大真气值+5"
+    ],
+    "icon": "/assets/pal/icons/item_073.png",
+    "sources": {
+      "gathers": 3,
+      "steals": 1
+    }
   },
   {
     "id": "74",
@@ -109,7 +192,17 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "银杏树所结的白色核果。\n最大体力值+3",
+    "descriptionLines": [
+      "银杏树所结的白色核果。",
+      "最大体力值+3"
+    ],
+    "icon": "/assets/pal/icons/item_074.png",
+    "sources": {
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "75",
@@ -123,7 +216,16 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "糯稻的米，富于黏性，\n可解屍毒。",
+    "descriptionLines": [
+      "糯稻的米，富于黏性，",
+      "可解屍毒。"
+    ],
+    "icon": "/assets/pal/icons/item_075.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "76",
@@ -137,7 +239,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "糯米加麦芽、甜豆所煮的米糕，\n可解屍毒。HP+25",
+    "descriptionLines": [
+      "糯米加麦芽、甜豆所煮的米糕，",
+      "可解屍毒。HP+25"
+    ],
+    "healHP": 25,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_076.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "77",
@@ -151,7 +264,13 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "取海水煎熬或曝晒而成，用来调\n味，有时可解毒。",
+    "descriptionLines": [
+      "取海水煎熬或曝晒而成，用来调",
+      "味，有时可解毒。"
+    ],
+    "icon": "/assets/pal/icons/item_077.png"
   },
   {
     "id": "78",
@@ -165,7 +284,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "鸡蛋水煮後，以茶叶入味。\n便宜而好吃的食物。\nHPMP+15",
+    "descriptionLines": [
+      "鸡蛋水煮後，以茶叶入味。",
+      "便宜而好吃的食物。",
+      "HPMP+15"
+    ],
+    "icon": "/assets/pal/icons/item_078.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "79",
@@ -179,7 +308,13 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "便宜而常见的食物。\nHPMP+10",
+    "descriptionLines": [
+      "便宜而常见的食物。",
+      "HPMP+10"
+    ],
+    "icon": "/assets/pal/icons/item_079.png"
   },
   {
     "id": "80",
@@ -193,7 +328,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以竹签串李子，裹上麦芽糖，\n形如葫芦，故称“糖葫芦”。\nHPMP+22",
+    "descriptionLines": [
+      "以竹签串李子，裹上麦芽糖，",
+      "形如葫芦，故称“糖葫芦”。",
+      "HPMP+22"
+    ],
+    "icon": "/assets/pal/icons/item_080.png",
+    "sources": {
+      "steals": 1
+    }
   },
   {
     "id": "84",
@@ -207,7 +352,22 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "具有除秽、祛病、护身等功能，\n可以入药。\n战斗中服食避毒率+30%",
+    "descriptionLines": [
+      "具有除秽、祛病、护身等功能，",
+      "可以入药。",
+      "战斗中服食避毒率+30%"
+    ],
+    "attributes": [
+      {
+        "index": 22,
+        "name": "避毒率",
+        "nameEn": "Poison resist",
+        "value": 30
+      }
+    ],
+    "icon": "/assets/pal/icons/item_084.png"
   },
   {
     "id": "85",
@@ -221,7 +381,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "",
+    "descriptionLines": [],
+    "status": {
+      "index": 3,
+      "name": "沉默",
+      "nameEn": "Silence",
+      "rounds": 3
+    },
+    "sources": {
+      "enemyAttacks": 5
+    }
   },
   {
     "id": "86",
@@ -235,7 +406,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以米加酒曲酿制而成，\n可解赤毒。HPMP+15",
+    "descriptionLines": [
+      "以米加酒曲酿制而成，",
+      "可解赤毒。HPMP+15"
+    ],
+    "icon": "/assets/pal/icons/item_086.png",
+    "sources": {
+      "shops": 2,
+      "steals": 2
+    }
   },
   {
     "id": "87",
@@ -249,7 +430,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "天然产的矿物，块状、色黄，\n可解赤毒。",
+    "descriptionLines": [
+      "天然产的矿物，块状、色黄，",
+      "可解赤毒。"
+    ],
+    "icon": "/assets/pal/icons/item_087.png",
+    "sources": {
+      "shops": 3,
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "88",
@@ -263,7 +455,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "一点点的雄黄，撒在酒中，\n习俗在端午节喝这种酒；\n可解赤毒、瘴毒。",
+    "descriptionLines": [
+      "一点点的雄黄，撒在酒中，",
+      "习俗在端午节喝这种酒；",
+      "可解赤毒、瘴毒。"
+    ],
+    "icon": "/assets/pal/icons/item_088.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "89",
@@ -277,7 +479,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "一种水草，叶子狭长如剑，\n可解赤毒、屍毒、瘴毒、毒丝。",
+    "descriptionLines": [
+      "一种水草，叶子狭长如剑，",
+      "可解赤毒、屍毒、瘴毒、毒丝。"
+    ],
+    "icon": "/assets/pal/icons/item_089.png",
+    "sources": {
+      "shops": 4,
+      "gathers": 4
+    }
   },
   {
     "id": "90",
@@ -291,7 +503,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以大蒜、雄黄、艾草、檀香等混合\n炼制而成，点燃後发出魔物厌恶\n的气味，使魔物不敢接近。",
+    "descriptionLines": [
+      "以大蒜、雄黄、艾草、檀香等混合",
+      "炼制而成，点燃後发出魔物厌恶",
+      "的气味，使魔物不敢接近。"
+    ],
+    "icon": "/assets/pal/icons/item_090.png",
+    "sources": {
+      "shops": 4,
+      "gathers": 6
+    }
   },
   {
     "id": "91",
@@ -305,7 +528,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以生血、内藏、肉桂等炼制，\n点燃後散发出吸引魔物的香味。",
+    "descriptionLines": [
+      "以生血、内藏、肉桂等炼制，",
+      "点燃後散发出吸引魔物的香味。"
+    ],
+    "icon": "/assets/pal/icons/item_091.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "92",
@@ -319,7 +553,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "养颜美容、帮助消化。\nHPMP+20",
+    "descriptionLines": [
+      "养颜美容、帮助消化。",
+      "HPMP+20"
+    ],
+    "icon": "/assets/pal/icons/item_092.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 1,
+      "steals": 2
+    }
   },
   {
     "id": "93",
@@ -333,7 +578,16 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以炭火熏烤的酱汁猪肉。\nHPMP+30",
+    "descriptionLines": [
+      "以炭火熏烤的酱汁猪肉。",
+      "HPMP+30"
+    ],
+    "icon": "/assets/pal/icons/item_093.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "94",
@@ -347,7 +601,18 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "用盐巴腌渍的猪肉。\nHP+85",
+    "descriptionLines": [
+      "用盐巴腌渍的猪肉。",
+      "HP+85"
+    ],
+    "healHP": 85,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_094.png",
+    "sources": {
+      "shops": 1
+    }
   },
   {
     "id": "95",
@@ -361,7 +626,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "点燃后会散发奇异的香气，\n能牵引离体魂魄回归躯体。\nHP恢复10%",
+    "descriptionLines": [
+      "点燃后会散发奇异的香气，",
+      "能牵引离体魂魄回归躯体。",
+      "HP恢复10%"
+    ],
+    "icon": "/assets/pal/icons/item_095.png",
+    "sources": {
+      "shops": 5,
+      "gathers": 5
+    }
   },
   {
     "id": "96",
@@ -375,7 +651,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以莲灯作法与鬼差交涉，\n赎回死者魂魄。\nHP恢复30%",
+    "descriptionLines": [
+      "以莲灯作法与鬼差交涉，",
+      "赎回死者魂魄。",
+      "HP恢复30%"
+    ],
+    "icon": "/assets/pal/icons/item_096.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 6,
+      "steals": 1
+    }
   },
   {
     "id": "97",
@@ -389,7 +677,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "消除死者罪孽业障，\n使死者复活。\nHP恢复50%",
+    "descriptionLines": [
+      "消除死者罪孽业障，",
+      "使死者复活。",
+      "HP恢复50%"
+    ],
+    "icon": "/assets/pal/icons/item_097.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 7
+    }
   },
   {
     "id": "98",
@@ -403,7 +702,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以大量珍贵秘药精炼而成，\n具有肉白骨、药死人之奇效。\nHP恢复100%",
+    "descriptionLines": [
+      "以大量珍贵秘药精炼而成，",
+      "具有肉白骨、药死人之奇效。",
+      "HP恢复100%"
+    ],
+    "icon": "/assets/pal/icons/item_098.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "99",
@@ -417,7 +728,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "嚼碎後敷在伤口上，可迅速止血。\nHP+50",
+    "descriptionLines": [
+      "嚼碎後敷在伤口上，可迅速止血。",
+      "HP+50"
+    ],
+    "healHP": 50,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_099.png",
+    "sources": {
+      "shops": 3,
+      "gathers": 16
+    }
   },
   {
     "id": "100",
@@ -431,7 +754,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "活血顺气的药丸。\nHP+100",
+    "descriptionLines": [
+      "活血顺气的药丸。",
+      "HP+100"
+    ],
+    "healHP": 100,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_100.png",
+    "sources": {
+      "shops": 3,
+      "gathers": 3,
+      "steals": 2
+    }
   },
   {
     "id": "101",
@@ -445,7 +781,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "上等刀伤药，去腐生肌。\nHP+200",
+    "descriptionLines": [
+      "上等刀伤药，去腐生肌。",
+      "HP+200"
+    ],
+    "healHP": 200,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_101.png",
+    "sources": {
+      "shops": 4,
+      "gathers": 8,
+      "steals": 2
+    }
   },
   {
     "id": "102",
@@ -459,7 +808,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "西王母蟠桃园遗种，\n籽小肉厚汁液香甜。\nHP+450",
+    "descriptionLines": [
+      "西王母蟠桃园遗种，",
+      "籽小肉厚汁液香甜。",
+      "HP+450"
+    ],
+    "healHP": 450,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_102.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 4
+    }
   },
   {
     "id": "103",
@@ -473,7 +835,19 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "依宫廷秘方，采珍贵药材炼制，\n是疔伤药的极品。\nHP+1000",
+    "descriptionLines": [
+      "依宫廷秘方，采珍贵药材炼制，",
+      "是疔伤药的极品。",
+      "HP+1000"
+    ],
+    "healHP": 1000,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_103.png",
+    "sources": {
+      "shops": 3
+    }
   },
   {
     "id": "104",
@@ -487,7 +861,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "产於山间野地，多为鼠类所食，\n经人发现移种平地。\nMP+36",
+    "descriptionLines": [
+      "产於山间野地，多为鼠类所食，",
+      "经人发现移种平地。",
+      "MP+36"
+    ],
+    "healMP": 36,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_104.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "105",
@@ -501,7 +888,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "宁神醒脑的药丸。\nMP+50",
+    "descriptionLines": [
+      "宁神醒脑的药丸。",
+      "MP+50"
+    ],
+    "healMP": 50,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_105.png",
+    "sources": {
+      "shops": 4,
+      "gathers": 8,
+      "steals": 1
+    }
   },
   {
     "id": "106",
@@ -515,7 +915,21 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "经蛟龙唾涎灌溉而生，\n具有补中益气之疗效。\nMP+110",
+    "descriptionLines": [
+      "经蛟龙唾涎灌溉而生，",
+      "具有补中益气之疗效。",
+      "MP+110"
+    ],
+    "healMP": 110,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_106.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 11,
+      "steals": 1
+    }
   },
   {
     "id": "107",
@@ -529,7 +943,21 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "寄生于枯木上的菌类，俗称瑞草，\n具有养气培元之神效。\nMP+260",
+    "descriptionLines": [
+      "寄生于枯木上的菌类，俗称瑞草，",
+      "具有养气培元之神效。",
+      "MP+260"
+    ],
+    "healMP": 260,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_107.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 11,
+      "steals": 1
+    }
   },
   {
     "id": "108",
@@ -543,7 +971,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "白玉雪莲之莲子，其形珠圆玉润，\n服食者真气充盈，经脉通畅。\nMP+400",
+    "descriptionLines": [
+      "白玉雪莲之莲子，其形珠圆玉润，",
+      "服食者真气充盈，经脉通畅。",
+      "MP+400"
+    ],
+    "healMP": 400,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_108.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 2
+    }
   },
   {
     "id": "109",
@@ -557,7 +998,21 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "观音菩萨净瓶甘露水，\n人间难求的仙界圣药。\nMP+700",
+    "descriptionLines": [
+      "观音菩萨净瓶甘露水，",
+      "人间难求的仙界圣药。",
+      "MP+700"
+    ],
+    "healMP": 700,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_109.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 2
+    }
   },
   {
     "id": "110",
@@ -571,7 +1026,16 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "神仙广成子养生延寿之秘方。\nHPMP+440",
+    "descriptionLines": [
+      "神仙广成子养生延寿之秘方。",
+      "HPMP+440"
+    ],
+    "icon": "/assets/pal/icons/item_110.png",
+    "sources": {
+      "gathers": 2
+    }
   },
   {
     "id": "111",
@@ -585,7 +1049,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "修道隐士所炼丹药。\nHPMP+250",
+    "descriptionLines": [
+      "修道隐士所炼丹药。",
+      "HPMP+250"
+    ],
+    "icon": "/assets/pal/icons/item_111.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 5
+    }
   },
   {
     "id": "112",
@@ -599,7 +1073,19 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "药王神农氏尝百草时，\n最早发现的珍药。\n灵力最大值+3",
+    "descriptionLines": [
+      "药王神农氏尝百草时，",
+      "最早发现的珍药。",
+      "灵力最大值+3"
+    ],
+    "icon": "/assets/pal/icons/item_112.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 7,
+      "steals": 1
+    }
   },
   {
     "id": "113",
@@ -613,7 +1099,18 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "女神娲皇炼石补天後，\n所遗之五色石。\n防御最大值+3",
+    "descriptionLines": [
+      "女神娲皇炼石补天後，",
+      "所遗之五色石。",
+      "防御最大值+3"
+    ],
+    "icon": "/assets/pal/icons/item_113.png",
+    "sources": {
+      "gathers": 14,
+      "steals": 1
+    }
   },
   {
     "id": "114",
@@ -627,7 +1124,17 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "八仙石洞中所采集之丹矿。\n防御最大值+2",
+    "descriptionLines": [
+      "八仙石洞中所采集之丹矿。",
+      "防御最大值+2"
+    ],
+    "icon": "/assets/pal/icons/item_114.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "116",
@@ -641,7 +1148,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "沾染屍毒的腐败肉块。\n毒性: 屍毒",
+    "descriptionLines": [
+      "沾染屍毒的腐败肉块。",
+      "毒性: 屍毒"
+    ],
+    "icon": "/assets/pal/icons/item_116.png",
+    "sources": {
+      "steals": 4,
+      "enemyAttacks": 3
+    }
   },
   {
     "id": "117",
@@ -655,7 +1172,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "炼蛊的材料。\n毒性: 赤毒",
+    "descriptionLines": [
+      "炼蛊的材料。",
+      "毒性: 赤毒"
+    ],
+    "icon": "/assets/pal/icons/item_117.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 2,
+      "enemyAttacks": 2
+    }
   },
   {
     "id": "118",
@@ -669,7 +1197,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "炼蛊的材料。\n毒性: 赤毒",
+    "descriptionLines": [
+      "炼蛊的材料。",
+      "毒性: 赤毒"
+    ],
+    "icon": "/assets/pal/icons/item_118.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "119",
@@ -683,7 +1221,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "炼蛊的材料。\n毒性: 赤毒",
+    "descriptionLines": [
+      "炼蛊的材料。",
+      "毒性: 赤毒"
+    ],
+    "icon": "/assets/pal/icons/item_119.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 2,
+      "enemyAttacks": 2
+    }
   },
   {
     "id": "120",
@@ -697,7 +1246,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "炼蛊的材料。\n毒性: 赤毒",
+    "descriptionLines": [
+      "炼蛊的材料。",
+      "毒性: 赤毒"
+    ],
+    "icon": "/assets/pal/icons/item_120.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 2,
+      "enemyAttacks": 1
+    }
   },
   {
     "id": "121",
@@ -711,7 +1271,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "炼蛊的材料。\n毒性: 赤毒",
+    "descriptionLines": [
+      "炼蛊的材料。",
+      "毒性: 赤毒"
+    ],
+    "icon": "/assets/pal/icons/item_121.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "122",
@@ -725,7 +1295,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後每回合损血，\n至死方休。\n解药: 血海棠  致命药引: 孔雀胆",
+    "descriptionLines": [
+      "七大毒蛊，中毒後每回合损血，",
+      "至死方休。",
+      "解药: 血海棠  致命药引: 孔雀胆"
+    ],
+    "icon": "/assets/pal/icons/item_122.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "123",
@@ -739,7 +1320,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後每回合损血，\n至死方休。\n解药: 金蚕蛊  致命药引: 鹤顶红",
+    "descriptionLines": [
+      "七大毒蛊，中毒後每回合损血，",
+      "至死方休。",
+      "解药: 金蚕蛊  致命药引: 鹤顶红"
+    ],
+    "icon": "/assets/pal/icons/item_123.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 4
+    }
   },
   {
     "id": "124",
@@ -753,7 +1345,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後每回合损血，\n至死方休。\n解药: 断肠草  致命药引: 三屍蛊",
+    "descriptionLines": [
+      "七大毒蛊，中毒後每回合损血，",
+      "至死方休。",
+      "解药: 断肠草  致命药引: 三屍蛊"
+    ],
+    "icon": "/assets/pal/icons/item_124.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 1
+    }
   },
   {
     "id": "125",
@@ -767,7 +1370,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後每回合损血，\n至死方休。\n解药: 三屍蛊  致命药引: 金蚕蛊",
+    "descriptionLines": [
+      "七大毒蛊，中毒後每回合损血，",
+      "至死方休。",
+      "解药: 三屍蛊  致命药引: 金蚕蛊"
+    ],
+    "icon": "/assets/pal/icons/item_125.png",
+    "sources": {
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "126",
@@ -781,7 +1395,26 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "紫叶小白花，散发浓郁香气，\n闻到香气，便如酒醉一般。\n妖缚四回合。",
+    "descriptionLines": [
+      "紫叶小白花，散发浓郁香气，",
+      "闻到香气，便如酒醉一般。",
+      "妖缚四回合。"
+    ],
+    "status": {
+      "index": 1,
+      "name": "麻痹",
+      "nameEn": "Paralyzed",
+      "rounds": 4
+    },
+    "healHP": -1,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_126.png",
+    "sources": {
+      "gathers": 6,
+      "steals": 1
+    }
   },
   {
     "id": "127",
@@ -795,7 +1428,27 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "青蓝色小花，散发淡淡香气，\n闻到香气，便会浑然忘我、\n昏睡三回合。",
+    "descriptionLines": [
+      "青蓝色小花，散发淡淡香气，",
+      "闻到香气，便会浑然忘我、",
+      "昏睡三回合。"
+    ],
+    "status": {
+      "index": 2,
+      "name": "睡眠",
+      "nameEn": "Sleep",
+      "rounds": 3
+    },
+    "healHP": -1,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_127.png",
+    "sources": {
+      "gathers": 9,
+      "steals": 1,
+      "enemyAttacks": 2
+    }
   },
   {
     "id": "128",
@@ -809,7 +1462,24 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "服食者会生成幻觉，敌我不分。\n疯魔四回合。",
+    "descriptionLines": [
+      "服食者会生成幻觉，敌我不分。",
+      "疯魔四回合。"
+    ],
+    "status": {
+      "index": 0,
+      "name": "混乱",
+      "nameEn": "Confused",
+      "rounds": 3
+    },
+    "healHP": -1,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_128.png",
+    "sources": {
+      "gathers": 6
+    }
   },
   {
     "id": "129",
@@ -823,7 +1493,20 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "具毒性的黑褐色野生藤蔓，\n可解赤毒、屍毒、瘴毒、毒丝。\nHP-30",
+    "descriptionLines": [
+      "具毒性的黑褐色野生藤蔓，",
+      "可解赤毒、屍毒、瘴毒、毒丝。",
+      "HP-30"
+    ],
+    "healHP": -30,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_129.png",
+    "sources": {
+      "gathers": 6,
+      "steals": 3
+    }
   },
   {
     "id": "130",
@@ -837,7 +1520,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "腹蛇的毒涎。\n毒性: 瘴毒",
+    "descriptionLines": [
+      "腹蛇的毒涎。",
+      "毒性: 瘴毒"
+    ],
+    "icon": "/assets/pal/icons/item_130.png",
+    "sources": {
+      "steals": 1,
+      "enemyAttacks": 8
+    }
   },
   {
     "id": "131",
@@ -851,7 +1544,17 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "蜜蜂所酿最好的蜜。\nHPMP+150",
+    "descriptionLines": [
+      "蜜蜂所酿最好的蜜。",
+      "HPMP+150"
+    ],
+    "icon": "/assets/pal/icons/item_131.png",
+    "sources": {
+      "shops": 4,
+      "gathers": 6
+    }
   },
   {
     "id": "132",
@@ -865,7 +1568,17 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "生长于天山极寒之地，仅铜钱般大\n小。武术最大值+2 防御最大值+2\n灵力最大值+2",
+    "descriptionLines": [
+      "生长于天山极寒之地，仅铜钱般大",
+      "小。武术最大值+2 防御最大值+2",
+      "灵力最大值+2"
+    ],
+    "icon": "/assets/pal/icons/item_132.png",
+    "sources": {
+      "gathers": 4
+    }
   },
   {
     "id": "136",
@@ -879,7 +1592,20 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "服食前若已中毒，可补满体力，\n但无法解毒；\n服食前若没中毒，即刻毙命。",
+    "descriptionLines": [
+      "服食前若已中毒，可补满体力，",
+      "但无法解毒；",
+      "服食前若没中毒，即刻毙命。"
+    ],
+    "healHP": 999,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_136.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 5
+    }
   },
   {
     "id": "137",
@@ -893,7 +1619,16 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後立即发作，\n耗损一半体力。",
+    "descriptionLines": [
+      "七大毒蛊，中毒後立即发作，",
+      "耗损一半体力。"
+    ],
+    "icon": "/assets/pal/icons/item_137.png",
+    "sources": {
+      "gathers": 6
+    }
   },
   {
     "id": "138",
@@ -907,7 +1642,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊；中毒後，潜伏片刻即\n会发作，毒性非常猛烈。\n解药: 孔雀胆  致命药引: 血海棠",
+    "descriptionLines": [
+      "七大毒蛊；中毒後，潜伏片刻即",
+      "会发作，毒性非常猛烈。",
+      "解药: 孔雀胆  致命药引: 血海棠"
+    ],
+    "icon": "/assets/pal/icons/item_138.png",
+    "sources": {
+      "gathers": 4
+    }
   },
   {
     "id": "139",
@@ -921,7 +1666,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "七大毒蛊，中毒後每回合损血，\n至死方休。\n解药: 鹤顶红  致命药引: 断肠草",
+    "descriptionLines": [
+      "七大毒蛊，中毒後每回合损血，",
+      "至死方休。",
+      "解药: 鹤顶红  致命药引: 断肠草"
+    ],
+    "icon": "/assets/pal/icons/item_139.png",
+    "sources": {
+      "gathers": 4
+    }
   },
   {
     "id": "140",
@@ -935,7 +1690,25 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "分泌的毒液会影响人的脑部，\n使人敌我不分，\n疯魔五回合。",
+    "descriptionLines": [
+      "分泌的毒液会影响人的脑部，",
+      "使人敌我不分，",
+      "疯魔五回合。"
+    ],
+    "status": {
+      "index": 0,
+      "name": "混乱",
+      "nameEn": "Confused",
+      "rounds": 5
+    },
+    "healHP": -1,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_140.png",
+    "sources": {
+      "gathers": 4
+    }
   },
   {
     "id": "141",
@@ -949,7 +1722,17 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "如带刺甲虫，将其身体捏破，\n散发之烟雾可助我方隐匿形迹。\n全体隐形三回合。",
+    "descriptionLines": [
+      "如带刺甲虫，将其身体捏破，",
+      "散发之烟雾可助我方隐匿形迹。",
+      "全体隐形三回合。"
+    ],
+    "icon": "/assets/pal/icons/item_141.png",
+    "sources": {
+      "gathers": 5
+    }
   },
   {
     "id": "145",
@@ -963,7 +1746,19 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "以稀有药物豢养的雌蛊。\n全体MP+250",
+    "descriptionLines": [
+      "以稀有药物豢养的雌蛊。",
+      "全体MP+250"
+    ],
+    "healMP": 250,
+    "healsWholeParty": true,
+    "icon": "/assets/pal/icons/item_145.png",
+    "sources": {
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "149",
@@ -977,7 +1772,19 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "吸血维生的毒蛊，\n服食後体力完全恢复。",
+    "descriptionLines": [
+      "吸血维生的毒蛊，",
+      "服食後体力完全恢复。"
+    ],
+    "healHP": 1000,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_149.png",
+    "sources": {
+      "gathers": 3,
+      "steals": 1
+    }
   },
   {
     "id": "150",
@@ -991,7 +1798,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "蛊中之王，月夜散发金色磷光，\n服食後可提升修行。",
+    "descriptionLines": [
+      "蛊中之王，月夜散发金色磷光，",
+      "服食後可提升修行。"
+    ],
+    "icon": "/assets/pal/icons/item_150.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 9,
+      "steals": 1
+    }
   },
   {
     "id": "151",
@@ -1005,7 +1823,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "跟随引路蜂而行，\n可回到迷宫起点。",
+    "descriptionLines": [
+      "跟随引路蜂而行，",
+      "可回到迷宫起点。"
+    ],
+    "icon": "/assets/pal/icons/item_151.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 7,
+      "steals": 1
+    }
   },
   {
     "id": "152",
@@ -1019,7 +1848,22 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "湘西云贵巫师用以控制尸体，\n可使死者继续攻击九回合。",
+    "descriptionLines": [
+      "湘西云贵巫师用以控制尸体，",
+      "可使死者继续攻击九回合。"
+    ],
+    "status": {
+      "index": 4,
+      "name": "傀儡",
+      "nameEn": "Puppet",
+      "rounds": 9
+    },
+    "icon": "/assets/pal/icons/item_152.png",
+    "sources": {
+      "gathers": 22
+    }
   },
   {
     "id": "159",
@@ -1033,7 +1877,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "千年蜘蛛的毒丝。\n毒性: 毒丝",
+    "descriptionLines": [
+      "千年蜘蛛的毒丝。",
+      "毒性: 毒丝"
+    ],
+    "icon": "/assets/pal/icons/item_159.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 3,
+      "enemyAttacks": 6
+    }
   },
   {
     "id": "255",
@@ -1047,7 +1902,20 @@
     "category": "throwable",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "用银针刺肉，以痛楚唤醒神智，\n可解妖缚、昏睡、疯魔。HP-9",
+    "descriptionLines": [
+      "用银针刺肉，以痛楚唤醒神智，",
+      "可解妖缚、昏睡、疯魔。HP-9"
+    ],
+    "healHP": -9,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_255.png",
+    "sources": {
+      "shops": 3,
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "268",
@@ -1061,7 +1929,16 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "可将毒蛇卵、毒蠍卵、毒蟾卵、\n蜘蛛卵、蜈蚣卵炼成蛊。",
+    "descriptionLines": [
+      "可将毒蛇卵、毒蠍卵、毒蟾卵、",
+      "蜘蛛卵、蜈蚣卵炼成蛊。"
+    ],
+    "icon": "/assets/pal/icons/item_268.png",
+    "sources": {
+      "gathers": 2
+    }
   },
   {
     "id": "270",
@@ -1075,7 +1952,12 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "收妖炼丹，需与灵葫咒配合。",
+    "descriptionLines": [
+      "收妖炼丹，需与灵葫咒配合。"
+    ],
+    "icon": "/assets/pal/icons/item_270.png"
   },
   {
     "id": "271",
@@ -1089,7 +1971,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "长安富商的行李。",
+    "descriptionLines": [
+      "长安富商的行李。"
+    ]
   },
   {
     "id": "272",
@@ -1103,7 +1989,12 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "掺了水的酒。",
+    "descriptionLines": [
+      "掺了水的酒。"
+    ],
+    "icon": "/assets/pal/icons/item_272.png"
   },
   {
     "id": "273",
@@ -1117,7 +2008,12 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "水月宫最珍贵的仙丹灵药。",
+    "descriptionLines": [
+      "水月宫最珍贵的仙丹灵药。"
+    ],
+    "icon": "/assets/pal/icons/item_273.png"
   },
   {
     "id": "278",
@@ -1131,7 +2027,18 @@
     "category": "item",
     "sellable": true,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "千年毒蛟的胆，以毒攻毒可解天下\n所有的毒。\n若没中毒吃毒龙胆会毙命。",
+    "descriptionLines": [
+      "千年毒蛟的胆，以毒攻毒可解天下",
+      "所有的毒。",
+      "若没中毒吃毒龙胆会毙命。"
+    ],
+    "icon": "/assets/pal/icons/item_278.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "279",
@@ -1145,7 +2052,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "用来敲碎仙灵岛石象的法宝。",
+    "descriptionLines": [
+      "用来敲碎仙灵岛石象的法宝。"
+    ]
   },
   {
     "id": "280",
@@ -1159,7 +2070,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "婶婶替逍遥收拾的行李。",
+    "descriptionLines": [
+      "婶婶替逍遥收拾的行李。"
+    ]
   },
   {
     "id": "284",
@@ -1173,7 +2088,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "借来的，记得还！",
+    "descriptionLines": [
+      "借来的，记得还！"
+    ]
   },
   {
     "id": "285",
@@ -1187,7 +2106,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "猎户放置的捕鹿的道具。",
+    "descriptionLines": [
+      "猎户放置的捕鹿的道具。"
+    ]
   },
   {
     "id": "286",
@@ -1201,7 +2124,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "韩家药铺的祖传妇女良药。",
+    "descriptionLines": [
+      "韩家药铺的祖传妇女良药。"
+    ]
   },
   {
     "id": "287",
@@ -1215,7 +2142,14 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "士兵委托的情书。",
+    "descriptionLines": [
+      "士兵委托的情书。"
+    ],
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "288",
@@ -1229,7 +2163,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "婢女委托的玉佩。",
+    "descriptionLines": [
+      "婢女委托的玉佩。"
+    ]
   },
   {
     "id": "289",
@@ -1243,7 +2181,14 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "开启隐龙窟後洞石门的钥匙。",
+    "descriptionLines": [
+      "开启隐龙窟後洞石门的钥匙。"
+    ],
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "290",
@@ -1257,7 +2202,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "书中仙附身于书中。",
+    "descriptionLines": [
+      "书中仙附身于书中。"
+    ]
   },
   {
     "id": "291",
@@ -1271,7 +2220,14 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "谁喜欢吃香蕉?",
+    "descriptionLines": [
+      "谁喜欢吃香蕉?"
+    ],
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "292",
@@ -1285,7 +2241,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "某人交付的信物。",
+    "descriptionLines": [
+      "某人交付的信物。"
+    ]
   },
   {
     "id": "293",
@@ -1299,7 +2259,12 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "李逍遥的父母亲所留下的武功\n秘笈。",
+    "descriptionLines": [
+      "李逍遥的父母亲所留下的武功",
+      "秘笈。"
+    ]
   },
   {
     "id": "294",
@@ -1313,7 +2278,11 @@
     "category": "item",
     "sellable": false,
     "usable": true,
-    "equipable": false
+    "equipable": false,
+    "description": "可载人漂浮水面的草席。",
+    "descriptionLines": [
+      "可载人漂浮水面的草席。"
+    ]
   },
   {
     "id": "66",
@@ -1327,7 +2296,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "茅山道士用来对付妖怪的符咒。",
+    "descriptionLines": [
+      "茅山道士用来对付妖怪的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_066.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "67",
@@ -1341,7 +2320,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "生成风系法术的符咒。",
+    "descriptionLines": [
+      "生成风系法术的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_067.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 3
+    }
   },
   {
     "id": "68",
@@ -1355,7 +2344,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "生成雷系法术的符咒。",
+    "descriptionLines": [
+      "生成雷系法术的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_068.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 2
+    }
   },
   {
     "id": "69",
@@ -1369,7 +2368,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "生成冰系法术的符咒。",
+    "descriptionLines": [
+      "生成冰系法术的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_069.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "70",
@@ -1383,7 +2392,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "生成火系法术的符咒。",
+    "descriptionLines": [
+      "生成火系法术的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_070.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2,
+      "steals": 1
+    }
   },
   {
     "id": "71",
@@ -1397,7 +2416,84 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "生成土系法术的符咒。",
+    "descriptionLines": [
+      "生成土系法术的符咒。"
+    ],
+    "icon": "/assets/pal/icons/item_071.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 3,
+      "steals": 1
+    }
+  },
+  {
+    "id": "81",
+    "name": {
+      "zh": "蜡烛",
+      "en": "蜡烛"
+    },
+    "price": 50,
+    "bitmap": 12,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "用蜡制的点火照明的东西。",
+    "descriptionLines": [
+      "用蜡制的点火照明的东西。"
+    ],
+    "icon": "/assets/pal/icons/item_081.png",
+    "sources": {
+      "gathers": 1
+    }
+  },
+  {
+    "id": "82",
+    "name": {
+      "zh": "符纸",
+      "en": "符纸"
+    },
+    "price": 8,
+    "bitmap": 23,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "泛黄的空白符纸。",
+    "descriptionLines": [
+      "泛黄的空白符纸。"
+    ],
+    "icon": "/assets/pal/icons/item_082.png",
+    "sources": {
+      "gathers": 1
+    }
+  },
+  {
+    "id": "83",
+    "name": {
+      "zh": "檀香",
+      "en": "檀香"
+    },
+    "price": 30,
+    "bitmap": 27,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "含有檀香料的一种香，点燃用以\n薰衣、薰室内，驱逐恶气。",
+    "descriptionLines": [
+      "含有檀香料的一种香，点燃用以",
+      "薰衣、薰室内，驱逐恶气。"
+    ],
+    "icon": "/assets/pal/icons/item_083.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "115",
@@ -1411,7 +2507,15 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "蜜蜂的窝，可以拿来丢敌人。",
+    "descriptionLines": [
+      "蜜蜂的窝，可以拿来丢敌人。"
+    ],
+    "icon": "/assets/pal/icons/item_115.png",
+    "sources": {
+      "gathers": 1
+    }
   },
   {
     "id": "133",
@@ -1425,7 +2529,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "以整只赤尾蠍研磨成的粉末，\n可使敌方全体中赤毒。",
+    "descriptionLines": [
+      "以整只赤尾蠍研磨成的粉末，",
+      "可使敌方全体中赤毒。"
+    ],
+    "icon": "/assets/pal/icons/item_133.png",
+    "sources": {
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "134",
@@ -1439,7 +2553,16 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "碰到伤口血水，便腐蚀溃烂，\n受伤者沾染立毙。",
+    "descriptionLines": [
+      "碰到伤口血水，便腐蚀溃烂，",
+      "受伤者沾染立毙。"
+    ],
+    "icon": "/assets/pal/icons/item_134.png",
+    "sources": {
+      "gathers": 4
+    }
   },
   {
     "id": "135",
@@ -1453,7 +2576,24 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "点燃蒙汗药散发迷香，\n可使敌人昏睡五回合。",
+    "descriptionLines": [
+      "点燃蒙汗药散发迷香，",
+      "可使敌人昏睡五回合。"
+    ],
+    "status": {
+      "index": 2,
+      "name": "睡眠",
+      "nameEn": "Sleep",
+      "rounds": 5
+    },
+    "healHP": -1,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_135.png",
+    "sources": {
+      "gathers": 6
+    }
   },
   {
     "id": "142",
@@ -1467,7 +2607,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "以雪山冰洞内所产所冰蚕培养的\n蛊虫，可做为攻击道具。",
+    "descriptionLines": [
+      "以雪山冰洞内所产所冰蚕培养的",
+      "蛊虫，可做为攻击道具。"
+    ],
+    "icon": "/assets/pal/icons/item_142.png",
+    "sources": {
+      "gathers": 8,
+      "steals": 2
+    }
   },
   {
     "id": "143",
@@ -1481,7 +2631,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "以麒麟炎洞内所产火蚕所培养的\n蛊虫，可做为攻击道具。",
+    "descriptionLines": [
+      "以麒麟炎洞内所产火蚕所培养的",
+      "蛊虫，可做为攻击道具。"
+    ],
+    "icon": "/assets/pal/icons/item_143.png",
+    "sources": {
+      "gathers": 7,
+      "steals": 4
+    }
   },
   {
     "id": "144",
@@ -1495,7 +2655,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "寄生宿主吸取灵气，九回合後，\n可炼成灵蛊。",
+    "descriptionLines": [
+      "寄生宿主吸取灵气，九回合後，",
+      "可炼成灵蛊。"
+    ],
+    "icon": "/assets/pal/icons/item_144.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 10,
+      "steals": 2
+    }
   },
   {
     "id": "146",
@@ -1509,7 +2680,17 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "预先将法力灌输在蛊虫体内，\n投掷敌人生成强烈爆炸。",
+    "descriptionLines": [
+      "预先将法力灌输在蛊虫体内，",
+      "投掷敌人生成强烈爆炸。"
+    ],
+    "icon": "/assets/pal/icons/item_146.png",
+    "sources": {
+      "gathers": 4,
+      "steals": 1
+    }
   },
   {
     "id": "147",
@@ -1523,7 +2704,18 @@
     "category": "throwable",
     "sellable": false,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "寄生宿主吸取血液，九回合後，\n可炼成赤血蚕。",
+    "descriptionLines": [
+      "寄生宿主吸取血液，九回合後，",
+      "可炼成赤血蚕。"
+    ],
+    "icon": "/assets/pal/icons/item_147.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 8,
+      "steals": 3
+    }
   },
   {
     "id": "148",
@@ -1537,7 +2729,17 @@
     "category": "item",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "巫师施法所需的材料。",
+    "descriptionLines": [
+      "巫师施法所需的材料。"
+    ],
+    "icon": "/assets/pal/icons/item_148.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 8,
+      "steals": 11
+    }
   },
   {
     "id": "153",
@@ -1551,7 +2753,18 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "形如梅花的暗器。\n敌人HP-90",
+    "descriptionLines": [
+      "形如梅花的暗器。",
+      "敌人HP-90"
+    ],
+    "icon": "/assets/pal/icons/item_153.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 3,
+      "steals": 1
+    }
   },
   {
     "id": "154",
@@ -1565,7 +2778,18 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "暗藏在衣袖中的飞剑。\n敌人HP-170",
+    "descriptionLines": [
+      "暗藏在衣袖中的飞剑。",
+      "敌人HP-170"
+    ],
+    "icon": "/assets/pal/icons/item_154.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 4,
+      "steals": 2
+    }
   },
   {
     "id": "155",
@@ -1579,7 +2803,18 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "精铁打造、三寸长的铁针是\n很锋利的暗器。\n敌人HP-250",
+    "descriptionLines": [
+      "精铁打造、三寸长的铁针是",
+      "很锋利的暗器。",
+      "敌人HP-250"
+    ],
+    "icon": "/assets/pal/icons/item_155.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 2
+    }
   },
   {
     "id": "156",
@@ -1593,7 +2828,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "填充火药的铁珠，投掷撞击\n后会爆裂伤人。\n敌人HP-135",
+    "descriptionLines": [
+      "填充火药的铁珠，投掷撞击",
+      "后会爆裂伤人。",
+      "敌人HP-135"
+    ],
+    "icon": "/assets/pal/icons/item_156.png",
+    "sources": {
+      "shops": 2
+    }
   },
   {
     "id": "157",
@@ -1607,7 +2852,19 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "以腹蛇毒炼制成的细砂，\n可使敌方全体中瘴毒。\nHP-55",
+    "descriptionLines": [
+      "以腹蛇毒炼制成的细砂，",
+      "可使敌方全体中瘴毒。",
+      "HP-55"
+    ],
+    "icon": "/assets/pal/icons/item_157.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 3,
+      "steals": 1
+    }
   },
   {
     "id": "158",
@@ -1621,7 +2878,18 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "铁制钢抓，尾端系以灵蛊蚕丝，\n可吸取敌人HP180",
+    "descriptionLines": [
+      "铁制钢抓，尾端系以灵蛊蚕丝，",
+      "可吸取敌人HP180"
+    ],
+    "icon": "/assets/pal/icons/item_158.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 9,
+      "steals": 1
+    }
   },
   {
     "id": "160",
@@ -1635,7 +2903,27 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "施有咒术的粗麻绳，\n可令妖怪动弹不得，\n妖缚五回合。",
+    "descriptionLines": [
+      "施有咒术的粗麻绳，",
+      "可令妖怪动弹不得，",
+      "妖缚五回合。"
+    ],
+    "status": {
+      "index": 1,
+      "name": "麻痹",
+      "nameEn": "Paralyzed",
+      "rounds": 5
+    },
+    "healHP": -4,
+    "healsWholeParty": false,
+    "icon": "/assets/pal/icons/item_160.png",
+    "sources": {
+      "shops": 1,
+      "gathers": 5,
+      "steals": 1
+    }
   },
   {
     "id": "161",
@@ -1649,7 +2937,17 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "细如牛毛，伤人於无形。\n敌人HP-400",
+    "descriptionLines": [
+      "细如牛毛，伤人於无形。",
+      "敌人HP-400"
+    ],
+    "icon": "/assets/pal/icons/item_161.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 2
+    }
   },
   {
     "id": "162",
@@ -1663,6 +2961,75 @@
     "category": "throwable",
     "sellable": true,
     "usable": false,
-    "equipable": false
+    "equipable": false,
+    "description": "红色铁球，四周装有锋利刀片。\n敌方全体HP-300",
+    "descriptionLines": [
+      "红色铁球，四周装有锋利刀片。",
+      "敌方全体HP-300"
+    ],
+    "icon": "/assets/pal/icons/item_162.png",
+    "sources": {
+      "shops": 2,
+      "gathers": 1,
+      "steals": 2
+    }
+  },
+  {
+    "id": "275",
+    "name": {
+      "zh": "金凤凰蛋壳",
+      "en": "金凤凰蛋壳"
+    },
+    "price": 0,
+    "bitmap": 112,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "药材。",
+    "descriptionLines": [
+      "药材。"
+    ],
+    "icon": "/assets/pal/icons/item_275.png"
+  },
+  {
+    "id": "276",
+    "name": {
+      "zh": "火眼麒麟角",
+      "en": "火眼麒麟角"
+    },
+    "price": 0,
+    "bitmap": 92,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "药材。",
+    "descriptionLines": [
+      "药材。"
+    ],
+    "icon": "/assets/pal/icons/item_276.png",
+    "sources": {
+      "gathers": 1
+    }
+  },
+  {
+    "id": "277",
+    "name": {
+      "zh": "青龙碧血玉",
+      "en": "青龙碧血玉"
+    },
+    "price": 0,
+    "bitmap": 150,
+    "flags": 0,
+    "category": "item",
+    "sellable": false,
+    "usable": false,
+    "equipable": false,
+    "description": "",
+    "descriptionLines": [],
+    "icon": "/assets/pal/icons/item_277.png"
   }
 ]
