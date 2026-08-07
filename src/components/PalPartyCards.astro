@@ -2,9 +2,18 @@
 // 仙剑一主角卡片 — 头像 / 场景立绘 / 战斗立绘 + 初始数值。
 // 数据来自 DATA.MKF#3 PLAYERROLES，是游戏内的初始状态，不是升级後数值。
 import players from '../data/pal/generated/players.json';
+import items from '../data/pal/generated/items.json';
+import equipment from '../data/pal/generated/equipment.json';
 
 type Row = Record<string, any>;
 const rows = players as Row[];
+
+// 装备名链回它所在的图鉴页，法术名链到法术图鉴。
+const itemAnchor = new Map<string, string>();
+for (const r of items as Row[]) itemAnchor.set(String(r.id), `/games/pal/items/#item-${r.id}`);
+for (const r of equipment as Row[]) itemAnchor.set(String(r.id), `/games/pal/equipment/#item-${r.id}`);
+const itemHref = (id: unknown) => itemAnchor.get(String(id));
+const magicHref = (id: unknown) => `/games/pal/magics/#magic-${id}`;
 
 const statOf = (r: Row, name: string) =>
   (r.attributes ?? []).find((a: any) => a.name === name)?.value ?? 0;
@@ -50,13 +59,24 @@ const CORE = ['武术', '灵力', '防御', '身法', '吉运'];
       </div>
 
       <p class="line"><b>初始装备</b>{r.equipment.length
-        ? r.equipment.map((e: any) => `${e.slotName}：${e.name}`).join('　')
+        ? r.equipment.map((e: any, i: number) => (
+            <>
+              {i > 0 && '　'}
+              {e.slotName}：
+              {itemHref(e.id) ? <a href={itemHref(e.id)}>{e.name}</a> : e.name}
+            </>
+          ))
         : '无'}</p>
       <p class="line"><b>初始法术</b>{r.magics.length
-        ? r.magics.map((m: any) => m.name).join('、')
+        ? r.magics.map((m: any, i: number) => (
+            <>{i > 0 && '、'}<a href={magicHref(m.id)}>{m.name}</a></>
+          ))
         : '无'}</p>
       {r.cooperativeMagic && (
-        <p class="line"><b>合体法术</b>{r.cooperativeMagic.name}</p>
+        <p class="line">
+          <b>合体法术</b>
+          <a href={magicHref(r.cooperativeMagic.id)}>{r.cooperativeMagic.name}</a>
+        </p>
       )}
     </article>
   ))}
@@ -95,6 +115,8 @@ const CORE = ['武术', '灵力', '防御', '身法', '吉运'];
   .art figcaption { font-size: 0.75rem; color: #98a3a8; }
   .line { margin: 0.2rem 0; font-size: 0.88rem; color: #58666e; }
   .line b { color: #3a4d58; margin-right: 0.4rem; }
+  .line a { color: #1ba0c9; text-decoration: none; }
+  .line a:hover { text-decoration: underline; }
 
   :global([data-theme='dark']) .pal-card { background: #242424; border-color: #2a3840; }
   :global([data-theme='dark']) .pal-card h3,

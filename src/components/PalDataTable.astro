@@ -28,6 +28,25 @@ const enemyRows = enemies as Row[];
 const magicRows = magics as Row[];
 const sourceRows = (itemSources as Row[]).filter((r) => r.sourceCount > 0);
 
+// 跨表互链：道具分散在「道具图鉴」和「装备图鉴」两页，先建 ID -> 页面锚点。
+const ITEMS_PAGE = '/games/pal/items/';
+const EQUIP_PAGE = '/games/pal/equipment/';
+const SOURCES_PAGE = '/games/pal/item-sources/';
+const SHOPS_PAGE = '/games/pal/shops/';
+const SCENES_PAGE = '/games/pal/locations/';
+
+const itemAnchor = new Map<string, string>();
+for (const r of itemRows) itemAnchor.set(String(r.id), `${ITEMS_PAGE}#item-${r.id}`);
+for (const r of equipRows) itemAnchor.set(String(r.id), `${EQUIP_PAGE}#item-${r.id}`);
+
+// 只有确实有出处的道具才值得链去出处页（该页已过滤掉无出处的）。
+const hasSource = new Set(sourceRows.map((r) => String(r.id)));
+
+const itemHref = (id: unknown) => itemAnchor.get(String(id));
+const sourceHref = (id: unknown) => (hasSource.has(String(id)) ? `${SOURCES_PAGE}#source-${id}` : undefined);
+const shopHref = (id: unknown) => `${SHOPS_PAGE}#shop-${id}`;
+const sceneHref = (id: unknown) => `${SCENES_PAGE}#scene-${id}`;
+
 // 装备属性：只列非零项，形如「武术+2 身法+3」。
 const statLine = (r: Row) =>
   (r.attributes ?? [])
@@ -37,6 +56,7 @@ const statLine = (r: Row) =>
 
 const firstLine = (s: string | undefined) => (s ?? '').split(String.fromCharCode(10))[0];
 
+// 供搜索用的纯文本；展示用的可点版本见下方 sources 表格。
 const sourceLine = (r: Row) =>
   [
     r.shops?.length && `商店 ${r.shops.map((s: any) => s.name).join('、')}`,
@@ -80,10 +100,14 @@ const unit =
         </thead>
         <tbody>
           {itemRows.map((r) => (
-            <tr data-name={`${r._name} ${firstLine(r.description)}`} data-id={r.id} data-price={r.price ?? -1}>
+            <tr id={`item-${r.id}`} data-name={`${r._name} ${firstLine(r.description)}`} data-id={r.id} data-price={r.price ?? -1}>
               <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
               <td class="num muted">{r.id}</td>
-              <td class="name">{r._name}</td>
+              <td class="name">
+                {sourceHref(r.id)
+                  ? <a href={sourceHref(r.id)} title="查看出处">{r._name}</a>
+                  : r._name}
+              </td>
               <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
               <td class="muted">
                 {[
@@ -120,10 +144,15 @@ const unit =
               data-id={r.id}
               data-slot={r.equipSlot?.index ?? 9}
               data-price={r.price ?? -1}
+              id={`item-${r.id}`}
             >
               <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
               <td class="num muted">{r.id}</td>
-              <td class="name">{r._name}</td>
+              <td class="name">
+                {sourceHref(r.id)
+                  ? <a href={sourceHref(r.id)} title="查看出处">{r._name}</a>
+                  : r._name}
+              </td>
               <td>{r.equipSlot?.name ?? '—'}</td>
               <td class:list={['num', (r.price == null || r.price <= 0) && 'nosale']}>{money(r.price)}</td>
               <td class="stats">{statLine(r) || '—'}</td>
@@ -151,12 +180,22 @@ const unit =
               data-name={`${r.name} ${r.sceneName ?? ''} ${(r.items ?? []).map((it: any) => it.name).join(' ')}`}
               data-id={r.id}
               data-scene={r.sceneId ?? 9999}
+              id={`shop-${r.id}`}
             >
               <td class="num muted">{r.id}</td>
               <td class="name">{r.name}</td>
-              <td>{r.sceneName ?? '—'}</td>
+              <td>{r.sceneId ? <a href={sceneHref(r.sceneId)}>{r.sceneName}</a> : '—'}</td>
               <td class="muted">{r.kind === 'sell' ? '收购' : '买入'}</td>
-              <td class="long">{(r.items ?? []).map((it: any) => it.name).join('、') || '—'}</td>
+              <td class="long">
+                {(r.items ?? []).length
+                  ? (r.items ?? []).map((it: any, i: number) => (
+                      <>
+                        {i > 0 && '、'}
+                        {itemHref(it.id) ? <a href={itemHref(it.id)}>{it.name}</a> : it.name}
+                      </>
+                    ))
+                  : '—'}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -174,7 +213,7 @@ const unit =
         </thead>
         <tbody>
           {locationRows.map((r) => (
-            <tr data-name={r.name} data-id={r.id} data-map={r.mapNum}>
+            <tr id={`scene-${r.id}`} data-name={r.name} data-id={r.id} data-map={r.mapNum}>
               <td class="num muted">{r.id}</td>
               <td class="name">{r.name}</td>
               <td class="num">{r.mapNum}</td>
@@ -202,8 +241,17 @@ const unit =
               data-scene={r.sceneId}
               data-map={r.mapNum}
             >
-              <td class="num muted">{r.sceneId}</td>
-              <td class="name">{r.itemNames || '—'}</td>
+              <td class="num muted"><a href={sceneHref(r.sceneId)}>{r.sceneId}</a></td>
+              <td class="name">
+                {(r.items ?? []).length
+                  ? (r.items ?? []).map((it: any, i: number) => (
+                      <>
+                        {i > 0 && '、'}
+                        {itemHref(it.id) ? <a href={itemHref(it.id)}>{it.name}</a> : it.name}
+                      </>
+                    ))
+                  : '—'}
+              </td>
               <td class="long muted">{r.message || '—'}</td>
               <td class="num">{r.mapNum}</td>
             </tr>
@@ -231,7 +279,16 @@ const unit =
             >
               <td class="name">{r.name}</td>
               <td class="num">{r.appearanceCount}</td>
-              <td class="long">{r.scenes}</td>
+              <td class="long">
+                {(r.locations ?? []).length
+                  ? [...new Set((r.locations ?? []).map((l: any) => l.sceneId))].map((sid: any, i: number) => (
+                      <>
+                        {i > 0 && '、'}
+                        <a href={sceneHref(sid)}>{`场景 ${sid}`}</a>
+                      </>
+                    ))
+                  : r.scenes}
+              </td>
               <td class="muted">{(r.kinds ?? []).map((k: string) => ({ npc: 'NPC', shop: '商店', treasure: '道具' }[k] ?? k)).join(' · ')}</td>
             </tr>
           ))}
@@ -261,6 +318,7 @@ const unit =
               data-health={r.health}
               data-exp={r.exp}
               data-cash={r.cash}
+              id={`enemy-${r.id}`}
             >
               <td class="icon">{r.spriteFile && <img src={r.spriteFile} alt="" loading="lazy" height="40" />}</td>
               <td class="name">{r.name}</td>
@@ -268,8 +326,29 @@ const unit =
               <td class="num">{r.health.toLocaleString('zh-CN')}</td>
               <td class="num">{r.exp.toLocaleString('zh-CN')}</td>
               <td class="num">{r.cash.toLocaleString('zh-CN')}</td>
-              <td class="muted">{r.stealItem ? `${r.stealItem.name}${r.stealAmount > 1 ? ` ×${r.stealAmount}` : ''}` : '—'}</td>
-              <td class="muted num">{r.sceneIds.length ? `${r.sceneIds.length} 处` : '—'}</td>
+              <td class="muted">
+                {r.stealItem
+                  ? <>
+                      {itemHref(r.stealItem.id)
+                        ? <a href={itemHref(r.stealItem.id)}>{r.stealItem.name}</a>
+                        : r.stealItem.name}
+                      {r.stealAmount > 1 && ` ×${r.stealAmount}`}
+                    </>
+                  : '—'}
+              </td>
+              <td class="long muted">
+                {r.sceneIds.length
+                  ? <>
+                      {r.sceneIds.slice(0, 6).map((sid: number, i: number) => (
+                        <>
+                          {i > 0 && '、'}
+                          <a href={sceneHref(sid)}>{sid}</a>
+                        </>
+                      ))}
+                      {r.sceneIds.length > 6 && ` … 共 ${r.sceneIds.length} 处`}
+                    </>
+                  : '—'}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -296,6 +375,7 @@ const unit =
               data-mp={r.costMP}
               data-damage={r.specialEffect ? -1 : r.baseDamage}
               data-element={r.elemental}
+              id={`magic-${r.id}`}
             >
               <td class="name">{r.name}</td>
               <td class="num">{r.costMP || '—'}</td>
@@ -322,12 +402,47 @@ const unit =
         </thead>
         <tbody>
           {sourceRows.map((r) => (
-            <tr data-name={`${r.name} ${sourceLine(r)}`} data-id={r.id} data-count={r.sourceCount}>
+            <tr id={`source-${r.id}`} data-name={`${r.name} ${sourceLine(r)}`} data-id={r.id} data-count={r.sourceCount}>
               <td class="icon">{r.icon && <img src={r.icon} alt="" loading="lazy" width="32" height="32" />}</td>
               <td class="num muted">{r.id}</td>
-              <td class="name">{r.name}</td>
+              <td class="name">
+                {itemHref(r.id) ? <a href={itemHref(r.id)}>{r.name}</a> : r.name}
+              </td>
               <td class="num">{r.sourceCount}</td>
-              <td class="long muted">{sourceLine(r) || '—'}</td>
+              <td class="long muted">
+                {r.shops?.length > 0 && (
+                  <span class="src">
+                    <b>商店</b>
+                    {r.shops.map((s: any, i: number) => (
+                      <>{i > 0 && '、'}<a href={shopHref(s.shopId)}>{s.name}</a></>
+                    ))}
+                  </span>
+                )}
+                {r.gathers?.length > 0 && (
+                  <span class="src">
+                    <b>采集</b>
+                    {r.gathers.slice(0, 6).map((g: any, i: number) => (
+                      <>{i > 0 && '、'}<a href={sceneHref(g.sceneId)}>{g.sceneId}</a></>
+                    ))}
+                    {r.gathers.length > 6 && ` … 共 ${r.gathers.length} 处`}
+                  </span>
+                )}
+                {r.steals?.length > 0 && (
+                  <span class="src">
+                    <b>可偷自</b>
+                    {r.steals.map((s: any, i: number) => (
+                      <>{i > 0 && '、'}<a href={`/games/pal/enemies/#enemy-${s.enemyId}`}>{s.name}</a></>
+                    ))}
+                  </span>
+                )}
+                {r.startingGear?.length > 0 && (
+                  <span class="src">
+                    <b>初始装备</b>
+                    {r.startingGear.map((s: any) => s.name).join('、')}
+                  </span>
+                )}
+                {r.sourceCount === 0 && '—'}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -394,6 +509,15 @@ const unit =
   .pal-dt th.icon, .pal-dt td.icon { width: 3rem; padding: 0.25rem 0.4rem; text-align: center; }
   .pal-dt td.icon img { display: block; margin: 0 auto; image-rendering: pixelated; max-height: 40px; width: auto; }
   :global([data-theme='dark']) .pal-dt .stats { color: #6cc48d; }
+  .pal-dt a { color: #1ba0c9; text-decoration: none; }
+  .pal-dt a:hover { text-decoration: underline; }
+  .pal-dt .src { display: block; }
+  .pal-dt .src b { color: #7a8b95; font-weight: 500; margin-right: 0.35rem; }
+  /* 跨页跳转后高亮目标行，否则长表里根本找不到落点 */
+  .pal-dt tr:target > td { background: #fff6d9; }
+  .pal-dt tr:target > td:first-child { box-shadow: inset 3px 0 0 #23b7e5; }
+  :global([data-theme='dark']) .pal-dt tr:target > td { background: #3a3320; }
+  :global([data-theme='dark']) .pal-dt .src b { color: #7a7a7a; }
   :global([data-theme='dark']) .pal-dt-search { background: #1a242b; border-color: #33444e; color: #e8eef2; }
   :global([data-theme='dark']) .pal-dt th { background: #1a242b; color: #b7c6d0; }
   :global([data-theme='dark']) .pal-dt th, :global([data-theme='dark']) .pal-dt td { border-bottom-color: #2a3840; }
